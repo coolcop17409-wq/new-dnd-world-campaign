@@ -19,6 +19,9 @@ RULES_SPEC.loader.exec_module(blackthorn_rules)
 DASHBOARD_SPEC = importlib.util.spec_from_file_location("build_dashboard", Path(__file__).with_name("build_dashboard.py"))
 dashboard = importlib.util.module_from_spec(DASHBOARD_SPEC)
 DASHBOARD_SPEC.loader.exec_module(dashboard)
+OPERATIONS_SPEC = importlib.util.spec_from_file_location("blackthorn_operations", Path(__file__).with_name("blackthorn_operations.py"))
+blackthorn_operations = importlib.util.module_from_spec(OPERATIONS_SPEC)
+OPERATIONS_SPEC.loader.exec_module(blackthorn_operations)
 
 FIELDS = [
     "event_id", "estate", "effective_day", "event_type", "category",
@@ -170,6 +173,45 @@ class EstateLedgerScenarioTests(unittest.TestCase):
             self.assertEqual(payload["party"][0]["hp"], "47.0")
             self.assertEqual(payload["party"][0]["resources"][0]["current"], "1.0")
             self.assertEqual(payload["inventory"]["Valenthia"][0]["qty"], "9.0")
+
+    def test_blackthorn_production_dispatch_accept_and_readiness_gate(self):
+        opening = [{"Grade": "Dressed stone", "Quantity t": "5.000", "Amount gp": "50.00"}]
+        rates = [
+            {"Type": "Payroll", "Cost family": "Stone", "Rate gp": "3.50",
+             "Unit": "day", "From day": "1", "Through day": ""},
+            {"Type": "ProductCost", "Cost family": "Stone", "Product grade": "Dressed stone",
+             "Rate gp": "2.50", "Unit": "ton", "From day": "1", "Through day": ""},
+        ]
+        orders = [{"Order line ID": "ORDER-1", "Status": "Confirmed",
+                   "Product grade": "Dressed stone", "Price gp/t": "10.00",
+                   "Ordered t": "4.000", "Readiness task ID": "QC-1"}]
+        schedule = [{"Task / settlement ID": "QC-1", "Result": "Pass", "Actual day": "10"}]
+        operations = [
+            {"Event ID": "produce-1", "Day": "10", "Event type": "Produce",
+             "Product grade": "Dressed stone", "Quantity t": "2.000",
+             "Extra direct gp / labor allocation": "", "Evidence / inspection": "fixture"},
+            {"Event ID": "dispatch-1", "Day": "11", "Event type": "Dispatch",
+             "Product grade": "Dressed stone", "Quantity t": "3.000",
+             "Order line ID": "ORDER-1", "Shipment / transfer ID": "SHIP-1",
+             "Evidence / inspection": "fixture"},
+            {"Event ID": "accept-1", "Day": "13", "Event type": "Accept",
+             "Product grade": "Dressed stone", "Quantity t": "3.000",
+             "Order line ID": "ORDER-1", "Shipment / transfer ID": "SHIP-1",
+             "Evidence / inspection": "fixture"},
+        ]
+        result = blackthorn_operations.replay(opening, rates, orders, schedule, operations)
+        self.assertEqual(result["status"], "PASS", result["findings"])
+        self.assertEqual(result["totals"]["revenue"], "30.00")
+        self.assertEqual(result["totals"]["cogs"], "25.07")
+        self.assertEqual(result["totals"]["produced_cost"], "8.50")
+        self.assertEqual(result["on_site"]["Dressed stone"]["quantity_t"], "4.0000")
+        self.assertEqual(result["in_transit"], {})
+        blocked = blackthorn_operations.replay(
+            opening, rates, orders, [{"Task / settlement ID": "QC-1",
+                                      "Result": "Scheduled", "Actual day": "10"}], operations
+        )
+        self.assertEqual(blocked["status"], "CHECK")
+        self.assertTrue(any("readiness task" in finding for finding in blocked["findings"]))
 
     def test_blackthorn_routine_accrual_and_tax_match_day230_source(self):
         data = Path(__file__).parents[1] / "data" / "estate" / "blackthorn-rates.csv"
