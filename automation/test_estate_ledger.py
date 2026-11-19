@@ -13,6 +13,9 @@ SCRIPT = Path(__file__).with_name("estate_ledger.py")
 SPEC = importlib.util.spec_from_file_location("estate_ledger", SCRIPT)
 ledger = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(ledger)
+RULES_SPEC = importlib.util.spec_from_file_location("blackthorn_rules", Path(__file__).with_name("blackthorn_rules.py"))
+blackthorn_rules = importlib.util.module_from_spec(RULES_SPEC)
+RULES_SPEC.loader.exec_module(blackthorn_rules)
 
 FIELDS = [
     "event_id", "estate", "effective_day", "event_type", "category",
@@ -127,6 +130,43 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                 "verify its physical count before dispatch or release" in finding
                 for finding in blocked_report["findings"]
             ))
+
+    def test_blackthorn_routine_accrual_and_tax_match_day230_source(self):
+        data = Path(__file__).parents[1] / "data" / "estate" / "blackthorn-rates.csv"
+        with data.open(encoding="utf-8", newline="") as handle:
+            rates = list(csv.DictReader(handle))
+        all_payroll = blackthorn_rules.accrue_daily_rates(
+            rates, opening_day=182, start_day=183, through_day=230, rate_type="Payroll"
+        )
+        management = blackthorn_rules.accrue_daily_rates(
+            [row for row in rates if row["cost_family"] == "Management"],
+            opening_day=182, start_day=183, through_day=230, rate_type="Payroll"
+        )
+        production = blackthorn_rules.accrue_daily_rates(
+            [row for row in rates if row["cost_family"] != "Management"],
+            opening_day=182, start_day=183, through_day=230, rate_type="Payroll"
+        )
+        upkeep = blackthorn_rules.accrue_daily_rates(
+            rates, opening_day=182, start_day=183, through_day=230, rate_type="Upkeep"
+        )
+        self.assertEqual(all_payroll, blackthorn_rules.money("700.80"))
+        self.assertEqual(management, blackthorn_rules.money("336.00"))
+        self.assertEqual(production, blackthorn_rules.money("364.80"))
+        self.assertEqual(upkeep, blackthorn_rules.money("85.71"))
+        self.assertEqual(
+            blackthorn_rules.accrue_daily_rates(
+                rates, opening_day=182, start_day=231, through_day=232, rate_type="Payroll"
+            ),
+            blackthorn_rules.money("29.20"),
+        )
+        taxable = blackthorn_rules.blackthorn_tax_base(
+            taxable_carry="536.97", accepted_revenue="1161.00", cogs="417.83",
+            loss_and_idle="53.20", management_payroll="336.00", upkeep="85.71",
+            incurred_operating_expenses="81.53",
+        )
+        self.assertEqual(taxable, blackthorn_rules.money("723.70"))
+        self.assertEqual(blackthorn_rules.blackthorn_tax_assessment(taxable), blackthorn_rules.money("72.37"))
+        self.assertEqual(blackthorn_rules.blackthorn_tax_assessment("-10.00"), blackthorn_rules.money("0.00"))
 
 if __name__ == "__main__":
     unittest.main()
