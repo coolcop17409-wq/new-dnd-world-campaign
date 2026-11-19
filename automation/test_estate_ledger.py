@@ -23,6 +23,9 @@ DASHBOARD_SPEC.loader.exec_module(dashboard)
 SHOP_REVIEW_SPEC = importlib.util.spec_from_file_location("magic_shop_review_queue", Path(__file__).with_name("magic_shop_review_queue.py"))
 magic_shop_review = importlib.util.module_from_spec(SHOP_REVIEW_SPEC)
 SHOP_REVIEW_SPEC.loader.exec_module(magic_shop_review)
+TAX_SPEC = importlib.util.spec_from_file_location("blackthorn_tax", Path(__file__).with_name("blackthorn_tax.py"))
+blackthorn_tax = importlib.util.module_from_spec(TAX_SPEC)
+TAX_SPEC.loader.exec_module(blackthorn_tax)
 OPERATIONS_SPEC = importlib.util.spec_from_file_location("blackthorn_operations", Path(__file__).with_name("blackthorn_operations.py"))
 blackthorn_operations = importlib.util.module_from_spec(OPERATIONS_SPEC)
 OPERATIONS_SPEC.loader.exec_module(blackthorn_operations)
@@ -213,6 +216,142 @@ class EstateLedgerScenarioTests(unittest.TestCase):
         self.assertEqual(repeated["event_count"], 0)
         self.assertEqual(repeated["status"], "PASS")
         self.assertTrue(all(row["cash_delta_gp"] == "" for row in one_day["events"]))
+
+    def test_full_blackthorn_chain_updates_stock_receivable_cash_and_tax(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            data = root / "data" / "estate"
+            prop = root / "trackers" / "csv" / "property"
+            reports = root / "reports"
+            data.mkdir(parents=True)
+            prop.mkdir(parents=True)
+            reports.mkdir(parents=True)
+            (data / "snapshot-meta.json").write_text(
+                json.dumps({"snapshot_day": 231, "captured_date": "fixture"}),
+                encoding="utf-8",
+            )
+            self.write_csv(data / "opening-balances.csv",
+                ["estate", "opening_cash_gp"],
+                [{"estate": "Blackthorn", "opening_cash_gp": "453.33"}])
+            self.write_csv(data / "opening-liabilities.csv",
+                ["liability_id", "estate", "description", "opening_amount_gp", "as_of_day", "evidence"],
+                [{"liability_id": "OPEN-CARROW", "estate": "Blackthorn", "description": "Carrow", "opening_amount_gp": "73.28", "as_of_day": "230", "evidence": "fixture"},
+                 {"liability_id": "OPEN-PAY", "estate": "Blackthorn", "description": "Payroll", "opening_amount_gp": "14.60", "as_of_day": "230", "evidence": "fixture"},
+                 {"liability_id": "OPEN-UPKEEP", "estate": "Blackthorn", "description": "Upkeep", "opening_amount_gp": "10.76", "as_of_day": "230", "evidence": "fixture"},
+                 {"liability_id": "OPEN-TAX", "estate": "Blackthorn", "description": "Tax", "opening_amount_gp": "72.37", "as_of_day": "230", "evidence": "fixture"}])
+            self.write_csv(data / "opening-receivables.csv",
+                ["receivable_id", "estate", "customer", "opening_amount_gp", "as_of_day", "evidence"], [])
+            self.write_csv(data / "opening-inventory.csv",
+                ["inventory_id", "estate", "item", "opening_quantity", "opening_reserved_quantity",
+                 "opening_transit_quantity", "opening_cost_gp", "opening_transit_cost_gp",
+                 "as_of_day", "verification_status", "evidence"],
+                [{"inventory_id": "BT-STOCK-DRESSED-STONE", "estate": "Blackthorn",
+                  "item": "Dressed stone", "opening_quantity": "10", "opening_reserved_quantity": "0",
+                  "opening_transit_quantity": "0", "opening_cost_gp": "100",
+                  "opening_transit_cost_gp": "0", "as_of_day": "231",
+                  "verification_status": "provisional", "evidence": "fixture opening inventory"}])
+            operation_fields = [
+                "Event ID", "Day", "Event type", "Product grade", "Quantity t",
+                "Order line ID", "Shipment / transfer ID", "Extra direct gp / labor allocation",
+                "Batch ID", "Evidence / inspection", "Status", "Cash received gp", "Receivable ID",
+            ]
+            operations = [
+                {"Event ID": "DISP-1", "Day": "233", "Event type": "Dispatch",
+                 "Product grade": "Dressed stone", "Quantity t": "4",
+                 "Order line ID": "ORDER-1", "Shipment / transfer ID": "SHIP-1",
+                 "Evidence / inspection": "fixture dispatched", "Status": "posted"},
+                {"Event ID": "ACC-1", "Day": "234", "Event type": "Accept",
+                 "Product grade": "Dressed stone", "Quantity t": "2",
+                 "Order line ID": "ORDER-1", "Shipment / transfer ID": "SHIP-1",
+                 "Evidence / inspection": "fixture buyer accepted two tonnes",
+                 "Status": "posted", "Cash received gp": "10",
+                 "Receivable ID": "BT-REC-ORDER-1"},
+            ]
+            self.write_csv(data / "blackthorn-operations-events.csv", operation_fields, operations)
+            self.write_csv(prop / "blackthorn-schedule.csv",
+                ["Task / settlement ID", "Planned day", "Actual day", "Result", "Evidence / dependency"],
+                [{"Task / settlement ID": "QC-1", "Planned day": "232", "Actual day": "232",
+                  "Result": "Pass", "Evidence / dependency": "fixture buyer-grade readiness"}])
+            orders = [{"Order line ID": "ORDER-1", "Status": "Confirmed",
+                       "Product grade": "Dressed stone", "Price gp/t": "15",
+                       "Ordered t": "4", "Readiness task ID": "QC-1"}]
+            rates = []
+            opening = [{"Grade": "Dressed stone", "Quantity t": "10", "Amount gp": "100"}]
+            calculation = blackthorn_operations.replay(
+                opening, rates, orders,
+                [{"Task / settlement ID": "QC-1", "Actual day": "232",
+                  "Result": "Pass", "Evidence / dependency": "fixture"}],
+                operations,
+            )
+            self.assertEqual(calculation["status"], "PASS", calculation["findings"])
+            virtual_events, bridge_findings = blackthorn_operations.ledger_events_for_operations(
+                operations, calculation["events"], orders
+            )
+            self.assertEqual(bridge_findings, [])
+            event_rows = []
+            def make_event(event_id, day, event_type, **values):
+                row = {name: "" for name in FIELDS}
+                row.update({"event_id": event_id, "estate": "Blackthorn",
+                            "effective_day": str(day), "event_type": event_type,
+                            "status": "posted", "evidence": "fixture evidence"})
+                row.update(values)
+                return row
+            # Deliberately put the later collection first; the ledger must replay by day.
+            event_rows.append(make_event("COLLECT-1", 235, "receivable_collection",
+                receivable_id="BT-REC-ORDER-1", receivable_delta_gp="-20",
+                cash_delta_gp="20", amount_gp="20"))
+            event_rows.append(make_event("VERIFY-1", 232, "inventory_verification",
+                inventory_id="BT-STOCK-DRESSED-STONE",
+                inventory_verification_status="verified"))
+            self.write_csv(data / "events.csv", FIELDS, event_rows)
+            self.write_csv(prop / "blackthorn-overview.csv", ["label", "value"], [
+                {"label": "cash", "value": "453.33"},
+                {"label": "available", "value": "282.32"},
+                {"label": "liabilities", "value": "171.01"},
+            ])
+            (reports / "blackthorn-operations.json").write_text(json.dumps({
+                "status": "PASS", "checkpoint_day": 231,
+                "staging_event_ids": ["DISP-1", "ACC-1"],
+                "ledger_events": virtual_events,
+            }), encoding="utf-8")
+            old = (ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES)
+            ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT = root, data, prop, reports / "ledger.json"
+            ledger.ESTATES = {
+                "Blackthorn": {"overview": "blackthorn-overview.csv", "cash": ["cash"],
+                               "available": ["available"], "liabilities": ["liabilities"]},
+            }
+            try:
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(ledger.main(), 0)
+                report = json.loads((reports / "ledger.json").read_text(encoding="utf-8"))
+            finally:
+                ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES = old
+            blackthorn_periods = [{"period_id": "TAX-59", "start_day": 59,
+                                   "end_day": 271, "due_day": 272,
+                                   "liability_id": "OPEN-TAX"}]
+            tax_config = {"source_opening_day": 182, "source_checkpoint_day": 230,
+                          "source_period_id": "TAX-59", "source_taxable_base_gp": "723.70",
+                          "source_assessment_gp": "72.37", "tax_rate": "0.10"}
+            tax_rows = event_rows + virtual_events
+            tax_report = blackthorn_tax.calculate_tax_report(
+                tax_rows, rates, blackthorn_periods, tax_config, 271
+            )
+            period = tax_report["periods"][0]
+            event = blackthorn_tax.assessment_event(
+                blackthorn_periods[0], Decimal("1.00"), 271, Decimal("72.37")
+            )
+            self.assertEqual(report["estates"]["Blackthorn"]["projected_cash_gp"], "483.33")
+            self.assertEqual(report["estates"]["Blackthorn"]["projected_receivables_gp"], "0.00")
+            self.assertEqual(report["estates"]["Blackthorn"]["actual_income_after_snapshot_gp"], "30.00")
+            self.assertEqual(report["estates"]["Blackthorn"]["actual_expense_after_snapshot_gp"], "20.00")
+            item = report["estates"]["Blackthorn"]["inventory_items"]["BT-STOCK-DRESSED-STONE"]
+            self.assertEqual(item["book_quantity"], "6.0000")
+            self.assertEqual(item["in_transit_quantity"], "2.0000")
+            self.assertEqual(item["verification_status"], "verified")
+            self.assertEqual(period["taxable_base_gp"], "733.70")
+            self.assertEqual(period["assessment_estimate_gp"], "73.37")
+            self.assertEqual(event["liability_delta_gp"], "1.00")
+            self.assertEqual(event["reference_id"], "TAX-59")
 
     def test_ledger_imports_fresh_blackthorn_operation_events_once(self):
         with tempfile.TemporaryDirectory() as temp:
