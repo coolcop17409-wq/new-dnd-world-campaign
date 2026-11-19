@@ -20,6 +20,9 @@ RULES_SPEC.loader.exec_module(blackthorn_rules)
 DASHBOARD_SPEC = importlib.util.spec_from_file_location("build_dashboard", Path(__file__).with_name("build_dashboard.py"))
 dashboard = importlib.util.module_from_spec(DASHBOARD_SPEC)
 DASHBOARD_SPEC.loader.exec_module(dashboard)
+SHOP_REVIEW_SPEC = importlib.util.spec_from_file_location("magic_shop_review_queue", Path(__file__).with_name("magic_shop_review_queue.py"))
+magic_shop_review = importlib.util.module_from_spec(SHOP_REVIEW_SPEC)
+SHOP_REVIEW_SPEC.loader.exec_module(magic_shop_review)
 OPERATIONS_SPEC = importlib.util.spec_from_file_location("blackthorn_operations", Path(__file__).with_name("blackthorn_operations.py"))
 blackthorn_operations = importlib.util.module_from_spec(OPERATIONS_SPEC)
 OPERATIONS_SPEC.loader.exec_module(blackthorn_operations)
@@ -197,6 +200,26 @@ class EstateLedgerScenarioTests(unittest.TestCase):
         self.assertEqual(repeated["event_count"], 0)
         self.assertEqual(repeated["status"], "PASS")
         self.assertTrue(all(row["cash_delta_gp"] == "" for row in one_day["events"]))
+
+    def test_magic_shop_review_queue_uses_confirmed_day_without_resolving_turnover(self):
+        dealers = [
+            {"Settlement": "Test Market", "Dealer": "Open seller", "Next due": "20",
+             "Last review / turnover": "6", "Status": "Established",
+             "Review question · preparation": "Check actual buyer."},
+            {"Settlement": "Test Market", "Dealer": "Not due", "Next due": "35",
+             "Last review / turnover": "10", "Status": "Established",
+             "Review question · preparation": "Check staffing."},
+            {"Settlement": "UNASSIGNED-CITY-01", "Dealer": "Package", "Next due": "A+28",
+             "Last review / turnover": "", "Status": "Unassigned",
+             "Review question · preparation": "Bind only on activation."},
+        ]
+        no_day = magic_shop_review.review_queue(dealers)
+        self.assertIsNone(no_day["due_count"])
+        due = magic_shop_review.review_queue(dealers, 22)
+        self.assertEqual(due["due_count"], 1)
+        self.assertEqual(due["due_reviews"][0]["dealer"], "Open seller")
+        self.assertEqual(due["unbound_count"], 1)
+        self.assertIn("does not roll", due["note"])
 
     def test_confirmed_closed_day_apply_is_atomic_and_idempotent(self):
         with tempfile.TemporaryDirectory() as temp:
