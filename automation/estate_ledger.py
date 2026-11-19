@@ -57,8 +57,27 @@ def main():
   if amount<0:errors.append(f"{lid}: negative opening liability {amount}")
   liability_balance[lid]={"estate":estate,"balance":amount}
   liability_cut[lid]={"estate":estate,"balance":amount}
+ receivable_balance={};receivable_cut={}
+ for row in rows(DATA/"opening-receivables.csv"):
+  rid=(row.get("receivable_id") or "").strip();estate=(row.get("estate") or "").strip();amount=dec(row.get("opening_amount_gp","0"))
+  if not rid:errors.append("opening receivable without a stable receivable ID");continue
+  if rid in receivable_balance:errors.append(f"duplicate receivable ID {rid}")
+  if estate not in ESTATES:errors.append(f"{rid}: unknown estate {estate}");continue
+  if amount<0:errors.append(f"{rid}: negative opening receivable {amount}")
+  receivable_balance[rid]={"estate":estate,"balance":amount};receivable_cut[rid]={"estate":estate,"balance":amount}
+ inventory_balance={}
+ for row in rows(DATA/"opening-inventory.csv"):
+  iid=(row.get("inventory_id") or "").strip();estate=(row.get("estate") or "").strip();qty=dec(row.get("opening_quantity","0"))
+  if not iid:errors.append("opening inventory without a stable inventory ID");continue
+  if iid in inventory_balance:errors.append(f"duplicate opening inventory ID {iid}")
+  if estate not in ESTATES:errors.append(f"{iid}: unknown estate {estate}");continue
+  if qty<0:errors.append(f"{iid}: negative opening quantity {qty}")
+  inventory_balance[iid]={"estate":estate,"quantity":qty}
  cash_deltas_cut=defaultdict(Decimal);liability_deltas_cut=defaultdict(Decimal)
  cash_deltas_all=defaultdict(Decimal);liability_deltas_all=defaultdict(Decimal)
+ receivable_deltas_cut=defaultdict(Decimal);receivable_deltas_all=defaultdict(Decimal)
+ inventory_deltas_cut=defaultdict(Decimal);inventory_deltas_all=defaultdict(Decimal)
+ income_all=defaultdict(Decimal);expense_all=defaultdict(Decimal)
  ids=set();transfer_totals=defaultdict(Decimal);transfer_counts=defaultdict(int);parsed=0
  blocked={"forecast","planned","scheduled","pending","unconfirmed","estimate"}
  for row in rows(DATA/"events.csv"):
@@ -75,17 +94,55 @@ def main():
   expense=dec(row.get("expense_delta_gp","0"))
   quantity=dec(row.get("quantity_delta","0"))
   accepted=dec(row.get("accepted_quantity","0"))
+  receivable_delta=dec(row.get("receivable_delta_gp","0"))
+  inventory_cost=dec(row.get("inventory_cost_delta_gp","0"))
   amount=dec(row.get("amount_gp","0"))
-  financial=[cash_delta,liability_delta,income,expense,quantity,accepted]
+  financial=[cash_delta,liability_delta,receivable_delta,income,expense,quantity,accepted,inventory_cost]
   if status in blocked:
-   if any(financial) or amount:errors.append(f"{eid}: {status} event cannot post cash, liability, profit, inventory, or shipment amounts")
+   if any(financial) or amount:errors.append(f"{eid}: {status} event cannot post cash, liability, receivable, profit, inventory, or shipment amounts")
    continue
   if any(financial) and not (row.get("evidence") or "").strip():errors.append(f"{eid}: posted changes require evidence")
+  if quantity and not (row.get("inventory_id") or "").strip():errors.append(f"{eid}: inventory quantity change requires inventory_id")
+  if inventory_cost and not (row.get("inventory_id") or "").strip():errors.append(f"{eid}: inventory cost change requires inventory_id")
+  if accepted and not ((row.get("shipment_id") or "").strip() or (row.get("reference_id") or "").strip()):errors.append(f"{eid}: accepted quantity requires a shipment_id or reference_id")
+  if accepted<0:errors.append(f"{eid}: accepted_quantity cannot be negative")
   if any(financial) and day==0:errors.append(f"{eid}: posted changes require an actual campaign day")
   if income<0 or expense<0:errors.append(f"{eid}: income and expense deltas must be nonnegative amounts")
   if row.get("source_file","").strip() and amount!=0 and not any(financial):
-   errors.append(f"{eid}: amount is not connected to a cash, liability, income, expense, inventory, or acceptance delta")
+   errors.append(f"{eid}: amount is not connected to a cash, liability, receivable, income, expense, inventory, or acceptance delta")
   cash_all[estate]+=cash_delta;cash_deltas_all[estate]+=cash_delta
+  income_all[estate]+=income;expense_all[estate]+=expense
+  if receivable_delta:
+   rid=(row.get("receivable_id") or "").strip()
+   if not rid:errors.append(f"{eid}: receivable change requires a receivable_id")
+   else:
+    if rid not in receivable_balance:
+     if receivable_delta<0:errors.append(f"{eid}: cannot collect unknown receivable {rid}")
+     else:receivable_balance[rid]={"estate":estate,"balance":Decimal(0)}
+    if rid in receivable_balance:
+     if receivable_balance[rid]["estate"]!=estate:errors.append(f"{eid}: receivable {rid} belongs to another estate")
+     next_receivable=receivable_balance[rid]["balance"]+receivable_delta
+     if next_receivable<0:errors.append(f"{eid}: collection exceeds receivable {rid} by {money(-next_receivable)} gp")
+     receivable_balance[rid]["balance"]=next_receivable
+    receivable_deltas_all[estate]+=receivable_delta
+    if day<=cutoff:
+     if rid not in receivable_cut and receivable_delta<0:errors.append(f"{eid}: snapshot-cutoff collection exceeds unknown receivable {rid}")
+     if rid not in receivable_cut:receivable_cut[rid]={"estate":estate,"balance":Decimal(0)}
+     next_cut=receivable_cut[rid]["balance"]+receivable_delta
+     if next_cut<0:errors.append(f"{eid}: snapshot-cutoff collection exceeds receivable {rid}")
+     receivable_cut[rid]["balance"]=next_cut;receivable_deltas_cut[estate]+=receivable_delta
+  iid=(row.get("inventory_id") or "").strip()
+  if quantity:
+   if iid not in inventory_balance:
+    if quantity<0:errors.append(f"{eid}: cannot dispatch or lose unregistered opening inventory {iid}")
+    else:inventory_balance[iid]={"estate":estate,"quantity":Decimal(0)}
+   if iid in inventory_balance:
+    if inventory_balance[iid]["estate"]!=estate:errors.append(f"{eid}: inventory {iid} belongs to another estate")
+    next_qty=inventory_balance[iid]["quantity"]+quantity
+    if next_qty<0:errors.append(f"{eid}: inventory change exceeds available {iid} quantity by {money(-next_qty)}")
+    inventory_balance[iid]["quantity"]=next_qty
+    inventory_deltas_all[estate]+=quantity
+    if day<=cutoff:inventory_deltas_cut[estate]+=quantity
   if day<=cutoff:
    cash_cut[estate]+=cash_delta;cash_deltas_cut[estate]+=cash_delta
   lid=(row.get("liability_id") or "").strip()
@@ -130,11 +187,20 @@ def main():
   if money(cash_cut[estate])!=money(cash_expected):errors.append(f"{estate}: ledger cash through Day {int(cutoff)} {money(cash_cut[estate])} does not match overview {money(cash_expected)}")
   if money(liab_at_cut)!=money(liabilities_expected):errors.append(f"{estate}: ledger liabilities through Day {int(cutoff)} {money(liab_at_cut)} do not match overview {money(liabilities_expected)}")
   if available_cut!=money(available_expected):errors.append(f"{estate}: available through Day {int(cutoff)} {available_cut} does not match overview {money(available_expected)}")
+  receivable_at_cut=sum((x["balance"] for x in receivable_cut.values() if x["estate"]==estate),Decimal(0))
+  receivable_latest=sum((x["balance"] for x in receivable_balance.values() if x["estate"]==estate),Decimal(0))
   snapshot["estates"][estate]={
    "snapshot_cash_gp":str(money(cash_cut[estate])),"snapshot_liabilities_gp":str(money(liab_at_cut)),"snapshot_available_gp":str(available_cut),
    "projected_cash_gp":str(money(cash_all[estate])),"projected_liabilities_gp":str(money(liab_latest)),"projected_available_gp":str(available_latest),
    "cash_gp":str(money(cash_all[estate])),"liabilities_gp":str(money(liab_latest)),"available_gp":str(available_latest),
    "cash_after_snapshot_events_gp":str(money(cash_all[estate]-cash_cut[estate])),
+   "snapshot_receivables_gp":str(money(receivable_at_cut)),
+   "projected_receivables_gp":str(money(receivable_latest)),
+   "receivables_gp":str(money(receivable_latest)),
+   "receivable_events_after_snapshot_gp":str(money(receivable_latest-receivable_at_cut)),
+   "actual_income_after_snapshot_gp":str(money(income_all[estate])),
+   "actual_expense_after_snapshot_gp":str(money(expense_all[estate])),
+   "inventory_quantity_delta_after_snapshot":str(money(inventory_deltas_all[estate]-inventory_deltas_cut[estate])),
   }
   if cash_all[estate]<0:errors.append(f"{estate}: projected cash is negative")
  snapshot["findings"]=errors
