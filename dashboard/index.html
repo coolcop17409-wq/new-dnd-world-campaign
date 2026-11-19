@@ -27,10 +27,10 @@ table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{text-align:left
 <script>
 fetch("./dashboard.json").then(r=>{if(!r.ok)throw Error("Dashboard data could not be loaded");return r.json()}).then(d=>{
  document.getElementById("meta").textContent="Snapshot view · campaign Day "+(d.campaign_day??"unknown")+" · source: "+d.generated_from;
- if(d.estate_status!=="PASS")document.getElementById("boundary").textContent="Estate ledger has findings. Review the generated report before using these totals.";
+ if(d.estate_status!=="PASS"||d.tracker_status!=="PASS")document.getElementById("boundary").textContent="A staging validation has findings. Review the generated reports before using these totals.";
  document.getElementById("estates").innerHTML=Object.entries(d.estates||{}).map(([n,e])=>'<article class="card"><h3>'+n+'</h3><div>Cash <span class="metric">'+e.cash_gp+' gp</span></div><div>Open liabilities '+e.liabilities_gp+' gp</div><div>Available '+e.available_gp+' gp</div></article>').join("");
  document.getElementById("party").innerHTML=(d.party||[]).map(p=>'<article class="card"><h3>'+p.name+' · Level '+(p.level??"?")+'</h3><div>HP '+(p.hp??"?")+'/'+(p.max_hp??"?")+' · AC '+(p.ac??"?")+'</div><div class="small muted">Initiative '+(p.initiative??"?")+' · Speed '+(p.speed??"?")+'</div><h3>Tracked resources</h3><ul>'+p.resources.map(x=>'<li>'+x.name+': '+x.current+'/'+x.max+' <span class="small muted">('+x.recovery+')</span></li>').join("")+'</ul></article>').join("");
- document.getElementById("inventory").innerHTML=Object.entries(d.inventory||{}).map(([n,items])=>'<article class="card"><h3>'+n+'</h3><ul>'+items.map(x=>'<li>'+x.qty+' × '+x.item+(x.holder?' — '+x.holder:'')+'</li>').join("")+'</ul></article>').join("");
+ document.getElementById("inventory").innerHTML=Object.entries(d.inventory||{}).map(([n,items])=>'<article class="card"><h3>'+n+'</h3><ul>'+items.map(x=>'<li><strong>'+x.quantity_display+' × '+x.item+'</strong>'+(x.holder?' — '+x.holder:'')+(x.detail?'<div class="small muted">'+x.detail+'</div>':'')+'</li>').join("")+'</ul></article>').join("");
  document.getElementById("shops").innerHTML=(d.magic_shop_lots||[]).map(x=>'<tr><td>'+x.settlement+'</td><td>'+x.dealer+'</td><td>'+x.lot+'</td><td>'+x.qty+'</td><td>'+(x.price_gp?x.price_gp+" gp":"Terms")+'</td><td>'+x.status+'</td></tr>').join("");
 }).catch(e=>{document.getElementById("meta").textContent=e.message});
 </script>
