@@ -12,7 +12,7 @@ REPORT=ROOT/"reports"/"estate-ledger.json"
 ESTATES={
  "Miregate":{"overview":"miregate-overview.csv","cash":["estate cash"],"available":["available after actual liabilities"],"liabilities":["payroll payable","recurring operations payable","incremental bills payable","rolling tax unpaid","customer advances"]},
  "Reedbed":{"overview":"reedbed-overview.csv","cash":["cash held"],"available":["available after liabilities"],"liabilities":["unpaid operating / capital","rolling tax unpaid","customer advances"]},
- "Old Distributary Fort":{"overview":"old-distributary-fort-overvie.csv","cash":["cash held"],"available":["available after liabilities"],"liabilities":["unpaid operating / capital","rolling tax unpaid","customer advances"]},
+ "Old Distributary Fort":{"overview":"old-distributary-fort-overview.csv","cash":["cash held"],"available":["available after liabilities"],"liabilities":["unpaid operating / capital","rolling tax unpaid","customer advances"]},
  "Blackthorn":{"overview":"blackthorn-overview.csv","cash":["cash gp"],"available":["available after actual liabilities"],"liabilities":["carrow unpaid gp","payroll payable gp","production / upkeep payable gp","incremental bills payable gp","rolling tax unpaid gp","customer advances gp"]},
 }
 def norm(s): return " ".join(s.strip().lower().replace("—","-").split())
