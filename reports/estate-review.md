@@ -9,8 +9,12 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 - **Reedbed: PASS** — cash 63.80 gp − liabilities 8.60 gp = available 55.20 gp.
 - **Old Distributary Fort: PASS** — cash 130.00 gp − liabilities 5.00 gp = available 125.00 gp.
 - **Blackthorn: PASS** — cash 453.33 gp − liabilities 171.01 gp = available 282.32 gp.
+- **Miregate cashbook: PASS** — opening 0.00 gp + net posted changes 501.40 gp = 501.40 gp.
+- **Reedbed cashbook: PASS** — opening 0.00 gp + net posted changes 63.80 gp = 63.80 gp.
+- **Old Distributary Fort cashbook: PASS** — opening 0.00 gp + net posted changes 130.00 gp = 130.00 gp.
+- **Blackthorn cashbook: PASS** — opening 572.11 gp + net posted changes -118.78 gp = 453.33 gp.
 
-All configured cash reconciliations and cashbook ID checks passed.
+All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
 ## Unfinished tasks due by campaign Day 231
 
@@ -33,24 +37,6 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Old Distributary Fort — Day 225: OF-FIRST-RETURN** (Overdue / unresolved)
 - **Old Distributary Fort — Day 215: OF-PAYROLL-215** (Overdue / unresolved)
 - **Old Distributary Fort — Day 222: OF-PAYROLL-222** (Overdue / unresolved)
-- **Blackthorn — Day 187: PAY-187** (Paid)
-- **Blackthorn — Day 187: OPS-187** (Paid)
-- **Blackthorn — Day 194: PAY-194** (Paid)
-- **Blackthorn — Day 194: OPS-194** (Paid)
-- **Blackthorn — Day 201: PAY-201** (Paid)
-- **Blackthorn — Day 201: OPS-201** (Paid)
-- **Blackthorn — Day 208: PAY-208** (Paid)
-- **Blackthorn — Day 208: OPS-208** (Paid)
-- **Blackthorn — Day 215: PAY-215** (Paid)
-- **Blackthorn — Day 215: OPS-215** (Paid)
-- **Blackthorn — Day 222: PAY-222** (Paid)
-- **Blackthorn — Day 222: OPS-222** (Paid)
-- **Blackthorn — Day 187: FREIGHT-MILLFORD** (Paid)
-- **Blackthorn — Day 223: FREIGHT-F02** (Paid)
-- **Blackthorn — Day 198: FREIGHT-SURPLUS** (Paid)
-- **Blackthorn — Day 229: PAY-229** (Paid)
-- **Blackthorn — Day 229: OPS-229** (Paid)
-- **Blackthorn — Day 228: BT-COVER-D228** (Paid)
 
 ## Source boundary
 
