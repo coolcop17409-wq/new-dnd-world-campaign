@@ -4280,5 +4280,14 @@
       "cost_gp": "59.3400"
     }
   },
-  "in_transit": {}
+  "in_transit": {},
+  "history_event_count": 283,
+  "staging_event_count": 0,
+  "checkpoint_day": 231,
+  "source_history_totals": {
+    "revenue": "1161.00",
+    "cogs": "417.83",
+    "loss": "53.20",
+    "produced_cost": "679.94"
+  }
 }
