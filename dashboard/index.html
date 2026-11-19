@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New Unnamed World — Staging Dashboard</title>
+<style>
+:root{color-scheme:light;--ink:#18212b;--muted:#607080;--line:#d8e0e7;--panel:#fff;--bg:#f2f5f7;--accent:#315d73}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+header{background:#152c3a;color:#fff;padding:1.4rem max(1rem,calc((100vw - 1200px)/2))}
+header p{margin:.25rem 0;color:#d9e4eb}main{max-width:1200px;margin:auto;padding:1rem}
+h1{font-size:1.5rem;margin:0}h2{font-size:1.2rem;margin:.2rem 0 1rem}h3{font-size:1rem;margin:.3rem 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+section,.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1rem;margin-bottom:1rem}
+.metric{font-size:1.35rem;font-weight:700}.muted{color:var(--muted)}.status{padding:.2rem .5rem;border-radius:99px;background:#e4f2e9;color:#225b36;font-size:.82rem}
+table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{text-align:left;padding:.5rem;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-weight:600}
+.scroll{overflow-x:auto}.small{font-size:.84rem}.warning{background:#fff4db;color:#744c00;padding:.75rem;border-radius:8px}
+@media(max-width:600px){main{padding:.6rem}section{padding:.8rem}table{min-width:520px}}
+</style>
+</head>
+<body>
+<header><h1>New Unnamed World — Staging Dashboard</h1><p id="meta">Loading staged snapshot…</p></header>
+<main><div id="boundary" class="warning">This dashboard reads staging exports. Drive remains authoritative; do not use it as the live campaign record.</div>
+<section><h2>Estate accounts</h2><div id="estates" class="grid"></div></section>
+<section><h2>Party status</h2><div id="party" class="grid"></div></section>
+<section><h2>Personal inventory</h2><div id="inventory" class="grid"></div></section>
+<section><h2>Magic shop stock</h2><div class="scroll"><table><thead><tr><th>Settlement</th><th>Dealer</th><th>Lot</th><th>Qty</th><th>Price</th><th>Status</th></tr></thead><tbody id="shops"></tbody></table></div></section>
+<script>
+fetch("./dashboard.json").then(r=>{if(!r.ok)throw Error("Dashboard data could not be loaded");return r.json()}).then(d=>{
+ document.getElementById("meta").textContent="Snapshot view · campaign Day "+(d.campaign_day??"unknown")+" · source: "+d.generated_from;
+ if(d.estate_status!=="PASS")document.getElementById("boundary").textContent="Estate ledger has findings. Review the generated report before using these totals.";
+ document.getElementById("estates").innerHTML=Object.entries(d.estates||{}).map(([n,e])=>'<article class="card"><h3>'+n+'</h3><div>Cash <span class="metric">'+e.cash_gp+' gp</span></div><div>Open liabilities '+e.liabilities_gp+' gp</div><div>Available '+e.available_gp+' gp</div></article>').join("");
+ document.getElementById("party").innerHTML=(d.party||[]).map(p=>'<article class="card"><h3>'+p.name+' · Level '+(p.level??"?")+'</h3><div>HP '+(p.hp??"?")+'/'+(p.max_hp??"?")+' · AC '+(p.ac??"?")+'</div><div class="small muted">Initiative '+(p.initiative??"?")+' · Speed '+(p.speed??"?")+'</div><h3>Tracked resources</h3><ul>'+p.resources.map(x=>'<li>'+x.name+': '+x.current+'/'+x.max+' <span class="small muted">('+x.recovery+')</span></li>').join("")+'</ul></article>').join("");
+ document.getElementById("inventory").innerHTML=Object.entries(d.inventory||{}).map(([n,items])=>'<article class="card"><h3>'+n+'</h3><ul>'+items.map(x=>'<li>'+x.qty+' × '+x.item+(x.holder?' — '+x.holder:'')+'</li>').join("")+'</ul></article>').join("");
+ document.getElementById("shops").innerHTML=(d.magic_shop_lots||[]).map(x=>'<tr><td>'+x.settlement+'</td><td>'+x.dealer+'</td><td>'+x.lot+'</td><td>'+x.qty+'</td><td>'+(x.price_gp?x.price_gp+" gp":"Terms")+'</td><td>'+x.status+'</td></tr>').join("");
+}).catch(e=>{document.getElementById("meta").textContent=e.message});
+</script>
+</main></body></html>
