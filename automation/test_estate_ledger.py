@@ -10,6 +10,7 @@ import unittest
 from contextlib import redirect_stdout
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
 SCRIPT = Path(__file__).with_name("estate_ledger.py")
 SPEC = importlib.util.spec_from_file_location("estate_ledger", SCRIPT)
 ledger = importlib.util.module_from_spec(SPEC)
