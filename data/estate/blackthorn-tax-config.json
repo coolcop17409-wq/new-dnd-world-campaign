@@ -1,0 +1,10 @@
+{
+  "source_opening_day": 182,
+  "source_checkpoint_day": 230,
+  "source_period_id": "TAX-59",
+  "source_taxable_base_gp": "723.70",
+  "source_assessment_gp": "72.37",
+  "source_liability_id": "OPEN-BLACKTHORN-rolling-tax-unpaid-gp-D230",
+  "tax_rate": "0.10",
+  "evidence": "Blackthorn - Accounts T6/U6 source-checked through Day 230; TAX-59 is the Day 59-271 period, due Day 272."
+}
