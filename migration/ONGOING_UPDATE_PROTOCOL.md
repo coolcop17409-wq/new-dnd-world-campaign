@@ -42,8 +42,9 @@ Production payroll is a liability when earned. The operation replay allocates th
 - New operation rows go in `data/estate/blackthorn-operations-events.csv` only after the activity happened and has evidence. A unique event ID is required; all new rows must be after the Day 231 snapshot. Do not overwrite historical workbook rows.
 - Opening inventory by grade is provisional. Physical verification is a separate evidenced event. Until verified, no opening stock can be dispatched or sold.
 - Dispatch moves stock and cost into transit; acceptance, return, loss, or regrade must reference the same shipment/transfer and cannot exceed the remaining quantity.
-- Acceptance earns the confirmed order price only for the accepted quantity. The operations replay calculates the earned sale and COGS. The separate estate ledger still needs an explicit posting bridge that connects this result to cash versus receivable and avoids double-counting inventory movement. Until that bridge is implemented and tested, use the operations report for calculation review only and do not treat its future projection as a complete estate-ledger write.
-- Actual arrival, buyer acceptance, payment, partial delivery, rejected cargo, or failed work are separate facts. Enter only the leg that actually occurred and retain any remaining in-transit or receivable balance.
+- Acceptance earns the confirmed order price only for the accepted quantity. The operations replay now produces normalized ledger events for future production, labor, shipment, acceptance, return, loss and regrade rows. The estate ledger imports them only when the operation report is PASS, its snapshot matches, and its staged event IDs match the operation journal.
+- For each future Accept or Gate sale, `Cash received gp` is mandatory, including explicit `0` when unpaid. The bridge records income once, creates a receivable for the unpaid remainder under `Receivable ID`, and records immediate cash only for the stated amount. A later collection is a separate row in `data/estate/events.csv` that reduces the same receivable and increases cash. Do not also copy the acceptance income or stock movement into that file.
+- Actual dispatch, arrival, buyer acceptance, payment, partial delivery, rejected cargo, or failed work are separate facts. Enter only the leg that actually occurred and retain any remaining in-transit or receivable balance. The bridge is covered by synthetic mapping and estate-ledger import tests, but a real future operation chain has not yet run.
 
 ### Service prerequisites
 
@@ -82,7 +83,7 @@ Do not point play or Project Sources here until all of these pass:
 
 - opening cash, liabilities, receivables, inventory/custody, staff, ownership and outstanding commitments are complete at a confirmed checkpoint;
 - estate activity from the checkpoint forward recalculates correctly, including the Blackthorn operations-to-estate-ledger bridge and general service prerequisite checks;
-- the recurring close/post/retry path is tested in Actions and does not double-post;
+- the recurring close/post/retry path is tested in Actions and does not double-post; the forward tax-base roll-forward and assessment posting are also checked from realized entries;
 - one real campaign update succeeds across estate, character, inventory and shop cases as applicable, then matches the owning source workbook;
 - the generated views and sync instructions are usable from the GitHub connector, with failures and conflicts surfaced;
 - public repository exposure of DM preparation remains an accepted user choice.
