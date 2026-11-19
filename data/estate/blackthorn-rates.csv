@@ -1,0 +1,14 @@
+rate_id,estate,type,person_or_item,cost_family,product_grade,rate_gp,unit,from_day,through_day,notes,evidence
+PAY-01,Blackthorn,Payroll,Tamsin Brack,Management,,5,day,183,,Steward; carried from verified staff register.,Property / Blackthorn - Rates & Staff A6:K6
+PAY-02,Blackthorn,Payroll,Bram,Management,,1,day,183,,Regular guard; carried from verified staff register.,Property / Blackthorn - Rates & Staff A7:K7
+PAY-03,Blackthorn,Payroll,Corin,Management,,1,day,183,,Regular guard; carried from verified staff register.,Property / Blackthorn - Rates & Staff A8:K8
+PAY-04,Blackthorn,Payroll,Marta Dunrick,Stone,,2,day,183,,Quarry forewoman; carried from verified staff register.,Property / Blackthorn - Rates & Staff A9:K9
+PAY-05,Blackthorn,Payroll,Joric,Stone,,0.6,day,183,,Quarry hand; carried from verified staff register.,Property / Blackthorn - Rates & Staff A10:K10
+PAY-06,Blackthorn,Payroll,Unnamed quarry hand,Stone,,0.6,day,183,,Quarry hand; carried from verified staff register.,Property / Blackthorn - Rates & Staff A11:K11
+PAY-07,Blackthorn,Payroll,Hedda Rook,Timber,,2,day,183,,Timber forewoman; carried from verified staff register.,Property / Blackthorn - Rates & Staff A12:K12
+PAY-08,Blackthorn,Payroll,Dorr,Timber,,0.6,day,183,,Timber hand; carried from verified staff register.,Property / Blackthorn - Rates & Staff A13:K13
+PAY-09,Blackthorn,Payroll,Unnamed timber hand,Timber,,0.6,day,183,,Timber hand; carried from verified staff register.,Property / Blackthorn - Rates & Staff A14:K14
+PAY-10,Blackthorn,Payroll,Additional quarry hand,Stone,,0.6,day,183,,Quarry hand; carried from verified staff register.,Property / Blackthorn - Rates & Staff A15:K15
+PAY-11,Blackthorn,Payroll,Additional mill hand,Timber,,0.6,day,183,,Mill hand; carried from verified staff register.,Property / Blackthorn - Rates & Staff A16:K16
+UPKEEP-01,Blackthorn,Upkeep,General upkeep,General,,0.7142857142857143,day,183,,20 gp per 28 days,Property / Blackthorn - Rates & Staff A17:K17
+UPKEEP-02,Blackthorn,Upkeep,Maintenance,General,,1.0714285714285714,day,183,,30 gp per 28 days,Property / Blackthorn - Rates & Staff A18:K18
