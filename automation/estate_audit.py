@@ -29,6 +29,8 @@ ESTATES = {
             "incremental bills payable", "rolling tax unpaid", "customer advances",
         ),
         "schedule": "miregate-schedule.csv",
+        "cashbook": "miregate-cashbook.csv",
+        "opening_balance": None,
     },
     "Reedbed": {
         "path": "reedbed-overview.csv",
@@ -38,6 +40,8 @@ ESTATES = {
             "unpaid operating / capital", "rolling tax unpaid", "customer advances",
         ),
         "schedule": "reedbed-schedule.csv",
+        "cashbook": "reedbed-cashbook.csv",
+        "opening_balance": None,
     },
     "Old Distributary Fort": {
         "path": "old-distributary-fort-overview.csv",
@@ -47,6 +51,8 @@ ESTATES = {
             "unpaid operating / capital", "rolling tax unpaid", "customer advances",
         ),
         "schedule": "old-distributary-fort-schedule.csv",
+        "cashbook": "old-distributary-fort-cashbook.csv",
+        "opening_balance": None,
     },
     "Blackthorn": {
         "path": "blackthorn-overview.csv",
@@ -58,15 +64,10 @@ ESTATES = {
             "rolling tax unpaid gp", "customer advances gp",
         ),
         "schedule": "blackthorn-schedule.csv",
+        "cashbook": "blackthorn-cashbook.csv",
+        "opening_balance": "blackthorn-opening-balances.csv",
     },
 }
-
-CASHBOOKS = (
-    "miregate-cashbook.csv",
-    "reedbed-cashbook.csv",
-    "old-distributary-fort-cashbook.csv",
-    "blackthorn-cashbook.csv",
-)
 
 def norm(value: str) -> str:
     return " ".join(value.strip().lower().replace("—", "-").split())
@@ -169,39 +170,72 @@ def due_tasks(name: str, filename: str, campaign_day: int) -> list[str]:
             target = int(money(target_raw))
         except (ValueError, OverflowError):
             continue
-        if norm(status) in {"complete", "completed", "cancelled", "canceled", "closed"}:
+        if norm(status) in {"complete", "completed", "cancelled", "canceled", "closed", "paid", "settled", "resolved", "fulfilled"}:
             continue
         if target <= campaign_day:
             due.append(f"- **{name} — Day {target}: {task}** ({status})")
     return due
 
-def audit_cashbook_ids() -> list[str]:
+def opening_cash(config: dict) -> Decimal:
+    source = config.get("opening_balance")
+    if not source:
+        return Decimal("0")
+    rows = read_rows(PROPERTY / source)
+    for row in rows:
+        if len(row) > 5 and norm(row[0]) == "blackthorn" and norm(row[1]) == "cash":
+            return money(row[5])
+    raise ValueError(f"opening cash row not found in {source}")
+
+def audit_cashbook(name: str, filename: str) -> tuple[Decimal, list[str]]:
+    rows = read_rows(PROPERTY / filename)
     errors: list[str] = []
-    for filename in CASHBOOKS:
-        rows = read_rows(PROPERTY / filename)
-        header_index = None
-        id_index = None
-        for index, row in enumerate(rows):
-            for column, value in enumerate(row):
-                if norm(value) in {"cash id", "transaction id"}:
-                    header_index, id_index = index, column
-                    break
-            if header_index is not None:
-                break
-        if header_index is None or id_index is None:
-            errors.append(f"{filename}: cashbook ID column not found.")
+    header_index = None
+    columns: dict[str, int] = {}
+    for index, row in enumerate(rows):
+        headers = {norm(value): col for col, value in enumerate(row) if value.strip()}
+        id_key = next((key for key in ("cash id", "transaction id") if key in headers), None)
+        delta_key = next((key for key in ("cash delta", "cash delta gp") if key in headers), None)
+        if id_key and delta_key:
+            header_index = index
+            columns = {"id": headers[id_key], "delta": headers[delta_key]}
+            columns["check"] = next((headers[k] for k in ("check", "status") if k in headers), -1)
+            break
+    if header_index is None:
+        return Decimal("0"), [f"{filename}: cashbook ID/cash-delta columns not found."]
+    seen: set[str] = set()
+    total = Decimal("0")
+    for row_number, row in enumerate(rows[header_index + 1:], start=header_index + 2):
+        if columns["id"] >= len(row):
             continue
-        seen: set[str] = set()
-        for row in rows[header_index + 1:]:
-            if id_index >= len(row):
-                continue
-            identifier = row[id_index].strip()
-            if not identifier:
-                continue
-            if identifier in seen:
-                errors.append(f"{filename}: duplicate cash ID {identifier}.")
-            seen.add(identifier)
-    return errors
+        identifier = row[columns["id"]].strip()
+        if not identifier:
+            continue
+        if identifier in seen:
+            errors.append(f"{filename}: duplicate cash ID {identifier}.")
+        seen.add(identifier)
+        delta = row[columns["delta"]].strip() if columns["delta"] < len(row) else ""
+        if not delta:
+            errors.append(f"{filename}: {identifier} has no displayed cash delta (row {row_number}).")
+            continue
+        try:
+            total += money(delta)
+        except ValueError as exc:
+            errors.append(f"{filename}: {identifier} has invalid cash delta {delta!r}: {exc}.")
+        check_index = columns["check"]
+        if check_index >= 0 and check_index < len(row):
+            result = row[check_index].strip()
+            if result and norm(result) not in {"ok", "pass", "reconciled"}:
+                errors.append(f"{filename}: {identifier} check is {result!r}.")
+    return total, errors
+
+def audit_cashbooks() -> tuple[dict[str, Decimal], list[str]]:
+    totals: dict[str, Decimal] = {}
+    errors: list[str] = []
+    for name, config in ESTATES.items():
+        total, findings = audit_cashbook(name, config["cashbook"])
+        totals[name] = total
+        errors.extend(findings)
+    return totals, errors
 
 def current_campaign_day() -> int | None:
     state_path = ROOT / "campaign" / "continuity" / "campaign-state.md"
@@ -225,7 +259,25 @@ def main() -> int:
         estate_errors, estate_notes = audit_estate(name, config)
         errors.extend(estate_errors)
         notes.extend(estate_notes)
-    errors.extend(audit_cashbook_ids())
+    cashbook_totals, cashbook_errors = audit_cashbooks()
+    errors.extend(cashbook_errors)
+    for name, config in ESTATES.items():
+        rows = read_rows(PROPERTY / config["path"])
+        summary_cash = first_field(rows, config["cash"])
+        opening = opening_cash(config)
+        ledger_cash = (opening + cashbook_totals[name]).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
+        expected_cash = summary_cash.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
+        if ledger_cash != expected_cash:
+            errors.append(
+                f"{name}: cashbook roll-forward mismatch — opening {fmt(opening)} gp + "
+                f"net cashbook changes {fmt(cashbook_totals[name])} gp = {fmt(ledger_cash)} gp, "
+                f"but overview says {fmt(expected_cash)} gp."
+            )
+        else:
+            notes.append(
+                f"- **{name} cashbook: PASS** — opening {fmt(opening)} gp + net posted changes "
+                f"{fmt(cashbook_totals[name])} gp = {fmt(ledger_cash)} gp."
+            )
 
     snapshot_day = "unknown"
     index_path = ROOT / "trackers" / "index.json"
@@ -247,7 +299,7 @@ def main() -> int:
         lines.extend(["", "## Findings requiring correction", ""])
         lines.extend(f"- **CHECK:** {error}" for error in errors)
     else:
-        lines.extend(["", "All configured cash reconciliations and cashbook ID checks passed."])
+        lines.extend(["", "All available-cash, cashbook roll-forward, and cashbook ID checks passed."])
 
     if campaign_day is None:
         lines.extend([
