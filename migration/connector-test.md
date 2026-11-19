@@ -2,4 +2,4 @@
 
 This file contains no campaign state. It is used only to verify that the GitHub connector can create, read, and update a file before any Project Source cutover.
 
-Test value: BEFORE_UPDATE
+Test value: AFTER_UPDATE_VERIFIED
