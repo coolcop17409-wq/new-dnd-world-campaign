@@ -1,39 +1,45 @@
 # Migration Test Report
 
 Test copy: https://github.com/coolcop17409-wq/new-dnd-world-campaign  
-Visibility: Public, as explicitly chosen by the owner.
+Visibility: Public, as explicitly chosen by the owner.  
+Authority: Drive remains authoritative. No live Drive record or Project Source has been changed.
 
-## What passed
+## Confirmed checkpoint
 
-- GitHub connector reads and writes were verified earlier, including a non-campaign write/read round trip.
-- Representative campaign files, including current state, rules, DM preparation, political reference, and workbook snapshots, were retrieved from GitHub.
-- Existing Drive checkpoint values checked against the workbook snapshots: V 48/48 HP and AC 19; Cirren 51/51 HP and AC 18; Fenar 59/59 HP and AC 14.
-- Estate audit, event ledger, tracker validation, dashboard generation, and the synthetic ledger scenario test all passed in the latest full GitHub Actions run (run 39). The ledger contains 121 unique actual cashbook IDs and reconciles the Day 231 checkpoint:
-  - Miregate 501.40 gp cash, 14.03 gp liabilities, 487.37 gp available.
-  - Reedbed 63.80 gp cash, 8.60 gp liabilities, 55.20 gp available.
-  - Old Distributary Fort 130.00 gp cash, 5.00 gp liabilities, 125.00 gp available.
-  - Blackthorn 453.33 gp cash, 171.01 gp liabilities, 282.32 gp available.
-- The unfinished-task report was checked against the live Property schedules. It lists 16 current due/overdue/held items. Two stale Miregate payroll task rows are explicitly mapped to their completed Day 229 successor; they are not duplicated as open tasks.
-- Tracker validation passed for V, Cirren, Fenar, their inventory snapshots, 89 magic-shop stock rows, dealer keys, and existing shop event IDs.
-- A generated Day 231 dashboard was read back. It shows party values, tracked resources, owned-item/custody notes, estate balances, and 57 nonzero shop lots.
-- The live Property workbook shows zero receivables across all four estates. Blackthorn's Day 230 Accounts formulas total 41.12 t on-site book stock, 13 t reserved, 0 t in transit, and 349.43 gp book cost. The six opening grade rows were imported as provisional because the workbook explicitly says physical count, seasoning, and buyer certification are unverified; the GitHub ledger reports zero eligible-to-ship stock until verified.
-- Synthetic ledger scenarios passed for a partially paid liability, an accepted sale with delayed collection, failed work that posts no amount, a scheduled tax date that posts no assessment, inventory reservations, shipment dispatch/arrival, inventory quantity/cost release, and paired estate-transfer legs. These test the ledger rules in isolation; they do not establish those events happened in the campaign.
+The staged estate opening cash/liability checkpoint reconciles to Day 231 late morning:
 
-## What remains unverified
+| Estate | Cash | Liabilities | Available |
+|---|---:|---:|---:|
+| Miregate | 501.40 gp | 14.03 gp | 487.37 gp |
+| Reedbed | 63.80 gp | 8.60 gp | 55.20 gp |
+| Old Distributary Fort | 130.00 gp | 5.00 gp | 125.00 gp |
+| Blackthorn | 453.33 gp | 171.01 gp | 282.32 gp |
 
-- No campaign event has yet been written through the character event ledger; the event-log overlay and a complete play → write → regenerate → compare cycle still need an actual confirmed campaign change.
-- The dashboard is a repository artifact; GitHub Pages is not enabled.
-- The estate seed preserves cashbook history and starts liabilities from an as-of-Day-230 balance-forward snapshot. The receivable register is empty because the source balance is zero; Blackthorn opening book inventory is imported but unverified. Full historical/activity formula parity remains incomplete for wages, operating costs, tax calculations, inventory valuation/COGS, production, shipment and acceptance workflows, and automated service prerequisite checks.
-- Character event checks are range checks; no real campaign change has yet been written through that ledger, and the checks do not replace every sheet formula or apply 2014 class/rest mechanics automatically.
-- Magic-shop keys and stock rows validate, but its due business reviews and turnover remain DM-resolved under the existing Rules tab.
-- Drive remains authoritative. No live Drive record or ChatGPT Project Source was changed, and no cutover was made.
+The opening receivable register is empty because the source showed zero receivables. Blackthorn's Day 230 book inventory is 41.12 t on-site, 13 t reserved and 349.43 gp cost; physical count, grade allocation, seasoning and buyer certification remain provisional, so no opening stock is eligible to ship.
 
+## Passed checks
 
-## Work added after the latest verified run
+- The source Operations history replayed 283 rows. Revenue 1,161.00 gp, COGS 417.83 gp, loss/idle 53.20 gp and produced cost 679.94 gp match the unrounded source formulas and Day 230 grade balances.
+- Per-row comparisons cover prior quantity/cost, unit cost, on-site and transit changes, revenue, COGS, loss/idle labor, production labor and non-labor costs.
+- Source fixture tests match payroll accrual 700.80 gp (336.00 management + 364.80 production), upkeep 85.71 gp, taxable base 723.70 gp and 10% assessment 72.37 gp.
+- Synthetic operation case passes production → dispatch → acceptance and rejects a shipment without a passed readiness result.
+- Estate ledger synthetic cases pass partial liability payment, delayed receivable collection, failed work with no unearned posting, due tax without assessment, paired transfer legs, reservation/release, shipment transit, and blocking dispatch from unverified stock.
+- Synthetic character overlay passes HP, resource and inventory changes over a snapshot.
+- Recurring accrual tests pass stable ID generation, exact Day 231 values, explicit close posting and rerun idempotency.
+- Local verification on the current staging files: six unit tests passed; Blackthorn operation replay passed with no findings; routine-accrual preview passed with no findings.
 
-- Added a synthetic guard case that attempts to dispatch provisional Blackthorn stock and expects the ledger to reject the release.
-- Added a synthetic character write-and-compare case for HP, a resource, and inventory. It verifies the dashboard overlay against a prepared snapshot; no real campaign event was entered.
-- Imported the Blackthorn daily payroll/upkeep rate rows and added formula helpers for effective-date accrual and the 10% rolling tax assessment. Added Day 230 parity fixtures: 700.80 gp total payroll accrual, split into 336.00 gp management and 364.80 gp production payroll; 85.71 gp upkeep; 723.70 gp tax base; and 72.37 gp assessment.
-- Three synthetic tests were rerun locally against the latest staging files and passed, including the provisional-stock block, Blackthorn formula parity, and character HP/resource/inventory event overlay. A live unformatted read confirmed Operations COGS is 417.8297 gp, rounded to 417.83 gp in Accounts; the displayed-value CSV rounds individual rows and sums to 417.82 gp, so the CSV alone is not precise enough for cent-level COGS parity. The unrounded source components are captured in `data/estate/blackthorn-tax-checkpoint.csv`. The connector did not expose an updated Actions result, so run 39 remains the latest Actions run I can verify. The formula port does not yet generate recurring posting events or derive tax inputs from the raw activity journal.
+The manually triggered accrual posting is opt-in and requires an explicit closed-through day. Ordinary workflow runs are preview only. This staging write path has not yet been reviewed in a successful Actions run.
 
-The cutover boundary remains unchanged: first finish the rule ports and then test a real campaign update end to end against the source workbook.
+## Still blocks cutover
+
+- Blackthorn operation calculations are not yet integrated with the generic estate ledger. Future accepted sales need an explicit, linked cash-versus-receivable posting, and stock/cost movement must not be entered twice.
+- Cross-estate service prerequisites remain a documented manual review. Only Blackthorn's readiness-task gate is automated.
+- No real campaign change has yet passed the character write → dashboard rebuild → Drive comparison path.
+- Magic Shops turnover behavior is specified in its Rules export, including review intervals, odds, eligible outcomes, and recording requirements. Automated checks validate identities and quantities only; no real due review and linked player transaction has been compared.
+- Opening custody, ownership, staff, inventory and commitments need full checkpoint completeness beyond current estate cash/liabilities and Blackthorn book stock.
+- A complete play → event write → regenerated views → Drive checkpoint comparison has not yet passed.
+- A newer Actions result must be reviewed before cutover. The Actions run from these latest commits is not represented by the local tests and must not be assumed successful.
+
+## Cutover boundary
+
+Do not move play or Project Sources to GitHub yet. Keep Drive authoritative until each blocker above is resolved and the complete update cycle has passed. Operating details live in [ONGOING_UPDATE_PROTOCOL.md](ONGOING_UPDATE_PROTOCOL.md).
