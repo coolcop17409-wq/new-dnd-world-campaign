@@ -1,0 +1,2073 @@
+{
+  "generated_from": "staging snapshots; Drive remains authoritative",
+  "campaign_day": null,
+  "estate_status": "PASS",
+  "estates": {
+    "Miregate": {
+      "cash_gp": "501.40",
+      "liabilities_gp": "14.03",
+      "available_gp": "487.37",
+      "snapshot_cash_gp": "501.40",
+      "snapshot_liabilities_gp": "14.03",
+      "snapshot_available_gp": "487.37"
+    },
+    "Reedbed": {
+      "cash_gp": "63.80",
+      "liabilities_gp": "8.60",
+      "available_gp": "55.20",
+      "snapshot_cash_gp": "63.80",
+      "snapshot_liabilities_gp": "8.60",
+      "snapshot_available_gp": "55.20"
+    },
+    "Old Distributary Fort": {
+      "cash_gp": "130.00",
+      "liabilities_gp": "5.00",
+      "available_gp": "125.00",
+      "snapshot_cash_gp": "130.00",
+      "snapshot_liabilities_gp": "5.00",
+      "snapshot_available_gp": "125.00"
+    },
+    "Blackthorn": {
+      "cash_gp": "453.33",
+      "liabilities_gp": "171.01",
+      "available_gp": "282.32",
+      "snapshot_cash_gp": "453.33",
+      "snapshot_liabilities_gp": "171.01",
+      "snapshot_available_gp": "282.32"
+    }
+  },
+  "party": [
+    {
+      "name": "Valenthia",
+      "level": "7",
+      "hp": "48",
+      "max_hp": "48",
+      "ac": "19",
+      "initiative": "4",
+      "speed": "30",
+      "resources": [
+        {
+          "name": "Martial Points",
+          "current": "7",
+          "max": "7",
+          "recovery": "Short Rest"
+        },
+        {
+          "name": "Psionic Energy Dice",
+          "current": "6",
+          "max": "6",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Second Wind",
+          "current": "1",
+          "max": "1",
+          "recovery": "Short Rest"
+        },
+        {
+          "name": "Knowledge from Past Life",
+          "current": "3",
+          "max": "3",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Psi Recovery",
+          "current": "1",
+          "max": "1",
+          "recovery": "Once per Short Rest or Long Rest"
+        },
+        {
+          "name": "Hit Dice",
+          "current": "7",
+          "max": "7",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Psychic Whispers free use",
+          "current": "1",
+          "max": "1",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Action Surge",
+          "current": "1",
+          "max": "1",
+          "recovery": "Short Rest"
+        },
+        {
+          "name": "ATTACKS & COMBAT",
+          "current": "",
+          "max": "",
+          "recovery": ""
+        },
+        {
+          "name": "ATTACK",
+          "current": "TO HIT",
+          "max": "DAMAGE",
+          "recovery": "NOTES"
+        },
+        {
+          "name": "Psychic Blade (thrown)",
+          "current": "9",
+          "max": "1d6+4 psychic",
+          "recovery": "+2 Archery homebrew applies to thrown psionic sword"
+        },
+        {
+          "name": "Psychic Blade (melee)",
+          "current": "7",
+          "max": "1d6+4 psychic",
+          "recovery": "2014 melee roll without Archery's ranged bonus"
+        },
+        {
+          "name": "Bonus Blade (thrown)",
+          "current": "9",
+          "max": "1d4+4 psychic",
+          "recovery": "Costs bonus action; requires main Psychic Blade attack"
+        },
+        {
+          "name": "Bonus Blade (melee)",
+          "current": "7",
+          "max": "1d4+4 psychic",
+          "recovery": "Same turn bonus attack"
+        },
+        {
+          "name": "Dart (thrown)",
+          "current": "9",
+          "max": "1d4+4 piercing",
+          "recovery": "Thrown dart +9 (Dex4 + proficiency3 + Archery2) 1d4+4 piercing; UNLIMITED/UNTRACKED dart ammunition by explicit Day182 player rule. No carried count, deduction or retrieval; still physical dart mechanics via inherited silver sword. Archived PDF +8 historical."
+        },
+        {
+          "name": "Sneak Attack",
+          "current": "",
+          "max": "2d6",
+          "recovery": "Once per TURN when eligible. PLAYER PRIORITY: secure Sneak Attack each own turn; re-Hide when legally concealed or exploit non-incapacitated ally within5ft of target (no disadvantage). On major threats, plan second eligible reaction Sneak Attack on another creature's turn: Quick Toss physical dart (BA,1 superiority die) + Ready action, or Attack + Action Surge Ready. Reaction requires chosen trigger and eligible physical weapon (not native Psychic Blade). V chooses all actions/resources; full rule: RULES — COMBAT & RECOVERY / COMBAT-PRIORITIES-D225-20261118-01."
+        }
+      ]
+    },
+    {
+      "name": "Cirren",
+      "level": null,
+      "hp": "51",
+      "max_hp": "51",
+      "ac": "18",
+      "initiative": "2",
+      "speed": "30",
+      "resources": [
+        {
+          "name": "Channel Divinity",
+          "current": "2",
+          "max": "2",
+          "recovery": "Short Rest"
+        },
+        {
+          "name": "Spell Slots (1st)",
+          "current": "4",
+          "max": "4",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Spell Slots (2nd)",
+          "current": "3",
+          "max": "3",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Hit Dice",
+          "current": "6",
+          "max": "6",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Harness Divine Power",
+          "current": "1",
+          "max": "1",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Prepared Spells",
+          "current": "11",
+          "max": "11",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Spell Slots (3rd)",
+          "current": "3",
+          "max": "3",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "ATTACKS & COMBAT",
+          "current": "",
+          "max": "",
+          "recovery": ""
+        },
+        {
+          "name": "ATTACK",
+          "current": "TO HIT",
+          "max": "DAMAGE",
+          "recovery": "NOTES"
+        },
+        {
+          "name": "Dagger",
+          "current": "5",
+          "max": "1d4+2 piercing",
+          "recovery": "Finesse; current +5 from Dexterity2 + proficiency3. Archived PDF +4 is historical."
+        },
+        {
+          "name": "Toll the Dead",
+          "current": "Wis DC 16",
+          "max": "2d8 or 2d12 necrotic",
+          "recovery": "Cantrip scaling at total character level 5; Wisdom save vs spell DC 16; d12s if wounded."
+        },
+        {
+          "name": "Spiritual Weapon",
+          "current": "8",
+          "max": "1d8+5 force",
+          "recovery": "2014 nonconcentration; uses 2nd-level slot"
+        }
+      ]
+    },
+    {
+      "name": "Fenar",
+      "level": null,
+      "hp": "59",
+      "max_hp": "59",
+      "ac": "14",
+      "initiative": "2",
+      "speed": null,
+      "resources": [
+        {
+          "name": "Rage",
+          "current": "4",
+          "max": "4",
+          "recovery": "Short Rest +1; Long Rest all"
+        },
+        {
+          "name": "Shift",
+          "current": "3",
+          "max": "3",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Hit Dice",
+          "current": "6",
+          "max": "6",
+          "recovery": "Long Rest"
+        },
+        {
+          "name": "Raging?",
+          "current": "No",
+          "max": "",
+          "recovery": "Up to 10 minutes (house rule)"
+        },
+        {
+          "name": "Shifted?",
+          "current": "No",
+          "max": "",
+          "recovery": "1 minute"
+        },
+        {
+          "name": "Beast form",
+          "current": "None",
+          "max": "",
+          "recovery": "Each Rage"
+        },
+        {
+          "name": "Martial Points",
+          "current": "6",
+          "max": "6",
+          "recovery": "Short / Long Rest"
+        },
+        {
+          "name": "Rage Recovery (active)",
+          "current": "1",
+          "max": "1",
+          "recovery": "Once per Short / Long Rest"
+        },
+        {
+          "name": "ATTACKS & COMBAT — base damage; add +2 on STR melee hits while raging",
+          "current": "",
+          "max": "",
+          "recovery": ""
+        },
+        {
+          "name": "ATTACK",
+          "current": "TO HIT",
+          "max": "DAMAGE",
+          "recovery": "NOTES"
+        },
+        {
+          "name": "Double-Claw Rend [Greataxe]",
+          "current": "8",
+          "max": "1d12+5 slashing",
+          "recovery": "ONE STR melee greataxe attack (heavy, two-handed, 7 lb, slashing), visually both claws; all axe mechanics including item, draw/disarm and mastery eligibility remain. No extra attacks from reskin."
+        },
+        {
+          "name": "Handaxe",
+          "current": "8",
+          "max": "1d6+5 slashing",
+          "recovery": "Light, thrown 20/60 ft. Rage bonus applies in melee only; off-hand BA normally omits STR damage."
+        },
+        {
+          "name": "Javelin",
+          "current": "8",
+          "max": "1d6+5 piercing",
+          "recovery": "Thrown 30/120 ft. Rage bonus applies in melee only."
+        },
+        {
+          "name": "Unarmed strike",
+          "current": "8",
+          "max": "6 bludgeoning",
+          "recovery": "STR melee attack; 5 ft."
+        },
+        {
+          "name": "Longtooth fangs",
+          "current": "8",
+          "max": "1d6+5 piercing",
+          "recovery": "While shifted: attack during Shift BA or a BA on later turns; not the Beast Bite healing attack."
+        },
+        {
+          "name": "Beast claws",
+          "current": "8",
+          "max": "1d6+5 slashing",
+          "recovery": "Claws rage form, empty hand. Once/turn: one extra claw attack during the Attack action."
+        },
+        {
+          "name": "Beast bite",
+          "current": "8",
+          "max": "1d8+5 piercing",
+          "recovery": "Bite rage form: on damaging hit on own turn, restore proficiency bonus 3 HP if current HP is below half max (with max59, 29 or fewer). Once per own turn."
+        },
+        {
+          "name": "Beast tail",
+          "current": "8",
+          "max": "1d8+5 piercing",
+          "recovery": "Tail rage form; reach 10 ft. Reaction against a visible creature within 10 ft hitting you: add 1d8 AC against that attack."
+        }
+      ]
+    }
+  ],
+  "inventory": {
+    "Valenthia": [
+      {
+        "item": "Studded Leather",
+        "qty": "1",
+        "holder": "",
+        "detail": "Armor"
+      },
+      {
+        "item": "Shield",
+        "qty": "1",
+        "holder": "",
+        "detail": "Armor"
+      },
+      {
+        "item": "Dart",
+        "qty": "1",
+        "holder": "",
+        "detail": "UNLIMITED DARTS — explicit player-approved standing D182 Miregate house rule: do NOT count, consume, or require retrieval/replenishment of V's dart ammunition. This row's numeric1 "
+      },
+      {
+        "item": "Sack",
+        "qty": "1",
+        "holder": "",
+        "detail": "Container"
+      },
+      {
+        "item": "Thieves' Tools",
+        "qty": "1",
+        "holder": "",
+        "detail": "Tool"
+      },
+      {
+        "item": "Riding Horse",
+        "qty": "1",
+        "holder": "",
+        "detail": "Mount"
+      },
+      {
+        "item": "Saddle, Riding",
+        "qty": "1",
+        "holder": "",
+        "detail": "Mount"
+      },
+      {
+        "item": "Small red gemstone",
+        "qty": "1",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Ornate silver key",
+        "qty": "1",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Intact Blue Conduit",
+        "qty": "1",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "A-04 — Transport Capsule",
+        "qty": "1",
+        "holder": "",
+        "detail": "Contains A-04; sealed and carried"
+      },
+      {
+        "item": "A-01 Consciousness Preservation Capsule",
+        "qty": "1",
+        "holder": "",
+        "detail": "Custody after A-01 release unconfirmed; do not assume carried"
+      },
+      {
+        "item": "Three crystalline conduits",
+        "qty": "1",
+        "holder": "",
+        "detail": "Quantity is a bundle of three conduits, not one crystal"
+      },
+      {
+        "item": "Silver military insignia",
+        "qty": "1",
+        "holder": "",
+        "detail": "Ownership may be contested"
+      },
+      {
+        "item": "Silver captain's signet",
+        "qty": "1",
+        "holder": "",
+        "detail": "Ownership may be contested"
+      },
+      {
+        "item": "Survey map/dispatches/rosters",
+        "qty": "1",
+        "holder": "",
+        "detail": "Recovered Blackthorn documents"
+      },
+      {
+        "item": "Iron keys",
+        "qty": "3",
+        "holder": "",
+        "detail": "From gnoll pack lord; original holder verify"
+      },
+      {
+        "item": "Halden's introduction letter",
+        "qty": "1",
+        "holder": "V",
+        "detail": "Merchant-signed introduction to Carrow estate contacts; not a legal transfer authorization"
+      },
+      {
+        "item": "Rations (1 day)",
+        "qty": "21",
+        "holder": "Party/coach supply: recorded15 ration person-days after Day225 travel (B25). No new deduction. Days208–212 exact site/forage/Mara meal provenance unresolved; D-column history preserved. D224-225-TEMP-HARNESS-MANOR-CELLAR-001.",
+        "detail": "D196–198: 7 ordinary rations purchased personally at5sp each, combined with 2 Cirren-held forage person-days for 9 person-days consumed by Mara/Cirren/Fenar; stock0, travel cost in"
+      },
+      {
+        "item": "Feed (1 day)",
+        "qty": "28",
+        "holder": "Party coach: recorded20 horse-feed animal-days after Day225 travel (B26), four healthy horses at Rethwyn rural yard. Days208–212 exact feed reconciliation unresolved; no assumed consumption or restock. D-column history preserved.",
+        "detail": "D196–198: 12 horse feed-days purchased personally at5cp each, all12 consumed by four horses over 3-day carriage journey; no feed remains. Purchase6sp included once in V purse row29"
+      },
+      {
+        "item": "SOURCE / TRACKER",
+        "qty": "GP",
+        "holder": "STATUS",
+        "detail": "CP"
+      },
+      {
+        "item": "Current campaign ledger (in custody)",
+        "qty": "1185",
+        "holder": "HISTORICAL PERSONAL PURSE TRANSACTIONS (preserved compact ledger; detailed original source trails in Continuity Pack SESSION_LOG/HISTORY and INVENTORY): D199 second Sending Stones V/Meret -350gp, 397gp5sp8cp→47gp5sp8cp; D199 Copper Hart -2→45gp5sp8cp; D200 quarry resupply rations/feed/healer kit -18gp5sp→27gp0sp8cp; D201 Maud private rescue payment +120gp→147gp0sp8cp (quarry Veteran Watch handoff paid0); D201 inn -2gp→145gp; D202 Treasury prior separate Crown reward +1000gp→1145gp, inn -2gp→1143gp; D203 inn -2gp→1141gp; D204 Exchange 695gp restricted estate funding drafts +300gp Revivify diamond gifted Cirren +5gp fee = -1000gp→141gp0sp8cp; D204→205 inn -2gp→139gp0sp8cp; D205 rations35 and feed36 -19gp3sp→119gp7sp8cp; D205 signed future contingent Crown1200gp warrant earned/paid 0; D208-KILN-ANNEX-DISABLE-SEARCH-001 eight defeated humans' personal purses 42gp63sp=48gp3sp→168gp0sp8cp. D208-KILN-COMPANY-COIN-CLAIM-001 ~19:50 V expressly takes original separate Graven strongbox41gp27sp=43gp7sp into personal purse ONCE, 168gp0sp8cp→211gp7sp8cp; coin title potentially disputed, not Crown income/estate receipts. Empty box, Pell silver ring and bulky hardware remain secured at kiln. Archived full line-item transaction descriptions can also be checked in prior Drive revision; no other money movement in this event.\nD215-COPPER-HART-BOOK-001 — Day215~11:30, player directed hire lodgings. Copper Hart booked established TWO-room overnight package D215→216: Mara/Fenar/V previous voluntarily shared room arrangement available without forced interactions; Cirren separate. Three non-Reborn suppers and boarding/hay for four owned horses included. Exactly2gp personal paid ONCE; coin211gp7sp8cp→209gp7sp8cp. No full Long Rest from merely booking; no separate horse feed/supper debit.\nD216-CROWN-GRAVEN-PAY-001: Day216 morning Orsaven Royal Treasury verified signed three-stage anti-undead warrant and authentic Watch receipts/field inspections after Day215 one-working-day accounting delay (expedite d20 7+4=11/DC12 not a failed claim). Crown PAID exactly1200gp personal reward (300 director evidence+300 ossuary rescue/shutdown+600 kiln disabled) in counted gold coin, once, to V; previous personal purse209gp7sp8cp→1409gp7sp8cp. Award completely separate from Day202 paid1000gp and Maud120gp and from disputed company strongbox43gp7sp already in purse. No estate funds or future Crown receivable, no extra bounty. V retains signed original warrant plus new stamped payout receipt; no new owner title/compensation created.\nD216-ELARA-RESUPPLY-001 — Day216~1PM Orsaven normal market supplies, purchased31 ration-days at5sp=15gp5sp plus32 animal feed-days at5cp=1gp6sp =17gp1sp total, from V personal cash1409gp7sp8cp→1392gp6sp8cp. No estate account charge, no bargain or future consumption; previous paid inn2gp and Crown commission1200gp already posted ONCE.\nD216-BREAKWATER-GALEPIERCE-BUY-001 — Day216 Orsaven Breakwater Smithy: V expressly accepted negotiated 130gp cash price for ONE original Galepierce Dart (Saddlebag Book One p70; former skiff partners' consignment); previous purchase haggled with Mara Help and Cirren Guidance, owners agreed 130 instead of initial150. Physical dart obtained, no extra charges; purse1392gp6sp8cp→1262gp6sp8cp. This is one specific magical dart, not an upgrade to V's inherited silver sword or unlimited mundane darts. Stock with Breakwater Smithy reduced1→0 under SAME event ID. No commission/deposit on separate Serpent Dart, Hadiya's Handy Quill, Weaving Wasp Needles inquiries.\nD227-RETHWYN-REWARD-COLLECT-001 — Day227 late afternoon, CAERETH Lady Elara Rethwyn CITY residence: V explicitly took BOTH two200gp contracted Rethwyn reward purses, total+400gp paid once, personally carried; prior1262gp6sp8cp→1662gp6sp8cp. Two original commissions complete/accepted, no estate or funeral charge; old watchtower rumor and sister Anwen/burial still unresolved.\nD228-CAERETH-SUPPLIES-PURCHASE-001 & D228-CAERETH-CLOCKWORK-AMULET-BUY-001: Day228 Caereth cash purchase 21 rations10gp5sp +28 horse-feed1gp4sp =11gp9sp and one Clockwork Amulet for50gp. Total V personal coin out61gp9sp exactly, 1662gp6sp8cp→1600gp7sp8cp. NO coach harness leather repair2gp ordered, no estate funds. Amulet added physical V inventory row173; unique Copper Dial Magic Shops stock qty1→0 under same event. No duplicate item/payment.\nD228-CAERETH-HARNESS-MERET-STONES-001 — Day228 late afternoon, Caereth King's Road Carters: V expressly accepted quoted TWO gp proper replacement of torn coach draft-leather fastening, fitted and checked by working saddler; V cash1600gp7sp8cp→1598gp7sp8cp. Prior Day130 V-owned fifty-foot rope untied clean and recovered into coach stores, intact quantity1; no new rope added, no additional fee. Day228 V also used shared V/Meret Sending Stone 1/1→0/1 (no money/spell cost). Meret received user-directed charter/captain instruction and answered within25 words; no vessel booked/departure or site cost yet.\nD228-CAERETH-PIGEON-DISPATCH-001 — Day228 early evening CAERETH capital postal exchange, V paid a NEW quoted total 1gp4sp for registered miniature two-letter commercial dispatch pouch on an available ORSAVEN-HOMED pigeon (direct Tarnford-homed bird unavailable this evening per executed clerk stock check, see SESSION_LOG). From Orsaven postal desk, route letter for Tamsin via known Orsaven→Tarnford partnered relay then local Blackthorn courier and letter for Meret via regular Orsaven→Miregate delivery; charges include both forwarding legs. Letters actually dispatched on pigeon Day228 before dusk, recipients' receipt/date not confirmed, not instant telepathy. Separate V personal coin1598gp7sp8cp→1597gp3sp8cp ONCE, no House/Property expense.\nD231-MIREGATE-RESERVE-TRANSFER-001 — Explicit player owner contribution400gp to Miregate,1597gp3sp8cp→1197gp3sp8cp PERSONAL balance once. Same400 coins now estate-owned, physically retained by V pending actual remittance; separately tracked row174 and Property SetupB39, not available personal spending or yet Meret localcash. No duplicate695gp204, no invented courier/bank transfer, no SendingStone use.\nD231-MIREGATE-TRANSFER-FARM-RETCON-001: latestplayerretcon confirms existing400gp contribution received by Meret at original231posting; previousV-held/pendingremittance narrative superseded. PERSONAL1197gp3sp8cp unchanged, no seconddebit; Vretainedestatecash0, row174historicclosed.\nD231-RETHWYN-FUNERAL-PREPAY-001 — Day231 rural Rethwyn manor NEAR SUNSET user explicitly directs V to pay ALL already-quoted funeral costs EARLY, before Elara can settle them. V directly and discreetly advances 6gp to local mason for Iven Marlowe simple named limestone grave marker; pays 4gp to household kitchen for entire Day232 tenant bread preparation/ingredients and baking; sends/entrusts paid 2gp voluntary chapel offering via available Rethwyn household messenger to Brother Edran/Tyr village chapel, with recipient/chapel ledger confirming acceptance before evening. Total personal cash paid EXACTLY12gp; purse1197gp3sp8cp→1185gp3sp8cp. All vendors/service holders accept these fixed known estimates as PREPAYMENT for promised Day232 service/goods. Marker not yet completed/delivered, bread not yet baked/served, rite not yet performed and chapel offering is a voluntary gift (no required fee). The separate prior 400gp Miregate owner contribution was already received and recorded by Meret; V - Inventory row174 shows qty0 and closed receipt, and is untouched by this funeral payment; no House Rethwyn cash or House Vaishnavi estate funds debited. Two already household-employed estate gravediggers do not present additional independent invoices; no optional tips silently chosen. Elara will independently react when she discovers payments, cannot retroactively charge herself or Anwen unless player agrees. Itemized expenditures recorded once; no extra rewards, resources, rest or day advance.",
+        "detail": "8"
+      },
+      {
+        "item": "Estate cash — close230; Day231 open",
+        "qty": "453",
+        "holder": "D231-ESTATE-CATCHUP-001: Property owns estate balances. Fullclose230/current231 late morning open; six days225–230 caughtup. Blackthorncash453.33,stock349.43, wages14.60/operations10.76/Carrow73.28/tax72.37due272,available282.32. F02accepted/paid230;F03onsitepassed231,targetshared232/accept239. D231-MIREGATE-FOLLOWUP-REPAIR-001: Miregate cash83.80 (80reserve+3.80crew payroll),wages54.80/upkeep25.83,available−76.83;66.60overdue229,14.03due236.20gp repeat berth earned/collected230;16.20 overdue wages paid. Neris233 conditional6t/24gp advance, storage no currentlot, Elden10t237 nextcall notearned. Reedbedbench225/loadedcert228,cash87.80,8.60due236,reserve55,available24.20;Fortcash190,wages5due236,reserve55,available130,commissioningheld.695funding204alreadydeductedonce; this estateupdate makes NO personal transfer. Personal purse remains owned by row29.\nCURRENT231 owner action supersedes river financial captions above: D231-MIREGATE-RESERVE-TRANSFER-001: Day231 late morning current cash postings; full close230 retained. Reserve80 released.20 from Reedbed+60 from Fort+400 new V owner capital;400 still V-held pending physical remittance. Meret settles overdue44 wages+22.60 upkeep once. Miregate total cash497.20, locally held97.20, V-held400; wages10.80+upkeep3.23=14.03 due236, no overdue229; local available83.17. Funding/transfers/payment do not change operating loss346.83 or tax0. Reedbedcash67.80/reserve55/liabilities8.60/available4.20;Fortcash130/reserve55/liabilities5/available70. Blackthorn mirror453gp3sp3cp unchanged. New400personal contribution accounted once row29/174.\nCURRENT RETCON D231-MIREGATE-TRANSFER-FARM-RETCON-001: Miregate497.20 allreceived/availabletoMeret,14.03due236,reserve0,available483.17; previous400V-held/83.17localavailable superseded. Vpersonal1197gp3sp8cp unchanged.20Reedbed/60Fort and arrearspayments unchanged. Farm investigation begins171mandate/195paidsetup;4acretrial assessed205,64quote207, purchasedgrain26.80pilot/34.20potentialbuyerquote219; no crop/ownedgrain acquired. Property owns details.\nCURRENT LOCAL-FARMER RETRO CORRECTION D231-MIREGATE-LOCAL-FARMERS-RETRO-001: prior497.20/483.17 financial snapshots superseded. Miregate cash501.40,14.03due236,available487.37; completed230/current231open unchanged. New224Hessa2t milling8gp earned/received,3.80crew paid229;4.20earned margin pays Meret229, original23144 payment corrected39.80 (total44once). Cumulative revenue90/cost432.63/loss342.63, no tax/advances/receivable/customerstock. Hessa next2t2328gp arrival payment assented224; Joren storage declined219,nextneed232. No House grain acquired. All400 ownercapital already received by Meret, Vpersonal1197gp3sp8cp unchanged; no new personal or cross-estate transfer. Property owns detailed terms.\nCURRENT REEDBED PASSING-TRADE SUPPLEMENT D231-REEDBED-PASSING-TRADE-RETRO-001: Reedbedcash71.80 afterunchanged20gp Miregatetransfer;8.60due236,reserve55,available8.20. NewlocalboatmanTarin2t unload2304gp earned/paid; totalservice8gp,cost219.80,loss211.80,tax0; no newcost/doublepay, customerstock0. Next2t2374gp assentedat230acceptance, actualarrivalneeded; Neris12t234 unchanged. PriorReedbedcash67.80/available4.20 snapshots superseded only. Miregate501.40/487.37,Fort130/70,Blackthorn453.33 andVpersonal1197gp3sp8cp unchanged. Dailyclose230/current231open retained. Property ownsdetailedtransactions.\nCURRENT BOAT CORRECTION D231-ESTATE-BOATS-RETRO-001: allfour recoveredhulls areestateowned, Miregate skiff/punt andReedbed two barges. Newretrospective229/230 bargeservice/test adds8gp paidrepair: RBcash63.80/liabilities8.60/reserve55/available0.20, cumulativecost227.80/loss219.80/tax0.12t/10t bargeslocallyoperational, no upper-routepilot/tow orfreightbooked. Skiff1833people+gear preserved; puntmajorrebuildpendingqualifiedscope/slot, next232. Otherestate/personalbalances unchanged; fullclose230/current231open.\nCURRENT D231-ESTATE-NO-RESERVES-001: NO protected cash reserves at any estate, now or future. RB55→0 andFort55→0 restrictions released; cash unchanged. Currentcash/available-after-actual-liabilities: BT453.33/282.32;MG501.40/487.37;RB63.80/55.20;Fort130/125. Actual wages/tax/Carrow/suppliers remain accrued until paid; no expense/transfer/newpersonal debit. No discretionary floor may be automatically reinstated. Fullclose230/current231late morning open unchanged.",
+        "detail": "3"
+      },
+      {
+        "item": "Sending Stones (matched pair)",
+        "qty": "1",
+        "holder": "CURRENT Day201 DAWN: V↔Tamsin original matched Sending Stones recharge to ONE SHARED USE AVAILABLE1/1 after documented ordinary Day200 check-in (was0/1). No Day201 check-in, exact messages, estate transactions or instructions automatically performed. Independent V↔Meret pair remains separate/untouched. D200-201-QUARRY-PRISONER-REST-001 D204-205-LETHRA-WAIT-001: As of Day205~10AM original V/Tamsin Sending Stone1/1 available after dawn reset; routine Day204 administrative exchange not an estate transaction or resource loss beyond the stone's prior-day usage. D205-206-FIR-CAMP-001: Current Day206 original pair1/1 ready after Day205 evening routine check-in and dawn reset; no Day206 call yet. D206-207-QUARRY-CAMP-001: As of Day207 dawn V/Tamsin original paired stone available1/1 after routine Day206 evening business check; Meret separate pair1/1, no Day207 use.",
+        "detail": "D199-TAMSIN-DAILY-CONTINUITY-001: Player retroactively confirms one V↔Tamsin matched Sending Stones daily business check-in on EACH day D183–D199 inclusive, continuing already cano"
+      },
+      {
+        "item": "Mara Venn mission float (V-owned, Mara custody)",
+        "qty": "250",
+        "holder": "D183 ~7:15AM V entrusted Mara Venn 250gp of EXISTING PERSONAL money for Crown prisoner custody/guard trip, inspection, workers/mill parts/causeway/berth and lawful reimbursement petitions; she can act prudently under V's full discretionary authorization but cannot borrow or use Blackthorn estate funds. Mara Venn personally holds this V-owned cash in the reinforced coach; V-held purse row29 is now158gp149sp8cp. Combined V-owned personal funds 408gp149sp8cp; not an expense, no reward paid. Escort assets: coach+two draft horses V-owned; Cirren temporarily rides one of two V-owned riding horses (to return), other with V/Fenar at Miregate. 8 V ration person-days+14 feed animal-days on coach; 8 V rations+18 feed days stay at Miregate. One V-owned rope coil loaned to Mara for prisoners; one remains with V. Two prisoners transferred to competent north-levee Crown constable D183 noon, formal receipt obtained (Mara retains receipt); Mara continues north on official escort, Cirren returns same day. No monetary expense yet booked at D183 handoff.",
+        "detail": "0"
+      },
+      {
+        "item": "Fenlock inspection commission and estate survey",
+        "qty": "1",
+        "holder": "V",
+        "detail": "Signed permission to assess confirmed Carrow lands at Blackthorn; does not grant ownership, extraction or occupation. Old estate survey included."
+      },
+      {
+        "item": "Hemp rope, 50 ft (additional)",
+        "qty": "1",
+        "holder": "V-owned coil; last confirmed kiln restraints208. Post212 Watch handoff recovery/holder VERIFY; not counted as freely available or still Fenar-guarded.",
+        "detail": "D183 ~7:15AM of two V-owned additional hemp ropes, ONE remains in V/Fenar Miregate packs and ONE V-owned coil is temporarily in Mara's coach used on two prisoners for road escort, "
+      },
+      {
+        "item": "Torches (additional)",
+        "qty": "10",
+        "holder": "Party packs",
+        "detail": "Ten additional torches"
+      },
+      {
+        "item": "Chalk (additional)",
+        "qty": "10",
+        "holder": "Party packs",
+        "detail": "Ten pieces of chalk"
+      },
+      {
+        "item": "Cloak of Protection",
+        "qty": "1",
+        "holder": "V",
+        "detail": "Purchased 500 gp at Gilded Moth; attuned by V. AC +1 and saving throws +1 while worn."
+      },
+      {
+        "item": "Additional riding saddle",
+        "qty": "1",
+        "holder": "Party",
+        "detail": "For riding on the existing pack horse; 10 gp"
+      },
+      {
+        "item": "Bit and bridle",
+        "qty": "1",
+        "holder": "Party",
+        "detail": "One additional bridle for existing pack horse, now Cirren's riding horse; 2 gp. Second extra bridle cancelled/refunded."
+      },
+      {
+        "item": "Hemp rope, 50 ft (Day130 additional)",
+        "qty": "1",
+        "holder": "V-owned, intact 50-ft coil available in coach baggage (recovered Day228)",
+        "detail": "New coil; previous 2 Day44 coils remain (total 3 recorded coils).\nD224-225-TEMP-HARNESS-MANOR-CELLAR-001 — Day224 night temporary carriage repair: Fenar used V's separate Day130 50"
+      },
+      {
+        "item": "Healer's kit",
+        "qty": "3",
+        "holder": "Party/Cirren; one charge spent Day165, earlier use history VERIFY NEW3rd kit 10/10 charges available, old two VERIFY; D200-QUARRY-RESUPPLY-DEPART-001.",
+        "detail": "Two kits bought130,10 charges each originally. One confirmed charge used165 to stabilize bandit; earlier use totals/pack allocation unverified. No refresh or170 use. D200-QUARRY-RE"
+      },
+      {
+        "item": "Torches (Day130 additional)",
+        "qty": "10",
+        "holder": "Party supplies",
+        "detail": "10 new torches on top of 10 recorded Day44; actual use since then not adjusted per player instruction."
+      },
+      {
+        "item": "Waterskins (filled)",
+        "qty": "6",
+        "holder": "V/Mara/Cirren party supplies (6); Fenar owns 1 separate",
+        "detail": "6 V/party-owned filled waterskins (3 old+3 new, all filled before departure); Fenar separately owns one waterskin, making 7 accessible to four travelers. Water still must be replen"
+      },
+      {
+        "item": "Rations purchased Day130",
+        "qty": "24",
+        "holder": "Party supplies",
+        "detail": "Historical purchase quantity24, already included in later provision tracking. Current aggregate rations are12 person-days at row25; do not add this purchase again."
+      },
+      {
+        "item": "Animal feed purchased Day130",
+        "qty": "8",
+        "holder": "Historical cart load; current stock row26",
+        "detail": "Historical Day130 purchase of8 animal-feed days, already included in later provision tracking. Current feed is tracked in row26; do not add this purchase again."
+      },
+      {
+        "item": "Wayfinder's Needle",
+        "qty": "1",
+        "holder": "Party custody VERIFY",
+        "detail": "Portable uncommon wayfinding compass recovered after Lower Works exploration; contractual title/custody unverified."
+      },
+      {
+        "item": "Iron gate keys",
+        "qty": "3",
+        "holder": "Party custody VERIFY",
+        "detail": "Keys recovered from Lower Works No.3; keep separate from Blackthorn watchpost keys."
+      },
+      {
+        "item": "Removed wayfinding anchor and repair records",
+        "qty": "1",
+        "holder": "Custody VERIFY",
+        "detail": "Anchor, keeper instructions and repair observations associated with Old North Thorn Road commission; status with commissioner VERIFY."
+      },
+      {
+        "item": "Historical Ossent maps (six)",
+        "qty": "6",
+        "holder": "Mara / party library collection",
+        "detail": "Six copied historical Ossent regional maps, including pre-Crownsunder-independence geography, part of 65 gp combined purchase with botanical manuscript."
+      },
+      {
+        "item": "Pre-Convergence botanical manuscript",
+        "qty": "1",
+        "holder": "Mara / future library",
+        "detail": "Illustrated copied botanical and medicinal comparisons with post-Convergence margin notes. Included in 65 gp combined purchase with maps."
+      },
+      {
+        "item": "Ancient North Thorn silver coin — gifted to Mara",
+        "qty": "1",
+        "holder": "Mara",
+        "detail": "One of 12 North Thorn recovered ancient silver coins retained as V's gift to Mara; other 11 sold for 55 gp. Distinct from her earlier gifted ancient coin."
+      },
+      {
+        "item": "Copied Bluewater ledger excerpts and invoice details",
+        "qty": "1",
+        "holder": "V holds handwritten copies",
+        "detail": "V copied the Bluewater repair, salvage and compound entries on Day 162. The watch seized Derrick’s original private ledger and related records on Day 163."
+      },
+      {
+        "item": "Evening picnic hamper (cheese, meats, breads, dips)",
+        "qty": "1",
+        "holder": "V / party at Copper Hart; any edible leftovers unquantified",
+        "detail": "Day164 feast eaten in part. V returned all remaining portions and packaging from rooftop on Day165 morning to Copper Hart. Exact edible leftovers unknown; do not invent a full fres"
+      },
+      {
+        "item": "Fine wine, two bottles",
+        "qty": "2",
+        "holder": "V / party at Copper Hart; original two bottles, unquantified wine remaining",
+        "detail": "Talassari red/Ossent white bought164, shared; both bottles recovered165. Remaining contents unknown, not two full unopened bottles."
+      },
+      {
+        "item": "Thick wool blanket",
+        "qty": "1",
+        "holder": "V / party at Copper Hart",
+        "detail": "Thick purchased wool blanket; V collected rooftop after the date Day165 morning and brought it to Copper Hart; property retained."
+      },
+      {
+        "item": "Sleeping furs",
+        "qty": "2",
+        "holder": "V / party at Copper Hart",
+        "detail": "Two purchased sleeping furs; V collected both from rooftop Day165 morning, returned to Copper Hart. No gear lost."
+      },
+      {
+        "item": "Crownward Annuity original private recovery docket",
+        "qty": "1",
+        "holder": "V — original quest evidence",
+        "detail": "Stamped Crownward; Sedgewick original beneficiary vouchers; sealed return to managing partner's private office; 12gp collection allowance; 'M.Q.' initials NOT independently authent"
+      },
+      {
+        "item": "Pellam Greave signed witness statement (original)",
+        "qty": "1",
+        "holder": "V — original quest evidence",
+        "detail": "Signed under V threat: hired3 men (3 gp advance/9 promised) for Nalia vouchers. Did not see Quenwood sign or witness murders; duress challenge possible."
+      },
+      {
+        "item": "Crownward beneficiary financial books and signed memoranda (original evidence bundle)",
+        "qty": "1",
+        "holder": "District Watch official evidence custody; Cirren holds signed inventory transfer receipt",
+        "detail": "Four originals sealed/receipted by Watch165: beneficiary ledger,4-C index, private disbursement book, recovery memos. Cirren holds receipt; party quantity0. No conviction."
+      },
+      {
+        "item": "Brune courier receiving acknowledgment — handwritten copy",
+        "qty": "1",
+        "holder": "Mara / party — copied quest evidence",
+        "detail": "Mara's copy: courier acknowledgment for7 sealed bottles. Courier independently admitted collecting/signing165; no forensic handwriting test. Brune retains original pending Watch re"
+      },
+      {
+        "item": "Brune fever-preparation safety warning — handwritten copy",
+        "qty": "1",
+        "holder": "Mara / party — copied quest evidence",
+        "detail": "Mara's copy: Brune's contemporaneous warning against unsupervised/vulnerable use. Original ledger remains Brune's pending formal pickup; no forensic assay."
+      },
+      {
+        "item": "Lowland Contracts Reception invitation — V",
+        "qty": "1",
+        "holder": "V",
+        "detail": "V's independent free commercial delegate pass, House Vaishnavi/Blackthorn, Day172 doors4 PM. No alliance or contracts."
+      },
+      {
+        "item": "Lowland Contracts Reception invitation — Mara",
+        "qty": "1",
+        "holder": "Mara Venn",
+        "detail": "Mara's separate free pass as Head of Antiquities, Day172 doors4 PM; scholarly autonomy, no fixed pay/budget."
+      },
+      {
+        "item": "Fine formal clothes — white/silver/gold",
+        "qty": "1",
+        "holder": "V — worn at Day172 reception",
+        "detail": "Simplified Ancient Lord-inspired fitted formal coat, white base, silver edging and gold accents. Minor alteration completed and picked up Day171 evening; worn to Day172 4PM Orsaven"
+      },
+      {
+        "item": "Miregate Keep — Isbet's annotated approach tracing",
+        "qty": "1",
+        "holder": "V — carried",
+        "detail": "Historical Day171 workshop tracing of Miregate's damaged main causeway, high-bank service track, maintenance stair and manual bypass; informational only, no grant/title/contract. D"
+      },
+      {
+        "item": "Period",
+        "qty": "Sales (gp)",
+        "holder": "Audit status",
+        "detail": "Surplus (gp)"
+      },
+      {
+        "item": "Days88–101",
+        "qty": "208",
+        "holder": "Audited during play",
+        "detail": "6"
+      },
+      {
+        "item": "Days102–129",
+        "qty": "656",
+        "holder": "Audited during play",
+        "detail": "146"
+      },
+      {
+        "item": "Days130–169",
+        "qty": "904",
+        "holder": "Tamsin provisional receipts/costs BEFORE separate180gp production capex; includes paid Millford312gp.",
+        "detail": "166"
+      },
+      {
+        "item": "TOTAL",
+        "qty": "1768",
+        "holder": "Combined ordinary operating surplus, BEFORE separate180gp production capex.",
+        "detail": "318"
+      },
+      {
+        "item": "Historical Day87 opening — superseded",
+        "qty": "84.7",
+        "holder": "72gp127sp = 84gp7sp; after earlier 173gp repair +67gp overhead",
+        "detail": ""
+      },
+      {
+        "item": "Historical Day169 source cash estimate — superseded",
+        "qty": "222.7",
+        "holder": "Original 222.70 gp estimate retained as superseded history. Current reconstructed estate cash and Carrow reserve are in row 31 and the Property ledger.",
+        "detail": ""
+      },
+      {
+        "item": "Historical Day169 pre-retcon coins (as reported)",
+        "qty": "210",
+        "holder": "Original 210 gp / 127 sp denomination estimate retained as superseded history. It is not the current balance; use row 31 and the Property ledger.",
+        "detail": "222.7"
+      },
+      {
+        "item": "Status",
+        "qty": "Stone (tons)",
+        "holder": "Only delivered goods are sales",
+        "detail": "Value (gp)"
+      },
+      {
+        "item": "First-phase contracted",
+        "qty": "18",
+        "holder": "Firm total438gp",
+        "detail": "438"
+      },
+      {
+        "item": "Delivered & paid",
+        "qty": "12",
+        "holder": "312gp already within904gp regular receipts. Procurement began129; paid by169. Individual delivery dates were not recorded; ledger uses149/169, each6t stone/2t lumber.",
+        "detail": "312"
+      },
+      {
+        "item": "Undelivered balance",
+        "qty": "6",
+        "holder": "126gp backlog:6t stone/1t common lumber now reserved from closing stock. Dispatch187/delivery188 remains planned; not earned or paid.",
+        "detail": "126"
+      },
+      {
+        "item": "Possible next phase",
+        "qty": "7",
+        "holder": "202gp possible ONLY; not ordered",
+        "detail": "202"
+      },
+      {
+        "item": "Scheduled Days181–220 production",
+        "qty": "40",
+        "holder": "Historical source plan:40t stone/14t lumber in35 shifts; retained for provenance. The later active181–220 forecast is40t stone/35t timber in Blackthorn - Forecast. Neither forecast is physical stock or guaranteed sales.",
+        "detail": "1060"
+      },
+      {
+        "item": "Installed investment",
+        "qty": "Spent (gp)",
+        "holder": "Accounting distinction",
+        "detail": "Operational effect"
+      },
+      {
+        "item": "Quarry hoist, rigging & stone handling",
+        "qty": "54",
+        "holder": "Tamsin authorized retroactively, standard working seam only",
+        "detail": "Installed; reduces loading/handling bottleneck"
+      },
+      {
+        "item": "Sawmill blade, feed table & spare fittings",
+        "qty": "41",
+        "holder": "No northern oldgrowth clearance",
+        "detail": "Installed; fewer pauses and reliable cutting"
+      },
+      {
+        "item": "Covered air-drying racks & timber storage",
+        "qty": "29",
+        "holder": "Does not create wood or guaranteed buyer",
+        "detail": "Installed; improved drying/storage space"
+      },
+      {
+        "item": "Stone sledges & loading yard improvements",
+        "qty": "26",
+        "holder": "Does not secure new freight carriers",
+        "detail": "Installed; more manageable freight loading"
+      },
+      {
+        "item": "Two production workers: hire/train/first pay",
+        "qty": "30",
+        "holder": "Two ordinary hands2sp/day.30gp bundle modeled as0.40gp first-day wages already in payroll plus29.60gp recruitment/training. Exact hire dates unrecovered; no duplicate wage.",
+        "detail": "One quarry hand and one sawmill hand added"
+      },
+      {
+        "item": "TOTAL PRODUCTION INVESTMENT",
+        "qty": "180",
+        "holder": "180gp already spent and deducted from historical estate cash ONCE. Under new 3% gross-profit owner deal, capital expenditure does not separately reduce gross-profit base (apart from genuine directly attributable goods-production costs already recorded).",
+        "detail": ""
+      },
+      {
+        "item": "Historical Day169 cash estimate — superseded",
+        "qty": "222.7",
+        "holder": "Original222.70gp calculation preserved for provenance. Current reconstructed balances are in Property and row31.",
+        "detail": ""
+      },
+      {
+        "item": "PRE-CAPEX figure (superseded)",
+        "qty": "402.7",
+        "holder": "402gp7sp was balance before previously omitted capital reinvestment",
+        "detail": ""
+      },
+      {
+        "item": "Miregate Keep — Crown conditional recovery undertaking",
+        "qty": "1",
+        "holder": "V — carried",
+        "detail": "Countersigned Crown undertaking names House Vaishnavi conditional recovery claimant, not a deed. Compound clearance/full sweep and safe-flow test completed Day182; formal local ins"
+      },
+      {
+        "item": "Pevra Solm & North Quay Joiners — two written trial specifications and pickup offers",
+        "qty": "2",
+        "holder": "V — carried (two paper sheets)",
+        "detail": "Original Day172 written pickup specifications/quotes (original validity through212), retained as provenance. Latest Day182 player adoption agrees Pevra8t dressed stone at24gp/t (19"
+      },
+      {
+        "item": "Tents, two-person",
+        "qty": "2",
+        "holder": "V-owned party coach/load",
+        "detail": "Two ordinary2014 tents, each sheltering two people, remain V-funded party expedition gear with the current coach/load (the former mule/cart was traded Day180). No permanent sleepin"
+      },
+      {
+        "item": "Ophira Drel — Day174 old-index inquiry note",
+        "qty": "1",
+        "holder": "V — carries paper note",
+        "detail": "Physical folded note written by Ophira on Day174 replying to V and Mara's explicit Day172 request. Her working notes contain only an incomplete SECONDARY copy of a possible similar"
+      },
+      {
+        "item": "Historical Day169 PRE-SHARE cash (gp)",
+        "qty": "222.7",
+        "holder": "222.70gp historical original post-capex audit; not overwritten.",
+        "detail": ""
+      },
+      {
+        "item": "Sales received Days88–169 (gp)",
+        "qty": "1768",
+        "holder": "Historical recorded sales; includes already-paid312gp Millford, no new contracts.",
+        "detail": ""
+      },
+      {
+        "item": "Operating costs Days88–169 (gp)",
+        "qty": "1450",
+        "holder": "Combined direct production and general overhead; original source does not break categories out.",
+        "detail": ""
+      },
+      {
+        "item": "80% direct share — REJECTED hypothesis",
+        "qty": "80%",
+        "holder": "NOT supported by earlier reporting: known overhead188gp (Days102–129)+268gp (Days130–169)=456gp of1450gp, over31% before further indirect expenses. Do NOT treat as approved historical classification.",
+        "detail": ""
+      },
+      {
+        "item": "80% scenario direct costs — NOT VERIFIED",
+        "qty": "1160",
+        "holder": "Estimated direct production labor/materials/handling only. Do not conflate with separate180gp capital outlay.",
+        "detail": ""
+      },
+      {
+        "item": "80% scenario gross profit — NOT VERIFIED",
+        "qty": "608",
+        "holder": "Sales minus modeled COGS; general overhead excluded from gross profit calculation.",
+        "detail": ""
+      },
+      {
+        "item": "Carrow gross-profit share rate",
+        "qty": "3%",
+        "holder": "User-approved Day180 new rule: 3% of positive gross profit.",
+        "detail": ""
+      },
+      {
+        "item": "80% scenario Carrow share — NOT BOOKED",
+        "qty": "18.24",
+        "holder": "Archived invalid 80/20 hypothesis, never booked. Its 18.24 gp result does not govern the current payable; use Property and row 31.",
+        "detail": ""
+      },
+      {
+        "item": "204.46gp scenario — DO NOT SPEND",
+        "qty": "204.46",
+        "holder": "Archived invalid 80/20 hypothesis. The 204.46 gp scenario and 222.70 gp source estimate are superseded; current cash and Carrow are reconstructed in Property.",
+        "detail": ""
+      },
+      {
+        "item": "Modeled general overhead (gp)",
+        "qty": "290",
+        "holder": "290gp, remainder of 1450gp ordinary costs; both expense categories are estimates.",
+        "detail": ""
+      },
+      {
+        "item": "Historical Day59 acquisition deposit (gp)",
+        "qty": "100",
+        "holder": "Already paid/posted before Day87 cash opening; do NOT subtract again or treat it as new Day180 expense.",
+        "detail": ""
+      },
+      {
+        "item": "Day170–180 net cash — reconstructed",
+        "qty": "(32.27)",
+        "holder": "234.80gp receipts less267.07gp operating payments =−32.27gp. No Carrow remittance. Settlement dates are documented reconstruction assumptions.",
+        "detail": ""
+      },
+      {
+        "item": "Historical reconciliation status",
+        "qty": "RESOLVED — reconstructed",
+        "holder": "The Property ledger supersedes the archived scenarios above. Historical output, surplus collection dates and cost settlements use explicit reconstruction assumptions; no balancing loan or owner transfer.",
+        "detail": ""
+      },
+      {
+        "item": "Day180 cash — equivalent coins",
+        "qty": "572 gp 1 sp 1 cp",
+        "holder": "Equivalent denomination of reconstructed cash, before52.58gp Carrow reserve; not a physical coin count. Current estate values in row31.",
+        "detail": ""
+      },
+      {
+        "item": "Days102–129 quarry/timber direct",
+        "qty": "252",
+        "holder": "132gp quarry+120gp timber/milling; earlier itemized statement, classified direct.",
+        "detail": ""
+      },
+      {
+        "item": "Days102–129 guards/steward/upkeep indirect",
+        "qty": "188",
+        "holder": "112gp guards+56gp steward+20gp upkeep; not directly attributable to output.",
+        "detail": ""
+      },
+      {
+        "item": "Days102–129 freight/maintenance ambiguous",
+        "qty": "70",
+        "holder": "40gp freight/handling+30gp maintenance; cannot assume all direct.",
+        "detail": ""
+      },
+      {
+        "item": "Days130–169 quarry/timber crew direct",
+        "qty": "354",
+        "holder": "Earlier provisional cost report; direct production.",
+        "detail": ""
+      },
+      {
+        "item": "Days130–169 guards/steward/upkeep indirect",
+        "qty": "268",
+        "holder": "Earlier provisional report; overhead.",
+        "detail": ""
+      },
+      {
+        "item": "Days130–169 freight/maintenance/repairs mixed",
+        "qty": "116",
+        "holder": "Earlier provisional report; direct/indirect division missing.",
+        "detail": ""
+      },
+      {
+        "item": "Days88–101 operating costs not itemized",
+        "qty": "202",
+        "holder": "No verified breakdown; treat as unknown, not automatically 80% direct.",
+        "detail": ""
+      },
+      {
+        "item": "Known minimum direct COGS",
+        "qty": "606",
+        "holder": "606gp minimum of named direct categories; ignores possible direct component of ambiguous costs.",
+        "detail": ""
+      },
+      {
+        "item": "Known minimum indirect overhead",
+        "qty": "456",
+        "holder": "456gp named overhead; >20% of 1450gp. 80% direct cost hypothesis incompatible with these categories.",
+        "detail": ""
+      },
+      {
+        "item": "Maximum possible direct COGS under categories",
+        "qty": "994",
+        "holder": "994gp if all mixed/unspecified costs were direct. Upper bound, not plausible confirmed allocation.",
+        "detail": ""
+      },
+      {
+        "item": "Minimum possible historical Carrow share",
+        "qty": "23.22",
+        "holder": "23.22gp if all ambiguous costs count direct; diagnostic minimum, not accepted bill.",
+        "detail": ""
+      },
+      {
+        "item": "Maximum possible historical Carrow share",
+        "qty": "34.86",
+        "holder": "34.86gp if only named direct costs count; diagnostic maximum, not accepted bill.",
+        "detail": ""
+      },
+      {
+        "item": "Lower provisional post-reserve availability",
+        "qty": "187.84",
+        "holder": "Archived187.84gp diagnostic bound; superseded by the complete property reconstruction. Not live cash.",
+        "detail": ""
+      },
+      {
+        "item": "Upper provisional post-reserve availability",
+        "qty": "199.48",
+        "holder": "199.48gp (=199gp4sp8cp) before unknown Days170–180 activity; not live cash.",
+        "detail": ""
+      },
+      {
+        "item": "Current resolution — see Property",
+        "qty": "LIVE → Property / Estates",
+        "holder": "Current estate accounts belong only in the existing Property workbook. Start at Estates, then Blackthorn - Overview or Miregate - Overview and their estate-prefixed registers. Blackthorn - Opening Balances preserves the Day182 close; hidden Archive - Blackthorn tabs retain detailed evidence. Hedda owns the existing horses; Blackthorn pays all draft-horse costs and owns future purchases/replacements.",
+        "detail": ""
+      },
+      {
+        "item": "ASSET / MOVEMENT",
+        "qty": "QTY",
+        "holder": "STATUS",
+        "detail": "DETAILS AND CUSTODY"
+      },
+      {
+        "item": "Comfortable road coach",
+        "qty": "1",
+        "holder": "V-owned, party transport — ACTIVE",
+        "detail": "Dark finished enclosed carriage, padded passenger seating, weather protection, reinforced wheels, undercarriage luggage room; properly matched two-horse harness and reins included "
+      },
+      {
+        "item": "Draft horse pair",
+        "qty": "2",
+        "holder": "V-owned, coach team — ACTIVE",
+        "detail": "Two sound draft horses bought from Vossick's cooperating horse dealer; matched to pull the coach. Not extra riding horses. Normal ordinary team-care required."
+      },
+      {
+        "item": "Riding horses TOTAL (summary only)",
+        "qty": "2",
+        "holder": "V-party existing mounts, unchanged",
+        "detail": "Existing first riding horse plus former pack horse (Cirren's current mount). No third riding horse, third saddle or extra bridle purchased; row10 tracks first one historically, sec"
+      },
+      {
+        "item": "Net personal transaction",
+        "qty": "1",
+        "holder": "Day180 completed purchase",
+        "detail": "V personal GP639→413; silver162 and copper8 unchanged. Blackthorn estate and Fenar10gp personal unchanged. No separate harness, saddle or third riding horse expense."
+      },
+      {
+        "item": "Feed planning after trade",
+        "qty": "40 feed animal-days",
+        "holder": "Resupply complete; 40 animal-days / 4 horses = 10 days",
+        "detail": "Day180 ~12:40PM resupplied 28 additional feed-days at5cp each (1gp4sp) via adjoining Orsaven stable supplier, adding to12 existing=40 animal-days. Team two riding horses plus two d"
+      },
+      {
+        "item": "Orsaven feed resupply — Day180",
+        "qty": "28",
+        "holder": "V-owned party stores; purchase completed",
+        "detail": "Purchased Day180 ~12:40PM from stable supplier adjoining Harlan Vossick coachwright; loaded into new road coach. Existing feed12 animal-days+28 new=40 total, no feed spent; four ho"
+      },
+      {
+        "item": "Reed Lantern Wayhouse booking — Day180",
+        "qty": "1",
+        "holder": "PREPAID 4gp5sp package complete; separate bath tab4sp UNPAID, see row157",
+        "detail": "Reed Lantern overnight package PAID Day180 4gp5sp (two twin-bed rooms, three companion suppers, four-horse hay/stable/water). Isolated rural wayhouse night180→181 short rests compl"
+      },
+      {
+        "item": "Reed Lantern private bath — room tab (Day180)",
+        "qty": "1",
+        "holder": "PAID Day181 ~8:45AM, 4sp; obligation settled, not outstanding",
+        "detail": "Day180 ~7:15PM Hessa charged4sp for private bath to room tab, after separate4gp5sp prepaid room/food/stables. At Day181 ~8:45AM before fast-pace departure V paid this outstanding b"
+      },
+      {
+        "item": "Reedbed bargeyard — garnet",
+        "qty": "1",
+        "holder": "V — carried",
+        "detail": "One garnet found in foreman's locked office coffer; V now physically carries. Estimated value only, no sale/appraisal/cash conversion; potential third-party claims remain open."
+      },
+      {
+        "item": "Reedbed bargeyard — amber stones",
+        "qty": "2",
+        "holder": "V — carried",
+        "detail": "Two amber stones recovered in water-protected packet hidden beneath pier. V carries; estimated 25gp each, no sale; ownership claims unresolved."
+      },
+      {
+        "item": "Reedbed bargeyard — silver brooch",
+        "qty": "1",
+        "holder": "V — carried",
+        "detail": "Worked silver brooch recovered with amber stones. V carries. Value estimated, provenance/claimant unverified, not sold."
+      },
+      {
+        "item": "Old Distributary Fort — cash claim already included in coin purse row29",
+        "qty": "1",
+        "holder": "V — held in purse; included row29",
+        "detail": "V gathered and physically took 171gp5sp normalized, consisting command coffer118gp37sp26cp; ordinary seven guard pouches16gp38sp41cp; Kest pouch19gp7sp3cp; barracks hidden9gp6sp. A"
+      },
+      {
+        "item": "Old Distributary Fort — polished red garnets",
+        "qty": "2",
+        "holder": "V — carried, title disputed",
+        "detail": "TWO polished red garnets originally in command pay/operations strongbox, estimated25gp each (approx50gp total), V explicitly physically CLAIMED/TOOK to carry. NOT sold, appraised o"
+      },
+      {
+        "item": "Old Distributary Fort — stamped silver trade bars",
+        "qty": "2",
+        "holder": "V — carried, ownership disputed",
+        "detail": "TWO stamped silver trade bars, estimated35gp EACH (~70gp combined). V physically took them from on-site recovered fort valuables per explicit command. Commercial stamps suggest mer"
+      },
+      {
+        "item": "Sending Stones — new matched pair, V/Meret",
+        "qty": "2",
+        "holder": "V 1; Meret 1",
+        "detail": "Second independent paired set, 350gp paid personally; one stone with V, one entrusted to Miregate steward Meret Halwick. Once per dawn shared charge; 25-word message and immediate "
+      },
+      {
+        "item": "Miregate River Reaches — three Exchange funding draft receipts",
+        "qty": "3",
+        "holder": "V retains three documentary receipts; Meret administers segregated estate balances in Property. Original695gp already funded once; actual repairs/payroll now posted through224. Receipts are not additional V cash.",
+        "detail": "D204-EXCHANGE-CAPITAL-DIAMOND-001: V deposited695gp ONCE on Day204: Miregate100, Reedbed295, Fort300gp. D208-ESTATE-FUNDING-CORRECT-001: player confirms release already authorized;"
+      },
+      {
+        "item": "Crown emergency anti-undead commission — accepted warrant original",
+        "qty": "1",
+        "holder": "V — original signed and sealed Crown special-warrant contract",
+        "detail": "V explicitly accepted the previously Crown-side countersigned full1200gp CONTINGENT emergency reward warrant. Both sides signed. Three distinct evidence-backed objectives:300gp aut"
+      },
+      {
+        "item": "Graven company strongbox — emptied, left at kiln",
+        "qty": "1",
+        "holder": "Empty strongbox at kiln; coins in V personal custody, counted once in row29",
+        "detail": "Original 41gp27sp physically claimed by V once D208-KILN-COMPANY-COIN-CLAIM-001 and transferred into V purse row29; empty box retained onsite. Ownership may be disputed; not Crown "
+      },
+      {
+        "item": "Pell silver seal ring — evidence",
+        "qty": "1",
+        "holder": "Kiln secured storeroom, on-site evidence; not carried by V",
+        "detail": "Pell engraved operational silver seal ring (~25gp), matches signed order book; left secured on-site by V's explicit choice D208-KILN-COMPANY-COIN-CLAIM-001. No sale, no personal ac"
+      },
+      {
+        "item": "Kiln guard arms/armor + machinery salvage — staged cache",
+        "qty": "1",
+        "holder": "Kiln sealed storeroom; left on-site, not claimed, loaded, or sold by V (D208-KILN-COMPANY-COIN-CLAIM-001)",
+        "detail": "5 guard chain shirts,5 shields,5 spears; Captain Rell splint armor,longsword,shortsword,heavy crossbow; wight mundane arms/armor, ritualists' nonbook implements;3 remaining finishe"
+      },
+      {
+        "item": "Crown anti-undead commission — final stamped payment receipt",
+        "qty": "1",
+        "holder": "V — carried in personal document case with original signed warrant",
+        "detail": "Receipt certifies ALL three signed Crown warrant stages for total1200gp PAID ONCE in personal gold coin to V: 300gp director/authorization proof, 300gp workshop workers and disable"
+      },
+      {
+        "item": "Elara Rethwyn — second personal letter addressed to V and Mara",
+        "qty": "1",
+        "holder": "Mara Venn — personal notebook; jointly addressed to V/Mara",
+        "detail": "Independently sent from Caereth before learning of Graven outcome. Reaffirms affection to both V and Mara; remains troubled by neglected Crownsunder manor, unanswered steward, miss"
+      },
+      {
+        "item": "Galepierce Dart — single magical physical dart",
+        "qty": "1",
+        "holder": "V — physically carried; ready for thrown dart attacks",
+        "detail": "Saddlebag Book One p. 70; consigned former skiff partners' original. Doubles the weapon's normal throwing ranges and negates relevant airborne hindrances. Physical dart, not unlimi"
+      },
+      {
+        "item": "Clockwork Amulet — one original magical amulet",
+        "qty": "1",
+        "holder": "V — carried; available once per dawn (1/1 now)",
+        "detail": "Xanathar's Guide to Everything (2017), common wondrous item, no attunement. When making an ATTACK roll, wearer can choose to take10 on d20 instead of rolling before attack, + norma"
+      }
+    ],
+    "Cirren": [
+      {
+        "item": "Shield",
+        "qty": "1",
+        "holder": "",
+        "detail": "Shield + breastplate => AC 18"
+      },
+      {
+        "item": "Breastplate",
+        "qty": "1",
+        "holder": "",
+        "detail": "Medium armor"
+      },
+      {
+        "item": "Dagger",
+        "qty": "1",
+        "holder": "",
+        "detail": "Current +5 to hit;1d4+2 piercing. Uses Dexterity2 and proficiency3."
+      },
+      {
+        "item": "Briefcase (Backpack)",
+        "qty": "1",
+        "holder": "",
+        "detail": "Container"
+      },
+      {
+        "item": "Emblem",
+        "qty": "1",
+        "holder": "",
+        "detail": "Holy symbol"
+      },
+      {
+        "item": "Mess Kit",
+        "qty": "1",
+        "holder": "",
+        "detail": "Supply"
+      },
+      {
+        "item": "Match Box (Tinderbox)",
+        "qty": "1",
+        "holder": "",
+        "detail": "Supply"
+      },
+      {
+        "item": "Disguise Kit",
+        "qty": "1",
+        "holder": "",
+        "detail": "Equipment (PDF tool proficiency list differs)"
+      },
+      {
+        "item": "Forgery Kit",
+        "qty": "1",
+        "holder": "",
+        "detail": "Tool proficiency confirmed"
+      },
+      {
+        "item": "Thieves' Tools",
+        "qty": "1",
+        "holder": "",
+        "detail": "Carried, but no proficiency shown"
+      },
+      {
+        "item": "Pearl",
+        "qty": "1",
+        "holder": "Cirren",
+        "detail": "Reusable≥100 gp pearl confirmed144; not consumed by Identify. Prior acquisition established; no new charge."
+      },
+      {
+        "item": "Augury divination bones and marked tokens",
+        "qty": "1",
+        "holder": "Cirren",
+        "detail": "Reusable Augury focus worth at least 25 gp; past payment source VERIFY, not double-charged"
+      },
+      {
+        "item": "SOURCE / TRACKER",
+        "qty": "GP",
+        "holder": "STATUS",
+        "detail": "CP"
+      },
+      {
+        "item": "PDF personal coins",
+        "qty": "10",
+        "holder": "Character PDF snapshot; current spending unconfirmed",
+        "detail": "0"
+      },
+      {
+        "item": "Investigation witness statements",
+        "qty": "1",
+        "holder": "Cirren's notebook",
+        "detail": "Signed witness statements from Kellan (Southbank joiner) and Garrick Fen (adjacent dockworker). Hobb gave corroborating interview; signed statement not expressly established."
+      },
+      {
+        "item": "Saint Orlan's receipts and priest-letter extracts",
+        "qty": "1",
+        "holder": "Cirren's investigative papers",
+        "detail": "Copies of two supplier receipts and passages from the missing priest’s letter. Sabine retains the letter and her receipt copies. See the separate packet from Master Bell below."
+      },
+      {
+        "item": "Mentor’s original Saint Orlan’s packet",
+        "qty": "1",
+        "holder": "Cirren’s document case",
+        "detail": "Master Bell surrendered original priest notebook, three supply receipts and witness interview sheets to Cirren Day163; these remain Cirren-owned/held. Day176~11:10 at Larchwater Ro"
+      },
+      {
+        "item": "Watch evidence-transfer receipt",
+        "qty": "1",
+        "holder": "Cirren",
+        "detail": "Day165 district Watch evidence-transfer receipt signed for four ORIGINAL Crownward financial records taken by Watch, originals NOT held by Cirren. Day176~11:10 Cirren displayed thi"
+      },
+      {
+        "item": "Lowland Contracts Reception invitation — Cirren",
+        "qty": "1",
+        "holder": "Cirren",
+        "detail": "Free named entry pass for Day172 4 PM Orsaven Exchange reception. Cirren attends in a primarily ceremonial House Vaishnavi Spymaster / Head of Intelligence capacity; practical Hous"
+      },
+      {
+        "item": "Fine formal clothes — matching white/silver/gold",
+        "qty": "1",
+        "holder": "Cirren — worn at Day172 reception",
+        "detail": "Fine matching white/silver/gold formal clothing gifted by V, collected Day171 and worn Day172 to Lowland Contracts Reception. Reception concluded late evening172; garment remains C"
+      },
+      {
+        "item": "Miregate historic sluice working-model notes",
+        "qty": "1",
+        "holder": "Cirren — personal notebook",
+        "detail": "Cirren wrote personal notes on upstream gate, wheel feed, relief bypass and downstream outlet after studying Isbet's historic model; Investigation 16 vs DC14 succeeded. Information"
+      },
+      {
+        "item": "Orsaven Watch receipt — Rowena-certified Lethra extract",
+        "qty": "1",
+        "holder": "Cirren — personal document case",
+        "detail": "Actual signed Watch evidence-transfer receipt issued to Cirren upon voluntary deposit of Rowena Dace's Day176-certified EXTRACT of seven private-gift routing entries and her source"
+      },
+      {
+        "item": "Reedbed — original foreman's payroll, routing and inspection-order packet",
+        "qty": "1",
+        "holder": "Cirren — document case",
+        "detail": "Cirren removed original shore-office pay/crew ledger, supply and routing/check-boat instructions, preserved original page order/markings and documented physical discovery location."
+      },
+      {
+        "item": "Reedbed — marked original river chart to distributary fort",
+        "qty": "1",
+        "holder": "Cirren — document case",
+        "detail": "Original annotated river chart shows downstream distributary fort and a secondary north-bank reed-screened landing; present safety unknown. Kept separate in Cirren's case as potent"
+      },
+      {
+        "item": "Sedgeford reeve — acknowledgment of Crown complaint",
+        "qty": "1",
+        "holder": "Cirren — document case",
+        "detail": "Reeve received Cirren's report of eight bound Reedbed prisoners incl living merrow and unlawful flooding equipment, provided acknowledgment and agreed to dispatch notice to Marshwi"
+      },
+      {
+        "item": "Reedbed expedition — fresh drinking water",
+        "qty": "4",
+        "holder": "Cirren and Fenar — Miregate stores / skiff containers",
+        "detail": "D186-195-THREE-SITES-RETURN-001: Four original Reedbed potable gallons were consumed in ordinary overnight travel/rest for Cirren and Fenar; water containers periodically refilled "
+      },
+      {
+        "item": "Miregate-repaired 14-foot shallow work skiff — expedition custody",
+        "qty": "1",
+        "holder": "V/Cirren/Fenar expedition custody — moored at Miregate Day192–195",
+        "detail": "D186-195-THREE-SITES-RETURN-001: Borrowed/repair-completed14ft shallow skiff with two oars, original ownership unresolved: returned upstream after 24-hour fort rest, V/Cirren/Fenar"
+      },
+      {
+        "item": "Sedgeford temporary Crown custody receipt — eight Reedbed captives",
+        "qty": "1",
+        "holder": "Cirren — document case",
+        "detail": "Senior of two Sedgeford watch officers and two auxiliaries signed acknowledgment of temporary Crown watch responsibility for keeping seven human prisoners plus one surviving merrow"
+      },
+      {
+        "item": "Old Distributary Fort — original Kest operations ledger and signed orders",
+        "qty": "1",
+        "holder": "Marshwick Crown Watch — temporary sealed on-site Crown evidence custody at Old Distributary Fort (D186-MARSHWICK-DETACHMENT-001)",
+        "detail": "ORIGINAL pay/operations ledger and signed orders documenting proposed redirection of distributary river flow toward Harrowmere lowlands, displacement of residents and grain-route s"
+      },
+      {
+        "item": "Old Distributary Fort — original marked river chart, gate/breach plan and marginal notes",
+        "qty": "1",
+        "holder": "Marshwick Crown Watch — temporary sealed on-site Crown evidence custody at Old Distributary Fort (D186-MARSHWICK-DETACHMENT-001)",
+        "detail": "ORIGINAL chart of Miregate–Reedbed–distributary river routes, stamped gate-breach specifications and marginal directions coordinating independent merrow warleader Rhaask and planne"
+      },
+      {
+        "item": "Old Distributary Fort — bronze water-gate service key and barracks watch-rotation note",
+        "qty": "1",
+        "holder": "Marshwick Crown Watch — temporary sealed on-site Crown evidence custody at Old Distributary Fort (D186-MARSHWICK-DETACHMENT-001)",
+        "detail": "Small bronze watergate-service key with stamped mark, exact lock or whether it works not verified; handwritten watch rotation describes upper guard patrol timing but does not detai"
+      },
+      {
+        "item": "Marshwick Crown Watch — signed nine-prisoner and fort-originals temporary custody receipt",
+        "qty": "1",
+        "holder": "Cirren — document case (signed receipt, not underlying originals)",
+        "detail": "D186-MARSHWICK-DETACHMENT-001: Watch senior officer counted eight awake bound/disarmed human defenders incl Captain Maelor Kest and one awake Large amphibious merrow Rhaask, all al"
+      },
+      {
+        "item": "Orsaven Crown Watch — bound quarry Veteran prisoner transfer receipt",
+        "qty": "1",
+        "holder": "Cirren — personal document case; quarry board (separate row52) later delivered to Crown Watch.",
+        "detail": "D201-MAUD-PAY-WATCH-HANDOFF-001: Crown Watch corporal accepted ONE bound, disarmed, conscious1HP adult human SOUTHERN quarry Veteran from V/Cirren custody for humane medical assess"
+      },
+      {
+        "item": "Tobin's first written reply to Cirren's Day165 sealed letter",
+        "qty": "1",
+        "holder": "Cirren — personal document case, sealed/folded private correspondence",
+        "detail": "D204-ORSAVEN-INQUIRIES-001: Sabine independently received a sealed written response through the established confidential family contact (genuine correspondence d20 FACE15 +0 vsDC15"
+      },
+      {
+        "item": "Diamond, certified 300 gp — Revivify material component",
+        "qty": "1",
+        "holder": "Cirren — personal spell-component case",
+        "detail": "V purchased a single cut diamond appraised at 300gp from Orsaven Exchange registered gem broker. Independent genuine stock check d20(12)+3=15/DC12 success. Cost exactly300gp PAID O"
+      },
+      {
+        "item": "Certified duplicate — Crown 1,200 gp conditional undead-operation commission",
+        "qty": "1",
+        "holder": "Cirren — personal document case; quarry board original transferred to Crown Watch210.",
+        "detail": "Cirren independently examined the Crown-side signed 300+300+600gp full-operation warrant and accepted custody of a certified duplicate after V expressly agreed/countersigned. Once-"
+      },
+      {
+        "item": "Crown Watch kiln prisoner and evidence custody acknowledgment — original",
+        "qty": "1",
+        "holder": "Cirren — personal document case",
+        "detail": "Lieutenant Irena Salk accepted five living kiln captives Pell, lower ritualist, Rell, G2 and G5 at 1HP, bound/disarmed. Spellcasters gagged, hands/fingers immobilized and kept apar"
+      },
+      {
+        "item": "Marlowe last wishes — Cirren's handwritten record",
+        "qty": "1",
+        "holder": "",
+        "detail": "To Lady Elara Rethwyn: \"Thank you for trusting me with your home. I tried to keep your people safe. I am sorry I left the work unfinished. The tenants need her more than the fields"
+      }
+    ],
+    "Fenar": [
+      {
+        "item": "Greataxe (visually Double-Claw Rend)",
+        "qty": "1",
+        "holder": "Fenar (build; claw flavor)",
+        "detail": "Retained as 2014 greataxe for ALL mechanics (1d12 slashing, heavy/two-handed, 7 lb, draw/stow/disarm, weapon features); depicted as twin claw strike. Not a natural weapon."
+      },
+      {
+        "item": "Handaxe",
+        "qty": "2",
+        "holder": "Fenar (build)",
+        "detail": "PDF backup weapon, carried per build unless later changed. Fenar prefers claws/fangs; no routine handaxe attacks."
+      },
+      {
+        "item": "Javelin",
+        "qty": "4",
+        "holder": "Fenar (build)",
+        "detail": "PDF backup weapon, carried per build unless later changed. Fenar prefers claws/fangs; no routine javelin attacks. D225-RETHWYN-ETTERCAP-R1-R2-R3C-001: Day225 Rethwyn wine-gallery c"
+      },
+      {
+        "item": "Backpack",
+        "qty": "1",
+        "holder": "Fenar (build)",
+        "detail": "Container"
+      },
+      {
+        "item": "Traveler's clothes",
+        "qty": "1",
+        "holder": "Fenar (build)",
+        "detail": "Clothing"
+      },
+      {
+        "item": "Pouch",
+        "qty": "1",
+        "holder": "Fenar (build)",
+        "detail": "Container"
+      },
+      {
+        "item": "Bedroll",
+        "qty": "1",
+        "holder": "Fenar (build)",
+        "detail": "Camping"
+      },
+      {
+        "item": "Mess kit",
+        "qty": "1",
+        "holder": "Fenar (build)",
+        "detail": "Camping"
+      },
+      {
+        "item": "Hempen rope (50 ft)",
+        "qty": "1",
+        "holder": "Fenar-owned coil; last confirmed kiln restraints208. Recovery/holder after212 Crown handoff VERIFY; do not assume carried/free or still under Fenar guard.",
+        "detail": "D186-195-THREE-SITES-RETURN-001: Fenar's original own 50ft hemp rope remained partially committed to fort human restraints through D186 ~1:15PM Watch temporary custody, when Marshw"
+      },
+      {
+        "item": "Tinderbox",
+        "qty": "1",
+        "holder": "Fenar (build)",
+        "detail": "Fire-making"
+      },
+      {
+        "item": "Torch",
+        "qty": "10",
+        "holder": "Fenar (build)",
+        "detail": "Light"
+      },
+      {
+        "item": "Waterskin",
+        "qty": "1",
+        "holder": "Fenar (build)",
+        "detail": "PDF listed weight"
+      },
+      {
+        "item": "SOURCE / TRACKER",
+        "qty": "GP",
+        "holder": "STATUS",
+        "detail": "CP"
+      },
+      {
+        "item": "PDF personal coins",
+        "qty": "10",
+        "holder": "Build snapshot; no EP/PP. Separate from V, Cirren and estate funds.",
+        "detail": "0"
+      },
+      {
+        "item": "Gear weight (lb)",
+        "qty": "63",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Coin weight (lb)",
+        "qty": "0.2",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Total carried (lb)",
+        "qty": "63.2",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Carry capacity (lb)",
+        "qty": "300",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Push / drag / lift (lb)",
+        "qty": "600",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Training",
+        "qty": "Land vehicles proficiency. No vehicle, armor, shield, magic item or additional racial kit granted.",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Background items",
+        "qty": "Athlete's optional sport item/charm or trophy are absent from this PDF; not added to carried inventory.",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Portrait",
+        "qty": "The illustrated weapon/outfit does not add equipment or magic properties.",
+        "holder": "",
+        "detail": ""
+      },
+      {
+        "item": "Source check",
+        "qty": "PDF original gear: 83 lb incl. mechanical greataxe's 7 lb, plus 0.2 lb personal coin = 83.2 lb total. Cosmetic claw reskin adds/removes no mechanics.",
+        "holder": "",
+        "detail": ""
+      }
+    ]
+  },
+  "magic_shop_lots": [
+    {
+      "settlement": "Orsaven",
+      "dealer": "The Bent Sounding Line",
+      "lot": "Rope Caster",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Working tool",
+      "terms": "Conditional sale. The chandler would take 50 gp if V also supplies a serviceable line launcher the crew can test at the pier. A better replacement is leverage on the cash portion."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "The Spare Axle",
+      "lot": "Javelin of Lightning",
+      "qty": "1",
+      "price_gp": "300",
+      "status": "Offered secondhand",
+      "terms": "Buy at 300 gp. The outrider values prompt payment. The outfitter can relay a lower offer; only the owner can approve it."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "North Quay Glazier",
+      "lot": "Glass Carver",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Family heirloom",
+      "terms": "The daughter keeps her father’s original. She can make a new Glass Carver for 350 gp in four campaign weeks, with 100 gp down and 250 gp at delivery. Timing starts on agreement. A supplied suitable cr"
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Reedbank Sail Loft",
+      "lot": "Rope of Mending",
+      "qty": "1",
+      "price_gp": "24",
+      "status": "Offered secondhand",
+      "terms": "Buy at 24 gp. The sailmaker also needs sound canvas and can credit a usable bolt toward the price."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Ember Crust Bakehouse",
+      "lot": "Bell of Alarm",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Prized possession",
+      "terms": "The baker keeps the bell his daughter gave him. He can introduce the bellfounder if asked; confirm the maker’s terms in play."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Surveyor’s Rule",
+      "lot": "Clockwork Inkbeetle",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Working tool",
+      "terms": "Conditional sale. The surveyor will sell for 300 gp after finishing the current survey if V provides a reliable mapping arrangement for the next job. Ask about the job and agree a handover date before"
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Two Spindles Clothiers",
+      "lot": "Forecaster’s Cloak",
+      "qty": "1",
+      "price_gp": "40",
+      "status": "Offered on consignment",
+      "terms": "Buy at 40 gp. The tailor may pass a counteroffer to the drover, who also needs a good plain winter coat."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Lark Street Letter Writer",
+      "lot": "Orator’s Quill",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Family heirloom",
+      "terms": "The letter writer keeps her grandfather’s quill. She can introduce its repairer about a second quill; price and feasibility require a conversation."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Last Turn Boot Repair",
+      "lot": "Phantom Walkers",
+      "qty": "1",
+      "price_gp": "300",
+      "status": "Offered for sale",
+      "terms": "Buy at 300 gp. The rider will consider coin plus a fitted pair of ordinary boots. Agree value before exchanging."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Copper Nose Kennels",
+      "lot": "Bloodhound Amulet",
+      "qty": "1",
+      "price_gp": "240",
+      "status": "Offered for sale",
+      "terms": "Buy at 240 gp. Useful yard materials or work the partners actually need can count toward a counteroffer."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Switchback Saddlery",
+      "lot": "Bands of the Found and Lost (pair)",
+      "qty": "1",
+      "price_gp": "50",
+      "status": "Offered for sale",
+      "terms": "Buy the matched pair at 50 gp. They will listen to a cash offer for both together."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Gatehouse Instrument Repair",
+      "lot": "Periscope Rod",
+      "qty": "1",
+      "price_gp": "40",
+      "status": "Offered for sale",
+      "terms": "Buy at 40 gp. The inspector authorized the repairer to consider an immediate cash offer."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Old Arch Scaffold Yard",
+      "lot": "Immovable Rod",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Working tool · conditional sale",
+      "terms": "Conditional sale. Offer 300 gp and a tested brace that fits the yard’s narrow-span jobs. The forewoman can inspect a proposed substitute before agreeing."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "King's Road Carters",
+      "lot": "Bag of Holding",
+      "qty": "1",
+      "price_gp": "440",
+      "status": "Offered secondhand / consignment",
+      "terms": "Firm 440gp cash offer; no sale or hold unless V accepts."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Nightglass Optics",
+      "lot": "Goggles of Night",
+      "qty": "1",
+      "price_gp": "330",
+      "status": "Offered secondhand",
+      "terms": "Firm 330gp asking; inspect fit, negotiate if desired."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Courtlock Repairs",
+      "lot": "Gloves of Thievery",
+      "qty": "1",
+      "price_gp": "470",
+      "status": "Offered on consignment",
+      "terms": "Firm 470gp asking; locksmith authorized to take reasonable offer to owner; no V purchase yet."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Quiet Heel Bootworks",
+      "lot": "Boots of Elvenkind",
+      "qty": "1",
+      "price_gp": "290",
+      "status": "Offered secondhand",
+      "terms": "Firm 290gp asking; try size and condition before agreeing."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Lantern & Lens",
+      "lot": "Driftglobe",
+      "qty": "1",
+      "price_gp": "310",
+      "status": "Offered secondhand",
+      "terms": "Firm 310gp asking; intact unit inspected, no sale or hold yet."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Highspan Scaffold Yard",
+      "lot": "Immovable Rod",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Working tool · conditional sale",
+      "terms": "Owner considers sale only for 350gp AND reliable tested replacement bracing; no firm sale/hold."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Mercy Steps Hospice",
+      "lot": "Periapt of Wound Closure",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Bequest / possible sale, executor consent pending",
+      "terms": "500gp is an indicative family valuation ONLY; executor must first authorize sale, no quote/deposit yet."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Westbank Rigging",
+      "lot": "Rope of Climbing",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Working tool · conditional sale",
+      "terms": "Owner may entertain 300gp plus a suitable working replacement line after current job; no unconditional sale."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Velvet Measure",
+      "lot": "Moodmark Paint",
+      "qty": "1.",
+      "price_gp": "30.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-CAE-01. Prepared, undiscovered. Ask at Velvet Measure during trade hours. Owner authorizes 30 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Wick and Shutter",
+      "lot": "Everbright Lantern",
+      "qty": "1.",
+      "price_gp": "50.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-CAE-02. Prepared, undiscovered. Ask at Wick and Shutter during trade hours. Owner authorizes 50 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Brazen Spear Forge",
+      "lot": "Storm Boomerang",
+      "qty": "1.",
+      "price_gp": "440.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-CAE-03. Prepared, undiscovered. Ask at Brazen Spear Forge during trade hours. Owner authorizes 440 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Stairwright's Last",
+      "lot": "Boots of Striding and Springing",
+      "qty": "1.",
+      "price_gp": "420.",
+      "status": "Prepared working tool · conditional",
+      "terms": "M7-CAE-04. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 420gp with the stated condition; not an unconditional sale. See the porter testing boots at the cobbler"
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Gilt Thread Repairs",
+      "lot": "Ring of Truth Telling",
+      "qty": "1.",
+      "price_gp": "350.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-CAE-05. Prepared, undiscovered. Ask at Gilt Thread Repairs during trade hours. Owner authorizes 350 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Thistlepoint Cutlery",
+      "lot": "Serpent's Fang",
+      "qty": "1.",
+      "price_gp": "2400.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-CAE-06. Prepared, undiscovered. Ask at Thistlepoint Cutlery during trade hours. Owner authorizes 2400 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Measured Spark Instrument Repair",
+      "lot": "Blasted Goggles",
+      "qty": "1.",
+      "price_gp": "330.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-01. Prepared, undiscovered. Ask at Measured Spark Instrument Repair during trade hours. Owner authorizes 330 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Two Tongues Copyhouse",
+      "lot": "Helm of Comprehending Languages",
+      "qty": "1.",
+      "price_gp": "380.",
+      "status": "Prepared working tool · conditional",
+      "terms": "M7-VEY-02. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 380gp with the stated condition; not an unconditional sale. Common-speaking front desk. 380gp; current "
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Rivet and Buckle",
+      "lot": "Boomerang Shield",
+      "qty": "1.",
+      "price_gp": "385.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-03. Prepared, undiscovered. Ask at Rivet and Buckle during trade hours. Owner authorizes 385 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Fine Grain Assay",
+      "lot": "Coin of Delving",
+      "qty": "1.",
+      "price_gp": "45.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-04. Prepared, undiscovered. Ask at Fine Grain Assay during trade hours. Owner authorizes 45 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Ember Screen Ceramics",
+      "lot": "Glowrune Pigment",
+      "qty": "1.",
+      "price_gp": "320.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-05. Prepared, undiscovered. Ask at Ember Screen Ceramics during trade hours. Owner authorizes 320 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Mended Banner Tailor",
+      "lot": "Robe of Summer",
+      "qty": "1.",
+      "price_gp": "2450.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-06. Prepared, undiscovered. Ask at Mended Banner Tailor during trade hours. Owner authorizes 2450 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Watchglass Lens Fitter",
+      "lot": "Goggles of Object Reading",
+      "qty": "1.",
+      "price_gp": "380.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-07. Prepared, undiscovered. Ask at Watchglass Lens Fitter during trade hours. Owner authorizes 380 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Quiet Bell Metalworks",
+      "lot": "Horn of Silent Alarm",
+      "qty": "1.",
+      "price_gp": "45.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-08. Prepared, undiscovered. Ask at Quiet Bell Metalworks during trade hours. Owner authorizes 45 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Folded Measure Joinery",
+      "lot": "Periscope Rod",
+      "qty": "1.",
+      "price_gp": "48.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-09. Prepared, undiscovered. Ask at Folded Measure Joinery during trade hours. Owner authorizes 48 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
+      "dealer": "Stonecut Ledger Bindery",
+      "lot": "Spellshard",
+      "qty": "1.",
+      "price_gp": "45.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-10. Prepared, undiscovered. Ask at Stonecut Ledger Bindery during trade hours. Owner authorizes 45 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Leafshadow Weaving House",
+      "lot": "Kagonesti Forest Shroud",
+      "qty": "1.",
+      "price_gp": "2400.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-01. Prepared, undiscovered. Ask at Leafshadow Weaving House during trade hours. Owner authorizes 2400 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Winter Bough Bootwright",
+      "lot": "Wayfarer's Boots",
+      "qty": "1.",
+      "price_gp": "2700.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-02. Prepared, undiscovered. Ask at Winter Bough Bootwright during trade hours. Owner authorizes 2700 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Farleaf Lensworks",
+      "lot": "Eyes of the Eagle",
+      "qty": "1.",
+      "price_gp": "450.",
+      "status": "Prepared working tool · conditional",
+      "terms": "M7-ILA-03. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 450gp with the stated condition; not an unconditional sale. 450gp after a three-day job from agreement,"
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Answering String",
+      "lot": "Siren Song Lyre",
+      "qty": "1.",
+      "price_gp": "2750.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-04. Prepared, undiscovered. Ask at Answering String during trade hours. Owner authorizes 2750 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Weatherleaf Bindery",
+      "lot": "Clockwork Inkbeetle",
+      "qty": "1.",
+      "price_gp": "310.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-05. Prepared, undiscovered. Ask at Weatherleaf Bindery during trade hours. Owner authorizes 310 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Quiet Mortise Restoration",
+      "lot": "Dust of Corrosion",
+      "qty": "1.",
+      "price_gp": "350.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-06. Prepared, undiscovered. Ask at Quiet Mortise Restoration during trade hours. Owner authorizes 350 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Dewlight Jewel Repair",
+      "lot": "Pearl of Power",
+      "qty": "1.",
+      "price_gp": "500.",
+      "status": "Prepared working tool · conditional",
+      "terms": "M7-ILA-07. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 500gp with the stated condition; not an unconditional sale. 500gp. 500gp; tutor's current teaching cour"
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Hollow Note Foundry",
+      "lot": "Orb of Gonging",
+      "qty": "1.",
+      "price_gp": "35.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-08. Prepared, undiscovered. Ask at Hollow Note Foundry during trade hours. Owner authorizes 35 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Highbranch Soleworks",
+      "lot": "Slippers of Spider Climbing",
+      "qty": "1.",
+      "price_gp": "500.",
+      "status": "Prepared working tool · conditional",
+      "terms": "M7-ILA-09. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 500gp with the stated condition; not an unconditional sale. 500gp after replacement rig passes the arbo"
+    },
+    {
+      "settlement": "Ilarath",
+      "dealer": "Grove Signal Carver",
+      "lot": "Eagle Whistle",
+      "qty": "1.",
+      "price_gp": "2300.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-10. Prepared, undiscovered. Ask at Grove Signal Carver during trade hours. Owner authorizes 2300 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Riverstep Jeweler",
+      "lot": "Medal of the Conch",
+      "qty": "1.",
+      "price_gp": "40.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ALL-01. Prepared, undiscovered. Ask at Riverstep Jeweler during trade hours. Owner authorizes 40 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Deep Line Salvage Fitter",
+      "lot": "Helm of Underwater Action",
+      "qty": "1.",
+      "price_gp": "380.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ALL-02. Prepared, undiscovered. Ask at Deep Line Salvage Fitter during trade hours. Owner authorizes 380 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Blue Retort Apothecary",
+      "lot": "Potion of Aqueous Form",
+      "qty": "2.",
+      "price_gp": "1800.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ALL-03. Prepared, undiscovered. Ask at Blue Retort Apothecary during trade hours. Owner authorizes 1800 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Splice and Shuttle",
+      "lot": "Bands of the Found and Lost (pair)",
+      "qty": "1.",
+      "price_gp": "65.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ALL-04. Prepared, undiscovered. Ask at Splice and Shuttle during trade hours. Owner authorizes 65 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Crosscurrent Outfitter",
+      "lot": "Gloves of Swimming and Climbing",
+      "qty": "1.",
+      "price_gp": "400.",
+      "status": "Available for sale · undiscovered",
+      "terms": "M7-ALL-05. D230-ALLHAVEN-CROSSCURRENT-REVIEW: bridge inspection completed. Forewoman retains the pair, available through Crosscurrent’s river-work counter during ordinary trade hours. 400 gp at inspec"
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Summer Draught Fanmaker",
+      "lot": "Bottled Breath",
+      "qty": "1.",
+      "price_gp": "85.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ALL-06. Prepared, undiscovered. Ask at Summer Draught Fanmaker during trade hours. Owner authorizes 85 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Paired Seal Courier Desk",
+      "lot": "Paper Bird",
+      "qty": "1.",
+      "price_gp": "45.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ALL-07. Prepared, undiscovered. Ask at Paired Seal Courier Desk during trade hours. Owner authorizes 45 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Box and Keel Cabinetmaker",
+      "lot": "Chest of Preserving",
+      "qty": "1.",
+      "price_gp": "50.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ALL-08. Prepared, undiscovered. Ask at Box and Keel Cabinetmaker during trade hours. Owner authorizes 50 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Clear Head Cooperage",
+      "lot": "Heward's Handy Spice Pouch",
+      "qty": "1.",
+      "price_gp": "45.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ALL-09. Prepared, undiscovered. Ask at Clear Head Cooperage during trade hours. Owner authorizes 45 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Allhaven",
+      "dealer": "Diving Mantle Repairs",
+      "lot": "Cloak of the Manta Ray",
+      "qty": "1.",
+      "price_gp": "480.",
+      "status": "Prepared working tool · conditional",
+      "terms": "M7-ALL-10. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 480gp with the stated condition; not an unconditional sale. 480gp after successor obtains/test-fits her"
+    }
+  ]
+}
