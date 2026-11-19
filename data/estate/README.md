@@ -9,7 +9,7 @@ This is a staging import from the 2026-11-19 Property workbook export. It is not
 - `opening-liabilities.csv`: stable IDs for nonzero liability categories in the Day 230 overview snapshot. These are balance-forward obligations, not a second posting of old expenses.
 - `opening-receivables.csv`: empty because the Day 231 Property workbook reports zero receivables for all four estates.
 - `opening-inventory.csv`: six Blackthorn grade rows from the Day 230 Accounts snapshot: 41.12 t book stock, 13 t reserved, 0 t in transit, and 349.43 gp book cost. All six entries are explicitly `provisional`; the source says physical count, seasoning, and buyer certification are unverified.
-- `blackthorn-rates.csv`: current effective-dated Blackthorn daily payroll and upkeep rates, plus product-cost rates where recorded. The initial import is the 13 payroll/upkeep rows in the source sheet; production-cost rates remain in the live workbook until their import is verified.
+- `blackthorn-rates.csv`: current effective-dated Blackthorn daily payroll and upkeep rates. The initial import is the 13 payroll/upkeep rows in the source sheet; production-cost rates remain in the live workbook until their import is verified.
 - `snapshot-meta.json`: the Day 231 comparison cutoff and source snapshot date.
 - `task-supersessions.csv`: two Miregate schedule rows verified as handled by the completed Day 229 payroll successor.
 
