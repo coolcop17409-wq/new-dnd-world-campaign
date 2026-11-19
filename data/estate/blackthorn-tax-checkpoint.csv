@@ -1,0 +1,10 @@
+component,value_gp,source_sheet,source_range,evidence
+taxable_carry,536.97,Blackthorn - Opening Balances,F11,Verified opening taxable carry through Day 182
+accepted_revenue,1161.00,Blackthorn - Operations,W6:W1205,Unformatted live formula outputs summed through Day 230
+cogs,417.8297,Blackthorn - Operations,X6:X1205,Unformatted live formula outputs summed through Day 230; Accounts rounds total to 417.83 gp
+loss_and_idle,53.20,Blackthorn - Operations,Y6:Y1205,Unformatted live formula outputs summed through Day 230
+management_payroll,336.00,Blackthorn - Rates & Staff,G6:G305,Effective daily rates from Day 183 through Day 230
+upkeep,85.7142857142857,Blackthorn - Rates & Staff,G6:G305,Effective daily rates from Day 183 through Day 230; exact aggregate before Accounts rounding
+incurred_operating_expenses,81.53,Blackthorn - Expenses,F6:F505,Actual incurred Operating bills from Day 59 through Day 230
+taxable_base,723.70,Blackthorn - Accounts,T6,Rolling period TAX-59 source formula output
+tax_assessment,72.37,Blackthorn - Accounts,U6,10 percent of positive taxable base
