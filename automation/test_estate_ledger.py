@@ -22,6 +22,9 @@ DASHBOARD_SPEC.loader.exec_module(dashboard)
 OPERATIONS_SPEC = importlib.util.spec_from_file_location("blackthorn_operations", Path(__file__).with_name("blackthorn_operations.py"))
 blackthorn_operations = importlib.util.module_from_spec(OPERATIONS_SPEC)
 OPERATIONS_SPEC.loader.exec_module(blackthorn_operations)
+ACCRUAL_SPEC = importlib.util.spec_from_file_location("routine_accruals", Path(__file__).with_name("routine_accruals.py"))
+routine_accruals = importlib.util.module_from_spec(ACCRUAL_SPEC)
+ACCRUAL_SPEC.loader.exec_module(routine_accruals)
 
 FIELDS = [
     "event_id", "estate", "effective_day", "event_type", "category",
@@ -173,6 +176,26 @@ class EstateLedgerScenarioTests(unittest.TestCase):
             self.assertEqual(payload["party"][0]["hp"], "47.0")
             self.assertEqual(payload["party"][0]["resources"][0]["current"], "1.0")
             self.assertEqual(payload["inventory"]["Valenthia"][0]["qty"], "9.0")
+
+    def test_closed_day_accruals_are_stable_and_idempotent(self):
+        rates_path = Path(__file__).parents[1] / "data" / "estate" / "blackthorn-rates.csv"
+        with rates_path.open(encoding="utf-8", newline="") as handle:
+            rates = list(csv.DictReader(handle))
+        historic = routine_accruals.generate(rates, 182, 230)
+        self.assertEqual(historic["status"], "PASS")
+        self.assertEqual(historic["totals_gp"]["management_payroll"], "336.00")
+        self.assertEqual(historic["totals_gp"]["production_payroll"], "364.80")
+        self.assertEqual(historic["totals_gp"]["upkeep"], "85.71")
+        one_day = routine_accruals.generate(rates, 230, 231)
+        self.assertEqual(one_day["event_count"], 3)
+        self.assertEqual(one_day["totals_gp"]["management_payroll"], "7.00")
+        self.assertEqual(one_day["totals_gp"]["production_payroll"], "7.60")
+        self.assertEqual(one_day["totals_gp"]["upkeep"], "1.79")
+        ids = {row["event_id"]: row for row in one_day["events"]}
+        repeated = routine_accruals.generate(rates, 230, 231, ids)
+        self.assertEqual(repeated["event_count"], 0)
+        self.assertEqual(repeated["status"], "PASS")
+        self.assertTrue(all(row["cash_delta_gp"] == "" for row in one_day["events"]))
 
     def test_blackthorn_production_dispatch_accept_and_readiness_gate(self):
         opening = [{"Grade": "Dressed stone", "Quantity t": "5.000", "Amount gp": "50.00"}]
