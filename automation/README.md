@@ -2,23 +2,30 @@
 
 ## Current staging tools
 
-- `estate_audit.py` checks each estate's displayed available balance against cash less recorded liabilities, checks cashbook ID uniqueness and reconciliation flags, and lists unfinished scheduled tasks due on or before the campaign day.
-- `estate_ledger.py` rolls forward the normalized event ledger and its opening balances, then compares cash, open liabilities, and available cash to the imported Property overview snapshots.
-- `build_dashboard.py` creates `dashboard/dashboard.json` from estate results plus the V, Cirren, Fenar, inventory, and magic-shop CSV snapshots. `dashboard/index.html` presents those values as a searchable-at-a-glance page.
-- `.github/workflows/estate-audit.yml` runs these checks when relevant snapshots, ledger data, code, or campaign day change. It records reports even when a check fails, then marks the workflow failed so the discrepancy is visible.
+- `estate_audit.py` checks displayed estate cash less recorded liabilities, cashbook ID uniqueness/reconciliation flags, and unfinished schedule items due by the in-game day.
+- `estate_ledger.py` rolls forward the normalized cash and liability events, checks paired transfers and liability settlements, and compares results through the recorded snapshot day with the Property overview.
+- `tracker_validate.py` checks character HP/resource ranges, inventory quantities, magic-shop dealer/stock/event IDs, and the character event log.
+- `build_dashboard.py` creates `dashboard/dashboard.json` from the estate report and V, Cirren, Fenar, inventory, and magic-shop CSV snapshots. `dashboard/index.html` presents those staged values.
+- `.github/workflows/estate-audit.yml` runs on relevant source/data/code changes. It commits generated reports even if validation fails, then leaves the workflow failed so the discrepancy remains visible.
 
-The dashboard is a staged snapshot view. GitHub Pages is not enabled; it is not a campaign website.
+The dashboard is a static file in the repository. GitHub Pages is not enabled and the page is not a campaign website.
 
-## Estate ledger boundary
+## Estate ledger seed and controls
 
-The seed imports cashbook rows as uniquely identified cash events and records the nonzero Day 230 overview liabilities as opening balances. Blackthorn starts from its reconstructed 572.11 gp opening cash on Day 182; the other estate cashbooks include their funding entries from a zero opening balance. The seed preserves source file, source row, evidence, actual day, amount and signed cash delta.
+The event ledger imports 121 actual cashbook rows with stable IDs, dates, signed cash changes, source sheet/row, and evidence. Blackthorn starts from 572.11 gp reconstructed cash on Day 182; the other estates start at zero and include their recorded owner-funding entries. Opening unpaid liabilities are separate balance-forward amounts from the Day 230 overview. The checkpoint metadata records that the source balances include actual cash postings through Day 231 late morning.
 
-The opening-liability entries are balance-forward amounts, not a re-posting of historical expenses. New entries must distinguish work/cost incurred from a later payment. Payment reduces cash and the related liability; it does not create a second expense. Matched estate-transfer legs share an ID. Taxes arise only from posted taxable results, and a due date never posts or pays tax.
+The ledger checks the Day 231 checkpoint, then can show later posted entries as a staging projection. Each liability change requires a stable `liability_id`; later payments reduce that liability and cash without recording a second expense. Actual transfers use one shared `reference_id` and both cash legs must net to zero. Event IDs and liability IDs must be unique.
 
-Inventory and shipment changes require actual evidenced receipt, dispatch, acceptance, damage, or loss. Forecasts and plans have no financial or inventory effect. The estate system introduces no protected reserve or cash hold. It does not assume scheduled work happened.
+Fields support cash, earned income, incurred expense, liability movement, accepted quantities, inventory identifiers, and shipment IDs. Records require an actual day and evidence. Forecast, planned, scheduled, pending, and unconfirmed records cannot carry financial, inventory, or acceptance deltas.
 
-## Validation status and limits
+No schedule date creates a wage, receipt, expense, tax, transfer, inventory movement, or shipment. Revenue is earned only on actual acceptance under the applicable agreement; payment on another date changes cash/receivable, not income a second time. A due tax is not an accrual or payment. Service receipts require their recorded readiness, ownership, capacity, route, inspection, and acceptance prerequisites. No protected reserve or cash hold is calculated.
 
-The staging workflow compares its output to the 2026-11-19 workbook exports and the current campaign-state snapshot. Drive remains authoritative. The engine currently validates balances and stable IDs; it is not yet a complete replacement for every estate-specific formula or transaction worksheet. Wages, production costing, per-period tax calculations, order acceptance, delayed/failed work, cargo ownership/custody, inventory valuation, and all service prerequisites still need complete rule-by-rule checkpoint validation before cutover.
+## Current verification
 
-Never update the staging ledger by copying a forecast. Add only a confirmed event and evidence, then let the workflow report whether the staging calculation matches the workbook snapshot. Keep the source workbook unchanged during testing.
+The generated checkpoint report reconciles the four estates to their Day 231 displayed balances and verifies the event IDs and transfer legs. The schedule review was compared with the live Property schedules. Two old Miregate payroll rows point to a completed later settlement and are listed separately as verified successors. The character/shop validation passes for the 2026-11-19 exports.
+
+## Not yet a replacement
+
+This is still a staged foundation, not a complete property-workbook rewrite. The historical cashbook import does not classify all past income and incurred expenses, and the opening liability snapshot begins at Day 230. Category-level wage accrual, Blackthorn production/COGS and stock valuation, rolling tax calculations, receivables, accepted-cargo flows, delayed/failed work, and all service prerequisites still need rule-by-rule porting and checkpoint tests. Character event entries are additive to the snapshot, not a formula-complete character-sheet engine. Magic-shop tables and rules are validated and visible, but Actions do not roll turnover, execute trade, or decide availability.
+
+Drive remains authoritative. Do not change the live workbook or Project Sources during staging.
