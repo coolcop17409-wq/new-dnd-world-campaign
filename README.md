@@ -40,7 +40,8 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [x] Add closed-day Blackthorn accrual preview and explicit idempotent staging-post control; synthetic retry test passes.
 - [x] Document character, shop-turnover, service-prerequisite and event-to-checkpoint procedures; generate a due-review queue from confirmed campaign day.
 - [ ] Bridge future Blackthorn operation results into estate ledger cash/receivables and inventory postings without duplicate entries.
-- [ ] Automate cross-estate service prerequisite validation and verify each service path.
+- [x] Require prerequisite references for earned income/service release and validate referenced schedule completion, actual day and evidence.
+- [ ] Verify that each service path cites the full applicable dependency set, including legal, staffing, safety, route and capacity conditions.
 - [ ] Verify a real confirmed character change and one due Magic Shops turnover through write → rebuild → compare.
 - [ ] Complete opening ownership, custody, inventory, staff and commitment checkpoints; test full play → sync → source comparison.
 - [ ] Review a successful full Actions run and then consider cutover.
