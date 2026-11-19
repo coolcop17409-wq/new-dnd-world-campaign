@@ -26,7 +26,7 @@ The opening receivable register is empty because the source showed zero receivab
 - Estate ledger synthetic cases pass partial liability payment, delayed receivable collection, failed work with no unearned posting, due tax without assessment, paired transfer legs, reservation/release, shipment transit, and blocking dispatch from unverified stock.
 - Synthetic character overlay passes HP, resource and inventory changes over a snapshot.
 - Recurring accrual tests pass stable ID generation, exact Day 231 values, explicit close posting and rerun idempotency.
-- Local verification on the current staging files: six unit tests passed; Blackthorn operation replay passed with no findings; routine-accrual preview passed with no findings.
+- Local verification on the current staging files: seven unit tests passed; Blackthorn operation replay passed with no findings; routine-accrual preview passed with no findings; the Day 231 Magic Shops review queue passed with zero due reviews.
 
 The manually triggered accrual posting is opt-in and requires an explicit closed-through day. Ordinary workflow runs are preview only. This staging write path has not yet been reviewed in a successful Actions run.
 
@@ -38,7 +38,7 @@ The manually triggered accrual posting is opt-in and requires an explicit closed
 - Magic Shops turnover behavior is specified in its Rules export, including review intervals, odds, eligible outcomes, and recording requirements. Automated checks validate identities and quantities only; no real due review and linked player transaction has been compared.
 - Opening custody, ownership, staff, inventory and commitments need full checkpoint completeness beyond current estate cash/liabilities and Blackthorn book stock.
 - A complete play → event write → regenerated views → Drive checkpoint comparison has not yet passed.
-- A newer Actions result must be reviewed before cutover. The Actions run from these latest commits is not represented by the local tests and must not be assumed successful.
+- GitHub Actions runs 65–67 completed successfully. Run 67 is the latest verified run for the review-queue change. An earlier run 63 failed on a malformed newline in the atomic close-marker write; the correction was committed and run 64 and subsequent runs passed.
 
 ## Cutover boundary
 
