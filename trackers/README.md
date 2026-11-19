@@ -6,6 +6,8 @@ These files are snapshots from the live Google Sheets as of 2026-11-19. The corr
 
 The CSVs are snapshots, not yet an approved replacement for live formula-driven Sheets. Drive remains authoritative during testing. Do not edit a CSV and treat it as a live resource change until the cutover design and formula behavior are verified.
 
+The estate audit prototype in `../automation/` reads four estate overview snapshots and cashbook IDs. It reports reconciliation findings and, when given a campaign day, incomplete schedule items due by that day. It is read-only with respect to tracker records: no wages, income, costs, tax, transfers, or balances are posted.
+
 ## Workbook map
 
 | Workbook | Drive source ID | Snapshot |
