@@ -554,6 +554,73 @@ class EstateLedgerScenarioTests(unittest.TestCase):
         self.assertEqual(blocked["status"], "CHECK")
         self.assertTrue(any("readiness task" in finding for finding in blocked["findings"]))
 
+    def test_closed_tax_assessment_apply_is_idempotent(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            data = root / "data" / "estate"
+            prop = root / "trackers" / "csv" / "property"
+            reports = root / "reports"
+            data.mkdir(parents=True)
+            prop.mkdir(parents=True)
+            reports.mkdir(parents=True)
+            self.write_csv(data / "snapshot-meta.json", ["snapshot_day", "captured_date"], [])
+            (data / "snapshot-meta.json").write_text(
+                json.dumps({"snapshot_day": 231, "captured_date": "fixture"}),
+                encoding="utf-8",
+            )
+            (data / "routine-accrual-meta.json").write_text(
+                json.dumps({"last_confirmed_closed_day": 271, "source_opening_day": 182}),
+                encoding="utf-8",
+            )
+            (data / "blackthorn-tax-config.json").write_text(json.dumps({
+                "source_opening_day": 182, "source_checkpoint_day": 230,
+                "source_period_id": "TAX-59", "source_taxable_base_gp": "723.70",
+                "source_assessment_gp": "72.37",
+                "source_liability_id": "OPEN-BLACKTHORN-rolling-tax-unpaid-gp-D230",
+                "tax_rate": "0.10",
+            }), encoding="utf-8")
+            self.write_csv(data / "blackthorn-rates.csv",
+                ["type", "cost_family", "rate_gp", "unit", "from_day", "through_day"], [])
+            self.write_csv(prop / "blackthorn-schedule.csv",
+                ["Task / settlement ID", "Planned day"],
+                [{"Task / settlement ID": "TAX-59", "Planned day": "272"}])
+            self.write_csv(data / "blackthorn-operations-events.csv", ["Event ID"], [])
+            self.write_csv(data / "events.csv", FIELDS, [{
+                "event_id": "SALE-1", "estate": "Blackthorn", "effective_day": "231",
+                "event_type": "other_actual_income", "income_delta_gp": "1.00",
+                "evidence": "fixture earned income", "status": "posted",
+            }])
+            (reports / "blackthorn-operations.json").write_text(json.dumps({
+                "status": "PASS", "checkpoint_day": 231, "staging_event_ids": [],
+                "ledger_events": [],
+            }), encoding="utf-8")
+            old = (blackthorn_tax.ROOT, blackthorn_tax.DATA, blackthorn_tax.PROPERTY,
+                   blackthorn_tax.REPORT, sys.argv)
+            blackthorn_tax.ROOT, blackthorn_tax.DATA = root, data
+            blackthorn_tax.PROPERTY, blackthorn_tax.REPORT = prop, reports / "blackthorn-tax.json"
+            sys.argv = ["blackthorn_tax.py", "--closed-through-day", "271", "--apply"]
+            try:
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(blackthorn_tax.main(), 0)
+                with (data / "events.csv").open(encoding="utf-8", newline="") as handle:
+                    first = list(csv.DictReader(handle))
+                first_report = json.loads((reports / "blackthorn-tax.json").read_text(encoding="utf-8"))
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(blackthorn_tax.main(), 0)
+                with (data / "events.csv").open(encoding="utf-8", newline="") as handle:
+                    second = list(csv.DictReader(handle))
+                second_report = json.loads((reports / "blackthorn-tax.json").read_text(encoding="utf-8"))
+            finally:
+                (blackthorn_tax.ROOT, blackthorn_tax.DATA, blackthorn_tax.PROPERTY,
+                 blackthorn_tax.REPORT, sys.argv) = old
+            self.assertEqual(len(first), 2)
+            self.assertEqual(first_report["posted_count"], 1)
+            self.assertEqual(first[1]["event_type"], "tax_adjustment")
+            self.assertEqual(first[1]["liability_delta_gp"], "0.10")
+            self.assertEqual(len(second), 2)
+            self.assertEqual(second_report["posted_count"], 0)
+            self.assertEqual(second_report["periods"][0]["assessment_delta_gp"], "0.00")
+
     def test_blackthorn_routine_accrual_and_tax_match_day230_source(self):
         data = Path(__file__).parents[1] / "data" / "estate" / "blackthorn-rates.csv"
         with data.open(encoding="utf-8", newline="") as handle:
