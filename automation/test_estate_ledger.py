@@ -113,8 +113,8 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                     {"label": "available", "value": str(float(cash) - float(liabilities))},
                     {"label": "liabilities", "value": liabilities},
                 ])
-            old = (ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES)
-            ledger.DATA, ledger.PROPERTY, ledger.REPORT = data, prop, reports / "ledger.json"
+            old = (ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES)
+            ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT = root, data, prop, reports / "ledger.json"
             ledger.ESTATES = {
                 "Test": {"overview": "test.csv", "cash": ["cash"], "available": ["available"], "liabilities": ["liabilities"]},
                 "Partner": {"overview": "partner.csv", "cash": ["cash"], "available": ["available"], "liabilities": ["liabilities"]},
@@ -139,7 +139,7 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                     self.assertEqual(ledger.main(), 1)
                 blocked_report = json.loads((reports / "ledger.json").read_text(encoding="utf-8"))
             finally:
-                ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES = old
+                ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES = old
             self.assertEqual(report["status"], "PASS")
             self.assertEqual(report["estates"]["Test"]["projected_cash_gp"], "100.00")
             self.assertEqual(report["estates"]["Test"]["projected_liabilities_gp"], "12.00")
