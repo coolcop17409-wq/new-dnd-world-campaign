@@ -2,6 +2,7 @@
   "generated_from": "staging snapshots; Drive remains authoritative",
   "campaign_day": 231,
   "estate_status": "PASS",
+  "tracker_status": "CHECK",
   "estates": {
     "Miregate": {
       "cash_gp": "501.40",
