@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "last_closed_day": 230,
+  "closed_through_day": 230,
+  "event_count": 0,
+  "totals_gp": {},
+  "events": [],
+  "conflicts": [],
+  "note": "Preview only. Rows are generated only through an explicitly confirmed closed day; they are not appended to events.csv by this script."
+}
