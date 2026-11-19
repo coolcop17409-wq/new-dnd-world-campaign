@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PROPERTY = ROOT / "trackers" / "csv" / "property"
 REPORT = ROOT / "reports" / "estate-review.md"
+TASK_SUPERSESSIONS = ROOT / "data" / "estate" / "task-supersessions.csv"
 
 ESTATES = {
     "Miregate": {
@@ -148,18 +149,36 @@ def find_schedule_columns(rows: list[list[str]]) -> tuple[int, dict[str, int]] |
         task_key = next((key for key in ("task id", "task / settlement id", "task", "settlement id") if key in headers), None)
         target_key = next((key for key in ("target day", "earliest target", "earliest day", "planned day") if key in headers), None)
         if status_key and task_key and target_key:
-            return row_index, {"status": headers[status_key], "task": headers[task_key], "target": headers[target_key]}
+            evidence_key = next((key for key in ("actual evidence", "evidence / restriction", "evidence / dependency", "evidence") if key in headers), None)
+            return row_index, {"status": headers[status_key], "task": headers[task_key], "target": headers[target_key], "evidence": headers[evidence_key] if evidence_key else -1}
     return None
 
-def due_tasks(name: str, filename: str, campaign_day: int) -> list[str]:
+def due_tasks(name: str, filename: str, campaign_day: int) -> tuple[list[str], list[str]]:
     rows = read_rows(PROPERTY / filename)
     found = find_schedule_columns(rows)
     if found is None:
-        return [f"- **{name}: schedule needs review** — no recognizable task/status/target columns in `{filename}`."]
+        return [f"- **{name}: schedule needs review** — no recognizable task/status/target columns in `{filename}`."], []
     header_index, columns = found
-    due: list[str] = []
+    task_status: dict[str, str] = {}
     for row in rows[header_index + 1:]:
-        if len(row) <= max(columns.values()):
+        if len(row) > max(columns["task"], columns["status"]):
+            task_id = row[columns["task"]].strip()
+            if task_id:
+                task_status[task_id] = row[columns["status"]].strip()
+    completed = {"complete", "completed", "cancelled", "canceled", "closed", "paid", "settled", "resolved", "fulfilled"}
+    suppressed: dict[str, str] = {}
+    if TASK_SUPERSESSIONS.exists():
+        with TASK_SUPERSESSIONS.open("r", encoding="utf-8-sig", newline="") as handle:
+            for item in csv.DictReader(handle):
+                if norm(item.get("estate", "")) != norm(name):
+                    continue
+                source, successor = item.get("task_id", "").strip(), item.get("superseded_by", "").strip()
+                if source in task_status and norm(task_status.get(successor, "")) in completed:
+                    suppressed[source] = successor
+    due: list[str] = []
+    resolved: list[str] = []
+    for row in rows[header_index + 1:]:
+        if len(row) <= max(columns["task"], columns["status"], columns["target"]):
             continue
         task = row[columns["task"]].strip()
         status = row[columns["status"]].strip()
@@ -170,11 +189,14 @@ def due_tasks(name: str, filename: str, campaign_day: int) -> list[str]:
             target = int(money(target_raw))
         except (ValueError, OverflowError):
             continue
-        if norm(status) in {"complete", "completed", "cancelled", "canceled", "closed", "paid", "settled", "resolved", "fulfilled"}:
+        if task in suppressed:
+            resolved.append(f"- **{name} — {task}** is superseded by completed `{suppressed[task]}` (verified against the staging successor map).")
+            continue
+        if norm(status) in completed:
             continue
         if target <= campaign_day:
             due.append(f"- **{name} — Day {target}: {task}** ({status})")
-    return due
+    return due, resolved
 
 def opening_cash(config: dict) -> Decimal:
     source = config.get("opening_balance")
@@ -311,9 +333,14 @@ def main() -> int:
     else:
         lines.extend(["", f"## Unfinished tasks due by campaign Day {campaign_day}", "", f"Campaign-day source: {campaign_day_source}."])
         due: list[str] = []
+        resolved: list[str] = []
         for name, config in ESTATES.items():
-            due.extend(due_tasks(name, config["schedule"], campaign_day))
+            estate_due, estate_resolved = due_tasks(name, config["schedule"], campaign_day)
+            due.extend(estate_due)
+            resolved.extend(estate_resolved)
         lines.extend(due if due else ["No unfinished scheduled tasks at or before that day were found in the four schedule snapshots."])
+        if resolved:
+            lines.extend(["", "### Verified later settlements", "", *resolved])
 
     lines.extend([
         "",
