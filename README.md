@@ -38,7 +38,7 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [x] Character, inventory, and magic-shop snapshot checks pass; a read-only dashboard is generated.
 - [x] Replay Blackthorn production, labor, product cost, COGS, loss, stock, shipment, acceptance and readiness rules against the source activity through Day 230; row-level checks pass.
 - [x] Add closed-day Blackthorn accrual preview and explicit idempotent staging-post control; synthetic retry test passes.
-- [x] Document character, shop-turnover, service-prerequisite and event-to-checkpoint procedures.
+- [x] Document character, shop-turnover, service-prerequisite and event-to-checkpoint procedures; generate a due-review queue from confirmed campaign day.
 - [ ] Bridge future Blackthorn operation results into estate ledger cash/receivables and inventory postings without duplicate entries.
 - [ ] Automate cross-estate service prerequisite validation and verify each service path.
 - [ ] Verify a real confirmed character change and one due Magic Shops turnover through write → rebuild → compare.
