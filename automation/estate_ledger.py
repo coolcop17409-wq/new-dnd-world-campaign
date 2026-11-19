@@ -72,7 +72,9 @@ def main():
   if iid in inventory_balance:errors.append(f"duplicate opening inventory ID {iid}")
   if estate not in ESTATES:errors.append(f"{iid}: unknown estate {estate}");continue
   if qty<0:errors.append(f"{iid}: negative opening quantity {qty}")
-  inventory_balance[iid]={"estate":estate,"quantity":qty}
+  opening_cost=dec(row.get("opening_cost_gp","0"))
+  if opening_cost<0:errors.append(f"{iid}: negative opening inventory cost {opening_cost}")
+  inventory_balance[iid]={"estate":estate,"quantity":qty,"cost":opening_cost}
  cash_deltas_cut=defaultdict(Decimal);liability_deltas_cut=defaultdict(Decimal)
  cash_deltas_all=defaultdict(Decimal);liability_deltas_all=defaultdict(Decimal)
  receivable_deltas_cut=defaultdict(Decimal);receivable_deltas_all=defaultdict(Decimal)
@@ -132,15 +134,17 @@ def main():
      if next_cut<0:errors.append(f"{eid}: snapshot-cutoff collection exceeds receivable {rid}")
      receivable_cut[rid]["balance"]=next_cut;receivable_deltas_cut[estate]+=receivable_delta
   iid=(row.get("inventory_id") or "").strip()
-  if quantity:
+  if quantity or inventory_cost:
    if iid not in inventory_balance:
-    if quantity<0:errors.append(f"{eid}: cannot dispatch or lose unregistered opening inventory {iid}")
-    else:inventory_balance[iid]={"estate":estate,"quantity":Decimal(0)}
+    if quantity<0 or inventory_cost<0:errors.append(f"{eid}: cannot reduce unregistered opening inventory {iid}")
+    else:inventory_balance[iid]={"estate":estate,"quantity":Decimal(0),"cost":Decimal(0)}
    if iid in inventory_balance:
     if inventory_balance[iid]["estate"]!=estate:errors.append(f"{eid}: inventory {iid} belongs to another estate")
     next_qty=inventory_balance[iid]["quantity"]+quantity
+    next_cost=inventory_balance[iid]["cost"]+inventory_cost
     if next_qty<0:errors.append(f"{eid}: inventory change exceeds available {iid} quantity by {money(-next_qty)}")
-    inventory_balance[iid]["quantity"]=next_qty
+    if next_cost<0:errors.append(f"{eid}: inventory cost release exceeds recorded cost for {iid} by {money(-next_cost)} gp")
+    inventory_balance[iid]["quantity"]=next_qty;inventory_balance[iid]["cost"]=next_cost
     inventory_deltas_all[estate]+=quantity
     if day<=cutoff:inventory_deltas_cut[estate]+=quantity
   if day<=cutoff:
@@ -189,6 +193,9 @@ def main():
   if available_cut!=money(available_expected):errors.append(f"{estate}: available through Day {int(cutoff)} {available_cut} does not match overview {money(available_expected)}")
   receivable_at_cut=sum((x["balance"] for x in receivable_cut.values() if x["estate"]==estate),Decimal(0))
   receivable_latest=sum((x["balance"] for x in receivable_balance.values() if x["estate"]==estate),Decimal(0))
+  inventory_rows={k:v for k,v in inventory_balance.items() if v["estate"]==estate and (v["quantity"] or v["cost"])}
+  inventory_qty=sum((x["quantity"] for x in inventory_rows.values()),Decimal(0))
+  inventory_cost=sum((x["cost"] for x in inventory_rows.values()),Decimal(0))
   snapshot["estates"][estate]={
    "snapshot_cash_gp":str(money(cash_cut[estate])),"snapshot_liabilities_gp":str(money(liab_at_cut)),"snapshot_available_gp":str(available_cut),
    "projected_cash_gp":str(money(cash_all[estate])),"projected_liabilities_gp":str(money(liab_latest)),"projected_available_gp":str(available_latest),
@@ -201,6 +208,9 @@ def main():
    "actual_income_after_snapshot_gp":str(money(income_all[estate])),
    "actual_expense_after_snapshot_gp":str(money(expense_all[estate])),
    "inventory_quantity_delta_after_snapshot":str(money(inventory_deltas_all[estate]-inventory_deltas_cut[estate])),
+   "inventory_quantity_gp":str(money(inventory_qty)),
+   "inventory_cost_basis_gp":str(money(inventory_cost)),
+   "inventory_items":{k:{"quantity":str(money(v["quantity"])),"cost_basis_gp":str(money(v["cost"]))} for k,v in inventory_rows.items()},
   }
   if cash_all[estate]<0:errors.append(f"{estate}: projected cash is negative")
  snapshot["findings"]=errors
