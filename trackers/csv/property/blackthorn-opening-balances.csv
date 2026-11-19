@@ -3,16 +3,16 @@ Verified Blackthorn opening balances through Day 182. Future estates establish t
 ← Blackthorn overview,,Estates index
 
 Property,Account,Grade,Family,Quantity t,Amount gp,As-of day,Evidence / ownership
-Blackthorn,Cash,,,,572.11,182.0,Reconciled Day 182 close; source archived in this workbook.
-Blackthorn,Payroll,,,,29.2,182.0,Reconciled Day 182 close; source archived in this workbook.
-Blackthorn,Operations,,,,21.56,182.0,Reconciled Day 182 close; source archived in this workbook.
-Blackthorn,Carrow,,,,52.58,182.0,Reconciled Day 182 close; source archived in this workbook.
-Blackthorn,Tax,,,,53.7,182.0,Corrected Day182 opening tax assessment; included once in Blackthorn - Accounts rolling register via Taxable carry. No tax paid; not an extra cash deduction.
-Blackthorn,Taxable carry,,,,536.97,182.0,"Tax history59–182:717.54gp pre-Carrow operating profit through180 −163gp pre-opening operating costs −17.57gp Day181–182 loss =536.97gp. Sources: Archive - Blackthorn Accounts N80, B92, B272 (no new Carrow). Frozen correction, not revenue or cash. First positive cumulative profit:Day108."
-Blackthorn,Loan,,,,0.0,182.0,Reconciled Day 182 close; source archived in this workbook.
-Blackthorn,Stock,Rough stone,Stone,0.46,1.98,182.0,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
-Blackthorn,Stock,Dressed stone,Stone,7.61,51.76,182.0,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
-Blackthorn,Stock,Premium architectural stone,Stone,0.23,1.91,182.0,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
-Blackthorn,Stock,Raw logs,Timber,0.3,1.74,182.0,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
-Blackthorn,Stock,Sawn construction lumber,Timber,2.5,27.17,182.0,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
-Blackthorn,Stock,Selected / finished hardwood,Timber,0.2,2.76,182.0,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
+Blackthorn,Cash,,,,572.11,182,Reconciled Day 182 close; source archived in this workbook.
+Blackthorn,Payroll,,,,29.20,182,Reconciled Day 182 close; source archived in this workbook.
+Blackthorn,Operations,,,,21.56,182,Reconciled Day 182 close; source archived in this workbook.
+Blackthorn,Carrow,,,,52.58,182,Reconciled Day 182 close; source archived in this workbook.
+Blackthorn,Tax,,,,53.70,182,Corrected Day182 opening tax assessment; included once in Blackthorn - Accounts rolling register via Taxable carry. No tax paid; not an extra cash deduction.
+Blackthorn,Taxable carry,,,,536.97,182,"Tax history59–182:717.54gp pre-Carrow operating profit through180 −163gp pre-opening operating costs −17.57gp Day181–182 loss =536.97gp. Sources: Archive - Blackthorn Accounts N80, B92, B272 (no new Carrow). Frozen correction, not revenue or cash. First positive cumulative profit:Day108."
+Blackthorn,Loan,,,,–,182,Reconciled Day 182 close; source archived in this workbook.
+Blackthorn,Stock,Rough stone,Stone,0.460,1.98,182,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
+Blackthorn,Stock,Dressed stone,Stone,7.610,51.76,182,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
+Blackthorn,Stock,Premium architectural stone,Stone,0.230,1.91,182,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
+Blackthorn,Stock,Raw logs,Timber,0.300,1.74,182,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
+Blackthorn,Stock,Sawn construction lumber,Timber,2.500,27.17,182,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."
+Blackthorn,Stock,Selected / finished hardwood,Timber,0.200,2.76,182,"Provisional grade allocation; physical count, seasoning and buyer certification remain unverified."

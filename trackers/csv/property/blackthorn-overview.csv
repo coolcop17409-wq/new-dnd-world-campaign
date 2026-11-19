@@ -1,15 +1,15 @@
 BLACKTHORN - OVERVIEW
 "Actual balances, commitments and next actions — history preserved through Day 182; new journal begins Day 183."
-Posted through,230.0,D231-ESTATE-CATCHUP-001: verified full close230 after six completed days225–230. Elapsed231 morning F03 inspection/carrier arrangement recorded; full231 close remains open.
+Posted through,230,D231-ESTATE-CATCHUP-001: verified full close230 after six completed days225–230. Elapsed231 morning F03 inspection/carrier arrangement recorded; full231 close remains open.
 Property,Blackthorn,Blackthorn accounts only. Use Estates for Miregate and future estate groups.
 
 Cash gp,453.33,Available after actual liabilities,,282.32
-Carrow unpaid gp,73.28,Payroll payable gp,,14.6
-Production / upkeep payable gp,10.76,Incremental bills payable gp,,0
+Carrow unpaid gp,73.28,Payroll payable gp,,14.60
+Production / upkeep payable gp,10.76,Incremental bills payable gp,,–
 Rolling tax unpaid gp,72.37,Next tax + Carrow day,,272
-Owned stock book cost gp,349.43,Receivables gp,,0
+Owned stock book cost gp,349.43,Receivables gp,,–
 Close check,RECONCILED,Input issues,,0
-Customer advances gp,0,Supplier prepayments gp,,0
+Customer advances gp,–,Supplier prepayments gp,,–
 STOCK & COMMITMENTS — first six grades; full expanding register in Blackthorn - Accounts
 Product grade,On-site t,Reserved t,Shortfall t,Unreserved t,In transit t,Owned cost gp
 Rough stone,0.824,0,0,0.824,0,3.5778

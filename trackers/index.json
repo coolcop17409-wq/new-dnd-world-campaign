@@ -1,8 +1,8 @@
 {
   "captured_utc": "2026-11-19",
-  "note": "Schema and sheet routes exported from current Google Sheets metadata. Full XLSX snapshots preserve the workbook structures.",
+  "note": "Full XLSX snapshots preserve formulas, formatting and workbook structure. CSV files are live Sheets formatted-value exports at capture time; the CSVs preserve displayed calculated values but not formulas.",
   "workbooks": {
-    "V": {
+    "v": {
       "source_id": "1JUWWk7DsXt9aNwPsob5Tj3hmk5PvwqWRuQQzKKHlqZM",
       "workbook_path": "trackers/workbooks/v-character-sheets.xlsx",
       "sheets": [
@@ -10,35 +10,40 @@
           "title": "START HERE",
           "sheet_id": 318855697,
           "grid_rows": 995,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/v/start-here.csv"
         },
         {
           "title": "V - Character",
           "sheet_id": 21001,
           "grid_rows": 249,
-          "grid_columns": 15
+          "grid_columns": 15,
+          "csv_path": "trackers/csv/v/v-character.csv"
         },
         {
           "title": "V - Skills",
           "sheet_id": 21002,
           "grid_rows": 250,
-          "grid_columns": 15
+          "grid_columns": 15,
+          "csv_path": "trackers/csv/v/v-skills.csv"
         },
         {
           "title": "V - Inventory",
           "sheet_id": 21003,
           "grid_rows": 249,
-          "grid_columns": 15
+          "grid_columns": 15,
+          "csv_path": "trackers/csv/v/v-inventory.csv"
         },
         {
           "title": "V - Martial",
           "sheet_id": 21004,
           "grid_rows": 250,
-          "grid_columns": 15
+          "grid_columns": 15,
+          "csv_path": "trackers/csv/v/v-martial.csv"
         }
       ]
     },
-    "Cirren": {
+    "cirren": {
       "source_id": "1WcguqV2Uos8NXml0MHEEBR9ztCISWGL2lrClNK2pW-s",
       "workbook_path": "trackers/workbooks/cirren-character-sheets.xlsx",
       "sheets": [
@@ -46,35 +51,40 @@
           "title": "START HERE",
           "sheet_id": 756476005,
           "grid_rows": 995,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/cirren/start-here.csv"
         },
         {
           "title": "Cirren - Character",
           "sheet_id": 25085621,
           "grid_rows": 250,
-          "grid_columns": 15
+          "grid_columns": 15,
+          "csv_path": "trackers/csv/cirren/cirren-character.csv"
         },
         {
           "title": "Cirren - Skills",
           "sheet_id": 1184750508,
           "grid_rows": 250,
-          "grid_columns": 15
+          "grid_columns": 15,
+          "csv_path": "trackers/csv/cirren/cirren-skills.csv"
         },
         {
           "title": "Cirren - Inventory",
           "sheet_id": 1445453169,
           "grid_rows": 250,
-          "grid_columns": 15
+          "grid_columns": 15,
+          "csv_path": "trackers/csv/cirren/cirren-inventory.csv"
         },
         {
           "title": "Cirren - Spells",
           "sheet_id": 428615220,
           "grid_rows": 250,
-          "grid_columns": 15
+          "grid_columns": 15,
+          "csv_path": "trackers/csv/cirren/cirren-spells.csv"
         }
       ]
     },
-    "Fenar": {
+    "fenar": {
       "source_id": "1Zscq-futavtCYv00FDENn3hTKEh8g8YQ1xfOs0ht7zk",
       "workbook_path": "trackers/workbooks/fenar-character-sheets.xlsx",
       "sheets": [
@@ -82,47 +92,54 @@
           "title": "START HERE",
           "sheet_id": 756476005,
           "grid_rows": 34,
-          "grid_columns": 8
+          "grid_columns": 8,
+          "csv_path": "trackers/csv/fenar/start-here.csv"
         },
         {
           "title": "Fenar - Character",
           "sheet_id": 25085621,
           "grid_rows": 44,
-          "grid_columns": 8
+          "grid_columns": 8,
+          "csv_path": "trackers/csv/fenar/fenar-character.csv"
         },
         {
           "title": "Fenar - Skills",
           "sheet_id": 1184750508,
           "grid_rows": 34,
-          "grid_columns": 8
+          "grid_columns": 8,
+          "csv_path": "trackers/csv/fenar/fenar-skills.csv"
         },
         {
           "title": "Fenar - Inventory",
           "sheet_id": 1445453169,
           "grid_rows": 33,
-          "grid_columns": 8
+          "grid_columns": 8,
+          "csv_path": "trackers/csv/fenar/fenar-inventory.csv"
         },
         {
           "title": "Fenar - Features",
           "sheet_id": 428615220,
           "grid_rows": 70,
-          "grid_columns": 8
+          "grid_columns": 8,
+          "csv_path": "trackers/csv/fenar/fenar-features.csv"
         },
         {
           "title": "Fenar - Roleplay",
           "sheet_id": 1837446025,
           "grid_rows": 45,
-          "grid_columns": 4
+          "grid_columns": 4,
+          "csv_path": "trackers/csv/fenar/fenar-roleplay.csv"
         },
         {
           "title": "Fenar - Visuals",
           "sheet_id": 1726208054,
           "grid_rows": 84,
-          "grid_columns": 4
+          "grid_columns": 4,
+          "csv_path": "trackers/csv/fenar/fenar-visuals.csv"
         }
       ]
     },
-    "Property": {
+    "property": {
       "source_id": "1VYY8lidhkDe6iiCaY8uEesg1ocxunXIE_Q6Y9-baw9Q",
       "workbook_path": "trackers/workbooks/property.xlsx",
       "sheets": [
@@ -130,263 +147,306 @@
           "title": "Estates",
           "sheet_id": 30001,
           "grid_rows": 65,
-          "grid_columns": 8
+          "grid_columns": 8,
+          "csv_path": "trackers/csv/property/estates.csv"
         },
         {
           "title": "Blackthorn - Overview",
           "sheet_id": 28001,
           "grid_rows": 100,
-          "grid_columns": 10
+          "grid_columns": 10,
+          "csv_path": "trackers/csv/property/blackthorn-overview.csv"
         },
         {
           "title": "Blackthorn - Rates & Staff",
           "sheet_id": 28008,
           "grid_rows": 305,
-          "grid_columns": 13
+          "grid_columns": 13,
+          "csv_path": "trackers/csv/property/blackthorn-rates-staff.csv"
         },
         {
           "title": "Blackthorn - Agreements",
           "sheet_id": 28007,
           "grid_rows": 305,
-          "grid_columns": 16
+          "grid_columns": 16,
+          "csv_path": "trackers/csv/property/blackthorn-agreements.csv"
         },
         {
           "title": "Blackthorn - Orders",
           "sheet_id": 28003,
           "grid_rows": 505,
-          "grid_columns": 21
+          "grid_columns": 21,
+          "csv_path": "trackers/csv/property/blackthorn-orders.csv"
         },
         {
           "title": "Blackthorn - Operations",
           "sheet_id": 28002,
           "grid_rows": 1205,
-          "grid_columns": 27
+          "grid_columns": 27,
+          "csv_path": "trackers/csv/property/blackthorn-operations.csv"
         },
         {
           "title": "Blackthorn - Expenses",
           "sheet_id": 28005,
           "grid_rows": 505,
-          "grid_columns": 14
+          "grid_columns": 14,
+          "csv_path": "trackers/csv/property/blackthorn-expenses.csv"
         },
         {
           "title": "Blackthorn - Cashbook",
           "sheet_id": 28004,
           "grid_rows": 1205,
-          "grid_columns": 11
+          "grid_columns": 11,
+          "csv_path": "trackers/csv/property/blackthorn-cashbook.csv"
         },
         {
           "title": "Blackthorn - Schedule",
           "sheet_id": 28006,
           "grid_rows": 505,
-          "grid_columns": 16
+          "grid_columns": 16,
+          "csv_path": "trackers/csv/property/blackthorn-schedule.csv"
         },
         {
           "title": "Blackthorn - Forecast",
           "sheet_id": 28009,
           "grid_rows": 505,
-          "grid_columns": 12
+          "grid_columns": 12,
+          "csv_path": "trackers/csv/property/blackthorn-forecast.csv"
         },
         {
           "title": "Blackthorn - Accounts",
           "sheet_id": 28010,
           "grid_rows": 305,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/property/blackthorn-accounts.csv"
         },
         {
           "title": "Blackthorn - Opening Balances",
           "sheet_id": 28011,
           "grid_rows": 305,
-          "grid_columns": 8
+          "grid_columns": 8,
+          "csv_path": "trackers/csv/property/blackthorn-opening-balances.csv"
         },
         {
           "title": "Miregate - Overview",
           "sheet_id": 919181971,
           "grid_rows": 1000,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/property/miregate-overview.csv"
         },
         {
           "title": "Miregate - Setup",
           "sheet_id": 29002,
           "grid_rows": 305,
-          "grid_columns": 24
+          "grid_columns": 24,
+          "csv_path": "trackers/csv/property/miregate-setup.csv"
         },
         {
           "title": "Miregate - Agreements",
           "sheet_id": 29003,
           "grid_rows": 305,
-          "grid_columns": 17
+          "grid_columns": 17,
+          "csv_path": "trackers/csv/property/miregate-agreements.csv"
         },
         {
           "title": "Miregate - Jobs",
           "sheet_id": 29004,
           "grid_rows": 505,
-          "grid_columns": 19
+          "grid_columns": 19,
+          "csv_path": "trackers/csv/property/miregate-jobs.csv"
         },
         {
           "title": "Miregate - Service Log",
           "sheet_id": 29005,
           "grid_rows": 1005,
-          "grid_columns": 28
+          "grid_columns": 28,
+          "csv_path": "trackers/csv/property/miregate-service-log.csv"
         },
         {
           "title": "Miregate - Custody",
           "sheet_id": 29006,
           "grid_rows": 1005,
-          "grid_columns": 24
+          "grid_columns": 24,
+          "csv_path": "trackers/csv/property/miregate-custody.csv"
         },
         {
           "title": "Miregate - Expenses",
           "sheet_id": 29007,
           "grid_rows": 505,
-          "grid_columns": 14
+          "grid_columns": 14,
+          "csv_path": "trackers/csv/property/miregate-expenses.csv"
         },
         {
           "title": "Miregate - Cashbook",
           "sheet_id": 29008,
           "grid_rows": 1005,
-          "grid_columns": 11
+          "grid_columns": 11,
+          "csv_path": "trackers/csv/property/miregate-cashbook.csv"
         },
         {
           "title": "Miregate - Schedule",
           "sheet_id": 29009,
           "grid_rows": 505,
-          "grid_columns": 14
+          "grid_columns": 14,
+          "csv_path": "trackers/csv/property/miregate-schedule.csv"
         },
         {
           "title": "Miregate - Taxes",
           "sheet_id": 29010,
           "grid_rows": 205,
-          "grid_columns": 16
+          "grid_columns": 16,
+          "csv_path": "trackers/csv/property/miregate-taxes.csv"
         },
         {
           "title": "Miregate - Workdays",
           "sheet_id": 29011,
           "grid_rows": 1005,
-          "grid_columns": 12
+          "grid_columns": 12,
+          "csv_path": "trackers/csv/property/miregate-workdays.csv"
         },
         {
           "title": "Miregate - Daily",
           "sheet_id": 29012,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/miregate-daily.csv"
         },
         {
           "title": "Reedbed - Overview",
           "sheet_id": 31001,
           "grid_rows": 1005,
-          "grid_columns": 14
+          "grid_columns": 14,
+          "csv_path": "trackers/csv/property/reedbed-overview.csv"
         },
         {
           "title": "Reedbed - Agreements",
           "sheet_id": 31002,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/reedbed-agreements.csv"
         },
         {
           "title": "Reedbed - Activity",
           "sheet_id": 31003,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/reedbed-activity.csv"
         },
         {
           "title": "Reedbed - Cashbook",
           "sheet_id": 31004,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/reedbed-cashbook.csv"
         },
         {
           "title": "Reedbed - Schedule",
           "sheet_id": 31005,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/reedbed-schedule.csv"
         },
         {
           "title": "Reedbed - Custody",
           "sheet_id": 31006,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/reedbed-custody.csv"
         },
         {
           "title": "Reedbed - Daily Accounts",
           "sheet_id": 31007,
           "grid_rows": 600,
-          "grid_columns": 32
+          "grid_columns": 32,
+          "csv_path": "trackers/csv/property/reedbed-daily-accounts.csv"
         },
         {
           "title": "Old Distributary Fort - Overview",
           "sheet_id": 32001,
           "grid_rows": 1005,
-          "grid_columns": 14
+          "grid_columns": 14,
+          "csv_path": "trackers/csv/property/old-distributary-fort-overview.csv"
         },
         {
           "title": "Old Distributary Fort - Agreements",
           "sheet_id": 32002,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/old-distributary-fort-agreements.csv"
         },
         {
           "title": "Old Distributary Fort - Activity",
           "sheet_id": 32003,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/old-distributary-fort-activity.csv"
         },
         {
           "title": "Old Distributary Fort - Cashbook",
           "sheet_id": 32004,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/old-distributary-fort-cashbook.csv"
         },
         {
           "title": "Old Distributary Fort - Schedule",
           "sheet_id": 32005,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/old-distributary-fort-schedule.csv"
         },
         {
           "title": "Old Distributary Fort - Custody",
           "sheet_id": 32006,
           "grid_rows": 1005,
-          "grid_columns": 20
+          "grid_columns": 20,
+          "csv_path": "trackers/csv/property/old-distributary-fort-custody.csv"
         },
         {
           "title": "Old Distributary Fort - Daily Accounts",
           "sheet_id": 32007,
           "grid_rows": 600,
-          "grid_columns": 32
+          "grid_columns": 32,
+          "csv_path": "trackers/csv/property/old-distributary-fort-daily-accounts.csv"
         },
         {
           "title": "Archive - Blackthorn Accounts",
           "sheet_id": 853330418,
           "grid_rows": 1000,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/property/archive-blackthorn-accounts.csv"
         },
         {
           "title": "Archive - Blackthorn Production",
           "sheet_id": 26002,
           "grid_rows": 802,
-          "grid_columns": 35
+          "grid_columns": 35,
+          "csv_path": "trackers/csv/property/archive-blackthorn-production.csv"
         },
         {
           "title": "Archive - Blackthorn Cashbook",
           "sheet_id": 26003,
           "grid_rows": 300,
-          "grid_columns": 22
+          "grid_columns": 22,
+          "csv_path": "trackers/csv/property/archive-blackthorn-cashbook.csv"
         },
         {
           "title": "Archive - Blackthorn Labor",
           "sheet_id": 26004,
           "grid_rows": 220,
-          "grid_columns": 18
+          "grid_columns": 18,
+          "csv_path": "trackers/csv/property/archive-blackthorn-labor.csv"
         },
         {
           "title": "Archive - Blackthorn Contracts",
           "sheet_id": 26005,
           "grid_rows": 300,
-          "grid_columns": 14
+          "grid_columns": 14,
+          "csv_path": "trackers/csv/property/archive-blackthorn-contracts.csv"
         }
       ]
     },
-    "Magic Shops": {
+    "magic-shops": {
       "source_id": "1lkUMaoPNaIkSVNbE89i8MzbmbBSOufABrAmXNgEyqnY",
       "workbook_path": "trackers/workbooks/magic-shops.xlsx",
       "sheets": [
@@ -394,43 +454,50 @@
           "title": "Rules",
           "sheet_id": 335962578,
           "grid_rows": 1000,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/magic-shops/rules.csv"
         },
         {
           "title": "Dealers",
           "sheet_id": 1,
           "grid_rows": 1000,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/magic-shops/dealers.csv"
         },
         {
           "title": "Stock",
           "sheet_id": 2,
           "grid_rows": 1000,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/magic-shops/stock.csv"
         },
         {
           "title": "Templates",
           "sheet_id": 3,
           "grid_rows": 1000,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/magic-shops/templates.csv"
         },
         {
           "title": "Restock candidates",
           "sheet_id": 4,
           "grid_rows": 1000,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/magic-shops/restock-candidates.csv"
         },
         {
           "title": "Events",
           "sheet_id": 5,
           "grid_rows": 1000,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/magic-shops/events.csv"
         },
         {
           "title": "V design references",
           "sheet_id": 27131,
           "grid_rows": 1004,
-          "grid_columns": 26
+          "grid_columns": 26,
+          "csv_path": "trackers/csv/magic-shops/v-design-references.csv"
         }
       ]
     }

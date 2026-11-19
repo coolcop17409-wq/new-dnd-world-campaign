@@ -1,7 +1,7 @@
 FENAR RAUKHAR — FEATURES & BACKGROUND (2014)
 Reference only: current pools/active forms belong to Character. No spell list or future-level features granted.
 
-RAGE DAMAGE,2.0,SHIFT THP,6,DARKVISION (FT),60.0,EXTRA ATTACK,2.0
+RAGE DAMAGE,2,SHIFT THP,6,DARKVISION (FT),60,EXTRA ATTACK,2
 RAGES LEFT,4,SHIFTS LEFT,3
 
 BARBARIAN — PHB 2014 / TASHA 2020
@@ -43,18 +43,18 @@ MARTIAL POINTS & EXPLOITS — same approved system as V
 Pool tracking,Character B24:C24,Short / Long Rest,Martial Point maximum equals combined martial class levels: Barbarian6 -> MP6/6 (current tracked in Fenar - Character B24:C24).,Live current/max MP is recorded in Fenar - Character B24:C24; use that owner. This explanatory correction spends or restores nothing.
 
 COST (MP),EXPLOIT,RULE STATUS,EFFECT / SOURCE NOTES,ELIGIBILITY AT MAX MP
-1.0,Weapon Mastery,Adopted,One mastery property for an attack; Nick never creates a new attack.,Within maximum; check current MP
-1.0,Human Shield,Adopted,Reaction: redirect incoming attack toward grappled creature on failed Dex save.,Within maximum; check current MP
-2.0,Target on My Back,Adopted,Bonus action; restrict enemy movement away on failed Charisma save.,Within maximum; check current MP
-2.0,Outrageous Athleticism,Adopted,"Speed +30 ft, jump distance +30 ft until end of turn; carry willing ally. STANDING DM TACTIC (D225): Aggressive Fenar proactively spends 2 MP to close beyond ordinary40ft move when +30ft enables reaching a meaningful enemy in melee and attacking this turn; check legal path, timing and current MP. Prefer over Dash-only chase when practical. RULES — COMBAT & RECOVERY.",Within maximum; check current MP
-3.0,Overwatch,NOT FINAL,Concept only; exact geometry/triggers/attacks unresolved. Do not treat as usable finalized exploit.,NOT FINAL — unusable
-3.0,Lead by Example,Adopted,Share d20 result with up to 3 allies for one roll of same type in 1 minute.,Within maximum; check current MP
-5.0,Flashback,Adopted,"Retroactive preparation, cannot contradict established facts.",Within maximum; check current MP
-5.0,"No, You Don't",Provisional — NOT FINAL,"Unfinalized interrupt concept; no use until player approves complete trigger, save/reliability and timing rules.",NOT FINAL — unusable
-9.0,Legendary Resistance,Adopted,Spend 9 MP to succeed at failed save or end permitted condition.,Above maximum
-9.0,Supernatural Senses,Partially unresolved,Past / Present / Future powers; Future may need use limit.,Above maximum / unresolved
-13.0,Impossible Feat,Partially unresolved,"Destroy, Move, Carry, Endure, Precision; some limits unsettled.",Above maximum / unresolved
-1.0,Figure It Out,Adopted,"Up to 10 MP, +2 each on nonproficient skill check; review exception.",Within maximum; check current MP
+1,Weapon Mastery,Adopted,One mastery property for an attack; Nick never creates a new attack.,Within maximum; check current MP
+1,Human Shield,Adopted,Reaction: redirect incoming attack toward grappled creature on failed Dex save.,Within maximum; check current MP
+2,Target on My Back,Adopted,Bonus action; restrict enemy movement away on failed Charisma save.,Within maximum; check current MP
+2,Outrageous Athleticism,Adopted,"Speed +30 ft, jump distance +30 ft until end of turn; carry willing ally. STANDING DM TACTIC (D225): Aggressive Fenar proactively spends 2 MP to close beyond ordinary40ft move when +30ft enables reaching a meaningful enemy in melee and attacking this turn; check legal path, timing and current MP. Prefer over Dash-only chase when practical. RULES — COMBAT & RECOVERY.",Within maximum; check current MP
+3,Overwatch,NOT FINAL,Concept only; exact geometry/triggers/attacks unresolved. Do not treat as usable finalized exploit.,NOT FINAL — unusable
+3,Lead by Example,Adopted,Share d20 result with up to 3 allies for one roll of same type in 1 minute.,Within maximum; check current MP
+5,Flashback,Adopted,"Retroactive preparation, cannot contradict established facts.",Within maximum; check current MP
+5,"No, You Don't",Provisional — NOT FINAL,"Unfinalized interrupt concept; no use until player approves complete trigger, save/reliability and timing rules.",NOT FINAL — unusable
+9,Legendary Resistance,Adopted,Spend 9 MP to succeed at failed save or end permitted condition.,Above maximum
+9,Supernatural Senses,Partially unresolved,Past / Present / Future powers; Future may need use limit.,Above maximum / unresolved
+13,Impossible Feat,Partially unresolved,"Destroy, Move, Carry, Endure, Precision; some limits unsettled.",Above maximum / unresolved
+1,Figure It Out,Adopted,"Up to 10 MP, +2 each on nonproficient skill check; review exception.",Within maximum; check current MP
 
 Shared source,V - Martial: shared exploit reference,Player-approved,Copied martial exploits only. Source status and unresolved details remain in force.,"No Soulknife, Reborn, Fighter/Battle Master features or superiority dice granted."
 Adjudication,Existing rulings,Before use,"Use established triggers, save DCs, timing and limits. If the source summary omits a required detail, flag it before resolving.",Drafts are not usable; a high-cost exploit requires enough current MP. No new mechanics invented.

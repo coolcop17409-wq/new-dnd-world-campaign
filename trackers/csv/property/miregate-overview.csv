@@ -3,22 +3,22 @@ Milling • customer grain storage • private berth handling. Dedicated ledger 
 Posted through,230,Title,Grant recorded
 Opening status,Opened Day 216,Cash opening,Verified
 RECORDED FINANCES,gp,Meaning
-Estate cash,501.4,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
-Payroll payable,10.8,"10.80 wages earned230 due236: Meret5, watch2, Isbet2, hands1.80. Old44Meret settled4.20on229+39.80on231 under D231-MIREGATE-LOCAL-FARMERS-RETRO-001; extra224crew3.80paid229, no wage overpayment or early236pay."
+Estate cash,501.40,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
+Payroll payable,10.80,"10.80 wages earned230 due236: Meret5, watch2, Isbet2, hands1.80. Old44Meret settled4.20on229+39.80on231 under D231-MIREGATE-LOCAL-FARMERS-RETRO-001; extra224crew3.80paid229, no wage overpayment or early236pay."
 Recurring operations payable,3.23,3.228571 upkeep earned230 due236.22.60 overdue223–229 paid231; payment does not duplicate cost.
-Incremental bills payable,0,"Capital and operating bills, less actual cost payments."
-Rolling tax unpaid,0,10% positive operating profit from first incurred costs195; due272/362/452/542. Ordinary dues included once within upkeep.
-Customer advances,0,Unearned service receipts stay a liability.
+Incremental bills payable,–,"Capital and operating bills, less actual cost payments."
+Rolling tax unpaid,–,10% positive operating profit from first incurred costs195; due272/362/452/542. Ordinary dues included once within upkeep.
+Customer advances,–,Unearned service receipts stay a liability.
 Available after actual liabilities,487.37,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
-Service receivables,0,Earned fees less allocated receipts.
-Supplier / wage prepayments,0,"Cash paid ahead of incurred bills or wages, including overpayments; excluded from available cash."
-Loan principal,0,Funding is not operating income.
-Recorded capital additions,0,Cost is not appraisal; spending does not commission an upgrade.
-Earned service revenue,90,Original trials62 + Hessa2t milling2248 + Elden10t berth23020 =90 earned/collected service fees. Next Hessa2328/Neris23324/Elden23720 unearned; no grain sales or new storage receipt.
+Service receivables,–,Earned fees less allocated receipts.
+Supplier / wage prepayments,–,"Cash paid ahead of incurred bills or wages, including overpayments; excluded from available cash."
+Loan principal,–,Funding is not operating income.
+Recorded capital additions,–,Cost is not appraisal; spending does not commission an upgrade.
+Earned service revenue,90.00,Original trials62 + Hessa2t milling2248 + Elden10t berth23020 =90 earned/collected service fees. Next Hessa2328/Neris23324/Elden23720 unearned; no grain sales or new storage receipt.
 Operating costs accrued,432.63,Through230:282.20 actual wages +90 restoration +12 escort +48.428571 upkeep =432.63 accrued operating costs. Includes3.80 Hessa224 and3.80 Elden230 crew; Meret/watch/upkeep counted once.
-Operating result before levy,-342.63,90 revenue −432.63 operating costs =−342.63 cumulative result including startup. Hessa224 contribution8−3.80=4.20 before already-recorded shared overhead. Tax0; no Carrow.
-Tracked customer goods t,0,Customer custody0: original14t returned219/223; Hessa-owned2t wheat milled/returned224 as wholemeal; Elden10t returned230. Hessa232/Neris233 future grain unreceived. Joren219 storage inquiry declined; Neris226 refusal unchanged.
-Approved unbilled upgrades,0,90gp restorative package incurred/paid209–211. No unbilled approvedcapital; former80reserve released231.
+Operating result before levy,(342.63),90 revenue −432.63 operating costs =−342.63 cumulative result including startup. Hessa224 contribution8−3.80=4.20 before already-recorded shared overhead. Tax0; no Carrow.
+Tracked customer goods t,–,Customer custody0: original14t returned219/223; Hessa-owned2t wheat milled/returned224 as wholemeal; Elden10t returned230. Hessa232/Neris233 future grain unreceived. Joren219 storage inquiry declined; Neris226 refusal unchanged.
+Approved unbilled upgrades,–,90gp restorative package incurred/paid209–211. No unbilled approvedcapital; former80reserve released231.
 Next profit-tax due,272,Unpaid prior periods retain their original due date.
 Setup / posting state,Checks clear,A clear entry check alone does not open the estate.
 Input issues,0,Filter the owning register to locate each issue.
