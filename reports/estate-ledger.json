@@ -1,40 +1,46 @@
 {
   "status": "PASS",
-  "estates": {
-    "Miregate": {
-      "cash_gp": "501.40",
-      "liabilities_gp": "14.03",
-      "available_gp": "487.37",
-      "snapshot_cash_gp": "501.40",
-      "snapshot_liabilities_gp": "14.03",
-      "snapshot_available_gp": "487.37"
-    },
-    "Reedbed": {
-      "cash_gp": "63.80",
-      "liabilities_gp": "8.60",
-      "available_gp": "55.20",
-      "snapshot_cash_gp": "63.80",
-      "snapshot_liabilities_gp": "8.60",
-      "snapshot_available_gp": "55.20"
-    },
-    "Old Distributary Fort": {
-      "cash_gp": "130.00",
-      "liabilities_gp": "5.00",
-      "available_gp": "125.00",
-      "snapshot_cash_gp": "130.00",
-      "snapshot_liabilities_gp": "5.00",
-      "snapshot_available_gp": "125.00"
-    },
-    "Blackthorn": {
-      "cash_gp": "453.33",
-      "liabilities_gp": "171.01",
-      "available_gp": "282.32",
-      "snapshot_cash_gp": "453.33",
-      "snapshot_liabilities_gp": "171.01",
-      "snapshot_available_gp": "282.32"
-    }
-  },
+  "cutoff_day": 231,
+  "captured_date": "2026-11-19",
   "event_count": 121,
   "event_ids_unique": true,
+  "estates": {
+    "Miregate": {
+      "snapshot_cash_gp": "501.40",
+      "snapshot_liabilities_gp": "14.03",
+      "snapshot_available_gp": "487.37",
+      "projected_cash_gp": "501.40",
+      "projected_liabilities_gp": "14.03",
+      "projected_available_gp": "487.37",
+      "cash_after_snapshot_events_gp": "0.00"
+    },
+    "Reedbed": {
+      "snapshot_cash_gp": "63.80",
+      "snapshot_liabilities_gp": "8.60",
+      "snapshot_available_gp": "55.20",
+      "projected_cash_gp": "63.80",
+      "projected_liabilities_gp": "8.60",
+      "projected_available_gp": "55.20",
+      "cash_after_snapshot_events_gp": "0.00"
+    },
+    "Old Distributary Fort": {
+      "snapshot_cash_gp": "130.00",
+      "snapshot_liabilities_gp": "5.00",
+      "snapshot_available_gp": "125.00",
+      "projected_cash_gp": "130.00",
+      "projected_liabilities_gp": "5.00",
+      "projected_available_gp": "125.00",
+      "cash_after_snapshot_events_gp": "0.00"
+    },
+    "Blackthorn": {
+      "snapshot_cash_gp": "453.33",
+      "snapshot_liabilities_gp": "171.01",
+      "snapshot_available_gp": "282.32",
+      "projected_cash_gp": "453.33",
+      "projected_liabilities_gp": "171.01",
+      "projected_available_gp": "282.32",
+      "cash_after_snapshot_events_gp": "0.00"
+    }
+  },
   "findings": []
 }
