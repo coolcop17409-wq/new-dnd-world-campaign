@@ -33,7 +33,7 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [x] Google Docs tabs and workbook exports/formula snapshots were migrated for retrieval.
 - [x] Estate audit ran and its cash, liability, available-cash, and cashbook checks passed.
 - [x] Event ledger seeded with 121 unique actual cashbook IDs; each estate reconciles to the Day 231 snapshot.
-- [x] Receivable and inventory event rules have synthetic edge-case checks; their opening registers await verified source imports.
+- [x] Source snapshot shows zero receivables; six Blackthorn stock grades are imported as provisional book balances, with reserved amounts and shipment transit supported in the ledger. Unverified stock is not counted as shippable.
 - [x] Due-task output was checked against the live Drive schedules. Two stale Miregate payroll rows are shown as superseded by their completed Day 229 settlement.
 - [x] Character, inventory, and magic-shop snapshot checks pass; a read-only dashboard is generated.
 - [ ] Complete formula/rule parity for wages, earned costs, taxes, inventory valuation, shipments, acceptance, and service prerequisites.
