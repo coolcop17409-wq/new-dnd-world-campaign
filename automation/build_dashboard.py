@@ -106,10 +106,13 @@ def shops():
  return out
 def main():
  estate=json.loads((ROOT/"reports"/"estate-ledger.json").read_text(encoding="utf-8"))
+ validation_path=ROOT/"reports"/"tracker-validation.json"
+ tracker_status=json.loads(validation_path.read_text(encoding="utf-8")).get("status","MISSING") if validation_path.exists() else "MISSING"
  payload={
   "generated_from":"staging snapshots; Drive remains authoritative",
   "campaign_day":campaign_day(),
   "estate_status":estate.get("status"),
+  "tracker_status":tracker_status,
   "estates":estate.get("estates",{}),
   "party":[character("v","Valenthia","v-character.csv"),character("cirren","Cirren","cirren-character.csv"),character("fenar","Fenar","fenar-character.csv")],
   "inventory":{"Valenthia":inventory("v","v-inventory.csv"),"Cirren":inventory("cirren","cirren-inventory.csv"),"Fenar":inventory("fenar","fenar-inventory.csv")},
