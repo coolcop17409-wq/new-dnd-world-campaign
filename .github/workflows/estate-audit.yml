@@ -35,7 +35,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check Python syntax
-        run: python3 -m py_compile automation/estate_audit.py automation/estate_ledger.py automation/build_dashboard.py automation/tracker_validate.py
+        run: python3 -m py_compile automation/estate_audit.py automation/estate_ledger.py automation/build_dashboard.py automation/tracker_validate.py automation/test_estate_ledger.py
+
+      - name: Exercise ledger edge cases
+        run: python3 -m unittest automation/test_estate_ledger.py -v
 
       - name: Generate estate checks and dashboard data
         id: generate
