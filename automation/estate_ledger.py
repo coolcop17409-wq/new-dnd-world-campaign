@@ -37,6 +37,28 @@ def label_value(path,aliases,optional=False):
  raise ValueError(f"{path.name}: missing {aliases}")
 def money(d):return d.quantize(Decimal("0.01"),rounding=ROUND_HALF_UP)
 def quantity_value(d):return d.quantize(Decimal("0.0001"),rounding=ROUND_HALF_UP)
+def prerequisite_tasks():
+ tasks={}
+ for path in PROPERTY.glob("*-schedule.csv"):
+  with path.open(encoding="utf-8-sig",newline="") as f:
+   grid=list(csv.reader(f))
+  hi=next((i for i,row in enumerate(grid) if row and norm(row[0]) in {"task id","task / settlement id"}),None)
+  if hi is None:continue
+  header=[norm(x) for x in grid[hi]]
+  id_col=next((i for i,x in enumerate(header) if x in {"task id","task / settlement id"}),None)
+  day_col=next((i for i,x in enumerate(header) if x=="actual day"),None)
+  result_col=next((i for i,x in enumerate(header) if x=="result"),None)
+  evidence_col=next((i for i,x in enumerate(header) if x in {"actual evidence","evidence / restriction","evidence / dependency"}),None)
+  if None in (id_col,day_col,result_col):continue
+  for row in grid[hi+1:]:
+   if len(row)<=max(id_col,day_col,result_col):continue
+   tid=row[id_col].strip()
+   if not tid:continue
+   tasks[tid]={"actual_day":row[day_col].strip(),"result":row[result_col].strip().lower(),
+               "evidence":row[evidence_col].strip() if evidence_col is not None and len(row)>evidence_col else "",
+               "source":path.name}
+ return tasks
+
 def main():
  errors=[]
  meta=json.loads((DATA/"snapshot-meta.json").read_text(encoding="utf-8"))
@@ -122,6 +144,16 @@ def main():
   if accepted<0:errors.append(f"{eid}: accepted_quantity cannot be negative")
   if (any(financial) or verification) and day==0:errors.append(f"{eid}: posted changes require an actual campaign day")
   if income<0 or expense<0:errors.append(f"{eid}: income and expense deltas must be nonnegative amounts")
+  event_type=norm(row.get("event_type",""))
+  requires_gate=income>0 or any(token in event_type for token in ("shipment dispatch","gate sale","service accept"))
+  if requires_gate:
+   refs=[x.strip() for x in (row.get("prerequisite_ref") or "").replace(",", ";").split(";") if x.strip()]
+   if not refs:errors.append(f"{eid}: earned income/service release requires prerequisite_ref task IDs")
+   for ref in refs:
+    gate=prerequisites.get(ref)
+    if not gate:errors.append(f"{eid}: prerequisite {ref} is not in a property schedule")
+    elif gate["result"] not in {"complete","pass","passed"} or not gate["actual_day"] or dec(gate["actual_day"])<=0 or dec(gate["actual_day"])>day or not gate["evidence"]:
+     errors.append(f"{eid}: prerequisite {ref} is not evidenced complete/pass on or before Day {day}")
   if row.get("source_file","").strip() and amount!=0 and not any(financial):
    errors.append(f"{eid}: amount is not connected to a cash, liability, receivable, income, expense, inventory, or acceptance delta")
   cash_all[estate]+=cash_delta;cash_deltas_all[estate]+=cash_delta
