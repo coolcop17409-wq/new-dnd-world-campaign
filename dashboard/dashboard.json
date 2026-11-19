@@ -1,6 +1,6 @@
 {
   "generated_from": "staging snapshots; Drive remains authoritative",
-  "campaign_day": null,
+  "campaign_day": 231,
   "estate_status": "PASS",
   "estates": {
     "Miregate": {
@@ -93,54 +93,6 @@
           "current": "1",
           "max": "1",
           "recovery": "Short Rest"
-        },
-        {
-          "name": "ATTACKS & COMBAT",
-          "current": "",
-          "max": "",
-          "recovery": ""
-        },
-        {
-          "name": "ATTACK",
-          "current": "TO HIT",
-          "max": "DAMAGE",
-          "recovery": "NOTES"
-        },
-        {
-          "name": "Psychic Blade (thrown)",
-          "current": "9",
-          "max": "1d6+4 psychic",
-          "recovery": "+2 Archery homebrew applies to thrown psionic sword"
-        },
-        {
-          "name": "Psychic Blade (melee)",
-          "current": "7",
-          "max": "1d6+4 psychic",
-          "recovery": "2014 melee roll without Archery's ranged bonus"
-        },
-        {
-          "name": "Bonus Blade (thrown)",
-          "current": "9",
-          "max": "1d4+4 psychic",
-          "recovery": "Costs bonus action; requires main Psychic Blade attack"
-        },
-        {
-          "name": "Bonus Blade (melee)",
-          "current": "7",
-          "max": "1d4+4 psychic",
-          "recovery": "Same turn bonus attack"
-        },
-        {
-          "name": "Dart (thrown)",
-          "current": "9",
-          "max": "1d4+4 piercing",
-          "recovery": "Thrown dart +9 (Dex4 + proficiency3 + Archery2) 1d4+4 piercing; UNLIMITED/UNTRACKED dart ammunition by explicit Day182 player rule. No carried count, deduction or retrieval; still physical dart mechanics via inherited silver sword. Archived PDF +8 historical."
-        },
-        {
-          "name": "Sneak Attack",
-          "current": "",
-          "max": "2d6",
-          "recovery": "Once per TURN when eligible. PLAYER PRIORITY: secure Sneak Attack each own turn; re-Hide when legally concealed or exploit non-incapacitated ally within5ft of target (no disadvantage). On major threats, plan second eligible reaction Sneak Attack on another creature's turn: Quick Toss physical dart (BA,1 superiority die) + Ready action, or Attack + Action Surge Ready. Reaction requires chosen trigger and eligible physical weapon (not native Psychic Blade). V chooses all actions/resources; full rule: RULES — COMBAT & RECOVERY / COMBAT-PRIORITIES-D225-20261118-01."
         }
       ]
     },
@@ -194,36 +146,6 @@
           "current": "3",
           "max": "3",
           "recovery": "Long Rest"
-        },
-        {
-          "name": "ATTACKS & COMBAT",
-          "current": "",
-          "max": "",
-          "recovery": ""
-        },
-        {
-          "name": "ATTACK",
-          "current": "TO HIT",
-          "max": "DAMAGE",
-          "recovery": "NOTES"
-        },
-        {
-          "name": "Dagger",
-          "current": "5",
-          "max": "1d4+2 piercing",
-          "recovery": "Finesse; current +5 from Dexterity2 + proficiency3. Archived PDF +4 is historical."
-        },
-        {
-          "name": "Toll the Dead",
-          "current": "Wis DC 16",
-          "max": "2d8 or 2d12 necrotic",
-          "recovery": "Cantrip scaling at total character level 5; Wisdom save vs spell DC 16; d12s if wounded."
-        },
-        {
-          "name": "Spiritual Weapon",
-          "current": "8",
-          "max": "1d8+5 force",
-          "recovery": "2014 nonconcentration; uses 2nd-level slot"
         }
       ]
     },
@@ -283,66 +205,6 @@
           "current": "1",
           "max": "1",
           "recovery": "Once per Short / Long Rest"
-        },
-        {
-          "name": "ATTACKS & COMBAT — base damage; add +2 on STR melee hits while raging",
-          "current": "",
-          "max": "",
-          "recovery": ""
-        },
-        {
-          "name": "ATTACK",
-          "current": "TO HIT",
-          "max": "DAMAGE",
-          "recovery": "NOTES"
-        },
-        {
-          "name": "Double-Claw Rend [Greataxe]",
-          "current": "8",
-          "max": "1d12+5 slashing",
-          "recovery": "ONE STR melee greataxe attack (heavy, two-handed, 7 lb, slashing), visually both claws; all axe mechanics including item, draw/disarm and mastery eligibility remain. No extra attacks from reskin."
-        },
-        {
-          "name": "Handaxe",
-          "current": "8",
-          "max": "1d6+5 slashing",
-          "recovery": "Light, thrown 20/60 ft. Rage bonus applies in melee only; off-hand BA normally omits STR damage."
-        },
-        {
-          "name": "Javelin",
-          "current": "8",
-          "max": "1d6+5 piercing",
-          "recovery": "Thrown 30/120 ft. Rage bonus applies in melee only."
-        },
-        {
-          "name": "Unarmed strike",
-          "current": "8",
-          "max": "6 bludgeoning",
-          "recovery": "STR melee attack; 5 ft."
-        },
-        {
-          "name": "Longtooth fangs",
-          "current": "8",
-          "max": "1d6+5 piercing",
-          "recovery": "While shifted: attack during Shift BA or a BA on later turns; not the Beast Bite healing attack."
-        },
-        {
-          "name": "Beast claws",
-          "current": "8",
-          "max": "1d6+5 slashing",
-          "recovery": "Claws rage form, empty hand. Once/turn: one extra claw attack during the Attack action."
-        },
-        {
-          "name": "Beast bite",
-          "current": "8",
-          "max": "1d8+5 piercing",
-          "recovery": "Bite rage form: on damaging hit on own turn, restore proficiency bonus 3 HP if current HP is below half max (with max59, 29 or fewer). Once per own turn."
-        },
-        {
-          "name": "Beast tail",
-          "current": "8",
-          "max": "1d8+5 piercing",
-          "recovery": "Tail rage form; reach 10 ft. Reaction against a visible creature within 10 ft hitting you: add 1d8 AC against that attack."
         }
       ]
     }
