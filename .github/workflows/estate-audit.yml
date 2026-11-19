@@ -1,11 +1,19 @@
-name: Estate audit
+name: Estate audit and staging dashboard
 
 on:
   push:
     paths:
       - "trackers/csv/property/**"
+      - "trackers/csv/v/**"
+      - "trackers/csv/cirren/**"
+      - "trackers/csv/fenar/**"
+      - "trackers/csv/magic-shops/**"
       - "trackers/index.json"
+      - "campaign/continuity/campaign-state.md"
+      - "data/estate/**"
       - "automation/estate_audit.py"
+      - "automation/estate_ledger.py"
+      - "automation/build_dashboard.py"
       - ".github/workflows/estate-audit.yml"
   workflow_dispatch:
     inputs:
@@ -24,26 +32,42 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Generate estate audit
-        id: estate_audit
+      - name: Check Python syntax
+        run: python3 -m py_compile automation/estate_audit.py automation/estate_ledger.py automation/build_dashboard.py
+
+      - name: Generate estate checks and dashboard data
+        id: generate
         continue-on-error: true
         env:
           CAMPAIGN_DAY: ${{ inputs.campaign_day }}
-        run: python3 automation/estate_audit.py
+        run: |
+          set +e
+          python3 automation/estate_audit.py
+          audit_status=$?
+          python3 automation/estate_ledger.py
+          ledger_status=$?
+          python3 automation/build_dashboard.py
+          dashboard_status=$?
+          echo "audit_status=$audit_status" >> "$GITHUB_OUTPUT"
+          echo "ledger_status=$ledger_status" >> "$GITHUB_OUTPUT"
+          echo "dashboard_status=$dashboard_status" >> "$GITHUB_OUTPUT"
+          if [ "$audit_status" -ne 0 ] || [ "$ledger_status" -ne 0 ] || [ "$dashboard_status" -ne 0 ]; then
+            exit 1
+          fi
 
-      - name: Commit updated review
+      - name: Commit generated staging reports
         if: always()
         run: |
-          if [ -z "$(git status --porcelain -- reports/estate-review.md)" ]; then
-            echo "Estate review has no changes."
+          if [ -z "$(git status --porcelain -- reports/estate-review.md reports/estate-ledger.json dashboard/dashboard.json)" ]; then
+            echo "Staging reports have no changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/estate-review.md
-          git commit -m "Update estate audit report [skip ci]"
+          git add reports/estate-review.md reports/estate-ledger.json dashboard/dashboard.json
+          git commit -m "Refresh staging tracker reports [skip ci]"
           git push
 
-      - name: Mark audit findings as workflow failure
-        if: steps.estate_audit.outcome == 'failure'
+      - name: Mark validation findings as workflow failure
+        if: steps.generate.outcome == 'failure'
         run: exit 1
