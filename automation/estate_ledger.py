@@ -145,7 +145,7 @@ def main():
   if (any(financial) or verification) and day==0:errors.append(f"{eid}: posted changes require an actual campaign day")
   if income<0 or expense<0:errors.append(f"{eid}: income and expense deltas must be nonnegative amounts")
   event_type=norm(row.get("event_type",""))
-  requires_gate=income>0 or any(token in event_type for token in ("shipment dispatch","gate sale","service accept"))
+  requires_gate=income>0 or any(token in event_type for token in ("shipment dispatch","shipment_dispatch","gate sale","gate_sale","service accept","service_accept"))
   if requires_gate:
    refs=[x.strip() for x in (row.get("prerequisite_ref") or "").replace(",", ";").split(";") if x.strip()]
    if not refs:errors.append(f"{eid}: earned income/service release requires prerequisite_ref task IDs")
