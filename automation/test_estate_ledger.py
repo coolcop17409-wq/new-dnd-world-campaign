@@ -108,10 +108,10 @@ class EstateLedgerScenarioTests(unittest.TestCase):
             self.assertEqual(report["estates"]["Test"]["projected_receivables_gp"], "40.00")
             self.assertEqual(report["estates"]["Test"]["actual_income_after_snapshot_gp"], "30.00")
             self.assertEqual(report["estates"]["Test"]["actual_expense_after_snapshot_gp"], "25.00")
-            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["book_quantity"], "3.00")
-            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["reserved_quantity"], "0.00")
+            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["book_quantity"], "3.0000")
+            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["reserved_quantity"], "0.0000")
             self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["verification_status"], "verified")
-            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["in_transit_quantity"], "0.00")
+            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["in_transit_quantity"], "0.0000")
             self.assertEqual(report["estates"]["Partner"]["projected_cash_gp"], "27.00")
 
 if __name__ == "__main__":
