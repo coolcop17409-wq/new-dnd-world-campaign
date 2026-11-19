@@ -36,6 +36,7 @@ def label_value(path,aliases,optional=False):
  if optional:return Decimal(0)
  raise ValueError(f"{path.name}: missing {aliases}")
 def money(d):return d.quantize(Decimal("0.01"),rounding=ROUND_HALF_UP)
+def quantity_value(d):return d.quantize(Decimal("0.0001"),rounding=ROUND_HALF_UP)
 def main():
  errors=[]
  meta=json.loads((DATA/"snapshot-meta.json").read_text(encoding="utf-8"))
@@ -228,15 +229,15 @@ def main():
    "receivable_events_after_snapshot_gp":str(money(receivable_latest-receivable_at_cut)),
    "actual_income_after_snapshot_gp":str(money(income_all[estate])),
    "actual_expense_after_snapshot_gp":str(money(expense_all[estate])),
-   "inventory_quantity_delta_after_snapshot":str(money(inventory_deltas_all[estate]-inventory_deltas_cut[estate])),
-   "inventory_reserved_delta_after_snapshot":str(money(inventory_reservations[estate])),
-   "inventory_transit_quantity_delta_after_snapshot":str(money(inventory_transit[estate])),
-   "inventory_book_quantity":str(money(inventory_qty)),
-   "inventory_eligible_to_ship_quantity":str(money(inventory_available)),
+   "inventory_quantity_delta_after_snapshot":str(quantity_value(inventory_deltas_all[estate]-inventory_deltas_cut[estate])),
+   "inventory_reserved_delta_after_snapshot":str(quantity_value(inventory_reservations[estate])),
+   "inventory_transit_quantity_delta_after_snapshot":str(quantity_value(inventory_transit[estate])),
+   "inventory_book_quantity":str(quantity_value(inventory_qty)),
+   "inventory_eligible_to_ship_quantity":str(quantity_value(inventory_available)),
    "inventory_on_site_cost_basis_gp":str(money(inventory_cost)),
-   "inventory_in_transit_quantity":str(money(inventory_transit_qty)),
+   "inventory_in_transit_quantity":str(quantity_value(inventory_transit_qty)),
    "inventory_in_transit_cost_basis_gp":str(money(inventory_transit_cost)),
-   "inventory_items":{k:{"book_quantity":str(money(v["quantity"])),"reserved_quantity":str(money(v["reserved"])),"unreserved_book_quantity":str(money(max(Decimal(0),v["quantity"]-v["reserved"]))),"in_transit_quantity":str(money(v["transit_quantity"])),"on_site_cost_basis_gp":str(money(v["cost"])),"in_transit_cost_basis_gp":str(money(v["transit_cost"])),"verification_status":v["verification"],"eligible_to_ship_quantity":str(money(max(Decimal(0),v["quantity"]-v["reserved"]) if v["verification"]=="verified" else Decimal(0)))} for k,v in inventory_rows.items()},
+   "inventory_items":{k:{"book_quantity":str(quantity_value(v["quantity"])),"reserved_quantity":str(quantity_value(v["reserved"])),"unreserved_book_quantity":str(quantity_value(max(Decimal(0),v["quantity"]-v["reserved"]))),"in_transit_quantity":str(quantity_value(v["transit_quantity"])),"on_site_cost_basis_gp":str(money(v["cost"])),"in_transit_cost_basis_gp":str(money(v["transit_cost"])),"verification_status":v["verification"],"eligible_to_ship_quantity":str(quantity_value(max(Decimal(0),v["quantity"]-v["reserved"]) if v["verification"]=="verified" else Decimal(0)))} for k,v in inventory_rows.items()},
   }
   if cash_all[estate]<0:errors.append(f"{estate}: projected cash is negative")
  snapshot["findings"]=errors
