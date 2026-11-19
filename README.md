@@ -18,6 +18,7 @@ The repository is public by the owner's explicit choice. All content, including 
 - `trackers/` — workbook exports and searchable CSV value snapshots
 - `assets/README.md` — maps and images retained in Drive
 - `MIGRATION_MAP.md` — source-to-file index
+- `migration/TEST_REPORT.md` — staging checks and cutover boundary
 
 ## Current checkpoint in the source
 
@@ -29,6 +30,9 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. The e
 - [x] Google Docs tabs copied into retrieval-sized Markdown files
 - [x] Workbook exports retained with formulas and formatting
 - [x] Readable value snapshots created for each workbook tab
-- [ ] Verify key live values and cross-file routes
-- [ ] Test retrieval and a reversible write on representative campaign files
-- [ ] Keep Project Sources pointed to Drive until those tests pass
+- [x] Representative campaign retrieval and tracker value checks passed
+- [x] Non-campaign write/read round trip passed
+- [ ] Full play and synchronization workflow tested
+- [ ] Project Sources remain pointed to Drive until cutover is separately approved
+
+The campaign has not been switched to GitHub. See `migration/TEST_REPORT.md` for exactly what was checked.
