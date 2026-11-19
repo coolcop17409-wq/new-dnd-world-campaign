@@ -13,6 +13,7 @@ This is a staging import from the 2026-11-19 Property workbook export. It is not
 - `blackthorn-tax-checkpoint.csv`: source-verified unrounded Day 230 formula components and the first rolling tax result. This preserves 417.8297 gp COGS before Accounts rounds it to 417.83 gp.
 - `snapshot-meta.json`: the Day 231 comparison cutoff and source snapshot date.
 - `task-supersessions.csv`: two Miregate schedule rows verified as handled by the completed Day 229 payroll successor.
+- `migration/OPENING_POSITION_AUDIT.md`: audit of rights, customer custody, stock, staffing, and current commitments against the staged Property registers. Those nonfinancial records remain in their owning exported tabs; they are not duplicated in the cash event ledger.
 
 ## Posting an actual event
 
