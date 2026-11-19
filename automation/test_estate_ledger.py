@@ -21,7 +21,8 @@ FIELDS = [
     "income_delta_gp", "expense_delta_gp", "inventory_id", "quantity_delta",
     "inventory_cost_delta_gp", "shipment_id", "accepted_quantity",
     "prerequisite_ref", "counterparty", "description", "evidence",
-    "source_file", "source_row", "status",
+    "source_file", "source_row", "status", "reserved_quantity_delta",
+    "in_transit_quantity_delta", "in_transit_cost_delta_gp", "inventory_verification_status",
 ]
 
 class EstateLedgerScenarioTests(unittest.TestCase):
@@ -54,8 +55,8 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                 ["receivable_id", "estate", "customer", "opening_amount_gp", "as_of_day", "evidence"],
                 [{"receivable_id": "R0", "estate": "Test", "opening_amount_gp": "20", "as_of_day": "10"}])
             self.write_csv(data / "opening-inventory.csv",
-                ["inventory_id", "estate", "item", "opening_quantity", "opening_cost_gp", "as_of_day", "evidence"],
-                [{"inventory_id": "grain", "estate": "Test", "item": "Grain", "opening_quantity": "5", "opening_cost_gp": "50", "as_of_day": "10"}])
+                ["inventory_id", "estate", "item", "opening_quantity", "opening_reserved_quantity", "opening_transit_quantity", "opening_cost_gp", "opening_transit_cost_gp", "as_of_day", "verification_status", "evidence"],
+                [{"inventory_id": "grain", "estate": "Test", "item": "Grain", "opening_quantity": "5", "opening_reserved_quantity": "2", "opening_cost_gp": "50", "as_of_day": "10", "verification_status": "verified"}])
             events = []
             def event(event_id, estate, day, **values):
                 row = {name: "" for name in FIELDS}
@@ -71,9 +72,13 @@ class EstateLedgerScenarioTests(unittest.TestCase):
             event("accepted-sale", "Test", 11, event_type="sale_accepted", reference_id="SHIP-1",
                   receivable_id="R1", receivable_delta_gp="30", income_delta_gp="30",
                   expense_delta_gp="20", inventory_id="grain", quantity_delta="-2",
-                  inventory_cost_delta_gp="-20", shipment_id="SHIP-1", accepted_quantity="2")
+                  inventory_cost_delta_gp="-20", shipment_id="SHIP-1", accepted_quantity="2", reserved_quantity_delta="-2")
             event("collect", "Test", 12, event_type="receivable_collection", receivable_id="R1",
                   receivable_delta_gp="-10", cash_delta_gp="10")
+            event("dispatch", "Test", 13, event_type="shipment_dispatch", inventory_id="grain", quantity_delta="-1",
+                  inventory_cost_delta_gp="-10", in_transit_quantity_delta="1", in_transit_cost_delta_gp="10", shipment_id="SHIP-2")
+            event("delivery", "Test", 14, event_type="shipment_arrival", inventory_id="grain", quantity_delta="1",
+                  inventory_cost_delta_gp="10", in_transit_quantity_delta="-1", in_transit_cost_delta_gp="-10", shipment_id="SHIP-2")
             event("failed-work", "Test", 11, event_type="service_failed", status="failed")
             event("tax-calendar-only", "Test", 11, event_type="tax_due", status="scheduled")
             event("transfer-out", "Test", 12, event_type="estate_transfer", reference_id="XFER-1", cash_delta_gp="-7")
@@ -103,7 +108,10 @@ class EstateLedgerScenarioTests(unittest.TestCase):
             self.assertEqual(report["estates"]["Test"]["projected_receivables_gp"], "40.00")
             self.assertEqual(report["estates"]["Test"]["actual_income_after_snapshot_gp"], "30.00")
             self.assertEqual(report["estates"]["Test"]["actual_expense_after_snapshot_gp"], "25.00")
-            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"], {"quantity": "3.00", "cost_basis_gp": "30.00"})
+            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["book_quantity"], "3.00")
+            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["reserved_quantity"], "0.00")
+            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["verification_status"], "verified")
+            self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["in_transit_quantity"], "0.00")
             self.assertEqual(report["estates"]["Partner"]["projected_cash_gp"], "27.00")
 
 if __name__ == "__main__":
