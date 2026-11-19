@@ -18,7 +18,7 @@ def accrue_daily_rates(rates, opening_day, start_day, through_day, rate_type=Non
     opening_day = int(opening_day)
     start_day = int(start_day)
     through_day = int(through_day)
-    result = Decimal("0.00")
+    result = Decimal("0")
     for row in rates:
         kind = str(row.get("type", "")).strip()
         if kind not in {"Payroll", "Upkeep"} or (rate_type and kind != rate_type):
@@ -32,8 +32,8 @@ def accrue_daily_rates(rates, opening_day, start_day, through_day, rate_type=Non
         lower = max(start_day, opening_day + 1, rate_from)
         upper = min(through_day, int(rate_through) if rate_through not in (None, "") else through_day)
         days = max(0, upper - lower + 1)
-        result += money(rate * days)
-    return result
+        result += rate * days
+    return money(result)
 
 
 def blackthorn_tax_base(*, taxable_carry, accepted_revenue, cogs,
