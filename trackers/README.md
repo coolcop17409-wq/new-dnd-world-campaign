@@ -6,7 +6,7 @@ These files are snapshots from the live Google Sheets as of 2026-11-19. The corr
 
 ## What runs today
 
-The estate workflow reconciles the staged cashbook event ledger and opening liability balances to the current Property overview, detects duplicate IDs, validates transfer pairs, and lists unfinished schedule tasks due by the campaign day. It does not post transactions or infer that scheduled work happened.
+The estate workflow reconciles the staged cashbook event ledger and opening liability balances to the current Property overview, detects duplicate IDs, validates transfer pairs, and lists unfinished schedule tasks due by the campaign day. The event engine also supports stable receivable balances and opening inventory quantity/cost basis with evidence checks and prevents over-collection or releasing more stock/cost than registered. The opening receivable and inventory registers are currently empty pending verified source imports. Synthetic tests exercise partial payment, delayed collection after acceptance, failed work, tax due without assessment, inventory release, and paired transfers. The engine does not post transactions from forecasts or infer that scheduled work happened.
 
 The character staging ledger accepts confirmed HP, resource, and inventory changes. The dashboard applies only entries marked `posted`, then checks them against snapshot maxima and item quantities. The character sheets' formulas and all 2014 class/rest rules have not been fully ported.
 
