@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "campaign_day": null,
+  "due_count": null,
+  "due_reviews": [],
+  "unbound_count": 0,
+  "note": "No campaign day supplied; no turnover is inferred or resolved."
+}
