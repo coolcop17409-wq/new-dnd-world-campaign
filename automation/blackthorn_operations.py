@@ -315,13 +315,100 @@ def replay(opening_stock, rates, orders, schedule, operations):
             findings.append(f"{eid}: unsupported operation type {kind!r}")
         if kind == "Idle labor":
             totals["loss"] += extra
-        results.append({"event_id": eid, **{k: str(v) for k, v in calculated.items()}})
+        results.append({"event_id": eid, "day": day, "operation_type": kind,
+                        "product_grade": grade, "quantity_t": str(qty),
+                        "order_line_id": order_id, "shipment_id": ship,
+                        **{k: str(v) for k, v in calculated.items()}})
     return {"status": "CHECK" if findings else "PASS", "events": results, "findings": findings,
             "totals": {k: str(qmoney(v)) for k, v in totals.items()},
             "on_site": {g: {"quantity_t": str(qcost(v["quantity"])), "cost_gp": str(qcost(v["cost"]))}
                         for g, v in sorted(stock.items())},
             "in_transit": {f"{ship}:{grade}": {"quantity_t": str(qcost(v["quantity"])), "cost_gp": str(qcost(v["cost"]))}
                            for (ship, grade), v in sorted(transit.items()) if v["quantity"] or v["cost"]}}
+
+
+def inventory_key(grade):
+    slug = "".join(ch if ch.isalnum() else "-" for ch in grade.upper()).strip("-")
+    while "--" in slug:
+        slug = slug.replace("--", "-")
+    return "BT-STOCK-" + slug
+
+
+def ledger_events_for_operations(operation_rows, calculated_rows, orders):
+    """Normalize future Blackthorn operation results for the estate event ledger."""
+    order_map = {row.get("Order line ID", "").strip(): row for row in orders}
+    calculations = {row["event_id"]: row for row in calculated_rows}
+    events = []
+    findings = []
+    for source_row, operation in enumerate(operation_rows, start=1):
+        eid = operation.get("Event ID", "").strip()
+        calc = calculations.get(eid)
+        if not calc:
+            findings.append(f"{eid}: calculated operation result missing")
+            continue
+        kind = operation.get("Event type", "").strip()
+        revenue = qmoney(dec(calc.get("revenue_gp", "0")))
+        cogs = qmoney(dec(calc.get("cogs_gp", "0")))
+        loss = qmoney(dec(calc.get("loss_idle_gp", "0")))
+        cash = Decimal("0")
+        receivable = Decimal("0")
+        receivable_id = ""
+        if kind in {"Accept", "Gate sale"}:
+            if not operation.get("Cash received gp", "").strip():
+                findings.append(f"{eid}: sale acceptance must state actual Cash received gp (use 0 if unpaid)")
+                continue
+            cash = qmoney(dec(operation.get("Cash received gp", "0")))
+            if cash < 0 or cash > revenue:
+                findings.append(f"{eid}: cash received must be between zero and earned revenue {revenue}")
+                continue
+            receivable = qmoney(revenue - cash)
+            receivable_id = operation.get("Receivable ID", "").strip()
+            if receivable > 0 and not receivable_id:
+                findings.append(f"{eid}: unpaid sale balance requires a stable Receivable ID")
+                continue
+        elif operation.get("Cash received gp", "").strip() or operation.get("Receivable ID", "").strip():
+            findings.append(f"{eid}: only accepted sale rows may carry cash/receivable settlement fields")
+            continue
+        order_id = operation.get("Order line ID", "").strip()
+        order = order_map.get(order_id, {})
+        prerequisite = order.get("Readiness task ID", "").strip() if kind in {"Dispatch", "Accept", "Gate sale"} else ""
+        events.append({
+            "event_id": f"BT-OPS-{eid}",
+            "estate": "Blackthorn",
+            "effective_day": str(calc["day"]),
+            "event_type": {
+                "Produce": "blackthorn_production",
+                "Dispatch": "shipment_dispatch",
+                "Accept": "shipment_acceptance",
+                "Gate sale": "gate_sale",
+                "Return": "shipment_return",
+                "Loss": "inventory_loss",
+                "Idle labor": "blackthorn_idle_labor",
+                "Labor allocation": "blackthorn_labor_capitalization",
+                "Regrade out": "inventory_regrade_out",
+                "Regrade in": "inventory_regrade_in",
+            }.get(kind, "blackthorn_operation"),
+            "reference_id": order_id,
+            "receivable_id": receivable_id,
+            "cash_delta_gp": str(cash) if cash else "",
+            "receivable_delta_gp": str(receivable) if receivable else "",
+            "income_delta_gp": str(revenue) if revenue else "",
+            "expense_delta_gp": str(cogs + loss) if cogs + loss else "",
+            "inventory_id": inventory_key(operation.get("Product grade", "").strip()),
+            "quantity_delta": calc["on_site_delta_t"],
+            "inventory_cost_delta_gp": calc["on_site_delta_gp"],
+            "shipment_id": operation.get("Shipment / transfer ID", "").strip(),
+            "accepted_quantity": operation.get("Quantity t", "").strip() if kind == "Accept" else "",
+            "prerequisite_ref": prerequisite,
+            "description": f"Blackthorn operation {eid}: {kind}.",
+            "evidence": operation.get("Evidence / inspection", "").strip(),
+            "source_file": "data/estate/blackthorn-operations-events.csv",
+            "source_row": str(source_row),
+            "status": "posted",
+            "in_transit_quantity_delta": calc["transit_delta_t"],
+            "in_transit_cost_delta_gp": calc["transit_delta_gp"],
+        })
+    return events, findings
 
 
 def main():
@@ -338,13 +425,26 @@ def main():
     opening_verification = {}
     for row in read_register(DATA / "opening-inventory.csv", "inventory_id"):
         opening_verification[row.get("item", "").strip()] = row.get("verification_status", "unverified").strip().lower()
+    verification_events = []
+    for event in read_register(DATA / "events.csv", "event_id") if (DATA / "events.csv").exists() else []:
+        iid = event.get("inventory_id", "").strip()
+        status = event.get("inventory_verification_status", "").strip().lower()
+        if iid and status and event.get("status", "").strip().lower() == "posted":
+            verification_events.append((int(dec(event.get("effective_day", "0"))), iid, status))
     for row in additions:
         if row.get("Status", "").strip().lower() != "posted":
             extra_findings.append(f"{row.get('Event ID', '')}: only actual posted operations can update the staging projection")
-        if int(dec(row.get("Day", "0"))) <= checkpoint_day:
+        day = int(dec(row.get("Day", "0")))
+        if day <= checkpoint_day:
             extra_findings.append(f"{row.get('Event ID', '')}: new operation must be after Day {checkpoint_day} checkpoint")
-        if row.get("Event type", "").strip() in {"Dispatch", "Gate sale"} and opening_verification.get(row.get("Product grade", "").strip(), "unverified") != "verified":
-            extra_findings.append(f"{row.get('Event ID', '')}: {row.get('Product grade', '')} is not physically verified for release")
+        grade = row.get("Product grade", "").strip()
+        inv_id = inventory_key(grade)
+        current_verification = opening_verification.get(grade, "unverified")
+        for verified_day, verified_id, verified_status in verification_events:
+            if verified_id == inv_id and verified_day <= day:
+                current_verification = verified_status
+        if row.get("Event type", "").strip() in {"Dispatch", "Gate sale"} and current_verification != "verified":
+            extra_findings.append(f"{row.get('Event ID', '')}: {grade} is not physically verified for release")
     report = replay(opening, rates, orders, schedule, history + additions)
     history_report = replay(opening, rates, orders, schedule, history)
     report["history_event_count"] = len(history)
@@ -352,6 +452,9 @@ def main():
     report["checkpoint_day"] = checkpoint_day
     report["source_history_totals"] = history_report["totals"]
     report["findings"].extend(extra_findings)
+    report["staging_event_ids"] = [row.get("Event ID", "").strip() for row in additions]
+    report["ledger_events"], bridge_findings = ledger_events_for_operations(additions, report["events"], orders)
+    report["findings"].extend(bridge_findings)
     checkpoint = {}
     with (DATA / "blackthorn-tax-checkpoint.csv").open(encoding="utf-8-sig", newline="") as handle:
         checkpoint = {r["component"]: dec(r["value_gp"]) for r in csv.DictReader(handle)}
