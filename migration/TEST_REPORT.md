@@ -33,6 +33,6 @@ Visibility: Public, as explicitly chosen by the owner.
 
 - Added a synthetic guard case that attempts to dispatch provisional Blackthorn stock and expects the ledger to reject the release.
 - Imported the Blackthorn daily payroll/upkeep rate rows and added formula helpers for effective-date accrual and the 10% rolling tax assessment. Added Day 230 parity fixtures: 700.80 gp total payroll accrual, split into 336.00 gp management and 364.80 gp production payroll; 85.71 gp upkeep; 723.70 gp tax base; and 72.37 gp assessment.
-- Both synthetic tests were rerun locally against the latest staging files and passed. The connector did not expose an updated Actions result, so run 39 remains the latest Actions run I can verify. The formula port does not yet generate recurring posting events or derive tax inputs from the raw activity journal.
+- Both synthetic tests were rerun locally against the latest staging files and passed. A live unformatted read confirmed Operations COGS is 417.8297 gp, rounded to 417.83 gp in Accounts; the displayed-value CSV rounds individual rows and sums to 417.82 gp, so the CSV alone is not precise enough for cent-level COGS parity. The connector did not expose an updated Actions result, so run 39 remains the latest Actions run I can verify. The formula port does not yet generate recurring posting events or derive tax inputs from the raw activity journal.
 
 The cutover boundary remains unchanged: first finish the rule ports and then test a real campaign update end to end against the source workbook.
