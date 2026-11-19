@@ -55,7 +55,9 @@ Before a property service, repair, shipment, or revenue entry is posted, inspect
 - route, ownership, custody, quantity and condition of goods;
 - customer's actual request, agreed rate/terms, completion and acceptance.
 
-Use the source task IDs in `prerequisite_ref`. Each must be completed on or before the dependent event, with actual-day evidence. A hold, missing inspection, failed test, unavailable crew, unaccepted service or planned delivery blocks the dependent income or movement. Record a failed attempt only when it happened; post no unearned income. Blackthorn readiness currently has an automated passed-task gate. The equivalent cross-estate prerequisite engine is still a cutover blocker; until it exists, the DM must explicitly check and cite each dependency before posting.
+Use the source task IDs in `prerequisite_ref`, separated by semicolons when more than one applies. The estate ledger now requires this field for earned income, service completion and shipment/gate-sale release events. It checks that every referenced ID exists in a property schedule and has a completed/passed result, actual day, and evidence no later than the event day. Blackthorn's production replay separately requires its order's readiness task to have passed before dispatch or gate sale.
+
+This automated check validates only the dependencies that were named. The DM must still identify every applicable legal, staffing, safety, capacity, route, custody and acceptance condition; a missing dependency cannot be inferred from one valid task ID. A hold, missing inspection, failed test, unavailable crew, unaccepted service or planned delivery blocks the dependent income or movement. Record a failed attempt only when it happened; post no unearned income.
 
 ## Characters
 
