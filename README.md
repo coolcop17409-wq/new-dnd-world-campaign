@@ -42,7 +42,7 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [x] Bridge validated future Blackthorn operation, shipment, acceptance, COGS and stock events into the estate ledger with explicit immediate cash or receivable treatment; synthetic mapping/import tests pass.
 - [x] Require prerequisite references for earned income/service release and validate referenced schedule completion, actual day and evidence.
 - [ ] Verify that each service path cites the full applicable dependency set, including legal, staffing, safety, route and capacity conditions.
-- [ ] Port and test the forward Blackthorn taxable-base roll-forward and actual period assessment posting.
+- [x] Port source-checked forward Blackthorn taxable-base roll-forward and closed-period assessment adjustment posting; integrated synthetic chain test passes. Actual tax close/post has not been run because no real post-checkpoint closed tax period exists.
 - [ ] Run a real post-checkpoint Blackthorn operation chain, a confirmed character change, and one due Magic Shops turnover through write → rebuild → compare.
 - [ ] Complete opening ownership, custody, inventory, staff and commitment checkpoints; test full play → sync → source comparison.
 - [ ] Review a successful full Actions run and then consider cutover.
