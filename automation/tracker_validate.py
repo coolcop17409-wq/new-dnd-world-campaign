@@ -45,10 +45,11 @@ def character_check(name,group,sheet,inventory,findings):
  else:
   qtyi=next((i for i,x in enumerate(items[hi]) if x.strip().lower() in {"qty","quantity"}),None)
   for r in items[hi+1:]:
-   if not r:break
-   if not r[0].strip() or qtyi is None or qtyi>=len(r):continue
-   q=num(r[qtyi],f"{name} inventory {r[0].strip()} quantity",findings)
-   if q is not None and q<0:findings.append(f"{name}: {r[0].strip()} has negative quantity {q}.")
+   if not r or not r[0].strip() or qtyi is None or qtyi>=len(r):continue
+   raw=r[qtyi].strip()
+   try:q=Decimal(raw.replace(",",""))
+   except (InvalidOperation,ValueError):continue
+   if q<0:findings.append(f"{name}: {r[0].strip()} has negative quantity {q}.")
 def main():
  findings=[]
  for name,(group,char,inventory) in CHARACTERS.items():character_check(name,group,char,inventory,findings)
