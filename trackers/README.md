@@ -23,3 +23,5 @@ Magic Shops already separates Dealers, Stock, and Events, with extensive campaig
 | Magic Shops | `1lkUMaoPNaIkSVNbE89i8MzbmbBSOufABrAmXNgEyqnY` | `workbooks/magic-shops.xlsx` |
 
 Each CSV path is `csv/<workbook>/<sheet-name>.csv`; formulas remain in XLSX reference copies. Estate ledger inputs are under `data/estate/`, and additive character changes are under `data/characters/`.
+
+Forward update behavior, current automation boundaries, and cutover gates are defined in [migration/ONGOING_UPDATE_PROTOCOL.md](../migration/ONGOING_UPDATE_PROTOCOL.md). The protocol keeps event journals and recalculated dashboard views as the write/retrieval model; the workbook exports stay reference snapshots until validation is complete.
