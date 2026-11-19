@@ -15,6 +15,7 @@ on:
       - "automation/estate_ledger.py"
       - "automation/build_dashboard.py"
       - "automation/tracker_validate.py"
+      - "automation/test_estate_ledger.py"
       - "data/characters/**"
       - ".github/workflows/estate-audit.yml"
   workflow_dispatch:
