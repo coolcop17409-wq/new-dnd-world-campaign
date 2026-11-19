@@ -112,7 +112,22 @@ def main():
  ids=set();transfer_totals=defaultdict(Decimal);transfer_counts=defaultdict(int);parsed=0
  blocked={"forecast","planned","scheduled","pending","unconfirmed","estimate"}
  prerequisites=prerequisite_tasks()
- for row in rows(DATA/"events.csv"):
+ ledger_event_rows=rows(DATA/"events.csv")
+ operation_report_path=ROOT/"reports"/"blackthorn-operations.json"
+ if operation_report_path.exists():
+  operation_report=json.loads(operation_report_path.read_text(encoding="utf-8"))
+  addition_path=DATA/"blackthorn-operations-events.csv"
+  with addition_path.open(encoding="utf-8-sig",newline="") as f:
+   operation_ids=[(r.get("Event ID") or "").strip() for r in csv.DictReader(f) if (r.get("Event ID") or "").strip()]
+  if operation_report.get("status")!="PASS":
+   errors.append("Blackthorn operation report is not PASS; its ledger events were not applied")
+  elif int(operation_report.get("checkpoint_day",-1))!=int(cutoff):
+   errors.append("Blackthorn operation report checkpoint does not match estate ledger snapshot")
+  elif operation_report.get("staging_event_ids",[])!=operation_ids:
+   errors.append("Blackthorn operation report is stale against the current staged operation journal")
+  else:
+   ledger_event_rows.extend(operation_report.get("ledger_events",[]))
+ for row in ledger_event_rows:
   eid=(row.get("event_id") or "").strip();estate=(row.get("estate") or "").strip()
   if not eid:errors.append("event without an event ID");continue
   if eid in ids:errors.append(f"duplicate event ID {eid}")
