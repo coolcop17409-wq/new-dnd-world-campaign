@@ -45,6 +45,6 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [x] Port source-checked forward Blackthorn taxable-base roll-forward and closed-period assessment adjustment posting; integrated synthetic chain test passes. Actual tax close/post has not been run because no real post-checkpoint closed tax period exists.
 - [ ] Run a real post-checkpoint Blackthorn operation chain, a confirmed character change, and one due Magic Shops turnover through write → rebuild → compare.
 - [ ] Complete opening ownership, custody, inventory, staff and commitment checkpoints; test full play → sync → source comparison.
-- [ ] Review a successful full Actions run and then consider cutover.
+- [x] Review successful full Actions run 92. Cutover remains blocked by the real post-checkpoint event and source-comparison checks listed above.
 
 No Drive records or Project Sources have been changed. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
