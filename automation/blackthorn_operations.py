@@ -77,6 +77,8 @@ def replay(opening_stock, rates, orders, schedule, operations):
     transfer_costs = {}
     seen_ids = set()
     dispatch_ids = set()
+    order_flow = defaultdict(lambda: {"accepted": Decimal("0"), "in_transit": Decimal("0")})
+    shipment_orders = {}
     produce_totals = defaultdict(Decimal)
     family_by_row = {}
     family_pay_by_day = {}
@@ -171,6 +173,14 @@ def replay(opening_stock, rates, orders, schedule, operations):
             on_site["quantity"] -= qty
             on_site["cost"] -= moved
             transit[(ship, grade)] = {"quantity": qty, "cost": moved}
+            if order:
+                order_id = order.get("Order line ID", "").strip()
+                order_limit = dec(order.get("Ordered t", "0"))
+                flow = order_flow[order_id]
+                if order_limit <= 0 or flow["accepted"] + flow["in_transit"] + qty > order_limit:
+                    findings.append(f"{eid}: dispatch exceeds confirmed order quantity")
+                flow["in_transit"] += qty
+                shipment_orders[ship] = order_id
             calculated.update({"on_site_delta_t": -qty, "on_site_delta_gp": -moved,
                                "transit_delta_t": qty, "transit_delta_gp": moved})
         elif kind == "Produce":
@@ -205,6 +215,14 @@ def replay(opening_stock, rates, orders, schedule, operations):
                 findings.append(f"{eid}: acceptance exceeds shipment {ship} in-transit quantity")
             else:
                 order = order or {}
+                order_id = order.get("Order line ID", "").strip()
+                if ship in shipment_orders and shipment_orders[ship] != order_id:
+                    findings.append(f"{eid}: accepted shipment is linked to a different order")
+                flow = order_flow[order_id]
+                if flow["in_transit"] < qty:
+                    findings.append(f"{eid}: accepted quantity exceeds this order's dispatched balance")
+                flow["in_transit"] -= qty
+                flow["accepted"] += qty
                 revenue = qmoney(qty * dec(order.get("Price gp/t", "0")))
                 cogs = qcost(qty * cargo["cost"] / cargo["quantity"]) if cargo["quantity"] else Decimal("0")
                 cargo["quantity"] -= qty
@@ -219,6 +237,12 @@ def replay(opening_stock, rates, orders, schedule, operations):
             else:
                 moved = qcost(qty * unit_cost)
                 order = order or {}
+                order_id = order.get("Order line ID", "").strip()
+                flow = order_flow[order_id]
+                order_limit = dec(order.get("Ordered t", "0"))
+                if order_limit <= 0 or flow["accepted"] + flow["in_transit"] + qty > order_limit:
+                    findings.append(f"{eid}: gate sale exceeds confirmed order quantity")
+                flow["accepted"] += qty
                 revenue = qmoney(qty * dec(order.get("Price gp/t", "0")))
                 on_site["quantity"] -= qty
                 on_site["cost"] -= moved
@@ -231,6 +255,10 @@ def replay(opening_stock, rates, orders, schedule, operations):
             if not cargo or qty <= 0 or qty > cargo["quantity"]:
                 findings.append(f"{eid}: return exceeds shipment {ship} in-transit quantity")
             else:
+                order_id = order.get("Order line ID", "").strip()
+                if ship in shipment_orders and shipment_orders[ship] != order_id:
+                    findings.append(f"{eid}: returned shipment is linked to a different order")
+                order_flow[order_id]["in_transit"] -= qty
                 moved = qcost(qty * cargo["cost"] / cargo["quantity"])
                 cargo["quantity"] -= qty
                 cargo["cost"] -= moved
@@ -272,6 +300,8 @@ def replay(opening_stock, rates, orders, schedule, operations):
                     cost = qcost(qty * cargo["cost"] / cargo["quantity"])
                     cargo["quantity"] -= qty
                     cargo["cost"] -= cost
+                    if ship in shipment_orders:
+                        order_flow[shipment_orders[ship]]["in_transit"] -= qty
                     calculated.update({"transit_delta_t": -qty, "transit_delta_gp": -cost, "loss_idle_gp": cost})
             elif qty > prior_qty:
                 findings.append(f"{eid}: loss exceeds on-site {grade} stock")
