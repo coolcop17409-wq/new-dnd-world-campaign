@@ -2,15 +2,15 @@
 
 ## Staging rule
 
-These files are snapshots from the live Google Sheets as of 2026-11-19. The corresponding `workbooks/*.xlsx` files preserve workbook formulas and formatting. `csv/` contains displayed-value snapshots split by tab for retrieval and review.
-
-Drive remains authoritative. Do not edit a CSV and treat it as a live campaign update. The GitHub copy is still a staging test.
+These files are snapshots from the live Google Sheets as of 2026-11-19. The corresponding `workbooks/*.xlsx` files preserve formulas and formatting. `csv/` contains displayed-value snapshots split by tab for retrieval and review. Drive remains authoritative; do not edit a CSV and treat it as a live campaign update.
 
 ## What runs today
 
-The estate audit and event-ledger check reconcile cash, recorded liabilities, available balances, cashbook IDs, and due/unfinished estate schedule items. The initial event ledger imports actual cashbook rows and snapshots nonzero liabilities as of Day 230; it does not post new wages, income, costs, taxes, transfers, or inventory changes by itself.
+The estate workflow reconciles the staged cashbook event ledger and opening liability balances to the current Property overview, detects duplicate IDs, validates transfer pairs, and lists unfinished schedule tasks due by the campaign day. It does not post transactions or infer that scheduled work happened.
 
-The dashboard assembles read-only party, personal inventory, estate, and magic-shop views from the exported CSVs. It is a snapshot report, not yet a formula-complete replacement for the character or property workbook. Magic-shop rules already use Dealers, Stock, and Events as separate records; current dashboard output shows stock rows only and does not execute turnover or trade.
+The character staging ledger accepts confirmed HP, resource, and inventory changes. The dashboard applies only entries marked `posted`, then checks them against snapshot maxima and item quantities. The character sheets' formulas and all 2014 class/rest rules have not been fully ported.
+
+Magic Shops already separates Dealers, Stock, and Events, with extensive campaign procedures in its Rules tab. The validation checks stable dealer/lot/event keys and stock quantities; the dashboard shows current nonzero lots. It does not roll business/stock turnover, resolve offers, buy/sell items, or decide hidden availability.
 
 ## Workbook map
 
@@ -22,4 +22,4 @@ The dashboard assembles read-only party, personal inventory, estate, and magic-s
 | Property | `1VYY8lidhkDe6iiCaY8uEesg1ocxunXIE_Q6Y9-baw9Q` | `workbooks/property.xlsx` |
 | Magic Shops | `1lkUMaoPNaIkSVNbE89i8MzbmbBSOufABrAmXNgEyqnY` | `workbooks/magic-shops.xlsx` |
 
-Each CSV path is `csv/<workbook>/<sheet-name>.csv`; formulas remain in the XLSX reference copies. Estate ledger inputs are under `data/estate/`.
+Each CSV path is `csv/<workbook>/<sheet-name>.csv`; formulas remain in XLSX reference copies. Estate ledger inputs are under `data/estate/`, and additive character changes are under `data/characters/`.
