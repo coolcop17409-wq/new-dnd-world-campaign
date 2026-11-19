@@ -60,6 +60,10 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                 json.dumps({"snapshot_day": 10, "captured_date": "fixture"}),
                 encoding="utf-8",
             )
+            self.write_csv(prop / "test-schedule.csv",
+                ["Task ID", "Actual day", "Result", "Actual evidence"],
+                [{"Task ID": "READY-1", "Actual day": "10", "Result": "Pass",
+                  "Actual evidence": "fixture readiness evidence"}])
             self.write_csv(data / "opening-balances.csv",
                 ["estate", "opening_cash_gp"],
                 [{"estate": "Test", "opening_cash_gp": "100"},
@@ -87,12 +91,14 @@ class EstateLedgerScenarioTests(unittest.TestCase):
             event("partial-pay", "Test", 12, event_type="bill_payment", liability_id="L0",
                   liability_delta_gp="-3", cash_delta_gp="-3")
             event("accepted-sale", "Test", 11, event_type="sale_accepted", reference_id="SHIP-1",
+                  prerequisite_ref="READY-1",
                   receivable_id="R1", receivable_delta_gp="30", income_delta_gp="30",
                   expense_delta_gp="20", inventory_id="grain", quantity_delta="-2",
                   inventory_cost_delta_gp="-20", shipment_id="SHIP-1", accepted_quantity="2", reserved_quantity_delta="-2")
             event("collect", "Test", 12, event_type="receivable_collection", receivable_id="R1",
                   receivable_delta_gp="-10", cash_delta_gp="10")
             event("dispatch", "Test", 13, event_type="shipment_dispatch", inventory_id="grain", quantity_delta="-1",
+                  prerequisite_ref="READY-1",
                   inventory_cost_delta_gp="-10", in_transit_quantity_delta="1", in_transit_cost_delta_gp="10", shipment_id="SHIP-2")
             event("delivery", "Test", 14, event_type="shipment_arrival", inventory_id="grain", quantity_delta="1",
                   inventory_cost_delta_gp="10", in_transit_quantity_delta="-1", in_transit_cost_delta_gp="-10", shipment_id="SHIP-2")
@@ -117,10 +123,17 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                 with redirect_stdout(io.StringIO()):
                     self.assertEqual(ledger.main(), 0)
                 report = json.loads((reports / "ledger.json").read_text(encoding="utf-8"))
+                event("income-no-prerequisite", "Test", 15, event_type="service_income",
+                      income_delta_gp="1", evidence="fixture actual income")
+                self.write_csv(data / "events.csv", FIELDS, events)
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(ledger.main(), 1)
+                gate_report = json.loads((reports / "ledger.json").read_text(encoding="utf-8"))
+                self.assertTrue(any("requires prerequisite_ref" in finding for finding in gate_report["findings"]))
                 event("provisional-release", "Test", 15, event_type="shipment_dispatch",
-                      inventory_id="timber", quantity_delta="-1", inventory_cost_delta_gp="-5",
-                      shipment_id="SHIP-PROVISIONAL", in_transit_quantity_delta="1",
-                      in_transit_cost_delta_gp="5")
+                      prerequisite_ref="READY-1", inventory_id="timber", quantity_delta="-1",
+                      inventory_cost_delta_gp="-5", shipment_id="SHIP-PROVISIONAL",
+                      in_transit_quantity_delta="1", in_transit_cost_delta_gp="5")
                 self.write_csv(data / "events.csv", FIELDS, events)
                 with redirect_stdout(io.StringIO()):
                     self.assertEqual(ledger.main(), 1)
