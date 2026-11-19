@@ -98,7 +98,7 @@
     },
     {
       "name": "Cirren",
-      "level": null,
+      "level": "6",
       "hp": "51",
       "max_hp": "51",
       "ac": "18",
@@ -151,7 +151,7 @@
     },
     {
       "name": "Fenar",
-      "level": null,
+      "level": "6",
       "hp": "59",
       "max_hp": "59",
       "ac": "14",
