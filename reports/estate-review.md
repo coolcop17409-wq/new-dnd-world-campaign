@@ -20,12 +20,10 @@ All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
 Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 203: MG-INSURANCE** (Hold)
-- **Miregate — Day 201: MG-MERET-PAY** (Hold)
 - **Miregate — Day 214: MG-WEEK-214** (Overdue)
 - **Miregate — Day 221: MG-WEEK-221** (Overdue)
 - **Miregate — Day 228: MG-CAERETH-CHARTER-D228** (Hold)
 - **Miregate — Day 229: MG-CAR-HERON-VERIFY-D229** (Pending)
-- **Miregate — Day 222: MG-PAY-222** (Deferred)
 - **Miregate — Day 231: MG-FARM-COMMERCIAL-REVIEW** (Pending)
 - **Miregate — Day 231: MG-PUNT-REBUILD-D231** (Hold)
 - **Reedbed — Day 207: RB-BOOK** (Overdue / unresolved)
@@ -37,6 +35,11 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Old Distributary Fort — Day 225: OF-FIRST-RETURN** (Overdue / unresolved)
 - **Old Distributary Fort — Day 215: OF-PAYROLL-215** (Overdue / unresolved)
 - **Old Distributary Fort — Day 222: OF-PAYROLL-222** (Overdue / unresolved)
+
+### Verified later settlements
+
+- **Miregate — MG-MERET-PAY** is superseded by completed `MG-PAY-229` (verified against the staging successor map).
+- **Miregate — MG-PAY-222** is superseded by completed `MG-PAY-229` (verified against the staging successor map).
 
 ## Source boundary
 
