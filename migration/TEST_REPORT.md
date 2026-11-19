@@ -39,7 +39,7 @@ The manually triggered accrual posting is opt-in and requires an explicit closed
 - Magic Shops turnover behavior is specified in its Rules export, including review intervals, odds, eligible outcomes, and recording requirements. Automated checks validate identities and quantities only; no real due review and linked player transaction has been compared.
 - Opening custody, ownership, staff, inventory and commitments need full checkpoint completeness beyond current estate cash/liabilities and Blackthorn book stock.
 - A complete play → event write → regenerated views → Drive checkpoint comparison has not yet passed.
-- GitHub Actions runs 77–80 completed successfully for the operation bridge, settlement fields and tests. Local full snapshot checks also pass: estate ledger reconciles 121 source events to Day 231; Blackthorn replays 283 historical operations with no findings. The latest Actions report has not exercised any post-checkpoint operation rows because none are present. An earlier run 63 failed on a malformed newline in the atomic close-marker write; the correction was committed and run 64 and subsequent runs passed.
+- GitHub Actions runs 77–81 completed successfully for the operation bridge, settlement fields, tests and updated estate documentation. Run 81 is the latest verified Actions run. Local full snapshot checks also pass: estate ledger reconciles 121 source events to Day 231; Blackthorn replays 283 historical operations with no findings. The latest Actions report has not exercised any post-checkpoint operation rows because none are present. An earlier run 63 failed on a malformed newline in the atomic close-marker write; the correction was committed and run 64 and subsequent runs passed.
 
 ## Cutover boundary
 
