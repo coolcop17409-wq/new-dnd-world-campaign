@@ -3,7 +3,7 @@
 Test copy: https://github.com/coolcop17409-wq/new-dnd-world-campaign
 Visibility: Public (confirmed by repository metadata and the owner's instruction).
 
-## Verified
+## Verified before the estate prototype
 
 - Fetched representative files through the GitHub connector: README, AGENTS, current campaign state, rules, DM-only prep, world political reference, tracker CSV, and XLSX workbook.
 - Checked staged character values against Drive: V 48/48 HP and AC 19; Cirren 51/51 HP and AC 18; Fenar 59/59 HP and AC 14.
@@ -11,9 +11,16 @@ Visibility: Public (confirmed by repository metadata and the owner's instruction
 - Updated the non-campaign `migration/connector-test.md` file through the GitHub connector and fetched it again. The readback contains `AFTER_UPDATE_VERIFIED`.
 - Confirmed repository metadata reports `visibility: public`.
 
+## Estate automation added
+
+- Added `automation/estate_audit.py` to reconcile staged overview cash against recorded liabilities, detect duplicate cashbook IDs, and optionally report unfinished tasks due by an entered campaign day.
+- Added `.github/workflows/estate-audit.yml` to run on property snapshot/code changes or manually. The manual run accepts the in-game campaign day.
+- The automation writes only `reports/estate-review.md`; it does not post any transaction or change campaign state.
+- The workflow has not been manually run or its output reviewed yet.
+
 ## Staging boundaries
 
 - Drive remains authoritative. No Drive records or ChatGPT Project Sources were changed.
 - The workbook files preserve spreadsheet formulas and formatting; CSV files are searchable displayed-value snapshots.
 - Maps and large images remain in Drive, with pointers in `assets/README.md`.
-- This report covers representative connector and data checks. The live campaign workflow has not been switched to GitHub.
+- The live campaign workflow has not been switched to GitHub.
