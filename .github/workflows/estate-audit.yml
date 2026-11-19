@@ -34,7 +34,7 @@ jobs:
       - name: Commit updated review
         if: always()
         run: |
-          if git diff --quiet -- reports/estate-review.md; then
+          if [ -z "$(git status --porcelain -- reports/estate-review.md)" ]; then
             echo "Estate review has no changes."
             exit 0
           fi
