@@ -42,12 +42,19 @@ def inventory(group,sheet):
  item=index("item");qty=index("qty","quantity");holder=index("current holder");detail=index("detail / custody")
  out=[]
  for r in rows[header_i+1:]:
-  if not r:break
-  if item is None or item>=len(r) or not r[item].strip():continue
+  if not r or item is None or item>=len(r) or not r[item].strip():continue
   q=r[qty].strip() if qty is not None and qty<len(r) else ""
-  if q in {"","0","0.0"}:continue
+  try:numeric_qty=float(q)
+  except (TypeError,ValueError):continue
+  if numeric_qty<=0:continue
+  source_idx=index("source")
+  source=r[source_idx].strip().lower() if source_idx is not None and source_idx<len(r) else ""
   detail_text=r[detail].strip() if detail is not None and detail<len(r) else ""
-  out.append({"item":r[item].strip(),"qty":q,"quantity_display":"Unlimited (not tracked)" if "unlimited" in detail_text.lower() else q,"holder":r[holder].strip() if holder is not None and holder<len(r) else "","detail":detail_text[:180]})
+  holder_text=r[holder].strip() if holder is not None and holder<len(r) else ""
+  if source in {"gp","sp","cp","currency","tracker"}:continue
+  custody=(detail_text+" "+holder_text).lower()
+  if any(flag in custody for flag in ("no longer carried","not carried","transferred to","sold to")):continue
+  out.append({"item":r[item].strip(),"qty":q,"quantity_display":"Unlimited (not tracked)" if "unlimited" in detail_text.lower() else q,"holder":holder_text,"detail":detail_text[:180]})
  return out
 def apply_character_events(payload):
  path=ROOT/"data"/"characters"/"events.csv"
