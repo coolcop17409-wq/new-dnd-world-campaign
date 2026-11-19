@@ -33,6 +33,11 @@ def label_value(path, aliases):
     for val in row[i+1:]:
      if val.strip(): return dec(val)
  raise ValueError(f"{path.name}: missing {aliases}")
+def optional_label_value(path, aliases):
+ try: return label_value(path,aliases)
+ except ValueError as e:
+  if "missing" in str(e): return Decimal("0")
+  raise
 def money(d): return d.quantize(Decimal("0.01"),rounding=ROUND_HALF_UP)
 def main():
  errors=[]
@@ -88,7 +93,7 @@ def main():
   path=PROPERTY/cfg["overview"]
   summary_cash=label_value(path,cfg["cash"])
   summary_available=label_value(path,cfg["available"])
-  expected_liabilities=sum((label_value(path,[a]) for a in cfg["liabilities"]),Decimal(0))
+  expected_liabilities=sum((optional_label_value(path,[a]) for a in cfg["liabilities"]),Decimal(0))
   calculated_liabilities=liabilities.get(estate,Decimal(0))+liability_delta[estate]
   available=money(cash[estate]-calculated_liabilities)
   if money(cash[estate])!=money(summary_cash):
