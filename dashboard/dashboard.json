@@ -11,6 +11,9 @@
       "projected_cash_gp": "501.40",
       "projected_liabilities_gp": "14.03",
       "projected_available_gp": "487.37",
+      "cash_gp": "501.40",
+      "liabilities_gp": "14.03",
+      "available_gp": "487.37",
       "cash_after_snapshot_events_gp": "0.00"
     },
     "Reedbed": {
@@ -20,6 +23,9 @@
       "projected_cash_gp": "63.80",
       "projected_liabilities_gp": "8.60",
       "projected_available_gp": "55.20",
+      "cash_gp": "63.80",
+      "liabilities_gp": "8.60",
+      "available_gp": "55.20",
       "cash_after_snapshot_events_gp": "0.00"
     },
     "Old Distributary Fort": {
@@ -29,6 +35,9 @@
       "projected_cash_gp": "130.00",
       "projected_liabilities_gp": "5.00",
       "projected_available_gp": "125.00",
+      "cash_gp": "130.00",
+      "liabilities_gp": "5.00",
+      "available_gp": "125.00",
       "cash_after_snapshot_events_gp": "0.00"
     },
     "Blackthorn": {
@@ -38,6 +47,9 @@
       "projected_cash_gp": "453.33",
       "projected_liabilities_gp": "171.01",
       "projected_available_gp": "282.32",
+      "cash_gp": "453.33",
+      "liabilities_gp": "171.01",
+      "available_gp": "282.32",
       "cash_after_snapshot_events_gp": "0.00"
     }
   },
