@@ -42,17 +42,16 @@ def inventory(group,sheet):
  item=index("item");qty=index("qty","quantity");holder=index("current holder");detail=index("detail / custody")
  out=[]
  for r in rows[header_i+1:]:
-  if not r or item is None or item>=len(r) or not r[item].strip():continue
+  if not r:break
+  if item is None or item>=len(r) or not r[item].strip():continue
   q=r[qty].strip() if qty is not None and qty<len(r) else ""
   if q in {"","0","0.0"}:continue
-  out.append({"item":r[item].strip(),"qty":q,"holder":r[holder].strip() if holder is not None and holder<len(r) else "","detail":r[detail].strip()[:180] if detail is not None and detail<len(r) else ""})
+  detail_text=r[detail].strip() if detail is not None and detail<len(r) else ""
+  out.append({"item":r[item].strip(),"qty":q,"quantity_display":"Unlimited (not tracked)" if "unlimited" in detail_text.lower() else q,"holder":r[holder].strip() if holder is not None and holder<len(r) else "","detail":detail_text[:180]})
  return out
 def apply_character_events(payload):
  path=ROOT/"data"/"characters"/"events.csv"
  if not path.exists():return
- for event in table(path):
-  # Header rows are skipped by DictReader below; this simple read is replaced by direct table parse.
-  pass
  with path.open(encoding="utf-8-sig",newline="") as f: events=list(csv.DictReader(f))
  by_name={p["name"].lower():p for p in payload["party"]}
  for event in events:
@@ -82,8 +81,10 @@ def apply_character_events(payload):
    items=payload["inventory"].get(person["name"],[])
    matches=[x for x in items if x["item"].strip().lower()==target.lower()]
    if len(matches)!=1:raise ValueError(f"Inventory event {event.get('event_id')} target is missing or ambiguous: {target}.")
+   if "unlimited" in matches[0].get("detail","").lower():raise ValueError(f"Inventory event {event.get('event_id')} cannot change a non-counted unlimited item.")
    current=float(matches[0]["qty"] or 0)
    matches[0]["qty"]=str(float(absolute) if absolute else current+float(delta or 0))
+   matches[0]["quantity_display"]=matches[0]["qty"]
   else:raise ValueError(f"Unsupported character event type {kind!r}.")
   if kind=="stat" and key=="hp" and float(person["max_hp"] or 0) and float(person[key])>float(person["max_hp"]):raise ValueError(f"Character event {event.get('event_id')} exceeds maximum HP.")
   if kind=="resource":
