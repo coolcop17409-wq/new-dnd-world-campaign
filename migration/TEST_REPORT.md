@@ -8,7 +8,7 @@ Visibility: Public, as explicitly chosen by the owner.
 - GitHub connector reads and writes were verified earlier, including a non-campaign write/read round trip.
 - Representative campaign files, including current state, rules, DM preparation, political reference, and workbook snapshots, were retrieved from GitHub.
 - Existing Drive checkpoint values checked against the workbook snapshots: V 48/48 HP and AC 19; Cirren 51/51 HP and AC 18; Fenar 59/59 HP and AC 14.
-- Estate audit, event ledger, tracker validation, dashboard generation, and the synthetic ledger scenario test all passed in the latest full GitHub Actions run (run 32). The ledger contains 121 unique actual cashbook IDs and reconciles the Day 231 checkpoint:
+- Estate audit, event ledger, tracker validation, dashboard generation, and the synthetic ledger scenario test all passed in the latest full GitHub Actions run (run 39). The ledger contains 121 unique actual cashbook IDs and reconciles the Day 231 checkpoint:
   - Miregate 501.40 gp cash, 14.03 gp liabilities, 487.37 gp available.
   - Reedbed 63.80 gp cash, 8.60 gp liabilities, 55.20 gp available.
   - Old Distributary Fort 130.00 gp cash, 5.00 gp liabilities, 125.00 gp available.
@@ -17,7 +17,7 @@ Visibility: Public, as explicitly chosen by the owner.
 - Tracker validation passed for V, Cirren, Fenar, their inventory snapshots, 89 magic-shop stock rows, dealer keys, and existing shop event IDs.
 - A generated Day 231 dashboard was read back. It shows party values, tracked resources, owned-item/custody notes, estate balances, and 57 nonzero shop lots.
 - The live Property workbook shows zero receivables across all four estates. Blackthorn's Day 230 Accounts formulas total 41.12 t on-site book stock, 13 t reserved, 0 t in transit, and 349.43 gp book cost. The six opening grade rows were imported as provisional because the workbook explicitly says physical count, seasoning, and buyer certification are unverified; the GitHub ledger reports zero eligible-to-ship stock until verified.
-- Synthetic ledger scenarios passed for a partially paid liability, an accepted sale with delayed collection, failed work that posts no amount, a scheduled tax date that posts no assessment, inventory quantity/cost release, and paired estate-transfer legs. These test the ledger rules in isolation; they do not establish those events happened in the campaign.
+- Synthetic ledger scenarios passed for a partially paid liability, an accepted sale with delayed collection, failed work that posts no amount, a scheduled tax date that posts no assessment, inventory reservations, shipment dispatch/arrival, inventory quantity/cost release, and paired estate-transfer legs. These test the ledger rules in isolation; they do not establish those events happened in the campaign.
 
 ## What remains unverified
 
