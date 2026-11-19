@@ -1,26 +1,29 @@
 # Migration Test Report
 
-Test copy: https://github.com/coolcop17409-wq/new-dnd-world-campaign
-Visibility: Public (confirmed by repository metadata and the owner's instruction).
+Test copy: https://github.com/coolcop17409-wq/new-dnd-world-campaign  
+Visibility: Public, as explicitly chosen by the owner.
 
-## Verified before the estate prototype
+## What passed
 
-- Fetched representative files through the GitHub connector: README, AGENTS, current campaign state, rules, DM-only prep, world political reference, tracker CSV, and XLSX workbook.
-- Checked staged character values against Drive: V 48/48 HP and AC 19; Cirren 51/51 HP and AC 18; Fenar 59/59 HP and AC 14.
-- Checked staged estate balances against Drive snapshots: Miregate 501.40 cash / 487.37 after liabilities; Reedbed 63.80 / 55.20; Old Distributary Fort 130.00 / 125.00; Blackthorn 453.33 / 282.32.
-- Updated the non-campaign `migration/connector-test.md` file through the GitHub connector and fetched it again. The readback contains `AFTER_UPDATE_VERIFIED`.
-- Confirmed repository metadata reports `visibility: public`.
+- GitHub connector reads and writes were verified earlier, including a non-campaign write/read round trip.
+- Representative campaign files, including current state, rules, DM preparation, political reference, and workbook snapshots, were retrieved from GitHub.
+- Existing Drive checkpoint values checked against the workbook snapshots: V 48/48 HP and AC 19; Cirren 51/51 HP and AC 18; Fenar 59/59 HP and AC 14.
+- Estate audit and ledger Actions ran successfully. The ledger contains 121 unique actual cashbook IDs and reconciles the Day 231 checkpoint:
+  - Miregate 501.40 gp cash, 14.03 gp liabilities, 487.37 gp available.
+  - Reedbed 63.80 gp cash, 8.60 gp liabilities, 55.20 gp available.
+  - Old Distributary Fort 130.00 gp cash, 5.00 gp liabilities, 125.00 gp available.
+  - Blackthorn 453.33 gp cash, 171.01 gp liabilities, 282.32 gp available.
+- The unfinished-task report was checked against the live Property schedules. It lists 16 current due/overdue/held items. Two stale Miregate payroll task rows are explicitly mapped to their completed Day 229 successor; they are not duplicated as open tasks.
+- Tracker validation passed for V, Cirren, Fenar, their inventory snapshots, 89 magic-shop stock rows, dealer keys, and existing shop event IDs.
+- A generated Day 231 dashboard was read back. It shows party values, tracked resources, owned-item/custody notes, estate balances, and 57 nonzero shop lots.
 
-## Estate automation added
+## What remains unverified
 
-- Added `automation/estate_audit.py` to reconcile staged overview cash against recorded liabilities, detect duplicate cashbook IDs, and optionally report unfinished tasks due by an entered campaign day.
-- Added `.github/workflows/estate-audit.yml` to run on property snapshot/code changes or manually. The manual run accepts the in-game campaign day.
-- The automation writes only `reports/estate-review.md`; it does not post any transaction or change campaign state.
-- The workflow has not been manually run or its output reviewed yet.
+- No campaign event has yet been written through the character event ledger; the event-log overlay and a complete play → write → regenerate → compare cycle still need an actual confirmed campaign change.
+- The dashboard is a repository artifact; GitHub Pages is not enabled.
+- The estate seed preserves cashbook history and starts liabilities from an as-of-Day-230 balance-forward snapshot. It does not yet port all activity formulas, wages, operating costs, tax assessments, receivables, stock valuation, production/COGS, order acceptance, delayed/failed work, shipping, or service prerequisites.
+- Character event checks are range checks; they do not yet replace every sheet formula or apply 2014 class/rest mechanics automatically.
+- Magic-shop keys and stock rows validate, but its due business reviews and turnover remain DM-resolved under the existing Rules tab.
+- Drive remains authoritative. No live Drive record or ChatGPT Project Source was changed, and no cutover was made.
 
-## Staging boundaries
-
-- Drive remains authoritative. No Drive records or ChatGPT Project Sources were changed.
-- The workbook files preserve spreadsheet formulas and formatting; CSV files are searchable displayed-value snapshots.
-- Maps and large images remain in Drive, with pointers in `assets/README.md`.
-- The live campaign workflow has not been switched to GitHub.
+The cutover boundary remains unchanged: first finish the rule ports and then test a real campaign update end to end against the source workbook.
