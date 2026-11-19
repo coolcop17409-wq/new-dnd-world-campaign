@@ -330,16 +330,35 @@ def main():
     rates = read_register(PROPERTY / "blackthorn-rates-staff.csv", "Rate ID")
     orders = read_register(PROPERTY / "blackthorn-orders.csv", "Order line ID")
     schedule = read_register(PROPERTY / "blackthorn-schedule.csv", "Task / settlement ID")
-    operations = read_register(PROPERTY / "blackthorn-operations.csv", "Event ID")
-    report = replay(opening, rates, orders, schedule, operations)
-    totals = report["totals"]
+    history = read_register(PROPERTY / "blackthorn-operations.csv", "Event ID")
+    additions = read_register(DATA / "blackthorn-operations-events.csv", "Event ID")
+    meta = json.loads((DATA / "snapshot-meta.json").read_text(encoding="utf-8"))
+    checkpoint_day = int(meta["snapshot_day"])
+    extra_findings = []
+    opening_verification = {}
+    for row in read_register(DATA / "opening-inventory.csv", "inventory_id"):
+        opening_verification[row.get("item", "").strip()] = row.get("verification_status", "unverified").strip().lower()
+    for row in additions:
+        if row.get("Status", "").strip().lower() != "posted":
+            extra_findings.append(f"{row.get('Event ID', '')}: only actual posted operations can update the staging projection")
+        if int(dec(row.get("Day", "0"))) <= checkpoint_day:
+            extra_findings.append(f"{row.get('Event ID', '')}: new operation must be after Day {checkpoint_day} checkpoint")
+        if row.get("Event type", "").strip() in {"Dispatch", "Gate sale"} and opening_verification.get(row.get("Product grade", "").strip(), "unverified") != "verified":
+            extra_findings.append(f"{row.get('Event ID', '')}: {row.get('Product grade', '')} is not physically verified for release")
+    report = replay(opening, rates, orders, schedule, history + additions)
+    history_report = replay(opening, rates, orders, schedule, history)
+    report["history_event_count"] = len(history)
+    report["staging_event_count"] = len(additions)
+    report["checkpoint_day"] = checkpoint_day
+    report["source_history_totals"] = history_report["totals"]
+    report["findings"].extend(extra_findings)
     checkpoint = {}
     with (DATA / "blackthorn-tax-checkpoint.csv").open(encoding="utf-8-sig", newline="") as handle:
         checkpoint = {r["component"]: dec(r["value_gp"]) for r in csv.DictReader(handle)}
     for key, expected in (("revenue", checkpoint["accepted_revenue"]),
                           ("cogs", checkpoint["cogs"]), ("loss", checkpoint["loss_and_idle"])):
-        if qmoney(dec(totals[key])) != qmoney(expected):
-            report["findings"].append(f"Day 230 {key} {qmoney(dec(totals[key]))} does not match source checkpoint {qmoney(expected)}")
+        if qmoney(dec(history_report["totals"][key])) != qmoney(expected):
+            report["findings"].append(f"Day 230 {key} {qmoney(dec(history_report['totals'][key]))} does not match source checkpoint {qmoney(expected)}")
     quantity_fields = {"prior_on_site_t": "Prior on-site t", "on_site_delta_t": "On-site delta t", "transit_delta_t": "Transit delta t"}
     money_fields = {
         "prior_on_site_gp": "Prior on-site gp", "unit_cost_gp_per_t": "Unit cost gp/t",
@@ -347,7 +366,7 @@ def main():
         "revenue_gp": "Revenue gp", "cogs_gp": "COGS gp", "loss_idle_gp": "Loss / idle expense gp",
         "production_labor_gp": "Production labor gp", "nonlabor_cost_gp": "Nonlabor cost gp",
     }
-    for source, calculated in zip(operations, report["events"]):
+    for source, calculated in zip(history, history_report["events"]):
         for key, source_header in quantity_fields.items():
             if qcost(dec(source.get(source_header, "0"))) != qcost(dec(calculated[key])):
                 report["findings"].append(f"{calculated['event_id']}: {source_header} does not match replay")
