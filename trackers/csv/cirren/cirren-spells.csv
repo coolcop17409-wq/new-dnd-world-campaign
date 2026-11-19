@@ -1,0 +1,73 @@
+CIRREN — SPELLS & PREPARATION (2014)
+"As of Day229 dawn completed Long Rest (D228-229-CAERETH-FULL-LONG-REST-001): ELEVEN chosen Cleric6 prepared spells (original ten plus Gentle Repose level2 ritual), plus SIX always-prepared Knowledge domain spells. All spell slots restored first4/4, second3/3, third3/3; no Gentle Repose cast. Standing 2014 campaign bans remain."
+
+SPELL SAVE DC,16,SPELL ATTACK,8
+1ST SLOTS REMAINING,4,2ND SLOTS REMAINING,3,,,3RD SLOTS REMAINING,3
+
+CANTRIPS (AT WILL)
+LEVEL,SPELL,PREPARATION / STATUS,COMPONENTS / RULES,DETAIL / TACTIC
+0.0,Guidance,Known,"Concentration; touch, action"
+0.0,Light,Known,2014
+0.0,Toll the Dead,Known,Wisdom save DC 16,"DM TACTIC D225: Veteran Cleric aggressively uses Toll the Dead as default offensive action against suitable targets; at Cleric6 2d8, or 2d12 if target missing HP (2014/XGtE), Wis save. Support with Spiritual Weapon or Spirit Guardians per enemy count."
+0.0,Thaumaturgy,Known,2014
+
+1ST-LEVEL SPELLS
+LEVEL,SPELL,PREPARATION / STATUS,2014 RULES,DETAIL / TACTIC
+1.0,Detect Magic,Confirmed in play,Ritual; 2014,1 action or 10m ritual; detect nearby magic
+1.0,Healing Word,Confirmed in play,Bonus action,"1d4+5 healing; BONUS ACTION. D225 STANDING RESERVE: keep TWO first-level slots for healing ALLIES (primarily Healing Word), never enemies. Do not expend last two L1 slots on ordinary offense/utility; spend them when an ally needs the healing. Do not hesitate to save a fallen ally."
+1.0,Identify,Always Prepared,Knowledge Domain; ritual,Reusable≥100 gp pearl confirmed144. Identify ritual on North Thorn arch found no magic properties; pearl not consumed.
+1.0,Command,Always Prepared,Knowledge Domain,Wis save DC 16; one-word direction
+1.0,Bane,Candidate,Concentration,Three creatures; Cha save; -1d4 attacks/saves
+1.0,Bless,Candidate,Concentration,Three creatures; +1d4 attacks/saves
+1.0,Cure Wounds,Candidate,Touch; action,1d8+5 HP (2014)
+1.0,Detect Evil and Good,Candidate,Concentration,Detects certain types of creatures/consecration
+1.0,Detect Poison and Disease,Candidate,Ritual,Poison/disease sense
+1.0,Guiding Bolt,Candidate,Ranged spell attack +8,"4d6 radiant, next hit advantage"
+1.0,Inflict Wounds,Candidate,Melee spell attack +8,3d10 necrotic
+1.0,Protection from Evil and Good,Candidate,Concentration,Situational protective ward
+1.0,Sanctuary,Candidate,Bonus action,Wis save DC 16 to attack warded target
+1.0,Shield of Faith,Candidate,Bonus action; concentration,"+2 AC, 10 minutes"
+1.0,Ceremony,Candidate,Ritual,XGtE; ritual uses components
+
+
+2ND-LEVEL SPELLS
+LEVEL,SPELL,PREPARATION / STATUS,2014 RULES,DETAIL / TACTIC
+2.0,Spiritual Weapon,Confirmed in play,2014 nonconcentration,"Bonus action cast/attack; lasts 1 minute. D225 OFFENSE: favor active Spiritual Weapon in combat, especially 1-2 foes; BA attack on subsequent turns. Against3+ foes favor Spirit Guardians first if useful. Do not CAST Spiritual Weapon and Spirit Guardians same turn; one BA casting restriction (2014)."
+2.0,Zone of Truth,"Confirmed in play — standing priority, prepared as of Day214→215 Long Rest",Charisma DC 16,Speak truth/save checks
+2.0,Enhance Ability,Confirmed in play,Concentration,Advantage on chosen ability checks
+2.0,Locate Object,"Confirmed in play — standing priority, prepared as of Day214→215 Long Rest",Concentration,Find nearby object
+2.0,Silence,Confirmed in play,Concentration; ritual,20 ft radius silence
+2.0,Augury,Always Prepared,Knowledge Domain; ritual,Omen for near-term course of action
+2.0,Suggestion,Always Prepared,Knowledge Domain; concentration,Wis save DC 16; suggestion
+2.0,Aid,Candidate — NOT currently prepared; displaced by standing spell priorities,8-hour duration,Increase max/current HP 5 for 3 creatures
+2.0,Blindness/Deafness,Candidate,Con save DC 16,Nonconcentration 1 minute
+2.0,Calm Emotions,Candidate,Concentration,Suppress emotional influence / calm hostilities
+2.0,Continual Flame,Candidate,50 gp ruby dust,Permanent until dispelled
+2.0,Find Traps,Candidate,Instantaneous,Detect trap presence in range
+2.0,Gentle Repose,Prepared,Ritual,"Preserve corpse for 10 days
+D228-229-CAERETH-FULL-LONG-REST-001: 11th prepared Cleric6 spell, chosen on completed Day229 Long Rest; no casting yet."
+2.0,Hold Person,Candidate,Concentration,Humanoid paralyzed on failed Wis save
+2.0,Lesser Restoration,Candidate — NOT currently prepared; displaced by standing spell priorities,Action; touch,Remove condition or disease
+2.0,Prayer of Healing,Candidate,10 minutes,"2d8+5 HP up to 6 creatures, not in combat"
+2.0,Protection from Poison,Candidate,Touch,Poison-related protection
+2.0,Warding Bond,Candidate,Special paired rings,"+1 AC/saves; resistance, caster shares damage"
+
+
+
+NOT USABLE / SOURCE DUPLICATES
+Create or Destroy Water,BANNED by campaign setting
+Purify Food and Drink,BANNED by campaign setting
+2024 spells,"Not counted; exported PDF repeats spells in PHB-2024 versions, and lists Searing Orb (DDBD)."
+Preparation limit,"Cleric6 + WIS5 =11 chosen preparations after next qualifying Long Rest, plus six Knowledge Domain spells always prepared; TEN currently selected until changed on rest."
+Spell slots,"Cleric6 (2014): spell slots 4 first,3 second,3 third; current L3 2/3 from Day225 level-up with original Speak with Dead spend preserved. Slots restore on qualifying Long Rest."
+Casting timing,2014 bonus-action spell limits apply. Spiritual Weapon is nonconcentration and lasts 1 minute.
+Source note,Cirren.pdf lists many spells with 'O' (not selected prepared); explicitly marked 'P' only for Knowledge Domain.
+3RD-LEVEL SPELLS (CLERIC 5)
+3,Spirit Guardians,Confirmed in play,2014; concentration,"15ft radius; 3d8 radiant/necrotic; Wis save half; movement halved within area. D225 OFFENSE: when3+ enemies and effective coverage likely, prioritize Spirit Guardians, enter useful combat range and maintain concentration; select allies excluded at casting; damage on enemy entry/start of turn, not instant on cast. Combat veteran fights proactively."
+3,Dispel Magic,Confirmed in play,2014; action,"Ends spells level3 or lower automatically, higher on Wisdom check."
+3,Speak with Dead,Always Prepared - Knowledge Domain,2014; action,"Ask up to 5 questions of corpse with mouth, not necessarily truthful."
+3,Nondetection,Always Prepared - Knowledge Domain,2014; action,8h; requires 25gp diamond dust consumed for casting.
+3.0,Revivify,"Confirmed in play — prepared at Day214→215 Long Rest, standing priority replacing Sending (not Zone of Truth)","2014; action, touch within 1 minute of death, 300gp diamond consumed; campaign receiver revival check applies, not guaranteed.","Requires 300gp diamond (one owned in Cirren Inventory55), consumed on casting. 2014 Revivify within 1 minute of death; campaign receiver revival check applies. Preferred over Sending. No use or component spending yet."
+3.0,Water Walk,Candidate — first situational preparation swap for water-based travel; not currently prepared,"2014; action, touch up to ten willing creatures, 1 hour; ritual; V/S/M","Standing player preference Day216, not enough chosen-preparation slots to keep all 11 non-domain spells at Cleric5."
+3.0,Sending,Candidate — NOT prepared; explicitly replaced by Revivify per latest player correction,"2014; action, unlimited distance same plane; V/S/M",Not a prepared priority until player revises or cleric gains further preparation capacity.
+STANDING PRIORITY PREPARATION — DAY216 PLAYER CORRECTION,"11 chosen at Cleric6: Detect Magic, Healing Word, Enhance Ability, Locate Object, Silence, Spiritual Weapon, Zone of Truth, Dispel Magic, Spirit Guardians, Revivify, Gentle Repose. Domain always: Command, Identify, Augury, Suggestion, Nondetection, Speak with Dead. Cantrips: Guidance, Light, Thaumaturgy, Toll the Dead.","Confirmed 11/11 chosen at the Day228→229 full Long Rest, plus six domain spells always prepared. Gentle Repose is prepared in row47; no casting or slot expenditure.",Preparation changes require a qualifying Long Rest; current eleven are already chosen. Water Walk and Sending remain Candidates; no automatic swap or casting.,"No slot expenditure, casting or time advance from spell-preparation record correction; latest user ruling controls."

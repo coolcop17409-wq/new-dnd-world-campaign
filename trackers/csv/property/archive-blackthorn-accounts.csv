@@ -1,0 +1,300 @@
+ARCHIVE - BLACKTHORN ACCOUNTS
+Employee payroll and simple grade costs • gp / tons • historical close Day180
+"ARCHIVED PRE-CORRECTION SNAPSHOT: Day182 tax cutoff,0tax and468.77 available were superseded by the tax-history correction. Live Blackthorn - Accounts owns rolling tax53.70 and available415.07 at postedDay182. Historical sales/costs remain evidence."
+
+CONTROL,VALUE,BASIS
+Historical close day,180.0,Property record cutoff; does not advance or reset gameplay
+Estate cash — Day180,572.11,"Adopted reconstructed balance, not a recovered physical count. No old closing target, loan or owner transfer."
+Derived Day87 cash,58.7,"Original coffer less startup, overhead, restoration and deposit"
+Original estate coffer,494.7,40pp +82gp +127sp; distinct from V's purse
+Production accounting begins,88.0,Opening saleable inventory0 is retained reconstruction
+Poor daily pay (gp),0.6,Player wage scale: 6 sp/day for ordinary hands. Full categories in rows 194–198.
+Comfortable daily pay (gp),2,Foremen and military officers: 2 gp/day. Guards: Modest 1 gp; Tamsin: Wealthy 5 gp.
+General upkeep gp/day,0.7142857143,Fixed household and estate running supplies. Production consumables are covered by per-ton costs.
+General maintenance gp/day,1.071428571,"Fixed estate buildings, roads and drainage maintenance. Production-tool and mill-equipment upkeep is included in per-ton costs."
+Local freight gp/ton,1.176470588,"Blackthorn pays current local freight, including surplus. Adopted rate40/34gp/t (about1.18); delivery cost is separate from grade cost."
+Carrow fraction,0.03,Positive period gross profit after direct labor and non-labor COGS
+Carrow remittance cap,2900.0,Excludes paid100gp deposit
+Carrow paid to date,0.0,No share remittance recorded
+"Accounting year, days",365.0,"Adopted convention, not an established world calendar"
+Contract starts,59.0,Original agreement
+"Contract term, years",15.0,Ends sooner if cap remitted
+Expiry day,5534,Expires at start of this day; last eligible day=B22−1
+Seasoning planning days,60.0,Minimum planning assumption; grade inspection still required
+Cost reconstruction through,180.0,Operating costs and capital settled throughDay180 in the adopted reconstruction; Carrow share remains accrued and unpaid.
+Cash reconstruction,Reconciled; no closing target,"Daily quantities, receipts and payment schedule derive the balance. Inputs/timing assumptions are in rows217–245."
+
+Employee,Role,Department,Pay category,gp / paid day,Model start,Template horizon,Start-date evidence,Wage basis,Modeled days,Labor cost gp
+Tamsin Brack,Steward,Management,Wealthy,5,74.0,272.0,Recovered recruitment window60–74; team returned74. Exact appointment date absent; accounting start74 retained.,"Wealthy: senior estate manager, 5 gp/day.",107,535
+Bram,Regular guard,Management,Modest,1,74.0,272.0,Recovered recruitment window60–74; team present by74. Exact hire date absent; accounting start74 retained.,"Modest: regular guard, 1 gp/day.",107,107
+Corin,Regular guard,Management,Modest,1,74.0,272.0,Recovered recruitment window60–74; team present by74. Exact hire date absent; accounting start74 retained.,"Modest: regular guard, 1 gp/day.",107,107
+Marta Dunrick,Quarry forewoman,Stone,Comfortable,2,74.0,272.0,Recovered recruitment window60–74; team present by74. Exact hire date absent; accounting start74 retained.,"Comfortable: forewoman, 2 gp/day.",107,214
+Joric,Quarry hand,Stone,Poor,0.6,74.0,272.0,Recovered recruitment window60–74; team present by74. Exact hire date absent; accounting start74 retained.,"Poor: quarry hand, 6 sp/day.",107,64.2
+Unnamed quarry hand,Quarry hand,Stone,Poor,0.6,74.0,272.0,Recovered recruitment window60–74; team present by74. Exact hire date absent; accounting start74 retained.,"Poor: quarry hand, 6 sp/day.",107,64.2
+Hedda Rook,Timber forewoman,Timber,Comfortable,2,87.0,272.0,Hedda/Dorr prospective on75; mill commissioned87. Exact contract start absent; accounting start87 retained.,"Comfortable: forewoman, 2 gp/day.",94,188
+Dorr,Timber hand,Timber,Poor,0.6,87.0,272.0,Hedda/Dorr prospective on75; mill commissioned87. Exact contract start absent; accounting start87 retained.,"Poor: timber hand, 6 sp/day.",94,56.4
+Unnamed timber hand,Timber hand,Timber,Poor,0.6,87.0,272.0,Hedda/Dorr prospective on75; mill commissioned87. Exact contract start absent; accounting start87 retained.,"Poor: timber hand, 6 sp/day.",94,56.4
+Additional quarry hand,Quarry hand,Stone,Poor,0.6,169.0,272.0,Recovered136–169 investment window; reported by169. Exact hire day absent; accounting start169 retained.,"Poor: quarry hand, 6 sp/day; first day included once in payroll.",12,7.2
+Additional mill hand,Mill hand,Timber,Poor,0.6,169.0,272.0,Recovered136–169 investment window; reported by169. Exact hire day absent; accounting start169 retained.,"Poor: mill helper, 6 sp/day; no operator qualification established.",12,7.2
+
+PRE-OPERATING COSTS,gp,Treatment
+Rebuilt startup / overhead,163,Current modeled wages plus retained17gp non-labor estimate; historical startup totals remain comparison evidence.
+Reconstructed employee wages,146,From daily roster and start-date proxies; included once in rebuilt startup costs.
+Unallocated non-labor startup,17.0,Retained pre-correction estimate (137 minus120). Fixed provisionally so wage savings do not become invented non-labor costs.
+Bridge / sawmill restoration,173.0,"Recovered: authorized77, budget78, construction79–87, commissioned87. The173gp includes contractors. Payment on87 remains a settlement assumption."
+
+Benchmark product,Start,End,Tons,Reported bundle incl. labor,Prior labor allocation gp,Archived non-labor estimate gp,Adopted non-labor gp/t,Sale gp/t,Evidence
+Dressed stone,102.0,129.0,26.0,132.0,67.2,64.8,2.5,16.0,Original132gp source bundle and former64.80gp allocation retained for history. Active all-in non-labor rate2.50gp/t comes from the grade table.
+Common sawn lumber,102.0,129.0,8.0,120.0,67.2,52.8,6.5,30.0,Original120gp source bundle and former52.80gp allocation retained for history. Active all-in non-labor rate6.50gp/t comes from the grade table.
+
+Product / quality,Yard low gp/t,Yard high gp/t,Regular deal gp/t,Selling terms,Non-labor gp/t,Cost coverage,Plan mix,40-day tons,Plan cost gp,Floor sales gp
+Rough stone,7.0,10.0,,Wholesale yard range,1.0,"Official total per finished ton: consumables/equipment upkeep. Labor, freight and capital separate.",0.2,8,8,56
+Dressed stone,12.0,18.0,16.0,Regular orders16; surplus buyer12; Pevra24 conditional,2.5,"Official total per finished ton: consumables/equipment upkeep. Labor, freight and capital separate.",0.7,28,70,336
+Premium architectural stone,24.0,35.0,,Architectural quality estimate; inspection required.,5.0,"Official total per finished ton: consumables/equipment upkeep. Labor, freight and capital separate.",0.1,4,20,96
+Raw logs,10.0,15.0,,Wholesale yard range,2.0,"Per finished ton: supplies, equipment upkeep and routine horse care. Wages/freight/purchases separate.",0.15,5.25,10.5,52.5
+Sawn construction lumber,25.0,40.0,30.0,Regular orders30; standing surplus buyer25,6.5,"Per finished ton: supplies, equipment upkeep and routine horse care. Wages/freight/purchases separate.",0.75,26.25,170.63,656.25
+Selected / finished hardwood,40.0,60.0,,Selected hardwood; not automatically seasoned joinery stock.,10.0,"Per finished ton: supplies, equipment upkeep and routine horse care. Wages/freight/purchases separate.",0.1,3.5,35,140
+
+Start,End,General upkeep,General maintenance,Local freight,Recruit / training,Allocation basis
+88.0,101.0,10,15,26.72,0.0,Baseline unit rates; missing costs reconstructed
+102.0,129.0,20.0,30.0,53.45,0.0,Reported categories;30gp maintenance treated as general overhead
+130.0,169.0,28.0,56.0,84.12,29.6,28 upkeep; 116 split 60 freight/56 maintenance (assumed). Prior training estimate 29.60 held fixed; revised first-day wages 1.20 in payroll.
+170.0,180.0,7.86,11.79,11.94,0.0,Baseline unit rates; missing costs reconstructed
+
+Start,End,Product,Produced t,Sold t,Labor gp,Production gp (no labor),Labor + production gp,Labor gp/t,Production gp/t (no labor),Combined gp/t,Blended sale gp/t,Revenue,Sold labor cost,Sold non-labor cost,Total COGS,Closing stock cost,Evidence
+88.0,101.0,Stone,13.71,13.71,44.8,34.28,79.08,3.267687819,2.500364697,5.768052516,14.91757841,204.52,44.8,34.28,79.08,0,Original regular sales plus reconstructed surplus; mixed selling price. Output follows dated crew assumptions.
+88.0,101.0,Timber,9,9,44.8,58.5,103.3,4.977777778,6.5,11.47777778,25.88888889,233,44.8,58.5,103.3,0,Original regular sales plus reconstructed surplus; mixed selling price. Output follows dated crew assumptions.
+102.0,129.0,Stone,27.43,27.43,89.6,68.58,158.18,3.266496537,2.500182282,5.766678819,15.79146919,433.16,89.6,68.58,158.18,0,Original regular sales plus reconstructed surplus; mixed selling price. Output follows dated crew assumptions.
+102.0,129.0,Timber,18,18,89.6,117,206.6,4.977777778,6.5,11.47777778,27.22222222,490,89.6,117,206.6,0,Original regular sales plus reconstructed surplus; mixed selling price. Output follows dated crew assumptions.
+130.0,169.0,Stone,40,40,128.6,100,228.6,3.215,2.5,5.715,15.4,616,128.6,100,228.6,0,Original regular sales plus reconstructed surplus; mixed selling price. Output follows dated crew assumptions.
+130.0,169.0,Timber,26.5,26.5,128.6,172.25,300.85,4.852830189,6.5,11.35283019,27.26415094,722.5,128.6,172.25,300.85,0,Original regular sales plus reconstructed surplus; mixed selling price. Output follows dated crew assumptions.
+170.0,180.0,Stone,9.15,3.15,41.8,22.88,64.68,4.568306011,2.500546448,7.068852459,15.80952381,49.8,14.39,7.88,22.27,42.41,Original regular sales plus reconstructed surplus; mixed selling price. Output follows dated crew assumptions.
+170.0,180.0,Timber,8,7,41.8,52,93.8,5.225,6.5,11.725,26.42857143,185,36.58,45.5,82.08,11.72,Original regular sales plus reconstructed surplus; mixed selling price. Output follows dated crew assumptions.
+
+Start,End,Sales,Labor in COGS,Production COGS (no labor),Combined COGS,Gross profit,Steward / guards,Upkeep,Maintenance,Freight,Recruit / train,Total overhead,Before share,Carrow share,Net after share,Stock cost,Costs incurred
+88.0,101.0,437.52,89.6,92.78,182.38,255.14,98,10,15,26.72,0,149.72,105.42,7.65,97.77,0,332.1
+102.0,129.0,923.16,179.2,185.58,364.78,558.38,196,20,30,53.45,0,299.45,258.93,16.75,242.18,0,664.23
+130.0,169.0,1338.5,257.2,272.25,529.45,809.05,280,28,56,84.12,29.6,477.72,331.33,24.27,307.06,0,1007.17
+170.0,180.0,234.8,50.97,53.38,104.35,130.45,77,7.86,11.79,11.94,0,108.59,21.86,3.91,17.95,54.13,267.07
+
+TOTALS,88–180,2933.98,576.97,603.99,1180.96,1753.02,651,65.86,112.79,176.23,29.6,1035.48,717.54,52.58,664.96,54.13,2270.57
+
+DAY180 POSITION,gp,Interpretation
+Estate cash — Day180,572.11,Current adopted reconstructed balance; replaces all prior cash estimates and funding-gap scenarios.
+Carrow accrued / unpaid,52.58,Recomputed from positive period gross; includes direct labor in COGS
+Payroll payable,0.0,Reconstruction settles all accrued wages throughDay180 on existing payment cycles; not a recovered payroll receipt.
+Available after Carrow,519.53,"Cash less unpaid Carrow, payroll and supplier balances under the adopted reconstruction."
+Independent cash calculation,572.11,Opening 58.70 + 2933.98 sales - 2270.57 operating payments -150 capital
+Cash calculation difference,0,Zero required. No old balance used as input or balancing entry.
+Closing inventory at cost,54.13,Period weighted-average; no property appraisal
+Operating profit,664.96,Days88–180; excludes capital and cash reconciliation
+Balancing cash adjustments,0,Zero. Former adjustments23.33/1.94/84.63 removed.
+Pre-opening operating cost,163,Separate Days60–87 bundle; excluded from operating-period profit above
+Net after pre-opening costs,501.96,Days59–180 after rebuilt setup costs; excludes capital/acquisition.
+LIABILITIES / COMMITMENTS,Amount gp,Status,Payment treatment
+Carrow,52.58,"Accrued, unpaid","Payment reduces cash and liability, not a new expense"
+Supplier payables,0.0,Settled throughDay180,Adopted payment reconstruction: all modeled operating and capital costs settled; Carrow remains unpaid.
+Borrowing,0.0,No recorded borrowing,No loan established. Model funding gaps do not authorize or prove borrowing.
+Millford pending order,126,Future conditional delivery,Not earned or paid; due only if accepted Day188
+
+REPORTED CASH HISTORY vs REBUILT COSTS,Reported costs,New incurred,Difference,Meaning
+88–101,202.0,332.1,130.1,Keep original reports as evidence; model does not relabel differences as new debt
+102–129,510.0,664.23,154.23,Keep original reports as evidence; model does not relabel differences as new debt
+130–169,768.0,1007.17,239.17,Keep original reports as evidence; model does not relabel differences as new debt
+170–180,Not reported,267.07,,Old108gp paid /82.12gp payroll split withdrawn
+
+Pre-opening evidence,70 startup +67 overhead +173 restoration +100 deposit,Original137gp comprised120gp modeled wages and17gp residual before wage revisions. Current setup uses current roster rates plus fixed17gp provisional non-labor.
+Day129 production evidence,26t×16 +8t×30=656; quarry132/timber120,"Guards112, steward56, upkeep20, freight40, maintenance30; total510."
+Day169 original evidence,34t×16 +12t×30=904; total costs738 +startup30,"Production/crew354, staff/household268, freight/maintenance116; original allocations superseded by employee rebuild."
+Sources,Live Continuity: HISTORY45–129 / INVENTORY / RULES; Tamsin historical reports,https://docs.google.com/document/d/1F0NshIRsq70AwPTzRWZ7yULWFt6UUNUReh854-RlAB4
+Retired closing balance,222.70gp is a superseded historical estimate,"Prior222.70/112.80/326.80gp balances and208.20/164.60gp gaps are superseded. Use B83 cash, B84 Carrow and B86 available."
+
+IMPROVEMENT / ACQUISITION,Paid gp,Model payment day,Classification,Evidence
+Quarry hoist / rigging,54.0,149.0,Capital,Recovered136–169 investment window; exact installation/payment day absent. Existing accounting dates retained.
+Sawmill blade / feed table,41.0,161.0,Capital,Recovered136–169 investment window; exact installation/payment day absent. Existing accounting dates retained.
+Drying racks,29.0,161.0,Capital,Recovered136–169 investment window; exact installation/payment day absent. Existing accounting dates retained.
+Sledges / yard,26.0,149.0,Capital,Recovered136–169 investment window; exact installation/payment day absent. Existing accounting dates retained.
+Bridge / mill,173.0,87.0,Restoration project,"Authorized77; budget78: bridge48, race20, drive65, saw40; work79–87 and commissioning87. Day87 payment modeled."
+Acquisition deposit,100.0,59.0,Acquisition,Not Carrow profit share; excluded from2900 cap
+
+PRODUCT,BUYER,Tons,gp/t,Value gp,STATUS,Dispatch,Delivery / expiry,TERMS
+Stone / lumber,Millford,8.0,19.5,156.0,Paid historical load,148.0,149.0,Paid totals confirmed by169 after Millford approach129. Exact individual delivery date absent; dated ledger allocation retained.
+Stone / lumber,Millford,8.0,19.5,156.0,Paid historical load,168.0,169.0,Paid totals confirmed by169 after Millford approach129. Exact individual delivery date absent; dated ledger allocation retained.
+Dressed stone,Millford,6.0,16.0,96.0,Reserved backlog,187.0,188.0,Payment on accepted delivery; no new receipt
+Common sawn lumber,Millford,1.0,30.0,30.0,Reserved backlog,187.0,188.0,Common grade; seasoning not required by this order
+Dressed to buyer spec,Pevra Solm,8.0,24.0,192.0,Conditional maximum,Buyer collects,212.0,Sample/spec acceptance; no order or sale yet
+Seasoned sawn lumber,North Quay Joiners,5.0,42.0,210.0,Conditional maximum,Buyer collects,212.0,Seasoning and dimensional acceptance; no sale yet
+
+CALENDAR AND FUTURE BUDGET,Value,Basis
+Plan days,181–220,"35 production shifts; maintenance187,194,201,208,215; all40 days paid"
+Saleable stone planned t,40.0,"40t total saleable stone:20% rough,70% dressed,10% architectural estimate. Safe seam only; no SectionIV."
+Saleable timber planned t,35,"35t total saleable timber:15% logs,75% common sawn,10% selected hardwood estimate. No northern old-growth."
+Production labor budget,304,2 foremen+6 hands; includes maintenance days
+Production budget (no labor),314.13,"Grade tonnage × official non-labor rate. Timber includes routine horse care across the cycle; labor, freight and horse purchases separate."
+Steward / guards budget,280,"Management and security labor, separate"
+General upkeep / maintenance,71.43,Fixed household/buildings/roads/drainage only. Production equipment and routine horse care are already in per-ton rates.
+Cost before delivery,969.56,"Budget only, no future costs posted as actual"
+Verified seasoned stock t,0.0,Closing1t is common sawn lumber reserved for Millford. No seasoned/premium saleable stock or drying eligibility date is established.
+Calendar date convention,Year1 Day182,"No established month/day calendar; absolute campaign days used, year/day via365-day convention"
+
+MODEL CHECKS,Result,Zero expected unless stated
+Pre-opening cash,0,Opening source balances
+Cost flow,0,Combined labor + production cost = combined COGS + closing inventory
+Cash check,0,Archive - Blackthorn Cashbook agrees with independent receipts-minus-payments calculation
+Reconciliation consistency,0,Balancing adjustments remain zero
+Payroll classification,0,No wages counted twice
+Unclassified cash adjustments,0,Zero required; no plug entry to meet an assumed cash figure
+
+CURRENT / PLANNED UNIT ECONOMICS,Labor gp/t,Production gp/t (no labor),Combined gp/t,Sale gp/t,Direct margin gp/t,Scope
+Stone: Days170–180,4.568306011,2.500546448,7.068852459,16.0,8.931147541,Existing reconstructed output and current crew
+Lumber: Days170–180,5.225,6.5,11.725,30.0,18.275,Common sawn grade; not seasoned quote
+Stone: forward mixed grades,3.8,2.45,6.25,12.2,5.95,"Weighted grade mix at floor prices; production labor separate, management/freight excluded."
+Timber: forward mixed grades,4.342857143,6.175142857,10.518,24.25,13.732,Weighted grade mix at floor prices; selected hardwood does not certify seasoned joinery stock.
+
+Source / model boundaries,Simple adopted game costs; dated evidence in rows247–260.,Official game costs; historical cash reconciled. Routine horse care is allocated within timber rates. Missing historical dates and future grade proportions remain estimates.
+
+
+PRODUCTION BASIS — HISTORICAL RECONSTRUCTION AND ACTIVE PLAN
+Crew / equipment,4 + 4,Marta +3 quarry hands; Hedda +3 timber/mill hands; restored mill/upgrades. Hedda owns the existing draft-horse pair. Blackthorn pays all expenses and owns future purchases/replacements.
+Production shifts,35.0,"Per existing40-day schedule;5 maintenance days, all40 days paid. Weather/water/haulage losses remain possible."
+Green lumber density,650.0,"kg/m³; illustrative mixed softwood assumption, not a measured Blackthorn species/moisture value."
+Log-to-board recovery,0.55,Planning assumption:55% usable board volume after slabs/kerf/trim; no double counting logs and boards.
+Logs supplied per shift,3.0,m³/shift assumption. Two workers fell/limb/haul near the mill; two operate/handle/stack. A log buffer prevents idle saw time.
+Usable boards m³/shift,1.65,"Volume throughput before allowance for uneven supply, water flow and handling delays."
+Usable metric t/shift,1.0725,Physical illustration only; moisture/species alter mass. This is not seasoned or premium lumber.
+Saleable timber target t/shift,1.0,"Current four-person target1t saleable timber/shift, allocated by grade table. Historical three-person common-lumber reconstruction remains0.75t/shift."
+Saleable timber /40-day cycle,35,35t total in the forward grade mix. Historical common-grade production and receipts retain their existing dated reconstruction.
+Raw quarry t/shift,2–4,Provisional extraction range for accessible ordinary stratified stone; raw stone must be graded/dressed. Geology unconfirmed; SectionIV excluded.
+Dressed-stone bottleneck,Finishing,Historical reconstruction40t dressed stone per35 shifts. Forward40t total is allocated across saleable grades; raw stone and finished output are never counted twice.
+Production versus sales,Separate ledgers,Reported26/8t and34/12t regular sales remain separate in Archive - Blackthorn Production columnT; reconstructed surplus is W and receipts are Y/Z.
+Units / quality,Volume first,Physical illustration uses metric tonnes. Recorded historical tons remain as reported; no conversion factor invented. Mix percentages apply to saleable output after process losses.
+Historical mill benchmark,"1,000–2,000 bd ft/day","Later water-powered sash-mill analogue, not a guaranteed medieval whole-crew rate. https://fraser.stlouisfed.org/title/industrial-relations-west-coast-lumber-industry-3993/fulltext"
+Medieval quarry benchmark,6 metric t /2 quarrymen/day,Guédelon experimental sandstone extraction; finishing separately limited. https://www.mom.fr/recherche-et-formation/programmes-transversaux/les-chantiers-en-construction/theme-1-gisement/pierre-a-guedelon
+Technology comparison,Single sash saw,Waterwheel/crank/straight-blade technology used from medieval Europe; no modern circular/band-saw capacity assumed. https://www.ledyardsawmill.org/history/new-england-sawmills
+
+40-DAY OPERATING PLAN — REGULAR SURPLUS OUTLET
+Item,All at surplus prices,Regular mix + surplus
+Total saleable stone tons,40,40
+Total saleable timber tons,35,35
+Sales gp,1336.75,1518.75
+Production labor gp,304,304
+Production excl. labor gp,314.13,314.13
+Tamsin / guards gp,280,280
+Upkeep / maintenance gp,71.43,71.43
+Local freight gp,88.24,88.24
+Carrow gp,21.56,27.02
+Operating profit gp,257.39,433.93
+Operating margin,0.1925490929,0.2857152263
+Conditions,New output only,"Grade mix estimates apply to the181–220 plan, not historical stock or certified sales. Total output40t stone/35t timber, allocated once by rows51–56. Floor buyer prices apply to accepted grade. Existing Millford opening stock, new capital and owner draws excluded."
+Cost and grade policy,Official campaign cost policy,"Total costs per finished ton, not cumulative. Floor-price contribution: stone 6 /9.50 /19 gp; timber 8 /18.50 /30 gp. Labor, freight, overhead and Carrow separate. Routine horse care included; purchases separate."
+
+
+CAMPAIGN DAILY WAGE SCALE — PLAYER RULING
+Category,Daily pay (gp),Typical occupations
+Poor,0.6,"Unskilled laborers, porters, apprentices, lumberjacks, quarry workers, peddlers"
+Modest,1.0,"Experienced laborers, regular soldiers, guards, sawmill operators, junior administrators"
+Comfortable,2.0,"Skilled tradespeople, master craftsmen, foremen, military officers, accountants"
+Wealthy,5.0,"Senior managers, highly sought-after specialists, successful merchants, business operators"
+Aristocratic,12.0,"Guild leaders, high-ranking officials, powerful administrators, high priests"
+
+
+STANDING SURPLUS BUYER — ORIGINAL QUARRY TRADE CONNECTION
+Saleable grade,Surplus gp/t,Basis / terms
+Rough stone,7,Player-established outlet at the lower end of the existing grade range.
+Dressed stone,12,Garran Peth's historical12gp/t route; original crew receipts39t/468gp support this rate.
+Architectural stone,24,Lower-end rate only for material actually meeting architectural grade; none assumed in ordinary output.
+Raw logs,10,Lower-end rate for saleable logs. Do not also count them as sawn lumber.
+Common sawn lumber,25,Player extends the standing surplus outlet to lumber; lower-end25gp/t.
+Selected / finished timber,40,Lower-end rate for verified selected/finished grade; ordinary green sawn boards remain25gp/t.
+Buyer,Garran Peth,"Use the original quarry trading connection as a standing buyer for ordinary surplus at the current estate scale. This grants no salvage, title or extraction rights."
+Stock priority,Committed orders first,"Millford reserve6t stone/1t lumber protected; then documented higher-price orders, operating needs and specifically reserved seasoning stock; remaining saleable product to surplus buyer."
+Logistics / cash,Routine trading route,Adopted reconstruction: cash on modeled collection days; existing wage/vendor payment cycles retained. Freight includes incremental surplus tonnage. Future actuals still require entry.
+Authority / history,Player ruling,Historical reconstruction completed throughDay180; original regular receipts preserved and additional surplus recorded separately. Former164.60gp gap is superseded.
+"COMPARISON INPUTS — REGULAR-PRICE VOLUMES, NOT BOOKED ORDERS"
+Regular-price stone t,40.0,Comparison ceiling only; regular-price dressed volume is capped at the dressed-grade plan quantity.
+Regular-price lumber t,14.0,Comparison ceiling only; regular-price common-lumber volume is capped at the common-sawn plan quantity.
+
+HISTORICAL RECONSTRUCTION — DAYS59–180
+Stone finishing benchmark t,40.0,Reconstruction input held separately from future capacity: established40t dressed stone per35 shifts; no raw-stone double counting.
+Production shifts per cycle,35.0,Same established work calendar. Reconstructed daily production flags are retained in Archive - Blackthorn Production AA.
+Full timber crew t/shift,1.0,"Current four-person sustained common-lumber target; historical estimate, not a recovered output log."
+Original timber crew,3.0,"Hedda, Dorr and one other hand. Historical capacity scales by crew size; no unrecorded worker added."
+Expanded timber crew,4.0,Hedda plus three hands after the modeled addition date.
+Stone t/production shift,1.142857143,Finishing is the bottleneck; retain the same dressed-stone target with Marta's original crew. Added hand/hoist supports extraction and handling.
+Original timber t/shift,0.75,Three-quarters of the four-person rate:0.75t per production shift. Commissioning day87 has no saleable output.
+Added timber hand begins,169,Day169 remains the existing latest-confirmed-date proxy; do not apply four-person output before it.
+First saleable output day,88.0,Restored mill commissioned87; conservative estate-production start88 for both departments. Setup days remain costs only.
+Reconciled through day,180,Cost and receipt reconstruction ends180; future actuals remain blank.
+Closing stone reserved t,6,Exactly6t for Millford. Other uncommitted saleable output goes to standing buyer.
+Closing lumber reserved t,1,Exactly1t common sawn for Millford. No speculative seasoned/premium stock booked; samples treated as immaterial offcuts.
+Receipt / payment convention,Cash on collection,"Surplus paid on modeled collection/dispatch days. Existing wage/vendor payment cycles retained and fully settled through180; no borrowing, owner injection or balance plug."
+Evidence classification,Adopted reconstruction,Historical regular sales preserved; extra output and collection/settlement dates are adopted reconstruction assumptions. Recovered chronology is listed in247–260. Flat non-labor grade rates replace residual estimates.
+
+HISTORICAL FREIGHT — ORIGINAL ALLOWANCE PLUS SURPLUS
+Start,End,Prior freight gp,Surplus freight gp,Total freight gp,Basis
+88.0,101.0,13.65,13.07,26.72,Prior regular-sale freight retained; surplus tonnage adds the established local rate.
+102.0,129.0,40.0,13.45,53.45,Prior regular-sale freight retained; surplus tonnage adds the established local rate.
+130.0,169.0,60.0,24.12,84.12,Prior regular-sale freight retained; surplus tonnage adds the established local rate.
+170.0,180.0,5.88,6.06,11.94,Prior regular-sale freight retained; surplus tonnage adds the established local rate.
+Total,,119.53,56.7,176.23,Blackthorn-paid:119.53gp regular +56.70gp surplus =176.23gp. Preserve historical payments; no second charge.
+
+HISTORICAL CASH AND SALES CONTROLS
+Lowest daily cash,58.7,Must remain nonnegative; no inferred overdraft or loan.
+Original regular receipts,1876,"1,876gp preserved from the previous regular-sales ledger, including reconstructed early/local sales."
+Added surplus receipts,1057.98,Separate from regular orders; lower-end buyer prices apply only to this additional saleable output.
+Total sales receipts,2933.98,Agrees with period revenue and cashbook receipts; no owner funds included.
+
+RECOVERED CHRONOLOGY AND ACCOUNTING DATES
+Event,Recovered day/window,Ledger day,Evidence / treatment
+Acquisition / deposit,59.0,59.0,Confirmed agreement/deposit; latest ownership ruling gives V title. Carrow profit-share terms are in RULES.
+Initial recruitment,60–74,74.0,Original time skip names appointments but no individual hire dates. Accounting proxy74 retained.
+Team returns to Blackthorn,74.0,74.0,Recovered return date; does not prove every employee was hired that day.
+Hedda and Dorr meeting,75.0,87.0,Prospective meeting/survey on75; employment start not stated. Existing payroll proxy87 retained.
+Restoration authorized,77.0,87.0,Work authorization recovered; payment date not stated. Existing settled-on-completion convention retained.
+Restoration budget,78.0,87.0,"48gp bridge +20gp millrace +65gp wheel/drive +40gp saw =173gp, contractor labor included."
+Construction,79–87,87.0,Recovered construction interval; no extra recurring contractor wages.
+Mill commissioned,87.0,88.0,Commissioning87 recovered. First saleable output88 is the existing reconstruction convention.
+Millford procurement,129–169,149 /169,Approach129;12t stone +4t lumber paid312gp by169. Exact delivery days absent; retain two modeled6t/2t loads.
+Two additional workers,136–169,169.0,Investment/hiring reported by169; individual start dates absent. Payroll proxy169 retained.
+Production equipment,136–169,149 /161,Hoist/yard54+26 on modeled149; mill/racks41+29 on modeled161. Exact installation days absent.
+Millford final backlog,Future,187 /188,"Scheduled dispatch187/delivery188 remains a one-day-haul assumption;126gp on acceptance, not received."
+
+CURRENT CLOSE — AFTER DAY180
+Current accounting day,182.0,Current totals use posted entries only; historical Day180 close above stays intact.
+Estate cash,572.11,Cash paid/received only. Costs incurred but unpaid are reserved below.
+Carrow accrued / unpaid,52.58,"3% positive gross profit after production labor and non-labor COGS; existing cap and accrual basis retained. Remit outstanding share on tax days, first 272; actual payment only reduces cash/liability."
+Payroll payable,29.2,"Production and management wages accrued since180, less recorded wage payments."
+Suppliers / overhead payable,21.56,"Standard production allowance plus fixed upkeep, actual freight and extra operations, less payments."
+Rolling tax / unpaid,0,"10% positive operating profit before Carrow, from 182. Running posted assessment less actual payments, including unpaid prior periods; first due 272. Forecasts are separate."
+Available after reserves,468.77,"Cash less Carrow, unpaid payroll/suppliers and actual accrued tax. Forecast tax is not deducted from current cash."
+Stock book cost,87.32,All grades; includes provisional allocation. No certified premium/joinery stock inferred.
+Costs incurred since180,50.76,Accruals; not all are cash payments or period expenses. Unsold production is carried in stock.
+Operating result since180,-17.57,"After Carrow, before adopted tax; actual tax expense is tracked in Archive - Blackthorn Contracts. Unsold production remains inventory."
+Cost flow check,0,Expected0: opening book cost + production costs − COGS/loss costs − closing stock.
+Stock roll-forward check,0,Expected0; regular and surplus sales each deducted once.
+Stone plan check,0,Expected0: six-grade schedule retains40t total planned stone.
+Timber plan check,0,Expected0: six-grade schedule retains35t total planned timber.
+GRADE STOCK — CURRENT,Opening t,Produced t,Regular sold t,Surplus sold t,Loss t,Closing t,Book cost gp,Millford t,Release / evidence,Orsaven remaining t,Unfilled stock t,Free after earmarks t
+Rough stone,0.0,0.46,0,0,0,0.46,1.98,0.0,New allocation is reconstructed until stocktake; ordinary grade.,0.0,0,0.46
+Dressed stone,6.0,1.61,0,0,0,7.61,51.76,6,New allocation is reconstructed until stocktake; ordinary grade.,8,6.39,0
+Premium architectural stone,0.0,0.23,0,0,0,0.23,1.91,0.0,Provisional grade; inspection before sale.,0.0,0,0.23
+Raw logs,0.0,0.3,0,0,0,0.3,1.74,0.0,New allocation is reconstructed until stocktake; ordinary grade.,0.0,0,0.3
+Sawn construction lumber,1.0,1.5,0,0,0,2.5,27.17,1,New allocation is reconstructed until stocktake; ordinary grade.,5,3.5,0
+Selected / finished hardwood,0.0,0.2,0,0,0,0.2,2.76,0.0,Unseasoned/unverified; no drying start established.,0.0,0,0.2
+TOTAL,7,4.3,0,0,0,11.3,87.32,7,No buyer-certified premium/seasoned stock inferred.,13,9.89,1.19
+Posting convention,,Reservations follow Contracts & Tax124–127 and actual regular order IDs in Archive - Blackthorn Production AI. Planned dates never release stock; unproduced/unseasoned commitments are not ready inventory.
+Valuation / quality,,"Moving weighted cost by grade. F carries the total non-labor allowance once, G labor once. A grade upgrade must transfer existing stock/cost, never create extra tons. Premium release and seasoning require evidence."
+FREIGHT — CURRENT LOCAL AND FUTURE SOVRA
+Current local freight,1.176470588,"Blackthorn pays current local freight, including Garran surplus, at40/34gp/t (~1.18). Orsaven initial pickups are buyer-paid; subsequent Sovra loads use the agreed framework and actual booked mode."
+Sovra framework,2 /4 /7 gp/t,"Sovra framework agreed172. Official repeat plan adopted182: qualifying return first, shared fallback, dedicated only for a documented reason. Forecast60/30/10 averages3.10gp/t; actual2/4/7 rates and load limits apply."
+Buyer-collected trials,Buyer pays / agreed182,"Pevra initial8t at24gp/t and North Quay initial5t at42gp/t are agreed by182 under player correction, subject to grade/seasoning. Planned pickups194/251;402gp unearned/unpaid."
+Freight posting,,"Enter delivery cost once in Archive - Blackthorn Cashbook Q when incurred, F when paid. Sovra includes ordinary handling/checkpoint paperwork; exceptional tolls extra. Optional cargo insurance only when elected."
+Settlement convention,Next planned187,Continue weekly operating settlements after180. Accrued wages/supplies reserve cash now; a payment is entered only when confirmed or explicitly reconstructed. No payment assumed merely because a day elapsed.
+ESTATE TAX / DUES — ADOPTED FROM DAY182
+Combined estate levy,0.1,One10% Crown/local levy on positive estate operating profit before Carrow. Effective182; no earlier tax debt invented.
+Assessment base,,"Sales less combined COGS, management/security wages, upkeep, freight and other operating expenses. Production wages already enter COGS once. Base is before Carrow; owner draws and capital purchases are not deductions. Loss periods owe0."
+Settlement schedule,90-day periods,"First182–271, due272; then due362/452/542. Contracts & Tax87–94 tracks assessment, accrued amount, payments and unpaid balance."
+"Floor-plan tax,182–220",28.77,"Partial-period estimate for the floor-sales scenario, excluding pre-adoption Day181 result; not the full90-day bill or a current cash payment."
+Floor-plan profit after tax,228.62,Baseline forecast only. Updated Orsaven transition including opening Millford stock is in Contracts & Tax63–82.
+
+Audit scope,,"Days181–182 posted last as routine reconstruction: schedule/mix and standard costs, not recovered invoices or graded stocktake. No cash sale/payment; wages and supplies accrue until settlement. No premium certification, seasoning start or gameplay event invented."

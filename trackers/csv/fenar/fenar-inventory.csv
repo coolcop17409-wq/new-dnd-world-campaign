@@ -1,0 +1,35 @@
+FENAR — EQUIPMENT & COIN
+"Current personal gear, coins and custody: this tab. Live HP/Rage/Shift/MP: Fenar - Character. Current scene/rest: Continuity Pack → CAMPAIGN_STATE. Day180 Long Rest snapshot is historical; prejoining Hit Dice remain unverified. Fenar's property is separate from V and estate accounts in Property → Estates."
+
+ITEM,QTY,SOURCE,DETAIL / CUSTODY,CURRENT HOLDER,TOTAL WT (LB),UNIT WT (LB)
+Greataxe (visually Double-Claw Rend),1.0,Fenar.pdf,"Retained as 2014 greataxe for ALL mechanics (1d12 slashing, heavy/two-handed, 7 lb, draw/stow/disarm, weapon features); depicted as twin claw strike. Not a natural weapon.",Fenar (build; claw flavor),7,7.0
+Handaxe,2.0,Fenar.pdf,"PDF backup weapon, carried per build unless later changed. Fenar prefers claws/fangs; no routine handaxe attacks.",Fenar (build),4,2.0
+Javelin,4.0,Fenar.pdf,"PDF backup weapon, carried per build unless later changed. Fenar prefers claws/fangs; no routine javelin attacks. D225-RETHWYN-ETTERCAP-R1-R2-R3C-001: Day225 Rethwyn wine-gallery combat Round1 and Round2 Fenar THREW exactly TWO owned javelins at the spider-humanoid ceiling predator: R1 attack 15 hit 7 piercing, R2 natural20 critical 12 piercing. Both remain EMBEDDED IN MOBILE CREATURE currently retreated beyond bend; 2/4 JAVELINS physically carried, 2 not recovered, no invented breakage/ownership transfer. No other weapon expended.
+D225-RETHWYN-JAVELIN-RECOVERY-LAIR-001 — ACTUALLY PLAYED Day225 after combat and site survey, explicit player 'Grab our gear': Fenar recovered BOTH original javelins from defeated ettercap body at x75 in lower Rethwyn gallery, inspected shafts and points (both intact), cleaned and returned to personal carry. Two previously held + two recovered=FOUR physically carried. The preceding D225 thrown and embedded status is HISTORICAL and superseded from this moment. No new weapon, loot, coin, fee or expenditure.",Fenar (build),8,2.0
+Backpack,1.0,Fenar.pdf,Container,Fenar (build),5,5.0
+Traveler's clothes,1.0,Fenar.pdf,Clothing,Fenar (build),4,4.0
+Pouch,1.0,Fenar.pdf,Container,Fenar (build),1,1.0
+Bedroll,1.0,Fenar.pdf,Camping,Fenar (build),7,7.0
+Mess kit,1.0,Fenar.pdf,Camping,Fenar (build),1,1.0
+Rations (1 day),0.0,Fenar.pdf,"D186-195-THREE-SITES-RETURN-001: Fenar's TWO remaining personal ration person-days from Day183 were eaten during party's D186–195 fort rest/upstream skiff return through Reedbed to Miregate. Current personal ready ration stock2→0; V-owned party7 and Reedbed preserved4 were distinct and separately consumed. D193 Fenar successfully foraged7 person-day equivalents, consumed5 for party through Day195,2 shared remaining tracked Cirren Inventory row51, not personally owned rations or a purchase. Fenar current HP50/50, water boiling/replenishment routine, no skipped hunger/food penalty.",Fenar personal ready rations: 0; shared foraged food2 in Cirren Inventory.,0,2.0
+Hempen rope (50 ft),1.0,Fenar.pdf,"D186-195-THREE-SITES-RETURN-001: Fenar's original own 50ft hemp rope remained partially committed to fort human restraints through D186 ~1:15PM Watch temporary custody, when Marshwick officers replaced informal party bindings with their own restraints. Fenar independently RETRIEVED her same rope before the party's D187 departure, carried it back via Reedbed to Miregate. No extra rope purchased, lost, or added; quantity remains1 original coil, state recovered/stowed at Miregate. Rhaask's gate chain and own harpoon tether remained official fort/captive custody separately; not Fenar rope.
+D208-KILN-CUSTODY-SEARCH-001 — Day208 ~11:25 this original 50ft rope deployed as nonlethal restraints for five living kiln captives; Fenar remains owner, holds immediate custody/guard, do not also count coil in stowed pack.",Fenar-owned coil; last confirmed kiln restraints208. Recovery/holder after212 Crown handoff VERIFY; do not assume carried/free or still under Fenar guard.,10,10.0
+Tinderbox,1.0,Fenar.pdf,Fire-making,Fenar (build),1,1.0
+Torch,10.0,Fenar.pdf,Light,Fenar (build),10,1.0
+Waterskin,1.0,Fenar.pdf,PDF listed weight,Fenar (build),5,5.0
+COIN AND CUSTODY
+SOURCE / TRACKER,GP,SP,CP,STATUS
+PDF personal coins,10.0,0.0,0.0,"Build snapshot; no EP/PP. Separate from V, Cirren and estate funds."
+Party transfers,,,,None established.
+
+LOAD & TRAINING
+Gear weight (lb),63
+Coin weight (lb),0.2
+Total carried (lb),63.2
+Carry capacity (lb),300
+Push / drag / lift (lb),600
+
+Training,"Land vehicles proficiency. No vehicle, armor, shield, magic item or additional racial kit granted."
+Background items,Athlete's optional sport item/charm or trophy are absent from this PDF; not added to carried inventory.
+Portrait,The illustrated weapon/outfit does not add equipment or magic properties.
+Source check,"PDF original gear: 83 lb incl. mechanical greataxe's 7 lb, plus 0.2 lb personal coin = 83.2 lb total. Cosmetic claw reskin adds/removes no mechanics."

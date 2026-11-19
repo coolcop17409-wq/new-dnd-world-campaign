@@ -1,0 +1,34 @@
+FENAR — SKILLS & CHECKS
+Yellow cells = training flags. Bonuses link to Fenar - Character. All six PDF proficiencies retained; no expertise granted.
+
+SKILL,ABILITY,PROFICIENT,EXPERTISE,ABILITY MOD,TOTAL BONUS,NOTES
+Acrobatics,DEX,Yes,No,2,5
+Animal Handling,WIS,No,No,2,2
+Arcana,INT,No,No,1,1
+Athletics,STR,Yes,No,5,8
+Deception,CHA,No,No,0,0
+History,INT,No,No,1,1
+Insight,WIS,No,No,2,2
+Intimidation,CHA,No,No,0,0
+Investigation,INT,No,No,1,1
+Medicine,WIS,No,No,2,2
+Nature,INT,Yes,No,1,4
+Perception,WIS,Yes,No,2,5,"Keen Smell (house): advantage on Wisdom (Perception) relying on smell; viable Vaishnavi scent recognition, situational range. Not blanket advantage on Survival."
+Performance,CHA,No,No,0,0
+Persuasion,CHA,No,No,0,0
+Religion,INT,No,No,1,1
+Sleight of Hand,DEX,No,No,2,2
+Stealth,DEX,Yes,No,2,5
+Survival,WIS,Yes,No,2,5
+
+PASSIVE CHECKS
+Passive Perception,15
+Passive Insight,12
+Passive Investigation,11
+
+SOURCE CHECK
+Passive Perception from PDF,15.0
+Passive Insight from PDF,12.0
+Passive Investigation from PDF,11.0
+
+Note,"Rage grants advantage on STR checks/saves, not flat bonuses. Danger Sense applies to qualifying DEX saves. No Observant bonus."

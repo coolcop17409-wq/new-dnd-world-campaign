@@ -1,0 +1,24 @@
+BLACKTHORN - RATES & STAFF
+"Dated versions: close the old Through day, then append the new rate. Routine horse care is included in timber production rates once; extra care and purchases belong in Blackthorn - Expenses."
+← Blackthorn overview,,Estates index
+
+Rate ID,Property,Type,Person / item,Cost family,Product grade,Rate gp,Unit,From day,Through day,Notes,Accrued gp,Check
+PAY-01,Blackthorn,Payroll,Tamsin Brack,Management,,5.0,day,183.0,,Steward; carried from verified staff register.,240,OK
+PAY-02,Blackthorn,Payroll,Bram,Management,,1.0,day,183.0,,Regular guard; carried from verified staff register.,48,OK
+PAY-03,Blackthorn,Payroll,Corin,Management,,1.0,day,183.0,,Regular guard; carried from verified staff register.,48,OK
+PAY-04,Blackthorn,Payroll,Marta Dunrick,Stone,,2.0,day,183.0,,Quarry forewoman; carried from verified staff register.,96,OK
+PAY-05,Blackthorn,Payroll,Joric,Stone,,0.6,day,183.0,,Quarry hand; carried from verified staff register.,28.8,OK
+PAY-06,Blackthorn,Payroll,Unnamed quarry hand,Stone,,0.6,day,183.0,,Quarry hand; carried from verified staff register.,28.8,OK
+PAY-07,Blackthorn,Payroll,Hedda Rook,Timber,,2.0,day,183.0,,Timber forewoman; carried from verified staff register.,96,OK
+PAY-08,Blackthorn,Payroll,Dorr,Timber,,0.6,day,183.0,,Timber hand; carried from verified staff register.,28.8,OK
+PAY-09,Blackthorn,Payroll,Unnamed timber hand,Timber,,0.6,day,183.0,,Timber hand; carried from verified staff register.,28.8,OK
+PAY-10,Blackthorn,Payroll,Additional quarry hand,Stone,,0.6,day,183.0,,Quarry hand; carried from verified staff register.,28.8,OK
+PAY-11,Blackthorn,Payroll,Additional mill hand,Timber,,0.6,day,183.0,,Mill hand; carried from verified staff register.,28.8,OK
+UPKEEP-01,Blackthorn,Upkeep,General upkeep,General,,0.7142857142857143,day,183.0,,20 gp per 28 days,34.29,OK
+UPKEEP-02,Blackthorn,Upkeep,Maintenance,General,,1.0714285714285714,day,183.0,,30 gp per 28 days,51.43,OK
+COST-01,Blackthorn,ProductCost,Rough stone,Stone,Rough stone,1.0,ton,183.0,,Nonlabor allowance; floor guide 7 gp/t. Actual order price belongs in Blackthorn - Orders.,0,OK
+COST-02,Blackthorn,ProductCost,Dressed stone,Stone,Dressed stone,2.5,ton,183.0,,Nonlabor allowance; floor guide 12 gp/t. Actual order price belongs in Blackthorn - Orders.,0,OK
+COST-03,Blackthorn,ProductCost,Premium architectural stone,Stone,Premium architectural stone,5.0,ton,183.0,,Nonlabor allowance; floor guide 24 gp/t. Actual order price belongs in Blackthorn - Orders.,0,OK
+COST-04,Blackthorn,ProductCost,Raw logs,Timber,Raw logs,2.0,ton,183.0,,Nonlabor allowance; floor guide 10 gp/t. Actual order price belongs in Blackthorn - Orders.,0,OK
+COST-05,Blackthorn,ProductCost,Sawn construction lumber,Timber,Sawn construction lumber,6.5,ton,183.0,,Nonlabor allowance; floor guide 25 gp/t. Actual order price belongs in Blackthorn - Orders.,0,OK
+COST-06,Blackthorn,ProductCost,Selected / finished hardwood,Timber,Selected / finished hardwood,10.0,ton,183.0,,Nonlabor allowance; floor guide 40 gp/t. Actual order price belongs in Blackthorn - Orders.,0,OK

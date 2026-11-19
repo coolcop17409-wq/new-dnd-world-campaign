@@ -1,0 +1,96 @@
+<!-- Source: Google Doc 1BH5q5eYBGnheCNkTpNMC3ZxutRcFJHw7qUKmPtX6AhY, tab t.y0x2iesi08w4; title: VEYR & REGIONAL SECURITY; snapshot revision: AHj4eMSOoOAT9dJjMqUUpeA-M3w9cP5QBYuk8CWJta6R9pSYWZFpxC018mvKQXhP-feQhMhEBisFF5CwgMdrk_lpsUC9NGeERqkMPYJ-lw -->
+
+# Veyran Commonwealth
+## The Veyran Commonwealth
+Veyr occupies eastern and northeastern Orath, across the known hemisphere from the Iron Dominion. Ordinary journeys between their heartlands take months. The powers expand independently and are not allied.
+### Separate continental theaters of expansion
+The Iron Dominion expands on Arden, centered on Gruumsh's conquests and the Kheldorn frontier; the Veyran Commonwealth expands on Orath, including its occupation of Dunwall and pressure on neighboring states. These are distant, independent conflicts, not two wings of one war. Between the heartlands lie continental distances and sea routes; ordinary travel takes months. Neither government is established as allied, coordinated with, or at war against the other. Do not invent an immediate combined invasion, synchronized campaign, common enemy command, or unified anti-imperial coalition without later played evidence.
+Local political attention and experience differ. In Arden, threatened households, dwarven defenders and frontier rulers worry about Dominion raids, settlement, enslavement, Gruumsh, and Moradin's defense. In Orath, people nearer Veyr confront occupations, military incorporation, reeducation, seized divine assets, and regional security decisions. Farther-away people may have imperfect, delayed news, competing accounts, trade or religious concerns, or little direct knowledge. Rulers and merchants may compare the two expansionist powers, but their plans, urgency, alliances, propaganda, prejudice and personal memories must follow their own theater and actual information. A crisis in one continent does not automatically produce an immediate military response, public panic, or synchronized plot in the other.
+Bane ruled Veyr's people before the Convergence, arriving with his kingdom. Roughly 950 years ago another god catastrophically wounded him; civilians, soldiers, and defectors killed him when he retreated expecting aid. This revolt is known as the First Mortal Godslaying. His divine opponent remains unidentified.
+The army preserved much of Bane's administrative machinery and claimed governing authority through its role in overthrowing him. Over centuries, that claim became an institutional privilege passed between military leaders. Leadership changes and coups occurred; one unchanged regime across the entire period is not established. The present Commonwealth is a totalitarian military state seeking control over public institutions, education, organized culture, production, and political belief. Its reach varies by region.
+The founding settlement declared the country the common possession of recognized citizens, ending its status as a god's personal dominion. Its promises include mortal sovereignty, government for the common good, standing earned through service, and law in place of personal divine command. Military leaders claim exclusive authority to safeguard these promises. Its central doctrine is: No power stands above the Commonwealth, and no private loyalty excuses withholding service from it.
+Veyran expansion invokes order, security, protection, and national unity. It uses emergency military administrations, repression, disappearances, confiscations, forced assimilation, controlled elections, and approved civilian institutions. National protection and state ownership by the people coexist with concentrated military rule. Individual citizens are not uniformly loyal to or culpable for the regime.
+### Government and citizenship
+The First Marshal is selected by a Council of Commanders and serves until retirement, removal, or death. The Marshal directs national policy, campaigns, and senior appointments. The Council approves major commitments and can remove a leader who loses its support. Succession depends on bargaining among field armies, provincial commands, and officers controlling the capital and supplies. Senior families cultivate patronage, while accomplished outsiders can rise through service. Disputed succession can produce coups or civil war.
+Civil officials maintain taxation, courts, records, and supplies beneath military authority. Judges, merchants, landowners, craftspeople, and local assemblies conduct much of ordinary government. Provincial commands develop their own patronage but remain subordinate to the central regime. Primordial is the official language of administration, law, records, and military orders; Common is used where foreign contact requires it.
+| Status | Position |
+| - | - |
+| Citizens | Civil standing, property and inheritance rights, eligibility for public service, taxation, and military obligations |
+| Provincial subjects | Local protections and institutions, limited access to national office, and weaker safeguards against requisition |
+| Incorporated veterans and households | Citizenship through service or state grants, sometimes with settlement on conquered land |
+| Occupied populations | Military orders and whatever surrender terms commanders recognize |
+Citizenship can cross species boundaries through legal/cultural incorporation. Ordinary cross-species reproduction remains impossible; see the singular V species exception in World Foundations. The Commonwealth governs many excluded from its founding promises.
+Civil law, training, pay, pensions, veteran support, public infrastructure, and improved treatment provide real benefits. These work often enough to sustain loyalty, though patronage and strategic priorities shape access. Political accusations can strip away protection, and military necessity overrides civil judgments. Citizens may support campaigns denying others the rights they themselves enjoy.
+### Ideology and political control
+Temples, clans, wealthy families, provincial communities, and commanders must place Commonwealth service above independent loyalties. The regime portrays autonomous institutions as potential shelters for renewed tyranny. It claims liberation for mortals, not exclusively for humans, though Veyr remains predominantly human.
+The Commonwealth Service Directorate has branches throughout provinces, military formations, schools, and major workplaces. Its chief is appointed by the First Marshal. It oversees political appointments, approved associations, ideological instruction, and loyalty assessments; political police enforce investigations. Assessments affect promotion, schooling, employment, and household security. Command and political authority overlap, helping national leaders prevent independent concentrations of power.
+| Means of control | Operation |
+| - | - |
+| Political officers | Enforce ideological conformity alongside ordinary military, administrative, educational, and workplace hierarchies |
+| Youth organizations | Combine recreation, practical skills, patriotic ceremony, and preparation for service |
+| Approved associations | Control professional bodies, veterans' groups, cultural societies, and labor organizations through approved leaders |
+| Political police | Use informants, intercepted correspondence, denunciations, interrogation, and disappearances |
+| Public propaganda | Monumental architecture, banners, processions, speeches, theater, and compulsory commemorations |
+| Purges and detention | Remove rights, office, or freedom through accusations of sabotage or ideological betrayal |
+| Directed production | Set strategic priorities, production demands, labor assignments, and access to empowered infrastructure |
+The regime is not omniscient. Officials conceal shortages and inflate achievements; personal grudges become denunciations; local branches protect patrons; commanders hide failures. Rehearsed enthusiasm can be mistaken for support. Competing inspections and secret inquiries uncover some deception while encouraging further concealment. The state can mount a formidable campaign while suppressing evidence that it is failing.
+### Conquest and reeducation
+Veyr generally seeks productive provinces tied to it through law, taxation, military service, cultural assimilation, and control of divine assets. It aims to retain existing populations as farmers, artisans, taxpayers, and recruits rather than pursue the Dominion's general policy of demographic replacement. It still uses forced labor, expulsions, confiscation, punitive destruction, and selected population relocation.
+Officials replace rulers, establish garrisons, confiscate strategic holdings, and reserve divine assets for central allocation. Eventual incorporation and citizenship offer a powerful promise; military authorities delay admission to preserve requisition powers and demand evidence of loyalty.
+Reeducation is central to occupation and reaches across generations.
+| Institution | Practice |
+| - | - |
+| Provincial schools | Teach Primordial, the official language, useful skills, and official history portraying Bane's overthrow as mortal liberation |
+| Military service | Mix provincial recruits, teach Primordial commands and common rites, and link advancement to loyalty |
+| Official training | Retain useful administrators after instruction, examinations, and oaths; remove those judged unreliable |
+| Religious supervision | Require mortal sovereignty and suppress teachings supporting independent divine or priestly rule |
+| Compulsory reeducation establishments | Detain resistant clergy, teachers, officials, and suspected organizers for enforced instruction, labor, surveillance, and punishment |
+Literacy, engineering, legal knowledge, and careers coexist with indoctrination. Lessons glorify conquest, minimize atrocities, and portray resistance as ignorance or service to tyranny. Officials replace public histories and organize children to cultivate loyalties their parents reject. Traditions survive only where judged compatible; languages, histories, and religious practices linked to resistance face suppression or eradication. People classified as irredeemable face expulsion, imprisonment, forced labor, or execution.
+### Culture and public life
+Education, service, competence, and witnessed achievement are valued. Families celebrate examinations, apprenticeships, discharge, and citizenship. Citizens can invoke these values against favoritism, falsified history, and broken promises without rejecting the Commonwealth's founding ideals.
+| Inherited tradition | Commonwealth expression |
+| - | - |
+| Witnessed oaths | Citizenship, office, and service begin with public promises that people later invoke in claims for redress |
+| Winter recitations | Household histories of ancestors, journeys, disasters, and achievement persist beside official public narratives |
+| Apprenticeship feasts | Demonstrated skill is celebrated with finished work and inherited tools |
+| Common labor days | Shared repairs remain a source of pride while officials impose quotas and compulsory participation |
+Bane's government once used these traditions to reinforce obedience; the Commonwealth claims to have restored their proper purpose. Families disagree over how much changed. Regional food, games, love songs, comic theater, family affection, and ordinary enjoyment persist. Belief, ambition, fear, and private dissent vary between individuals; public conformity does not reveal every private conviction.
+### Divine assets and expansion
+Captured fragments are described as public assets administered through military institutions, returning divine power to mortal hands. Commanders control allocation while civilians invoke citizenship to demand benefits.
+| Empowered institution | Advantage and allocation |
+| - | - |
+| Agricultural estates and granaries | Reliable harvests and reduced spoilage support cities and armies; favored districts receive priority |
+| Military roads and crossings | Dependable transport supports mobilization, provincial links, and occupation |
+| Arsenals and workshops | Enhanced production equips standing forces and concentrates skilled work under state supervision |
+| Hospitals | Improved recovery preserves experienced troops and rewards service |
+| Survey and signal stations | Limited magical observation and communication support coordination and central oversight |
+Bane's captured power supplies only part of this capacity. Later acquisitions, engineering, skilled labor, and taxation remain necessary. Exact fragment effects and later divine victims are open; these institutions do not establish modern technology or scientific instruments.
+Acquiring divine fragments is an explicit strategic goal of expansion. Sanctuaries, relics, empowered works, stores of fragments, research, and specialist knowledge influence campaign planning. A small territory with a valuable sanctuary can matter more than a richer province without one. Godslaying remains exceptional and dangerous. Not every campaign contains a divine prize.
+### Bane's hand
+Bane stood approximately ten feet tall in this world. His severed hand is a stationary altar relic preserved in a fortified ritual chamber; its significance derives from its supernatural presence.
+The hand retains an impulse toward possession arising from Bane's divine nature. Petitioners present something linked to a place, such as earth, a temple banner, or a ruler's seal, and formally claim it for the Commonwealth. The hand may move, grasp an offering, produce a physical portent, or impose visions leading toward divine power. Its revelations can show a guardian, entrance, landscape, or ceremony. They provide clues requiring interpretation and investigation, not exact coordinates or instructions for capture.
+The hand can lead toward fragments, relics, empowered sanctuaries, or living gods without immediately distinguishing them. This exceptional means of finding divinity reveals prizes others overlook. It provides no special extraction or binding capability.
+Bane remains dead. Whether any awareness survives in the hand is unresolved. Exact reach, reliability, preservation requirements, and operating limits remain open. Its claimed liberation from divine rule coexists with leaders ritually enacting a dead tyrant's gesture of ownership.
+A sworn order of mortal ritualists serves the Commonwealth, preserves the rites, interprets revelations, and records earlier searches. They receive no clerical spells from Bane. Their accumulated expertise is valuable but does not prevent misinterpretation or political distortion.
+The First Marshal authorizes petitions. Custodians control the ceremony and preserve complete accounts. The Council receives interpretations; commanders receive information according to assignments. Civilian communities can petition for beneficial discoveries, but military priorities usually prevail. Custodians have leverage through expertise and institutional memory, not command of armies.
+### Commissioned expeditions
+Veyr assembles commissioned companies to investigate revelations. An appointed leader has defined negotiating and spending authority. A custodian's representative preserves the exact account and interprets clues. Soldiers and specialists provide engineering, transport, healing, and supplies, while guides, translators, and scholars connect clues to local knowledge.
+A commission determines permitted methods. Expeditions can purchase, bargain, covertly seize, or recommend a campaign; discovery does not automatically authorize invasion. Outsiders may be hired for expertise and access. Specific expeditions, targets, revelations, and outcomes remain open for campaign development.
+### Current leadership
+| Leader | Position and character |
+| - | - |
+| First Marshal Ilyra Vask | Human woman in her late fifties; rose through provincial incorporation and military supply, coercive assimilation, and making conquests productive |
+| Marshal Deren Korr | Commands a major field army and has officer support; favors securing existing gains, reinforcing troops, and restoring supplies |
+| Director Sera Veyt | Heads the Commonwealth Service Directorate; prioritizes ideological reliability and tighter scrutiny of local and military institutions |
+Vask sincerely believes Veyr protects mortals from divine domination. She treats forced labor, cultural suppression, and political terror as necessary measures toward a freedom continually postponed. She seeks accurate reports but punishes findings interpreted as insufficient commitment. Her present ambition is to acquire a major divine prize vindicating continued expansion; no particular target is established.
+Her public manner is austere: plain uniform, publicized inspections, and praise for workers, teachers, and soldiers. Her household enjoys exceptional privileges. She remembers unfinished works, shortages, and provincial conditions, producing improvements or desperate concealment according to whether she accepts explanations.
+Korr demands review of Directorate arrests that removed experienced officers. Veyt seeks wider screening of his supply administration, suspecting shortages conceal corruption, sabotage, or resistance. The accusations remain unresolved. Korr can shelter abuses while protecting expertise; Veyt can uncover real wrongdoing while crippling operations. Vask balances their rivalry to preserve her authority.
+# Regional security and defensive networks
+Two weak defensive networks are emerging. Kheldorn seeks Aundar and Talveren's support; Oathmark presses Zafira for coordination. In Veyr's theater, Allhaven and Drusk seek safeguards, while Ossent and Crownsunder exchange warnings indirectly.
+These are unreliable networks, not formal effective alliances. Distance, local rivalries, sovereignty, costs, and fear of escalation limit action. Divine retreat weakens mediation and confidence. A threatened state cannot assume help will arrive in time. Specific Veyran offers to Crownsunder remain possibilities.
+# Dunwall and the immediate present
+Dunwall is a recently occupied former free city beyond the ten major human states, retaining a distinct civic identity. Its territory includes a fortified crossing and port on the lower Dornal, villages, and farmland near Veyran-held territory.
+Only a few weeks before the campaign present, Dunwall lost independence. Its appeals to Allhaven and neighboring rulers brought conditions, delays, and inadequate aid; Drusk debated intervention. Veyr secured submission by promising to preserve the city's charter, then suspended council authority through an emergency military administration.
+Resistance is embryonic. Former council members are scattered, detained, or seeking aid. Residents hide threatened neighbors, pass warnings, and conceal supplies through personal contacts. Civic officials are still deciding whether cooperation protects residents or entrenches occupation.
+No unified underground, resistance leadership, or sustained resistance campaign is established.
+Dunwall was considered as a possible campaign opening during world development, but the played campaign instead began in Eastwatch. Dunwall's occupation and emerging civic resistance remain independent world events.

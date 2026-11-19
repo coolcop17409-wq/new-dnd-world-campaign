@@ -1,0 +1,57 @@
+BLACKTHORN - OVERVIEW
+"Actual balances, commitments and next actions — history preserved through Day 182; new journal begins Day 183."
+Posted through,230.0,D231-ESTATE-CATCHUP-001: verified full close230 after six completed days225–230. Elapsed231 morning F03 inspection/carrier arrangement recorded; full231 close remains open.
+Property,Blackthorn,Blackthorn accounts only. Use Estates for Miregate and future estate groups.
+
+Cash gp,453.33,Available after actual liabilities,,282.32
+Carrow unpaid gp,73.28,Payroll payable gp,,14.6
+Production / upkeep payable gp,10.76,Incremental bills payable gp,,0
+Rolling tax unpaid gp,72.37,Next tax + Carrow day,,272
+Owned stock book cost gp,349.43,Receivables gp,,0
+Close check,RECONCILED,Input issues,,0
+Customer advances gp,0,Supplier prepayments gp,,0
+STOCK & COMMITMENTS — first six grades; full expanding register in Blackthorn - Accounts
+Product grade,On-site t,Reserved t,Shortfall t,Unreserved t,In transit t,Owned cost gp
+Rough stone,0.824,0,0,0.824,0,3.5778
+Dressed stone,18.384,8,0,10.384,0,108.4545
+Premium architectural stone,0.912,0,0,0.912,0,7.6004
+Raw logs,0.45,0,0,0.45,0,2.61
+Sawn construction lumber,16.25,5,0,11.25,0,167.8476
+Selected / finished hardwood,4.3,0,0,4.3,0,59.34
+Book stock is provisional; reservations include goods still to be produced.
+NEXT ACTIONS — earliest unfinished tasks; the full schedule retains all dependencies
+Target day,Task ID,Owner,Action,Status
+232,WOOD-WEEK-6,Hedda,Drying / condition check,Scheduled
+232,FREIGHT-F03,Tamsin,Freight payment plan,Planned
+232,BT-DEV-NEXT,Tamsin / Hedda,Ranked development/visit readiness review,Scheduled
+234,REPEAT-TARGET-231,Tamsin,Repeat stone cadence target,Deferred
+234,GARRAN-234,Tamsin / Garran,Confirm next8t graded surplus and deliver,Scheduled
+239,WOOD-WEEK-7,Hedda,Drying / condition check,Scheduled
+245,REPEAT-TARGET-245,Tamsin,Repeat stone cadence target,Scheduled
+246,WOOD-WEEK-8,Hedda,Drying / condition check,Scheduled
+
+
+WORKFLOW
+Agreement / upgrade,"Blackthorn - Agreements: terms, dates, authority and approved budget. A framework is not an individual order."
+Order / shipment,"Blackthorn - Orders: one grade/price per line. Blackthorn - Operations: Produce → Dispatch → Accept, or Gate sale. Use unique shipment-line IDs for each grade/load. Adopted map/cargo geography (D199-MIREGATE-UPPER-ROUTE-001): Blackthorn remains a Crownsunder upland LAND-TRADE estate with its existing wagon/road shipments unchanged. The SAME watercourse that serves Miregate, Reedbed and the Old Fort extends upstream into a valley toward Crownsunder; nearest practical upper navigable landing is approximately FOUR DAYS' wagon journey from Blackthorn across rocky hill roads, not a waterway reaching the property. A potential future cart-to-boat transfer for distant cargo is conditional on access, actual carriers, river safety/grade and a favorable total quote; no new contract, dock, freight savings, expense or sale is recorded."
+Readiness,"Blackthorn - Schedule: actual start, quality result, delays and evidence. A date never certifies goods. Update affected order/forecast target dates after delays."
+Routine costs,"Blackthorn - Rates & Staff: effective-dated payroll, upkeep and production costs. Blackthorn - Operations allocates family labor by output; no-output days require explicit Labor allocation to stock or Idle labor expense."
+Extra costs / upgrades,"Blackthorn - Expenses: record an incurred Operating or Capital bill, linked to the agreement/upgrade. Routine included allowances are not entered again. Commissioning changes capacity/rates only after the work actually completes."
+Cash / partial payment,Blackthorn - Cashbook: one positive amount per allocation; type controls direction. Receipt or Customer refund → order; Bill → expense; Tax → TAX-period-start. Shared Payment ref groups split payments. Customer advances are reserved separately; supplier prepayments stay separate until incurred.
+Tax / Carrow,"First tax bill includes history59–271, due272; first positive accrual108 after startup costs. Blackthorn - Accounts P:Z rolls forward actual profit and unpaid balances. Later bills/Carrow remain due every90 days. Record payments in Blackthorn - Cashbook."
+Blackthorn - Forecast,Blackthorn - Forecast: one linked row per expected cash movement; source amounts/dates update automatically. Unplanned commitments and budget-horizon warnings identify missing planning coverage. Add future operating budgets; no automatic output or profit is invented.
+Day close,"Enter actual events chronologically, then advance Posted through. Resolve all checks, unallocated labor and stock/cost differences before relying on available cash. Never sort only part of a journal."
+Expansion,"Capacity: 1,200 work/cash entries; 500 orders/bills/tasks/plans; 300 agreements/rates/openings; 100 grades; 200 tax periods. Insert rows inside the last prepared row, then copy formulas and validation. Keep entries within the prepared ranges."
+Archive / audit,The five hidden Archive - Blackthorn tabs retain reconciliation evidence and historical planning. They are reference-only; post new events in the active Blackthorn registers once.
+Ownership,All draft-horse costs: V/Blackthorn. Existing pair: Hedda-owned. Future purchases and replacements: V/Blackthorn-owned.
+Limits,"Miregate deed213/open216. Reedbed bench/storage225, loaded handling certified228. Fort controls isolated pending234 engineer diagnosis. Each estate owns separate cash; no pooled funds."
+Tax register,Blackthorn - Accounts P:Z holds 200 rolling periods; Blackthorn - Schedule includes 100 tax/Carrow dates (later dates collapsed). Expand the row group to review them; extend recurring rows before Day 9000.
+Capacity check,Capacity available
+Baseline check,Day 182 opening preserved
+
+Miregate future estate,Open Miregate - Overview
+
+← Estates index
+
+
+Routine accrued through,230,Partial; full close182

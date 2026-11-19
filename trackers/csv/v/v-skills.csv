@@ -1,0 +1,34 @@
+V — SKILLS & CHECKS
+Yellow cells = training flags you can edit. Modifiers automatically recalculate from the character's stats.
+
+SKILL,ABILITY,PROFICIENT,EXPERTISE,ABILITY MOD,TOTAL BONUS,NOTES
+Acrobatics,DEX,Yes,No,4,7
+Animal Handling,WIS,No,No,1,1
+Arcana,INT,No,No,0,0
+Athletics,STR,Yes,No,-2,1
+Deception,CHA,Yes,Yes,3,9
+History,INT,Yes,No,0,3
+Insight,WIS,Yes,No,1,4
+Intimidation,CHA,Yes,No,3,6
+Investigation,INT,Yes,No,0,3
+Medicine,WIS,No,No,1,1
+Nature,INT,No,No,0,0
+Perception,WIS,Yes,No,1,4
+Performance,CHA,No,No,3,3
+Persuasion,CHA,Yes,No,3,6
+Religion,INT,No,No,0,0
+Sleight of Hand,DEX,Yes,No,4,7
+Stealth,DEX,Yes,Yes,4,10
+Survival,WIS,No,No,1,1
+
+PASSIVE CHECKS
+Passive Perception,14
+Passive Insight,14
+Passive Investigation,13
+
+SOURCE CHECK
+Passive Perception from PDF,11.0
+Passive Insight from PDF,11.0
+Passive Investigation from PDF,12.0
+
+Note,"Expertise doubles the proficiency bonus, not the ability modifier. Prepared skill proficiency and expertise copied from PDF."

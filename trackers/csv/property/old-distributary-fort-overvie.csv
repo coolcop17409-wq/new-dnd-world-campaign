@@ -1,0 +1,44 @@
+Old Distributary Fort — accounts and opening controls
+"Conditional hereditary riverwardenship under Crown hydraulic and navigation authority. No public toll, private river sovereignty, or earned retainer before executed charter and accepted duty."
+Estates index
+
+Control / indicator,Value,Meaning,Cash posted through,231.0,Current-day cash; full close remains230.
+Posted through,230.0,D231-ESTATE-CATCHUP-001: full close230 verified; six days225–230 caught up.231 fullclose remains open.
+Title / charter actual day,213.0,"D225-ESTATE-CATCHUP-001: actual213 authority granted; public rights preserved, operating certification separate."
+Service start actual day,,"No certified accepted duty.225 and227 diagnostics failed to isolate unreliable positive-stop performance; controls safely isolated, measurements228–230, next engineer234. No old cause invented or retainer earned."
+Target service day,235.0,Conditional earliest after234engineer review and actualsafecommissioning; not anopening promise.
+Opening cash,0.0,Verified no estate cash or liabilities established at D199 baseline.
+Cash held,130,"D231-MIREGATE-RESERVE-TRANSFER-001:60gp transfer to Miregate231 retained. D231-ESTATE-NO-RESERVES-001: cash130 unchanged; former55 hold abolished, actual wages5 due236, available125. No cash transaction, income or new personal debit."
+Unpaid operating / capital,5,5gp earned230 wages due236;35gp earned223–229 actually paid229. No duplicate Meret salary.
+Rolling tax unpaid,0,10% positive period operating profit; unpaid bills persist.
+Discretionary cash hold — abolished,0.0,"D231-ESTATE-NO-RESERVES-001: no protected/emergency/minimum cash reserve for any current or future estate. No automatic reinstatement. Actual liabilities tracked separately; this releases a restriction, not a receipt or expense."
+Available after liabilities,125,130 cash −5 actual unpaid wages =125 available. No discretionary cash hold. D231-ESTATE-NO-RESERVES-001
+Customer / Crown receivables,0,"Earned/accepted work only, not scheduled allowance."
+Tax rate,0.1,Adopted under current OOC instruction; separate assessment per estate.
+First assessment starts,199.0,Includes pre-opening operating costs from first incurred activity.
+First due day,272.0,Then362/452/542 and every90 days. No automatic cash payment.
+Opening repair budget,70.0,"70 repairs paid,45 wages accrued/40paid through230. Controls uncommissioned; no active duty upkeep or60gp/week retainer."
+Approved owner funding,300.0,300gp owner funding realized Day204 from V's already-deducted695gp deposit. Royal award already paid202; no new reward or operating income.
+Baseline weekly income,60.0,60gp/week conditional Crown duty retainer; not earned before service.
+Baseline weekly wages,35,Calculated from role roster; payroll only for documented paid work units.
+Baseline weekly nonlabor,20,Includes ordinary local dues; no duplicate dues outside this allowance.
+Baseline pre-tax margin,5,Forecast only.
+Baseline post-tax margin,4.5,No Carrow share; actual tax includes startup costs.
+Input / reference issues,0,"0 indicates formula references clear, not legal opening."
+Daily journal / taxes,Daily Accounts,Days199–563; extend when needed. Tax assessments atT:AE.
+Posting method,One event once,Activity records earned/incurred obligations; Cashbook pays them. Write source/event IDs; close day only when work and costs complete.
+Activation rule,No automatic ownership or receipts,"Executed title, safety acceptance, actual hired days and funding are required. Cash counterpart/payer must match activity."
+Forecast service scope,"Daylight checks, trained operation, warning/incident reporting; Crown emergency command.","No unlimited military defense/24h guarded patrol, compulsory tolls, free salvage or fleet assumed. Adopted geography (D199-SECONDARY-CHANNEL-CANON-001): This installation serves the diminishing but locally significant secondary distributary downstream of Reedbed, protecting lower floodplain settlements such as Harrowmere. The Compact occupation was RECENT, not a long-term seizure of an essential Crown principal trade artery. The main channel stays officially administered; this site's Crown hydraulic/public-navigation authority, conditional60gp weekly retainer and no-toll rule unchanged. Exact confluence and outlet still unmapped. Upriver geography adopted (D199-MIREGATE-UPPER-ROUTE-001): This same historic secondary watercourse has an upper navigable reach approaching Crownsunder's hill country; a potential landing ~FOUR wagon-days from Blackthorn could provide distant access via Miregate and Reedbed subject to actual navigation. No direct river frontage at Blackthorn, no declared upper river Crown monopoly, no automatically increased fort revenue, navigation tolls, or changed conditional60gp/week Crown retainer. Exact river naming, inlet and outlet remain unmapped."
+Capacity / extension,Space available,Insert rows inside register and copy formulas/validation. Keep original IDs and historical rates. Never reuse transaction IDs.
+
+
+
+
+
+
+
+Rate ID,Role / allowance,Qty,gp/unit-day,Days/week plan,Weekly gp,Status,Effective day,End day,Scope
+OF-GUARDS,Two regular river guards,2.0,1.0,7.0,14.0,Active,222.0,,"D225-ESTATE-CATCHUP-001: actual contracted crew, start222; actual days in Activity, weekly earned payday201+7n; no automatic wages/services."
+OF-OPERATOR,Skilled waterworks operator,1.0,2.0,7.0,14.0,Active,222.0,,"D225-ESTATE-CATCHUP-001: actual contracted crew, start222; actual days in Activity, weekly earned payday201+7n; no automatic wages/services."
+OF-CARETAKER,Caretaker / duty recorder,1.0,1.0,7.0,7.0,Active,222.0,,"D225-ESTATE-CATCHUP-001: actual contracted crew, start222; actual days in Activity, weekly earned payday201+7n; no automatic wages/services."
+OF-UPKEEP,"Routine supplies, upkeep and local dues",1.0,2.857142857142857,7.0,20.0,Planned,,,20/week ordinary provisions/repair allowance; rent and public-works dues0.

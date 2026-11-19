@@ -1,0 +1,219 @@
+ARCHIVE - BLACKTHORN LABOR,,BLACKTHORN — DAILY EMPLOYEE LABOR
+59–220,,"Days59–180 reconstruction;181–220 budget. Amounts are earned/modelled wages, not evidence of payment."
+MODEL,,"Starts74 /87 /169 are editable conservative proxies. Maintenance, loading and stocktake count as paid days."
+BASIS,,Borrik/Nessa/millwright are in the173gp project bundle; no duplicate recurring wage.
+Day,Schedule,Tamsin Brack,Bram,Corin,Marta Dunrick,Joric,Unnamed quarry hand,Hedda Rook,Dorr,Unnamed timber hand,Additional quarry hand,Additional mill hand,Quarry labor,Timber labor,Steward / guards,Total labor,Evidence / assumption
+59.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+60.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+61.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+62.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+63.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+64.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+65.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+66.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+67.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+68.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+69.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+70.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+71.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+72.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+73.0,Modeled: Hiring window,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Zero allocation before proxy appointment; not proof that no worker was present
+74.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+75.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+76.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+77.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+78.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+79.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+80.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+81.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+82.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+83.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+84.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+85.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+86.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,0,0,0,0,0,3.2,0,7,10.2,Included once in rebuilt pre-opening costs
+87.0,Modeled: Setup / commissioning,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Included once in rebuilt pre-opening costs
+88.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+89.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+90.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+91.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+92.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+93.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+94.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+95.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+96.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+97.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+98.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+99.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+100.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+101.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+102.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+103.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+104.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+105.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+106.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+107.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+108.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+109.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+110.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+111.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+112.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+113.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+114.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+115.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+116.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+117.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+118.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+119.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+120.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+121.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+122.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+123.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+124.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+125.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+126.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+127.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+128.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+129.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+130.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+131.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+132.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+133.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+134.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+135.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+136.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+137.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+138.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+139.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+140.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+141.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+142.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+143.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+144.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+145.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+146.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+147.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+148.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+149.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+150.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+151.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+152.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+153.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+154.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+155.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+156.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+157.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+158.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+159.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+160.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+161.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+162.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+163.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+164.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+165.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+166.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+167.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+168.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0,0,3.2,3.2,7,13.4,Daily wages reconstructed from roster; paid on work/maintenance days
+169.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+170.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+171.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+172.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+173.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+174.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+175.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+176.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+177.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+178.0,Modeled: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+179.0,Modeled: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+180.0,Modeled: Stocktake,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Daily wages reconstructed from roster; paid on work/maintenance days
+181.0,Reconstructed: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,"Routine staffed day reconstructed; wages accrued, not yet paid. Future days remain budget only."
+182.0,Reconstructed: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,"Routine staffed day reconstructed; wages accrued, not yet paid. Future days remain budget only."
+183.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+184.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+185.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+186.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+187.0,Planned: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+188.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+189.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+190.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+191.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+192.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+193.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+194.0,Planned: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+195.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+196.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+197.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+198.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+199.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+200.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+201.0,Planned: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+202.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+203.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+204.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+205.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+206.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+207.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+208.0,Planned: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+209.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+210.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+211.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+212.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+213.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+214.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+215.0,Planned: Maintenance / loading,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+216.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+217.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+218.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+219.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+220.0,Planned: Production,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+221.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+222.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+223.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+224.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+225.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+226.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+227.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+228.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+229.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+230.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+231.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+232.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+233.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+234.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+235.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+236.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+237.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+238.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+239.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+240.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+241.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+242.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+243.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+244.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+245.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+246.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+247.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+248.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+249.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+250.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+251.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+252.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+253.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+254.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+255.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+256.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+257.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+258.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+259.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+260.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+261.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+262.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+263.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+264.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+265.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+266.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+267.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+268.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+269.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+270.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+271.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll
+272.0,Staffing budget; work unposted,5,1,1,2,0.6,0.6,2,0.6,0.6,0.6,0.6,3.8,3.8,7,14.6,Budget only; not actual paid payroll

@@ -1,0 +1,219 @@
+ARCHIVE - BLACKTHORN CASHBOOK,BLACKTHORN — DAILY CASH RECONSTRUCTION
+59–220,Adopted reconstruction throughDay180: cash receipts on collection; existing payment cycles settle costs. No balancing transfer or loan.
+MODEL,Cash remains positive throughout the adopted reconstruction. Payroll/vendors settled through180; Carrow reserved and unpaid. Inferred transaction dates are labeled.
+BASIS,Model shortfall 0.00gp before Carrow. Actual cash and payroll settlement remain unresolved.
+Day,Sales receipts,Labor paid,Production paid (no labor),Steward / guards paid,Other operating paid,Capital paid,Deposit paid,Carrow paid,Unclassified adjustments,Net movement,Model balance / gap,Record status,Source / note,Management incurred,Fixed upkeep incurred,Freight incurred,Other ops incurred,Total costs incurred,Tax paid gp,Tax period ID,Payment reference
+59.0,0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,-100,394.7,Reconstructed,Original494.70gp estate funds;100gp acquisition deposit
+60.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+61.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+62.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+63.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+64.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+65.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+66.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+67.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+68.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+69.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+70.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+71.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+72.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+73.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+74.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+75.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+76.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+77.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+78.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+79.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+80.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+81.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+82.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+83.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+84.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+85.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+86.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,394.7,Reconstructed,Receipts and costs rebuilt; payment timing modeled; no forced cash adjustment.
+87.0,0,48,0.0,98,17,173.0,0.0,0.0,0.0,-336,58.7,Reconstructed,Rebuilt operating setup +173gp bridge/mill; employee wages counted once.
+88.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,58.7,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+89.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,58.7,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+90.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,58.7,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+91.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,58.7,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+92.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,58.7,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+93.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,58.7,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+94.0,218.82,44.8,46.4,49,25.86,0.0,0.0,0.0,0.0,52.76,111.46,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+95.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,111.46,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+96.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,111.46,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+97.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,111.46,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+98.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,111.46,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+99.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,111.46,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+100.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,111.46,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+101.0,218.7,44.8,46.38,49,25.86,0.0,0.0,0.0,0.0,52.66,164.12,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+102.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,164.12,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+103.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,164.12,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+104.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,164.12,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+105.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,164.12,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+106.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,164.12,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+107.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,164.12,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+108.0,230.82,44.8,46.4,49,25.86,0.0,0.0,0.0,0.0,64.76,228.88,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+109.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,228.88,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+110.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,228.88,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+111.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,228.88,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+112.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,228.88,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+113.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,228.88,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+114.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,228.88,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+115.0,230.82,44.8,46.4,49,25.87,0.0,0.0,0.0,0.0,64.75,293.63,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+116.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,293.63,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+117.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,293.63,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+118.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,293.63,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+119.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,293.63,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+120.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,293.63,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+121.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,293.63,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+122.0,230.82,44.8,46.4,49,25.86,0.0,0.0,0.0,0.0,64.76,358.39,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+123.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,358.39,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+124.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,358.39,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+125.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,358.39,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+126.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,358.39,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+127.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,358.39,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+128.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,358.39,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+129.0,230.7,44.8,46.38,49,25.86,0.0,0.0,0.0,0.0,64.66,423.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+130.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,423.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+131.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,423.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+132.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,423.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+133.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,423.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+134.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,423.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+135.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,423.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+136.0,139.98,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.98,563.03,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+137.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,563.03,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+138.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,563.03,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+139.0,194.25,64,69.61,70,42.03,0.0,0.0,0.0,0.0,-51.39,511.64,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+140.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,511.64,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+141.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,511.64,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+142.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,511.64,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+143.0,97.41,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,97.41,609.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+144.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,609.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+145.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,609.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+146.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,609.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+147.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,609.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+148.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,609.05,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+149.0,221.86,64,69.57,70,42.03,80.0,0.0,0.0,0.0,-103.74,505.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+150.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,505.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+151.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,505.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+152.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,505.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+153.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,505.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+154.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,505.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+155.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,505.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+156.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,505.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+157.0,75,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,75,580.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+158.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,580.31,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+159.0,218,64,61.87,70,42.03,0.0,0.0,0.0,0.0,-19.9,560.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+160.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,560.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+161.0,0,0.0,0.0,0.0,0.0,70.0,0.0,0.0,0.0,-70,490.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+162.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,490.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+163.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,490.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+164.0,50,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50,540.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+165.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,540.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+166.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,540.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+167.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,540.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+168.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,540.41,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+169.0,342,65.2,71.2,70,71.63,0.0,0.0,0.0,0.0,63.97,604.38,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+170.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,604.38,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+171.0,26.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.8,631.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+172.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,631.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+173.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,631.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+174.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,631.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+175.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,631.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+176.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,631.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+177.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,631.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+178.0,100,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,731.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+179.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,731.18,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+180.0,108,83.6,74.88,77,31.59,0.0,0.0,0.0,0.0,-159.07,572.11,Reconstructed,Reconstructed receipts on collection; existing cost-payment cycles settle accrued costs through180. No balancing transfer.
+181.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,572.11,Reconstructed accruals,"Routine work reconstructed; no cash payment or sale assumed. Costs in O:S; next planned settlement187, unposted.",7,1.79,0.0,0.0,25.39,0.0
+182.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,572.11,Reconstructed accruals,"Routine work reconstructed; no cash payment or sale assumed. Costs in O:S; next planned settlement187, unposted.",7,1.78,0.0,0.0,25.37,0.0
+183.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+184.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+185.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+186.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+187.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+188.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+189.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+190.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+191.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+192.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+193.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+194.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+195.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+196.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+197.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+198.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+199.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+200.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+201.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+202.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+203.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+204.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+205.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+206.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+207.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+208.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+209.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+210.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+211.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+212.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+213.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+214.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+215.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+216.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+217.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+218.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+219.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+220.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+221.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+222.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+223.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+224.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+225.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+226.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+227.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+228.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+229.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+230.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+231.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+232.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+233.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+234.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+235.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+236.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+237.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+238.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+239.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+240.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+241.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+242.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+243.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+244.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+245.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+246.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+247.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+248.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+249.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+250.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+251.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+252.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+253.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+254.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+255.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+256.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+257.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+258.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+259.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+260.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+261.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+262.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+263.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+264.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+265.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+266.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+267.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+268.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+269.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+270.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+271.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost
+272.0,,,,,,,,,,,,Future; unposted,Enter actual receipts and payments; do not repeat an already expensed cost

@@ -1,0 +1,10 @@
+MIREGATE - EXPENSES
+Incremental bills and project costs. Active recurring wages/allowances accrue in Miregate - Setup; do not enter them again here. Capital remains separate from operating expense; first-week float/reserve are not expenses.
+← Miregate overview
+Estates index
+Cost ID,Incurred day,Category,Class,Supplier / payee,Amount gp,Due day,Agreement / upgrade ID,Status,Rate ref if relevant,Evidence / classification,Paid gp,Outstanding gp,Check
+MG-PLAN-BEARING,209.0,Shaft bearing,Operating,Accepted local repair supplier,40.0,209.0,MG-STARTUP,Incurred,,"D225-ESTATE-CATCHUP-001: firm package accepted208; actual work/delivery209, ordinary restoration at existing40gp, not capacity addition. Paid once; joint safety review212.",40,0,OK
+MG-PLAN-CLEAN,210.0,Sanitation / tests,Operating,Accepted local repair supplier,15.0,210.0,MG-STARTUP,Incurred,,"D225-ESTATE-CATCHUP-001: firm package accepted208; actual work/delivery210, ordinary restoration at existing15gp, not capacity addition. Paid once; joint safety review212.",15,0,OK
+MG-PLAN-BERTH,211.0,Berth / causeway repair,Operating,Accepted local repair supplier,30.0,211.0,MG-STARTUP,Incurred,,"D225-ESTATE-CATCHUP-001: firm package accepted208; actual work/delivery211, ordinary restoration at existing30gp, not capacity addition. Paid once; joint safety review212.",30,0,OK
+MG-PLAN-DELIVERY,209.0,Parts delivery,Operating,Accepted local repair supplier,5.0,209.0,MG-STARTUP,Incurred,,"D225-ESTATE-CATCHUP-001: firm package accepted208; actual work/delivery209, ordinary restoration at existing5gp, not capacity addition. Paid once; joint safety review212.",5,0,OK
+MG-PLAN-ESCORT,217.0,Inaugural escort,Operating,Joran Dask + four guards,12.0,218.0,MG-DASK-CONVOY,Incurred,,"D225-MIREGATE-D213-RECONCILE-001: Dask+4guards actual216–217 two-day inaugural escort6gp/day,12 total, completed217/paid218. Existing accepted terms, no added route cost.",12,0,OK

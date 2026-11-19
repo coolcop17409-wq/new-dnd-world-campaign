@@ -1,0 +1,50 @@
+"V — MARTIAL POINTS, SOULKNIFE & HOUSE RULES"
+"2014 base rules with additive approved homebrew. PDF export treats Martial Points as 20-charge spell entries, which is not authoritative."
+
+CURRENT MP,7,MAX MP,7
+
+MARTIAL EXPLOITS (SOURCE REFERENCE)
+COST (MP),EXPLOIT,RULE STATUS,PURPOSE / SOURCE NOTES,AVAILABLE AT 6 MP
+1.0,Weapon Mastery,Adopted,One mastery property for an attack; Nick never creates a new attack.,Yes
+1.0,Human Shield,Adopted,Reaction: redirect incoming attack toward grappled creature on failed Dex save.,Yes
+2.0,Target on My Back,Adopted,Bonus action; restrict enemy movement away on failed Charisma save.,Yes
+2.0,Outrageous Athleticism,Adopted,"Speed +30 ft, jump distance +30 ft until end of turn; carry willing ally.",Yes
+3.0,Overwatch,NOT FINAL,Concept only; exact geometry/triggers/attacks unresolved. Do not treat as usable finalized exploit.,NOT FINAL
+3.0,Lead by Example,Adopted,Share d20 result with up to 3 allies for one roll of same type in 1 minute.,Yes
+5.0,Flashback,Adopted,"Retroactive preparation, cannot contradict established facts.",Yes
+5.0,"No, You Don't",Provisional — NOT FINAL,"Unfinalized interrupt concept; no use until player approves complete trigger, save/reliability and timing rules.",NOT FINAL
+9.0,Legendary Resistance,Adopted,Spend 9 MP to succeed at failed save or end permitted condition.,Not yet
+9.0,Supernatural Senses,Partially unresolved,Past / Present / Future powers; Future may need use limit.,Not yet
+13.0,Impossible Feat,Partially unresolved,"Destroy, Move, Carry, Endure, Precision; some limits unsettled.",Not yet
+1.0,Figure It Out,Adopted,"Up to 10 MP, +2 each on nonproficient skill check; review exception.",Yes
+
+
+SOULKNIFE / REBORN FEATURE NOTES
+Psychic Blades,"Main: 1d6+4 psychic; bonus attack: 1d4+4 psychic; Sneak Attack +2d6 once/turn. DAY185 USER HOUSE RULE: Psychic Blades (melee AND thrown) do NOT suffer disadvantage merely because V is underwater, despite no swim speed. Other disadvantage sources, cover/line of effect, weapon range, normal 2014 Sneak Attack, action economy remain unchanged. Physical darts/Quick Toss not included. At Day185 Round4 V underwater Hide d20(3)+10=13 successful vs MerrowB passive10; B around solid stone bend/total cover so no immediate attack or attack roll; V Action unused. Rules tab owns adopted house exception."
+Inherited sword flavor,"All supernatural attacks manifest through tangible inherited silver sword, not separate daggers."
+Psi-Bolstered Knack,Add Psionic Energy die on failed proficient skill/tool check; expend die only if success.
+Psychic Whispers,"Tasha2020 Psychic Whispers house-ruled nonverbal animals; action up to proficiency visible creatures (V6 max3), roll Psionic die under current delegation for duration in hours; two-way telepathy while within1mile, selected member can end. Free once/Long Rest (live counter Character B24), subsequent activation costs1 Psionic Energy die. Day172 ~4:18 paid1 die6/6→5/6 to link Mara, Cirren and Elara for user-rolled SIX HOURS (~22:18). Day171 prior link ended ~17:03.
+D224 delegation: DM rolls V dice until player says stop; V retains actions/speech/resource choices. Historical duration examples above are not active links."
+Psi Recovery,"As a bonus action, regain 1 expended Psionic Energy die, once per Short Rest or Long Rest. Long Rest restores all expended dice."
+Reborn Deathless Nature,LATEST DAY172: Reborn Deathless Nature halves ordinary Short Rest duration: safe town 2 hours motionless (ordinary4h); wilderness4h motionless (ordinary ~8h night). Grandfather previously completed Day171 three 30-minute town Short Rests and their recovered resources. Prior 30min/1h and earlier 4min rulings superseded prospectively.
+Second Wind,Bonus action: regain 1d10+3 HP (Fighter 3); restores on Short/Long Rest.
+Archery on Psychic Blades,House exception: +2 on thrown/ranged manifestations; not melee attack.
+Unprepared/excess exploits,Overwatch wording unresolved; do not treat draft as adopted. PDF's '20/20 charges' is not current MP resource.
+
+
+REST / RESOURCE REFERENCE
+Town Short Rest,"LATEST DAY172: Town Short Rest — ordinary FOUR consecutive hours; Reborn V TWO consecutive hours motionless (half duration). Existing Day171 three 30-minute town Short Rests remain valid as played, not retimed. Psi Recovery recharges each completed Short Rest; spent Psi dice do NOT universally refresh on Short Rest."
+Wilderness Short Rest,Wilderness Short Rest: ordinary 1 night (~8 hours); Reborn V 4 hours motionless (half ratio).
+Town Long Rest,3 consecutive nights
+Wilderness Long Rest,"6 consecutive weighted rest units: qualifying wilderness overnight1, safe-town overnight2. Damage/significant adventuring expenditure interrupts wilderness progress; routine Sending Stone exception. RULES owns full procedure."
+
+BATTLE MASTER — 2014 / TASHA,,,,"Fighter3, chosen Day170; separate from martial exploits."
+SUPERIORITY DICE,4,MAX,4,"Live remaining superiority dice link to Character B49; maximum Character C49. Day224 Commanding Presence4→3, qualifying Reborn wilderness Short Rest restored3→4 at dawn225. D224-225-TEMP-HARNESS-MANOR-CELLAR-001. Earlier rolls/resources preserved in Campaign Archive retired rules notes."
+MANEUVER SAVE DC,15,,,8 + proficiency bonus3 + Dexterity modifier4. None of the selected maneuvers require saving throws.
+STUDENT OF WAR,Calligrapher's Supplies,,,Proficiency only; no free physical supplies.
+QUICK TOSS,Bonus action; 1 superiority die,,,"Quick Toss (Tasha2020): bonus action, spend one d8 superiority die; make ranged attack with thrown weapon, draw as part of attack and add superiority d8 damage on hit. V's DART ammunition is UNLIMITED/UNTRACKED under explicit Day182 player rule. Dart to hit +9, damage1d4+4 piercing plus superiority d8 and eligible Sneak Attack. Narrate attack via V's inherited silver sword. Cannot use a native 2014 Psychic Blade for this separate bonus-action maneuver (Psychic Blade requires Attack action)."
+COMMANDING PRESENCE,1 superiority die,,,"Add 1d8 to Charisma (Intimidation, Performance, or Persuasion) check. Die expended when used."
+TACTICAL ASSESSMENT,1 superiority die,,,Add 1d8 to Intelligence (Investigation/History) or Wisdom (Insight) check. Die expended when used.
+ACTION ECONOMY,1 bonus action/turn,,,"Quick Toss competes with native Soulknife bonus blade, Cunning Action, Second Wind, Psi Recovery. No free extra bonus action."
+SWORD CHANNEL,Confirmed flavor,,,"All of V's attacks narrated through inherited tangible silver sword, including mechanically PHYSICAL DART attacks. NEW Day182 rule: dart ammo unlimited, never count/deduct/retrieve dart units; Quick Toss still a thrown dart attack and expends one Superiority Die as normal. Native Soulknife Psychic Blades require Attack action; no mechanical substitution from Quick Toss."
+MP VS SUPERIORITY,Separate pools,,,Maximum6 Martial Points and4d8 Superiority Dice are separate pools. Live remaining quantities above link to V - Character.

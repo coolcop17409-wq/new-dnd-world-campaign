@@ -1,0 +1,34 @@
+CIRREN — SKILLS & CHECKS
+Yellow cells = training flags you can edit. Modifiers automatically recalculate from the character's stats.
+
+SKILL,ABILITY,PROFICIENT,EXPERTISE,ABILITY MOD,TOTAL BONUS,NOTES
+Acrobatics,DEX,No,No,2,2
+Animal Handling,WIS,No,No,5,5
+Arcana,INT,Yes,No,1,4
+Athletics,STR,No,No,-1,-1
+Deception,CHA,No,No,0,0
+History,INT,Yes,Yes,1,7
+Insight,WIS,Yes,No,5,8
+Intimidation,CHA,No,No,0,0
+Investigation,INT,Yes,Yes,1,7,"Day173 ~11AM Orsaven infirmary relay office: V proactively HELPED Cirren compare Nalia's instructions with faded register; Investigation advantage genuine d20s 1,2, take2 +7 =9 vs DC14: FAILURE; onward hospice branch still unidentified. Standing automatic feasible Help rule is in Continuity Pack RULES. No resource spent."
+Medicine,WIS,Yes,No,5,8
+Nature,INT,Yes,No,1,4
+Perception,WIS,Yes,No,5,8,"Observant grants +5 to passive, not active"
+Performance,CHA,No,No,0,0
+Persuasion,CHA,No,No,0,0
+Religion,INT,Yes,Yes,1,7
+Sleight of Hand,DEX,No,No,2,2
+Stealth,DEX,No,No,2,2
+Survival,WIS,No,No,5,5
+
+PASSIVE CHECKS
+Passive Perception,23
+Passive Insight,18
+Passive Investigation,22
+
+SOURCE CHECK
+Passive Perception from PDF,22.0
+Passive Insight from PDF,17.0
+Passive Investigation from PDF,20.0
+
+Note,"Expertise doubles the proficiency bonus, not the ability modifier. Prepared skill proficiency and expertise copied from PDF."

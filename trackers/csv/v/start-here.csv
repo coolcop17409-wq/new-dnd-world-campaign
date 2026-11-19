@@ -1,0 +1,34 @@
+NEW DND WORLD • EDITABLE CHARACTER SHEETS
+"Follow Continuity Pack README for staged retrieval. Load current state/rules and live tracker values once; other history, lore and features as needed."
+
+WHAT IS HERE
+V - Character,"Live HP, abilities, attacks and martial/psionic resources"
+V - Skills,All 18 skills; formula-calculated bonuses; proficiency and expertise flags
+V - Inventory,"Current gear, custody and dated personal/estate ledgers; historical purchases labeled."
+V - Martial,Martial Points and Soulknife feature tracker; non-final exploit wording flagged
+
+HOW TO USE
+YELLOW CELLS,Yellow cells track editable inputs. Resource totals are on V - Character.
+LIVE STATE,"Current HP/resources: V - Character. Scene, conditions and rest progress: CAMPAIGN_STATE. Fresh values at session start; reuse tracked changes during play."
+STARTUP READS,"Character A4:H5, A8:E14, A17:D25, A27:D36, A49:E50; Skills A4:F27. Request formatted values; source/formula details only for an edit or uncertainty."
+MONEY,Personal gear/money: V - Inventory A4:F32; later rows contain dated evidence and purchases. Estate rows78–145 are historical support; current accounts/agreements/schedules are in Property → Estates.
+SOURCE CAUTIONS,Archived V.pdf repeats items 7–12; duplicates are not extra items. The V - Inventory tab is the live tracker.
+RULES,Continuity README: retrieval triggers. RULES: final rulings. Martial: relevant feature/exploit row only (through49). Proposed options stay unavailable.
+
+AUTHORITY
+1,Your explicit campaign corrections & played state
+2,"Project continuity, world lore and house rules"
+3,Current character values and resources are tracked here; campaign rulings and played events follow the Continuity Pack and explicit user corrections.
+
+ORIGINAL SOURCES
+Archived source export,"V.pdf, uploaded 5-page D&D Beyond export; archive only. Current stats, resources, and equipment tracking are maintained in this Google Sheet."
+
+ACTIVE COMPANION,Fenar — active provisional traveling companion since Day173; use live tracker.
+
+ESTATE RECORDS,"Property / Estates — Blackthorn, Miregate and future holdings"
+
+Campaign source directory,https://docs.google.com/document/d/1F0NshIRsq70AwPTzRWZ7yULWFt6UUNUReh854-RlAB4/edit?tab=t.0
+Closed sessions and retired source notes,https://docs.google.com/document/d/1xxrGQJ1kWeL7tffEb6J-fgjaK-3IYE2PpQJeHS_F4Lw/edit
+Magic shop rules and dealer stock,https://docs.google.com/spreadsheets/d/1lkUMaoPNaIkSVNbE89i8MzbmbBSOufABrAmXNgEyqnY/edit
+Private preparation · DM index,https://docs.google.com/document/d/12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM/edit?tab=t.2gercvxhabnl
+Read and write,"Read and write this character’s personal resources, money and gear here. Dealer quantities and quotes belong in Magic Shops. Shared custody, played events and the final checkpoint belong in the Continuity Pack."

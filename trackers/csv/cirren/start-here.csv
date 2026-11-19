@@ -1,0 +1,34 @@
+NEW DND WORLD • EDITABLE CHARACTER SHEETS
+"Follow Continuity Pack README for staged retrieval. Load current state/rules and live tracker values once; other history, lore and features as needed."
+
+WHAT IS HERE
+Cirren - Character,"Live HP, abilities, spell DC/attack and resource tracker"
+Cirren - Skills,"18 skills, expertise and Observant passives"
+Cirren - Inventory,Current equipment/components and evidence custody; historical items labeled.
+Cirren - Spells,2014 spell list from PDF; banned/2024 duplicates filtered and noted
+
+HOW TO USE
+YELLOW CELLS,Yellow cells track editable inputs. See Cirren - Character for live resources and Cirren - Spells for the selected spells.
+LIVE STATE,"Current HP/resources: Cirren - Character. Scene, conditions and rest progress: CAMPAIGN_STATE. Fresh values at session start; reuse tracked changes during play."
+SPELL SLOTS,See Cirren - Character for current slot and resource values. Spell slots do not recharge on a Short Rest.
+STARTUP READS,"Character A4:H5, A8:E14, A17:D24, A26:D32; Skills A4:F27. Spells A4:E52/A65:E68: cantrips plus selected/domain entries. Candidate is not prepared."
+SOURCE CAUTIONS,Archived Cirren.pdf contains 2024 spell duplicates and banned spells; use this sheet's filtered 2014 tracker and current prepared-spell record.
+RESOURCE STATUS,Inventory A4:F34: relevant gear/components/evidence. Spell exclusions56–63 when changing preparation. Use formatted values for play; formulas/validation only when editing.
+
+AUTHORITY
+1,Your explicit campaign corrections & played state
+2,"Project continuity, world lore and house rules"
+3,Current character values and resources are tracked here; campaign rulings and played events follow the Continuity Pack and explicit user corrections.
+
+ORIGINAL SOURCES
+Archived source export,"Cirren.pdf, uploaded 5-page D&D Beyond export; archive only. Current stats, spell list, and resource tracking are maintained in this Google Sheet."
+
+ACTIVE COMPANION,Fenar — active provisional traveling companion since Day173; use live tracker.
+
+ESTATE RECORDS,"Property / Estates — Blackthorn, Miregate and future holdings"
+
+Campaign source directory,https://docs.google.com/document/d/1F0NshIRsq70AwPTzRWZ7yULWFt6UUNUReh854-RlAB4/edit?tab=t.0
+Closed sessions and retired source notes,https://docs.google.com/document/d/1xxrGQJ1kWeL7tffEb6J-fgjaK-3IYE2PpQJeHS_F4Lw/edit
+Magic shop rules and dealer stock,https://docs.google.com/spreadsheets/d/1lkUMaoPNaIkSVNbE89i8MzbmbBSOufABrAmXNgEyqnY/edit
+Private preparation · DM index,https://docs.google.com/document/d/12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM/edit?tab=t.2gercvxhabnl
+Read and write,"Read and write this character’s personal resources, money and gear here. Dealer quantities and quotes belong in Magic Shops. Shared custody, played events and the final checkpoint belong in the Continuity Pack."

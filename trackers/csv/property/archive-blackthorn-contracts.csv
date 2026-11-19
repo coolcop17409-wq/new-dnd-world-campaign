@@ -1,0 +1,178 @@
+ARCHIVE - BLACKTHORN CONTRACTS
+"ARCHIVE — earlier Day182-only tax assumption superseded. Current first bill includes history59–271, due272. Use Blackthorn - Accounts for actual tax; archived44.35 forecast/832.47 available are pre-correction snapshots."
+Player correction: initial Orsaven orders agreed by182. Cash remains572.11gp; no additional completed payments found.
+
+Tax effective day,182.0,Adopted from the current accounting day. No retroactive charge before182.
+Combined tax rate,0.1,Positive estate operating profit before Carrow; combined COGS already includes direct labor.
+Assessment length,90.0,"Consecutive90-day accounting periods; first182–271, payment due272."
+First tax due,272,Due after period end; payment date/amount remains blank or0 until recorded.
+Planning cutoff,220.0,Transition forecast181–220; current actual/reconstructed accounting remains182.
+Orsaven haul days,7.0,Provisional scheduling allowance only; route/distance and carrier timing unconfirmed. Not world geography.
+Sovra mean gp/t,3.1,Expected tonnage mix60/30/10%; actual whole loads use their confirmed2/4/7gp/t mode.
+Initial orders value,402,192gp dressed stone +210gp seasoned lumber; agreed but unearned/unpaid until acceptance.
+Existing Millford value,126.0,Opening-stock delivery; separate from new production and Orsaven orders.
+
+CONTRACT REGISTER — CURRENT STATUS
+Contract,Counterparty,Agreed day,Status,Tons,Product,gp/t,Order value,Load target,Arrival target,Payment target,Freight payer,Conditions,Evidence / accounting
+Operating authority,Tamsin Brack,182.0,Standing delegation,,Blackthorn,,,,,,Estate,No new borrowing/land; safe seams and protected woodland limits retained.,"Schedule management delegated. No gameplay, resource or personal-cash change."
+MILLFORD-FINAL,Millford,,Existing firm order,7.0,6 dressed +1 common,18.0,126,187.0,188.0,188.0,Blackthorn,126gp on accepted delivery; actual delivery/payment unposted.,Original Millford order already agreed; signing day unrecorded. Dispatch187/delivery188 is the existing local-haul plan.
+ORS-STONE-01,Pevra Solm,182.0,Agreed; grade conditional,8.0,Dressed stone,24.0,192,194,194,194,Buyer collects,"Inspect to written specification by193; maximum8t, pay accepted amount on loading.","Latest player correction: agreed by182. Planning date194, not a confirmed booking. Existing quote accepted before expiry212."
+ORS-WOOD-01,North Quay Joiners,182.0,Agreed; grade conditional,5.0,Seasoned sawn lumber,42.0,210,251,251,251,Buyer collects,"Reserve5t; planned complete-batch drying190, earliest inspection after60 days. Schedule150–178 shifts with actual drying start and records holds/release.","Initial accepted price42gp/t retained beyond quote expiry212. Pickup is a readiness target, not a booking. See live schedule; no seasoned stock or receipt inferred."
+SOVRA-FRAMEWORK,Sovra Lint,172.0,Agreed framework,,Future House-risk freight,,,,,,Blackthorn,"Use qualifying2gp/t return loads first (4–8t), then4gp/t shared (minimum8t). Dedicated7gp/t only for a documented deadline or commercial reason; confirm each whole load.",Use after the relevant buyer's initial collected trial. No load booked/paid. Ordinary handling/paperwork included; extraordinary tolls extra.
+ESGAR-FRAMEWORK,Esgar Culp,172.0,Agreed optional cover,,Eligible declared cargo,0.02,,,,,If elected,"2% declared value, per elected eligible shipment; no standing premium.","No individual policy elected or paid. Forecast insurance comparison is optional, not a booked expense."
+ORS-STONE-STANDING,Pevra Solm,182.0,Official standing terms,8.0,Dressed stone / 14 days,28.0,Per confirmed load,203.0,,,Blackthorn,"After successful initial trial: target 8t every 14 days, 28gp/t delivered, paid on accepted delivery. Tamsin confirms each load; no minimum or exclusivity.",Latest OOC player adoption makes the arrangement official. Individual orders and carrier slots still require confirmation; no shipment/payment completed.
+ORS-WOOD-STANDING,North Quay Joiners,182.0,Official repeat procedure,,Ready seasoned batches,,Per confirmed batch,,,,Per confirmed terms,"After initial trial succeeds, Tamsin agrees each ready seasoned batch, price, quantity and collection/delivery. No fixed timber cadence or volume guarantee.","Earlier 46gp/t delivered remains a quote, not a fixed repeat price. No repeat timber quantity or receipt added to the Day181–220 forecast."
+DELIVERY AND RECEIPT SCHEDULE — ALL FUTURE DATES ARE PLANNING TARGETS
+Schedule ID,Counterparty,Stage,Tons,gp/t,Load day,Accept / pay day,Receipt gp,Mode,Freight gp,Status,Stock / dependency,Terms,Notes
+
+MILLFORD-FINAL,Millford,Final delivery,7.0,18.0,187.0,188.0,126,Current local,8.24,Agreed / unperformed,Opening6t dressed +1t common,Payment on acceptance,Opening stock cost54.13gp; no new production allocation.
+ORS-STONE-01,Pevra Solm,Initial collected lot,8.0,24.0,194,194,192,Buyer collection,0.0,Agreed / unperformed,Grade check193; Millford first,Payment on accepted loading,New dressed output projected9.646t by194;8t held for this order.
+ORS-STONE-F02,Pevra Solm,Standing-plan load,8.0,28.0,203.0,210,224,Sovra weighted,24.8,Official plan / confirm load,After initial trial acceptance,28gp/t; pay on acceptance,First target under official standing terms: 8t at28gp/t delivered after successful initial pickup. Tamsin confirms buyer quantity and Sovra slot; 7-day transit remains an estimate.
+ORS-STONE-F03,Pevra Solm,Standing-plan load,8.0,28.0,217,224,224,Sovra weighted,24.8,Official plan / confirm load,After earlier trial and demand,28gp/t; pay on acceptance,Next 8t target14 days later under official standing terms. Confirm each order/slot; planned arrival224 is outside220 receipts. No guaranteed future demand.
+ORS-WOOD-01,North Quay Joiners,Initial collected lot,5.0,42.0,251,251,210,Buyer collection,0.0,Agreed / unperformed,Dry start 190; inspect target 250,Payment on accepted loading,No seasoned stock certified; postpone if actual drying/inspection requires. No Sovra cost on this first buyer-collected lot.
+WOOD-DRY-01,Blackthorn mill,Covered drying batch,5.0,,190,250,0.0,On estate,0.0,Scheduled / not started,Reserve5t common sawn output,60-day minimum +inspection,"Day190 is a planning start for the complete batch, not a confirmed drying start. No double-counted production."
+STONE-CHECK,Tamsin / buyer,Grade inspection,8.0,,193,193,0.0,On estate,0.0,Planned / not done,Sample and stock inspection,Release only accepted grade,Production forecasts alone do not certify the buyer's specification.
+WOOD-CHECK,Tamsin / buyer,Seasoning inspection,5.0,,250,250,0.0,On estate,0.0,Planned / not done,Actual start +60; inspect,Release before pickup251,No guaranteed completion merely because60 days passed.
+GARRAN-220,Garran Peth,Remaining surplus,46,20.08152174,220.0,220.0,923.75,Current local,54.12,Forecast / not sold,After agreed orders/reserves,Cash on accepted collection,Only remaining grade quantities in rows55–60; premium release still conditional. Freight estate-paid.
+
+Scheduling rule,,"Official player-approved standing plan: Pevra8t every14 days at28gp/t delivered after successful initial trial; each load confirmed by Tamsin. Timber repeats are batch-led after its trial, with quantity/price/logistics agreed per batch. Readiness schedule150–178."
+
+
+"SOVRA FREIGHT MIX — TONNAGE-WEIGHTED BUDGET, NOT SPLIT BOOKINGS"
+Mode,Tonnage share,Rate gp/t,Estimated tons,Budget gp,Conditions
+Matched return leg,0.6,2.0,9.6,19.2,"Actual load4–8t, matching route, space and window."
+Shared scheduled,0.3,4.0,4.8,19.2,Actual load minimum8t; compatible route.
+Dedicated,0.1,7.0,1.6,11.2,Use for deadlines when justified; no automatic booking.
+TOTAL / MEAN,1,3.1,16,49.6,Fractional estimated tons describe a portfolio; actual8t consignments are not split into ineligible subloads.
+Stone net of freight,28.0,24.9,24.34,24.0,C: before optional insurance; D: if2% elected; E: collected rate. Excludes extraordinary tolls.
+Timber net of freight,46.0,42.9,41.98,42.0,Delivered46 is an earlier quote only; no repeat timber purchase/sale assumed in181–220.
+Freight control,0,Expected0. Initial buyer pickups have0 Blackthorn freight. Current local freight remains on other local loads.
+
+
+"OUTPUT ALLOCATION — 181–220 FORECAST, EACH TON ASSIGNED ONCE"
+Grade,Produced t,Buyer pickup t,Delivered accepted t,In transit t,Held / drying t,Local sold t,Local gp/t,Local revenue,Combined cost/t,Closing cost gp,Production cost gp,Basis
+
+Rough stone,8,0.0,0.0,0.0,0.0,8,7,56,4.8,0,38.4,Surplus only if actual grade accepted.
+Dressed stone,28,8,8,8,0.0,4,12,48,6.3,50.4,176.4,"24t Orsaven:8 pickup,8 accepted by220,8 in transit."
+Premium architectural stone,4,0.0,0.0,0.0,0.0,4,24,96,8.8,0,35.2,Surplus only if actual grade accepted.
+Raw logs,5.25,0.0,0.0,0.0,0.0,5.25,10,52.5,6.342857143,0,33.3,Surplus only if actual grade accepted.
+Sawn construction lumber,26.25,0.0,0.0,0.0,5,21.25,25,531.25,10.84285714,54.21,284.63,5t held for North Quay; no local sale of reserved tons.
+Selected / finished hardwood,3.5,0.0,0.0,0.0,0.0,3.5,40,140,14.34285714,0,50.2,Surplus only if actual grade accepted.
+TOTAL,75,8,8,8,5,46,,923.75,,104.61,618.13,Opening Millford6/1t is separate; production totals remain40/35t.
+
+"TRANSITION ECONOMICS — 181–220, INCLUDING MILLFORD OPENING STOCK"
+Accepted sales / receipts,1465.75,Accepted/delivered by220 only. Second repeat stone receipt224 and timber251 excluded.
+New production costs,618.13,Production wages304 +grade non-labor314.13; once only.
+Closing inventory cost,104.61,8t dressed in transit +5t common sawn held/drying; no premature sale.
+New-output COGS,513.52,Unsold/transit production retained in inventory.
+Opening Millford COGS,54.13,"Historical6t dressed/1t common stock cost54.13gp, released on planned acceptance188."
+Total COGS,567.65,Combined labor/non-labor cost of accepted goods.
+Gross profit,898.1,Basis for Carrow; excludes fixed operating overhead.
+New Carrow accrual,26.94,New181–220 share; previous52.58gp remains a separate unpaid reserve.
+Management / guards,280,40 paid days; production wages already in COGS/stock.
+Fixed upkeep,71.43,Buildings/household/roads; horse routine care and production upkeep already in grade costs.
+Freight incurred,111.96,"Includes local Millford, remaining surplus and both dispatched Sovra loads; no buyer-pickup charge."
+Profit before Carrow / tax,434.71,Operating profit before Carrow; not taxable sales or gross profit.
+Tax reserve for this forecast,44.35,Partial first-tax-period estimate: excludes Day181 pre-adoption loss; includes182–220 only. Not the full182–271 bill.
+Profit after Carrow / tax,363.42,40-day transition result less forecast tax reserve for182–220. No forecast is posted to actual cash.
+Cash payments by220,954.74,Scheduled operating settlements and freight only; tax/Carrow unpaid in this scenario.
+Projected cash at220,1083.12,Starts with Day180 cash;181–182 accruals already included in the40-day expense plan.
+Unpaid ops at220,126.78,Final216–220 operating accrual paid in planned222 settlement; later221–222 work not yet budgeted.
+Available after reserves,832.47,"Subtract unpaid operations, old/new Carrow and partial-period tax estimate. Conditional forecast, not present cash."
+Allocation / cost checks,0,"Expected0. Forecast needs actual grades, buyer acceptance, carrier capacity and payment before posting."
+
+
+ROLLING TAX REGISTER — POSTED ACCRUALS LESS ACTUAL PAYMENTS
+Period ID,Start day,End day,Tax due day,Posted through,Sales earned,COGS / losses,Other ops,Taxable profit,Rolling assessment,Tax paid,Balance unpaid,Status,Posting coverage
+BT-TAX-1,182.0,271.0,272.0,182,0,0,8.78,-8.78,0,0,0,Accruing; not final,Posted days complete through 182
+BT-TAX-2,272.0,361.0,362.0,,0,0,0,0,0,0,0,Not opened,Not opened
+BT-TAX-3,362.0,451.0,452.0,,0,0,0,0,0,0,0,Not opened,Not opened
+BT-TAX-4,452.0,541.0,542.0,,0,0,0,0,0,0,0,Not opened,Not opened
+
+Rolling unpaid tax,0,"Recalculates from posted results each update, less actual payments. Prior unpaid assessments carry forward; passing the due day never clears the balance."
+Next tax due,272,"Earliest unpaid/incomplete tax deadline is retained even when overdue; otherwise show the next due day, including today."
+Tax payment control,0,Expected0: every actual tax payment must have a valid period ID.
+Period coverage,,"Actual-entry templates extend through272, covering first tax due and timber pickup251. Later quarters require further extension. Forecast output remains limited to181–220; empty days cannot finalize tax."
+
+
+PAYMENT CALENDAR — ESTIMATED OPERATING SETTLEMENTS; NOT POSTED PAYMENTS
+Opening unpaid costs,50.76,"50.76gp at182 is INCLUDED in the187 settlement budget, not an extra payment. No new completed payment found."
+
+
+Payment ID,Due day,Period start,Period end,Wages budget,Non-labor budget,Fixed upkeep,Freight budget,Other budget,Actual paid,Scheduled gp,Status,Basis,Payment reference
+OPS-181-187,187.0,181.0,187.0,102.2,53.95,12.5,0.0,0.0,,168.65,Planned; unpaid,Includes accrued Days181–182 within first cycle. Final row covers only work through220.,Record actual amounts once in Archive - Blackthorn Cashbook; do not pay by copying the forecast automatically.
+OPS-188-194,194.0,188.0,194.0,102.2,53.92,12.5,0.0,0.0,,168.62,Planned; unpaid,Includes accrued Days181–182 within first cycle. Final row covers only work through220.,Record actual amounts once in Archive - Blackthorn Cashbook; do not pay by copying the forecast automatically.
+OPS-195-201,201.0,195.0,201.0,102.2,53.8,12.5,0.0,0.0,,168.5,Planned; unpaid,Includes accrued Days181–182 within first cycle. Final row covers only work through220.,Record actual amounts once in Archive - Blackthorn Cashbook; do not pay by copying the forecast automatically.
+OPS-202-208,208.0,202.0,208.0,102.2,53.8,12.5,0.0,0.0,,168.5,Planned; unpaid,Includes accrued Days181–182 within first cycle. Final row covers only work through220.,Record actual amounts once in Archive - Blackthorn Cashbook; do not pay by copying the forecast automatically.
+OPS-209-215,215.0,209.0,215.0,102.2,53.81,12.5,0.0,0.0,,168.51,Planned; unpaid,Includes accrued Days181–182 within first cycle. Final row covers only work through220.,Record actual amounts once in Archive - Blackthorn Cashbook; do not pay by copying the forecast automatically.
+OPS-216-220,222.0,216.0,220.0,73.0,44.85,8.93,0.0,0.0,,126.78,Planned; unpaid,Includes accrued Days181–182 within first cycle. Final row covers only work through220.,Record actual amounts once in Archive - Blackthorn Cashbook; do not pay by copying the forecast automatically.
+FRT-MILLFORD,187.0,187.0,187.0,0.0,0.0,0.0,8.24,0.0,,8.24,Planned; unpaid,Separate from production cost; Blackthorn local delivery.
+FRT-SOVRA-02,203,,,0.0,0.0,0.0,24.8,0.0,,24.8,Forecast; unbooked,Estimated whole-load carrier fee; actual may be16/32/56gp for8t.
+FRT-SOVRA-03,217,,,0.0,0.0,0.0,24.8,0.0,,24.8,Forecast; unbooked,Estimated whole-load carrier fee; no premium or toll automatically added.
+FRT-GARRAN,220.0,,,0.0,0.0,0.0,54.12,0.0,,54.12,Forecast; unpaid,Estate pays freight on remaining46t local surplus; actual tonnage may change.
+
+Carrow remittance,272,,,,,,,,0,52.58,Accruing; not due,"Pay the accrued outstanding share on tax days 272/362/452/542, then every 90 days. Includes the existing 52.58 gp reserve at the first settlement. No payment posted."
+Tax payments,272,,,,,,,,0,0,Nil accrued so far,"Rolling posted assessment less actual tax payments; first due 272, then every 90 days. Partial payment reduces the balance; unpaid amounts remain after due day."
+
+Settlement control,0,"Expected0: scheduled costs equal production, management, fixed upkeep and freight budget."
+No double counting,,"Forecasts are inputs for planning only. Post sales/production in Archive - Blackthorn Production, incurred overhead in Archive - Blackthorn Cashbook O:R, payments in C:I/T, then update the current cutoff. Never add budget totals to actuals."
+
+
+
+"ORDER FULFILLMENT — ACTUAL ACCEPTED QUANTITIES, NOT FORECASTS"
+Order ID,Grade,Agreed t,Accepted t,Outstanding t,Last accepted day,Price gp/t,Unfilled value gp,Goods status,Posting rule
+MILLFORD-FINAL,Dressed stone,6.0,0,6,,16.0,96,Unfulfilled,"Record actual regular-sales quantity T, price AG and order ID AI in Archive - Blackthorn Production. Record money received separately in Archive - Blackthorn Cashbook. Planned dates never fulfill orders."
+MILLFORD-FINAL,Sawn construction lumber,1.0,0,1,,30.0,30,Unfulfilled,"Record actual regular-sales quantity T, price AG and order ID AI in Archive - Blackthorn Production. Record money received separately in Archive - Blackthorn Cashbook. Planned dates never fulfill orders."
+ORS-STONE-01,Dressed stone,8.0,0,8,,24.0,192,Unfulfilled,"Record actual regular-sales quantity T, price AG and order ID AI in Archive - Blackthorn Production. Record money received separately in Archive - Blackthorn Cashbook. Planned dates never fulfill orders."
+ORS-WOOD-01,Sawn construction lumber,5.0,0,5,,42.0,210,Unfulfilled,"Record actual regular-sales quantity T, price AG and order ID AI in Archive - Blackthorn Production. Record money received separately in Archive - Blackthorn Cashbook. Planned dates never fulfill orders."
+
+Unassigned regular sales t,0,Expected0. Every positive regular sale needs an order ID; add newly agreed orders to fulfillment tracking.
+Over-delivery check,0,Expected0 unless additional order quantity has explicitly been accepted.
+Receipt reconciliation,0,Sales earned minus cash received since181. Expected0 under payment-on-acceptance terms; otherwise record the actual receivable/advance. Never invent a receipt to force0.
+
+OPEN ITEMS / REVIEW FINDINGS
+Carrow settlement,Scheduled with tax,"Player ruling: pay on Days 272, 362, 452, 542, then every 90 days. Current 52.58 gp remains reserved and unpaid; settlement includes accrued outstanding shares. See rows 141–148."
+Grade / drying evidence,Scheduled; results pending,"Tamsin owns readiness schedule150–178. Marta handles stone specifications/finish; Hedda records the timber batch and actual drying start, weekly checks and release. Millford first. Inspections and drying remain unperformed until recorded."
+Repeat orders / haul,Official; confirmations pending,"Standing repeat plan adopted by player atDay182. First stone targets203/217 at28gp/t delivered, then every14 days. Actual buyer orders, carrier slots, route timing and extraordinary charges still need confirmation. 60/30/10 freight mix remains a budget estimate."
+Optional cargo cover,Not elected,"2% Esgar framework is agreed, but no individual policy/premium selected; base forecast excludes optional insurance."
+Rolling tax balance,Active; not a fixed bill,"B92 is the running unpaid tax from posted actuals. It updates with results and payments, and carries overdue amounts. First assessment ends 271, due 272. The 44.35 gp Day 182–220 forecast remains a separate estimate."
+
+
+CARROW PAYMENT CALENDAR — SAME DUE DAYS AS TAX; ACCRUAL BASIS UNCHANGED
+Due day,Profit through,Accrued to cutoff,Paid since 181,Unpaid to cutoff,Status,Treatment
+272,182,52.58,0,52.58,Accruing; not due,First settlement includes the existing 52.58 gp reserve plus subsequently accrued shares.
+362,,,,,Not opened,Cumulative cutoff balance; payments apply oldest first. Rows are not additive.
+452,,,,,Not opened,Cumulative cutoff balance; payments apply oldest first. Rows are not additive.
+542,,,,,Not opened,Cumulative cutoff balance; payments apply oldest first. Rows are not additive.
+
+Payment rule,,Only an actual Carrow payment in Archive - Blackthorn Cashbook I (with reference in V) reduces cash and the reserve. A due day is not a payment. Current total liability remains Archive - Blackthorn Accounts B265; cutoff rows are not additive.
+
+PRODUCT READINESS — OFFICIAL SCHEDULE; ACTUAL RESULTS MUST BE RECORDED
+Task ID,Target day,Responsible,Action,Planned t,Order / batch,Actual day,Status,Result,Evidence / dependency
+STOCK-SPEC-CHECK,183.0,Tamsin / Marta / Hedda,"Count, grade and earmark",,All opening orders,,Scheduled,,Confirm physical grade quantities and buyer specifications; reserve Millford6t dressed/1t common first. Report shortages; provisional book grades are not certification.
+MILLFORD-QC,186.0,Marta / Hedda / Tamsin,Final quality / load check,7.0,MILLFORD-FINAL,,Scheduled,,Prepare6t dressed and1t common. Existing dispatch187/acceptance188 stays planned; actual delivery and receipt posted separately.
+STONE-PREP,192.0,Marta,"Finish, count and stage",8.0,ORS-STONE-01,,Scheduled,,"Check dimensions, dressing, soundness and packing against Pevra specification. Exclude rejects and reserved Millford stock."
+STONE-INSPECT,193.0,Tamsin / Pevra buyer,Buyer grade inspection,8.0,ORS-STONE-01,,Scheduled,,"Record actual inspected/accepted tons and result. A calendar date never passes inspection. If held, revise pickup and dependent repeat dates."
+STONE-PICKUP,194.0,Tamsin / Pevra carrier,Accepted pickup / payment,8.0,ORS-STONE-01,,Scheduled,,"Requires passed buyer inspection and confirmed collection. Record accepted tons/order ID in Production;192gp only if all8t accepted, cash receipt separately."
+WOOD-BATCH-PREP,189.0,Hedda,Assemble and tag batch,5.0,ORS-WOOD-01,,Scheduled,,"Identify boards/species/dimensions and reserved5t; confirm covered, ventilated drying space. Millford lumber stays separate."
+WOOD-DRY-START,190.0,Hedda,Start complete-batch drying,5.0,ORS-WOOD-01,,Scheduled,,"G158 is ACTUAL start day, left blank until started; enter Complete only after batch is stacked/tagged. Later timber targets use this actual day, else planned190."
+WOOD-WEEK-1,197,Hedda,Drying / condition check,5.0,ORS-WOOD-01,,Scheduled,,"Check cover, airflow, moisture/seasoning progress, warping, splits and rot. Record condition and any delay; do not silently reduce stock or invent waste."
+WOOD-WEEK-2,204,Hedda,Drying / condition check,5.0,ORS-WOOD-01,,Scheduled,,"Check cover, airflow, moisture/seasoning progress, warping, splits and rot. Record condition and any delay; do not silently reduce stock or invent waste."
+WOOD-WEEK-3,211,Hedda,Drying / condition check,5.0,ORS-WOOD-01,,Scheduled,,"Check cover, airflow, moisture/seasoning progress, warping, splits and rot. Record condition and any delay; do not silently reduce stock or invent waste."
+WOOD-WEEK-4,218,Hedda,Drying / condition check,5.0,ORS-WOOD-01,,Scheduled,,"Check cover, airflow, moisture/seasoning progress, warping, splits and rot. Record condition and any delay; do not silently reduce stock or invent waste."
+WOOD-WEEK-5,225,Hedda,Drying / condition check,5.0,ORS-WOOD-01,,Scheduled,,"Check cover, airflow, moisture/seasoning progress, warping, splits and rot. Record condition and any delay; do not silently reduce stock or invent waste."
+WOOD-WEEK-6,232,Hedda,Drying / condition check,5.0,ORS-WOOD-01,,Scheduled,,"Check cover, airflow, moisture/seasoning progress, warping, splits and rot. Record condition and any delay; do not silently reduce stock or invent waste."
+WOOD-WEEK-7,239,Hedda,Drying / condition check,5.0,ORS-WOOD-01,,Scheduled,,"Check cover, airflow, moisture/seasoning progress, warping, splits and rot. Record condition and any delay; do not silently reduce stock or invent waste."
+WOOD-WEEK-8,246,Hedda,Drying / condition check,5.0,ORS-WOOD-01,,Scheduled,,"Check cover, airflow, moisture/seasoning progress, warping, splits and rot. Record condition and any delay; do not silently reduce stock or invent waste."
+WOOD-INSPECT,250,Hedda / Tamsin / buyer,Seasoning / grade inspection,5.0,ORS-WOOD-01,,Scheduled,,Earliest inspection after60 days from actual complete-batch start. Buyer must accept seasoning/grade and actual quantity; delay if not ready.
+WOOD-PICKUP,251,Tamsin / buyer carrier,Accepted pickup / payment,5.0,ORS-WOOD-01,,Scheduled,,Requires passed inspection and confirmed pickup. 210gp only if all5t accepted. No automatic sale; post order-linked accepted quantity and receipt separately.
+REPEAT-02-CONFIRM,195,Tamsin / Pevra / Sovra,Confirm buyer order and slot,8.0,ORS-STONE-F02,,Scheduled,,"Only after initial trial passes. Confirm28gp/t delivered, load quantity, route/window and actual freight. Add confirmed order to fulfillment register and reserve stock."
+REPEAT-02-QC,202,Marta / Tamsin,Preload grade / count,8.0,ORS-STONE-F02,,Scheduled,,"Confirm correct order, sound dressed grade and packing; dispatch only after buyer/carrier confirmation. No dedicated freight without documented reason."
+REPEAT-03-CONFIRM,209,Tamsin / Pevra / Sovra,Confirm next buyer order/slot,8.0,ORS-STONE-F03,,Scheduled,,"Repeat confirmation; demand, sound stock and eligible freight must support the load. No automatic quantity commitment merely because14 days elapsed."
+REPEAT-03-QC,216,Marta / Tamsin,Preload grade / count,8.0,ORS-STONE-F03,,Scheduled,,Same checks as previous8t load. Receipt remains due on accepted delivery; revise dates if readiness or carrier availability changes.
+
+Repeat cadence,,"Stone load targets203,217,231,245,259, then every14 days after successful initial trial. Tamsin confirms each order/slot and checks stock one day before dispatch. Later dates are cadence targets only; no extra output or receipts added beyond the existing forecast."
+Timber repeats,,"After the first North Quay trial succeeds, Tamsin agrees the next ready seasoned batch, quantity, price and delivery terms. No fixed timber cadence yet. A5t load qualifies only for a confirmed4–8t return mode (or buyer collection); shared freight needs at least8t."
+Recording rule,,"Record actual day inG and result inI, with quantities/evidence inJ:N. Actual delivery/sale and cash payment still post once in their owning ledgers. A scheduled date or recorded inspection never creates a sale or payment."
+Delays / authority,,"Tamsin may reschedule routine checks, preparations and eligible freight within existing authority. Hold failed/unready stock, notify buyer, update linked delivery targets and downstream confirmations. Escalate new debt, land, material unquoted spending or changed rights."
+Actuals preserved,,"All actual readiness dates/results are blank at adoption. No drying start, buyer signoff, delivery, receipt, cost, new staffing or gameplay action has been fabricated. Ordinary readiness work stays within existing staff/cost allowances unless an incremental expense occurs."

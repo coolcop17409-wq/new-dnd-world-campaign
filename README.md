@@ -1,28 +1,34 @@
-# New Unnamed World Campaign — Migration Test
+# New Unnamed World Campaign — GitHub Migration Test
 
-This is the GitHub staging copy for testing campaign-document retrieval, writes, and maintenance before changing the ChatGPT project's active sources.
+This repository contains the campaign's staged documentation migration. ChatGPT Project Sources still point to Drive while the GitHub copy is tested.
 
 ## Authority during testing
 
-Google Drive remains the live source of truth until this migration is complete and tested. Do not resume or sync campaign play from this repository yet. Do not change Project Sources or Drive routing during staging.
+Drive remains the live campaign source of truth until the GitHub copy passes retrieval, write, tracker, and continuity checks. Do not resume play from this copy or change Project Sources during staging.
 
-The repository is public by the owner's explicit choice. All files here, including DM preparation and unrevealed campaign material, are publicly readable. “DM-only” labels mean “do not reveal during play unless appropriate,” not access control.
+The repository is public by the owner's explicit choice. All content, including DM preparation and unrevealed material, is readable by anyone online. “DM-only” labels are play-reveal guidance, not access controls.
 
 ## Repository map
 
-- `AGENTS.md` — ChatGPT startup, source ownership, and write protocol
-- `campaign/` — current checkpoint, rules, quests, NPCs, inventory, and session log
-- `prep/dm-only/` — secret outlines and unrevealed truth
-- `world/politics/` — political reference topics
-- `archive/` — closed play and retired source notes
-- `trackers/` — character, estate, and magic-market data
-- `assets/README.md` — map and image sources that remain in Drive
+- `AGENTS.md` — startup, source ownership, play authority, and sync procedure
+- `campaign/continuity/` — source tabs for current state, rules, quests, NPCs, inventory, and play log
+- `prep/dm-only/` — private-prep source tabs, publicly readable in this repository
+- `world/politics/` — political-reference topics
+- `archive/` — closed campaign history and retired notes
+- `trackers/` — workbook exports and searchable CSV value snapshots
+- `assets/README.md` — maps and images retained in Drive
+- `MIGRATION_MAP.md` — source-to-file index
 
-## Migration status
+## Current checkpoint in the source
 
-- [x] Repository access verified through the GitHub connector
-- [ ] Source tabs split into retrieval-sized Markdown files
-- [ ] Workbook snapshots preserved and readable tracker views created
-- [ ] Cross-file routes and current checkpoint reconciled
-- [ ] Retrieval and write/update workflow tested
-- [ ] ChatGPT Project Sources still point to Drive pending successful tests
+Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. The exact pending player action is V's choice of what to say or do after Sela offers to lead Anwen to view Iven's remains. See `campaign/continuity/campaign-state.md`.
+
+## Migration and test status
+
+- [x] GitHub read/write path verified through the connector
+- [x] Google Docs tabs copied into retrieval-sized Markdown files
+- [x] Workbook exports retained with formulas and formatting
+- [x] Readable value snapshots created for each workbook tab
+- [ ] Verify key live values and cross-file routes
+- [ ] Test retrieval and a reversible write on representative campaign files
+- [ ] Keep Project Sources pointed to Drive until those tests pass

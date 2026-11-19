@@ -1,0 +1,7 @@
+Reedbed — custody and assets
+"No disputed barges, cargo or Crown machinery become House assets by entry. Record owner, condition, movement, and signed handover; no monetary income here."
+Estates index
+
+Movement ID,Day,Lot / asset ID,Legal owner,Item / grade,Unit,Quantity,Movement,Location,Job / transfer ID,Condition / evidence,Signed quantity,Running lot balance,Check
+RB-TARIN-RECEIVE-230,230.0,RB-TARIN-OATS-230,Tarin Voss,Dry bagged oats,ton,2.0,Receive,Certified private quay,RB-WALKIN-TARIN-230,"D231-REEDBED-PASSING-TRADE-RETRO-001: independently owned local boat cargo accepted only for one unload;2t weighed/condition checked, no House grain purchase.",2,2,OK
+RB-TARIN-RELEASE-230,230.0,RB-TARIN-OATS-230,Tarin Voss,Dry bagged oats,ton,2.0,Release,Tarin's waiting onward cart,RB-WALKIN-TARIN-230,"D231-REEDBED-PASSING-TRADE-RETRO-001:2t returned after accepted unloading230, same condition; current customer balance0; no overnightstorage.",-2,0,OK

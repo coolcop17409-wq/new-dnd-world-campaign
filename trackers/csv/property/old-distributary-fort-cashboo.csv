@@ -1,0 +1,18 @@
+Old Distributary Fort — cashbook
+"Actual money only. Match Receipt/Payment to an Activity ID, tax to its assessment ID, and transfer legs to a shared reference. Owner funding is not revenue."
+Estates index
+
+Cash ID,Day,Type,Activity / tax ID,Amount gp,Counterparty,Payment / transfer ID,Purpose,Evidence,Cash delta,Check
+OF-FUND-D204-001,204.0,Owner funding,,300.0,V via Orsaven Exchange,D204-EXCHANGE-CAPITAL-DIAMOND-001,300gp estate capital at Exchange; Meret authorized to deploy,"D208-ESTATE-FUNDING-CORRECT-001: player confirms the695gp release was already authorized. Recognize original Day204 owner funding at Exchange, available to Meret without renewed V approval or a title/inspection funding gate. Separate site accounts; no new V debit, operating income, physical onsite delivery or automatic commissioning. Source D204-EXCHANGE-CAPITAL-DIAMOND-001.",300,OK
+OF-PAY-WORK-221,221.0,Payment,OF-WORK-221,30.0,Accepted qualified contractor,D225-ESTATE-CATCHUP-001,Actual stage invoice,"D225-ESTATE-CATCHUP-001: factor pays from this estate's existing segregated capital, no V debit.",-30,OK
+OF-PAY-WORK-222,222.0,Payment,OF-WORK-222,25.0,Accepted qualified contractor,D225-ESTATE-CATCHUP-001,Actual stage invoice,"D225-ESTATE-CATCHUP-001: factor pays from this estate's existing segregated capital, no V debit.",-25,OK
+OF-PAYROLL-222-222,222.0,Payment,OF-WAGES-222,5.0,OF contracted crew,D225-ESTATE-CATCHUP-001,Shared payday222 earned wages,"D225-ESTATE-CATCHUP-001: actual earned222 wages, no prepayment or duplicate expense.",-5,OK
+OF-PAY-WORK-223,223.0,Payment,OF-WORK-223,15.0,Accepted qualified contractor,D225-ESTATE-CATCHUP-001,Actual stage invoice,"D225-ESTATE-CATCHUP-001: factor pays from this estate's existing segregated capital, no V debit.",-15,OK
+OF-PAYROLL-223-229,229.0,Payment,OF-WAGES-223,5.0,OF contracted crew,D231-ESTATE-CATCHUP-001,Earned223–229 wages,D231-ESTATE-CATCHUP-001:35gp total paid once; Meret excluded.,-5,OK
+OF-PAYROLL-224-229,229.0,Payment,OF-WAGES-224,5.0,OF contracted crew,D231-ESTATE-CATCHUP-001,Earned223–229 wages,D231-ESTATE-CATCHUP-001:35gp total paid once; Meret excluded.,-5,OK
+OF-PAYROLL-225-229,229.0,Payment,OF-WAGES-225,5.0,OF contracted crew,D231-ESTATE-CATCHUP-001,Earned223–229 wages,D231-ESTATE-CATCHUP-001:35gp total paid once; Meret excluded.,-5,OK
+OF-PAYROLL-226-229,229.0,Payment,OF-WAGES-226,5.0,OF contracted crew,D231-ESTATE-CATCHUP-001,Earned223–229 wages,D231-ESTATE-CATCHUP-001:35gp total paid once; Meret excluded.,-5,OK
+OF-PAYROLL-227-229,229.0,Payment,OF-WAGES-227,5.0,OF contracted crew,D231-ESTATE-CATCHUP-001,Earned223–229 wages,D231-ESTATE-CATCHUP-001:35gp total paid once; Meret excluded.,-5,OK
+OF-PAYROLL-228-229,229.0,Payment,OF-WAGES-228,5.0,OF contracted crew,D231-ESTATE-CATCHUP-001,Earned223–229 wages,D231-ESTATE-CATCHUP-001:35gp total paid once; Meret excluded.,-5,OK
+OF-PAYROLL-229-229,229.0,Payment,OF-WAGES-229,5.0,OF contracted crew,D231-ESTATE-CATCHUP-001,Earned223–229 wages,D231-ESTATE-CATCHUP-001:35gp total paid once; Meret excluded.,-5,OK
+OF-MG-OUT-231,231.0,Transfer out,,60.0,Miregate,D231-MIREGATE-RESERVE-TRANSFER-001-OF-MG,Owner-authorized capital reallocation,D231-MIREGATE-RESERVE-TRANSFER-001: separateaccount transfer to Miregate; preserves55reserve and recordedliabilities. No cost/loan.,-60,OK

@@ -1,0 +1,96 @@
+MIREGATE - SETUP
+"Planning inputs are editable. Actual opening balances, dates, capacity, wages and tax terms require evidence before activation."
+Source,Live campaign reference,"QUESTS / INVENTORY / NPCS; Day171 recovery terms, Day172 service prospects; Day182 flow test and completed full site sweep."
+← Miregate overview,,Estates index
+Control,Value,Meaning / evidence
+Posted through day,230.0,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: Day195–231 direct local-farmer inquiry and224 actual service/229payments retrospectively adjudicated and reconciled. Completed close remains230; current231late morning cash only, no full231close/timeadvance."
+Opening cash as-of day,194.0,"D195-ISBET-STARTUP-001: audited pre-funding cash baseline at end Day194 was 0 gp; Day195 owner-funded250 appears ONCE in Miregate - Cashbook, not in baseline."
+Verified opening cash gp,0.0,Opening baseline remains0 at194; actual owner funding195250 and204100 recorded once in Cashbook.
+Opening verified,True,"Cash baseline only verified; not a deed, commercial license or completed liability/tax audit."
+Commercial opening day,216.0,D225-MIREGATE-D213-RECONCILE-001: actual first trading/custody216 after deed213 and safety212; no automatic full-capacity demand.
+Site secured day,182.0,Actual final site clearance; starts relative 1–2 / 3–7 day reopening targets.
+Discretionary cash hold — abolished,0.0,D231-ESTATE-NO-RESERVES-001: existing0 remains0; all properties use no protected cash reserves. Original80 release retained ashistory; no new receipt or spending.
+Chief steward spending authority,Available lawful estate funds,"D199-RIVER-STEWARD-TOPUP-001: Meret administers all three holdings from200; ONE5gp/actual workday salary via Miregate. No fixed250gp delegation ceiling and old10/25gp limits withdrawn. Separate actual funds,Miregate reserve released231; all receivedfunds available within commitments, lawful title/public rights and technical safety veto remain; no unsupported borrowing. Isbet2gp/workday from200 after prior3gp through199."
+Profit-tax policy,Profit levy,"Current OOC adoption:10% positive operating profit, including pre-opening operating costs. No Carrow share."
+First tax-period start day,195.0,First actual incurred day; no tax-free period before opening.
+Tax period length days,90.0,"After first partial period195–271, standard90-day periods."
+Profit levy rate,0.1,"10% positive profit, not gross fees; no automatic tax on owner funding."
+Payment days after period end,1.0,Due272 then362/452/542; unpaid amounts remain until paid.
+Tax / dues scope evidence,D199-ESTATE-DAILY-SETUP-001: same tax days as Blackthorn. Ordinary local dues2gp/week inside22.6 weekly upkeep; additional profit levy10%. Capital/owner transfers not deductions; no universal exemption on Crown retainer.,Scope adopted for these three estates under current instruction.
+Title granted day,213,"D225-MIREGATE-D213-RECONCILE-001: player confirms grant recorded213, NOT225; routine administration, no purchase fee."
+Site opening prerequisites,Complete,"Checks actual opening, substantive readiness and dated roster. Meret's recorded text authority is valid (B13 nonblank); routine paperwork may not block. No automatic work/payment."
+Transfer pairing issues,0,A Blackthorn/Miregate transfer must have equal opposite cash entries and the same transfer ID.
+Input issues,0,"Review missing keys, mismatched custody, overlapping intervals and incomplete evidence."
+Commercial authorization evidence,D225-MIREGATE-D213-RECONCILE-001: deed213 and prior safety212; commercial opening216 for actual first trials. Paperwork is not a gate. Later assignments reflect real funding.,"D208-ESTATE-FUNDING-CORRECT-001: player confirms the695gp release was already authorized. Recognize original Day204 owner funding at Exchange, available to Meret without renewed V approval or a title/inspection funding gate. Separate site accounts; no new V debit, operating income, physical onsite delivery or automatic commissioning. Source D204-EXCHANGE-CAPITAL-DIAMOND-001."
+Liabilities reviewed,True,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
+Storage billing basis,Actual ton-days / 7,OOC simulated implementation: bill accepted actual occupancy; split at movements/rate change.
+Custody rule,Customer property,"Grain, flour/meal, bran and cargo stay with their recorded owner. Service tonnages are not additive House inventory."
+Financial entry rule,After opening baseline,"Record actual flows once after the baseline. If prior business exists, reconcile its opening detail first; do not force unknown liabilities to zero."
+Planned commercial opening,216.0,"Actual first commercial opening216 replaces obsolete207 target; later forecast demand remains conditional, no automatic recurring sales."
+Initial storage trial days,7.0,Planning duration only; actual contracted occupancy governs.
+Planned hands / watch start,203.0,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: existing203 employment/rates retained. Isbet/hands pause223–229 except funded224Hessa shift (2+1.80 earned224,paid229), then funded230Elden shift (3.80 due236). Future232Hessa2t/8gp and233–235Neris6t/24gp depend actual grain/deposit/safety; no early earnings or new hire."
+REOPENING FUNDING PLAN,gp,Treatment,Status
+"Parts, clearance and delivery",90.0,Quote / classification needed,"Approved D195; 90gp cap for parts, delivery, clearance only; expense on evidenced invoice, not automatic bill."
+First-week wages / provisions / float,80.0,Working cash; expense only as incurred,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
+Emergency reserve,80.0,Original funding allocation (history),Original80 funded195; release expressly authorized231. Current reserve B12=0; original250 envelope retained.
+Total funding envelope,250,Owner funding,"Original250 funding195+100204+400231=750 ownercapital, plus80 separately paired inter-estate transfers231. All received/available to Meret by playerretcon. Original695204 neverdebitedagain."
+Ordinary weekly operating budget,89.4,"D199-EXCHANGE-TRIALS-ESCORT-001: Conditional ordinary weekly operating COST model89.40gp (Meret5gp×6=30; Isbet2gp×6=12 after D200 role change; two future watchkeepers1gp×7 each=14; three future general hands0.6gp×6 each=10.8; upkeep/provisions/ordinary dues assumed22.6). No new hires/actual work implied. Potential fully-booked weekly gross remains110gp at unchanged BASE tariff4/1/2, projected gross surplus20.60gp only; Neris/Elden's improved 4.5/1.25/2.5 RATES APPLY ONLY TO CONDITIONALLY BOOKED FIRST TRIALS, not automatically to recurring full capacity. Independent 6gp/day inauguration-only external convoy escort not ordinary weekly payroll.",Actual service receipts82 through230; base110/week remains forecast. Isbet/hands resumed funded230 berth shift only; Meret/watch/upkeep already counted once.
+Cash posted through day,231.0,Current-day cash only; use MAX with completed close; no231 full-day accrual/close. D231-MIREGATE-RESERVE-TRANSFER-001
+Estate cash held by V pending remittance,0.0,D231-MIREGATE-TRANSFER-FARM-RETCON-001: retained custody control is0. Original400 received by Meret at231 under playerretcon; no future remittance dependency or repeatedfunding.
+Service ID,Kind,Billing unit,Indicative rate gp,Planned units/week,Old two-line low,Old two-line high,Verified capacity,Market status,Definition / readiness,Ready day,Ready status
+MG-MILL,Milling,t input grain,4.0,15.0,25.0,30.0,15.0,Verified trial scope,"D225-MIREGATE-D213-RECONCILE-001: Existing line2.5t/working day,15t/six-day week; first6t unsifted wholemeal processed216–218. Batch retains bran,6t returned; no general yield assumption for future grades.",216,Ready
+MG-STORE,Storage,ton-week,1.0,20.0,30.0,40.0,8.0,Verified trial scope,"D225-MIREGATE-D213-RECONCILE-001: Verified first trial8t occupancy216–223 in existing dry bins, not planned20t capacity. No customer goods atclose224.",216,Ready
+MG-BERTH,Handling,t handled,2.0,15.0,20.0,30.0,10.0,Verified trial scope,"D225-MIREGATE-D213-RECONCILE-001: Verified single10t inaugural movement216, not a guaranteed daily/weekly throughput. Public rights unchanged.",216,Ready
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATED STAFF / RECURRING RATES — accrued amounts come from Miregate - Workdays; append dated versions.
+
+Rate ID,Role / person,Type,Headcount / qty,Daily gp each,From day,Through day,Status,Cost family,Next payment day,Evidence / terms,Accrued gp,Check
+MG-STEWARD,"Meret Halwick — CHIEF RIVER HOLDINGS steward (Miregate, Reedbed, Fort); one 5gp/working-day salary, not per-site",Payroll,1.0,5.0,200.0,,Active,Management,236.0,D231-MIREGATE-LOCAL-FARMERS-RETRO-001: oldMeret44 paid4.20on229 from Hessa earned margin+39.80on231; total44 once.230payment2.20 retained;5 earned230 remainsdue236. ONE5gp/actual workday through Miregate for all three; no full231shift accrued.,135,OK
+MG-MILLWRIGHT,Isbet Trench — millwright and temporary restoration supervisor,Payroll,1.0,3.0,195.0,199.0,Ended,Operations,201.0,"D195–198: Isbet Trench independently continued safe measurements/clearing/quoting within agreed temporary restoration mandate, works4 working days×3gp=12gp ACCRUED UNPAID; no hired assistants, no new bought supplies/posted repair invoices yet. D199 counts only when worked/posting advanced; stop unsafe mill and berth operation. D199-COMMON-PAYDAY-001: first shared payday201 replaces202; pay this historical3gp rate only through199.",15,OK
+MG-WATCH,"Two watchkeepers — contracted203, limited agreed site coverage",Payroll,2.0,1.0,203.0,,Active,Security,236.0,"D208-ESTATE-CATCHUP-001/D203-MG-HIRE:13+4=17/DC12 verified existing candidates, signed/start203 for safe preparatory work at existing rates. Watch daily limited coverage; hands rest206. Payday208 after actual earned work, no advance.",56,OK
+MG-HANDS,"Three general hands — contracted203, safe preparatory duties",Payroll,3.0,0.6,203.0,,Active,Operations,236.0,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: existing203 employment/rates retained. Isbet/hands pause223–229 except funded224Hessa shift (2+1.80 earned224,paid229), then funded230Elden shift (3.80 due236). Future232Hessa2t/8gp and233–235Neris6t/24gp depend actual grain/deposit/safety; no early earnings or new hire.",34.2,OK
+MG-MILLWRIGHT-D200,"Isbet Trench — millwright, technical restoration and safety oversight; administrative duties transferred to Meret",Payroll,1.0,2.0,200.0,,Active,Operations,236.0,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: existing203 employment/rates retained. Isbet/hands pause223–229 except funded224Hessa shift (2+1.80 earned224,paid229), then funded230Elden shift (3.80 due236). Future232Hessa2t/8gp and233–235Neris6t/24gp depend actual grain/deposit/safety; no early earnings or new hire.",42,OK
+MG-UPKEEP,Routine provisions / maintenance / local dues,Operating,1.0,3.2285714285714286,216.0,,Active,Upkeep,236.0,D231-MIREGATE-RESERVE-TRANSFER-001:22.60 overdue223–229 paid231; totalpaid45.20. Through23048.428571 incurred;3.228571 remains due236. No new expense.,48.42857143,OK

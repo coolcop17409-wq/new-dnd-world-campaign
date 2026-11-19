@@ -1,0 +1,438 @@
+{
+  "captured_utc": "2026-11-19",
+  "note": "Schema and sheet routes exported from current Google Sheets metadata. Full XLSX snapshots preserve the workbook structures.",
+  "workbooks": {
+    "V": {
+      "source_id": "1JUWWk7DsXt9aNwPsob5Tj3hmk5PvwqWRuQQzKKHlqZM",
+      "workbook_path": "trackers/workbooks/v-character-sheets.xlsx",
+      "sheets": [
+        {
+          "title": "START HERE",
+          "sheet_id": 318855697,
+          "grid_rows": 995,
+          "grid_columns": 26
+        },
+        {
+          "title": "V - Character",
+          "sheet_id": 21001,
+          "grid_rows": 249,
+          "grid_columns": 15
+        },
+        {
+          "title": "V - Skills",
+          "sheet_id": 21002,
+          "grid_rows": 250,
+          "grid_columns": 15
+        },
+        {
+          "title": "V - Inventory",
+          "sheet_id": 21003,
+          "grid_rows": 249,
+          "grid_columns": 15
+        },
+        {
+          "title": "V - Martial",
+          "sheet_id": 21004,
+          "grid_rows": 250,
+          "grid_columns": 15
+        }
+      ]
+    },
+    "Cirren": {
+      "source_id": "1WcguqV2Uos8NXml0MHEEBR9ztCISWGL2lrClNK2pW-s",
+      "workbook_path": "trackers/workbooks/cirren-character-sheets.xlsx",
+      "sheets": [
+        {
+          "title": "START HERE",
+          "sheet_id": 756476005,
+          "grid_rows": 995,
+          "grid_columns": 26
+        },
+        {
+          "title": "Cirren - Character",
+          "sheet_id": 25085621,
+          "grid_rows": 250,
+          "grid_columns": 15
+        },
+        {
+          "title": "Cirren - Skills",
+          "sheet_id": 1184750508,
+          "grid_rows": 250,
+          "grid_columns": 15
+        },
+        {
+          "title": "Cirren - Inventory",
+          "sheet_id": 1445453169,
+          "grid_rows": 250,
+          "grid_columns": 15
+        },
+        {
+          "title": "Cirren - Spells",
+          "sheet_id": 428615220,
+          "grid_rows": 250,
+          "grid_columns": 15
+        }
+      ]
+    },
+    "Fenar": {
+      "source_id": "1Zscq-futavtCYv00FDENn3hTKEh8g8YQ1xfOs0ht7zk",
+      "workbook_path": "trackers/workbooks/fenar-character-sheets.xlsx",
+      "sheets": [
+        {
+          "title": "START HERE",
+          "sheet_id": 756476005,
+          "grid_rows": 34,
+          "grid_columns": 8
+        },
+        {
+          "title": "Fenar - Character",
+          "sheet_id": 25085621,
+          "grid_rows": 44,
+          "grid_columns": 8
+        },
+        {
+          "title": "Fenar - Skills",
+          "sheet_id": 1184750508,
+          "grid_rows": 34,
+          "grid_columns": 8
+        },
+        {
+          "title": "Fenar - Inventory",
+          "sheet_id": 1445453169,
+          "grid_rows": 33,
+          "grid_columns": 8
+        },
+        {
+          "title": "Fenar - Features",
+          "sheet_id": 428615220,
+          "grid_rows": 70,
+          "grid_columns": 8
+        },
+        {
+          "title": "Fenar - Roleplay",
+          "sheet_id": 1837446025,
+          "grid_rows": 45,
+          "grid_columns": 4
+        },
+        {
+          "title": "Fenar - Visuals",
+          "sheet_id": 1726208054,
+          "grid_rows": 84,
+          "grid_columns": 4
+        }
+      ]
+    },
+    "Property": {
+      "source_id": "1VYY8lidhkDe6iiCaY8uEesg1ocxunXIE_Q6Y9-baw9Q",
+      "workbook_path": "trackers/workbooks/property.xlsx",
+      "sheets": [
+        {
+          "title": "Estates",
+          "sheet_id": 30001,
+          "grid_rows": 65,
+          "grid_columns": 8
+        },
+        {
+          "title": "Blackthorn - Overview",
+          "sheet_id": 28001,
+          "grid_rows": 100,
+          "grid_columns": 10
+        },
+        {
+          "title": "Blackthorn - Rates & Staff",
+          "sheet_id": 28008,
+          "grid_rows": 305,
+          "grid_columns": 13
+        },
+        {
+          "title": "Blackthorn - Agreements",
+          "sheet_id": 28007,
+          "grid_rows": 305,
+          "grid_columns": 16
+        },
+        {
+          "title": "Blackthorn - Orders",
+          "sheet_id": 28003,
+          "grid_rows": 505,
+          "grid_columns": 21
+        },
+        {
+          "title": "Blackthorn - Operations",
+          "sheet_id": 28002,
+          "grid_rows": 1205,
+          "grid_columns": 27
+        },
+        {
+          "title": "Blackthorn - Expenses",
+          "sheet_id": 28005,
+          "grid_rows": 505,
+          "grid_columns": 14
+        },
+        {
+          "title": "Blackthorn - Cashbook",
+          "sheet_id": 28004,
+          "grid_rows": 1205,
+          "grid_columns": 11
+        },
+        {
+          "title": "Blackthorn - Schedule",
+          "sheet_id": 28006,
+          "grid_rows": 505,
+          "grid_columns": 16
+        },
+        {
+          "title": "Blackthorn - Forecast",
+          "sheet_id": 28009,
+          "grid_rows": 505,
+          "grid_columns": 12
+        },
+        {
+          "title": "Blackthorn - Accounts",
+          "sheet_id": 28010,
+          "grid_rows": 305,
+          "grid_columns": 26
+        },
+        {
+          "title": "Blackthorn - Opening Balances",
+          "sheet_id": 28011,
+          "grid_rows": 305,
+          "grid_columns": 8
+        },
+        {
+          "title": "Miregate - Overview",
+          "sheet_id": 919181971,
+          "grid_rows": 1000,
+          "grid_columns": 26
+        },
+        {
+          "title": "Miregate - Setup",
+          "sheet_id": 29002,
+          "grid_rows": 305,
+          "grid_columns": 24
+        },
+        {
+          "title": "Miregate - Agreements",
+          "sheet_id": 29003,
+          "grid_rows": 305,
+          "grid_columns": 17
+        },
+        {
+          "title": "Miregate - Jobs",
+          "sheet_id": 29004,
+          "grid_rows": 505,
+          "grid_columns": 19
+        },
+        {
+          "title": "Miregate - Service Log",
+          "sheet_id": 29005,
+          "grid_rows": 1005,
+          "grid_columns": 28
+        },
+        {
+          "title": "Miregate - Custody",
+          "sheet_id": 29006,
+          "grid_rows": 1005,
+          "grid_columns": 24
+        },
+        {
+          "title": "Miregate - Expenses",
+          "sheet_id": 29007,
+          "grid_rows": 505,
+          "grid_columns": 14
+        },
+        {
+          "title": "Miregate - Cashbook",
+          "sheet_id": 29008,
+          "grid_rows": 1005,
+          "grid_columns": 11
+        },
+        {
+          "title": "Miregate - Schedule",
+          "sheet_id": 29009,
+          "grid_rows": 505,
+          "grid_columns": 14
+        },
+        {
+          "title": "Miregate - Taxes",
+          "sheet_id": 29010,
+          "grid_rows": 205,
+          "grid_columns": 16
+        },
+        {
+          "title": "Miregate - Workdays",
+          "sheet_id": 29011,
+          "grid_rows": 1005,
+          "grid_columns": 12
+        },
+        {
+          "title": "Miregate - Daily",
+          "sheet_id": 29012,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Reedbed - Overview",
+          "sheet_id": 31001,
+          "grid_rows": 1005,
+          "grid_columns": 14
+        },
+        {
+          "title": "Reedbed - Agreements",
+          "sheet_id": 31002,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Reedbed - Activity",
+          "sheet_id": 31003,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Reedbed - Cashbook",
+          "sheet_id": 31004,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Reedbed - Schedule",
+          "sheet_id": 31005,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Reedbed - Custody",
+          "sheet_id": 31006,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Reedbed - Daily Accounts",
+          "sheet_id": 31007,
+          "grid_rows": 600,
+          "grid_columns": 32
+        },
+        {
+          "title": "Old Distributary Fort - Overview",
+          "sheet_id": 32001,
+          "grid_rows": 1005,
+          "grid_columns": 14
+        },
+        {
+          "title": "Old Distributary Fort - Agreements",
+          "sheet_id": 32002,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Old Distributary Fort - Activity",
+          "sheet_id": 32003,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Old Distributary Fort - Cashbook",
+          "sheet_id": 32004,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Old Distributary Fort - Schedule",
+          "sheet_id": 32005,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Old Distributary Fort - Custody",
+          "sheet_id": 32006,
+          "grid_rows": 1005,
+          "grid_columns": 20
+        },
+        {
+          "title": "Old Distributary Fort - Daily Accounts",
+          "sheet_id": 32007,
+          "grid_rows": 600,
+          "grid_columns": 32
+        },
+        {
+          "title": "Archive - Blackthorn Accounts",
+          "sheet_id": 853330418,
+          "grid_rows": 1000,
+          "grid_columns": 26
+        },
+        {
+          "title": "Archive - Blackthorn Production",
+          "sheet_id": 26002,
+          "grid_rows": 802,
+          "grid_columns": 35
+        },
+        {
+          "title": "Archive - Blackthorn Cashbook",
+          "sheet_id": 26003,
+          "grid_rows": 300,
+          "grid_columns": 22
+        },
+        {
+          "title": "Archive - Blackthorn Labor",
+          "sheet_id": 26004,
+          "grid_rows": 220,
+          "grid_columns": 18
+        },
+        {
+          "title": "Archive - Blackthorn Contracts",
+          "sheet_id": 26005,
+          "grid_rows": 300,
+          "grid_columns": 14
+        }
+      ]
+    },
+    "Magic Shops": {
+      "source_id": "1lkUMaoPNaIkSVNbE89i8MzbmbBSOufABrAmXNgEyqnY",
+      "workbook_path": "trackers/workbooks/magic-shops.xlsx",
+      "sheets": [
+        {
+          "title": "Rules",
+          "sheet_id": 335962578,
+          "grid_rows": 1000,
+          "grid_columns": 26
+        },
+        {
+          "title": "Dealers",
+          "sheet_id": 1,
+          "grid_rows": 1000,
+          "grid_columns": 26
+        },
+        {
+          "title": "Stock",
+          "sheet_id": 2,
+          "grid_rows": 1000,
+          "grid_columns": 26
+        },
+        {
+          "title": "Templates",
+          "sheet_id": 3,
+          "grid_rows": 1000,
+          "grid_columns": 26
+        },
+        {
+          "title": "Restock candidates",
+          "sheet_id": 4,
+          "grid_rows": 1000,
+          "grid_columns": 26
+        },
+        {
+          "title": "Events",
+          "sheet_id": 5,
+          "grid_rows": 1000,
+          "grid_columns": 26
+        },
+        {
+          "title": "V design references",
+          "sheet_id": 27131,
+          "grid_rows": 1004,
+          "grid_columns": 26
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+MIREGATE - OVERVIEW
+Milling • customer grain storage • private berth handling. Dedicated ledger in the existing Property workbook.
+Posted through,230,Title,Grant recorded
+Opening status,Opened Day 216,Cash opening,Verified
+RECORDED FINANCES,gp,Meaning
+Estate cash,501.4,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
+Payroll payable,10.8,"10.80 wages earned230 due236: Meret5, watch2, Isbet2, hands1.80. Old44Meret settled4.20on229+39.80on231 under D231-MIREGATE-LOCAL-FARMERS-RETRO-001; extra224crew3.80paid229, no wage overpayment or early236pay."
+Recurring operations payable,3.23,3.228571 upkeep earned230 due236.22.60 overdue223–229 paid231; payment does not duplicate cost.
+Incremental bills payable,0,"Capital and operating bills, less actual cost payments."
+Rolling tax unpaid,0,10% positive operating profit from first incurred costs195; due272/362/452/542. Ordinary dues included once within upkeep.
+Customer advances,0,Unearned service receipts stay a liability.
+Available after actual liabilities,487.37,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
+Service receivables,0,Earned fees less allocated receipts.
+Supplier / wage prepayments,0,"Cash paid ahead of incurred bills or wages, including overpayments; excluded from available cash."
+Loan principal,0,Funding is not operating income.
+Recorded capital additions,0,Cost is not appraisal; spending does not commission an upgrade.
+Earned service revenue,90,Original trials62 + Hessa2t milling2248 + Elden10t berth23020 =90 earned/collected service fees. Next Hessa2328/Neris23324/Elden23720 unearned; no grain sales or new storage receipt.
+Operating costs accrued,432.63,Through230:282.20 actual wages +90 restoration +12 escort +48.428571 upkeep =432.63 accrued operating costs. Includes3.80 Hessa224 and3.80 Elden230 crew; Meret/watch/upkeep counted once.
+Operating result before levy,-342.63,90 revenue −432.63 operating costs =−342.63 cumulative result including startup. Hessa224 contribution8−3.80=4.20 before already-recorded shared overhead. Tax0; no Carrow.
+Tracked customer goods t,0,Customer custody0: original14t returned219/223; Hessa-owned2t wheat milled/returned224 as wholemeal; Elden10t returned230. Hessa232/Neris233 future grain unreceived. Joren219 storage inquiry declined; Neris226 refusal unchanged.
+Approved unbilled upgrades,0,90gp restorative package incurred/paid209–211. No unbilled approvedcapital; former80reserve released231.
+Next profit-tax due,272,Unpaid prior periods retain their original due date.
+Setup / posting state,Checks clear,A clear entry check alone does not open the estate.
+Input issues,0,Filter the owning register to locate each issue.
+Free cash after approved90gp works,487.37,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
+
+CONDITIONAL WEEKLY PLAN,Units,Rate gp,Gross gp,Basis
+Milling,15,4,60,t input grain
+Storage,20,1,20,ton-week
+Handling,15,2,30,t handled
+Weekly gross,,,110
+All-in weekly operating budget,,,89.4
+Weekly provisional surplus,,,20.6,"Conditional110gp/week remains a fully-booked forecast. Actual through230 revenue90, cost432.63, result−342.63: includes Hessa2248gp milling and Elden23020gp berth. D231-MIREGATE-LOCAL-FARMERS-RETRO-001; future232/233/237 orders remain unearned."
+Opening funding envelope,,,250,90 works +80 operating float +80 reserve; not all expenditure.
+
+OPENING / COMMISSIONING,Status,Recorded fact
+Recovery / title,Complete,"Deed213, safety212, opening216 preserved. Isbet/hands paused223–229 except funded224Hessa milling, then funded230Elden berth; no blanket service closure or paperwork hold. Existing crew only,8gp firstlot funds3.80crew paid229. D231-MIREGATE-LOCAL-FARMERS-RETRO-001"
+Milling,Ready,"Existing line2.5t/day; original6t wholemeal216–218 accepted. Routine pre-use readiness checked during funded Isbet230 shift; next6t233 subject actualgrain,24gp advance and intake inspection. No second line."
+Storage,Ready,Existing certified8t dry storage capacity. Original8t216–223 completed;226 Neris reply found no suitable separate lot228–235. Next contact233; no occupancy or storage revenue.
+Private berth,Ready,"Private berth/causeway repaired209–211 and loaded safety test212 passed; actual10t Neris cargo handled216,25gp collected217 under D225-MIREGATE-D213-RECONCILE-001. Adopted regional geography (D199-SECONDARY-CHANNEL-CANON-001): Miregate's historic upstream sluices/mill lie on Ossent's locally used but commercially diminished SECONDARY branch, not Crown's protected principal trade river. Old works do not establish decades of total abandonment; Compact seized site comparatively recently. This does not alter current inspector, charter, safe-berth or customer acceptance gates. Adopted upper-course canon (D199-MIREGATE-UPPER-ROUTE-001): SAME Miregate–Reedbed–Old Fort secondary river runs farther upstream toward Crownsunder's rocky hills; the nearest potentially useful navigable upper landing is ~FOUR WAGON DAYS overland from Blackthorn, NOT river frontage at Blackthorn. The upper channel's steep/rocky limits stop upstream barges; lower river service toward Miregate may permit lawful transfers after independently verified depth, berth, carrier and route permissions. Landing precise location, name, and downriver travel time remain unmapped. No new booked shipment or commerce guaranteed."
+
+WORKFLOW,Entry point
+1. Establish the opening,"Miregate - Setup: verify opening date/cash, liabilities, tax scope, reserve and authority. Miregate - Schedule records actual clearance, inspections, grant and commissioning."
+2. Agree work,"Miregate - Agreements holds frameworks, prospects and upgrade budgets. Miregate - Jobs records each agreed service/price, payer, specifications, billing basis and due day. Keep old rates when amending terms; add a new job/version."
+3. Hold customer goods,"Miregate - Custody: one lot per owner and grade/specification; record form, tonnes, location, condition and signed release. Milling outputs come from Service Log once. Customer grain, flour, bran and cargo remain customer property."
+4. Record services,"Miregate - Service Log: milling input/output/bran/loss and acceptance; storage constant-tonnage [start,end) intervals; private berth movement IDs. Split storage at movements, processing, price or owner changes. Preserve accepted history; use credit rows and separate actual custody returns."
+5. Record costs and payments,"Miregate - Expenses holds incurred Operating/Capital bills. Active dated wages/allowances accrue from Miregate - Setup once. Miregate - Cashbook allocates actual receipts/refunds, cost payments, payroll, tax and funding. Partial payment does not close the unpaid balance."
+6. Improve the estate,"Approve a quoted upgrade budget, enter bills/payments, then record actual commissioning and dated capacity evidence in Miregate - Schedule before updating verified capacity. Future improvements use Required? No; preserve original opening tasks and accepted history."
+7. Keep estates separate,"Blackthorn and Miregate use separate journals and cash balances. For actual transfers, post equal/opposite entries with the same Transfer ID in both cashbooks. Neither leg is trade revenue or a personal draw."
+8. Close and extend,Advance Posted through only after complete actual records. Resolve checks. Prepared capacity:1000 service/custody/cash events;500 jobs/costs/tasks;300 agreements/lots;200 rate versions/tax periods;40 services. Insert rows INSIDE the final prepared row and copy adjacent formula/validation cells.
+Opening boundary,"Current services are milling/storage/private berth work, not House grain trading. A future purchase/resale, in-kind grain fee or new product line needs explicit ownership, cost and billing terms before posting. No public toll is implied."
+
+Conditional funding review,Owner funding: original350 +400 new231;80 separate incoming estatecapital transfers.,"D231-MIREGATE-LOCAL-FARMERS-RETRO-001: current Day231 late morning, completed close230 retained. Local-farmer224 milling adds8gp earned/received and3.80 actual crew cost, improving cumulative result4.20. Cash501.40 received/available to Meret; wages10.80+upkeep3.23=14.03 due236; reserve0, available487.37; advances/receivables/customerstock0, tax0. New229crew payment3.80 and Meret4.20 funded by224receipt; previous231Meret44 corrected39.80, total oldMeret44 unchanged. Existing400personal contribution/20Reedbed/60Fort and22.60upkeep payment retained; Vpersonal1197gp3sp8cp and V-heldestatecash0 unchanged."
+
+Blackthorn accounts,Open Blackthorn overview
+
+← Estates index
