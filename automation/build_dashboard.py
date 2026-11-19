@@ -69,6 +69,6 @@ def main():
   "magic_shop_lots":shops()
  }
  OUT.parent.mkdir(parents=True,exist_ok=True)
- OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+ OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(f"Built {OUT}")
 if __name__=="__main__":main()
