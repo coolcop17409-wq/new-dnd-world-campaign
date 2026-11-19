@@ -3,7 +3,7 @@
 ## Staging tools
 
 - `estate_audit.py` checks displayed estate cash against recorded liabilities, cashbook IDs/reconciliation flags, and unfinished schedule items due by the supplied campaign day.
-- `estate_ledger.py` rolls normalized cash, liability, receivable and inventory events forward from the dated opening snapshots. It checks the Day 231 cash/liability checkpoint, paired transfers, unique keys, settlements, verified inventory and projected balances.
+- `estate_ledger.py` rolls normalized cash, liability, receivable and inventory events forward from the dated opening snapshots. It checks the Day 231 cash/liability checkpoint, paired transfers, unique keys, settlements, verified inventory and projected balances. Earned income and shipment/gate-sale release events must reference completed property schedule tasks; the engine checks actual day and evidence.
 - `blackthorn_rules.py` reproduces source-checked effective-date payroll/upkeep accrual and rolling 10% tax helper calculations.
 - `routine_accruals.py` previews deterministic Blackthorn management payroll, production payroll and upkeep accruals through an explicitly confirmed closed day. An Actions checkbox is required to post; preview is default. Posting is stable-ID/idempotent and only writes the staging event ledger and close marker. It does not pay wages or post a tax assessment/payment.
 - `blackthorn_operations.py` replays the 283 source Blackthorn operations rows, checks formulas row-by-row, and calculates production cost, revenue, COGS, stock, shipment transit, loss and labor. Future rows in `data/estate/blackthorn-operations-events.csv` are evidence-gated and must follow the Day 231 checkpoint.
