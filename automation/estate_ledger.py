@@ -111,6 +111,7 @@ def main():
  income_all=defaultdict(Decimal);expense_all=defaultdict(Decimal)
  ids=set();transfer_totals=defaultdict(Decimal);transfer_counts=defaultdict(int);parsed=0
  blocked={"forecast","planned","scheduled","pending","unconfirmed","estimate"}
+ prerequisites=prerequisite_tasks()
  for row in rows(DATA/"events.csv"):
   eid=(row.get("event_id") or "").strip();estate=(row.get("estate") or "").strip()
   if not eid:errors.append("event without an event ID");continue
