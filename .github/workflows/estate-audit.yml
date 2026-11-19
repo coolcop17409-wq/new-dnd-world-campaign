@@ -14,6 +14,12 @@ on:
       - "automation/estate_audit.py"
       - "automation/estate_ledger.py"
       - "automation/blackthorn_rules.py"
+      - "automation/blackthorn_operations.py"
+      - "trackers/csv/property/blackthorn-operations.csv"
+      - "trackers/csv/property/blackthorn-rates-staff.csv"
+      - "trackers/csv/property/blackthorn-orders.csv"
+      - "trackers/csv/property/blackthorn-schedule.csv"
+      - "trackers/csv/property/blackthorn-opening-balances.csv"
       - "data/estate/blackthorn-rates.csv"
       - "automation/build_dashboard.py"
       - "automation/tracker_validate.py"
@@ -42,7 +48,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check Python syntax
-        run: python3 -m py_compile automation/estate_audit.py automation/estate_ledger.py automation/blackthorn_rules.py automation/build_dashboard.py automation/tracker_validate.py automation/test_estate_ledger.py
+        run: python3 -m py_compile automation/estate_audit.py automation/estate_ledger.py automation/blackthorn_rules.py automation/blackthorn_operations.py automation/build_dashboard.py automation/tracker_validate.py automation/test_estate_ledger.py
 
       - name: Exercise ledger edge cases
         run: python3 -m unittest automation/test_estate_ledger.py -v
@@ -67,18 +73,19 @@ jobs:
             echo "Estate ledger report missing; dashboard not generated."
             dashboard_status=1
           fi
+          echo "blackthorn_operations_status=$blackthorn_operations_status" >> "$GITHUB_OUTPUT"
           echo "audit_status=$audit_status" >> "$GITHUB_OUTPUT"
           echo "ledger_status=$ledger_status" >> "$GITHUB_OUTPUT"
           echo "tracker_status=$tracker_status" >> "$GITHUB_OUTPUT"
           echo "dashboard_status=$dashboard_status" >> "$GITHUB_OUTPUT"
-          if [ "$audit_status" -ne 0 ] || [ "$ledger_status" -ne 0 ] || [ "$tracker_status" -ne 0 ] || [ "$dashboard_status" -ne 0 ]; then
+          if [ "$blackthorn_operations_status" -ne 0 ] || [ "$audit_status" -ne 0 ] || [ "$ledger_status" -ne 0 ] || [ "$tracker_status" -ne 0 ] || [ "$dashboard_status" -ne 0 ]; then
             exit 1
           fi
 
       - name: Commit generated staging reports
         if: always()
         run: |
-          if [ -z "$(git status --porcelain -- reports/estate-review.md reports/estate-ledger.json reports/tracker-validation.json dashboard/dashboard.json)" ]; then
+          if [ -z "$(git status --porcelain -- reports/estate-review.md reports/estate-ledger.json reports/blackthorn-operations.json reports/tracker-validation.json dashboard/dashboard.json)" ]; then
             echo "Staging reports have no changes."
             exit 0
           fi
