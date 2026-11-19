@@ -171,7 +171,7 @@ def main():
         meta_fd, meta_tmp = tempfile.mkstemp(prefix="routine-meta-", suffix=".json", dir=meta_path.parent)
         with os.fdopen(meta_fd, "w", encoding="utf-8") as handle:
             json.dump(meta, handle, indent=2)
-            handle.write("\\n")
+            handle.write("\n")
         os.replace(meta_tmp, meta_path)
         applied_count = len(new_rows)
         report["applied_count"] = applied_count
