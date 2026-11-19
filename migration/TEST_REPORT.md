@@ -16,13 +16,14 @@ Visibility: Public, as explicitly chosen by the owner.
 - The unfinished-task report was checked against the live Property schedules. It lists 16 current due/overdue/held items. Two stale Miregate payroll task rows are explicitly mapped to their completed Day 229 successor; they are not duplicated as open tasks.
 - Tracker validation passed for V, Cirren, Fenar, their inventory snapshots, 89 magic-shop stock rows, dealer keys, and existing shop event IDs.
 - A generated Day 231 dashboard was read back. It shows party values, tracked resources, owned-item/custody notes, estate balances, and 57 nonzero shop lots.
+- The live Property workbook shows zero receivables across all four estates. Blackthorn's Day 230 Accounts formulas total 41.12 t on-site book stock, 13 t reserved, 0 t in transit, and 349.43 gp book cost. The six opening grade rows were imported as provisional because the workbook explicitly says physical count, seasoning, and buyer certification are unverified; the GitHub ledger reports zero eligible-to-ship stock until verified.
 - Synthetic ledger scenarios passed for a partially paid liability, an accepted sale with delayed collection, failed work that posts no amount, a scheduled tax date that posts no assessment, inventory quantity/cost release, and paired estate-transfer legs. These test the ledger rules in isolation; they do not establish those events happened in the campaign.
 
 ## What remains unverified
 
 - No campaign event has yet been written through the character event ledger; the event-log overlay and a complete play → write → regenerate → compare cycle still need an actual confirmed campaign change.
 - The dashboard is a repository artifact; GitHub Pages is not enabled.
-- The estate seed preserves cashbook history and starts liabilities from an as-of-Day-230 balance-forward snapshot. Receivable and inventory event handling is implemented, but the opening receivable and inventory registers are empty until the source workbook is reconciled. Full historical/activity formula parity remains incomplete for wages, operating costs, tax calculations, inventory valuation/COGS, production, shipment and acceptance workflows, and automated service prerequisite checks.
+- The estate seed preserves cashbook history and starts liabilities from an as-of-Day-230 balance-forward snapshot. The receivable register is empty because the source balance is zero; Blackthorn opening book inventory is imported but unverified. Full historical/activity formula parity remains incomplete for wages, operating costs, tax calculations, inventory valuation/COGS, production, shipment and acceptance workflows, and automated service prerequisite checks.
 - Character event checks are range checks; no real campaign change has yet been written through that ledger, and the checks do not replace every sheet formula or apply 2014 class/rest mechanics automatically.
 - Magic-shop keys and stock rows validate, but its due business reviews and turnover remain DM-resolved under the existing Rules tab.
 - Drive remains authoritative. No live Drive record or ChatGPT Project Source was changed, and no cutover was made.
