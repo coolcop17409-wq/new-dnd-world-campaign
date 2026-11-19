@@ -21,7 +21,7 @@ A generated schedule date is a reminder to review. It does not itself post wages
 - Record an earned cost once when incurred. Record payment later as a cash decrease and reduction of that same liability; do not record a second expense.
 - Record earned income at the actual acceptance or other contract trigger. Record a receivable when payment is still owed; later collection reduces that receivable and increases cash without earning the income again. If acceptance is paid immediately, connect the cash to the acceptance event and do not create a lingering receivable.
 - Partial payments reduce only the outstanding balance. Failed work posts no unearned service income. Actual costs or wages already incurred remain due even when the job fails.
-- A tax date or forecast is not an assessment or payment. Calculate tax from realized income and incurred deductible costs under the estate's source rule, carry any unpaid assessed balance forward, and post cash only when paid.
+- A tax date or forecast is not an assessment or payment. `blackthorn_tax.py` uses the Day 230 source-verified base/assessment, source 90-day periods, posted realized income/expense events, operation replay results, and effective-dated management/upkeep rates. The first period rolls forward from Day 230 through Day 271; later periods use their own actual period windows. It computes assessment deltas against already assessed amounts and preserves unpaid liability balances. A manual Actions assessment post requires both an explicit `closed_through_day` and `post_closed_day_accruals=true`; the tax script checks the accrual close marker matches that day. Preview is the default. Payments remain separate, evidence-backed cash/liability events.
 - Paired estate transfers share a reference ID and must have equal opposite cash legs. No protected reserve is calculated.
 
 ### Recurring Blackthorn accruals
@@ -31,7 +31,7 @@ A generated schedule date is a reminder to review. It does not itself post wages
 - refuses to proceed without the explicit close day or when the preview has conflicts;
 - uses deterministic day/category IDs, so a retry cannot duplicate an already posted accrual;
 - appends the earned liability rows to the staging event ledger and advances the close marker;
-- does not pay wages, post cash, or create tax assessment/payment entries.
+- does not pay wages or create tax-payment entries. Assessment deltas require the separate `assess_closed_tax_periods` checkbox plus a matching explicit accrual close.
 
 Production payroll is a liability when earned. The operation replay allocates that labor cost to actual production or idle loss. Do not also post it as general expense at accrual time. Day 231 remains an open-day checkpoint until an authorized update explicitly confirms its close.
 
@@ -82,10 +82,10 @@ The migrated Magic Shops `Rules` tab is the behavior specification; its searchab
 Do not point play or Project Sources here until all of these pass:
 
 - opening cash, liabilities, receivables, inventory/custody, staff, ownership and outstanding commitments are complete at a confirmed checkpoint;
-- a real Blackthorn operation chain is checked through physical verification, dispatch, partial acceptance, COGS, receivable creation and later collection; the synthetic bridge test alone is not enough;
+- a real Blackthorn operation chain is checked through physical verification, dispatch, partial acceptance, COGS, receivable creation and later collection, then compared with the owning Drive workbook;
 - service events cite and satisfy the full applicable prerequisites, not merely one valid task ID;
 - the recurring close/post/retry path is exercised through the Actions checkbox and does not double-post;
-- a forward tax-base roll-forward and actual period-assessment posting are implemented, tested against the source rule, and based only on realized entries; this remains unimplemented today;
+- the forward tax-base roll-forward and closed-period assessment posting are tested against the source rule and use only realized entries; the integrated synthetic chain passes, while an actual closed period still needs Drive comparison before cutover;
 - one real campaign update succeeds across estate, character, inventory and shop cases as applicable, then matches the owning source workbook;
 - the generated views and sync instructions are usable from the GitHub connector, with failures and conflicts surfaced;
 - public repository exposure of DM preparation remains an accepted user choice.
