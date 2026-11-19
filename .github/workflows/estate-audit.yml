@@ -46,8 +46,13 @@ jobs:
           audit_status=$?
           python3 automation/estate_ledger.py
           ledger_status=$?
-          python3 automation/build_dashboard.py
-          dashboard_status=$?
+          if [ -f reports/estate-ledger.json ]; then
+            python3 automation/build_dashboard.py
+            dashboard_status=$?
+          else
+            echo "Estate ledger report missing; dashboard not generated."
+            dashboard_status=1
+          fi
           echo "audit_status=$audit_status" >> "$GITHUB_OUTPUT"
           echo "ledger_status=$ledger_status" >> "$GITHUB_OUTPUT"
           echo "dashboard_status=$dashboard_status" >> "$GITHUB_OUTPUT"
