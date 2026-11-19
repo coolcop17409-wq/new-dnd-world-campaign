@@ -74,11 +74,17 @@ def main():
   if qty<0:errors.append(f"{iid}: negative opening quantity {qty}")
   opening_cost=dec(row.get("opening_cost_gp","0"))
   if opening_cost<0:errors.append(f"{iid}: negative opening inventory cost {opening_cost}")
-  inventory_balance[iid]={"estate":estate,"quantity":qty,"cost":opening_cost}
+  reserved=dec(row.get("opening_reserved_quantity","0"));transit_qty=dec(row.get("opening_transit_quantity","0"));transit_cost=dec(row.get("opening_transit_cost_gp","0"))
+  verification=(row.get("verification_status") or "unverified").strip().lower()
+  if reserved<0 or reserved>qty:errors.append(f"{iid}: reserved quantity must be between zero and on-site book quantity")
+  if transit_qty<0 or transit_cost<0:errors.append(f"{iid}: negative in-transit inventory")
+  if verification not in {"verified","provisional","unverified"}:errors.append(f"{iid}: invalid verification_status {verification}")
+  inventory_balance[iid]={"estate":estate,"quantity":qty,"reserved":reserved,"cost":opening_cost,"transit_quantity":transit_qty,"transit_cost":transit_cost,"verification":verification}
  cash_deltas_cut=defaultdict(Decimal);liability_deltas_cut=defaultdict(Decimal)
  cash_deltas_all=defaultdict(Decimal);liability_deltas_all=defaultdict(Decimal)
  receivable_deltas_cut=defaultdict(Decimal);receivable_deltas_all=defaultdict(Decimal)
  inventory_deltas_cut=defaultdict(Decimal);inventory_deltas_all=defaultdict(Decimal)
+ inventory_reservations=defaultdict(Decimal);inventory_transit=defaultdict(Decimal)
  income_all=defaultdict(Decimal);expense_all=defaultdict(Decimal)
  ids=set();transfer_totals=defaultdict(Decimal);transfer_counts=defaultdict(int);parsed=0
  blocked={"forecast","planned","scheduled","pending","unconfirmed","estimate"}
@@ -98,14 +104,19 @@ def main():
   accepted=dec(row.get("accepted_quantity","0"))
   receivable_delta=dec(row.get("receivable_delta_gp","0"))
   inventory_cost=dec(row.get("inventory_cost_delta_gp","0"))
+  reserved_delta=dec(row.get("reserved_quantity_delta","0"))
+  transit_delta=dec(row.get("in_transit_quantity_delta","0"))
+  transit_cost_delta=dec(row.get("in_transit_cost_delta_gp","0"))
+  verification=(row.get("inventory_verification_status") or "").strip().lower()
   amount=dec(row.get("amount_gp","0"))
-  financial=[cash_delta,liability_delta,receivable_delta,income,expense,quantity,accepted,inventory_cost]
+  inventory_financial=[quantity,inventory_cost,reserved_delta,transit_delta,transit_cost_delta,accepted]
+  financial=[cash_delta,liability_delta,receivable_delta,income,expense,*inventory_financial]
   if status in blocked:
    if any(financial) or amount:errors.append(f"{eid}: {status} event cannot post cash, liability, receivable, profit, inventory, or shipment amounts")
    continue
   if any(financial) and not (row.get("evidence") or "").strip():errors.append(f"{eid}: posted changes require evidence")
-  if quantity and not (row.get("inventory_id") or "").strip():errors.append(f"{eid}: inventory quantity change requires inventory_id")
-  if inventory_cost and not (row.get("inventory_id") or "").strip():errors.append(f"{eid}: inventory cost change requires inventory_id")
+  if any(inventory_financial) and not (row.get("inventory_id") or "").strip():errors.append(f"{eid}: inventory quantity, reservation, transit, cost, or acceptance change requires inventory_id")
+  if verification and (verification not in {"verified","provisional","unverified"} or not (row.get("inventory_id") or "").strip()):errors.append(f"{eid}: inventory verification update needs inventory_id and a supported status")
   if accepted and not ((row.get("shipment_id") or "").strip() or (row.get("reference_id") or "").strip()):errors.append(f"{eid}: accepted quantity requires a shipment_id or reference_id")
   if accepted<0:errors.append(f"{eid}: accepted_quantity cannot be negative")
   if any(financial) and day==0:errors.append(f"{eid}: posted changes require an actual campaign day")
@@ -134,18 +145,25 @@ def main():
      if next_cut<0:errors.append(f"{eid}: snapshot-cutoff collection exceeds receivable {rid}")
      receivable_cut[rid]["balance"]=next_cut;receivable_deltas_cut[estate]+=receivable_delta
   iid=(row.get("inventory_id") or "").strip()
-  if quantity or inventory_cost:
+  if any(inventory_financial) or verification:
    if iid not in inventory_balance:
-    if quantity<0 or inventory_cost<0:errors.append(f"{eid}: cannot reduce unregistered opening inventory {iid}")
-    else:inventory_balance[iid]={"estate":estate,"quantity":Decimal(0),"cost":Decimal(0)}
+    if any(x<0 for x in [quantity,inventory_cost,reserved_delta,transit_delta,transit_cost_delta]):errors.append(f"{eid}: cannot reduce unregistered opening inventory {iid}")
+    else:inventory_balance[iid]={"estate":estate,"quantity":Decimal(0),"reserved":Decimal(0),"cost":Decimal(0),"transit_quantity":Decimal(0),"transit_cost":Decimal(0),"verification":"unverified"}
    if iid in inventory_balance:
-    if inventory_balance[iid]["estate"]!=estate:errors.append(f"{eid}: inventory {iid} belongs to another estate")
-    next_qty=inventory_balance[iid]["quantity"]+quantity
-    next_cost=inventory_balance[iid]["cost"]+inventory_cost
+    stock=inventory_balance[iid]
+    if stock["estate"]!=estate:errors.append(f"{eid}: inventory {iid} belongs to another estate")
+    if stock["verification"]!="verified" and (quantity<0 or inventory_cost<0 or transit_delta<0 or transit_cost_delta<0):errors.append(f"{eid}: inventory {iid} is {stock['verification']}; verify its physical count before dispatch or release")
+    next_qty=stock["quantity"]+quantity;next_cost=stock["cost"]+inventory_cost
+    next_reserved=stock["reserved"]+reserved_delta
+    next_transit=stock["transit_quantity"]+transit_delta;next_transit_cost=stock["transit_cost"]+transit_cost_delta
     if next_qty<0:errors.append(f"{eid}: inventory change exceeds available {iid} quantity by {money(-next_qty)}")
     if next_cost<0:errors.append(f"{eid}: inventory cost release exceeds recorded cost for {iid} by {money(-next_cost)} gp")
-    inventory_balance[iid]["quantity"]=next_qty;inventory_balance[iid]["cost"]=next_cost
-    inventory_deltas_all[estate]+=quantity
+    if next_reserved<0 or next_reserved>next_qty:errors.append(f"{eid}: reservation for {iid} must remain between zero and on-site book quantity")
+    if next_transit<0:errors.append(f"{eid}: in-transit quantity for {iid} cannot be negative")
+    if next_transit_cost<0:errors.append(f"{eid}: in-transit cost for {iid} cannot be negative")
+    stock.update({"quantity":next_qty,"cost":next_cost,"reserved":next_reserved,"transit_quantity":next_transit,"transit_cost":next_transit_cost})
+    if verification:stock["verification"]=verification
+    inventory_deltas_all[estate]+=quantity;inventory_reservations[estate]+=reserved_delta;inventory_transit[estate]+=transit_delta
     if day<=cutoff:inventory_deltas_cut[estate]+=quantity
   if day<=cutoff:
    cash_cut[estate]+=cash_delta;cash_deltas_cut[estate]+=cash_delta
@@ -193,9 +211,12 @@ def main():
   if available_cut!=money(available_expected):errors.append(f"{estate}: available through Day {int(cutoff)} {available_cut} does not match overview {money(available_expected)}")
   receivable_at_cut=sum((x["balance"] for x in receivable_cut.values() if x["estate"]==estate),Decimal(0))
   receivable_latest=sum((x["balance"] for x in receivable_balance.values() if x["estate"]==estate),Decimal(0))
-  inventory_rows={k:v for k,v in inventory_balance.items() if v["estate"]==estate and (v["quantity"] or v["cost"])}
+  inventory_rows={k:v for k,v in inventory_balance.items() if v["estate"]==estate and any(v[key] for key in ("quantity","cost","reserved","transit_quantity","transit_cost"))}
   inventory_qty=sum((x["quantity"] for x in inventory_rows.values()),Decimal(0))
   inventory_cost=sum((x["cost"] for x in inventory_rows.values()),Decimal(0))
+  inventory_available=sum((max(Decimal(0),x["quantity"]-x["reserved"]) if x["verification"]=="verified" else Decimal(0) for x in inventory_rows.values()),Decimal(0))
+  inventory_transit_qty=sum((x["transit_quantity"] for x in inventory_rows.values()),Decimal(0))
+  inventory_transit_cost=sum((x["transit_cost"] for x in inventory_rows.values()),Decimal(0))
   snapshot["estates"][estate]={
    "snapshot_cash_gp":str(money(cash_cut[estate])),"snapshot_liabilities_gp":str(money(liab_at_cut)),"snapshot_available_gp":str(available_cut),
    "projected_cash_gp":str(money(cash_all[estate])),"projected_liabilities_gp":str(money(liab_latest)),"projected_available_gp":str(available_latest),
@@ -208,9 +229,14 @@ def main():
    "actual_income_after_snapshot_gp":str(money(income_all[estate])),
    "actual_expense_after_snapshot_gp":str(money(expense_all[estate])),
    "inventory_quantity_delta_after_snapshot":str(money(inventory_deltas_all[estate]-inventory_deltas_cut[estate])),
-   "inventory_quantity":str(money(inventory_qty)),
-   "inventory_cost_basis_gp":str(money(inventory_cost)),
-   "inventory_items":{k:{"quantity":str(money(v["quantity"])),"cost_basis_gp":str(money(v["cost"]))} for k,v in inventory_rows.items()},
+   "inventory_reserved_delta_after_snapshot":str(money(inventory_reservations[estate])),
+   "inventory_transit_quantity_delta_after_snapshot":str(money(inventory_transit[estate])),
+   "inventory_book_quantity":str(money(inventory_qty)),
+   "inventory_eligible_to_ship_quantity":str(money(inventory_available)),
+   "inventory_on_site_cost_basis_gp":str(money(inventory_cost)),
+   "inventory_in_transit_quantity":str(money(inventory_transit_qty)),
+   "inventory_in_transit_cost_basis_gp":str(money(inventory_transit_cost)),
+   "inventory_items":{k:{"book_quantity":str(money(v["quantity"])),"reserved_quantity":str(money(v["reserved"])),"unreserved_book_quantity":str(money(max(Decimal(0),v["quantity"]-v["reserved"]))),"in_transit_quantity":str(money(v["transit_quantity"])),"on_site_cost_basis_gp":str(money(v["cost"])),"in_transit_cost_basis_gp":str(money(v["transit_cost"])),"verification_status":v["verification"],"eligible_to_ship_quantity":str(money(max(Decimal(0),v["quantity"]-v["reserved"]) if v["verification"]=="verified" else Decimal(0)))} for k,v in inventory_rows.items()},
   }
   if cash_all[estate]<0:errors.append(f"{estate}: projected cash is negative")
  snapshot["findings"]=errors
