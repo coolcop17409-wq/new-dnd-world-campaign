@@ -305,6 +305,7 @@ class EstateLedgerScenarioTests(unittest.TestCase):
         self.assertEqual(event["expense_delta_gp"], "25.07")
         self.assertEqual(event["in_transit_quantity_delta"], "-3")
         self.assertEqual(event["prerequisite_ref"], "QC-1")
+        self.assertEqual(event["inventory_id"], "BT-STOCK-DRESSED-STONE")
         operation["Cash received gp"] = ""
         _, findings = blackthorn_operations.ledger_events_for_operations(
             [operation], calculated, orders
