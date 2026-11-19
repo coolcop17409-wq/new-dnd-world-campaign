@@ -4,6 +4,8 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
+import tempfile
 from collections import defaultdict
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
@@ -135,13 +137,44 @@ def generate(rates, last_closed_day, closed_through_day, existing=None):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--closed-through-day", type=int)
+    parser.add_argument("--apply", action="store_true",
+                        help="append generated rows to the staging event ledger and advance the confirmed close")
     args = parser.parse_args()
     meta = json.loads((DATA / "routine-accrual-meta.json").read_text(encoding="utf-8"))
     through = args.closed_through_day if args.closed_through_day is not None else int(meta["last_confirmed_closed_day"])
-    report = generate(load_rates(), int(meta["last_confirmed_closed_day"]), through, load_existing())
+    existing = load_existing()
+    report = generate(load_rates(), int(meta["last_confirmed_closed_day"]), through, existing)
+    applied_count = 0
+    if args.apply:
+        if args.closed_through_day is None:
+            raise ValueError("--apply requires an explicit --closed-through-day confirmation")
+        if report["status"] != "PASS":
+            raise ValueError("cannot apply accruals while the preview has conflicts")
+        event_path = DATA / "events.csv"
+        with event_path.open(encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            fields = reader.fieldnames
+            all_events = list(reader)
+        known = {row.get("event_id", "").strip() for row in all_events}
+        new_rows = [row for row in report["events"] if row["event_id"] not in known]
+        if new_rows:
+            all_events.extend(new_rows)
+            event_path.parent.mkdir(parents=True, exist_ok=True)
+            fd, tmp = tempfile.mkstemp(prefix="events-", suffix=".csv", dir=event_path.parent)
+            with os.fdopen(fd, "w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=fields)
+                writer.writeheader()
+                writer.writerows(all_events)
+            os.replace(tmp, event_path)
+        meta["last_confirmed_closed_day"] = through
+        meta_path = DATA / "routine-accrual-meta.json"
+        meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+        applied_count = len(new_rows)
+        report["applied_count"] = applied_count
+        report["note"] = "Generated rows appended idempotently to the staging event ledger; Drive was not changed."
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     REPORT.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({k: report[k] for k in ("status", "last_closed_day", "closed_through_day", "event_count", "totals_gp", "conflicts")}, indent=2))
+    print(json.dumps({k: report.get(k) for k in ("status", "last_closed_day", "closed_through_day", "event_count", "applied_count", "totals_gp", "conflicts", "note")}, indent=2))
     return 1 if report["status"] != "PASS" else 0
 
 
