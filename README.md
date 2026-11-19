@@ -16,6 +16,8 @@ The repository is public by the owner's explicit choice. All content, including 
 - `world/politics/` — political-reference topics
 - `archive/` — closed campaign history and retired notes
 - `trackers/` — workbook exports and searchable CSV value snapshots
+- `automation/` — estate cash reconciliation and due-task review prototype
+- `reports/estate-review.md` — latest generated estate review, when Actions has run
 - `assets/README.md` — maps and images retained in Drive
 - `MIGRATION_MAP.md` — source-to-file index
 - `migration/TEST_REPORT.md` — staging checks and cutover boundary
@@ -32,7 +34,8 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. The e
 - [x] Readable value snapshots created for each workbook tab
 - [x] Representative campaign retrieval and tracker value checks passed
 - [x] Non-campaign write/read round trip passed
+- [x] Estate audit and campaign-day task-review prototype added
 - [ ] Full play and synchronization workflow tested
-- [ ] Project Sources remain pointed to Drive until cutover is separately approved
+- [x] Drive remains authoritative and Project Sources remain pointed to Drive
 
-The campaign has not been switched to GitHub. See `migration/TEST_REPORT.md` for exactly what was checked.
+The campaign has not been switched to GitHub. The estate workflow audits staged CSV snapshots and does not post transactions. See `automation/README.md` and `migration/TEST_REPORT.md`.
