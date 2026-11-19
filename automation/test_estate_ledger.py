@@ -56,7 +56,8 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                 [{"receivable_id": "R0", "estate": "Test", "opening_amount_gp": "20", "as_of_day": "10"}])
             self.write_csv(data / "opening-inventory.csv",
                 ["inventory_id", "estate", "item", "opening_quantity", "opening_reserved_quantity", "opening_transit_quantity", "opening_cost_gp", "opening_transit_cost_gp", "as_of_day", "verification_status", "evidence"],
-                [{"inventory_id": "grain", "estate": "Test", "item": "Grain", "opening_quantity": "5", "opening_reserved_quantity": "2", "opening_cost_gp": "50", "as_of_day": "10", "verification_status": "verified"}])
+                [{"inventory_id": "grain", "estate": "Test", "item": "Grain", "opening_quantity": "5", "opening_reserved_quantity": "2", "opening_cost_gp": "50", "as_of_day": "10", "verification_status": "verified"},
+                 {"inventory_id": "timber", "estate": "Test", "item": "Timber", "opening_quantity": "4", "opening_cost_gp": "20", "as_of_day": "10", "verification_status": "provisional"}])
             events = []
             def event(event_id, estate, day, **values):
                 row = {name: "" for name in FIELDS}
@@ -100,6 +101,14 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                 with redirect_stdout(io.StringIO()):
                     self.assertEqual(ledger.main(), 0)
                 report = json.loads((reports / "ledger.json").read_text(encoding="utf-8"))
+                event("provisional-release", "Test", 15, event_type="shipment_dispatch",
+                      inventory_id="timber", quantity_delta="-1", inventory_cost_delta_gp="-5",
+                      shipment_id="SHIP-PROVISIONAL", in_transit_quantity_delta="1",
+                      in_transit_cost_delta_gp="5")
+                self.write_csv(data / "events.csv", FIELDS, events)
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(ledger.main(), 1)
+                blocked_report = json.loads((reports / "ledger.json").read_text(encoding="utf-8"))
             finally:
                 ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES = old
             self.assertEqual(report["status"], "PASS")
@@ -113,6 +122,11 @@ class EstateLedgerScenarioTests(unittest.TestCase):
             self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["verification_status"], "verified")
             self.assertEqual(report["estates"]["Test"]["inventory_items"]["grain"]["in_transit_quantity"], "0.0000")
             self.assertEqual(report["estates"]["Partner"]["projected_cash_gp"], "27.00")
+            self.assertEqual(blocked_report["status"], "CHECK")
+            self.assertTrue(any(
+                "verify its physical count before dispatch or release" in finding
+                for finding in blocked_report["findings"]
+            ))
 
 if __name__ == "__main__":
     unittest.main()
