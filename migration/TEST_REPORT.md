@@ -8,7 +8,7 @@ Visibility: Public, as explicitly chosen by the owner.
 - GitHub connector reads and writes were verified earlier, including a non-campaign write/read round trip.
 - Representative campaign files, including current state, rules, DM preparation, political reference, and workbook snapshots, were retrieved from GitHub.
 - Existing Drive checkpoint values checked against the workbook snapshots: V 48/48 HP and AC 19; Cirren 51/51 HP and AC 18; Fenar 59/59 HP and AC 14.
-- Estate audit, event ledger, tracker validation, dashboard generation, and the synthetic ledger scenario test all passed in GitHub Actions (run 30). The ledger contains 121 unique actual cashbook IDs and reconciles the Day 231 checkpoint:
+- Estate audit, event ledger, tracker validation, dashboard generation, and the synthetic ledger scenario test all passed in the latest full GitHub Actions run (run 32). The ledger contains 121 unique actual cashbook IDs and reconciles the Day 231 checkpoint:
   - Miregate 501.40 gp cash, 14.03 gp liabilities, 487.37 gp available.
   - Reedbed 63.80 gp cash, 8.60 gp liabilities, 55.20 gp available.
   - Old Distributary Fort 130.00 gp cash, 5.00 gp liabilities, 125.00 gp available.
