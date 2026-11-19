@@ -10,7 +10,7 @@ def table(path):
  with path.open(encoding="utf-8-sig",newline="") as f: return list(csv.reader(f))
 def campaign_day():
  p=ROOT/"campaign"/"continuity"/"campaign-state.md"
- m=re.search(r"CAMPAIGN_STATE\\s*[—–-]\\s*DAY\\s+(\\d+)",p.read_text(encoding="utf-8")[:2000],re.I) if p.exists() else None
+ m=re.search(r"CAMPAIGN_STATE\s*[—–-]\s*DAY\s+(\d+)",p.read_text(encoding="utf-8")[:2000],re.I) if p.exists() else None
  return int(m.group(1)) if m else None
 def character(group, name, sheet):
  rows=table(CSV/group/sheet)
@@ -19,11 +19,15 @@ def character(group, name, sheet):
   for i in range(0,len(r)-1,2):
    if r[i].strip() and r[i+1].strip():
     fields[r[i].strip().lower()]=r[i+1].strip()
+ if not fields.get("level") and len(rows)>1:
+  match=re.search(r"\\b(?:Cleric|Barbarian)\\s*(\\d+)",rows[1][0],re.I)
+  if match: fields["level"]=match.group(1)
  resource_rows=[]
  for i,r in enumerate(rows):
   if r and r[0].strip().upper()=="RESOURCE":
    for item in rows[i+1:]:
     if not item or not item[0].strip(): break
+    if item[0].strip().upper().startswith(("ATTACKS","ABILITY SCORES","FEATURES","SKILLS")): break
     if item[0].strip().upper() in {"ABILITY","SKILL","FEATURE"}: break
     resource_rows.append({"name":item[0].strip(),"current":item[1].strip() if len(item)>1 else "","max":item[2].strip() if len(item)>2 else "","recovery":item[3].strip() if len(item)>3 else ""})
    break
