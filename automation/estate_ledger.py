@@ -208,7 +208,7 @@ def main():
    "actual_income_after_snapshot_gp":str(money(income_all[estate])),
    "actual_expense_after_snapshot_gp":str(money(expense_all[estate])),
    "inventory_quantity_delta_after_snapshot":str(money(inventory_deltas_all[estate]-inventory_deltas_cut[estate])),
-   "inventory_quantity_gp":str(money(inventory_qty)),
+   "inventory_quantity":str(money(inventory_qty)),
    "inventory_cost_basis_gp":str(money(inventory_cost)),
    "inventory_items":{k:{"quantity":str(money(v["quantity"])),"cost_basis_gp":str(money(v["cost"]))} for k,v in inventory_rows.items()},
   }
