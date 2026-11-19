@@ -552,6 +552,170 @@ class EstateLedgerScenarioTests(unittest.TestCase):
         self.assertEqual(blocked["status"], "CHECK")
         self.assertTrue(any("readiness task" in finding for finding in blocked["findings"]))
 
+    def test_blackthorn_post_checkpoint_chain_reconciles_and_rolls_forward_tax(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            data = root / "data" / "estate"
+            prop = root / "trackers" / "csv" / "property"
+            reports = root / "reports"
+            data.mkdir(parents=True)
+            operations = [
+                {"Event ID": "DISPATCH-1", "Day": "233", "Event type": "Dispatch",
+                 "Product grade": "Dressed stone", "Quantity t": "4",
+                 "Order line ID": "ORDER-1", "Shipment / transfer ID": "SHIP-1",
+                 "Evidence / inspection": "four tonnes dispatched"},
+                {"Event ID": "ACCEPT-1", "Day": "234", "Event type": "Accept",
+                 "Product grade": "Dressed stone", "Quantity t": "2",
+                 "Order line ID": "ORDER-1", "Shipment / transfer ID": "SHIP-1",
+                 "Cash received gp": "10.00", "Receivable ID": "BT-REC-ORDER-1",
+                 "Evidence / inspection": "buyer accepted two tonnes"},
+            ]
+            opening_stock = [{"Grade": "Dressed stone", "Quantity t": "10", "Amount gp": "100"}]
+            orders = [{"Order line ID": "ORDER-1", "Status": "Confirmed",
+                       "Product grade": "Dressed stone", "Price gp/t": "15",
+                       "Ordered t": "4", "Readiness task ID": "QC-1"}]
+            schedule = [{"Task / settlement ID": "QC-1", "Actual day": "232",
+                         "Result": "Pass", "Evidence / restriction": "mill readiness passed"}]
+            replay = blackthorn_operations.replay(opening_stock, [], orders, schedule, operations)
+            self.assertEqual(replay["status"], "PASS", replay["findings"])
+            virtual, findings = blackthorn_operations.ledger_events_for_operations(
+                operations, replay["events"], orders
+            )
+            self.assertEqual(findings, [])
+            self.assertEqual(virtual[1]["income_delta_gp"], "30.00")
+            self.assertEqual(virtual[1]["expense_delta_gp"], "20.00")
+            self.assertEqual(virtual[1]["cash_delta_gp"], "10.00")
+            self.assertEqual(virtual[1]["receivable_delta_gp"], "20.00")
+
+            (data / "snapshot-meta.json").write_text(
+                json.dumps({"snapshot_day": 231, "captured_date": "synthetic fixture"}),
+                encoding="utf-8",
+            )
+            self.write_csv(data / "opening-balances.csv",
+                ["estate", "opening_cash_gp"],
+                [{"estate": "Miregate", "opening_cash_gp": "0"},
+                 {"estate": "Reedbed", "opening_cash_gp": "0"},
+                 {"estate": "Old Distributary Fort", "opening_cash_gp": "0"},
+                 {"estate": "Blackthorn", "opening_cash_gp": "453.33"}])
+            liabilities = [
+                ("BT-CARROW", "73.28"), ("BT-PAYROLL", "14.60"),
+                ("BT-UPKEEP", "10.76"), ("BT-TAX", "72.37"),
+            ]
+            self.write_csv(data / "opening-liabilities.csv",
+                ["liability_id", "estate", "description", "opening_amount_gp", "as_of_day", "evidence"],
+                [{"liability_id": lid, "estate": "Blackthorn", "description": lid,
+                  "opening_amount_gp": amount, "as_of_day": "231", "evidence": "fixture"}
+                 for lid, amount in liabilities])
+            self.write_csv(data / "opening-receivables.csv",
+                ["receivable_id", "estate", "customer", "opening_amount_gp", "as_of_day", "evidence"], [])
+            self.write_csv(data / "opening-inventory.csv",
+                ["inventory_id", "estate", "item", "opening_quantity", "opening_reserved_quantity",
+                 "opening_transit_quantity", "opening_cost_gp", "opening_transit_cost_gp",
+                 "as_of_day", "verification_status", "evidence"],
+                [{"inventory_id": "BT-STOCK-DRESSED-STONE", "estate": "Blackthorn",
+                  "item": "Dressed stone", "opening_quantity": "10", "opening_reserved_quantity": "0",
+                  "opening_transit_quantity": "0", "opening_cost_gp": "100",
+                  "opening_transit_cost_gp": "0", "as_of_day": "231",
+                  "verification_status": "provisional", "evidence": "fixture count"}])
+            self.write_csv(prop / "blackthorn-schedule.csv",
+                ["Task / settlement ID", "Actual day", "Result", "Actual evidence"],
+                [{"Task / settlement ID": "QC-1", "Actual day": "232",
+                  "Result": "Pass", "Actual evidence": "mill readiness passed"}])
+            # Put the later collection first: the ledger must replay by effective day.
+            generic = [
+                {"event_id": "COLLECT-1", "estate": "Blackthorn", "effective_day": "235",
+                 "event_type": "receivable_collection", "receivable_id": "BT-REC-ORDER-1",
+                 "receivable_delta_gp": "-20.00", "cash_delta_gp": "20.00",
+                 "evidence": "buyer paid balance", "status": "posted"},
+                {"event_id": "VERIFY-1", "estate": "Blackthorn", "effective_day": "232",
+                 "event_type": "inventory_verification", "inventory_id": "BT-STOCK-DRESSED-STONE",
+                 "inventory_verification_status": "verified",
+                 "evidence": "physical count and grade confirmed", "status": "posted"},
+            ]
+            self.write_csv(data / "events.csv", FIELDS, generic)
+            operation_fields = ["Event ID", "Day", "Event type", "Product grade", "Quantity t",
+                                "Order line ID", "Shipment / transfer ID",
+                                "Extra direct gp / labor allocation", "Batch ID",
+                                "Evidence / inspection", "Status", "Cash received gp", "Receivable ID"]
+            self.write_csv(data / "blackthorn-operations-events.csv", operation_fields, operations)
+            reports.mkdir(parents=True, exist_ok=True)
+            (reports / "blackthorn-operations.json").write_text(json.dumps({
+                "status": "PASS", "checkpoint_day": 231,
+                "staging_event_ids": [row["Event ID"] for row in operations],
+                "ledger_events": virtual,
+            }), encoding="utf-8")
+            estate_values = {
+                "Miregate": ["0", "0"], "Reedbed": ["0", "0"],
+                "Old Distributary Fort": ["0", "0"], "Blackthorn": ["453.33", "282.32"],
+            }
+            aliases = {
+                "Miregate": ("estate cash", "available after actual liabilities"),
+                "Reedbed": ("cash held", "available after liabilities"),
+                "Old Distributary Fort": ("cash held", "available after liabilities"),
+                "Blackthorn": ("cash gp", "available after actual liabilities"),
+            }
+            for estate, (cash, available) in estate_values.items():
+                file_name = estate.lower().replace(" ", "-") + "-overview.csv"
+                rows = [{"label": aliases[estate][0], "value": cash},
+                        {"label": aliases[estate][1], "value": available}]
+                if estate == "Blackthorn":
+                    rows.extend([
+                        {"label": "carrow unpaid gp", "value": "73.28"},
+                        {"label": "payroll payable gp", "value": "14.60"},
+                        {"label": "production / upkeep payable gp", "value": "10.76"},
+                        {"label": "incremental bills payable gp", "value": "0"},
+                        {"label": "rolling tax unpaid gp", "value": "72.37"},
+                        {"label": "customer advances gp", "value": "0"},
+                    ])
+                self.write_csv(prop / file_name, ["label", "value"], rows)
+            old = (ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES)
+            ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT = root, data, prop, reports / "estate-ledger.json"
+            ledger.ESTATES = {
+                "Miregate": {"overview": "miregate-overview.csv", "cash": ["estate cash"],
+                             "available": ["available after actual liabilities"], "liabilities": []},
+                "Reedbed": {"overview": "reedbed-overview.csv", "cash": ["cash held"],
+                            "available": ["available after liabilities"], "liabilities": []},
+                "Old Distributary Fort": {"overview": "old-distributary-fort-overview.csv", "cash": ["cash held"],
+                                          "available": ["available after liabilities"], "liabilities": []},
+                "Blackthorn": {"overview": "blackthorn-overview.csv", "cash": ["cash gp"],
+                               "available": ["available after actual liabilities"],
+                               "liabilities": ["carrow unpaid gp", "payroll payable gp",
+                                               "production / upkeep payable gp", "incremental bills payable gp",
+                                               "rolling tax unpaid gp", "customer advances gp"]},
+            }
+            try:
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(ledger.main(), 0)
+                ledger_report = json.loads((reports / "estate-ledger.json").read_text(encoding="utf-8"))
+            finally:
+                ledger.ROOT, ledger.DATA, ledger.PROPERTY, ledger.REPORT, ledger.ESTATES = old
+
+            blackthorn = ledger_report["estates"]["Blackthorn"]
+            self.assertEqual(blackthorn["projected_cash_gp"], "483.33")
+            self.assertEqual(blackthorn["receivables_gp"], "0.00")
+            self.assertEqual(blackthorn["income_gp"], "30.00")
+            self.assertEqual(blackthorn["expense_gp"], "20.00")
+            self.assertEqual(blackthorn["inventory_items"]["BT-STOCK-DRESSED-STONE"]["book_quantity"], "6.0000")
+            self.assertEqual(blackthorn["inventory_items"]["BT-STOCK-DRESSED-STONE"]["in_transit_quantity"], "2.0000")
+            self.assertEqual(blackthorn["inventory_items"]["BT-STOCK-DRESSED-STONE"]["verification"], "verified")
+
+            periods = [{"period_id": "TAX-59", "start_day": 59, "end_day": 271,
+                        "due_day": 272, "liability_id": "OPEN-BLACKTHORN-rolling-tax-unpaid-gp-D230"}]
+            tax_config = {"source_checkpoint_day": 230, "source_opening_day": 182,
+                          "source_period_id": "TAX-59", "source_taxable_base_gp": "723.70",
+                          "source_assessment_gp": "72.37", "tax_rate": "0.10"}
+            tax_report = blackthorn_tax.calculate_tax_report(
+                generic + virtual, [], periods, tax_config, 271
+            )
+            first_period = tax_report["periods"][0]
+            self.assertEqual(first_period["taxable_base_gp"], "733.70")
+            self.assertEqual(first_period["assessment_estimate_gp"], "73.37")
+            tax_event = blackthorn_tax.assessment_event(
+                periods[0], Decimal("1.00"), 271, Decimal("72.37")
+            )
+            self.assertEqual(tax_event["liability_delta_gp"], "1.00")
+            self.assertEqual(tax_event["reference_id"], "TAX-59")
+
     def test_blackthorn_routine_accrual_and_tax_match_day230_source(self):
         data = Path(__file__).parents[1] / "data" / "estate" / "blackthorn-rates.csv"
         with data.open(encoding="utf-8", newline="") as handle:
