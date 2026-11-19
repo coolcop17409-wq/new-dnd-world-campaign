@@ -4,22 +4,27 @@ This is a staging import from the 2026-11-19 Property workbook export. It is not
 
 ## Files
 
-- `events.csv`: one row per existing cashbook ID. Signed cash movements, source file, source row, and evidence are preserved. Current rows carry no new liability delta because historical accruals are already represented in the as-of-Day-230 liability opening snapshot.
-- `opening-balances.csv`: cash baseline for each estate. Blackthorn's reconstructed Day 182 cash is 572.11 gp. The other estates have zero opening cash and their owner funding is represented as a posted cashbook event.
-- `opening-liabilities.csv`: one stable ID per nonzero liability category in the Day 230 overview snapshot. This balance-forward seed prevents old bills from being re-expensed. It includes no forecast, scheduled cost, customer reserve, or protected cash reserve.
+- `events.csv`: one row per imported cashbook ID. The expanded schema provides fields for cash, liabilities, earned income, incurred expenses, inventory quantities/costs, accepted quantities, shipment IDs, evidence, and status. Historical imported rows preserve the displayed cash movement but leave unverified accrual/profit classifications blank.
+- `opening-balances.csv`: estate cash baseline. Blackthorn starts with 572.11 gp reconstructed cash at Day 182; the other estate cashbooks begin at zero and show owner funding as a transaction.
+- `opening-liabilities.csv`: stable IDs for nonzero liability categories in the Day 230 overview snapshot. These are balance-forward obligations, not a second posting of old expenses.
+- `snapshot-meta.json`: the Day 231 comparison cutoff and source snapshot date.
+- `task-supersessions.csv`: two Miregate schedule rows verified as handled by the completed Day 229 payroll successor.
 
-## Event rules
+## Posting an actual event
 
-For a newly confirmed event, add a unique `event_id`, real in-game day, exact source/evidence, and explicit signed effects.
+Use one unique `event_id` per actual event and retain a precise campaign day, the owning estate, evidence/source, and affected references. For a money event, enter signed `cash_delta_gp`; a receipt is positive and a payment negative. `amount_gp` is the positive transaction amount.
 
-- Work or service completed and wages/costs incurred: record a liability increase; cash delta remains zero until paid.
-- Later payment: record negative cash delta and a matching negative liability delta against the same liability reference. Payment clears the bill; it does not create a second expense.
-- Cost incurred and paid immediately: record the cost and cash movement as one event with clear evidence; do not also add a later payment for it.
-- Accepted delivery/sale: recognize earned income only for the quantity actually accepted. Record cash only if actually received; otherwise use a receivable event.
-- Customer advance: record cash receipt and a corresponding advance liability until earned or refunded.
-- Estate transfer: record both actual legs with the same transfer reference; it is neither income nor cost.
-- Tax: accrue only from posted actual taxable results under the estate's rules. A due date does not create a tax entry; payment reduces the recorded tax liability.
-- Inventory, cargo, and capacity change only on evidenced physical receipt, dispatch, acceptance, damage, or loss. An order or scheduled shipment is not inventory movement.
-- `planned`, `forecast`, `scheduled`, `pending`, and `unconfirmed` events cannot carry financial deltas.
+- Work/service completed: record earned income or incurred expense on the event day. If unpaid, create or increase a stable `liability_id`. When paid later, add a separate event with negative cash and a negative liability delta against that same ID; do not record the expense again.
+- Immediate cost payment: record the positive `expense_delta_gp` and negative `cash_delta_gp` once. No outstanding liability is needed.
+- Accepted sale: enter income only for quantity actually accepted. If the buyer pays then, also enter cash received. If payment is delayed, enter a receivable; record the later cash receipt against that receivable without recognizing income twice.
+- Customer advance: cash receipt plus a positive liability delta; on acceptance, recognize earned income and reduce the advance liability. A scheduled arrival or unaccepted cargo remains unchanged.
+- Estate transfer: use the same `reference_id` on both source and destination rows. The cash legs must offset; do not enter income or expense.
+- Tax: calculate under the estate's actual tax rules from posted results, then record a tax liability. A due day alone creates neither an assessment nor a payment. A payment reduces the relevant tax liability.
+- Inventory/shipment: use an `inventory_id`, `shipment_id`, actual quantity/cost, and evidence for physical receipt, production, dispatch, acceptance, damage, or loss. Do not recognize a sale from an order or scheduled shipment.
+- Service prerequisite: include the linked task/order reference and evidence that all required title, staffing, safety, ownership, capacity, route, inspection, and acceptance gates passed before recognizing a service.
 
-No reserve or protected-cash hold is calculated. Forecasts remain separate from actuals. Any delayed/failed work stays open for review until an actual result is recorded.
+Set status to `posted` only after the event happened. Planned, forecast, scheduled, pending, and unconfirmed rows must have no financial or inventory effects. Do not create a protected reserve. If a row cannot be supported by the existing rule or evidence, leave it out and flag the ambiguity for review.
+
+## Boundary
+
+The staging ledger currently reconciles cash and balance-forward liabilities to Day 231. It does not yet rebuild the complete historical profit, tax, receivable, inventory, production, or shipment history from source activity tabs. Drive remains authoritative; do not use this CSV as a replacement record until those rules and checkpoints are verified.
