@@ -23,8 +23,13 @@
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
       "inventory_quantity_delta_after_snapshot": "0.00",
-      "inventory_quantity": "0.00",
-      "inventory_cost_basis_gp": "0.00",
+      "inventory_reserved_delta_after_snapshot": "0.00",
+      "inventory_transit_quantity_delta_after_snapshot": "0.00",
+      "inventory_book_quantity": "0.00",
+      "inventory_eligible_to_ship_quantity": "0.00",
+      "inventory_on_site_cost_basis_gp": "0.00",
+      "inventory_in_transit_quantity": "0.00",
+      "inventory_in_transit_cost_basis_gp": "0.00",
       "inventory_items": {}
     },
     "Reedbed": {
@@ -45,8 +50,13 @@
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
       "inventory_quantity_delta_after_snapshot": "0.00",
-      "inventory_quantity": "0.00",
-      "inventory_cost_basis_gp": "0.00",
+      "inventory_reserved_delta_after_snapshot": "0.00",
+      "inventory_transit_quantity_delta_after_snapshot": "0.00",
+      "inventory_book_quantity": "0.00",
+      "inventory_eligible_to_ship_quantity": "0.00",
+      "inventory_on_site_cost_basis_gp": "0.00",
+      "inventory_in_transit_quantity": "0.00",
+      "inventory_in_transit_cost_basis_gp": "0.00",
       "inventory_items": {}
     },
     "Old Distributary Fort": {
@@ -67,8 +77,13 @@
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
       "inventory_quantity_delta_after_snapshot": "0.00",
-      "inventory_quantity": "0.00",
-      "inventory_cost_basis_gp": "0.00",
+      "inventory_reserved_delta_after_snapshot": "0.00",
+      "inventory_transit_quantity_delta_after_snapshot": "0.00",
+      "inventory_book_quantity": "0.00",
+      "inventory_eligible_to_ship_quantity": "0.00",
+      "inventory_on_site_cost_basis_gp": "0.00",
+      "inventory_in_transit_quantity": "0.00",
+      "inventory_in_transit_cost_basis_gp": "0.00",
       "inventory_items": {}
     },
     "Blackthorn": {
@@ -89,8 +104,13 @@
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
       "inventory_quantity_delta_after_snapshot": "0.00",
-      "inventory_quantity": "0.00",
-      "inventory_cost_basis_gp": "0.00",
+      "inventory_reserved_delta_after_snapshot": "0.00",
+      "inventory_transit_quantity_delta_after_snapshot": "0.00",
+      "inventory_book_quantity": "0.00",
+      "inventory_eligible_to_ship_quantity": "0.00",
+      "inventory_on_site_cost_basis_gp": "0.00",
+      "inventory_in_transit_quantity": "0.00",
+      "inventory_in_transit_cost_basis_gp": "0.00",
       "inventory_items": {}
     }
   },
