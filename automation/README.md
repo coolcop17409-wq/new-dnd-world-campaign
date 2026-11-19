@@ -8,6 +8,7 @@
 - `routine_accruals.py` previews deterministic Blackthorn management payroll, production payroll and upkeep accruals through an explicitly confirmed closed day. An Actions checkbox is required to post; preview is default. Posting is stable-ID/idempotent and only writes the staging event ledger and close marker. It does not pay wages or post a tax assessment/payment.
 - `blackthorn_operations.py` replays the 283 source Blackthorn operations rows, checks formulas row-by-row, and calculates production cost, revenue, COGS, stock, shipment transit, loss and labor. Future rows in `data/estate/blackthorn-operations-events.csv` are evidence-gated and must follow the Day 231 checkpoint.
 - `tracker_validate.py` checks character HP/resource ranges, inventory quantities, shop dealer/lot/event keys and character event IDs.
+- `magic_shop_review_queue.py` lists dealer reviews due by an explicitly supplied campaign day. It never rolls or posts outcomes; the DM resolves each through the Magic Shops Rules and records the result once.
 - `build_dashboard.py` creates a read-only JSON dashboard from estate, V, Cirren, Fenar, shared inventory and Magic Shops snapshots plus posted character events.
 - `.github/workflows/estate-audit.yml` runs tests and audits on relevant changes or manual dispatch. It writes generated reports to the staging repository. GitHub Pages is not enabled.
 
@@ -23,7 +24,7 @@ Opening cash is based on 121 actual cashbook rows, with liabilities as a Day 230
 - Blackthorn Day 230 accrued payroll, upkeep, taxable base and 10% assessment fixtures match the workbook.
 - Synthetic production → dispatch → acceptance and failed-readiness cases pass.
 - Synthetic estate event tests cover partial payment, delayed collection after acceptance, failed work, tax date without assessment, inventory reservation/release, shipment transit and paired transfers.
-- Synthetic character event overlay and recurring-accrual retry cases pass locally.
+- Synthetic character event overlay, recurring-accrual retry, and Magic Shops review-queue cases pass locally.
 
 ## Remaining cutover blockers
 
