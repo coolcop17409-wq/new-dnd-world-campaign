@@ -1,41 +1,44 @@
 # New Unnamed World Campaign — GitHub Migration Test
 
-This repository contains the campaign's staged documentation migration. ChatGPT Project Sources still point to Drive while the GitHub copy is tested.
+This repository is a public staging copy. ChatGPT Project Sources still point to Drive; Drive remains the live campaign authority.
 
 ## Authority during testing
 
-Drive remains the live campaign source of truth until the GitHub copy passes retrieval, write, tracker, and continuity checks. Do not resume play from this copy or change Project Sources during staging.
-
-The repository is public by the owner's explicit choice. All content, including DM preparation and unrevealed material, is readable by anyone online. “DM-only” labels are play-reveal guidance, not access controls.
+Do not resume play from this copy or change Project Sources during staging. The repository is public by the owner's choice. All files, including DM preparation and unrevealed material, are readable by anyone online; “DM-only” labels are play-reveal guidance, not access controls.
 
 ## Repository map
 
 - `AGENTS.md` — startup, source ownership, play authority, and sync procedure
-- `campaign/continuity/` — source tabs for current state, rules, quests, NPCs, inventory, and play log
-- `prep/dm-only/` — private-prep source tabs, publicly readable in this repository
+- `campaign/continuity/` — campaign state, rules, quests, NPCs, inventory, and play log
+- `prep/dm-only/` — private-prep source tabs, publicly readable in this repo
 - `world/politics/` — political-reference topics
 - `archive/` — closed campaign history and retired notes
-- `trackers/` — workbook exports and searchable CSV value snapshots
-- `automation/` — estate cash reconciliation and due-task review prototype
-- `reports/estate-review.md` — latest generated estate review, when Actions has run
+- `trackers/` — workbook exports, formulas, and searchable CSV snapshots
+- `data/estate/` — staging event ledger, opening balances, and verified task successors
+- `data/characters/` — append-only staging changes to character resources and inventory
+- `automation/` — estate reconciliation, tracker validation, and dashboard builder
+- `dashboard/` — read-only staged tracker view; GitHub Pages is not enabled
+- `reports/` — generated estate and tracker validation output
 - `assets/README.md` — maps and images retained in Drive
 - `MIGRATION_MAP.md` — source-to-file index
 - `migration/TEST_REPORT.md` — staging checks and cutover boundary
 
 ## Current checkpoint in the source
 
-Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. The exact pending player action is V's choice of what to say or do after Sela offers to lead Anwen to view Iven's remains. See `campaign/continuity/campaign-state.md`.
+Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's next speech/action is pending after Sela offers to lead Anwen to view Iven's remains. See `campaign/continuity/campaign-state.md`.
 
-## Migration and test status
+## Migration status
 
-- [x] GitHub read/write path verified through the connector
-- [x] Google Docs tabs copied into retrieval-sized Markdown files
-- [x] Workbook exports retained with formulas and formatting
-- [x] Readable value snapshots created for each workbook tab
-- [x] Representative campaign retrieval and tracker value checks passed
-- [x] Non-campaign write/read round trip passed
-- [x] Estate audit and campaign-day task-review prototype added
-- [ ] Full play and synchronization workflow tested
-- [x] Drive remains authoritative and Project Sources remain pointed to Drive
+- [x] GitHub connector reads and writes work; earlier non-campaign write/read round trip was verified.
+- [x] Google Docs tabs and workbook exports/formula snapshots were migrated for retrieval.
+- [x] Estate audit ran and its cash, liability, available-cash, and cashbook checks passed.
+- [x] Event ledger seeded with 121 unique actual cashbook IDs; each estate reconciles to the Day 231 snapshot.
+- [x] Due-task output was checked against the live Drive schedules. Two stale Miregate payroll rows are shown as superseded by their completed Day 229 settlement.
+- [x] Character, inventory, and magic-shop snapshot checks pass; a read-only dashboard is generated.
+- [ ] Complete formula/rule parity for wages, earned costs, taxes, inventory valuation, shipments, acceptance, and service prerequisites.
+- [ ] Verify the character event-log write path with a real, confirmed campaign change.
+- [ ] Port and verify full magic-shop stock turnover and business review behavior.
+- [ ] Test a complete play → event write → regenerated dashboard → Drive checkpoint comparison.
+- [ ] Consider cutover only after that workflow passes.
 
-The campaign has not been switched to GitHub. The estate workflow audits staged CSV snapshots and does not post transactions. See `automation/README.md` and `migration/TEST_REPORT.md`.
+No Drive records or Project Sources have been changed. See `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md` for scope and limitations.
