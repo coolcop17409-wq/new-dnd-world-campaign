@@ -23,7 +23,7 @@
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
       "inventory_quantity_delta_after_snapshot": "0.00",
-      "inventory_quantity_gp": "0.00",
+      "inventory_quantity": "0.00",
       "inventory_cost_basis_gp": "0.00",
       "inventory_items": {}
     },
@@ -45,7 +45,7 @@
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
       "inventory_quantity_delta_after_snapshot": "0.00",
-      "inventory_quantity_gp": "0.00",
+      "inventory_quantity": "0.00",
       "inventory_cost_basis_gp": "0.00",
       "inventory_items": {}
     },
@@ -67,7 +67,7 @@
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
       "inventory_quantity_delta_after_snapshot": "0.00",
-      "inventory_quantity_gp": "0.00",
+      "inventory_quantity": "0.00",
       "inventory_cost_basis_gp": "0.00",
       "inventory_items": {}
     },
@@ -89,7 +89,7 @@
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
       "inventory_quantity_delta_after_snapshot": "0.00",
-      "inventory_quantity_gp": "0.00",
+      "inventory_quantity": "0.00",
       "inventory_cost_basis_gp": "0.00",
       "inventory_items": {}
     }
