@@ -36,10 +36,13 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [x] Source snapshot shows zero receivables; six Blackthorn stock grades are imported as provisional book balances, with reserved amounts and shipment transit supported in the ledger. Unverified stock is not counted as shippable.
 - [x] Due-task output was checked against the live Drive schedules. Two stale Miregate payroll rows are shown as superseded by their completed Day 229 settlement.
 - [x] Character, inventory, and magic-shop snapshot checks pass; a read-only dashboard is generated.
-- [ ] Complete formula/rule parity for wages, earned costs, taxes, inventory valuation, shipments, acceptance, and service prerequisites.
-- [ ] Verify the character event-log write path with a real, confirmed campaign change.
-- [ ] Port and verify full magic-shop stock turnover and business review behavior.
-- [ ] Test a complete play → event write → regenerated dashboard → Drive checkpoint comparison.
-- [ ] Consider cutover only after that workflow passes.
+- [x] Replay Blackthorn production, labor, product cost, COGS, loss, stock, shipment, acceptance and readiness rules against the source activity through Day 230; row-level checks pass.
+- [x] Add closed-day Blackthorn accrual preview and explicit idempotent staging-post control; synthetic retry test passes.
+- [x] Document character, shop-turnover, service-prerequisite and event-to-checkpoint procedures.
+- [ ] Bridge future Blackthorn operation results into estate ledger cash/receivables and inventory postings without duplicate entries.
+- [ ] Automate cross-estate service prerequisite validation and verify each service path.
+- [ ] Verify a real confirmed character change and one due Magic Shops turnover through write → rebuild → compare.
+- [ ] Complete opening ownership, custody, inventory, staff and commitment checkpoints; test full play → sync → source comparison.
+- [ ] Review a successful full Actions run and then consider cutover.
 
-No Drive records or Project Sources have been changed. See `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md` for scope and limitations.
+No Drive records or Project Sources have been changed. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
