@@ -125,6 +125,8 @@ def replay(opening_stock, rates, orders, schedule, operations):
         if not eid:
             findings.append("operation without Event ID")
             continue
+        if not row.get("Evidence / inspection", "").strip():
+            findings.append(f"{eid}: actual operation requires evidence")
         if eid in seen_ids:
             findings.append(f"duplicate operation Event ID {eid}")
         seen_ids.add(eid)
@@ -142,6 +144,10 @@ def replay(opening_stock, rates, orders, schedule, operations):
         prior_qty = on_site["quantity"]
         prior_cost = on_site["cost"]
         unit_cost = prior_cost / prior_qty if prior_qty > 0 else Decimal("0")
+        calculated.update({"prior_on_site_t": prior_qty, "prior_on_site_gp": prior_cost,
+                           "unit_cost_gp_per_t": unit_cost})
+        if kind in {"Produce", "Dispatch", "Accept", "Gate sale", "Return", "Loss"} and qty <= 0:
+            findings.append(f"{eid}: {kind} quantity must be positive")
         if kind in {"Dispatch", "Accept", "Gate sale", "Return"}:
             order = order_for(row)
         else:
@@ -304,6 +310,20 @@ def main():
                           ("cogs", checkpoint["cogs"]), ("loss", checkpoint["loss_and_idle"])):
         if qmoney(dec(totals[key])) != qmoney(expected):
             report["findings"].append(f"Day 230 {key} {qmoney(dec(totals[key]))} does not match source checkpoint {qmoney(expected)}")
+    quantity_fields = {"prior_on_site_t": "Prior on-site t", "on_site_delta_t": "On-site delta t", "transit_delta_t": "Transit delta t"}
+    money_fields = {
+        "prior_on_site_gp": "Prior on-site gp", "unit_cost_gp_per_t": "Unit cost gp/t",
+        "on_site_delta_gp": "On-site delta gp", "transit_delta_gp": "Transit delta gp",
+        "revenue_gp": "Revenue gp", "cogs_gp": "COGS gp", "loss_idle_gp": "Loss / idle expense gp",
+        "production_labor_gp": "Production labor gp", "nonlabor_cost_gp": "Nonlabor cost gp",
+    }
+    for source, calculated in zip(operations, report["events"]):
+        for key, source_header in quantity_fields.items():
+            if qcost(dec(source.get(source_header, "0"))) != qcost(dec(calculated[key])):
+                report["findings"].append(f"{calculated['event_id']}: {source_header} does not match replay")
+        for key, source_header in money_fields.items():
+            if qmoney(dec(source.get(source_header, "0"))) != qmoney(dec(calculated[key])):
+                report["findings"].append(f"{calculated['event_id']}: {source_header} does not match replay")
     if report["findings"]:
         report["status"] = "CHECK"
     REPORT.parent.mkdir(parents=True, exist_ok=True)
