@@ -28,4 +28,11 @@ Visibility: Public, as explicitly chosen by the owner.
 - Magic-shop keys and stock rows validate, but its due business reviews and turnover remain DM-resolved under the existing Rules tab.
 - Drive remains authoritative. No live Drive record or ChatGPT Project Source was changed, and no cutover was made.
 
+
+## Work added after the latest verified run
+
+- Added a synthetic guard case that attempts to dispatch provisional Blackthorn stock and expects the ledger to reject the release.
+- Imported the Blackthorn daily payroll/upkeep rate rows and added formula helpers for effective-date accrual and the 10% rolling tax assessment. Added Day 230 parity fixtures: 700.80 gp total payroll accrual, split into 336.00 gp management and 364.80 gp production payroll; 85.71 gp upkeep; 723.70 gp tax base; and 72.37 gp assessment.
+- These additions have not yet been confirmed by a completed Actions run. Passing run 39 predates them. The formula port does not yet generate recurring posting events or derive tax inputs from the raw activity journal.
+
 The cutover boundary remains unchanged: first finish the rule ports and then test a real campaign update end to end against the source workbook.
