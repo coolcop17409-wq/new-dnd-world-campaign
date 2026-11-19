@@ -16,6 +16,9 @@ SPEC.loader.exec_module(ledger)
 RULES_SPEC = importlib.util.spec_from_file_location("blackthorn_rules", Path(__file__).with_name("blackthorn_rules.py"))
 blackthorn_rules = importlib.util.module_from_spec(RULES_SPEC)
 RULES_SPEC.loader.exec_module(blackthorn_rules)
+DASHBOARD_SPEC = importlib.util.spec_from_file_location("build_dashboard", Path(__file__).with_name("build_dashboard.py"))
+dashboard = importlib.util.module_from_spec(DASHBOARD_SPEC)
+DASHBOARD_SPEC.loader.exec_module(dashboard)
 
 FIELDS = [
     "event_id", "estate", "effective_day", "event_type", "category",
@@ -130,6 +133,43 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                 "verify its physical count before dispatch or release" in finding
                 for finding in blocked_report["findings"]
             ))
+
+    def test_character_event_overlay_matches_snapshot_plus_confirmed_change(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            events = [
+                {"event_id": "fixture-hp", "campaign_day": "231", "owner": "Valenthia",
+                 "record_type": "stat", "target": "HP", "delta": "-1", "absolute_value": "",
+                 "evidence": "synthetic fixture only", "status": "posted"},
+                {"event_id": "fixture-resource", "campaign_day": "231", "owner": "Valenthia",
+                 "record_type": "resource", "target": "Psi", "delta": "-1", "absolute_value": "",
+                 "evidence": "synthetic fixture only", "status": "posted"},
+                {"event_id": "fixture-item", "campaign_day": "231", "owner": "Valenthia",
+                 "record_type": "inventory", "target": "Arrows", "delta": "-1", "absolute_value": "",
+                 "evidence": "synthetic fixture only", "status": "posted"},
+            ]
+            self.write_csv(
+                root / "data" / "characters" / "events.csv",
+                ["event_id", "campaign_day", "owner", "record_type", "target", "delta",
+                 "absolute_value", "evidence", "status"],
+                events,
+            )
+            payload = {
+                "party": [{"name": "Valenthia", "hp": "48", "max_hp": "48",
+                           "resources": [{"name": "Psi", "current": "2", "max": "3"}]}],
+                "inventory": {"Valenthia": [
+                    {"item": "Arrows", "qty": "10", "quantity_display": "10", "detail": "tracked"}
+                ]},
+            }
+            old_root = dashboard.ROOT
+            dashboard.ROOT = root
+            try:
+                dashboard.apply_character_events(payload)
+            finally:
+                dashboard.ROOT = old_root
+            self.assertEqual(payload["party"][0]["hp"], "47.0")
+            self.assertEqual(payload["party"][0]["resources"][0]["current"], "1.0")
+            self.assertEqual(payload["inventory"]["Valenthia"][0]["qty"], "9.0")
 
     def test_blackthorn_routine_accrual_and_tax_match_day230_source(self):
         data = Path(__file__).parents[1] / "data" / "estate" / "blackthorn-rates.csv"
