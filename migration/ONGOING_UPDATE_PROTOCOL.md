@@ -82,8 +82,10 @@ The migrated Magic Shops `Rules` tab is the behavior specification; its searchab
 Do not point play or Project Sources here until all of these pass:
 
 - opening cash, liabilities, receivables, inventory/custody, staff, ownership and outstanding commitments are complete at a confirmed checkpoint;
-- estate activity from the checkpoint forward recalculates correctly, including the Blackthorn operations-to-estate-ledger bridge and general service prerequisite checks;
-- the recurring close/post/retry path is tested in Actions and does not double-post; the forward tax-base roll-forward and assessment posting are also checked from realized entries;
+- a real Blackthorn operation chain is checked through physical verification, dispatch, partial acceptance, COGS, receivable creation and later collection; the synthetic bridge test alone is not enough;
+- service events cite and satisfy the full applicable prerequisites, not merely one valid task ID;
+- the recurring close/post/retry path is exercised through the Actions checkbox and does not double-post;
+- a forward tax-base roll-forward and actual period-assessment posting are implemented, tested against the source rule, and based only on realized entries; this remains unimplemented today;
 - one real campaign update succeeds across estate, character, inventory and shop cases as applicable, then matches the owning source workbook;
 - the generated views and sync instructions are usable from the GitHub connector, with failures and conflicts surfaced;
 - public repository exposure of DM preparation remains an accepted user choice.
