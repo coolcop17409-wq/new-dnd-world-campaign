@@ -5,6 +5,7 @@ import importlib.util
 import io
 import json
 import tempfile
+import sys
 import unittest
 from contextlib import redirect_stdout
 from pathlib import Path
@@ -196,6 +197,48 @@ class EstateLedgerScenarioTests(unittest.TestCase):
         self.assertEqual(repeated["event_count"], 0)
         self.assertEqual(repeated["status"], "PASS")
         self.assertTrue(all(row["cash_delta_gp"] == "" for row in one_day["events"]))
+
+    def test_confirmed_closed_day_apply_is_atomic_and_idempotent(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            data = root / "data" / "estate"
+            reports = root / "reports"
+            data.mkdir(parents=True)
+            (data / "routine-accrual-meta.json").write_text(
+                json.dumps({"last_confirmed_closed_day": 230, "source_opening_day": 182}),
+                encoding="utf-8",
+            )
+            self.write_csv(data / "blackthorn-rates.csv",
+                ["type", "cost_family", "rate_gp", "unit", "from_day", "through_day"],
+                [{"type": "Payroll", "cost_family": "Management", "rate_gp": "7.00",
+                  "unit": "day", "from_day": "1", "through_day": ""},
+                 {"type": "Payroll", "cost_family": "Production", "rate_gp": "7.60",
+                  "unit": "day", "from_day": "1", "through_day": ""},
+                 {"type": "Upkeep", "cost_family": "", "rate_gp": "1.79",
+                  "unit": "day", "from_day": "1", "through_day": ""}])
+            self.write_csv(data / "events.csv", routine_accruals.EVENT_FIELDS, [])
+            old = (routine_accruals.DATA, routine_accruals.REPORT, sys.argv)
+            routine_accruals.DATA, routine_accruals.REPORT = data, reports / "preview.json"
+            try:
+                sys.argv = ["routine_accruals.py", "--closed-through-day", "231", "--apply"]
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(routine_accruals.main(), 0)
+                first_report = json.loads((reports / "preview.json").read_text(encoding="utf-8"))
+                with (data / "events.csv").open(encoding="utf-8", newline="") as handle:
+                    first_events = list(csv.DictReader(handle))
+                saved_meta = json.loads((data / "routine-accrual-meta.json").read_text(encoding="utf-8"))
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(routine_accruals.main(), 0)
+                second_report = json.loads((reports / "preview.json").read_text(encoding="utf-8"))
+                with (data / "events.csv").open(encoding="utf-8", newline="") as handle:
+                    second_events = list(csv.DictReader(handle))
+            finally:
+                routine_accruals.DATA, routine_accruals.REPORT, sys.argv = old
+            self.assertEqual(first_report["applied_count"], 3)
+            self.assertEqual(len(first_events), 3)
+            self.assertEqual(saved_meta["last_confirmed_closed_day"], 231)
+            self.assertEqual(second_report["applied_count"], 0)
+            self.assertEqual(len(second_events), 3)
 
     def test_blackthorn_production_dispatch_accept_and_readiness_gate(self):
         opening = [{"Grade": "Dressed stone", "Quantity t": "5.000", "Amount gp": "50.00"}]
