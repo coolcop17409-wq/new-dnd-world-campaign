@@ -47,6 +47,49 @@ def inventory(group,sheet):
   if q in {"","0","0.0"}:continue
   out.append({"item":r[item].strip(),"qty":q,"holder":r[holder].strip() if holder is not None and holder<len(r) else "","detail":r[detail].strip()[:180] if detail is not None and detail<len(r) else ""})
  return out
+def apply_character_events(payload):
+ path=ROOT/"data"/"characters"/"events.csv"
+ if not path.exists():return
+ for event in table(path):
+  # Header rows are skipped by DictReader below; this simple read is replaced by direct table parse.
+  pass
+ with path.open(encoding="utf-8-sig",newline="") as f: events=list(csv.DictReader(f))
+ by_name={p["name"].lower():p for p in payload["party"]}
+ for event in events:
+  if not any((event.get(k,"").strip()) for k in ("event_id","campaign_day","target")):continue
+  if event.get("status","").strip().lower()!="posted":raise ValueError(f"Character event {event.get('event_id')} is not posted; proposals do not affect the dashboard.")
+  owner=event.get("owner","").strip().lower()
+  person=by_name.get(owner)
+  if not person:raise ValueError(f"Unknown character event owner: {owner}")
+  kind=event.get("record_type","").strip().lower()
+  target=event.get("target","").strip()
+  if not target:raise ValueError(f"Character event {event.get('event_id')} has no target.")
+  delta=event.get("delta","").strip()
+  absolute=event.get("absolute_value","").strip()
+  if delta and absolute:raise ValueError(f"Character event {event.get('event_id')} supplies both delta and absolute value.")
+  if kind=="stat":
+   key={"hp":"hp","max hp":"max_hp"}.get(target.lower())
+   if not key:raise ValueError(f"Unsupported stat target {target!r}.")
+   current=float(person[key] or 0)
+   new=float(absolute) if absolute else current+float(delta or 0)
+   person[key]=str(new)
+  elif kind=="resource":
+   matches=[x for x in person["resources"] if x["name"].strip().lower()==target.lower()]
+   if len(matches)!=1:raise ValueError(f"Resource event {event.get('event_id')} target is missing or ambiguous: {target}.")
+   current=float(matches[0]["current"] or 0)
+   matches[0]["current"]=str(float(absolute) if absolute else current+float(delta or 0))
+  elif kind=="inventory":
+   items=payload["inventory"].get(person["name"],[])
+   matches=[x for x in items if x["item"].strip().lower()==target.lower()]
+   if len(matches)!=1:raise ValueError(f"Inventory event {event.get('event_id')} target is missing or ambiguous: {target}.")
+   current=float(matches[0]["qty"] or 0)
+   matches[0]["qty"]=str(float(absolute) if absolute else current+float(delta or 0))
+  else:raise ValueError(f"Unsupported character event type {kind!r}.")
+  if kind=="stat" and key=="hp" and float(person["max_hp"] or 0) and float(person[key])>float(person["max_hp"]):raise ValueError(f"Character event {event.get('event_id')} exceeds maximum HP.")
+  if kind=="resource":
+   maximum=float(matches[0]["max"] or 0)
+   if float(matches[0]["current"])<0 or (maximum and float(matches[0]["current"])>maximum):raise ValueError(f"Character event {event.get('event_id')} exceeds the resource range.")
+  if kind=="inventory" and float(matches[0]["qty"])<0:raise ValueError(f"Character event {event.get('event_id')} makes inventory quantity negative.")
 def shops():
  rows=table(CSV/"magic-shops"/"stock.csv")
  if not rows:return []
@@ -72,6 +115,7 @@ def main():
   "inventory":{"Valenthia":inventory("v","v-inventory.csv"),"Cirren":inventory("cirren","cirren-inventory.csv"),"Fenar":inventory("fenar","fenar-inventory.csv")},
   "magic_shop_lots":shops()
  }
+ apply_character_events(payload)
  OUT.parent.mkdir(parents=True,exist_ok=True)
  OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(f"Built {OUT}")
