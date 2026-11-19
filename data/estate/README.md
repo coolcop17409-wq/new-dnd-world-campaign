@@ -41,6 +41,6 @@ Blackthorn's full 283-row production/COGS/shipment replay now matches source for
 
 Blackthorn management payroll, production payroll and upkeep can be generated through an explicitly closed day. Actions preview by default; an explicit manual checkbox is required to post staging accruals idempotently. This records earned obligations only; it does not pay wages or automatically assess/pay taxes.
 
-Blackthorn readiness has a passed-task gate. Other estate service prerequisites are documented for manual evidence checks but are not enforced by a general automated rule engine. Character event overlays and Magic Shops identity/quantity checks are tested synthetically; real play writes and a due-turnover cycle remain unverified.
+Blackthorn readiness has a passed-task gate. Other estate service prerequisites are documented for manual evidence checks but are not enforced by a general automated rule engine. Character event overlays and Magic Shops identity/quantity/review-queue checks are tested synthetically; real play writes and a due-turnover cycle remain unverified.
 
 Drive remains authoritative. Do not change live workbooks or Project Sources during staging. For each update type and the cutover criteria, see `migration/ONGOING_UPDATE_PROTOCOL.md`.
