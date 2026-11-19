@@ -1,0 +1,9 @@
+liability_id,estate,category,opening_amount_gp,as_of_day,source_file,source_row,source_label,status
+OPEN-MIREGATE-payroll-payable-D230,Miregate,Payroll payable,10.80,230,miregate-overview.csv,7,Payroll payable,open
+OPEN-MIREGATE-recurring-operations-payable-D230,Miregate,Recurring operations payable,3.23,230,miregate-overview.csv,8,Recurring operations payable,open
+OPEN-REEDBED-unpaid-operating-capital-D230,Reedbed,Unpaid operating / capital,8.60,230,reedbed-overview.csv,12,Unpaid operating / capital,open
+OPEN-OLD-DISTRIBUTARY-FORT-unpaid-operating-capital-D230,Old Distributary Fort,Unpaid operating / capital,5.00,230,old-distributary-fort-overvie.csv,12,Unpaid operating / capital,open
+OPEN-BLACKTHORN-carrow-unpaid-gp-D230,Blackthorn,Carrow unpaid gp,73.28,230,blackthorn-overview.csv,7,Carrow unpaid gp,open
+OPEN-BLACKTHORN-payroll-payable-gp-D230,Blackthorn,Payroll payable gp,14.60,230,blackthorn-overview.csv,7,Payroll payable gp,open
+OPEN-BLACKTHORN-production-upkeep-payable-gp-D230,Blackthorn,Production / upkeep payable gp,10.76,230,blackthorn-overview.csv,8,Production / upkeep payable gp,open
+OPEN-BLACKTHORN-rolling-tax-unpaid-gp-D230,Blackthorn,Rolling tax unpaid gp,72.37,230,blackthorn-overview.csv,9,Rolling tax unpaid gp,open
