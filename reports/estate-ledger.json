@@ -22,7 +22,10 @@
       "receivable_events_after_snapshot_gp": "0.00",
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
-      "inventory_quantity_delta_after_snapshot": "0.00"
+      "inventory_quantity_delta_after_snapshot": "0.00",
+      "inventory_quantity_gp": "0.00",
+      "inventory_cost_basis_gp": "0.00",
+      "inventory_items": {}
     },
     "Reedbed": {
       "snapshot_cash_gp": "63.80",
@@ -41,7 +44,10 @@
       "receivable_events_after_snapshot_gp": "0.00",
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
-      "inventory_quantity_delta_after_snapshot": "0.00"
+      "inventory_quantity_delta_after_snapshot": "0.00",
+      "inventory_quantity_gp": "0.00",
+      "inventory_cost_basis_gp": "0.00",
+      "inventory_items": {}
     },
     "Old Distributary Fort": {
       "snapshot_cash_gp": "130.00",
@@ -60,7 +66,10 @@
       "receivable_events_after_snapshot_gp": "0.00",
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
-      "inventory_quantity_delta_after_snapshot": "0.00"
+      "inventory_quantity_delta_after_snapshot": "0.00",
+      "inventory_quantity_gp": "0.00",
+      "inventory_cost_basis_gp": "0.00",
+      "inventory_items": {}
     },
     "Blackthorn": {
       "snapshot_cash_gp": "453.33",
@@ -79,7 +88,10 @@
       "receivable_events_after_snapshot_gp": "0.00",
       "actual_income_after_snapshot_gp": "0.00",
       "actual_expense_after_snapshot_gp": "0.00",
-      "inventory_quantity_delta_after_snapshot": "0.00"
+      "inventory_quantity_delta_after_snapshot": "0.00",
+      "inventory_quantity_gp": "0.00",
+      "inventory_cost_basis_gp": "0.00",
+      "inventory_items": {}
     }
   },
   "findings": []
