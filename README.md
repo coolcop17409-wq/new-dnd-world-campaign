@@ -46,7 +46,7 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [x] Port source-checked forward Blackthorn taxable-base roll-forward and closed-period assessment adjustment posting; integrated synthetic chain test passes. Actual tax close/post has not been run because no real post-checkpoint closed tax period exists.
 - [ ] Run a real post-checkpoint Blackthorn operation chain, a confirmed character change, and one due Magic Shops turnover through write → rebuild → compare.
 - [x] Audit opening rights, custody, staffing and commitments against the Property registers; see [OPENING_POSITION_AUDIT.md](migration/OPENING_POSITION_AUDIT.md).
-- [ ] Resolve the remaining opening-position gaps: Blackthorn physical stock verification, Miregate punt rebuild status, and itemized fixed assets; then compare the checkpoint with Drive.
+- [ ] Resolve the remaining opening-position gaps: Blackthorn physical stock verification, reconcile the explicit Miregate vessel-restoration ruling with the stale Property schedule (without inventing punt cost/capacity), and itemized fixed assets; then compare the checkpoint with Drive.
 - [x] Review successful full Actions run 92. Cutover remains blocked by the real post-checkpoint event and source-comparison checks listed above.
 
 No Drive records or Project Sources have been changed. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
