@@ -20,7 +20,7 @@ def character(group, name, sheet):
    if r[i].strip() and r[i+1].strip():
     fields[r[i].strip().lower()]=r[i+1].strip()
  if not fields.get("level") and len(rows)>1:
-  match=re.search(r"\\b(?:Cleric|Barbarian)\\s*(\\d+)",rows[1][0],re.I)
+  match=re.search(r"\b(?:Cleric|Barbarian)\s*(\d+)",rows[1][0],re.I)
   if match: fields["level"]=match.group(1)
  resource_rows=[]
  for i,r in enumerate(rows):
