@@ -328,6 +328,12 @@ def replay(opening_stock, rates, orders, schedule, operations):
 
 
 def inventory_key(grade):
+    grade = grade.strip()
+    opening_path = DATA / "opening-inventory.csv"
+    if opening_path.exists():
+        for row in read_register(opening_path, "inventory_id"):
+            if row.get("item", "").strip() == grade:
+                return row.get("inventory_id", "").strip()
     slug = "".join(ch if ch.isalnum() else "-" for ch in grade.upper()).strip("-")
     while "--" in slug:
         slug = slug.replace("--", "-")
