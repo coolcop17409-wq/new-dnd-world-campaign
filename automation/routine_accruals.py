@@ -168,7 +168,11 @@ def main():
             os.replace(tmp, event_path)
         meta["last_confirmed_closed_day"] = through
         meta_path = DATA / "routine-accrual-meta.json"
-        meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+        meta_fd, meta_tmp = tempfile.mkstemp(prefix="routine-meta-", suffix=".json", dir=meta_path.parent)
+        with os.fdopen(meta_fd, "w", encoding="utf-8") as handle:
+            json.dump(meta, handle, indent=2)
+            handle.write("\\n")
+        os.replace(meta_tmp, meta_path)
         applied_count = len(new_rows)
         report["applied_count"] = applied_count
         report["note"] = "Generated rows appended idempotently to the staging event ledger; Drive was not changed."
