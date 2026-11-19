@@ -1,0 +1,3 @@
+estate,task_id,superseded_by,verified_day,evidence
+Miregate,MG-MERET-PAY,MG-PAY-229,231,"Original steward payroll row is stale: cashbook confirms 4.20 gp paid Day229 and 39.80 gp paid Day231; successor MG-PAY-229 is Complete. Day230 wages remain a separate 5.00 gp liability due236."
+Miregate,MG-PAY-222,MG-PAY-229,231,"Schedule row says the remaining amount was deferred and tracked to MG-PAY-229; successor MG-PAY-229 is Complete. Do not list the old target as a second unpaid task."
