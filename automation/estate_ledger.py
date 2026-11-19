@@ -112,14 +112,14 @@ def main():
   inventory_financial=[quantity,inventory_cost,reserved_delta,transit_delta,transit_cost_delta,accepted]
   financial=[cash_delta,liability_delta,receivable_delta,income,expense,*inventory_financial]
   if status in blocked:
-   if any(financial) or amount:errors.append(f"{eid}: {status} event cannot post cash, liability, receivable, profit, inventory, or shipment amounts")
+   if any(financial) or amount or verification:errors.append(f"{eid}: {status} event cannot post cash, liability, receivable, profit, inventory, verification, or shipment amounts")
    continue
-  if any(financial) and not (row.get("evidence") or "").strip():errors.append(f"{eid}: posted changes require evidence")
+  if (any(financial) or verification) and not (row.get("evidence") or "").strip():errors.append(f"{eid}: posted changes require evidence")
   if any(inventory_financial) and not (row.get("inventory_id") or "").strip():errors.append(f"{eid}: inventory quantity, reservation, transit, cost, or acceptance change requires inventory_id")
   if verification and (verification not in {"verified","provisional","unverified"} or not (row.get("inventory_id") or "").strip()):errors.append(f"{eid}: inventory verification update needs inventory_id and a supported status")
   if accepted and not ((row.get("shipment_id") or "").strip() or (row.get("reference_id") or "").strip()):errors.append(f"{eid}: accepted quantity requires a shipment_id or reference_id")
   if accepted<0:errors.append(f"{eid}: accepted_quantity cannot be negative")
-  if any(financial) and day==0:errors.append(f"{eid}: posted changes require an actual campaign day")
+  if (any(financial) or verification) and day==0:errors.append(f"{eid}: posted changes require an actual campaign day")
   if income<0 or expense<0:errors.append(f"{eid}: income and expense deltas must be nonnegative amounts")
   if row.get("source_file","").strip() and amount!=0 and not any(financial):
    errors.append(f"{eid}: amount is not connected to a cash, liability, receivable, income, expense, inventory, or acceptance delta")
