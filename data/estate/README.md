@@ -35,4 +35,12 @@ Set status to `posted` only after the event happened. Planned, forecast, schedul
 
 ## Boundary
 
-The staging ledger currently reconciles cash and balance-forward liabilities to Day 231. Receivables are zero in the current workbook snapshot. Blackthorn inventory book values and reservations are seeded through Day 230, but remain provisional: eligible-to-ship quantity is zero until physical verification is recorded. The ledger has event handling for receivables, stock/reservations, shipment transit, and cost basis, but does not rebuild historical activity or production/COGS formulas or automatically generate recurring accrual postings. The Blackthorn routine accrual and tax functions are an initial source-checked formula port, not full activity-history parity. Service prerequisites remain evidence fields rather than an automated rule engine. Drive remains authoritative; do not use this CSV as a replacement record until the missing rules and edge cases are verified.
+The cash/liability ledger reconciles to the Day 231 late-morning checkpoint. Opening receivables are zero in the source. Six Blackthorn book-stock grades are imported through Day 230 but remain provisional, so the event ledger counts zero eligible-to-ship opening stock until physical verification.
+
+Blackthorn's full 283-row production/COGS/shipment replay now matches source formula rows and the Day 230 totals. The forward operation journal is validated after the Day 231 checkpoint and blocks shipment release from unverified opening stock. However, its future result is not yet joined to the generic estate ledger: acceptance income still needs an explicit cash-versus-receivable posting and inventory movements must be linked once without duplication. Treat the operation report as a checked calculation projection, not a complete ledger write path.
+
+Blackthorn management payroll, production payroll and upkeep can be generated through an explicitly closed day. Actions preview by default; an explicit manual checkbox is required to post staging accruals idempotently. This records earned obligations only; it does not pay wages or automatically assess/pay taxes.
+
+Blackthorn readiness has a passed-task gate. Other estate service prerequisites are documented for manual evidence checks but are not enforced by a general automated rule engine. Character event overlays and Magic Shops identity/quantity checks are tested synthetically; real play writes and a due-turnover cycle remain unverified.
+
+Drive remains authoritative. Do not change live workbooks or Project Sources during staging. For each update type and the cutover criteria, see `migration/ONGOING_UPDATE_PROTOCOL.md`.
