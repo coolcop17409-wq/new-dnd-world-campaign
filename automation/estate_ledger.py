@@ -133,6 +133,7 @@ def main():
   snapshot["estates"][estate]={
    "snapshot_cash_gp":str(money(cash_cut[estate])),"snapshot_liabilities_gp":str(money(liab_at_cut)),"snapshot_available_gp":str(available_cut),
    "projected_cash_gp":str(money(cash_all[estate])),"projected_liabilities_gp":str(money(liab_latest)),"projected_available_gp":str(available_latest),
+   "cash_gp":str(money(cash_all[estate])),"liabilities_gp":str(money(liab_latest)),"available_gp":str(available_latest),
    "cash_after_snapshot_events_gp":str(money(cash_all[estate]-cash_cut[estate])),
   }
   if cash_all[estate]<0:errors.append(f"{estate}: projected cash is negative")
