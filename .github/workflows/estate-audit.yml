@@ -97,8 +97,8 @@ jobs:
             routine_accrual_status=$?
           fi
           if [ "$ASSESS_CLOSED_TAX_PERIODS" = "true" ]; then
-            if [ -z "$CLOSED_THROUGH_DAY" ] || [ "$POST_CLOSED_DAY_ACCRUALS" != "true" ]; then
-              echo "Tax assessment posting requires closed_through_day and post_closed_day_accruals=true."
+            if [ -z "$CLOSED_THROUGH_DAY" ] || [ "$POST_CLOSED_DAY_ACCRUALS" != "true" ] || [ "$routine_accrual_status" -ne 0 ]; then
+              echo "Tax assessment posting requires an explicit closed day, successful accrual posting, and post_closed_day_accruals=true."
               blackthorn_tax_status=1
             else
               python3 automation/blackthorn_tax.py --closed-through-day "$CLOSED_THROUGH_DAY" --apply
