@@ -22,6 +22,7 @@ Do not resume play from this copy or change Project Sources during staging. The 
 - `assets/README.md` — maps and images retained in Drive
 - `MIGRATION_MAP.md` — source-to-file index
 - `migration/TEST_REPORT.md` — staging checks and cutover boundary
+- `migration/OPENING_POSITION_AUDIT.md` — opening rights, custody, staffing, inventory, and commitment audit
 
 ## Current checkpoint in the source
 
@@ -44,7 +45,8 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [ ] Verify that each service path cites the full applicable dependency set, including legal, staffing, safety, route and capacity conditions.
 - [x] Port source-checked forward Blackthorn taxable-base roll-forward and closed-period assessment adjustment posting; integrated synthetic chain test passes. Actual tax close/post has not been run because no real post-checkpoint closed tax period exists.
 - [ ] Run a real post-checkpoint Blackthorn operation chain, a confirmed character change, and one due Magic Shops turnover through write → rebuild → compare.
-- [ ] Complete opening ownership, custody, inventory, staff and commitment checkpoints; test full play → sync → source comparison.
+- [x] Audit opening rights, custody, staffing and commitments against the Property registers; see [OPENING_POSITION_AUDIT.md](migration/OPENING_POSITION_AUDIT.md).
+- [ ] Resolve the remaining opening-position gaps: Blackthorn physical stock verification, Miregate punt rebuild status, and itemized fixed assets; then compare the checkpoint with Drive.
 - [x] Review successful full Actions run 92. Cutover remains blocked by the real post-checkpoint event and source-comparison checks listed above.
 
 No Drive records or Project Sources have been changed. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
