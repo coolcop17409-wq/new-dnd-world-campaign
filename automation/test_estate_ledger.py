@@ -159,13 +159,23 @@ class EstateLedgerScenarioTests(unittest.TestCase):
             ),
             blackthorn_rules.money("29.20"),
         )
+        checkpoint_path = Path(__file__).parents[1] / "data" / "estate" / "blackthorn-tax-checkpoint.csv"
+        with checkpoint_path.open(encoding="utf-8", newline="") as handle:
+            checkpoint = {row["component"]: row["value_gp"] for row in csv.DictReader(handle)}
         taxable = blackthorn_rules.blackthorn_tax_base(
-            taxable_carry="536.97", accepted_revenue="1161.00", cogs="417.83",
-            loss_and_idle="53.20", management_payroll="336.00", upkeep="85.71",
-            incurred_operating_expenses="81.53",
+            taxable_carry=checkpoint["taxable_carry"],
+            accepted_revenue=checkpoint["accepted_revenue"],
+            cogs=checkpoint["cogs"],
+            loss_and_idle=checkpoint["loss_and_idle"],
+            management_payroll=checkpoint["management_payroll"],
+            upkeep=checkpoint["upkeep"],
+            incurred_operating_expenses=checkpoint["incurred_operating_expenses"],
         )
-        self.assertEqual(taxable, blackthorn_rules.money("723.70"))
-        self.assertEqual(blackthorn_rules.blackthorn_tax_assessment(taxable), blackthorn_rules.money("72.37"))
+        self.assertEqual(taxable, blackthorn_rules.money(checkpoint["taxable_base"]))
+        self.assertEqual(
+            blackthorn_rules.blackthorn_tax_assessment(taxable),
+            blackthorn_rules.money(checkpoint["tax_assessment"]),
+        )
         self.assertEqual(blackthorn_rules.blackthorn_tax_assessment("-10.00"), blackthorn_rules.money("0.00"))
 
 if __name__ == "__main__":
