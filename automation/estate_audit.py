@@ -10,6 +10,7 @@ import argparse
 import csv
 import json
 import os
+import re
 import sys
 from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from pathlib import Path
@@ -202,12 +203,21 @@ def audit_cashbook_ids() -> list[str]:
             seen.add(identifier)
     return errors
 
+def current_campaign_day() -> int | None:
+    state_path = ROOT / "campaign" / "continuity" / "campaign-state.md"
+    if not state_path.exists():
+        return None
+    text = state_path.read_text(encoding="utf-8")[:1500]
+    match = re.search(r"CAMPAIGN_STATE\s*[—–-]\s*DAY\s+(\d+)", text, re.IGNORECASE)
+    return int(match.group(1)) if match else None
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--campaign-day", default=os.environ.get("CAMPAIGN_DAY", "").strip())
     parser.add_argument("--output", type=Path, default=REPORT)
     args = parser.parse_args()
-    campaign_day = int(args.campaign_day) if args.campaign_day else None
+    campaign_day = int(args.campaign_day) if args.campaign_day else current_campaign_day()
+    campaign_day_source = "manual workflow input" if args.campaign_day else ("CAMPAIGN_STATE" if campaign_day is not None else "not found")
 
     notes: list[str] = []
     errors: list[str] = []
@@ -244,10 +254,10 @@ def main() -> int:
             "",
             "## Schedule review",
             "",
-            "No campaign day was supplied. Run the workflow manually with the current in-game day to list due and overdue unfinished estate tasks.",
+            "The current campaign day could not be read from CAMPAIGN_STATE. Supply it in the manual workflow input to list due and overdue unfinished estate tasks.",
         ])
     else:
-        lines.extend(["", f"## Unfinished tasks due by campaign Day {campaign_day}", ""])
+        lines.extend(["", f"## Unfinished tasks due by campaign Day {campaign_day}", "", f"Campaign-day source: {campaign_day_source}."])
         due: list[str] = []
         for name, config in ESTATES.items():
             due.extend(due_tasks(name, config["schedule"], campaign_day))
