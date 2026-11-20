@@ -12,7 +12,7 @@ def campaign_day():
  p=ROOT/"campaign"/"continuity"/"campaign-state.md"
  m=re.search(r"CAMPAIGN_STATE\s*[—–-]\s*DAY\s+(\d+)",p.read_text(encoding="utf-8")[:2000],re.I) if p.exists() else None
  return int(m.group(1)) if m else None
-def character(group, name, sheet):
+def character(group, name, sheet, inventory_sheet):
  rows=table(CSV/group/sheet)
  fields={}
  for r in rows[:8]:
@@ -31,7 +31,13 @@ def character(group, name, sheet):
     if item[0].strip().upper() in {"ABILITY","SKILL","FEATURE"}: break
     resource_rows.append({"name":item[0].strip(),"current":item[1].strip() if len(item)>1 else "","max":item[2].strip() if len(item)>2 else "","recovery":item[3].strip() if len(item)>3 else ""})
    break
- return {"name":name,"level":fields.get("level"),"hp":fields.get("current hp"),"max_hp":fields.get("max hp"),"ac":fields.get("ac"),"initiative":fields.get("initiative"),"speed":fields.get("speed"),"resources":resource_rows}
+ inv=table(CSV/group/inventory_sheet)
+ purse_row=next((r for r in inv if r and r[0].strip().lower()=="current campaign ledger (in custody)"),None)
+ purse_cp=None
+ if purse_row and len(purse_row)>=4:
+  try:purse_cp=int(purse_row[1])*100+int(purse_row[2])*10+int(purse_row[3])
+  except ValueError:pass
+ return {"name":name,"level":fields.get("level"),"hp":fields.get("current hp"),"max_hp":fields.get("max hp"),"ac":fields.get("ac"),"initiative":fields.get("initiative"),"speed":fields.get("speed"),"resources":resource_rows,"purse_cp":purse_cp}
 def inventory(group,sheet):
  rows=table(CSV/group/sheet)
  header_i=next((i for i,r in enumerate(rows) if r and r[0].strip().upper()=="ITEM"),None)
@@ -84,6 +90,12 @@ def apply_character_events(payload):
    if len(matches)!=1:raise ValueError(f"Resource event {event.get('event_id')} target is missing or ambiguous: {target}.")
    current=float(matches[0]["current"] or 0)
    matches[0]["current"]=str(float(absolute) if absolute else current+float(delta or 0))
+  elif kind=="currency":
+   if target.lower()!="purse_cp":raise ValueError(f"Unsupported currency target {target!r}.")
+   if person.get("purse_cp") is None:raise ValueError(f"{owner}: personal purse baseline is missing.")
+   current=int(person["purse_cp"])
+   person["purse_cp"]=int(absolute) if absolute else current+int(delta or 0)
+   if person["purse_cp"]<0:raise ValueError(f"Character event {event.get('event_id')} makes the purse negative.")
   elif kind=="inventory":
    items=payload["inventory"].get(person["name"],[])
    matches=[x for x in items if x["item"].strip().lower()==target.lower()]
@@ -122,11 +134,15 @@ def main():
   "estate_status":estate.get("status"),
   "tracker_status":tracker_status,
   "estates":estate.get("estates",{}),
-  "party":[character("v","Valenthia","v-character.csv"),character("cirren","Cirren","cirren-character.csv"),character("fenar","Fenar","fenar-character.csv")],
+  "party":[character("v","Valenthia","v-character.csv","v-inventory.csv"),character("cirren","Cirren","cirren-character.csv","cirren-inventory.csv"),character("fenar","Fenar","fenar-character.csv","fenar-inventory.csv")],
   "inventory":{"Valenthia":inventory("v","v-inventory.csv"),"Cirren":inventory("cirren","cirren-inventory.csv"),"Fenar":inventory("fenar","fenar-inventory.csv")},
   "magic_shop_lots":shops()
  }
  apply_character_events(payload)
+ for person in payload["party"]:
+  if person.get("purse_cp") is not None:
+   gp,rem=divmod(person["purse_cp"],100);sp,cp=divmod(rem,10)
+   person["purse"]={"gp":gp,"sp":sp,"cp":cp}
  OUT.parent.mkdir(parents=True,exist_ok=True)
  OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(f"Built {OUT}")
