@@ -48,4 +48,4 @@ Keep a compact unsynchronized change ledger during play. Sync at completed comba
 
 For each accepted event, use one stable event ID; preserve the causal order, actual rolls, resource effects, owner records, and exact pending action. Batch related file edits into one guarded Git commit where possible. Read the current branch head first and use expected-SHA checks; if it changes, reconcile before retrying. Verify each changed file and commit the current state last.
 
-Never silently overwrite successful changes, duplicate events, infer a rest or resource recovery, or claim a write succeeded without reading it back. Keep Drive and GitHub source copies separate until cutover is explicitly completed.
+Never silently overwrite successful changes, duplicate events, infer a rest or resource recovery, or claim a write succeeded without reading it back. Keep the historical Drive reference copies separate from active GitHub records after cutover; do not synchronize writes back to Drive.
