@@ -40,20 +40,26 @@ Specialist coverage Q244-03: quest implications of D244-ESTATE-CATCHUP-001, incl
 
 ## Atlas review
 
-**Last verified publication** — `ATLAS-D231-20261119-01`, Day 231 late morning at the Rethwyn rural manor entrance. The Day 225–231 review covered the Caereth and Rethwyn localities, the played road journeys and conditional access to the upper landing.
+**Last verified publication** — `ATLAS-D245-20261120-01`, Day 245 late afternoon at Blackthorn’s northern gallery, checkpoint `D245-BLACKTHORN-NORTH-ROOM-DOOR-001`. This western Orath review covers selected Rethwyn sites, the played Blackthorn approach, the upper Miregate voyages and shore links, and personal access to Blackthorn’s eastern tower and northern gallery. Earlier scoped review: `ATLAS-D231-20261119-01`.
 
-| Published file | Verified status |
+**Owner ruling. The Official world map is permanently read-only.** Never edit or replace the original artwork. Preserve its embedded bytes and registration (1774 × 887, SHA-256 `5e69f78a7a403d94ad54784609ad45cc126956c5d8fe4e0dee833f8dead03767`). Adopted changes belong in a separate atlas layer, regional view, or place register at the scale the evidence supports.
+
+| Published file | Verified output |
 | --- | --- |
-| [New-Unnamed-World-Atlas.html](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) | v4 |
-| [New-Unnamed-World-Markers.svg](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) | v1 |
-| [New-Unnamed-World-Markers.png](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) | Original overlay file identity, retained at this review |
-| [New-Unnamed-World-Map-Preview.png](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal) | Original preview file identity, retained at this review |
+| [New-Unnamed-World-Atlas.html](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) | v5 · `file_000000002bc081fd81a1f661160451a5` |
+| [New-Unnamed-World-Markers.svg](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) | v2 · `file_00000000de9c81f88b3c86326c9aa44d` |
+| [New-Unnamed-World-Markers.png](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) | Original transparent overlay · `file_00000000174882129d5c2a031d059f2b` |
+| [New-Unnamed-World-Map-Preview.png](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal) | v1 · `file_00000000a15881fdaf7ab551c5d5129d` |
 
-The Day 244 draft is unpublished. Resume from this publication record and reconcile the public effects below against the latest [campaign checkpoint](campaign-state.md) before publishing. Update this pointer after verifying the saved outputs.
+All four downloaded outputs matched their intended bytes. The published register has 231 entries and 93 mapped positions. All ten named views and the native visible marker geometry matched the prior edition. The preview and HTML display the western Orath review scope.
+
+**Run scope.** Apply evidence that changes a reader's understanding of location, relationships, travel, access or a durable landmark. Record one primary entry per fact. Separate estimated route time, actual passage and repeat service. Distinguish effective dates from player knowledge. Check each output by its contents: HTML, SVG register, visible PNG overlay, preview captions and insets. Check neighboring geography on material political or route changes. The midnight Pacific run uses these rules even if the campaign day stays the same.
+
+**Queue reconciliation.** The first table below is the historical source list for nine reviewed effects. See exact per-source acknowledgements in the published master. The superseded early Reedbed dates and the internal Miregate plot received REVIEWED_NO_CHANGE; the other seven effects are represented within player-known scope. The three additional R200 estate effects below remain **pending player knowledge**; QUESTS identifies remote delivery as outstanding. On actual delivery or other established public knowledge, reconcile the relevant effect with its estate owner and update only the affected geography. Superseded claims of technical failure were removed. No report to V was simulated.
 
 ## ATLAS-PENDING — public evidence queue
 
-Atlas owner only: master v4 receipt ATLAS-D231-20261119-01 was inspected; its scope does not ACK the effects below. Retained pointers are carried forward from the archived README, not new duplicate gameplay postings. Match source + consumer + effect key before applying; close only that effect after verified atlas ACK. The master/derivatives are unchanged by this quest review. No approximate map point creates mileage, ownership, safe passage or a service.
+Historical pre-publication queue, reconciled by the Atlas review above. At intake the master v4 receipt ATLAS-D231-20261119-01 was inspected; its scope does not ACK the effects below. Retained pointers are carried forward from the archived README, not new duplicate gameplay postings. Match source + consumer + effect key before applying; close only that effect after verified atlas ACK. The master/derivatives are unchanged by this quest review. No approximate map point creates mileage, ownership, safe passage or a service.
 
 | Source / effective time | Effect key / public scope | Owner evidence and next check |
 |---|---|---|
