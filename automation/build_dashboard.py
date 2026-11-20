@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a read-only dashboard from staging tracker snapshots."""
+"""Build a read-only dashboard from GitHub baselines and posted campaign events."""
 from __future__ import annotations
 import csv, json, re
 from pathlib import Path
@@ -129,7 +129,7 @@ def main():
  validation_path=ROOT/"reports"/"tracker-validation.json"
  tracker_status=json.loads(validation_path.read_text(encoding="utf-8")).get("status","MISSING") if validation_path.exists() else "MISSING"
  payload={
-  "generated_from":"staging snapshots; Drive remains authoritative",
+  "generated_from":"GitHub baseline snapshots and posted campaign event journals",
   "campaign_day":campaign_day(),
   "estate_status":estate.get("status"),
   "tracker_status":tracker_status,
