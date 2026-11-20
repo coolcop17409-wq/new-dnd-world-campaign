@@ -1,11 +1,13 @@
 {
-  "status": "PASS",
-  "findings": [],
+  "status": "CHECK",
+  "findings": [
+    "D231-RETHWYN-FUNERAL-PREPAY-001: only posted actual changes can affect character state."
+  ],
   "characters_checked": [
     "Valenthia",
     "Cirren",
     "Fenar"
   ],
   "shop_lots_checked": 89,
-  "character_events_checked": 0
+  "character_events_checked": 1
 }
