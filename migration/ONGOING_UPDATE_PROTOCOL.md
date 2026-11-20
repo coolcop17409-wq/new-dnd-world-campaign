@@ -91,3 +91,11 @@ The owner authorized GitHub cutover before every item below had passed. Keep eac
 - public repository exposure of DM preparation remains an accepted user choice.
 
 GitHub remains the active source while this validation backlog is resolved.
+
+## Fast-play read and scoped validation (2026-11-20)
+
+At chat startup retrieve the short continuity README, exact active CAMPAIGN_STATE, current rules index, scoped recent SESSION_LOG and relevant scene/prep, plus the generated `runtime/PLAY_NOW.md` when consistent with the checkpoint. The packet is built by `automation/build_play_packet.py` from the **current checkpoint** and the journal-overlaid dashboard, with embedded source hashes and fail-closed day/tracker-status checks. It is **not** a duplicate authority or event journal. If missing, delayed or stale, use owning sources instead and report material mismatch.
+
+Routine character events and CAMPAIGN_STATE changes trigger `.github/workflows/fast-play.yml`: validate baseline/posted tracker events, regenerate the read-only dashboard from the last verified estate ledger report, rebuild packet, and commit only changed generated views. Estate/property/market/rules-of-accounting changes trigger the comprehensive `estate-audit.yml` with Blackthorn replay, taxes and all ledger checks; that workflow also regenerates the packet. Shared workflow concurrency prevents overlapping generated-view writers. Do not silently treat a later estate action as adjudicated by the character-only path. Both workflows preserve existing post-cutover validation holds.
+
+For actual play writes, retain the existing stable event IDs, expected-SHA safeguards and causal order. Batch related changed owner records at natural boundaries; verify journals and append-only evidence before committing CAMPAIGN_STATE last. No per-round GitHub reads/writes or full estate workflow solely to record a tactical attack. Historical continuity and pre-cutover routing were archived intact; this maintenance did not advance gameplay.

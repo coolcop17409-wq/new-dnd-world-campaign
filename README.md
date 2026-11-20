@@ -9,6 +9,8 @@ Use this repository for campaign play and record updates. The former Google Driv
 ## Repository map
 
 - `AGENTS.md` — startup, source ownership, play authority, and sync procedure
+- `runtime/PLAY_NOW.md` — generated compact live-play packet; not an independent source of truth
+- `archive/continuity/` — preserved historical checkpoints, full pre-fastplay routing and closed session blocks
 - `campaign/continuity/` — campaign state, rules, quests, NPCs, inventory, and play log
 - `prep/dm-only/` — private-prep source tabs, publicly readable in this repo
 - `world/politics/` — political-reference topics
@@ -26,7 +28,7 @@ Use this repository for campaign play and record updates. The former Google Driv
 
 ## Current checkpoint in the source
 
-Day 235 evening, at the upper Miregate commercial landing in Crownsunder. V's next speech/action is pending with Captain Orla present beside the River Heron. See `campaign/continuity/campaign-state.md`.
+Read `campaign/continuity/campaign-state.md` for the latest **confirmed** pause. Use `runtime/PLAY_NOW.md` for a short generated read and `dashboard/dashboard.json` for journal-overlaid counters; do not use older dated checkpoint prose as current authority.
 
 ## Migration status and validation backlog
 
