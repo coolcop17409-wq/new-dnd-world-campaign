@@ -1,6 +1,8 @@
 # Campaign tracker automation
 
-## Staging tools
+This toolchain now supports the active GitHub campaign source. Live source records and event journals are under `trackers/`, `data/`, and `campaign/`; the reports and dashboard are derived outputs. The owner-directed cutover on 2026-11-20 leaves the open validation items in `migration/TEST_REPORT.md` as post-cutover work. Do not call untested paths verified or invent campaign events.
+
+## Tools
 
 - `estate_audit.py` checks displayed estate cash against recorded liabilities, cashbook IDs/reconciliation flags, and unfinished schedule items due by the supplied campaign day.
 - `estate_ledger.py` rolls normalized cash, liability, receivable and inventory events forward from the dated opening snapshots. It checks the Day 231 cash/liability checkpoint, paired transfers, unique keys, settlements, verified inventory and projected balances. Earned income and shipment/gate-sale release events must reference completed property schedule tasks; the engine checks actual day and evidence.
