@@ -141,7 +141,10 @@ def apply_character_events(payload):
    matches[0]["qty"]=str(float(absolute) if absolute else current+float(delta or 0))
    matches[0]["quantity_display"]=matches[0]["qty"]
   else:raise ValueError(f"Unsupported character event type {kind!r}.")
-  if kind=="stat" and key=="hp" and float(person["max_hp"] or 0) and float(person[key])>float(person["max_hp"]):raise ValueError(f"Character event {event.get('event_id')} exceeds maximum HP.")
+  if kind=="stat" and key=="hp":
+   new_hp=float(person[key]);max_hp=float(person["max_hp"] or 0)
+   if new_hp<0 or (max_hp and new_hp>max_hp):
+    raise ValueError(f"Character event {event.get('event_id')} places HP outside 0 to maximum; adjudicate zero HP correctly in the owner before posting.")
   if kind=="resource":
    maximum=float(matches[0]["max"] or 0)
    if float(matches[0]["current"])<0 or (maximum and float(matches[0]["current"])>maximum):raise ValueError(f"Character event {event.get('event_id')} exceeds the resource range.")
