@@ -16,7 +16,7 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Unfinished tasks due by campaign Day 236
+## Unfinished tasks due by campaign Day 237
 
 Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 203: MG-INSURANCE** (Hold)
@@ -27,6 +27,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 229: MG-CAR-HERON-VERIFY-D229** (Pending)
 - **Miregate — Day 233: MG-REPEAT-D225** (Hold)
 - **Miregate — Day 236: MG-PAY-236** (Pending)
+- **Miregate — Day 237: MG-ELDEN-CALL-237** (Pending)
 - **Miregate — Day 233: MG-NERIS-STORAGE-CHECK-233** (Pending)
 - **Miregate — Day 232: MG-OWN-GRAIN-PILOT-238** (Pending)
 - **Miregate — Day 231: MG-FARM-COMMERCIAL-REVIEW** (Pending)
@@ -38,6 +39,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Reedbed — Day 215: RB-PAYROLL-215** (Overdue / unresolved)
 - **Reedbed — Day 222: RB-PAYROLL-222** (Overdue / unresolved)
 - **Reedbed — Day 236: RB-PAYROLL-236** (Conditional)
+- **Reedbed — Day 237: RB-TARIN-237-NEXT** (Conditional)
 - **Reedbed — Day 232: RB-PASSING-NEXT-232** (Scheduled)
 - **Old Distributary Fort — Day 211: OF-COMMISSION** (Overdue / unresolved)
 - **Old Distributary Fort — Day 212: OF-START** (Overdue / unresolved)
