@@ -20,6 +20,13 @@ City and clocks
 Proposed local layout: western drovers' yards need cart space/fodder; market stairs suit pedestrians. Eastern commercial wards connect carriers, workshops and shifts; across the river, palace/archives draw officials and petitioners. Establish details through play. Orsaven's river is unnamed; Dornal runs from Drusk through Allhaven toward Dunwall and is not this river by default.
 Keep approximately three useful visible choices, not three obligatory missions: an actual commitment, a substantial expedition if credibly introduced, and a personal/exploration option. Leisure remains available. Disclose dates/travel and the source's knowledge. Day172 reception is completed; expired races/performances need a new real occasion before being offered again.
 Offscreen change requires an actor, means, knowledge and elapsed time. Bells, notices, convoys and replies travel physically. Resting or choosing Cirren's family does not cause a crisis. On return, establish one concrete changed person/place from what participants actually did.
+## Registered connection — Nightglass / Verdana / Silver Court
+ADMIN-NIGHTGLASS-EXPANSION-20261120-001; player-authorized expansion, DM ONLY and UNPLAYED. [Estate/ancestry](dm-estate-ancestry.md#nightglass-the-broken-inheritance--admin-nightglass-expansion-20261120-001) now combines the Hall provenance inquiry and existing Verdana service-house exploration into one complete first adventure. The Orsaven map-room field book remains an ordinary source; copies may travel, so multiple mandatory clerk visits are unnecessary.
+
+The service-house protection formula/counterseal supplies independent comparison with the established Regency tower oath-book and LONG ARC G paternal register. Ophira's existing contact is an optional comparison route after new evidence, not a retroactively successful Day180 identification. This is a substantive connection already grounded in approved Silver Court ancestry, not a shared commander or imported crime. Modern claims can be challenged without V accepting hereditary rule. First-expedition closure and local-faction victory remain independently attainable.
+
+No connection is added to Graven, Undertow/Miregate, Quenwood, the Covenant, Blackthorn undead, the awakening tomb or Western Program crimes. The burial callback retains its separate already-approved link and is not required here. No new public knowledge, expedition acceptance, message or game time results.
+
 Shared connections — scope
 Fixed facts below bind private preparation, not player knowledge. Conditional links require actual contact, capacity, agreements and travel. Each local outline retains its cause/outcome. Do not add clues to already searched evidence.
 Extortion overlap — limited shared informant
