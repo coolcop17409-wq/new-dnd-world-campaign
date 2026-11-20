@@ -38,6 +38,19 @@ Record Maintenance Q244-MAINT-01: ADMIN-MAINT-D244-20261120-01 repairs supported
 
 Specialist coverage Q244-03: quest implications of D244-ESTATE-CATCHUP-001, including the late visiting-horse request, are incorporated in existing prep; per-effect verified ACKs belong in its private review receipt. Estate accounts/requests, market stock and atlas canon remain owned separately. Actual report delivery and other consumers' ACKs remain pending. Check relevant late market/estate receipts directly before contact or travel, even at an unchanged day.
 
+## Atlas review
+
+**Last verified publication** — `ATLAS-D231-20261119-01`, Day 231 late morning at the Rethwyn rural manor entrance. The Day 225–231 review covered the Caereth and Rethwyn localities, the played road journeys and conditional access to the upper landing.
+
+| Published file | Verified status |
+| --- | --- |
+| [New-Unnamed-World-Atlas.html](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) | v4 |
+| [New-Unnamed-World-Markers.svg](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) | v1 |
+| [New-Unnamed-World-Markers.png](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) | Original overlay file identity, retained at this review |
+| [New-Unnamed-World-Map-Preview.png](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal) | Original preview file identity, retained at this review |
+
+The Day 244 draft is unpublished. Resume from this publication record and reconcile the public effects below against the latest [campaign checkpoint](campaign-state.md) before publishing. Update this pointer after verifying the saved outputs.
+
 ## ATLAS-PENDING — public evidence queue
 
 Atlas owner only: master v4 receipt ATLAS-D231-20261119-01 was inspected; its scope does not ACK the effects below. Retained pointers are carried forward from the archived README, not new duplicate gameplay postings. Match source + consumer + effect key before applying; close only that effect after verified atlas ACK. The master/derivatives are unchanged by this quest review. No approximate map point creates mileage, ownership, safe passage or a service.
