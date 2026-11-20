@@ -1,6 +1,6 @@
 # Opening Position Audit
 
-**Audit basis:** Property workbook read on 2026-11-19. Financial snapshot: Day 231 late morning cash; completed estate close remains Day 230. Blackthorn stock and liability balances are as of Day 230. This is a read-only audit of the staged export; it does not create campaign transactions or change the live workbook.
+**Audit basis:** Property workbook checked on 2026-11-20; the staged export is from 2026-11-19. Financial snapshot: Day 231 late morning cash; completed estate close remains Day 230. Blackthorn stock and liability balances are as of Day 230. This is a source/staging comparison; it creates no campaign transactions and changes no live workbook.
 
 ## Findings
 
