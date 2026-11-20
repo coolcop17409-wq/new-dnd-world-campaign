@@ -40,18 +40,18 @@ Specialist coverage Q244-03: quest implications of D244-ESTATE-CATCHUP-001, incl
 
 ## Atlas review
 
-**Last verified publication** — `ATLAS-ORATH-PLACEMENTS-20261120-01`. Owner-adopted schematic early Orath journeys, the Rethwyn–Blackthorn road and final-day landmark, nested locality records, and a regional search area for the reported Broken Standard. Canon is in [Geography & Seats](../../world/politics/geography-seats.md#early-orath-journeys-and-the-blackthorn-approach). The campaign was at Day 245 late afternoon during review. No travel or revelation was added. Earlier scoped publication: `ATLAS-D245-20261120-01`.
+**Last verified publication** — `ATLAS-ORATH-LOCAL-20261120-01`. The regional atlas identifies the Veer’s Hollow turnoff on the Eastwatch road and the Rethwyn family vault on the rural manor grounds. Earlier Orath edition: `ATLAS-ORATH-PLACEMENTS-20261120-01`. [Adopted geography](../../world/politics/geography-seats.md#veers-hollow-turnoff-and-the-rethwyn-family-vault).
 
 **Owner ruling. The Official world map is permanently read-only.** Never edit or replace the original artwork. Preserve its embedded bytes and registration (1774 × 887, SHA-256 `5e69f78a7a403d94ad54784609ad45cc126956c5d8fe4e0dee833f8dead03767`). Adopted changes belong in a separate atlas layer, regional view, or place register at the scale the evidence supports.
 
 | Published file | Verified output |
 | --- | --- |
-| [New-Unnamed-World-Atlas.html](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) | v6 · `file_000000006b888212a0efea436ecbb41d` |
-| [New-Unnamed-World-Markers.svg](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) | v3 · `file_000000001834820c89adf5ccfe2f803f` |
-| [New-Unnamed-World-Markers.png](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) | v1 · `file_000000002cf481fdb9d9fc54086806fb` |
-| [New-Unnamed-World-Map-Preview.png](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal) | v2 · `file_000000000ac481fd8213ac74b168833d` |
+| [New-Unnamed-World-Atlas.html](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) | v7 · `file_0000000071c081fd9db06c08467eca42` |
+| [New-Unnamed-World-Markers.svg](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) | v4 · `file_00000000f2bc8212a1b2afcddd7de821` |
+| [New-Unnamed-World-Markers.png](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) | v2 · `file_000000006b4481fd9d019a0dac7a9789` |
+| [New-Unnamed-World-Map-Preview.png](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal) | v3 · `file_000000004d9881fd9ac71d501f0fd782` |
 
-All four downloaded outputs matched the release files. The register has 231 entries, 101 point markers, two selectable geographic features (coach road and Orseld rumor area), and nine entries without a map anchor. Thirteen named views exercised. Original base bytes verified. Verdana and the unknown ancestral seat retain their prior open entries.
+All four downloaded outputs matched the release files. The register has 232 entries, 102 point markers, two selectable geographic features and seven entries without a map anchor. The frontier inset identifies the junction; the settlement entry links to it. The vault shares the rural manor’s marker. All thirteen named views exercised; original base bytes verified. Verdana and the unknown ancestral seat retain their prior open entries.
 
 **Run scope.** Apply evidence that changes a reader's understanding of location, relationships, travel, access or a durable landmark. Record one primary entry per fact. Separate estimated route time, actual passage and repeat service. Distinguish effective dates from player knowledge. Check each output by its contents: HTML, SVG register, visible PNG overlay, preview captions and insets. Check neighboring geography on material political or route changes. The midnight Pacific run uses these rules even if the campaign day stays the same.
 
