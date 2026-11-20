@@ -6,6 +6,7 @@ For a confirmed later change, append one event to `events.csv` through the GitHu
 
 Supported record types:
 
+- `currency`: `purse_cp` stores the personal purse as copper pieces; deltas preserve exact gp/sp/cp arithmetic. The dashboard formats the resulting purse back to coins.
 - `stat`: `HP` or `MAX HP`.
 - `resource`: exact live resource name from that character's character sheet.
 - `inventory`: exact item name from that character's equipment sheet.
