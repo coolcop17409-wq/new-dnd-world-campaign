@@ -16,7 +16,7 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Unfinished tasks due by campaign Day 237
+## Unfinished tasks due by campaign Day 238
 
 Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 203: MG-INSURANCE** (Hold)
@@ -35,6 +35,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 232: MG-JOREN-STORE-232-REVIEW** (Hold)
 - **Miregate — Day 231: MG-PUNT-REBUILD-D231** (Hold)
 - **Reedbed — Day 207: RB-BOOK** (Overdue / unresolved)
+- **Reedbed — Day 238: RB-WEEK-238** (Scheduled)
 - **Reedbed — Day 208: RB-PAYROLL-208** (Overdue / unresolved)
 - **Reedbed — Day 215: RB-PAYROLL-215** (Overdue / unresolved)
 - **Reedbed — Day 222: RB-PAYROLL-222** (Overdue / unresolved)
