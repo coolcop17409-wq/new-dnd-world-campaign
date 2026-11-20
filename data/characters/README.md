@@ -1,6 +1,6 @@
-# Character and inventory staging updates
+# Character and inventory event journal
 
-The character Sheets and inventory CSVs are the baseline snapshot from 2026-11-19. Drive remains authoritative while this staging ledger is tested.
+The character Sheets and inventory CSVs are baseline snapshots from 2026-11-19. GitHub is authoritative after the 2026-11-20 cutover. Record confirmed later changes in this GitHub event journal; the old Drive workbooks are historical references only. Current derived values appear in `dashboard/dashboard.json`.
 
 For a confirmed later change, append one event to `events.csv` through the GitHub connector. Use a unique ID, exact campaign day, one owner, one target, and a concise source reference. The dashboard applies that delta to the snapshot and the workflow checks that it remains within the displayed limits.
 
@@ -15,4 +15,4 @@ Use either `delta` or `absolute_value`, never both. Set status to `posted` only 
 
 Inventory quantity deltas require an actual acquire, consume, use, transfer, recovery, or loss with ownership/custody evidence. If an item appears more than once, make the target unique or update its owning sheet snapshot before applying a delta. This ledger does not replace class-feature rules or rest adjudication.
 
-Once a new baseline snapshot includes an event, the event must be archived/rebased before it is replayed against that new baseline. Do not overwrite the Drive workbook during staging.
+Once a new baseline snapshot includes an event, the event must be archived/rebased before it is replayed against that new baseline. Do not write new campaign state to the historical Drive workbook.
