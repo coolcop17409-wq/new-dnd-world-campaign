@@ -4,7 +4,7 @@ Test copy: https://github.com/coolcop17409-wq/new-dnd-world-campaign
 Visibility: Public, as explicitly chosen by the owner.  
 Authority: Drive remains authoritative. The Day 231 Blackthorn stocktake and fixed-assets register are recorded in the live Property workbook; SESSION_LOG and README routing were updated. Project Sources and cash balances were unchanged.
 
-The test and Actions results below predate the Day 231 stocktake and fixed-asset register updates. No tests or Actions were run for those updates.
+GitHub Actions run 104 completed successfully on the latest fixed-asset register commit. It passed Python syntax checks, synthetic ledger edge cases, estate validation/dashboard generation, and generated-report commit. This validates the workflow against staged data, but does not exercise a real post-checkpoint campaign event or Drive comparison. No manual tests were run.
 
 ## Confirmed checkpoint
 
@@ -30,7 +30,7 @@ The opening receivable register is empty because the source showed zero receivab
 - Recurring accrual tests pass stable ID generation, exact Day 231 values, explicit close posting and rerun idempotency.
 - Local verification on the current staging files: eleven unit tests passed, including the integrated post-checkpoint Blackthorn operation → estate ledger → tax chain; Blackthorn historical operation replay passed with no findings; routine-accrual preview passed with no findings; the Day 231 Magic Shops review queue passed with zero due reviews.
 
-The manually triggered accrual posting is opt-in and requires an explicit closed-through day. Ordinary workflow runs are preview only. This staging write path has not yet been reviewed in a successful Actions run.
+The manually triggered accrual posting is opt-in and requires an explicit closed-through day. Ordinary workflow runs are preview only. Run 104 exercised synthetic ledger cases and generated reports; no real campaign close has used the manual posting path.
 
 ## Still blocks cutover
 
