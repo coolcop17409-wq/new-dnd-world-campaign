@@ -1,6 +1,18 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.2gercvxhabnl; title: DM ONLY — SECRET QUEST OUTLINES; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
 DM ONLY — quest index
+## Record Maintenance consumption — ADMIN-MAINT-D244-20261120-01
+
+Status PREPARED; deterministic reconciliation at unchanged D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001. No adjudication, RNG, V choice, report delivery or elapsed campaign time.
+
+Q244-MAINT-01 caption/custody portion: NPCS corrects completed232 burial, known231 tower answer,233 signatures/legal-inquiry boundary and241 departure; INVENTORY corrects remains/keys/booklet, original compact and244 transport/fleet pointers. Superseded captions are archived verbatim before source removal. Personal compact leg D233-RETHWYN-VAISHNAVI-COMPACT-ALL-SIGNED-001/character-custody records quantity1 from an absent baseline, not a new award. Exact historical compact clauses and original231–233 scene transcripts remain unavailable; accepted-summary recovery in the existing log archive is explicitly bounded. No original dice or scene IDs reconstructed.
+
+ACK(D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001,maintenance,party-and-custody-captions)=PREPARED; NPCS/INVENTORY and owning personal journal, numeric counters unchanged.
+ACK(D244-ESTATE-CATCHUP-001,maintenance,custody-and-local-knowledge)=PREPARED; two239 boat returns and customer/House title distinctions retained in INVENTORY; current financial copies replaced by estate owner pointers. Estate report delivery to V remains pending actual contact.
+ACK(D244-BLACKTHORN-RURAL-FIRST-PREP,maintenance,current-region-factual-readiness)=PREPARED; existing Blackthorn outline incorporates durable zero-contact preparation without reroll or discovery. This is Maintenance's factual consumption, not Quest Development's or live-DM's ACK. All late Markets producer source/effect keys retain their own live-DM/Quest pending status; consult Events ADMIN-MARKET-D244-20261120-01 at relevant contact/next quest review. No new linked personal purchase, estate transfer or history leg is evidenced.
+
+PLAYABLE CONTINUITY: scoped owner-caption/custody repair and generated item recovery; exact checkpoint and pending action unchanged. SPECIALIST COVERAGE: estate full closes231–243 plus separately elapsed daytime244 verified against receipt; current evening/night and storage remainder are open, next feed check245. Market queue explicitly recomputed at244: zero due; next dealer review245. Quest preparation remains checkpoint-matched with this late local factual addendum. Atlas master v4 ATLAS-D231-20261119-01 still covers only its stated225–231 effects; live README's later public keys remain pending next atlas pass. HISTORICAL PROVENANCE: original231–233 scene text/compact clauses, MG-PUNT-COST-RECOVERY and pre-existing208–212 supply/rope gaps remain unresolved. These hold their dependent claims only. Migration validation backlog remains open.
+
 ## Current scoped review — ADMIN-QUEST-D244-20261120-01
 
 Status COMMITTED / VERIFIED; deterministic factual reconciliation and readiness edits published and exact-readback verified. Checkpoint D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001, Day244 early evening; previous reviewed checkpoint D229-231-RETHWYN-RETURN-001, Day231 late morning. Confirmed elapsed interval comes from accepted repository events, not wall-clock time. No campaign RNG, event adjudication, time advance, V action, new report delivery or resource write.

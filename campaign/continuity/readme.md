@@ -6,7 +6,7 @@ This short file is the live routing index following the owner-authorized GitHub 
 
 1. Read [campaign-state.md](campaign-state.md) for the **exact** latest played checkpoint and pending player choice; it now holds only the current checkpoint. Read [runtime/PLAY_NOW.md](../../runtime/PLAY_NOW.md) for concise character counters and scene context. PLAY_NOW is generated; when its checkpoint/day or resource data disagrees with the owning sources, **the owning sources win**. A missing/stale packet is not permission to guess.
 2. Read [rules.md](rules.md) and relevant sections of [rules-combat-recovery.md](rules-combat-recovery.md), [rules-dm-procedures.md](rules-dm-procedures.md), or other rules only as required. Approved homebrew and D&D 5e **2014** apply.
-3. Read only the recent relevant events in [session-log.md](session-log.md), and scoped [quests.md](quests.md), [npcs.md](npcs.md), [inventory.md](inventory.md), and eligible matching [DM-prep index](../../prep/dm-only/) or current-region outline. Full older log: [archive](../../archive/continuity/session-log-days216-231-legacy.md).
+3. Read only the recent relevant events in [session-log.md](session-log.md), and scoped [quests.md](quests.md), [npcs.md](npcs.md), [inventory.md](inventory.md), and eligible matching [DM-prep index](../../prep/dm-only/) or current-region outline. Closed history through243 (legacy filename retained): [archive](../../archive/continuity/session-log-days216-231-legacy.md).
 4. For exact personal values consult [dashboard/dashboard.json](../../dashboard/dashboard.json), then owning character CSV baselines plus [character events](../../data/characters/events.csv) if challenged or changed. Trackers are not a rules engine. Estate and Magic Shops records are separate and read only when relevant.
 
 ## Combat and scene fast path
@@ -34,7 +34,7 @@ No new in-world events, rolls, NPC choices, property operations, income, rests o
 
 Quest/prep review ADMIN-QUEST-D244-20261120-01 is scoped to D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001, Day244 early evening at Blackthorn. [QUESTS](quests.md) and the [existing private index](../../prep/dm-only/dm-only-secret-quest-outlines.md) carry reconciled status; load that index's current-region owner for delivery. CAMPAIGN_STATE remains the exact pause. Ready preparation is not a delivered invitation, report, scene or player choice.
 
-Record Maintenance handoff Q244-MAINT-01: verify remaining NPCS/INVENTORY summary and custody captions against the accepted archived checkpoint, and recover missing standalone Day231–233 chronology where original evidence is available. Exact locators and limitations are in the existing private review receipt; preserve accepted closure and never fabricate missing dialogue/rolls. Character journal overlay coverage remains with its owner. This is a bounded provenance/caption follow-up, not failed gameplay and not completion of migration/TEST_REPORT.md.
+Record Maintenance Q244-MAINT-01: ADMIN-MAINT-D244-20261120-01 repairs supported NPCS/INVENTORY captions and the missing personal compact custody leg. Closed log blocks through243 move to the existing archive only after destination verification. Accepted Day231–233 summaries are sourced there; original scene transcripts and exact compact clauses remain unresolved, not reconstructed. The private maintenance receipt owns detailed per-consumer status. This is a bounded correction, not completion of migration/TEST_REPORT.md.
 
 Specialist coverage Q244-03: quest implications of D244-ESTATE-CATCHUP-001, including the late visiting-horse request, are incorporated in existing prep; per-effect verified ACKs belong in its private review receipt. Estate accounts/requests, market stock and atlas canon remain owned separately. Actual report delivery and other consumers' ACKs remain pending. Check relevant late market/estate receipts directly before contact or travel, even at an unchanged day.
 
@@ -54,8 +54,26 @@ Atlas owner only: master v4 receipt ATLAS-D231-20261119-01 was inspected; its sc
 | D241-243-BLACKTHORN-ROAD-001 and D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001 /241–244 | RETHWYN-BLACKTHORN-PLAYED-ROAD | session-log.md: four ordinary wagon days actually traveled241–244; trade-road then upland approach. No exact surveyed distance, shortcut or Blackthorn river frontage. |
 | D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001 /244 | UPLAND-ROADSIDE-OBSERVATION | session-log.md: stone shelter remains and vegetated paved spur observed while remaining on the road. Regional/unlocated observation only; no entered site, known endpoint, title, hazard or new map coordinate. |
 
+## Record Maintenance — ADMIN-MAINT-D244-20261120-01
+
+Status PREPARED. Scope: current party/custody captions; accepted Day231–233 evidence recovery; closed log archival through243; scoped written route qualifications and current-region factual readiness. Latest played checkpoint remains D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001, Day244 early evening, Blackthorn gate/yard. Previous specialist baseline231 late morning is thirteen campaign day numbers earlier; no exact elapsed hours inferred. Latest offscreen producer receipts are separately D244-ESTATE-CATCHUP-001 and ADMIN-MARKET-D244-20261120-01, not new played scenes or delivered reports.
+
+Operations: M244-A archive destination verification before any source removal; M244-B NPC/custody/history/geography/prep repairs; M244-C missing personal inventory leg and generated-view rebuild; M244-D per-file verification/recheck/release. Expected values: omitted Cirren compact entry→one existing signed original; all party counters, personal purse, other gear, estates and market lots unchanged. State blob1430df7ef96e7880118885608abccc9942c04986 is unchanged, so no CAMPAIGN_STATE commit is needed. Prior history and correction trails remain accessible.
+
+- PLAYABLE CONTINUITY: current scope pending write verification; exact arrival/pending player action preserved. No gameplay simulated.
+- SPECIALIST COVERAGE: Estates covers closed231–243 and elapsed daytime244, evening/night244 remains open. Markets review recomputed for244 has zero due; future work is not failure. Quest checkpoint matches; late producer consequences remain available directly to live play and next quest review. Atlas v4 scoped metadata was read; existing ATLAS-PENDING effects lack matching ACKs and remain for its next pass. No atlas files changed.
+- HISTORICAL PROVENANCE: accepted231–233 summaries recovered without original transcripts/compact clauses; punt restoration invoice and older208–212 supply/rope provenance remain open. Their missing evidence does not block ordinary Blackthorn play or undo accepted outcomes. migration/TEST_REPORT.md remains unchanged.
+
+| Pending effect / owner | Exact interval/event and dependency | Next check |
+|---|---|---|
+| Original chronology / Record Maintenance | Day231 local answer,232 burial,233 compact; original scene text and exact clauses unavailable | Recover only if original source evidence becomes accessible; preserve accepted summary |
+| Punt cost / Estates | MG-PUNT-COST-RECOVERY,231–235 restoration invoice; operational235 status already accepted | Next estate provenance review; no invented payment or renewed repair |
+| Visiting feed / Estates | BT-V-HORSES-244; actual244 feed already consumed; estate stores for245 unverified | Before actual245 feeding/restock; no second244 charge |
+| Late producer effects / Quest Development and live DM | ADMIN-MARKET-D244-20261120-01 individual source/effect keys; local knowledge only | Relevant contact/time skip and next quest review; each consumer ACK separately |
+| Atlas publication / Atlas | Existing public ATLAS-PENDING source/effect rows; v4 receipt covers only its own225–231 scope | Next atlas pass; close matching verified effects only |
+
 ## Shared run coordination — RUN-PROTOCOL-v2
 
 The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
 
-CAMPAIGN_WRITER | state=IDLE | last_token=MKT-D244-20261120-0605 | last_operation=M244-01..04 | recovery=trackers/csv/magic-shops/events.csv ADMIN-MARKET-D244-20261120-01 | consumers=live-DM before relevant contact or time skip; Quest Development next review | verified_owner_commit=fa22a3674f198e58d1ce8ac01ca00fc27ad45f5b | verified_coverage_commit=7bd33cfa4bab582047f81f022f779a292f13ea92
+CAMPAIGN_WRITER | state=ACTIVE | token=MAINT-D244-20261120-1505 | worker=Record Maintenance | operations=M244-A..D | acquired=2026-11-20T15:04:19Z | heartbeat=2026-11-20T15:04:19Z | expires=2026-11-20T15:14:19.000Z | recovery=prep/dm-only/dm-only-secret-quest-outlines.md ADMIN-MAINT-D244-20261120-01
