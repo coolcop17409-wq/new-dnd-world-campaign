@@ -16,7 +16,7 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Unfinished tasks due by campaign Day 235
+## Unfinished tasks due by campaign Day 236
 
 Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 203: MG-INSURANCE** (Hold)
@@ -26,6 +26,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 228: MG-CAERETH-CHARTER-D228** (Hold)
 - **Miregate — Day 229: MG-CAR-HERON-VERIFY-D229** (Pending)
 - **Miregate — Day 233: MG-REPEAT-D225** (Hold)
+- **Miregate — Day 236: MG-PAY-236** (Pending)
 - **Miregate — Day 233: MG-NERIS-STORAGE-CHECK-233** (Pending)
 - **Miregate — Day 232: MG-OWN-GRAIN-PILOT-238** (Pending)
 - **Miregate — Day 231: MG-FARM-COMMERCIAL-REVIEW** (Pending)
@@ -36,6 +37,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Reedbed — Day 208: RB-PAYROLL-208** (Overdue / unresolved)
 - **Reedbed — Day 215: RB-PAYROLL-215** (Overdue / unresolved)
 - **Reedbed — Day 222: RB-PAYROLL-222** (Overdue / unresolved)
+- **Reedbed — Day 236: RB-PAYROLL-236** (Conditional)
 - **Reedbed — Day 232: RB-PASSING-NEXT-232** (Scheduled)
 - **Old Distributary Fort — Day 211: OF-COMMISSION** (Overdue / unresolved)
 - **Old Distributary Fort — Day 212: OF-START** (Overdue / unresolved)
@@ -44,6 +46,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Old Distributary Fort — Day 233: OF-WEEK-233** (Scheduled)
 - **Old Distributary Fort — Day 215: OF-PAYROLL-215** (Overdue / unresolved)
 - **Old Distributary Fort — Day 222: OF-PAYROLL-222** (Overdue / unresolved)
+- **Old Distributary Fort — Day 236: OF-PAYROLL-236** (Conditional)
 - **Blackthorn — Day 232: WOOD-WEEK-6** (Scheduled)
 - **Blackthorn — Day 232: FREIGHT-F03** (Planned)
 - **Blackthorn — Day 234: REPEAT-TARGET-231** (Deferred)
