@@ -341,7 +341,7 @@ def main():
   for row in rows(live_path):
    if row.get("record_type")=="Posting coverage":
     snapshot["accounting_coverage"][row["estate"]]=json.loads(row["source_and_limits"])
- snapshot["income_expense_scope"]="Signed economic entries after imported opening, including any explicit retrospective corrections to earlier days. R200-FIN manifests own actual service-day timelines; these entry totals are not a fresh tax period."
+ snapshot["income_expense_scope"]="Signed economic entries after imported opening, including any explicit retrospective corrections to earlier days. Resolved retrospective reconciliation manifests own actual service-day timelines; these entry totals are not a fresh tax period."
  snapshot["findings"]=errors
  if errors:snapshot["status"]="CHECK"
  REPORT.parent.mkdir(parents=True,exist_ok=True);REPORT.write_text(json.dumps(snapshot,indent=2)+"\n",encoding="utf-8")

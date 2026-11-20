@@ -78,7 +78,7 @@ Verification: archive commit 683a1ef01cf2f8f30c09c00517be58bb3575c1e5 preceded o
 
 The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-PROSPECT-START-D244-20261120-01 | worker=estate-prospecting-reconciliation | operations=PS244-A,PS244-B | acquired_UTC=2026-11-20T16:33:53.583Z | heartbeat_UTC=2026-11-20T16:43:25.550Z | expires_UTC=2026-11-20T16:53:25.550Z | recovery=data/estate/operational-checkpoint.csv D244-ESTATE-PROSPECT-SINCE-START-001
+CAMPAIGN_WRITER | state=IDLE | last_token=ESTATE-PROSPECT-START-D244-20261120-01 | released_UTC=2026-11-20T16:46:57.413Z | result=VERIFIED | recovery=data/estate/operational-checkpoint.csv ADMIN-ESTATE-PROSPECT-D244-001
 
 ## Estate retrospective correction — D244-ESTATE-REDO-D200-001
 
@@ -95,3 +95,21 @@ Additional ATLAS-PENDING effects; no matchingACK yet:
 Earlier REEDBED-SERVICE-225-228 is superseded for currentdating by R200-REEDBED-SERVICE-222; retain auditpointer/scopedhistoricalACK. Only atlasowner canACK/application-close replacementeffects.
 
 Verification: ADMIN-ESTATE-REDO-D244-001 is VERIFIED. Source commit `e262ef22a22c47e9e64c5d3754374ad7d9ed9e94`, generated-report recovery `ad16a4a0f90878ee65175c49575108ac51036c53`, full estate audit [44772309644](https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/44772309644) SUCCESS. Day244 early-evening checkpoint rechecked unchanged after the latest Second Wind correction. This completes the authorized estate-result redo; Miregate's historical punt invoice remains a financial-input gap, and consumer ACKs/report delivery remain separate.
+
+## Estate customer acquisition — D244-ESTATE-PROSPECT-SINCE-START-001
+
+COMMITTED / VERIFIED: standing active prospecting covers every actual or realistically producible estate offering from each steward’s evidenced beginning. Current briefs/continuing requests, fourteen newly adjudicated independent responses, eight assents, actual fulfillment, custody and exact net corrections are in the existing estate journals. Prior historical all-output sales, named customer decisions, passing demand, Day200 redo and funding legs remain once. Ordinary new Orsaven business no longer waits for V to choose the customer. No automation schedule/settings changed.
+
+Owner commit 0e1ed20c9f34c7bc29c05b7bd73fd41bcf0f37fa was read back exactly across fifteen changed files; estate audit 44776631711 succeeded with nineteen tests, replay, cumulative tax, tracker checks and generated views. Daily cash, actual stock/reservations and storage capacity reconcile. Current checked checkpoint remains D244-V-SECOND-WIND-REST-CORRECT-001, Day244 early evening: full close243 plus elapsed244 only. No new completed day or V action/resource change.
+
+Additional cash from completed new business: Blackthorn132gp, Miregate23.06gp, Reedbed28gp; Fort unchanged. Current accounts: Blackthorn822.80cash/215.36actual obligations/607.44available; Miregate395.66/11.38/384.28; Reedbed171/8.60/162.40; Fort5.71/7.85/−2.14, with171.43earned receivable including120due245. No reserve deduction. Current storage includes MiregatePS-MG-F4t customergrain through246,1.15unearned advance. BlackthornPS-BT-E1t architectural253order is28gp unearned; actual.114t reserved, .886t future production. Current reports own subsequent balances.
+
+Scope limits remain explicit: Miregate historic231–235punt rebuild invoice is unavailable (operational235 status unaffected); Caereth carrier/sample replies and four-acre crop season/full-cost offtake remain their existing actionable requests. This receipt verifies the new customer-development reconciliation, not every historical campaign discrepancy or those unperformed proposals. Existing migration validation items and ATLAS-PENDING effects remain open.
+
+| Producer source/effect | Consumer | Actual knowledge / earliest contact | ACK |
+|---|---|---|---|
+| ESTATE-PROSPECT-START-D244-20261120-01 / PS244-CUSTOMER-DEVELOPMENT; source D244-ESTATE-PROSPECT-SINCE-START-001 | Live DM | Tamsin knows local orders now and can report at actual244yard conversation; river results require an actual Meret message/visit. No player speech or Sending Stone use assumed. | PENDING |
+| Same source/effect | Quest Development | Use saved current estate readiness and requests at next relevant preparation; no forced hook or invented news delivery. | PENDING |
+| Same source/effect | Record Maintenance | Verified owners and custody are available; retain own per-consumer application evidence. Earlier redo ACK is not this effect’s ACK. | PENDING |
+
+No new public geographic service/access change is introduced by marketing existing services; no new atlas effect or fabricated ACK. ADMIN-ESTATE-PROSPECT-D244-001 and PS244-HANDOFF-* own exact verification and pending consumers. Successful accounting cutoffs were retained and annotated only after dependent owner writes verified.

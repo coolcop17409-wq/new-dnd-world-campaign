@@ -255,7 +255,21 @@
         241,
         242,
         243
-      ]
+      ],
+      "prospecting_supplement": {
+        "source": "D244-ESTATE-PROSPECT-SINCE-START-001",
+        "verified_owner_commit": "0e1ed20c9f34c7bc29c05b7bd73fd41bcf0f37fa",
+        "ci_run": 44776631711,
+        "from": "Actual evidenced beginnings inPS244-BRIEF records; prior88\u2013180all-outputsalespreserved",
+        "through": "Completed243 and elapsed244daytime; no clock advance",
+        "new_daily_close_days": [],
+        "new_actual_activity_days": [
+          207,
+          235,
+          244
+        ],
+        "completion": "All preparednewcustomerdecisions resolved; exactjournal/custodyandfuturecommitmentsverified. Existingdue/openrequests retained; historicalpuntinvoice remainsgap."
+      }
     },
     "Miregate": {
       "previous_completed_day": 230,
@@ -337,7 +351,30 @@
         241,
         242,
         243
-      ]
+      ],
+      "prospecting_supplement": {
+        "source": "D244-ESTATE-PROSPECT-SINCE-START-001",
+        "verified_owner_commit": "0e1ed20c9f34c7bc29c05b7bd73fd41bcf0f37fa",
+        "ci_run": 44776631711,
+        "from": "Actual evidenced beginnings inPS244-BRIEF records; prior88\u2013180all-outputsalespreserved",
+        "through": "Completed243 and elapsed244daytime; no clock advance",
+        "new_daily_close_days": [],
+        "new_actual_activity_days": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          236,
+          241,
+          242,
+          243
+        ],
+        "completion": "All preparednewcustomerdecisions resolved; exactjournal/custodyandfuturecommitmentsverified. Existingdue/openrequests retained; historicalpuntinvoice remainsgap."
+      }
     },
     "Reedbed": {
       "previous_completed_day": 230,
@@ -417,7 +454,22 @@
         241,
         242,
         243
-      ]
+      ],
+      "prospecting_supplement": {
+        "source": "D244-ESTATE-PROSPECT-SINCE-START-001",
+        "verified_owner_commit": "0e1ed20c9f34c7bc29c05b7bd73fd41bcf0f37fa",
+        "ci_run": 44776631711,
+        "from": "Actual evidenced beginnings inPS244-BRIEF records; prior88\u2013180all-outputsalespreserved",
+        "through": "Completed243 and elapsed244daytime; no clock advance",
+        "new_daily_close_days": [],
+        "new_actual_activity_days": [
+          227,
+          236,
+          243,
+          244
+        ],
+        "completion": "All preparednewcustomerdecisions resolved; exactjournal/custodyandfuturecommitmentsverified. Existingdue/openrequests retained; historicalpuntinvoice remainsgap."
+      }
     },
     "Old Distributary Fort": {
       "previous_completed_day": 230,
@@ -497,8 +549,18 @@
         241,
         242,
         243
-      ]
+      ],
+      "prospecting_supplement": {
+        "source": "D244-ESTATE-PROSPECT-SINCE-START-001",
+        "verified_owner_commit": "0e1ed20c9f34c7bc29c05b7bd73fd41bcf0f37fa",
+        "ci_run": 44776631711,
+        "from": "Actual evidenced beginnings inPS244-BRIEF records; prior88\u2013180all-outputsalespreserved",
+        "through": "Completed243 and elapsed244daytime; no clock advance",
+        "new_daily_close_days": [],
+        "new_actual_activity_days": [],
+        "completion": "All preparednewcustomerdecisions resolved; exactjournal/custodyandfuturecommitmentsverified. Existingdue/openrequests retained; historicalpuntinvoice remainsgap."
+      }
     }
   },
-  "income_expense_scope": "Signed economic entries after imported opening, including any explicit retrospective corrections to earlier days. R200-FIN manifests own actual service-day timelines; these entry totals are not a fresh tax period."
+  "income_expense_scope": "Signed economic entries after imported opening, including any explicit retrospective corrections to earlier days. Resolved retrospective reconciliation manifests own actual service-day timelines; these entry totals are not a fresh tax period."
 }
