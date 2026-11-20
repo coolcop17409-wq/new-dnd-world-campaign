@@ -67,7 +67,7 @@ Operations: M244-A archive destination verification before any source removal; M
 | Pending effect / owner | Exact interval/event and dependency | Next check |
 |---|---|---|
 | Original chronology / Record Maintenance | Day231 local answer,232 burial,233 compact; original scene text and exact clauses unavailable | Recover only if original source evidence becomes accessible; preserve accepted summary |
-| Punt cost / Estates | MG-PUNT-COST-RECOVERY,231–235 restoration invoice; operational235 status already accepted | Next estate provenance review; no invented payment or renewed repair |
+| Punt cost / Estates | RESOLVED by D244-MIREGATE-PUNT-COST-RECON-001:20gp restoration cost recognized235, paid244; operational235 unchanged | Verified owner receipt closes this dependency; no repeat payment or repair |
 | Visiting feed / Estates | BT-V-HORSES-244; actual244 feed already consumed; estate stores for245 unverified | Before actual245 feeding/restock; no second244 charge |
 | Late producer effects / Quest Development and live DM | ADMIN-MARKET-D244-20261120-01 individual source/effect keys; local knowledge only | Relevant contact/time skip and next quest review; each consumer ACK separately |
 | Atlas publication / Atlas | Existing public ATLAS-PENDING source/effect rows; v4 receipt covers only its own225–231 scope | Next atlas pass; close matching verified effects only |
@@ -78,7 +78,7 @@ Verification: archive commit 683a1ef01cf2f8f30c09c00517be58bb3575c1e5 preceded o
 
 The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=PUNT-RECON-D244-20261120-01 | worker=punt-reconciliation | operations=PR244-A,PR244-B | acquired_UTC=2026-11-20T16:58:58.025Z | heartbeat_UTC=2026-11-20T16:58:58.025Z | expires_UTC=2026-11-20T17:08:58.025Z | recovery=data/estate/operational-checkpoint.csv D244-MIREGATE-PUNT-COST-RECON-001
+CAMPAIGN_WRITER | state=IDLE | last_token=PUNT-RECON-D244-20261120-01 | released_UTC=2026-11-20T17:03:55.856Z | result=VERIFIED | recovery=data/estate/operational-checkpoint.csv ADMIN-PUNT-RECON-D244-001
 
 ## Estate retrospective correction — D244-ESTATE-REDO-D200-001
 
@@ -113,3 +113,13 @@ Scope limits remain explicit: Miregate historic231–235punt rebuild invoice is 
 | Same source/effect | Record Maintenance | Verified owners and custody are available; retain own per-consumer application evidence. Earlier redo ACK is not this effect’s ACK. | PENDING |
 
 No new public geographic service/access change is introduced by marketing existing services; no new atlas effect or fabricated ACK. ADMIN-ESTATE-PROSPECT-D244-001 and PS244-HANDOFF-* own exact verification and pending consumers. Successful accounting cutoffs were retained and annotated only after dependent owner writes verified.
+
+## Miregate punt bill — D244-MIREGATE-PUNT-COST-RECON-001
+
+COMMITTED / VERIFIED. The player explicitly requested determining and reconciling the previously omitted cost. This is a newly adjudicated retrospective fixed settlement, not recovery of an original invoice:20gp total, comprising12gp independent professional service at the established4gp/bench-day benchmark and8gp newly agreed delivered repair materials. Existing90gp building/mill/berth works, Reedbed barge bills, staff wages and all funding legs remain separate and unchanged.
+
+Recognize ordinary restoration expense/payable20gp effective235, when usable completion was already accepted. Meret settles20gp from Miregate during elapsed244 estate business; the new punt payable is zero. Journal legs MG-PUNT-RECON-COST-D235 and MG-PUNT-RECON-PAY-D244 were each posted once. Miregate cash375.66gp, actual liabilities11.38gp, available364.28gp; cumulative startup/operating result−465.72gp and tax0. No new vessel/capital appraisal, test, voyage, personal debit or V action.
+
+Source commit 24ff4d07ace4679a692b6d3ee32a16edfe4f66b2 read back exactly across eleven changed files; estate audit 44779305239 succeeded. Original360economic rows unchanged; two new unique linked legs, cleared liability, nonnegative daily cash, other estates/characters unchanged. Checkpoint959e27b42d1652f7bd21932f9c27422713ba6d20 remains Day244 early evening. Full close243/elapsed244 only; no game-time advance. MG-PUNT-COST-RECOVERY is Completed. Earlier dated receipts saying the punt cost was missing remain historical and are superseded for current status by this resolution.
+
+Record Maintenance and liveDM have separate PENDING_ACK pointers PUNT244-HANDOFF-* / MIREGATE-PUNT-BILL-SETTLED. Meret and contractor know the settlement; player-character notification requires actual contact. No new geographic/access effect; existing atlas queues unchanged. This closes the punt's financial omission only, without claiming all campaign provenance or other ongoing estate proposals completed.

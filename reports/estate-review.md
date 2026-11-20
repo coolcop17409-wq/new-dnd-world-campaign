@@ -1,6 +1,6 @@
 # Estate Review
 
-Generated from the property workbook CSV snapshot captured 2026-11-19.
+Generated from the property workbook CSV snapshot captured unknown.
 Audit/report only: this process does not post wages, income, expenses, transfers, taxes, or campaign decisions.
 
 ## Imported historical snapshot reconciliation
@@ -41,7 +41,7 @@ No unfinished scheduled tasks at or before that day were found in the four sched
 - **Miregate — MG-FARM-COMMERCIAL-REVIEW** is routed to current `R200-MG-FARM-NEXT` (waiting; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-HESSA-MILL-232-NEXT** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-JOREN-STORE-232-REVIEW** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
-- **Miregate — MG-PUNT-REBUILD-D231** is routed to current `MG-PUNT-COST-RECOVERY` (Resolved; verification pending; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-PUNT-REBUILD-D231** is routed to current `MG-PUNT-COST-RECOVERY` (Completed; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-BOOK** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-WEEK-238** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-PAYROLL-208** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
@@ -72,7 +72,6 @@ No unfinished scheduled tasks at or before that day were found in the four sched
 
 These owner requests retain their actual dependencies/next triggers; being listed is not evidence of completion or a due payment.
 
-- **Miregate — MG-PUNT-COST-RECOVERY** (Resolved; verification pending): Punt restoration cost/provenance gap. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Blackthorn — BT-CAERETH-SAMPLES-244** (waiting): Caereth framework sample/freight economics. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Miregate — MG-INSURANCE-LIVE-244** (waiting): MG-INSURANCE Esgar quote. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Blackthorn — BT-V-HORSES-244** (open): Four visiting V-owned coachhorses, separatefromHedda pair. Dependency/trigger: data/estate/operational-checkpoint.csv.

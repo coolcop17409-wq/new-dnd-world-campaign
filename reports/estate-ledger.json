@@ -292,11 +292,9 @@
       "last_accounted_day": 244,
       "accounted_time": "early evening; completed daytime work only",
       "current_day_full_close": false,
-      "status": "PARTIAL historical cost provenance",
+      "status": "CAUGHT UP through verified elapsed activity",
       "known_posted_balances_verified": true,
-      "historical_gaps": [
-        "MG-PUNT-COST-RECOVERY: historical231-235restoration cost/invoice missing"
-      ],
+      "historical_gaps": [],
       "open_current_interval": "Day244 evening/night and unfinished244storage ton-day; do not post unelapsed activity",
       "next_regular_payday": 250,
       "next_tax_and_carrow_due": 272,
@@ -374,6 +372,16 @@
           243
         ],
         "completion": "All preparednewcustomerdecisions resolved; exactjournal/custodyandfuturecommitmentsverified. Existingdue/openrequests retained; historicalpuntinvoice remainsgap."
+      },
+      "punt_cost_resolution": {
+        "source": "D244-MIREGATE-PUNT-COST-RECON-001",
+        "owner_commit": "24ff4d07ace4679a692b6d3ee32a16edfe4f66b2",
+        "ci_run": 44779305239,
+        "recognition_day": 235,
+        "actual_payment_day": 244,
+        "cost_gp": "20.00",
+        "payable_gp": "0.00",
+        "method": "Explicitly authorized new retrospective settlement, not recovered original invoice. Former missing-cost blocker closed after exact saved journal/readback and replay."
       }
     },
     "Reedbed": {
