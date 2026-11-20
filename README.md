@@ -1,10 +1,10 @@
-# New Unnamed World Campaign — GitHub Migration Test
+# New Unnamed World Campaign
 
-This repository is a public staging copy. ChatGPT Project Sources still point to Drive; Drive remains the live campaign authority.
+This public repository is the active canonical source for campaign text and structured records. The owner authorized cutover on 2026-11-20 before every migration validation gate had passed. The outstanding checks remain an explicit post-cutover validation backlog in `migration/TEST_REPORT.md`; do not describe them as passed or invent campaign events to satisfy them.
 
-## Authority during testing
+## Authority after cutover
 
-Do not resume play from this copy or change Project Sources during staging. The repository is public by the owner's choice. All files, including DM preparation and unrevealed material, are readable by anyone online; “DM-only” labels are play-reveal guidance, not access controls.
+Use this repository for campaign play and record updates. The former Google Drive Docs and workbook exports are historical reference snapshots and must not receive new campaign-state writes. Maps and large images remain in Drive/Library as designated visual assets. The repository is public by the owner's choice; all files, including DM preparation and unrevealed material, are readable by anyone online. “DM-only” labels are play-reveal guidance, not access controls.
 
 ## Repository map
 
@@ -21,14 +21,14 @@ Do not resume play from this copy or change Project Sources during staging. The 
 - `reports/` — generated estate and tracker validation output
 - `assets/README.md` — maps and images retained in Drive
 - `MIGRATION_MAP.md` — source-to-file index
-- `migration/TEST_REPORT.md` — staging checks and cutover boundary
+- `migration/TEST_REPORT.md` — cutover status and post-cutover validation backlog
 - `migration/OPENING_POSITION_AUDIT.md` — opening rights, custody, staffing, inventory, and commitment audit
 
 ## Current checkpoint in the source
 
 Day 235 evening, at the upper Miregate commercial landing in Crownsunder. V's next speech/action is pending with Captain Orla present beside the River Heron. See `campaign/continuity/campaign-state.md`.
 
-## Migration status
+## Migration status and validation backlog
 
 - [x] GitHub connector reads and writes work; earlier non-campaign write/read round trip was verified.
 - [x] Google Docs tabs and workbook exports/formula snapshots were migrated for retrieval.
@@ -51,4 +51,4 @@ Day 235 evening, at the upper Miregate commercial landing in Crownsunder. V's ne
 - [x] Reconcile the Blackthorn stock count, the punt ownership/restoration schedule, and the owner-adopted 8,000 gp aggregate valuation in staging. Remaining valuation limits: no independent appraisal, exact parcel boundary or full component values; see `data/estate/valuations.csv`; do not add the aggregate to component assets.
 - [ ] Verify a successful Actions run on the current main head. The latest confirmed historical run predates these updates; the available status lookup currently returns no checks.
 
-Drive remains the authority. The staging update does not change Project Sources. Owner-approved source corrections already live in Drive are reflected here; GitHub staging changes do not write back to Drive. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
+GitHub is the active authority after the owner-directed cutover. Continue the documented validation backlog without fabricating evidence. Keep Drive as a historical/reference copy for text and workbooks; continue using its map and large-image assets where designated. Update the ChatGPT Project's instructions and sources to point to this repository; remove Drive campaign Docs/workbooks from live-source routing. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
