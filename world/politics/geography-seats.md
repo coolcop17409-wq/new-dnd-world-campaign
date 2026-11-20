@@ -205,3 +205,9 @@ Owner-adopted regional relationships, ATLAS-ORATH-PLACEMENTS-20261120-01. The at
 - The Farwake Isles are outer archipelagos of the Unbounded Ocean, off the current sheet. Veer’s Hollow is a lead from Eastwatch; Wychstone is a wooded-hill rumor one to two days by country tracks from Orsaven. The awakening tomb’s known region is Orath. Nightglass Hall is associated with Severin of Eastwatch; the Rethwyn family vault is distinct from the workers’ burial ground north of the manor. These associations imply no coordinates. Verdana and the unknown ancestral seat remain open.
 
 Evidence: [Days 0–44](../../archive/history-days-0-44.md), [Days 130–162](../../archive/history-days-130-162.md), [Day 171 holding reports](../../archive/history-days-170-172.md), [travel rules](../../campaign/continuity/rules-travel-communication.md) and the qualified played road and river notes above.
+
+## Veer’s Hollow turnoff and the Rethwyn family vault
+
+Owner-adopted placement, ATLAS-ORATH-LOCAL-20261120-01. Near the Eastwatch end of the inland road to Caer Veylan, a short side road leads to Veer’s Hollow. The regional atlas marks the junction. The settlement lies beyond sight of the through-road, and its own coordinates and any visit by V remain unconfirmed. This qualifies the earlier description of the Eastwatch lead.
+
+The Rethwyn family vault stands on the grounds of Elara’s rural manor and is reached by a household path. Its compass bearing within the grounds is open. The workers’ village burial ground north of the manor, where Iven Marlowe was buried, is a separate place. Neither placement adds a journey or a discovery in play.
