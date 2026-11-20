@@ -1793,9 +1793,9 @@
       "dealer": "Two Spindles Clothiers",
       "lot": "Forecaster’s Cloak",
       "qty": "1",
-      "price_gp": "40",
+      "price_gp": "36",
       "status": "Offered on consignment",
-      "terms": "Buy at 40 gp. The tailor may pass a counteroffer to the drover, who also needs a good plain winter coat."
+      "terms": "Buy at 36 gp. The tailor may pass a counteroffer to the drover, who also needs a good plain winter coat. Current owner-authorized ask Day237: 36 gp (formerly 40 gp). Original lot and custodian retaine"
     },
     {
       "settlement": "Orsaven",
@@ -1826,24 +1826,6 @@
     },
     {
       "settlement": "Orsaven",
-      "dealer": "Switchback Saddlery",
-      "lot": "Bands of the Found and Lost (pair)",
-      "qty": "1",
-      "price_gp": "50",
-      "status": "Offered for sale",
-      "terms": "Buy the matched pair at 50 gp. They will listen to a cash offer for both together."
-    },
-    {
-      "settlement": "Orsaven",
-      "dealer": "Gatehouse Instrument Repair",
-      "lot": "Periscope Rod",
-      "qty": "1",
-      "price_gp": "40",
-      "status": "Offered for sale",
-      "terms": "Buy at 40 gp. The inspector authorized the repairer to consider an immediate cash offer."
-    },
-    {
-      "settlement": "Orsaven",
       "dealer": "Old Arch Scaffold Yard",
       "lot": "Immovable Rod",
       "qty": "1",
@@ -1856,18 +1838,9 @@
       "dealer": "King's Road Carters",
       "lot": "Bag of Holding",
       "qty": "1",
-      "price_gp": "440",
+      "price_gp": "420",
       "status": "Offered secondhand / consignment",
-      "terms": "Firm 440gp cash offer; no sale or hold unless V accepts."
-    },
-    {
-      "settlement": "Caereth",
-      "dealer": "Nightglass Optics",
-      "lot": "Goggles of Night",
-      "qty": "1",
-      "price_gp": "330",
-      "status": "Offered secondhand",
-      "terms": "Firm 330gp asking; inspect fit, negotiate if desired."
+      "terms": "Firm 420 gp cash offer; no sale or hold unless V accepts. Current owner-authorized ask Day244: 420 gp (formerly 440 gp). Original lot and custodian retained."
     },
     {
       "settlement": "Caereth",
@@ -1922,15 +1895,6 @@
       "price_gp": "",
       "status": "Working tool · conditional sale",
       "terms": "Owner may entertain 300gp plus a suitable working replacement line after current job; no unconditional sale."
-    },
-    {
-      "settlement": "Caereth",
-      "dealer": "Velvet Measure",
-      "lot": "Moodmark Paint",
-      "qty": "1.",
-      "price_gp": "30.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-CAE-01. Prepared, undiscovered. Ask at Velvet Measure during trade hours. Owner authorizes 30 gp for this lot. Counteroffers go to the owner. No hold or deposit."
     },
     {
       "settlement": "Caereth",
@@ -2024,15 +1988,6 @@
     },
     {
       "settlement": "Veyrhold",
-      "dealer": "Mended Banner Tailor",
-      "lot": "Robe of Summer",
-      "qty": "1.",
-      "price_gp": "2450.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-VEY-06. Prepared, undiscovered. Ask at Mended Banner Tailor during trade hours. Owner authorizes 2450 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Veyrhold",
       "dealer": "Watchglass Lens Fitter",
       "lot": "Goggles of Object Reading",
       "qty": "1.",
@@ -2069,15 +2024,6 @@
     },
     {
       "settlement": "Ilarath",
-      "dealer": "Leafshadow Weaving House",
-      "lot": "Kagonesti Forest Shroud",
-      "qty": "1.",
-      "price_gp": "2400.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ILA-01. Prepared, undiscovered. Ask at Leafshadow Weaving House during trade hours. Owner authorizes 2400 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Ilarath",
       "dealer": "Winter Bough Bootwright",
       "lot": "Wayfarer's Boots",
       "qty": "1.",
@@ -2091,8 +2037,8 @@
       "lot": "Eyes of the Eagle",
       "qty": "1.",
       "price_gp": "450.",
-      "status": "Prepared working tool · conditional",
-      "terms": "M7-ILA-03. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 450gp with the stated condition; not an unconditional sale. 450gp after a three-day job from agreement,"
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-03. Surveyor returned from completed canopy inspection Day232. One pair deposited at Farleaf Lensworks for inspection during working hours; 450 gp cash to the authorized counter for pickup. For"
     },
     {
       "settlement": "Ilarath",
@@ -2207,9 +2153,9 @@
       "dealer": "Summer Draught Fanmaker",
       "lot": "Bottled Breath",
       "qty": "1.",
-      "price_gp": "85.",
+      "price_gp": "80",
       "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ALL-06. Prepared, undiscovered. Ask at Summer Draught Fanmaker during trade hours. Owner authorizes 85 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+      "terms": "M7-ALL-06. Prepared, undiscovered. Ask at Summer Draught Fanmaker during trade hours. Owner authorizes 80 gp for this lot. Counteroffers go to the owner. No hold or deposit. Current owner-authorized a"
     },
     {
       "settlement": "Allhaven",
@@ -2246,6 +2192,15 @@
       "price_gp": "480.",
       "status": "Prepared working tool · conditional",
       "terms": "M7-ALL-10. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 480gp with the stated condition; not an unconditional sale. 480gp after successor obtains/test-fits her"
+    },
+    {
+      "settlement": "Miregate Keep",
+      "dealer": "Gate watch at shift change",
+      "lot": "Horn of Silent Alarm",
+      "qty": "1",
+      "price_gp": "45",
+      "status": "Prepared working tool · conditional, undiscovered",
+      "terms": "R17 · MGT-236-01. Watchkeeper retains the horn. At watch change ask through Meret; 45 gp only after both posts test a substitute signal and the owner agrees to hand it over at the gate. No test, quote"
     }
   ]
 }
