@@ -1,6 +1,6 @@
 # Estate Review
 
-Generated from the property workbook CSV snapshot captured unknown.
+Generated from the property workbook CSV snapshot captured 2026-11-19.
 Audit/report only: this process does not post wages, income, expenses, transfers, taxes, or campaign decisions.
 
 ## Imported historical snapshot reconciliation
