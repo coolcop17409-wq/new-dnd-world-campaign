@@ -48,7 +48,7 @@ Day 235 evening, at the upper Miregate commercial landing in Crownsunder. V's ne
 - [ ] Run a real post-checkpoint Blackthorn operation chain through event posting and generated-ledger comparison. No post-checkpoint operation outcome is confirmed in the source.
 - [x] Audit opening rights, custody, staffing and commitments against the Property registers; see [OPENING_POSITION_AUDIT.md](migration/OPENING_POSITION_AUDIT.md).
 - [x] Create an evidence-backed itemized estate asset register; source-unknown cost and valuation fields remain blank.
-- [x] Reconcile the Blackthorn stock count, the punt ownership/restoration schedule, and the owner-adopted 8,000 gp aggregate valuation in staging. Remaining valuation limits: no independent appraisal, exact parcel boundary or full component values; do not add the aggregate to component assets.
+- [x] Reconcile the Blackthorn stock count, the punt ownership/restoration schedule, and the owner-adopted 8,000 gp aggregate valuation in staging. Remaining valuation limits: no independent appraisal, exact parcel boundary or full component values; see `data/estate/valuations.csv`; do not add the aggregate to component assets.
 - [ ] Verify a successful Actions run on the current main head. The latest confirmed historical run predates these updates; the available status lookup currently returns no checks.
 
 Drive remains the authority. The staging update does not change Project Sources. Owner-approved source corrections already live in Drive are reflected here; GitHub staging changes do not write back to Drive. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
