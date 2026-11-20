@@ -11,3 +11,10 @@ D238-FENAR-REST-HEAL-001,238,Fenar,stat,HP,8,,"D237-238-SNAKE-AFTERMATH-REST-RET
 D238-FENAR-REST-RAGE-001,238,Fenar,resource,Rage,1,,"D237-238-SNAKE-AFTERMATH-REST-RETURN-001: approved +1 Rage per completed wilderness Short Rest; 3→4/4, active Rage Recovery not spent.",posted
 D238-UPRIVER-RATIONS-001,238,Valenthia,inventory,Rations (1 day),-3,,D237-238-SNAKE-AFTERMATH-REST-RETURN-001: Day238 three companion person-days consumed during upstream return and evening coach road; Reborn V none.,posted
 D238-UPRIVER-FEED-001,238,Valenthia,inventory,Feed (1 day),-4,,"D237-238-SNAKE-AFTERMATH-REST-RETURN-001: Day238 four V-owned horses fed at upper landing before coach recovery, four feed-days used once.",posted
+D241-RETHWYN-LR-FENAR-HIT-DIE-001,241,Fenar,resource,Hit Dice,1,,"D238-241-RETHWYN-SECURE-LONGREST-001: completed three secure hosted nights, 6/6 weighted Long Rest units; one missing Hit Die regained from 5/6 to 6/6 (2014 restores up to half level).",posted
+D241-BLACKTHORN-ROAD-RATIONS-001,241,Valenthia,inventory,Rations (1 day),-3,,"D241-243-BLACKTHORN-ROAD-001: Day241 ordinary road food for Mara/Cirren/Fenar, V Reborn no meals; 12 to 9.",posted
+D241-BLACKTHORN-ROAD-FEED-001,241,Valenthia,inventory,Feed (1 day),-4,,D241-243-BLACKTHORN-ROAD-001: Day241 four V-owned horses each use one animal feed day; 16 to 12.,posted
+D242-BLACKTHORN-ROAD-RATIONS-001,242,Valenthia,inventory,Rations (1 day),-3,,D241-243-BLACKTHORN-ROAD-001: Day242 ordinary road food for Mara/Cirren/Fenar; 9 to 6.,posted
+D242-BLACKTHORN-ROAD-FEED-001,242,Valenthia,inventory,Feed (1 day),-4,,D241-243-BLACKTHORN-ROAD-001: Day242 four V-owned horses each use one animal feed day; 12 to 8.,posted
+D243-BLACKTHORN-ROAD-RATIONS-001,243,Valenthia,inventory,Rations (1 day),-3,,D241-243-BLACKTHORN-ROAD-001: Day243 ordinary road food for Mara/Cirren/Fenar; 6 to 3.,posted
+D243-BLACKTHORN-ROAD-FEED-001,243,Valenthia,inventory,Feed (1 day),-4,,D241-243-BLACKTHORN-ROAD-001: Day243 four V-owned horses each use one animal feed day; 8 to 4.,posted
