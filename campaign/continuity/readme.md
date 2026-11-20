@@ -78,7 +78,7 @@ Verification: archive commit 683a1ef01cf2f8f30c09c00517be58bb3575c1e5 preceded o
 
 The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-REDO-D200-D244-20261120-01 | worker=estate-retrospective-correction | operations=ER244-A,ER244-B | acquired_UTC=2026-11-20T15:49:57.182Z | heartbeat_UTC=2026-11-20T16:19:01.318Z | expires_UTC=2026-11-20T16:29:01.318Z | recovery=data/estate/operational-checkpoint.csv D244-ESTATE-REDO-D200-001
+CAMPAIGN_WRITER | state=IDLE | last_token=ESTATE-REDO-D200-D244-20261120-01 | last_operation=ER244-A,ER244-B | recovery=data/estate/operational-checkpoint.csv ADMIN-ESTATE-REDO-D244-001 | verified_owner_commit=e262ef22a22c47e9e64c5d3754374ad7d9ed9e94 | verified_report_commit=ad16a4a0f90878ee65175c49575108ac51036c53 | verification=exact readback;18tests;estate-audit44772309644 SUCCESS | remaining=Miregate historical punt invoice;future operations and per-consumer ACKs
 
 ## Estate retrospective correction — D244-ESTATE-REDO-D200-001
 
@@ -93,3 +93,5 @@ Additional ATLAS-PENDING effects; no matchingACK yet:
 | D244-ESTATE-REDO-D200-001 /238–243 | R200-BARGE01-UPPER-8T | Specificownedhull8t testedcorridor and actualcustomervoyage; no unrestrictedregional/secondhullcertification. |
 
 Earlier REEDBED-SERVICE-225-228 is superseded for currentdating by R200-REEDBED-SERVICE-222; retain auditpointer/scopedhistoricalACK. Only atlasowner canACK/application-close replacementeffects.
+
+Verification: ADMIN-ESTATE-REDO-D244-001 is VERIFIED. Source commit `e262ef22a22c47e9e64c5d3754374ad7d9ed9e94`, generated-report recovery `ad16a4a0f90878ee65175c49575108ac51036c53`, full estate audit [44772309644](https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/44772309644) SUCCESS. Day244 early-evening checkpoint rechecked unchanged after the latest Second Wind correction. This completes the authorized estate-result redo; Miregate's historical punt invoice remains a financial-input gap, and consumer ACKs/report delivery remain separate.
