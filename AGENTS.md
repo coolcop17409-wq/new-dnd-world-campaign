@@ -1,10 +1,10 @@
 # Campaign operating instructions
 
-## Staging status
+## Active source status
 
-This repository is a test copy. Drive remains authoritative until explicit cutover after validation. During staging, use Drive for live play and live campaign writes; use this repository for migration and retrieval/write testing only. Never change ChatGPT Project Sources or the Drive routing while staging.
+The owner directed cutover to this repository on 2026-11-20. Use this repository as the active canonical source for campaign text and structured records, play, and all new campaign-state writes. The validation items still open in `migration/TEST_REPORT.md` are accepted post-cutover risks, not passed tests; continue working through them using confirmed campaign evidence only. Never invent events to satisfy them.
 
-The repository is public by the owner's explicit choice. DM-only folders and labels are not access control. Never claim this material is private or hidden from the public.
+Google Drive Docs and workbook exports are historical/reference snapshots for campaign text and structured records; do not write new campaign state there. Maps and large images remain in Drive/Library as designated visual assets and may be read or updated under their existing atlas procedures. The repository is public by the owner's explicit choice. DM-only folders and labels are not access control. Never claim this material is private or hidden from the public.
 
 ## Authority and play
 
