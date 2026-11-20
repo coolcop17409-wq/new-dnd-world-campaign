@@ -44,10 +44,11 @@ Day 235 evening, at the upper Miregate commercial landing in Crownsunder. V's ne
 - [x] Require prerequisite references for earned income/service release and validate referenced schedule completion, actual day and evidence.
 - [ ] Verify that each service path cites the full applicable dependency set, including legal, staffing, safety, route and capacity conditions.
 - [x] Port source-checked forward Blackthorn taxable-base roll-forward and closed-period assessment adjustment posting; integrated synthetic chain test passes. Actual tax close/post has not been run because no real post-checkpoint closed tax period exists.
-- [ ] Run a real post-checkpoint Blackthorn operation chain and one due Magic Shops turnover through write → rebuild → compare. The Day 231 V purse change is now represented as an event-overlay candidate; it still needs generated-view verification against Drive.
+- [x] Run a real confirmed character purse change and one due Magic Shops review through write → rebuild → compare. The Day 231 V event matches Drive; the Day 232 shop review is recorded and removed from the due queue through Day 235.
+- [ ] Run a real post-checkpoint Blackthorn operation chain through event posting and generated-ledger comparison. No post-checkpoint operation outcome is confirmed in the source.
 - [x] Audit opening rights, custody, staffing and commitments against the Property registers; see [OPENING_POSITION_AUDIT.md](migration/OPENING_POSITION_AUDIT.md).
 - [x] Create an evidence-backed itemized estate asset register; source-unknown cost and valuation fields remain blank.
 - [x] Reconcile the Blackthorn stock count, the punt ownership/restoration schedule, and the owner-adopted 8,000 gp aggregate valuation in staging. Remaining valuation limits: no independent appraisal, exact parcel boundary or full component values; do not add the aggregate to component assets.
-- [ ] Review a successful Actions run on the current main head. The latest run confirmed in the previous report predates the Day 235 / valuation / character-event updates.
+- [ ] Verify a successful Actions run on the current main head. The latest confirmed historical run predates these updates; the available status lookup currently returns no checks.
 
 Drive remains the authority. The staging update does not change Project Sources. Owner-approved source corrections already live in Drive are reflected here; GitHub staging changes do not write back to Drive. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
