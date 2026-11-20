@@ -1,7 +1,7 @@
 {
   "last_confirmed_closed_day": 243,
   "source_opening_day": 182,
-  "evidence": "D244-ESTATE-CATCHUP-001; ownerjournals exactreadback a5ff176 andCI44721295818PASS; opening230 retained, stable231-244IDsverified",
+  "evidence": "D244-ESTATE-REDO-D200-001; saved owner e262ef22, exact source readback and CI44771653785 calculation checks PASS; completed243/elapsed244 preserved, authorized200\u2013244 replacement only. ADMIN-ESTATE-REDO-D244-001 owns publication verification.",
   "last_accounted_day": 244,
   "open_day": 244,
   "open_day_activity": "Completed244daytimeshifts andordinaryactive-daycostsposted; fullnight/calendarclose NOTconfirmed"
