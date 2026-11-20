@@ -28,3 +28,8 @@ The bridge still has no real post-checkpoint operation chain compared with Drive
 ## Cutover record
 
 The owner directed cutover on 2026-11-20 before every validation gate was complete. GitHub is the active campaign source; Drive Docs/workbooks are historical/reference snapshots. Preserve the remaining items above as post-cutover validation work. Do not fabricate campaign events, cash movement, taxes, services, or tests to close them. See [ONGOING_UPDATE_PROTOCOL.md](ONGOING_UPDATE_PROTOCOL.md).
+
+
+## D244 estate run — scoped validation evidence, existing backlog retained
+
+The authorized offscreen catch-up exercises a real F03 full dispatch232 → full acceptance239 → unpaid receivable → collection243 chain, plus daily operations, explicit payments and rolling tax/Carrow accrual. Source Day230 operations and Day231 cash snapshots remain separate; late Day231 activity overlays exact frozen imported IDs. Live readiness/order overlays are read from the existing operational journal. Seven malformed imported CSV records were quoted without changing their historical text. The original open dependency-coverage and broader partial-delivery/post-cutover validation items above are not checked off by this run. Synthetic tests remain distinct from newly adjudicated campaign outcomes. See the estate run's verified posting receipt for actual saved scope and any unresolved financial provenance.

@@ -128,6 +128,30 @@ class EstateLedgerScenarioTests(unittest.TestCase):
                 with redirect_stdout(io.StringIO()):
                     self.assertEqual(ledger.main(), 0)
                 report = json.loads((reports / "ledger.json").read_text(encoding="utf-8"))
+                # An opening-day late posting is not part of the imported snapshot.
+                (data / "snapshot-meta.json").write_text(json.dumps({
+                    "snapshot_day": 10, "baseline_event_ids": [], "captured_date": "fixture"}))
+                self.write_csv(data / "operational-checkpoint.csv",
+                    ["record_id", "record_type", "day", "status", "source_and_limits"],
+                    [{"record_id": "LIVE-READY", "record_type": "Prerequisite", "day": "10",
+                      "status": "Complete", "source_and_limits": "actual full service gates verified"}])
+                event("late-opening-day-service", "Test", 10, event_type="service_acceptance",
+                      cash_delta_gp="1", income_delta_gp="1", prerequisite_ref="LIVE-READY")
+                self.write_csv(data / "events.csv", FIELDS, events)
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(ledger.main(), 0)
+                late = json.loads((reports / "ledger.json").read_text())
+                self.assertEqual(late["estates"]["Test"]["snapshot_cash_gp"], "100.00")
+                self.assertEqual(late["estates"]["Test"]["cash_gp"], "101.00")
+                self.write_csv(data / "operational-checkpoint.csv",
+                    ["record_id", "record_type", "day", "status", "source_and_limits"],
+                    [{"record_id": "LIVE-READY", "record_type": "Prerequisite", "day": "10",
+                      "status": "waiting", "source_and_limits": "inspection pending"}])
+                with redirect_stdout(io.StringIO()):
+                    self.assertEqual(ledger.main(), 1)
+                events.pop()
+                (data / "operational-checkpoint.csv").unlink()
+                (data / "snapshot-meta.json").write_text(json.dumps({"snapshot_day": 10, "captured_date": "fixture"}))
                 event("income-no-prerequisite", "Test", 15, event_type="service_income",
                       income_delta_gp="1", evidence="fixture actual income")
                 self.write_csv(data / "events.csv", FIELDS, events)
@@ -670,3 +694,4 @@ class EstateLedgerScenarioTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

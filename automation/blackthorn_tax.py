@@ -208,7 +208,7 @@ def main():
     accrual_meta = json.loads((DATA / "routine-accrual-meta.json").read_text(encoding="utf-8"))
     config = json.loads((DATA / "blackthorn-tax-config.json").read_text(encoding="utf-8"))
     through = (args.closed_through_day if args.closed_through_day is not None
-               else int(accrual_meta["last_confirmed_closed_day"]))
+               else int(accrual_meta.get("last_accounted_day", accrual_meta["last_confirmed_closed_day"])))
     if through > int(accrual_meta["last_confirmed_closed_day"]) and args.apply:
         raise ValueError("tax assessment posting requires recurring accruals confirmed through the same closed day")
     operation_report = json.loads((ROOT / "reports" / "blackthorn-operations.json").read_text(encoding="utf-8"))
@@ -276,3 +276,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

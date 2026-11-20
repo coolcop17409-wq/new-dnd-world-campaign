@@ -427,6 +427,14 @@ def main():
     additions = read_register(DATA / "blackthorn-operations-events.csv", "Event ID")
     meta = json.loads((DATA / "snapshot-meta.json").read_text(encoding="utf-8"))
     checkpoint_day = int(meta["snapshot_day"])
+    operations_closed_day = int(meta.get("operations_opening_closed_day", checkpoint_day))
+    # Post-cutover orders and readiness live in the owning operational journal.
+    for live in read_register(DATA / "operational-checkpoint.csv", "record_id"):
+        if live.get("record_type") == "Blackthorn order" and live.get("status") == "Confirmed":
+            orders.append(json.loads(live["source_and_limits"]))
+        elif live.get("record_type") == "Prerequisite" and live.get("status") == "Complete":
+            schedule.append({"Task / settlement ID": live["record_id"], "Actual day": live["day"],
+                             "Result": "Pass", "Evidence / restriction": live["source_and_limits"]})
     extra_findings = []
     opening_verification = {}
     for row in read_register(DATA / "opening-inventory.csv", "inventory_id"):
@@ -441,8 +449,8 @@ def main():
         if row.get("Status", "").strip().lower() != "posted":
             extra_findings.append(f"{row.get('Event ID', '')}: only actual posted operations can update the staging projection")
         day = int(dec(row.get("Day", "0")))
-        if day <= checkpoint_day:
-            extra_findings.append(f"{row.get('Event ID', '')}: new operation must be after Day {checkpoint_day} checkpoint")
+        if day <= operations_closed_day:
+            extra_findings.append(f"{row.get('Event ID', '')}: new operation must be after Day {operations_closed_day} operations close")
         grade = row.get("Product grade", "").strip()
         inv_id = inventory_key(grade)
         current_verification = opening_verification.get(grade, "unverified")
@@ -493,3 +501,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

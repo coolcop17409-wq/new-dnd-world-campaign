@@ -57,6 +57,13 @@ def prerequisite_tasks():
    tasks[tid]={"actual_day":row[day_col].strip(),"result":row[result_col].strip().lower(),
                "evidence":row[evidence_col].strip() if evidence_col is not None and len(row)>evidence_col else "",
                "source":path.name}
+ # Live task outcomes overlay the immutable migrated schedule references.
+ live_path=DATA/"operational-checkpoint.csv"
+ if live_path.exists():
+  for row in rows(live_path):
+   if row.get("record_type")=="Prerequisite":
+    tasks[row["record_id"]]={"actual_day":row.get("day", ""),"result":row.get("status", "").lower(),
+                             "evidence":row.get("source_and_limits", ""),"source":str(live_path)}
  return tasks
 
 def main():
@@ -135,6 +142,7 @@ def main():
   ids.add(eid)
   if estate not in ESTATES:errors.append(f"{eid}: unknown estate {estate}");continue
   day=dec(row.get("effective_day","0"))
+  in_snapshot = eid in meta["baseline_event_ids"] if "baseline_event_ids" in meta else day<=cutoff
   status=norm(row.get("status",""))
   cash_delta=dec(row.get("cash_delta_gp","0"))
   liability_delta=dec(row.get("liability_delta_gp","0"))
@@ -188,7 +196,7 @@ def main():
      if next_receivable<0:errors.append(f"{eid}: collection exceeds receivable {rid} by {money(-next_receivable)} gp")
      receivable_balance[rid]["balance"]=next_receivable
     receivable_deltas_all[estate]+=receivable_delta
-    if day<=cutoff:
+    if in_snapshot:
      if rid not in receivable_cut and receivable_delta<0:errors.append(f"{eid}: snapshot-cutoff collection exceeds unknown receivable {rid}")
      if rid not in receivable_cut:receivable_cut[rid]={"estate":estate,"balance":Decimal(0)}
      next_cut=receivable_cut[rid]["balance"]+receivable_delta
@@ -214,8 +222,8 @@ def main():
     stock.update({"quantity":next_qty,"cost":next_cost,"reserved":next_reserved,"transit_quantity":next_transit,"transit_cost":next_transit_cost})
     if verification:stock["verification"]=verification
     inventory_deltas_all[estate]+=quantity;inventory_reservations[estate]+=reserved_delta;inventory_transit[estate]+=transit_delta
-    if day<=cutoff:inventory_deltas_cut[estate]+=quantity
-  if day<=cutoff:
+    if in_snapshot:inventory_deltas_cut[estate]+=quantity
+  if in_snapshot:
    cash_cut[estate]+=cash_delta;cash_deltas_cut[estate]+=cash_delta
   lid=(row.get("liability_id") or "").strip()
   if liability_delta:
@@ -230,7 +238,7 @@ def main():
      if next_amount<0:errors.append(f"{eid}: settlement exceeds liability {lid} by {money(-next_amount)} gp")
      liability_balance[lid]["balance"]=next_amount
    liability_deltas_all[estate]+=liability_delta
-   if day<=cutoff:
+   if in_snapshot:
     if lid and lid in liability_cut:
      next_cut=liability_cut[lid]["balance"]+liability_delta
      if next_cut<0:errors.append(f"{eid}: snapshot-cutoff settlement exceeds liability {lid}")
@@ -289,9 +297,16 @@ def main():
    "inventory_items":{k:{"book_quantity":str(quantity_value(v["quantity"])),"reserved_quantity":str(quantity_value(v["reserved"])),"unreserved_book_quantity":str(quantity_value(max(Decimal(0),v["quantity"]-v["reserved"]))),"in_transit_quantity":str(quantity_value(v["transit_quantity"])),"on_site_cost_basis_gp":str(money(v["cost"])),"in_transit_cost_basis_gp":str(money(v["transit_cost"])),"verification_status":v["verification"],"eligible_to_ship_quantity":str(quantity_value(max(Decimal(0),v["quantity"]-v["reserved"]) if v["verification"]=="verified" else Decimal(0)))} for k,v in inventory_rows.items()},
   }
   if cash_all[estate]<0:errors.append(f"{estate}: projected cash is negative")
+ snapshot["accounting_coverage"]={}
+ live_path=DATA/"operational-checkpoint.csv"
+ if live_path.exists():
+  for row in rows(live_path):
+   if row.get("record_type")=="Posting coverage":
+    snapshot["accounting_coverage"][row["estate"]]=json.loads(row["source_and_limits"])
  snapshot["findings"]=errors
  if errors:snapshot["status"]="CHECK"
  REPORT.parent.mkdir(parents=True,exist_ok=True);REPORT.write_text(json.dumps(snapshot,indent=2)+"\n",encoding="utf-8")
  print(json.dumps(snapshot,indent=2))
  return 1 if errors else 0
 if __name__=="__main__":raise SystemExit(main())
+

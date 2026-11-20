@@ -132,6 +132,7 @@ def main():
   "generated_from":"GitHub baseline snapshots and posted campaign event journals",
   "campaign_day":campaign_day(),
   "estate_status":estate.get("status"),
+  "estate_accounting_coverage":estate.get("accounting_coverage",{}),
   "tracker_status":tracker_status,
   "estates":estate.get("estates",{}),
   "party":[character("v","Valenthia","v-character.csv","v-inventory.csv"),character("cirren","Cirren","cirren-character.csv","cirren-inventory.csv"),character("fenar","Fenar","fenar-character.csv","fenar-inventory.csv")],
@@ -147,3 +148,4 @@ def main():
  OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(f"Built {OUT}")
 if __name__=="__main__":main()
+
