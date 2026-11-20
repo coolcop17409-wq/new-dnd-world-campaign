@@ -8,7 +8,8 @@ This is a staging import from the 2026-11-19 Property workbook export. It is not
 - `opening-balances.csv`: estate cash baseline. Blackthorn starts with 572.11 gp reconstructed cash at Day 182; the other estate cashbooks begin at zero and show owner funding as a transaction.
 - `opening-liabilities.csv`: stable IDs for nonzero liability categories in the Day 230 overview snapshot. These are balance-forward obligations, not a second posting of old expenses.
 - `opening-receivables.csv`: empty because the Day 231 Property workbook reports zero receivables for all four estates.
-- `opening-inventory.csv`: six Blackthorn grade rows from the Day 230 Accounts snapshot: 41.12 t book stock, 13 t reserved, 0 t in transit, and 349.43 gp book cost. All six entries are explicitly `provisional`; the source says physical count, seasoning, and buyer certification are unverified.
+- `opening-inventory.csv`: six Blackthorn grade rows from the Day 230 Accounts snapshot: 41.12 t book stock, 13 t reserved, 0 t in transit, and 349.43 gp book cost. All six entries remain `provisional`. The Day 231 F03 8 t preload grade/count QC pass is recorded as order-specific evidence; it does not verify all 18.384 t of dressed stone or the other grades, and the grade-level ledger still blocks dispatch.
+- `fixed-assets.csv`: evidence-backed asset/component register for all four estates. Documented cost is recorded only where the source classifies it; unknown cost/current value fields stay blank. Repairs are not treated as asset acquisitions, and Crown hydraulic controls are excluded. This is an inventory of supported entries, not a completed appraisal.
 - `blackthorn-rates.csv`: current effective-dated Blackthorn daily payroll and upkeep rates. The initial import is the 13 payroll/upkeep rows in the source sheet; production-cost rates remain in the live workbook until their import is verified.
 - `blackthorn-tax-checkpoint.csv`: source-verified unrounded Day 230 formula components and the first rolling tax result. This preserves 417.8297 gp COGS before Accounts rounds it to 417.83 gp.
 - `snapshot-meta.json`: the Day 231 comparison cutoff and source snapshot date.
@@ -36,7 +37,7 @@ Set status to `posted` only after the event happened. Planned, forecast, schedul
 
 ## Boundary
 
-The cash/liability ledger reconciles to the Day 231 late-morning checkpoint. Opening receivables are zero in the source. Six Blackthorn book-stock grades are imported through Day 230 but remain provisional, so the event ledger counts zero eligible-to-ship opening stock until physical verification.
+The cash/liability ledger reconciles to the Day 231 late-morning checkpoint. Opening receivables are zero in the source. Six Blackthorn book-stock grades are imported through Day 230 and remain provisional. F03’s 8 t order-specific QC pass is documented but not enabled as partial stock verification in the grade-level ledger; no opening stock is eligible to ship until a full physical count or tested lot-level support exists.
 
 Blackthorn's full 283-row production/COGS/shipment replay now matches source formula rows and the Day 230 totals. The forward operation journal is validated after the Day 231 checkpoint and blocks shipment release from unverified opening stock. Its passed future results now feed normalized events into the estate ledger after the report snapshot and input IDs are checked. Accept/Gate sale rows require explicit cash received (including zero) and a receivable ID for any unpaid amount; later receipts use separate event rows. The bridge has synthetic tests but has not yet processed a real future operation.
 
