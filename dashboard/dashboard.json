@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 244,
+  "campaign_day": 246,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -586,7 +586,7 @@
         },
         {
           "name": "Psionic Energy Dice",
-          "current": "6",
+          "current": "3.0",
           "max": "6",
           "recovery": "Long Rest"
         },
@@ -598,13 +598,13 @@
         },
         {
           "name": "Knowledge from Past Life",
-          "current": "3",
+          "current": "0.0",
           "max": "3",
           "recovery": "Long Rest"
         },
         {
           "name": "Psi Recovery",
-          "current": "1",
+          "current": "1.0",
           "max": "1",
           "recovery": "Once per Short Rest or Long Rest"
         },
@@ -625,6 +625,12 @@
           "current": "1",
           "max": "1",
           "recovery": "Short Rest"
+        },
+        {
+          "name": "Superiority Dice",
+          "current": "4.0",
+          "max": "4",
+          "recovery": "Short Rest / Long Rest"
         }
       ],
       "purse_cp": 118538,
@@ -701,7 +707,7 @@
           "name": "Rage",
           "current": "4.0",
           "max": "4",
-          "recovery": "Short Rest +1; Long Rest all"
+          "recovery": "Long Rest only"
         },
         {
           "name": "Shift",
@@ -740,10 +746,10 @@
           "recovery": "Short / Long Rest"
         },
         {
-          "name": "Rage Recovery (active)",
-          "current": "1",
-          "max": "1",
-          "recovery": "Once per Short / Long Rest"
+          "name": "Rage Recovery (RETIRED — NO ABILITY)",
+          "current": "0",
+          "max": "0",
+          "recovery": "Removed Day246"
         }
       ],
       "purse_cp": null
