@@ -34,7 +34,7 @@ Day 235 evening, at the upper Miregate commercial landing in Crownsunder. V's ne
 - [x] Google Docs tabs and workbook exports/formula snapshots were migrated for retrieval.
 - [x] Estate audit ran and its cash, liability, available-cash, and cashbook checks passed.
 - [x] Event ledger seeded with 121 unique actual cashbook IDs; each estate reconciles to the Day 231 snapshot.
-- [x] Source snapshot shows zero receivables; six Blackthorn stock grades are imported as provisional book balances, with reserved amounts and shipment transit supported in the ledger. Unverified stock is not counted as shippable.
+- [x] Source snapshot shows zero receivables; all six Blackthorn grades match the Day 231 full-yard count, and the 8 t F03 lot is verified as a non-additive sublot. Buyer-quality certification remains separate.
 - [x] Due-task output was checked against the live Drive schedules. Two stale Miregate payroll rows are shown as superseded by their completed Day 229 settlement.
 - [x] Character, inventory, and magic-shop snapshot checks pass; a read-only dashboard is generated.
 - [x] Replay Blackthorn production, labor, product cost, COGS, loss, stock, shipment, acceptance and readiness rules against the source activity through Day 230; row-level checks pass.
@@ -44,10 +44,10 @@ Day 235 evening, at the upper Miregate commercial landing in Crownsunder. V's ne
 - [x] Require prerequisite references for earned income/service release and validate referenced schedule completion, actual day and evidence.
 - [ ] Verify that each service path cites the full applicable dependency set, including legal, staffing, safety, route and capacity conditions.
 - [x] Port source-checked forward Blackthorn taxable-base roll-forward and closed-period assessment adjustment posting; integrated synthetic chain test passes. Actual tax close/post has not been run because no real post-checkpoint closed tax period exists.
-- [ ] Run a real post-checkpoint Blackthorn operation chain, a confirmed character change, and one due Magic Shops turnover through write → rebuild → compare.
+- [ ] Run a real post-checkpoint Blackthorn operation chain and one due Magic Shops turnover through write → rebuild → compare. The Day 231 V purse change is now represented as an event-overlay candidate; it still needs generated-view verification against Drive.
 - [x] Audit opening rights, custody, staffing and commitments against the Property registers; see [OPENING_POSITION_AUDIT.md](migration/OPENING_POSITION_AUDIT.md).
 - [x] Create an evidence-backed itemized estate asset register; source-unknown cost and valuation fields remain blank.
-- [ ] Resolve remaining opening evidence gaps: physically reconcile Blackthorn stock or implement/test lot-level verification; reconcile the all-vessels-restored ruling with the stale Property schedule without inventing punt cost/capacity; confirm site boundaries and valuation basis for unitemized assets; then compare the checkpoint with Drive.
-- [x] Review successful full Actions run 92. Cutover remains blocked by the real post-checkpoint event and source-comparison checks listed above.
+- [x] Reconcile the Blackthorn stock count, the punt ownership/restoration schedule, and the owner-adopted 8,000 gp aggregate valuation in staging. Remaining valuation limits: no independent appraisal, exact parcel boundary or full component values; do not add the aggregate to component assets.
+- [ ] Review a successful Actions run on the current main head. The latest run confirmed in the previous report predates the Day 235 / valuation / character-event updates.
 
-No Drive records or Project Sources have been changed. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
+Drive remains the authority. The staging update does not change Project Sources. Owner-approved source corrections already live in Drive are reflected here; GitHub staging changes do not write back to Drive. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
