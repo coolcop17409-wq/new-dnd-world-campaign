@@ -1,6 +1,9 @@
 {
   "snapshot_day": 231,
+  "financial_snapshot_day": 231,
+  "campaign_checkpoint_day": 235,
+  "campaign_checkpoint": "Day 235 evening, upper Miregate commercial landing",
   "captured_date": "2026-11-19",
-  "source": "New DnD World - Property workbook staging export",
-  "basis": "Current estate totals in the 2026-11-19 snapshot include cash events through Day 231 late morning; existing liabilities are seeded at Day 230 close."
+  "source": "New DnD World - Property workbook staging export, reconciled to campaign state/history through Day 235",
+  "basis": "Financial data remains the last source-supported Day 231 late-morning cash snapshot with liabilities seeded at the completed Day 230 close. Review through the Day 235 campaign checkpoint found no supported post-Day 231 estate cash, liability, receivable, or stock movement. Day 233's conditional six-ton customer-owned wheat allocation remains at Aven Marris's Caereth store; Day 235 Captain Orla's presence is an opportunity only. Neither has a financial or inventory effect. Do not treat snapshot_day as the latest campaign day."
 }
