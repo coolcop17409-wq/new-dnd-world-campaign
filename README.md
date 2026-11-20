@@ -14,7 +14,7 @@ Do not resume play from this copy or change Project Sources during staging. The 
 - `world/politics/` — political-reference topics
 - `archive/` — closed campaign history and retired notes
 - `trackers/` — workbook exports, formulas, and searchable CSV snapshots
-- `data/estate/` — staging event ledger, opening balances, and verified task successors
+- `data/estate/` — staging event ledger, opening balances, estate asset register, and verified task successors
 - `data/characters/` — append-only staging changes to character resources and inventory
 - `automation/` — estate reconciliation, tracker validation, and dashboard builder
 - `dashboard/` — read-only staged tracker view; GitHub Pages is not enabled
@@ -46,7 +46,8 @@ Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's n
 - [x] Port source-checked forward Blackthorn taxable-base roll-forward and closed-period assessment adjustment posting; integrated synthetic chain test passes. Actual tax close/post has not been run because no real post-checkpoint closed tax period exists.
 - [ ] Run a real post-checkpoint Blackthorn operation chain, a confirmed character change, and one due Magic Shops turnover through write → rebuild → compare.
 - [x] Audit opening rights, custody, staffing and commitments against the Property registers; see [OPENING_POSITION_AUDIT.md](migration/OPENING_POSITION_AUDIT.md).
-- [ ] Resolve the remaining opening-position gaps: Blackthorn physical stock verification, reconcile the explicit Miregate vessel-restoration ruling with the stale Property schedule (without inventing punt cost/capacity), and itemized fixed assets; then compare the checkpoint with Drive.
+- [x] Create an evidence-backed itemized estate asset register; source-unknown cost and valuation fields remain blank.
+- [ ] Resolve remaining opening evidence gaps: physically reconcile Blackthorn stock or implement/test lot-level verification; reconcile the all-vessels-restored ruling with the stale Property schedule without inventing punt cost/capacity; confirm site boundaries and valuation basis for unitemized assets; then compare the checkpoint with Drive.
 - [x] Review successful full Actions run 92. Cutover remains blocked by the real post-checkpoint event and source-comparison checks listed above.
 
 No Drive records or Project Sources have been changed. See `migration/ONGOING_UPDATE_PROTOCOL.md`, `automation/README.md`, `data/estate/README.md`, and `migration/TEST_REPORT.md`.
