@@ -1,6 +1,14 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.bntubin1yjkw; title: ASHEN REGENCY — FIELD OPERATIONS [DM ONLY]; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
 Ashen Regency — Operational Run Sheet (DM ONLY; junior contact played, later threats unplayed)
+## Nightglass / Verdana evidence bridge — ADMIN-NIGHTGLASS-EXPANSION-20261120-001
+
+Player-authorized quest combination, DM ONLY and UNPLAYED. [Nightglass: The Broken Inheritance](dm-estate-ancestry.md#nightglass-the-broken-inheritance--admin-nightglass-expansion-20261120-001) owns the expanded local expedition. Its original protection formula/counterseal can be compared with this operation's existing customs-tower oath-book and the LONG ARC G manor register; this grounds a route from personal investigation to the established coercive-inheritance conflict without making the whole world one plot.
+
+Ophira's played inconclusive Day174 note/Day180 delivery stand. Newly recovered evidence may support a later comparison through her established contact route, but does not retroactively give her originals, permission, a positive identification or a report to Caul. Her independent refusal/deception/bargaining remains possible. Physical tower evidence and independent old-charter/manor sources preserve other routes; no compulsory interview or blood test.
+
+The new Verdana site's two wights/four skeletons are ancient custodians confined to that separately prepared, previously unvisited site, NOT additions to this faction's frozen 12 retainers/two spawn. They cannot reinforce Caul; no troops travel to Nightglass or the crossing without a later actual informed decision and finite deployment. The first expedition does not activate a chase or make Nightglass a controlled faction property. Defeating/bypassing its guardians changes only that site. Existing local crimes, distant peers, parental history and Veyran responsibility remain in their owning records.
+
 Current operational status and distinct mission design
 Ophira contact completed172; inconclusive note collected180. No source-inspection permission, new dues rumor, covert report to Caul or contemporary identification of V is established. Dated reception text below is historical provenance, not an invitation to repeat it. Freeze current knowledge until a real actor learns and transmits more.
 Favor distinct Regency choices: obtain voluntary source access through the real factor; protect an affected household; infiltrate a social or mortuary site; exploit an internal disagreement over actual obligations. The road/tower/manor are alternate access and pressure points. An authenticated document should answer a concrete historical question; no chain of new permissions merely to reach the same inconclusive clue.
