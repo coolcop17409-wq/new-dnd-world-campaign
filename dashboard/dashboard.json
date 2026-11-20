@@ -106,7 +106,7 @@
       "inventory_reserved_delta_after_snapshot": "0.0000",
       "inventory_transit_quantity_delta_after_snapshot": "0.0000",
       "inventory_book_quantity": "41.1200",
-      "inventory_eligible_to_ship_quantity": "0.0000",
+      "inventory_eligible_to_ship_quantity": "28.1200",
       "inventory_on_site_cost_basis_gp": "349.43",
       "inventory_in_transit_quantity": "0.0000",
       "inventory_in_transit_cost_basis_gp": "0.00",
@@ -118,8 +118,8 @@
           "in_transit_quantity": "0.0000",
           "on_site_cost_basis_gp": "3.58",
           "in_transit_cost_basis_gp": "0.00",
-          "verification_status": "provisional",
-          "eligible_to_ship_quantity": "0.0000"
+          "verification_status": "verified",
+          "eligible_to_ship_quantity": "0.8240"
         },
         "BT-STOCK-DRESSED-STONE": {
           "book_quantity": "18.3840",
@@ -128,8 +128,8 @@
           "in_transit_quantity": "0.0000",
           "on_site_cost_basis_gp": "108.45",
           "in_transit_cost_basis_gp": "0.00",
-          "verification_status": "provisional",
-          "eligible_to_ship_quantity": "0.0000"
+          "verification_status": "verified",
+          "eligible_to_ship_quantity": "10.3840"
         },
         "BT-STOCK-PREMIUM-ARCH-STONE": {
           "book_quantity": "0.9120",
@@ -138,8 +138,8 @@
           "in_transit_quantity": "0.0000",
           "on_site_cost_basis_gp": "7.60",
           "in_transit_cost_basis_gp": "0.00",
-          "verification_status": "provisional",
-          "eligible_to_ship_quantity": "0.0000"
+          "verification_status": "verified",
+          "eligible_to_ship_quantity": "0.9120"
         },
         "BT-STOCK-RAW-LOGS": {
           "book_quantity": "0.4500",
@@ -148,8 +148,8 @@
           "in_transit_quantity": "0.0000",
           "on_site_cost_basis_gp": "2.61",
           "in_transit_cost_basis_gp": "0.00",
-          "verification_status": "provisional",
-          "eligible_to_ship_quantity": "0.0000"
+          "verification_status": "verified",
+          "eligible_to_ship_quantity": "0.4500"
         },
         "BT-STOCK-SAWN-LUMBER": {
           "book_quantity": "16.2500",
@@ -158,8 +158,8 @@
           "in_transit_quantity": "0.0000",
           "on_site_cost_basis_gp": "167.85",
           "in_transit_cost_basis_gp": "0.00",
-          "verification_status": "provisional",
-          "eligible_to_ship_quantity": "0.0000"
+          "verification_status": "verified",
+          "eligible_to_ship_quantity": "11.2500"
         },
         "BT-STOCK-FINISHED-HARDWOOD": {
           "book_quantity": "4.3000",
@@ -168,8 +168,8 @@
           "in_transit_quantity": "0.0000",
           "on_site_cost_basis_gp": "59.34",
           "in_transit_cost_basis_gp": "0.00",
-          "verification_status": "provisional",
-          "eligible_to_ship_quantity": "0.0000"
+          "verification_status": "verified",
+          "eligible_to_ship_quantity": "4.3000"
         }
       }
     }
