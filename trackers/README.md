@@ -1,14 +1,16 @@
 # Tracker migration
 
-## Staging rule
+## Active GitHub sources
 
-These files are snapshots from the live Google Sheets as of 2026-11-19. The corresponding `workbooks/*.xlsx` files preserve formulas and formatting. `csv/` contains displayed-value snapshots split by tab for retrieval and review. Drive remains authoritative; do not edit a CSV and treat it as a live campaign update.
+The `workbooks/*.xlsx` files and `csv/` exports are baseline snapshots captured from the Google Sheets on 2026-11-19. The XLSX copies preserve formulas and formatting; CSVs preserve displayed values. GitHub is authoritative after the 2026-11-20 cutover. Do not write new campaign state to the historical Drive workbooks.
+
+Use the Magic Shops CSVs as their routed current records. Property and character CSVs are baselines; apply confirmed subsequent changes through the owning GitHub journals under `data/estate/` and `data/characters/`. Read the generated `dashboard/dashboard.json` for current derived values. Rebuild it with the repository workflow after source changes; do not hand-edit generated dashboard data.
 
 ## What runs today
 
 The estate workflow reconciles the staged cashbook event ledger and opening liability balances to the current Property overview, detects duplicate IDs, validates transfer pairs, and lists unfinished schedule tasks due by the campaign day. The event engine also supports stable receivable balances and opening inventory quantity/cost basis with evidence checks and prevents over-collection or releasing more stock/cost than registered. The source shows zero opening receivables across all four estates. Blackthorn's Day 230 book inventory is imported by grade with 41.12 t on-site, 13 t reserved, and 349.43 gp book cost; the workbook marks the grade allocation and physical count provisional, so the ledger reports zero eligible-to-ship stock until verification. Synthetic tests exercise partial payment, delayed collection after acceptance, failed work, tax due without assessment, reservations, inventory release, shipment transit, and paired transfers. The engine does not post transactions from forecasts or infer that scheduled work happened.
 
-The character staging ledger accepts confirmed HP, resource, and inventory changes. A synthetic write-and-compare test confirms the dashboard overlays those event types onto the snapshot; the real campaign event log remains empty, so an actual play → write → regenerate → compare cycle is still required. The dashboard applies only entries marked `posted`, then checks them against snapshot maxima and item quantities. The character sheets' formulas and all 2014 class/rest rules have not been fully ported. The Actions workflow also generates a date-driven Magic Shops review queue when a campaign day is supplied; it identifies due contacts without resolving random turnover.
+The character event journal accepts confirmed HP, resource, currency, and inventory changes. The Day 231 Valenthia purse change is already recorded as a posted event and was applied by a dashboard rebuild, matching the historical inventory row. New confirmed changes use the same journal → rebuild → compare process. The dashboard applies only entries marked `posted` and validates supported ranges and quantities. Character-sheet formulas and some class/rest automation have not been ported; use the 2014 rules and campaign procedures when adjudicating. The Actions workflow also generates a date-driven Magic Shops review queue; it identifies due contacts without resolving random turnover.
 
 Magic Shops already separates Dealers, Stock, and Events, with extensive campaign procedures in its Rules tab. The validation checks stable dealer/lot/event keys and stock quantities; the dashboard shows current nonzero lots. It does not roll business/stock turnover, resolve offers, buy/sell items, or decide hidden availability.
 
