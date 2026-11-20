@@ -1602,6 +1602,14 @@
         "quantity_display": "1",
         "holder": "",
         "detail": "To Lady Elara Rethwyn: \"Thank you for trusting me with your home. I tried to keep your people safe. I am sorry I left the work unfinished. The tenants need her more than the fields"
+      },
+      {
+        "item": "The Compact of Houses Rethwyn and Vaishnavi — signed original",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Cirren — personal document case; original held for the signatories",
+        "detail": "Single original Compact of Houses Rethwyn and Vaishnavi; signed Day233 midday by Elara Rethwyn and Valenthia Vaishnavi, witnessed by Mara Venn and Fenar Raukhar. Eight clauses; exact full text not recovered. No certified copy, Crown marriage registration or ownership merger. Evidence: archive/continuity/campaign-state-full-snapshot-pre-fastplay.md, COMPACT CUSTODY AND CORRESPONDENCE; confirmed retained in D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001. Administrative recovery of the omitted personal custody leg, not a new acquisition.",
+        "source_event": "D233-RETHWYN-VAISHNAVI-COMPACT-ALL-SIGNED-001"
       }
     ],
     "Fenar": [

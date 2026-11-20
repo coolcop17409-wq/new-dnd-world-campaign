@@ -10,9 +10,11 @@ Supported record types:
 - `stat`: `HP` or `MAX HP`.
 - `resource`: exact live resource name from that character's character sheet.
 - `inventory`: exact item name from that character's equipment sheet.
+- `inventory_create`: an evidenced item absent from the historical baseline, using a positive integer `absolute_value` and no delta. `evidence` is JSON with nonempty `source_event`, `holder` and `detail` strings. The builder rejects names already in the baseline (including zero-quantity rows) or the overlay. This records a missing acquisition/custody leg once; it does not award another physical item. Later quantity changes use `inventory`.
 
 Use either `delta` or `absolute_value`, never both. Set status to `posted` only when the change actually occurred. Do not enter a forecast, planned use, scheduled recovery, or proposed action. Rest recovery is entered only after the campaign's rest rules say it completed; a long-rest marker alone does not restore a resource.
 
 Inventory quantity deltas require an actual acquire, consume, use, transfer, recovery, or loss with ownership/custody evidence. If an item appears more than once, make the target unique or update its owning sheet snapshot before applying a delta. This ledger does not replace class-feature rules or rest adjudication.
 
 Once a new baseline snapshot includes an event, the event must be archived/rebased before it is replayed against that new baseline. Do not write new campaign state to the historical Drive workbook.
+

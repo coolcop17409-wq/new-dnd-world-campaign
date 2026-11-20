@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "campaign_day": null,
-  "due_count": null,
+  "campaign_day": 244,
+  "due_count": 0,
   "due_reviews": [],
   "unbound_count": 0,
-  "note": "No campaign day supplied; no turnover is inferred or resolved."
+  "note": "Queue only. Apply the Magic Shops Rules once for each elapsed due review; this script does not roll, reveal, or post turnover."
 }

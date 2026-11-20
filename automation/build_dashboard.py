@@ -96,6 +96,19 @@ def apply_character_events(payload):
    current=int(person["purse_cp"])
    person["purse_cp"]=int(absolute) if absolute else current+int(delta or 0)
    if person["purse_cp"]<0:raise ValueError(f"Character event {event.get('event_id')} makes the purse negative.")
+  elif kind=="inventory_create":
+   # Explicit new-item records cannot be mistaken for a misspelled quantity edit.
+   if delta or not absolute or not absolute.isdigit() or int(absolute)<=0:
+    raise ValueError(f"Inventory creation {event.get('event_id')} requires a positive integer absolute quantity and no delta.")
+   metadata=json.loads(event.get("evidence", ""))
+   if not all(isinstance(metadata.get(k),str) and metadata[k].strip() for k in ("source_event","holder","detail")):
+    raise ValueError("Inventory creation requires source_event, holder and detail evidence.")
+   group={"valenthia":"v","cirren":"cirren","fenar":"fenar"}[owner]
+   baseline=table(ROOT/"trackers"/"csv"/group/f"{group}-inventory.csv")
+   items=payload["inventory"].setdefault(person["name"],[])
+   if any(r and r[0].strip().lower()==target.lower() for r in baseline) or any(x["item"].strip().lower()==target.lower() for x in items):
+    raise ValueError(f"Inventory creation {event.get('event_id')} duplicates an existing item: {target}.")
+   items.append({"item":target,"qty":absolute,"quantity_display":absolute,"holder":metadata["holder"],"detail":metadata["detail"],"source_event":metadata["source_event"]})
   elif kind=="inventory":
    items=payload["inventory"].get(person["name"],[])
    matches=[x for x in items if x["item"].strip().lower()==target.lower()]
@@ -148,4 +161,5 @@ def main():
  OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(f"Built {OUT}")
 if __name__=="__main__":main()
+
 

@@ -10,6 +10,10 @@ FIXED TRUTH / REVEALED: Blackthorn is V's existing upland quarry/timber holding,
 
 NPC KNOWLEDGE: Tamsin knows her own local operations and received the Caereth letters232; she can distinguish completed work from requested quotes. Marta/Hedda know their own production/safety work, not remote river results. Meret and river-site workers hold their own D244 outcomes. Daily Tamsin stone contact is not a transcript of every remote development. No actor knows V's unspoken goals or the roadside spur's destination.
 
+### Late market evidence — factual readiness only
+
+D244-BLACKTHORN-RURAL-FIRST-PREP, market owner receipt ADMIN-MARKET-D244-20261120-01: completed first preparation found zero local magical contacts. Preserve that durable result on returns; no reroll, visiting seller, automatic discovery or estate purchase. Tamsin remains the local contact for an actual inquiry; a separately evidenced new arrival belongs to Markets. This does not restrict ordinary estate play or imply V has asked. Other late dealer effects remain directly available in market Events before relevant contact and await Quest Development's next scoped review.
+
 ### One decision ahead
 
 - Ordinary opening: familiar guards and the yard/office/hold, with daytime quarry/mill work finished. Tamsin is the reachable steward; normal reception needs no random availability or permission chase. Frame a welcome and practical choice only when live play resumes. V may settle in, ask for a concise report, walk the ordinary accessible holding, or do something else; do not print a mandatory menu or script V's response.
