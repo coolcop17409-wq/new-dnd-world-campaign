@@ -3,6 +3,8 @@ name: Estate audit and campaign dashboard
 on:
   push:
     paths:
+      - "README.md"
+      - "migration/TEST_REPORT.md"
       - "trackers/csv/property/**"
       - "trackers/csv/v/**"
       - "trackers/csv/cirren/**"
