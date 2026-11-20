@@ -35,3 +35,7 @@ Re-read before writing; use scoped atomic Git trees/commits and expected-head up
 ## Latest estate run
 
 D244-ESTATE-CATCHUP-001 is newly authorized offscreen adjudication through the live Day244 early-evening checkpoint, preserving V's scene and choices. It covers completed Days231–243 and separately recorded elapsed Day244 work; Day244 is not a completed night/calendar close. Consult the verified coverage receipt in `operational-checkpoint.csv`, actual journals and generated report for saved balances and any remaining gaps. The punt is operational by accepted Day235 ruling and has a Day237 passenger finding; its historical rebuild invoice/completion-cost details remain unresolved, not a renewed repair or ownership block. Pending technical and commercial requests retain their precise prerequisites and owners in the operational journal.
+
+## Routine competence clarification
+
+Apply `D244-ESTATE-ROUTINE-COMPETENCE-001` in `campaign/continuity/rules-estate-economy.md` to all new estate adjudication. Separate journal legs do not require separate random success gates. Record ordinary professional readiness/fulfillment directly when its real prerequisites are satisfied; roll only for identified material uncertainty. Existing outcomes and pending work are preserved. The scoped implementation/verification receipt is `ADMIN-ESTATE-COMPETENCE-D244-001` in `operational-checkpoint.csv`.
