@@ -29,3 +29,9 @@ Maintain a compact **unsynchronized** event ledger during play. Batch guarded, i
 ## Integrity
 
 No new in-world events, rolls, NPC choices, property operations, income, rests or resources arise from document restructuring, workflow execution or real-world time. Do not treat forecast, proposals, DM secrets or unclosed post-cutover validation items as settled fact. Failed writes remain unsynced until correctly retried without duplicate IDs.
+
+## Shared run coordination — RUN-PROTOCOL-v2
+
+The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
+
+CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-D244-20261120-01 | worker=Estate Ledger Updates | operations=E244-01 | acquired=2026-11-20T10:21:00Z | heartbeat=2026-11-20T10:21:00Z | expires=2026-11-20T10:31:00Z | recovery=data/estate/operational-checkpoint.csv
