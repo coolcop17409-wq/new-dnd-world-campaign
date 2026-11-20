@@ -34,4 +34,4 @@ No new in-world events, rolls, NPC choices, property operations, income, rests o
 
 The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-D244-20261120-01 | worker=Estate Ledger Updates | operations=E244-01 | acquired=2026-11-20T10:21:00Z | heartbeat=2026-11-20T10:21:00Z | expires=2026-11-20T10:31:00Z | recovery=data/estate/operational-checkpoint.csv
+CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-D244-20261120-01 | worker=Estate Ledger Updates | operations=E244-01 | acquired=2026-11-20T10:21:00Z | heartbeat=2026-11-20T10:28:00Z | expires=2026-11-20T10:38:00Z | recovery=data/estate/operational-checkpoint.csv
