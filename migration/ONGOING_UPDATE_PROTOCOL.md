@@ -1,6 +1,6 @@
-# Ongoing update protocol — GitHub staging
+# Ongoing update protocol — active GitHub source
 
-This procedure defines how confirmed campaign changes are recorded and checked in this repository. It does not authorize play from GitHub or change the current authority: Drive remains authoritative until the cutover gates in `migration/TEST_REPORT.md` are satisfied.
+This procedure governs live recording and verification of confirmed campaign changes in this repository after the owner-directed 2026-11-20 cutover. GitHub is authoritative for campaign text and structured records. Drive Docs/workbooks are historical references; maps and large images remain in Drive/Library as designated visual assets. The owner authorized cutover with the outstanding items in `migration/TEST_REPORT.md` still open; continue validation without misrepresenting those checks as passed or fabricating campaign evidence.
 
 ## Update sequence
 
@@ -9,7 +9,7 @@ This procedure defines how confirmed campaign changes are recorded and checked i
 3. Recalculate the derived view from journals and dated opening snapshots. Do not hand-edit generated reports or dashboard data.
 4. Run the relevant audit, formula replay, and edge-case tests. Resolve or clearly hold discrepancies before presenting any value as current.
 5. Update the campaign checkpoint only after all owning ledgers and generated views have been verified. Preserve the previous checkpoint and its evidence.
-6. Until cutover, compare the staged result with the Drive checkpoint and keep Drive authoritative.
+6. After each update, verify the GitHub commit and affected generated views. Compare with Drive only to investigate historical/source discrepancies; GitHub governs any post-cutover campaign record.
 
 A generated schedule date is a reminder to review. It does not itself post wages, receipts, expenses, taxes, inventory, transfers, or a completed task.
 
@@ -77,9 +77,9 @@ The migrated Magic Shops `Rules` tab is the behavior specification; its searchab
 - Preserve player holds, accepted offers, purchases, seller decisions, prior discoveries and unique-item custody. Never post a shop NPC transaction to V's purse or inventory. A player purchase needs linked, idempotent shop, cash and inventory entries.
 - Current automated checks validate dealer/lot/event keys and nonnegative quantities. They do not determine what V knows, execute turnover rolls, or apply a shop event to party cash/inventory. Those are verified by the play-and-sync procedure; a complete linked transaction test remains a cutover gate.
 
-## Cutover checks
+## Post-cutover validation backlog
 
-Do not point play or Project Sources here until all of these pass:
+The owner authorized GitHub cutover before every item below had passed. Keep each item visible and work it only when confirmed campaign evidence and the needed test opportunity exist:
 
 - opening cash, liabilities, receivables, inventory/custody, staff, ownership and outstanding commitments are complete at a confirmed checkpoint;
 - a real Blackthorn operation chain is checked through physical verification, dispatch, partial acceptance, COGS, receivable creation and later collection, then compared with the owning Drive workbook;
@@ -90,4 +90,4 @@ Do not point play or Project Sources here until all of these pass:
 - the generated views and sync instructions are usable from the GitHub connector, with failures and conflicts surfaced;
 - public repository exposure of DM preparation remains an accepted user choice.
 
-Until then, GitHub is a tested staging copy and Drive remains authoritative.
+GitHub remains the active source while this validation backlog is resolved.
