@@ -1,6 +1,6 @@
 # Opening Position Audit
 
-**Audit basis:** Property workbook checked on 2026-11-20; the staged export is from 2026-11-19. Financial snapshot: Day 231 late morning cash; completed estate close remains Day 230. Blackthorn stock and liability balances are as of Day 230. This is a source/staging comparison; it creates no campaign transactions and changes no live workbook.
+**Audit basis:** Property workbook checked on 2026-11-19; the staged export is from 2026-11-19. Financial snapshot: Day 231 late morning cash; completed estate close remains Day 230. Blackthorn stock and liability balances are as of Day 230. This is a source/staging comparison; it creates no campaign transactions and changes no live workbook.
 
 ## Findings
 
@@ -15,10 +15,10 @@ The staged Property exports contain the owner’s current rights, service capaci
 
 ## Remaining opening-position gaps
 
-1. **Blackthorn physical stock verification:** the Day 231 `REPEAT-03-QC` pass specifically covered the F03 8 t preload grade/count (Schedule row 26; order `ORS-STONE-F03`). It does not verify the full 18.384 t dressed-stone book balance or any other grade. The staging inventory is grade-level only, so it cannot safely mark the reserved 8 t ready while the rest remains provisional. A full count or a tested lot-level verification model is still required before opening stock can ship.
-2. **Miregate vessel source record:** the Property schedule still says the punt is broken and awaiting a rebuild, but the later explicit player ruling retroactively restores all four boats to estate ownership and operational service. Honor that ruling in staging. Reconcile the stale source record at the next authorized Drive sync; keep the punt’s rebuild date, cost, and capacity unknown, and post no inferred expense.
-3. **Fixed-asset register:** a staging register now lists the supported components, including Blackthorn’s 18 gp separators/weather cover and the two operational Reedbed barges, plus Miregate’s mill, storage, berth, and vessels. It also records verified capacities and distinguishes repair spend from asset cost. Purchase values, depreciation, site/structure boundaries, and some equipment itemization are absent from the source, so the register is not a complete valuation. The Fort’s Crown controls stay excluded.
-4. **Person-level staff identity:** site staffing is sufficient for rate and payroll calculations by role, but several Reedbed/Fort crew members and some Blackthorn workers are unnamed. Keep the source role labels; do not invent names.
+1. **Blackthorn physical stock verification — resolved as of the opening snapshot.** A routine full-yard count on Day 231 morning, before that day's production, matched the Day 230 close across all six grades: 41.120 t total, zero variance. The 8 t F03 lot was separately weighed and counted as a non-additive subset of dressed stone and had already passed its Day 231 preload check. See the live Property **Blackthorn - Stocktake** tab and `data/estate/blackthorn-stocktake.csv`. This verifies physical quantity and lot count; it does not add seasoning or other buyer-quality certification.
+2. **Fixed assets — evidence-based items are now itemized.** The register records the bridge restoration (48 gp), millrace (20 gp), wheel/drive (65 gp), saw (40 gp), and Day 230 separators/weather cover (18 gp) as documented historical costs. It does not call those amounts current valuations. The original site boundary, base structures/fixtures, and bulk tools/stores lack complete itemization in the source; current book value, depreciation, and market appraisal are not recorded. See the live Property **Blackthorn - Fixed Assets** tab and `data/estate/fixed-assets.csv`.
+3. **Miregate vessel source record.** The Property schedule still says the punt is broken and awaiting a rebuild, but the later explicit player ruling restores all four boats to estate ownership and operational service. Honor the ruling in staging; the punt's rebuild date, cost, and capacity remain unknown. Reconcile the stale source record at the next authorized Drive sync; do not post an inferred expense.
+4. **Person-level staff identity.** Site staffing supports rate and payroll calculations by role, but several Reedbed/Fort crew members and some Blackthorn workers are unnamed. Keep the source role labels; do not invent names.
 
 ## Reconciliation boundary
 
