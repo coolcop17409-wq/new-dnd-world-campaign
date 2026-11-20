@@ -40,7 +40,7 @@ Reuse verified context during the conversation. Refresh only when a fact changes
 
 ## Tracker migration state
 
-`trackers/workbooks/` contains exact spreadsheet exports preserving formulas and layout. `trackers/csv/` contains read-friendly value snapshots generated at migration time; these do not preserve spreadsheet formulas or formatting. During staging, do not treat the CSVs as live values or make them authoritative. Before cutover, test a canonical, writable tracker format and verify its calculations against the Drive workbook.
+`trackers/workbooks/` contains exact pre-cutover spreadsheet exports preserving formulas and layout; treat them as historical references only. `trackers/csv/` contains read-friendly values but does not preserve spreadsheet formulas or formatting. Use repo CSVs as live records only where the owner routes designate them: the Magic Shops CSVs are its current records; property and character CSV exports are baselines/reference, with new estate and character changes appended to the owning journals in `data/estate/` and `data/characters/`. Rebuild generated views with the repository tools and verify committed results. Do not write live campaign state to the old Drive workbooks; retain Drive for historical reference and designated map/image assets.
 
 ## Record maintenance
 
