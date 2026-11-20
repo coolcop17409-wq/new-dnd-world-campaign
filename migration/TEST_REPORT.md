@@ -21,9 +21,9 @@ The financial opening balances therefore remain Miregate 501.40 gp cash / 14.03 
 
 ## Previously validated prototype
 
-GitHub Actions run 104 passed against the then-current staging commit: Python syntax checks, synthetic ledger edge cases, estate validation/dashboard generation, and generated-report commit. That run predates this Day 235 reconciliation and updated movable-asset data. Any new automatic workflow result must be checked separately.
+The latest confirmed Actions run in the available history is 44660947398 on commit 09dd3b87, before the current Day 235 / 8,000 gp valuation / character-event commits. It passed on that earlier commit; a successful current-head run has not been verified.
 
-The bridge still has no real post-checkpoint operation chain compared with Drive. There has been no real character write-and-compare, no real Magic Shops turnover cycle, and no end-to-end campaign change through event posting and regenerated views. These remain cutover blockers.
+The bridge still has no real post-checkpoint operation chain compared with Drive. The V Day 231 funeral prepayment (−12 gp) is now staged as a dated purse event over a pre-event baseline, matching the Drive Inventory row 29 closing purse of 1,185 gp, 3 sp, 8 cp. The dashboard currency overlay has been added, but generated output and Actions validation have not yet been verified. There has been no confirmed post-checkpoint Blackthorn operation chain and no real due Magic Shops review cycle. These remain cutover blockers.
 
 ## Cutover boundary
 
