@@ -31,3 +31,7 @@ Opening cash is based on 121 actual cashbook rows, with liabilities as a Day 230
 ## Post-cutover validation
 
 The remaining evidence-dependent checks are tracked in [migration/TEST_REPORT.md](../migration/TEST_REPORT.md). Use that report as the current status; do not reintroduce stale pre-cutover gates or treat synthetic fixtures as real campaign events. The historical Day 231 stocktake and property register remain available in the baseline workbook export.
+
+## Fast-play durability
+
+The active CAMPAIGN_STATE starts with the current DAY heading; the current continuity README contains only live routes (less than 8K characters); recent played SESSION_LOG is kept below 75K by archiving closed evidence. The fast packet generator checks these limits. V's Fighter Battle Master Superiority Dice are read from the separate row in the V character CSV, with actual spends and qualifying recovery applied only by the character event overlay. A failed build is a repair signal: never manufacture rolls/recovery, delete true events or edit generated counters as a workaround.

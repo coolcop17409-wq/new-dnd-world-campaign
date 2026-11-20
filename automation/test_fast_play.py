@@ -41,6 +41,53 @@ class FastPlayTests(unittest.TestCase):
                 event['absolute_value']='1';event['evidence']='{}';write()
                 with self.assertRaises(ValueError):build_dashboard.apply_character_events(payload())
 
+    def test_battle_master_resource_overlay(self):
+        v=build_dashboard.character("v","Valenthia","v-character.csv","v-inventory.csv")
+        matches=[r for r in v["resources"] if r["name"]=="Superiority Dice"]
+        self.assertEqual(len(matches),1)
+        self.assertEqual((matches[0]["current"],matches[0]["max"]),("4","4"))
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            journal=root/"data/characters/events.csv"
+            journal.parent.mkdir(parents=True)
+            fields=["event_id","campaign_day","owner","record_type","target","delta","absolute_value","evidence","status"]
+            events=[
+                dict(event_id="TEST-SUP-SPEND",campaign_day="245",owner="Valenthia",record_type="resource",
+                     target="Superiority Dice",delta="-1",absolute_value="",
+                     evidence="Test fixture: one Tactical Assessment spend",status="posted"),
+                dict(event_id="TEST-SUP-REST",campaign_day="246",owner="Valenthia",record_type="resource",
+                     target="Superiority Dice",delta="1",absolute_value="",
+                     evidence="Test fixture: one confirmed short rest",status="posted")]
+            def replay(items):
+                with journal.open("w",newline="") as handle:
+                    writer=csv.DictWriter(handle,fieldnames=fields);writer.writeheader();writer.writerows(items)
+                payload={"party":[build_dashboard.character("v","Valenthia","v-character.csv","v-inventory.csv")],
+                         "inventory":{"Valenthia":[]}}
+                with patch.object(build_dashboard,"ROOT",root):
+                    build_dashboard.apply_character_events(payload)
+                return next(r for r in payload["party"][0]["resources"] if r["name"]=="Superiority Dice")
+            self.assertEqual(float(replay(events[:1])["current"]),3)
+            self.assertEqual(float(replay(events)["current"]),4)
+            events[1]["delta"]="2"
+            with self.assertRaises(ValueError): replay(events)
+
+    def test_checkpoint_must_begin_with_current_heading(self):
+        with self.assertRaises(ValueError):
+            active_checkpoint("ARCHIVED PARAGRAPH\n\n"+STATE)
+        with self.assertRaises(ValueError):
+            active_checkpoint(STATE + "X"*12000)
+
+    def test_dashboard_day_requires_front_heading(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            state=root/"campaign/continuity/campaign-state.md"
+            state.parent.mkdir(parents=True)
+            state.write_text("old text\nCAMPAIGN_STATE — DAY 245\n")
+            with patch.object(build_dashboard,"ROOT",root):
+                with self.assertRaises(ValueError): build_dashboard.campaign_day()
+                state.write_text(STATE)
+                self.assertEqual(build_dashboard.campaign_day(),244)
+
     def test_current_only(self):
         day, section = active_checkpoint(STATE)
         self.assertEqual(day,244)

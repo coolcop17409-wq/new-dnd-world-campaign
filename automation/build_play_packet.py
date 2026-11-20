@@ -17,9 +17,9 @@ OUTPUT = ROOT / "runtime" / "PLAY_NOW.md"
 DAY = re.compile(r"^CAMPAIGN_STATE\s*[—–-]\s*DAY\s+(\d+)\b", re.M | re.I)
 
 def active_checkpoint(text: str) -> tuple[int, str]:
-    hit = DAY.search(text)
+    hit = DAY.match(text.lstrip("\ufeff"))
     if not hit:
-        raise ValueError("Active CAMPAIGN_STATE day heading missing")
+        raise ValueError("CAMPAIGN_STATE must START with a current DAY heading; archive older paragraphs")
     section = text[hit.start():].split("\n\n## Earlier checkpoints", 1)[0].strip()
     # An explicit accepted correction can keep the same scene while replacing
     # a resource fact. Preserve its current paragraph, not the labelled old pause.
@@ -28,8 +28,8 @@ def active_checkpoint(text: str) -> tuple[int, str]:
         section = section.split("\n\nHISTORICAL PRE-CORRECTION CHECKPOINT", 1)[0].strip()
     if not section or ("CURRENT EXACT PLAYED CHECKPOINT" not in section and not corrected):
         raise ValueError("Current played checkpoint marker missing")
-    if len(section) > 12000:
-        raise ValueError("Live checkpoint too large; archive superseded checkpoints first")
+    if len(text) > 12000 or len(section) > 10000:
+        raise ValueError("Active checkpoint exceeds fast-play size limits; archive superseded history")
     return int(hit.group(1)), section
 
 def make_packet(state_text: str, dashboard_text: str) -> str:
@@ -91,6 +91,12 @@ def make_packet(state_text: str, dashboard_text: str) -> str:
     return "\n".join(lines)
 
 def main() -> None:
+    routing = ROOT / "campaign" / "continuity" / "readme.md"
+    if routing.exists() and len(routing.read_text(encoding="utf-8")) > 8000:
+        raise ValueError("Continuity README exceeds 8000 characters; archive receipts")
+    log = ROOT / "campaign" / "continuity" / "session-log.md"
+    if log.exists() and len(log.read_text(encoding="utf-8")) > 75000:
+        raise ValueError("Recent SESSION_LOG exceeds 75000 characters; archive closed events")
     result = make_packet(STATE.read_text(encoding="utf-8"), DASHBOARD.read_text(encoding="utf-8"))
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     if not OUTPUT.exists() or OUTPUT.read_text(encoding="utf-8") != result:

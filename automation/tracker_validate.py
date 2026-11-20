@@ -24,6 +24,16 @@ def character_check(name,group,sheet,inventory,findings):
  hp=num(values.get("current hp",""),f"{name} current HP",findings)
  max_hp=num(values.get("max hp",""),f"{name} maximum HP",findings)
  if hp is not None and max_hp is not None and (hp<0 or hp>max_hp):findings.append(f"{name}: HP {hp} is outside 0–{max_hp}.")
+ # V has a second character resource table under Battle Master.
+ if group=="v":
+  special=[r for r in data if r and r[0].strip().casefold()=="superiority dice"]
+  if len(special)!=1 or len(special[0])<3:
+   findings.append("Valenthia: missing or ambiguous Superiority Dice baseline row.")
+  else:
+   cur=num(special[0][1],"Valenthia Superiority Dice current",findings)
+   maximum=num(special[0][2],"Valenthia Superiority Dice max",findings)
+   if cur is not None and maximum is not None and (cur<0 or maximum<=0 or cur>maximum):
+    findings.append("Valenthia: invalid Battle Master Superiority Dice baseline.")
  resources={}
  for i,row in enumerate(data):
   if row and row[0].strip().upper()=="RESOURCE":

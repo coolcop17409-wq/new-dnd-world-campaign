@@ -10,8 +10,10 @@ def table(path):
  with path.open(encoding="utf-8-sig",newline="") as f: return list(csv.reader(f))
 def campaign_day():
  p=ROOT/"campaign"/"continuity"/"campaign-state.md"
- m=re.search(r"CAMPAIGN_STATE\s*[—–-]\s*DAY\s+(\d+)",p.read_text(encoding="utf-8")[:2000],re.I) if p.exists() else None
- return int(m.group(1)) if m else None
+ if not p.exists(): raise ValueError("Missing authoritative CAMPAIGN_STATE")
+ m=re.match(r"CAMPAIGN_STATE\s*[—–-]\s*DAY\s+(\d+)\b",p.read_text(encoding="utf-8").lstrip("\ufeff"),re.I)
+ if not m: raise ValueError("CAMPAIGN_STATE must BEGIN with the current DAY heading; archive prior checkpoints")
+ return int(m.group(1))
 def character(group, name, sheet, inventory_sheet):
  rows=table(CSV/group/sheet)
  fields={}
@@ -31,6 +33,19 @@ def character(group, name, sheet, inventory_sheet):
     if item[0].strip().upper() in {"ABILITY","SKILL","FEATURE"}: break
     resource_rows.append({"name":item[0].strip(),"current":item[1].strip() if len(item)>1 else "","max":item[2].strip() if len(item)>2 else "","recovery":item[3].strip() if len(item)>3 else ""})
    break
+ # V's Battle Master dice live below the RESOURCE section in the owning Fighter
+ # CSV baseline. They are independent of Martial Points and are modified only
+ # by posted resource events in data/characters/events.csv.
+ if group=="v":
+  special=[r for r in rows if r and r[0].strip().casefold()=="superiority dice"]
+  if len(special)!=1 or len(special[0])<3:
+   raise ValueError("V's Fighter baseline requires exactly one Superiority Dice current/max row")
+  current,maximum=special[0][1].strip(),special[0][2].strip()
+  if not current.isdigit() or not maximum.isdigit() or int(current)>int(maximum):
+   raise ValueError("V's Superiority Dice baseline has invalid current/maximum")
+  if any(r["name"].casefold()=="superiority dice" for r in resource_rows):
+   raise ValueError("Duplicate Superiority Dice in general RESOURCE and Fighter sections")
+  resource_rows.append({"name":"Superiority Dice","current":current,"max":maximum,"recovery":"Short Rest / Long Rest"})
  inv=table(CSV/group/inventory_sheet)
  purse_row=next((r for r in inv if r and r[0].strip().lower()=="current campaign ledger (in custody)"),None)
  purse_cp=None

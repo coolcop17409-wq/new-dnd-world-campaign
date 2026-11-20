@@ -108,3 +108,11 @@ For actual play writes, retain the existing stable event IDs, expected-SHA safeg
 The D244 catch-up contains current-day completed work as well as completed prior days. Full calendar close and last accounted activity are separate markers; never infer an unplayed night from a daytime posting. Open-period tax is accrued as profit is earned with daily liability adjustments; the tax-period assessment/payment command does not replace that obligation. Default tax preview can use the separately recorded last accounted day while posting a closed assessment still requires the true close guard. All historical carry and due dates remain unchanged.
 
 The real F03 chain now provides actual full dispatch, acceptance, receivable and later collection evidence. Broader migration validation items, including complete dependency coverage and partial-delivery cases, remain open unless specifically verified. Older pre-cutover Drive-comparison language above is historical validation context, not permission to write there.
+
+## Fast-play regression safeguards (2026-11-20)
+
+Keep one standard CAMPAIGN_STATE — DAY heading at the start of the active state; replace superseded checkpoint prose after archiving it verbatim. This file should hold only present actors, relevant resources, latest accepted corrections and the precise pending V action. Keep the current continuity README under 8K characters, and recent SESSION_LOG under 75K by archiving closed chronological blocks. Do not append maintenance receipts to startup routes. The play generator rejects unsafe growth and outdated parser layouts rather than truncating them.
+
+The owning V Fighter character CSV records Superiority Dice separately from the general resources. The dashboard now reads exactly that Battle Master baseline row and replays posted character-event spends/recovery, validating bounds. Do not delete actual journal entries to quiet validation failures; add narrow explicit mappings/tests for other approved features as needed.
+
+For substantive play synchronization, batch related owning journals in one guarded commit when possible, verify them, then commit CAMPAIGN_STATE last as a separately guarded state commit. Checks of unrelated estates, markets and atlas are not per-action prerequisites. This maintenance changes no played time, events, decisions or dice.
