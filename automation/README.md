@@ -16,7 +16,7 @@
 
 The event ledger keeps earned income/cost separate from later cash movement. Payments settle the same liability; collections reduce the same receivable. Partial payments, transfers, stock quantity/cost, reservations, shipment transit and physical verification have distinct fields and checks. Forecasts and scheduled tasks do not produce transactions. A due date does not itself assess or pay tax. No protected reserve is calculated.
 
-Opening cash is based on 121 actual cashbook rows, with liabilities as a Day 230 balance-forward checkpoint and cash postings through Day 231 late morning. Current opening receivables are zero in the source. The six Blackthorn stock grades are imported as provisional, so verified shippable opening stock is zero.
+Opening cash is based on 121 actual cashbook rows, with liabilities as a Day 230 balance-forward checkpoint and cash postings through Day 231 late morning. Current opening receivables are zero in the source. The six Blackthorn stock grades are verified against the Day 231 physical count of the Day 230 close. The 8 t F03 lot is separately documented as a memorandum sublot in `data/estate/blackthorn-stocktake.csv`; this detail supports the grade-level opening ledger without double-counting the lot.
 
 ## Formula checks currently passed
 
