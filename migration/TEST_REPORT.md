@@ -4,6 +4,8 @@ Test copy: https://github.com/coolcop17409-wq/new-dnd-world-campaign
 Visibility: Public, as explicitly chosen by the owner.  
 Authority: Drive remains authoritative. No live Drive record or Project Source has been changed.
 
+The test and Actions results below predate the Day 231 stocktake and fixed-asset register updates. No tests or Actions were run for those updates.
+
 ## Confirmed checkpoint
 
 The staged estate opening cash/liability checkpoint reconciles to Day 231 late morning:
