@@ -35,4 +35,4 @@ Opening cash is based on 121 actual cashbook rows, with liabilities as a Day 230
 - Opening ownership, custody, inventory and commitments need a complete confirmed opening checkpoint for every system.
 - A full play → write → rebuild → compare sync and an Actions posting run still need review.
 
-See [ongoing update protocol](../migration/ONGOING_UPDATE_PROTOCOL.md) for the required operating procedure and cutover gates. Drive remains authoritative; Project Sources and live workbooks have not been changed.
+See [ongoing update protocol](../migration/ONGOING_UPDATE_PROTOCOL.md) for the required operating procedure and cutover gates. Drive remains authoritative. The Day 231 stocktake and Blackthorn fixed-assets register are also recorded in the live Property workbook; Project Sources were not changed.
