@@ -16,7 +16,7 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Unfinished tasks due by campaign Day 243
+## Unfinished tasks due by campaign Day 244
 
 Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 203: MG-INSURANCE** (Hold)
