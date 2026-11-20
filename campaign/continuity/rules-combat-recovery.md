@@ -3,6 +3,8 @@
 RULES — COMBAT & RECOVERY
 Standing rules/reference only. Current resource counters are owned by live Sheets; current scene by CAMPAIGN_STATE; chronology by SESSION_LOG/history.
 ## Rest and recovery
+
+PLAYER'S LATEST EXPLICIT REST CORRECTION — D238-241-RETHWYN-SECURE-LONGREST-001: Lady Elara Rethwyn's staffed, protected, actively occupied RURAL MANOR counts as a GENUINELY SECURE HOUSEHOLD for the purpose of two weighted Long Rest units per uninterrupted overnight when the household supplies competent protection/hospitality and no relevant disturbance occurs. The three peaceful hosted nights Day238→239, Day239→240 and Day240→241 count 2+2+2=6/6 and COMPLETE the party Long Rest at Dawn241. This is a specific secure-estate classification rather than a blanket declaration that any isolated roof/farmhouse is safe-town equivalent. Later stays at Elara's under comparable secured conditions use this classification unless an actual intervening danger changes it. The earlier Day238–241 wilderness-style 1-unit interpretation is superseded; do not retroactively change unrelated older rests. The completed Long Rest restores HP, spell/psi/rage/shift/etc per 2014/house rules and up to half a character's total Hit Dice; Fenar HD5/6→6/6. No extra night's time or resource use is created.
 | Setting | Ordinary Short Rest | Reborn V Short Rest | Long Rest |
 |---|---|---|---|
 | Qualifying safe town |4 consecutive hours|2 consecutive hours motionless|3 consecutive nights|
