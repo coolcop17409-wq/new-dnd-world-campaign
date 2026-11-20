@@ -4,3 +4,5 @@ D236-RIVER-VOYAGE-RATIONS-001,236,Valenthia,inventory,Rations (1 day),-3,,"D235-
 D236-RIVER-VOYAGE-FEED-001,236,Valenthia,inventory,Feed (1 day),-4,,"D235-236-RIVER-HERON-VOYAGE-ARRIVAL-001: actual Day236 four V-owned horses fed one animal-feed day each from coach stock under upper commercial landing shore custody.",posted
 D237-UPRIVER-RATIONS-001,237,Valenthia,inventory,Rations (1 day),-3,,D236-237-MIREGATE-REST-UPRIVER-001: Day237 actual Mara/Cirren/Fenar normal food3 person-day rations during upriver travel; V Reborn none.,posted
 D237-UPRIVER-FEED-001,237,Valenthia,inventory,Feed (1 day),-4,,D236-237-MIREGATE-REST-UPRIVER-001: Day237 four healthy horses at upper commercial landing used four feed animal-days in secure yard.,posted
+D237-SNAKE-FENAR-HP-001,237,Fenar,stat,HP,-8,,"D237-RIVER-SNAKE-COMBAT-R1-END-001: genuine Giant Constrictor Snake Constrict attack d20(8)+6=14 vs AC14; 2d8(2,2)+4=8 bludgeoning before Rage; Fenar59→51.",posted
+D237-SNAKE-FENAR-RAGE-001,237,Fenar,resource,Rage,-1,,"D237-RIVER-SNAKE-COMBAT-R1-END-001: Fenar independently activates one Rage (4→3) as bonus action during Round1, chooses Beast Claws; not yet rest-recovered.",posted
