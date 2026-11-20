@@ -48,7 +48,7 @@ Blackthorn management payroll, production payroll and upkeep can be generated th
 
 Blackthorn readiness has a passed-task gate. The estate ledger now requires and validates referenced prerequisite task IDs for earned income and service/shipment releases. It checks recorded completion, actual day and evidence, but cannot detect a dependency omitted from the event's reference list. Forward Blackthorn tax-base roll-forward and period assessment adjustment posting are implemented and pass the integrated synthetic operation/ledger/tax scenario. They have not been applied to a real post-checkpoint close. Character event overlays and Magic Shops identity/quantity/review-queue checks are tested synthetically; real play writes and a due-turnover cycle remain unverified.
 
-Drive remains authoritative. Do not change live workbooks or Project Sources during staging. For each update type and the cutover criteria, see `migration/ONGOING_UPDATE_PROTOCOL.md`.
+Drive remains authoritative. Record actual campaign changes in their existing Drive owners under the guarded campaign protocol, then sync the verified result to GitHub staging. Do not change Project Sources or route play to GitHub before the cutover checks pass. For update details, see `migration/ONGOING_UPDATE_PROTOCOL.md`.
 
 ## Adopted Blackthorn estimate
 
