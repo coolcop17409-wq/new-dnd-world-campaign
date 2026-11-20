@@ -16,9 +16,59 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Schedule review
+## Unfinished tasks due by campaign Day 246
 
-The current campaign day could not be read from CAMPAIGN_STATE. Supply it in the manual workflow input to list due and overdue unfinished estate tasks.
+Campaign-day source: CAMPAIGN_STATE.
+- **Reedbed — Day 245: RB-WEEK-245** (Scheduled)
+- **Blackthorn — Day 246: WOOD-WEEK-8** (Scheduled)
+- **Blackthorn — Day 245: REPEAT-TARGET-245** (Scheduled)
+
+### Verified later settlements
+
+- **Miregate — MG-INSURANCE** is routed to current `MG-INSURANCE-LIVE-244` (waiting; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-MERET-PAY** is routed to current `MG-PAY-229` (Complete; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-WEEK-214** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-WEEK-221** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-WEEK-235** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-WEEK-242** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-CAERETH-CHARTER-D228** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-CAR-HERON-VERIFY-D229** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-REPEAT-D225** is routed to current `R200-RIVER-CUSTOMER-NEXT` (open; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-PAY-222** is routed to current `MG-PAY-229` (Complete; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-PAY-236** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-PAY-243** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-ELDEN-CALL-237** is routed to current `R200-RIVER-CUSTOMER-NEXT` (open; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-NERIS-STORAGE-CHECK-233** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-OWN-GRAIN-PILOT-238** is routed to current `R200-MG-PILOT-NEXT` (waiting; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-FARM-COMMERCIAL-REVIEW** is routed to current `R200-MG-FARM-NEXT` (waiting; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-HESSA-MILL-232-NEXT** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-JOREN-STORE-232-REVIEW** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-PUNT-REBUILD-D231** is routed to current `MG-PUNT-COST-RECOVERY` (Completed; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-BOOK** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-WEEK-238** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-PAYROLL-208** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-PAYROLL-215** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-PAYROLL-222** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-PAYROLL-236** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-PAYROLL-243** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-TARIN-237-NEXT** is routed to current `R200-RB-WALKIN-NEXT` (open; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-PASSING-NEXT-232** is routed to current `R200-RB-WALKIN-NEXT` (open; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-COMMISSION** is routed to current `R200-OF-SERVICE-CURRENT` (completed; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-START** is routed to current `R200-OF-SERVICE-CURRENT` (completed; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-FIRST-RETURN** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-FIRST-PAY** is routed to current `R200-OF-COLLECT` (open; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-WEEK-233** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-WEEK-240** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-PAYROLL-215** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-PAYROLL-222** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-PAYROLL-236** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-PAYROLL-243** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
+- **Blackthorn — WOOD-WEEK-6** is routed to current `BT-WOOD-WEEK-232-239` (Complete; verified owner successor). This does not complete an open successor.
+- **Blackthorn — WOOD-WEEK-7** is routed to current `BT-WOOD-WEEK-232-239` (Complete; verified owner successor). This does not complete an open successor.
+- **Blackthorn — FREIGHT-F03** is routed to current `R200-BT-REPLAY` (Resolved; verified owner successor). This does not complete an open successor.
+- **Blackthorn — REPEAT-TARGET-231** is routed to current `R200-BT-REPLAY` (Resolved; verified owner successor). This does not complete an open successor.
+- **Blackthorn — GARRAN-234** is routed to current `R200-BT-REPLAY` (Resolved; verified owner successor). This does not complete an open successor.
+- **Blackthorn — BT-DEV-NEXT** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
 
 ## Current owning requests
 
