@@ -178,7 +178,7 @@
     {
       "name": "Valenthia",
       "level": "7",
-      "hp": "48",
+      "hp": "39.0",
       "max_hp": "48",
       "ac": "19",
       "initiative": "4",
@@ -263,7 +263,7 @@
         },
         {
           "name": "Spell Slots (2nd)",
-          "current": "3",
+          "current": "2.0",
           "max": "3",
           "recovery": "Long Rest"
         },
@@ -297,7 +297,7 @@
     {
       "name": "Fenar",
       "level": "6",
-      "hp": "59.0",
+      "hp": "55.0",
       "max_hp": "59",
       "ac": "14",
       "initiative": "2",
@@ -305,13 +305,13 @@
       "resources": [
         {
           "name": "Rage",
-          "current": "4.0",
+          "current": "3.0",
           "max": "4",
           "recovery": "Short Rest +1; Long Rest all"
         },
         {
           "name": "Shift",
-          "current": "3",
+          "current": "2.0",
           "max": "3",
           "recovery": "Long Rest"
         },
@@ -341,7 +341,7 @@
         },
         {
           "name": "Martial Points",
-          "current": "6",
+          "current": "4.0",
           "max": "6",
           "recovery": "Short / Long Rest"
         },
