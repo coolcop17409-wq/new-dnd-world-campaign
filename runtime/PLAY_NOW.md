@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `267d33fe7ab41114aff937cc611cdd1b8efc99d3eb728e9de50e3fd71cde692b`).
-Dashboard SHA256: `3a57fc1f550bc86fd0442249b5eb811fde7d7439f233c409ae69de5c613ed103`.
+Dashboard SHA256: `3e01af591cb74880af412511ad47360c9d24bebba0385c9e497049d737e116a1`.
 Confirmed campaign day: **244**.
 
 ## Exact playable checkpoint (verbatim from owner)
