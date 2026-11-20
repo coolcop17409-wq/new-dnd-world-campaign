@@ -26,7 +26,7 @@ Do not resume play from this copy or change Project Sources during staging. The 
 
 ## Current checkpoint in the source
 
-Day 231, late morning, at the Rethwyn rural manor entrance in Crownsunder. V's next speech/action is pending after Sela offers to lead Anwen to view Iven's remains. See `campaign/continuity/campaign-state.md`.
+Day 235 evening, at the upper Miregate commercial landing in Crownsunder. V's next speech/action is pending with Captain Orla present beside the River Heron. See `campaign/continuity/campaign-state.md`.
 
 ## Migration status
 
