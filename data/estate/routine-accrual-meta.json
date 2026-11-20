@@ -1,5 +1,8 @@
 {
-  "last_confirmed_closed_day": 230,
+  "last_confirmed_closed_day": 243,
   "source_opening_day": 182,
-  "evidence": "Blackthorn - Accounts routine accrued through Day 230. Day 231 remains in progress."
+  "evidence": "D244-ESTATE-CATCHUP-001; ownerjournals exactreadback a5ff176 andCI44721295818PASS; opening230 retained, stable231-244IDsverified",
+  "last_accounted_day": 244,
+  "open_day": 244,
+  "open_day_activity": "Completed244daytimeshifts andordinaryactive-daycostsposted; fullnight/calendarclose NOTconfirmed"
 }
