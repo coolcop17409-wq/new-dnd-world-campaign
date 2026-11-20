@@ -1,4 +1,4 @@
-name: Estate audit and staging dashboard
+name: Estate audit and campaign dashboard
 
 on:
   push:
@@ -39,7 +39,7 @@ on:
         required: false
         type: string
       post_closed_day_accruals:
-        description: "Post calculated accruals to the staging ledger; requires closed_through_day"
+        description: "Post calculated accruals to the GitHub campaign ledger; requires closed_through_day"
         required: false
         type: boolean
         default: false
@@ -142,17 +142,17 @@ jobs:
             exit 1
           fi
 
-      - name: Commit generated staging reports
+      - name: Commit generated campaign reports
         if: always()
         run: |
           if [ -z "$(git status --porcelain -- reports/estate-review.md reports/estate-ledger.json reports/blackthorn-operations.json reports/routine-accrual-preview.json reports/blackthorn-tax.json reports/magic-shop-review-queue.json reports/tracker-validation.json dashboard/dashboard.json data/estate/events.csv data/estate/routine-accrual-meta.json)" ]; then
-            echo "Staging reports have no changes."
+            echo "Generated campaign reports have no changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add reports/estate-review.md reports/estate-ledger.json reports/blackthorn-operations.json reports/routine-accrual-preview.json reports/blackthorn-tax.json reports/magic-shop-review-queue.json reports/tracker-validation.json dashboard/dashboard.json data/estate/events.csv data/estate/routine-accrual-meta.json
-          git commit -m "Refresh staging tracker reports [skip ci]"
+          git commit -m "Refresh campaign tracker reports [skip ci]"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
 
