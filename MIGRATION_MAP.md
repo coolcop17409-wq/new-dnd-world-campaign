@@ -1,6 +1,6 @@
 # Migration map
 
-This is a staging copy of the current authoritative Google Drive material. No ChatGPT Project Source was changed. The source document/tab identifier is recorded in each Markdown file's opening HTML comment.
+This map records the pre-cutover Drive-to-GitHub migration provenance. The owner directed GitHub cutover on 2026-11-20; the repository is now authoritative for campaign text and structured records, while the former Drive Docs/workbooks are historical references. The ChatGPT Project now points to GitHub and retains the world map source. Source document/tab identifiers remain recorded in each Markdown file's opening HTML comment.
 
 ## Google Docs
 
