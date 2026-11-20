@@ -2,7 +2,7 @@
 
 Test copy: https://github.com/coolcop17409-wq/new-dnd-world-campaign  
 Visibility: Public, as explicitly chosen by the owner.  
-Authority: Drive remains authoritative. GitHub is staging only; Project Sources and campaign instructions have not been changed.
+Authority: GitHub is active for campaign text and structured records by the owner's 2026-11-20 cutover directive. Drive Docs/workbooks remain historical references; maps and large images remain in Drive/Library. Outstanding validation items below are accepted post-cutover risks, not passed checks.
 
 ## Reconciled checkpoints
 
@@ -25,6 +25,6 @@ GitHub Actions run 44667424225 passed on code-bearing commit `a602d1cfe9e5e2def2
 
 The bridge still has no real post-checkpoint operation chain compared with Drive. The V Day 231 funeral prepayment (−12 gp) is staged as a dated purse event over a pre-event baseline. A local dashboard rebuild applied the event and matched the Drive Inventory row 29 closing purse of 1,185 gp, 3 sp, 8 cp; tracker validation passed with one posted character event. A real due Magic Shops owner review was written to Drive Events row 29 and Dealer row 50, then synced to GitHub; genuine d100 69 vs. 10 produced no change. The dashboard review queue rebuilt at Day235 and now shows four other due reviews, with Dewlight rescheduled for Day260; no V discovery or transaction occurred. There has been no confirmed post-checkpoint Blackthorn operation chain. The Actions check is verified on current `main`. Cutover remains blocked: the real post-checkpoint Blackthorn operation chain has not been reconciled with Drive; the complete prerequisite set for service events is unverified; and the real Actions close/post/retry path has not been exercised. The protocol also requires a closed-period tax assessment to be compared with Drive, but no real closed period exists in the confirmed source yet. The estate leg of a real cross-ledger update cycle remains unverified. These gates require confirmed campaign evidence; do not synthesize events to satisfy them.
 
-## Cutover boundary
+## Cutover record
 
-Do not move play or Project Sources to GitHub yet. Keep Drive authoritative until the real update cycle is reconciled and complete. See [ONGOING_UPDATE_PROTOCOL.md](ONGOING_UPDATE_PROTOCOL.md).
+The owner directed cutover on 2026-11-20 before every validation gate was complete. GitHub is the active campaign source; Drive Docs/workbooks are historical/reference snapshots. Preserve the remaining items above as post-cutover validation work. Do not fabricate campaign events, cash movement, taxes, services, or tests to close them. See [ONGOING_UPDATE_PROTOCOL.md](ONGOING_UPDATE_PROTOCOL.md).
