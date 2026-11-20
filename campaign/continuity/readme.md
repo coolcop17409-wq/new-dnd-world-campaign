@@ -97,7 +97,7 @@ Verification: archive commit 683a1ef01cf2f8f30c09c00517be58bb3575c1e5 preceded o
 
 The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
 
-CAMPAIGN_WRITER | state=IDLE | last_token=ATLAS-LOCAL-1795202788263 | released_UTC=2026-11-20T19:27:35.322Z | result=VERIFIED | recovery=campaign/continuity/readme.md#atlas-review
+CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-EASTWATCH-1795203123352 | worker=Atlas | operation=ATLAS-EASTWATCH-20261120-01 | acquired_UTC=2026-11-20T19:32:03.352Z | heartbeat_UTC=2026-11-20T19:32:03.352Z | expires_UTC=2026-11-20T19:42:03.352Z | recovery=campaign/continuity/readme.md#atlas-review
 
 ## Estate retrospective correction — D244-ESTATE-REDO-D200-001
 
