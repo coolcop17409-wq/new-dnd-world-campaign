@@ -211,3 +211,9 @@ Evidence: [Days 0–44](../../archive/history-days-0-44.md), [Days 130–162](..
 Owner-adopted placement, ATLAS-ORATH-LOCAL-20261120-01. Near the Eastwatch end of the inland road to Caer Veylan, a short side road leads to Veer’s Hollow. The regional atlas marks the junction. The settlement lies beyond sight of the through-road, and its own coordinates and any visit by V remain unconfirmed. This qualifies the earlier description of the Eastwatch lead.
 
 The Rethwyn family vault stands on the grounds of Elara’s rural manor and is reached by a household path. Its compass bearing within the grounds is open. The workers’ village burial ground north of the manor, where Iven Marlowe was buried, is a separate place. Neither placement adds a journey or a discovery in play.
+
+## Nightglass Hall and the Eastwatch foothills
+
+Owner-adopted regional placement, ATLAS-EASTWATCH-20261120-01. Nightglass Hall occupies a low rise east of Eastwatch, about half a day by carriage in ordinary conditions, reached by a private estate lane off the eastern road. V visited Severin's residence. The date of that encounter and the status of the Day 22 letter remain unresolved. The hall is distinct from Blackthorn Hold. The reliquary's reported provenance supplies no geographical bearing to Verdana or the unknown ancestral seat.
+
+The player atlas identifies the first belt of rocky foothills northwest of Eastwatch as the general area of V’s awakening tomb. A shaded regional footprint shows the extent of that clue. V’s route after awakening and ability to retrace it remain open. These placements establish no new travel in play.
