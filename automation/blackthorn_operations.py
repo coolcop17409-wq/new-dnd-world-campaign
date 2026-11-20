@@ -417,6 +417,31 @@ def ledger_events_for_operations(operation_rows, calculated_rows, orders):
     return events, findings
 
 
+def apply_supplements(canonical, supplements, manifests, live_records):
+    """Validate exact bounded authorization for omitted historical operations."""
+    findings = []
+    records = {r["record_id"]: r for r in live_records}
+    expected = []
+    for manifest in manifests:
+        authority = records.get(manifest.get("authority"), {})
+        if authority.get("record_type") != "Retcon authorization" or authority.get("status") not in {"PREPARED", "RESOLVED", "COMMITTED"}:
+            findings.append("supplement manifest lacks explicit player authorization")
+        scoped = manifest.get("operation_rows", [])
+        expected.extend(scoped)
+        for row in scoped:
+            if (row.get("Status", "").lower() != "supplement"
+                or not int(manifest["start_day"]) <= int(dec(row.get("Day"))) <= int(manifest["end_day"])
+                or not row.get("Evidence / inspection", "").startswith(manifest["authority"] + ":")):
+                findings.append("supplement operation outside exact authorized scope")
+    if expected != supplements:
+        findings.append("supplement rows do not exactly match resolved manifests")
+    ids = [r["Event ID"] for r in canonical + supplements]
+    if len(ids) != len(set(ids)):
+        findings.append("duplicate canonical/supplement event ID")
+    result = sorted(canonical + supplements, key=lambda r: int(dec(r["Day"])))
+    return result, findings
+
+
 def main():
     opening = [r for r in read_register(PROPERTY / "blackthorn-opening-balances.csv", "Property")
                if r.get("Account") == "Stock"]
@@ -425,7 +450,8 @@ def main():
     schedule = read_register(PROPERTY / "blackthorn-schedule.csv", "Task / settlement ID")
     history = read_register(PROPERTY / "blackthorn-operations.csv", "Event ID")
     all_additions = read_register(DATA / "blackthorn-operations-events.csv", "Event ID")
-    additions = [r for r in all_additions if r.get("Status", "").lower() != "retcon"]
+    additions = [r for r in all_additions if r.get("Status", "").lower() not in {"retcon", "supplement"}]
+    supplements = [r for r in all_additions if r.get("Status", "").lower() == "supplement"]
     replacements = [r for r in all_additions if r.get("Status", "").lower() == "retcon"]
     live_records = read_register(DATA / "operational-checkpoint.csv", "record_id")
     retcons = [json.loads(r["source_and_limits"]) for r in live_records
@@ -488,8 +514,16 @@ def main():
             canonical_operations.sort(key=lambda r: int(dec(r["Day"])))
             # Old financial bridge is immutable; later operations use the corrected stock basis.
             legacy_report = replay(opening, rates, orders, schedule, [r for r in legacy_operations if int(dec(r["Day"])) <= retcon_end])
+    # Newly authorized omitted activities supplement, never replace or bridge twice.
+    supplemental_manifests = [json.loads(r["source_and_limits"]) for r in live_records
+                             if r.get("record_type") == "Blackthorn retrospective supplement"
+                             and r.get("status") == "Resolved"]
+    canonical_operations, supplement_findings = apply_supplements(
+        canonical_operations, supplements, supplemental_manifests, live_records)
+    extra_findings.extend(supplement_findings)
     report = replay(opening, rates, orders, schedule, canonical_operations)
     report["superseded_interval"] = retcons[0] if replacements and len(retcons) == 1 else None
+    report["supplemental_manifests"] = supplemental_manifests
     report["legacy_totals"] = legacy_report["totals"]
     report["findings"].extend(legacy_report["findings"])
     history_report = replay(opening, rates, orders, schedule, history)

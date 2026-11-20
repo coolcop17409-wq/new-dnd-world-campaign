@@ -115,3 +115,32 @@ DC10 is only for the declared material demand/yield uncertainty. d6/d10 rows use
 ## Earlier played history
 
 Closed played blocks through Day243, including the Day234–235 correction trail, are in `archive/continuity/session-log-days216-231-legacy.md` (legacy filename retained). That destination also contains bounded Day231–233 accepted-evidence summaries with explicit source limitations; no original transcript or unknown event ID was invented. The unfinished Day244 scene and its cross-midnight rest/arrival remain above. Maintenance receipt ADMIN-MAINT-D244-20261120-01 in the continuity README records verified migration.
+
+## D244-ESTATE-PROSPECT-SINCE-START-001 — newly adjudicated retrospective customer development
+
+Recorded at unchanged Day244 early evening, supplementing the adopted Day200 redo. The player directs active new-customer acquisition for every available or realistically producible estate product/service from each steward's actual beginning. This is new authorized retrospective adjudication, not recovered historical testimony. Earlier named agreements, refusals, passing-traffic results, transfers and the prior redo stay resolved. Blackthorn's adopted Days88–180 accounts already sell all unreserved production; no second early income is added. River prospecting begins with Meret's actual Day200 appointment/202 arrival; real openings and charter scopes govern when work can be done.
+
+Tamsin and Meret prepare full catalogs and follow existing local, supplier and buyer contacts as ordinary paid stewardship. New ordinary Orsaven customers no longer require V to select them. Each response below used one durable tool-generated d20, +4 justified commercial task estimate (not a recovered NPC statistic), DC10, no advantage. Only independent finite customer demand/assent was uncertain. Routine grading, safe fulfillment and agreed cash-on-pickup payment had no extra random gates. Ledger prospect IDs identify distinct new counterparties, not renamed old customers.
+
+| Contact day | Prospect | Die +4 / DC10 | Actual result |
+|---|---|---|---|
+| 183 | PS-BT-A | 5 + 4 = 9 | Declined half-ton selected-hardwood190offer; no sale. |
+| 198 | PS-BT-B | 8 + 4 = 12 | Accepted2t common sawn; picked up/paid60gp207. |
+| 213 | PS-BT-C | 1 + 4 = 5 | Declined1tselected-hardwood220offer; no sale. |
+| 216 | PS-MG-A | 2 + 4 = 6 | Declined finite4t223/237millingproposal; no crew shift. |
+| 219 | PS-MG-B | 9 + 4 = 13 | Accepted4tstorage224–231;4gp advance224 earned224–230, grain returned231. |
+| 222 | PS-RB-A | 18 + 4 = 22 | Accepted two supplied-parts fullbench fittings227/243,4gp paid each. |
+| 226 | PS-MG-C | 8 + 4 = 12 | Accepted10tberthhandling230;20gp paid,3.80gp actualcrew cost paid236. |
+| 227 | PS-BT-D | 10 + 4 = 14 | Accepted2tdressedstone235,32gp paid at own pickup. |
+| 229 | PS-RB-B | 18 + 4 = 22 | Accepted finite10tcargohandling:8t236/16gp and2t244/4gp paid. |
+| 234 | PS-MG-D | 1 + 4 = 5 | Distinct new buyer declined2cp/lb wholemeal242offer; no second grain purchase. |
+| 239 | PS-MG-E | 1 + 4 = 5 | Four-passenger240–242pilot declined; no fare, crew or boat-expense posting. |
+| 240 | PS-MG-F | 7 + 4 = 11 | Accepted4tstorage241–246;2.86gp advance,1.71earned through243,1.15stillowed in service. |
+| 241 | PS-BT-E | 18 + 4 = 22 | Accepted1tselected-hardwood244/40gp paid, plus1tarchitectural253/28gp future order, unearned. |
+| 243 | PS-RB-C | 2 + 4 = 6 | Newmerchant declined250freightoffer; no32gp earned, existingMarn254 preserved. |
+
+At first successful contacts the stewards offer repeat lots, other catalog services and referrals. Existing finite second-stage orders are reaffirmed; additional unlimited demand is not assumed. Fort maintains its actual Crown relationship and offers lawful public-works availability at charter/commissioning/return contacts; it gains no invented private toll, second retainer or extra fee. Its120gp invoice remains due245 and uncollected.
+
+New Blackthorn pickups use uncommitted stock and buyer-owned transport; existing production and wages stay paid once. Three sales earn/collect132gp, release46.17gp net weighted stock cost and add85.83gp operating profit; rolling tax rises8.58gp and Carrow2.57gp, both unpaid due272. New253architecturalorder reserves only actual.114t and earmarks.886t future output;28gp remains unearned. Miregate earns25.71gp additional fees through completed243storage/daytime244cutoff, incurs3.80gp crew expense and has1.15gp customer advance remaining; additional cash23.06gp. Its new earlier earnings move3.43gp already-earned Meret arrears from231to229, and14gp watch/2.77gp Meret from231to230; these are timing corrections only, not extra wages or another capital transfer. Reedbed earns/collects28gp new work within already-paid crew/bench/dock capacity. No new House grain crop or passenger voyage occurs.
+
+New current custody: Miregate holds PS-MG-F4t customer grain for release246; House grain remains0. Storage244fullton-day is not yet earned. Cash nowBlackthorn822.80,Miregate395.66,Reedbed171.00,Fort5.71gp; owningjournals/reports govern subsequent changes. Full close243/elapsed244only unchanged. Punt's historical231–235 rebuild invoice remains missing without affecting accepted235operation. Details and durable raw rolls belong to PS244-DRAW-01, customer records and exact PS244-FIN manifests; administrative sync/handoffs are separate. No V scene/action/resource or delivered-message claim.

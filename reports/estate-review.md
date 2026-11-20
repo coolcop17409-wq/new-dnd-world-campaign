@@ -1,6 +1,6 @@
 # Estate Review
 
-Generated from the property workbook CSV snapshot captured 2026-11-19.
+Generated from the property workbook CSV snapshot captured unknown.
 Audit/report only: this process does not post wages, income, expenses, transfers, taxes, or campaign decisions.
 
 ## Imported historical snapshot reconciliation
@@ -85,6 +85,8 @@ These owner requests retain their actual dependencies/next triggers; being liste
 - **Miregate and Reedbed — R200-RIVER-CUSTOMER-NEXT** (open): Confirmed customer slots and retention. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Reedbed — R200-RB-WALKIN-NEXT** (open): Passing traffic, bench and storage. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **All properties — R200-DEVELOPMENT-NEXT** (in progress): Ranked development and habitation. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **All registered estates — PS244-ACTIVE-MANDATE** (Open): Continuous all-product/service customer acquisition. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Miregate — PS-MG-F-NEXT** (Open): Current4t storage and next246handoff. Dependency/trigger: data/estate/operational-checkpoint.csv.
 
 ## Source boundary
 

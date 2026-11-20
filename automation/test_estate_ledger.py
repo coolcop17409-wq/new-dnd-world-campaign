@@ -703,6 +703,22 @@ class EstateLedgerScenarioTests(unittest.TestCase):
         )
         self.assertEqual(blackthorn_rules.blackthorn_tax_assessment("-10.00"), blackthorn_rules.money("0.00"))
 
+class RetrospectiveSupplementGuards(unittest.TestCase):
+    def test_exact_authority_scope_and_duplicate_protection(self):
+        row = {"Event ID": "NEW-1", "Day": "210", "Status": "supplement", "Evidence / inspection": "AUTH: new actual pickup", "Quantity t": "2"}
+        authority = [{"record_id": "AUTH", "record_type": "Retcon authorization", "status": "RESOLVED"}]
+        manifest = [{"authority": "AUTH", "start_day": 200, "end_day": 244, "operation_rows": [dict(row)]}]
+        original = [{"Event ID": "OLD-1", "Day": "205"}]
+        merged, errors = blackthorn_operations.apply_supplements(original, [row], manifest, authority)
+        self.assertFalse(errors)
+        self.assertEqual([r["Event ID"] for r in merged], ["OLD-1", "NEW-1"])
+        changed = {**row, "Quantity t": "3"}
+        self.assertTrue(blackthorn_operations.apply_supplements(original, [changed], manifest, authority)[1])
+        self.assertTrue(blackthorn_operations.apply_supplements(original, [row], manifest, [])[1])
+        outside = [{**manifest[0], "end_day": 209}]
+        self.assertTrue(blackthorn_operations.apply_supplements(original, [row], outside, authority)[1])
+        self.assertTrue(blackthorn_operations.apply_supplements([row], [row], manifest, authority)[1])
+
 if __name__ == "__main__":
     unittest.main()
 

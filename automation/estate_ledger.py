@@ -155,7 +155,8 @@ def main():
    errors.append("Blackthorn operation report is stale against the current staged operation journal")
   else:
    ledger_event_rows.extend(operation_report.get("ledger_events",[]))
- ledger_event_rows.sort(key=lambda row: dec(row.get("effective_day", "0")))
+ # Retrospective net adjustments reconcile after all original/bridged activity on their recording day.
+ ledger_event_rows.sort(key=lambda row: (dec(row.get("effective_day", "0")), row.get("event_type") == "retcon_adjustment"))
  for row in ledger_event_rows:
   eid=(row.get("event_id") or "").strip();estate=(row.get("estate") or "").strip()
   if not eid:errors.append("event without an event ID");continue

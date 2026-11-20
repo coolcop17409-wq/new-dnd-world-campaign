@@ -332,19 +332,19 @@
       "snapshot_cash_gp": "501.40",
       "snapshot_liabilities_gp": "14.03",
       "snapshot_available_gp": "487.37",
-      "projected_cash_gp": "372.60",
-      "projected_liabilities_gp": "10.23",
-      "projected_available_gp": "362.37",
-      "cash_gp": "372.60",
-      "liabilities_gp": "10.23",
-      "available_gp": "362.37",
-      "cash_after_snapshot_events_gp": "-128.80",
+      "projected_cash_gp": "395.66",
+      "projected_liabilities_gp": "11.38",
+      "projected_available_gp": "384.28",
+      "cash_gp": "395.66",
+      "liabilities_gp": "11.38",
+      "available_gp": "384.28",
+      "cash_after_snapshot_events_gp": "-105.74",
       "snapshot_receivables_gp": "0.00",
       "projected_receivables_gp": "0.00",
       "receivables_gp": "0.00",
       "receivable_events_after_snapshot_gp": "0.00",
-      "actual_income_after_snapshot_gp": "56.20",
-      "actual_expense_after_snapshot_gp": "181.20",
+      "actual_income_after_snapshot_gp": "81.91",
+      "actual_expense_after_snapshot_gp": "185.00",
       "inventory_quantity_delta_after_snapshot": "0.0000",
       "inventory_reserved_delta_after_snapshot": "0.0000",
       "inventory_transit_quantity_delta_after_snapshot": "0.0000",
@@ -359,18 +359,18 @@
       "snapshot_cash_gp": "63.80",
       "snapshot_liabilities_gp": "8.60",
       "snapshot_available_gp": "55.20",
-      "projected_cash_gp": "143.00",
+      "projected_cash_gp": "171.00",
       "projected_liabilities_gp": "8.60",
-      "projected_available_gp": "134.40",
-      "cash_gp": "143.00",
+      "projected_available_gp": "162.40",
+      "cash_gp": "171.00",
       "liabilities_gp": "8.60",
-      "available_gp": "134.40",
-      "cash_after_snapshot_events_gp": "79.20",
+      "available_gp": "162.40",
+      "cash_after_snapshot_events_gp": "107.20",
       "snapshot_receivables_gp": "0.00",
       "projected_receivables_gp": "0.14",
       "receivables_gp": "0.14",
       "receivable_events_after_snapshot_gp": "0.14",
-      "actual_income_after_snapshot_gp": "224.14",
+      "actual_income_after_snapshot_gp": "252.14",
       "actual_expense_after_snapshot_gp": "144.80",
       "inventory_quantity_delta_after_snapshot": "0.0000",
       "inventory_reserved_delta_after_snapshot": "0.0000",
@@ -413,25 +413,25 @@
       "snapshot_cash_gp": "453.33",
       "snapshot_liabilities_gp": "171.01",
       "snapshot_available_gp": "282.32",
-      "projected_cash_gp": "690.80",
-      "projected_liabilities_gp": "204.21",
-      "projected_available_gp": "486.59",
-      "cash_gp": "690.80",
-      "liabilities_gp": "204.21",
-      "available_gp": "486.59",
-      "cash_after_snapshot_events_gp": "237.47",
+      "projected_cash_gp": "822.80",
+      "projected_liabilities_gp": "215.36",
+      "projected_available_gp": "607.44",
+      "cash_gp": "822.80",
+      "liabilities_gp": "215.36",
+      "available_gp": "607.44",
+      "cash_after_snapshot_events_gp": "369.47",
       "snapshot_receivables_gp": "0.00",
       "projected_receivables_gp": "0.00",
       "receivables_gp": "0.00",
       "receivable_events_after_snapshot_gp": "0.00",
-      "actual_income_after_snapshot_gp": "631.15",
-      "actual_expense_after_snapshot_gp": "417.17",
-      "inventory_quantity_delta_after_snapshot": "-11.3220",
-      "inventory_reserved_delta_after_snapshot": "-8.0000",
+      "actual_income_after_snapshot_gp": "763.15",
+      "actual_expense_after_snapshot_gp": "463.34",
+      "inventory_quantity_delta_after_snapshot": "-16.3220",
+      "inventory_reserved_delta_after_snapshot": "-7.8860",
       "inventory_transit_quantity_delta_after_snapshot": "8.0000",
-      "inventory_book_quantity": "29.7980",
-      "inventory_eligible_to_ship_quantity": "24.7980",
-      "inventory_on_site_cost_basis_gp": "279.24",
+      "inventory_book_quantity": "24.7980",
+      "inventory_eligible_to_ship_quantity": "19.6840",
+      "inventory_on_site_cost_basis_gp": "233.07",
       "inventory_in_transit_quantity": "8.0000",
       "inventory_in_transit_cost_basis_gp": "46.82",
       "inventory_items": {
@@ -446,24 +446,24 @@
           "eligible_to_ship_quantity": "0.3240"
         },
         "BT-STOCK-DRESSED-STONE": {
-          "book_quantity": "9.9600",
+          "book_quantity": "7.9600",
           "reserved_quantity": "0.0000",
-          "unreserved_book_quantity": "9.9600",
+          "unreserved_book_quantity": "7.9600",
           "in_transit_quantity": "8.0000",
-          "on_site_cost_basis_gp": "58.27",
+          "on_site_cost_basis_gp": "46.56",
           "in_transit_cost_basis_gp": "46.82",
           "verification_status": "verified",
-          "eligible_to_ship_quantity": "9.9600"
+          "eligible_to_ship_quantity": "7.9600"
         },
         "BT-STOCK-PREMIUM-ARCH-STONE": {
           "book_quantity": "0.1140",
-          "reserved_quantity": "0.0000",
-          "unreserved_book_quantity": "0.1140",
+          "reserved_quantity": "0.1140",
+          "unreserved_book_quantity": "0.0000",
           "in_transit_quantity": "0.0000",
           "on_site_cost_basis_gp": "0.95",
           "in_transit_cost_basis_gp": "0.00",
           "verification_status": "verified",
-          "eligible_to_ship_quantity": "0.1140"
+          "eligible_to_ship_quantity": "0.0000"
         },
         "BT-STOCK-RAW-LOGS": {
           "book_quantity": "0.1500",
@@ -476,24 +476,24 @@
           "eligible_to_ship_quantity": "0.1500"
         },
         "BT-STOCK-SAWN-LUMBER": {
-          "book_quantity": "13.7500",
+          "book_quantity": "11.7500",
           "reserved_quantity": "5.0000",
-          "unreserved_book_quantity": "8.7500",
+          "unreserved_book_quantity": "6.7500",
           "in_transit_quantity": "0.0000",
-          "on_site_cost_basis_gp": "141.84",
+          "on_site_cost_basis_gp": "121.18",
           "in_transit_cost_basis_gp": "0.00",
           "verification_status": "verified",
-          "eligible_to_ship_quantity": "8.7500"
+          "eligible_to_ship_quantity": "6.7500"
         },
         "BT-STOCK-FINISHED-HARDWOOD": {
-          "book_quantity": "5.5000",
+          "book_quantity": "4.5000",
           "reserved_quantity": "0.0000",
-          "unreserved_book_quantity": "5.5000",
+          "unreserved_book_quantity": "4.5000",
           "in_transit_quantity": "0.0000",
-          "on_site_cost_basis_gp": "75.90",
+          "on_site_cost_basis_gp": "62.10",
           "in_transit_cost_basis_gp": "0.00",
           "verification_status": "verified",
-          "eligible_to_ship_quantity": "5.5000"
+          "eligible_to_ship_quantity": "4.5000"
         }
       }
     }
@@ -1994,9 +1994,9 @@
       "dealer": "Two Spindles Clothiers",
       "lot": "Forecaster’s Cloak",
       "qty": "1",
-      "price_gp": "36",
+      "price_gp": "40",
       "status": "Offered on consignment",
-      "terms": "Buy at 36 gp. The tailor may pass a counteroffer to the drover, who also needs a good plain winter coat. Current owner-authorized ask Day237: 36 gp (formerly 40 gp). Original lot and custodian retaine"
+      "terms": "Buy at 40 gp. The tailor may pass a counteroffer to the drover, who also needs a good plain winter coat."
     },
     {
       "settlement": "Orsaven",
@@ -2027,6 +2027,24 @@
     },
     {
       "settlement": "Orsaven",
+      "dealer": "Switchback Saddlery",
+      "lot": "Bands of the Found and Lost (pair)",
+      "qty": "1",
+      "price_gp": "50",
+      "status": "Offered for sale",
+      "terms": "Buy the matched pair at 50 gp. They will listen to a cash offer for both together."
+    },
+    {
+      "settlement": "Orsaven",
+      "dealer": "Gatehouse Instrument Repair",
+      "lot": "Periscope Rod",
+      "qty": "1",
+      "price_gp": "40",
+      "status": "Offered for sale",
+      "terms": "Buy at 40 gp. The inspector authorized the repairer to consider an immediate cash offer."
+    },
+    {
+      "settlement": "Orsaven",
       "dealer": "Old Arch Scaffold Yard",
       "lot": "Immovable Rod",
       "qty": "1",
@@ -2039,9 +2057,18 @@
       "dealer": "King's Road Carters",
       "lot": "Bag of Holding",
       "qty": "1",
-      "price_gp": "420",
+      "price_gp": "440",
       "status": "Offered secondhand / consignment",
-      "terms": "Firm 420 gp cash offer; no sale or hold unless V accepts. Current owner-authorized ask Day244: 420 gp (formerly 440 gp). Original lot and custodian retained."
+      "terms": "Firm 440gp cash offer; no sale or hold unless V accepts."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Nightglass Optics",
+      "lot": "Goggles of Night",
+      "qty": "1",
+      "price_gp": "330",
+      "status": "Offered secondhand",
+      "terms": "Firm 330gp asking; inspect fit, negotiate if desired."
     },
     {
       "settlement": "Caereth",
@@ -2096,6 +2123,15 @@
       "price_gp": "",
       "status": "Working tool · conditional sale",
       "terms": "Owner may entertain 300gp plus a suitable working replacement line after current job; no unconditional sale."
+    },
+    {
+      "settlement": "Caereth",
+      "dealer": "Velvet Measure",
+      "lot": "Moodmark Paint",
+      "qty": "1.",
+      "price_gp": "30.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-CAE-01. Prepared, undiscovered. Ask at Velvet Measure during trade hours. Owner authorizes 30 gp for this lot. Counteroffers go to the owner. No hold or deposit."
     },
     {
       "settlement": "Caereth",
@@ -2189,6 +2225,15 @@
     },
     {
       "settlement": "Veyrhold",
+      "dealer": "Mended Banner Tailor",
+      "lot": "Robe of Summer",
+      "qty": "1.",
+      "price_gp": "2450.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-06. Prepared, undiscovered. Ask at Mended Banner Tailor during trade hours. Owner authorizes 2450 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Veyrhold",
       "dealer": "Watchglass Lens Fitter",
       "lot": "Goggles of Object Reading",
       "qty": "1.",
@@ -2225,6 +2270,15 @@
     },
     {
       "settlement": "Ilarath",
+      "dealer": "Leafshadow Weaving House",
+      "lot": "Kagonesti Forest Shroud",
+      "qty": "1.",
+      "price_gp": "2400.",
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-ILA-01. Prepared, undiscovered. Ask at Leafshadow Weaving House during trade hours. Owner authorizes 2400 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+    },
+    {
+      "settlement": "Ilarath",
       "dealer": "Winter Bough Bootwright",
       "lot": "Wayfarer's Boots",
       "qty": "1.",
@@ -2238,8 +2292,8 @@
       "lot": "Eyes of the Eagle",
       "qty": "1.",
       "price_gp": "450.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ILA-03. Surveyor returned from completed canopy inspection Day232. One pair deposited at Farleaf Lensworks for inspection during working hours; 450 gp cash to the authorized counter for pickup. For"
+      "status": "Prepared working tool · conditional",
+      "terms": "M7-ILA-03. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 450gp with the stated condition; not an unconditional sale. 450gp after a three-day job from agreement,"
     },
     {
       "settlement": "Ilarath",
@@ -2354,9 +2408,9 @@
       "dealer": "Summer Draught Fanmaker",
       "lot": "Bottled Breath",
       "qty": "1.",
-      "price_gp": "80",
+      "price_gp": "85.",
       "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ALL-06. Prepared, undiscovered. Ask at Summer Draught Fanmaker during trade hours. Owner authorizes 80 gp for this lot. Counteroffers go to the owner. No hold or deposit. Current owner-authorized a"
+      "terms": "M7-ALL-06. Prepared, undiscovered. Ask at Summer Draught Fanmaker during trade hours. Owner authorizes 85 gp for this lot. Counteroffers go to the owner. No hold or deposit."
     },
     {
       "settlement": "Allhaven",
@@ -2393,15 +2447,6 @@
       "price_gp": "480.",
       "status": "Prepared working tool · conditional",
       "terms": "M7-ALL-10. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 480gp with the stated condition; not an unconditional sale. 480gp after successor obtains/test-fits her"
-    },
-    {
-      "settlement": "Miregate Keep",
-      "dealer": "Gate watch at shift change",
-      "lot": "Horn of Silent Alarm",
-      "qty": "1",
-      "price_gp": "45",
-      "status": "Prepared working tool · conditional, undiscovered",
-      "terms": "R17 · MGT-236-01. Watchkeeper retains the horn. At watch change ask through Meret; 45 gp only after both posts test a substitute signal and the owner agrees to hand it over at the gate. No test, quote"
     }
   ]
 }

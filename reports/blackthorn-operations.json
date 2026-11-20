@@ -3194,6 +3194,27 @@
       "unit_cost_gp_per_t": "13.8"
     },
     {
+      "event_id": "PS-BT-B-SALE",
+      "day": 207,
+      "operation_type": "Gate sale",
+      "product_grade": "Sawn construction lumber",
+      "quantity_t": "2",
+      "order_line_id": "PS-BT-B-ORDER",
+      "shipment_id": "",
+      "on_site_delta_t": "-2",
+      "on_site_delta_gp": "-20.7206",
+      "transit_delta_t": "0",
+      "transit_delta_gp": "0",
+      "revenue_gp": "60.00",
+      "cogs_gp": "20.7206",
+      "loss_idle_gp": "0",
+      "production_labor_gp": "0",
+      "nonlabor_cost_gp": "0",
+      "prior_on_site_t": "10.500",
+      "prior_on_site_gp": "108.7833",
+      "unit_cost_gp_per_t": "10.36031428571428571428571429"
+    },
+    {
       "event_id": "R200-BT-208-051",
       "day": 208,
       "operation_type": "Idle labor",
@@ -3336,9 +3357,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "10.500",
-      "prior_on_site_gp": "108.7833",
-      "unit_cost_gp_per_t": "10.36031428571428571428571429"
+      "prior_on_site_t": "8.500",
+      "prior_on_site_gp": "88.0627",
+      "unit_cost_gp_per_t": "10.36031764705882352941176471"
     },
     {
       "event_id": "R200-BT-209-058",
@@ -3462,9 +3483,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "11.250",
-      "prior_on_site_gp": "116.5133",
-      "unit_cost_gp_per_t": "10.35673777777777777777777778"
+      "prior_on_site_t": "9.250",
+      "prior_on_site_gp": "95.7927",
+      "unit_cost_gp_per_t": "10.35596756756756756756756757"
     },
     {
       "event_id": "R200-BT-210-064",
@@ -3588,9 +3609,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "12.000",
-      "prior_on_site_gp": "124.2433",
-      "unit_cost_gp_per_t": "10.35360833333333333333333333"
+      "prior_on_site_t": "10.000",
+      "prior_on_site_gp": "103.5227",
+      "unit_cost_gp_per_t": "10.35227"
     },
     {
       "event_id": "R200-BT-211-070",
@@ -3714,9 +3735,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "12.750",
-      "prior_on_site_gp": "131.9733",
-      "unit_cost_gp_per_t": "10.35084705882352941176470588"
+      "prior_on_site_t": "10.750",
+      "prior_on_site_gp": "111.2527",
+      "unit_cost_gp_per_t": "10.34908837209302325581395349"
     },
     {
       "event_id": "R200-BT-212-076",
@@ -3840,9 +3861,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "13.500",
-      "prior_on_site_gp": "139.7033",
-      "unit_cost_gp_per_t": "10.34839259259259259259259259"
+      "prior_on_site_t": "11.500",
+      "prior_on_site_gp": "118.9827",
+      "unit_cost_gp_per_t": "10.34632173913043478260869565"
     },
     {
       "event_id": "R200-BT-213-082",
@@ -3958,17 +3979,17 @@
       "order_line_id": "R200-BT-GARRAN-213-3",
       "shipment_id": "",
       "on_site_delta_t": "-4",
-      "on_site_delta_gp": "-41.3848",
+      "on_site_delta_gp": "-41.3756",
       "transit_delta_t": "0",
       "transit_delta_gp": "0",
       "revenue_gp": "100.00",
-      "cogs_gp": "41.3848",
+      "cogs_gp": "41.3756",
       "loss_idle_gp": "0",
       "production_labor_gp": "0",
       "nonlabor_cost_gp": "0",
-      "prior_on_site_t": "14.250",
-      "prior_on_site_gp": "147.4333",
-      "unit_cost_gp_per_t": "10.34619649122807017543859649"
+      "prior_on_site_t": "12.250",
+      "prior_on_site_gp": "126.7127",
+      "unit_cost_gp_per_t": "10.34389387755102040816326531"
     },
     {
       "event_id": "R200-BT-214-088",
@@ -4071,9 +4092,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "10.250",
-      "prior_on_site_gp": "106.0485",
-      "unit_cost_gp_per_t": "10.34619512195121951219512195"
+      "prior_on_site_t": "8.250",
+      "prior_on_site_gp": "85.3371",
+      "unit_cost_gp_per_t": "10.34389090909090909090909091"
     },
     {
       "event_id": "R200-BT-214-093",
@@ -4239,9 +4260,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "11.000",
-      "prior_on_site_gp": "113.7785",
-      "unit_cost_gp_per_t": "10.3435"
+      "prior_on_site_t": "9.000",
+      "prior_on_site_gp": "93.0671",
+      "unit_cost_gp_per_t": "10.34078888888888888888888889"
     },
     {
       "event_id": "R200-BT-216-101",
@@ -4365,9 +4386,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "11.750",
-      "prior_on_site_gp": "121.5085",
-      "unit_cost_gp_per_t": "10.34114893617021276595744681"
+      "prior_on_site_t": "9.750",
+      "prior_on_site_gp": "100.7971",
+      "unit_cost_gp_per_t": "10.33816410256410256410256410"
     },
     {
       "event_id": "R200-BT-217-107",
@@ -4491,9 +4512,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "12.500",
-      "prior_on_site_gp": "129.2385",
-      "unit_cost_gp_per_t": "10.33908"
+      "prior_on_site_t": "10.500",
+      "prior_on_site_gp": "108.5271",
+      "unit_cost_gp_per_t": "10.33591428571428571428571429"
     },
     {
       "event_id": "R200-BT-218-113",
@@ -4617,9 +4638,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "13.250",
-      "prior_on_site_gp": "136.9685",
-      "unit_cost_gp_per_t": "10.33724528301886792452830189"
+      "prior_on_site_t": "11.250",
+      "prior_on_site_gp": "116.2571",
+      "unit_cost_gp_per_t": "10.33396444444444444444444444"
     },
     {
       "event_id": "R200-BT-219-119",
@@ -4743,9 +4764,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "14.000",
-      "prior_on_site_gp": "144.6985",
-      "unit_cost_gp_per_t": "10.33560714285714285714285714"
+      "prior_on_site_t": "12.000",
+      "prior_on_site_gp": "123.9871",
+      "unit_cost_gp_per_t": "10.33225833333333333333333333"
     },
     {
       "event_id": "R200-BT-220-125",
@@ -4861,17 +4882,17 @@
       "order_line_id": "R200-BT-GARRAN-220-3",
       "shipment_id": "",
       "on_site_delta_t": "-4",
-      "on_site_delta_gp": "-41.3365",
+      "on_site_delta_gp": "-41.3230",
       "transit_delta_t": "0",
       "transit_delta_gp": "0",
       "revenue_gp": "100.00",
-      "cogs_gp": "41.3365",
+      "cogs_gp": "41.3230",
       "loss_idle_gp": "0",
       "production_labor_gp": "0",
       "nonlabor_cost_gp": "0",
-      "prior_on_site_t": "14.750",
-      "prior_on_site_gp": "152.4285",
-      "unit_cost_gp_per_t": "10.33413559322033898305084746"
+      "prior_on_site_t": "12.750",
+      "prior_on_site_gp": "131.7171",
+      "unit_cost_gp_per_t": "10.33075294117647058823529412"
     },
     {
       "event_id": "R200-BT-221-131",
@@ -4974,9 +4995,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "10.750",
-      "prior_on_site_gp": "111.0920",
-      "unit_cost_gp_per_t": "10.33413953488372093023255814"
+      "prior_on_site_t": "8.750",
+      "prior_on_site_gp": "90.3941",
+      "unit_cost_gp_per_t": "10.33075428571428571428571429"
     },
     {
       "event_id": "R200-BT-221-136",
@@ -5142,9 +5163,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "11.500",
-      "prior_on_site_gp": "118.8220",
-      "unit_cost_gp_per_t": "10.33234782608695652173913043"
+      "prior_on_site_t": "9.500",
+      "prior_on_site_gp": "98.1241",
+      "unit_cost_gp_per_t": "10.32885263157894736842105263"
     },
     {
       "event_id": "R200-BT-223-144",
@@ -5268,9 +5289,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "12.250",
-      "prior_on_site_gp": "126.5520",
-      "unit_cost_gp_per_t": "10.33077551020408163265306122"
+      "prior_on_site_t": "10.250",
+      "prior_on_site_gp": "105.8541",
+      "unit_cost_gp_per_t": "10.32722926829268292682926829"
     },
     {
       "event_id": "R200-BT-224-150",
@@ -5394,9 +5415,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "13.000",
-      "prior_on_site_gp": "134.2820",
-      "unit_cost_gp_per_t": "10.32938461538461538461538462"
+      "prior_on_site_t": "11.000",
+      "prior_on_site_gp": "113.5841",
+      "unit_cost_gp_per_t": "10.32582727272727272727272727"
     },
     {
       "event_id": "R200-BT-225-156",
@@ -5520,9 +5541,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "13.750",
-      "prior_on_site_gp": "142.0120",
-      "unit_cost_gp_per_t": "10.32814545454545454545454545"
+      "prior_on_site_t": "11.750",
+      "prior_on_site_gp": "121.3141",
+      "unit_cost_gp_per_t": "10.32460425531914893617021277"
     },
     {
       "event_id": "R200-BT-226-162",
@@ -5646,9 +5667,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "14.500",
-      "prior_on_site_gp": "149.7420",
-      "unit_cost_gp_per_t": "10.32703448275862068965517241"
+      "prior_on_site_t": "12.500",
+      "prior_on_site_gp": "129.0441",
+      "unit_cost_gp_per_t": "10.323528"
     },
     {
       "event_id": "R200-BT-227-168",
@@ -5764,17 +5785,17 @@
       "order_line_id": "R200-BT-GARRAN-227-3",
       "shipment_id": "",
       "on_site_delta_t": "-4",
-      "on_site_delta_gp": "-41.3041",
+      "on_site_delta_gp": "-41.2903",
       "transit_delta_t": "0",
       "transit_delta_gp": "0",
       "revenue_gp": "100.00",
-      "cogs_gp": "41.3041",
+      "cogs_gp": "41.2903",
       "loss_idle_gp": "0",
       "production_labor_gp": "0",
       "nonlabor_cost_gp": "0",
-      "prior_on_site_t": "15.250",
-      "prior_on_site_gp": "157.4720",
-      "unit_cost_gp_per_t": "10.32603278688524590163934426"
+      "prior_on_site_t": "13.250",
+      "prior_on_site_gp": "136.7741",
+      "unit_cost_gp_per_t": "10.32257358490566037735849057"
     },
     {
       "event_id": "R200-BT-228-174",
@@ -5877,9 +5898,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "11.250",
-      "prior_on_site_gp": "116.1679",
-      "unit_cost_gp_per_t": "10.32603555555555555555555556"
+      "prior_on_site_t": "9.250",
+      "prior_on_site_gp": "95.4838",
+      "unit_cost_gp_per_t": "10.32257297297297297297297297"
     },
     {
       "event_id": "R200-BT-228-179",
@@ -6045,9 +6066,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "12.000",
-      "prior_on_site_gp": "123.8979",
-      "unit_cost_gp_per_t": "10.324825"
+      "prior_on_site_t": "10.000",
+      "prior_on_site_gp": "103.2138",
+      "unit_cost_gp_per_t": "10.32138"
     },
     {
       "event_id": "R200-BT-230-187",
@@ -6171,9 +6192,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "12.750",
-      "prior_on_site_gp": "131.6279",
-      "unit_cost_gp_per_t": "10.32375686274509803921568627"
+      "prior_on_site_t": "10.750",
+      "prior_on_site_gp": "110.9438",
+      "unit_cost_gp_per_t": "10.32035348837209302325581395"
     },
     {
       "event_id": "R200-BT-231-193",
@@ -6297,9 +6318,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "13.500",
-      "prior_on_site_gp": "139.3579",
-      "unit_cost_gp_per_t": "10.32280740740740740740740741"
+      "prior_on_site_t": "11.500",
+      "prior_on_site_gp": "118.6738",
+      "unit_cost_gp_per_t": "10.31946086956521739130434783"
     },
     {
       "event_id": "R200-BT-232-199",
@@ -6423,9 +6444,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "14.250",
-      "prior_on_site_gp": "147.0879",
-      "unit_cost_gp_per_t": "10.32195789473684210526315789"
+      "prior_on_site_t": "12.250",
+      "prior_on_site_gp": "126.4038",
+      "unit_cost_gp_per_t": "10.31867755102040816326530612"
     },
     {
       "event_id": "R200-BT-233-205",
@@ -6549,9 +6570,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "15.000",
-      "prior_on_site_gp": "154.8179",
-      "unit_cost_gp_per_t": "10.32119333333333333333333333"
+      "prior_on_site_t": "13.000",
+      "prior_on_site_gp": "134.1338",
+      "unit_cost_gp_per_t": "10.31798461538461538461538462"
     },
     {
       "event_id": "R200-BT-234-211",
@@ -6667,17 +6688,17 @@
       "order_line_id": "R200-BT-GARRAN-234-3",
       "shipment_id": "",
       "on_site_delta_t": "-4",
-      "on_site_delta_gp": "-41.2820",
+      "on_site_delta_gp": "-41.2695",
       "transit_delta_t": "0",
       "transit_delta_gp": "0",
       "revenue_gp": "100.00",
-      "cogs_gp": "41.2820",
+      "cogs_gp": "41.2695",
       "loss_idle_gp": "0",
       "production_labor_gp": "0",
       "nonlabor_cost_gp": "0",
-      "prior_on_site_t": "15.750",
-      "prior_on_site_gp": "162.5479",
-      "unit_cost_gp_per_t": "10.32050158730158730158730159"
+      "prior_on_site_t": "13.750",
+      "prior_on_site_gp": "141.8638",
+      "unit_cost_gp_per_t": "10.31736727272727272727272727"
     },
     {
       "event_id": "R200-BT-235-217",
@@ -6780,9 +6801,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "11.750",
-      "prior_on_site_gp": "121.2659",
-      "unit_cost_gp_per_t": "10.32050212765957446808510638"
+      "prior_on_site_t": "9.750",
+      "prior_on_site_gp": "100.5943",
+      "unit_cost_gp_per_t": "10.31736410256410256410256410"
     },
     {
       "event_id": "R200-BT-235-222",
@@ -6804,6 +6825,27 @@
       "prior_on_site_t": "4.700",
       "prior_on_site_gp": "64.8600",
       "unit_cost_gp_per_t": "13.8"
+    },
+    {
+      "event_id": "PS-BT-D-SALE",
+      "day": 235,
+      "operation_type": "Gate sale",
+      "product_grade": "Dressed stone",
+      "quantity_t": "2",
+      "order_line_id": "PS-BT-D-ORDER",
+      "shipment_id": "",
+      "on_site_delta_t": "-2",
+      "on_site_delta_gp": "-11.7139",
+      "transit_delta_t": "0",
+      "transit_delta_gp": "0",
+      "revenue_gp": "32.00",
+      "cogs_gp": "11.7139",
+      "loss_idle_gp": "0",
+      "production_labor_gp": "0",
+      "nonlabor_cost_gp": "0",
+      "prior_on_site_t": "12.374",
+      "prior_on_site_gp": "72.4737",
+      "unit_cost_gp_per_t": "5.856933893647971553256828835"
     },
     {
       "event_id": "R200-BT-236-223",
@@ -6885,9 +6927,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.66",
       "nonlabor_cost_gp": "2.00",
-      "prior_on_site_t": "12.374",
-      "prior_on_site_gp": "72.4737",
-      "unit_cost_gp_per_t": "5.856933893647971553256828835"
+      "prior_on_site_t": "10.374",
+      "prior_on_site_gp": "60.7598",
+      "unit_cost_gp_per_t": "5.856930788509735878156930789"
     },
     {
       "event_id": "R200-BT-237-227",
@@ -6948,9 +6990,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "12.500",
-      "prior_on_site_gp": "128.9959",
-      "unit_cost_gp_per_t": "10.319672"
+      "prior_on_site_t": "10.500",
+      "prior_on_site_gp": "108.3243",
+      "unit_cost_gp_per_t": "10.3166"
     },
     {
       "event_id": "R200-BT-237-230",
@@ -7011,9 +7053,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.66",
       "nonlabor_cost_gp": "2.00",
-      "prior_on_site_t": "13.172",
-      "prior_on_site_gp": "77.1337",
-      "unit_cost_gp_per_t": "5.855883692681445490434254479"
+      "prior_on_site_t": "11.172",
+      "prior_on_site_gp": "65.4198",
+      "unit_cost_gp_per_t": "5.855692803437164339419978518"
     },
     {
       "event_id": "R200-BT-238-233",
@@ -7074,9 +7116,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "13.250",
-      "prior_on_site_gp": "136.7259",
-      "unit_cost_gp_per_t": "10.31893584905660377358490566"
+      "prior_on_site_t": "11.250",
+      "prior_on_site_gp": "116.0543",
+      "unit_cost_gp_per_t": "10.31593777777777777777777778"
     },
     {
       "event_id": "R200-BT-238-236",
@@ -7137,9 +7179,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.66",
       "nonlabor_cost_gp": "2.00",
-      "prior_on_site_t": "13.970",
-      "prior_on_site_gp": "81.7937",
-      "unit_cost_gp_per_t": "5.854953471725125268432355047"
+      "prior_on_site_t": "11.970",
+      "prior_on_site_gp": "70.0798",
+      "unit_cost_gp_per_t": "5.854619883040935672514619883"
     },
     {
       "event_id": "R200-BT-239-239",
@@ -7200,9 +7242,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "14.000",
-      "prior_on_site_gp": "144.4559",
-      "unit_cost_gp_per_t": "10.31827857142857142857142857"
+      "prior_on_site_t": "12.000",
+      "prior_on_site_gp": "123.7843",
+      "unit_cost_gp_per_t": "10.31535833333333333333333333"
     },
     {
       "event_id": "R200-BT-239-242",
@@ -7263,9 +7305,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.66",
       "nonlabor_cost_gp": "2.00",
-      "prior_on_site_t": "14.768",
-      "prior_on_site_gp": "86.4537",
-      "unit_cost_gp_per_t": "5.854123781148429035752979415"
+      "prior_on_site_t": "12.768",
+      "prior_on_site_gp": "74.7398",
+      "unit_cost_gp_per_t": "5.853681077694235588972431078"
     },
     {
       "event_id": "R200-BT-240-245",
@@ -7326,9 +7368,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "14.750",
-      "prior_on_site_gp": "152.1859",
-      "unit_cost_gp_per_t": "10.31768813559322033898305085"
+      "prior_on_site_t": "12.750",
+      "prior_on_site_gp": "131.5143",
+      "unit_cost_gp_per_t": "10.31484705882352941176470588"
     },
     {
       "event_id": "R200-BT-240-248",
@@ -7389,9 +7431,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.66",
       "nonlabor_cost_gp": "2.00",
-      "prior_on_site_t": "15.566",
-      "prior_on_site_gp": "91.1137",
-      "unit_cost_gp_per_t": "5.853379159707053835282024926"
+      "prior_on_site_t": "13.566",
+      "prior_on_site_gp": "79.3998",
+      "unit_cost_gp_per_t": "5.852852720035382574082264485"
     },
     {
       "event_id": "R200-BT-241-251",
@@ -7452,9 +7494,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "15.500",
-      "prior_on_site_gp": "159.9159",
-      "unit_cost_gp_per_t": "10.31715483870967741935483871"
+      "prior_on_site_t": "13.500",
+      "prior_on_site_gp": "139.2443",
+      "unit_cost_gp_per_t": "10.31439259259259259259259259"
     },
     {
       "event_id": "R200-BT-241-254",
@@ -7486,17 +7528,17 @@
       "order_line_id": "R200-BT-ORDER-F04",
       "shipment_id": "R200-BT-SHIP-F04",
       "on_site_delta_t": "-8",
-      "on_site_delta_gp": "-46.8217",
+      "on_site_delta_gp": "-46.8169",
       "transit_delta_t": "8",
-      "transit_delta_gp": "46.8217",
+      "transit_delta_gp": "46.8169",
       "revenue_gp": "0",
       "cogs_gp": "0",
       "loss_idle_gp": "0",
       "production_labor_gp": "0",
       "nonlabor_cost_gp": "0",
-      "prior_on_site_t": "16.364",
-      "prior_on_site_gp": "95.7737",
-      "unit_cost_gp_per_t": "5.852707162063065265216328526"
+      "prior_on_site_t": "14.364",
+      "prior_on_site_gp": "84.0598",
+      "unit_cost_gp_per_t": "5.852116402116402116402116402"
     },
     {
       "event_id": "R200-BT-242-256",
@@ -7536,9 +7578,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.66",
       "nonlabor_cost_gp": "2.00",
-      "prior_on_site_t": "8.364",
-      "prior_on_site_gp": "48.9520",
-      "unit_cost_gp_per_t": "5.852702056432329029172644668"
+      "prior_on_site_t": "6.364",
+      "prior_on_site_gp": "37.2429",
+      "unit_cost_gp_per_t": "5.852121307353865493400377121"
     },
     {
       "event_id": "R200-BT-242-258",
@@ -7599,9 +7641,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "16.250",
-      "prior_on_site_gp": "167.6459",
-      "unit_cost_gp_per_t": "10.31667076923076923076923077"
+      "prior_on_site_t": "14.250",
+      "prior_on_site_gp": "146.9743",
+      "unit_cost_gp_per_t": "10.31398596491228070175438596"
     },
     {
       "event_id": "R200-BT-242-261",
@@ -7696,17 +7738,17 @@
       "order_line_id": "R200-BT-GARRAN-242-3",
       "shipment_id": "",
       "on_site_delta_t": "-4",
-      "on_site_delta_gp": "-41.2649",
+      "on_site_delta_gp": "-41.2545",
       "transit_delta_t": "0",
       "transit_delta_gp": "0",
       "revenue_gp": "100.00",
-      "cogs_gp": "41.2649",
+      "cogs_gp": "41.2545",
       "loss_idle_gp": "0",
       "production_labor_gp": "0",
       "nonlabor_cost_gp": "0",
-      "prior_on_site_t": "17.000",
-      "prior_on_site_gp": "175.3759",
-      "unit_cost_gp_per_t": "10.31622941176470588235294118"
+      "prior_on_site_t": "15.000",
+      "prior_on_site_gp": "154.7043",
+      "unit_cost_gp_per_t": "10.31362"
     },
     {
       "event_id": "R200-BT-243-266",
@@ -7788,9 +7830,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.66",
       "nonlabor_cost_gp": "2.00",
-      "prior_on_site_t": "9.162",
-      "prior_on_site_gp": "53.6120",
-      "unit_cost_gp_per_t": "5.851560794586334861383977298"
+      "prior_on_site_t": "7.162",
+      "prior_on_site_gp": "41.9029",
+      "unit_cost_gp_per_t": "5.850726054174811505166154705"
     },
     {
       "event_id": "R200-BT-244-270",
@@ -7851,9 +7893,9 @@
       "loss_idle_gp": "0",
       "production_labor_gp": "2.85",
       "nonlabor_cost_gp": "4.88",
-      "prior_on_site_t": "13.000",
-      "prior_on_site_gp": "134.1110",
-      "unit_cost_gp_per_t": "10.31623076923076923076923077"
+      "prior_on_site_t": "11.000",
+      "prior_on_site_gp": "113.4498",
+      "unit_cost_gp_per_t": "10.31361818181818181818181818"
     },
     {
       "event_id": "R200-BT-244-273",
@@ -7875,19 +7917,40 @@
       "prior_on_site_t": "5.400",
       "prior_on_site_gp": "74.5200",
       "unit_cost_gp_per_t": "13.8"
+    },
+    {
+      "event_id": "PS-BT-E-SALE",
+      "day": 244,
+      "operation_type": "Gate sale",
+      "product_grade": "Selected / finished hardwood",
+      "quantity_t": "1",
+      "order_line_id": "PS-BT-E-ORDER",
+      "shipment_id": "",
+      "on_site_delta_t": "-1",
+      "on_site_delta_gp": "-13.8000",
+      "transit_delta_t": "0",
+      "transit_delta_gp": "0",
+      "revenue_gp": "40.00",
+      "cogs_gp": "13.8000",
+      "loss_idle_gp": "0",
+      "production_labor_gp": "0",
+      "nonlabor_cost_gp": "0",
+      "prior_on_site_t": "5.500",
+      "prior_on_site_gp": "75.9000",
+      "unit_cost_gp_per_t": "13.8"
     }
   ],
   "findings": [],
   "totals": {
-    "revenue": "1792.15",
-    "cogs": "640.16",
+    "revenue": "1924.15",
+    "cogs": "686.33",
     "loss": "68.40",
     "produced_cost": "878.90"
   },
   "on_site": {
     "Dressed stone": {
-      "quantity_t": "9.9600",
-      "cost_gp": "58.2720"
+      "quantity_t": "7.9600",
+      "cost_gp": "46.5629"
     },
     "Premium architectural stone": {
       "quantity_t": "0.1140",
@@ -7902,18 +7965,18 @@
       "cost_gp": "1.4068"
     },
     "Sawn construction lumber": {
-      "quantity_t": "13.7500",
-      "cost_gp": "141.8410"
+      "quantity_t": "11.7500",
+      "cost_gp": "121.1798"
     },
     "Selected / finished hardwood": {
-      "quantity_t": "5.5000",
-      "cost_gp": "75.9000"
+      "quantity_t": "4.5000",
+      "cost_gp": "62.1000"
     }
   },
   "in_transit": {
     "R200-BT-SHIP-F04:Dressed stone": {
       "quantity_t": "8.0000",
-      "cost_gp": "46.8217"
+      "cost_gp": "46.8169"
     }
   },
   "superseded_interval": {
@@ -8717,6 +8780,61 @@
     },
     "limits": "Old source rows and imported opening balances remain immutable evidence. Replacement rows do not bridge full revenue twice; exact net correction legs are in events.csv. Current Day244 early evening only. Day248 F04 invoice is unearned. Day234 ordinary production replaces failed rework. North Quay5t remains reserved to earliest250."
   },
+  "supplemental_manifests": [
+    {
+      "authority": "D244-ESTATE-PROSPECT-SINCE-START-001",
+      "start_day": 183,
+      "end_day": 244,
+      "operation_rows": [
+        {
+          "Event ID": "PS-BT-B-SALE",
+          "Day": "207",
+          "Event type": "Gate sale",
+          "Product grade": "Sawn construction lumber",
+          "Quantity t": "2",
+          "Order line ID": "PS-BT-B-ORDER",
+          "Shipment / transfer ID": "",
+          "Extra direct gp / labor allocation": "",
+          "Batch ID": "",
+          "Evidence / inspection": "D244-ESTATE-PROSPECT-SINCE-START-001: PS-BT-B independently assented; competent grade/count inspection, conforming buyer-owned pickup and cash payment on agreed date. Existing named reservations/production retained; no freight.",
+          "Status": "supplement",
+          "Cash received gp": "60.00",
+          "Receivable ID": ""
+        },
+        {
+          "Event ID": "PS-BT-D-SALE",
+          "Day": "235",
+          "Event type": "Gate sale",
+          "Product grade": "Dressed stone",
+          "Quantity t": "2",
+          "Order line ID": "PS-BT-D-ORDER",
+          "Shipment / transfer ID": "",
+          "Extra direct gp / labor allocation": "",
+          "Batch ID": "",
+          "Evidence / inspection": "D244-ESTATE-PROSPECT-SINCE-START-001: PS-BT-D independently assented; competent grade/count inspection, conforming buyer-owned pickup and cash payment on agreed date. Existing named reservations/production retained; no freight.",
+          "Status": "supplement",
+          "Cash received gp": "32.00",
+          "Receivable ID": ""
+        },
+        {
+          "Event ID": "PS-BT-E-SALE",
+          "Day": "244",
+          "Event type": "Gate sale",
+          "Product grade": "Selected / finished hardwood",
+          "Quantity t": "1",
+          "Order line ID": "PS-BT-E-ORDER",
+          "Shipment / transfer ID": "",
+          "Extra direct gp / labor allocation": "",
+          "Batch ID": "",
+          "Evidence / inspection": "D244-ESTATE-PROSPECT-SINCE-START-001: PS-BT-E independently assented; competent grade/count inspection, conforming buyer-owned pickup and cash payment on agreed date. Existing named reservations/production retained; no freight.",
+          "Status": "supplement",
+          "Cash received gp": "40.00",
+          "Receivable ID": ""
+        }
+      ],
+      "limits": "Only new omitted customer sales; no replacement of prior draws or old physical rows. Financial effect is net stock/cost/receipts difference against previous current replay in PS244-FIN-BT; do not bridge full sale twice."
+    }
+  ],
   "legacy_totals": {
     "revenue": "1534.50",
     "cogs": "529.83",
@@ -8724,7 +8842,7 @@
     "produced_cost": "862.32"
   },
   "history_event_count": 283,
-  "staging_event_count": 351,
+  "staging_event_count": 354,
   "checkpoint_day": 231,
   "source_history_totals": {
     "revenue": "1161.00",
@@ -9083,7 +9201,10 @@
     "R200-BT-244-270",
     "R200-BT-244-271",
     "R200-BT-244-272",
-    "R200-BT-244-273"
+    "R200-BT-244-273",
+    "PS-BT-B-SALE",
+    "PS-BT-D-SALE",
+    "PS-BT-E-SALE"
   ],
   "ledger_events": [
     {
