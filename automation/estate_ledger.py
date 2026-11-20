@@ -66,8 +66,29 @@ def prerequisite_tasks():
                              "evidence":row.get("source_and_limits", ""),"source":str(live_path)}
  return tasks
 
+def authorized_retcon(row, manifests):
+ """A signed correction must exactly match a resolved, player-authorized manifest."""
+ if row.get("event_type") != "retcon_adjustment":return False
+ entry=manifests.get(row.get("event_id", ""))
+ return entry is not None and dict(row)==entry
+
+def retcon_manifests():
+ path=DATA/"operational-checkpoint.csv"
+ if not path.exists():return {}
+ records=rows(path);by_id={r["record_id"]:r for r in records};out={}
+ for r in records:
+  if r.get("record_type")!="Retrospective reconciliation" or r.get("status") not in {"Resolved","Verified"}:continue
+  payload=json.loads(r["source_and_limits"]);authority=by_id.get(payload.get("authority"),{})
+  if authority.get("record_type")!="Retcon authorization" or authority.get("status") not in {"PREPARED","RESOLVED","COMMITTED"}:continue
+  for event in payload.get("economic_legs",[]):
+   if event.get("reference_id")!=authority.get("record_id") or event.get("estate")!=r.get("estate") or event.get("effective_day")!=r.get("day"):continue
+   if event["event_id"] in out:raise ValueError("duplicate manifested retcon leg "+event["event_id"])
+   out[event["event_id"]]=event
+ return out
+
 def main():
  errors=[]
+ retcon_rows=retcon_manifests()
  meta=json.loads((DATA/"snapshot-meta.json").read_text(encoding="utf-8"))
  cutoff=Decimal(str(meta["snapshot_day"]))
  opening_cash={}
@@ -168,7 +189,9 @@ def main():
   if accepted and not ((row.get("shipment_id") or "").strip() or (row.get("reference_id") or "").strip()):errors.append(f"{eid}: accepted quantity requires a shipment_id or reference_id")
   if accepted<0:errors.append(f"{eid}: accepted_quantity cannot be negative")
   if (any(financial) or verification) and day==0:errors.append(f"{eid}: posted changes require an actual campaign day")
-  if income<0 or expense<0:errors.append(f"{eid}: income and expense deltas must be nonnegative amounts")
+  is_retcon=authorized_retcon(row,retcon_rows)
+  if (income<0 or expense<0) and not is_retcon:errors.append(f"{eid}: negative income/expense requires an exact authorized retrospective correction")
+  if row.get("event_type")=="retcon_adjustment" and not is_retcon:errors.append(f"{eid}: retrospective correction does not match its resolved authorization manifest")
   event_type=norm(row.get("event_type",""))
   requires_gate=income>0 or any(token in event_type for token in ("shipment dispatch","shipment_dispatch","gate sale","gate_sale","service accept","service_accept"))
   if requires_gate:
@@ -251,6 +274,8 @@ def main():
    if not ref:errors.append(f"{eid}: estate transfer needs a shared reference_id")
    else:transfer_totals[ref]+=cash_delta;transfer_counts[ref]+=1
   parsed+=1
+ for required in retcon_rows:
+  if required not in ids:errors.append(f"missing manifested retrospective leg {required}")
  for ref,total in transfer_totals.items():
   if money(total)!=0:errors.append(f"transfer {ref}: paired cash legs net to {money(total)} gp, expected 0")
   if transfer_counts[ref]<2:errors.append(f"transfer {ref}: needs both source and destination cash legs")
@@ -297,12 +322,25 @@ def main():
    "inventory_items":{k:{"book_quantity":str(quantity_value(v["quantity"])),"reserved_quantity":str(quantity_value(v["reserved"])),"unreserved_book_quantity":str(quantity_value(max(Decimal(0),v["quantity"]-v["reserved"]))),"in_transit_quantity":str(quantity_value(v["transit_quantity"])),"on_site_cost_basis_gp":str(money(v["cost"])),"in_transit_cost_basis_gp":str(money(v["transit_cost"])),"verification_status":v["verification"],"eligible_to_ship_quantity":str(quantity_value(max(Decimal(0),v["quantity"]-v["reserved"]) if v["verification"]=="verified" else Decimal(0)))} for k,v in inventory_rows.items()},
   }
   if cash_all[estate]<0:errors.append(f"{estate}: projected cash is negative")
+ # A retrospective stock correction must reconcile to the active physical replay,
+ # not merely to the superseded imported baseline. This also protects future runs.
+ if operation_report_path.exists() and operation_report.get("status")=="PASS" and operation_report.get("superseded_interval"):
+  bt=snapshot["estates"].get("Blackthorn",{})
+  opening_grade_ids={r.get("item"):r.get("inventory_id") for r in rows(DATA/"opening-inventory.csv") if r.get("estate")=="Blackthorn"}
+  for grade,expected in operation_report.get("on_site",{}).items():
+   actual=bt.get("inventory_items",{}).get(opening_grade_ids.get(grade),{})
+   if quantity_value(dec(actual.get("book_quantity",0)))!=quantity_value(dec(expected["quantity_t"])) or money(dec(actual.get("on_site_cost_basis_gp",0)))!=money(dec(expected["cost_gp"])):
+    errors.append(f"Blackthorn {grade}: ledger differs from active retrospective stock replay")
+  tq=sum((dec(v["quantity_t"]) for v in operation_report.get("in_transit",{}).values()),Decimal(0))
+  tc=sum((dec(v["cost_gp"]) for v in operation_report.get("in_transit",{}).values()),Decimal(0))
+  if quantity_value(dec(bt.get("inventory_in_transit_quantity",0)))!=quantity_value(tq) or money(dec(bt.get("inventory_in_transit_cost_basis_gp",0)))!=money(tc):errors.append("Blackthorn in-transit ledger differs from active retrospective replay")
  snapshot["accounting_coverage"]={}
  live_path=DATA/"operational-checkpoint.csv"
  if live_path.exists():
   for row in rows(live_path):
    if row.get("record_type")=="Posting coverage":
     snapshot["accounting_coverage"][row["estate"]]=json.loads(row["source_and_limits"])
+ snapshot["income_expense_scope"]="Signed economic entries after imported opening, including any explicit retrospective corrections to earlier days. R200-FIN manifests own actual service-day timelines; these entry totals are not a fresh tax period."
  snapshot["findings"]=errors
  if errors:snapshot["status"]="CHECK"
  REPORT.parent.mkdir(parents=True,exist_ok=True);REPORT.write_text(json.dumps(snapshot,indent=2)+"\n",encoding="utf-8")

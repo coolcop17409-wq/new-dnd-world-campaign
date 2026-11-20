@@ -46,6 +46,17 @@ FIELDS = [
     "in_transit_quantity_delta", "in_transit_cost_delta_gp", "inventory_verification_status",
 ]
 
+class RetrospectiveCorrectionGuards(unittest.TestCase):
+    def test_signed_reversal_needs_exact_resolved_manifest(self):
+        row={"event_id":"CORRECT-1","event_type":"retcon_adjustment","reference_id":"AUTH-1",
+             "estate":"Test","effective_day":"244","income_delta_gp":"-24","evidence":"Explicit correction"}
+        self.assertFalse(ledger.authorized_retcon(row,{}))
+        self.assertTrue(ledger.authorized_retcon(row,{"CORRECT-1":dict(row)}))
+        for key,value in [("income_delta_gp","-240"),("estate","Other"),("effective_day","245"),("reference_id","OTHER")]:
+            altered={**row,key:value}
+            self.assertFalse(ledger.authorized_retcon(altered,{"CORRECT-1":dict(row)}))
+        self.assertFalse(ledger.authorized_retcon({**row,"event_type":"ordinary_sale"},{"CORRECT-1":row}))
+
 class EstateLedgerScenarioTests(unittest.TestCase):
     def write_csv(self, path, fields, data):
         path.parent.mkdir(parents=True, exist_ok=True)

@@ -14,9 +14,9 @@ GitHub is authoritative following the owner-directed 2026-11-20 cutover. Root `R
 
 ## Actual posting and safety
 
-Use signed cash and balance deltas with positive income/expense amounts. Keep estate accounts separate. A customer advance increases cash and a liability, then actual accepted service earns income and clears that advance. Customer-owned grain, meal, cargo and storage lots remain custody records, never House-owned stock. Describe quantity units explicitly: Blackthorn stock is tonnes; the current Miregate pilot is pounds.
+Use signed cash and balance deltas with positive income/expense amounts for ordinary events. Explicit retrospective reversals require an exact resolved authorization manifest and `retcon_adjustment`; unmanifested negative income/expense is rejected. Keep estate accounts separate. A customer advance increases cash and a liability, then actual accepted service earns income and clears that advance. Customer-owned grain, meal, cargo and storage lots remain custody records, never House-owned stock. Describe quantity units explicitly: Blackthorn stock is tonnes; the current Miregate pilot is pounds.
 
-Preserve physical stock, reservations, in-transit ownership/cost and buyer acceptance separately. Physical `verified` status is not buyer-quality certification: the Miregate pilot is physically counted but the prospective buyer rejected its sample. No sale/shipment may bypass its actual readiness and acceptance gates. Dispatch releases the corresponding on-site reservation and moves the same quantity/cost into transit; acceptance earns revenue and releases COGS once. Later payment is a distinct leg.
+Preserve physical stock, reservations, in-transit ownership/cost and buyer acceptance separately. Physical `verified` status is not buyer-quality certification. Under the explicit Day200redo, the Miregate pilot completed/sold233 with no current inventory; the old rejected244lot is superseded evidence. No sale/shipment may bypass its actual readiness and acceptance gates. Dispatch releases the corresponding on-site reservation and moves the same quantity/cost into transit; acceptance earns revenue and releases COGS once. Later payment is a distinct leg.
 
 The source payroll cycle is 201+7n. Pay only actual earned work, from the owning estate's funds; Meret's combined wage is paid once through Miregate. Current-day completed work can be recorded while the full daily close remains open. Never prepay unworked time. D231-ESTATE-NO-RESERVES-001 abolishes all discretionary reserves and cash floors. Cash less actual obligations is informational; a proposed budget is not a payable or restricted cash.
 
@@ -26,7 +26,7 @@ Blackthorn tax is 10% of positive cumulative taxable operating profit, including
 
 ## Recovery and verification
 
-Use RUN-PROTOCOL-v2 and the single live writer slot in `campaign/continuity/readme.md`. Read and guard the GitHub branch head and affected blob SHAs. Persist and read back PREPARED/DRAW_STARTED before offscreen RNG, then RESOLVED before dependent postings. An unrecoverable started draw is held, never replaced. Determined competent work uses no roll. Draw/task estimates are not reconstructed NPC statistics. Historical accepted outcomes are not rerolled.
+Use RUN-PROTOCOL-v2 and the single live writer slot in `campaign/continuity/readme.md`. Read and guard the GitHub branch head and affected blob SHAs. Persist and read back PREPARED/DRAW_STARTED before offscreen RNG, then RESOLVED before dependent postings. An unrecoverable started draw is held, never replaced. Determined competent work uses no roll. Draw/task estimates are not reconstructed NPC statistics. Historical outcomes are not rerolled without explicit player retcon. D244-ESTATE-REDO-D200-001 is that bounded exception; its replacement draws must never be rerolled.
 
 Re-read before writing; use scoped atomic Git trees/commits and expected-head updates. Rebuild `blackthorn_operations.py`, `estate_ledger.py`, `blackthorn_tax.py`, `estate_audit.py`, tracker validation and dashboard/packet as appropriate. Validate source IDs, actual cash, payable/receivable balances, physical/cost roll-forward and all applicable service prerequisites. Tests validate implementation, not campaign outcomes. Record the successful posting cutoff only after saved dependent entries verify. Preserve a recovery receipt for any partial write.
 
@@ -39,3 +39,9 @@ D244-ESTATE-CATCHUP-001 is newly authorized offscreen adjudication through the l
 ## Routine competence clarification
 
 Apply `D244-ESTATE-ROUTINE-COMPETENCE-001` in `campaign/continuity/rules-estate-economy.md` to all new estate adjudication. Separate journal legs do not require separate random success gates. Record ordinary professional readiness/fulfillment directly when its real prerequisites are satisfied; roll only for identified material uncertainty. Existing outcomes and pending work are preserved. The scoped implementation/verification receipt is `ADMIN-ESTATE-COMPETENCE-D244-001` in `operational-checkpoint.csv`.
+
+## Day200 retrospective replacement — D244-ESTATE-REDO-D200-001
+
+The explicit player redo makes R200-FIN-* manifests and signed R200-* economic corrections current through Day244earlyevening. Original snapshots/rolls remain superseded history. Blackthorn `Status=retcon` operations replace exactly the manifest’s200–244source IDs for physical replay; they do not bridge full income twice. Old financial bridge plus exact net corrections preserves imported opening checks. Current stock must match corrected replay; later operations use its corrected cost basis.
+
+Full close243; elapsed244daytime only. Fort duty225 after224acceptance,120gp due245notcollected. Reedbed safe service222 and BARGE01upper8t voyage delivered242/returned243. Miregate pilot sold233; no rejected244lot. Current requests explicitly supersede obsolete holds/customer dates. No capital transfer charged again. Miregate’s historic punt invoice remains a financial-input gap, not an operational block. ADMIN-ESTATE-REDO-D244-001 owns verification/handoffs.

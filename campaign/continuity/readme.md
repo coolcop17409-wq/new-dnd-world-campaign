@@ -79,3 +79,17 @@ Verification: archive commit 683a1ef01cf2f8f30c09c00517be58bb3575c1e5 preceded o
 The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
 
 CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-REDO-D200-D244-20261120-01 | worker=estate-retrospective-correction | operations=ER244-A,ER244-B | acquired_UTC=2026-11-20T15:49:57.182Z | heartbeat_UTC=2026-11-20T16:13:52.482Z | expires_UTC=2026-11-20T16:23:52.482Z | recovery=data/estate/operational-checkpoint.csv D244-ESTATE-REDO-D200-001
+
+## Estate retrospective correction — D244-ESTATE-REDO-D200-001
+
+Explicit player instruction authorizes bounded estate replacement200–244. Current owners:data/estate/R200-FIN manifests,signedcorrections,Blackthornreplacementops; oldrows/dice remain superseded evidence. Latest checkpoint D244-V-SECOND-WIND-REST-CORRECT-001 over unchanged D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001 pause,Day244earlyevening;close243/elapsed244 only; Vactions/resources unchanged. ADMIN-ESTATE-REDO-D244-001 ownsverification. New producer effect R200-ESTATE-RESULTS-AND-REPORT PENDING separate Quest/live-DM/Maintenance ACK; oldcatchupACKs cannot acknowledge changedoutcomes. Neverreroll savedreplacementdraws.
+
+Additional ATLAS-PENDING effects; no matchingACK yet:
+
+| Source | Effect key | Estate-source scope; atlas unchanged |
+|---|---|---|
+| D244-ESTATE-REDO-D200-001 /222 | R200-REEDBED-SERVICE-222 | Safe yard service begins222; corrects old225/228dates,16t/daydock unchanged. |
+| D244-ESTATE-REDO-D200-001 /225 | R200-FORT-DUTY-225 | Existingcharter daylightduty225; no toll/sovereignty/newmappedgeography. |
+| D244-ESTATE-REDO-D200-001 /238–243 | R200-BARGE01-UPPER-8T | Specificownedhull8t testedcorridor and actualcustomervoyage; no unrestrictedregional/secondhullcertification. |
+
+Earlier REEDBED-SERVICE-225-228 is superseded for currentdating by R200-REEDBED-SERVICE-222; retain auditpointer/scopedhistoricalACK. Only atlasowner canACK/application-close replacementeffects.

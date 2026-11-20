@@ -20,6 +20,98 @@ D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001 — ACTUALLY PLAYED post-wolf res
 DAY244 rugged upland ROAD CONTINUATION: 4-day original coach route, previous random encounter day243 one of permitted max two. Predeclared Day244 rugged-country day encounter threshold01–40, genuine executed secrets d100 FACE10 => TRIGGER; existing category d100 FACE96 => DISCOVERY (93–100), NOT another hostile encounter. Before selecting an outcome a two-entry local discovery mapping was fixed: 1 publicly accessible hillside spring with old carriage waystones, 2 old stone wagon shelter and disused paved road spur. Genuine d2 FACE2 => party observes from traveled wagon road the remains of an older stone waystation and a vegetated paved side spur vanishing upslope; no survey of where it goes, legal title, structure safety, commercial shortcut, Vaishnavi link, enemy, lost item or mandatory new quest inferred. V's explicit choice to CONTINUE THE JOURNEY governs: no diversion, entry, treasure claim or new check. Party and coach proceed through the final road section toward known Blackthorn Hold; no additional day244 random check and no unplayed overnight. Ordinary Day244 food: Mara/Cirren/Fenar eat three remaining packed ration units3→0 (V Reborn needs none), four healthy V-owned horses consume four remaining packed feed-day units4→0. Journal IDs D244-BLACKTHORN-ARRIVAL-RATIONS-001 and D244-BLACKTHORN-ARRIVAL-FEED-001 posted; zero PACKED provisions at end of Day244, does not mean estate lacks stores or animals cannot be tended after arrival. No direct coin expense. Day244 routine V/Tamsin Sending Stone administrative contact under existing standing routine (no extraordinary content or new order) uses the shared pair once; pair0/1 until Dawn245; V/Meret separate1/1.
 By DAY244 EVENING party V/Mara/Cirren/Fenar in repaired coach with four healthy horses REACHES BLACKTHORN HOLD, Crownsunder. Existing guard/steward contact can receive them; Tamsin Brack remains the resident independent steward. This arrival does not retroactively perform pending dated Blackthorn production, sales, payments, letters, repairs or a whole-estate accounting close; those remain only in their owning business journals and may be reported after actual contact/validation. The visible old roadside waystation is a minor unlocated discovery, not a proved alternate trade road or pre-Convergence secret. Latest exact scene: Blackthorn gate/yard, early evening Day244, V free to speak and act; no rest tonight yet. Long Rest progress0/6; current V HP39/48, Cirren51/51, Fenar59/59 HD5/6 Rage4/4 MP6/6 Shift2/3; Cirren L2 slots2/3; V dice delegation still valid until revoked.
 
+
+## D244-ESTATE-REDO-D200-001 — player-authorized retrospective estate redo
+
+Source: “let’s redo these rolls from day 200 and redo the results.” These are **new retrospective adjudications**, not recovered original play. They supersede the affected estate checks and dependent results from Day 200 through Day 244 early evening. Old outcomes and dice remain as superseded audit history. Before-Day-200 history, V’s actions and resources, explicit title/safety/opening rulings, the 695 gp funding, Day 231 transfers of 400 + 20 + 60 gp, the no-reserves ruling, hull ownership, the River Heron voyage and V’s small-boat journey remain intact. The latest Second Wind correction is also retained. No campaign time or pending V action changes.
+
+Routine competent preparation, inspection, commissioning, conforming fulfillment, delivery and collection no longer face repeated generic success checks. Independent customer demand and actual trial yield remain uncertain. Each replacement draw was generated with Python `secrets` after its PREPARED and DRAW_STARTED stages were saved/read back, then persisted RESOLVED before dependent posting. The +4 qualified-task and +3 ordinary-trade modifiers are estimates justified in each predeclared record, not invented NPC statistics. Existing passing-traffic demand for Days 225–244 and non-estate travel rolls are retained. Newly eligible Reedbed Days 222–224 were sampled once.
+
+**Blackthorn.** The reworked trial passes its ordinary inspection Day 201; Pevra picks up and pays 192 gp on Day 202. F02 dispatches Day 213 with 32 gp shared freight and is accepted/paid for 224 gp on Day 220. F03 dispatches Day 227 with 16 gp return freight and is accepted/paid for 224 gp on Day 234. F04 is agreed Day 220, advice arrives Day 223, and it dispatches Day 241 for 16 gp freight. Its eight tonnes remain in transit at the cutoff; expected acceptance is Day 248, with 224 gp still unearned. F05 for Day 262 is declined at the Day 234 contact.
+
+Garran’s standing surplus outlet receives actual available grades on Days 206, 213, 220, 227, 234 and 242. Pevra and North Quay allocations remain protected physical stock. Short architectural-stone/log quantities are reduced to what exists; they do not freeze every other grade. Payment is on acceptance except the agreed Day 228 settlement for Day 227. The unnecessary Day 234 failed-QA/rework shift becomes one normal six-grade production shift; established weekly maintenance remains. North Quay’s five tonnes stay drying until at least Day 250. The 18 gp cover improvement on Day 230 is unchanged. R200-BT-REPLAY contains exact grade quantities, cost and freight invoices.
+
+**Miregate.** Safety Day 212, deed Day 213 and opening Day 216 remain. Hessa’s two-tonne lots are milled and returned on Days 224 and 232. Joren stores two tonnes during Days 225–232 and 232–239 for 2 gp each. Neris stores a separate six-tonne lot during Days 233–240 for 6 gp. Neris’s former Days 233–235 milling job and Elden’s former Day 230/237 handling jobs do not occur after the replacement refusals.
+
+The free Day 233 shift completes the first House-owned grain pilot: 2,000 lb wheat costing 22 gp, sacks 1 gp and crew 3.80 gp produce 1,900 lb conforming wholemeal, sold and collected for 34.20 gp. The remaining 100 lb is recorded screenings/process loss, not additional sale stock. Contribution is 7.40 gp before shared overhead. The next pilot is declined; there is no second purchase or unsold Day 244 lot. Marris’s accepted arrival and actual Days 238–241 work remain, earning/collecting 24 gp on Day 241; the proposed Day 253 repeat is declined.
+
+Future agreed Miregate work is Joren storage Days 246–253 (2 gp), Neris milling Days 246–248 (24 gp), Neris’s distinct storage Days 247–254 (6 gp), Elden handling Day 247 (20 gp), and Hessa milling Day 252 (8 gp). None is earned now. Farmer grain, meal and bran retain customer ownership. The four-acre crop remains unplanted: the existing 64 gp quotation and 120–150-day growing estimate do not establish an economical crop or guaranteed yield. Cancelled crew shifts are reversed; Hessa’s shift moves from Day 242 to Day 232 and pilot wages are paid Day 236. Meret is paid once. The punt’s accepted Day 235 operation and Day 239 return stand; its historical rebuild invoice is still missing.
+
+**Reedbed.** The 130 gp works on Days 218–220 and actual staff remain. The responsible boatwright/foreman completes ordinary loaded acceptance on Day 221, allowing safe service from Day 222. Named handling is Elden’s 16 tonnes on Days 225/239 at 32 gp each, Neris’s 12 tonnes on Days 227/241 at 24 gp each, and Sovra’s 12 tonnes on Days 228/242 at 24 gp each. Elden’s Day 226 bench work earns 4 gp, paid Day 227.
+
+New ordinary traffic earns 4 gp on Day 222, 2 gp on Day 223 and 2 gp from a Day 224 inquiry fulfilled Day 225. Two distinct half-bench customers repeat on Days 232 and 239, paying 2 gp each per visit. Initial Tarin, Eda and Noll work remains; their declined repeats are removed. Earlier Day 239 bookings move Renn’s actual work/contact to Day 240 and Una’s to Day 241. Their already-saved retention dice apply once on those actual dates; no reroll. Their next slots become Days 247 and 248. Rest Days 224/231/238 and capacity limits of one bench-day and 16 tonnes dock handling per day remain. Perrin’s one tonne stays in custody Days 243–250: 0.14 gp is earned through Day 243, with 1 gp due Day 250. A separate extension through Day 257 is agreed. The Day 244 storage day is not yet closed.
+
+BARGE01 retains its 12-tonne local rating. The qualified master’s routine Day 238 survey/test, already costing 2 gp, establishes a conservative eight-tonne upper-corridor limit with a complete crew, propulsion and landing arrangement. Marn assents Day 239; eight tonnes of customer grain depart Day 240, are delivered and paid for 32 gp on Day 242, and the empty hull returns Day 243. Actual voyage cost is 25.60 gp: master and two deckhands for four days, 16 gp paid Day 243; propulsion/consumables and endpoint berth, 8 gp paid Day 240; Mila’s 5%, 1.60 gp paid Day 242. No yard wages, V boatmen, cargo purchase or Heron charter are duplicated. A Day 254 repeat is agreed, with future crew/route arrangements still required. BARGE02 remains rated for ten tonnes locally only.
+
+**Old Distributary Fort.** The 70 gp safeguards on Days 221–223 and crew training on Days 222–223 remain. Competent Day 224 acceptance satisfies normal-flow hold, deliberate release, emergency stop and clear public passage. The generic old failures/specification hold are superseded without inventing a historical component defect. Accepted daylight duty begins Day 225. Twenty elapsed duty days through Day 244 earn 171.43 gp at 60/7 gp per day. The first 120 gp return is submitted Day 238 and due Day 245; it is unpaid. The remaining 51.43 gp is earned but unbilled. Upkeep is 57.14 gp: 14.29 paid Day 229, 20 paid Day 236 and 20 paid Day 243, leaving Day 244’s 2.85 gp due Day 250. Existing 5 gp/day wages remain; Meret is not duplicated. No toll or wider authority is created.
+
+All daily customer, custody, capacity, crew, cost and payment details are in the R200-FIN manifests. Signed correction legs preserve the imported opening balances and owner funding while replacing affected current positions. Each separate reconstructed daily cash balance stays nonnegative. Blackthorn’s rolling tax is 93.77 gp and Carrow share 85.09 gp, unpaid and due Day 272. Other estates retain startup losses and zero profit tax. ADMIN-ESTATE-REDO-D244-001 contains administrative verification separately. Staff know their own outcomes; no remote report has automatically reached V.
+
+### Replacement draw details
+
+DC10 is only for the declared material demand/yield uncertainty. d6/d10 rows use the predeclared demand/freight table. Full stakes and modifier justification remain with durable stages.
+
+| Day | Draw ID | Dice | Modifier | DC | Total | Result |
+|---|---|---|---|---|---|---|
+| 202 | R200-BT-F02 | d20: 7 | +4 | 10 | 11 | pass |
+| 209 | R200-BT-F03 | d20: 11 | +4 | 10 | 15 | pass |
+| 213 | R200-BT-FREIGHT-F02 | d10: 8 | +0 | table | 8 | table |
+| 219 | R200-MG-HESSA | d20: 15 | +4 | 10 | 19 | pass |
+| 219 | R200-MG-JOREN | d20: 10 | +4 | 10 | 14 | pass |
+| 220 | R200-BT-F04-220 | d20: 17 | +4 | 10 | 21 | pass |
+| 222 | R200-RB-DEMAND-222 | d6: 4 | +0 | table | 4 | table |
+| 222 | R200-RB-ELDEN | d20: 12 | +4 | 10 | 16 | pass |
+| 222 | R200-RB-NEED-222-1 | d6: 5 | +0 | table | 5 | table |
+| 222 | R200-RB-NERIS | d20: 16 | +4 | 10 | 20 | pass |
+| 222 | R200-RB-SOVRA | d20: 13 | +4 | 10 | 17 | pass |
+| 222 | R200-RB-WALK222-REPEAT | d20: 3 | +3 | 10 | 6 | fail |
+| 223 | R200-RB-DEMAND-223 | d6: 5 | +0 | table | 5 | table |
+| 223 | R200-RB-NEED-223-1 | d6: 3 | +0 | table | 3 | table |
+| 223 | R200-RB-WALK223-REPEAT | d20: 17 | +3 | 10 | 20 | pass |
+| 224 | R200-MG-HESSA-REPEAT-224 | d20: 11 | +4 | 10 | 15 | pass |
+| 224 | R200-RB-DEMAND-224 | d6: 6 | +0 | table | 6 | table |
+| 224 | R200-RB-NEED-224-1 | d6: 3 | +0 | table | 3 | table |
+| 225 | R200-MG-NERIS | d20: 3 | +4 | 10 | 7 | fail |
+| 225 | R200-RB-ELDEN-BENCH | d20: 15 | +3 | 10 | 18 | pass |
+| 225 | R200-RB-ELDEN-REPEAT | d20: 9 | +4 | 10 | 13 | pass |
+| 225 | R200-RB-WALK224-REPEAT | d20: 18 | +3 | 10 | 21 | pass |
+| 226 | R200-MG-ELDEN | d20: 5 | +4 | 10 | 9 | fail |
+| 226 | R200-MG-NERIS-STORAGE | d20: 3 | +4 | 10 | 7 | fail |
+| 227 | R200-BT-FREIGHT-F03 | d10: 6 | +0 | table | 6 | table |
+| 227 | R200-RB-NERIS-REPEAT | d20: 11 | +4 | 10 | 15 | pass |
+| 228 | R200-RB-SOVRA-REPEAT | d20: 5 | +4 | 10 | 9 | fail |
+| 230 | R200-RB-TARIN-REPEAT | d20: 4 | +3 | 10 | 7 | fail |
+| 232 | R200-MG-HESSA-NEXT-232 | d20: 1 | +4 | 10 | 5 | fail |
+| 232 | R200-MG-JOREN-232 | d20: 10 | +4 | 10 | 14 | pass |
+| 232 | R200-MG-JOREN-NEXT-232 | d20: 10 | +4 | 10 | 14 | pass |
+| 232 | R200-MG-PILOT | d20: 6 | +4 | 10 | 10 | pass |
+| 232 | R200-RB-HALF223-NEXT232 | d20: 9 | +3 | 10 | 12 | pass |
+| 232 | R200-RB-HALF224-NEXT232 | d20: 8 | +3 | 10 | 11 | pass |
+| 233 | R200-MG-NERIS-NEXT-233 | d20: 11 | +4 | 10 | 15 | pass |
+| 233 | R200-MG-NERIS-STORE-233 | d20: 6 | +4 | 10 | 10 | pass |
+| 233 | R200-MG-NERIS-STORE-REPEAT-233 | d20: 19 | +4 | 10 | 23 | pass |
+| 233 | R200-MG-PILOT-REPEAT-233 | d20: 3 | +4 | 10 | 7 | fail |
+| 233 | R200-MG-PILOT-YIELD-233 | d20: 11 | +4 | 10 | 15 | pass |
+| 234 | R200-BT-F05-234 | d20: 1 | +4 | 10 | 5 | fail |
+| 234 | R200-RB-EDA-REPEAT | d20: 1 | +3 | 10 | 4 | fail |
+| 235 | R200-RB-NOLL-REPEAT | d20: 3 | +3 | 10 | 6 | fail |
+| 236 | R200-RB-SOVRA-LATER-236 | d20: 12 | +4 | 10 | 16 | pass |
+| 237 | R200-MG-ELDEN-NEXT-237 | d20: 9 | +4 | 10 | 13 | pass |
+| 239 | R200-RB-ELDEN-NEXT-239 | d20: 14 | +4 | 10 | 18 | pass |
+| 239 | R200-RB-HALF223-NEXT239 | d20: 5 | +3 | 10 | 8 | fail |
+| 239 | R200-RB-HALF224-NEXT239 | d20: 18 | +3 | 10 | 21 | pass |
+| 239 | R200-RB-MARN | d20: 19 | +4 | 10 | 23 | pass |
+| 240 (planned239; capacity correction) | R200-RB-RENN-REPEAT | d20: 11 | +3 | 10 | 14 | pass |
+| 241 (planned240; capacity correction) | R200-RB-UNA-REPEAT | d20: 10 | +3 | 10 | 13 | pass |
+| 241 | R200-BT-FREIGHT-F04 | d10: 5 | +0 | table | 5 | table |
+| 241 | R200-MG-MARRIS-NEXT-241 | d20: 2 | +4 | 10 | 6 | fail |
+| 241 | R200-RB-NERIS-NEXT-241 | d20: 10 | +4 | 10 | 14 | pass |
+| 242 | R200-MG-HESSA-LATER-242 | d20: 19 | +4 | 10 | 23 | pass |
+| 242 | R200-RB-MARN-RETAIN | d20: 14 | +4 | 10 | 18 | pass |
+| 242 | R200-RB-SOLM-REPEAT | d20: 20 | +3 | 10 | 23 | pass |
+| 242 | R200-RB-SOVRA-NEXT242 | d20: 13 | +4 | 10 | 17 | pass |
+| 243 | R200-RB-PERRIN-NEXT243 | d20: 11 | +3 | 10 | 14 | pass |
+
 ## Earlier played history
 
 Closed played blocks through Day243, including the Day234–235 correction trail, are in `archive/continuity/session-log-days216-231-legacy.md` (legacy filename retained). That destination also contains bounded Day231–233 accepted-evidence summaries with explicit source limitations; no original transcript or unknown event ID was invented. The unfinished Day244 scene and its cross-midnight rest/arrival remain above. Maintenance receipt ADMIN-MAINT-D244-20261120-01 in the continuity README records verified migration.

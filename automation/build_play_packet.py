@@ -21,7 +21,12 @@ def active_checkpoint(text: str) -> tuple[int, str]:
     if not hit:
         raise ValueError("Active CAMPAIGN_STATE day heading missing")
     section = text[hit.start():].split("\n\n## Earlier checkpoints", 1)[0].strip()
-    if not section or "CURRENT EXACT PLAYED CHECKPOINT" not in section:
+    # An explicit accepted correction can keep the same scene while replacing
+    # a resource fact. Preserve its current paragraph, not the labelled old pause.
+    corrected = "LATEST PLAYER CORRECTION" in section and "CURRENT PLAYABLE CHECKPOINT" in section
+    if corrected:
+        section = section.split("\n\nHISTORICAL PRE-CORRECTION CHECKPOINT", 1)[0].strip()
+    if not section or ("CURRENT EXACT PLAYED CHECKPOINT" not in section and not corrected):
         raise ValueError("Current played checkpoint marker missing")
     if len(section) > 12000:
         raise ValueError("Live checkpoint too large; archive superseded checkpoints first")

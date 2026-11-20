@@ -51,6 +51,19 @@ class FastPlayTests(unittest.TestCase):
         self.assertIn("1185 gp",packet)
         self.assertNotIn("Archived only",packet)
 
+    def test_explicit_correction_excludes_superseded_checkpoint(self):
+        state = ("CAMPAIGN_STATE — DAY 244 EVENING — TEST\n\n"
+                 "LATEST PLAYER CORRECTION — TEST-CORRECTION. CURRENT PLAYABLE CHECKPOINT: HP48, V must choose.\n\n"
+                 "HISTORICAL PRE-CORRECTION CHECKPOINT — superseded HP39.\n\n## Earlier checkpoints\nArchived")
+        day, section = active_checkpoint(state)
+        self.assertEqual(day,244)
+        self.assertIn("TEST-CORRECTION",section)
+        self.assertIn("V must choose",section)
+        self.assertNotIn("superseded HP39",section)
+        self.assertNotIn("Archived",section)
+        with self.assertRaises(ValueError):
+            active_checkpoint("CAMPAIGN_STATE — DAY 244\n\nLATEST PLAYER CORRECTION without a playable checkpoint")
+
     def test_stale_dashboard_rejected(self):
         changed=dict(DASH,campaign_day=243)
         with self.assertRaises(ValueError):

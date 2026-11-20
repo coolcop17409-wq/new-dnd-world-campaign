@@ -15,7 +15,7 @@ Known threads — status per row; immediate priorities above
 Thread
 Established status and next decision
 Day172 reception
-COMPLETED Day172 reception; no repeat pending. Blackthorn order outcomes belong to the estate row/Property, including later Millford fulfillment and failed Pevra QC. Ophira's Day174 note collected180: fragment cannot verify Vaishnavi, reproduction unauthorized, no charter/right/restoration job established. Source access and further inquiry remain optional. Social history: HISTORY170–172.
+COMPLETED Day172 reception; no repeat pending. Blackthorn order outcomes belong to the estate row/Property, including Millford fulfillment and explicitly corrected Pevra outcomes under D244-ESTATE-REDO-D200-001. Ophira's Day174 note collected180: fragment cannot verify Vaishnavi, reproduction unauthorized, no charter/right/restoration job established. Source access and further inquiry remain optional. Social history: HISTORY170–172.
 Reception clothing
 Three matching fine outfits paid45gp Day171; alterations completed and V/Mara/Cirren collected them that evening, no added cost. Worn at the Day172 reception; current gear belongs to the owning trackers.
 Blackthorn / House Vaishnavi
@@ -35,9 +35,9 @@ Lowland boars/common
 Rural boar and boundary trouble heard about. Establish route, travel and offered terms before commitment.
 Undertow adventure COMPLETE / three-site restoration DELEGATED
 MIREGATE: deed213/open216; Undertow recovery remains complete. V met Meret236, delegated repeat business and freight development, and used the two estate small craft for the completed237–238 return. Meret runs the mill and customer work; new remote operational results are not automatically V-known.
-REEDBED: separately owned/granted yard; bench/storage225 and limited loaded handling228 remain established. The two House barges are locally operational at12t/10t; full upper-reach freight suitability is a separate technical matter, not proven by River Heron's completed voyage.
-OLD DISTRIBUTARY FORT: separate charter and crew; existing safe security/access continues while controls remain isolated. Do not infer a commissioning pass or new public toll/service.
-IMPLEMENTATION — data/estate/operational-checkpoint.csv and owning journals govern current operations, obligations and material reports. The D244 estate review supersedes copied Day231 financial summaries without delivering its results to V. No discretionary cash floors; no new numbers, task outcomes or future income are owned by this quest table. Actual authority, customer ownership and public navigation rights remain distinct.
+REEDBED: separately owned/granted yard. Explicit retrospective correction now records routine221acceptance/safe service222; local barge ratings12t/10t retained. BARGE01’s own238test supports conservative8t upper carriage, with actual240–242customer run/243return. Corrected administrative estate status; remote news delivery to V still pending.
+OLD DISTRIBUTARY FORT: separate charter/crew. D244-ESTATE-REDO-D200-001 replaces repeated random technical failures with competent224acceptance and actual daylight duty225 onward;120gp invoice due245, unpaid. No public toll/broader authority. Remote report delivery to V remains separate.
+IMPLEMENTATION — data/estate/operational-checkpoint.csv and owning journals govern current operations, obligations and material reports. D244-ESTATE-REDO-D200-001 supersedes affected200–244estate results without delivering remote reports. Miregate pilot sold233; genuine repeat refusals and future slots are in R200-FIN owners. No discretionary cash floors; no new numbers, task outcomes or future income are owned by this quest table. Actual authority, customer ownership and public navigation rights remain distinct.
 Wychstone Hold — rumor
 Small wooded-hills watchkeep ~1–2 days by country tracks. Bypassed road, failing masonry and livestock trouble reported. Title/occupancy/resources and orchard/grazing claims unverified; not offered or claimed.
 The Broken Standard — rumor

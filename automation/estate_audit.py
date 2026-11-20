@@ -165,6 +165,14 @@ def due_tasks(name: str, filename: str, campaign_day: int) -> tuple[list[str], l
             task_id = row[columns["task"]].strip()
             if task_id:
                 task_status[task_id] = row[columns["status"]].strip()
+    live_path = ROOT / "data" / "estate" / "operational-checkpoint.csv"
+    live_ids = set()
+    if live_path.exists():
+        with live_path.open(encoding="utf-8-sig", newline="") as handle:
+            for item in csv.DictReader(handle):
+                if item.get("estate") in {name, "All properties", "All registered estates", "Miregate and Reedbed"} and item.get("source_and_limits", "").strip():
+                    task_status[item["record_id"]] = item.get("status", "")
+                    live_ids.add(item["record_id"])
     completed = {"complete", "completed", "cancelled", "canceled", "closed", "paid", "settled", "resolved", "fulfilled"}
     suppressed: dict[str, str] = {}
     if TASK_SUPERSESSIONS.exists():
@@ -173,7 +181,7 @@ def due_tasks(name: str, filename: str, campaign_day: int) -> tuple[list[str], l
                 if norm(item.get("estate", "")) != norm(name):
                     continue
                 source, successor = item.get("task_id", "").strip(), item.get("superseded_by", "").strip()
-                if source in task_status and norm(task_status.get(successor, "")) in completed:
+                if source in task_status and (norm(task_status.get(successor, "")) in completed or successor in live_ids):
                     suppressed[source] = successor
     due: list[str] = []
     resolved: list[str] = []
@@ -190,7 +198,7 @@ def due_tasks(name: str, filename: str, campaign_day: int) -> tuple[list[str], l
         except (ValueError, OverflowError):
             continue
         if task in suppressed:
-            resolved.append(f"- **{name} — {task}** is superseded by completed `{suppressed[task]}` (verified against the staging successor map).")
+            resolved.append(f"- **{name} — {task}** is routed to current `{suppressed[task]}` ({task_status[suppressed[task]]}; verified owner successor). This does not complete an open successor.")
             continue
         if norm(status) in completed:
             continue
@@ -313,7 +321,7 @@ def main() -> int:
         f"Generated from the property workbook CSV snapshot captured {snapshot_day}.",
         "Audit/report only: this process does not post wages, income, expenses, transfers, taxes, or campaign decisions.",
         "",
-        "## Cash reconciliation",
+        "## Imported historical snapshot reconciliation",
         "",
         *notes,
     ]
@@ -342,11 +350,18 @@ def main() -> int:
         if resolved:
             lines.extend(["", "### Verified later settlements", "", *resolved])
 
+    live_path = ROOT / "data" / "estate" / "operational-checkpoint.csv"
+    if live_path.exists():
+        lines.extend(["", "## Current owning requests", "", "These owner requests retain their actual dependencies/next triggers; being listed is not evidence of completion or a due payment.", ""])
+        with live_path.open(encoding="utf-8-sig", newline="") as handle:
+            for item in csv.DictReader(handle):
+                if item.get("record_type") == "Request" and norm(item.get("status", "")) not in {"complete", "completed", "superseded", "cancelled", "closed"}:
+                    lines.append(f"- **{item['estate']} — {item['record_id']}** ({item['status']}): {item['subject']}. Dependency/trigger: data/estate/operational-checkpoint.csv.")
     lines.extend([
         "",
         "## Source boundary",
         "",
-        "Drive remains authoritative. These files are staging snapshots; reconcile any proposed correction against the live workbook before changing campaign records.",
+        "GitHub is authoritative after owner cutover. The workbook CSVs audited above are immutable historical references; current estate state is data/estate/ and reports/estate-ledger.json. Never write live state back to Drive. Resolved retrospective manifests supersede only their explicit scope and preserve the imported checks.",
         "",
     ])
     args.output.parent.mkdir(parents=True, exist_ok=True)

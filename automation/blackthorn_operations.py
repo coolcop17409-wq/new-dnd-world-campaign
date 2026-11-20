@@ -424,12 +424,17 @@ def main():
     orders = read_register(PROPERTY / "blackthorn-orders.csv", "Order line ID")
     schedule = read_register(PROPERTY / "blackthorn-schedule.csv", "Task / settlement ID")
     history = read_register(PROPERTY / "blackthorn-operations.csv", "Event ID")
-    additions = read_register(DATA / "blackthorn-operations-events.csv", "Event ID")
+    all_additions = read_register(DATA / "blackthorn-operations-events.csv", "Event ID")
+    additions = [r for r in all_additions if r.get("Status", "").lower() != "retcon"]
+    replacements = [r for r in all_additions if r.get("Status", "").lower() == "retcon"]
+    live_records = read_register(DATA / "operational-checkpoint.csv", "record_id")
+    retcons = [json.loads(r["source_and_limits"]) for r in live_records
+               if r.get("record_type") == "Blackthorn retrospective replacement" and r.get("status") == "Resolved"]
     meta = json.loads((DATA / "snapshot-meta.json").read_text(encoding="utf-8"))
     checkpoint_day = int(meta["snapshot_day"])
     operations_closed_day = int(meta.get("operations_opening_closed_day", checkpoint_day))
     # Post-cutover orders and readiness live in the owning operational journal.
-    for live in read_register(DATA / "operational-checkpoint.csv", "record_id"):
+    for live in live_records:
         if live.get("record_type") == "Blackthorn order" and live.get("status") == "Confirmed":
             orders.append(json.loads(live["source_and_limits"]))
         elif live.get("record_type") == "Prerequisite" and live.get("status") == "Complete":
@@ -459,15 +464,45 @@ def main():
                 current_verification = verified_status
         if row.get("Event type", "").strip() in {"Dispatch", "Gate sale"} and current_verification != "verified":
             extra_findings.append(f"{row.get('Event ID', '')}: {grade} is not physically verified for release")
-    report = replay(opening, rates, orders, schedule, history + additions)
+    legacy_operations = history + additions
+    canonical_operations = legacy_operations
+    legacy_report = replay(opening, rates, orders, schedule, legacy_operations)
+    retcon_end = None
+    if replacements:
+        if len(retcons) != 1:
+            extra_findings.append("retrospective operation rows require exactly one resolved replacement manifest")
+        else:
+            manifest = retcons[0]
+            authority = next((r for r in live_records if r["record_id"] == manifest.get("authority")), {})
+            if authority.get("record_type") != "Retcon authorization" or authority.get("status") not in {"PREPARED", "RESOLVED", "COMMITTED"}:
+                extra_findings.append("replacement manifest lacks explicit player retcon authorization")
+            start, retcon_end = int(manifest["start_day"]), int(manifest["end_day"])
+            removed = [r["Event ID"] for r in legacy_operations if start <= int(dec(r["Day"])) <= retcon_end]
+            if removed != manifest.get("superseded_event_ids"):
+                extra_findings.append("retcon superseded IDs do not exactly match its bounded original interval")
+            if [r["Event ID"] for r in replacements] != manifest.get("replacement_event_ids"):
+                extra_findings.append("retcon replacement IDs do not exactly match its manifest")
+            if any(not start <= int(dec(r["Day"])) <= retcon_end or not r.get("Evidence / inspection", "").startswith(manifest["authority"] + ":") for r in replacements):
+                extra_findings.append("replacement operation is outside its authorized interval or evidence")
+            canonical_operations = [r for r in legacy_operations if r["Event ID"] not in set(removed)] + replacements
+            canonical_operations.sort(key=lambda r: int(dec(r["Day"])))
+            # Old financial bridge is immutable; later operations use the corrected stock basis.
+            legacy_report = replay(opening, rates, orders, schedule, [r for r in legacy_operations if int(dec(r["Day"])) <= retcon_end])
+    report = replay(opening, rates, orders, schedule, canonical_operations)
+    report["superseded_interval"] = retcons[0] if replacements and len(retcons) == 1 else None
+    report["legacy_totals"] = legacy_report["totals"]
+    report["findings"].extend(legacy_report["findings"])
     history_report = replay(opening, rates, orders, schedule, history)
     report["history_event_count"] = len(history)
-    report["staging_event_count"] = len(additions)
+    report["staging_event_count"] = len(all_additions)
     report["checkpoint_day"] = checkpoint_day
     report["source_history_totals"] = history_report["totals"]
     report["findings"].extend(extra_findings)
-    report["staging_event_ids"] = [row.get("Event ID", "").strip() for row in additions]
-    report["ledger_events"], bridge_findings = ledger_events_for_operations(additions, report["events"], orders)
+    report["staging_event_ids"] = [row.get("Event ID", "").strip() for row in all_additions]
+    bridge_calculations = legacy_report["events"] if retcon_end is not None else report["events"]
+    if retcon_end is not None:
+        bridge_calculations = bridge_calculations + [r for r in report["events"] if r["day"] > retcon_end]
+    report["ledger_events"], bridge_findings = ledger_events_for_operations(additions, bridge_calculations, orders)
     report["findings"].extend(bridge_findings)
     checkpoint = {}
     with (DATA / "blackthorn-tax-checkpoint.csv").open(encoding="utf-8-sig", newline="") as handle:
