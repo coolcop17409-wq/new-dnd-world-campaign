@@ -20,7 +20,7 @@ When the repository is active in a new conversation, read:
 1. `README.md` and this file.
 2. `campaign/continuity/campaign-state.md` for exact pause, counters, custody, and pending V choice.
 3. The relevant file under `campaign/continuity/` for RULES, current QUESTS, NPCS, INVENTORY, and SESSION_LOG.
-4. The current party's tracker value files under `trackers/values/` (once created during cutover) and relevant tracker CSVs.
+4. `dashboard/dashboard.json` for generated current character, estate, inventory, and market values; consult baseline CSVs and the owning event journals for evidence and changes.
 5. Only the active quest, NPC, custody, map, or DM-prep section needed for the current scene.
 
 Reuse verified context during the conversation. Refresh only when a fact changes, a new rule or actor matters, the scene/region changes, or a conflict arises. Do not load the full archive or every workbook for ordinary play. Consult political/world/map sources only when relevant.
