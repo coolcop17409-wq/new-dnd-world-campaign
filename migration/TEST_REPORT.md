@@ -15,7 +15,7 @@ The financial opening balances therefore remain Miregate 501.40 gp cash / 14.03 
 
 ## Resolved record discrepancies
 
-- The Miregate schedule row for the small punt is now closed under the explicit retroactive ruling that all four estate boats were restored and made operational. The broken/cannibalized and rebuild-pending text is superseded. Punt restoration date, cost and capacity remain unknown; no inferred expense or cash posting was made.
+- The Miregate schedule now records the punt as estate-owned, restoration already in progress by Day 231, with a planned Day 231–232 work window. The explicit Day 235 owner ruling treats it as operational; the exact completion day, cost and capacity remain unknown. No labor/material cost or cash posting was inferred.
 - Blackthorn movable contents are itemized to the level supported by campaign history in `data/estate/movable-assets.csv` and the live **Blackthorn - Movable Assets** tab. Known counts are retained; unknown quantities and ambiguous wording stay explicit. Watchpost weapons/stores with unresolved ownership are listed separately and excluded from owned net worth.
 - Fixed assets include the named structures and site improvements. Five known improvements total 191 gp documented historical cost and carrying value under the current no-depreciation/no-impairment basis. This is not a market appraisal. The original parcel boundaries/base fixtures remain incompletely described, and the source has no current valuation method or appraisal amount; complete estate net worth cannot be calculated from the current evidence.
 
