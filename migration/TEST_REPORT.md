@@ -23,7 +23,7 @@ The financial opening balances therefore remain Miregate 501.40 gp cash / 14.03 
 
 The latest confirmed Actions run in the available history is 44660947398 on commit 09dd3b87, before the current Day 235 / 8,000 gp valuation / character-event commits. It passed on that earlier commit; a successful current-head run has not been verified.
 
-The bridge still has no real post-checkpoint operation chain compared with Drive. The V Day 231 funeral prepayment (−12 gp) is now staged as a dated purse event over a pre-event baseline, matching the Drive Inventory row 29 closing purse of 1,185 gp, 3 sp, 8 cp. The dashboard currency overlay has been added, but generated output and Actions validation have not yet been verified. There has been no confirmed post-checkpoint Blackthorn operation chain and no real due Magic Shops review cycle. These remain cutover blockers.
+The bridge still has no real post-checkpoint operation chain compared with Drive. The V Day 231 funeral prepayment (−12 gp) is staged as a dated purse event over a pre-event baseline. A local dashboard rebuild applied the event and matched the Drive Inventory row 29 closing purse of 1,185 gp, 3 sp, 8 cp; tracker validation passed with one posted character event. A real due Magic Shops owner review was written to Drive Events row 29 and Dealer row 50, then synced to GitHub; genuine d100 69 vs. 10 produced no change. The dashboard review queue rebuilt at Day235 and now shows four other due reviews, with Dewlight rescheduled for Day260; no V discovery or transaction occurred. There has been no confirmed post-checkpoint Blackthorn operation chain. The current-main Actions result still cannot be verified from the available check/status lookup. These remain cutover blockers.
 
 ## Cutover boundary
 
