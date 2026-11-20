@@ -18,3 +18,9 @@ D242-BLACKTHORN-ROAD-RATIONS-001,242,Valenthia,inventory,Rations (1 day),-3,,D24
 D242-BLACKTHORN-ROAD-FEED-001,242,Valenthia,inventory,Feed (1 day),-4,,D241-243-BLACKTHORN-ROAD-001: Day242 four V-owned horses each use one animal feed day; 12 to 8.,posted
 D243-BLACKTHORN-ROAD-RATIONS-001,243,Valenthia,inventory,Rations (1 day),-3,,D241-243-BLACKTHORN-ROAD-001: Day243 ordinary road food for Mara/Cirren/Fenar; 6 to 3.,posted
 D243-BLACKTHORN-ROAD-FEED-001,243,Valenthia,inventory,Feed (1 day),-4,,D241-243-BLACKTHORN-ROAD-001: Day243 four V-owned horses each use one animal feed day; 8 to 4.,posted
+"D243-WOLVES-V-HP-001","243","Valenthia","stat","HP","-9","","D243-BLACKTHORN-DIRE-WOLVES-COMBAT-001: Wolf B Bite roll14+5=19 vs V AC19; damage 1+5+3=9 piercing; V48 to39; STR save17-1=16 vs DC13 stands.","posted"
+"D243-WOLVES-FENAR-HP-001","243","Fenar","stat","HP","-4","","D243-BLACKTHORN-DIRE-WOLVES-COMBAT-001: Wolf C Bite adv13,4 high13+5=18 vs Fenar AC14; damage2+3+3=8 piercing Rage halves4, Fenar59 to55; STR save adv19,2 +8=27 vs DC13 stands.","posted"
+"D243-WOLVES-FENAR-RAGE-001","243","Fenar","resource","Rage","-1","","D243-BLACKTHORN-DIRE-WOLVES-COMBAT-001: R1 BA Rage4 to3; Beast Claws; no rest completion.","posted"
+"D243-WOLVES-FENAR-MP-001","243","Fenar","resource","Martial Points","-2","","D243-BLACKTHORN-DIRE-WOLVES-COMBAT-001: R1 Outrageous Athleticism2MP, 40 to70 speed; closes65ft to wolf A and attacks. MP6 to4.","posted"
+"D243-WOLVES-FENAR-SHIFT-001","243","Fenar","resource","Shift","-1","","D243-BLACKTHORN-DIRE-WOLVES-COMBAT-001: R2 BA Longtooth Shifting3 to2, 6 temporary HP; fang attack unused because wolf C died first. Temp HP state recorded in checkpoint.","posted"
+"D243-WOLVES-CIRREN-L2-001","243","Cirren","resource","Spell Slots (2nd)","-1","","D243-BLACKTHORN-DIRE-WOLVES-COMBAT-001: R1 BA 2014 Spiritual Weapon2nd slot3 to2, nonconcentration 1 minute; attack d20 18+8=26, damage d8 8+5=13.","posted"
