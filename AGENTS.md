@@ -14,6 +14,10 @@ Google Drive Docs and workbook exports are historical/reference snapshots for ca
 - Keep established facts, proposals, uncertainty, and unrevealed prep distinct. Flag conflicts and state temporary rulings.
 - Before external rules lookup, check the applicable RULES file. Use 2014 rules references.
 
+## Timely story delivery
+
+A player question about companion goals, concerns, news or what to do next is a story-delivery trigger even without a scene/location change. Apply the **Story delivery contract** in `campaign/continuity/rules-dm-procedures.md`: use credible NPC knowledge to give an actionable opportunity when eligible; retain a concrete reason and next trigger for deferral. Review overlooked substantial arcs at natural breaks. Preparation is not delivery: only actual played introduction counts as OFFERED, and only the player's choice counts as acceptance/decline. Do not require the player to request quests OOC. Preserve quiet scenes, independent NPCs and V's agency.
+
 ## Startup retrieval
 
 When the repository is active in a new conversation, read:
@@ -21,7 +25,7 @@ When the repository is active in a new conversation, read:
 2. `campaign/continuity/campaign-state.md` for exact pause, counters, custody, and pending V choice.
 3. The relevant file under `campaign/continuity/` for RULES, current QUESTS, NPCS, INVENTORY, and SESSION_LOG.
 4. `runtime/PLAY_NOW.md` for a generated, bounded scene/counter packet, checking its day/checkpoint against CAMPAIGN_STATE; use `dashboard/dashboard.json` for expanded character, estate, inventory and market values. Generated values never override owners; consult baseline CSVs and owning journals for disputed changes.
-5. Only the active quest, NPC, custody, map, or DM-prep section needed for the current scene.
+5. Read the current delivery queue at the top of `prep/dm-only/dm-only-secret-quest-outlines.md`, then only the matching active quest, NPC, custody, map or prep section. Retain 2–4 relevant delivery candidates with the scene packet; do not treat generated PLAY_NOW as a substitute.
 
 FAST-PLAY COMPACTNESS CONTRACT: Keep CAMPAIGN_STATE at one current headed checkpoint (target 3–6K, maximum 12K characters), the continuity README under 8K and recent SESSION_LOG under 75K. Archive superseded checkpoint paragraphs, closed history and dated receipts *verbatim before trimming*. Never prepend old history before the current DAY heading. Specialist maintenance ACKs belong in their owning journals, not the startup README. Fix resource-overlay schema mismatches; never hand-edit generated dashboards/packets to hide failures. Batch related owning changes in a guarded tree commit where safe, then use a final separate CAMPAIGN_STATE commit after verifying dependencies. Do not commit every NPC section separately during play.
 
