@@ -297,7 +297,7 @@
     {
       "name": "Fenar",
       "level": "6",
-      "hp": "55.0",
+      "hp": "59.0",
       "max_hp": "59",
       "ac": "14",
       "initiative": "2",
@@ -305,7 +305,7 @@
       "resources": [
         {
           "name": "Rage",
-          "current": "3.0",
+          "current": "4.0",
           "max": "4",
           "recovery": "Short Rest +1; Long Rest all"
         },
@@ -317,7 +317,7 @@
         },
         {
           "name": "Hit Dice",
-          "current": "6.0",
+          "current": "5.0",
           "max": "6",
           "recovery": "Long Rest"
         },
@@ -341,7 +341,7 @@
         },
         {
           "name": "Martial Points",
-          "current": "4.0",
+          "current": "6.0",
           "max": "6",
           "recovery": "Short / Long Rest"
         },
@@ -485,15 +485,15 @@
       },
       {
         "item": "Rations (1 day)",
-        "qty": "3.0",
-        "quantity_display": "3.0",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Party/coach supply: recorded15 ration person-days after Day225 travel (B25). No new deduction. Days208–212 exact site/forage/Mara meal provenance unresolved; D-column history preserved. D224-225-TEMP-HARNESS-MANOR-CELLAR-001.",
         "detail": "D196–198: 7 ordinary rations purchased personally at5sp each, combined with 2 Cirren-held forage person-days for 9 person-days consumed by Mara/Cirren/Fenar; stock0, travel cost in"
       },
       {
         "item": "Feed (1 day)",
-        "qty": "4.0",
-        "quantity_display": "4.0",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Party coach: recorded20 horse-feed animal-days after Day225 travel (B26), four healthy horses at Rethwyn rural yard. Days208–212 exact feed reconciliation unresolved; no assumed consumption or restock. D-column history preserved.",
         "detail": "D196–198: 12 horse feed-days purchased personally at5cp each, all12 consumed by four horses over 3-day carriage journey; no feed remains. Purchase6sp included once in V purse row29"
       },
