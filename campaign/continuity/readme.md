@@ -78,7 +78,7 @@ Verification: archive commit 683a1ef01cf2f8f30c09c00517be58bb3575c1e5 preceded o
 
 The shared protocol retained at [archived protocol](../../archive/continuity/continuity-readme-pre-fastplay.md#shared-run-protocol--run-protocol-v2-2026-11-18) continues to govern causal prerequisites, durable draws, recovery and per-consumer acknowledgements. Its archived writer slot is historical. After cutover, this live README owns the single active slot below; GitHub blob/head expected-SHA guards replace Google document revision guards. Owner journals hold prepared/resolved events and recovery receipts. No change to campaign time or player authority.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-PROSPECT-START-D244-20261120-01 | worker=estate-prospecting-reconciliation | operations=PS244-A,PS244-B | acquired_UTC=2026-11-20T16:33:53.583Z | heartbeat_UTC=2026-11-20T16:39:34.692Z | expires_UTC=2026-11-20T16:49:34.692Z | recovery=data/estate/operational-checkpoint.csv D244-ESTATE-PROSPECT-SINCE-START-001
+CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-PROSPECT-START-D244-20261120-01 | worker=estate-prospecting-reconciliation | operations=PS244-A,PS244-B | acquired_UTC=2026-11-20T16:33:53.583Z | heartbeat_UTC=2026-11-20T16:43:25.550Z | expires_UTC=2026-11-20T16:53:25.550Z | recovery=data/estate/operational-checkpoint.csv D244-ESTATE-PROSPECT-SINCE-START-001
 
 ## Estate retrospective correction — D244-ESTATE-REDO-D200-001
 
