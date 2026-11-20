@@ -2,7 +2,7 @@
 
 Test copy: https://github.com/coolcop17409-wq/new-dnd-world-campaign  
 Visibility: Public, as explicitly chosen by the owner.  
-Authority: Drive remains authoritative. No live Drive record or Project Source has been changed.
+Authority: Drive remains authoritative. The Day 231 Blackthorn stocktake and fixed-assets register are recorded in the live Property workbook; SESSION_LOG and README routing were updated. Project Sources and cash balances were unchanged.
 
 The test and Actions results below predate the Day 231 stocktake and fixed-asset register updates. No tests or Actions were run for those updates.
 
