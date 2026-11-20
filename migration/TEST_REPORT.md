@@ -7,7 +7,7 @@ Authority: Drive remains authoritative. GitHub is staging only; Project Sources 
 ## Reconciled checkpoints
 
 - **Campaign state:** Day 235 evening, upper Miregate commercial landing.
-- **Financial snapshot:** Day 231 late morning cash, with liabilities seeded at the completed Day 230 close. The source review through Day 235 found no supported post-Day 231 estate cash, liability, receivable, or stock movement. The campaign checkpoint was advanced without fabricating a financial close.
+- **Financial snapshot:** Day 231 late morning cash, with liabilities seeded at the completed Day 230 close. The source review through Day 235 found no supported post-Day 231 estate cash, liability, receivable, or stock movement. Hessa's Day 232 and Neris's Day 233 Miregate offers, the Day 233 Neris storage review, and Reedbed's Day 234 Neris cargo call have target dates in the past but no confirmed outcomes; Drive schedules now flag them for review, without treating them as success or failure. The campaign checkpoint was advanced without fabricating a financial close.
 - **Day 233:** Mila secured a conditional allocation of 6 t customer-owned sacked wheat at Aven Marris's Caereth freight store through close Day 236. It is not at the landing; no contract terms were accepted and no cash, inventory, income, expense or receivable was posted.
 - **Day 235:** Captain Orla was physically present with the River Heron. Her presence did not activate the charter or establish route clearance, cargo, shipment, or payment.
 
