@@ -5,6 +5,8 @@ Established identities and relationships. Main NPCS owns current party/active co
 **Saffi Calder (unmet):** Human merchant(29), traveling independently. Fenar helped rescue her caravan and they shared a brief amicably ended romance; affection remains open-ended. Saffi only knows Fenar seeks someone important, not V's name, Nobanion connection or Vaishnavi ties.
 ## House Vaishnavi / Crownsunder contacts
 
+**Day245 Aven reunion (D245-BLACKTHORN-AVEN-REUNION-A04-001):** The released Golden Prisoner A-01 personally chose name **Aven** (he/him), disclosed it to V/Mara/Cirren/Fenar at Blackthorn main hall. He is voluntarily a temporary guest, not hired or permanent. V showed him A-04's sealed carried capsule without opening/transferring it; Aven voiced concern about manipulation, unverified evidence and whether prisoner experiences confinement, with no asserted first-hand knowledge of A-04's internal state. Aven owns a private travel journal; no journal transfer yet. Fenar now knows about capsule via V display. See NPCS/SESSION_LOG for his current independent priorities.
+
 **Day245 current visitor status (D245-BLACKTHORN-GALLERY-REPORT-AND-GUESTS-001; D152-BLACKTHORN-GOBLIN-FAMILY-INVITATIONS-RETCON-001):** A-01 arrived Blackthorn Day245 afternoon voluntarily; Elias/A-02 remain at Eastwatch, A-03 no verified response, Imani/Ulric not cleared/confirmed traveling. Grik, Sella, Nib and Pippa accepted but have not arrived; no coerced work, guest contracts or permanent housing assumed.
 
 | Person | Role, location/contact and current limits |
