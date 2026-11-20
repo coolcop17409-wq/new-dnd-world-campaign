@@ -85,6 +85,14 @@ def apply_character_events(payload):
  for event in events:
   if not any((event.get(k,"").strip()) for k in ("event_id","campaign_day","target")):continue
   if event.get("status","").strip().lower()!="posted":raise ValueError(f"Character event {event.get('event_id')} is not posted; proposals do not affect the dashboard.")
+  # A dated posted event from the future is not a current resource. Retroactive
+  # journal corrections are allowed only when dated at/before current play.
+  recorded_day=(event.get("campaign_day") or "").strip()
+  if not recorded_day.isdigit():
+   raise ValueError(f"Character event {event.get('event_id')} needs an integer campaign day")
+  if payload.get("campaign_day") is not None and int(recorded_day)>int(payload["campaign_day"]):
+   raise ValueError(f"Character event {event.get('event_id')} dated Day {recorded_day} is later than the confirmed checkpoint Day {payload['campaign_day']}")
+
   owner=event.get("owner","").strip().lower()
   person=by_name.get(owner)
   if not person:raise ValueError(f"Unknown character event owner: {owner}")

@@ -88,6 +88,39 @@ class FastPlayTests(unittest.TestCase):
                 state.write_text(STATE)
                 self.assertEqual(build_dashboard.campaign_day(),244)
 
+    def test_synthetic_hp_psi_maneuver_rest_and_future_guard(self):
+        # Isolated journal fixture, not a campaign roll or new played event.
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            journal=root/"data/characters/events.csv"
+            journal.parent.mkdir(parents=True)
+            fields=["event_id","campaign_day","owner","record_type","target","delta","absolute_value","evidence","status"]
+            values=[("HP",-9,"stat","TEST-DAMAGE"),("Psionic Energy Dice",-2,"resource","TEST-PSI"),
+                    ("Superiority Dice",-1,"resource","TEST-MANEUVER"),
+                    ("HP",9,"stat","TEST-RECOVER-HP"),("Superiority Dice",1,"resource","TEST-REST")]
+            def run(events,day=246):
+                with journal.open("w",newline="") as handle:
+                    writer=csv.DictWriter(handle,fieldnames=fields);writer.writeheader()
+                    for k,delta,kind,eid in events:
+                        writer.writerow(dict(event_id=eid,campaign_day=245,owner="Valenthia",record_type=kind,
+                                             target=k,delta=delta,absolute_value="",
+                                             evidence="Isolated regression test fixture",status="posted"))
+                payload=dict(campaign_day=day,party=[build_dashboard.character("v","Valenthia","v-character.csv","v-inventory.csv")],
+                             inventory={"Valenthia":[]})
+                with patch.object(build_dashboard,"ROOT",root):
+                    build_dashboard.apply_character_events(payload)
+                return payload["party"][0]
+            after_hit=run(values[:3])
+            self.assertEqual(float(after_hit["hp"]),39)
+            r={x["name"]:float(x["current"]) for x in after_hit["resources"]}
+            self.assertEqual((r["Psionic Energy Dice"],r["Superiority Dice"]),(4,3))
+            after_rest=run(values)
+            self.assertEqual(float(after_rest["hp"]),48)
+            r={x["name"]:float(x["current"]) for x in after_rest["resources"]}
+            self.assertEqual((r["Psionic Energy Dice"],r["Superiority Dice"]),(4,4))
+            with self.assertRaises(ValueError):run(values,day=244)  # no future posting
+            with self.assertRaises(ValueError):run([("HP",-100,"stat","TEST-OVERDAMAGE")])
+
     def test_current_only(self):
         day, section = active_checkpoint(STATE)
         self.assertEqual(day,244)
