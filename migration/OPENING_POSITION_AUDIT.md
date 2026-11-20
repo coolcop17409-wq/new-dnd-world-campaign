@@ -22,7 +22,7 @@ The staged Property exports contain the owner’s current rights, service capaci
 
 ## Reconciliation boundary
 
-- The opening cash/liability files remain the accounting baseline. They reconcile to the Day 231 late-morning cash snapshot and Day 230 liability close.
-- The staged Property directory remains the detailed owner registers for custody, rates, orders, agreements, and schedule evidence. The ledger’s opening inventory file represents Blackthorn’s book stock only; it is not a physical certification. The order-specific F03 QC pass is preserved in the inventory evidence but does not change grade-level verification status.
+- The opening cash/liability files remain the accounting baseline. They reconcile to the Day 231 late-morning cash snapshot and Day 230 liability close; the stocktake and fixed-assets registers do not change cash or liabilities.
+- The staged Property directory remains the detailed owner registers for custody, rates, orders, agreements, and schedule evidence. The ledger's opening inventory quantities now carry verified status from the full Day 231 count; the separate F03 row is a memorandum sublot included in the dressed-stone total. Seasoning and buyer-specific quality remain separate.
 - Future services, orders, freight, tax dates, and conditional sales frameworks remain commitments or plans until performed. They do not create cash, income, expense, receivable, or payable entries by themselves.
-- No Drive rows, campaign events, balances, or Project Sources were changed for this audit. Drive remains authoritative.
+- Drive remains authoritative. The live Property workbook now contains the Day 231 full stocktake and Blackthorn fixed-assets registers; the Continuity Pack SESSION_LOG and README routing were updated. Cash, balances and Project Sources were unchanged.
