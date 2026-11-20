@@ -309,7 +309,7 @@
     {
       "name": "Valenthia",
       "level": "7",
-      "hp": "39.0",
+      "hp": "48.0",
       "max_hp": "48",
       "ac": "19",
       "initiative": "4",
@@ -329,7 +329,7 @@
         },
         {
           "name": "Second Wind",
-          "current": "1",
+          "current": "1.0",
           "max": "1",
           "recovery": "Short Rest"
         },

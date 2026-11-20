@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `a65a2ce000b7bf8dd2a458f2a3e39e8192aa9eb10b1ef68ff3248d98f762c6c2`).
-Dashboard SHA256: `4187b9d2c83436802838f2126fa26e83f631ffe5552ca6749de919b423f8db85`.
+Dashboard SHA256: `2b6196223211526daaa4ea1cfb42c5665e099e3a3cb52c655b2a6a2ace87a5c1`.
 Confirmed campaign day: **244**.
 
 ## Exact playable checkpoint (verbatim from owner)
@@ -17,8 +17,8 @@ Party arrives DAY244 EARLY EVENING at BLACKTHORN HOLD in repaired V-owned enclos
 
 Snapshot values support lookups; rule interpretations, contextual conditions, custody and exceptions remain in the owning records.
 
-- **Valenthia** — HP 39.0/48; AC 19; level 7. Personal purse 1185 gp 3 sp 8 cp.
-  - Resources: Martial Points 7/7; Psionic Energy Dice 6/6; Second Wind 1/1; Knowledge from Past Life 3/3; Psi Recovery 1/1; Hit Dice 7/7; Psychic Whispers free use 1/1; Action Surge 1/1
+- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 1185 gp 3 sp 8 cp.
+  - Resources: Martial Points 7/7; Psionic Energy Dice 6/6; Second Wind 1.0/1; Knowledge from Past Life 3/3; Psi Recovery 1/1; Hit Dice 7/7; Psychic Whispers free use 1/1; Action Surge 1/1
 - **Cirren** — HP 51/51; AC 18; level 6.
   - Resources: Channel Divinity 2/2; Spell Slots (1st) 4/4; Spell Slots (2nd) 2.0/3; Hit Dice 6/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 3/3
 - **Fenar** — HP 59.0/59; AC 14; level 6.
