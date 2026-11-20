@@ -1,6 +1,6 @@
 # Estate ledger staging data
 
-This is a staging import from the 2026-11-19 Property workbook export. It is not the live ledger and must be reconciled against Drive before any cutover.
+This is a staging import from the 2026-11-19 Property workbook export, reconciled against the campaign checkpoint through Day 235. Drive remains authoritative; this is not the live ledger. Financial postings remain frozen at the last supported Day 231 snapshot.
 
 ## Files
 
@@ -9,10 +9,12 @@ This is a staging import from the 2026-11-19 Property workbook export. It is not
 - `opening-liabilities.csv`: stable IDs for nonzero liability categories in the Day 230 overview snapshot. These are balance-forward obligations, not a second posting of old expenses.
 - `opening-receivables.csv`: empty because the Day 231 Property workbook reports zero receivables for all four estates.
 - `opening-inventory.csv`: six Blackthorn grade rows from the Day 230 Accounts snapshot: 41.12 t book stock, 13 t reserved, 0 t in transit, and 349.43 gp book cost. All six entries remain `provisional`. The Day 231 F03 8 t preload grade/count QC pass is recorded as order-specific evidence; it does not verify all 18.384 t of dressed stone or the other grades, and the grade-level ledger still blocks dispatch.
-- `fixed-assets.csv`: evidence-backed asset/component register for all four estates. Documented cost is recorded only where the source classifies it; unknown cost/current value fields stay blank. Repairs are not treated as asset acquisitions, and Crown hydraulic controls are excluded. This is an inventory of supported entries, not a completed appraisal.
+- `fixed-assets.csv`: evidence-backed fixed asset/component register for all four estates. Documented cost is recorded only where the source classifies it; unknown cost/current value fields stay blank. Repairs are not treated as asset acquisitions, Crown hydraulic controls are excluded, and the Blackthorn movable-asset reference row is non-additive.
+- `movable-assets.csv`: source-itemized Blackthorn movable contents, with known counts where history supports them. It separates recorded estate assets from site custody with unresolved title; blank quantities and values remain unknown.
+- `operational-checkpoint.csv`: nonfinancial Day 232–235 reconciliation, including the conditional Aven Marris cargo allocation and Day 235 captain presence; neither is posted as inventory or a transaction.
 - `blackthorn-rates.csv`: current effective-dated Blackthorn daily payroll and upkeep rates. The initial import is the 13 payroll/upkeep rows in the source sheet; production-cost rates remain in the live workbook until their import is verified.
 - `blackthorn-tax-checkpoint.csv`: source-verified unrounded Day 230 formula components and the first rolling tax result. This preserves 417.8297 gp COGS before Accounts rounds it to 417.83 gp.
-- `snapshot-meta.json`: the Day 231 comparison cutoff and source snapshot date.
+- `snapshot-meta.json`: latest campaign checkpoint Day 235 and separate financial snapshot cutoff Day 231.
 - `task-supersessions.csv`: two Miregate schedule rows verified as handled by the completed Day 229 payroll successor.
 - `migration/OPENING_POSITION_AUDIT.md`: audit of rights, customer custody, stock, staffing, and current commitments against the staged Property registers. Those nonfinancial records remain in their owning exported tabs; they are not duplicated in the cash event ledger.
 
@@ -37,9 +39,9 @@ Set status to `posted` only after the event happened. Planned, forecast, schedul
 
 ## Boundary
 
-The cash/liability ledger reconciles to the Day 231 late-morning checkpoint. Opening receivables are zero in the source. Six Blackthorn book-stock grades are imported through Day 230 and remain provisional. F03’s 8 t order-specific QC pass is documented but not enabled as partial stock verification in the grade-level ledger; no opening stock is eligible to ship until a full physical count or tested lot-level support exists.
+The story checkpoint is Day 235 evening. The cash/liability ledger remains reconciled only to the Day 231 late-morning financial snapshot, with liabilities through the completed Day 230 close. The Day 232–235 source review found no supported actual estate cash, liability, receivable, or stock movement; conditional freight and captain availability are recorded separately with no financial effect. Opening receivables are zero in the source. Six Blackthorn book-stock grades are imported through Day 230 and remain provisional. F03’s 8 t order-specific QC pass is documented but not enabled as partial stock verification in the grade-level ledger; no opening stock is eligible to ship until a full physical count or tested lot-level support exists.
 
-Blackthorn's full 283-row production/COGS/shipment replay now matches source formula rows and the Day 230 totals. The forward operation journal is validated after the Day 231 checkpoint and blocks shipment release from unverified opening stock. Its passed future results now feed normalized events into the estate ledger after the report snapshot and input IDs are checked. Accept/Gate sale rows require explicit cash received (including zero) and a receivable ID for any unpaid amount; later receipts use separate event rows. The bridge has synthetic tests but has not yet processed a real future operation.
+Blackthorn's full 283-row production/COGS/shipment replay matches source formula rows and the Day 230 totals. A full physical count and separate F03 8 t sublot count are verified for the opening position. The forward operation journal is validated after the Day 231 checkpoint and blocks shipment release from unverified opening stock. Its passed future results now feed normalized events into the estate ledger after the report snapshot and input IDs are checked. Accept/Gate sale rows require explicit cash received (including zero) and a receivable ID for any unpaid amount; later receipts use separate event rows. The bridge has synthetic tests but has not yet processed a real future operation.
 
 Blackthorn management payroll, production payroll and upkeep can be generated through an explicitly closed day. Actions preview by default; an explicit manual checkbox is required to post staging accruals idempotently. This records earned obligations only; it does not pay wages or automatically assess/pay taxes.
 
