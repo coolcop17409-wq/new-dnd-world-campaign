@@ -1,0 +1,8 @@
+record_id,count_day,as_of_close_day,scope,product_or_lot,physical_quantity_t,reserved_quantity_t,in_transit_quantity_t,book_quantity_t,variance_t,additive_rule,evidence
+D231-BLACKTHORN-FULL-STOCKTAKE-001,231,230,Full grade count,Rough stone,0.824,0,0,0.824,0,Additive grade total,Routine count; matched Blackthorn Accounts row 40.
+D231-BLACKTHORN-FULL-STOCKTAKE-001,231,230,Full grade count,Dressed stone,18.384,8,0,18.384,0,Additive grade total; includes F03 memorandum sublot,Matched Blackthorn Accounts row 41.
+D231-BLACKTHORN-FULL-STOCKTAKE-001,231,230,Full grade count,Premium architectural stone,0.912,0,0,0.912,0,Additive grade total,Matched Blackthorn Accounts row 42.
+D231-BLACKTHORN-FULL-STOCKTAKE-001,231,230,Full grade count,Raw logs,0.45,0,0,0.45,0,Additive grade total,Matched Blackthorn Accounts row 43.
+D231-BLACKTHORN-FULL-STOCKTAKE-001,231,230,Full grade count,Sawn construction lumber,16.25,5,0,16.25,0,Additive grade total,Matched Blackthorn Accounts row 44; 5 t North Quay reserved.
+D231-BLACKTHORN-FULL-STOCKTAKE-001,231,230,Full grade count,Selected / finished hardwood,4.3,0,0,4.3,0,Additive grade total,Matched Blackthorn Accounts row 45.
+D231-BLACKTHORN-FULL-STOCKTAKE-001,231,230,Memorandum sublot,F03 lot ORS-STONE-F03,8,8,0,8,0,Non-additive subset of dressed stone,Separately counted and passed Day 231 preload QC; see Property Blackthorn - Stocktake.
