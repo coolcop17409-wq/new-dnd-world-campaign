@@ -82,6 +82,33 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D275-V-VISIONS-FIRSTPERSON-001",
+      "base_commit": "6abcc8adb4904da5bb674b0e5035e3a0fc2db962",
+      "source_checkpoint": "D275-LATE-AFTERNOON-IDENTITY-MOTIVATION-001",
+      "destination_checkpoint": "D275-LATE-AFTERNOON-VISIONS-FIRSTPERSON-001",
+      "source_evidence": "Player V's exact in-character answer to Cirren's phenomenological question about the old visions: \"I feels like me, that’s for sure\". Context: Day275 late afternoon aboard intact four-horse coach on western Veyr trade road toward Caer Veylan, Eastwatch and Nightglass. V affirms his subjective visions feel like his own experiences rather than an outside spectator's, not proving objective memory accuracy, trigger, provenance or ancestry. Cirren listens and acknowledges the meaningful first-person feeling while maintaining historical verification remains necessary; suggests comparing actual remembered concrete details against unprompted physical/place/record evidence at Nightglass, avoiding false claims of a revelation. Mara empathizes with recognizing one's identity without enough context and gently supports V. Fenar wishes him more good memories. No new vision, clue, spell, title, family revelation, accepted quest extension or exact recollection added. V still controls further conversation/route action. No in-world time, encounter, rest, resources, money, rations, feed or custody changed. Known party: V48/48 HP HD7/7 full class/psi resources; Fenar59/59 HD4/6 Rage4/4 Shift3/3; Cirren51/51 HD6/6 full spell slots; Mara unharmed; coach and four horses healthy. Long Rest3/6; carried rations6 person-days, feed8 animal-days; purse1137gp7sp6cp.",
+      "pending_action": "Day275 late afternoon aboard the four-horse coach traveling east through western Veyr toward Caer Veylan/Eastwatch/Nightglass, V has told Mara/Cirren/Fenar that past visions feel personally lived, not third-person; companions empathize, distinguish subjective familiarity from independent proof. V may continue talking, recount a specific vision, or continue journey; no new vision or cause implied. V48/48, Fenar59/59, Cirren51/51, LongRest3/6, 6 ration-person-days and8 feed animal-days, purse1137gp7sp6cp. No game time/resource changes from this exchange.",
+      "depends_on": [
+        "PLAY-D274-275-DEPART-001"
+      ],
+      "events": [
+        {
+          "event_id": "D275-V-VISIONS-FIRSTPERSON-001",
+          "accepted": true,
+          "evidence": "Player V's exact in-character answer to Cirren's phenomenological question about the old visions: \"I feels like me, that’s for sure\". Context: Day275 late afternoon aboard intact four-horse coach on western Veyr trade road toward Caer Veylan, Eastwatch and Nightglass. V affirms his subjective visions feel like his own experiences rather than an outside spectator's, not proving objective memory accuracy, trigger, provenance or ancestry. Cirren listens and acknowledges the meaningful first-person feeling while maintaining historical verification remains necessary; suggests comparing actual remembered concrete details against unprompted physical/place/record evidence at Nightglass, avoiding false claims of a revelation. Mara empathizes with recognizing one's identity without enough context and gently supports V. Fenar wishes him more good memories. No new vision, clue, spell, title, family revelation, accepted quest extension or exact recollection added. V still controls further conversation/route action. No in-world time, encounter, rest, resources, money, rations, feed or custody changed. Known party: V48/48 HP HD7/7 full class/psi resources; Fenar59/59 HD4/6 Rage4/4 Shift3/3; Cirren51/51 HD6/6 full spell slots; Mara unharmed; coach and four horses healthy. Long Rest3/6; carried rations6 person-days, feed8 animal-days; purse1137gp7sp6cp.",
+          "before": "Day275 late afternoon in V's coach on western Veyr road; V has said understanding his earlier self is important for becoming who he wants to be; Cirren asks whether Nightglass-era visions feel like V's own lived experience or like observing another's experiences. No answer yet; no new vision or resource changes.",
+          "after": "V replies the visions definitely feel like his own experience; companions respond independently with care and appropriately distinguish recognition from factual verification. No causal mechanism, genealogy or recovered image established, no additional acceptance/decision, no time/HP/gear/coin/provision/LongRest shift. Next V action/conversation remains unchosen.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
   ]
 }
