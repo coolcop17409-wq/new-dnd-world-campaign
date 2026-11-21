@@ -125,6 +125,34 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D274-WTR-CLEARANCE-TERMS-001",
+      "base_commit": "225783ff341b5ebdcb645322ae9406b8fbfd812b",
+      "source_checkpoint": "D274-EARLY-AFTERNOON-WTR-FOUR-SAFE-001",
+      "destination_checkpoint": "D274-WTR-HAZARD-CLEARANCE-TERMS-001",
+      "source_evidence": "Player's exact in-character negotiation after the successful Day274 four-worker safe ventilation rescue, at cutting outer muster approximately1:45PM: \"We can help, but it’s a risk and we need some funds to help. Else the commonwealth can send some people once the bureaucracy finds some time\". This is a CONDITION on offering to clear the separate still-hazardous annex, not acceptance to enter the mine or promise to fight for free; does not specify a fee amount. Independent local road officer WTR-O acknowledges previous rescue but truthfully has no authority to promise private combat contract, cash bounty, treasury funds or foreign property; offers permissible continued worksite equipment access and factual written acknowledgment of actual aid only. Forewoman WTR-F affirms that armed clearance entails risk and compensation request is reasonable, and plans to keep the now-empty dangerous annex closed while obtaining authorized response and working the alternative aggregate supply if party declines. She does not invent a personal monetary reward or compel the party to clear. Cirren agrees the workers are safe and optional risk should not be presumed; Fenar likes combat but accepts interest in being paid. The officer independently accepts that V can leave without penalty, notes common road stays open; he can refer a hazardous site to proper state services without guaranteeing response time or secretly spawning an escort. No rolls needed: persuasion cannot cause an official to spend unauthorized funds. No negotiated payment, contract, conditional entry, monetary amount, fame reward, worksite clearance, dice, combat, HP/resource/gear/horse/timing change. V has NOT declined or accepted the UNPAID dangerous clearance; it awaits the player's next decision. All four original rescued workers are alive in safety, cave hazard untouched, site legally restricted.",
+      "pending_action": "Day274 approximately1:45PM outer road-cutting muster in western Veyr, four rescued workers safely outside; V conditionally offers to investigate/clear the remaining dangerous chamber for funds, otherwise Commonwealth services may handle it. Local officer cannot authorize monetary private combat contract or payment, offers documented acknowledgment and loan of worksite gear; forewoman accepts closure and alternative source. No payment agreement, hazardous entry or refusal/acceptance yet; V decides whether leave for Eastwatch, negotiate other lawful terms, offer another alternative, or freely proceed. Party V48/48 full resources, Fenar59/59 full rage/shift, Cirren51/51 full spells, Mara healthy with 4 healthy horses and coach at muster; LongRest2/6, rations9/feed12, purse1137gp7sp6cp. No time/resource advances from conversation.",
+      "depends_on": [
+        "PLAY-D274-WTR-VENT-RESCUE-001"
+      ],
+      "events": [
+        {
+          "event_id": "D274-WTR-OPTIONAL-CLEARANCE-PAYMENT-TERMS-001",
+          "accepted": true,
+          "evidence": "Player's exact in-character negotiation after the successful Day274 four-worker safe ventilation rescue, at cutting outer muster approximately1:45PM: \"We can help, but it’s a risk and we need some funds to help. Else the commonwealth can send some people once the bureaucracy finds some time\". This is a CONDITION on offering to clear the separate still-hazardous annex, not acceptance to enter the mine or promise to fight for free; does not specify a fee amount. Independent local road officer WTR-O acknowledges previous rescue but truthfully has no authority to promise private combat contract, cash bounty, treasury funds or foreign property; offers permissible continued worksite equipment access and factual written acknowledgment of actual aid only. Forewoman WTR-F affirms that armed clearance entails risk and compensation request is reasonable, and plans to keep the now-empty dangerous annex closed while obtaining authorized response and working the alternative aggregate supply if party declines. She does not invent a personal monetary reward or compel the party to clear. Cirren agrees the workers are safe and optional risk should not be presumed; Fenar likes combat but accepts interest in being paid. The officer independently accepts that V can leave without penalty, notes common road stays open; he can refer a hazardous site to proper state services without guaranteeing response time or secretly spawning an escort. No rolls needed: persuasion cannot cause an official to spend unauthorized funds. No negotiated payment, contract, conditional entry, monetary amount, fame reward, worksite clearance, dice, combat, HP/resource/gear/horse/timing change. V has NOT declined or accepted the UNPAID dangerous clearance; it awaits the player's next decision. All four original rescued workers are alive in safety, cave hazard untouched, site legally restricted.",
+          "before": "Day274 ~1:45PM after V successfully led evacuation of 4/4 cutting workers using narrow vent. Remaining annex threat uninvestigated, unsafe main gallery closed; WTR-O officer, WTR-F forewoman and crew independently maintain site, loaned gear not yet inventoried/returned. V has neither entered annex nor taken optional hazard-clearing job; V48/48, Fenar59/59, Cirren51/51, purse1137gp7sp6cp, LongRest2/6.",
+          "after": "V verbally offers further help only with funds because danger, otherwise suggests Commonwealth send personnel. Officer independently clarifies no authority to pay/bind private hazard clearance; worksite gear loan and written acknowledgment available but no contract, funds or promise. Forewoman agrees hazard can stay restricted and alternate stone source used. No payment agreement, V movement/action, spell/resource/custody change or extra elapsed game time; optional clearance pending V response. Four rescued workers remain safely outside, no threats added, site entrance guarded by local crew.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/quests.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
   ]
 }
