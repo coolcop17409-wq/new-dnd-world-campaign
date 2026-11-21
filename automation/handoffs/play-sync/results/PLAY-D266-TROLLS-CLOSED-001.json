@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D266-TROLLS-CLOSED-001",
+  "status": "partial",
+  "claim_owner": "opened-pr6-e47d60d4",
+  "claim_expires_at": "2026-11-21T19:05:48.727Z",
+  "request_commit": "f7cc7746bc84da995521ae23fbecb6f4deaca3bd",
+  "request_blob": "8aaacfe719488ab2fca558fe668ac9747c3d6524",
+  "summary": "Pinned recovery batch verified; preparing scoped owner changes.",
+  "blocker": null
+}
