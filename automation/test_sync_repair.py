@@ -83,6 +83,28 @@ class SyncTests(unittest.TestCase):
     def test_terminal_receipt_deduplicates(self):
         api=FakeAPI();r=collector.enqueue(api,self.run_record(),self.report());p='automation/handoffs/results/sync-repair/'+r['request_id']+'.json';api.files['campaign-sync-test/regression',p]=json.dumps({'status':'complete'})
         self.assertEqual(collector.enqueue(api,self.run_record(),self.report())['status'],'terminal')
+    def test_artifact_redirect_strips_api_credentials(self):
+        import urllib.request
+        req=urllib.request.Request('https://api.github.com/repos/owner/campaign/actions/artifacts/1/zip',headers={'Authorization':'Bearer test-only'})
+        r=collector.SafeRedirect().redirect_request(req,None,302,'Found',{},'https://example.blob.core.windows.net/artifact.zip')
+        self.assertFalse(r.has_header('Authorization'))
+        with self.assertRaises(ValueError):collector.SafeRedirect().redirect_request(req,None,302,'Found',{},'http://example.com/artifact.zip')
+    def test_newer_main_can_supersede_failure(self):
+        api=FakeAPI();api.branches['main']='b'*40;run=dict(self.run_record(),head_branch='main')
+        report=dict(self.report(),scope='characters',phase='owners')
+        with patch.dict('os.environ',{'COLLECTOR_SOURCE_SHA':'b'*40}),patch.object(collector,'validate',return_value={'findings':[]}):
+            self.assertEqual(collector.enqueue(api,run,report)['status'],'already_resolved')
+        self.assertEqual(api.writes,0);self.assertEqual(api.prs,[])
+    def test_synthetic_rope_replay_debits_once_and_creates_inventory(self):
+        from automation import build_dashboard as d
+        for group in ('v','cirren','fenar'):
+            shutil.copytree(ROOT/'trackers/csv'/group,self.root/'trackers/csv'/group)
+        with patch.object(d,'ROOT',self.root),patch.object(d,'CSV',self.root/'trackers/csv'):
+            def payload():return {'party':[d.character('v','Valenthia','v-character.csv','v-inventory.csv')], 'inventory':{'Valenthia':d.inventory('v','v-inventory.csv')}}
+            a=payload();before=a['party'][0]['purse_cp'];d.apply_character_events(a)
+            b=payload();d.apply_character_events(b)
+            self.assertEqual(a,b);self.assertEqual(a['party'][0]['purse_cp'],before-2800)
+            rope=[i for i in a['inventory']['Valenthia'] if i['item']=='Rope of Mending'];self.assertEqual(len(rope),1);self.assertEqual(rope[0]['qty'],'1')
     def test_real_current_character_replay_scoped(self):
         # Read-only replay validates real resource bounds without altering any owner.
         self.assertEqual(validate(ROOT,'characters')['status'],'PASS')
