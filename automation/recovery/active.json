@@ -120,6 +120,32 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D273-VEYR-BORDER-TRANSIT-001",
+      "base_commit": "bb105959e4ea4c3f9455826c26c20f1055e3caf3",
+      "source_checkpoint": "D273-LATE-AFTERNOON-VEYR-CROSSING-APPROACH-001",
+      "destination_checkpoint": "D273-VEYR-WESTERN-BORDER-CROSSED-001",
+      "source_evidence": "Player's exact spoken reply to official at functioning Crownsunder–western Veyr surface commercial frontier, Day273 late afternoon: 'Passing through the common road to eastwatch'. Officer accepts stated lawful through-transit destination on the maintained commercial road via Caer Veylan; routine professional inspection/log of four travelers and personal traveling baggage is handled without a contested check, new identity assumption, named border paperwork or invented toll. There is no evidenced cause to detain, confiscate, reroute, investigate V's ancestry, demand a new quest, or obstruct the lawful commercial crossing. With existing V authorization to pass through and continue on the public road, officers independently wave the sound four-horse coach into western Veyr; no spell, attack, resource or expenditure. A few ordinary minutes pass, Day273 still late afternoon; no border charge, new magic item, property transfer or Day273 night roll. V's actual utterance is the only V speech; companions may be observant but make no commitments. Current V HP48/48 HD7/7, Second Wind1/1, ActionSurge1/1, Superiority4/4, Psi6/6, MP7/7, purse1137gp7sp6cp; Fenar59/59 HD4/6 Rage4/4 Shift3/3; Cirren51/51 HD6/6 full slots, Mara unharmed; rations12 person-days/feed16 animal-days, all four horses healthy, coach intact; Long Rest progress1/6. No fresh Day273 encounter, no arrival in Caer Veylan or Eastwatch. Next V choice: continue on eastern commercial road into Commonwealth or another lawful action.",
+      "pending_action": "Day273 late afternoon just inside western Veyran Commonwealth, after V states through-transit to Eastwatch and routine border officers wave through without toll/hold; party remains on maintained commercial road via Caer Veylan toward Eastwatch. V48/48 HD7/7 full combat/psionic resources, Fenar59/59 HD4/6 Rage4/4 Shift3/3, Cirren51/51 HD6/6 full spell slots, Mara well. V purse1137gp7sp6cp, 12 ration-person-days,16 horse-feed animal-days, four healthy horses and sound coach. Long Rest1/6. No Day273 nightfall or new travel check; V next direction unchosen.",
+      "depends_on": [
+        "PLAY-D268-273-TRAVEL-001"
+      ],
+      "events": [
+        {
+          "event_id": "D273-VEYR-COMMERCIAL-BORDER-ENTRY-001",
+          "accepted": true,
+          "evidence": "Player's exact spoken reply to official at functioning Crownsunder–western Veyr surface commercial frontier, Day273 late afternoon: 'Passing through the common road to eastwatch'. Officer accepts stated lawful through-transit destination on the maintained commercial road via Caer Veylan; routine professional inspection/log of four travelers and personal traveling baggage is handled without a contested check, new identity assumption, named border paperwork or invented toll. There is no evidenced cause to detain, confiscate, reroute, investigate V's ancestry, demand a new quest, or obstruct the lawful commercial crossing. With existing V authorization to pass through and continue on the public road, officers independently wave the sound four-horse coach into western Veyr; no spell, attack, resource or expenditure. A few ordinary minutes pass, Day273 still late afternoon; no border charge, new magic item, property transfer or Day273 night roll. V's actual utterance is the only V speech; companions may be observant but make no commitments. Current V HP48/48 HD7/7, Second Wind1/1, ActionSurge1/1, Superiority4/4, Psi6/6, MP7/7, purse1137gp7sp6cp; Fenar59/59 HD4/6 Rage4/4 Shift3/3; Cirren51/51 HD6/6 full slots, Mara unharmed; rations12 person-days/feed16 animal-days, all four horses healthy, coach intact; Long Rest progress1/6. No fresh Day273 encounter, no arrival in Caer Veylan or Eastwatch. Next V choice: continue on eastern commercial road into Commonwealth or another lawful action.",
+          "before": "Day273 late afternoon, V/Mara/Cirren/Fenar in intact four-horse coach on Crownsunder side of functioning legal commercial frontier into western Veyr; officer has asked destination and reason, no answer yet; no inspection, entry, toll, paperwork or custody change; V48/48 Fenar59/59 Cirren51/51, LongRest1/6, supplies12 ration-person-days/feed16.",
+          "after": "V states 'Passing through the common road to eastwatch.' Officer accepts lawful through-transit, routine basic visual/passenger/baggage check and log without contested suspicion, fee, seizure or required new paperwork; coach waved through maintained border lane into WESTERN VEYR on road via Caer Veylan towards Eastwatch. No exact crossing mile, border toll or named guard invented. Only minutes elapsed, still Day273 late afternoon, no encounter/rest/resource use, and party values/coach/horses/purse/stores unchanged. No arrival in Caer Veylan or Eastwatch, next travel step unchosen.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md"
+          ]
+        }
+      ]
     }
   ]
 }
