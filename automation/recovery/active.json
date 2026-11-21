@@ -172,6 +172,31 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D266-TROLLS-R6-001",
+      "base_commit": "82d8e99a36ba6a3448dfb07968c8c90ac0116843",
+      "source_checkpoint": "D266-NIGHT-ROAD-TROLLS-R6-V-001",
+      "destination_checkpoint": "D266-NIGHT-ROAD-TROLLS-R7-V-001",
+      "source_evidence": "Player: 'Action surge. Same thing.' With Superiority0, Quick Toss unavailable; V authorized normal Attack with Psychic Blade then Action Surge to Ready a mundane dart against troll attacks on Fenar/Cirren. All new d20/damage rolled genuinely with Python secrets (no fabrication). R6 shared initiative22: Fenar moves from fire(8,3) to(31,-9), Reckless torch attack vs A AC15 advantage(16,4)+STR5=21 hit, deals 1 FIRE A HP10->9; Beast Claw advantage(9,16)+8=24 hit d6(6)+7=13 A9->0; moves remaining 12ft to(25,0) adjacent B, extra claw advantage(3,3)+8=11 miss; shifted fang BA advantage(8,7)+8=16 hit d6(4)+7=11 B10->0. V moves from(28,-10) to(20,+5) within5ft unconscious B, Attack action Psychic Blade melee advantage(14,11)+7=21 hit, automatic critical due unconscious within5ft, damage 2d6(6,4)+DEX4+4d6 Sneak(3,2,6,6)=31 psychic (B remains at0, no fire/acid), moves to(15,-5) away from both downed foes. V Action Surge1->0 grants extra action Ready physical dart after enemy attacks Fenar/Cirren. A initiative15 begins turn at0 with fire damage since last turn: Regeneration suppressed, A DIES (no attacks). Cirren initiative9 moves near B(20,+5), BA Healing Word to Fenar 1st slot1->0, d4(4)+WIS5=9 Fenar HP13->22; action improvised burning torch attack against prone/unconscious B within5ft with advantage d20(6,8), fails AC15 (no fire); Spiritual Weapon remains active but no BA strike due Healing Word. Mara initiative8 leads healthy horses another ~20ft north to(-15,+60), coach(0,+15) remains stationary. B initiative7 at0 without fire/acid regenerates +10 to10, stands and multiattacks Reckless Fenar: bite advantage(5,19)+7=26 vsAC14 hit d6(6)+4=10 physical Rage halves5 Fenar22->17. V Readied dart reaction from(15,-5) ~14ft at B, Fenar adjacent B gives Sneak Attack; d20(12)+9=21 vsAC15 hit, damage d4(3)+DEX4+2d6 Sneak(4,5)=16, B10->0, stopping remaining claws. No further rolls or attacks this round; no fire damage against B, remains regenerating alive at0. End R6 tactical outcome stable.",
+      "pending_action": "Round7 V/Fenar initiative22. V27/48 at(15,-5), Superiority0, ActionSurge0. Fenar17/59 at(25,0), raging and shifted, with burning branch. Cirren49/51 at(20,+5), first-level slots0, firebrand/Spiritual Weapon active. Troll A confirmed dead; B HP0/84 alive down at(25,+5), not yet fire/acid damaged, regeneration available at its initiative7. Mara leading four healthy horses north, coach intact and stationary. V next action unchosen.",
+      "depends_on": [],
+      "events": [
+        {
+          "event_id": "D266-NIGHT-ROAD-TROLLS-R6-PLAY-001",
+          "accepted": true,
+          "evidence": "Player: 'Action surge. Same thing.' With Superiority0, Quick Toss unavailable; V authorized normal Attack with Psychic Blade then Action Surge to Ready a mundane dart against troll attacks on Fenar/Cirren. All new d20/damage rolled genuinely with Python secrets (no fabrication). R6 shared initiative22: Fenar moves from fire(8,3) to(31,-9), Reckless torch attack vs A AC15 advantage(16,4)+STR5=21 hit, deals 1 FIRE A HP10->9; Beast Claw advantage(9,16)+8=24 hit d6(6)+7=13 A9->0; moves remaining 12ft to(25,0) adjacent B, extra claw advantage(3,3)+8=11 miss; shifted fang BA advantage(8,7)+8=16 hit d6(4)+7=11 B10->0. V moves from(28,-10) to(20,+5) within5ft unconscious B, Attack action Psychic Blade melee advantage(14,11)+7=21 hit, automatic critical due unconscious within5ft, damage 2d6(6,4)+DEX4+4d6 Sneak(3,2,6,6)=31 psychic (B remains at0, no fire/acid), moves to(15,-5) away from both downed foes. V Action Surge1->0 grants extra action Ready physical dart after enemy attacks Fenar/Cirren. A initiative15 begins turn at0 with fire damage since last turn: Regeneration suppressed, A DIES (no attacks). Cirren initiative9 moves near B(20,+5), BA Healing Word to Fenar 1st slot1->0, d4(4)+WIS5=9 Fenar HP13->22; action improvised burning torch attack against prone/unconscious B within5ft with advantage d20(6,8), fails AC15 (no fire); Spiritual Weapon remains active but no BA strike due Healing Word. Mara initiative8 leads healthy horses another ~20ft north to(-15,+60), coach(0,+15) remains stationary. B initiative7 at0 without fire/acid regenerates +10 to10, stands and multiattacks Reckless Fenar: bite advantage(5,19)+7=26 vsAC14 hit d6(6)+4=10 physical Rage halves5 Fenar22->17. V Readied dart reaction from(15,-5) ~14ft at B, Fenar adjacent B gives Sneak Attack; d20(12)+9=21 vsAC15 hit, damage d4(3)+DEX4+2d6 Sneak(4,5)=16, B10->0, stopping remaining claws. No further rolls or attacks this round; no fire damage against B, remains regenerating alive at0. End R6 tactical outcome stable.",
+          "before": "Round6 start: V HP27/48(28,-10), Superiority0/4, ActionSurge1/1; Fenar13/59 Raging Shifted holding fire at(8,3); Cirren49/51 firebrand(25,-10), L1 1/4, active Spiritual Weapon; A10/84(31,-14), B10/84(25,+5), both regenerate unless fire/acid. Mara four horses ~(-15,+40), coach stationary; Long Rest0/6.",
+          "after": "Round6 end: Troll A DEAD (fire1 then dropped to0, death on its next turn at0 without regeneration). Troll B0/84 alive at(25,+5), NOT fire/acid damaged; will regenerate if condition persists at start its next turn. V27/48 at(15,-5), Superiority0/4, ActionSurge0/1, Psi6/6, MP7/7; melee Psychic Blade dealt31 critical damage against B already at0, later readied dart hit B for16 after its bite. Fenar17/59 at(25,0), Rage/Shift active, 0 tempHP, Rage charges remaining2/4, Shift charges remaining1/3. Cirren49/51 at(20,+5), L1 slots0/4, L2 1/3, L3 2/3, Spiritual Weapon active, holding burning torch. Mara guiding four healthy horses at(-15,+60), coach at(0,+15) intact stationary. R7 V/Fenar initiative22 pending; Day266 still night, LongRest0/6.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "data/characters/events.csv"
+          ]
+        }
+      ]
     }
   ]
 }
