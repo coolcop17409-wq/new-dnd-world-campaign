@@ -1,17 +1,70 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D267-268-FOLLOWUP-001",
-  "status": "partial",
+  "status": "complete",
   "claim_owner": "opened-pr9-1b35fc80",
   "claim_expires_at": "2026-11-21T22:08:02.721Z",
-  "phase": "owners_verified",
+  "phase": "checkpoint_verified",
   "owner_commit": "88c7fc41b16cb0abe437e4d4de384cd85d8cfb44",
   "tested_commit": "2ea59880b3192e33433d4a9c21996c8d64483560",
-  "summary": "All seven followup events now applied to owners; correction in prior phase; Day268 checkpoint next.",
+  "summary": "Seven accepted events applied and verified. Dependency recovered serially; correction applied once in predecessor phase. Newer Day268-270 recovery retained and explicitly identified as superseding historic pending choice.",
   "applied_event_ids": [
-    "D266-267-V-REST-HITDICE-SPEND-CORRECTION-001"
+    "D266-267-V-REST-HITDICE-SPEND-CORRECTION-001",
+    "D267-DAY-NIGHTGLASS-ROAD-TRAVEL-001",
+    "D267-CAMP-PRE-REST-SECONDWIND-001",
+    "D267-NIGHT-ROAD-WOLVES-FIRST-WARNING-001",
+    "D267-NIGHT-WOLVES-INTIMIDATION-001",
+    "D267-268-ROAD-CAMP-QUALIFIED-SHORTREST-001",
+    "D268-MORNING-PROVISIONS-001"
   ],
   "blocker": null,
   "prior_owner_commit": "147160da0049347072fd63fa52fec51e9e75a257",
-  "owners_verified": true
+  "owners_verified": true,
+  "checkpoint_verified": true,
+  "checkpoint_commit": "7203e1433dc82412a3d5c296cba61803b5a6390e",
+  "request_digest": "2b26effbdd4c811ca05ec075a1737c34a90136a096ce202ad04e89fe52e70777",
+  "request_commit": "9f203389884def07917aabed75cc97d7b0f3cecc",
+  "request_blob": "28127b9b2f4538289c9da47bf1080db94ba744d7",
+  "verified_event_ids": [
+    "D266-267-V-REST-HITDICE-SPEND-CORRECTION-001",
+    "D267-DAY-NIGHTGLASS-ROAD-TRAVEL-001",
+    "D267-CAMP-PRE-REST-SECONDWIND-001",
+    "D267-NIGHT-ROAD-WOLVES-FIRST-WARNING-001",
+    "D267-NIGHT-WOLVES-INTIMIDATION-001",
+    "D267-268-ROAD-CAMP-QUALIFIED-SHORTREST-001",
+    "D268-MORNING-PROVISIONS-001"
+  ],
+  "tests": [
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr9-request-journal.json --request /tmp/pr9-request.json --prior-requests /tmp/pr9-prior9.json",
+      "exit_code": 0,
+      "tested_commit": "bbbb3570d06fda259d245ad624a2361ebd86de11"
+    },
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr9-request.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "2ea59880b3192e33433d4a9c21996c8d64483560"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play",
+      "exit_code": 0,
+      "result": "41 passed",
+      "tested_commit": "2ea59880b3192e33433d4a9c21996c8d64483560"
+    }
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/88c7fc41b16cb0abe437e4d4de384cd85d8cfb44/archive/continuity/campaign-state-before-PLAY-D267-268-FOLLOWUP-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/88c7fc41b16cb0abe437e4d4de384cd85d8cfb44/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/88c7fc41b16cb0abe437e4d4de384cd85d8cfb44/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/88c7fc41b16cb0abe437e4d4de384cd85d8cfb44/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/88c7fc41b16cb0abe437e4d4de384cd85d8cfb44/prep/dm-only/dm-nightglass-route.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7203e1433dc82412a3d5c296cba61803b5a6390e/campaign/continuity/campaign-state.md"
+  ],
+  "generated_view_status": "derived-pending; not claimed verified",
+  "newer_recovery": "PLAY-REC-D268-270-TRAVEL-001 retained, not applied by this batch",
+  "cleanup_status": "pending"
 }
