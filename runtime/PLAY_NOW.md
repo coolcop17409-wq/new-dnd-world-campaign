@@ -1,31 +1,31 @@
 # LIVE PLAY — generated fast packet
 
 **Read-only convenience, NOT an authority or a record of new events.**
-Source: `campaign/continuity/campaign-state.md` (SHA256 `5ce89457cd2cfce5134e1dcd1033fe814c8b3a04eedf1f21f96e108c2fe210bc`).
-Dashboard SHA256: `c23ff62de33e716a7cb3d8871fd35fdb7e2e4b93d1853a9eb4547ad25517f33b`.
-Confirmed campaign day: **274**.
-Newest played event: `D274-WTR-VENT-FOUR-WORKERS-EVACUATED-001`.
+Source: `campaign/continuity/campaign-state.md` (SHA256 `1be00e935a0038eafc5a71cba532fdbe0e3f465b636875f0f8d930978a71ddd7`).
+Dashboard SHA256: `aa83431973a132333a16f05edef45956111b88fdd519e8db67b02e35f615a48b`.
+Confirmed campaign day: **275**.
+Newest played event: `D274-WTR-DECLINE-CLEARANCE-AND-D275-ROAD-001`.
 
 ## Exact playable checkpoint (verbatim from owner)
 
-CAMPAIGN_STATE — DAY 274 EARLY AFTERNOON — WTR FOUR WORKERS SAFE
+CAMPAIGN_STATE — DAY 275 LATE AFTERNOON — WESTERN VEYR ROAD
 
-CURRENT EXACT PLAYED CHECKPOINT — D274-EARLY-AFTERNOON-WTR-FOUR-SAFE-001; latest owning event D274-WTR-VENT-FOUR-WORKERS-EVACUATED-001.
+CURRENT EXACT PLAYED CHECKPOINT — D275-LATE-AFTERNOON-VEYR-ROAD-001; latest owning event D274-WTR-DECLINE-CLEARANCE-AND-D275-ROAD-001.
 
 EXACT PENDING V DECISION:
-Day274 approx13:45 at road-cutting outer muster north of second Veyran trunk layby, four trapped workers evacuated alive using narrow ventilation bypass with WTR staff support. WTR forewoman/officer and rescued crew independently coordinating aftermath. Unknown hazardous annex remains, main haul loaded skip jammed but road open. V48/48 HP full resources, Fenar59/59 full Rage/Shift, Cirren51/51 full spell slots; Mara and four healthy V horses with intact coach at muster. No spell, limited resource, money, ration or feed spent; LongRest2/6; purse1137gp7sp6cp, rations9/feed12. V has NOT chosen optional annex clearance or recommenced eastward journey. Next choice leave, inspect/secure hazard, speak with staff or something else.
+Day275 late afternoon traveling on established well-patrolled western Veyr trunk toward Caer Veylan then Eastwatch, after safely declining unfunded optional WTR annex clearance and returning worksite gear. Four workers rescued and forewoman/officer controlling closed hazard. V48/48 HP HD7/7 resources full; Fenar59/59 HP HD4/6 Rage4/4 Shift3/3; Cirren51/51 HP HD6/6 slots full; Mara healthy, four healthy horses/coach sound. Rest progress3/6 after quiet night274; carried provisions6 ration-person-days/feed8 horse animal-days, personal purse1137gp7sp6cp. Day275 daytime roll33 quiet, night275 has not happened. Player next travel/camp/possible supply stop decision unchosen.
 
 PARTY AND CUSTODY
 V Reborn Rogue4/Fighter3 HP48/48 AC19 HD7/7 (Fighter3d10/Rogue4d8); SecondWind1/1, ActionSurge1/1, Superiority4/4, Psi6/6, PsiRecovery1/1, PastLife3/3, MP7/7. Purse1137gp7sp6cp. Galepierce Dart qty1, Rope of Mending, silver sword and sealed A-04 retained.
 Fenar Beast Barbarian6 HP59/59 AC14 HD4/6 Rage4/4 Shift3/3 MP6/6; no active Rage/Shift/tempHP.
 Cirren Knowledge Cleric6 HP51/51 AC18 HD6/6 slots L1 4/4 L2 3/3 L3 3/3 ChannelDivinity2/2; signed compact retained.
-Mara unharmed with intact V-owned coach and four healthy horses at muster. Rations9 person-days/feed12 animal-days after Day274 morning allocation only. Worksite rescue ropes/lanterns are loans, no personal inventory/title transfer. No rescue expenditure, reward or treasure.
+Mara healthy with intact V-owned coach and four healthy horses. Rations6 person-days/feed8 animal-days after Day275 morning allocation. All worksite ropes and lanterns returned intact at Day274 departure; no continuing loan custody. Purse unchanged; no reward, contract, fee or treasure. Weighted Long Rest3/6, not complete.
 
 ACCEPTED CAUSAL HISTORY
-Lawful Veyr entry Day273 after V stated “Passing through the common road to eastwatch”; no fee. Night273 d10050 vs01–03 quiet qualifying wilderness Short Rest; Long Rest1→2/6 dawn274, not full Long Rest. Day274 ration/feed debit3/4 once. Day274 heavily patrolled daytime d10017 vs01–07 no random encounter. Independently activated WTR incident10:00; carter contact11:30. V instructed verification then aid if genuine: Insight advantage16/6+4=20/DC14 with Cirren Help; Fenar Survival17+5=22/DC12. Party reached muster about12:40. V directed ventilation passage and workers to safety first; deliberate roped evacuation completed13:40–13:50, all four workers alive4/4HP. No combat, damage, spells, limited-resource spending, rest rollover, annex clearance or onward departure. No Day274 night roll. Main road open; site unsafe for routine reopening.
+After four-worker rescue, V conditioned further hazardous clearance on funds. WTR-O lacked authority to promise payment; WTR-F accepted hazard restriction and alternate supply as the alternative. V said “ok then we move on”, declining unpaid clearance. Departed about13:45–14:00 Day274, returned gear, took approximately one hour down the established spur, resumed eastward highway travel. Day274 daytime17 was not rerolled. Exposed night274 d10014 vs01–03 quiet; qualifying wilderness Short Rest, no HD/HP/spell/limited-resource use; Long Rest2→3/6 at dawn275. Once-only Day275 consumption3 ration-days/4 feed-days. Day275 daytime d10033 vs01–07 quiet; ordinary travel to late afternoon. No Caer Veylan/Eastwatch arrival, new border, exact mileage, new encounter, additional purchase or Day275 night roll. WTR four rescued workers remain safe; hazardous annex not cleared, local staff responsible; no further V obligation.
 
 OWNER POINTERS
-SESSION_LOG holds the five accepted events and exact evidence; character journal owns two provision deductions; INVENTORY owns custody; QUESTS/NPCS and private Nightglass route record rescue status. Previous checkpoint archived at archive/continuity/campaign-state-before-PLAY-D274-WTR-VENT-RESCUE-001.md. Recovery journal may contain newer accepted play: reconcile without replaying it.
+SESSION_LOG preserves both exact events and accepted evidence; character journal owns two Day275 provision postings; INVENTORY owns returned gear and supplies; QUESTS/NPCS record declined optional clearance and independent staff response. Previous checkpoint archived at archive/continuity/campaign-state-before-PLAY-D274-275-DEPART-001.md. Recovery journal may hold newer accepted play; reconcile without replaying it.
 
 ## Current character counters (CSV baselines + posted event overlay)
 
