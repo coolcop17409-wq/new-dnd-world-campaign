@@ -28,6 +28,33 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D275-V-VISIONS-CONVERSATION-001",
+      "base_commit": "649de5baa49ea4f92175f114c020ae0362334c49",
+      "source_checkpoint": "D275-LATE-AFTERNOON-NIGHTGLASS-COMPARISON-001",
+      "destination_checkpoint": "D275-LATE-AFTERNOON-VISIONS-CONVERSATION-001",
+      "source_evidence": "Day275 late afternoon in four-horse coach heading east on maintained western Veyr commercial highway toward Caer Veylan/Eastwatch/Nightglass. After Mara asked which Nightglass experience has stayed with him most, player exact in-character V statement: \"The visions… i haven’t had many since then\". This explicitly establishes V has experienced relatively FEW visions SINCE the prior Nightglass visit, not that there were zero, not a precise count/date, and not a fresh vision. Mara responds compassionately that she had wondered whether V still experienced them, recognizing the unsettling older Nightglass voice/heart experiences; Cirren observes that V's memories survived the Severing while origin/trigger of these specific visions is unproved, proposes separating hypotheses rather than declaring Nightglass or the heart the cause. Fenar independently asks whether V misses them. Mara asks whether V pursued visions for evidence or felt them as a glimpse of his personal past. No V follow-up response, choice or emotion assigned. Companion dialogue conveys only known facts/hypotheses, not a new memory, supernatural event, rumor, Edric correspondence or private quest revelation. No game time, travel milestone, checks, spells, items, HP, rations, horse feed, money, overnight/encounter roll or resource change. Party V48/48 full V resources, Fenar59/59, Cirren51/51, Mara unharmed; Long Rest3/6; provisions6 ration-person-days, feed8 animal-days; purse1137gp7sp6cp; four horses and coach healthy.",
+      "pending_action": "Day275 late afternoon aboard healthy party coach on Veyr trade road east toward Caer Veylan/Eastwatch/Nightglass. V has just disclosed the visions are what stayed with him, and he has had relatively few since Nightglass; Mara and Fenar ask what the visions mean to him and whether he misses them, Cirren considers unverified triggers. Await V's personal response; no new vision or mechanism claimed. Party V48/48, Fenar59/59, Cirren51/51, LongRest3/6, rations6/feed8, personal purse1137gp7sp6cp, four healthy horses/coach; no time or resources change.",
+      "depends_on": [
+        "PLAY-D274-275-DEPART-001"
+      ],
+      "events": [
+        {
+          "event_id": "D275-NIGHTGLASS-VISIONS-FEW-SINCE-CONVERSATION-001",
+          "accepted": true,
+          "evidence": "Day275 late afternoon in four-horse coach heading east on maintained western Veyr commercial highway toward Caer Veylan/Eastwatch/Nightglass. After Mara asked which Nightglass experience has stayed with him most, player exact in-character V statement: \"The visions… i haven’t had many since then\". This explicitly establishes V has experienced relatively FEW visions SINCE the prior Nightglass visit, not that there were zero, not a precise count/date, and not a fresh vision. Mara responds compassionately that she had wondered whether V still experienced them, recognizing the unsettling older Nightglass voice/heart experiences; Cirren observes that V's memories survived the Severing while origin/trigger of these specific visions is unproved, proposes separating hypotheses rather than declaring Nightglass or the heart the cause. Fenar independently asks whether V misses them. Mara asks whether V pursued visions for evidence or felt them as a glimpse of his personal past. No V follow-up response, choice or emotion assigned. Companion dialogue conveys only known facts/hypotheses, not a new memory, supernatural event, rumor, Edric correspondence or private quest revelation. No game time, travel milestone, checks, spells, items, HP, rations, horse feed, money, overnight/encounter roll or resource change. Party V48/48 full V resources, Fenar59/59, Cirren51/51, Mara unharmed; Long Rest3/6; provisions6 ration-person-days, feed8 animal-days; purse1137gp7sp6cp; four horses and coach healthy.",
+          "before": "Day275 late afternoon, coach traveling east through western Veyr, ongoing Nightglass provenance discussion; Mara asks which old Nightglass experience stayed with V most. No V answer to that question yet. V48/48, Fenar59/59, Cirren51/51, LongRest3/6, provisions6 person-days/feed8 animal-days, no new in-world action.",
+          "after": "V identifies visions as most memorable and says he has not had many since prior Nightglass visit. This is a qualitative report only, not new vision or zero-visions claim. Mara/Cirren/Fenar independently discuss uncertainty over visions' source and emotional significance, asking whether V misses them or found them a connection to his past. No player answer/acceptance, new revelation, rest, travel, ability/resource/coin/custody change. Day275 late afternoon unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
   ]
 }
