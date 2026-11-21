@@ -456,7 +456,7 @@
     {
       "name": "Valenthia",
       "level": "7",
-      "hp": "48.0",
+      "hp": "27.0",
       "max_hp": "48",
       "ac": "19",
       "initiative": "4",
@@ -506,13 +506,13 @@
         },
         {
           "name": "Action Surge",
-          "current": "1.0",
+          "current": "0.0",
           "max": "1",
           "recovery": "Short Rest"
         },
         {
           "name": "Superiority Dice",
-          "current": "4.0",
+          "current": "0.0",
           "max": "4",
           "recovery": "Short Rest / Long Rest"
         }
@@ -541,13 +541,13 @@
         },
         {
           "name": "Spell Slots (1st)",
-          "current": "3.0",
+          "current": "0.0",
           "max": "4",
           "recovery": "Long Rest"
         },
         {
           "name": "Spell Slots (2nd)",
-          "current": "2.0",
+          "current": "1.0",
           "max": "3",
           "recovery": "Long Rest"
         },
@@ -581,7 +581,7 @@
     {
       "name": "Fenar",
       "level": "6",
-      "hp": "58.0",
+      "hp": "17.0",
       "max_hp": "59",
       "ac": "14",
       "initiative": "2",
@@ -589,13 +589,13 @@
       "resources": [
         {
           "name": "Rage",
-          "current": "3.0",
+          "current": "2.0",
           "max": "4",
           "recovery": "Long Rest only"
         },
         {
           "name": "Shift",
-          "current": "2.0",
+          "current": "1.0",
           "max": "3",
           "recovery": "Long Rest"
         },
