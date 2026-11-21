@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D274-WTR-VENT-RESCUE-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr12-7a92d8d0",
+  "claim_expires_at": "2026-11-21T23:42:25.074Z",
+  "request_commit": "fe007d2fc4713e5e82f4b05a28f36cc979f3ade8",
+  "request_blob": "abbda7696d024ecbe1c6ccd4c2e11f63050aa419",
+  "summary": "Pinned journal and exact prior request history verified; dependency complete. Preparing minimal owner changes.",
+  "blocker": null,
+  "applied_event_ids": []
+}
