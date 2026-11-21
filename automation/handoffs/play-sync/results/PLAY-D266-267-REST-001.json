@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D266-267-REST-001",
+  "status": "partial",
+  "claim_owner": "opened-pr8-866d0960",
+  "claim_expires_at": "2026-11-21T21:47:48.243Z",
+  "request_commit": "cc41ddadec68cd485d5ceaeec3ff05174083dc3b",
+  "request_blob": "eb8d2aa133ae84c406bea6f934da6b1b54b457a8",
+  "summary": "Pinned request verified; prior batch complete; preparing accepted rest owners.",
+  "blocker": null
+}
