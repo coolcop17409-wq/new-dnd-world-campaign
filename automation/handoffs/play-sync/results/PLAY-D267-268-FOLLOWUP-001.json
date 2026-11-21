@@ -3,12 +3,13 @@
   "request_id": "PLAY-D267-268-FOLLOWUP-001",
   "status": "partial",
   "claim_owner": "opened-pr9-1b35fc80",
-  "claim_expires_at": "2026-11-21T22:06:44.176Z",
-  "request_commit": "9f203389884def07917aabed75cc97d7b0f3cecc",
-  "request_blob": "28127b9b2f4538289c9da47bf1080db94ba744d7",
-  "summary": "Pinned provenance verified. Recover dependency with explicit newer correction; then remaining followup.",
-  "phase": "claimed",
-  "blocker": null,
-  "owner_commit": null,
-  "checkpoint_commit": null
+  "claim_expires_at": "2026-11-21T22:08:02.721Z",
+  "phase": "dependency_owners_verified",
+  "owner_commit": "147160da0049347072fd63fa52fec51e9e75a257",
+  "tested_commit": "bc8e4e0",
+  "summary": "Predecessor owners plus first followup correction verified; checkpoint next. Remaining followup events not yet applied.",
+  "applied_event_ids": [
+    "D266-267-V-REST-HITDICE-SPEND-CORRECTION-001"
+  ],
+  "blocker": null
 }

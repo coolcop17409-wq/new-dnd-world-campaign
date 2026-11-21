@@ -3,12 +3,15 @@
   "request_id": "PLAY-D266-267-REST-001",
   "status": "partial",
   "claim_owner": "opened-pr9-1b35fc80",
-  "claim_expires_at": "2026-11-21T22:06:44.176Z",
-  "request_commit": "cc41ddadec68cd485d5ceaeec3ff05174083dc3b",
-  "request_blob": "eb8d2aa133ae84c406bea6f934da6b1b54b457a8",
-  "summary": "Pinned provenance verified. Recover dependency with explicit newer correction; then remaining followup.",
-  "phase": "claimed",
-  "blocker": null,
-  "owner_commit": null,
-  "checkpoint_commit": null
+  "claim_expires_at": "2026-11-21T22:08:02.721Z",
+  "phase": "dependency_owners_verified",
+  "owner_commit": "147160da0049347072fd63fa52fec51e9e75a257",
+  "tested_commit": "bc8e4e0",
+  "summary": "Predecessor owners plus first followup correction verified; checkpoint next. Remaining followup events not yet applied.",
+  "applied_event_ids": [
+    "D266-NIGHT-NEARBY-CAMP-SECONDWIND-001",
+    "D266-267-NIGHT-WILDERNESS-SHORTREST-001",
+    "D267-MORNING-ROAD-DEPART-PROVISIONS-001"
+  ],
+  "blocker": null
 }
