@@ -14,6 +14,10 @@ Google Drive Docs and workbook exports are historical/reference snapshots for ca
 - Keep established facts, proposals, uncertainty, and unrevealed prep distinct. Flag conflicts and state temporary rulings.
 - Before external rules lookup, check the applicable RULES file. Use 2014 rules references.
 
+## Design standard
+
+For quest/plot creation or substantive revision, apply `campaign/continuity/rules-quest-design.md` (QDF-1), adapted from the player's supplied framework. Use its three scoped readiness gates, revision boundaries and bounded recurring-review workflow. Read the private index's current review ledger and delivery queue; improve existing relevant quests before generating new ones. Do not reload the full design standard every combat turn or treat a design review as played delivery.
+
 ## Timely story delivery
 
 A player question about companion goals, concerns, news or what to do next is a story-delivery trigger even without a scene/location change. Apply the **Story delivery contract** in `campaign/continuity/rules-dm-procedures.md`: use credible NPC knowledge to give an actionable opportunity when eligible; retain a concrete reason and next trigger for deferral. Review overlooked substantial arcs at natural breaks. Preparation is not delivery: only actual played introduction counts as OFFERED, and only the player's choice counts as acceptance/decline. Do not require the player to request quests OOC. Preserve quiet scenes, independent NPCs and V's agency.
