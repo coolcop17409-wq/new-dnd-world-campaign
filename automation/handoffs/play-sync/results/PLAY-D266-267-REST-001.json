@@ -6,7 +6,7 @@
   "claim_expires_at": "2026-11-21T22:08:02.721Z",
   "phase": "checkpoint_verified",
   "owner_commit": "147160da0049347072fd63fa52fec51e9e75a257",
-  "tested_commit": "bc8e4e06f0800fec42f5b808e1c119a5d44d6b6e",
+  "tested_commit": "ea5d83ece500941887b148eda165aaf4f14db8a7",
   "summary": "Three predecessor events applied; V HP/HD superseded by exact correction from PR9, recorded in same owner phase. Corrected Day267 checkpoint verified.",
   "applied_event_ids": [
     "D266-NIGHT-NEARBY-CAMP-SECONDWIND-001",
@@ -27,6 +27,17 @@
       "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play",
       "exit_code": 0,
       "result": "41 passed"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "ea5d83ece500941887b148eda165aaf4f14db8a7"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play",
+      "exit_code": 0,
+      "result": "41 passed",
+      "tested_commit": "ea5d83ece500941887b148eda165aaf4f14db8a7"
     }
   ],
   "verified_event_ids": [
@@ -40,6 +51,7 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/147160da0049347072fd63fa52fec51e9e75a257/campaign/continuity/inventory.md",
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/8f868d5dc73d1ec6c58462dc1d63029395297c54/campaign/continuity/campaign-state.md"
   ],
-  "generated_view_status": "derived-pending",
-  "request_digest": "6c7f2ab0a54be094a079c9ed7b3527fce84f94b7b8f0cea1f299e9b4960c9fcd"
+  "generated_view_status": "verified packet hashes and Day268 checkpoint at ea5d83ece500941887b148eda165aaf4f14db8a7",
+  "request_digest": "6c7f2ab0a54be094a079c9ed7b3527fce84f94b7b8f0cea1f299e9b4960c9fcd",
+  "cleanup_status": "verified matching entries pruned; newer Day270 entries preserved"
 }

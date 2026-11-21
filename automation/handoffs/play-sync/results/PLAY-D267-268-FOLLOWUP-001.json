@@ -6,7 +6,7 @@
   "claim_expires_at": "2026-11-21T22:08:02.721Z",
   "phase": "checkpoint_verified",
   "owner_commit": "88c7fc41b16cb0abe437e4d4de384cd85d8cfb44",
-  "tested_commit": "2ea59880b3192e33433d4a9c21996c8d64483560",
+  "tested_commit": "ea5d83ece500941887b148eda165aaf4f14db8a7",
   "summary": "Seven accepted events applied and verified. Dependency recovered serially; correction applied once in predecessor phase. Newer Day268-270 recovery retained and explicitly identified as superseding historic pending choice.",
   "applied_event_ids": [
     "D266-267-V-REST-HITDICE-SPEND-CORRECTION-001",
@@ -54,6 +54,17 @@
       "exit_code": 0,
       "result": "41 passed",
       "tested_commit": "2ea59880b3192e33433d4a9c21996c8d64483560"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "ea5d83ece500941887b148eda165aaf4f14db8a7"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play",
+      "exit_code": 0,
+      "result": "41 passed",
+      "tested_commit": "ea5d83ece500941887b148eda165aaf4f14db8a7"
     }
   ],
   "owner_refs": [
@@ -64,7 +75,7 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/88c7fc41b16cb0abe437e4d4de384cd85d8cfb44/prep/dm-only/dm-nightglass-route.md",
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7203e1433dc82412a3d5c296cba61803b5a6390e/campaign/continuity/campaign-state.md"
   ],
-  "generated_view_status": "derived-pending; not claimed verified",
+  "generated_view_status": "verified packet hashes and Day268 checkpoint at ea5d83ece500941887b148eda165aaf4f14db8a7",
   "newer_recovery": "PLAY-REC-D268-270-TRAVEL-001 retained, not applied by this batch",
-  "cleanup_status": "pending"
+  "cleanup_status": "verified matching entries pruned; newer Day270 entries preserved"
 }
