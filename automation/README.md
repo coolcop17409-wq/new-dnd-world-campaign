@@ -47,3 +47,7 @@ For a known market, present existing verified offers from current scene/Stock wi
 ## Nonblocking specialist handoff queue
 
 See `automation/handoffs/README.md`. Existing scheduled tasks (shops, quests, estates, atlas, record maintenance) act as separate workers over immutable lane requests and verified result receipts. This does not instantly trigger an arbitrary chat, and does not replace authoritative campaign journals. `automation/handoffs/validate.py` and `.github/workflows/handoff-validate.yml` check file integrity only; they never run gameplay or research.
+
+## Background synchronization repair
+
+See `handoffs/sync-repair/README.md` for the implemented scoped preflight, diagnostics, stable-signature queue/draft-PR collector, Work subscription and scheduled fallback. `sync_validate.py` checks only the requested subsystem; `sync_batch.py` provides strict idempotent append helpers. Generated writes use `publish_generated.py`, rejecting source-head changes instead of rebasing stale output. Verification status is in `handoffs/sync-repair/IMPLEMENTATION_REPORT.md`.

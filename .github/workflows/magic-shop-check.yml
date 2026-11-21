@@ -5,6 +5,11 @@ on:
     paths:
       - "trackers/csv/magic-shops/**"
       - ".github/workflows/magic-shop-check.yml"
+  pull_request:
+    paths:
+      - "trackers/csv/magic-shops/**"
+      - "automation/sync_validate.py"
+      - ".github/workflows/magic-shop-check.yml"
   workflow_dispatch:
 
 permissions:
@@ -19,6 +24,14 @@ jobs:
       - name: Validate actual shop owners, lots and event identities
         run: |
           python3 -m py_compile automation/tracker_validate.py
-          python3 automation/tracker_validate.py
+          python3 automation/sync_validate.py --scope shops
       - name: Mark market-only status
         run: echo "No estate ledger, Blackthorn, tax, or dashboard posting was run for this magic-market check."
+      - name: Preserve failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: campaign-sync-diagnostic
+          path: reports/sync-diagnostic.json
+          if-no-files-found: warn
+          retention-days: 90

@@ -5,6 +5,9 @@ on:
     paths:
       - "automation/handoffs/**"
       - ".github/workflows/handoff-validate.yml"
+  pull_request:
+    paths:
+      - "automation/handoffs/**"
   workflow_dispatch:
 
 permissions:
@@ -19,4 +22,12 @@ jobs:
       - name: Validate handoff file format without performing gameplay
         run: |
           python3 -m unittest automation.handoffs.test_validate -v
-          python3 automation/handoffs/validate.py
+          python3 automation/sync_validate.py --scope handoffs
+      - name: Preserve failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: campaign-sync-diagnostic
+          path: reports/sync-diagnostic.json
+          if-no-files-found: warn
+          retention-days: 90

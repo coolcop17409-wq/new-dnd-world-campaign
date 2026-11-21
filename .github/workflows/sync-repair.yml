@@ -1,0 +1,49 @@
+name: Queue campaign synchronization repair
+on:
+  workflow_run:
+    workflows:
+      - Lightweight live-play validation
+      - Campaign character journal validation
+      - Magic shops — lightweight stock validation
+      - Handoff queue integrity (not a background ChatGPT worker)
+      - Estate audit and campaign dashboard
+      - Campaign synchronization regression
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: 'Existing failed validation run to retry idempotently'
+        required: true
+        type: string
+concurrency:
+  group: campaign-repair-collector
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+jobs:
+  collect:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out trusted default-branch collector only
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Record trusted source SHA
+        run: echo "COLLECTOR_SOURCE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Deduplicate and open isolated diagnostic draft
+        env:
+          GH_TOKEN: ${{ secrets.CAMPAIGN_REPAIR_TOKEN || github.token }}
+          FAILURE_RUN_ID: ${{ inputs.run_id }}
+        run: python3 automation/handoffs/sync-repair/collect.py
+      - name: Preserve collection receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: campaign-repair-collection
+          path: reports/repair-collection.json
+          if-no-files-found: warn
+          retention-days: 90

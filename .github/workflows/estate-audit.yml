@@ -143,20 +143,18 @@ jobs:
             exit 1
           fi
 
-      - name: Commit generated campaign reports
-        if: always()
-        run: |
-          if [ -z "$(git status --porcelain -- reports/estate-review.md reports/estate-ledger.json reports/blackthorn-operations.json reports/routine-accrual-preview.json reports/blackthorn-tax.json reports/magic-shop-review-queue.json reports/tracker-validation.json dashboard/dashboard.json runtime/PLAY_NOW.md data/estate/events.csv data/estate/routine-accrual-meta.json)" ]; then
-            echo "Generated campaign reports have no changes."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/estate-review.md reports/estate-ledger.json reports/blackthorn-operations.json reports/routine-accrual-preview.json reports/blackthorn-tax.json reports/magic-shop-review-queue.json reports/tracker-validation.json dashboard/dashboard.json runtime/PLAY_NOW.md data/estate/events.csv data/estate/routine-accrual-meta.json
-          git commit -m "Refresh campaign tracker reports [skip ci]"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push
+      - name: Publish successful reports at unchanged source head
+        if: steps.generate.outcome == 'success' && github.ref == 'refs/heads/main'
+        run: python3 automation/publish_generated.py reports/estate-review.md reports/estate-ledger.json reports/blackthorn-operations.json reports/routine-accrual-preview.json reports/blackthorn-tax.json reports/magic-shop-review-queue.json reports/tracker-validation.json dashboard/dashboard.json runtime/PLAY_NOW.md data/estate/events.csv data/estate/routine-accrual-meta.json
 
       - name: Mark validation findings as workflow failure
         if: steps.generate.outcome == 'failure'
         run: exit 1
+      - name: Preserve failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: campaign-sync-diagnostic
+          path: reports/sync-diagnostic.json
+          if-no-files-found: warn
+          retention-days: 90
