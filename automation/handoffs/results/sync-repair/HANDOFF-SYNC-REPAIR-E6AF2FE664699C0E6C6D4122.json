@@ -1,0 +1,9 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-E6AF2FE664699C0E6C6D4122",
+  "status": "partial",
+  "claim_owner": "opened-pr7-4d14a0ee",
+  "claim_expires_at": "2026-11-21T20:20:29.385Z",
+  "summary": "Synthetic fixture status repair; current test base remains unfixed.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry"
+}
