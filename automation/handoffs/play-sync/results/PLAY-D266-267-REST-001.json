@@ -1,11 +1,46 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D266-267-REST-001",
-  "status": "partial",
+  "status": "blocked",
   "claim_owner": "opened-pr8-866d0960",
-  "claim_expires_at": "2026-11-21T21:47:48.243Z",
+  "claim_expires_at": "2026-11-21T21:24:55.674Z",
   "request_commit": "cc41ddadec68cd485d5ceaeec3ff05174083dc3b",
   "request_blob": "eb8d2aa133ae84c406bea6f934da6b1b54b457a8",
-  "summary": "Pinned request verified; prior batch complete; preparing accepted rest owners.",
-  "blocker": null
+  "summary": "Pinned batch verified and candidate tested, but no owners published: concurrent accepted V Hit Dice correction supersedes this request's final HP/HD and pending state.",
+  "blocker": "Main eda64329f6bd8d84bc2ef0beee299b1124fbf762 added PLAY-REC-D266-267-V-HD-CORRECTION-001: V HP31→42 and HD7→5 during same rest. Immutable request states HP31/HD7. Publishing its final checkpoint would contradict newer accepted evidence. No transport for correction was supplied in this event.",
+  "phase": "prepublication_newer_correction",
+  "next_trigger": "Reconcile original batch together with durable correction through existing queue/maintenance; preserve immutable request and both recovery entries. No new PR/task created by this worker.",
+  "owner_commit": null,
+  "checkpoint_commit": null,
+  "owners_verified": false,
+  "tested_commit": "e6a65c00a3d63699dfb1a3a3ef61151403edcddc",
+  "tested_commit_location": "local candidate only; not published",
+  "trusted_main_commit": "7932ba4f162326094b1d3e9db56b9780e1299e48",
+  "tests": [
+    {
+      "command": "python3 -m automation.recovery_batch verify automation/recovery/active.json --request /tmp/pr8-request.json --prior-requests /tmp/pr8-prior.json",
+      "exit_code": 0,
+      "tested_commit": "7932ba4f162326094b1d3e9db56b9780e1299e48"
+    },
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr8-request.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play",
+      "exit_code": 0,
+      "result": "41 tests passed on candidate; this does not resolve newer accepted evidence"
+    }
+  ],
+  "applied_event_ids": [],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/eda64329f6bd8d84bc2ef0beee299b1124fbf762/automation/recovery/active.json",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/eda64329f6bd8d84bc2ef0beee299b1124fbf762/campaign/continuity/campaign-state.md"
+  ],
+  "publication_note": "GitHub update_ref returned error; fresh main fetch and git diff confirm only newer recovery entry, no owner changes. Candidate commit objects not applied to main.",
+  "generated_view_status": "unchanged; checkpoint not published"
 }
