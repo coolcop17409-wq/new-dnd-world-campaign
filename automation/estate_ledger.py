@@ -66,6 +66,34 @@ def prerequisite_tasks():
                              "evidence":row.get("source_and_limits", ""),"source":str(live_path)}
  return tasks
 
+def order_ledger_events(events):
+ """Keep legacy day order; explicit *_after_event legs follow their same-day source.
+
+ reference_id names a real event, never an instruction to bypass a balance check.
+ This permits newly produced stock to be reserved and reconciled opening advances
+ to be earned after their source correction without changing historical rows.
+ """
+ import heapq
+ ordered=sorted(events,key=lambda r:(dec(r.get("effective_day","0")),r.get("event_type")=="retcon_adjustment"))
+ by_id={r.get("event_id"):i for i,r in enumerate(ordered)}
+ edges=defaultdict(list);degree=[0]*len(ordered)
+ for i,r in enumerate(ordered):
+  if not r.get("event_type","").endswith("_after_event"):continue
+  anchor=r.get("reference_id","")
+  if anchor not in by_id:raise ValueError(f"{r.get('event_id')}: missing posting predecessor {anchor}")
+  j=by_id[anchor]
+  if dec(ordered[j].get("effective_day","0"))!=dec(r.get("effective_day","0")):
+   raise ValueError(f"{r.get('event_id')}: posting predecessor must share actual day")
+  edges[j].append(i);degree[i]+=1
+ heap=[i for i,n in enumerate(degree) if not n];heapq.heapify(heap);result=[]
+ while heap:
+  i=heapq.heappop(heap);result.append(ordered[i])
+  for j in edges[i]:
+   degree[j]-=1
+   if not degree[j]:heapq.heappush(heap,j)
+ if len(result)!=len(ordered):raise ValueError("cyclic explicit posting predecessors")
+ return result
+
 def authorized_retcon(row, manifests):
  """A signed correction must exactly match a resolved, player-authorized manifest."""
  if row.get("event_type") != "retcon_adjustment":return False
@@ -156,7 +184,7 @@ def main():
   else:
    ledger_event_rows.extend(operation_report.get("ledger_events",[]))
  # Retrospective net adjustments reconcile after all original/bridged activity on their recording day.
- ledger_event_rows.sort(key=lambda row: (dec(row.get("effective_day", "0")), row.get("event_type") == "retcon_adjustment"))
+ ledger_event_rows=order_ledger_events(ledger_event_rows)
  for row in ledger_event_rows:
   eid=(row.get("event_id") or "").strip();estate=(row.get("estate") or "").strip()
   if not eid:errors.append("event without an event ID");continue

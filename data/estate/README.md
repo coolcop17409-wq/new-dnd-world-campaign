@@ -34,6 +34,9 @@ Re-read before writing; use scoped atomic Git trees/commits and expected-head up
 
 ## Latest estate run
 
+D266-ESTATE-CATCHUP-001 owns the new245–266 chronological run, including remaining244storage. Consult ADMIN-ESTATE-D266-20261121-01 and the latest per-estate Posting coverage rows for **verified** completion; preparation alone does not advance the cutoff. Current future commitments/custody are C266-NEXT-*/C266-CUSTODY/C266-RB-CUSTODY. Older paragraphs below describe their recording-day position, not later balances.
+
+Prior run: 
 D244-ESTATE-CATCHUP-001 is newly authorized offscreen adjudication through the live Day244 early-evening checkpoint, preserving V's scene and choices. It covers completed Days231–243 and separately recorded elapsed Day244 work; Day244 is not a completed night/calendar close. Consult the verified coverage receipt in `operational-checkpoint.csv`, actual journals and generated report for saved balances and any remaining gaps. The punt is operational by accepted Day235 ruling and has a Day237 passenger finding; its missing historical repair cost is now resolved by D244-MIREGATE-PUNT-COST-RECON-001:20gp ordinary restoration recognized235 and settled244, with existing operation/capacity preserved. Pending technical and commercial requests retain their precise prerequisites and owners in the operational journal.
 
 ## Routine competence clarification
@@ -57,3 +60,7 @@ New live priorities: PS-BT-E1tarchitectural253order (.114actualreserved/.886futu
 ## Punt repair settlement — D244-MIREGATE-PUNT-COST-RECON-001
 
 The player's explicit request to determine/reconcile the omitted cost is resolved as new scoped retrospective adjudication, not a recovered old invoice. Fixed complete bill20gp:12gp independent professional service at existing4gp/bench-day benchmark plus8gp newly agreed delivered materials. Recognize ordinary reinstatement expense/payable at accepted usable235completion; Meret pays20gp244 from Miregate. Journal IDs MG-PUNT-RECON-COST-D235 and MG-PUNT-RECON-PAY-D244 clear the same liability once. This closes only the missing punt cost/payment dependency after verification. Keep its235operational status,237capacity and239return; no new repair, V instruction, cash transfer, test or boat valuation.
+
+## Same-day source ordering
+
+New economic event types ending `_after_event` use `reference_id` to name an exact same-day predecessor event. The ledger preserves legacy ordering for all other rows and rejects missing, cross-day or cyclic predecessors. This records production before its reservation and adopted opening corrections before dependent remaining-day earnings; it never bypasses physical, liability, prerequisite or amount checks.

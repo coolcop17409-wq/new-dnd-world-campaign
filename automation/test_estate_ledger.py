@@ -719,6 +719,35 @@ class RetrospectiveSupplementGuards(unittest.TestCase):
         self.assertTrue(blackthorn_operations.apply_supplements(original, [row], outside, authority)[1])
         self.assertTrue(blackthorn_operations.apply_supplements([row], [row], manifest, authority)[1])
 
+class SameDayPostingDependencies(unittest.TestCase):
+    def row(self, event_id, kind="cash", day="245", after=""):
+        return {"event_id": event_id, "event_type": kind, "effective_day": day, "reference_id": after}
+
+    def test_produced_stock_reservation_and_release_are_causal(self):
+        rows = [self.row("reserve", "stock_reservation_after_event", after="produce"),
+                self.row("release", "stock_reservation_after_event", after="reserve"),
+                self.row("produce", "blackthorn_production"), self.row("sell", "gate_sale")]
+        self.assertEqual([r["event_id"] for r in ledger.order_ledger_events(rows)],
+                         ["produce", "reserve", "release", "sell"])
+
+    def test_opening_advance_can_be_earned_after_saved_retcon(self):
+        rows = [self.row("earn", "storage_earned_after_event", day="244", after="advance"),
+                self.row("original", day="244"), self.row("advance", "retcon_adjustment", day="244")]
+        self.assertEqual([r["event_id"] for r in ledger.order_ledger_events(rows)],
+                         ["original", "advance", "earn"])
+
+    def test_unmodified_history_preserves_legacy_order(self):
+        rows = [self.row("late", day="246"), self.row("retcon", "retcon_adjustment"), self.row("normal")]
+        self.assertEqual([r["event_id"] for r in ledger.order_ledger_events(rows)], ["normal", "retcon", "late"])
+
+    def test_missing_cross_day_and_cyclic_dependencies_rejected(self):
+        cases = [[self.row("a", "stock_reservation_after_event", after="missing")],
+                 [self.row("a", "stock_reservation_after_event", after="b"), self.row("b", day="244")],
+                 [self.row("a", "stock_reservation_after_event", after="b"), self.row("b", "stock_reservation_after_event", after="a")]]
+        for rows in cases:
+            with self.subTest(rows=rows), self.assertRaises(ValueError):
+                ledger.order_ledger_events(rows)
+
 if __name__ == "__main__":
     unittest.main()
 
