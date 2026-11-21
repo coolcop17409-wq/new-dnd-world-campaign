@@ -2,12 +2,29 @@
   "schema_version": 1,
   "request_id": "PLAY-D274-275-DEPART-001",
   "status": "partial",
-  "phase": "claimed",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr13-a7c3a1ee",
   "claim_expires_at": "2026-11-21T23:50:17.981Z",
   "request_commit": "c4b65dc696a318aba47e3b8f8f1dd8b2b5031733",
   "request_blob": "c02aabedba796ca8e469dc66425dd436525d16a8",
-  "summary": "Exact pinned journal and prior requests verified; dependency complete; preparing supported owners.",
+  "summary": "Two accepted events and two provision postings verified; separate checkpoint pending.",
   "blocker": null,
-  "applied_event_ids": []
+  "applied_event_ids": [
+    "D274-WTR-OPTIONAL-CLEARANCE-PAYMENT-TERMS-001",
+    "D274-WTR-DECLINE-CLEARANCE-AND-D275-ROAD-001"
+  ],
+  "owner_commit": "e9c8fcb017b9491a43f210f4cb7eeb2ed4bb42da",
+  "owners_verified": true,
+  "tested_commit": "4df55702747f27fc76a8bb759cdd158e3e4c1dfc",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
+      "exit_code": 0,
+      "result": "56 passed"
+    }
+  ]
 }
