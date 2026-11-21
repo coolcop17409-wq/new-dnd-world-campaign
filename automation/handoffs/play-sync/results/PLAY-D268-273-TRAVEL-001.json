@@ -1,14 +1,61 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D268-273-TRAVEL-001",
-  "status": "partial",
-  "phase": "verified_queue_claim",
-  "claim_owner": "foreground-sync-unblock-20261121",
-  "claim_expires_at": "2026-11-21T23:21:11.635661+00:00",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "request_digest": "309f8b80a23513e31685df34e95031a0d742af2066cf78d590440968c6de7a00",
   "request_commit": "ac4f9152ca4c47d6e9faaf7f45979be9d52f7f01",
   "request_blob": "da74f2a7cfcf60999a2f434d8f6d3c5fe3d43dbc",
-  "summary": "Full queue verified with exact PR10 supersession; preparing accepted owner changes.",
+  "owner_commit": "41ef948964abdcc771e4ad4b2a83e5f106fec189",
+  "checkpoint_commit": "d02e2aeedeb6973e917be34b49fda7c14ef5db65",
+  "tested_commit": "d02e2aeedeb6973e917be34b49fda7c14ef5db65",
+  "owners_verified": true,
+  "checkpoint_verified": true,
+  "applied_event_ids": [
+    "D268-269-QUIET-TRAVEL-REST-001",
+    "D269-270-ROAD-NIGHT-QUIET-001",
+    "D270-DAY-ROAD-SETTLEMENT-SIGHTED-001",
+    "D270-ROADVILLAGE-RESUPPLY-LODGING-001",
+    "D270-272-INN-ROAD-LONGREST-COMPLETE-001",
+    "D272-273-QUIET-ROAD-VEYR-APPROACH-001"
+  ],
+  "verified_event_ids": [
+    "D268-269-QUIET-TRAVEL-REST-001",
+    "D269-270-ROAD-NIGHT-QUIET-001",
+    "D270-DAY-ROAD-SETTLEMENT-SIGHTED-001",
+    "D270-ROADVILLAGE-RESUPPLY-LODGING-001",
+    "D270-272-INN-ROAD-LONGREST-COMPLETE-001",
+    "D272-273-QUIET-ROAD-VEYR-APPROACH-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/41ef948964abdcc771e4ad4b2a83e5f106fec189/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/41ef948964abdcc771e4ad4b2a83e5f106fec189/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/41ef948964abdcc771e4ad4b2a83e5f106fec189/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d02e2aeedeb6973e917be34b49fda7c14ef5db65/campaign/continuity/campaign-state.md"
+  ],
   "blocker": null,
-  "applied_event_ids": []
+  "summary": "Six accepted events applied once with 23 character postings; invalid PR10 superseded through verified exact event coverage. No request mutation, reroll, merge, or new gameplay.",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "d02e2aeedeb6973e917be34b49fda7c14ef5db65"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
+      "exit_code": 0,
+      "result": "56 passed",
+      "tested_commit": "d02e2aeedeb6973e917be34b49fda7c14ef5db65"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/unblock-evidence/journal.json --request /tmp/unblock-evidence/request.json --prior-requests /tmp/unblock-evidence/prior.json --supersessions /tmp/unblock-evidence/supersessions.json",
+      "exit_code": 0
+    },
+    {
+      "command": "independent historical CSV prefix, unique IDs, 23 new postings, six exact event summaries and checkpoint evidence comparison",
+      "exit_code": 0
+    }
+  ],
+  "generated_view_status": "Verified at fae52577b402c4465dcedd398a37beb928b9f75a; published generated dashboard and PLAY_NOW exactly match independently rebuilt files.",
+  "cleanup_status": "pending separate verified cleanup; newer recovery remains"
 }
