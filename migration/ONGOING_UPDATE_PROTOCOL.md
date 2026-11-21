@@ -2,6 +2,12 @@
 
 This procedure governs live recording and verification of confirmed campaign changes in this repository after the owner-directed 2026-11-20 cutover. GitHub is authoritative for campaign text and structured records. Drive Docs/workbooks are historical references; maps and large images remain in Drive/Library as designated visual assets. The owner authorized cutover with the outstanding items in `migration/TEST_REPORT.md` still open; continue validation without misrepresenting those checks as passed or fabricating campaign evidence.
 
+## Ordinary-play synchronization threshold — 2026-11-21
+
+The full guarded commit/validation path is **not** a per-turn prerequisite for ordinary interactive play. A player's normal shopping/resupply instruction, low-stakes accepted conversation, nearby routine movement, or voluntary companion split may advance actual play without an immediate GitHub write. Track exact accepted outcome and debit/custody/knowledge in an in-conversation unsynchronized ledger; narrate the next actionable scene promptly. A routine 6gp-class provisions purchase (amount illustrative, not an automatic authorization cap) is not a "major transaction" just because currency changes. Never invent a price, expenditure, consent or result; use verified established values and narrow lookup only if a necessary fact is missing.
+
+Flush that ledger at completed consequential combat or substantial exploration, qualifying rests, significant contractual/rare-item/property transactions, quest/NPC milestone, roughly8–12 substantive changed exchanges, explicit pause/end, Sync campaign, or known imminent chat handoff. Not every room change or normal storefront sale is a milestone. Preserve causal order; write affected journals in a guarded batch, verify, finalize CAMPAIGN_STATE last and let the lightweight workflow rebuild views. A routine turn need **zero** connector calls when its facts are already verified. Do not call GitHub merely to check that the cached current scene is still unchanged. Keep unsynced values in this conversation and clearly acknowledge possible persistence limits if the chat closes before a sync. On a player-requested "Sync campaign" do the full safe process, not deferred shorthand.
+
 ## Update sequence
 
 1. Confirm the latest played checkpoint and any explicit correction. Use actual in-game day and evidence; do not infer completion from a planned date, scheduled task, forecast, or elapsed time alone.

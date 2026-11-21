@@ -9,6 +9,10 @@ This short file is the live routing index following the owner-authorized GitHub 
 3. Read only the recent relevant events in [session-log.md](session-log.md), and scoped [quests.md](quests.md), [npcs.md](npcs.md), [inventory.md](inventory.md), and eligible matching [DM-prep index](../../prep/dm-only/) or current-region outline. Closed history through243 (legacy filename retained): [archive](../../archive/continuity/session-log-days216-231-legacy.md).
 4. For exact personal values consult [dashboard/dashboard.json](../../dashboard/dashboard.json), then owning character CSV baselines plus [character events](../../data/characters/events.csv) if challenged or changed. Trackers are not a rules engine. Estate and Magic Shops records are separate and read only when relevant.
 
+## Ordinary turn — no mandatory write
+
+Normal conversation, consenting companion escort, mundane market resupply and movement inside a familiar town use the verified in-conversation packet and change ledger. Narrate first; don't automatically fetch large records, shop catalogs or portraits and **don't trigger a full GitHub sync merely for routine movement or standard provisions**. Sync on actual significant milestones, qualifying rests, major transactions, 8–12 substantive changed exchanges or explicit pause/end; preserve exact unsynced amounts and never claim uncommitted changes were saved. Full procedural rule: `rules-dm-procedures.md` / `migration/ONGOING_UPDATE_PROTOCOL.md`.
+
 ## Combat and scene fast path
 
 Keep an in-conversation tactical packet: initiative/turn, positions, cover, creature defenses/HP, party resources, conditions/durations, reactions, NPC motives, outstanding effects and pending V action. Adjudicate each turn using the retained verified packet and genuine RNG; never re-fetch whole logs, rules, art, shops or estates by default. V controls V's speech/actions/dice except for explicit current delegation; independent companions act under DM control.
