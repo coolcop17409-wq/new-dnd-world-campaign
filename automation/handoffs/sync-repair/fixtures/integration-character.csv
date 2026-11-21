@@ -1,2 +1,2 @@
 event_id,campaign_day,owner,record_type,target,delta,absolute_value,evidence,status
-TEST-ACTIONS-PR-RETEST-20261121-001,265,Valenthia,currency,purse_cp,-2800,,SYNTHETIC isolated PR trigger test only,staged
+TEST-ACTIONS-PR-RETEST-20261121-001,265,Valenthia,currency,purse_cp,-2800,,SYNTHETIC isolated PR trigger test only,posted
