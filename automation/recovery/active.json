@@ -58,6 +58,34 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D275-NIGHTGLASS-CONVERSATION-001",
+      "base_commit": "649de5baa49ea4f92175f114c020ae0362334c49",
+      "source_checkpoint": "D275-LATE-AFTERNOON-VEYR-ROAD-001",
+      "destination_checkpoint": "D275-LATE-AFTERNOON-NIGHTGLASS-COMPARISON-001",
+      "source_evidence": "Player actual V dialogue on Day275 late-afternoon four-horse coach eastward in western Veyr on road toward Caer Veylan/Eastwatch/Nightglass: \"We’ve learn quite a bit more from since we were there last. I wonder if anything makes more sense now.\" This is a reflective in-character invitation for companion discussion, not V acceptance of a new expedition, commitment to entering any hazard, or additional travel choice. Mara (firsthand Nightglass recollection) recalls the previously known silver-veined heart reportedly recovered from Verdana, Sanguine Sovereign and anchor wording, a Silver Court signet, and a voice saying 'My child'; she explicitly notes these observations are not verified to constitute one family story. Cirren, informed from V/party discussions rather than falsely claiming personal attendance at the original Hall scene, distinguishes evidence from assertions; recommends comparing recoverer/carrier identities, dates, documented provenance and first recorded family attribution in available ordinary Hall records. Mara wonders whether tracing a documented movement route could lead to a tangible physical site associated with V's lost House, without promising birthsite, paternal identity or relic function. Fenar humorously questions trusting a speaking heart, independently agrees verification is wise. This is a concrete eligible INTRODUCTION/OFFER of a possible provenance comparison at Nightglass through an informed companion, NOT acceptance by V and not revelation of DM-only Edric's new findings, source records he has not provided, unread letter held by Tamsin or an unseen hidden expedition. No new witness/source contact, correspondence, facts about parentage, new items, combat, expenses, route mileage, rest or dice. Day275 remains late afternoon on the road, V48/48 HD7/7, Fenar59/59 HD4/6, Cirren51/51 HD6/6, LongRest3/6, provisions6 ration-person-days/feed8 horse animal-days, V purse1137gp7sp6cp, four owned horses/coach intact.",
+      "pending_action": "Day275 late afternoon, V/Mara/Cirren/Fenar traveling east on maintained western Veyr commercial road toward Caer Veylan and Eastwatch. After V wonders aloud about the earlier Nightglass Hall evidence, Mara/Cirren/Fenar discussed the heart/voice/signets and companion suggested a bounded independent provenance comparison; this is OFFERED, not accepted. Await V's reply or instruction to continue traveling, without forcing new detour or assuming Edric contact. V48/48 HP HD7/7, Fenar59/59 HD4/6, Cirren51/51 HD6/6, LongRest3/6, supplies6 ration-person-days/feed8 horse-feed animal-days, purse1137gp7sp6cp, coach/four horses healthy. Day275 night unrolled. No in-world time/resource advance during dialogue.",
+      "depends_on": [
+        "PLAY-D274-275-DEPART-001"
+      ],
+      "events": [
+        {
+          "event_id": "D275-NIGHTGLASS-PROVENANCE-CONVERSATION-001",
+          "accepted": true,
+          "evidence": "Player actual V dialogue on Day275 late-afternoon four-horse coach eastward in western Veyr on road toward Caer Veylan/Eastwatch/Nightglass: \"We’ve learn quite a bit more from since we were there last. I wonder if anything makes more sense now.\" This is a reflective in-character invitation for companion discussion, not V acceptance of a new expedition, commitment to entering any hazard, or additional travel choice. Mara (firsthand Nightglass recollection) recalls the previously known silver-veined heart reportedly recovered from Verdana, Sanguine Sovereign and anchor wording, a Silver Court signet, and a voice saying 'My child'; she explicitly notes these observations are not verified to constitute one family story. Cirren, informed from V/party discussions rather than falsely claiming personal attendance at the original Hall scene, distinguishes evidence from assertions; recommends comparing recoverer/carrier identities, dates, documented provenance and first recorded family attribution in available ordinary Hall records. Mara wonders whether tracing a documented movement route could lead to a tangible physical site associated with V's lost House, without promising birthsite, paternal identity or relic function. Fenar humorously questions trusting a speaking heart, independently agrees verification is wise. This is a concrete eligible INTRODUCTION/OFFER of a possible provenance comparison at Nightglass through an informed companion, NOT acceptance by V and not revelation of DM-only Edric's new findings, source records he has not provided, unread letter held by Tamsin or an unseen hidden expedition. No new witness/source contact, correspondence, facts about parentage, new items, combat, expenses, route mileage, rest or dice. Day275 remains late afternoon on the road, V48/48 HD7/7, Fenar59/59 HD4/6, Cirren51/51 HD6/6, LongRest3/6, provisions6 ration-person-days/feed8 horse animal-days, V purse1137gp7sp6cp, four owned horses/coach intact.",
+          "before": "Day275 late afternoon on western Veyr trade road toward Caer Veylan/Eastwatch after WTR rescue and departure, party in coach, V48/48 Fenar59/59 Cirren51/51, long rest3/6, supplies6 ration-person-days/feed8 animal-days. Cirren proposed comparing old memories with Edric's records but no substantive new conversation or provenance proposal delivered in accepted play.",
+          "after": "V explicitly reflects that recent discoveries may change the interpretation of prior Nightglass Hall evidence. Mara recalls known silver-veined heart, Verdana account, Sanguine Sovereign/anchor terms, Silver Court signet and 'My child' voice; Cirren recommends testing timeline, carrier/packing origins and basis for family association through lawful Hall records; Mara proposes tracing provenance to a physical place, as an optional inquiry, with Fenar skeptical of an unverified speaking-heart claim. New provenance-comparison line visibly OFFERED by companion discussion only, no player acceptance, no new facts from Edric or hidden source. No time advance or party resource/custody change.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/quests.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
   ]
 }
