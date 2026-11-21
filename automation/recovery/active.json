@@ -55,6 +55,33 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D275-V-IDENTITY-CONVERSATION-001",
+      "base_commit": "9aeabbd170b0691f05fdd855deb6cac0e49aa0fa",
+      "source_checkpoint": "D275-LATE-AFTERNOON-VISIONS-CONVERSATION-001",
+      "destination_checkpoint": "D275-LATE-AFTERNOON-IDENTITY-MOTIVATION-001",
+      "source_evidence": "Day275 late afternoon aboard the V-owned four-horse coach travelling east on the maintained western Veyran Commonwealth trade road toward Caer Veylan, then Eastwatch and Nightglass. Following V's earlier statement that he has experienced relatively few visions since Nightglass, the player says in V's own words: \"I think I need to know who I was if I am to become who I want to be.\" This establishes V's expressed personal motivation and is not a decision to accept an unplayed destination expedition, spend resources, open sealed A-04 or declare truth of visions. Mara independently takes his hand and reflects that recovery of former experiences, people, values and decisions matters beyond an ancestral name or power; promises supportive company without claiming new provenance facts. Cirren observes that recorded actions and other people's assertions about V should be distinguished from proof of inner identity and that V retains choice over current conduct. Fenar gently acknowledges the possible loneliness of incomplete memories and wishes to help recover them without insisting on happiness or present certainty. Mara reiterates the already planned Nightglass examination of heart, visions and historical records, not a new accepted quest or magical result. Cirren asks a concrete, open phenomenological question: do the prior visions feel like V's own lived memories or like witnessing someone else's experiences? V has not answered. No time, travel, encounter roll, rest, character resources, HP, inventory, money, prior correspondence custody or NPC offers changed. Current verified Day275 scene resources: V48/48 HP HD7/7 with full short/long-rest combat and psionic resources; Fenar59/59 HP HD4/6 Rage4/4 Shift3/3; Cirren51/51 HP HD6/6 full spells; Mara unharmed. Four horses and coach healthy, Long Rest3/6; rations6 person-days/horse feed8 animal-days; V purse1137gp7sp6cp.",
+      "pending_action": "Day275 late afternoon in V-owned four-horse coach on western Veyran commercial road toward Caer Veylan/Eastwatch/Nightglass. V told Mara, Cirren, Fenar he wants to know who he was in order to become who he wishes to be. Cirren asks whether past Nightglass visions feel like V's own remembered experiences or like witnessing someone else's events. Await V's reply or choice to continue journey. V48/48 HP HD7/7 full combat/psionic resources, Fenar59/59 HP HD4/6 Rage4/4 Shift3/3, Cirren51/51 HP HD6/6 full spell slots, Mara unharmed; four healthy horses and sound coach, Long Rest3/6, supplies6 rations person-days/8 horse-feed animal-days, purse1137gp7sp6cp. No travel time/roll/rest/resource change from conversation.",
+      "depends_on": [
+        "PLAY-D274-275-DEPART-001"
+      ],
+      "events": [
+        {
+          "event_id": "D275-V-IDENTITY-MOTIVATION-CONVERSATION-001",
+          "accepted": true,
+          "evidence": "Day275 late afternoon aboard the V-owned four-horse coach travelling east on the maintained western Veyran Commonwealth trade road toward Caer Veylan, then Eastwatch and Nightglass. Following V's earlier statement that he has experienced relatively few visions since Nightglass, the player says in V's own words: \"I think I need to know who I was if I am to become who I want to be.\" This establishes V's expressed personal motivation and is not a decision to accept an unplayed destination expedition, spend resources, open sealed A-04 or declare truth of visions. Mara independently takes his hand and reflects that recovery of former experiences, people, values and decisions matters beyond an ancestral name or power; promises supportive company without claiming new provenance facts. Cirren observes that recorded actions and other people's assertions about V should be distinguished from proof of inner identity and that V retains choice over current conduct. Fenar gently acknowledges the possible loneliness of incomplete memories and wishes to help recover them without insisting on happiness or present certainty. Mara reiterates the already planned Nightglass examination of heart, visions and historical records, not a new accepted quest or magical result. Cirren asks a concrete, open phenomenological question: do the prior visions feel like V's own lived memories or like witnessing someone else's experiences? V has not answered. No time, travel, encounter roll, rest, character resources, HP, inventory, money, prior correspondence custody or NPC offers changed. Current verified Day275 scene resources: V48/48 HP HD7/7 with full short/long-rest combat and psionic resources; Fenar59/59 HP HD4/6 Rage4/4 Shift3/3; Cirren51/51 HP HD6/6 full spells; Mara unharmed. Four horses and coach healthy, Long Rest3/6; rations6 person-days/horse feed8 animal-days; V purse1137gp7sp6cp.",
+          "before": "Day275 late afternoon travelling east through western Veyr; previous exchange recorded that V has had relatively few visions since Nightglass; Mara/Fenar asked whether he misses them or feels a connection, no reply yet. Party V48/48 Fenar59/59 Cirren51/51, Long Rest3/6; provisions6 person-days and feed8 animal-days, four horses and coach healthy, no travel/rest advancement.",
+          "after": "V explicitly says he needs to know who he was in order to become whom he wants to be. Companions independently respond with supportive but distinct reasoning, not proof of former identity: Mara emphasizes the personal history behind tangible records, Cirren distinguishes claims/history and self-determination, Fenar expresses caring interest in helping him remember. Cirren asks whether visions feel like personal memories or witnessing someone else's life. V has not answered; no new vision, clue, Edric meeting or resource/clock/custody change; remains Day275 late afternoon road with same party stats.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
   ]
 }
