@@ -2478,6 +2478,33 @@
       "price_gp": "45",
       "status": "Prepared working tool · conditional, undiscovered",
       "terms": "R17 · MGT-236-01. Watchkeeper retains the horn. At watch change ask through Meret; 45 gp only after both posts test a substitute signal and the owner agrees to hand it over at the gate. No test, quote"
+    },
+    {
+      "settlement": "Tarnford",
+      "dealer": "Mill Winch Ropeworks",
+      "lot": "R02 — Rope of Mending",
+      "qty": "1",
+      "price_gp": "28",
+      "status": "Offer on hand · secondhand consignment",
+      "terms": "Purchase exact ONE rope at 28 gp. Kevar can accept sound hemp toward price if parties independently agree trade value. No V purchase or hold yet."
+    },
+    {
+      "settlement": "Tarnford",
+      "dealer": "Carrier's Counter Apothecary",
+      "lot": "R26 — Potion of Comprehension",
+      "qty": "1",
+      "price_gp": "40",
+      "status": "Offer on hand · sealed single dose",
+      "terms": "One sealed potion for 40 gp, cash sale on acceptance. No extra potion created, no V hold or purchase."
+    },
+    {
+      "settlement": "Tarnford",
+      "dealer": "Petition & Ink",
+      "lot": "R14 — Orator's Quill",
+      "qty": "1",
+      "price_gp": "",
+      "status": "Working property · NOT offered for sale",
+      "terms": "2sp per dictated page service, no item purchase. Ask for next binder's visit/referral; no quoted maker price or guaranteed date. Never treat this piece as available to buy."
     }
   ]
 }
