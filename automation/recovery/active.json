@@ -77,6 +77,32 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D267-DAY-TRAVEL-001",
+      "base_commit": "eda64329f6bd8d84bc2ef0beee299b1124fbf762",
+      "source_checkpoint": "D267-MORNING-NIGHTGLASS-ROAD-DEPART-001",
+      "destination_checkpoint": "D267-LATE-AFTERNOON-NIGHTGLASS-ROAD-001",
+      "source_evidence": "Player exact request: 'Let’s continue after the short rest' following completed Day266→267 qualifying wilderness Short Rest and accepted correction to V Hit Dice, HP42/48. The party continues routine daytime road travel on Day267 with all four healthy V horses and intact coach westward toward legal western Veyr crossing, on established Nightglass route. Day267 daytime encounter d100 genuinely executed using Python secrets FACE51 vs fixed event band01–15 => NO ENCOUNTER. No extra Day267 event/type/severity roll, no newly discovered quest, border crossing, town arrival or exact mileage. Ordinary watering and breaks, no significant adventuring expenditure or damage. Day267 dawn food/feed allocation of 3 ration-person-days and 4 horse-feed animal-days had ALREADY been posted, and is NOT repeated; carried rations15, feed20. Late afternoon Day267 road still short of western Veyr frontier, fading daylight, pending V choice whether make camp or travel farther. No Day267 night encounter, Short Rest or wilderness Long Rest progress newly adjudicated. Party V HP42/48 HD5/7 (1 Fighter d10, 4 Rogue d8); Superiority4/4 ActionSurge1/1 SecondWind1/1 Psi6/6 MP7/7, Fenar45/59 HD2/6 Rage2/4 Shift1/3, Cirren49/51 HD5/6 spells L1=0/4 L2=1/3 L3=2/3. Weighted Long Rest progress1/6. No additional supplies or coins debited.",
+      "pending_action": "Day267 late afternoon, V/Mara/Cirren/Fenar traveling west on original Nightglass route, still east of legal western Veyr crossing. No Day267 daytime encounter; night not checked or camp chosen. V42/48 HD5/7, Fenar45/59 HD2/6, Cirren49/51 HD5/6, Long Rest1/6, 15 ration-person-days and20 horse-feed animal-days; coach and four horses healthy. Ask V whether to make camp before dark or continue into evening. Do not infer arrival or additional travel/night roll.",
+      "depends_on": [
+        "PLAY-D266-267-REST-001"
+      ],
+      "events": [
+        {
+          "event_id": "D267-DAY-NIGHTGLASS-ROAD-TRAVEL-001",
+          "accepted": true,
+          "evidence": "Player exact request: 'Let’s continue after the short rest' following completed Day266→267 qualifying wilderness Short Rest and accepted correction to V Hit Dice, HP42/48. The party continues routine daytime road travel on Day267 with all four healthy V horses and intact coach westward toward legal western Veyr crossing, on established Nightglass route. Day267 daytime encounter d100 genuinely executed using Python secrets FACE51 vs fixed event band01–15 => NO ENCOUNTER. No extra Day267 event/type/severity roll, no newly discovered quest, border crossing, town arrival or exact mileage. Ordinary watering and breaks, no significant adventuring expenditure or damage. Day267 dawn food/feed allocation of 3 ration-person-days and 4 horse-feed animal-days had ALREADY been posted, and is NOT repeated; carried rations15, feed20. Late afternoon Day267 road still short of western Veyr frontier, fading daylight, pending V choice whether make camp or travel farther. No Day267 night encounter, Short Rest or wilderness Long Rest progress newly adjudicated. Party V HP42/48 HD5/7 (1 Fighter d10, 4 Rogue d8); Superiority4/4 ActionSurge1/1 SecondWind1/1 Psi6/6 MP7/7, Fenar45/59 HD2/6 Rage2/4 Shift1/3, Cirren49/51 HD5/6 spells L1=0/4 L2=1/3 L3=2/3. Weighted Long Rest progress1/6. No additional supplies or coins debited.",
+          "before": "Day267 dawn/morning: coach with four healthy owned horses beginning travel after completed overnight wilderness Short Rest; Day267 rations/feed already allocated once (15 ration-person-days, 20 horse-feed animal-days). Corrected V42/48 HP, HD5/7; Fenar45/59 HD2/6; Cirren49/51 HD5/6. Weighted Long Rest progress1/6. Daytime encounter roll not yet made.",
+          "after": "Late afternoon Day267 after normal westbound travel, no arrival/crossing or fixed mileage. Genuine daytime encounter d100 FACE51 vs01–15 = no encounter. Party and coach/horses undamaged; all HP/features/spells/HD/custody unchanged, no second ration/feed debit. Long Rest1/6 unchanged. Day267 evening/night not yet rolled or rested; V decides camp or continuing after daylight.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md"
+          ]
+        }
+      ]
     }
   ]
 }
