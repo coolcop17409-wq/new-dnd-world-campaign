@@ -1,4 +1,29 @@
 {
   "schema_version": 1,
-  "entries": []
+  "entries": [
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D266-TROLLS-R1-001",
+      "base_commit": "6a7cdad9031587fe5c96e5af489e80eff3c2ca1b",
+      "source_checkpoint": "D266-NIGHT-ROAD-TROLLS-001",
+      "destination_checkpoint": "D266-NIGHT-ROAD-TROLLS-R2-V-001",
+      "source_evidence": "Player exact instruction: \"Mara move the cart back and away until it’s safe. Cirren Fenar, hind with me on the side.\" DM interpreted \"hind\" contextually as \"hide\"; V and Fenar hide at south roadside trees, Cirren follows, Mara begins attempting to evacuate coach/horses. Genuinely executed Python secrets rolls Round1 initiative: V d20 18+4=22; Fenar 20+2=22; Troll A 14+1=15; Cirren 7+2=9; Mara 8+0=8 (NPC provisional +0); Troll B 6+1=7. Stealth: V 9+10=19; Fenar 20+5=25; Cirren 4+2=6. No surprise; no dice fudged or rerolled. No injury/resource expenditure/horse loss. Two trolls each Dash 60ft, no attacks.",
+      "pending_action": "Round 2 begins; V and Fenar remain concealed at southern side tree trunks, Cirren tried hiding but was exposed; Mara must still ready/hitch horses to move coach. V initiative 22 (tie Fenar), next V action unchosen. Trolls cannot attack until their turns; preserve exact positions and conditions.",
+      "depends_on": [],
+      "events": [
+        {
+          "event_id": "D266-NIGHT-ROAD-TROLLS-R1-PLAY-001",
+          "accepted": true,
+          "evidence": "Player exact instruction: \"Mara move the cart back and away until it’s safe. Cirren Fenar, hind with me on the side.\" DM interpreted \"hind\" contextually as \"hide\"; V and Fenar hide at south roadside trees, Cirren follows, Mara begins attempting to evacuate coach/horses. Genuinely executed Python secrets rolls Round1 initiative: V d20 18+4=22; Fenar 20+2=22; Troll A 14+1=15; Cirren 7+2=9; Mara 8+0=8 (NPC provisional +0); Troll B 6+1=7. Stealth: V 9+10=19; Fenar 20+5=25; Cirren 4+2=6. No surprise; no dice fudged or rerolled. No injury/resource expenditure/horse loss. Two trolls each Dash 60ft, no attacks.",
+          "before": "Day266 nightfall before combat: Cirren alerted to two approaching standard 2014 trolls A(+80,-65), B(+110,-50), 100-125ft away. No initiative/attacks/time after alert yet. V in camp exact stance unspecified; Fenar(+15,0), Cirren(+10,-5), Mara(-8,+10), fire(+8,+3), coach(0,+15), four healthy tethered horses(-15,+35); V48/48, Cirren49/51, Fenar58/59; no active conditions; LongRest2/6.",
+          "after": "Round1 ~6seconds tactical time resolved: initiative tied V22/Fenar22, A15, Cirren9, Mara8, B7. V moves to southern treeline at approx(0,-35) behind trunk, Hide bonus action using Cunning Action Stealth d20 face9+10=19, hidden from trolls for now; Fenar moves with him to approx(20,-35), uses action Hide 20+5=25, hidden; A Dashes from(80,-65) to(40,-21) near road, tracking food and seeing Cirren before he hides, no attack; Cirren moves to(10,-35), uses action Hide 4+2=6, unsuccessfully concealed; Mara moves to tethered horses(-15,+35), begins handling/untying reins and preparation for retreat, coach STILL STATIONARY/not ready to move; B Dashes from(110,-50) to(61,-17), no attack. No surprise, injury, fire damage, spell, feature or money cost. No new rest progress, no additional encounter roll. Round2 starts at V/Fenar initiative22, next V action unchosen; T1/T2 have normal movement/actions on their upcoming turns; Mara's coach evacuation is an ongoing order, not completed.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md"
+          ]
+        }
+      ]
+    }
+  ]
 }
