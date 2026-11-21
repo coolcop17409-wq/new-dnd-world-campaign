@@ -35,3 +35,7 @@ The remaining evidence-dependent checks are tracked in [migration/TEST_REPORT.md
 ## Fast-play durability
 
 The active CAMPAIGN_STATE starts with the current DAY heading; the current continuity README contains only live routes (less than 8K characters); recent played SESSION_LOG is kept below 75K by archiving closed evidence. The fast packet generator checks these limits. V's Fighter Battle Master Superiority Dice are read from the separate row in the V character CSV, with actual spends and qualifying recovery applied only by the character event overlay. A failed build is a repair signal: never manufacture rolls/recovery, delete true events or edit generated counters as a workaround.
+
+## Fast-play trigger and freshness contract (2026-11-21)
+
+`.github/workflows/fast-play.yml` automatically runs after the final authoritative CAMPAIGN_STATE update. Intermediate `data/characters/events.csv` writes no longer launch duplicate, potentially future-dated packet builds. At an unchanged checkpoint with journal-only changes, explicitly dispatch and verify the workflow. The packet builder verifies the latest recent SESSION_LOG event ID is reflected in CAMPAIGN_STATE even if both use the same day. Preserve exact accepted sources and use source-targeted repairs, never direct edits of derived dashboard or PLAY_NOW counters.
