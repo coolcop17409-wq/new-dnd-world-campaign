@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `449b24f8cfb9d6692d0f9f995abdefd10ef936e7e6e63f60876e2ae655568264`).
-Dashboard SHA256: `65d512421c011198d0324481ad6067a6cc84bd5a602edc2a8c4cc8f577dbc075`.
+Dashboard SHA256: `51ca1cfca485d1e490627255697feb5e72546b941cf1e1ac4463c50c8e34c755`.
 Confirmed campaign day: **264**.
 
 ## Exact playable checkpoint (verbatim from owner)
@@ -26,11 +26,11 @@ Completed Day245–246 rest/recovery SOURCE BLOCKS were archived verbatim to `ar
 Snapshot values support lookups; rule interpretations, contextual conditions, custody and exceptions remain in the owning records.
 
 - **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 1173 gp 4 sp 8 cp.
-  - Resources: Martial Points 7/7; Psionic Energy Dice 6.0/6; Second Wind 1.0/1; Knowledge from Past Life 3.0/3; Psi Recovery 1.0/1; Hit Dice 7/7; Psychic Whispers free use 1/1; Action Surge 1/1; Superiority Dice 4.0/4
-- **Cirren** — HP 51/51; AC 18; level 6.
-  - Resources: Channel Divinity 2/2; Spell Slots (1st) 4/4; Spell Slots (2nd) 3.0/3; Hit Dice 6/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 3/3
-- **Fenar** — HP 59.0/59; AC 14; level 6.
-  - Resources: Rage 4.0/4; Shift 3.0/3; Hit Dice 6.0/6; Martial Points 6.0/6; Rage Recovery (RETIRED — NO ABILITY) 0/0
+  - Resources: Martial Points 7/7; Psionic Energy Dice 6.0/6; Second Wind 1.0/1; Knowledge from Past Life 3.0/3; Psi Recovery 1.0/1; Hit Dice 7/7; Psychic Whispers free use 1/1; Action Surge 0.0/1; Superiority Dice 2.0/4
+- **Cirren** — HP 45.0/51; AC 18; level 6.
+  - Resources: Channel Divinity 2/2; Spell Slots (1st) 3.0/4; Spell Slots (2nd) 2.0/3; Hit Dice 6/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 2.0/3
+- **Fenar** — HP 46.0/59; AC 14; level 6.
+  - Resources: Rage 3.0/4; Shift 2.0/3; Hit Dice 6.0/6; Martial Points 4.0/6; Rage Recovery (RETIRED — NO ABILITY) 0/0
 
 ## Fast-play guardrails
 
