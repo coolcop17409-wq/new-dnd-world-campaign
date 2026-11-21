@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-SMOKE-20261121-001",
+  "mode": "smoke_test",
+  "base_commit": "768ae8acde863bd7743b25d307a771bf80d3caa7",
+  "source_checkpoint": "UNCHANGED-ADMIN-ONLY",
+  "destination_checkpoint": "UNCHANGED-ADMIN-ONLY",
+  "source_evidence": "Owner requested automatic background handoff implementation: 'ok do it'. This is a delivery-only test, not accepted gameplay.",
+  "pending_action": "Unchanged; no gameplay in this test.",
+  "depends_on": [],
+  "events": []
+}
