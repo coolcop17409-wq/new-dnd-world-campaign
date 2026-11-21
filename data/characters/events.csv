@@ -97,3 +97,19 @@ D265-V-ROPE-MENDING-PURSE-001,265,Valenthia,currency,purse_cp,-2800,,"D265-TARNF
 D265-V-ROPE-MENDING-ITEM-001,265,Valenthia,inventory_create,Rope of Mending,,1,"{""source_event"":""D265-TARNFORD-ROPE-MENDING-PURCHASE-001"",""holder"":""Valenthia — carried with V-owned coach traveling gear"",""detail"":""One original complete 50-foot Rope of Mending, Xanathar's Guide to Everything p138 (2017), common no attunement, touching cut out-of-use segments rejoin on an action with command word; missing length not replaced. Purchased at Tarnford Mill Winch Ropeworks for 28 gp, no duplication.""}",posted
 D266-ROAD-RATIONS-001,266,Valenthia,inventory,Rations (1 day),-3,,"D265-266-NIGHTGLASS-ROAD-TRAVEL-001: Day266 normal party meals Mara/Cirren/Fenar, stocks21→18 person-days; V Reborn no food.",posted
 D266-ROAD-FEED-001,266,Valenthia,inventory,Feed (1 day),-4,,"D265-266-NIGHTGLASS-ROAD-TRAVEL-001: Day266 food for all four V-owned horses, stock28→24 animal-days; merchants no longer traveling.",posted
+D266-NIGHT-ROAD-TROLLS-R2-PLAY-001-FENAR-RAGE,266,Fenar,resource,Rage,-1,,D266-NIGHT-ROAD-TROLLS-R2-PLAY-001: Accepted Rage activation 3→2/4.,posted
+D266-NIGHT-ROAD-TROLLS-R2-PLAY-001-VALENTHIA-SUP,266,Valenthia,resource,Superiority Dice,-1,,D266-NIGHT-ROAD-TROLLS-R2-PLAY-001: Quick Toss 4→3/4.,posted
+D266-NIGHT-ROAD-TROLLS-R2-PLAY-001-CIRREN-L2,266,Cirren,resource,Spell Slots (2nd),-1,,D266-NIGHT-ROAD-TROLLS-R2-PLAY-001: Spiritual Weapon 2→1/3.,posted
+D266-NIGHT-ROAD-TROLLS-R2-PLAY-001-FENAR-HP,266,Fenar,stat,HP,-25,,D266-NIGHT-ROAD-TROLLS-R2-PLAY-001: Accepted physical damage after Rage reduction 58→33/59.,posted
+D266-NIGHT-ROAD-TROLLS-R3-PLAY-001-FENAR-SHIFT,266,Fenar,resource,Shift,-1,,D266-NIGHT-ROAD-TROLLS-R3-PLAY-001: Longtooth Shift 2→1/3; six temporary HP fully consumed this round.,posted
+D266-NIGHT-ROAD-TROLLS-R3-PLAY-001-VALENTHIA-SUP,266,Valenthia,resource,Superiority Dice,-1,,D266-NIGHT-ROAD-TROLLS-R3-PLAY-001: Quick Toss 3→2/4.,posted
+D266-NIGHT-ROAD-TROLLS-R3-PLAY-001-CIRREN-L1,266,Cirren,resource,Spell Slots (1st),-1,,D266-NIGHT-ROAD-TROLLS-R3-PLAY-001: Healing Word 3→2/4; heals Fenar 7.,posted
+D266-NIGHT-ROAD-TROLLS-R3-PLAY-001-FENAR-HP,266,Fenar,stat,HP,-10,,D266-NIGHT-ROAD-TROLLS-R3-PLAY-001: 33→25 after remaining damage beyond temporary HP; Healing Word +7 to32; B attacks -9 to23. Net -10; no tempHP remaining.,posted
+D266-NIGHT-ROAD-TROLLS-R4-PLAY-001-VALENTHIA-SUP,266,Valenthia,resource,Superiority Dice,-1,,D266-NIGHT-ROAD-TROLLS-R4-PLAY-001: Quick Toss 2→1/4.,posted
+D266-NIGHT-ROAD-TROLLS-R4-PLAY-001-CIRREN-L1,266,Cirren,resource,Spell Slots (1st),-1,,D266-NIGHT-ROAD-TROLLS-R4-PLAY-001: Healing Word 2→1/4; heals Fenar 6.,posted
+D266-NIGHT-ROAD-TROLLS-R4-PLAY-001-FENAR-HP,266,Fenar,stat,HP,-10,,D266-NIGHT-ROAD-TROLLS-R4-PLAY-001: 23→18 from A bite; heal +6 to24; B attacks -11 to13. Net -10.,posted
+D266-NIGHT-ROAD-TROLLS-R5-PLAY-001-VALENTHIA-SUP,266,Valenthia,resource,Superiority Dice,-1,,D266-NIGHT-ROAD-TROLLS-R5-PLAY-001: Quick Toss 1→0/4.,posted
+D266-NIGHT-ROAD-TROLLS-R5-PLAY-001-VALENTHIA-HP,266,Valenthia,stat,HP,-21,,D266-NIGHT-ROAD-TROLLS-R5-PLAY-001: Troll A claws 8+13 damage; 48→27/48.,posted
+D266-NIGHT-ROAD-TROLLS-R6-PLAY-001-VALENTHIA-AS,266,Valenthia,resource,Action Surge,-1,,D266-NIGHT-ROAD-TROLLS-R6-PLAY-001: Accepted Action Surge 1→0/1.,posted
+D266-NIGHT-ROAD-TROLLS-R6-PLAY-001-CIRREN-L1,266,Cirren,resource,Spell Slots (1st),-1,,D266-NIGHT-ROAD-TROLLS-R6-PLAY-001: Healing Word 1→0/4; heals Fenar 9.,posted
+D266-NIGHT-ROAD-TROLLS-R6-PLAY-001-FENAR-HP,266,Fenar,stat,HP,4,,"D266-NIGHT-ROAD-TROLLS-R6-PLAY-001: 13→22 Healing Word +9, then Troll B bite reduced to5; final17/59. Net +4.",posted
