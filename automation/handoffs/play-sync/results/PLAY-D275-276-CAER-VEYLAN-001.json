@@ -80,6 +80,6 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2fec6485482fc3e686a84581c43909962196319d/campaign/continuity/npcs.md",
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2fec6485482fc3e686a84581c43909962196319d/trackers/csv/magic-shops/events.csv"
   ],
-  "generated_view_status": "derived-pending: final checkpoint workflow publication not yet independently verified",
-  "cleanup_status": "pending separate guarded cleanup"
+  "generated_view_status": "Verified at 45dd52f01197f2501977eef3235daa37c3e8a0d2: source hashes, exact checkpoint, V purse982gp5sp6cp, Pixie Dust1 sealed, rations21/feed28.",
+  "cleanup_status": "Seven exact matching verified recovery entries pruned; empty container retained."
 }
