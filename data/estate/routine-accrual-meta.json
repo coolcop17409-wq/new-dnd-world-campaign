@@ -1,8 +1,8 @@
 {
-  "last_confirmed_closed_day": 243,
+  "last_confirmed_closed_day": 265,
   "source_opening_day": 182,
-  "evidence": "D244-ESTATE-REDO-D200-001; saved owner e262ef22, exact source readback and CI44771653785 calculation checks PASS; completed243/elapsed244 preserved, authorized200\u2013244 replacement only. ADMIN-ESTATE-REDO-D244-001 owns publication verification.",
-  "last_accounted_day": 244,
-  "open_day": 244,
-  "open_day_activity": "Completed244daytimeshifts andordinaryactive-daycostsposted; fullnight/calendarclose NOTconfirmed"
+  "evidence": "D266-ESTATE-CATCHUP-001; actualowningfinancialbatch cfcb1d706406e7f93c7b9802f61fa2cc037c1b33 exactninefileverifiedreadback; C266-ACTUAL-CASH and COVERAGE-D266-* ownscope; no campaignclockadvance.",
+  "last_accounted_day": 266,
+  "open_day": 266,
+  "open_day_activity": "Completed266daytimeproduction/wardening/staffedoperations and costs;266night/fullstorage-tonday notelapsed. CurrentVsceneunchanged."
 }
