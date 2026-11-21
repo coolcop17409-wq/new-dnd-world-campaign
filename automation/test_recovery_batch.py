@@ -56,3 +56,43 @@ class BatchTests(unittest.TestCase):
         old=build(dict(schema_version=1,entries=[self.first]),'PLAY-OLD-001','e'*40,[])
         event=copy.deepcopy(self.first['events'][0]);event['event_id']='TEST-EXTRA';self.first['events'].append(event)
         with self.assertRaises(ValueError): self.batch(prior=[old])
+
+
+class SupersessionTests(BatchTests):
+    def setup_replacement(self):
+        from automation.recovery_journal import digest
+        old = build(dict(schema_version=1, entries=[self.first]), 'PLAY-OLD-001', 'e'*40, [])
+        replacement = self.batch()
+        receipt = dict(request_id=old['request_id'], status='superseded',
+            superseded_by=replacement['request_id'], request_digest=digest(old),
+            replacement_digest=digest(replacement), owners_unapplied_verified=True,
+            applied_event_ids=[], verified_base_commit='a'*40)
+        return old, replacement, receipt
+
+    def test_explicit_exact_replacement(self):
+        old, new, receipt = self.setup_replacement()
+        with self.assertRaises(ValueError): verify(self.journal, new, [old])
+        self.assertTrue(verify(self.journal, new, [old], [receipt]))
+
+    def test_invalid_bindings_and_partial_application_fail(self):
+        old, new, receipt = self.setup_replacement()
+        for key, value in [('request_digest', 'wrong'), ('replacement_digest', 'wrong'),
+                           ('owners_unapplied_verified', False), ('applied_event_ids', ['TEST-1']),
+                           ('status', 'blocked'), ('verified_base_commit', '')]:
+            altered = dict(receipt, **{key:value})
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                verify(self.journal, new, [old], [altered])
+
+    def test_conflicting_replacement_rejected_even_with_matching_digest(self):
+        from automation.recovery_journal import digest
+        old, new, receipt = self.setup_replacement()
+        old['events'][0]['after'] = 'Different outcome'
+        receipt['request_digest'] = digest(old)
+        with self.assertRaises(ValueError): verify(self.journal, new, [old], [receipt])
+
+    def test_future_batches_skip_retired_transport(self):
+        from automation.recovery_batch import reconcile_supersessions
+        old, new, receipt = self.setup_replacement()
+        self.assertEqual(reconcile_supersessions([old,new], [receipt]), [new])
+        with self.assertRaises(ValueError): reconcile_supersessions([old], [receipt])
+        with self.assertRaises(ValueError): reconcile_supersessions([old,new], [receipt,receipt])

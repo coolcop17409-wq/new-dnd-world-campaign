@@ -10,12 +10,53 @@ from automation.recovery_journal import check, digest
 PATH = 'automation/recovery/active.json'
 
 
-def build(journal, request_id, journal_commit, prior_requests):
+def reconcile_supersessions(requests, supersessions, replacement=None):
+    """Exclude only explicitly retired transports bound to exact immutable payloads.
+
+    Callers must independently verify main receipts and absence of partial owner
+    application. This offline check cannot certify remote publication.
+    """
+    by_id = {r['request_id']: r for r in requests}
+    if len(by_id) != len(requests):
+        raise ValueError('duplicate prior request ID')
+    if replacement is not None:
+        if replacement['request_id'] in by_id:
+            raise ValueError('replacement already in prior requests')
+        by_id[replacement['request_id']] = replacement
+    retired = set()
+    for receipt in supersessions or []:
+        old_id, new_id = receipt.get('request_id'), receipt.get('superseded_by')
+        if old_id in retired or old_id == new_id or old_id not in by_id or new_id not in by_id:
+            raise ValueError('invalid supersession endpoints')
+        old, new = by_id[old_id], by_id[new_id]
+        if (validate(old) or validate(new) or old.get('mode') != 'accepted_play'
+                or new.get('mode') != 'accepted_play'):
+            raise ValueError('invalid supersession request')
+        if (receipt.get('status') != 'superseded'
+                or receipt.get('request_digest') != digest(old)
+                or receipt.get('replacement_digest') != digest(new)
+                or receipt.get('owners_unapplied_verified') is not True
+                or receipt.get('applied_event_ids') != []
+                or not re.fullmatch('[0-9a-f]{40}', str(receipt.get('verified_base_commit', '')))):
+            raise ValueError('unverified supersession binding')
+        new_events = {e['event_id']: e for e in new['events']}
+        if any(new_events.get(e['event_id']) != e for e in old['events']):
+            raise ValueError('replacement changes or omits retired events')
+        retired.add(old_id)
+    if any(r.get('superseded_by') in retired for r in supersessions or []):
+        raise ValueError('chained or cyclic supersession needs reconciliation')
+    if replacement is not None and replacement['request_id'] in retired:
+        raise ValueError('retired request cannot be applied')
+    return [r for r in requests if r['request_id'] not in retired]
+
+
+def build(journal, request_id, journal_commit, prior_requests, supersessions=None):
     check(journal)
     if not re.fullmatch('[0-9a-f]{40}', journal_commit):
         raise ValueError('journal commit must be an exact SHA')
     if not isinstance(prior_requests, list):
         raise ValueError('prior requests must be a complete reconciled list')
+    prior_requests = reconcile_supersessions(prior_requests, supersessions)
     posted, prior_ids = {}, set()
     for prior in prior_requests:
         if validate(prior) or prior.get('mode') != 'accepted_play':
@@ -89,10 +130,11 @@ def build(journal, request_id, journal_commit, prior_requests):
     return result
 
 
-def verify(journal, request, prior_requests):
+def verify(journal, request, prior_requests, supersessions=None):
     source = request.get('journal_source', {})
     if source.get('path') != PATH or source.get('digest') != digest(journal):
         raise ValueError('pinned journal snapshot mismatch')
+    prior_requests = reconcile_supersessions(prior_requests, supersessions, request)
     rebuilt = build(journal, request['request_id'], source.get('commit', ''), prior_requests)
     if rebuilt != request:
         raise ValueError('request differs from journal-derived batch')
@@ -104,6 +146,7 @@ def main():
     p.add_argument('operation', choices=['build','verify'])
     p.add_argument('journal')
     p.add_argument('--prior-requests', required=True)
+    p.add_argument('--supersessions', help='Verified main supersession receipts; never edit immutable requests')
     p.add_argument('--request-id')
     p.add_argument('--journal-commit')
     p.add_argument('--request')
@@ -113,10 +156,10 @@ def main():
         journal, prior = read(a.journal), read(a.prior_requests)
         if a.operation == 'build':
             if not a.request_id or not a.journal_commit: p.error('request ID and journal commit required')
-            result = build(journal, a.request_id, a.journal_commit, prior)
+            result = build(journal, a.request_id, a.journal_commit, prior, read(a.supersessions) if a.supersessions else None)
         else:
             if not a.request: p.error('--request required')
-            verify(journal, read(a.request), prior)
+            verify(journal, read(a.request), prior, read(a.supersessions) if a.supersessions else None)
             result = {'status': 'PASS'}
         print(json.dumps(result, indent=2, ensure_ascii=False))
     except (ValueError, KeyError, TypeError) as exc:

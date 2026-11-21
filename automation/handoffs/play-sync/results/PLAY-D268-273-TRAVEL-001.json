@@ -1,47 +1,14 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D268-273-TRAVEL-001",
-  "status": "blocked",
-  "phase": "queue_reconciliation_failed",
+  "status": "partial",
+  "phase": "verified_queue_claim",
+  "claim_owner": "foreground-sync-unblock-20261121",
+  "claim_expires_at": "2026-11-21T23:21:11.635661+00:00",
+  "request_digest": "309f8b80a23513e31685df34e95031a0d742af2066cf78d590440968c6de7a00",
   "request_commit": "ac4f9152ca4c47d6e9faaf7f45979be9d52f7f01",
   "request_blob": "da74f2a7cfcf60999a2f434d8f6d3c5fe3d43dbc",
-  "tested_commit": "aad426d3a01b8213c24348eb13bbfafa876258d8",
-  "summary": "Pinned evidence validates with declared prior requests, but full discovered queue contains omitted overlapping immutable PR10. No gameplay applied.",
-  "blocker": "Open PR10 PLAY-D268-270-TRAVEL-001 contains identical first three events. It was blocked for provenance mismatch and has no published main receipt retiring/reconciling its event ownership. PR11 omits it from prior_request_ids. Whole-request verification with complete relevant prior requests fails: request differs from journal-derived batch. Current-main recovery protocol explicitly includes abandoned transports and forbids queueing events twice.",
-  "dependency_status": "PLAY-D267-268-FOLLOWUP-001 complete; checkpoint 7203e1433dc82412a3d5c296cba61803b5a6390e. No active nonterminal claim found; writer IDLE.",
-  "tests": [
-    {
-      "command": "python3 -m automation.recovery_batch verify automation/recovery/active.json --request /tmp/pr11-request.json --prior-requests /tmp/pr11-prior.json",
-      "exit_code": 0,
-      "result": "PASS with declared list only; not sufficient for complete discovery"
-    },
-    {
-      "command": "python3 -m automation.recovery_batch verify automation/recovery/active.json --request /tmp/pr11-request.json --prior-requests /tmp/pr11-prior-complete.json",
-      "exit_code": 1,
-      "result": "request differs from journal-derived batch; list adds immutable PR10"
-    },
-    {
-      "command": "python3 automation/play_handoff.py /tmp/pr11-request.json",
-      "exit_code": 0,
-      "result": "PASS"
-    },
-    {
-      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play",
-      "exit_code": 0,
-      "result": "41 tests passed"
-    }
-  ],
-  "owners_verified": false,
-  "checkpoint_verified": false,
-  "applied_event_ids": [],
-  "owner_refs": [],
-  "inspected_owner_refs": [
-    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/aad426d3a01b8213c24348eb13bbfafa876258d8/campaign/continuity/session-log.md",
-    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/aad426d3a01b8213c24348eb13bbfafa876258d8/campaign/continuity/campaign-state.md",
-    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/aad426d3a01b8213c24348eb13bbfafa876258d8/campaign/continuity/inventory.md",
-    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/aad426d3a01b8213c24348eb13bbfafa876258d8/data/characters/events.csv"
-  ],
-  "generated_view_status": "not applicable; no owner changes",
-  "next_trigger": "Reconcile overlapping immutable transports under current-main queue protocol with explicit supported supersession/replacement handling, then retry the existing queue. Do not mutate immutable requests, silently omit PR10, create another transport, or apply duplicate events.",
-  "delivery_id": "89759a24-e5f5-11f1-9ffa-bac2ba631278"
+  "summary": "Full queue verified with exact PR10 supersession; preparing accepted owner changes.",
+  "blocker": null,
+  "applied_event_ids": []
 }

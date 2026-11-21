@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D268-270-TRAVEL-001",
+  "status": "superseded",
+  "superseded_by": "PLAY-D268-273-TRAVEL-001",
+  "request_digest": "262bba19d95fa8319951f4871ef96d81b73f4f77621d02ef07ee1bb279101a34",
+  "replacement_digest": "309f8b80a23513e31685df34e95031a0d742af2066cf78d590440968c6de7a00",
+  "owners_unapplied_verified": true,
+  "verified_base_commit": "66db5e11395bd2227a6ba7d68d3c59362b76104f",
+  "applied_event_ids": [],
+  "summary": "Invalid pinned-journal transport retired in favor of existing PR11; all three event objects identical. No owner application by PR10. Immutable requests preserved.",
+  "original_journal_digest": "1bcd69e1d7987c78d16cfb2701bee735057f4fe4ad6c05bab2261b44c468c9a7",
+  "declared_journal_digest": "5aeaa71f44fe88668589d7336294382b7208162d0c42336d2563e00540b1bc89",
+  "owner_paths_checked": [
+    "campaign/continuity/campaign-state.md",
+    "campaign/continuity/inventory.md",
+    "campaign/continuity/session-log.md",
+    "data/characters/events.csv"
+  ]
+}

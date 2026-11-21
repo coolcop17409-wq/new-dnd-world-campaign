@@ -56,3 +56,25 @@ python3 -m automation.recovery_journal prune automation/recovery/active.json --r
 ```
 
 This helper validates bindings; it cannot verify remote truth. Fetch latest active.json immediately before pruning, run the helper, and publish its output with expected-main-SHA protection. Delete only fully covered entries with matching hashes and exact event contents. Preserve newer/unsubmitted/unverified entries. On a concurrency failure, reread and recompute. Cleanup is a separate administrative commit AFTER the complete result, never part of owner/checkpoint application. If interrupted, it is safe to retry; already absent entries are no-ops. When all are covered, retain the empty JSON container. Git history and immutable requests preserve the removed evidence. No gameplay, owner or checkpoint write is performed by cleanup.
+
+## Verified replacement of an invalid, unapplied transport
+
+A blocked immutable transport may be retired in favor of an already existing
+replacement only after independently comparing every original event object and
+checking current owners for partial application. Never edit either request.
+Record a main result with status `superseded`, `superseded_by`, exact
+`request_digest` and `replacement_digest`, `owners_unapplied_verified: true`,
+`applied_event_ids: []`, and the exact `verified_base_commit`. All retired events
+must occur identically in the replacement. Partial application or conflicting
+outcomes requires separate reconciliation; this path must reject it.
+
+Discover retired requests as well as active ones. Pass the complete prior array
+and verified main receipts to `automation.recovery_batch verify` using
+`--supersessions <JSON-array-file>`. The helper checks exact bindings and event
+coverage before excluding retired transports from queue ownership. The surviving
+request still must reproduce exactly from its original pinned journal. Do not
+use retirement to bypass a bad replacement hash or silently discard events.
+Future builds use the same receipts and include the surviving prior request.
+A retirement receipt is not completion and cannot prune recovery entries. Apply
+and verify the surviving request through the usual claim, owner, checkpoint-last,
+result and cleanup phases. No new transport or automation is needed.

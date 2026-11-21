@@ -39,3 +39,9 @@ Scheduled Campaign Record Maintenance is fallback: discover these open PRs and m
 ## Recovery journal integration
 
 Follow `automation/recovery/README.md` for the owner-authorized per-response buffer. Startup also reads `automation/recovery/active.json`. Batch requests include exact `recovery_entries` hashes and preserve original event objects/IDs. After independently verified owner/checkpoint application, bind the complete central receipt to the immutable request with request_digest, owners_verified, verified_event_ids, exact owner_refs, executed tests and (when changed) checkpoint_verified. Then separately prune only matching verified entries with the current-main helper and expected-head guards. Preserve newer entries and retain everything on partial/blocked/unverified results. Terminal complete retries may finish pending cleanup after fresh owner verification, without reposting owners. Smoke tests never access this write lane. No extra automation, per-turn PR, or recursive task is created.
+
+For an invalid unapplied transport overlapping an existing valid replacement,
+use the verified supersession procedure in `automation/recovery/README.md`.
+Keep both payloads immutable and include the retired request in discovery;
+`--supersessions` requires exact main receipt bindings and identical event
+coverage. Superseded requests never apply or prune owners independently.
