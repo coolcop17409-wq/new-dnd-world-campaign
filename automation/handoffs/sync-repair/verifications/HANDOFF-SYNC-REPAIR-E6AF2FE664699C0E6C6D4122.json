@@ -1,0 +1,41 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-E6AF2FE664699C0E6C6D4122",
+  "status": "verified",
+  "tested_commit": "d370385cf3824d3b788cb4dcef2749d2f8f49315",
+  "current_base_commit": "f02d7a7a1c7ec9b73e258d2e7904099cf59bd033",
+  "trusted_main_commit": "c979658c19f326ea0a59b4870931950fbf15cc6a",
+  "commands": [
+    {
+      "command": "python3 automation/handoffs/sync-repair/check_fixture.py",
+      "exit_code": 0,
+      "result": "PASS; original fixture reproduced exact character.schema failure before correction."
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -v",
+      "exit_code": 0,
+      "result": "35 tests passed"
+    }
+  ],
+  "changed_paths": [
+    "automation/handoffs/sync-repair/fixtures/integration-character.csv"
+  ],
+  "source_evidence": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/470d57ea044f1819fc3c31bb3e18f8082c626c5b/automation/handoffs/sync-repair/fixtures/README.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/44943361622"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d370385cf3824d3b788cb4dcef2749d2f8f49315/automation/handoffs/sync-repair/fixtures/integration-character.csv"
+  ],
+  "change": "Only final synthetic row status staged → posted; every other byte preserved.",
+  "code_provenance": "All automation Python files byte-compared to trusted main before executing on tested repair SHA.",
+  "delivery": {
+    "pr": 7,
+    "creator": "github-actions[bot]",
+    "event": "opened",
+    "delivery_id": "4d14a0ee-e5e5-11f1-85c0-dd25445affa8",
+    "independent_worker_executed": true
+  },
+  "main_applied": false,
+  "synthetic": true,
+  "blockers": []
+}
