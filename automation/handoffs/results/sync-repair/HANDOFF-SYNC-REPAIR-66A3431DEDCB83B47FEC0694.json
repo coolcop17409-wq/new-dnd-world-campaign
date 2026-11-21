@@ -1,11 +1,16 @@
 {
   "request_id": "HANDOFF-SYNC-REPAIR-66A3431DEDCB83B47FEC0694",
   "lane": "sync-repair",
-  "status": "partial",
+  "status": "complete",
   "claim_owner": "github-opened-1311e7a6-e583-11f1-9db7-696285c910b9",
-  "claim_expires_at": "2026-11-21T08:41:51.570Z",
-  "summary": "Claimed isolated fixture format repair; original failure persists unchanged on test base and repair head.",
-  "blocker": "verification in progress",
-  "next_trigger": "claim completion or expiry",
-  "advances_gameplay": false
+  "claim_expires_at": "2026-11-21T08:13:23.462Z",
+  "summary": "Verified synthetic format-only proposal: removed one final comma, preserving all nine values and stable test ID. Fixture check and 30 regression tests pass. Not merged.",
+  "blocker": null,
+  "next_trigger": "Human review; never merge synthetic branch into main.",
+  "advances_gameplay": false,
+  "verified_commit": "70c86e8f7caa890c6adb05b5a43b105522a102f2",
+  "owner_refs": [
+    "automation/handoffs/sync-repair/fixtures/integration-character.csv@70c86e8f7caa890c6adb05b5a43b105522a102f2"
+  ],
+  "verification_ref": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-66A3431DEDCB83B47FEC0694.json"
 }
