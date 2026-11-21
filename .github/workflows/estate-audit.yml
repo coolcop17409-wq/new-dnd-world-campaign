@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - "trackers/csv/property/**"
-      - "trackers/csv/magic-shops/**"
       - "trackers/index.json"
       - "data/estate/**"
       - "automation/estate_audit.py"

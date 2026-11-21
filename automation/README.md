@@ -39,3 +39,7 @@ The active CAMPAIGN_STATE starts with the current DAY heading; the current conti
 ## Fast-play trigger and freshness contract (2026-11-21)
 
 `.github/workflows/fast-play.yml` automatically runs after the final authoritative CAMPAIGN_STATE update. Intermediate `data/characters/events.csv` writes no longer launch duplicate, potentially future-dated packet builds. At an unchanged checkpoint with journal-only changes, explicitly dispatch and verify the workflow. The packet builder verifies the latest recent SESSION_LOG event ID is reflected in CAMPAIGN_STATE even if both use the same day. Preserve exact accepted sources and use source-targeted repairs, never direct edits of derived dashboard or PLAY_NOW counters.
+
+## Live magic browsing latency guard
+
+For a known market, present existing verified offers from current scene/Stock without rerunning generation, multi-site source lookups or full estate validation. New markets use exactly one permitted local opening/draw with already sourced template candidates; first-time draws stay in the unsynced scene ledger until a natural sync. A magic-shop CSV-only update runs `.github/workflows/magic-shop-check.yml`, a lightweight shop/identity validation without estate ledger/Blackthorn/tax replay or derived dashboard write. The next final campaign checkpoint commit refreshes PLAY_NOW and dashboard, so market changes do not require holding the scene while the estate workflow runs.

@@ -1,0 +1,24 @@
+name: Magic shops — lightweight stock validation
+
+on:
+  push:
+    paths:
+      - "trackers/csv/magic-shops/**"
+      - ".github/workflows/magic-shop-check.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-market:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current shop records
+        uses: actions/checkout@v4
+      - name: Validate actual shop owners, lots and event identities
+        run: |
+          python3 -m py_compile automation/tracker_validate.py
+          python3 automation/tracker_validate.py
+      - name: Mark market-only status
+        run: echo "No estate ledger, Blackthorn, tax, or dashboard posting was run for this magic-market check."
