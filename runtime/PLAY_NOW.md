@@ -1,33 +1,31 @@
 # LIVE PLAY — generated fast packet
 
 **Read-only convenience, NOT an authority or a record of new events.**
-Source: `campaign/continuity/campaign-state.md` (SHA256 `90465a43eab0113fe08136d5d2f99747348e81aa85c2c7dcded400c75a09e762`).
-Dashboard SHA256: `3570890000d1ec04d77ad87e014bc6fdf22bd8de93877e0dbf8c9c15566c4168`.
-Confirmed campaign day: **273**.
-Newest played event: `D272-273-QUIET-ROAD-VEYR-APPROACH-001`.
+Source: `campaign/continuity/campaign-state.md` (SHA256 `5ce89457cd2cfce5134e1dcd1033fe814c8b3a04eedf1f21f96e108c2fe210bc`).
+Dashboard SHA256: `c23ff62de33e716a7cb3d8871fd35fdb7e2e4b93d1853a9eb4547ad25517f33b`.
+Confirmed campaign day: **274**.
+Newest played event: `D274-WTR-VENT-FOUR-WORKERS-EVACUATED-001`.
 
 ## Exact playable checkpoint (verbatim from owner)
 
-CAMPAIGN_STATE — DAY 273 LATE AFTERNOON — WESTERN VEYR CROSSING APPROACH
+CAMPAIGN_STATE — DAY 274 EARLY AFTERNOON — WTR FOUR WORKERS SAFE
 
-CURRENT EXACT PLAYED CHECKPOINT — D273-LATE-AFTERNOON-VEYR-CROSSING-APPROACH-001; latest owning event D272-273-QUIET-ROAD-VEYR-APPROACH-001.
+CURRENT EXACT PLAYED CHECKPOINT — D274-EARLY-AFTERNOON-WTR-FOUR-SAFE-001; latest owning event D274-WTR-VENT-FOUR-WORKERS-EVACUATED-001.
 
-EXACT PENDING V DECISION AT THIS SYNCHRONIZED CHECKPOINT:
-Day273 late afternoon, V/Mara/Cirren/Fenar in intact four-horse enclosed coach have come within sight of functioning legal Crownsunder–western Veyr commercial surface crossing on established Tarnford–Caer Veylan road. Haven't presented documents, spoken to border officials, paid any fee, or entered Veyr. V48/48 HP HD7/7 SecondWind1/1 ActionSurge1/1 Superiority4/4 Psi6/6 MP7/7; Fenar59/59 HD4/6 Rage4/4 Shift3/3; Cirren51/51 HD6/6 slots L1 4/4 L2 3/3 L3 3/3. Four horses healthy, coach sound, supplies12 ration-person-days and16 feed animal-days, purse1137gp7sp6cp. Full LR finished dawn272; new LR progress1/6 at dawn273. Day273 night not yet rolled; V next action or ordinary presentation at border pending. No Day274 scheduled event activated.
+EXACT PENDING V DECISION:
+Day274 approx13:45 at road-cutting outer muster north of second Veyran trunk layby, four trapped workers evacuated alive using narrow ventilation bypass with WTR staff support. WTR forewoman/officer and rescued crew independently coordinating aftermath. Unknown hazardous annex remains, main haul loaded skip jammed but road open. V48/48 HP full resources, Fenar59/59 full Rage/Shift, Cirren51/51 full spell slots; Mara and four healthy V horses with intact coach at muster. No spell, limited resource, money, ration or feed spent; LongRest2/6; purse1137gp7sp6cp, rations9/feed12. V has NOT chosen optional annex clearance or recommenced eastward journey. Next choice leave, inspect/secure hazard, speak with staff or something else.
 
-NEWER ACCEPTED RECOVERY: automation/recovery/active.json contains later accepted border transit and Day273–274 travel/contact. Recover its latest exact pending action before live play. This applied Day273 checkpoint is not permission to replay later accepted events. No later border toll, lodging or contact is posted by this six-event batch.
-
-PARTY AT SYNCHRONIZED CHECKPOINT
-V Reborn Rogue4/Fighter3: HP48/48 AC19 HD7/7 (Fighter3d10/Rogue4d8); Superiority4/4, ActionSurge1/1, SecondWind1/1, Psi6/6, PsiRecovery1/1, PastLife3/3, MP7/7. Purse1137gp7sp6cp following one Day270 payment12gp5sp. Galepierce Dart qty1, Rope of Mending, silver sword and sealed A-04 retained.
+PARTY AND CUSTODY
+V Reborn Rogue4/Fighter3 HP48/48 AC19 HD7/7 (Fighter3d10/Rogue4d8); SecondWind1/1, ActionSurge1/1, Superiority4/4, Psi6/6, PsiRecovery1/1, PastLife3/3, MP7/7. Purse1137gp7sp6cp. Galepierce Dart qty1, Rope of Mending, silver sword and sealed A-04 retained.
 Fenar Beast Barbarian6 HP59/59 AC14 HD4/6 Rage4/4 Shift3/3 MP6/6; no active Rage/Shift/tempHP.
-Cirren Knowledge Cleric6 HP51/51 AC18 HD6/6 L1 4/4 L2 3/3 L3 3/3 ChannelDivinity2/2; signed compact retained.
-Mara uninjured. Intact V-owned coach/four healthy horses, carried rations12 person-days and feed16 animal-days after single Day273 morning allocation. Weighted Long Rest1/6 after full Long Rest completed dawn272 and fresh wilderness night272–273.
+Cirren Knowledge Cleric6 HP51/51 AC18 HD6/6 slots L1 4/4 L2 3/3 L3 3/3 ChannelDivinity2/2; signed compact retained.
+Mara unharmed with intact V-owned coach and four healthy horses at muster. Rations9 person-days/feed12 animal-days after Day274 morning allocation only. Worksite rescue ropes/lanterns are loans, no personal inventory/title transfer. No rescue expenditure, reward or treasure.
 
-CAUSAL HISTORY
-Day268 protected quiet travel; night268–269 LR1→2/6. Day269 genuine daytime47/night35 no encounter; night269–270 LR2→3/6. Day270 daytime80 no encounter; service-village supplies +15 rations/+20 feed, beds/stable paid total12gp5sp once. Safe inn night270–271 LR3→5/6. Day271 daytime51/night63 no encounter; dawn272 full Long Rest completed5→6/6, restored only documented missing resources. Day272 daytime18/night56 quiet; new chain0→1/6 dawn273. Day273 daytime48 quiet; legal crossing approached but not interacted with in this batch. No rerolls, new expenditure, extra rest or invented encounter.
+ACCEPTED CAUSAL HISTORY
+Lawful Veyr entry Day273 after V stated “Passing through the common road to eastwatch”; no fee. Night273 d10050 vs01–03 quiet qualifying wilderness Short Rest; Long Rest1→2/6 dawn274, not full Long Rest. Day274 ration/feed debit3/4 once. Day274 heavily patrolled daytime d10017 vs01–07 no random encounter. Independently activated WTR incident10:00; carter contact11:30. V instructed verification then aid if genuine: Insight advantage16/6+4=20/DC14 with Cirren Help; Fenar Survival17+5=22/DC12. Party reached muster about12:40. V directed ventilation passage and workers to safety first; deliberate roped evacuation completed13:40–13:50, all four workers alive4/4HP. No combat, damage, spells, limited-resource spending, rest rollover, annex clearance or onward departure. No Day274 night roll. Main road open; site unsafe for routine reopening.
 
 OWNER POINTERS
-SESSION_LOG preserves all six exact events and source evidence; data/characters/events.csv owns actual purse, provision and resource postings; INVENTORY tracks custody. Previous checkpoint archived at archive/continuity/campaign-state-before-PLAY-D268-273-TRAVEL-001.md. Recovery and subsequent accepted play supersede this historic pending choice without duplication.
+SESSION_LOG holds the five accepted events and exact evidence; character journal owns two provision deductions; INVENTORY owns custody; QUESTS/NPCS and private Nightglass route record rescue status. Previous checkpoint archived at archive/continuity/campaign-state-before-PLAY-D274-WTR-VENT-RESCUE-001.md. Recovery journal may contain newer accepted play: reconcile without replaying it.
 
 ## Current character counters (CSV baselines + posted event overlay)
 
