@@ -222,6 +222,30 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D266-TROLLS-AFTERMATH-001",
+      "base_commit": "065d1e38689570bd681f2b90538efd7f27763053",
+      "source_checkpoint": "D266-NIGHT-ROAD-TROLLS-COMBAT-CLOSED-001",
+      "destination_checkpoint": "D266-NIGHT-ROAD-TROLLS-AFTERMATH-SEARCH-001",
+      "source_evidence": "Player exact instruction after closing two-troll encounter: \"Let’s check out the scene. Check if there anything to loot or if there’s more danger.\" Party conducts reasonable careful 15-minute exploration of immediate wayside camp, corpses, and southern approach, no extra encounter. Actual executed Python secrets rolls: Cirren Investigation advantage from Mara Help d20 faces14,13, take14 +7=21 vs predeclared DC13 success. Fenar Survival d20 natural20 +5=25 vs predeclared DC13 success. Cirren/Mara inspect troll bodies and camp; find filthy hide scraps, old animal bones, NO coins, magic items, usable equipment or other loot. Fenar confirms just two troll tracks approaching from southern drainage/game trails, no evidence of more accompanying them, nearby ambush stations or organized party; this is not a guarantee the wilderness will remain safe. No extra enemies, traps, owned item custody or money manufactured. Approx 15 minutes pass after combat on same Day266 nightfall. Fenar Rage (house up to10 minutes) and Shift (1 minute) naturally end, Cirren Spiritual Weapon (1minute) expires; no resource refund. V HP27/48, Fenar17/59, Cirren49/51 remain; no spells/psi/MP/healing/coin/food/feed spent. Mara still with four safe horses to north, coach stationary and intact. No short/long rest completed, wilderness Long Rest0/6. The group remains free to choose next action.",
+      "pending_action": "Day266 night at road camp east of Tarnford following completed approximately 15-minute postcombat search. Exactly two trolls dead and searched, no loot, immediate area checked without further threat detected. V27/48, Fenar17/59, Cirren49/51, Rage/Shift/Spiritual Weapon expired, no new resource expenditure, LongRest0/6. Four healthy horses with Mara north of intact stationary coach. V chooses whether to depart, tend wounds, secure camp, rest, etc.; do not preselect or advance.",
+      "depends_on": [],
+      "events": [
+        {
+          "event_id": "D266-NIGHT-ROAD-TROLLS-AFTERMATH-SEARCH-001",
+          "accepted": true,
+          "evidence": "Player exact instruction after closing two-troll encounter: \"Let’s check out the scene. Check if there anything to loot or if there’s more danger.\" Party conducts reasonable careful 15-minute exploration of immediate wayside camp, corpses, and southern approach, no extra encounter. Actual executed Python secrets rolls: Cirren Investigation advantage from Mara Help d20 faces14,13, take14 +7=21 vs predeclared DC13 success. Fenar Survival d20 natural20 +5=25 vs predeclared DC13 success. Cirren/Mara inspect troll bodies and camp; find filthy hide scraps, old animal bones, NO coins, magic items, usable equipment or other loot. Fenar confirms just two troll tracks approaching from southern drainage/game trails, no evidence of more accompanying them, nearby ambush stations or organized party; this is not a guarantee the wilderness will remain safe. No extra enemies, traps, owned item custody or money manufactured. Approx 15 minutes pass after combat on same Day266 nightfall. Fenar Rage (house up to10 minutes) and Shift (1 minute) naturally end, Cirren Spiritual Weapon (1minute) expires; no resource refund. V HP27/48, Fenar17/59, Cirren49/51 remain; no spells/psi/MP/healing/coin/food/feed spent. Mara still with four safe horses to north, coach stationary and intact. No short/long rest completed, wilderness Long Rest0/6. The group remains free to choose next action.",
+          "before": "Combat closed after round7 night Day266. Trolls A and B dead, bodies unsearched; immediate surroundings not thoroughly checked. V27/48, Fenar17/59, Cirren49/51; Fenar Rage/Shift still within durations, Cirren Spiritual Weapon near expiry. Mara near four healthy horses north of stationary intact coach; LongRest0/6.",
+          "after": "Party searches corpses, camp and south tracks for approximately15 minutes, same Day266 nightfall. Genuine Cirren Investigation adv(14,13)+7=21/DC13 and Fenar Survival nat20+5=25/DC13. No meaningful loot, coins, magic or usable gear; two troll approach trails from southern woodland, no evidence of accompanying enemies/nearby ambush, no guarantee beyond area searched. Rage/Shift/Spiritual Weapon expire by duration. All HP/resources/custody unchanged; no supplies spent, no rest recovered. Four horses healthy, coach stationary intact, pending V choice for postsearch disposition.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md"
+          ]
+        }
+      ]
     }
   ]
 }
