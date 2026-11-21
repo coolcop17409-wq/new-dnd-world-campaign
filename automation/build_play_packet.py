@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / "campaign" / "continuity" / "campaign-state.md"
 DASHBOARD = ROOT / "dashboard" / "dashboard.json"
 OUTPUT = ROOT / "runtime" / "PLAY_NOW.md"
+SESSION = ROOT / "campaign" / "continuity" / "session-log.md"
 DAY = re.compile(r"^CAMPAIGN_STATE\s*[—–-]\s*DAY\s+(\d+)\b", re.M | re.I)
 
 def active_checkpoint(text: str) -> tuple[int, str]:
@@ -32,8 +33,18 @@ def active_checkpoint(text: str) -> tuple[int, str]:
         raise ValueError("Active checkpoint exceeds fast-play size limits; archive superseded history")
     return int(hit.group(1)), section
 
-def make_packet(state_text: str, dashboard_text: str) -> str:
+def latest_recent_event_id(log_text: str) -> str:
+    """Read the first newest-first accepted played event ID."""
+    match = re.search(r"(?m)^(D\d{2,3}(?:-[A-Z0-9]+)+)\s+[—–]", log_text)
+    if not match:
+        raise ValueError("Recent session log has no identifiable accepted event")
+    return match.group(1)
+
+def make_packet(state_text: str, dashboard_text: str, log_text: str | None = None) -> str:
     day, section = active_checkpoint(state_text)
+    newest_id = latest_recent_event_id(log_text) if log_text is not None else None
+    if newest_id and newest_id not in section:
+        raise ValueError(f"Newest played event {newest_id} is not reconciled to CAMPAIGN_STATE")
     dash = json.loads(dashboard_text)
     if dash.get("campaign_day") != day:
         raise ValueError(f"Dashboard day {dash.get('campaign_day')} disagrees with checkpoint day {day}")
@@ -46,6 +57,7 @@ def make_packet(state_text: str, dashboard_text: str) -> str:
         f"Source: `campaign/continuity/campaign-state.md` (SHA256 `{hashlib.sha256(state_text.encode('utf-8')).hexdigest()}`).",
         f"Dashboard SHA256: `{hashlib.sha256(dashboard_text.encode('utf-8')).hexdigest()}`.",
         f"Confirmed campaign day: **{day}**.",
+        *([f"Newest played event: `{newest_id}`."] if newest_id else []),
         "",
         "## Exact playable checkpoint (verbatim from owner)",
         "",
@@ -97,7 +109,7 @@ def main() -> None:
     log = ROOT / "campaign" / "continuity" / "session-log.md"
     if log.exists() and len(log.read_text(encoding="utf-8")) > 75000:
         raise ValueError("Recent SESSION_LOG exceeds 75000 characters; archive closed events")
-    result = make_packet(STATE.read_text(encoding="utf-8"), DASHBOARD.read_text(encoding="utf-8"))
+    result = make_packet(STATE.read_text(encoding="utf-8"), DASHBOARD.read_text(encoding="utf-8"), SESSION.read_text(encoding="utf-8"))
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     if not OUTPUT.exists() or OUTPUT.read_text(encoding="utf-8") != result:
         OUTPUT.write_text(result, encoding="utf-8")

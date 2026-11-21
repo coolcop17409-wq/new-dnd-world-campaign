@@ -6,7 +6,7 @@ import tempfile
 from pathlib import Path
 from unittest.mock import patch
 import unittest
-from automation.build_play_packet import active_checkpoint, make_packet
+from automation.build_play_packet import active_checkpoint, make_packet, latest_recent_event_id
 from automation import build_dashboard
 
 STATE = "CAMPAIGN_STATE — DAY 244 EVENING — TEST\n\nCURRENT EXACT PLAYED CHECKPOINT — TEST-EVENT, V must choose.\n\n## Earlier checkpoints and source history\nArchived only."
@@ -120,6 +120,20 @@ class FastPlayTests(unittest.TestCase):
             self.assertEqual((r["Psionic Energy Dice"],r["Superiority Dice"]),(4,4))
             with self.assertRaises(ValueError):run(values,day=244)  # no future posting
             with self.assertRaises(ValueError):run([("HP",-100,"stat","TEST-OVERDAMAGE")])
+
+    def test_latest_played_event_even_when_day_matches(self):
+        log = "D265-TARNFORD-ESCORT-ARRIVAL-001 — Accepted afternoon arrival.\n"
+        self.assertEqual(latest_recent_event_id(log), "D265-TARNFORD-ESCORT-ARRIVAL-001")
+        day = dict(DASH, campaign_day=265)
+        old = "CAMPAIGN_STATE — DAY 265 DAWN\n\nCURRENT EXACT PLAYED CHECKPOINT — D264-265-TARNFORD-ESCORT-CAMP-001."
+        with self.assertRaisesRegex(ValueError, "not reconciled"):
+            make_packet(old, json.dumps(day), log)
+        new = "CAMPAIGN_STATE — DAY 265 AFTERNOON\n\nCURRENT EXACT PLAYED CHECKPOINT — D265-TARNFORD-ESCORT-ARRIVAL-001."
+        self.assertIn("Newest played event", make_packet(new, json.dumps(day), log))
+
+    def test_recent_log_requires_played_event_id(self):
+        with self.assertRaises(ValueError):
+            latest_recent_event_id("Only background maintenance\n")
 
     def test_current_only(self):
         day, section = active_checkpoint(STATE)

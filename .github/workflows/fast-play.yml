@@ -4,14 +4,13 @@ on:
   push:
     paths:
       - "campaign/continuity/campaign-state.md"
-      - "data/characters/**"
       - "trackers/csv/v/**"
       - "trackers/csv/cirren/**"
       - "trackers/csv/fenar/**"
       - "automation/build_play_packet.py"
       - "automation/test_fast_play.py"
       - ".github/workflows/fast-play.yml"
-  workflow_dispatch:
+  workflow_dispatch: # Manual refresh for unchanged-checkpoint journal edits
 
 concurrency:
   group: campaign-generated-${{ github.ref }}
