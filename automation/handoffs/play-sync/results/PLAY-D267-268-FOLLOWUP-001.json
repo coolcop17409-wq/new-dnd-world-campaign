@@ -4,12 +4,14 @@
   "status": "partial",
   "claim_owner": "opened-pr9-1b35fc80",
   "claim_expires_at": "2026-11-21T22:08:02.721Z",
-  "phase": "dependency_owners_verified",
-  "owner_commit": "147160da0049347072fd63fa52fec51e9e75a257",
-  "tested_commit": "bc8e4e0",
-  "summary": "Predecessor owners plus first followup correction verified; checkpoint next. Remaining followup events not yet applied.",
+  "phase": "owners_verified",
+  "owner_commit": "88c7fc41b16cb0abe437e4d4de384cd85d8cfb44",
+  "tested_commit": "2ea59880b3192e33433d4a9c21996c8d64483560",
+  "summary": "All seven followup events now applied to owners; correction in prior phase; Day268 checkpoint next.",
   "applied_event_ids": [
     "D266-267-V-REST-HITDICE-SPEND-CORRECTION-001"
   ],
-  "blocker": null
+  "blocker": null,
+  "prior_owner_commit": "147160da0049347072fd63fa52fec51e9e75a257",
+  "owners_verified": true
 }
