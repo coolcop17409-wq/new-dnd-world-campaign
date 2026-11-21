@@ -109,6 +109,46 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D275-276-VISION-TRAVEL-001",
+      "base_commit": "c4e0949da760b2f460e91f099ac342b6a3078b46",
+      "source_checkpoint": "D275-LATE-AFTERNOON-VISIONS-FIRSTPERSON-001",
+      "destination_checkpoint": "D276-LATE-AFTERNOON-CAER-VEylan-OUTSKIRTS-001",
+      "source_evidence": "Player exact command \"do both\" in answer to choice to describe one of the already-played Nightglass visions to companions AND continue the coach journey toward Caer Veylan. V's authorized retelling stays within previously played Nightglass material, not a new vision or additional personal words: vision of vast black-marble chamber, silver throne beneath seven branching pillars, an obscured kneeling figure holding V's silver sword, and spoken warning \"They will tell you what you were… Do not mistake their memories for your own.\" This is the established content from the earlier Nightglass scene, not independently certified objective history, true prophecy, or precise identity of the figure. Cirren recognizes this resembles V's current questions about identity, but distinguishes felt memories from proof; Mara notices the held sword and warning; Fenar emphasizes V's present autonomy. Cirren writes only the content V actually shared in his own notebook, no invented provenance/carrier mark or Edric discovery. No magic, psychic resource, HP, inventory, coins or clock change directly from discussion.\n\nContinuing established four-horse coach travel east on heavily patrolled western Veyr trunk towards Caer Veylan after Day275 late-afternoon conversation. Day275 daytime d100 FACE33 vs01–07 previously posted, not rerolled. Day275 EXPOSED night camp genuine Python secrets d100 FACE55 vs heavily patrolled night01–03 => NO event; ordinary peaceful qualifying wilderness Short Rest, no Hit Dice, damage, spells or finite feature expenditure, and weighted Long Rest progress3→4/6 at Dawn276 (not full). Day276 breakfast/horse feed single ordinary allocation for Mara/Cirren/Fenar and V four horses: ration-person-days6→3, horse-feed animal-days8→4. V Reborn does not eat; no double debit or personal spending. Day276 heavily patrolled road daytime genuine uniform d100 FACE69 vs01–07 => no encounter; no type/severity rolls. By Day276 late afternoon ordinary travel reaches cultivated western approaches of Caer Veylan; city gate, traffic and watch posts visible, but no specific arrival processing, fee, purchase, accommodation or new V conversation chosen. No boundary/quest/character changes elsewhere, no additional night/dawn roll. V48/48 HP HD7/7 full combat/Psi features, Fenar59/59 HD4/6 Rage4/4 Shift3/3, Cirren51/51 HD6/6 full spells, Mara healthy, four healthy owned horses and intact enclosed coach, personal purse1137gp7sp6cp, LongRest4/6, carried rations3 and feed4 (one ordinary travel day's allowance).",
+      "pending_action": "Late afternoon Day276 at western approach to Caer Veylan in western Veyr, gate/traffic visible, V/Mara/Cirren/Fenar remain in sound four-horse coach and have not entered city, booked stay or resupplied. V has just shared earlier Nightglass black-marble/silver-throne/seven-pillars/sword-figure warning vision with companions; no new vision. Night275/during Day276 no travel encounter; LongRest4/6, V48/48 HD7/7, Fenar59/59 HD4/6, Cirren51/51 HD6/6, all resources still full; purse1137gp7sp6cp, provisions3 ration-person-days and4 horse-feed animal-days (one day supply). Await V direction to enter city for rest/resupply, continue, or do something else; no Day276 night rolled.",
+      "depends_on": [
+        "PLAY-D274-275-DEPART-001"
+      ],
+      "events": [
+        {
+          "event_id": "D275-V-RECOUNTS-NIGHTGLASS-THRONE-VISION-001",
+          "accepted": true,
+          "evidence": "Player exact command \"do both\" in answer to choice to describe one of the already-played Nightglass visions to companions AND continue the coach journey toward Caer Veylan. V's authorized retelling stays within previously played Nightglass material, not a new vision or additional personal words: vision of vast black-marble chamber, silver throne beneath seven branching pillars, an obscured kneeling figure holding V's silver sword, and spoken warning \"They will tell you what you were… Do not mistake their memories for your own.\" This is the established content from the earlier Nightglass scene, not independently certified objective history, true prophecy, or precise identity of the figure. Cirren recognizes this resembles V's current questions about identity, but distinguishes felt memories from proof; Mara notices the held sword and warning; Fenar emphasizes V's present autonomy. Cirren writes only the content V actually shared in his own notebook, no invented provenance/carrier mark or Edric discovery. No magic, psychic resource, HP, inventory, coins or clock change directly from discussion.",
+          "before": "Day275 late afternoon coach conversation: V has reported previous Nightglass visions felt like personal lived experiences, but has not selected a specific vision to share with companions at this time. Current HP/custody/time unchanged.",
+          "after": "V elects to describe the established black-marble/silver-throne/seven-pillars vision with an obscured sword-bearing figure and its warning; companions reflect independently, Cirren notes details in own notebook without certifying truth. No new vision or historical fact proven and no special resource expenditure.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md"
+          ]
+        },
+        {
+          "event_id": "D275-276-VEYR-ROAD-CAER-VEylan-APPROACH-001",
+          "accepted": true,
+          "evidence": "Continuing established four-horse coach travel east on heavily patrolled western Veyr trunk towards Caer Veylan after Day275 late-afternoon conversation. Day275 daytime d100 FACE33 vs01–07 previously posted, not rerolled. Day275 EXPOSED night camp genuine Python secrets d100 FACE55 vs heavily patrolled night01–03 => NO event; ordinary peaceful qualifying wilderness Short Rest, no Hit Dice, damage, spells or finite feature expenditure, and weighted Long Rest progress3→4/6 at Dawn276 (not full). Day276 breakfast/horse feed single ordinary allocation for Mara/Cirren/Fenar and V four horses: ration-person-days6→3, horse-feed animal-days8→4. V Reborn does not eat; no double debit or personal spending. Day276 heavily patrolled road daytime genuine uniform d100 FACE69 vs01–07 => no encounter; no type/severity rolls. By Day276 late afternoon ordinary travel reaches cultivated western approaches of Caer Veylan; city gate, traffic and watch posts visible, but no specific arrival processing, fee, purchase, accommodation or new V conversation chosen. No boundary/quest/character changes elsewhere, no additional night/dawn roll. V48/48 HP HD7/7 full combat/Psi features, Fenar59/59 HD4/6 Rage4/4 Shift3/3, Cirren51/51 HD6/6 full spells, Mara healthy, four healthy owned horses and intact enclosed coach, personal purse1137gp7sp6cp, LongRest4/6, carried rations3 and feed4 (one ordinary travel day's allowance).",
+          "before": "Late Day275 after prior daytime d10033 no event; party on heavily patrolled Veyr highway with intact four-horse coach, V48/48 Fenar59/59 Cirren51/51, LongRest3/6, carried rations6/feed8, purse1137gp7sp6cp; night275/day276 unrolled.",
+          "after": "Night275 d100FACE55 vs night01–03 quiet and qualifying wilderness overnight LongRest3→4/6 at dawn276; Day276 breakfast 3 rations and4 horse feed once, carried6→3 ration-person-days and8→4 animal-feed-days. Day276 day d100FACE69 vs day01–07 no encounter. Day276 late afternoon west approach to Caer Veylan within sight of city gate, no fee/purchase/check/entry yet. Party HP/resources, purse, gear, horses and coach unchanged; next V direction unchosen.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/inventory.md",
+            "data/characters/events.csv"
+          ]
+        }
+      ]
     }
   ]
 }
