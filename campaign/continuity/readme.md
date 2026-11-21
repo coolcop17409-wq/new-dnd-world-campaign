@@ -34,6 +34,12 @@ Maintain a compact **unsynchronized** event ledger during play. Batch guarded, i
 - [runtime/PLAY_NOW.md](../../runtime/PLAY_NOW.md) — **generated nonauthoritative fast read**, never a parallel campaign journal. [archive/continuity](../../archive/continuity/) preserves historical material.
 - Maps and large images stay in Drive/Library under the established asset/atlas procedures.
 
+## Atlas review
+
+Last verified publication: [Eastwatch edition and file versions](../../archive/continuity/readme-day244-246-receipts-before-fastplay-repair.md#atlas-review).
+
+CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D266-1795248266662 | worker=Atlas | operations=ATLAS-D266-TARNFORD-COACH-001 | acquired_UTC=2026-11-21T08:04:26.662Z | heartbeat_UTC=2026-11-21T08:04:26.662Z | expires_UTC=2026-11-21T08:14:26.662Z | recovery=campaign/continuity/readme.md#atlas-review
+
 ## Integrity
 
 No new in-world events, rolls, NPC choices, property operations, income, rests or resources arise from document restructuring, workflow execution or real-world time. Do not treat forecast, proposals, DM secrets or unclosed post-cutover validation items as settled fact. Failed writes remain unsynced until correctly retried without duplicate IDs.
