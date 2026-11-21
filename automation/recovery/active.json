@@ -98,6 +98,30 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D266-TROLLS-R3-B-REGEN-CORR-001",
+      "base_commit": "8028f5ee6a2694a93752a22e34cb8e928abbc114",
+      "source_checkpoint": "D266-NIGHT-ROAD-TROLLS-R4-V-001",
+      "destination_checkpoint": "D266-NIGHT-ROAD-TROLLS-R4-V-001",
+      "source_evidence": "Mechanical correction to PLAY-REC-D266-TROLLS-R3-001, not new roll, extra action, resource, or turn: 2014 standard Troll B Regeneration10 applies at START of its own Round3 turn because it took no fire or acid damage. After Fenar17, V Quick Toss18, and Cirren Toll6, Troll B had HP43/84. On initiative7 before its already recorded bite/two claws, Troll B therefore regained exactly10 to HP53/84. The previous round3 event correctly recorded all damage, dice and action outcomes but omitted B's own-start +10 regeneration. R4 begins Troll B HP53/84, not43. Troll A10/84 remains correct.",
+      "pending_action": "Round4 V action unchosen. V48/48 superiority2/4, Fenar23/59 raging/shifted, Cirren49/51 and Spiritual Weapon active, Troll A HP10/84, Troll B corrected HP53/84. Mara coach not yet moving.",
+      "depends_on": [],
+      "events": [
+        {
+          "event_id": "D266-TROLL-B-R3-REGEN-CORRECTION-001",
+          "accepted": true,
+          "evidence": "Mechanical correction to PLAY-REC-D266-TROLLS-R3-001, not new roll, extra action, resource, or turn: 2014 standard Troll B Regeneration10 applies at START of its own Round3 turn because it took no fire or acid damage. After Fenar17, V Quick Toss18, and Cirren Toll6, Troll B had HP43/84. On initiative7 before its already recorded bite/two claws, Troll B therefore regained exactly10 to HP53/84. The previous round3 event correctly recorded all damage, dice and action outcomes but omitted B's own-start +10 regeneration. R4 begins Troll B HP53/84, not43. Troll A10/84 remains correct.",
+          "before": "PLAY-REC-D266-TROLLS-R3-001 recorded Troll B HP43/84 after taking17 Fenar damage,18 V Quick Toss and6 Cirren Toll; its start-of-turn regeneration was inadvertently omitted before its accepted Round3 attacks.",
+          "after": "Troll B HP43/84->53/84 at start of its own Round3 initiative7 via standard Regeneration10. No fire/acid since previous turn. All attacks, rolls, other HP/resources, positions, Day266 clock and Round4 pending action unchanged. Corrects Troll B HP in prior Round3 evidence; does not replay damage.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md"
+          ]
+        }
+      ]
     }
   ]
 }
