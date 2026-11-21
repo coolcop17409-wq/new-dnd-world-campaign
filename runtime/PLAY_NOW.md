@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `40ce0ef6783a96669b716ae3a4af327e80acd2712207c78e0e5346081cfd1621`).
-Dashboard SHA256: `82666c7ccf504cab9f1030f4b6048f6f412f4341b310758486036725ea34fb3c`.
+Dashboard SHA256: `432c4014a3c3946382cae997ad4122d4b090a93fe0836b5c2bd630d468baf036`.
 Confirmed campaign day: **261**.
 
 ## Exact playable checkpoint (verbatim from owner)
@@ -29,7 +29,7 @@ Day251–261 wait, brothers' actual arrival, estate evidence, correspondence and
 
 Snapshot values support lookups; rule interpretations, contextual conditions, custody and exceptions remain in the owning records.
 
-- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 1185 gp 3 sp 8 cp.
+- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 1173 gp 4 sp 8 cp.
   - Resources: Martial Points 7/7; Psionic Energy Dice 6.0/6; Second Wind 1.0/1; Knowledge from Past Life 3.0/3; Psi Recovery 1.0/1; Hit Dice 7/7; Psychic Whispers free use 1/1; Action Surge 1/1; Superiority Dice 4.0/4
 - **Cirren** — HP 51/51; AC 18; level 6.
   - Resources: Channel Divinity 2/2; Spell Slots (1st) 4/4; Spell Slots (2nd) 3.0/3; Hit Dice 6/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 3/3
