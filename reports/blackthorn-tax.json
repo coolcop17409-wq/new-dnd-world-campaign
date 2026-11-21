@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "through_day": 244,
+  "through_day": 266,
   "source_checkpoint_day": 230,
   "periods": [
     {
@@ -9,13 +9,13 @@
       "end_day": 271,
       "due_day": 272,
       "liability_id": "OPEN-BLACKTHORN-rolling-tax-unpaid-gp-D230",
-      "through_day": 244,
-      "actual_income_gp": "763.15",
-      "actual_expenses_gp": "340.34",
-      "management_payroll_gp": "98.00",
-      "upkeep_gp": "25.00",
-      "taxable_base_gp": "1023.51",
-      "assessment_estimate_gp": "102.35",
+      "through_day": 266,
+      "actual_income_gp": "1614.81",
+      "actual_expenses_gp": "734.29",
+      "management_payroll_gp": "252.00",
+      "upkeep_gp": "64.29",
+      "taxable_base_gp": "1287.93",
+      "assessment_estimate_gp": "128.79",
       "period_closed": false
     },
     {
