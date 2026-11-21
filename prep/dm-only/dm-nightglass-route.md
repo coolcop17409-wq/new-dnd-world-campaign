@@ -1,0 +1,74 @@
+# Nightglass journey — western Veyr corridor
+DM ONLY / UNPLAYED ROUTE PREPARATION. ADMIN-NIGHTGLASS-ROUTE-20261120-001.
+Owner: journey opportunities and conditional return. Nightglass destination and Verdana expedition remain in [estate/ancestry](dm-estate-ancestry.md). [QDF-1](../../campaign/continuity/rules-quest-design.md) governs design; [travel rules](../../campaign/continuity/rules-travel-communication.md) govern actual travel and RNG. This new owner fills the player's identified long-journey adventure gap. It adds no played incident, message, map coordinate, calendar day, expense or character knowledge.
+
+## Confirmed corridor and current relevance
+Read at D246-251-BLACKTHORN-REST-NIGHTGLASS-ROUTE-001, Day251 dawn, with OOC-ROUTE-EASTWATCH-251-001 applied. V expressed intent to pursue Nightglass and planned/rested at Blackthorn; the party has not departed. Known road:
+Blackthorn Hold → Tarnford → existing Crownsunder/western Veyr commercial crossing → Caer Veylan → Eastwatch → Nightglass Hall, half-day carriage east of Eastwatch.
+This is established four-horse enclosed-coach/loaded-wagon access. Hollowdeep is an optional historical foot route, not mandatory. Read geography-seats and veyr-regional-security for boundaries; Eastwatch sovereignty remains unresolved. Do not move the crossing to Dunwall/Dornal or put Blackthorn on a navigable river.
+
+Use roughly 3–4 weeks outward and a provisional similar return in ordinary conditions, before Hall time, optional adventures, recovery or changed conditions: about 6–8 weeks of baseline travel, not guaranteed arrival dates or an eight-week script. Exact intermediate stops, surveyed miles, tariffs and daily weather remain open. Professional route knowledge exists; no arbitrary survey/permit quest to unlock it. Before actual departure settle relevant supplies/feed, transport, rest opportunities and ordinary requirements; do not fabricate a provision purchase. Actual changed route/pace updates estimates openly.
+
+| Corridor part | Preparation and delivery purpose | Boundary |
+|---|---|---|
+| Blackthorn–Tarnford | Ordinary preparations; discuss time away, local contacts, coach needs and choices. An informed carrier can describe general western-road life. | No unheard incident already known to Tamsin; no new mail or escort contract implied. |
+| Commercial crossing–Caer Veylan, western Veyr | Primary placement for the local adventure below; distinct institutions, working roads and ordinary people become visible. | Do not turn every inspection into danger, assume all citizens hostile or imply secret-program access. |
+| Caer Veylan–Eastwatch–Hall | Existing road and known destination; reunions/ordinary encounters only from actual NPC locations and knowledge. | Previous visit is not a new first arrival. No forced chain of side quests before Hall. |
+| Return along chosen corridor | Revisit consequences or enjoy changed familiarity; stop, bypass or take a different feasible route. | No compulsory crisis, reset creatures, instant rumors or moved encounter if V chooses another road. |
+
+## Substantial route candidate — The Weight of the Road
+**New unplayed design, not recovered canon.** A rescue/exploration adventure about who bears the cost of a road that serves both soldiers and ordinary families. It has a complete local outcome independent of Nightglass, V's inheritance, the Ashen Regency and the Western Program.
+
+**Fixed placement for this candidate:** a lateral road-maintenance worksite off the Veyran portion of the commercial trunk west of Caer Veylan, after the commercial frontier. Keep it on that corridor even if V takes a different road. Exact junction/nearest named stop remain to be located before a report or clue. The worksite is an old aggregate cutting and haulage gallery serving local repairs, not Blackthorn property or a divine installation. The main road remains passable; this is a voluntary spur, not a fabricated mandatory obstruction. Private site only; no public atlas pin.
+
+**Underlying cause and promise:** maintenance crews reopen a disused gallery to obtain foundation material. Their work breaches a natural predator refuge; a collapse isolates part of the crew. Rescue workers can reach a safe outer muster but cannot solve the interior danger with their existing training and equipment. The dramatic question is whether the trapped people can be brought out, and what happens to a dangerous worksite afterward. Save identifiable lives, explore a physical problem and confront real monsters; no mystery villain required.
+
+**Incident timing:** the above is a prepared situation, not an event already occurring on Day251. Before first report, fix an independently plausible incident date relative to actual travel, witness departure/arrival, surviving crew status and response window; do not start a retroactive clock while V rests at home. Once established, retain it through delay or refusal. If information reaches V too late, present truthful aftermath or another objective; never reset survivors to await the hero. Helpers act while V is absent and may succeed or withdraw using their real means.
+
+### People and interests
+Roles below are newly designed local people, not existing named NPCs or appointments. Give stable individual names before their first appearance and retain them.
+- **Civilian forewoman:** knows work methods, crew names and the breached gallery. Wants every worker accounted for, including a disliked but competent team member. Proud of public work; will help on safe rigging, refuse a reckless order and admit what she cannot know. Has a work plan, hand tools and a finite small rescue crew; fix actual numbers/resources before use.
+- **Road officer, an incorporated veteran:** wants survivors recovered and supplies moving. Can close this worksite and ask for professional help; cannot conjure troops or pay an unapproved fortune. Offers practical assistance within verified stores. Fears an incomplete account will be called incompetence, but has not committed a secret atrocity. May accept credible safety evidence; independent judgment, not automatic agreement with V.
+- **Crew representative at the muster:** invokes witnessed service promises to demand equal rescue priority for provincial workers and citizens. Wants action, not a speech. Can identify a second access path and which signals are still being answered. Refuses to trade another person's life for hush money.
+These goals can conflict over methods, risk and reopening without requiring an evil official or treating nationality as a reason to kill. The trapped people have different histories and relationships; do not reduce them to hostages without agency.
+
+### Credible opening and first decision
+At an actual approach to this corridor, a returning relief carter or visible rescue muster can provide firsthand facts: a breached gallery, a last verified response, practical access and the need for capable help. Fix the source's journey and report age first. Offer a concrete first step—speak to the forewoman at the reachable muster and inspect the known access—with an honest delay estimate, stakes and option to continue to Hall. No chance roll is needed to understand an openly delivered request. A vague rumor is not adequate delivery.
+
+Planning scale for the optional spur: access within part of a travel day; possible rescue/exploration over one or two adventuring days, potentially longer for recovery or difficult choices. These are new design bounds, not measured roads or a guaranteed safe fast rescue; set the actual site approach before commitment. Escorting rescued people, staying to make repairs or pursuing formal accountability is optional. No compulsory report-filing or permission chain.
+
+### Playable situations and four pillars
+| Situation | What makes it worth playing | Alternatives and information |
+|---|---|---|
+| Safe outer muster | Social: get genuine accounts, negotiate use of rescue gear and decide priorities with people who disagree. Ordinary shared food, a work song or practical kindness can show local life between tense moments. | Obvious observations and volunteered expertise are free; persuasion affects a specific negotiable request, never erases convictions. |
+| Upper haul terrace and exterior slope | Exploration: compare a damaged main gallery, a narrow old ventilation route and an exposed upper haul ledge. They reach different positions with different coach/rope/space implications. | Inspect before entering; coach/horses can remain with consenting capable attendants at the safe muster. No automatic abandonment or loss. |
+| Split haulage chamber | Puzzle/rescue: a suspended loaded skip obstructs the safer extraction path; two independent controls govern the brake and load support. Releasing an unsupported load is visibly dangerous. | First support/unload it, then release the brake under control; forewoman's demonstration, working markings and visible slack/load provide independent clues and feedback. Shore a bypass, use the ventilation route or apply legal abilities instead. Exact loads, geometry, checks and consequences must be fixed before hazardous manipulation; no real engineering knowledge test. |
+| Breached gallery/refuge edge | Combat opportunity: a finite local predator threat, disturbed by excavation, endangers rescue access. Fighting can buy a route, drive it off or end the threat; killing everything is not the only win. | Evidence of feeding/territory and blocked sightlines telegraphs danger. Reconnaissance, guarded extraction, diversion, barricade or retreat can work according to verified creature senses/movement. No new phase or reinforcements to punish success. |
+| Extraction and worksite decision | Local payoff: survivors outside danger; decide with local owners whether the annex can be isolated, abandoned or safely reopened. | Rescue, containment and permanent clearance are distinct achievements. V may take the rescue victory and leave; no need to personally rebuild the road. |
+
+**Roster boundary:** creature species, number, source profiles and exact rescue roster are OPEN DESIGN, not encounter-ready. Select a finite ecologically credible roster broadly from the approved eligible 2014-family bestiary, verify full abilities/senses/movement, then fix it before any clue implying its traits or any roll. Do not assume every burrowing creature crosses solid stone. Use the actual party/resource state and homebrew recovery; dangerous rescue terrain must not be a pretext for unavoidable damage. No hostage-death deadline or collapse check until its causes, warnings, timing and fair intervention rules are fixed. This HOLD concerns hazardous encounter execution; it is a concrete next preparation job, not permission for another prose audit.
+
+### Discoveries and resolutions
+Essential usable information is available independently: the crew work plan shows old access; the representative knows the ventilation path; exterior reconnaissance reveals the haul ledge. Interior signals and direct inspection can confirm survivors without depending on one NPC or one successful check. The forewoman, visible opened seam and tool/debris pattern explain the accident; no hidden ancestry key or unidentified mastermind.
+- Successful extraction yields living people, specific gratitude and a stable local contact, even if the dangerous annex stays sealed.
+- Secure containment/clearance makes a local material source usable again where actually safe; local workers handle routine repair. No magical ownership grant or automatic Blackthorn business.
+- Partial rescue preserves its actual lives saved, remaining danger and difficult consequences. Do not erase success because a perfect result was impossible.
+- Withdrawal or refusal leaves locals to pursue their own rescue/closure with finite means; no automatic massacre, punishment message or secretly guaranteed successful NPC rescue.
+Any fee, salvage entitlement, supplies or lodging offer must have a willing source and stated terms before promise/posting; no invented reward amount or resource transfer. Resolve actual uncertainty with genuine RNG when needed, never manufactured review rolls.
+
+### Return and world integration
+Record actual survivors, condition of the annex, personal commitments, who received the account and dated local decisions. On return after weeks, use those facts plus truly elapsed time:
+- If people were helped and the annex secured, a reopened worksite, familiar workers or an invitation to an apprenticeship/service feast can provide visible closure and warmth. Do not promise these before their ordinary prerequisites are met.
+- If the annex remains unsafe, competent locals may fence it and use another source. The main trunk still works; V is not forced to finish every repair.
+- If V challenged an account or left evidence, reactions require actual recipients, authority and means. No omniscient arrest order or continental scandal.
+- If V never contacted this place, there is no presumed relationship or retrospective offer. An independent incident may resolve without V.
+
+Intentional link: the road's civilian/military role and witnessed service obligations express established Veyran culture and unequal standing in concrete choices. This is regional integration, **not evidence** of GLASS SPEAR, the Western Program, Bane's hand, the Regency or V's parentage. An existing major-plot contact may be prepared separately only with its own causal evidence, informed source and actionable continuation. Do not turn these workers into universal conspiracy agents.
+
+## Readiness, delivery and next work
+G1 PASS for the scoped premise, regional grounding, conflict, agency and independent closure; not playtested.
+G2 CONDITIONAL for the road adventure: before offering it, fix exact spur/source placement, incident/report timing, rescue roster and useful diversion estimate. The established main coach route is already usable for ordinary planning; this candidate is not its prerequisite.
+G3 HOLD: complete approved source selection/profiles, site dimensions and access, finite threat/rescuers, detection/retreat, rigging/hazard checks and timing, risk/rest assessment and reward terms before use.
+Status UNINTRODUCED, UNACCEPTED. Nothing in this file is V's knowledge.
+Next work: selected corridor is now an imminent journey-planning priority for Quest Development. Finish G2 and approaching G3 in advance of reaching western Veyr; then offer at the first compatible actual corridor contact. Keep the destination's separate introduction promise visible. No need to wait for V to ask again.
+Light alternative: if V declines a substantial side trip, use ordinary road culture, independent travelers or a genuinely eligible existing contact; do not relocate this rescue into his path or invent a replacement emergency. A different chosen route gets its own grounded preparation.
