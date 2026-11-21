@@ -27,6 +27,14 @@ The service-house protection formula/counterseal supplies independent comparison
 
 No connection is added to Graven, Undertow/Miregate, Quenwood, the Covenant, Blackthorn undead, the awakening tomb or Western Program crimes. The burial callback retains its separate already-approved link and is not required here. No new public knowledge, expedition acceptance, message or game time results.
 
+### Nightglass connection delivery check — ADMIN-NIGHTGLASS-STORY-REVIEW-20261120-001
+
+Estate/ancestry owns the revised dramatic scenes and evidence chain. The link is now **explicit historical continuity plus current misuse**, not merely a shared crest. The unvisited service-house panel/instrument identify the existing western customs station; the field book resolves the designation. Its station history can be compared with ASHEN FIELD's existing oath-book. Present abuse still needs present evidence from the prepared affected household/notice/informed contact.
+
+Before a wider-plot choice, convey the specific institution/place, what the match proves, what it does not prove, a concrete available objective and knowable travel/stakes. Finding an ancient seal alone is not delivery of the modern faction lead. Ordinary Orsaven staff may explain a known old station designation; they are not omniscient witnesses to coercion. A source for current news needs real contact and knowledge. Connect the two openly after corroboration rather than asking V to guess a secret quest name.
+
+Maintain the alternative directions: Nightglass/Verdana → tower inquiry; tower evidence → historical site; Ophira comparison optional. Update player knowledge only after actual discovery. No additional connection to unrelated quest causes, no new narrative prerequisite to completed cases and no unplayed news is delivered by this register.
+
 Shared connections — scope
 Fixed facts below bind private preparation, not player knowledge. Conditional links require actual contact, capacity, agreements and travel. Each local outline retains its cause/outcome. Do not add clues to already searched evidence.
 Extortion overlap — limited shared informant
