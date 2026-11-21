@@ -50,36 +50,36 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — MG-MERET-PAY** is routed to current `MG-PAY-229` (Complete; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-WEEK-214** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-WEEK-221** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
-- **Miregate — MG-WEEK-235** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
-- **Miregate — MG-WEEK-242** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-WEEK-235** is routed to current `R200-DEVELOPMENT-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-WEEK-242** is routed to current `R200-DEVELOPMENT-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-CAERETH-CHARTER-D228** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-CAR-HERON-VERIFY-D229** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
-- **Miregate — MG-REPEAT-D225** is routed to current `R200-RIVER-CUSTOMER-NEXT` (open; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-REPEAT-D225** is routed to current `R200-RIVER-CUSTOMER-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-PAY-222** is routed to current `MG-PAY-229` (Complete; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-PAY-236** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-PAY-243** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
-- **Miregate — MG-ELDEN-CALL-237** is routed to current `R200-RIVER-CUSTOMER-NEXT` (open; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-ELDEN-CALL-237** is routed to current `R200-RIVER-CUSTOMER-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-NERIS-STORAGE-CHECK-233** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
-- **Miregate — MG-OWN-GRAIN-PILOT-238** is routed to current `R200-MG-PILOT-NEXT` (waiting; verified owner successor). This does not complete an open successor.
-- **Miregate — MG-FARM-COMMERCIAL-REVIEW** is routed to current `R200-MG-FARM-NEXT` (waiting; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-OWN-GRAIN-PILOT-238** is routed to current `R200-MG-PILOT-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-FARM-COMMERCIAL-REVIEW** is routed to current `R200-MG-FARM-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-HESSA-MILL-232-NEXT** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-JOREN-STORE-232-REVIEW** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-PUNT-REBUILD-D231** is routed to current `MG-PUNT-COST-RECOVERY` (Completed; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-BOOK** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
-- **Reedbed — RB-WEEK-238** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-WEEK-238** is routed to current `R200-DEVELOPMENT-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-PAYROLL-208** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-PAYROLL-215** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-PAYROLL-222** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-PAYROLL-236** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
 - **Reedbed — RB-PAYROLL-243** is routed to current `R200-FIN-RB` (Verified; verified owner successor). This does not complete an open successor.
-- **Reedbed — RB-TARIN-237-NEXT** is routed to current `R200-RB-WALKIN-NEXT` (open; verified owner successor). This does not complete an open successor.
-- **Reedbed — RB-PASSING-NEXT-232** is routed to current `R200-RB-WALKIN-NEXT` (open; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-TARIN-237-NEXT** is routed to current `R200-RB-WALKIN-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
+- **Reedbed — RB-PASSING-NEXT-232** is routed to current `R200-RB-WALKIN-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 - **Old Distributary Fort — OF-COMMISSION** is routed to current `R200-OF-SERVICE-CURRENT` (completed; verified owner successor). This does not complete an open successor.
 - **Old Distributary Fort — OF-START** is routed to current `R200-OF-SERVICE-CURRENT` (completed; verified owner successor). This does not complete an open successor.
 - **Old Distributary Fort — OF-FIRST-RETURN** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
-- **Old Distributary Fort — OF-FIRST-PAY** is routed to current `R200-OF-COLLECT` (open; verified owner successor). This does not complete an open successor.
-- **Old Distributary Fort — OF-WEEK-233** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
-- **Old Distributary Fort — OF-WEEK-240** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-FIRST-PAY** is routed to current `R200-OF-COLLECT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-WEEK-233** is routed to current `R200-DEVELOPMENT-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
+- **Old Distributary Fort — OF-WEEK-240** is routed to current `R200-DEVELOPMENT-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 - **Old Distributary Fort — OF-PAYROLL-215** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
 - **Old Distributary Fort — OF-PAYROLL-222** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
 - **Old Distributary Fort — OF-PAYROLL-236** is routed to current `R200-FIN-OF` (Verified; verified owner successor). This does not complete an open successor.
@@ -89,7 +89,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Blackthorn — FREIGHT-F03** is routed to current `R200-BT-REPLAY` (Resolved; verified owner successor). This does not complete an open successor.
 - **Blackthorn — REPEAT-TARGET-231** is routed to current `R200-BT-REPLAY` (Resolved; verified owner successor). This does not complete an open successor.
 - **Blackthorn — GARRAN-234** is routed to current `R200-BT-REPLAY` (Resolved; verified owner successor). This does not complete an open successor.
-- **Blackthorn — BT-DEV-NEXT** is routed to current `R200-DEVELOPMENT-NEXT` (in progress; verified owner successor). This does not complete an open successor.
+- **Blackthorn — BT-DEV-NEXT** is routed to current `R200-DEVELOPMENT-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 
 ## Current owning requests
 
@@ -97,18 +97,16 @@ These owner requests retain their actual dependencies/next triggers; being liste
 
 - **Blackthorn — BT-CAERETH-SAMPLES-244** (waiting): Caereth framework sample/freight economics. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Miregate — MG-INSURANCE-LIVE-244** (waiting): MG-INSURANCE Esgar quote. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Blackthorn — BT-V-HORSES-244** (open): Four visiting V-owned coachhorses, separatefromHedda pair. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Blackthorn — R200-BT-F04-FOLLOWUP** (in progress): Pevra F04 shipment and next business. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Blackthorn — R200-BT-GARRAN-NEXT** (open): Standing ordinary surplus outlet. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Old Distributary Fort — R200-OF-COLLECT** (open): Crown invoice and unbilled duty. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Miregate — R200-MG-PILOT-NEXT** (waiting): Pilot sold; future trading terms. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Miregate — R200-MG-FARM-NEXT** (waiting): Four-acre cereal trial and farmed/milled grain. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Reedbed — R200-RB-FLEET-NEXT** (open): Qualified BARGE01 upper freight. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Miregate and Reedbed — R200-RIVER-CUSTOMER-NEXT** (open): Confirmed customer slots and retention. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Reedbed — R200-RB-WALKIN-NEXT** (open): Passing traffic, bench and storage. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **All properties — R200-DEVELOPMENT-NEXT** (in progress): Ranked development and habitation. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Blackthorn — R200-BT-F04-FOLLOWUP** (Continues in D266 owner): Pevra F04 shipment and next business. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Blackthorn — R200-BT-GARRAN-NEXT** (Continues in D266 owner): Standing ordinary surplus outlet. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Old Distributary Fort — R200-OF-COLLECT** (Continues in D266 owner): Crown invoice and unbilled duty. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Miregate — R200-MG-PILOT-NEXT** (Continues in D266 owner): Pilot sold; future trading terms. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Miregate — R200-MG-FARM-NEXT** (Continues in D266 owner): Four-acre cereal trial and farmed/milled grain. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Reedbed — R200-RB-FLEET-NEXT** (Continues in D266 owner): Qualified BARGE01 upper freight. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Miregate and Reedbed — R200-RIVER-CUSTOMER-NEXT** (Continues in D266 owner): Confirmed customer slots and retention. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Reedbed — R200-RB-WALKIN-NEXT** (Continues in D266 owner): Passing traffic, bench and storage. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **All properties — R200-DEVELOPMENT-NEXT** (Continues in D266 owner): Ranked development and habitation. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **All registered estates — PS244-ACTIVE-MANDATE** (Open): Continuous all-product/service customer acquisition. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Miregate — PS-MG-F-NEXT** (Open): Current4t storage and next246handoff. Dependency/trigger: data/estate/operational-checkpoint.csv.
 
 ## Source boundary
 
