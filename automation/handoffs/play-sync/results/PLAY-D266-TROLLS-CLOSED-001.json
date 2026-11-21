@@ -7,5 +7,9 @@
   "request_commit": "f7cc7746bc84da995521ae23fbecb6f4deaca3bd",
   "request_blob": "8aaacfe719488ab2fca558fe668ac9747c3d6524",
   "summary": "Pinned recovery batch verified; preparing scoped owner changes.",
-  "blocker": null
+  "blocker": null,
+  "phase": "owners_verified_checkpoint_pending",
+  "owner_commit": "07f04d535fa7a6904460b4323bec6bdf1f82a997",
+  "tested_commit": "2baccbe93167e791812c5e8718024a709d304e4a",
+  "owners_verified": true
 }
