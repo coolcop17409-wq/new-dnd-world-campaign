@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 268,
+  "campaign_day": 273,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -494,7 +494,7 @@
         },
         {
           "name": "Hit Dice",
-          "current": "5.0",
+          "current": "7.0",
           "max": "7",
           "recovery": "Long Rest"
         },
@@ -517,17 +517,17 @@
           "recovery": "Short Rest / Long Rest"
         }
       ],
-      "purse_cp": 115026,
+      "purse_cp": 113776,
       "purse": {
-        "gp": 1150,
-        "sp": 2,
+        "gp": 1137,
+        "sp": 7,
         "cp": 6
       }
     },
     {
       "name": "Cirren",
       "level": "6",
-      "hp": "49.0",
+      "hp": "51.0",
       "max_hp": "51",
       "ac": "18",
       "initiative": "2",
@@ -541,19 +541,19 @@
         },
         {
           "name": "Spell Slots (1st)",
-          "current": "0.0",
+          "current": "4.0",
           "max": "4",
           "recovery": "Long Rest"
         },
         {
           "name": "Spell Slots (2nd)",
-          "current": "1.0",
+          "current": "3.0",
           "max": "3",
           "recovery": "Long Rest"
         },
         {
           "name": "Hit Dice",
-          "current": "5.0",
+          "current": "6.0",
           "max": "6",
           "recovery": "Long Rest"
         },
@@ -571,7 +571,7 @@
         },
         {
           "name": "Spell Slots (3rd)",
-          "current": "2.0",
+          "current": "3.0",
           "max": "3",
           "recovery": "Long Rest"
         }
@@ -581,7 +581,7 @@
     {
       "name": "Fenar",
       "level": "6",
-      "hp": "58.0",
+      "hp": "59.0",
       "max_hp": "59",
       "ac": "14",
       "initiative": "2",
@@ -589,19 +589,19 @@
       "resources": [
         {
           "name": "Rage",
-          "current": "2.0",
+          "current": "4.0",
           "max": "4",
           "recovery": "Long Rest only"
         },
         {
           "name": "Shift",
-          "current": "1.0",
+          "current": "3.0",
           "max": "3",
           "recovery": "Long Rest"
         },
         {
           "name": "Hit Dice",
-          "current": "1.0",
+          "current": "4.0",
           "max": "6",
           "recovery": "Long Rest"
         },
