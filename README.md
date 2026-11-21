@@ -1,5 +1,9 @@
 # New Unnamed World Campaign — live GitHub authority
 
+## Per-response recovery — owner-authorized 2026-11-21
+
+Before finishing each response that changes accepted campaign state, append and verify a small recovery entry in `automation/recovery/active.json` per `automation/recovery/README.md`. This is the explicit exception to older no-per-turn-GitHub-write instructions; full owner synchronization still occurs at normal boundaries. At startup recover this journal alongside pending play-sync batches before continuing. Clear only exact entries covered by independently verified completed batches, preserving newer entries. Recovery recorded, queued and saved to owners are distinct states. Failed writes remain unsaved; no after-close capture is promised.
+
 Since owner-directed cutover on 2026-11-20, GitHub owns the live campaign text and structured records. Drive Docs/workbooks are historical; maps and large images remain in their designated Drive/Library sources. This public repo includes DM-only preparation: labels govern in-game revelation, not access. `migration/TEST_REPORT.md` retains unresolved evidence-based checks.
 
 ## Fast startup

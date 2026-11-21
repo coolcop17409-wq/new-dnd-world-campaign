@@ -1,5 +1,9 @@
 # Continuity — active GitHub routing
 
+## Recovery safety — 2026-11-21
+
+Each changed response appends `automation/recovery/active.json`; read it at startup. Follow `automation/recovery/README.md` for verified-only cleanup. This overrides no-per-turn-write text.
+
 This short file is the live routing index following the owner-authorized GitHub cutover. Read repository [README](../../README.md) and [AGENTS](../../AGENTS.md) first. Historical Google Docs and workbook exports are **not** write targets. The full, pre-optimization routing document is archived intact at [continuity-readme-pre-fastplay.md](../../archive/continuity/continuity-readme-pre-fastplay.md).
 
 ## Fast startup, one load per conversation

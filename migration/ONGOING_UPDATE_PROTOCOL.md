@@ -1,5 +1,9 @@
 # Ongoing update protocol — active GitHub source
 
+## Per-response recovery — owner-authorized 2026-11-21
+
+Before finishing each response that changes accepted campaign state, append and verify a small recovery entry in `automation/recovery/active.json` per `automation/recovery/README.md`. This is the explicit exception to older no-per-turn-GitHub-write instructions; full owner synchronization still occurs at normal boundaries. At startup recover this journal alongside pending play-sync batches before continuing. Clear only exact entries covered by independently verified completed batches, preserving newer entries. Recovery recorded, queued and saved to owners are distinct states. Failed writes remain unsaved; no after-close capture is promised.
+
 This procedure governs live recording and verification of confirmed campaign changes in this repository after the owner-directed 2026-11-20 cutover. GitHub is authoritative for campaign text and structured records. Drive Docs/workbooks are historical references; maps and large images remain in Drive/Library as designated visual assets. The owner authorized cutover with the outstanding items in `migration/TEST_REPORT.md` still open; continue validation without misrepresenting those checks as passed or fabricating campaign evidence.
 
 ## Magic-market inquiry latency prevention — 2026-11-21
