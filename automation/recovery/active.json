@@ -260,6 +260,34 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D270-ROADVILLAGE-RESUPPLY-001",
+      "base_commit": "4796571c2234c6580a3ce6bbb559416185ae7fde",
+      "source_checkpoint": "D270-LATE-AFTERNOON-ROADSETTLEMENT-001",
+      "destination_checkpoint": "D270-EARLY-EVENING-ROADVILLAGE-INN-001",
+      "source_evidence": "Player exact response at Day270 late-afternoon roadside settlement: \"yes and resupply\", accepting offer to stop for provisions and lodging. Party V, Mara, Cirren, Fenar enters an ordinary unnamed small permanently occupied Crownsunder trade-road village short of western Veyr crossing with shop, smith and staffed coaching inn/stables. No invented border arrival, new named NPC, quest or extraordinary merchant roll. Established V travel-provision targets are seven days for three eaters and four horses; before resupply carried six ration-person-days, eight horse-feed animal-days. Mundane supplies purchased: 15 ration-person-days at 5sp each=7gp5sp; 20 horse-feed animal-days at5cp each=1gp; goods now 21 ration-person-days and28 feed animal-days. User accepted overnight lodging as well: four modest beds at standard5sp each=2gp and one night's stabling for four horses at5sp each=2gp; two modest rooms arranged, staff takes ordinary custody/care of four healthy V horses, V coach parked in serviced yard, still V-owned. Purchase plus accommodation cost total12gp5sp, paid V personal purse once: 1150gp2sp6cp ->1137gp7sp6cp. No payment by estate or NPC. Mundane staff arrange goods and horses without special check, no extra magical purchase or inn meal charge; ordinary evening local elapsed time only, no overnight Short Rest or full Long Rest yet, no day271 supplies allocation, spell or HP restoration, and no encounter roll. V48/48 HP HD5/7 ActionSurge1/1 Superiority4/4 SecondWind1/1 Psi6/6 MP7/7; Fenar58/59 HD1/6 Rage2/4 Shift1/3; Cirren49/51 HD5/6 L1=0/4 L2=1/3 L3=2/3. Long Rest progress3/6 unchanged pending a qualifying quiet overnight. Player controls whether to retire, talk to companions, ask locals, or depart later.",
+      "pending_action": "Day270 early evening at unnamed small Crownsunder road village coaching inn, still short of western Veyr crossing; two modest rooms/four beds paid and four healthy horses stabled, coach parked; V personal purse1137gp7sp6cp after total12gp5sp purchase; 21 ration-person-days and28 feed animal-days carried. V48/48 HD5/7, Fenar58/59 HD1/6, Cirren49/51 HD5/6, Long Rest3/6. No overnight rest or Day271 advancement yet. V may retire and complete night, speak with party/locals or choose other action.",
+      "depends_on": [
+        "PLAY-D267-268-FOLLOWUP-001"
+      ],
+      "events": [
+        {
+          "event_id": "D270-ROADVILLAGE-RESUPPLY-LODGING-001",
+          "accepted": true,
+          "evidence": "Player exact response at Day270 late-afternoon roadside settlement: \"yes and resupply\", accepting offer to stop for provisions and lodging. Party V, Mara, Cirren, Fenar enters an ordinary unnamed small permanently occupied Crownsunder trade-road village short of western Veyr crossing with shop, smith and staffed coaching inn/stables. No invented border arrival, new named NPC, quest or extraordinary merchant roll. Established V travel-provision targets are seven days for three eaters and four horses; before resupply carried six ration-person-days, eight horse-feed animal-days. Mundane supplies purchased: 15 ration-person-days at 5sp each=7gp5sp; 20 horse-feed animal-days at5cp each=1gp; goods now 21 ration-person-days and28 feed animal-days. User accepted overnight lodging as well: four modest beds at standard5sp each=2gp and one night's stabling for four horses at5sp each=2gp; two modest rooms arranged, staff takes ordinary custody/care of four healthy V horses, V coach parked in serviced yard, still V-owned. Purchase plus accommodation cost total12gp5sp, paid V personal purse once: 1150gp2sp6cp ->1137gp7sp6cp. No payment by estate or NPC. Mundane staff arrange goods and horses without special check, no extra magical purchase or inn meal charge; ordinary evening local elapsed time only, no overnight Short Rest or full Long Rest yet, no day271 supplies allocation, spell or HP restoration, and no encounter roll. V48/48 HP HD5/7 ActionSurge1/1 Superiority4/4 SecondWind1/1 Psi6/6 MP7/7; Fenar58/59 HD1/6 Rage2/4 Shift1/3; Cirren49/51 HD5/6 L1=0/4 L2=1/3 L3=2/3. Long Rest progress3/6 unchanged pending a qualifying quiet overnight. Player controls whether to retire, talk to companions, ask locals, or depart later.",
+          "before": "Day270 late afternoon approach to small unnamed settled Crownsunder road-service village, still before Veyr crossing. V personal purse1150gp2sp6cp. Coach carries6 ration-person-days and8 horse-feed animal-days. V/Mara/Cirren/Fenar with four healthy V horses and coach still on road; no village visit/lodging purchased. Party V48/48, Fenar58/59, Cirren49/51. Long Rest3/6.",
+          "after": "Day270 early evening in unnamed ordinary road village, inn lodging for four and stabling for V's four healthy horses paid for one night, V coach secure in staffed yard, no overnight yet completed. Purchased15 standard ration-person-days and20 standard feed animal-days; stores6->21 ration-days and8->28 animal-feed-days. Provision charge8gp5sp, lodgings2gp and stabling2gp; total12gp5sp paid exactly once from V personal purse1150gp2sp6cp->1137gp7sp6cp. All HP/HD/combat/spell resources unchanged and Long Rest3/6; no Day271 breakfast/encounter, no other purchase, actual next V choice unmade.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/inventory.md",
+            "data/characters/events.csv"
+          ]
+        }
+      ]
     }
   ]
 }
