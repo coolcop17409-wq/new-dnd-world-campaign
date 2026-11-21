@@ -81,3 +81,10 @@ D264-FENAR-RAGE-001,264,Fenar,resource,Rage,-1,,D264-GNOLL-WAGON-COMBAT-CLOSED-0
 D264-FENAR-MP-001,264,Fenar,resource,Martial Points,-2,,D264-GNOLL-WAGON-COMBAT-CLOSED-001: accepted prior combat outcome: Outrageous Athleticism6→4; no reroll of previously narrated events,posted
 D264-FENAR-SHIFT-001,264,Fenar,resource,Shift,-1,,D264-GNOLL-WAGON-COMBAT-CLOSED-001: accepted prior combat outcome: Round2 Shifting3→2; no reroll of previously narrated events,posted
 D264-GNOLL-LOOSE-COINS-TAKEN-001,264,Valenthia,currency,purse_cp,1158,,"D264-GNOLL-COINS-WOODS-REFUGE-001: exactly 11gp4sp18cp previously independently rolled and found on gnoll raiders, now physically collected by V; previous purse1173gp4sp8cp+1158cp=1185gp0sp6cp. No duplicate loot and no shared/estate receipt.",posted
+D265-V-SR-SUPERIORITY-001,265,Valenthia,resource,Superiority Dice,2,,D264-265-TARNFORD-ESCORT-CAMP-001: 2→4/4 after completed wild overnight Short Rest. No prior or additional parallel recovery.,posted
+D265-V-SR-ACTIONSURGE-001,265,Valenthia,resource,Action Surge,1,,D264-265-TARNFORD-ESCORT-CAMP-001: 0→1/1 after completed wild overnight Short Rest. No prior or additional parallel recovery.,posted
+D265-CIRREN-SR-HD-001,265,Cirren,resource,Hit Dice,-1,,"D264-265-TARNFORD-ESCORT-CAMP-001: 6→5/6, independently spent one Cleric d8 FACE1+CON3=4 healing. No prior or additional parallel recovery.",posted
+D265-CIRREN-SR-HP-001,265,Cirren,stat,HP,4,,"D264-265-TARNFORD-ESCORT-CAMP-001: 45→49/51 after genuine Cleric d8(1)+3=4, no magic healing. No prior or additional parallel recovery.",posted
+D265-FENAR-SR-HD-001,265,Fenar,resource,Hit Dice,-1,,"D264-265-TARNFORD-ESCORT-CAMP-001: 6→5/6, independently spent Barbarian d12 FACE10+CON2=12 healing. No prior or additional parallel recovery.",posted
+D265-FENAR-SR-HP-001,265,Fenar,stat,HP,12,,"D264-265-TARNFORD-ESCORT-CAMP-001: 46→58/59 after genuine Barbarian d12(10)+2=12, no spell. No prior or additional parallel recovery.",posted
+D265-FENAR-SR-MP-001,265,Fenar,resource,Martial Points,2,,D264-265-TARNFORD-ESCORT-CAMP-001: 4→6/6 restored on qualifying overnight Short Rest. No prior or additional parallel recovery.,posted
