@@ -1,0 +1,11 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-66A3431DEDCB83B47FEC0694",
+  "lane": "sync-repair",
+  "status": "partial",
+  "claim_owner": "github-opened-1311e7a6-e583-11f1-9db7-696285c910b9",
+  "claim_expires_at": "2026-11-21T08:41:51.570Z",
+  "summary": "Claimed isolated fixture format repair; original failure persists unchanged on test base and repair head.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry",
+  "advances_gameplay": false
+}
