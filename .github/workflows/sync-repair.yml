@@ -15,16 +15,21 @@ on:
         description: 'Existing failed validation run to retry idempotently'
         required: true
         type: string
-concurrency:
-  group: campaign-repair-collector
-  cancel-in-progress: false
 permissions:
   contents: write
   pull-requests: write
   actions: read
 jobs:
   collect:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure'
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'failure' &&
+       github.event.workflow_run.head_repository.full_name == github.repository &&
+       (github.event.workflow_run.head_branch == 'main' || startsWith(github.event.workflow_run.head_branch, 'campaign-sync-test/')) &&
+       (github.event.workflow_run.event == 'push' || github.event.workflow_run.event == 'workflow_dispatch'))
+    concurrency:
+      group: campaign-repair-collector-${{ github.event.workflow_run.id || inputs.run_id }}
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
       - name: Check out trusted default-branch collector only

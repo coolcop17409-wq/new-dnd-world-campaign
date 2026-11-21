@@ -33,7 +33,7 @@ def check(base: Path = BASE):
                 findings.append(f"{file}: invalid JSON: {exc}")
                 continue
             rid = item.get("request_id", "")
-            if not ID.fullmatch(rid) or file.name != f"{rid}.json":
+            if not (ID.fullmatch(rid) or (lane == "sync-repair" and re.fullmatch(r"HANDOFF-SYNC-REPAIR-[0-9A-F]{24}", rid))) or file.name != f"{rid}.json":
                 findings.append(f"{file}: invalid or mismatched request_id")
             if rid in seen:
                 findings.append(f"{rid}: duplicate request ID")

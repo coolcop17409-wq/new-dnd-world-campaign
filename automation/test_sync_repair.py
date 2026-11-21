@@ -80,6 +80,13 @@ class SyncTests(unittest.TestCase):
         run=self.run_record()
         for updates in [dict(conclusion='success'),dict(head_branch='campaign-repair/test'),dict(head_repository={'full_name':'fork/campaign'}),dict(event='pull_request')]:
             self.assertFalse(collector.eligible(dict(run,**updates),'owner/campaign'))
+    def test_collector_request_passes_real_handoff_schema(self):
+        from automation.handoffs.validate import check
+        api=FakeAPI();collector.enqueue(api,self.run_record(),self.report())
+        for (branch,path),content in api.files.items():
+            if branch=='campaign-sync-test/regression':
+                p=self.root/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(content)
+        self.assertEqual(check(self.root/'automation/handoffs'),[])
     def test_terminal_receipt_deduplicates(self):
         api=FakeAPI();r=collector.enqueue(api,self.run_record(),self.report());p='automation/handoffs/results/sync-repair/'+r['request_id']+'.json';api.files['campaign-sync-test/regression',p]=json.dumps({'status':'complete'})
         self.assertEqual(collector.enqueue(api,self.run_record(),self.report())['status'],'terminal')

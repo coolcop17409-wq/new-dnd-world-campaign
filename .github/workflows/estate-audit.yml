@@ -117,17 +117,25 @@ jobs:
           ledger_status=$?
           python3 automation/tracker_validate.py
           tracker_status=$?
-          if [ -f reports/estate-ledger.json ]; then
+          python3 automation/sync_validate.py --scope checkpoint --phase owners --report reports/checkpoint-phase.json
+          checkpoint_status=$?
+          checkpoint_phase=$(python3 -c 'import json; print(json.load(open("reports/checkpoint-phase.json"))["status"])')
+          if [ "$checkpoint_phase" = "PENDING_CHECKPOINT" ]; then
+            echo "Owning log precedes final checkpoint; defer derived views to final fast-play, without failing this estate check."
+            dashboard_status=0
+            fast_packet_status=0
+          elif [ "$checkpoint_status" -eq 0 ] && [ -f reports/estate-ledger.json ]; then
             python3 automation/build_dashboard.py
             dashboard_status=$?
+            if [ "$dashboard_status" -eq 0 ]; then
+              python3 automation/build_play_packet.py
+              fast_packet_status=$?
+            else
+              fast_packet_status=1
+            fi
           else
-            echo "Estate ledger report missing; dashboard not generated."
+            echo "Checkpoint or estate ledger report invalid; dashboard not generated."
             dashboard_status=1
-          fi
-          if [ "$dashboard_status" -eq 0 ]; then
-            python3 automation/build_play_packet.py
-            fast_packet_status=$?
-          else
             fast_packet_status=1
           fi
           echo "fast_packet_status=$fast_packet_status" >> "$GITHUB_OUTPUT"
