@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `bc7f8bf35c29ec2fddf69e904c2b5bd04d1dedc926fcacb1ac40bdbe349e3965`).
-Dashboard SHA256: `51ca1cfca485d1e490627255697feb5e72546b941cf1e1ac4463c50c8e34c755`.
+Dashboard SHA256: `6265dac7cb84b54e4cbb0556866ae2d8663dd496fb808bf26f3de8921dd4e545`.
 Confirmed campaign day: **264**.
 
 ## Exact playable checkpoint (verbatim from owner)
@@ -23,7 +23,7 @@ EXACT PENDING PLAYER ACTION: Day264 late morning at defeated gnoll bodies and ax
 
 Snapshot values support lookups; rule interpretations, contextual conditions, custody and exceptions remain in the owning records.
 
-- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 1173 gp 4 sp 8 cp.
+- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 1185 gp 0 sp 6 cp.
   - Resources: Martial Points 7/7; Psionic Energy Dice 6.0/6; Second Wind 1.0/1; Knowledge from Past Life 3.0/3; Psi Recovery 1.0/1; Hit Dice 7/7; Psychic Whispers free use 1/1; Action Surge 0.0/1; Superiority Dice 2.0/4
 - **Cirren** — HP 45.0/51; AC 18; level 6.
   - Resources: Channel Divinity 2/2; Spell Slots (1st) 3.0/4; Spell Slots (2nd) 2.0/3; Hit Dice 6/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 2.0/3

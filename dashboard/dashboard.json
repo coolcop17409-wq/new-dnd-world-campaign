@@ -633,11 +633,11 @@
           "recovery": "Short Rest / Long Rest"
         }
       ],
-      "purse_cp": 117348,
+      "purse_cp": 118506,
       "purse": {
-        "gp": 1173,
-        "sp": 4,
-        "cp": 8
+        "gp": 1185,
+        "sp": 0,
+        "cp": 6
       }
     },
     {
