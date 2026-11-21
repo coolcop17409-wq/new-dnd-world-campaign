@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D275-276-CAER-VEYLAN-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr14-fc0cd6a0",
+  "claim_expires_at": "2026-11-22T00:13:59.671Z",
+  "request_commit": "79593f7dc35d931126f15aef86f1ddde11409330",
+  "request_blob": "be4d852c29dc4284fbf70d20fd37bc7a0c5bcfeb",
+  "summary": "Pinned journal and exact prior history verified; dependency complete. Preparing minimal owner and linked market changes.",
+  "blocker": null,
+  "applied_event_ids": []
+}
