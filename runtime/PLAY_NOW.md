@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `63b2efb66f4510f538ba86379d2c0437b5114bf0d1c4bd25ee2e46b802e5c2f7`).
-Dashboard SHA256: `6f805289ebc16511b567e324df6aad0ee668b0b9ada750b8d99a4769f84790e0`.
+Dashboard SHA256: `ca7e59ec3b125d25856c883d984b4cd733a7668a27d7b24f9bbf4016937e82ed`.
 Confirmed campaign day: **266**.
 Newest played event: `D266-NIGHT-ROAD-TROLLS-001`.
 

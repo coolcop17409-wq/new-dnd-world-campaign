@@ -1498,7 +1498,7 @@
       {
         "item": "Galepierce Dart — single magical physical dart",
         "qty": "1",
-        "quantity_display": "Unlimited (not tracked)",
+        "quantity_display": "1",
         "holder": "V — physically carried; ready for thrown dart attacks",
         "detail": "Saddlebag Book One p. 70; consigned former skiff partners' original. Doubles the weapon's normal throwing ranges and negates relevant airborne hindrances. Physical dart, not unlimi"
       },
@@ -1914,15 +1914,6 @@
     },
     {
       "settlement": "Orsaven",
-      "dealer": "The Spare Axle",
-      "lot": "Javelin of Lightning",
-      "qty": "1",
-      "price_gp": "300",
-      "status": "Offered secondhand",
-      "terms": "Buy at 300 gp. The outrider values prompt payment. The outfitter can relay a lower offer; only the owner can approve it."
-    },
-    {
-      "settlement": "Orsaven",
       "dealer": "North Quay Glazier",
       "lot": "Glass Carver",
       "qty": "1",
@@ -2067,24 +2058,6 @@
     },
     {
       "settlement": "Caereth",
-      "dealer": "Wick and Shutter",
-      "lot": "Everbright Lantern",
-      "qty": "1.",
-      "price_gp": "50.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-CAE-02. Prepared, undiscovered. Ask at Wick and Shutter during trade hours. Owner authorizes 50 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Caereth",
-      "dealer": "Brazen Spear Forge",
-      "lot": "Storm Boomerang",
-      "qty": "1.",
-      "price_gp": "440.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-CAE-03. Prepared, undiscovered. Ask at Brazen Spear Forge during trade hours. Owner authorizes 440 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Caereth",
       "dealer": "Stairwright's Last",
       "lot": "Boots of Striding and Springing",
       "qty": "1.",
@@ -2125,8 +2098,8 @@
       "lot": "Helm of Comprehending Languages",
       "qty": "1.",
       "price_gp": "380.",
-      "status": "Prepared working tool · conditional",
-      "terms": "M7-VEY-02. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 380gp with the stated condition; not an unconditional sale. Common-speaking front desk. 380gp; current "
+      "status": "Prepared open sale · undiscovered",
+      "terms": "M7-VEY-02. Translator completes the existing translation job and releases the helm through the copyhouse. Asking price 380 gp. Completed Day260. Owner retains title; counter can arrange inspection and"
     },
     {
       "settlement": "Veyrhold",
@@ -2175,15 +2148,6 @@
     },
     {
       "settlement": "Veyrhold",
-      "dealer": "Folded Measure Joinery",
-      "lot": "Periscope Rod",
-      "qty": "1.",
-      "price_gp": "48.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-VEY-09. Prepared, undiscovered. Ask at Folded Measure Joinery during trade hours. Owner authorizes 48 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Veyrhold",
       "dealer": "Stonecut Ledger Bindery",
       "lot": "Spellshard",
       "qty": "1.",
@@ -2202,30 +2166,12 @@
     },
     {
       "settlement": "Ilarath",
-      "dealer": "Farleaf Lensworks",
-      "lot": "Eyes of the Eagle",
-      "qty": "1.",
-      "price_gp": "450.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ILA-03. Surveyor returned from completed canopy inspection Day232. One pair deposited at Farleaf Lensworks for inspection during working hours; 450 gp cash to the authorized counter for pickup. For"
-    },
-    {
-      "settlement": "Ilarath",
       "dealer": "Answering String",
       "lot": "Siren Song Lyre",
       "qty": "1.",
       "price_gp": "2750.",
       "status": "Prepared open sale · undiscovered",
       "terms": "M7-ILA-04. Prepared, undiscovered. Ask at Answering String during trade hours. Owner authorizes 2750 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Ilarath",
-      "dealer": "Weatherleaf Bindery",
-      "lot": "Clockwork Inkbeetle",
-      "qty": "1.",
-      "price_gp": "310.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ILA-05. Prepared, undiscovered. Ask at Weatherleaf Bindery during trade hours. Owner authorizes 310 gp for this lot. Counteroffers go to the owner. No hold or deposit."
     },
     {
       "settlement": "Ilarath",
@@ -2325,15 +2271,6 @@
       "price_gp": "80",
       "status": "Prepared open sale · undiscovered",
       "terms": "M7-ALL-06. Prepared, undiscovered. Ask at Summer Draught Fanmaker during trade hours. Owner authorizes 80 gp for this lot. Counteroffers go to the owner. No hold or deposit. Current owner-authorized a"
-    },
-    {
-      "settlement": "Allhaven",
-      "dealer": "Paired Seal Courier Desk",
-      "lot": "Paper Bird",
-      "qty": "1.",
-      "price_gp": "45.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ALL-07. Prepared, undiscovered. Ask at Paired Seal Courier Desk during trade hours. Owner authorizes 45 gp for this lot. Counteroffers go to the owner. No hold or deposit."
     },
     {
       "settlement": "Allhaven",
