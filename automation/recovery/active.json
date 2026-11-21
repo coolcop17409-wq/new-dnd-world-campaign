@@ -197,6 +197,31 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D266-TROLLS-R7-END-001",
+      "base_commit": "f05801527c6ac88a948cd03f86b723bd80b8c829",
+      "source_checkpoint": "D266-NIGHT-ROAD-TROLLS-R7-V-001",
+      "destination_checkpoint": "D266-NIGHT-ROAD-TROLLS-COMBAT-CLOSED-001",
+      "source_evidence": "Player exact instruction: 'Hide, hold for fire, then attack.' Continuing D266 troll encounter at start Round7. V Cunning Action bonus-action Hide, moves 29ft from (15,-5) to a concealing thick southern treeline trunk approx(25,-32); genuine Python secrets Stealth d20 FACE9+10=19 vs passive troll12 (troll B already at0 and incapacitated); V is concealed until attack. V action Ready an ordinary house-unlimited physical dart to attack when fire actually damages the last troll. Fenar (same initiative22, acting after V) still Raging/Shifted, at(25,0) adjacent to prone/down Troll B HP0/84. She uses action to thrust already held lit firebrand at Troll B: genuine advantage d20 FACES3,13, high13 + established torch melee attack+5=18 vs AC15 HIT; standard torch deals1 FIRE damage (B stays0/84) and suppresses its next start-of-turn Regeneration. This triggers V's Ready reaction from approx37ft (dart long range>20, target prone and V hidden: 2014 advantage and disadvantage cancel => standard single d20). Genuine d20 FACE4+ ranged dart modifier9=13 vsAC15 MISS; no dart/sneak damage; V no longer hidden due attack. V has Superiority0/4, ActionSurge0/1; no limited V resources spent in Round7. Troll B remains0 until initiative7, then cannot Regenerate because it took fire since previous turn; per standard 2014 MM Troll dies at start of own turn at0 without regeneration. Troll A already died Round6. Cirren/Mara have no needed attacks/spell expenditures; all four horses healthy, coach stationary, Mara still handling horses to the north of coach. Combat ENDS during Round7, no additional foes, loot, spell, rest, XP award, time skip, or resource refresh. Party V27/48, Fenar17/59, Cirren49/51. LongRest0/6. Active Rage/Shift/Spiritual Weapon continue only through remaining ordinary durations until an actual time lapse; no premature refresh.",
+      "pending_action": "Night Day266 outside road camp east of Tarnford, after two 2014 trolls died in Round7. Combat closed; V27/48, Fenar17/59, Cirren49/51. Mara and four healthy horses north of intact stationary coach, no rest or travel after combat; LongRest progress0/6. Player chooses next action (regroup, tend wounds, secure camp/coach, inspect remains, depart, rest, etc.), no automatic choice, time advance or resource expenditure.",
+      "depends_on": [],
+      "events": [
+        {
+          "event_id": "D266-NIGHT-ROAD-TROLLS-R7-COMBAT-CLOSED-001",
+          "accepted": true,
+          "evidence": "Player exact instruction: 'Hide, hold for fire, then attack.' Continuing D266 troll encounter at start Round7. V Cunning Action bonus-action Hide, moves 29ft from (15,-5) to a concealing thick southern treeline trunk approx(25,-32); genuine Python secrets Stealth d20 FACE9+10=19 vs passive troll12 (troll B already at0 and incapacitated); V is concealed until attack. V action Ready an ordinary house-unlimited physical dart to attack when fire actually damages the last troll. Fenar (same initiative22, acting after V) still Raging/Shifted, at(25,0) adjacent to prone/down Troll B HP0/84. She uses action to thrust already held lit firebrand at Troll B: genuine advantage d20 FACES3,13, high13 + established torch melee attack+5=18 vs AC15 HIT; standard torch deals1 FIRE damage (B stays0/84) and suppresses its next start-of-turn Regeneration. This triggers V's Ready reaction from approx37ft (dart long range>20, target prone and V hidden: 2014 advantage and disadvantage cancel => standard single d20). Genuine d20 FACE4+ ranged dart modifier9=13 vsAC15 MISS; no dart/sneak damage; V no longer hidden due attack. V has Superiority0/4, ActionSurge0/1; no limited V resources spent in Round7. Troll B remains0 until initiative7, then cannot Regenerate because it took fire since previous turn; per standard 2014 MM Troll dies at start of own turn at0 without regeneration. Troll A already died Round6. Cirren/Mara have no needed attacks/spell expenditures; all four horses healthy, coach stationary, Mara still handling horses to the north of coach. Combat ENDS during Round7, no additional foes, loot, spell, rest, XP award, time skip, or resource refresh. Party V27/48, Fenar17/59, Cirren49/51. LongRest0/6. Active Rage/Shift/Spiritual Weapon continue only through remaining ordinary durations until an actual time lapse; no premature refresh.",
+          "before": "Round7 start: V HP27/48 at(15,-5), AC19, Superiority0/4, ActionSurge0/1. Fenar17/59 at(25,0) Rage/Shift active, holding lit branch. Cirren49/51 at(20,+5), holding lit branch, active Spiritual Weapon, L1 0/4 L2 1/3 L3 2/3. Troll A DEAD, Troll B0/84 at(25,+5) alive and regenerating unless fire/acid damage. Mara with 4 healthy horses approx(-15,+60), coach(0,+15) intact and stationary, Long Rest0/6.",
+          "after": "Round7 completed and COMBAT CLOSED on night Day266. V uses bonus-action Hide Stealth19 and Ready physical dart; Fenar hit Troll B with flaming torch attack18 vsAC15, inflicts1 fire at0HP, disabling next Regeneration; V readied dart d20FACE4+9=13 misses and reveals position; Troll B subsequently begins turn at0HP and no regeneration, dies. BOTH TROLLS dead, no enemy HP/attacks outstanding. V HP27/48 at(25,-32), Superiority0/4, ActionSurge0/1, no new psi/MP spend; Fenar HP17/59 at(25,+5) Rage/Shift still running, no new charges expended, holds burning branch; Cirren HP49/51 at(20,+5) with firebrand and existing nonconcentration Spiritual Weapon, no new slot use. Four healthy horses with Mara approx(-15,+60), enclosed coach parked intact(0,+15), not hitched. Nightfall same Day266 (about7 combat rounds), wilderness weighted LongRest0/6. No loot acquired, body search, new encounter or rest started; player next direction unchosen.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "data/characters/events.csv"
+          ]
+        }
+      ]
     }
   ]
 }
