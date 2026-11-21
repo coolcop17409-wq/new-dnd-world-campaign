@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D274-WTR-VENT-RESCUE-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr12-7a92d8d0",
   "claim_expires_at": "2026-11-21T23:42:25.074Z",
   "request_commit": "fe007d2fc4713e5e82f4b05a28f36cc979f3ade8",
   "request_blob": "abbda7696d024ecbe1c6ccd4c2e11f63050aa419",
-  "summary": "Five accepted owner events and two provision postings published and readback verified; separate checkpoint publication pending.",
+  "summary": "Five accepted events and two provision postings applied once; owners and separate final checkpoint readback verified. No new gameplay or PR merge.",
   "blocker": null,
   "applied_event_ids": [
     "D273-VEYR-COMMERCIAL-BORDER-ENTRY-001",
@@ -18,16 +18,47 @@
   ],
   "owner_commit": "7d625e4dcc0d0ac4849adeb0bfad398cb42203c0",
   "owners_verified": true,
-  "tested_commit": "70122aed8ad745bc0b27c55525f8d3363f493007",
+  "tested_commit": "a5fe57e9ef2715eb695e0bee96f05494c01b0e53",
   "tests": [
     {
       "command": "python3 automation/sync_validate.py --scope final --phase final",
-      "exit_code": 0
+      "exit_code": 0,
+      "tested_commit": "a5fe57e9ef2715eb695e0bee96f05494c01b0e53"
     },
     {
       "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
       "exit_code": 0,
-      "result": "56 passed"
+      "result": "56 passed",
+      "tested_commit": "a5fe57e9ef2715eb695e0bee96f05494c01b0e53"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify automation/recovery/active.json --request /tmp/pr12-evidence/request.json --prior-requests /tmp/pr12-evidence/prior.json --supersessions /tmp/pr12-evidence/supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "225783ff341b5ebdcb645322ae9406b8fbfd812b"
     }
-  ]
+  ],
+  "request_digest": "012f4c740505bf41f9cbec8b0cd404d8c7b4f244cc0a056448cd83348f808d9f",
+  "checkpoint_commit": "a5fe57e9ef2715eb695e0bee96f05494c01b0e53",
+  "checkpoint_verified": true,
+  "verified_event_ids": [
+    "D273-VEYR-COMMERCIAL-BORDER-ENTRY-001",
+    "D273-274-VEYR-ROAD-QUIET-REST-001",
+    "D274-WTR-CARTER-REPORT-OFFERED-001",
+    "D274-WTR-CARTER-VERIFIED-AND-MUSTER-ARRIVAL-001",
+    "D274-WTR-VENT-FOUR-WORKERS-EVACUATED-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5fe57e9ef2715eb695e0bee96f05494c01b0e53/campaign/continuity/campaign-state.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7d625e4dcc0d0ac4849adeb0bfad398cb42203c0/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7d625e4dcc0d0ac4849adeb0bfad398cb42203c0/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7d625e4dcc0d0ac4849adeb0bfad398cb42203c0/archive/continuity/campaign-state-before-PLAY-D274-WTR-VENT-RESCUE-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7d625e4dcc0d0ac4849adeb0bfad398cb42203c0/archive/continuity/session-log-before-PLAY-D274-WTR-VENT-RESCUE-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7d625e4dcc0d0ac4849adeb0bfad398cb42203c0/prep/dm-only/dm-nightglass-route.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7d625e4dcc0d0ac4849adeb0bfad398cb42203c0/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7d625e4dcc0d0ac4849adeb0bfad398cb42203c0/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7d625e4dcc0d0ac4849adeb0bfad398cb42203c0/campaign/continuity/npcs.md"
+  ],
+  "generated_view_status": "Verified packet source hashes, exact checkpoint and provision quantities at 3f4e33257dde349203b2e7e536edf99fc7b748a7",
+  "cleanup_status": "pending separate guarded cleanup",
+  "newer_recovery": "PLAY-REC-D274-WTR-CLEARANCE-TERMS-001 retained; supersedes this batch's historical pending choice, not applied by PR12."
 }
