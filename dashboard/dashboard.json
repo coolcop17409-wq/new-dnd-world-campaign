@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 265,
+  "campaign_day": 266,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -633,9 +633,9 @@
           "recovery": "Short Rest / Long Rest"
         }
       ],
-      "purse_cp": 117826,
+      "purse_cp": 115026,
       "purse": {
-        "gp": 1178,
+        "gp": 1150,
         "sp": 2,
         "cp": 6
       }
@@ -885,15 +885,15 @@
       },
       {
         "item": "Rations (1 day)",
-        "qty": "21.0",
-        "quantity_display": "21.0",
+        "qty": "18.0",
+        "quantity_display": "18.0",
         "holder": "Party/coach supply: recorded15 ration person-days after Day225 travel (B25). No new deduction. Days208–212 exact site/forage/Mara meal provenance unresolved; D-column history preserved. D224-225-TEMP-HARNESS-MANOR-CELLAR-001.",
         "detail": "D196–198: 7 ordinary rations purchased personally at5sp each, combined with 2 Cirren-held forage person-days for 9 person-days consumed by Mara/Cirren/Fenar; stock0, travel cost in"
       },
       {
         "item": "Feed (1 day)",
-        "qty": "28.0",
-        "quantity_display": "28.0",
+        "qty": "24.0",
+        "quantity_display": "24.0",
         "holder": "Party coach: recorded20 horse-feed animal-days after Day225 travel (B26), four healthy horses at Rethwyn rural yard. Days208–212 exact feed reconciliation unresolved; no assumed consumption or restock. D-column history preserved.",
         "detail": "D196–198: 12 horse feed-days purchased personally at5cp each, all12 consumed by four horses over 3-day carriage journey; no feed remains. Purchase6sp included once in V purse row29"
       },
@@ -1624,6 +1624,14 @@
         "quantity_display": "1",
         "holder": "V — carried; available once per dawn (1/1 now)",
         "detail": "Xanathar's Guide to Everything (2017), common wondrous item, no attunement. When making an ATTACK roll, wearer can choose to take10 on d20 instead of rolling before attack, + norma"
+      },
+      {
+        "item": "Rope of Mending",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Valenthia — carried with V-owned coach traveling gear",
+        "detail": "One original complete 50-foot Rope of Mending, Xanathar's Guide to Everything p138 (2017), common no attunement, touching cut out-of-use segments rejoin on an action with command word; missing length not replaced. Purchased at Tarnford Mill Winch Ropeworks for 28 gp, no duplication.",
+        "source_event": "D265-TARNFORD-ROPE-MENDING-PURCHASE-001"
       }
     ],
     "Cirren": [
@@ -2478,15 +2486,6 @@
       "price_gp": "45",
       "status": "Prepared working tool · conditional, undiscovered",
       "terms": "R17 · MGT-236-01. Watchkeeper retains the horn. At watch change ask through Meret; 45 gp only after both posts test a substitute signal and the owner agrees to hand it over at the gate. No test, quote"
-    },
-    {
-      "settlement": "Tarnford",
-      "dealer": "Mill Winch Ropeworks",
-      "lot": "R02 — Rope of Mending",
-      "qty": "1",
-      "price_gp": "28",
-      "status": "Offer on hand · secondhand consignment",
-      "terms": "Purchase exact ONE rope at 28 gp. Kevar can accept sound hemp toward price if parties independently agree trade value. No V purchase or hold yet."
     },
     {
       "settlement": "Tarnford",
