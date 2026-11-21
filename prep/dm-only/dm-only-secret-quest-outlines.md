@@ -1,6 +1,16 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.2gercvxhabnl; title: DM ONLY — SECRET QUEST OUTLINES; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
 DM ONLY — quest index
+## Design review coverage — QDF-1
+Standard: [rules-quest-design.md](../../campaign/continuity/rules-quest-design.md). This compact current ledger owns review coverage; detailed quest truths remain in their outlines. Replace entries when scope materially changes, do not append daily unchanged receipts. Gate status is separate from public delivery/acceptance. Initial rollout reviews only Nightglass here; other quests are NOT certified by adoption.
+
+| Owner / reference | Review scope | G1 | G2 | G3 | Material work / next trigger |
+|---|---|---|---|---|---|
+| [Nightglass / estate-ancestry](dm-estate-ancestry.md), ADMIN-NIGHTGLASS-CONTEXT-20261120-001 at unchanged Day246 correspondence checkpoint | Existing narrative/context, encounter opportunities and delivery design assessed against QDF-1 | PASS for scoped premise, actors, local closure and intended connections | CONDITIONAL: existing mail can be offered; expanded goal/evidence access must be actually explained; verify chosen route/access/cost before departure | HOLD only for consequential encounter execution: full source profiles, final combat geometry and hazard numbers not verified | Next compatible mail/direction scene requires live introduction work; complete chosen-leg G2 and imminent G3 before commitment/use. No new prose-only audit needed absent defect/change. |
+
+Rotation cursor: next initial-framework owner is `dm-hollow-pennant.md`, then other eligible current-region/open owners not yet reviewed. Priority shifts to actual changed/imminent work under QDF-1; do not review closed quests just to fill a run. At rollout, other shortlist rows retain existing delivery status but framework gates are NOT REVIEWED. This cursor does not authorize an encounter, letter, faction step or new day.
+
+
 ## Current story-delivery queue — ADMIN-STORY-DELIVERY-20261120-001
 
 Reviewed against D246-CORRESPONDENCE-THORNMERE-HALDEN-NIGHTGLASS-RETRO-001. This is unplayed delivery preparation; CAMPAIGN_STATE remains the sole pause owner. The dated Day244 arrival/candidate sections below are historical context where superseded by current owners and this queue. No new report, companion speech, letter reading, travel or clock is established here. Earlier skipped-opening counts are UNKNOWN: the exact exchange cited by the player has not been recovered; do not invent its words or retrospectively count a delivery.
