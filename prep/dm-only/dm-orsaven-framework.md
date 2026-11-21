@@ -29,11 +29,17 @@ No connection is added to Graven, Undertow/Miregate, Quenwood, the Covenant, Bla
 
 ### Nightglass connection delivery check — ADMIN-NIGHTGLASS-STORY-REVIEW-20261120-001
 
-Estate/ancestry owns the revised dramatic scenes and evidence chain. The link is now **explicit historical continuity plus current misuse**, not merely a shared crest. The unvisited service-house panel/instrument identify the existing western customs station; the field book resolves the designation. Its station history can be compared with ASHEN FIELD's existing oath-book. Present abuse still needs present evidence from the prepared affected household/notice/informed contact.
+Estate/ancestry owns the revised dramatic scenes and evidence chain. The link is now **explicit historical continuity plus current misuse**, not merely a shared crest. The unvisited service-house panel/instrument identify the existing western customs station; the post-Convergence field book and later institutional transfers resolve the designation to today's site. Its station history can be compared with ASHEN FIELD's existing oath-book. Present abuse still needs present evidence from the prepared affected household/notice/informed contact.
 
 Before a wider-plot choice, convey the specific institution/place, what the match proves, what it does not prove, a concrete available objective and knowable travel/stakes. Finding an ancient seal alone is not delivery of the modern faction lead. Ordinary Orsaven staff may explain a known old station designation; they are not omniscient witnesses to coercion. A source for current news needs real contact and knowledge. Connect the two openly after corroboration rather than asking V to guess a secret quest name.
 
 Maintain the alternative directions: Nightglass/Verdana → tower inquiry; tower evidence → historical site; Ophira comparison optional. Update player knowledge only after actual discovery. No additional connection to unrelated quest causes, no new narrative prerequisite to completed cases and no unplayed news is delivered by this register.
+
+### Geographic and chronological limit — ADMIN-NIGHTGLASS-CONTEXT-20261120-001
+
+Nightglass itself is east of Eastwatch (half a carriage day from town), not a nearby Orsaven appointment. Lawful copies can start the western investigation without making V take an unnecessary eastern detour. The estate/ancestry Context audit fixes a NEW private local expedition route west-northwest from Orsaven into western Ossent's inland hills, separate from Wychstone, the eastern Pennant road and the Miregate/Dornal/Veyr systems. No map coordinate or previously played journey is claimed.
+
+Use the post-Convergence survey and transfer history to connect ancient designation to modern tower; do not treat an ancient road sketch as present-world navigation. Current rights, present witnesses and actual political authority stay distinct from old House history. The current Day246 correspondence owner supersedes older unanswered-letter captions; no public discovery or new transmission is made by this reconciliation.
 
 Shared connections — scope
 Fixed facts below bind private preparation, not player knowledge. Conditional links require actual contact, capacity, agreements and travel. Each local outline retains its cause/outcome. Do not add clues to already searched evidence.
