@@ -142,6 +142,32 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D267-NIGHT-WOLVES-INTIMIDATED-001",
+      "base_commit": "2ba2dab92ae769f2dfd4865826d6c416d923c756",
+      "source_checkpoint": "D267-NIGHT-ROAD-WOLVES-FIRST-WARNING-001",
+      "destination_checkpoint": "D267-NIGHT-WOLVES-REPELLED-001",
+      "source_evidence": "Player exact directive: 'Try to intimidate them away.' At third hour of Day267 ordinary trade-road wilderness camp, seven previously fixed 2014 Dire Wolves approaching in a loose ring approximately 75–130 ft from camp, no initiative or attack yet. Valenthia makes a credible visible and audible threatening display at the campfire. Fenar independently assists visibly by coming alongside with greataxe and aggressive posture, offering meaningful 2014 Help and advantage on Charisma(Intimidation). Established V Intimidation modifier +6 verified from owning trackers/csv/v/v-skills.csv; DC16 set before rolls for hungry seven-wolf pack. Genuine executed Python secrets advantage d20 faces5 and14, take14+6=20 vs DC16 SUCCESS. Wolves weigh difficult armed opposition, break off and withdraw into trees without attacking, chasing horses, or gaining loot. After watchful moments, no immediate wolf attack remains; no new encounter, initiative, damage, saving throws or spells. Successful nonmagical intimidation does not impose the 2014 frightened condition. V's brief physical/vocal response interrupted his 4-hour motionless Reborn Short Rest before completion, so it would need a fresh four-hour motionless interval if attempting later. No overnight wilderness Short Rest, full Long Rest, or Day268 has yet completed; weighted Long Rest currently0/6 from previous camp reset. Party HP V48/48 Second Wind0/1, HD5/7, Fenar45/59, Cirren49/51; all features as at warning, four healthy horses and stationary intact coach. Day267 night encounter already spent; cannot reroll occurrence this night.",
+      "pending_action": "Day267 exposed road camp, approximately third night hour after the dire wolf pack was driven off by V Intimidation20 vs DC16 with Fenar Help. No attacks, damage or loot; all seven wolves withdrew. V48/48, SW0/1 (not yet short-rest restored), HD5/7; Fenar45/59, Cirren49/51, four healthy horses and intact stationary coach, LongRest0/6. V's 4h motionless Reborn SR not completed due active confrontation; overnight and Day268 unplayed. Await V choice to resume resting, adjust watches, move camp or another action. Day267 night encounter already consumed; no second random roll.",
+      "depends_on": [
+        "PLAY-D266-267-REST-001"
+      ],
+      "events": [
+        {
+          "event_id": "D267-NIGHT-WOLVES-INTIMIDATION-001",
+          "accepted": true,
+          "evidence": "Player exact directive: 'Try to intimidate them away.' At third hour of Day267 ordinary trade-road wilderness camp, seven previously fixed 2014 Dire Wolves approaching in a loose ring approximately 75–130 ft from camp, no initiative or attack yet. Valenthia makes a credible visible and audible threatening display at the campfire. Fenar independently assists visibly by coming alongside with greataxe and aggressive posture, offering meaningful 2014 Help and advantage on Charisma(Intimidation). Established V Intimidation modifier +6 verified from owning trackers/csv/v/v-skills.csv; DC16 set before rolls for hungry seven-wolf pack. Genuine executed Python secrets advantage d20 faces5 and14, take14+6=20 vs DC16 SUCCESS. Wolves weigh difficult armed opposition, break off and withdraw into trees without attacking, chasing horses, or gaining loot. After watchful moments, no immediate wolf attack remains; no new encounter, initiative, damage, saving throws or spells. Successful nonmagical intimidation does not impose the 2014 frightened condition. V's brief physical/vocal response interrupted his 4-hour motionless Reborn Short Rest before completion, so it would need a fresh four-hour motionless interval if attempting later. No overnight wilderness Short Rest, full Long Rest, or Day268 has yet completed; weighted Long Rest currently0/6 from previous camp reset. Party HP V48/48 Second Wind0/1, HD5/7, Fenar45/59, Cirren49/51; all features as at warning, four healthy horses and stationary intact coach. Day267 night encounter already spent; cannot reroll occurrence this night.",
+          "before": "Day267 third night hour: genuine nighttime occurrence rolled d1004 within01–07, creature selection seven 2014 dire wolves approaching camp, no initiative, damage, attack or surprise; V HP48/48, SecondWind0/1, Fenar45/59, Cirren49/51, four healthy horses at intact stationary coach, Long Rest0/6. V has not yet completed his four-hour motionless wilderness Short Rest.",
+          "after": "Player-chosen nonmagical Intimidation successfully repels approaching seven dire wolves. Fenar meaningful Help => V roll advantage d20(5,14), keep14+Intimidation6=20 vs declared DC16 SUCCESS. Predators turn and retreat beyond visible camp perimeter, no attacks or damage, no limited resources spent. No active immediate wolf threat, no new encounter roll, no initiative. V motionless 4h rest attempt interrupted by active confrontation; not completed; other rests/dawn not yet resolved. Day267 night third hour, Long Rest0/6, all HP/resources/horse/coach/custody unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md"
+          ]
+        }
+      ]
     }
   ]
 }
