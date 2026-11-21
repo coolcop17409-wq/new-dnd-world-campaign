@@ -16,7 +16,7 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Unfinished tasks due by campaign Day 265
+## Unfinished tasks due by campaign Day 266
 
 Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 249: MG-WEEK-249** (Pending)
@@ -28,6 +28,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Reedbed — Day 245: RB-WEEK-245** (Scheduled)
 - **Reedbed — Day 252: RB-WEEK-252** (Scheduled)
 - **Reedbed — Day 259: RB-WEEK-259** (Scheduled)
+- **Reedbed — Day 266: RB-WEEK-266** (Scheduled)
 - **Reedbed — Day 250: RB-PAYROLL-250** (Conditional)
 - **Reedbed — Day 257: RB-PAYROLL-257** (Conditional)
 - **Reedbed — Day 264: RB-PAYROLL-264** (Conditional)
