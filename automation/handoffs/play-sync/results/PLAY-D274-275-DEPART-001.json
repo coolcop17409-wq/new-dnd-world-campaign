@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D274-275-DEPART-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr13-a7c3a1ee",
+  "claim_expires_at": "2026-11-21T23:50:17.981Z",
+  "request_commit": "c4b65dc696a318aba47e3b8f8f1dd8b2b5031733",
+  "request_blob": "c02aabedba796ca8e469dc66425dd436525d16a8",
+  "summary": "Exact pinned journal and prior requests verified; dependency complete; preparing supported owners.",
+  "blocker": null,
+  "applied_event_ids": []
+}
