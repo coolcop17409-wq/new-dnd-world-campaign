@@ -1,2 +1,2 @@
 event_id,campaign_day,owner,record_type,target,delta,absolute_value,evidence,status
-TEST-TARNFORD-ROPE-DEBIT-001,265,Valenthia,currency,purse_cp,-2800,,SYNTHETIC accepted 28gp fixture only,posted,
+TEST-TARNFORD-ROPE-DEBIT-001,265,Valenthia,currency,purse_cp,-2800,,SYNTHETIC accepted 28gp fixture only,posted

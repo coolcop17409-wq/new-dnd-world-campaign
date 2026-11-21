@@ -1,0 +1,43 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-66A3431DEDCB83B47FEC0694",
+  "status": "verified",
+  "tested_commit": "70c86e8f7caa890c6adb05b5a43b105522a102f2",
+  "current_base_commit": "619850b01e78804b39103826746038330a47895b",
+  "current_main_commit": "6056f5de5bd3fefe8f50eaf95a4c24140b9325cd",
+  "failure_commit": "9db9ee72d61664f46d6be056d69288b6c3989b95",
+  "commands": [
+    {
+      "command": "python3 automation/handoffs/sync-repair/check_fixture.py",
+      "exit_code": 0,
+      "result": "PASS; no findings"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -v",
+      "exit_code": 0,
+      "result": "30 tests passed"
+    },
+    {
+      "command": "python3 automation/handoffs/validate.py",
+      "exit_code": 0,
+      "result": "Handoff requests and results: PASS"
+    }
+  ],
+  "changed_paths": [
+    "automation/handoffs/sync-repair/fixtures/integration-character.csv",
+    "automation/handoffs/results/sync-repair/HANDOFF-SYNC-REPAIR-66A3431DEDCB83B47FEC0694.json",
+    "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-66A3431DEDCB83B47FEC0694.json"
+  ],
+  "source_evidence": [
+    "automation/handoffs/sync-repair/fixtures/README.md@4bfa5259165048e1dc110376a02928bce429f1bb",
+    "automation/handoffs/requests/sync-repair/HANDOFF-SYNC-REPAIR-66A3431DEDCB83B47FEC0694.json"
+  ],
+  "owner_refs": [
+    "automation/handoffs/sync-repair/fixtures/integration-character.csv@70c86e8f7caa890c6adb05b5a43b105522a102f2"
+  ],
+  "comparison": "Original failure, initial repair head and test base had identical malformed fixture blob 8132acf527fd3e21644d275a27f70ede702846df. Main has no synthetic fixture. Baseline check at claim commit 96d5f2e319d7b36812b403193c848c0f2bdb3635 reproduced csv.width FAIL. Corrected blob 9081d2c6f9892182f96620a26f697dae20341285 independently fetched from GitHub.",
+  "concurrency": "First publication encountered a moved head. Reread and preserved concurrent commit 41fb1629357fcc73fed311e6078903ebcc3cf39d; reapplied only fixture correction with expected-head guard. Base subsequently advanced to 619850b01e78804b39103826746038330a47895b with exactly the same validator change already present in tested head; no relevant content drift.",
+  "application_status": "Verified proposal only; not merged or applied to main. Synthetic branch must never merge into main.",
+  "delivery_evidence": "This independent run received PR #3 opened webhook delivery 1311e7a6-e583-11f1-9db7-696285c910b9 from a connector-created PR. It does not establish GITHUB_TOKEN-created PR delivery.",
+  "blockers": [],
+  "advances_gameplay": false
+}
