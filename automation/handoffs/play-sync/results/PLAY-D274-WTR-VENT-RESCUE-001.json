@@ -2,12 +2,32 @@
   "schema_version": 1,
   "request_id": "PLAY-D274-WTR-VENT-RESCUE-001",
   "status": "partial",
-  "phase": "claimed",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr12-7a92d8d0",
   "claim_expires_at": "2026-11-21T23:42:25.074Z",
   "request_commit": "fe007d2fc4713e5e82f4b05a28f36cc979f3ade8",
   "request_blob": "abbda7696d024ecbe1c6ccd4c2e11f63050aa419",
-  "summary": "Pinned journal and exact prior request history verified; dependency complete. Preparing minimal owner changes.",
+  "summary": "Five accepted owner events and two provision postings published and readback verified; separate checkpoint publication pending.",
   "blocker": null,
-  "applied_event_ids": []
+  "applied_event_ids": [
+    "D273-VEYR-COMMERCIAL-BORDER-ENTRY-001",
+    "D273-274-VEYR-ROAD-QUIET-REST-001",
+    "D274-WTR-CARTER-REPORT-OFFERED-001",
+    "D274-WTR-CARTER-VERIFIED-AND-MUSTER-ARRIVAL-001",
+    "D274-WTR-VENT-FOUR-WORKERS-EVACUATED-001"
+  ],
+  "owner_commit": "7d625e4dcc0d0ac4849adeb0bfad398cb42203c0",
+  "owners_verified": true,
+  "tested_commit": "70122aed8ad745bc0b27c55525f8d3363f493007",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
+      "exit_code": 0,
+      "result": "56 passed"
+    }
+  ]
 }
