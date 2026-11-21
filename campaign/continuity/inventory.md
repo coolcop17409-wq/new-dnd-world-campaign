@@ -1,3 +1,5 @@
+D268-MORNING-PROVISIONS-001 — Ordinary Day268 morning breakfast/feed used3 ration-person-days for Mara/Cirren/Fenar and4 animal-feed days for four horses once, carried ration-person-days15->12 and feed20->16. Camp maintained, coach and horses healthy, V next road action still unchosen. No Day268 daytime encounter or arrival, LongRest1/6.
+
 D267-MORNING-ROAD-DEPART-PROVISIONS-001 — Dawn Day267: three ration-person-days consumed by Mara/Cirren/Fenar, rations18→15; four horse-feed animal-days allocated once, feed24→20. Four healthy owned horses harnessed to intact coach; departure only on original route. No new coins, purchase or custody transfer; prior Day266 debits unchanged. Source: PLAY-D266-267-REST-001.
 
 <!-- Source: Google Doc 1F0NshIRsq70AwPTzRWZ7yULWFt6UUNUReh854-RlAB4, tab t.omq8afdpui42; title: INVENTORY; snapshot revision: AHj4eMRdUfJTQfnZ1m2n4LIieGRkpFbgNcCYkmUtJIfxKEbHM9Ax5DE1ByEYxe0AlMh2hFoG-ctlHNuI38Bgj5wpmjdN-OoJcWrIEktV5w -->
