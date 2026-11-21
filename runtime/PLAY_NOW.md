@@ -4,6 +4,7 @@
 Source: `campaign/continuity/campaign-state.md` (SHA256 `9aacb660a248094f0f8632c99488947a7246e09ceb9bea56093ae8792afb4d49`).
 Dashboard SHA256: `0dc4d348ab3793707e33b7e6779c243a6546a73b849db0d7cebef9613592b032`.
 Confirmed campaign day: **265**.
+Newest played event: `D265-TARNFORD-ESCORT-ARRIVAL-001`.
 
 ## Exact playable checkpoint (verbatim from owner)
 
