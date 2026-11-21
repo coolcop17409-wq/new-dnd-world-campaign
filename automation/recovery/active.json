@@ -50,6 +50,33 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D266-267-V-HD-CORRECTION-001",
+      "base_commit": "b3c7f0d956ccc3c93b93732a75cd2bb666d0d1a3",
+      "source_checkpoint": "D267-MORNING-NIGHTGLASS-ROAD-DEPART-001",
+      "destination_checkpoint": "D267-MORNING-NIGHTGLASS-ROAD-DEPART-001",
+      "source_evidence": "Player exact direction after accepted Day266->267 wilderness overnight: 'spend one at a time until 40 hp or higher'. This retroactively authorizes V to spend his own Hit Dice during the already completed qualifying overnight Short Rest, not a second rest. Before dice V HP31/48 after prior accepted Second Wind, HD7/7 consisting of Fighter 3d10 + Rogue 4d8. Modifier CON+1. Genuine Python secrets rolls made sequentially, only until threshold: 1st Fighter d10 FACE3+CON1=4, V31->35 HP; 2nd Fighter d10 FACE6+CON1=7, V35->42 HP; stop immediately >=40. Two fighter HD spent, leaving Fighter1d10 + Rogue4d8 = total5/7; 42/48 HP. No further dice, features, time, rations, rests, or movement. Corrects/supersedes only V's HP31/48 and HD7/7 in earlier queued D266-267 overnight and D267 morning records, maintaining previous Second Wind roll1+3=4 and all other party/night events unchanged. This correction is separate from immutable PLAY-D266-267-REST-001 batch; do not mutate submitted batch.",
+      "pending_action": "Day267 dawn/morning departure toward western Veyr crossing. Corrected V HP42/48 and Hit Dice5/7 (Fighter d10 one, Rogue d8 four), other resources unchanged (ActionSurge1/1 Superiority4/4 SecondWind1/1, Psi6/6). Fenar45/59 HD2/6, Cirren49/51 HD5/6. Coach/four horses healthy, rations15 feed20, Long Rest1/6. No Day267 daytime encounter rolled and V's next road action unchosen.",
+      "depends_on": [
+        "PLAY-D266-267-REST-001"
+      ],
+      "events": [
+        {
+          "event_id": "D266-267-V-REST-HITDICE-SPEND-CORRECTION-001",
+          "accepted": true,
+          "evidence": "Player exact direction after accepted Day266->267 wilderness overnight: 'spend one at a time until 40 hp or higher'. This retroactively authorizes V to spend his own Hit Dice during the already completed qualifying overnight Short Rest, not a second rest. Before dice V HP31/48 after prior accepted Second Wind, HD7/7 consisting of Fighter 3d10 + Rogue 4d8. Modifier CON+1. Genuine Python secrets rolls made sequentially, only until threshold: 1st Fighter d10 FACE3+CON1=4, V31->35 HP; 2nd Fighter d10 FACE6+CON1=7, V35->42 HP; stop immediately >=40. Two fighter HD spent, leaving Fighter1d10 + Rogue4d8 = total5/7; 42/48 HP. No further dice, features, time, rations, rests, or movement. Corrects/supersedes only V's HP31/48 and HD7/7 in earlier queued D266-267 overnight and D267 morning records, maintaining previous Second Wind roll1+3=4 and all other party/night events unchanged. This correction is separate from immutable PLAY-D266-267-REST-001 batch; do not mutate submitted batch.",
+          "before": "Previously accepted overnight Short Rest and Day267 morning departure recorded V HP31/48, HD7/7 after standing Second Wind d10FACE1+Fighter3 healed4 from27->31; no V Hit Dice yet spent. Day267 morning pre-daytime encounter, rest already completed.",
+          "after": "During same already-qualified Day266->267 wilderness overnight rest, V actually spends exactly two Fighter d10 Hit Dice one at a time: rolls3+CON1=4 and6+CON1=7, HP31->35->42/48; HD7/7->5/7, remaining Fighter d10 1 and Rogue d8 4. Stops at >=40. Current Day267 morning departure remains unchanged; no extra rest/day/roll/spell or other party resource shift.",
+          "owner_paths": [
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/session-log.md",
+            "data/characters/events.csv"
+          ]
+        }
+      ]
     }
   ]
 }
