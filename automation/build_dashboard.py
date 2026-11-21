@@ -53,6 +53,10 @@ def character(group, name, sheet, inventory_sheet):
   try:purse_cp=int(purse_row[1])*100+int(purse_row[2])*10+int(purse_row[3])
   except ValueError:pass
  return {"name":name,"level":fields.get("level"),"hp":fields.get("current hp"),"max_hp":fields.get("max hp"),"ac":fields.get("ac"),"initiative":fields.get("initiative"),"speed":fields.get("speed"),"resources":resource_rows,"purse_cp":purse_cp}
+def unlimited_darts(group, item, detail):
+ # Only the explicitly approved mundane ammunition row is uncounted. A unique
+ # magic dart's note may say "not unlimited ammunition"; that is no grant.
+ return group=="v" and item.strip().casefold()=="dart" and detail.lstrip().upper().startswith("UNLIMITED DARTS")
 def inventory(group,sheet):
  rows=table(CSV/group/sheet)
  header_i=next((i for i,r in enumerate(rows) if r and r[0].strip().upper()=="ITEM"),None)
@@ -75,7 +79,7 @@ def inventory(group,sheet):
   if source in {"gp","sp","cp","currency","tracker"}:continue
   custody=(detail_text+" "+holder_text).lower()
   if any(flag in custody for flag in ("no longer carried","not carried","transferred to","sold to")):continue
-  out.append({"item":r[item].strip(),"qty":q,"quantity_display":"Unlimited (not tracked)" if "unlimited" in detail_text.lower() else q,"holder":holder_text,"detail":detail_text[:180]})
+  out.append({"item":r[item].strip(),"qty":q,"quantity_display":"Unlimited (not tracked)" if unlimited_darts(group,r[item],detail_text) else q,"holder":holder_text,"detail":detail_text[:180]})
  return out
 def apply_character_events(payload):
  path=ROOT/"data"/"characters"/"events.csv"
@@ -136,7 +140,7 @@ def apply_character_events(payload):
    items=payload["inventory"].get(person["name"],[])
    matches=[x for x in items if x["item"].strip().lower()==target.lower()]
    if len(matches)!=1:raise ValueError(f"Inventory event {event.get('event_id')} target is missing or ambiguous: {target}.")
-   if "unlimited" in matches[0].get("detail","").lower():raise ValueError(f"Inventory event {event.get('event_id')} cannot change a non-counted unlimited item.")
+   if matches[0].get("quantity_display")=="Unlimited (not tracked)":raise ValueError(f"Inventory event {event.get('event_id')} cannot change a non-counted unlimited item.")
    current=float(matches[0]["qty"] or 0)
    matches[0]["qty"]=str(float(absolute) if absolute else current+float(delta or 0))
    matches[0]["quantity_display"]=matches[0]["qty"]

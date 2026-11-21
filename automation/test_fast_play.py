@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Fast-play parser/guard regression checks (no campaign simulation)."""
 import json
+import copy
 import csv
 import tempfile
 from pathlib import Path
@@ -13,6 +14,37 @@ STATE = "CAMPAIGN_STATE — DAY 244 EVENING — TEST\n\nCURRENT EXACT PLAYED CHE
 DASH = {"campaign_day":244,"tracker_status":"PASS","party":[{"name":"Valenthia","hp":"39","max_hp":"48","ac":"19","level":"7","resources":[{"name":"Psi","current":"6","max":"6"}],"purse":{"gp":1185,"sp":3,"cp":8}}]}
 
 class FastPlayTests(unittest.TestCase):
+    def test_unlimited_mundane_darts_do_not_extend_to_unique_magic_dart(self):
+        items = build_dashboard.inventory("v", "v-inventory.csv")
+        mundane = next(i for i in items if i["item"] == "Dart")
+        magic = next(i for i in items if i["item"] == "Galepierce Dart — single magical physical dart")
+        self.assertEqual(mundane["quantity_display"], "Unlimited (not tracked)")
+        self.assertEqual((magic["qty"], magic["quantity_display"]), ("1", "1"))
+        self.assertFalse(build_dashboard.unlimited_darts("v", magic["item"], "not unlimited ammunition"))
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            journal = root / "data/characters/events.csv"
+            journal.parent.mkdir(parents=True)
+            event = dict(event_id="TEST-FINITE-DART", campaign_day="266", owner="Valenthia",
+                         record_type="inventory", target=magic["item"], delta="-1",
+                         absolute_value="", evidence="Isolated finite-item regression; not played", status="posted")
+            def replay(target, count=1):
+                event["target"] = target
+                with journal.open("w", newline="") as handle:
+                    writer = csv.DictWriter(handle, fieldnames=list(event))
+                    writer.writeheader()
+                    for i in range(count):
+                        writer.writerow(dict(event, event_id=f"TEST-DART-{i}"))
+                payload = dict(party=[dict(name="Valenthia")], inventory={"Valenthia":copy.deepcopy(items)})
+                with patch.object(build_dashboard, "ROOT", root):
+                    build_dashboard.apply_character_events(payload)
+                return next(x for x in payload["inventory"]["Valenthia"] if x["item"] == target)
+            self.assertEqual(replay(magic["item"])["qty"], "0.0")
+            with self.assertRaisesRegex(ValueError, "negative"):
+                replay(magic["item"], 2)
+            with self.assertRaisesRegex(ValueError, "non-counted unlimited"):
+                replay("Dart")
+
     def test_new_inventory_custody_replays_once_and_rejects_duplicates(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp)

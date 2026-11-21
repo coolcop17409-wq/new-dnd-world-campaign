@@ -57,7 +57,7 @@ Publication state: VERIFIED. Owner commit 5c09e276a55eb626d0e979e0b058e88493bb54
 
 
 ## Record Maintenance consumption — ADMIN-MAINT-D266-20261121-01
-Status: PREPARED, deterministic record repair only; no RNG, new played event or resource posting. Source head cc8a7b946f9a2ac998543e8615da96cb458313ba; exact source checkpoint D266-NIGHT-ROAD-TROLLS-001, state blob4fc7a3581781b663318d4542723443b71a9c7d3f. Latest evidenced play and latest checked owning checkpoint agree at Day266 nightfall; Day265→266 is the latest completed overnight, night266→267 remains open. Scope: current roadside scene and accepted264–266 dependencies, current personal overlay, native QUESTS/current NPC/custody pointers, current route/index, specialist coverage/consumer ACKs, maintenance lane and sync-repair fallback; no whole-campaign audit.
+Status: DEPENDENT REPAIRS STAGED; archive independently VERIFIED, deterministic record repair only; no RNG, new played event or resource posting. Source head cc8a7b946f9a2ac998543e8615da96cb458313ba; exact source checkpoint D266-NIGHT-ROAD-TROLLS-001, state blob4fc7a3581781b663318d4542723443b71a9c7d3f. Latest evidenced play and latest checked owning checkpoint agree at Day266 nightfall; Day265→266 is the latest completed overnight, night266→267 remains open. Scope: current roadside scene and accepted264–266 dependencies, current personal overlay, native QUESTS/current NPC/custody pointers, current route/index, specialist coverage/consumer ACKs, maintenance lane and sync-repair fallback; no whole-campaign audit.
 
 Operations/dependencies:
 - M266-01: preserve the complete 9960-character pre-cleanup state verbatim in archive/continuity/campaign-state-full-snapshot-pre-fastplay.md under this operation ID, then verify destination before trimming. Recent log54314 and routing7573 chars are within limits; no log deletion needed.
@@ -66,7 +66,11 @@ Operations/dependencies:
 - M266-04: consume D266-ESTATE-CATCHUP-001 / D266-ESTATE-WORK-AND-CUSTODY for Record-Maintenance: current shared INVENTORY already matches C266 custody. Close only this verified ACK and existing Quest-Development ACK in this index; live-DM/Atlas stay pending.
 - M266-05: after dependent readback, compact current state and correct design threshold while preserving event ID, place, warning, party/counters, geometry and exact pending V choice; this is format/rule-reference synchronization, not a new checkpoint. Rebuild/verify generated views; do not hand edit them.
 
-Recovery: archive destination first; keep original source until verified. Per-file expected blobs and readbacks retained in this run; resume only missing operations. No draw started and no posting to replay. Final status/coverage/fingerprints will replace PREPARED here after verification.
+Recovery: archive destination first; keep original source until verified. Per-file expected blobs and readbacks retained in this run; resume only missing operations. No draw started and no posting to replay. Final status/coverage/fingerprints follow after published readback.
+
+Verified prewrite evidence: exact state archive at 70e7122afba114cc7db9197f606ee95069a1241d; scoped final/character and shop validation PASS, linked Tarnford sale/debit/item legs each exactly once, market review_queue(266) due_count0. Thirteen fast-play tests PASS including finite Galepierce decrement/overdraw rejection and unlimited mundane Dart protection. Current owner resources unchanged. Local dashboard comparison identified only stale market lots before the finite-display repair; live party values already match.
+
+ACK(D266-ESTATE-CATCHUP-001,Record-Maintenance,D266-ESTATE-WORK-AND-CUSTODY)=REVIEWED_NO_CHANGE. Source operational-checkpoint C266-CUSTODY/C266-RB-CUSTODY/C266-VISIT and ADMIN-ESTATE-D266-20261121-01, verified_owner_commit cfcb1d706406e7f93c7b9802f61fa2cc037c1b33; shared INVENTORY blob0c4f197986a0bce1ec3e43ba102b2fc19f2a5800 already routes actual returned boats, separate customer grain, no House pilot grain, and knowledge limits. No missing personal transfer or duplicate posting found in this scoped handoff. Existing Quest-Development ACK in ADMIN-QUEST-D266-20261121-01 explicitly identifies C266-HANDOFF-Quest-Development and this same source/effect; eligible for producer closure. Live-DM/Atlas ACKs remain independent.
 
 ## Record Maintenance consumption — ADMIN-MAINT-D244-20261120-01
 
