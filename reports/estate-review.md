@@ -16,11 +16,18 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Unfinished tasks due by campaign Day 246
+## Unfinished tasks due by campaign Day 251
 
 Campaign-day source: CAMPAIGN_STATE.
+- **Miregate — Day 249: MG-WEEK-249** (Pending)
+- **Miregate — Day 250: MG-PAY-250** (Pending)
 - **Reedbed — Day 245: RB-WEEK-245** (Scheduled)
+- **Reedbed — Day 250: RB-PAYROLL-250** (Conditional)
+- **Old Distributary Fort — Day 247: OF-WEEK-247** (Scheduled)
+- **Old Distributary Fort — Day 250: OF-PAYROLL-250** (Conditional)
 - **Blackthorn — Day 246: WOOD-WEEK-8** (Scheduled)
+- **Blackthorn — Day 250: WOOD-INSPECT** (Scheduled)
+- **Blackthorn — Day 251: WOOD-PICKUP** (Scheduled)
 - **Blackthorn — Day 245: REPEAT-TARGET-245** (Scheduled)
 
 ### Verified later settlements

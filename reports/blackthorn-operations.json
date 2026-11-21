@@ -7938,12 +7938,54 @@
       "prior_on_site_t": "5.500",
       "prior_on_site_gp": "75.9000",
       "unit_cost_gp_per_t": "13.8"
+    },
+    {
+      "event_id": "BT-D248-F04-ACCEPT",
+      "day": 248,
+      "operation_type": "Accept",
+      "product_grade": "Dressed stone",
+      "quantity_t": "8",
+      "order_line_id": "R200-BT-ORDER-F04",
+      "shipment_id": "R200-BT-SHIP-F04",
+      "on_site_delta_t": "0",
+      "on_site_delta_gp": "0",
+      "transit_delta_t": "-8",
+      "transit_delta_gp": "-46.8169",
+      "revenue_gp": "224.00",
+      "cogs_gp": "46.8169",
+      "loss_idle_gp": "0",
+      "production_labor_gp": "0",
+      "nonlabor_cost_gp": "0",
+      "prior_on_site_t": "7.960",
+      "prior_on_site_gp": "46.5629",
+      "unit_cost_gp_per_t": "5.849610552763819095477386935"
+    },
+    {
+      "event_id": "BT-D251-NQ-GATE",
+      "day": 251,
+      "operation_type": "Gate sale",
+      "product_grade": "Sawn construction lumber",
+      "quantity_t": "5",
+      "order_line_id": "ORS-WOOD-01",
+      "shipment_id": "",
+      "on_site_delta_t": "-5",
+      "on_site_delta_gp": "-51.5659",
+      "transit_delta_t": "0",
+      "transit_delta_gp": "0",
+      "revenue_gp": "210.00",
+      "cogs_gp": "51.5659",
+      "loss_idle_gp": "0",
+      "production_labor_gp": "0",
+      "nonlabor_cost_gp": "0",
+      "prior_on_site_t": "11.750",
+      "prior_on_site_gp": "121.1798",
+      "unit_cost_gp_per_t": "10.31317446808510638297872340"
     }
   ],
   "findings": [],
   "totals": {
-    "revenue": "1924.15",
-    "cogs": "686.33",
+    "revenue": "2358.15",
+    "cogs": "784.72",
     "loss": "68.40",
     "produced_cost": "878.90"
   },
@@ -7965,20 +8007,15 @@
       "cost_gp": "1.4068"
     },
     "Sawn construction lumber": {
-      "quantity_t": "11.7500",
-      "cost_gp": "121.1798"
+      "quantity_t": "6.7500",
+      "cost_gp": "69.6139"
     },
     "Selected / finished hardwood": {
       "quantity_t": "4.5000",
       "cost_gp": "62.1000"
     }
   },
-  "in_transit": {
-    "R200-BT-SHIP-F04:Dressed stone": {
-      "quantity_t": "8.0000",
-      "cost_gp": "46.8169"
-    }
-  },
+  "in_transit": {},
   "superseded_interval": {
     "authority": "D244-ESTATE-REDO-D200-001",
     "start_day": 200,
@@ -8842,7 +8879,7 @@
     "produced_cost": "862.32"
   },
   "history_event_count": 283,
-  "staging_event_count": 354,
+  "staging_event_count": 356,
   "checkpoint_day": 231,
   "source_history_totals": {
     "revenue": "1161.00",
@@ -9204,7 +9241,9 @@
     "R200-BT-244-273",
     "PS-BT-B-SALE",
     "PS-BT-D-SALE",
-    "PS-BT-E-SALE"
+    "PS-BT-E-SALE",
+    "BT-D248-F04-ACCEPT",
+    "BT-D251-NQ-GATE"
   ],
   "ledger_events": [
     {
@@ -11153,6 +11192,56 @@
       "evidence": "D244-ESTATE-CATCHUP-001: actualcompleteddaytime productionbeforeearlyevening; currentdayactivitynotfullnightclose. Approvedgradequantities no newupgrade.",
       "source_file": "data/estate/blackthorn-operations-events.csv",
       "source_row": "78",
+      "status": "posted",
+      "in_transit_quantity_delta": "0",
+      "in_transit_cost_delta_gp": "0"
+    },
+    {
+      "event_id": "BT-OPS-BT-D248-F04-ACCEPT",
+      "estate": "Blackthorn",
+      "effective_day": "248",
+      "event_type": "shipment_acceptance",
+      "reference_id": "R200-BT-ORDER-F04",
+      "receivable_id": "",
+      "cash_delta_gp": "224.00",
+      "receivable_delta_gp": "",
+      "income_delta_gp": "224.00",
+      "expense_delta_gp": "46.82",
+      "inventory_id": "BT-STOCK-DRESSED-STONE",
+      "quantity_delta": "0",
+      "inventory_cost_delta_gp": "0",
+      "shipment_id": "R200-BT-SHIP-F04",
+      "accepted_quantity": "8",
+      "prerequisite_ref": "R200-BT-QC-F04",
+      "description": "Blackthorn operation BT-D248-F04-ACCEPT: Accept.",
+      "evidence": "Normal documented seven-day loaded stone carrier delivery Day241->248, Pevra buyer accepts reserved 8t at28gp/t and cash224 under existing R200-BT-QC-F04, no second income/payment gate; D251-261-BLACKTHORN-WAIT-BROTHERS-ARRIVAL-001",
+      "source_file": "data/estate/blackthorn-operations-events.csv",
+      "source_row": "79",
+      "status": "posted",
+      "in_transit_quantity_delta": "-8",
+      "in_transit_cost_delta_gp": "-46.8169"
+    },
+    {
+      "event_id": "BT-OPS-BT-D251-NQ-GATE",
+      "estate": "Blackthorn",
+      "effective_day": "251",
+      "event_type": "gate_sale",
+      "reference_id": "ORS-WOOD-01",
+      "receivable_id": "",
+      "cash_delta_gp": "210.00",
+      "receivable_delta_gp": "",
+      "income_delta_gp": "210.00",
+      "expense_delta_gp": "51.57",
+      "inventory_id": "BT-STOCK-SAWN-LUMBER",
+      "quantity_delta": "-5",
+      "inventory_cost_delta_gp": "-51.5659",
+      "shipment_id": "",
+      "accepted_quantity": "",
+      "prerequisite_ref": "WOOD-INSPECT",
+      "description": "Blackthorn operation BT-D251-NQ-GATE: Gate sale.",
+      "evidence": "North Quay reserved 5t seasoned batch; Hedda Day250 inspected and passed d20(11)+4=15/DC12; buyer own pickup/acceptance/pay210 Day251; stock reserved since D190, no duplicate transport charge; D251-261-BLACKTHORN-WAIT-BROTHERS-ARRIVAL-001",
+      "source_file": "data/estate/blackthorn-operations-events.csv",
+      "source_row": "80",
       "status": "posted",
       "in_transit_quantity_delta": "0",
       "in_transit_cost_delta_gp": "0"
