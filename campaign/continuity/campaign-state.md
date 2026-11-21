@@ -10,6 +10,8 @@ CURRENT PARTY/GEAR: V Lv7 HP48/48 AC19, Psionic Energy Dice6/6, Knowledge from P
 
 **EXACT PENDING V CHOICE AT DAY264 MIDMORNING:** V is with companions in/near intact enclosed carriage at ~150ft from already-attacked merchant wagon, with hostile gnolls/hyenas concentrating on traders; he has several possible approaches (intervene, get a better vantage, stealthily approach, attempt another tactic, withdraw/continue) but NONE has been chosen or begun. Fenar warns of gnolls, Cirren observes danger. Avoid passive guaranteed surprise/instant rescue, keep NPC motives/positions fair and await V response. Do not replay earlier journey or roll initiative until needed.
 
+Completed Day245–246 rest/recovery SOURCE BLOCKS were archived verbatim to `archive/continuity/session-log-day245-246-rest-legacy-20261120.md` after exact destination readback to preserve bounded active fast-play log; no current event, roll, day, resource or pending choice is altered by this administrative archival.
+
 ## Earlier checkpoints
 
 D262–264 rolling and actual first day departure in SESSION_LOG and character owner event journal. Previous Day261 supper/Elara mail/packing, rest and the Blackthorn brothers return and estate owners remain intact, no hidden family connection to this ordinary roadside encounter. Historical checkpoint archives are not the current pause.
