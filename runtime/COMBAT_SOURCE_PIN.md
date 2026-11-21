@@ -1,0 +1,15 @@
+# Day266 Troll Encounter — pinned combat reference (NONAUTHORITATIVE)
+
+This is a **static, read-once tactical source cache**, not current gameplay, a new journal, a stat block invention, or permission to reroll. The authoritative current checkpoint remains `campaign/continuity/campaign-state.md`; accepted unsynced combat changes remain in `automation/recovery/active.json` and retained conversation tactical context. At a new chat, compare recovery entries with owners. Do **not** overwrite newer events with this snapshot.
+
+## Source and roster
+- Encounter: `D266-NIGHT-ROAD-TROLLS-001`. Source-lock 2014 **Troll | Monster Manual p291**, pinned 5etools mirror commit `c286d15651c5b79004496132c22164f59728480d`, `data/bestiary/bestiary-mm.json`; exact resolved source in `prep/dm-only/dm-nightglass-route.md`.
+- Two trolls, each **AC15, starting HP84, speed30, initiative+1, passive Perception12, Perception+2, darkvision60**, Keen Smell advantage only on smell-based Perception. No listed damage/condition immunity or spellcasting.
+- Each can Multiattack: bite +7 reach5, **1d6+4 piercing**, and two claws +7 reach5, **2d6+4 slashing** each. Regeneration **10 HP at start of own turn** unless the troll took **acid or fire damage since its last turn**; cannot die while its regeneration remains effective at 0 HP. No innate extra bonus/reaction or legendary actions. Fire merely present is not fire *damage*. Do not import 2024 or optional Loathsome Limbs.
+- Current party values and all other changes require current accepted evidence. In the already recorded Round1 Stealth checks, accepted modifiers were **V +10, Fenar +5, Cirren +2**; these are not permission for a second roll or proof that another skill's bonus matches.
+
+## Last verified independent recovery snapshot
+Recovery entry `PLAY-REC-D266-TROLLS-R1-001` records **completed Round1**. Its accepted initiative is V22/Fenar22, Troll A15, Cirren9, Mara8, Troll B7. V at approx(0,-35) hidden behind southern trunk (Stealth19), Fenar approx(20,-35) hidden (Stealth25), Cirren approx(10,-35) **not hidden** (Stealth6). Troll A approx(40,-21) and B approx(61,-17), after Dash (no attacks). Mara began handling the four tethered horses at approx(-15,+35); coach is stationary and not yet hitched to depart. No HP/resource damage, horse losses, additional trolls or rest. At **start Round2**, V action unchosen. This is only accurate up to that recovery entry; any later accepted result takes precedence.
+
+## Combat execution
+Reuse this pinned creature profile, known bonuses and retained initiative/geometry rather than searching the web, refetching huge character trackers or inspecting GitHub Actions each turn. Run **genuine** DM dice whenever the mechanics require new rolls; do not invent V's actions/rolls outside delegation. Record updated tactical state in conversation; after changed play, perform the one-file recovery append/readback, not full gameplay owner sync. A missing or changed crucial mechanic is a justified scoped lookup; cache its result for the rest of this encounter.
