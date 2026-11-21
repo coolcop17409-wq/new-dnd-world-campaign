@@ -88,3 +88,5 @@ D265-CIRREN-SR-HP-001,265,Cirren,stat,HP,4,,"D264-265-TARNFORD-ESCORT-CAMP-001: 
 D265-FENAR-SR-HD-001,265,Fenar,resource,Hit Dice,-1,,"D264-265-TARNFORD-ESCORT-CAMP-001: 6→5/6, independently spent Barbarian d12 FACE10+CON2=12 healing. No prior or additional parallel recovery.",posted
 D265-FENAR-SR-HP-001,265,Fenar,stat,HP,12,,"D264-265-TARNFORD-ESCORT-CAMP-001: 46→58/59 after genuine Barbarian d12(10)+2=12, no spell. No prior or additional parallel recovery.",posted
 D265-FENAR-SR-MP-001,265,Fenar,resource,Martial Points,2,,D264-265-TARNFORD-ESCORT-CAMP-001: 4→6/6 restored on qualifying overnight Short Rest. No prior or additional parallel recovery.,posted
+D265-ROAD-RATIONS-001,265,Valenthia,inventory,Rations (1 day),-3,,"Day265 actual onward escort travel; three eater companions Mara/Cirren/Fenar, Reborn V needs no food. V packed12→9 person-days.",posted
+D265-ROAD-FEED-001,265,Valenthia,inventory,Feed (1 day),-4,,Day265 travel day four V-owned healthy horses all fed from V packed stock16→12 animal-days; lone merchant horse separately supplied by Hollis. Temp V draft horse loan ends at Tarnford.,posted
