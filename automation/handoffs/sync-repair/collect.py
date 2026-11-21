@@ -20,13 +20,22 @@ def eligible(run, repository):
             (run['head_branch']=='main' or run['head_branch'].startswith('campaign-sync-test/')) and
             run['event'] in {'push','workflow_dispatch'})
 
+class SafeRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if urllib.parse.urlsplit(newurl).scheme != 'https':
+            raise ValueError('Refusing non-HTTPS artifact redirect')
+        redirected=super().redirect_request(req,fp,code,msg,headers,newurl)
+        if redirected is not None and urllib.parse.urlsplit(req.full_url).netloc != urllib.parse.urlsplit(newurl).netloc:
+            redirected.remove_header('Authorization')
+        return redirected
+
 class API:
     def __init__(self, repo, token):self.repo=repo;self.token=token
     def call(self, method, path, data=None, binary=False):
         url=path if path.startswith('https://') else f'https://api.github.com/repos/{self.repo}/{path}'
         req=urllib.request.Request(url,data=json.dumps(data).encode() if data is not None else None,method=method,
             headers={'Authorization':'Bearer '+self.token,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'})
-        with urllib.request.urlopen(req,timeout=45) as r:
+        with urllib.request.build_opener(SafeRedirect()).open(req,timeout=45) as r:
             raw=r.read(8_000_001)
             if len(raw)>8_000_000:raise ValueError('API response exceeds collector bound')
             return raw if binary else json.loads(raw) if raw else None
@@ -113,6 +122,13 @@ def main():
     api=API(os.environ['GITHUB_REPOSITORY'],os.environ['GH_TOKEN'])
     event=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text());run=event.get('workflow_run')
     if run is None:run=api.call('GET','actions/runs/'+os.environ['FAILURE_RUN_ID'])
-    result=enqueue(api,run,diagnose(api,run)) if eligible(run,api.repo) else {'status':'ignored'}
-    Path('reports').mkdir(exist_ok=True);Path('reports/repair-collection.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
+    try:
+        result=enqueue(api,run,diagnose(api,run)) if eligible(run,api.repo) else {'status':'ignored'}
+    except Exception as exc:
+        result={'status':'blocked','original_run_id':run['id'],'original_commit':run['head_sha'],
+                'error_type':type(exc).__name__,'error':str(exc),
+                'next_trigger':'Retry the collector for this original run after resolving the error; reuse the same signature/request/PR.'}
+        raise
+    finally:
+        Path('reports').mkdir(exist_ok=True);Path('reports/repair-collection.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 if __name__=='__main__':main()
