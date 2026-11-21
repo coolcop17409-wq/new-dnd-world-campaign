@@ -24,6 +24,31 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D266-TROLLS-R2-001",
+      "base_commit": "114dd89a2e5c83b80bbcb49d8190832f31bc196e",
+      "source_checkpoint": "D266-NIGHT-ROAD-TROLLS-R2-V-001",
+      "destination_checkpoint": "D266-NIGHT-ROAD-TROLLS-R3-V-001",
+      "source_evidence": "Player order: \"Quick toss the closest creature (if i have sneak attack). Then hold action to attack when cirren or fenar are in melee (if I have sneak attack) Else attack twice.\" Fenar acts first at tied init22, closes to A(35,-21), BA Rage3->2, Reckless attacks +8 vsAC15: greataxe adv(16,1)=24, d12(7)+7=14; claw adv(19,5)=27, d6(4)+7=11; extra claw adv(14,20)=critical, 2d6(1,6)+7=14; total39. V moves from(0,-35) to(26,-35) within20ft A, BA Quick Toss spends 1 superiority die4->3, d20(9)+9=18 hit AC15, damage dart d4(4)+DEX4+superiority d8(1)+Sneak2d6(1,5)=15. A HP84->30, regenerates10 at its turn start->40. A bites raging Fenar: adv(11,10)+7=18 vsAC14, damage1d6(1)+4=5 halves2. V uses Readied action reaction triggering after troll attacks Fenar in melee, thrown physical dart d20(15)+9=24 vsAC15 hit, d4(4)+DEX4+Sneak2d6(4,1)=13 damage (off-turn SA legal), A HP40->27. A claws advantage vs Reckless Fenar: adv(19,1)+7=26 damage2d6(1,5)+4=10 halves5; adv(10,18)+7=25 damage2d6(2,3)+4=9 halves4. Cirren init9 BA Spiritual Weapon 2nd-level spell L2 2->1, attack d20(18)+8=26 vsAC15, damage1d8(5)+WIS5=10, A HP27->17. Cirren action Toll the Dead injured A, save d20(17)-1=16 meets DC16, no damage. Mara init8 continues preparing horse harness; coach NOT moved. B moves from(61,-17) to(38,-19), adjacent Fenar, multiattacks at advantage: bite adv(17,10)+7=24, d6(2)+4=6 halves3; claw adv(19,20)=critical, 4d6(5,5,4,5)+4=23 halves11; last claw adv(1,1)+7=8 misses. Fenar HP58->33 from 25 damage total; Rage active, Reckless vulnerability until her next turn. Troll A HP17, B HP84, neither has taken fire/acid. V HP48, Cirren HP49, horses healthy, coach intact. Round2 ended, R3 V action unchosen. All die faces genuinely executed via Python secrets for this round.",
+      "pending_action": "Round3 V next choice unchosen at shared initiative22 with Fenar. V HP48/48 at(26,-35); Fenar HP33/59 raging adjacent both Troll A(40,-21) HP17/84 and B(38,-19) HP84/84; Cirren HP49/51 at(10,-35), Spiritual Weapon active; Mara preparing horses and coach still stationary.",
+      "depends_on": [],
+      "events": [
+        {
+          "event_id": "D266-NIGHT-ROAD-TROLLS-R2-PLAY-001",
+          "accepted": true,
+          "evidence": "Player order: \"Quick toss the closest creature (if i have sneak attack). Then hold action to attack when cirren or fenar are in melee (if I have sneak attack) Else attack twice.\" Fenar acts first at tied init22, closes to A(35,-21), BA Rage3->2, Reckless attacks +8 vsAC15: greataxe adv(16,1)=24, d12(7)+7=14; claw adv(19,5)=27, d6(4)+7=11; extra claw adv(14,20)=critical, 2d6(1,6)+7=14; total39. V moves from(0,-35) to(26,-35) within20ft A, BA Quick Toss spends 1 superiority die4->3, d20(9)+9=18 hit AC15, damage dart d4(4)+DEX4+superiority d8(1)+Sneak2d6(1,5)=15. A HP84->30, regenerates10 at its turn start->40. A bites raging Fenar: adv(11,10)+7=18 vsAC14, damage1d6(1)+4=5 halves2. V uses Readied action reaction triggering after troll attacks Fenar in melee, thrown physical dart d20(15)+9=24 vsAC15 hit, d4(4)+DEX4+Sneak2d6(4,1)=13 damage (off-turn SA legal), A HP40->27. A claws advantage vs Reckless Fenar: adv(19,1)+7=26 damage2d6(1,5)+4=10 halves5; adv(10,18)+7=25 damage2d6(2,3)+4=9 halves4. Cirren init9 BA Spiritual Weapon 2nd-level spell L2 2->1, attack d20(18)+8=26 vsAC15, damage1d8(5)+WIS5=10, A HP27->17. Cirren action Toll the Dead injured A, save d20(17)-1=16 meets DC16, no damage. Mara init8 continues preparing horse harness; coach NOT moved. B moves from(61,-17) to(38,-19), adjacent Fenar, multiattacks at advantage: bite adv(17,10)+7=24, d6(2)+4=6 halves3; claw adv(19,20)=critical, 4d6(5,5,4,5)+4=23 halves11; last claw adv(1,1)+7=8 misses. Fenar HP58->33 from 25 damage total; Rage active, Reckless vulnerability until her next turn. Troll A HP17, B HP84, neither has taken fire/acid. V HP48, Cirren HP49, horses healthy, coach intact. Round2 ended, R3 V action unchosen. All die faces genuinely executed via Python secrets for this round.",
+          "before": "Day266 road-camp combat at start Round2: V hidden (0,-35) HP48/48 Superiority4/4; Fenar hidden(20,-35) HP58/59 Rage3/4; Cirren exposed(10,-35) HP49/51 L2 slots2/3; Mara preparing horses(-15,+35), coach stationary(0,+15); trolls A(40,-21) 84/84 and B(61,-17) 84/84, no damage yet.",
+          "after": "Round2 complete, approx12sec combat total. V exposed(26,-35) HP48/48, Superiority3/4; Fenar(35,-21) HP33/59, Rage active, Rage2/4, Reckless vulnerability until next turn, Shift2/3, MP6/6; Cirren(10,-35) HP49/51 L2 slots1/3, Spiritual Weapon active near Troll A (nonconcentration, 1 minute), Toll save passed. Troll A(40,-21) HP17/84, Troll B(38,-19) HP84/84, no fire/acid applied; regeneration next A turn eligible. Mara still preparing horses/hitch; coach stationary, all four horses healthy. R3 initiative V/Fenar22 then A15 Cirren9 Mara8 B7; V decision unchosen.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "data/characters/events.csv"
+          ]
+        }
+      ]
     }
   ]
 }
