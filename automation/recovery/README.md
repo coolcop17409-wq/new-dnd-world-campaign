@@ -19,7 +19,23 @@ Say **recovery recorded** only after readback; this is not **queued** or **saved
 
 ## Normal batch handoff
 
-At existing sync boundaries, freeze a snapshot of eligible entries into the existing immutable `[CAMPAIGN-SYNC]` request. Preserve each event object/ID exactly, in causal order; include complete evidence and final pending action. The request's source/destination checkpoints span the selected entries. Add `recovery_entries`, an object mapping each selected recovery request_id to its canonical SHA-256 (`digest(entry)` in the helper). Dependencies remain explicit. Search existing requests before resubmitting events; reuse the same transport on retry. Entries already queued stay in the buffer but must not be submitted in a second batch. New responses continue appending during application. No change to opened-only dispatch, claims, scoped tests, owner verification, checkpoint-last or no-auto-merge rules.
+At existing sync boundaries, the committed accumulating journal is the REQUIRED source of new sync batches. Do not reconstruct, supplement or summarize missing events from chat at submission time. First record any missing accepted evidence or explicit corrections through the guarded append procedure and read it back. If the journal lacks sufficient evidence, retain/block the batch; do not infer it. Existing pre-change immutable transports remain valid under their original protocol; smoke tests remain separate.
+
+Fetch active.json at an exact main commit (retain Git blob SHA and establish that commit belongs to main history). Search open AND closed play-sync PRs and durable requests, including abandoned transports, for relevant request/event IDs; paginate and fetch exact immutable request files. Reconcile their central results and any partial owner phases. Supply the complete relevant accepted-play requests as a JSON array to the builder; an empty array means a verified empty queue/history for these IDs, not a skipped search. The builder is offline and cannot certify discovery completeness. Reuse an existing exact batch ID/request on retry; never rebuild it from a later journal. Conflicting/partial overlaps need reconciliation, not another transport.
+
+```
+python3 -m automation.recovery_batch build /tmp/pinned-active.json --journal-commit <exact-main-SHA> --request-id PLAY-<checkpoint>-<sequence> --prior-requests /tmp/prior-requests.json
+```
+
+Use the output unchanged as the immutable existing-lane request. It selects all unqueued entries in causal order, copies event objects exactly, concatenates their stored evidence, takes the first source/base and last destination/pending decision, and resolves dependencies on queued batches. It pins the full journal snapshot and per-entry hashes. Empty journals/no unqueued entries produce no request. Checkpoint gaps, forward/unresolved dependencies, altered duplicate IDs and partial overlaps fail closed. Stable IDs and original entry base commits remain available in the pinned journal. No full owner sync is performed by the builder.
+
+Before claiming/applying, the worker fetches the journal at request.journal_source.commit from main history and the immutable prior_request_ids, verifies its content against the pinned digest and independently checks current owners/newer corrections. Run trusted current-main code:
+
+```
+python3 -m automation.recovery_batch verify /tmp/pinned-active.json --request /tmp/request.json --prior-requests /tmp/prior-requests.json
+```
+
+The whole generated request must match exactly, including pending action, evidence, dependencies and ordered events. Never execute request-branch code. Later appends do not alter the frozen batch. Continue using existing opened-only transport, central claims, expected-SHA guards, scoped tests, owner verification and checkpoint-last publication. Keep entries until verified cleanup; do not queue their events twice. The foreground submits at existing boundaries; no new timer, watcher, per-turn PR or task is created.
 
 ## Startup and interrupted chat recovery
 
