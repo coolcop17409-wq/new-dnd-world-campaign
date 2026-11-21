@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "automation" / "handoffs"
-LANES = ("shops", "quests", "estates", "atlas", "maintenance")
+LANES = ("shops", "quests", "estates", "atlas", "maintenance", "sync-repair")
 ID = re.compile(r"^HANDOFF-[A-Z0-9]+(?:-[A-Z0-9]+){3,}$")
 TERMINAL = {"complete", "superseded"}
 STATUSES = TERMINAL | {"blocked", "partial"}

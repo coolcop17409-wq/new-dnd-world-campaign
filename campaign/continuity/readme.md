@@ -21,7 +21,7 @@ Maintain a compact **unsynchronized** event ledger during play. Batch guarded, i
 
 ## Delegated work queue
 
-`automation/handoffs/README.md` routes queued nonplaying preparation to existing daily specialist workers. Live DM can record an immutable request at natural sync and continue play; completion is not instantaneous, and receipts never override owning records or advance V actions.
+`automation/handoffs/README.md` routes queued nonplaying preparation to existing daily specialist workers. Live DM can record an immutable request at natural sync and continue play; completion is not instantaneous, and receipts never override owning records or advance V actions. Validation failures use the `sync-repair` lane and isolated draft PRs; detailed procedures live in `automation/handoffs/sync-repair/README.md`. Continue narration from verified facts without polling CI/repair.
 
 ## Authoritative owners
 

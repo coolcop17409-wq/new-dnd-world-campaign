@@ -1,0 +1,29 @@
+name: Campaign character journal validation
+on:
+  push:
+    paths:
+      - 'data/characters/**'
+      - 'automation/sync_validate.py'
+      - '.github/workflows/character-journal.yml'
+  pull_request:
+    paths:
+      - 'data/characters/**'
+      - 'automation/sync_validate.py'
+      - '.github/workflows/character-journal.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  journal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preflight owning journal (checkpoint may follow)
+        run: python3 automation/sync_validate.py --scope characters --phase owners
+      - name: Preserve failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: campaign-sync-diagnostic
+          path: reports/sync-diagnostic.json
+          retention-days: 90

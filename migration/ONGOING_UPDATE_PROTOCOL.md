@@ -20,7 +20,7 @@ Flush that ledger at completed consequential combat or substantial exploration, 
 2. Record each confirmed change once in the owning journal. Keep the event ID stable on retry. Use separate IDs for separate economic legs such as earned income, a receivable, and later cash collection.
 3. Recalculate the derived view from journals and dated opening snapshots. Do not hand-edit generated reports or dashboard data.
 4. Run the relevant audit, formula replay, and edge-case tests. Resolve or clearly hold discrepancies before presenting any value as current.
-5. Update the campaign checkpoint only after all owning ledgers and generated views have been verified. Preserve the previous checkpoint and its evidence.
+5. Update the campaign checkpoint only after the relevant owning batch is preflighted and verified. Generated views refresh asynchronously after this final checkpoint; do not wait for them to narrate. Preserve the previous checkpoint and its evidence.
 6. After each update, verify the GitHub commit and affected generated views. Compare with Drive only to investigate historical/source discrepancies; GitHub governs any post-cutover campaign record.
 
 A generated schedule date is a reminder to review. It does not itself post wages, receipts, expenses, taxes, inventory, transfers, or a completed task.
@@ -136,3 +136,7 @@ The live packet compares the ID of the newest accepted `campaign/continuity/sess
 ## Dedicated nonblocking worker handoffs (2026-11-21)
 
 Use `automation/handoffs/README.md` for immutable request files and separate verified result receipts, scoped to exactly one of shops/quests/estates/atlas/maintenance. An ordinary live turn need not write the queue immediately: hold the request in the in-conversation unsynced ledger, and persist at normal sync or explicit handoff. Existing scheduled automations check their own lane; queue creation is not an instant ChatGPT trigger. Workers must independently confirm current owner evidence and must not create a player decision, delivery, rest or elapsed time. Process up to two requests per scheduled run, preserve unique IDs and guarded writes; only use completed owner refs after verification. If a request is essential for the next game action, resolve it in current live play instead of relying on a pending background result.
+
+## Background synchronization repair — current protocol
+
+`automation/handoffs/sync-repair/README.md` governs prepublication schema checks, stable-ID retries, expected-head batches, final checkpoint ordering, generated publication concurrency, isolated diagnostic PRs and independent repair. It supersedes older text requiring derived CI completion before live narration or claiming all lanes are schedule-only. Owning log-before-checkpoint intervals are expected; only final reconciliation gates packet publication. Work repairs never merge automatically. Existing five schedules remain unchanged; Record Maintenance also consumes sync-repair. No campaign actions, values or time arise from repair.

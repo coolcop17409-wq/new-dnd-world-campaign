@@ -1,6 +1,6 @@
 # New Unnamed World — asynchronous campaign work handoffs
 
-This is a **work-request queue**, NOT a gameplay journal or separate source of canon. The live campaign runs immediately. Existing scheduled campaign task workers inspect their own lane and do source-verified preparation and maintenance when they next run. Queue creation does **not** trigger an immediate separate chat or guarantee background execution.
+This is a **work-request queue**, NOT a gameplay journal or separate source of canon. The live campaign runs immediately. Existing scheduled campaign task workers inspect their own lane and do source-verified preparation and maintenance when they next run. Preparation queue creation does **not** trigger an immediate separate chat. The dedicated sync-repair lane opens a draft PR for the configured GitHub-to-Work trigger; actual delivery must be verified, with scheduled fallback.
 
 ## Routing
 
@@ -11,8 +11,9 @@ This is a **work-request queue**, NOT a gameplay journal or separate source of c
 | `estates` | Estate Ledger Updates | Evidence-backed accounting/operations through confirmed campaign time |
 | `atlas` | Maintain campaign atlas | Overlay/register, never base map |
 | `maintenance` | Campaign Record Maintenance | Provenance, continuity, scoped repair, generated-view checks |
+| `sync-repair` | Background Repair Worker; Record Maintenance fallback | Isolated evidence-supported validation repairs, never automatic merge |
 
-The existing daily schedules remain unchanged. Event-driven launching of another ChatGPT chat is **not configured**. Runs can be requested explicitly through the available automation controls; they are not launched automatically from an ordinary GitHub push. Never promise that a worker is active until its actual run is confirmed.
+The existing daily schedules remain unchanged. The sync-repair PR subscription is configured; consult `sync-repair/IMPLEMENTATION_REPORT.md` for tested delivery status. Runs can be requested explicitly through the available automation controls; they are not launched automatically from an ordinary GitHub push. Never promise that a worker is active until its actual run is confirmed.
 
 ## Creating a request (live game)
 
@@ -35,7 +36,7 @@ At the next relevant live scene or chat startup, look up **only** receipts tied 
 
 ## Safety and reliability
 
-- No automatic parallel ChatGPT conversation launch exists here. Scheduling is the supported handoff mechanism; an explicit "run now" is a separate request, not a default side effect.
+- Preparation lanes use existing schedules. Sync-repair uses the PR event subscription and existing maintenance fallback under `sync-repair/README.md`. Configuration alone does not prove task delivery.
 - One request ID, one lane, one result file; never use broad index rewrites as a lock. Multiple workers own different lanes. Guard every repository update against concurrent main changes and retry without duplicating successful event IDs.
 - Queue files are operational metadata, not an alternate CAMPAIGN_STATE, SESSION_LOG, personal inventory, shop Stock or estate ledger.
 - Do not run unrelated estate, shop, atlas or whole-world audits for a queue entry outside that subsystem.
