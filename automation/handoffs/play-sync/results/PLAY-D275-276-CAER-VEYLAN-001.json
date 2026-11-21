@@ -2,12 +2,46 @@
   "schema_version": 1,
   "request_id": "PLAY-D275-276-CAER-VEYLAN-001",
   "status": "partial",
-  "phase": "claimed",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr14-fc0cd6a0",
   "claim_expires_at": "2026-11-22T00:13:59.671Z",
   "request_commit": "79593f7dc35d931126f15aef86f1ddde11409330",
   "request_blob": "be4d852c29dc4284fbf70d20fd37bc7a0c5bcfeb",
-  "summary": "Pinned journal and exact prior history verified; dependency complete. Preparing minimal owner and linked market changes.",
+  "summary": "Nine accepted events, seven character postings and three market events verified; separate checkpoint pending.",
   "blocker": null,
-  "applied_event_ids": []
+  "applied_event_ids": [
+    "D275-NIGHTGLASS-PROVENANCE-CONVERSATION-001",
+    "D275-NIGHTGLASS-VISIONS-FEW-SINCE-CONVERSATION-001",
+    "D275-V-IDENTITY-MOTIVATION-CONVERSATION-001",
+    "D275-V-VISIONS-FIRSTPERSON-001",
+    "D275-V-RECOUNTS-NIGHTGLASS-THRONE-VISION-001",
+    "D275-276-VEYR-ROAD-CAER-VEylan-APPROACH-001",
+    "D276-CAER-VEYLAN-ENTRY-RESUPPLY-001",
+    "D276-CAER-VEYLAN-MAGIC-MARKET-OPEN-001",
+    "D276-CAER-VEYLAN-PIXIE-DUST-SALE-001"
+  ],
+  "owner_commit": "2fec6485482fc3e686a84581c43909962196319d",
+  "owners_verified": true,
+  "tested_commit": "5bafbb958ca9e4c53430a9515f87ebbd565f1ec7",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final --links /tmp/pr14-links.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase final --links /tmp/pr14-links.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_sync_repair -q",
+      "exit_code": 0,
+      "result": "76 passed"
+    },
+    {
+      "command": "PYTHONPATH=. python3 /tmp/pr14-check.py",
+      "exit_code": 0,
+      "result": "Unrelated market rows and prior journals preserved;7 character legs;10 lots/11 contacts;lot0, owned packet1, ration21/feed28."
+    }
+  ],
+  "verification_note": "Initial regression command referenced nonexistent automation.test_sync_validate; corrected to existing test_sync_repair. Temporary custom check import corrected from validate_trackers to tracker_validate. No production code changed for harness errors."
 }
