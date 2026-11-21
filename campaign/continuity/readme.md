@@ -36,9 +36,9 @@ Maintain a compact **unsynchronized** event ledger during play. Batch guarded, i
 
 ## Atlas review
 
-Last verified publication: [Eastwatch edition and file versions](../../archive/continuity/readme-day244-246-receipts-before-fastplay-repair.md#atlas-review).
+Verified edition `ATLAS-D266-TARNFORD-COACH-001` · Blackthorn–Nightglass surface road and Tarnford, Day 266. [HTML v9](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) · [SVG v6](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) · [transparent PNG v3](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) · [preview v5](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal). Earlier publications and pending releases: [archived atlas review](../../archive/continuity/readme-day244-246-receipts-before-fastplay-repair.md#atlas-review).
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D266-1795248266662 | worker=Atlas | operations=ATLAS-D266-TARNFORD-COACH-001 | acquired_UTC=2026-11-21T08:04:26.662Z | heartbeat_UTC=2026-11-21T08:04:26.662Z | expires_UTC=2026-11-21T08:14:26.662Z | recovery=campaign/continuity/readme.md#atlas-review
+CAMPAIGN_WRITER | state=IDLE | last_token=ATLAS-D266-1795248266662 | released_UTC=2026-11-21T08:05:49.365Z | result=VERIFIED | recovery=campaign/continuity/readme.md#atlas-review
 
 ## Integrity
 
