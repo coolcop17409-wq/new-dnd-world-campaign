@@ -51,3 +51,7 @@ The complete pre-cleanup continuity README, including quest/atlas ACKs, economic
 ## Compactness
 
 Keep this routing index under 8,000 characters. Do not append dated maintenance reports, acknowledgement trails or played scenes. Put full details in specialist owning journals/reports and add only stable concise pointers here. CAMPAIGN_STATE owns the current pause, SESSION_LOG recent played records and archive older history; PLAY_NOW/dashboard are derived views.
+
+## Automatic sync
+
+At sync boundaries automatically queue accepted play per `automation/handoffs/play-sync/README.md`. At startup recover pending `[CAMPAIGN-SYNC]` batches. Queued is not saved; never replay accepted pending events.
