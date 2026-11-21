@@ -1,15 +1,71 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D266-TROLLS-CLOSED-001",
-  "status": "partial",
+  "status": "complete",
   "claim_owner": "opened-pr6-e47d60d4",
-  "claim_expires_at": "2026-11-21T19:05:48.727Z",
+  "claim_expires_at": "2026-11-21T18:44:08.276Z",
   "request_commit": "f7cc7746bc84da995521ae23fbecb6f4deaca3bd",
   "request_blob": "8aaacfe719488ab2fca558fe668ac9747c3d6524",
-  "summary": "Pinned recovery batch verified; preparing scoped owner changes.",
+  "summary": "Applied ten exact accepted events and sixteen stable character postings; final checkpoint verified. No new gameplay.",
   "blocker": null,
-  "phase": "owners_verified_checkpoint_pending",
+  "phase": "checkpoint_verified",
   "owner_commit": "07f04d535fa7a6904460b4323bec6bdf1f82a997",
-  "tested_commit": "2baccbe93167e791812c5e8718024a709d304e4a",
-  "owners_verified": true
+  "tested_commit": "faa7c8e869ba80bf92632a62ec4e1f5236999d03",
+  "owners_verified": true,
+  "checkpoint_commit": "faa7c8e869ba80bf92632a62ec4e1f5236999d03",
+  "checkpoint_verified": true,
+  "request_digest": "60706f3227b5088ca3f20799b689854d3d264511ee11e5143d327b0f3a9dcfa1",
+  "verified_event_ids": [
+    "D266-NIGHT-ROAD-TROLLS-R1-PLAY-001",
+    "D266-NIGHT-ROAD-TROLLS-R2-PLAY-001",
+    "D266-TROLLS-R2-LONGREST-RESET-001",
+    "D266-NIGHT-ROAD-TROLLS-R3-PLAY-001",
+    "D266-TROLL-B-R3-REGEN-CORRECTION-001",
+    "D266-NIGHT-ROAD-TROLLS-R4-PLAY-001",
+    "D266-NIGHT-ROAD-TROLLS-R5-PLAY-001",
+    "D266-NIGHT-ROAD-TROLLS-R6-PLAY-001",
+    "D266-NIGHT-ROAD-TROLLS-R7-COMBAT-CLOSED-001",
+    "D266-NIGHT-ROAD-TROLLS-AFTERMATH-SEARCH-001"
+  ],
+  "applied_event_ids": [
+    "D266-NIGHT-ROAD-TROLLS-R1-PLAY-001",
+    "D266-NIGHT-ROAD-TROLLS-R2-PLAY-001",
+    "D266-TROLLS-R2-LONGREST-RESET-001",
+    "D266-NIGHT-ROAD-TROLLS-R3-PLAY-001",
+    "D266-TROLL-B-R3-REGEN-CORRECTION-001",
+    "D266-NIGHT-ROAD-TROLLS-R4-PLAY-001",
+    "D266-NIGHT-ROAD-TROLLS-R5-PLAY-001",
+    "D266-NIGHT-ROAD-TROLLS-R6-PLAY-001",
+    "D266-NIGHT-ROAD-TROLLS-R7-COMBAT-CLOSED-001",
+    "D266-NIGHT-ROAD-TROLLS-AFTERMATH-SEARCH-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/07f04d535fa7a6904460b4323bec6bdf1f82a997/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/07f04d535fa7a6904460b4323bec6bdf1f82a997/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/07f04d535fa7a6904460b4323bec6bdf1f82a997/archive/continuity/campaign-state-before-PLAY-D266-TROLLS-CLOSED-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/07f04d535fa7a6904460b4323bec6bdf1f82a997/archive/continuity/session-log-before-PLAY-D266-TROLLS-CLOSED-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/faa7c8e869ba80bf92632a62ec4e1f5236999d03/campaign/continuity/campaign-state.md"
+  ],
+  "tests": [
+    {
+      "command": "python3 -m automation.recovery_batch verify automation/recovery/active.json --request /tmp/pr6-request.json --prior-requests /tmp/pr6-prior.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr6-request.json",
+      "exit_code": 0,
+      "tested_commit": "87dbabf68b0f5d2f99e13b68980b53fcc867b96b"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play",
+      "exit_code": 0,
+      "result": "41 tests passed"
+    }
+  ],
+  "generated_view_status": "verified: lightweight workflow 44937050144 succeeded; PLAY_NOW at a603ee60b8bbed1d31a2635d34489826cb9c27a9 matches aftermath checkpoint",
+  "verification_note": "Additional inline dashboard replay asserted final HP and spent resources. Initial ad-hoc harness attempted numeric conversion of unrelated 'No' resource and failed; corrected harness filtered named resources and passed. No owner/code changes for harness."
 }
