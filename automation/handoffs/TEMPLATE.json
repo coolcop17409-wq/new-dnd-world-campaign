@@ -1,0 +1,18 @@
+{
+  "request_id": "HANDOFF-D000-SHOPS-EXAMPLE-001",
+  "lane": "shops",
+  "source": {
+    "kind": "ooc_request",
+    "checkpoint_id": "EXAMPLE-CHECKPOINT-NOT-LIVE",
+    "campaign_day": 0
+  },
+  "request": "EXAMPLE ONLY — prepare reusable, source-verified candidates for a future unprepared market; do not create actual settlement stock or play an encounter.",
+  "scope": [
+    "EXAMPLE ONLY: limit to preparation, not in-game actions."
+  ],
+  "output_owner_paths": [
+    "trackers/csv/magic-shops/"
+  ],
+  "priority": "normal",
+  "advances_gameplay": false
+}

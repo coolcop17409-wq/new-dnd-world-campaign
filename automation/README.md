@@ -43,3 +43,7 @@ The active CAMPAIGN_STATE starts with the current DAY heading; the current conti
 ## Live magic browsing latency guard
 
 For a known market, present existing verified offers from current scene/Stock without rerunning generation, multi-site source lookups or full estate validation. New markets use exactly one permitted local opening/draw with already sourced template candidates; first-time draws stay in the unsynced scene ledger until a natural sync. A magic-shop CSV-only update runs `.github/workflows/magic-shop-check.yml`, a lightweight shop/identity validation without estate ledger/Blackthorn/tax replay or derived dashboard write. The next final campaign checkpoint commit refreshes PLAY_NOW and dashboard, so market changes do not require holding the scene while the estate workflow runs.
+
+## Nonblocking specialist handoff queue
+
+See `automation/handoffs/README.md`. Existing scheduled tasks (shops, quests, estates, atlas, record maintenance) act as separate workers over immutable lane requests and verified result receipts. This does not instantly trigger an arbitrary chat, and does not replace authoritative campaign journals. `automation/handoffs/validate.py` and `.github/workflows/handoff-validate.yml` check file integrity only; they never run gameplay or research.

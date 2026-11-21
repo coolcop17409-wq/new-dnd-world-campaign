@@ -1,0 +1,22 @@
+name: Handoff queue integrity (not a background ChatGPT worker)
+
+on:
+  push:
+    paths:
+      - "automation/handoffs/**"
+      - ".github/workflows/handoff-validate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-handoff-queue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout requests and receipts
+        uses: actions/checkout@v4
+      - name: Validate handoff file format without performing gameplay
+        run: |
+          python3 -m unittest automation.handoffs.test_validate -v
+          python3 automation/handoffs/validate.py

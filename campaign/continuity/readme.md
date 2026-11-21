@@ -19,6 +19,10 @@ Keep an in-conversation tactical packet: initiative/turn, positions, cover, crea
 
 Maintain a compact **unsynchronized** event ledger during play. Batch guarded, idempotent owner-file writes at combat end, significant exploration, qualifying rest, major transactions, quest/NPC milestones, 8–12 substantive exchanges with changes, or requested pause/sync. Do not interrupt a live tactical turn solely for routine administrative writes. Commit CAMPAIGN_STATE last after verifying the owning changes. For GitHub update and retry rules see [ongoing update protocol](../../migration/ONGOING_UPDATE_PROTOCOL.md).
 
+## Delegated work queue
+
+`automation/handoffs/README.md` routes queued nonplaying preparation to existing daily specialist workers. Live DM can record an immutable request at natural sync and continue play; completion is not instantaneous, and receipts never override owning records or advance V actions.
+
 ## Authoritative owners
 
 - [campaign-state.md](campaign-state.md) — exact present and pending player choice.
