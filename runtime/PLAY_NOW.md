@@ -1,46 +1,46 @@
 # LIVE PLAY — generated fast packet
 
 **Read-only convenience, NOT an authority or a record of new events.**
-Source: `campaign/continuity/campaign-state.md` (SHA256 `7ad5ab55706177b4aa9fea10a565d028f17e540dc47421b49e6ab50a18281f56`).
-Dashboard SHA256: `87989c22a37368c57f76cf2801ab34276800ff7d76315727887b190aeb740580`.
-Confirmed campaign day: **267**.
-Newest played event: `D266-267-V-REST-HITDICE-SPEND-CORRECTION-001`.
+Source: `campaign/continuity/campaign-state.md` (SHA256 `b608f274197501a92b9f04681f75ed6c041dc5cd0dea8cc80558f00a735f6297`).
+Dashboard SHA256: `fceb80e7a771794de5bf611317e53a396f765fe7e3432908e0099ab8817cfb78`.
+Confirmed campaign day: **268**.
+Newest played event: `D268-MORNING-PROVISIONS-001`.
 
 ## Exact playable checkpoint (verbatim from owner)
 
-CAMPAIGN_STATE — DAY 267 EARLY MORNING — DEPARTING SHELTERED ROAD CAMP, CROWNSUNDER
+CAMPAIGN_STATE — DAY 268 DAWN — ROADSIDE CAMP, CROWNSUNDER
 
-CURRENT EXACT PLAYED CHECKPOINT — D267-MORNING-NIGHTGLASS-ROAD-DEPART-001. Latest accepted event D267-MORNING-ROAD-DEPART-PROVISIONS-001. Following V's instruction to camp nearby, tend wounds and leave in the morning, the party relocated a short distance to a sheltered clearing behind a low wooded rise. The peaceful night266→267 completed a qualifying wilderness Short Rest. At dawn, normal provisions were allocated once and the coach departed on the original route. No Day267 daytime encounter roll, arrival or further road time has occurred.
+CURRENT EXACT PLAYED CHECKPOINT — D268-DAWN-ROAD-CAMP-001; latest owning event D268-MORNING-PROVISIONS-001. Seven dire wolves repelled without battle; qualifying overnight Short Rest completed.
 
-EXACT PENDING V DECISION: Dawn Day267, covered coach with four healthy horses leaving nearby sheltered roadside camp on original road toward western Veyr crossing and Nightglass Hall. V42/48 HP, ActionSurge1/1 Superiority4/4 SecondWind1/1 Psi6/6 HD5/7 (two Fighter HD spent); Fenar45/59 HP HD2/6 Rage2/4 Shift1/3; Cirren49/51 HP, L1 0/4 L2 1/3 L3 2/3, HD5/6. LongRest progress1/6. Rations15 ration-person-days, feed20 horse animal-days. No Day267 daytime encounter rolled yet, no arrival; stop at player next choice/route progression.
+EXACT PENDING V DECISION AT THIS SYNCHRONIZED CHECKPOINT: Dawn Day268 in a sheltered but exposed roadside camp east of Crownsunder/Veyr legal crossing, after seven dire wolves were repelled the previous night and the party completed wilderness Short Rest. V48/48 HD5/7 SecondWind1/1 ActionSurge1/1 Superiority4/4 Psi6/6, Fenar58/59 HD1/6 Rage2/4 Shift1/3, Cirren49/51 HD5/6 L1 0/4 L2 1/3 L3 2/3. Weighted Long Rest1/6. Rations12, horse-feed16 after Day268 morning allocation, coach/four horses intact. No Day268 travel/encounter rolled; if ordinary travel chosen Day268 is mandatory random-encounter quiet day after events on Days266 and267. Await V next travel action, do not infer crossing/arrival.
 
-LOCATION / ROUTE / CUSTODY
-Intact V-owned covered coach with four healthy owned horses, now harnessed; V, Mara Venn, Cirren Seventh and Fenar travel together. Original route remains Tarnford → legal western Veyr commercial crossing → Caer Veylan → Eastwatch → Nightglass Hall; Hollowdeep not required. No town or border arrival, new surveyed milepost or changed destination established. Original3–4 weeks each way remains a total planning range, not remaining travel time or arrival promise. Hollis, Darran and Edith remain in Tarnford. No merchant property acquired or new custody transfer.
+NEWER ACCEPTED RECOVERY: automation/recovery/active.json retains PLAY-REC-D268-270-TRAVEL-001, through D270-LATE-AFTERNOON-ROADSETTLEMENT-001. This Day268 checkpoint is the last applied queued batch, not permission to replay subsequent accepted travel. Recover that exact newer entry before live play; its later pending choice supersedes the checkpoint's historic choice. Its owner changes are not included in this batch.
 
-CURRENT PARTY / FINITE RESOURCES
-- V: Reborn Rogue4 Soulknife/Fighter3 Battle Master, level7; HP42/48, AC19. Psi6/6, PastLife3/3, Superiority4/4, ActionSurge1/1, MartialPoints7/7, SecondWind1/1, PsiRecovery1/1, HD5/7. Purse1150gp2sp6cp. One physical Galepierce Dart, one Rope of Mending in coach baggage, silver sword attack focus and sealed A-04. Explicit later correction authorizes exactly two Fighter HD: faces3+1 and6+1; HP31→35→42; Fighter1d10 and Rogue4d8 remain.
-- Cirren: Knowledge Cleric6, HP49/51, AC18; slots L1=0/4, L2=1/3, L3=2/3; ChannelDivinity2/2, HD5/6. Conserved spells and HD. Original signed Vaishnavi/Rethwyn compact remains in custody.
-- Fenar: Beast Barbarian6, HP45/59, AC14; Rage2/4, Shift1/3, MartialPoints6/6, HD2/6, tempHP0. No active Rage/Shift or retired Rage Recovery ability; no new adaptation inferred.
-- Mara uninjured; four horses healthy; coach intact. Rations15 ration-person-days and horse feed20 animal-days after single dawn267 allocation.
+LOCATION / CUSTODY
+V, Mara Venn, Cirren Seventh and Fenar with V-owned intact covered coach and all four healthy horses. Original route Tarnford → legal western Veyr commercial crossing → Caer Veylan → Eastwatch → Nightglass Hall. No new border or town arrival in this batch. Original 3–4 weeks each way is a total planning range, not remaining time. Hollis, Darran and Edith remain in Tarnford; no merchant property acquired.
 
-TIME / REST / EXACT RECOVERY
-Standing pre-rest Second Wind: genuine accepted d10 face1+Fighter3=4, V27→31HP and use1→0 on Day266; completed Short Rest restores Second Wind0→1, Superiority0→4 and Action Surge0→1 by dawn267. V Psi full, so no Psi Recovery activation. Fenar spends exactly three HD, faces9,4,9 plus CON2 each, healing11+6+11=28; HP17→45, HD5→2. A separately drawn fourth face was not consumed or applied. Cirren conserves HD and spells. No automatic additional HP, spell, Rage, Shift or Psi restoration. Wilderness weighted Long Rest0→1/6, no full Long Rest. Prior combat effects already expired before this camp. No repeat night encounter draw; accepted peaceful overnight is complete. Day267 daytime remains unrolled and unplayed beyond departure.
+PARTY AT SYNCHRONIZED CHECKPOINT
+V Reborn Rogue4/Fighter3: HP48/48 AC19, HD5/7 (Fighter1d10, Rogue4d8); Superiority4/4, ActionSurge1/1, SecondWind1/1, Psi6/6, PsiRecovery1/1, PastLife3/3, MartialPoints7/7. Purse1150gp2sp6cp unchanged. One original Galepierce Dart, Rope of Mending, silver sword focus and sealed A-04 unchanged.
+Fenar Beast Barbarian6: HP58/59 AC14 HD1/6, Rage2/4, Shift1/3, MP6/6, no active Rage/Shift or tempHP.
+Cirren Knowledge Cleric6: HP49/51 AC18 HD5/6, spells L1=0/4 L2=1/3 L3=2/3, ChannelDivinity2/2; signed compact retained.
+Mara uninjured. Rations12 person-days, feed16 animal-days after exactly one Day268 breakfast/feed allocation.
+
+ACCEPTED REST / TRAVEL HISTORY
+Day267 quiet daytime d10051. Pre-rest V Second Wind face6+3 healed capped6, HP42→48, use1→0, weighted Long Rest1→0/6. Night occurrence4, type10, candidate d8=1, severity32 selected exactly seven dire wolves; warning in third hour (d8=3), no completed rest then. V with Fenar Help Intimidation advantage(5,14)+6=20/DC16 repelled them without attack or spend. V then completed fresh four motionless hours and companions a qualifying overnight. V SecondWind0→1. Fenar one d12 face11+2 heals13, HP45→58 and HD2→1. No Cirren healing or spell recovery; no V extra HD. Long Rest0→1/6, not full. Day267 night already resolved; Day268 mandatory random-encounter quiet if traveling. Newer accepted recovery separately records what actually followed.
 
 OWNER POINTERS
-SESSION_LOG retains the exact three accepted events and common evidence from immutable PLAY-D266-267-REST-001; data/characters/events.csv owns nine stable linked postings, INVENTORY owns provision/custody update. Previous checkpoint preserved verbatim in archive/continuity/campaign-state-before-PLAY-D266-267-REST-001.md. Prior troll combat and aftermath remain accepted and must not be replayed. No new loot, XP, quest event or money.
-
-LATEST ACCEPTED CORRECTION — D266-267-V-REST-HITDICE-SPEND-CORRECTION-001: During same already-qualified Day266->267 wilderness overnight rest, V actually spends exactly two Fighter d10 Hit Dice one at a time: rolls3+CON1=4 and6+CON1=7, HP31->35->42/48; HD7/7->5/7, remaining Fighter d10 1 and Rogue d8 4. Stops at >=40. Current Day267 morning departure remains unchanged; no extra rest/day/roll/spell or other party resource shift.
+SESSION_LOG retains exact events and accepted evidence; data/characters/events.csv owns stable postings; INVENTORY provisions; prep/dm-only/dm-nightglass-route.md holds resolved encounter record. Prior checkpoint archived verbatim in archive/continuity/campaign-state-before-PLAY-D267-268-FOLLOWUP-001.md. No new gameplay, loot, XP, payment, rest or roll is created by synchronization.
 
 ## Current character counters (CSV baselines + posted event overlay)
 
 Snapshot values support lookups; rule interpretations, contextual conditions, custody and exceptions remain in the owning records.
 
-- **Valenthia** — HP 42.0/48; AC 19; level 7. Personal purse 1150 gp 2 sp 6 cp.
+- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 1150 gp 2 sp 6 cp.
   - Resources: Martial Points 7/7; Psionic Energy Dice 6.0/6; Second Wind 1.0/1; Knowledge from Past Life 3.0/3; Psi Recovery 1.0/1; Hit Dice 5.0/7; Psychic Whispers free use 1/1; Action Surge 1.0/1; Superiority Dice 4.0/4
 - **Cirren** — HP 49.0/51; AC 18; level 6.
   - Resources: Channel Divinity 2/2; Spell Slots (1st) 0.0/4; Spell Slots (2nd) 1.0/3; Hit Dice 5.0/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 2.0/3
-- **Fenar** — HP 45.0/59; AC 14; level 6.
-  - Resources: Rage 2.0/4; Shift 1.0/3; Hit Dice 2.0/6; Martial Points 6.0/6; Rage Recovery (RETIRED — NO ABILITY) 0/0
+- **Fenar** — HP 58.0/59; AC 14; level 6.
+  - Resources: Rage 2.0/4; Shift 1.0/3; Hit Dice 1.0/6; Martial Points 6.0/6; Rage Recovery (RETIRED — NO ABILITY) 0/0
 
 ## Fast-play guardrails
 
