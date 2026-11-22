@@ -51,6 +51,6 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/048bf4a10257782fbaa4e8979904516d85f9f2e0/campaign/continuity/session-log.md"
   ],
   "generated_view_status": "Verified exact Day279 dawn checkpoint in generated packet at 707a787273fb1df0b5423d7ce3f244d1f51520c7",
-  "cleanup_status": "Pending verified recovery pruning",
+  "cleanup_status": "Three matching verified recovery entries pruned; empty recovery container retained.",
   "verification_note": "Exact historical journal suffixes, prior checkpoint archive and verbatim pending_action verified; character and inventory journals byte-identical to pre-application main."
 }
