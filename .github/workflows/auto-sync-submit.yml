@@ -41,7 +41,7 @@ jobs:
       - name: Submit pinned marked recovery without blocking play
         env:
           GITHUB_TOKEN: ${{ secrets.CAMPAIGN_SYNC_TOKEN || github.token }}
-        run: python3 automation/auto_sync_submit.py
+        run: python3 -m automation.auto_sync_submit
       - name: Preserve exact submitted/blocked status for worker fallback
         if: always()
         uses: actions/upload-artifact@v4
