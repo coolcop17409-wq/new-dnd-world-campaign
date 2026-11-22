@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D278-279-CARAVAN-REST-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr20-06f7cb6a",
   "claim_expires_at": "2026-11-22T09:11:12Z",
   "request_commit": "c0474cf1adcdef1417ffaf13e8f6f361ca0641c4",
   "request_blob": "bb48398f4e6e23542c430226668c704f3c1ad19a",
-  "summary": "Pinned evidence verified; applying accepted camp conversations and wilderness overnight only.",
+  "summary": "Three accepted camp conversation/rest events applied once through Day279 dawn; LongRest3/6, no full Long Rest. Money/supplies/resources unchanged; breakfast/feed allocation and departure pending.",
   "blocker": null,
   "applied_event_ids": [
     "D278-CARAVAN-CAMP-COMPANIONS-CONVERSATION-001",
@@ -16,18 +16,41 @@
   ],
   "owner_commit": "048bf4a10257782fbaa4e8979904516d85f9f2e0",
   "owners_verified": true,
-  "tested_commit": "b624763a1d87283543bc2918070191b6676c9041",
+  "tested_commit": "9de087d2fc4d69a99a17fdf3183c7ec1753274d7",
   "tests": [
     {
       "command": "python3 automation/sync_validate.py --scope final --phase final",
       "exit_code": 0,
-      "tested_commit": "b624763a1d87283543bc2918070191b6676c9041"
+      "tested_commit": "9de087d2fc4d69a99a17fdf3183c7ec1753274d7"
     },
     {
       "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
       "exit_code": 0,
       "result": "56 passed",
-      "tested_commit": "b624763a1d87283543bc2918070191b6676c9041"
+      "tested_commit": "9de087d2fc4d69a99a17fdf3183c7ec1753274d7"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr20-pinned.json --request /tmp/pr20-request.json --prior-requests /tmp/pr20-prior.json --supersessions /tmp/pr20-supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "9de087d2fc4d69a99a17fdf3183c7ec1753274d7"
     }
-  ]
+  ],
+  "request_digest": "d126d0c4ff183cb39a1debc3a468b481ef2737648500c5b296f2ec6aa1df4521",
+  "checkpoint_commit": "9de087d2fc4d69a99a17fdf3183c7ec1753274d7",
+  "checkpoint_verified": true,
+  "preflight_tested_commit": "b624763a1d87283543bc2918070191b6676c9041",
+  "verified_event_ids": [
+    "D278-CARAVAN-CAMP-COMPANIONS-CONVERSATION-001",
+    "D278-V-BRIEF-CARAVAN-REASON-FOR-TRAVEL-001",
+    "D278-279-EASTBOUND-CARAVAN-OVERNIGHT-REST-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9de087d2fc4d69a99a17fdf3183c7ec1753274d7/campaign/continuity/campaign-state.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/048bf4a10257782fbaa4e8979904516d85f9f2e0/archive/continuity/campaign-state-before-PLAY-D278-279-CARAVAN-REST-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/048bf4a10257782fbaa4e8979904516d85f9f2e0/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/048bf4a10257782fbaa4e8979904516d85f9f2e0/campaign/continuity/session-log.md"
+  ],
+  "generated_view_status": "Verified exact Day279 dawn checkpoint in generated packet at 707a787273fb1df0b5423d7ce3f244d1f51520c7",
+  "cleanup_status": "Pending verified recovery pruning",
+  "verification_note": "Exact historical journal suffixes, prior checkpoint archive and verbatim pending_action verified; character and inventory journals byte-identical to pre-application main."
 }
