@@ -1,8 +1,8 @@
 {
-  "last_confirmed_closed_day": 265,
+  "last_confirmed_closed_day": 278,
   "source_opening_day": 182,
-  "evidence": "D266-ESTATE-CATCHUP-001; actualowningfinancialbatch cfcb1d706406e7f93c7b9802f61fa2cc037c1b33 exactninefileverifiedreadback; C266-ACTUAL-CASH and COVERAGE-D266-* ownscope; no campaignclockadvance.",
-  "last_accounted_day": 266,
-  "open_day": 266,
-  "open_day_activity": "Completed266daytimeproduction/wardening/staffedoperations and costs;266night/fullstorage-tonday notelapsed. CurrentVsceneunchanged."
+  "evidence": "D279-ESTATE-CATCHUP-001; verified financialowners f7c648597fdb5712215fee7d1eb91523394c20f2; full278close,279~10:25morningcustody/contacts inoperationaljournal. No whole279 monetaryaccrual; dailyfinancialpreview stays278.",
+  "last_accounted_day": 278,
+  "open_day": 279,
+  "open_day_activity": "279morningHessa2tintake/benchworkstarted andfinitecustomerterms, no fullshiftearnings/output"
 }
