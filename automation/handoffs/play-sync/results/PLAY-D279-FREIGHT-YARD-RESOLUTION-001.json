@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D279-FREIGHT-YARD-RESOLUTION-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr21-735bf3f6",
+  "claim_expires_at": "2026-11-22T09:28:53Z",
+  "request_commit": "71652bee3ddd176f335eee0da4c4200c8657f694",
+  "request_blob": "f007294da96a3ccd79257b217c90be005579ad33",
+  "summary": "Pinned journal verified and predecessor complete; applying four accepted yard events only.",
+  "blocker": null,
+  "applied_event_ids": []
+}
