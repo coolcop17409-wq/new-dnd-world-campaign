@@ -1,0 +1,45 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B",
+  "lane": "sync-repair",
+  "source": {
+    "kind": "validation_failure",
+    "checkpoint_id": "UNCHANGED-ADMIN-ONLY",
+    "commit_sha": "39700fa85302763eb32f2fe864b9cbd689a7206f",
+    "workflow_run_id": 45031046697,
+    "workflow_url": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45031046697"
+  },
+  "request": "Investigate this exact validation failure; propose only evidence-supported corrections on the existing repair branch.",
+  "scope": [
+    "trackers/csv/magic-shops/events.csv"
+  ],
+  "output_owner_paths": [
+    "trackers/csv/magic-shops/events.csv"
+  ],
+  "priority": "high",
+  "advances_gameplay": false,
+  "failure_signature": "42B6FA85DCABF4EE9D65488B",
+  "diagnostic": {
+    "schema_version": 1,
+    "status": "FAIL",
+    "scope": "shops",
+    "phase": "owners",
+    "findings": [
+      {
+        "code": "csv.width",
+        "path": "trackers/csv/magic-shops/events.csv",
+        "event_id": "ADMIN-MARKET-D279-20261122-01",
+        "message": "Row 144: expected 12 columns, got 11"
+      }
+    ],
+    "notes": [],
+    "affected_files": [
+      "trackers/csv/magic-shops/events.csv"
+    ],
+    "source_hashes": {
+      "trackers/csv/magic-shops/events.csv": "dea32d2fa542240176216b020535639bc80c60cc1cab31f92ae4359ec4f376f6"
+    }
+  },
+  "repair_branch": "campaign-repair/42b6fa85dcabf4ee9d65488b",
+  "base_branch": "main",
+  "synthetic": false
+}
