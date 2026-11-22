@@ -2,6 +2,7 @@ name: Handoff queue integrity (not a background ChatGPT worker)
 
 on:
   push:
+    branches: [main]
     paths:
       - "automation/handoffs/**"
       - ".github/workflows/handoff-validate.yml"

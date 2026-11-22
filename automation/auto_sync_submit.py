@@ -22,6 +22,9 @@ REASONS={"combat_end","significant_exploration","qualifying_rest","major_transac
          "quest_milestone","npc_milestone","substantive_exchanges",
          "explicit_sync","pause","chat_handoff"}
 
+class StaleBoundary(Exception):
+    """Later accepted play supersedes an older sync marker."""
+
 def ready_trigger(journal):
     check(journal)
     marker=journal.get("sync_trigger")
@@ -37,7 +40,7 @@ def ready_trigger(journal):
         raise ValueError("Cannot sync an empty recovery journal")
     last=journal["entries"][-1]
     if marker.get("last_recovery_id")!=last["request_id"] or marker.get("destination_checkpoint")!=last["destination_checkpoint"]:
-        raise ValueError("Stale marker; later accepted play must not silently enter batch")
+        raise StaleBoundary("Later accepted play follows a marked boundary")
     return marker
 
 def file(api,path,ref):
@@ -85,7 +88,9 @@ def submit(api,source_commit):
     data=file(api,JOURNAL,source_commit)
     if data is None:raise ValueError("Pinned recovery journal missing")
     journal=json.loads(data)
-    marker=ready_trigger(journal)
+    try:marker=ready_trigger(journal)
+    except StaleBoundary:
+        return {"status":"stale_marker","source_commit":source_commit}
     if marker is None:return {"status":"not_ready","source_commit":source_commit}
     status=api.call("GET",f"compare/{source_commit}...main")["status"]
     if status not in ("identical","ahead"):

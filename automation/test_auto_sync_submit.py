@@ -1,6 +1,6 @@
 """Network-free regression tests for explicitly marked accepted-play auto submission."""
 import base64,copy,json,unittest,urllib.error
-from automation.auto_sync_submit import ready_trigger,submit,priors
+from automation.auto_sync_submit import ready_trigger,submit,priors,StaleBoundary
 from automation.test_recovery_journal import RecoveryTests
 SOURCE="e"*40
 MAIN="a"*40
@@ -57,11 +57,16 @@ class AutoSyncTests(unittest.TestCase):
         journal=fixture()
         self.assertEqual(ready_trigger(journal)["reason"],"combat_end")
         for change in [{"reason":"ordinary_attack"},{"ready":False},
-                       {"last_recovery_id":"BAD"},{"destination_checkpoint":"WRONG"},
                        {"request_id":"../invalid"}]:
             candidate=copy.deepcopy(journal);candidate["sync_trigger"].update(change)
             with self.subTest(change=change),self.assertRaises(ValueError):
                 ready_trigger(candidate)
+    def test_stale_marker_is_nonfatal_and_never_queues(self):
+        api=FakeAPI(fixture())
+        api.journal["sync_trigger"]["last_recovery_id"]="WRONG"
+        with self.assertRaises(StaleBoundary):ready_trigger(api.journal)
+        self.assertEqual(submit(api,SOURCE)["status"],"stale_marker")
+        self.assertFalse(api.prs)
     def test_exact_events_queued_once(self):
         api=FakeAPI(fixture())
         first=submit(api,SOURCE)

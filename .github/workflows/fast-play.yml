@@ -2,6 +2,7 @@ name: Lightweight live-play validation
 
 on:
   push:
+    branches: [main]
     paths:
       - "campaign/continuity/campaign-state.md"
       - "trackers/csv/v/**"
