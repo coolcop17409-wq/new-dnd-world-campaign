@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D277-CAER-VEYLAN-SPLIT-VISITS-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr17-c10d163a",
+  "claim_expires_at": "2026-11-22T01:03:31Z",
+  "request_commit": "0f91da0473359651f3239351a8df18d3e507c2fd",
+  "request_blob": "9d24fa4eb1e63ab747dbb037fecef93f14640eb4",
+  "summary": "Pinned journal verified; predecessor complete. Applying two accepted Day277 visits/reunion events only.",
+  "blocker": null,
+  "applied_event_ids": []
+}
