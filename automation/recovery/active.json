@@ -58,6 +58,55 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D279-YARD-SETTLEMENT-AND-PATIENT-LEAD-001",
+      "base_commit": "6f0c84a145d9e8f745022afa979a697cb33f4dfe",
+      "source_checkpoint": "D279-MIDMORNING-BOTH-SIDES-EXPLAIN-001",
+      "destination_checkpoint": "D279-MIDMORNING-YARD-RESOLVED-PRIVATE-LEAD-001",
+      "source_evidence": "Exact player in-character request ~Day279 10:05 at first staffed eastbound freight receiving yard: \"We’d love to resolve this in a timely and civilized manner. Is there anything we can help with?\" Player offers peaceful assistance, NOT an unlimited V duty, money, formal witnessing signature, political allegiance or V fight. Civilian forewoman Elen Turr welcomes witnesses to her six privately paid iron stretcher-frame fittings destined for civilian convalescent home; military logistics Sgt Adren Vos agrees that neutral witnesses may be present provided actual regulations are observed. Harrow & Pike wagonmaster Sella Brant independently goes to open civilian checker registers and is willing to witness orderly category comparison while company cargo is being processed. The professional civilian clerk compares numbered records WITHOUT any ability roll since the prepared facts are written, accessible and objectively unambiguous: civilian invoice #47 identifies SIX civilian stretcher-frame fittings with convalescent-home destination; the genuinely valid military requisition lists TWO EMPTY MILITARY-MARKED TRANSPORT CASES with distinct serials. Yard receiving clerk mistakenly grouped both under broad 'transport equipment' category. Public records show military authorization covers the empty cases only, not the fittings or civilian workers. Sergeant Vos accepts the verified distinction and orders Elen's civilian wagon released, retaining only the two separately owned military transport cases for actual lawful inventory pickup. Elen thanks those present and is free to continue her original contract delivery; Vos's military duty remains and he admits procedural delay without being forced to confess corruption; neither adult is harmed, humiliated by fiat, detained, robbed, recruited or forced to become V's ally. Sella comments with relief that no arrest, loss or delay need continue, but her own three freight wagons' regular manifest processing is not necessarily complete the instant Elen is released. The ordinary civic/freight problem is RESOLVED in daylight ~Day279 10:10, no Persuasion/Investigation/Insight dice, no payment, reward, expended consumables, official law changed or V signature assumed.\nAt this real contact one of the EXISTING four Station Kestrel support workers KN-S1 in eligible Day278 preauthored prep is present at yard to collect exactly the TWO EMPTY military cases in an ordinary horse-drawn cart, distinct from Elen's wagon/Sella's three wagons. KN-S1's prior current knowledge from firsthand work includes eleven living detained patients, six awake, three unable to walk, two frightened and restrained, and painful nonconsensual trials observed personally. KN-S1 has independent reason to seek outside protection, notices V's civilized help and visibly capable adventuring party, cautiously approaches V quietly while staying away from Sgt Vos, and requests a private word. Their introductory warning, if shared to V within quiet speaking distance, is limited to a credible first-person description: \"I carry supplies to a recovery station. Eleven people are being kept there. Three can't walk, and others are restrained. I've watched them hurt people. They need to get out.\" The person offers to explain where and what they know if V willingly listens; do NOT automatically transfer the worker's copied duty sheet, exact itinerary, military route code or infer all testimony is independently proven. Station's four support workers are conserved: KN-S1 now at yard in their precommitted actual cart and thus not simultaneously present at station until actual return. They are not a new V companion and have no right to conscript V or Sella. They do NOT know Glass Spear or the hidden deaths, and no details of that history exposed. Sgt Vos knows his military-case assignment but not the experimentation, is not automatically tipped off by this quiet exchange or compelled to arrest the worker. One potential meaningful optional expedition/protection lead is now verbally INTRODUCED but neither accepted nor promised by V. The civilian trust's potential compensation is NOT yet offered; do not invent a reward promise. No change to private detention state other than KN-S1 traveling for existing resupply and no automatic prisoner rescue.\nAll party resources at ~Day279 10:10 unchanged: V48/48 HP HD7/7, Sup4/4 Psi6/6 MP7/7 full action abilities; Cirren51/51 HD6/6 full slots; Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6, Mara healthy; V personal purse969gp3sp6cp, carried rations18 person-days/horse feed24 animal-days, four owned healthy horses and intact coach with caravan at yard, one unopened Pixie Dust V-owned; LongRest3/6. Day279 daytime d10090 quiet already adjudicated. No additional game time beyond minutes, random encounter, night/rest, spell use, coin or item custody change. Quest hook not automatically accepted; V next decision whether to hear private witness or continue toward Eastwatch. This completes the distinct onstage civilian dispute and counts as legitimate quest milestone for automatic natural-boundary sync: include validated top-level sync_trigger marker with reason quest_milestone and exact last recovery/destination fields, never manually create a PR or call queued without confirmed PR.",
+      "pending_action": "Day279 ~10:15 first staffed eastbound freight yard six miles from previous caravan camp, V requested civilized help. Sella and yard checker resolved civilian Elen Turr's six stretcher fittings (invoice47) versus lawful military two empty transport cases via numbered registers, allowing Elen's release; Sgt Vos accepts actual limited military authority. Separate KN-S1, one existing support worker at yard to collect those two cases, quietly approaches V and reports eleven detained patients at a recovery station, three unable to walk and others restrained, personally witnessed painful unauthorized trials. Worker asks for a private word and can provide more credible details/route if V engages, but V has not accepted new quest or moved/paid anything. Sella's own freight check may continue; no forced stop. V48/48 HP HD7/7 full features, Cirren51/51 HD6/6 full spells, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6, Mara healthy. Four V healthy horses and intact coach with three Harrow & Pike wagons; provisions18 ration-person-days/24 feed animal-days, V purse969gp3sp6cp, unused Pixie Dust1, LongRest3/6. Day279 d10090 no random occurrence. Await V's answer whether to hear worker, ask for proof, or leave. No future travel/night/rest/quest acceptance. Civic dispute completion is natural quest_milestone sync trigger.",
+      "depends_on": [
+        "PLAY-REC-D279-INSPECTION-YARD-BOTH-QUESTIONED-001"
+      ],
+      "events": [
+        {
+          "event_id": "D279-ELEN-VOS-CIVILIAN-RECEIPT-RESOLVED-001",
+          "accepted": true,
+          "evidence": "Player offers civilized assistance. Sella and neutral civilian yard clerk compare both numbered registers, finding invoice47 for six private convalescent-home stretcher fittings and military requisition for two empty marked transport cases, no overlap; error was clerk's broad category. Vos accepts and orders release of civilian goods, retaining military empty cases. No roll, V signature, coin, ownership/party resource expenditure, law change or delay quest. Exact player in-character request ~Day279 10:05 at first staffed eastbound freight receiving yard: \"We’d love to resolve this in a timely and civilized manner. Is there anything we can help with?\" Player offers peaceful assistance, NOT an unlimited V duty, money, formal witnessing signature, political allegiance or V fight. Civilian forewoman Elen Turr welcomes witnesses to her six privately paid ",
+          "before": "Day279 ~10:05 first eastbound yard, V has asked Elen Turr and Sgt Vos for their accounts; dispute remains open, clerk has not compared two registers, neither consignment yet finally released. No V obligations, full party resources.",
+          "after": "Day279 ~10:10 clerk objectively matches civilian invoice47 six fittings to civilian convalescent home; separate military order two empty military cases. Vos agrees distinction, Elen retains and may send civilian fittings, no unlawful military seizure; lawful cases still under military inventory. Peaceful civilian dispute resolved, V offered only voluntary observation, no abilities/money/HP/resources changed.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/quests.md",
+            "campaign/continuity/npcs.md"
+          ]
+        },
+        {
+          "event_id": "D279-YARD-KESTREL-SUPPORT-WORKER-PRIVATE-HELP-LEAD-001",
+          "accepted": true,
+          "evidence": "One preexisting Kestrel support worker KN-S1 collecting the two empty military cases at this yard quietly approaches V after witnessing willingness to assist, describes firsthand eleven detainees at a recovery station, three immobile and others restrained, painful nonconsensual procedures. Requests private conversation and can supply actual location if V wants; none of their private originals/documents automatically transferred, no reward or expedition committed. iron stretcher-frame fittings destined for civilian convalescent home; military logistics Sgt Adren Vos agrees that neutral witnesses may be present provided actual regulations are observed. Harrow & Pike wagonmaster Sella Brant independently goes to open civilian checker registers and is willing to witness orderly category comparison while company cargo is ",
+          "before": "Day279 ~10:10 after routine inventory distinction, military case pickup awaited. KN-S1's scheduled yard contact not yet introduced or questioned; V unaware of their station's patients.",
+          "after": "KN-S1 physically at yard for originally scheduled collection; discreetly alerts V that a recovery facility holds eleven people, three cannot walk, some restrained and harmed. Worker seeks help, offers private details, no V promise, item exchange, exact written itinerary or hidden history shared; KN-S1 remains independent. Day279 ~10:15, party resources unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/quests.md",
+            "campaign/continuity/npcs.md",
+            "prep/dm-only/dm-nightglass-route.md"
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "sync_trigger": {
+    "ready": true,
+    "reason": "quest_milestone",
+    "request_id": "PLAY-D279-FREIGHT-YARD-RESOLUTION-001",
+    "last_recovery_id": "PLAY-REC-D279-YARD-SETTLEMENT-AND-PATIENT-LEAD-001",
+    "destination_checkpoint": "D279-MIDMORNING-YARD-RESOLVED-PRIVATE-LEAD-001"
+  }
 }
