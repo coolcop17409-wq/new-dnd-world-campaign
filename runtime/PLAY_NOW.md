@@ -1,19 +1,19 @@
 # LIVE PLAY — generated fast packet
 
 **Read-only convenience, NOT an authority or a record of new events.**
-Source: `campaign/continuity/campaign-state.md` (SHA256 `2a8ed5b00382cdc2be4800ce1674ccc9bb48921e2f90760036995334cc1fdab6`).
-Dashboard SHA256: `2e85a4f713df2f8f6547274c1d0d76475f740ae3ca488bd114120b463ecdcbad`.
-Confirmed campaign day: **278**.
-Newest played event: `D278-EASTWATCH-CARAVAN-ROAD-TRAVELERS-001`.
+Source: `campaign/continuity/campaign-state.md` (SHA256 `2179aeb9c0a0e6dcaa8b530a8c2cff417481ffd8dd5d0cfae5a7f5b4a5bacbdc`).
+Dashboard SHA256: `60462d68da993c220ab687bbd7763c3528eaedd9158c6512d392110b9e819e5d`.
+Confirmed campaign day: **279**.
+Newest played event: `D278-279-EASTBOUND-CARAVAN-OVERNIGHT-REST-001`.
 
 ## Exact playable checkpoint (verbatim from owner)
 
-CAMPAIGN_STATE — DAY 278 LATE AFTERNOON — EASTBOUND CARAVAN CAMP
+CAMPAIGN_STATE — DAY 279 DAWN — EASTBOUND CARAVAN CAMP
 
-CURRENT EXACT PLAYED CHECKPOINT — D278-LATE-AFTERNOON-EASTBOUND-CARAVAN-CAMP-001; latest owning event D278-EASTWATCH-CARAVAN-ROAD-TRAVELERS-001.
+CURRENT EXACT PLAYED CHECKPOINT — D279-DAWN-EASTBOUND-CARAVAN-CAMP-001; latest owning event D278-279-EASTBOUND-CARAVAN-OVERNIGHT-REST-001.
 
 EXACT PENDING V DECISION:
-Day278 ~5:30PM at an ordinary exposed inland roadside camp on the heavily patrolled Caer Veylan–Eastwatch trade road. V's four-horse coach is accompanying Sella Brant's three-wagon Harrow & Pike freight caravan at loaded-wagon pace by mutual no-fee arrangement; Sella/three drivers/two hired Guard-profile guards act independently, no hire/escort guarantee or V duties imposed. Midday Day278 random event genuine d1004 trigger, type87 social: independent westbound merchant Edran Fenn exchanged open-road/manifests information, then departed; no combat. Day278 night has NOT elapsed, but because daytime encounter occurred, no night random encounter per route cap. Sella's guards take ordinary watch and Fenar volunteers early watch; no rest completed at camp yet. Day277→278 second night at Copper Hearth two rooms/stables/meals cost6gp6sp, V purse969gp3sp6cp. LongRest new cycle2/6, V48/48 HD7/7 MP7/7 Psi6/6 Sup4/4 full, Fenar59/59 HD6/6 Rage4/4 Shift3/3, Cirren51/51 HD6/6 slots full, Mara healthy, all V horses and coach healthy; 21 rations-person-days/28 horse-feed animal-days still unconsumed after paid inn breakfast, one sealed Pixie Dust. Await V's camp conversation/next action or continuation of eastward caravan travel and actual Day278 night/Day279 dawn resources. No future overnight, random day279 roll or further travel assumed.
+Day279 at dawn beside Harrow & Pike's three-wagon freight caravan on open roadside along eastern Veyr maintained trunk toward Eastwatch. V/Mara/Fenar shared a consensual private intimate evening (no explicit gameplay detail); Fenar had first honored early guard watch. Quiet WILDERNESS overnight short rest completed, weighted LongRest3/6 (prior2/6), not complete. No night encounter roll because Day278 daytime social event already triggered. V48/48 HP HD7/7, Cirren51/51 HP HD6/6, Fenar59/59 HP HD6/6 Rage4/4 Shift3/3 MP6/6, Mara healthy; all class/psi/spell pools full, 4 healthy V horses, intact coach, purse969gp3sp6cp, still21 ration-person-days/28 horse-feed animal-days pending Day279 morning allocation, 1 sealed unused Pixie Dust. Sella/drivers/guards independently begin ordinary morning preparations. Await V's instruction for breakfast/continue convoy east or other action; no Day279 day travel roll or future travel/expenses yet.
 
 PARTY AND CUSTODY
 V Reborn Rogue4/Fighter3 HP48/48 AC19 HD7/7 (Fighter3d10/Rogue4d8); SecondWind1/1, ActionSurge1/1, Superiority4/4, Psi6/6, PsiRecovery1/1, PastLife3/3, MP7/7. Purse969gp3sp6cp. Galepierce Dart qty1, Rope of Mending, silver sword and sealed A-04 retained.
@@ -21,14 +21,16 @@ Fenar Beast Barbarian6 HP59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6; no active Rage
 Cirren Knowledge Cleric6 HP51/51 AC18 HD6/6 slots L1 4/4 L2 3/3 L3 3/3 ChannelDivinity2/2; signed compact retained.
 Mara healthy; four healthy V-owned horses and intact coach at camp with the independently owned freight wagons. Rations21 person-days/feed28 animal-days; one sealed unused Pixie Dust packet. Sword/A-04/Clockwork Amulet and other gear retained. No new custody transfer.
 
-ACCEPTED REST AND TRAVEL
-D277-278-CAER-VEYLAN-SECOND-INN-OVERNIGHT-001 — One ordinary secure Copper Hearth night Day277→278 booked TWO comfortable rooms1gp6sp + four horses stables2gp + supper and breakfast for 3 eaters3gp = total6gp6sp, paid once from V personal purse975gp9sp6cp to969gp3sp6cp. Paid meals/feed mean stocks21 rations and28 feed unchanged at dawn278. Protected town overnight advances LongRest cycle0/6→2/6, not complete, no extra HD restored as all full, no night road encounter roll. Day278 morning departure ready.
-D277-HARROW-CARAVAN-ACCOMPANIMENT-AGREED-001 — V explicitly chooses to arrange to travel with Harrow & Pike eastbound caravan for safety in numbers. Independent freight leader Sella Brant of3 normal cargo wagons/3 drivers incl herself/2 ordinary guards agrees to let V's own four-horse coach follow at freight pace, for no fee, no obligatory hired escort/guard duty or caravan cargo custody. Departure agreed Day278 morning. No fees, contracts, quest, supplies or V combat resources spent.
-D278-EASTWATCH-CARAVAN-ROAD-TRAVELERS-001 — Day278 heavily patrolled daytime genuine d100FACE4 vs01–07 triggers single random encounter, type d100FACE87 in social travelers77–92; around midday independent two westbound merchant wagons led by Edran Fenn trade road updates with Sella and continue west, no conflict, cost, V obligation, new ancestry claim or V resources. Merchant reports eastbound road open, normal patrols, extra freight-manifest attention. Day278 late afternoon Sella parks three cargo wagons at ordinary exposed roadside clearing and V's coach joins; guards set normal watch, Fenar voluntarily covers early watch. No Day278 night/rest/food/feed consumption yet; rules skip Day278 night occurrence as a daytime event already triggered. V48/48, Cirren51/51, Fenar59/59, Mara and all horses healthy; supplies21/28, purse969gp3sp6cp, LongRest2/6; one unused Pixie Dust.
-No Day278 overnight has occurred, no Day279 resource debit or roll. Long Rest progress2/6 is not completion. Room occupants not assigned.
+ACCEPTED CAMP EVENING AND REST
+D278-CARAVAN-CAMP-COMPANIONS-CONVERSATION-001 — Day278 ~18:15 caravan campfire: V meets drivers Idra Kemm and Tollen Bras and hired guard Nara Vetch alongside Sella; learns their independently shared ordinary personal histories. Sella asks V purpose of journey; no player answer yet. No additional random encounter, combat, rest, resource/coin/custody/provision changes and no Day278 overnight.
+D278-V-BRIEF-CARAVAN-REASON-FOR-TRAVEL-001 — V shares exactly limited broad purpose (paid adventurers, discoveries, Eastwatch to learn own family history), explicitly restricts further disclosure. Sella/Nara/Idra/Tollen respond with casual respectful good humor without probing or learning private genealogical/sealed facts; Mara/Cirren/Fenar respect V's discretion. Ordinary evening chat continues; game remains Day278 evening with no rest/encounter/resources/coin/custody changes.
+D278-279-EASTBOUND-CARAVAN-OVERNIGHT-REST-001 — V and adult companions Mara and Fenar mutually consent to a private affectionate/intimate evening (fade to black); Fenar fulfills early watch then joins voluntarily, remaining guard watches covered by company. Quiet qualifying wilderness overnight Day278->279 dawn occurs, no second random night roll because Day278 social occurrence previously triggered. Weighted LongRest2/6->3/6 (not a full Long Rest); HP/HD/limited resources unchanged and full. No Day279 morning rations/feed deducted yet, no convoy departure or Day279 day random check. Money, coach, horses, gear, Pixie Dust unchanged.
+
+CURRENT KNOWLEDGE AND NEXT ACTION
+Sella, Idra, Tollen and Nara know only V’s expressly limited public explanation; private ancestry, Nightglass and sealed-item facts remain undisclosed. Company has three drivers including Sella and two guards, with its own freight/animals. No new contract, party obligation or NPC authority. At dawn279 breakfast/feed allocation and departure remain unplayed. Long Rest3/6 is not complete; no extra feature recovery, resource use or night roll.
 
 OWNER POINTERS
-SESSION_LOG retains exact source evidence and original die faces; NPCS/QUESTS own contact knowledge and accompaniment terms; INVENTORY and character journal own the single second-night660cp expense. Prior checkpoint archived verbatim at archive/continuity/campaign-state-before-PLAY-D277-278-HARROW-CARAVAN-001.md. Newer recovery remains authoritative for later accepted play.
+SESSION_LOG retains exact accepted evidence and NPCS records bounded knowledge/relationships. Character and inventory journals remain unchanged. Prior checkpoint archived verbatim at archive/continuity/campaign-state-before-PLAY-D278-279-CARAVAN-REST-001.md. Newer recovery may supersede this pending choice without replay.
 
 ## Current character counters (CSV baselines + posted event overlay)
 
