@@ -54,6 +54,40 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D278-279-CARAVAN-REST-INTIMACY-001",
+      "base_commit": "3bbd4a4392dfa899d4b659de9dce196da27e5207",
+      "source_checkpoint": "D278-EVENING-CARAVAN-V-BRIEF-ANSWER-001",
+      "destination_checkpoint": "D279-DAWN-EASTBOUND-CARAVAN-CAMP-001",
+      "source_evidence": "Player exact direction at Day278 ~6:30PM open roadside camp with Sella Brant's eastbound Harrow & Pike freight caravan after the limited family-history conversation: \"Settle in and ravage both mara and fenar\". V wants to retire privately and initiate a mutually desired intimate night with adult, existing romantic companions Mara and Fenar. Both independently willingly reciprocate; their reciprocal consent is present, not presumed from prior history. Fenar first honors her voluntarily promised early camp watch and only joins later after handing the watch back to Sella's ordinary paid guards, without requiring V to choose a watch shift. Mara and V spend time in privacy, and Fenar joins them after her watch; scene fades to black without explicit sexual acts or special mechanical benefits/penalties. Their relationship remains freely reciprocal with no irrevocable exclusivity/compulsion/personal oath. No V exact spoken dialogue invented, and no romantic interaction with any caravan stranger. The caravan remains peaceful and its ordinary paid guards independently cover other watches. Day278 daytime random SOCIAL occurrence already happened d1004/type87, so per established travel rule one random encounter maximum per travel day, **do not roll a night occurrence**; no danger, damage or resource interruption established. By dawn Day279 the whole party completes one quiet qualifying WILDERNESS overnight Short Rest, adding1 weighted unit to the current Long Rest cycle2/6->3/6, NOT a full Long Rest. Fenar's earlier early watch ends with ample night remainder for her own full overnight qualifying rest; V Reborn can be motionless four hours. Everyone was already full HP and full spendable class/psi/spell features, so no new HD, spells or feature use/recovery assumed beyond maintaining full values. No Pixie Dust used, no special item or coin transfer. Camp remains on open eastern Veyr Caer Veylan–Eastwatch road with Sella's three wagon convoy; departure Day279 NOT yet played, no Day279 daytime encounter generated. Day279 just DAWN, before camp breakfast/horse-feed allocation: leave carried travel stocks21 ration-person-days,28 horse-feed animal-days unchanged until actual Day279 consumption; V purse969gp3sp6cp unchanged. V48/48 HD7/7 and full resources, Cirren51/51 HD6/6 full slots, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6, Mara healthy; all four V horses healthy, coach intact, one sealed Pixie Dust held by V. New synced-recovery marker is legitimate because a qualifying rest completed, but a marker means background handoff REQUESTED, not queued or owners saved.",
+      "pending_action": "Day279 at dawn beside Harrow & Pike's three-wagon freight caravan on open roadside along eastern Veyr maintained trunk toward Eastwatch. V/Mara/Fenar shared a consensual private intimate evening (no explicit gameplay detail); Fenar had first honored early guard watch. Quiet WILDERNESS overnight short rest completed, weighted LongRest3/6 (prior2/6), not complete. No night encounter roll because Day278 daytime social event already triggered. V48/48 HP HD7/7, Cirren51/51 HP HD6/6, Fenar59/59 HP HD6/6 Rage4/4 Shift3/3 MP6/6, Mara healthy; all class/psi/spell pools full, 4 healthy V horses, intact coach, purse969gp3sp6cp, still21 ration-person-days/28 horse-feed animal-days pending Day279 morning allocation, 1 sealed unused Pixie Dust. Sella/drivers/guards independently begin ordinary morning preparations. Await V's instruction for breakfast/continue convoy east or other action; no Day279 day travel roll or future travel/expenses yet.",
+      "depends_on": [
+        "PLAY-REC-D278-CARAVAN-V-BRIEF-ANSWER-001"
+      ],
+      "events": [
+        {
+          "event_id": "D278-279-EASTBOUND-CARAVAN-OVERNIGHT-REST-001",
+          "accepted": true,
+          "evidence": "Player exact direction at Day278 ~6:30PM open roadside camp with Sella Brant's eastbound Harrow & Pike freight caravan after the limited family-history conversation: \"Settle in and ravage both mara and fenar\". V wants to retire privately and initiate a mutually desired intimate night with adult, existing romantic companions Mara and Fenar. Both independently willingly reciprocate; their reciprocal consent is present, not presumed from prior history. Fenar first honors her voluntarily promised early camp watch and only joins later after handing the watch back to Sella's ordinary paid guards, without requiring V to choose a watch shift. Mara and V spend time in privacy, and Fenar joins them after her watch; scene fades to black without explicit sexual acts or special mechanical benefits/penalties. Their relationship remains freely reciprocal with no irrevocable exclusivity/compulsion/personal oath. No V exact spoken dialogue invented, and no romantic interaction with any caravan stranger. The caravan remains peaceful and its ordinary paid guards independently cover other watches. Day278 daytime random SOCIAL occurrence already happened d1004/type87, so per established travel rule one random encounter maximum per travel day, **do not roll a night occurrence**; no danger, damage or resource interruption established. By dawn Day279 the whole party completes one quiet qualifying WILDERNESS overnight Short Rest, adding1 weighted unit to the current Long Rest cycle2/6->3/6, NOT a full Long Rest. Fenar's earlier early watch ends with ample night remainder for her own full overnight qualifying rest; V Reborn can be motionless four hours. Everyone was already full HP and full spendable class/psi/spell features, so no new HD, spells or feature use/recovery assumed beyond maintaining full values. No Pixie Dust used, no special item or coin transfer. Camp remains on open eastern Veyr Caer Veylan–Eastwatch road with Sella's three wagon convoy; departure Day279 NOT yet played, no Day279 daytime encounter generated. Day279 just DAWN, before camp breakfast/horse-feed allocation: leave carried travel stocks21 ration-person-days,28 horse-feed animal-days unchanged until actual Day279 consumption; V purse969gp3sp6cp unchanged. V48/48 HD7/7 and full resources, Cirren51/51 HD6/6 full slots, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6, Mara healthy; all four V horses healthy, coach intact, one sealed Pixie Dust held by V. New synced-recovery marker is legitimate because a qualifying rest completed, but a marker means background handoff REQUESTED, not queued or owners saved.",
+          "before": "Day278 ~18:30 at exposed Harrow & Pike caravan camp on eastern Veyr road, after V's limited public description of why party travels Eastwatch. Fenar volunteered early watch, no night/rest completed, current weighted LongRest2/6, party HP/resources full; purse969gp3sp6cp, stocks21 rations/28 horse-feed, Pixie Dust1 unused.",
+          "after": "V and adult companions Mara and Fenar mutually consent to a private affectionate/intimate evening (fade to black); Fenar fulfills early watch then joins voluntarily, remaining guard watches covered by company. Quiet qualifying wilderness overnight Day278->279 dawn occurs, no second random night roll because Day278 social occurrence previously triggered. Weighted LongRest2/6->3/6 (not a full Long Rest); HP/HD/limited resources unchanged and full. No Day279 morning rations/feed deducted yet, no convoy departure or Day279 day random check. Money, coach, horses, gear, Pixie Dust unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "sync_trigger": {
+    "ready": true,
+    "reason": "qualifying_rest",
+    "request_id": "PLAY-D278-279-CARAVAN-REST-001",
+    "last_recovery_id": "PLAY-REC-D278-279-CARAVAN-REST-INTIMACY-001",
+    "destination_checkpoint": "D279-DAWN-EASTBOUND-CARAVAN-CAMP-001"
+  }
 }
