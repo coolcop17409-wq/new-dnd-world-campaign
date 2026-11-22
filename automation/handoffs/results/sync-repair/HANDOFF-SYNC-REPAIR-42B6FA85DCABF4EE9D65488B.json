@@ -1,0 +1,28 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B",
+  "status": "complete",
+  "claim_owner": "opened-pr22-0cfd043a",
+  "claim_expires_at": "2026-11-22T14:33:29Z",
+  "summary": "Verified format-only proposal on existing repair branch: restore missing empty Lot cell in ADMIN-MARKET-D279-20261122-01. Not applied to main.",
+  "blocker": null,
+  "next_trigger": "Human review; recompare latest base and tested owner before any authorized merge.",
+  "tested_commit": "0dab0b4320d20cd79e882f7ca8083f865ab4e913",
+  "current_base_commit": "4ed0eb91dde8f23c0c045ca1e34baf26afe6aa3d",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase owners",
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -q",
+      "exit_code": 0,
+      "result": "35 tests passed"
+    }
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/0dab0b4320d20cd79e882f7ca8083f865ab4e913/trackers/csv/magic-shops/events.csv"
+  ],
+  "verification_path": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B.json",
+  "applied_to_main": false
+}
