@@ -24,3 +24,9 @@ Fallback, exact marker schema, prior-request discovery, supersession, retries an
 - `runtime/PLAY_NOW.md`, `runtime/REGION_PREP.md`, `dashboard/dashboard.json`: nonauthoritative generated/curated convenience only
 
 Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSION_LOG under 75,000 (preferred 30–45K); archive exact history before trimming. Never convert scheduled preparation, administrative receipts, synthetic tests or real-world time into campaign events. `migration/TEST_REPORT.md` retains unverified cutover items.
+
+## Cooperative writer
+
+Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
+
+CAMPAIGN_WRITER | state=ACTIVE | token=QUEST-OOC-D278-ORATH-20261121-01 | worker=Quest-Development | operations=ORATH01,ORATH02 | acquired=2026-11-22T02:59:02.799Z | heartbeat=2026-11-22T02:59:02.799Z | expires=2026-11-22T03:09:02.799Z | recovery=prep/dm-only/
