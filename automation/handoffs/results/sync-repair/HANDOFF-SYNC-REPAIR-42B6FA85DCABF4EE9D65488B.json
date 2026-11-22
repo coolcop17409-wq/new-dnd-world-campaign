@@ -1,0 +1,9 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B",
+  "status": "partial",
+  "claim_owner": "opened-pr22-0cfd043a",
+  "claim_expires_at": "2026-11-22T14:33:29Z",
+  "summary": "Verifying format-only missing Lot cell on administrative market receipt; no gameplay changes.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry"
+}
