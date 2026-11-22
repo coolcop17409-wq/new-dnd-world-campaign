@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D277-278-HARROW-CARAVAN-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr18-4d751878",
+  "claim_expires_at": "2026-11-22T01:56:30Z",
+  "request_commit": "13f223256cfaf4bd0ffcd76a925e95dd833dbf2d",
+  "request_blob": "6efbe6507f2f8ccf7d82fdf88a467644c3a68c04",
+  "summary": "Pinned journal verified; predecessor complete; applying accepted caravan arrangement, second inn night and Day278 travel.",
+  "blocker": null,
+  "applied_event_ids": []
+}
