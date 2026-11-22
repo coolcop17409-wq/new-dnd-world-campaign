@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "request_id": "HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9",
+  "status": "verified_diagnosis",
+  "tested_commit": "0dab0b4320d20cd79e882f7ca8083f865ab4e913",
+  "current_base_commit": "4ed0eb91dde8f23c0c045ca1e34baf26afe6aa3d",
+  "failure_commit": "85f54c3fe2259fd35c60ad6cb204b90ec4e65215",
+  "failed_workflow": 45036137684,
+  "job_id": 137250192039,
+  "source_evidence": "Remote failure and fresh local reproduction both identify test_scopes_do_not_run_unrelated_work: shops FAIL from malformed ADMIN-MARKET-D279-20261122-01 row144. The three maintenance metadata files are merely commit changed paths, not the defect. Existing PR22 changes only row144, restoring empty Lot; no accepted value/event changes.",
+  "commands": [
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -q",
+      "source": "4ed0eb91dde8f23c0c045ca1e34baf26afe6aa3d",
+      "exit_code": 1,
+      "result": "35 run, one failure test_scopes_do_not_run_unrelated_work; actual malformed current shops row"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase owners",
+      "source": "0dab0b4320d20cd79e882f7ca8083f865ab4e913",
+      "exit_code": 0,
+      "result": "PASS with exact existing PR22 market file"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -q",
+      "source": "0dab0b4320d20cd79e882f7ca8083f865ab4e913",
+      "exit_code": 0,
+      "result": "35 passed; trusted current-main test/code/source blobs verified identical to tested proposal"
+    }
+  ],
+  "changed_paths": [
+    "automation/handoffs/results/sync-repair/HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9.json",
+    "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9.json"
+  ],
+  "proposal_reused": {
+    "pr": 22,
+    "request_id": "HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B",
+    "tested_commit": "0dab0b4320d20cd79e882f7ca8083f865ab4e913"
+  },
+  "main_application": false,
+  "limits": "No duplicate data patch; no records removed to quiet tests; no gameplay. Await existing proposal's human-approved merge then main verification."
+}
