@@ -1,31 +1,28 @@
-# DM-ONLY — Current western Veyr / Eastwatch approach fast brief
+# DM-ONLY — Western Veyr current-region brief
 
-<Non-authoritative, current-region preparation snapshot; DO NOT treat this file as a player-facing handout, an actual event, an offered quest or a replacement for owning records.>
+Non-authoritative convenience; owning checkpoint and newer accepted play always win. No prepared fact is an offered scene.
 
-**Basis:** verified current owning `D278-LATE-AFTERNOON-EASTBOUND-CARAVAN-CAMP-001` / latest played `D278-EASTWATCH-CARAVAN-ROAD-TRAVELERS-001`. Prepared from owner checkpoint and region sources at main `eb7ebb2641814d8bd6155b1c3dbfc943ea47c3b0`. Recheck if the scene/checkpoint or controlling RULES have changed; a stale brief is *not* an authority. No gameplay, dice, spending or NPC conversations added by this preparation.
+## Provenance / current pause
+Persisted checkpoint **D279-MIDMORNING-YARD-RESOLVED-PRIVATE-LEAD-001**, state blob f1cc1d13001d1d63f3c7a14b07ef60b53c1609fd. Newer accepted recovery advances dialogue to **D279-MIDMORNING-V-KESTREL-RECON-INTENT-001**, Day279 ~10:25, without departure: automation/recovery/active.json blob88932eff4650b528d6edd494632f48004c05c563, entries PLAY-REC-D279-SUPPORT-WITNESS-PRISONER-STATUS-001, PLAY-REC-D279-SUPPORT-WITNESS-DUTY-SHEET-001 and PLAY-REC-D279-V-KESTREL-LIMITED-INVESTIGATION-001. Source main25ebe129c9fb23b5fa0e9921c82465495e6d71d0; scoped refresh ADMIN-QUEST-D279-20261122-01. Full live synchronization remains separate.
 
-## Immediate live context (player knowledge only)
-- Day278 about 17:30, dry open roadside camp on Caer Veylan→Eastwatch **heavily patrolled inland trade road**. V's own coach/four horses accompany **Harrow & Pike** wagonmaster Sella Brant's three independent freight wagons, drivers and two paid Guard-profile guards by free mutual-deterrence arrangement; V has no hired guard duty. Sella makes her own company decisions.
-- Midday social traveler Edran Fenn already traveled west; ordinary news given: route is open, patrols are routine, commercial freight manifests receive additional scrutiny. Do not bring Edran back without actual cause.
-- Fenar volunteered for early watch, Sella's guards take normal watch. **Day278 night is not played**; daytime encounter already occurred, so do not add a second Day278 random encounter under the current route cap. No overnight rest or later supply debit has occurred.
-- Nightglass Hall is still a selected investigation destination reached via Eastwatch, approximately half-day by carriage east of Eastwatch; the Veyran corridor is not a compulsory Hollowdeep trip.
+## Player-known facts and actors
+- First staffed eastbound freight yard on Caer Veylan–Eastwatch road,6mi beyond prior camp. Elen Turr's six civilian invoice47 fittings were peacefully separated from Sergeant Vos's lawful two empty military cases. Dispute CLOSED; do not replay.
+- KN-S1 privately reports11 recovery patients:6mobile,3unable to walk,2restrained; painful procedures continued against refusal. Worker does not know convictions and cannot prove every soldier complicit. Copied duty sheet names Corven Nask and was shown, NOT transferred; sheet remains with worker.
+- Itinerary disclosed FROM CAER VEYLAN north receiving road:24mi N road +8mi NW rough cart-capable service track, about1⅔ ordinary travel days one way, slower with patients. NOT32mi from this yard; no shortcut or exact return-to-city ETA established.
+- V ACCEPTED LIMITED INQUIRY in D279-V-KESTREL-LIMITED-RECON-DECISION-001. No rescue/raid/report, route, movement, expenditure or official escort selected. Foreign notification was conditional on evidence, not dispatched.
+- KN-S1 has independent case-collection duties; no promised diversion/accompaniment. Vos has not learned private allegations. Sella Brant's3 independent freight wagons are nearly ready eastbound; she asks if V is all right, knows no allegations and has agreed to no halt/detour. V's free accompaniment imposes no hired guard duty.
+- Cirren urges verification and caution about foreign interests; Mara prioritizes patients; Fenar favors facts without treating all Veyrans as foes. Next V choice: what to tell Sella and whether/how to approach. No new companion decision supplied.
 
-## Verified locale/culture and knowledge limits
-- Veyran regional security and freight administration have actual institutions and independent incentives; public checkpoints and manifest scrutiny are ordinary facts, not automatically proof of conspiracies.
-- Western Veyr field operations and their deeper cause remain DM-only. Sella knows ordinary freight practices and what she witnesses; Edran's public road report does not reveal hidden programs, nor certify the safety of every mile. No remote NPC has omniscient knowledge.
-- Do not conflate Veyr's expansion in Orath with Iron Dominion/Gruumsh conflict on distant Arden.
+## Regional culture and private limits
+World owner world/politics/veyr-regional-security.md: service, competence, public administration, apprenticeships and witnessed obligations are actual civic ideals alongside authoritarian power. Ordinary workers have families, meals and work; a guard checking manifests is not proof of conspiracy. Primordial is official, Common useful for foreign contact. Do not conflate Veyr with Arden's Iron Dominion.
+Unrevealed deeper causes, perpetrators, internal defenses and reward/care arrangements remain in DM owners. KN-S1 knows only firsthand work; no instant report to Corven/Rhelka, no actual return of worker, no renewed atrocity/escape clock from preparation. The finite support roster is4total,3at station while worker is here.
 
-## Eligible, currently **UNPLAYED** delivery candidates (DM use only)
-- **First staffed eastbound freight/inspection lay-by after the Day278 camp and before Eastwatch:** `prep/dm-only/dm-nightglass-route.md` section "Western Veyr regional arc — overdue entry bridge" is a pre-fixed, local civilian/logistics dispute with witnesses and contested authority. G1 scoped pass; G2 **conditional until actual party arrival and scene evidence**; G3 hold if hostilities become reachable. It is not already OFFERED, encountered, accepted, or resolved. Verify actual elapsed travel and relevant guard/document positions before narration. No compelled V heroics, new arrests or retroactive outcome.
-- **Nightglass destination:** `prep/dm-only/dm-estate-ancestry.md` holds unrevealed provenance questions and potential evidence/Edric contact. Hall appointment, expanded expedition, invitation reading and resulting findings remain unplayed unless the actual route and V choice establish them. Destination full consequential mechanics must be prepared before their actual encounter.
-- The prior Day274 roadside ventilation/mining rescue is **played and resolved** in the route owner; do not recreate trapped workers to fill time. Completed past trolls/gnolls are also not current opponents.
+## Eligible / conditional follow-ups
+1. **Current accepted inquiry:** respond at Sella's actual question; preserve disclosure/parting/brief-halt choices. Operational owner has a daytime outer-administration interview and alternative corroboration paths, not guaranteed ward entry or official immunity. G2 PASS follow-up; station G3 existing scoped PASS. First approach still conditional on V's decision and actual travel.
+2. **Nightglass:** selected Hall destination via Eastwatch; Hall about half-day carriage east. Provenance comparison OFFERED275, expanded expedition unintroduced. Answer known follow-up; Edric findings require actual contact. First crossing packet prepared; later sites not globally certified. No invitation silently transferred from Tamsin.
+3. **Cirren personal contact:** willing quiet discussion of known215 letters/mentor concern; actual reply UNKNOWN, Tobin's letters-only boundary preserved. Not a rescue or new message. No interruption required.
 
-## Rules and next-scene preparation
-- Apply `campaign/continuity/rules-travel-communication.md` actual terrain/daytime/night occurrence cap, Short/Long Rest rules, and in-world travel time. No Day279 encounter, payroll, rest, road distance or NPC response without actual elapsed game time.
-- Preserve genuine RNG, legal action economy and independent NPC decisions. Prepare **facts and viable approaches** in advance; do not pre-roll next encounters or determine what V chooses.
-- Read next only the relevant section of `dm-nightglass-route.md`, current `npcs.md` Sella/Edran entries, and `world/politics/veyr-regional-security.md` frontier if new material arises; do not reload entire 60–110KB files reflexively.
-
-## Source owner pointers (inspect only when needed)
-`campaign/continuity/campaign-state.md`; `runtime/PLAY_NOW.md`; `prep/dm-only/dm-nightglass-route.md`; `prep/dm-only/dm-only-secret-quest-outlines.md`; `world/politics/veyr-regional-security.md`; `campaign/continuity/npcs.md`; `campaign/continuity/quests.md`; `campaign/continuity/rules-travel-communication.md`.
-
-**Background maintenance responsibility:** The existing Campaign Quest Development task may refresh this brief after meaningful scene-region/checkpoint or controlling-prep changes. Retain grounded source references, explicit readiness gates, and a strict target under 6,000 characters; do not turn prep into gameplay.
+## Mechanics / next scoped reads
+Current party counters remain in CAMPAIGN_STATE/PLAY_NOW plus newer recovery; no disputed expenditure or new combat. Day279 daytime d10090 was quiet; do not reroll or pre-roll night, advance rest or debit travel. Preserve existing regional tables, quiet-day caps and actual elapsed time.
+Current owners: prep/dm-only/dm-nightglass-route.md (accepted bridge/history); prep/dm-only/veyr-western-program-field-operations-dm-only.md (limited-inquiry packet; finite site, access/alarm/retreat); prep/dm-only/dm-estate-ancestry.md (Hall); prep/dm-only/dm-cirren-family-mentor.md (personal contact). Cached2014 profiles/spells: prep/dm-only/dm-orath-regional-arcs.md#verified-profiles. Apply campaign/continuity/rules-dm-procedures.md, rules-travel-communication.md and rules-quest-design.md.
+No repeated Day274 rescue/declined annex, troll combat or yard introduction. Refresh only for meaningful changed checkpoint/route/owning preparation; no extra archive audit.
