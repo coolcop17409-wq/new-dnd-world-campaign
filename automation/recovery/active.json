@@ -27,6 +27,33 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D278-CARAVAN-V-BRIEF-ANSWER-001",
+      "base_commit": "9275ee2b5234e0309861ebcdabc41fee33b26f53",
+      "source_checkpoint": "D278-EVENING-CARAVAN-FIRE-CONVERSATION-001",
+      "destination_checkpoint": "D278-EVENING-CARAVAN-V-BRIEF-ANSWER-001",
+      "source_evidence": "Player exactly said: \"We are adventurers solving problems that are hard to solve for money. And discovering some interesting things along the way. This journey, we are traveling to Eastwatch to maybe learn more about my family history.\" and directed \"Dont give them much more than that.\" At Day278 approximately6:15–6:30PM at ordinary open roadside camp east of Caer Veylan, V responds to Sella Brant's question why the four travelers head east. V tells wagonmaster and nearby Harrow & Pike caravan companions only that his party are adventurers who resolve difficult problems for money and discover interesting things, and that Eastwatch journey may help V learn more about his family history. V does NOT divulge Nightglass Hall, the silver-veined heart, the visions, V's parentage, demigod ancestry, A-04, secret genealogy, old investigations, possessions' capabilities or private personal details. Respect his express discretion: Mara/Cirren/Fenar do not volunteer secrets or contradict the response in front of these new strangers. Sella independently expresses ordinary goodwill about V finding answers without probing; Nara jokes about her own hired-guard problem-solving and wages; Idra jokes about paying for conversation; Tollen jokes about bad camp-stew reputation. Friendly social rapport only, no formal contract beyond existing no-fee convoy accompany agreement, no independent romantic pledge, completed investigation, invitation, new offer, extra quest or cargo/security authority. The night camp continues with relaxed discussion of mundane inns/roads/food. No additional random encounter; Day278 daytime social event already used day's maximum. No in-world overnight or qualifying rest, no Day279, no combat, dice, magic, limited resource, custody, spending, food/feed debit. V48/48 HP HD7/7 all full class resources; Cirren51/51 HD6/6 full slots; Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6; Mara healthy; four healthy V-owned horses, intact coach; V purse969gp3sp6cp, carried rations21 person-days/feed28 animal-days, one unopened Pixie Dust, LongRest2/6. New conversation is routine, NOT an actual natural sync boundary: no sync_trigger.",
+      "pending_action": "Day278 ~6:30PM at Harrow & Pike open roadside camp east of Caer Veylan en route to Eastwatch, V has told Sella Brant and present caravan people only broad adventurer livelihood and general Eastwatch family-history interest, with express request to disclose nothing more. Sella/Nara/Idra/Tollen respect privacy and exchange ordinary friendly campfire conversation; Mara/Cirren/Fenar keep private facts confidential. Party V48/48 HP HD7/7 full class resources, Cirren51/51 HD6/6 full spells, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6, Mara healthy; 4 owned healthy horses, intact coach, supplies21 ration-person-days/28 horse-feed animal-days, purse969gp3sp6cp, one sealed unused Pixie Dust, weighted LongRest2/6. No camp overnight, Day279 or new encounter yet. V next conversational/overnight choice unmade.",
+      "depends_on": [
+        "PLAY-REC-D278-CARAVAN-FIRE-CONVERSATION-001"
+      ],
+      "events": [
+        {
+          "event_id": "D278-V-BRIEF-CARAVAN-REASON-FOR-TRAVEL-001",
+          "accepted": true,
+          "evidence": "Player exactly said: \"We are adventurers solving problems that are hard to solve for money. And discovering some interesting things along the way. This journey, we are traveling to Eastwatch to maybe learn more about my family history.\" and directed \"Dont give them much more than that.\" At Day278 approximately6:15–6:30PM at ordinary open roadside camp east of Caer Veylan, V responds to Sella Brant's question why the four travelers head east. V tells wagonmaster and nearby Harrow & Pike caravan companions only that his party are adventurers who resolve difficult problems for money and discover interesting things, and that Eastwatch journey may help V learn more about his family history. V does NOT divulge Nightglass Hall, the silver-veined heart, the visions, V's parentage, demigod ancestry, A-04, secret genealogy, old investigations, possessions' capabilities or private personal details. Respect his express discretion: Mara/Cirren/Fenar do not volunteer secrets or contradict the response in front of these new strangers. Sella independently expresses ordinary goodwill about V finding answers without probing; Nara jokes about her own hired-guard problem-solving and wages; Idra jokes about paying for conversation; Tollen jokes about bad camp-stew reputation. Friendly social rapport only, no formal contract beyond existing no-fee convoy accompany agreement, no independent romantic pledge, completed investigation, invitation, new offer, extra quest or cargo/security authority. The night camp continues with relaxed discussion of mundane inns/roads/food. No additional random encounter; Day278 daytime social event already used day's maximum. No in-world overnight or qualifying rest, no Day279, no combat, dice, magic, limited resource, custody, spending, food/feed debit. V48/48 HP HD7/7 all full class resources; Cirren51/51 HD6/6 full slots; Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6; Mara healthy; four healthy V-owned horses, intact coach; V purse969gp3sp6cp, carried rations21 person-days/feed28 animal-days, one unopened Pixie Dust, LongRest2/6. New conversation is routine, NOT an actual natural sync boundary: no sync_trigger.",
+          "before": "Day278 ~6:15PM at caravan campfire with wagonmaster Sella, drivers Idra/Tollen and hired guard Nara, Sella asks V whether business/adventure/home brings party east; V has not replied. Full party/coach/horse resources unchanged, no overnight yet.",
+          "after": "V shares exactly limited broad purpose (paid adventurers, discoveries, Eastwatch to learn own family history), explicitly restricts further disclosure. Sella/Nara/Idra/Tollen respond with casual respectful good humor without probing or learning private genealogical/sealed facts; Mara/Cirren/Fenar respect V's discretion. Ordinary evening chat continues; game remains Day278 evening with no rest/encounter/resources/coin/custody changes.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
   ]
 }
