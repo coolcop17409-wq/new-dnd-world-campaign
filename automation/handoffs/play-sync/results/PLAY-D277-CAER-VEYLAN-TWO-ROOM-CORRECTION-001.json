@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D277-CAER-VEYLAN-TWO-ROOM-CORRECTION-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr16-3c8aa360",
+  "claim_expires_at": "2026-11-22T00:51:25.481Z",
+  "request_commit": "67597b5d23e5cf544c49ceef970e2135c649ec1f",
+  "request_blob": "4934656e96561bd1ecc6e2ef01d0944ad04d4160",
+  "summary": "Frozen correction verified; predecessor payment already posted. Preparing one linked +160cp correction.",
+  "blocker": null,
+  "applied_event_ids": []
+}
