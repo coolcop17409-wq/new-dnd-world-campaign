@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D277-CAER-VEYLAN-TWO-ROOM-CORRECTION-001",
+  "mode": "accepted_play",
+  "base_commit": "d8690c966a1a6f329dee2bb90041a6496f71f9d6",
+  "source_checkpoint": "D277-MORNING-CAER-VEYLAN-COPPER-HEARTH-001",
+  "destination_checkpoint": "D277-MORNING-CAER-VEYLAN-TWO-ROOMS-CORRECTED-001",
+  "source_evidence": "PLAY-REC-D277-TWO-ROOMS-CORRECTION-001\nLatest explicit player correction after Day276→277 Copper Hearth inn rest adjudicated: \"just two rooms\". This overrides previous assistant assumption of four separate comfortable rooms at 8sp each, NOT the four party members, companion autonomy, three eaters' two meals, four-horse stabling, elapsed rest, sleep quality, location, or actual first Caer Veylan resupply. Accommodation for four party members in TWO rooms rather than four at stated room rate8sp each is 2x8sp=1gp6sp (instead of 4x8sp=3gp2sp). Stabling and coach parking 2gp and three eater supper+breakfast3gp unchanged. Corrected bill TOTAL6gp6sp rather than8gp2sp, relief1gp6sp. From purse BEFORE inn982gp5sp6cp, corrected balance AFTER inn975gp9sp6cp, replacing inaccurate previous974gp3sp6cp; don't post this as fresh unrelated revenue if original owner costs not posted. Existing rest outcome stays: overnight safe city qualifies+2 weighted units LongRest4/6->6/6 then reset cycle0/6 at dawn277, Fenar spentHD4/6->6/6, V/Cirren full; all HP/spell/resources unchanged. Party provisions21 ration-person-days/feed28 animal-days unchanged because meals and horse care paid locally, one Pixie Dust packet still sealed, four owned horses and coach intact. Room assignment inside the two shared rooms is NOT dictated or presumed by this correction; adult travelers may choose their arrangements. No new game time, roll, spend, lodging, travel or adventure introduced. Supersedes the inn ROOM COUNT/COST and consequent purse figures in source event D276-277-CAER-VEYLAN-COPPER-HEARTH-REST-001 and pending PR15 transport, not its rest or care facts. Last explicit player correction takes priority for downstream owner sync; if old owner legs already posted, reconcile one-time difference1gp6sp with linked correction event ID rather than double-charging or double-refunding.",
+  "pending_action": "Day277 morning at Copper Hearth Caer Veylan after completed safe-city overnight, exactly two comfortable rooms for four adult party, inn/stables/meals corrected TOTAL6gp6sp from pre-inn982gp5sp6cp, correct V purse975gp9sp6cp. Protected overnight LongRest6/6 completed reset next cycle0/6; V48/48 HD7/7, Fenar59/59 HD6/6, Cirren51/51 HD6/6, all finite resources full. Mara unharmed, four horses/coach safe; personal travel rations21 person-days and horse feed28 animal-days, unopened Pixie Dust qty1. Current city options: freight exchange, old survey stones, garrison exercises, artisan/performance arcade, prior Keld/Harrow & Pike contacts; nothing visited/accepted yet. Await V city exploration or Eastwatch travel. Do not assume two room occupancy assignments. Supersede prior four-room expense in pending PR15; sync corrected net spend only once.",
+  "depends_on": [
+    "PLAY-D276-277-CAER-VEYLAN-REST-001"
+  ],
+  "events": [
+    {
+      "event_id": "D277-CAER-VEYLAN-TWO-ROOM-INN-BILL-CORRECTION-001",
+      "accepted": true,
+      "evidence": "Latest explicit player correction after Day276→277 Copper Hearth inn rest adjudicated: \"just two rooms\". This overrides previous assistant assumption of four separate comfortable rooms at 8sp each, NOT the four party members, companion autonomy, three eaters' two meals, four-horse stabling, elapsed rest, sleep quality, location, or actual first Caer Veylan resupply. Accommodation for four party members in TWO rooms rather than four at stated room rate8sp each is 2x8sp=1gp6sp (instead of 4x8sp=3gp2sp). Stabling and coach parking 2gp and three eater supper+breakfast3gp unchanged. Corrected bill TOTAL6gp6sp rather than8gp2sp, relief1gp6sp. From purse BEFORE inn982gp5sp6cp, corrected balance AFTER inn975gp9sp6cp, replacing inaccurate previous974gp3sp6cp; don't post this as fresh unrelated revenue if original owner costs not posted. Existing rest outcome stays: overnight safe city qualifies+2 weighted units LongRest4/6->6/6 then reset cycle0/6 at dawn277, Fenar spentHD4/6->6/6, V/Cirren full; all HP/spell/resources unchanged. Party provisions21 ration-person-days/feed28 animal-days unchanged because meals and horse care paid locally, one Pixie Dust packet still sealed, four owned horses and coach intact. Room assignment inside the two shared rooms is NOT dictated or presumed by this correction; adult travelers may choose their arrangements. No new game time, roll, spend, lodging, travel or adventure introduced. Supersedes the inn ROOM COUNT/COST and consequent purse figures in source event D276-277-CAER-VEYLAN-COPPER-HEARTH-REST-001 and pending PR15 transport, not its rest or care facts. Last explicit player correction takes priority for downstream owner sync; if old owner legs already posted, reconcile one-time difference1gp6sp with linked correction event ID rather than double-charging or double-refunding.",
+      "before": "Day277 morning after Copper Hearth secured overnight, prior play record mistakenly charged4 rooms at8sp=3gp2sp; with stables2gp and meals3gp it quoted8gp2sp, purse974gp3sp6cp. LongRest completed, Fenar HD restored, no other changes.",
+      "after": "By player's explicit correction only TWO comfortable rooms booked, 2x8sp=1gp6sp, stables2gp and meals3gp unchanged, corrected entire overnight bill6gp6sp instead of8gp2sp. V personal purse must be975gp9sp6cp (1gp6sp higher) with a single correct total debit from pre-inn982gp5sp6cp. All other actual inn/overnight/Day277 morning play, custody, resources, LongRest and supplies unchanged. Room sharing arrangements not assigned.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ],
+  "recovery_entries": {
+    "PLAY-REC-D277-TWO-ROOMS-CORRECTION-001": "1162ca8b7f74c648077567182793ee09eabf38b9380439b4d636807026bf318e"
+  },
+  "journal_source": {
+    "commit": "a8bedf67f03172df1a1b585e7b1a895fcb0c612d",
+    "path": "automation/recovery/active.json",
+    "digest": "cbcc502e980e0cd684a126b11a5789142b18aa2365807edfd69d910922efc07c"
+  },
+  "prior_request_ids": [
+    "PLAY-D266-267-REST-001",
+    "PLAY-D266-TROLLS-CLOSED-001",
+    "PLAY-D267-268-FOLLOWUP-001",
+    "PLAY-D268-273-TRAVEL-001",
+    "PLAY-D274-275-DEPART-001",
+    "PLAY-D274-WTR-VENT-RESCUE-001",
+    "PLAY-D275-276-CAER-VEYLAN-001",
+    "PLAY-D276-277-CAER-VEYLAN-REST-001"
+  ]
+}
