@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D276-277-CAER-VEYLAN-REST-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr15-cb146d06",
+  "claim_expires_at": "2026-11-22T00:48:23.889Z",
+  "request_commit": "019f71f7c0ea1834e7244605eead40819722588a",
+  "request_blob": "ce170aa6c7fbd351c3a75698d6a7975c06b831e3",
+  "summary": "Pinned evidence and prior immutable history verified; dependency complete. Preparing supported inn and rest owners.",
+  "blocker": null,
+  "applied_event_ids": []
+}
