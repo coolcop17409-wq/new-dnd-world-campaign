@@ -58,7 +58,7 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a11aab40cc969015ab7d19a903a5628e142d663d/archive/continuity/session-log-before-PLAY-D279-FREIGHT-YARD-RESOLUTION-001.md"
   ],
   "generated_view_status": "Verified exact batch checkpoint in generated packet at d143f28c47b1c03182b2034bfe9c4332c219641c; newer recovery remains pending.",
-  "cleanup_status": "Pending verified recovery pruning",
+  "cleanup_status": "Only three matching verified recovery entries pruned; newer witness-status entry preserved unchanged.",
   "newer_recovery_preserved": [
     "PLAY-REC-D279-SUPPORT-WITNESS-PRISONER-STATUS-001"
   ],
