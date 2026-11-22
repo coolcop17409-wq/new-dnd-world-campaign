@@ -204,7 +204,7 @@
       "next_tax_and_carrow_due": 362,
       "first_tax_and_carrow_settlement": "Actual272paid149.21tax+112.22Carrow fromBlackthorn; riverfirstperiodlossesno taxdue",
       "open_current_interval": "279daytimeinprogress andnight279-280: no full-dayproduction/wages/storage or completedHessa/benchfee. Full278nightcompletedbylive279morning.",
-      "remaining_scope": "C279-FARM-TERMS lacks specificcrop/seed/sowingwindow; C279-CAERETH-FOLLOWUP lacksqualifiedroutewholeprice/sampleacceptance. Onlydependentplanting/dispatchheld. Current/futurecontractworkhasactualcapacityandnexttriggers; consumerACKspending."
+      "remaining_scope": "VISIT236-FARM-SOW resolves old crop/seed/sowing hold:fouracres sown272,next280review. VISIT236-MG-OUTLET-NEXT active after279morning. C279-CAERETH-FOLLOWUP still lacks whole-route/fullprice/sampleterms; only dependentdispatch held. Unelapsed279work/futurecontracts unearned; consumerACKspending."
     },
     "Miregate": {
       "source": "D279-ESTATE-CATCHUP-001",
@@ -245,7 +245,7 @@
       ],
       "current_day_posted": true,
       "known_posted_balances_verified": true,
-      "verified_owner_commit": "f7c648597fdb5712215fee7d1eb91523394c20f2",
+      "verified_owner_commit": "ef7821c46cf0b27069e08dd8433a8d79673196a3",
       "verification": [
         "events.csv: 869 prior rows preserved; 297 new unique rows",
         "blackthorn-operations-events.csv: 486 prior rows preserved; 74 new unique rows",
@@ -255,15 +255,33 @@
         "All prior durable draws preserved; six new stages RESOLVED, every elapsed C266 request mapped to outcome or ongoing real custody.",
         "Firstbill149.21 fullypaid272 and notassessedtwice; Carrow112.22settled once; secondperiodtax2.63 separate; futurebench reservations fit."
       ],
-      "cash_gp": "139.06",
+      "cash_gp": "266.06",
       "liabilities_gp": "2.29",
-      "available_gp": "136.77",
+      "available_gp": "263.77",
       "receivables_gp": "1.43",
       "next_regular_payday": 285,
       "next_tax_and_carrow_due": 362,
       "first_tax_and_carrow_settlement": "Actual272paid149.21tax+112.22Carrow fromBlackthorn; riverfirstperiodlossesno taxdue",
       "open_current_interval": "279daytimeinprogress andnight279-280: no full-dayproduction/wages/storage or completedHessa/benchfee. Full278nightcompletedbylive279morning.",
-      "remaining_scope": "C279-FARM-TERMS lacks specificcrop/seed/sowingwindow; C279-CAERETH-FOLLOWUP lacksqualifiedroutewholeprice/sampleacceptance. Onlydependentplanting/dispatchheld. Current/futurecontractworkhasactualcapacityandnexttriggers; consumerACKspending."
+      "remaining_scope": "VISIT236-FARM-SOW resolves old crop/seed/sowing hold:fouracres sown272,next280review. VISIT236-MG-OUTLET-NEXT active after279morning. C279-CAERETH-FOLLOWUP still lacks whole-route/fullprice/sampleterms; only dependentdispatch held. Unelapsed279work/futurecontracts unearned; consumerACKspending.",
+      "before_visit236_correction": {
+        "cash_gp": "139.06",
+        "liabilities_gp": "2.29",
+        "available_gp": "136.77",
+        "receivables_gp": "1.43",
+        "verified_owner_commit": "f7c648597fdb5712215fee7d1eb91523394c20f2"
+      },
+      "latest_correction": "D279-MIREGATE-VISIT236-MANAGEMENT-RECON-001",
+      "correction_verification": [
+        "All1166 prior economic rows unchanged;57 new unique supplemental legs",
+        "15 added millshifts fit actual calendars and do not duplicate previous staff work",
+        "Five5t farmer-service lots and five4000lb grain batches fully fulfilled; no remaining new House/customer stock",
+        "Six Reedbed transfers total54t within16t/day; first242lot reduced4t after failed date negotiation, Sovra preserved; separate bench capacity",
+        "Additional57gp earned wages paid once on250/257/264/271/278;28gp completed sowing paid272",
+        "Historical startup carry retained; first MG/RBtax stillzero; current RBtax0.34unpaid due362",
+        "Separate estate cash never negative in chronological replay; no personal or inter-estate transfer",
+        "No completed279shift, new V action, time advance or rerolled settled buyer/walk-in outcome"
+      ]
     },
     "Reedbed": {
       "source": "D279-ESTATE-CATCHUP-001",
@@ -304,7 +322,7 @@
       ],
       "current_day_posted": true,
       "known_posted_balances_verified": true,
-      "verified_owner_commit": "f7c648597fdb5712215fee7d1eb91523394c20f2",
+      "verified_owner_commit": "ef7821c46cf0b27069e08dd8433a8d79673196a3",
       "verification": [
         "events.csv: 869 prior rows preserved; 297 new unique rows",
         "blackthorn-operations-events.csv: 486 prior rows preserved; 74 new unique rows",
@@ -314,15 +332,33 @@
         "All prior durable draws preserved; six new stages RESOLVED, every elapsed C266 request mapped to outcome or ongoing real custody.",
         "Firstbill149.21 fullypaid272 and notassessedtwice; Carrow112.22settled once; secondperiodtax2.63 separate; futurebench reservations fit."
       ],
-      "cash_gp": "141.80",
-      "liabilities_gp": "0.00",
-      "available_gp": "141.80",
+      "cash_gp": "249.80",
+      "liabilities_gp": "0.34",
+      "available_gp": "249.46",
       "receivables_gp": "0.43",
       "next_regular_payday": 285,
       "next_tax_and_carrow_due": 362,
       "first_tax_and_carrow_settlement": "Actual272paid149.21tax+112.22Carrow fromBlackthorn; riverfirstperiodlossesno taxdue",
       "open_current_interval": "279daytimeinprogress andnight279-280: no full-dayproduction/wages/storage or completedHessa/benchfee. Full278nightcompletedbylive279morning.",
-      "remaining_scope": "C279-FARM-TERMS lacks specificcrop/seed/sowingwindow; C279-CAERETH-FOLLOWUP lacksqualifiedroutewholeprice/sampleacceptance. Onlydependentplanting/dispatchheld. Current/futurecontractworkhasactualcapacityandnexttriggers; consumerACKspending."
+      "remaining_scope": "VISIT236-FARM-SOW resolves old crop/seed/sowing hold:fouracres sown272,next280review. VISIT236-MG-OUTLET-NEXT active after279morning. C279-CAERETH-FOLLOWUP still lacks whole-route/fullprice/sampleterms; only dependentdispatch held. Unelapsed279work/futurecontracts unearned; consumerACKspending.",
+      "before_visit236_correction": {
+        "cash_gp": "141.80",
+        "liabilities_gp": "0.00",
+        "available_gp": "141.80",
+        "receivables_gp": "0.43",
+        "verified_owner_commit": "f7c648597fdb5712215fee7d1eb91523394c20f2"
+      },
+      "latest_correction": "D279-MIREGATE-VISIT236-MANAGEMENT-RECON-001",
+      "correction_verification": [
+        "All1166 prior economic rows unchanged;57 new unique supplemental legs",
+        "15 added millshifts fit actual calendars and do not duplicate previous staff work",
+        "Five5t farmer-service lots and five4000lb grain batches fully fulfilled; no remaining new House/customer stock",
+        "Six Reedbed transfers total54t within16t/day; first242lot reduced4t after failed date negotiation, Sovra preserved; separate bench capacity",
+        "Additional57gp earned wages paid once on250/257/264/271/278;28gp completed sowing paid272",
+        "Historical startup carry retained; first MG/RBtax stillzero; current RBtax0.34unpaid due362",
+        "Separate estate cash never negative in chronological replay; no personal or inter-estate transfer",
+        "No completed279shift, new V action, time advance or rerolled settled buyer/walk-in outcome"
+      ]
     },
     "Old Distributary Fort": {
       "source": "D279-ESTATE-CATCHUP-001",
@@ -381,7 +417,7 @@
       "next_tax_and_carrow_due": 362,
       "first_tax_and_carrow_settlement": "Actual272paid149.21tax+112.22Carrow fromBlackthorn; riverfirstperiodlossesno taxdue",
       "open_current_interval": "279daytimeinprogress andnight279-280: no full-dayproduction/wages/storage or completedHessa/benchfee. Full278nightcompletedbylive279morning.",
-      "remaining_scope": "C279-FARM-TERMS lacks specificcrop/seed/sowingwindow; C279-CAERETH-FOLLOWUP lacksqualifiedroutewholeprice/sampleacceptance. Onlydependentplanting/dispatchheld. Current/futurecontractworkhasactualcapacityandnexttriggers; consumerACKspending."
+      "remaining_scope": "VISIT236-FARM-SOW resolves old crop/seed/sowing hold:fouracres sown272,next280review. VISIT236-MG-OUTLET-NEXT active after279morning. C279-CAERETH-FOLLOWUP still lacks whole-route/fullprice/sampleterms; only dependentdispatch held. Unelapsed279work/futurecontracts unearned; consumerACKspending."
     }
   },
   "income_expense_scope": "Signed economic entries after imported opening, including any explicit retrospective corrections to earlier days. Resolved retrospective reconciliation manifests own actual service-day timelines; these entry totals are not a fresh tax period."
