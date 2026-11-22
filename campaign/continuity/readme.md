@@ -27,10 +27,10 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 ## Atlas review
 
-[Last verified edition and file versions](../../archive/continuity/continuity-routing-before-auto-sync-20261121.md#atlas-review) · Day 266.
+Verified edition `ATLAS-D278-WESTERN-VEYR-001` · Western Veyr and Caer Veylan, Day 278. [HTML v10](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) · [SVG v7](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) · [transparent PNG v3](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) · [preview v6](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal). [Previous edition](../../archive/continuity/continuity-routing-before-auto-sync-20261121.md#atlas-review).
 
 ## Cooperative writer
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D278-1795335000692 | worker=Atlas | operations=ATLAS-D278-WESTERN-VEYR-001 | acquired_UTC=2026-11-22T08:10:00.692Z | heartbeat_UTC=2026-11-22T08:10:00.692Z | expires_UTC=2026-11-22T08:20:00.692Z | recovery=campaign/continuity/readme.md#atlas-review
+CAMPAIGN_WRITER | state=IDLE | last_token=ATLAS-D278-1795335000692 | released_UTC=2026-11-22T08:11:18.452Z | result=VERIFIED | recovery=campaign/continuity/readme.md#atlas-review
