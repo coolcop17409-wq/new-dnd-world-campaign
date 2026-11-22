@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 276,
+  "campaign_day": 277,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -517,10 +517,10 @@
           "recovery": "Short Rest / Long Rest"
         }
       ],
-      "purse_cp": 98256,
+      "purse_cp": 97596,
       "purse": {
-        "gp": 982,
-        "sp": 5,
+        "gp": 975,
+        "sp": 9,
         "cp": 6
       }
     },
@@ -601,7 +601,7 @@
         },
         {
           "name": "Hit Dice",
-          "current": "4.0",
+          "current": "6.0",
           "max": "6",
           "recovery": "Long Rest"
         },
