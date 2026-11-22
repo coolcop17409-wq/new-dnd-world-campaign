@@ -1,0 +1,11 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9",
+  "lane": "sync-repair",
+  "status": "partial",
+  "claim_owner": "maintenance-20261122-pr23",
+  "claim_expires_at": "2026-11-22T15:19:41.000Z",
+  "summary": "Diagnosing exact regression failure; checking existing PR22 root-cause proposal before any duplicate correction.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry",
+  "source_commit": "85f54c3fe2259fd35c60ad6cb204b90ec4e65215"
+}
