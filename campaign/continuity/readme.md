@@ -33,4 +33,4 @@ Verified edition `ATLAS-D278-WESTERN-VEYR-001` · Western Veyr and Caer Veylan, 
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | last_token=QUESTS-D279-20261122-1206 | released_UTC=2026-11-22T12:07:22Z | result=VERIFIED_SCOPED_QUEST_PREPARATION | recovery=prep/dm-only/dm-only-secret-quest-outlines.md#current-scoped-verification-and-consumer-handling--admin-quest-d279-20261122-01
+CAMPAIGN_WRITER | state=ACTIVE | token=SHOPS-D279-20261122-01 | worker=shops | operations=MR279,ACK279 | acquired_UTC=2026-11-22T14:04:13.608Z | heartbeat_UTC=2026-11-22T14:04:13.608Z | expires_UTC=2026-11-22T14:14:13.608Z | recovery=trackers/csv/magic-shops/events.csv ADMIN-MARKET-D279-20261122-01
