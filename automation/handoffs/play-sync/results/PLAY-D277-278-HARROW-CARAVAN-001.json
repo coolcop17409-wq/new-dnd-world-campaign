@@ -54,6 +54,6 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/bfd60a6b789d9ce0ebeb39a28be8d239baff3973/campaign/continuity/npcs.md"
   ],
   "generated_view_status": "Verified exact checkpoint and source hashes at eebc2dbf985a99d7905fa9b1d77f5abbef843c94; Day278 purse969gp3sp6cp.",
-  "cleanup_status": "Pending verified recovery pruning",
+  "cleanup_status": "Matching verified caravan recovery entry pruned; empty recovery container retained.",
   "verification_note": "Source comparison verified complete historical journal suffixes, exact archived checkpoint, one660cp debit, replay purse96936cp and verbatim pending_action. No resource refresh, provision debit or market/estate changes."
 }
