@@ -49,7 +49,7 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/8e0731e70fcf633eb71e2754e51c05f5c5425927/archive/continuity/campaign-state-before-PLAY-D277-CAER-VEYLAN-SPLIT-VISITS-001.md"
   ],
   "generated_view_status": "Verified exact checkpoint and state/dashboard source hashes at 48198e7cae3f9f273501e99c41cae8b3ad1b03e5; day277, purse975gp9sp6cp and full resources unchanged.",
-  "cleanup_status": "Pending verified recovery pruning",
+  "cleanup_status": "Matching verified Day277 split-visits recovery entry pruned; empty recovery container retained.",
   "verification_note": "Exact historical journal suffixes and archived prior checkpoint preserved. Accepted pending_action matches verbatim. Character, inventory and market event journals unchanged; only source-supported NPC/quest knowledge appended.",
   "preflight_tested_commit": "b8220260d2375850d8e5d466cac82bdd5e4f0f45"
 }
