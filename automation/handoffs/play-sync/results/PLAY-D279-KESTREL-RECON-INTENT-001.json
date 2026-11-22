@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D279-KESTREL-RECON-INTENT-001",
+  "status": "blocked",
+  "phase": "submission_blocked",
+  "summary": "The explicit pinned boundary is durable, but no immutable transport or PR was created. Trusted current-main builder retry reproduces the Actions dependency-resolution failure. All three accepted recovery entries remain intact; no owning gameplay changes applied by this run.",
+  "source_commit": "1227b2fc9b42cb488ac44cec4b4bc047a2d77533",
+  "source_journal": "automation/recovery/active.json",
+  "source_journal_blob": "88932eff4650b528d6edd494632f48004c05c563",
+  "source_journal_digest": "e863e07d25099481462904dcbddb719319450da02181abed0aac61d9c84137d9",
+  "request_commit": null,
+  "request_blob": null,
+  "transport_pr": null,
+  "owners_verified": false,
+  "applied_event_ids": [],
+  "tested_commit": "4ed0eb91dde8f23c0c045ca1e34baf26afe6aa3d",
+  "blocker": "automation.recovery_batch.build cannot resolve PLAY-REC-D279-YARD-SETTLEMENT-AND-PATIENT-LEAD-001 after verified cleanup removed that predecessor from active.json. Its exact evidence/hash is preserved in prior request PLAY-D279-FREIGHT-YARD-RESOLUTION-001 (PR21), complete bound main receipt and pinned journal009b78ce0bb8b13207a55ae88d4bd04c2a487daf. Current builder maps only entries still in the current journal, not recovery_entries from prior batches.",
+  "next_trigger": "Repair/review trusted dependency resolution with exact prior recovery_entries hash/event binding, preserving fail-closed behavior for ambiguous/conflicting mappings. Then rebuild and verify this SAME stable ID from the SAME journal commit after full open/closed/supersession discovery; publish one transport and use the central expiring claim. Never alter the frozen entries or prune before verified owners.",
+  "tests": [
+    {
+      "command": "python3 -m automation.recovery_batch build pinned.json --journal-commit 1227b2fc9b42cb488ac44cec4b4bc047a2d77533 --request-id PLAY-D279-KESTREL-RECON-INTENT-001 --prior-requests priors.json --supersessions supersessions.json",
+      "exit_code": 1,
+      "result": "unresolved dependency: PLAY-REC-D279-YARD-SETTLEMENT-AND-PATIENT-LEAD-001"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "result": "PASS at existing persisted checkpoint only"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
+      "exit_code": 0,
+      "result": "56 passed; current tests do not cover this pruned-predecessor case"
+    }
+  ],
+  "owner_refs": [
+    "automation/recovery/active.json@1227b2fc9b42cb488ac44cec4b4bc047a2d77533",
+    "automation/handoffs/play-sync/requests/PLAY-D279-FREIGHT-YARD-RESOLUTION-001.json@71652bee3ddd176f335eee0da4c4200c8657f694",
+    "automation/handoffs/play-sync/results/PLAY-D279-FREIGHT-YARD-RESOLUTION-001.json@4ed0eb91dde8f23c0c045ca1e34baf26afe6aa3d",
+    "automation/recovery_batch.py@4ed0eb91dde8f23c0c045ca1e34baf26afe6aa3d"
+  ],
+  "failed_workflow": {
+    "id": 45006540694,
+    "url": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45006540694",
+    "job_id": 137159294884
+  },
+  "recovery_preserved": true,
+  "advances_gameplay": false,
+  "discovery": "All22 historical PRs inspected, including closed PR10 and its verified supersession; all15 sync envelopes fetched (14accepted +1smoke). All14 accepted receipts terminal complete/superseded. No branch/request/PR for this stable boundary found in main/history discovery; no duplicate queue or transport created."
+}

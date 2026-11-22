@@ -1,5 +1,16 @@
 # Background synchronization — implementation and verified boundaries
 
+## Current observed status — maintenance verification 2026-11-22
+
+This update supersedes the older account-level403/opened-delivery limitation below **for the observed runs only**. GitHub Actions itself created synthetic [PR7](https://github.com/coolcop17409-wq/new-dnd-world-campaign/pull/7) on2026-11-21 and production [PR22](https://github.com/coolcop17409-wq/new-dnd-world-campaign/pull/22) on2026-11-22. Both PR authors are github-actions[bot]; each has a separate opened-worker claim, actual isolated correction, executed tests and terminal verified proposal receipt. PR22 collector45031073740 succeeded; worker tested0dab0b4320d20cd79e882f7ca8083f865ab4e913 against main4ed0eb91dde8f23c0c045ca1e34baf26afe6aa3d, shops validation and35regressions passed. This is observed Actions→PR→independent worker evidence, not subscription inference. No account setting was changed by this review.
+
+PR22 remains draft/unmerged, and main still fails shops validation: ADMIN-MARKET-D279-20261122-01 row144 has11columns instead of12. Its verified proposal restores only the missing empty Lot cell. Human-approved merge/application and fresh main verification remain pending; do not auto-apply or duplicate this terminal repair. Synthetic PR3/7 remain isolated/unmerged.
+
+The separate accepted-play pipeline did create Actions-authored [PR21](https://github.com/coolcop17409-wq/new-dnd-world-campaign/pull/21), whose main bound receipt verifies application and cleanup. A later explicit boundary failed before transport: [run45006540694](https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45006540694), job137159294884. Maintenance reproduced the exact pruned-predecessor dependency error with trusted current-main code and complete historical requests/supersession. Precise blocked submission receipt: automation/handoffs/play-sync/results/PLAY-D279-KESTREL-RECON-INTENT-001.json. No code/schema guard bypass, fabricated transport, owner application or recovery deletion.
+
+Observed duplicate repair-listener executions on main4ed0eb9 are SKIPPED, not repeated repairs: thirteen listed runs45031233273 through45031339853 produced no additional request/PR. One production signature/request/PR22 exists. No workflow or schedule edited.
+
+
 Administrative implementation dated 2026-11-20 America/Los_Angeles (remote runs crossed midnight into November 21). Accepted campaign-state, session-log, character event journal and all three character baselines are unchanged from initial source commit `a6bb82648b13158325f0f3335f9c53cbb1d05daf`. One historical OOC market row was padded with three omitted empty trailing fields; no values/effects changed. A concurrent atlas publication was preserved.
 
 ## Active implementation
@@ -54,7 +65,7 @@ Work run `47f6c885-3570-8325-8a8a-2d12d8b81019` started 2026-11-21 08:11:00Z and
 - Global workflow concurrency allowed irrelevant runs to replace pending collection. Moved filtering/concurrency to eligible jobs keyed by original run ID. Repeated-failure collection subsequently succeeded.
 - The malformed fixture intentionally remains invalid on the isolated **test base**; those failed runs are expected negative-test evidence. The repair head passes. Never merge the test branch into main.
 
-## Remaining account-level blocker and precise next action
+## Historical account-level blocker at initial implementation
 
 **The complete Actions → PR → Work path is not verified/operational yet.** GITHUB_TOKEN successfully created the request and repair branch, but POST /pulls returned HTTP 403 in collector [44883422731](https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/44883422731), attempt 2. The browser was signed out and could not access repository settings; the connected tools do not expose the needed administration setting.
 
