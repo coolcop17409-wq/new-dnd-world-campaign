@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D278-279-CARAVAN-REST-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr20-06f7cb6a",
+  "claim_expires_at": "2026-11-22T09:11:12Z",
+  "request_commit": "c0474cf1adcdef1417ffaf13e8f6f361ca0641c4",
+  "request_blob": "bb48398f4e6e23542c430226668c704f3c1ad19a",
+  "summary": "Pinned evidence verified; applying accepted camp conversations and wilderness overnight only.",
+  "blocker": null,
+  "applied_event_ids": []
+}
