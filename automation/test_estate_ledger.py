@@ -748,6 +748,32 @@ class SameDayPostingDependencies(unittest.TestCase):
             with self.subTest(rows=rows), self.assertRaises(ValueError):
                 ledger.order_ledger_events(rows)
 
+class HistoricalTaxAccrualTests(unittest.TestCase):
+    def test_source_linked_accruals_are_not_assessed_twice_at_first_close(self):
+        period = {"period_id": "TAX-59", "liability_id": "tax-opening"}
+        config = {"source_period_id": "TAX-59", "source_assessment_gp": "72.37"}
+        def row(ref, lid, delta, kind="tax_adjustment", **kw):
+            return dict(estate="Blackthorn", status="posted", reference_id=ref,
+                        liability_id=lid, liability_delta_gp=delta, event_type=kind, **kw)
+        events = [row("source-event", "tax-opening", "30.00"),
+                  row("TAX-59", "tax-opening", "-2.00"),
+                  row("payment", "tax-opening", "-100.37", "tax_payment"),
+                  row("TAX-272", "BT-TAX-272", "8.00")]
+        self.assertEqual(blackthorn_tax.prior_period_assessment(events, period, config),
+                         Decimal("100.37"))
+        events.append(dict(events[0], estate="Miregate"))
+        events.append(dict(events[0], status="forecast"))
+        self.assertEqual(blackthorn_tax.prior_period_assessment(events, period, config),
+                         Decimal("100.37"))
+
+    def test_second_period_does_not_include_first_period_carry(self):
+        config = {"source_period_id": "TAX-59", "source_assessment_gp": "72.37"}
+        period = {"period_id": "TAX-272", "liability_id": "BT-TAX-272"}
+        events = [dict(estate="Blackthorn", status="posted", event_type="tax_adjustment",
+                       reference_id="source-event", liability_id="BT-TAX-272", liability_delta_gp="2.63")]
+        self.assertEqual(blackthorn_tax.prior_period_assessment(events, period, config),
+                         Decimal("2.63"))
+
 if __name__ == "__main__":
     unittest.main()
 

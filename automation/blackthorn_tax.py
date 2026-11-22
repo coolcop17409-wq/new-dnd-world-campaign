@@ -179,6 +179,29 @@ def assessment_event(period, delta, closed_through_day, prior_assessed):
     }
 
 
+def prior_period_assessment(events, period, config):
+    """Include source-linked daily accruals as well as period-linked assessments.
+
+    Older authorized daily tax legs retain their source-event reference, while
+    the exact liability ID identifies the bill. Payments do not reduce the
+    assessment, and a row matching both keys is counted only once.
+    """
+    baseline = (dec(config["source_assessment_gp"])
+                if period["period_id"] == config["source_period_id"]
+                else Decimal("0"))
+    return baseline + sum(
+        (dec(row.get("liability_delta_gp", "0")) for row in events
+         if row.get("estate") == "Blackthorn"
+         and (row.get("status") or "").strip().lower() == "posted"
+         and (row.get("event_type") or "").strip().lower()
+             in {"tax_assessment", "tax_adjustment"}
+         and (row.get("reference_id") == period["period_id"]
+              or (period.get("liability_id")
+                  and row.get("liability_id") == period["liability_id"]))),
+        Decimal("0"),
+    )
+
+
 def append_rows(path, additions):
     with path.open(encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle)
@@ -238,13 +261,7 @@ def main():
     for period, calculated in zip(periods, report["periods"]):
         if not calculated.get("period_closed"):
             continue
-        baseline = (dec(config["source_assessment_gp"])
-                    if period["period_id"] == config["source_period_id"] else Decimal("0"))
-        prior_assessed = baseline + sum(
-            (dec(row.get("liability_delta_gp", "0")) for row in existing_tax
-             if row.get("reference_id") == period["period_id"]),
-            Decimal("0"),
-        )
+        prior_assessed = prior_period_assessment(existing_tax, period, config)
         target = dec(calculated["assessment_estimate_gp"])
         delta = money(target - prior_assessed)
         calculated["prior_assessed_gp"] = str(money(prior_assessed))
