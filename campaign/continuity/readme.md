@@ -25,8 +25,12 @@ Fallback, exact marker schema, prior-request discovery, supersession, retries an
 
 Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSION_LOG under 75,000 (preferred 30–45K); archive exact history before trimming. Never convert scheduled preparation, administrative receipts, synthetic tests or real-world time into campaign events. `migration/TEST_REPORT.md` retains unverified cutover items.
 
+## Atlas review
+
+[Last verified edition and file versions](../../archive/continuity/continuity-routing-before-auto-sync-20261121.md#atlas-review) · Day 266.
+
 ## Cooperative writer
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | last_token=QUEST-OOC-D278-ORATH-EXECUTION-20261121-01 | result=VERIFIED_SCOPED_PREPARATION | recovery=prep/dm-only/dm-only-secret-quest-outlines.md
+CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D278-1795335000692 | worker=Atlas | operations=ATLAS-D278-WESTERN-VEYR-001 | acquired_UTC=2026-11-22T08:10:00.692Z | heartbeat_UTC=2026-11-22T08:10:00.692Z | expires_UTC=2026-11-22T08:20:00.692Z | recovery=campaign/continuity/readme.md#atlas-review
