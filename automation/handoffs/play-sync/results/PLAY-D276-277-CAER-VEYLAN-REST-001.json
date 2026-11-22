@@ -7,7 +7,7 @@
   "claim_expires_at": "2026-11-22T00:48:23.889Z",
   "request_commit": "019f71f7c0ea1834e7244605eead40819722588a",
   "request_blob": "ce170aa6c7fbd351c3a75698d6a7975c06b831e3",
-  "summary": "Two accepted events applied once; one inn payment and Fenar Hit Dice recovery. Owners and separately committed checkpoint verified. No new gameplay or PR merge.",
+  "summary": "Frozen PR15 applied and verified; subsequently received explicit two-room correction remains durable and unapplied. Original cost/purse are historical and must not be used as latest accepted values.",
   "blocker": null,
   "applied_event_ids": [
     "D276-277-CAER-VEYLAN-COPPER-HEARTH-REST-001",
@@ -51,5 +51,11 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/f3de8de6bbbcd4bb62edfd14399b7fa940b5c40c/campaign/continuity/session-log.md"
   ],
   "generated_view_status": "derived-pending: generated publication not yet independently verified",
-  "cleanup_status": "pending separate guarded cleanup"
+  "cleanup_status": "Original matching verified recovery entry pruned; newer PLAY-REC-D277-TWO-ROOMS-CORRECTION-001 preserved intact.",
+  "newer_recovery": {
+    "request_id": "PLAY-REC-D277-TWO-ROOMS-CORRECTION-001",
+    "commit": "a8bedf67f03172df1a1b585e7b1a895fcb0c612d",
+    "status": "correction-pending",
+    "summary": "Arrived after owner/checkpoint publication. Latest explicit two-room correction supersedes original room count/cost/purse: bill6gp6sp; accepted purse975gp9sp6cp. Existing posted original debit requires linked one-time +160cp adjustment in subsequent correction synchronization; do not re-charge or double-refund. Rest and other values unchanged."
+  }
 }
