@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "through_day": 266,
+  "through_day": 278,
   "source_checkpoint_day": 230,
   "periods": [
     {
@@ -9,14 +9,17 @@
       "end_day": 271,
       "due_day": 272,
       "liability_id": "OPEN-BLACKTHORN-rolling-tax-unpaid-gp-D230",
-      "through_day": 266,
-      "actual_income_gp": "1614.81",
-      "actual_expenses_gp": "734.29",
-      "management_payroll_gp": "252.00",
-      "upkeep_gp": "64.29",
-      "taxable_base_gp": "1287.93",
-      "assessment_estimate_gp": "128.79",
-      "period_closed": false
+      "through_day": 271,
+      "actual_income_gp": "2001.81",
+      "actual_expenses_gp": "873.24",
+      "management_payroll_gp": "287.00",
+      "upkeep_gp": "73.21",
+      "taxable_base_gp": "1492.06",
+      "assessment_estimate_gp": "149.21",
+      "period_closed": true,
+      "prior_assessed_gp": "149.21",
+      "assessment_delta_gp": "0.00",
+      "assessment_event": null
     },
     {
       "period_id": "TAX-272",
@@ -24,11 +27,14 @@
       "end_day": 361,
       "due_day": 362,
       "liability_id": "BT-TAX-272",
-      "through_day": null,
-      "taxable_base_gp": null,
-      "assessment_estimate_gp": null,
-      "period_closed": false,
-      "note": "Period has not started."
+      "through_day": 278,
+      "actual_income_gp": "199.00",
+      "actual_expenses_gp": "111.23",
+      "management_payroll_gp": "49.00",
+      "upkeep_gp": "12.50",
+      "taxable_base_gp": "26.27",
+      "assessment_estimate_gp": "2.63",
+      "period_closed": false
     },
     {
       "period_id": "TAX-362",
