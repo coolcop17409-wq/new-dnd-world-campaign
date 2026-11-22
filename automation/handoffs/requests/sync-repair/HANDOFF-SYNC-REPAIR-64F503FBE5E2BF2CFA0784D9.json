@@ -1,0 +1,49 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9",
+  "lane": "sync-repair",
+  "source": {
+    "kind": "validation_failure",
+    "checkpoint_id": "UNCHANGED-ADMIN-ONLY",
+    "commit_sha": "85f54c3fe2259fd35c60ad6cb204b90ec4e65215",
+    "workflow_run_id": 45036137684,
+    "workflow_url": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45036137684"
+  },
+  "request": "Investigate this exact validation failure; propose only evidence-supported corrections on the existing repair branch.",
+  "scope": [
+    "automation/handoffs/play-sync/results/PLAY-D279-KESTREL-RECON-INTENT-001.json",
+    "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md",
+    "prep/dm-only/dm-only-secret-quest-outlines.md"
+  ],
+  "output_owner_paths": [
+    "automation/handoffs/play-sync/results/PLAY-D279-KESTREL-RECON-INTENT-001.json",
+    "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md",
+    "prep/dm-only/dm-only-secret-quest-outlines.md"
+  ],
+  "priority": "high",
+  "advances_gameplay": false,
+  "failure_signature": "64F503FBE5E2BF2CFA0784D9",
+  "diagnostic": {
+    "schema_version": 1,
+    "status": "FAIL",
+    "scope": "workflow",
+    "findings": [
+      {
+        "code": "workflow.step",
+        "path": ".github/workflows/sync-regression.yml",
+        "event_id": "",
+        "message": "regression: Test synthetic transactions, deduplication and concurrent writes"
+      }
+    ],
+    "affected_files": [
+      "automation/handoffs/play-sync/results/PLAY-D279-KESTREL-RECON-INTENT-001.json",
+      "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md",
+      "prep/dm-only/dm-only-secret-quest-outlines.md"
+    ],
+    "notes": [
+      "Artifact unavailable or tests failed outside scoped validator; no automatic record correction."
+    ]
+  },
+  "repair_branch": "campaign-repair/64f503fbe5e2bf2cfa0784d9",
+  "base_branch": "main",
+  "synthetic": false
+}
