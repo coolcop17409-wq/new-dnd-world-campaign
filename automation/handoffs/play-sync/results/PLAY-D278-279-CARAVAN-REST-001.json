@@ -2,12 +2,32 @@
   "schema_version": 1,
   "request_id": "PLAY-D278-279-CARAVAN-REST-001",
   "status": "partial",
-  "phase": "claimed",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr20-06f7cb6a",
   "claim_expires_at": "2026-11-22T09:11:12Z",
   "request_commit": "c0474cf1adcdef1417ffaf13e8f6f361ca0641c4",
   "request_blob": "bb48398f4e6e23542c430226668c704f3c1ad19a",
   "summary": "Pinned evidence verified; applying accepted camp conversations and wilderness overnight only.",
   "blocker": null,
-  "applied_event_ids": []
+  "applied_event_ids": [
+    "D278-CARAVAN-CAMP-COMPANIONS-CONVERSATION-001",
+    "D278-V-BRIEF-CARAVAN-REASON-FOR-TRAVEL-001",
+    "D278-279-EASTBOUND-CARAVAN-OVERNIGHT-REST-001"
+  ],
+  "owner_commit": "048bf4a10257782fbaa4e8979904516d85f9f2e0",
+  "owners_verified": true,
+  "tested_commit": "b624763a1d87283543bc2918070191b6676c9041",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "b624763a1d87283543bc2918070191b6676c9041"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
+      "exit_code": 0,
+      "result": "56 passed",
+      "tested_commit": "b624763a1d87283543bc2918070191b6676c9041"
+    }
+  ]
 }
