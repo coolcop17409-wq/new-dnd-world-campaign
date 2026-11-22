@@ -2131,15 +2131,6 @@
     },
     {
       "settlement": "Ilarath",
-      "dealer": "Hollow Note Foundry",
-      "lot": "Orb of Gonging",
-      "qty": "1.",
-      "price_gp": "35.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ILA-08. Prepared, undiscovered. Ask at Hollow Note Foundry during trade hours. Owner authorizes 35 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Ilarath",
       "dealer": "Highbranch Soleworks",
       "lot": "Slippers of Spider Climbing",
       "qty": "1.",
@@ -2179,9 +2170,9 @@
       "dealer": "Blue Retort Apothecary",
       "lot": "Potion of Aqueous Form",
       "qty": "2.",
-      "price_gp": "1800.",
+      "price_gp": "1710",
       "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ALL-03. Prepared, undiscovered. Ask at Blue Retort Apothecary during trade hours. Owner authorizes 1800 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+      "terms": "M7-ALL-03. Prepared, undiscovered. Ask at Blue Retort Apothecary during trade hours. Owner authorizes 1710 gp for this lot. Counteroffers go to the owner. No hold or deposit. D276 D276-ALLHAVEN-BLUE-R"
     },
     {
       "settlement": "Allhaven",
