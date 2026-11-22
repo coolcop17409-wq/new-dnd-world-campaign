@@ -71,7 +71,7 @@ Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — MG-ELDEN-CALL-237** is routed to current `R200-RIVER-CUSTOMER-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-NERIS-STORAGE-CHECK-233** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-OWN-GRAIN-PILOT-238** is routed to current `R200-MG-PILOT-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
-- **Miregate — MG-FARM-COMMERCIAL-REVIEW** is routed to current `R200-MG-FARM-NEXT` (Continues in D266 owner; verified owner successor). This does not complete an open successor.
+- **Miregate — MG-FARM-COMMERCIAL-REVIEW** is routed to current `R200-MG-FARM-NEXT` (Superseded by performed sowing; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-HESSA-MILL-232-NEXT** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-JOREN-STORE-232-REVIEW** is routed to current `R200-FIN-MG` (Verified; verified owner successor). This does not complete an open successor.
 - **Miregate — MG-PUNT-REBUILD-D231** is routed to current `MG-PUNT-COST-RECOVERY` (Completed; verified owner successor). This does not complete an open successor.
@@ -111,7 +111,7 @@ These owner requests retain their actual dependencies/next triggers; being liste
 - **Blackthorn — R200-BT-GARRAN-NEXT** (Continues in D266 owner): Standing ordinary surplus outlet. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Old Distributary Fort — R200-OF-COLLECT** (Continues in D266 owner): Crown invoice and unbilled duty. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Miregate — R200-MG-PILOT-NEXT** (Continues in D266 owner): Pilot sold; future trading terms. Dependency/trigger: data/estate/operational-checkpoint.csv.
-- **Miregate — R200-MG-FARM-NEXT** (Continues in D266 owner): Four-acre cereal trial and farmed/milled grain. Dependency/trigger: data/estate/operational-checkpoint.csv.
+- **Miregate — R200-MG-FARM-NEXT** (Superseded by performed sowing): Four-acre cereal trial and farmed/milled grain. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Reedbed — R200-RB-FLEET-NEXT** (Continues in D266 owner): Qualified BARGE01 upper freight. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Miregate and Reedbed — R200-RIVER-CUSTOMER-NEXT** (Continues in D266 owner): Confirmed customer slots and retention. Dependency/trigger: data/estate/operational-checkpoint.csv.
 - **Reedbed — R200-RB-WALKIN-NEXT** (Continues in D266 owner): Passing traffic, bench and storage. Dependency/trigger: data/estate/operational-checkpoint.csv.
