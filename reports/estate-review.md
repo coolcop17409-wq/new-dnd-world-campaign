@@ -16,33 +16,43 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Unfinished tasks due by campaign Day 266
+## Unfinished tasks due by campaign Day 279
 
 Campaign-day source: CAMPAIGN_STATE.
+- **Miregate — Day 272: MG-TAX-272** (Pending)
 - **Miregate — Day 249: MG-WEEK-249** (Pending)
 - **Miregate — Day 256: MG-WEEK-256** (Pending)
 - **Miregate — Day 263: MG-WEEK-263** (Pending)
+- **Miregate — Day 270: MG-WEEK-270** (Pending)
 - **Miregate — Day 250: MG-PAY-250** (Pending)
 - **Miregate — Day 257: MG-PAY-257** (Pending)
 - **Miregate — Day 264: MG-PAY-264** (Pending)
+- **Miregate — Day 271: MG-PAY-271** (Pending)
 - **Reedbed — Day 245: RB-WEEK-245** (Scheduled)
 - **Reedbed — Day 252: RB-WEEK-252** (Scheduled)
 - **Reedbed — Day 259: RB-WEEK-259** (Scheduled)
 - **Reedbed — Day 266: RB-WEEK-266** (Scheduled)
+- **Reedbed — Day 272: RB-TAX-272** (Scheduled)
 - **Reedbed — Day 250: RB-PAYROLL-250** (Conditional)
 - **Reedbed — Day 257: RB-PAYROLL-257** (Conditional)
 - **Reedbed — Day 264: RB-PAYROLL-264** (Conditional)
+- **Reedbed — Day 271: RB-PAYROLL-271** (Conditional)
 - **Old Distributary Fort — Day 247: OF-WEEK-247** (Scheduled)
 - **Old Distributary Fort — Day 254: OF-WEEK-254** (Scheduled)
 - **Old Distributary Fort — Day 261: OF-WEEK-261** (Scheduled)
+- **Old Distributary Fort — Day 268: OF-WEEK-268** (Scheduled)
+- **Old Distributary Fort — Day 272: OF-TAX-272** (Scheduled)
 - **Old Distributary Fort — Day 250: OF-PAYROLL-250** (Conditional)
 - **Old Distributary Fort — Day 257: OF-PAYROLL-257** (Conditional)
 - **Old Distributary Fort — Day 264: OF-PAYROLL-264** (Conditional)
+- **Old Distributary Fort — Day 271: OF-PAYROLL-271** (Conditional)
 - **Blackthorn — Day 246: WOOD-WEEK-8** (Scheduled)
 - **Blackthorn — Day 250: WOOD-INSPECT** (Scheduled)
 - **Blackthorn — Day 251: WOOD-PICKUP** (Scheduled)
 - **Blackthorn — Day 245: REPEAT-TARGET-245** (Scheduled)
 - **Blackthorn — Day 259: REPEAT-TARGET-259** (Scheduled)
+- **Blackthorn — Day 272: TAX-59** (Rolling / future)
+- **Blackthorn — Day 272: CARROW-272** (Scheduled)
 
 ### Verified later settlements
 
