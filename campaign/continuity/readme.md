@@ -29,4 +29,4 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | last_token=QUEST-OOC-D278-ORATH-20261121-01 | result=VERIFIED_SCOPED_PREPARATION | recovery=prep/dm-only/
+CAMPAIGN_WRITER | state=LEASED | token=QUEST-OOC-D278-ORATH-EXECUTION-20261121-01 | owner=quests | acquired=2026-11-22T06:52:17.728Z | heartbeat=2026-11-22T06:52:17.728Z | expires=2026-11-22T07:02:17.728Z | scope=Orath-private-execution-packets | recovery=prep/dm-only/dm-only-secret-quest-outlines.md
