@@ -2,6 +2,24 @@
 
 Owner authorized 2026-11-21. `automation/recovery/active.json` on main is the durable buffer of accepted play not yet verified in owning records. This narrowly supersedes older no-per-turn-write instructions. It is evidence for recovery, not another resource ledger or permission to adjudicate. No new automation or per-turn PR is needed.
 
+## Automatic natural-boundary submission (current owner-authorized fast path)
+
+When a response reaches a **genuine** sync boundary (completed combat/significant exploration, qualifying rest, major transaction, NPC/quest milestone, approximately 8–12 substantive changed turns, explicit pause/end/`Sync campaign`), append the accepted recovery entry and, in the **same SHA-guarded JSON update**, add the optional top-level field:
+
+```json
+"sync_trigger": {
+  "ready": true,
+  "reason": "combat_end",
+  "request_id": "PLAY-D278-EXAMPLE-NATURAL-BOUNDARY-001",
+  "last_recovery_id": "PLAY-REC-EXAMPLE-001",
+  "destination_checkpoint": "D278-EXAMPLE-CHECKPOINT-001"
+}
+```
+
+These are **schema examples, never played IDs or an actual trigger**. Valid `reason` values are `combat_end`, `significant_exploration`, `qualifying_rest`, `major_transaction`, `quest_milestone`, `npc_milestone`, `substantive_exchanges`, `explicit_sync`, `pause`, `chat_handoff`. Use exact actual stable IDs and the last entry's checkpoint. Do not mark routine low-stakes turns as boundaries; do not infer from world time or NPC plans. If an explicit Sync is requested after entries were already captured, add the marker through a guarded update without inventing a gameplay event. If journal is empty, there is nothing to queue. Read back the exact marker and content once; then **return to play**, do not poll CI.
+
+`.github/workflows/auto-sync-submit.yml` runs on changes to `active.json`, pins that source commit, verifies the ready marker and all historical PRs/supersessions, builds and independently verifies the immutable request using `automation.recovery_batch`, and opens a single draft `[CAMPAIGN-SYNC]` PR. Requests are not triggered without a valid marker. `automation/auto_sync_submit.py` handles deduplication and branch-conflict checks. Github Actions posts a status artifact `auto-sync-submission` (queued/existing/not_ready/blocked) without gameplay writes. PR opening triggers the established independent Work worker. **Never say queued until the actual PR has been verified**; after only the recovery readback, say "recovery recorded; background handoff requested." On failure, preserve unsynced entries and use the existing manual route below or scheduled record-maintenance fallback; do not recreate already submitted IDs. The worker's verified receipt alone establishes owners saved, and only then may exact recovery entries be pruned.
+
 ## Capture while responding
 
 For each response with new accepted play, rolls, facts, explicit corrections, time/resource/custody changes or a changed pending decision, append one entry BEFORE finishing the response. Do not write for unchanged discussion. Use the `accepted_play` envelope schema from `automation/play_handoff.py`: a stable unique `PLAY-REC-<session>-<sequence>` request_id, exact base_commit, source/destination checkpoint, source_evidence, pending_action, depends_on and events. Each event has stable event_id, accepted=true, exact evidence/before/after and owner_paths. Include the precise tactical state needed to continue, actual executed dice and relevant verbatim player instructions. No invented missing values; no proposed V decisions. A record captures already resolved authorized outcomes, not an unapproved proposal. Corrections get a new event and explicitly identify what they supersede; never mutate old entries.

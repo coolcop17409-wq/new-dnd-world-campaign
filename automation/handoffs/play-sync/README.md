@@ -2,7 +2,13 @@
 
 Owner authorization, 2026-11-21: automatically hand off already accepted play at natural sync boundaries; no repeated player prompt. This lane records existing outcomes, never creates gameplay. The background worker may apply supported accepted changes to main through guarded commits, but must not merge a PR. Repair proposals retain their separate no-auto-apply rules.
 
-## Live chat: automatic submission
+## Current automatic request creation — preferred
+
+Live DM preserves accepted play per `automation/recovery/README.md`. At each actual sync boundary set `sync_trigger` in the small guarded recovery journal update. `.github/workflows/auto-sync-submit.yml` and `automation/auto_sync_submit.py` independently perform complete historical PR discovery, pinned journal batching, stable-ID deduplication, branch write, readback and draft `[CAMPAIGN-SYNC]` PR creation. The event-triggered background Work worker applies already-accepted owner events and validates the final checkpoint; never merge the transport. Ordinary turns contain no marker and create **no** sync request. Failure artifacts are inspected by Record Maintenance at its scheduled run; do not block the live turn waiting for CI or claim queued from a mere recovery append.
+
+The following manual procedure remains an explicit fallback for a failed automatic submission or for older immutable requests; it is **not** the normal foreground sequence.
+
+## Manual fallback: original accepted-play submission
 
 At combat/exploration completion, qualifying rest, major transaction, quest/NPC milestone, 8–12 changed substantive exchanges, or explicit pause/end/chat switch, automatically submit an immutable batch. Do not do a full multi-file sync in the foreground. Explicit “Sync campaign” means enqueue and confirm durable submission; if the player asks to wait for fully applied owners, verify completion or report pending honestly. Never ask whether to submit an already authorized batch. Each changed response first records durable recovery evidence under `automation/recovery/README.md`; normal boundaries still submit the transport batch. A failed recovery write remains unsaved.
 

@@ -1,0 +1,52 @@
+name: Queue accepted play at explicit recovery boundary
+on:
+  push:
+    branches: [main]
+    paths:
+      - "automation/recovery/active.json"
+      - "automation/auto_sync_submit.py"
+      - ".github/workflows/auto-sync-submit.yml"
+  pull_request:
+    paths:
+      - "automation/auto_sync_submit.py"
+      - "automation/test_auto_sync_submit.py"
+      - ".github/workflows/auto-sync-submit.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify explicit boundaries, dedup and pinned recovery
+        run: |
+          python3 -m py_compile automation/auto_sync_submit.py
+          python3 -m unittest automation.test_auto_sync_submit automation.test_recovery_batch -v
+  submit:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    concurrency:
+      group: recovery-submit-main
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Submit pinned marked recovery without blocking play
+        env:
+          GITHUB_TOKEN: ${{ secrets.CAMPAIGN_SYNC_TOKEN || github.token }}
+        run: python3 automation/auto_sync_submit.py
+      - name: Preserve exact submitted/blocked status for worker fallback
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: auto-sync-submission
+          path: reports/auto-sync-submission.json
+          if-no-files-found: warn
+          retention-days: 90
