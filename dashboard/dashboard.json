@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 277,
+  "campaign_day": 278,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -517,10 +517,10 @@
           "recovery": "Short Rest / Long Rest"
         }
       ],
-      "purse_cp": 97596,
+      "purse_cp": 96936,
       "purse": {
-        "gp": 975,
-        "sp": 9,
+        "gp": 969,
+        "sp": 3,
         "cp": 6
       }
     },
