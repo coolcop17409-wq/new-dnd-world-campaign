@@ -1,30 +1,52 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D277-CAER-VEYLAN-TWO-ROOM-CORRECTION-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr16-3c8aa360",
   "claim_expires_at": "2026-11-22T00:51:25.481Z",
   "request_commit": "67597b5d23e5cf544c49ceef970e2135c649ec1f",
   "request_blob": "4934656e96561bd1ecc6e2ef01d0944ad04d4160",
-  "summary": "One explicit correction and one linked160cp adjustment verified; separate corrected checkpoint pending.",
+  "summary": "Explicit two-room correction applied once with linked160cp adjustment to original posted820cp debit; net bill660cp, V purse97596cp. Rest/resources/custody/time unchanged.",
   "blocker": null,
   "applied_event_ids": [
     "D277-CAER-VEYLAN-TWO-ROOM-INN-BILL-CORRECTION-001"
   ],
   "owner_commit": "c7eb1b1929814e1a4caca0d9ec4829002b0f2f29",
   "owners_verified": true,
-  "tested_commit": "384f4d157b19d08bd84f7a23e11ef3ebb8d1bb0e",
+  "tested_commit": "0c10b0ae2899b1c315423507eb623f4829741e12",
   "tests": [
     {
       "command": "python3 automation/sync_validate.py --scope final --phase final",
-      "exit_code": 0
+      "exit_code": 0,
+      "tested_commit": "0c10b0ae2899b1c315423507eb623f4829741e12"
     },
     {
       "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
       "exit_code": 0,
-      "result": "56 passed"
+      "result": "56 passed",
+      "tested_commit": "0c10b0ae2899b1c315423507eb623f4829741e12"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr16-pinned.json --request /tmp/pr16-request.json --prior-requests /tmp/pr16-prior.json --supersessions /tmp/pr16-supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "0b42e4f00653465587e8b76106a5f1244dbf7e16"
     }
   ],
-  "verification_note": "Independent historical-prefix/unique-ID/replay checks passed: one new currency row, original debit retained, net inn660cp, purse97596cp; FenarHD6,PixieDust1,rations21/feed28 unchanged."
+  "verification_note": "Independent historical-prefix/unique-ID/replay checks passed: one new currency row, original debit retained, net inn660cp, purse97596cp; FenarHD6,PixieDust1,rations21/feed28 unchanged.",
+  "request_digest": "3d5bc7cb50eb4abeac1c909e3320f466db002891a4d9107af2c591ea466b78df",
+  "checkpoint_commit": "525939a564a548287b0de3ce6df98d958b819ba8",
+  "checkpoint_verified": true,
+  "verified_event_ids": [
+    "D277-CAER-VEYLAN-TWO-ROOM-INN-BILL-CORRECTION-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/525939a564a548287b0de3ce6df98d958b819ba8/campaign/continuity/campaign-state.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c7eb1b1929814e1a4caca0d9ec4829002b0f2f29/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c7eb1b1929814e1a4caca0d9ec4829002b0f2f29/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c7eb1b1929814e1a4caca0d9ec4829002b0f2f29/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c7eb1b1929814e1a4caca0d9ec4829002b0f2f29/archive/continuity/campaign-state-before-PLAY-D277-CAER-VEYLAN-TWO-ROOM-CORRECTION-001.md"
+  ],
+  "generated_view_status": "Verified source hashes, exact corrected checkpoint, purse975gp9sp6cp and unchanged resources/custody at 0c10b0ae2899b1c315423507eb623f4829741e12",
+  "cleanup_status": "pending separate guarded cleanup"
 }
