@@ -2,7 +2,7 @@
   "schema_version": 1,
   "request_id": "PLAY-D289-NIGHTGLASS-ARCHIVE-FUND-SEVERIN-SYNC-001",
   "status": "partial",
-  "phase": "owners_published",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr38-ef4aa2b4",
   "claim_expires_at": "2026-11-23T23:43:00Z",
   "request_commit": "101fe31cc16bc89e043dc682b049234e536c691a",
@@ -26,5 +26,7 @@
     "D289-V-FUND-CORIS-NEGOTIATES-100GP-DOCUMENT-ADVANCE-001",
     "D289-V-SEVERIN-PROPOSES-THREE-HOUSE-CROSSBORDER-UNIFIED-VOICE-001"
   ],
-  "tested_candidate": "2cee446acc218d61348780adf0feabd7bbca3496"
+  "tested_candidate": "2cee446acc218d61348780adf0feabd7bbca3496",
+  "owner_commit": "988697f78f96376d59045daec688cdd438061fa2",
+  "owners_verified": true
 }
