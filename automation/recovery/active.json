@@ -1563,13 +1563,41 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-VAULT-ARCANA-BASE-CHECK-001",
+      "base_commit": "f46258171240fff22ee2ef147b927fc1aff0a1d4",
+      "source_checkpoint": "D281-2027-V-VAULT-INSCRIPTIONS-READ-PAST-LIFE-001",
+      "destination_checkpoint": "D281-2028-V-VAULT-ARCANA-FAILED-FIGURE-OPTION-001",
+      "source_evidence": "Player explicitly said \"Yes\" to the DM's immediate offer to investigate the fixed heavy armored sentinel's construction with Intelligence(Arcana) from V's current concealment BEHIND SOLID STONE at the laboratory-side corner of Station Kestrel's 20ft inner-vault passage, Day281~20:27. This is a NONPROFICIENT Intelligence(Arcana) check with V modifier+0 from owning skills, not a request to move into the exposed corridor, touch armor, break cover, spend limited Martial Points, cast magic or attack. DM predeclared DC15 for discerning reliable specific arcane construction/control clues from the available distant appearance and maintenance plate. Genuinely executed Python secrets d20 FACE8 +0=8 vs DC15 FAIL. V recognizes only mundane obvious sophisticated animated construct craft and fixed spell-warning plate he had already read using his last Reborn Past Life success (Fireball, Heat Metal, Lightning Bolt marked No Effect); he does NOT learn or invent its command word, shutdown system, control token, authority of unconscious Mage, exact statblock, blindsight, weakness, or route behind it. Guardian remains at fixed post guarding CLOSED heavy iron vault door; V remains concealed at stone corner from earlier Stealth d20FACE6+10=16 versus printed passive14, no new movement or detection. No new attack/initiative, guard deployment, patient change, lab document recovery or resources spent by this failed check. A LEGAL optional player choice may modify SAME failed nonproficient skill check with approved adopted homebrew Figure It Out: spend 4 of V's current 7 Martial Points at +2 each = +8, to raise Arcana from8 to16 againstDC15. User has NOT authorized this consequential 4MP cost yet. No Past Life left0/3, Psi dice0/6, so they cannot be silently used for correction. Time slight consideration, ~20:28 without patrol advance or quest time skip. KN-M1 Mage still alive unconscious/stable0HP in central lab after V nonlethal strike, initially rolled d4FACE2h natural recovery~22:17 unless altered; dagger separated to lab surface, component pouch with body. West lab door closed/locked, corridor KN-G6 obeying corrected successful imitation \"Don't let anyone in\" and has NOT entered. West-threshold Animated Armor still at post; east vent shutters closed, exterior grille detached on high sill. V carries TWO earlier contradictory patient occupancy/discharge folios and separate compact signed local trial instructions/observation logs/injury diagrams, but higher authorization from vault still unacquired. V HP48/48 AC19 HD7/7 MP7/7 Sup4/4 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, purse969gp3sp6cp, provisions12 person-ration-days/feed16 horse animal-days, Pixie Dust1 sealed, LongRest5/6. Cirren51/51 all spells and Fenar59/59 full Rage4/4 Shift3/3 MP6/6 remain masked/free outside west/southwest woods with V-owned50ft rope Fenar holds, 2-way Psychic Whispers until~22:56; Mara healthy with V-owned four healthy horses/coached carriage 0.5mile south, unlinked. All11 captive patients still at station; nine in ordinary ward, P10/P11 in separate north rooms with straps UNBUCKLED, waiting for V's signal. Next player choice is spend4MP on Figure It Out to boost the same Arcana check or retain the failed result and choose another course, with no automatic V spending. The preexisting validated significant-exploration sync marker remains; append only one new recovery entry and update marker's tail, no immediate owner batch in active scene.",
+      "pending_action": "Day281 ~20:28 Station Kestrel inner vault approach. V masked SOLO behind lab-side SOLID STONE corner, concealed (earlier Stealth16 vs vault sentinel passive14). Heavy animated armored guardian stands stationary by still-closed locked iron vault door20ft down open passage; no true stealth route across exposed corridor and no guard detection. V opted to try Arcana identification at range, predeclared DC15, genuine d20FACE8+INT Arcana0=8 FAIL. No new precise control lore learned beyond prior \"Fireball, Heat Metal, Lightning Bolt — No Effect\" plate read via successful earlier Past Life; V knows substantial arcane construct likely but no found key/disable mechanism/owner instruction. V is NONPROFICIENT Arcana and adopted Figure It Out may optionally add +2 per MP, so FOUR MP (of current7/7) would add+8 and change same result8→16/DC15 SUCCESS if player authorizes; player has NOT yet chosen to spend. No MP/Psi/PastLife spent on this new check; Psi0/6, PastLife0/3, MP7/7. Mage KN-M1 unconscious stable0/40 unbound at central lab table, natural recovery~22:17 if unchanged, dagger placed out of reach, component pouch remains. WEST lab door locked from inside, KN-G6 corridor guard believes V's previously corrected impersonated order not to let anyone in and holds post; Animated Armor at west threshold unmoved; east vent shutters shut but grille on outer sill detached; vault original regional authorizations unseen. V carries original TWO contradiction folios plus ONE compact signed lab trial log/injury diagram packet. V48/48HP AC19 HD7/7 Sup4/4 ActionSurge0/1 SecondWind1/1 PsiRecovery0/1, purse969gp3sp6cp, rations12 person-days/feed16 animal-days, sealed Pixie Dust1, LongRest5/6. Cirren51/51 and Fenar59/59 masked and alive west outside woods with V-owned50ft rope Fenar holds, Psychic Whispers link to both active until~22:56; Mara healthy with four healthy V-owned horses/coach half-mile south unlinked. Eleven patients still detained, north P10/P11 now unbuckled from restraints and staying on beds awaiting V signal. Await player's Figure It Out 4MP decision or alternate action, no assumption of success/control/attack.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-PAST-LIFE-VAULT-INSCRIPTIONS-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-VAULT-SENTINEL-ARCANA-UNBOOSTED-001",
+          "accepted": true,
+          "evidence": "V accepts offered ranged Arcana examination of Kestrel vault guardian from existing solid-corner concealment. Arcana nonproficient +0, DC15, genuine d20FACE8+0=8 failure; no new control method learned or physical advance. No resources spent. Figure It Out alternative (+2 per1MP, 4MP total needed to achieve16) is offered but NOT activated without V authorization.",
+          "before": "V masked unseen at north vault passage corner; earlier PastLife corrected inscriptions check17/DC14, PastLife0/3, Psi0/6, MP7/7, closed vault armored guardian at post.",
+          "after": "Same concealed position, live Arcana attempt base result8/DC15 fail, no extra inside facts or detection, MP7/7 unchanged. Await optional Figure It Out 4MP or other V decision.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "data/characters/events.csv",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-PAST-LIFE-VAULT-INSCRIPTIONS-001",
-    "destination_checkpoint": "D281-2027-V-VAULT-INSCRIPTIONS-READ-PAST-LIFE-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-VAULT-ARCANA-BASE-CHECK-001",
+    "destination_checkpoint": "D281-2028-V-VAULT-ARCANA-FAILED-FIGURE-OPTION-001"
   }
 }
