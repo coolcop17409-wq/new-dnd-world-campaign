@@ -1621,13 +1621,42 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-FIGURE-IT-OUT-SPEND-REVOKED-001",
+      "base_commit": "bee4bdc765d91a9dce99d4796861c9d857bff4d8",
+      "source_checkpoint": "D281-2028-V-VAULT-FIGURE-IT-OUT-ARCANA-SUCCESS-001",
+      "destination_checkpoint": "D281-2028-V-VAULT-ARCANA-UNBOOSTED-MP7-001",
+      "source_evidence": "LATEST EXPLICIT PLAYER CORRECTION immediately following the preceding Figure It Out +7 on Arcana at Day281~20:28 behind stone corner of Station Kestrel's NORTH 20ft vault approach, where original Arcana d20FACE8+INT0=8 vsDC15 FAILED and user initially stated \"+1 per martial point, but I can use 7\": \"Apologies i changed my mind on spending MP\". Player WITHDRAWS authorization to expend the seven Martial Points on this still-immediate check, and therefore corrects the prior accepted-play entry PLAY-REC-D281-KESTREL-FIGURE-IT-OUT-7MP-RULE-CORRECTION-001 and event D281-V-FIGURE-IT-OUT-7MP-ARCANA-SUCCESS-001. Treat former 7MP spend/result as RETRACTED/UNPLAYED for the current fictional state; do NOT duplicate as refund/rest recovery event or claim a new Long/Short Rest, external payment, score advancement, elapsed world time or a fresh d20 roll. V Martial Points remain at prior available 7/7 (superseding earlier 0/7), and SAME original nonproficient Intelligence(Arcana) d20 FACE8+0=8 vsDC15 is the FINAL FAILED result, with NO Figure It Out use and NO Arcana-specific discovery. The distinct latest explicit standing rule correction, 'Figure It Out adds +1 to a nonproficient skill check per Martial Point spent' (not outdated +2/MP), REMAINS valid and must still be propagated to owning campaign rule and v-martial tracker at next owner synchronization; this correction revokes only the spending decision, not that rules clarification. The downstream narrated Arcana-success-only identification as a specific 'Helmed Horror', arcane-sense mechanism and confirmation of guard's animation-control details are NOT established V knowledge after revoked check; retain only prior actually established observable facts from earlier separate corrected Perception d20FACE7+4+PastLife d6FACE6=17/DC14: large animated-looking armored sentry stands at closed heavy iron vault door20ft down uncovered passage, lightly turned helmet, maintenance plate reads Fireball — No Effect; Heat Metal — No Effect; Lightning Bolt — No Effect. No visible shutdown phrase/control key discovered by V, no access to inner vault. Underlying DM-only prep still owns actual creature stat block/finite posted guardian, but V has not made a successful identification check. V remains MASKED, UNDETECTED, behind the LAB-side SOLID STONE corner with earlier genuine Stealth d20FACE6+10=16 vs guardian passive14, not in its open LOS/blindsight corridor, and DOES NOT choose any new action, attack, spell, move, spending, conversation or attempt to lockpick vault. Time same Day281~20:28. V HP48/48 AC19 HD7/7 Martial Points7/7, Superiority4/4 Psi0/6 PastLife0/3 (spent on prior inscriptions, not this revoked check), PsiRecovery0/1, Action Surge0/1, SecondWind1/1; two original contradictory occupied/discharged register folios plus physically held compact packet of locally signed nonconsensual trial instructions, patient-index observations and matching injury diagrams, all retained; higher-authority records still inaccessible beyond guardian. KN-M1 Mage unconscious stable0/40HP in lab, prior genuine recovery duration2h~Day28122:17 if not changed, mundane dagger on lab surface, component pouch with mage; WEST lab door locked inside, KN-G6 corridor guard still believes earlier PastLife-corrected impersonated 'Don't let anyone in'; east vent shutters closed, exterior grille detached on sill; separate stationary Animated Armor west threshold. Fenar59/59 and Cirren51/51 masked free west woods with V-owned50ft rope carried Fenar, Psychic Whispers link to both until~22:56; Mara healthy with 4 V-owned horses and intact coach ~0.5mi south unlinked. Purse969gp3sp6cp, rations12 person-days/feed16 animal-days, one sealed Pixie Dust1, LongRest5/6, all11 detainees remain on site: six mobile +three impaired main ward and northern P10/P11 already unbuckled and waiting for V signal, no escape. The prior recovery entry is retained as historical evidence of superseded player-decision but NOT to be applied/spent in owning record; owner worker must interpret this explicit newest correction instead of double-counting opposing +7/-7 postings. Journal remains authoritative unsynced, previous natural-boundary marker points to this correction entry.",
+      "pending_action": "Day281~20:28 Kestrel, V masked SOLO concealed at LAB-side SOLID STONE corner of NORTH ~20ft open passage leading to heavy CLOSED inner iron vault door guarded by large enchanted-looking armored sentinel. User latest \"Apologies i changed my mind on spending MP\" explicitly retracts previous 7MP Figure It Out spend made to salvage unproficient Arcana d20FACE8+0=8/DC15. No MP was ultimately spent, so Martial Points **7/7**, final Arcana **8 FAIL**, previous 15/DC15/identified guardian result SUPERCEDES/VOID. Standing Figure It Out RULE correction +1 bonus per MP on nonproficient skill checks REMAINS; stale +2/MP owning tracker must be corrected at owner sync, but NO current use. Prior separate Perception result with Past Life d6FACE6 stays valid: V read sentinel plate Fireball, Heat Metal, Lightning Bolt each 'No Effect', sees formidable plate armor/helmet motion at vault door but has not successfully identified exact construct/senses/control/weakness, key or shutdown. No move, spell, attack, extra check or time. V still unseen by guardian, earlier Stealth16 vs passive14 from cover holds; not in exposed corridor. KN-M1 remains unconscious stable0/40 in lab until possibly~22:17, west lab door locked and KN-G6 guarding after believing V's voice impersonation; lab evidence packet originals and earlier two administrative mismatch folios remain in V's document case, vault higher-order authorization unacquired. V48/48 HP AC19 HD7/7 MP7/7 Sup4/4 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, purse969gp3sp6cp, supplies12 ration-person-days/feed16 animal-days, sealed Pixie Dust1, LongRest5/6. Cirren51/51 and Fenar59/59 masked/free outside western trees with V-owned50ft rope Fenar holds, existing Psychic Whispers to both active~22:56; Mara healthy with four V-owned horses/intact coach ~0.5mi south unlinked. Eleven detainees remain inside (six ambulatory, three cannot walk main ward; P10/P11 unbuckled north rooms waiting V signal). Await V's next choice re vault/retreat/rescue, do not auto-activate Figure It Out.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-FIGURE-IT-OUT-7MP-RULE-CORRECTION-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-REVOKES-FIGURE-IT-OUT-7MP-RETCON-001",
+          "accepted": true,
+          "evidence": "User directly reverses previous seven-Martial-Point Figure It Out expenditure: 'Apologies i changed my mind on spending MP'. 7MP use and resulting Arcana15/DC15 success plus only its gained identification knowledge are superseded; original Arcana d20FACE8+0=8/DC15 FAIL remains, MP7/7 unchanged. Latest standing rule +1/MP remains, earlier successful PastLife inscription observation retained. No new roll/rest/movement/time/quest/resource acquisition. Supersedes prior event D281-V-FIGURE-IT-OUT-7MP-ARCANA-SUCCESS-001, not an in-fiction MP healing.",
+          "before": "Prior recorded provisional Figure It Out +7/7 MP changed Arcana8→15 success, MP0/7, with Arcana-only guardian type/magical senses newly revealed. Standing rule +1 per MP correction valid.",
+          "after": "Latest explicit player instruction retroactively declines that spend. MP7/7, original Arcana8/DC15 FAIL and no Arcana-only identification; prior Perception spell-warning inscriptions remain. Same scene time/location/gear/party, no new action.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "data/characters/events.csv",
+            "campaign/continuity/rules-combat-recovery.md",
+            "trackers/csv/v/v-martial.csv"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-FIGURE-IT-OUT-7MP-RULE-CORRECTION-001",
-    "destination_checkpoint": "D281-2028-V-VAULT-FIGURE-IT-OUT-ARCANA-SUCCESS-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-FIGURE-IT-OUT-SPEND-REVOKED-001",
+    "destination_checkpoint": "D281-2028-V-VAULT-ARCANA-UNBOOSTED-MP7-001"
   }
 }
