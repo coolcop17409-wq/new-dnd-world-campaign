@@ -1850,13 +1850,41 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-V-STABILIZES-WARD-APPRENTICE-001",
+      "base_commit": "dcf4d84135a1e79ef434198369d51062f7bbd433",
+      "source_checkpoint": "D281-2036-R2-V-APPRENTICE-DYING-1FAIL-WARD-001",
+      "destination_checkpoint": "D281-2036-R2-V-APPRENTICE-STABLE-PENDING-BA-001",
+      "source_evidence": "Player's EXACT instruction at Day281~20:36 Station Kestrel ordinary ward active combat Round2 at initiative V17, KN-M2 Apprentice Wizard9, stable unconscious ward Guard KN-G5 init3: \"stablize him\". User directs V to save the apprentice KN-M2 previously struck by his Round1 BONUS ACTION Quick Toss ranged dart (d20FACE14+9=23 vs AC10, d4FACE2+DEX4+Superiorityd8FACE7=13 piercing), Mage Apprentice9HP→0 unconscious DYING, first death save d20FACE3 failed (one failure), NOT previously knocked out by melee. V starts Round2 at ordinary ward main entrance beside stable KO Guard, with KN-M2 lying ~15–20ft away behind medicine-alcove curtain, reachable with normal30ft speed; V moves there without crossing hostile controlled reach or new enemy opportunity (ward guard unconscious), kneels and provides ordinary first aid using a fresh 2014 Wisdom(Medicine) check DC10; V unproficient Medicine modifier+1 per owning v-skills.csv. No eligible ally Help: Cirren outside western wall, Fenar at western gate fighting/recovering from prior scout encounter, six ambulatory prisoners not established competent/free/adjacent to help and nothing automatic. GENUINE Python secrets d20FACE13 +1=14 vsDC10 SUCCESS, stabilizes apprentice without needing healer's kit, spell, limited feature, extra psi/martial or healing potion. V applies pressure to bleeding wound/positions head for breathing without inventing permanent injury or extra damage. Apprentice KN-M2 remains UNCONSCIOUS but now STABLE at0/9HP, no further death saves while stable, previous one failed death save reset0 per 2014 stabilized rule. For spontaneous HP recovery per 2014 stable creature rules, genuine executed Python secrets d4 FACE2 determines 1HP consciousness in TWO HOURS at~22:36 Day281 unless healed, damaged or otherwise altered. Apprentice physically remains on medicine alcove floor/curtained area, NOT restrained/gagged, no additional items taken or money paid; no guarantee of no future alarm after waking. V Round2 ACTION spent on stabilization and ~15–20ft of30ft movement spent; BONUS ACTION and reaction still available, no automatic further attack/Hide, no extra V speech, no opponent's Round2 turn advanced before next V decision. Prior ward Guard KN-G5 stable unconscious0/11 at main entrance, west Scout KN-G3 unconscious stable0/16 near west gate after Fenar nonlethal melee, KN-M1 mage bound/gagged stable unconscious0/40 in locked laboratory; west rooftop scout KN-G2 heard earlier west warning and remains alert, no roof attack or fresh guard movement adjudicated from this instant. Fenar HP59/59 AC14 Rage ACTIVE3/4 Shift3/3 MP6/6 physically INSIDE west perimeter next to knocked-out scout, carrying V-owned intact50ft rope, Cirren HP51/51 full spells/CD2/2 OUTSIDE western woods masked/free; V↔Fenar/Cirren Psychic Whispers remains until~22:56, Mara healthy with V-owned four horses/intact coach ~0.5mi south unlinked. All11 patients still confined to Kestrel: six ambulatory and three injured/nonambulatory in ordinary ward (V now at curtained alcove), P10/P11 separately north rooms with buckles unfastened but waiting V's clearance, no evacuation. V HP48/48 AC19 HD7/7 MP7/7 Sup3/4 from earlier Quick Toss, Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, original two contradictory admin occupancy/discharge folios + compact signed lab instructions/trial observations/injury diagrams + KN-M1 ordinary spell-component pouch V-held, purse969gp3sp6cp, provisions12 ration-person-days/feed16 animal-days, sealed Pixie Dust1, LongRest5/6. No other changes, no new check/attack/recovery, Day281~20:36 seconds pass. Continue meaningful action: V can use still-unused Round2 Bonus Action, communicate to allies/patients if appropriate, or end turn, with guard reactions adjudicated causally thereafter. Per-response single recovery entry, preserve existing natural sync marker with latest recovery tail; no full owner update required mid-turn.",
+      "pending_action": "Day281 ~20:36 Station Kestrel ordinary WARD, active combat Round2 V init17 currently acting. After Round1 nonlethal melee ward Guard KN-G5 stable KO0/11 at ward main entrance and V Quick Toss bonus-dart made KN-M2 Apprentice Wizard DYING0/9HP with one failed death save, V directed \"stablize him\". V moved ~15–20ft from entrance to curtained medicine alcove, ACTION Wisdom(Medicine) check genuine d20FACE13+V Medicine1=14 vsDC10 SUCCESS. Apprentice KN-M2 at0HP now STABLE unconscious, death saves reset0, spontaneous recovery d4FACE2 hours=>~22:36 if not healed/damaged, not bound/gagged, no permanent wound invented. Round2 V ACTION and~15–20ft movement spent; BONUS ACTION, reaction and perhaps~10–15ft move still available. No new sounds/other foes moved at this pause. KN-G5 Guard stable unconscious0HP at ward main entrance; KN-G3 west Scout stable unconscious0/16 beside west service gate, Fenar59/59 inside western compound there with active Rage3/4 remaining, rope V-owned50ft in Fenar custody, rooftop KN-G2 alerted to earlier shouts; Cirren51/51 full spells/CD2 outside west woods masked, Mara healthy with4 V-owned horses and intact coach0.5mi south unlinked. KN-M1 Magister still restrained/gagged stable unconscious0/40 in locked lab; KN-G6 corridor guard obeying earlier successful impersonation. Nine patients in ordinary ward (six ambulatory, three badly impaired), P10/P11 in two north rooms straps undone and waiting for V signal, NONE yet evacuated. V HP48/48 AC19 HD7/7 MP7/7 Sup3/4 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, two original contradictory ward/discharge folios + original signed local trial records/injury diagrams + KN-M1 mundane spell-component pouch in custody, purse969gp3sp6cp, ration person-days12/feed animal-days16, Pixie Dust1 unopened, LongRest5/6; active Whispers V↔Cirren/Fenar until~22:56. Await V next choice during remaining Round2 or end turn before advancing guard/other independent actors.",
+      "depends_on": [
+        "PLAY-REC-D281-V-QUICK-TOSS-APPRENTICE-DYING-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-MEDICINE-STABILIZES-KN-M2-001",
+          "accepted": true,
+          "evidence": "User says 'stablize him' referring to dying KN-M2 Apprentice Wizard0/9HP, 1 death-save failure from previous Quick Toss. On V Round2 init17, V moves~15–20ft to curtained medicine alcove, uses ACTION on Medicine DC10; genuine d20FACE13+1=14 SUCCESS, apprentice stabilizes at0HP unconscious, prior death-save failure reset and future death saves stop unless harmed. Genuine stable natural recovery d4FACE2 hours=>~22:36 absent change. V action spent, BA/reaction available, no kit/magic/other resource expended or additional enemy action. Other party/guard/patient/custody state unchanged.",
+          "before": "D281~20:36 V Round2 starts by stable KN-G5 main-entrance guard with action/BA/movement unused; KN-M2 apprentice at0HP dying behind medicine curtain, one failed save; V HP48, Sup3/4 and other recorded party state intact.",
+          "after": "D281~20:36 V at apprentice alcove after~15–20ft move, action spent to stabilize KN-M2 at0HP; apprentice stable unconscious with reset saves and 2h recovery timer. V bonus action remains, none of other guard or party posts/money/resources changed.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-V-QUICK-TOSS-APPRENTICE-DYING-001",
-    "destination_checkpoint": "D281-2036-R2-V-APPRENTICE-DYING-1FAIL-WARD-001"
+    "last_recovery_id": "PLAY-REC-D281-V-STABILIZES-WARD-APPRENTICE-001",
+    "destination_checkpoint": "D281-2036-R2-V-APPRENTICE-STABLE-PENDING-BA-001"
   }
 }
