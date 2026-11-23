@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "ready": true,
-  "reason": "significant_exploration",
-  "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-  "last_recovery_id": "PLAY-REC-D281-V-FENAR-RETURN-VAULT-G6-HEARS-VENT-001",
-  "destination_checkpoint": "D281-2051-V-FENAR-VAULT-CORNER-G6-INVESTIGATING-001",
-  "journal_commit": "0e40988665d70cd504eac5f2a59a287e79742def",
-  "journal_digest": "a5f7a20216b213ca3a7d96ee7cebcf612405dcbad071204ce3d8d89c8980c326"
+  "reason": "explicit_sync",
+  "request_id": "PLAY-D281-KESTREL-G6-VOICE-CHALLENGE-001",
+  "last_recovery_id": "PLAY-REC-D281-V-MAGISTER-VOICE-RETRY-G6-CHALLENGES-001",
+  "destination_checkpoint": "D281-2051-G6-DOOR-INSPECTION-DEMANDED-001",
+  "journal_commit": "c58b76055aef79055e032e769b2d7c8e2d563653",
+  "journal_digest": "3d9eddb765cb75409e262c2db89dd00d5eba555983d560c1d1421238b9a63ca5"
 }
