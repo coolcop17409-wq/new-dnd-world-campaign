@@ -1,14 +1,47 @@
 {
   "schema_version": 1,
   "request_id": "HANDOFF-SYNC-REPAIR-C24A6FBE0911A681C1F80C54",
-  "status": "partial",
+  "status": "superseded",
   "claim_owner": "opened-pr27-d7a1418e",
-  "claim_expires_at": "2026-11-23T18:00:00Z",
-  "summary": "Checking whether later finalized Day281 checkpoint already resolves original intermediate-owner failure; no gameplay correction proposed.",
-  "blocker": "verification in progress",
-  "next_trigger": "claim completion or expiry",
+  "claim_expires_at": "2026-11-23T17:35:46Z",
+  "summary": "Original main77b84f44 is the intentionally intermediate owner-before-checkpoint phase of accepted PR25 synchronization. Later separate checkpoint8b2e98bde reconciles Day281 and newest event. No source correction remains necessary; no character posting was removed or replayed. Receipt-only repair branch; no merge needed.",
+  "blocker": null,
+  "next_trigger": "None for this already-fixed failure; no merge required. Persistent opened webhook remains enabled.",
   "failure_commit": "77b84f44dd29d68582967d27da6c82f0839b49cb",
   "current_base_commit": "5bfbb61cdd7b27065f5c9a69987d8a08087c9edd",
   "delivery_id": "d7a1418e-e763-11f1-8949-ba0927000093",
-  "request_blob": "a6eab2ed5876f4a3faec1cd1261a25da1ace19b8"
+  "request_blob": "a6eab2ed5876f4a3faec1cd1261a25da1ace19b8",
+  "tested_commit": "5bfbb61cdd7b27065f5c9a69987d8a08087c9edd",
+  "superseded_by": "8b2e98bde2cd7ddb75c4e687c6425e899bcd9331",
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5bfbb61cdd7b27065f5c9a69987d8a08087c9edd/campaign/continuity/campaign-state.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5bfbb61cdd7b27065f5c9a69987d8a08087c9edd/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5bfbb61cdd7b27065f5c9a69987d8a08087c9edd/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/8b2e98bde2cd7ddb75c4e687c6425e899bcd9331/campaign/continuity/campaign-state.md"
+  ],
+  "verification_path": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-C24A6FBE0911A681C1F80C54.json",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "result": "PASS; no findings"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -v",
+      "exit_code": 0,
+      "result": "36 tests passed"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --root /tmp/pr27-original --scope final --phase final --report /tmp/pr27-original-diagnostic.json",
+      "exit_code": 1,
+      "result": "Expected original failure reproduced: character.overlay and checkpoint.latest exactly match immutable request. Current-main validator used against original main owner files; no request-branch code executed."
+    },
+    {
+      "command": "python3 source/hash comparison assertions",
+      "exit_code": 0,
+      "result": "Both original diagnostic source SHA256 hashes match; original character events identical to current main; only later accepted checkpoint resolves both findings."
+    }
+  ],
+  "verified": true,
+  "main_application": "Already fixed by accepted-play checkpoint8b2e98bde2cd7ddb75c4e687c6425e899bcd9331; repair writes metadata on existing branch only."
 }
