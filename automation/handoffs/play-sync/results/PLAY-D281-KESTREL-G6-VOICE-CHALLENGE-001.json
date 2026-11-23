@@ -53,5 +53,8 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c8546adeeac460274a47dce1b4a20bb6a15eaebe/campaign/continuity/campaign-state.md"
   ],
   "generated_view_status": "verified at 9a20940897d8b301deec09fe7fe2790ea940153b",
-  "cleanup_status": "pending verified-only pruning"
+  "cleanup_status": "complete: one matching verified entry pruned; one newer unsubmitted recovery entry preserved",
+  "preserved_recovery_ids": [
+    "PLAY-REC-D281-V-FENAR-AMBUSH-LAB-G6-STABLE-KO-001"
+  ]
 }
