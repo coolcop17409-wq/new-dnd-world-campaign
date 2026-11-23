@@ -27,4 +27,4 @@ Previously verified atlas `ATLAS-D281-KESTREL-APPROACH-001` is historical to the
 ## Cooperative writer
 Short owning-record batch coordination; accepted-play recovery retains its separate fast path.
 
-CAMPAIGN_WRITER | state=HELD | token=SHOPS-POOL5X-20261123-01 | claimed_UTC=2026-11-23T22:19:30.118Z | expires_UTC=2026-11-23T22:29:30.118Z | scope=trackers/csv/magic-shops | recovery=ADMIN-SHOP-POOL-5X-20261123-001
+CAMPAIGN_WRITER | state=IDLE
