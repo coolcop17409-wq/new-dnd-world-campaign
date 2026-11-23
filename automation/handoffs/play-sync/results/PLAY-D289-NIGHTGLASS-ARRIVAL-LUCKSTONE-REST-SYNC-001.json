@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D289-NIGHTGLASS-ARRIVAL-LUCKSTONE-REST-SYNC-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr37-4285f276",
-  "claim_expires_at": "2026-11-23T22:35:00Z",
+  "claim_expires_at": "2026-11-23T22:11:35Z",
   "request_commit": "c4939533440a31a831cf2b0e3f9584518b431b46",
   "request_blob": "93a14de43f095d3705a87bb0a4099f961e831d7f",
-  "summary": "Thirteen accepted events and seven original chunks verified; PR36 complete. Latest corrections supersede courier postage and repeated market offers.",
+  "summary": "Thirteen accepted events applied with12 mechanical legs and linked Luckstone sale. Explicit courier and initial-market corrections govern; no void postage/refund posted, no attunement. Newer Nightglass porter chunk preserved outside frozen arrival batch.",
   "blocker": null,
   "applied_event_ids": [
     "D285-V-OFFERS-BLACKTHORN-HOSPITALITY-TO-KESTREL-SURVIVORS-001",
@@ -29,5 +29,86 @@
     "automation/recovery/chunks/D289/PLAY-REC-D289-V-EXPLAINS-NIGHTGLASS-PROVENANCE-VISIT-TO-PORTER-001.json"
   ],
   "owner_commit": "a5c8d86bd7e970cbabafca8291928c8220f94bbe",
-  "owners_verified": true
+  "owners_verified": true,
+  "completed_at": "2026-11-23T22:11:35Z",
+  "tested_commit": "7184f0269ee81d4defb6edde0cbd55dfb4d612ed",
+  "checkpoint_commit": "7184f0269ee81d4defb6edde0cbd55dfb4d612ed",
+  "checkpoint_verified": true,
+  "request_digest": "2d065e52a29c596d7ea645cfe72fc3f1dc932adef06603cfd3c46762babd80b7",
+  "verified_event_ids": [
+    "D285-V-OFFERS-BLACKTHORN-HOSPITALITY-TO-KESTREL-SURVIVORS-001",
+    "D285-V-TAMSIN-SENDINGSTONE-HOSPITALITY-SETUP-001",
+    "D285-286-EASTWATCH-ROAD-QUIET-CAMP-AND-TRAVEL-001",
+    "D286-V-RETCON-BLACKTHORN-PATIENT-OFFER-DELIVERED-IN-SEDGECROSS-001",
+    "D286-287-EASTWATCH-ROAD-QUIET-NIGHT-DAY-001",
+    "D287-288-EASTWATCH-APPROACH-QUIET-ARRIVAL-001",
+    "D288-EASTWATCH-ORDINARY-RESUPPLY-SEVENDAY-001",
+    "D288-EASTWATCH-INITIAL-MAGIC-R07-R22-DRAWS-AND-OFFERS-001",
+    "D288-EASTWATCH-MAGIC-MARKET-REPEATED-TEMPLATE-OFFER-CORRECT-001",
+    "D288-V-PERSUASION-25-NEGOTIATES-LUCKSTONE-375GP-001",
+    "D288-V-ACCEPTS-375GP-LUCKSTONE-PURCHASE-001",
+    "D288-289-V-EASTWATCH-TWO-ROOM-INN-SAFE-TOWN-NIGHT-001",
+    "D289-V-PARTY-REACHES-NIGHTGLASS-HALL-EAST-LANE-QUIET-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/archive/continuity/campaign-state-before-PLAY-D289-NIGHTGLASS-ARRIVAL-LUCKSTONE-REST-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/archive/continuity/session-log-before-PLAY-D289-NIGHTGLASS-ARRIVAL-LUCKSTONE-REST-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/trackers/csv/magic-shops/dealers.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/trackers/csv/magic-shops/stock.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a5c8d86bd7e970cbabafca8291928c8220f94bbe/trackers/csv/magic-shops/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7184f0269ee81d4defb6edde0cbd55dfb4d612ed/campaign/continuity/campaign-state.md"
+  ],
+  "generated_view_status": "verified at 3a88cff5ea03a93a1af77d12dca632a400e37fe3",
+  "cleanup_status": "pending verified-only compatibility prune",
+  "tests": [
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr37/request.json",
+      "exit_code": 0,
+      "tested_commit": "7184f0269ee81d4defb6edde0cbd55dfb4d612ed",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr37/pinned.json --request /tmp/pr37/request.json --prior-requests /tmp/pr37/prior.json --supersessions /tmp/pr37/supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "7184f0269ee81d4defb6edde0cbd55dfb4d612ed",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final --links /tmp/pr37/links.json",
+      "exit_code": 0,
+      "tested_commit": "7184f0269ee81d4defb6edde0cbd55dfb4d612ed",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase final --links /tmp/pr37/links.json --report /tmp/pr37/shop-diagnostic.json",
+      "exit_code": 0,
+      "tested_commit": "7184f0269ee81d4defb6edde0cbd55dfb4d612ed",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_recovery_chunks automation.test_recovery_chunk_bridge -q",
+      "exit_code": 0,
+      "tested_commit": "7184f0269ee81d4defb6edde0cbd55dfb4d612ed",
+      "result": "96 passed"
+    },
+    {
+      "command": "PYTHONPATH=. python3 /tmp/pr37/verify.py",
+      "exit_code": 0,
+      "tested_commit": "7184f0269ee81d4defb6edde0cbd55dfb4d612ed",
+      "result": "PASS"
+    }
+  ],
+  "immutable_provenance": {
+    "boundary": "automation/recovery/boundaries/PLAY-D289-NIGHTGLASS-ARRIVAL-LUCKSTONE-REST-SYNC-001.json",
+    "pinned_commit": "7ff819cdb9422dbb1b4fa14bc7fbf765a593a4c2",
+    "journal_digest": "3ec065dce9d3c1ac5b065d9e6a51adb3a287ab3ee02412d18f809712778bd956",
+    "verified_chunk_count": 7,
+    "original_files_modified": false
+  },
+  "derived_pending": "Dealer review dates not supplied in accepted evidence; left for specialist scheduling. Existing source-breadth rules unchanged; correction applies existing policy."
 }
