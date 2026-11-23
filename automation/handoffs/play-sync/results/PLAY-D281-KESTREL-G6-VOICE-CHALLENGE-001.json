@@ -1,32 +1,57 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-G6-VOICE-CHALLENGE-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr29-39bd85ec",
-  "claim_expires_at": "2026-11-23T18:15:34Z",
+  "claim_expires_at": "2026-11-23T17:52:17Z",
   "request_commit": "10293467a510754aab7985dbb2cc7e6031323bd8",
   "request_blob": "e3d5d34ec0d1a3a7af2325833be0e1f72780665d",
-  "summary": "Source-verified single guard response; preflight PASS and62 regression tests passed. No mechanical posting. Checkpoint pending.",
+  "summary": "One accepted guard challenge applied, exact evidence and pending V choice verified. No resource/custody/time/decision invented; previous owners preserved.",
   "blocker": null,
   "applied_event_ids": [
     "D281-V-IMPERSONATES-MAGISTER-G6-REQUESTS-INSPECTION-001"
   ],
-  "tested_commit": "9d7f0b4778681189e1290576bc64b8dd78529ed5",
+  "tested_commit": "c8546adeeac460274a47dce1b4a20bb6a15eaebe",
   "tested_candidate": "2d8d93926a99c876f7190c64ea3a711ca8f45727",
   "tests": [
     {
+      "command": "python3 automation/play_handoff.py /tmp/pr29/request.json",
+      "exit_code": 0,
+      "tested_commit": "c8546adeeac460274a47dce1b4a20bb6a15eaebe"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr29/pinned.json --request /tmp/pr29/request.json --prior-requests /tmp/pr29/prior.json --supersessions /tmp/pr29/supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "c8546adeeac460274a47dce1b4a20bb6a15eaebe"
+    },
+    {
       "command": "python3 automation/sync_validate.py --scope final --phase final",
       "exit_code": 0,
-      "tested_commit": "2d8d93926a99c876f7190c64ea3a711ca8f45727"
+      "tested_commit": "c8546adeeac460274a47dce1b4a20bb6a15eaebe"
     },
     {
       "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
       "exit_code": 0,
-      "result": "62 passed",
-      "tested_commit": "2d8d93926a99c876f7190c64ea3a711ca8f45727"
+      "tested_commit": "c8546adeeac460274a47dce1b4a20bb6a15eaebe",
+      "result": "62 tests passed"
     }
   ],
   "owner_commit": "82ea9f71dc5f33fd1b7c7c94b56b710b8829c309",
-  "owners_verified": true
+  "owners_verified": true,
+  "completed_at": "2026-11-23T17:52:17Z",
+  "checkpoint_commit": "c8546adeeac460274a47dce1b4a20bb6a15eaebe",
+  "checkpoint_verified": true,
+  "request_digest": "1392e1b1969013acb71352c8ae9b40b0504decd49633f42018cc04b4542d6e5a",
+  "verified_event_ids": [
+    "D281-V-IMPERSONATES-MAGISTER-G6-REQUESTS-INSPECTION-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/82ea9f71dc5f33fd1b7c7c94b56b710b8829c309/archive/continuity/campaign-state-before-PLAY-D281-KESTREL-G6-VOICE-CHALLENGE-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/82ea9f71dc5f33fd1b7c7c94b56b710b8829c309/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/82ea9f71dc5f33fd1b7c7c94b56b710b8829c309/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c8546adeeac460274a47dce1b4a20bb6a15eaebe/campaign/continuity/campaign-state.md"
+  ],
+  "generated_view_status": "verified at 9a20940897d8b301deec09fe7fe2790ea940153b",
+  "cleanup_status": "pending verified-only pruning"
 }
