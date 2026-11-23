@@ -8,6 +8,7 @@ on:
       - Handoff queue integrity (not a background ChatGPT worker)
       - Estate audit and campaign dashboard
       - Campaign synchronization regression
+      - Assemble immutable recovery at explicit boundary
       - Queue accepted play at explicit recovery boundary
     types: [completed]
   workflow_dispatch:

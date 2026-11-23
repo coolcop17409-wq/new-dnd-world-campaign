@@ -43,6 +43,31 @@ class FakeAPI:
         self.writes.append(files)
         return NEXT
 
+class BoundaryDetectionTests(unittest.TestCase):
+    def test_missing_push_commits_still_detects_added_boundary(self):
+        class API:
+            def call(self,method,path,payload=None):
+                self_called=(method,path)
+                assert method=="GET" and path=="compare/"+SOURCE+"..."+NEXT
+                return {"files":[{"filename":"automation/recovery/boundaries/PLAY-D281-TEST-BRIDGE-001.json",
+                                  "status":"added"}]}
+        api=API()
+        event={"before":SOURCE,"after":NEXT,"commits":[]}
+        self.assertEqual(bridge.changed_boundaries(api,event,NEXT),
+            "automation/recovery/boundaries/PLAY-D281-TEST-BRIDGE-001.json")
+    def test_edited_boundary_and_unverifiable_diff_fail_closed(self):
+        class API:
+            def __init__(self,status):self.status=status
+            def call(self,method,path,payload=None):
+                return {"files":[{"filename":"automation/recovery/boundaries/PLAY-D281-TEST-BRIDGE-001.json",
+                                  "status":self.status}]}
+        with self.assertRaisesRegex(ValueError,"modified/deleted"):
+            bridge.changed_boundaries(API("modified"),{"before":SOURCE},NEXT)
+        class EmptyAPI:
+            def call(self,method,path,payload=None):return {"files":[]}
+        with self.assertRaisesRegex(ValueError,"Expected exactly one"):
+            bridge.changed_boundaries(EmptyAPI(),{"before":SOURCE},NEXT)
+
 class BridgeTests(unittest.TestCase):
     def setUp(self):
         f=RecoveryTests();f.setUp()

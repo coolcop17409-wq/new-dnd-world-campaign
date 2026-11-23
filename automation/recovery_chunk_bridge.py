@@ -94,18 +94,41 @@ def run(api,source_sha,request_id):
             "source_commit":source_sha,"journal_commit":journal_head,
             "pr":result.get("url"),"entry_count":len(prep["journal"]["entries"])}
 
+def changed_boundaries(api, event, source_sha):
+    """Use GitHub's authoritative commit diff; push payload may omit commits."""
+    if not re.fullmatch("[0-9a-f]{40}", source_sha):
+        raise ValueError("Missing exact push commit")
+    after=event.get("after")
+    if after and after!=source_sha:
+        raise ValueError("Push event after SHA disagrees with pinned checkout")
+    before=event.get("before")
+    if isinstance(before,str) and re.fullmatch("[0-9a-f]{40}",before) and before!="0"*40:
+        changes=api.call("GET","compare/"+before+"..."+source_sha).get("files")
+    else:
+        changes=api.call("GET","commits/"+source_sha).get("files")
+    if not isinstance(changes,list):
+        raise ValueError("Cannot verify pushed file changes")
+    if len(changes)>=300:
+        raise ValueError("GitHub file comparison may be truncated")
+    added=[]
+    for item in changes:
+        path=item.get("filename","")
+        if not path.startswith("automation/recovery/boundaries/") or not path.endswith(".json"):
+            continue
+        if item.get("status")!="added":
+            raise ValueError("Immutable boundary was modified/deleted instead of created: "+path)
+        added.append(path)
+    if len(added)!=1:
+        raise ValueError("Expected exactly one newly added boundary, found "+str(len(added)))
+    return added[0]
+
 def main():
     output={"status":"not_started"}
     try:
         api=API(os.environ["GITHUB_REPOSITORY"],os.environ["GITHUB_TOKEN"])
         event=json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text(encoding="utf-8"))
-        added=[p for c in event.get("commits",[]) for p in c.get("added",[])
-               if p.startswith("automation/recovery/boundaries/") and p.endswith(".json")]
-        modified=[p for c in event.get("commits",[]) for p in c.get("modified",[])
-                  if p.startswith("automation/recovery/boundaries/")]
-        if modified:raise ValueError("Immutable boundary was modified instead of created")
-        if len(added)!=1:output={"status":"no_single_new_boundary","count":len(added)}
-        else:output=run(api,os.environ["GITHUB_SHA"],Path(added[0]).stem)
+        path=changed_boundaries(api,event,os.environ["GITHUB_SHA"])
+        output=run(api,os.environ["GITHUB_SHA"],Path(path).stem)
         print(json.dumps(output,indent=2))
     except Exception as exc:
         output={"status":"blocked","reason":str(exc),
