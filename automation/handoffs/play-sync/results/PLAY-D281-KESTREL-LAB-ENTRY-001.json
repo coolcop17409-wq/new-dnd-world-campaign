@@ -242,5 +242,8 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/8b2e98bde2cd7ddb75c4e687c6425e899bcd9331/campaign/continuity/campaign-state.md"
   ],
   "generated_view_status": "derived-pending: observed PLAY_NOW and dashboard still Day279 at af7187ca348721dd286d7b9cc9c19841ce9033c5; owning Day281 checkpoint/resources verified. Existing PR27 diagnostics originate from intermediate owner commit77b84f44, before final checkpoint; no duplicate repair requested.",
-  "cleanup_status": "pending verified-only prune"
+  "cleanup_status": "complete:69 exact verified recovery entries pruned;0 newer entries present at guarded cleanup base",
+  "cleanup_verified_base": "e9c14731c4c82fd45a1637d8954c6a62ea38f164",
+  "cleanup_at": "2026-11-23T17:33:54Z",
+  "pruned_recovery_entries": 69
 }
