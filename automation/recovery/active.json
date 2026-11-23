@@ -1108,6 +1108,34 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-EAST-DOOR-LISTEN-001",
+      "base_commit": "5bc96d334701ac1692caf6091f71b0a02485b31a",
+      "source_checkpoint": "D281-2007-V-AT-CLOSED-EAST-WARD-PASSAGE-DOOR-001",
+      "destination_checkpoint": "D281-2007-V-HEARS-EAST-GUARD-PACING-001",
+      "source_evidence": "Exact player's action immediately after reaching closed ward-side wooden east passage door at Station Kestrel Day281 ~20:07: \"Listen\". This authorizes V to listen without opening door, entering passage, spending resources or speaking. V stays masked and unseen by KN-G5 main ward guard and KN-M2 apprentice at medicine alcove, leaning ear to the EXISTING closed wooden ward-side door; station-wide bell already sounding from west-wall intrusion. This is an active Perception check due closed door and alarm, predeclared DC14 to isolate pacing/guard sounds, V Wisdom (Perception) +4 from established proficient passive Perception14. Genuine secrets RNG was EXECUTED in Python: d20 FACE13+4=17 versus DC14 SUCCESS. No Psi Knack needed or charged. V can now distinguish ONE set of armored bootsteps and metallic equipment rattle on stone within the existing ~30ft eastern connector; measured short pacing as person comes within approximately 10ft of ward door, stops, then walks toward lab-side second closed door and back; separate softer muffled sound beyond lab-side door unidentifiable, no words heard, no second creature proven from sound. This physically fits preauthored KN-G6 Guard assigned corridor, but his exact ID, combat statistics, motive and any other staff behind second door are NOT yet revealed to V by sight; active guard remains within corridor. Neither door opened, no direct line of sight, attack, magic, additional footsteps/guards, forced combat, shift of guard from roster, extra traps, stolen lab papers, patient release, or corridor entry. Listening is quiet behind closed door and did not give away V's presence. Time advances only moments, still ~20:07, alarm persists, no independent travel/night. Main ward nine patients remain alive (six forward mobile, three rear impaired); northern P10/P11 alive, currently UNBUCKLED restraints, quietly on beds awaiting V signal, room locks picked/open. Rear north ward inward window remained unlatched/open. V holds two original contradictory occupancy/discharge register folios under cloak. V48/48 HP AC19 HD7/7 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1 ActionSurge/SecondWind1/1, V purse969gp3sp6cp, carried12 ration-person-days/16 animal-feed-days, sealed Pixie Dust1, LongRest5/6. Fenar59/59 and Cirren51/51 masked outside west/southwest perimeter woods, with V-owned intact 50ft rope held by Fenar; Psychic Whispers V↔these two active through~22:56, Mara healthy with V-owned four horses/coach ~0.5mi south and unlinked. Pending V choice what to do at door; guard pacing creates a possible timing opportunity, NOT guaranteed stealth success. No new sync trigger from small investigation beat.",
+      "pending_action": "Day281 ~20:07 Station Kestrel alarm-active ordinary ward. Masked V SOLO concealed and undetected at CLOSED ward-side eastern wooden door into fixed ~30ft corridor to specialist treatment building. Player said \"Listen\". Genuine V Wisdom(Perception) roll d20 FACE13+4=17 against predeclared DC14 SUCCESS. Through closed door and bell V hears ONE armored person pacing a short loop inside passage, arriving within ~10ft of ward door, pausing, retreating toward far closed lab-side door, repeating; metallic armor/equipment scrape, no direct LOS/confirmed identity. Muted indistinguishable sound farther beyond second closed door; cannot infer staff count or spoken words. DM preauthored KN-G6 Guard occupies connector, but V hasn't seen them, KN-G5 main ward doorway and KN-M2 apprentice screened medicine alcove remain at stations, neither detects V. No door opened, trap, combat, resources or spell used. Northern rooms P10/P11 door locks picked and open, both people unbuckled from leather restraints, alive, waiting on beds for V's signal; main ward nine alive (six mobile, three immobile), rear north ordinary ward window inward-open; no one evacuated. V HP48/48 AC19 HD7/7 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1, SecondWind/ActionSurge ready, two original official contradictory folios concealed; Cirren51/51 Fenar59/59 alive masked west exterior trees with V-owned 50ft rope in Fenar custody, Psychic Whispers V↔those two until~22:56; Mara healthy with four healthy owned horses/coach half-mile south unlinked; purse969gp3sp6cp, rations12 person-days/feed16 animal-days, Pixie Dust1 unopened, LongRest5/6. Await V chosen way to open, bypass, distract or time passage, or investigate elsewhere; don't automatically cross door or assume guard's identity from hearing alone.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-EAST-PASSAGE-DOOR-APPROACH-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-LISTENS-EAST-WARD-PASSAGE-001",
+          "accepted": true,
+          "evidence": "V explicitly chooses Listen at CLOSED ward-side eastern passage door. Genuine Perception d20 FACE13+4=17 beats DC14; learns one armored person paces passage to within~10ft of ward door and back toward second closed door with periodic equipment scrape, muffled farther sound unintelligible. Remains unseen; no door opened, enemy identified by sight, speech or resource spent.",
+          "before": "V masked unseen at closed ward-side eastern corridor door, heard ambiguous movement/scrape, known site alarm; main ward guard KN-G5 and apprentice KN-M2 unaware, corridor not entered.",
+          "after": "V remains in same position, now has auditory evidence of one armored pacing person in corridor and uncertain farther activity beyond second closed door, no mechanical/resource/HP change and no new guard alert.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ]
 }
