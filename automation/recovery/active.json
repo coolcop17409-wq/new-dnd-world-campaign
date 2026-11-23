@@ -1878,13 +1878,40 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-V-WHISPERS-EVACUATION-THEN-VAULT-PLAN-001",
+      "base_commit": "d71a880033d1e01ffa471eae0607841f35f37026",
+      "source_checkpoint": "D281-2036-R2-V-APPRENTICE-STABLE-PENDING-BA-001",
+      "destination_checkpoint": "D281-2036-R2-V-ESCAPE-PLAN-RELAYED-BA-PENDING-001",
+      "source_evidence": "PLAYER EXACT instruction in Station Kestrel patient ward Day281 ~20:36, local combat Round2 V initiative17 after V's Medicine DC10 success stabilized KN-M2 Apprentice at0HP, action and ~15–20ft move spent with bonus action, reaction and ~10–15ft movement remaining: \"Say to Cirren and Fenar, okay, here's the plan. Fenar, you help me get these patients out of the facility. Cirren, you take them back to Mara, the ones that can walk will help the ones that can't. Cirren and Mara will wait further out, safely away from the facility. Fenar, you and I will stealthily come back and see what's behind that vault and take care of the armor\". This is a plan telepathically addressed through ALREADY ACTIVE two-way Psychic Whispers V↔Fenar/Cirren (until~22:56), not audible speech to guards or the patients; no new activation, spell, ability die, action, bonus action, movement, resource or time cost is attributed beyond the current instant. V orders Fenar to help him evacuate patients first, Cirren to escort patients (ambulatory helping nonambulatory) to Mara then wait farther outside station, V+Fenar only AFTER evacuation to stealthily return and assess vault/armored guardian. Fenar independently agrees to reach the ward and assist carrying and to return with V when patients safe; Cirren independently agrees to receive/escort patients and move the coach/group farther out with Mara once together, but warns the WEST ROOF Scout KN-G2 remains watching and P10/P11 northern patients' mobility is unassessed, so a safe route must precede injured crossing open ground. Cirren regards patient welfare as priority, vault risk conditional. No V command to attack now, no vault entry, scouting check, attack, roof lookout neutralized, patient freed or transported, second-room patients assessed, Fenar physically moved from west gate, Cirren physically moved from outside western woods, or Mara notified: she is not a Whisper participant, with 4 healthy horses/coach ~0.5mile south. No new guards act/round advances in this beat. Local ward KN-G5 unconscious stable0/11 at main entrance, KN-M2 apprentice unconscious stable0/9 in curtained medicine alcove spontaneous waking~22:36, west KN-G3 scout unconscious stable0/16; KN-M1 magister restrained and gagged stable0/40 in locked lab, KN-G6 outside laboratory west door following previous no-entry command. Eleven patients still at site, 6 ambulatory+3 nonambulatory in ward, P10/P11 north rooms unbuckled awaiting all-clear. V48/48HP AC19 HD7/7 MP7/7 Sup3/4 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, V holding two original contradictory folios, original signed trial/injury evidence packet and KN-M1 component pouch; Fenar59/59 AC14 Rage active3/4 Shift3/3 MP6/6 inside west gate and carries V-owned50ft rope; Cirren51/51 AC18 full cleric slots/CD2 outside west woods; Mara healthy, purse969gp3sp6cp, rations12 person-days/feed16 animal-days, 1 sealed Pixie Dust and incomplete LongRest5/6 unchanged. Await remaining V Round2 bonus action/movement or explicit end turn before resolving independent actors, then practical evacuation.",
+      "pending_action": "Day281~20:36 Station Kestrel ordinary patient ward local combat Round2 V init17 currently acting, at medicine alcove. V just telepathically transmitted to linked Fenar+Cirren plan to FIRST evacuate all11 patients (6 mobile+3 immobile in ward, P10/P11 in separate northern rooms with mobility unknown), Fenar to help extract/carry, Cirren to lead patients with walking patients assisting injured to Mara at southern coach and move everybody farther out of compound; only AFTER evacuation V+Fenar intend to stealthily return to assess closed north vault and armored guardian. Fenar and Cirren independently agree in principle; Cirren warns west rooftop lookout active and northern patients' mobility unknown; Mara not psychically linked or yet informed. NO evacuation, physical reposition, attack, recon, resource cost, additional round, nor vault approach executed by this plan. V Round2 ACTION USED stabilizing KN-M2, ~15–20ft/30 movement spent, BA/reaction and ~10–15ft movement remain. KN-M2 0/9HP stable unconscious medicine alcove until estimated~22:36, KN-G5 guard0/11 stable unconscious ward main entrance; west scout KN-G3 0/16 stable unconscious gate, roof KN-G2 alert, hall KN-G6 at locked west lab door, magister KN-M1 0/40 bound/gagged inside locked lab. Fenar59/59 Rage active3/4 at WEST gate inside wall holding V-owned 50ft rope; Cirren51/51 full spells/CD2 concealed WEST outside wood; Mara healthy with4 horses and intact coach ~0.5mile SOUTH. Active Psychic Whispers V/Cirren/Fenar until~22:56. V48/48 AC19 HD7/7 Sup3/4 MP7/7 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1; V carries original two conflicting patient folios, signed local experimental records/injury diagrams and KN-M1 spell-component pouch. Personal money969gp3sp6cp, 12 ration-person-days/feed16 animal-days, unopened Pixie Dust1, LongRest5/6. Await V remaining bonus action/movement or his end-turn instruction; do not auto move any patients, finish raid or engage armor.",
+      "depends_on": [
+        "PLAY-REC-D281-V-STABILIZES-WARD-APPRENTICE-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-WHISPERS-ALLIES-EVACUATE-FIRST-THEN-VAULT-PLAN-001",
+          "accepted": true,
+          "evidence": "Exact player instruction: \"Say to Cirren and Fenar, okay, here's the plan. Fenar, you help me get these patients out of the facility. Cirren, you take them back to Mara, the ones that can walk will help the ones that can't. Cirren and Mara will wait further out, safely away from the facility. Fenar, you and I will stealthily come back and see what's behind that vault and take care of the armor\". Transmitted to Fenar and Cirren via existing Psychic Whispers. Fenar agrees to help extract/carry patients, then return with V; Cirren agrees to escort them toward Mara and farther safety, cautions that west-roof lookout watches and northern patients' mobility unassessed. No other actions/rounds/moves/ability costs initiated.",
+          "before": "Round2 V inside medicine alcove after successful stabilize (KN-M2 stable0/9), action spent, bonus/reaction and ~10–15ft move remain; Fenar west gate, Cirren west woods, Mara southern coach, eleven patients unevacuated. No announced complete evac/return-vault plan.",
+          "after": "Allies have heard evacuation-first/return-vault plan and replied independently; intentions established but all physical positions, enemy/ally HP, supplies, V resources, pending V combat action and patient confinement unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-V-STABILIZES-WARD-APPRENTICE-001",
-    "destination_checkpoint": "D281-2036-R2-V-APPRENTICE-STABLE-PENDING-BA-001"
+    "last_recovery_id": "PLAY-REC-D281-V-WHISPERS-EVACUATION-THEN-VAULT-PLAN-001",
+    "destination_checkpoint": "D281-2036-R2-V-ESCAPE-PLAN-RELAYED-BA-PENDING-001"
   }
 }
