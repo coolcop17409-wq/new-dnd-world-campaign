@@ -940,6 +940,34 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-V-PROMISE-PATIENT-ROOMS-001",
+      "base_commit": "b1e663ab407b3bddb01559bf1d80314561da8220",
+      "source_checkpoint": "D281-2001-V-ORDINARY-WARD-REAR-PATIENT-CONTACT-001",
+      "destination_checkpoint": "D281-2001-V-WARD-P7-RESTRAINT-ROOMS-DISCLOSED-001",
+      "source_evidence": "Player's verbatim speech inside the ordinary ward at Day281 about20:01, masked V alone by northern rear patient KN-P7 with ward guard KN-G5 still unaware: \"I’m here to get you all out… once it’s safe. Where are the others?\" This is V's stated intent/promise to seek everyone's release WHEN SAFE, not authorization to free patients now, engage guards, move to lab, spend resources, heal, or arrange transport. KN-P7, an older bedridden injured detainee, independently responds with shocked hope, asks \"All of us?\", quietly indicates that nine patients are in this normal ward and two others are behind the NORTH partition in TWO SEPARATE SECURED rooms, restrained on beds (testimony, rooms and contents unobserved by V). He recalls distress and screams from those rooms and people taken EAST toward specialist treatment, says three rear-bed patients including himself cannot walk, asks V not to get caught trying to rescue him alone. A conscious female patient in forward ward, among established P1–P6, watches exchange and nonverbally warns older man to keep voice down; identity beyond bed/group not assigned. This is ordinary low-voiced speech in same large ward amid ongoing bell, distant guard remains at doorway, hearing or discovery not automatically invented. Neither guard nor apprentice is alerted; station-wide alarm continues unrelated to V's undetected entry. No skill check necessary to answer an ordinary factual question willingly at close whispering range; no dice thrown, no telepathic message sent. No hidden lab procedure actually witnessed, no known murder confirmed, no patient led out. Physical state still V inside rear northern ordinary ward by three injured beds, inward-open north window available as potential exit, nine patients in main ward, two restrained patients in northern rooms unvisited, eastern route toward lab still closed/guarded. V48/48 AC19 HD7/7 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1, ActionSurge/SecondWind ready, original stolen occupancy/discharge folios still concealed; Fenar/Cirren healthy outside in western woods linked via Psychic Whispers until ~22:56, V-owned 50ft rope carried by Fenar; Mara healthy with four horses/intact coach at public turnout ~0.5mi south unlinked; purse969gp3sp6cp, provisions12 ration-person-days/feed16 animal-days, sealed Pixie Dust1, LongRest5/6. Approx time remains20:01, not a new nightly/rest/encounter/sync boundary.",
+      "pending_action": "Day281 ~20:01 Station Kestrel, active station-wide alarm from prior west-wall intrusion. Masked V SOLO undetected INSIDE northern rear of ordinary ward by injured bed P7 after entering inward-open window via Stealth20 vs guard KN-G5 Perception19. In response to P7's question 'Are you here to help?' V said EXACTLY 'I’m here to get you all out… once it’s safe. Where are the others?' P7 now knows V intends to help everyone once safe; he responds: nine patients in this ward (six ambulatory forward, P7–9 injured/nonambulatory rear); TWO MORE detainees restrained in TWO SEPARATE closed secured rooms past NORTHERN partition (only patient testimony, not yet seen by V), and people have been taken east toward treatment area. P7 warns not to be captured; another awake female patient in forward beds watches and gestures for quiet. Guard KN-G5 remains at main ward entrance unaware; KN-M2 Apprentice in curtained medicine alcove, no combat, no investigation spell, door opened, patient treatment/release, appointment or transfer. Window still open inward behind V. V may respond, quietly investigate northern rooms, arrange planning/care, or take other freely chosen action; protect patient confidence/guard awareness fairly. V HP48/48 AC19 HD7/7 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1 and original 2 contradicted folios concealed; Cirren51/51 full spells/CD2/2 and Fenar59/59 Rage4/4 Shift3/3 MP6/6 alive outdoors west with V-owned rope, Psychic Whispers 2-way to both until~22:56; Mara with healthy four horses and coach 0.5mi south unlinked. Purse969gp3sp6cp, rations12/feed16, sealed Pixie Dust1, LongRest5/6. No new player decision after the question, no attack, roll or resource spend.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-WARD-WINDOW-PATIENT-CONTACT-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-PROMISE-PATIENT-P7-OTHER-TWO-001",
+          "accepted": true,
+          "evidence": "V speaks: 'I’m here to get you all out… once it’s safe. Where are the others?' P7 independently replies nine in ward, two restrained in separate closed north rooms, and east treatment route; warns immobile rear three and danger. A conscious front patient gestures for quiet. Guard remains unwarned. No roll/action beyond speech, no rescue, spell, money or gear change.",
+          "before": "V unseen masked inside ward by rear immobile P7; nine ward patients and unseen two in separate northern rooms; P7 asked if V was there to help. Alarm across facility, guard KN-G5 at doorway; Whispers active exterior Fenar/Cirren.",
+          "after": "V promised intent to seek all patients' safe release and asked for others. P7 has heard this and disclosed north rooms and east treatment route based on firsthand knowledge; patient and guard positions otherwise unchanged, no new evidence taken, combat or resource spent.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ]
 }
