@@ -1,0 +1,7 @@
+{
+  "schema_version": 2,
+  "mode": "legacy",
+  "activation_checkpoint": null,
+  "cutover_commit": null,
+  "notes": "Inactive until verified empty legacy journal and safe handoff."
+}

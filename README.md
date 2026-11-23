@@ -1,6 +1,10 @@
 # New Unnamed World Campaign — live GitHub authority
 
-## Per-response recovery — owner-authorized 2026-11-21
+## Durable recovery — storage version selected in GitHub
+
+Before a gameplay-changing response write, inspect `automation/recovery/mode.json` once per conversation. If `mode=legacy`, preserve the existing SHA-guarded `automation/recovery/active.json` append. If `mode=chunked`, follow `automation/recovery/CHUNKS.md`: one immutable per-response `create_file` plus exact readback, never append the old journal each turn. Both paths preserve the original accepted evidence, and the background Work worker owns verified final record posting. A mode change mid-chat requires a new verified scene/recovery read; do not mix formats.
+
+## Earlier legacy recovery guidance (applies ONLY while mode=legacy)
 
 For changed gameplay, save exactly one small validated recovery entry to `automation/recovery/active.json` with a **file-blob-SHA guarded single-file update** and readback per `automation/recovery/README.md`. This is the owner-authorized per-response exception to no-per-turn writes. Never sync full owning records, poll CI, conduct external research or wait for a repair worker during an active combat turn. At startup reconcile recovery with current owners; only verified events may be cleared. Recorded is not queued or fully synced; a failed recovery write remains unsaved. No capture after a chat closes is guaranteed.
 

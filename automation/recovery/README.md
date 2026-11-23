@@ -1,6 +1,6 @@
-# Per-response recovery journal
+# Per-response recovery journal — legacy mode and background bridge
 
-Owner authorized 2026-11-21. `automation/recovery/active.json` on main is the durable buffer of accepted play not yet verified in owning records. This narrowly supersedes older no-per-turn-write instructions. It is evidence for recovery, not another resource ledger or permission to adjudicate. No new automation or per-turn PR is needed.
+Owner authorized 2026-11-21. **Before using this legacy per-response path, read `automation/recovery/mode.json`. If the mode is `chunked`, follow `automation/recovery/CHUNKS.md` instead; the code in this document then applies only to the background compatibility journal at sync boundaries.** `automation/recovery/active.json` on main is the durable buffer of accepted play not yet verified in owning records. This narrowly supersedes older no-per-turn-write instructions. It is evidence for recovery, not another resource ledger or permission to adjudicate. No new automation or per-turn PR is needed.
 
 ## Automatic natural-boundary submission (current owner-authorized fast path)
 

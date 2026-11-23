@@ -1,0 +1,51 @@
+name: Assemble immutable recovery at explicit boundary
+on:
+  push:
+    branches: [main]
+    paths:
+      - "automation/recovery/boundaries/**"
+  pull_request:
+    paths:
+      - "automation/recovery_chunks.py"
+      - "automation/recovery_chunk_bridge.py"
+      - "automation/test_recovery_chunks.py"
+      - ".github/workflows/immutable-recovery.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify chunk schema and exact replay safety
+        run: |
+          python3 -m py_compile automation/recovery_chunks.py automation/recovery_chunk_bridge.py
+          python3 -m unittest automation.test_recovery_chunks automation.test_recovery_chunk_bridge automation.test_recovery_journal automation.test_recovery_batch -v
+  bridge:
+    if: github.event_name == 'push'
+    concurrency:
+      group: recovery-chunk-bridge-main
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Assemble pinned chunks and create independent sync PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.CAMPAIGN_SYNC_TOKEN || github.token }}
+        run: python3 -m automation.recovery_chunk_bridge
+      - name: Preserve blocked or submitted result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: immutable-recovery-boundary
+          path: reports/chunk-bridge-status.json
+          if-no-files-found: warn
+          retention-days: 90

@@ -2,6 +2,10 @@
 
 The owner's 2026-11-20 GitHub cutover remains active. This file is a **short index**, not a gameplay journal. Historical Drive Docs/workbooks are read-only references; maps/large images remain in Drive/Library. Public DM-only material still has in-game revelation restrictions. Superseded routing text is preserved verbatim in `archive/continuity/continuity-routing-before-auto-sync-20261121.md`.
 
+## Recovery storage route
+
+Read `automation/recovery/mode.json` before using the recovery journal. In legacy mode, recover `active.json`; in verified chunked mode, use exact immutable `chunks/D###/` entries newer than the owner checkpoint/last verified handoff and the current boundary status. Chunked `active.json` is an older worker compatibility view, not the latest per-turn source. See `automation/recovery/CHUNKS.md`. Avoid reading entire historical chunks at startup.
+
 ## Mandatory scoped startup
 1. Read repository `README.md` → `AGENTS.md` → this routing index.
 2. Read `campaign/continuity/campaign-state.md` (exact owner checkpoint), `runtime/PLAY_NOW.md` (generated counters/summary) and `automation/recovery/active.json` (accepted unsynced play). Compare current checkpoint, newest SESSION_LOG ID and pinned request receipts; owner and newer accepted play override generated views.
