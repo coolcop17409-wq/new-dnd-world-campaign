@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D289-NIGHTGLASS-ARRIVAL-LUCKSTONE-REST-SYNC-001",
+  "reason": "major_transaction",
+  "source_checkpoint": "D285-1700-SEDGECROSS-CARE-FUNDED-EASTWATCH-JOURNEY-QUIET-001",
+  "destination_checkpoint": "D289-1300-NIGHTGLASS-HALL-ESTATE-LANE-ARRIVAL-LUCKSTONE-OWNED-001",
+  "last_recovery_id": "PLAY-REC-D288-289-V-BUYS-LUCKSTONE-EASTWATCH-INN-NIGHTGLASS-APPROACH-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D285/PLAY-REC-D285-286-BLACKTHORN-OFFER-RELAY-EASTWATCH-TRAVEL-001.json",
+      "digest": "844e805d5025da28afea2ca40048cbbf78d8bdfb55bfd9df21e3a91e66e3f282"
+    },
+    {
+      "path": "automation/recovery/chunks/D286/PLAY-REC-D286-V-CORRECTS-BLACKTHORN-INVITATION-BEFORE-DEPARTURE-001.json",
+      "digest": "1180becaa4002da06fe8522bdcda80416d1545353f5282485b1d10038d73469d"
+    },
+    {
+      "path": "automation/recovery/chunks/D286/PLAY-REC-D286-288-EASTWATCH-ROAD-QUIET-TWO-NIGHTS-ARRIVAL-001.json",
+      "digest": "dacce0e8c3062ef24b6f67dec40059fff43c94dc69e94ccb4d1b6eeff3b263af"
+    },
+    {
+      "path": "automation/recovery/chunks/D288/PLAY-REC-D288-V-EASTWATCH-RESUPPLY-TWO-MAGIC-MARKET-OFFERS-001.json",
+      "digest": "d07caeeb4deb692afb85677672cb45eef44e7f093249df6a8323c874107cfe25"
+    },
+    {
+      "path": "automation/recovery/chunks/D288/PLAY-REC-D288-V-CORRECTS-REPEATED-EASTWATCH-MAGIC-OFFERS-001.json",
+      "digest": "233f7ec16f09e881aa27730cc8c7350c51bbd2fa35cf57797ca0d123fd175cf8"
+    },
+    {
+      "path": "automation/recovery/chunks/D288/PLAY-REC-D288-V-HAGGLES-LUCKSTONE-375GP-OFFER-001.json",
+      "digest": "fcb2c38a271dfa171d651994d307284c993b7db60aeaa8b4e99dc475b865df50"
+    },
+    {
+      "path": "automation/recovery/chunks/D288/PLAY-REC-D288-289-V-BUYS-LUCKSTONE-EASTWATCH-INN-NIGHTGLASS-APPROACH-001.json",
+      "digest": "89922b94a8ee656143cb25b8c10ed9aaee6151648dbb14cc1ac0aa3a0ab82082"
+    }
+  ]
+}
