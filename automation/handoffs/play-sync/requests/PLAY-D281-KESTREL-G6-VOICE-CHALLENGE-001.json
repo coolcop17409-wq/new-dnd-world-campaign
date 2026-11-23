@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D281-KESTREL-G6-VOICE-CHALLENGE-001",
+  "mode": "accepted_play",
+  "base_commit": "5bfbb61cdd7b27065f5c9a69987d8a08087c9edd",
+  "source_checkpoint": "D281-2051-V-FENAR-VAULT-CORNER-G6-INVESTIGATING-001",
+  "destination_checkpoint": "D281-2051-G6-DOOR-INSPECTION-DEMANDED-001",
+  "source_evidence": "PLAY-REC-D281-V-MAGISTER-VOICE-RETRY-G6-CHALLENGES-001\nPlayer exactly commands: Impersonate the Magister again. \n\"I said not to let anyone in. I am not to be disturbed. Everything is fine in here.\" Station Kestrel Day281 ~20:51, V and Fenar concealed behind laboratory-side SOLID STONE corner before 20ft exposed passage to closed iron inner vault/armored guardian. KN-G6 existing corridor Guard stands outside LOCKED lab WEST door after hearing Fenar's prior east-vent grille clink (genuine Fenar Stealth3+5=8 vs passive12), has already called \"Magister? Everything all right in there?\" and rattled handle but has not seen V/Fenar or entered. V attempts a second MAGISTER VOICE impersonation, reusing ordinary deceptive voice mimicry that previously worked with V Deception+9, but prior success does not guarantee this new suspicious check. Predeclared Deception DC17 based on same guard and earlier voice impersonation, V Deception skill +9 owning CSV, no advantage or Past Life bonus (PastLife0/3). GENUINE Python secrets.randbelow(20)+1 d20 FACE7+9=16 vs DC17 FAIL by1. V audibly says the exact directed quote, no magical spell, action surge, features, items, psionic resource or coin expended. Guard recognizes similar Magister delivery and explicitly references old instruction, but is not satisfied after hearing noise near shutters. From OUTSIDE still-LOCKED west lab door he responds: \"Yes, Magister. I remember your instructions. But I heard something at the shutters. And that sounded rather like someone else moving about in there. Sir, I'm responsible for securing this corridor. Open the door so I can make certain everything is in order.\" Guard shifts boots at door, suspicious and now requests inspection; NO automatic door breach, rescue, alarm, reinforcements, magister identification or combat has yet occurred. V/Fenar remain at solid covered north lab vault corridor corner; fixed Helmed Horror remains at closed iron vault door down exposed20ft passage, not alerted or engaged by this dialogue as no evidence it heard through layout or saw V. Bound gagged unconscious Magister KN-M1 still0/40 at lab table stable expected~22:17 wake if unchanged. Other guards KN-G6 active, KN-G1 admin and KN-G4 south gate active, western roof KN-G2 and west Scout KN-G3 and ward Guard KN-G5 and ward Apprentice KN-M2 remain unconscious stable, prior bell continues. Cirren with all11 patients (8 mobile, 3 on three real stretchers) heading toward Mara ~0.5mi south, not yet confirmed arrived or safe care. V48/48 AC19 HD7/7 Sup3/4 Psi0/6 MP7/7 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, V holds 2 original contradictory folios, signed local trial/injury evidence packet and magister mundane component pouch; Fenar59/59 AC14, Rage INACTIVE3/4 uses Shift3/3 MP6/6, CLIMB40 and V-owned rope50ft; Cirren51/51 full spells/CD2; Mara healthy with 4 horses/intact coach; purse969gp3sp6cp, supplies12 ration-person-days/feed16 feed-animal-days, sealed Pixie Dust1, LongRest5/6, Whispers V↔Cirren/Fenar through~22:56. The next V decision is whether to answer/deal with guard at LOCKED door, slip into exposed guardian passage, or another legal tactic; cannot auto choose V speech, attack or vault entry. No in-world appreciable time passed beyond dialogue.",
+  "pending_action": "Day281~20:51 Kestrel LAB north solid-stone corner to exposed 20ft inner vault passage. V just attempted Magister voice impersonation to KN-G6 beyond locked lab west door: 'I said not to let anyone in. I am not to be disturbed. Everything is fine in here.' Genuine Deception d20FACE7+9=16 FAIL vs DC17 (earlier mimic success does not override current). G6 outside locked door has NOT seen V/Fenar or entered, but hears suspect sound from shutters, doubts the reassurance, replies he remembers instructions but requests V to OPEN DOOR FOR INSPECTION. No new reinforcements or attack; old facility alarm remains. V and Fenar still covered behind lab-side stone corner; inner vault guard stationary at closed iron door20ft ahead, no entry/engagement. KN-M1 Magister bound/gagged0/40 stable on lab table; apprentice/ward guard/west scout/roof scout remain stable KO; other active security KN-G1 admin and KN-G4 south gate, KN-G6 at lab west door. Cirren with all11 evacuated patients still heading toward Mara/coach south not confirmed arrived; Mara unlinked and waiting. V48/48HP AC19, Sup3/4 Psi0/6 PastLife0/3 MP7/7 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, retains original contradictory folios2, signed local experiment packet, magister component pouch; Fenar59/59 AC14 no active Rage (3/4 uses), Shift3/3 MP6/6 CLIMB40 carrying rope; Cirren51/51 full slots/CD2; purse969gp3sp6cp, provisions12 ration-person-days/feed16 animal-days, Pixie Dust1 unopened, LongRest5/6, Whispers active until~22:56. Await V choice to comply/deceive/distract/disengage guard or enter vault passage; no automatic response or resources.",
+  "depends_on": [],
+  "events": [
+    {
+      "event_id": "D281-V-IMPERSONATES-MAGISTER-G6-REQUESTS-INSPECTION-001",
+      "accepted": true,
+      "evidence": "User exact: 'Impersonate the Magister again. \"I said not to let anyone in. I am not to be disturbed. Everything is fine in here.\"' Genuine Python secrets d20 FACE7 + V Deception9 =16 vs DC17 FAILURE. KN-G6 outside locked west lab door does not believe everything fine after prior vent clink, remembers earlier instructions, requests the door opened for inspection; no breach/reinforcement/combat/other resource.",
+      "before": "~20:51 V+Fenar in lab north stone cover toward vault, KN-G6 suspicious after clink but still outside locked west lab door calling to Magister, no entry; guardian stationary.",
+      "after": "V audibly mimicked magister but new Deception failed16/DC17; KN-G6 now demands visual inspection at still-locked west lab door, remains physically outside and has not seen pair; other positions/resources unchanged.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ],
+  "recovery_entries": {
+    "PLAY-REC-D281-V-MAGISTER-VOICE-RETRY-G6-CHALLENGES-001": "ffdf48e0beb1ff087802d12b3cffbd08de25be190755be8d03c3e60ba9802483"
+  },
+  "journal_source": {
+    "commit": "c58b76055aef79055e032e769b2d7c8e2d563653",
+    "path": "automation/recovery/active.json",
+    "digest": "3d9eddb765cb75409e262c2db89dd00d5eba555983d560c1d1421238b9a63ca5"
+  },
+  "prior_request_ids": [
+    "PLAY-D266-267-REST-001",
+    "PLAY-D266-TROLLS-CLOSED-001",
+    "PLAY-D267-268-FOLLOWUP-001",
+    "PLAY-D268-273-TRAVEL-001",
+    "PLAY-D274-275-DEPART-001",
+    "PLAY-D274-WTR-VENT-RESCUE-001",
+    "PLAY-D275-276-CAER-VEYLAN-001",
+    "PLAY-D276-277-CAER-VEYLAN-REST-001",
+    "PLAY-D277-278-HARROW-CARAVAN-001",
+    "PLAY-D277-CAER-VEYLAN-SPLIT-VISITS-001",
+    "PLAY-D277-CAER-VEYLAN-TWO-ROOM-CORRECTION-001",
+    "PLAY-D278-279-CARAVAN-REST-001",
+    "PLAY-D279-FREIGHT-YARD-RESOLUTION-001",
+    "PLAY-D281-KESTREL-LAB-ENTRY-001"
+  ]
+}
