@@ -57,7 +57,10 @@ def build(journal, request_id, journal_commit, prior_requests, supersessions=Non
     if not isinstance(prior_requests, list):
         raise ValueError('prior requests must be a complete reconciled list')
     prior_requests = reconcile_supersessions(prior_requests, supersessions)
-    posted, prior_ids = {}, set()
+    # A verified, completed batch can already have had its original recovery
+    # entries pruned from active.json. Keep an exact manifest-ID -> batch owner
+    # mapping rather than requiring those old entries to be present again.
+    posted, prior_ids, historical_recoveries = {}, set(), {}
     for prior in prior_requests:
         if validate(prior) or prior.get('mode') != 'accepted_play':
             raise ValueError('invalid prior accepted-play request')
@@ -67,6 +70,18 @@ def build(journal, request_id, journal_commit, prior_requests, supersessions=Non
         if rid in prior_ids:
             raise ValueError('duplicate prior request ID')
         prior_ids.add(rid)
+        manifest = prior.get('recovery_entries')
+        if not isinstance(manifest, dict) or not manifest:
+            raise ValueError('prior batch missing pinned recovery manifest')
+        for recovery_id, pinned_digest in manifest.items():
+            if (not isinstance(recovery_id, str)
+                    or not re.fullmatch(r'PLAY-REC-[A-Za-z0-9_-]+', recovery_id)
+                    or not isinstance(pinned_digest, str)
+                    or not re.fullmatch(r'[0-9a-f]{64}', pinned_digest)):
+                raise ValueError('invalid historical recovery manifest identity')
+            if recovery_id in historical_recoveries:
+                raise ValueError('recovery ID assigned to multiple prior batches')
+            historical_recoveries[recovery_id] = rid
         for event in prior['events']:
             eid = event['event_id']
             if eid in posted:
@@ -109,6 +124,10 @@ def build(journal, request_id, journal_commit, prior_requests, supersessions=Non
                     raise ValueError('forward or cyclic recovery dependency')
             elif dep in mapped:
                 dependencies.add(mapped[dep])
+            elif dep in historical_recoveries:
+                # The original recovery ID may no longer be in active.json
+                # because a prior accepted batch was verified and pruned.
+                dependencies.add(historical_recoveries[dep])
             elif dep in prior_ids:
                 dependencies.add(dep)
             else:
