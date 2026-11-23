@@ -10,7 +10,7 @@ V controls speech, actions, choices, money and limited features except explicit 
 ## Mandatory startup
 1. Read `README.md` → `AGENTS.md` → `campaign/continuity/readme.md` → `campaign/continuity/campaign-state.md` for the actual pending V action.
 2. Read `automation/recovery/mode.json` and recover the **newer immutable chunk suffix** (when `mode=chunked`; currently active) from `automation/recovery/chunks/D###/` following `automation/recovery/CHUNKS.md`. Do not mistake the empty/old worker compatibility `active.json` for absence of newer accepted play. Compare `runtime/PLAY_NOW.md` against owners and recoveries; newest real accepted state wins.
-3. Read `runtime/LIVE_DM_FAST_PATH.md`, `runtime/SCENE_CACHE_SPEC.md`, current `runtime/SCENE_CACHE.md` (non-authoritative), `runtime/SCOPED_RULES_INDEX.md` and applicable regional/quest/NPC/2014 rule sections. Only load additional owners when the active scene materially needs them. Never use a stale cache as evidence.
+3. Read `runtime/LIVE_DM_FAST_PATH.md` **once per new conversation**. Consult `runtime/SCENE_CACHE.md` only if its source pins match the scene; consult `runtime/SCENE_CACHE_SPEC.md` when building/repairing that packet, and `runtime/SCOPED_RULES_INDEX.md` only when selecting a needed rules section. Read additional regional/quest/NPC/2014 references only when the scene warrants them. No compulsory blanket prefetch.
 4. Resume the exact pending V decision and retain a verified in-conversation tactical/relationship packet. Avoid unrelated audits and replay of previous events.
 
 ## During live play

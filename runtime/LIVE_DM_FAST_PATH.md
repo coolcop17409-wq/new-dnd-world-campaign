@@ -6,7 +6,7 @@
 1. Read repository `README.md` → `AGENTS.md` → `campaign/continuity/readme.md` → `campaign/continuity/campaign-state.md`.
 2. Read `automation/recovery/mode.json`. In `chunked` mode, recover unsynced immutable suffix from `automation/recovery/chunks/D###/` and verified handoff receipts per `automation/recovery/CHUNKS.md`; in `legacy` mode read guarded `active.json`. **Never rely on an empty compatibility journal to infer no unsynced chunks.**
 3. Compare latest owning checkpoint, newest accepted log event, `runtime/PLAY_NOW.md`, current relevant recovery suffix and `runtime/SCENE_CACHE.md` source pins. Owner/newer accepted events win. If the cache is stale, reconstruct from current owners and actual chunks, not guessed continuity.
-4. Read `runtime/SCOPED_RULES_INDEX.md`; retrieve only applicable RULES and the current-region quest/NPC/DM preparation sections necessary for the scene, preserving unrevealed truth. Capture source path + revision/section. Keep the verified scene packet **in conversation** until the actual scene changes.
+4. Consult `runtime/SCOPED_RULES_INDEX.md` **only when a mechanic needs a fresh source**; retrieve its relevant RULES subsection and the current-region quest/NPC/DM preparation sections actually necessary for this scene, preserving unrevealed truth. Capture source path + revision/section once. Keep the verified scene packet **in conversation** until the actual scene changes.
 5. Use `dashboard/dashboard.json` for resource gaps and owning character CSV/event overlays only when disputed, missing or mechanically critical. The full world/estate/market archives are not startup prerequisites.
 
 ## Each live turn
