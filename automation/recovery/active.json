@@ -1448,13 +1448,41 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-PAST-LIFE-DECEPTION-CORRECTION-001",
+      "base_commit": "c6f75ccd22fd77f9bf810c4eab789b046d3d7ed8",
+      "source_checkpoint": "D281-2018-V-VOICE-IMITATION-FAILED-GUARD-SUSPICIOUS-001",
+      "destination_checkpoint": "D281-2018-V-VOICE-DECEPTION-PAST-LIFE-SUCCESS-001",
+      "source_evidence": "IMMEDIATE PLAYER CORRECTION/FEATURE INVOCATION at exact Day281~20:18 Station Kestrel after V spoke \"Don't let anyone in\" while nonmagically impersonating unconscious KN-M1 through already locked western laboratory door and initial Deception d20FACE7+expertise9=16 vs predeclared DC17 was narrated as FAILURE: user says EXACTLY \"I have knowledge from past\". Player is identifying the available Reborn Knowledge from a Past Life ability, expressly invokes it to modify THIS same already rolled proficient Charisma(Deception) check while still in the immediate check-resolution exchange, not beginning new dialogue/action/time. Prior owner records and the immediately preceding recovery entry PLAY-REC-D281-KESTREL-V-MIMIC-MAGE-GUARD-SUSPICIOUS-001 had captured provisional failed outcome and guard's resulting questioning/conditional promise to fetch duty officer; THIS CORRECTION SUPERSEDES ONLY THAT FAILURE-DEPENDENT GUARD REACTION, without modifying the actual earlier d20FACE7/DC17, original V words, prior actions, positions or any unrelated events. Campaign rule Knowledge from a Past Life applies to skill ability checks and consumes one use regardless of success. At exact checkpoint V PastLife2/3; genuine executed Python secrets d6 FACE4, ADD to original check16→20 vs17, SUCCESS. V PastLife2/3→1/3, no Psi die, spell slot, action or other item spent; no second d20 check or secret alternate speech. Narrative change: V successfully imitates enough of the Magister's clipped command cadence across closed west lab door that fixed KN-G6 Guard, who cannot see inside and had heard prior lock, now accepts the instruction to guard it, rather than concluding imposture; he replies \"Understood, Magister. No one enters without your permission\", steps back a few paces to regular corridor post. His earlier failed-check lines (\"Your voice sounds strange\", demand for explanation and threatened fetching of duty officer) were a provisional result and are VOID/SUPERSEDED; no duty officer contacted, no further corridor alarm, no entry or sighting. The guard can still learn of laboratory breach via later actual evidence, actions or independent checks; no magical unquestionable loyalty. Both western laboratory door LOCKED from inside, eastern vent shutters closed but outer iron grille remains detached on exterior sill, deeper vault route untouched. KN-M1 remains unconscious stable0/40HP by central laboratory restraint table after V explicitly nonlethal combat; previously rolled recovery2h~22:17 absent intervention. Research records remain unread/unseized, V retains TWO original contradictory station patient discharge/occupied folios. Fixed Animated Armor stands motionless by lab-side west threshold and KN-G6 continues corridor watch, no added guard or attack. V HP48/48 AC19 HD7/7, MP7/7 Sup4/4 Psi0/6, PastLife NOW1/3, PsiRecovery0/1, ActionSurge0/1, SecondWind1/1, purse969gp3sp6cp, rations12 person-days/feed16 horse-feed-days, unopened Pixie Dust1, LongRest5/6 unchanged. Cirren HP51/51 full slots and Fenar HP59/59 Rage4/4 Shift3/3 MP6/6 masked exterior west woods alive, Fenar has V-owned whole50ft rope, Psychic Whispers active V↔Cirren/Fenar until22:56; Mara healthy with four V-owned healthy horses/coached carriage 0.5mi south, not linked. Eleven patients remain on site, nine ordinary ward (six ambulatory/three impaired), P10/P11 northern rooms already released from straps but not extracted, waiting V's signal. No new rest, movement, combat/initiative, attack, V dialogue or knowledge of DM-only truth. The existing background natural-sync marker should be updated to latest recovery ID/checkpoint without triggering duplicate job; true owner synchronization not yet established by journal receipt.",
+      "pending_action": "Day281 ~20:18 Station Kestrel LAB. V masked inside laboratory near LOCKED west wooden door, successful voice imitation of unconscious KN-M1 after PLAYER invoked Reborn Knowledge from a Past Life immediately following initial d20FACE7+9=16/DC17 failed Deception. Genuine executed Past Life d6 FACE4 raises same check to20/DC17 SUCCESS; PastLife2→1/3, Psi stays0/6. This latest explicit correction SUPERCEDES previous provisional failed-voice guard reaction and his threat to fetch duty officer. KN-G6 Guard outside in ~30ft ward↔lab connector now believes authoritative voice/order and replies \"Understood, Magister. No one enters without your permission\", stands regular corridor watch and has NOT summoned anyone, forced door, seen V or detected Mage KO. V original exact words were only \"Don't let anyone in\"; no further line authored. WEST door locked from inside via earlier thieves' tools17/DC15, east vent shutters closed but outside grille DETACHED on high sill, vault approach/iron door untouched. KN-M1 Mage alive unconscious stable0/40HP after nonlethal psychic sword KO, expected spontaneous return~22:17 from previously rolled 2h absent heal; lab papers/diagrams with official-looking seals still not inspected/taken, V carries TWO contradictory station occupancy/discharge originals. Motionless Animated Armor at west lab threshold unchanged. V HP48/48 AC19 HD7/7 MP7/7 Sup4/4 Psi0/6 PastLife1/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, purse969gp3sp6cp, provisions12 ration-person-days/feed16 animal-days, Pixie Dust1, LongRest5/6. Cirren51/51 full spells and Fenar59/59 Rage4/4 Shift3/3 MP6/6 alive/free masked outside west woods with V-owned50ft rope in Fenar custody, Psychic Whispers V↔both until~22:56, Mara healthy with V's four owned horses/intact coach ~0.5mi south unlinked. All 11 patients held at station, nine in ordinary ward, northern P10/P11 already unbuckled but quiet/waiting, no evacuation. Station-wide bell persists from earlier west-wall intruders, no new alert from lab. V's NEXT action undecided: can examine papers, restrain/sequester mage, survey equipment or other option; don't replay old failed Deception or advance time/guards without actual action.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-V-MIMIC-MAGE-GUARD-SUSPICIOUS-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-PAST-LIFE-VOICE-DECEPTION-SUCCESS-CORRECTION-001",
+          "accepted": true,
+          "evidence": "User immediately corrected failed impersonation check with 'I have knowledge from past'. Reborn Knowledge from a Past Life added genuine d6FACE4 to existing Deception d20FACE7+9=16, new total20 vsDC17 success, PastLife2→1/3. Supersedes preceding failed-result narration only: KN-G6 accepts impersonated Magister command 'Don't let anyone in' and remains at corridor door, does not fetch duty officer or demand explanation. No new V line, action, time, Psi, magic or gear change; unconscious Mage, locked door and party remain as before.",
+          "before": "V inside locked Kestrel west lab door after initial Deception16/DC17 narrated failure and KN-G6 guard had questioned anomalous voice/threatened conditional duty officer summons; V PastLife2/3, Psi0/6, Mage unconscious0HP stable.",
+          "after": "Same original Deception now20/DC17 after Knowledge from Past Life d6FACE4, V PastLife1/3, KN-G6 accepts order and continues guarding without new alarm/summons. Initial failure-dependent guard suspicion lines superseded; Mage remains unconscious0, lab evidence untouched and scene/time otherwise unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "data/characters/events.csv"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-MIMIC-MAGE-GUARD-SUSPICIOUS-001",
-    "destination_checkpoint": "D281-2018-V-VOICE-IMITATION-FAILED-GUARD-SUSPICIOUS-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-PAST-LIFE-DECEPTION-CORRECTION-001",
+    "destination_checkpoint": "D281-2018-V-VOICE-DECEPTION-PAST-LIFE-SUCCESS-001"
   }
 }
