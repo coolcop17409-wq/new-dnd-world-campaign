@@ -1,8 +1,12 @@
-# Automatic accepted-play handoff
+# Automatic accepted-play handoff — both legacy and immutable-chunk sources
 
 Owner authorization, 2026-11-21: automatically hand off already accepted play at natural sync boundaries; no repeated player prompt. This lane records existing outcomes, never creates gameplay. The background worker may apply supported accepted changes to main through guarded commits, but must not merge a PR. Repair proposals retain their separate no-auto-apply rules.
 
-## Current automatic request creation — preferred
+## Chunk-mode input (when mode.json says chunked)
+
+The live DM records individual immutable accepted-play chunks and an ordered, checksum-verified boundary manifest per `automation/recovery/CHUNKS.md`. The independent chunk-bridge workflow creates a legacy-compatible `active.json` **only at that boundary** and directly submits the exact `[CAMPAIGN-SYNC]` transport to the same background worker using trusted `automation.auto_sync_submit.submit`. Don't ask the live DM to batch historical files or merge PRs. An incomplete/unsynced legacy journal blocks the bridge. The worker's existing owner/checkpoint-last and verified-only cleanup applies unchanged.
+
+## Current automatic request creation — preferred (legacy mode only)
 
 Live DM preserves accepted play per `automation/recovery/README.md`. At each actual sync boundary set `sync_trigger` in the guarded recovery entry, then save one separate small pinned `automation/recovery/sync-ready.json` marker with verified journal commit and digest. `.github/workflows/auto-sync-submit.yml` and `automation/auto_sync_submit.py` independently perform complete historical PR discovery, pinned journal batching, stable-ID deduplication, branch write, readback and draft `[CAMPAIGN-SYNC]` PR creation. The event-triggered background Work worker applies already-accepted owner events and validates the final checkpoint; never merge the transport. Ordinary recovery turns never touch the marker and produce **no** auto-submit workflow runs. Failure artifacts are inspected by Record Maintenance at its scheduled run; do not block the live turn waiting for CI or claim queued from a mere recovery append.
 

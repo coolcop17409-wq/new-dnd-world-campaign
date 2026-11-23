@@ -1,5 +1,9 @@
 # Campaign operating instructions — compact live play
 
+## Recovery storage switch — use active authoritative mode
+
+At startup read `automation/recovery/mode.json` once. When `mode=legacy`, obey the earlier SHA-guarded `active.json` per-response instruction below. When `mode=chunked`, the per-response write is **exactly one immutable `automation/recovery/chunks/D###/<stable ID>.json`** created through GitHub Contents `create_file` and read back, with stable IDs, exact approved player words, real rolls and original event fields. The v1 `active.json` is then a *background-generated compatibility view at boundaries*, not a per-turn write target. Follow `automation/recovery/CHUNKS.md`; create one immutable boundary manifest for a natural sync, letting GitHub Actions + the separate Work worker assemble/post the legacy-compatible owner batch. Never switch while unsynced legacy entries remain or overwrite a same-ID chunk. Preserve tactical context/independent NPCs and continue narration without CI polling.
+
 ## Combat hot path and recovery — owner-authorized 2026-11-21
 
 A live combat reply is **resolve genuine dice → narrate consequences and next V decision → preserve one compact accepted-play recovery entry**. Read a current encounter's *eligible* pinned source once (the old Day266 troll pin is historical after combat), plus `automation/recovery/active.json` once at new-chat recovery; retain current positions/initiative/HP/conditions/skill bonuses in-conversation. Do **not** re-fetch character trackers, NPC files or 2014 monster stat blocks, search the web, ask an independent Work worker to rule combat or poll CI for a verified unchanged encounter. Only retrieve a scoped fact if genuinely missing/disputed or a new creature/rule appears; thereafter cache it. DM initiative/skill rolls still require executed RNG; delegated V dice respect current scope. Don't trade tactical fidelity for speed.
