@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D285-SEDGECROSS-CARE-HANDOFF-EASTWATCH-DEPARTURE-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr36-0d5cdc60",
+  "claim_expires_at": "2026-11-23T21:06:00Z",
+  "request_commit": "7c77b3025f19e3e55b3b13f6e1c677348a1ec278",
+  "request_blob": "76cf9ee00dfd599ccd00f89c1701cb1bc64966ea",
+  "summary": "Four accepted events and three immutable chunks verified. Prerequisite PR35 complete; preparing one200gp cash leg and care/travel records.",
+  "blocker": null,
+  "applied_event_ids": []
+}
