@@ -1,3 +1,15 @@
+CURRENT ACCEPTED UPDATE — Day285~17:00. Party departed toward Eastwatch; all11 patients voluntarily remain with Sedgecross civilian keeper/sick-tender under finite14-night prepaid care. Three remain nonambulatory. No patient transfer, trustee acceptance, delivered inquiry or foreign disclosure established. Earlier dated entries below remain historical.
+
+D285-V-PARTY-STARTS-EASTWATCH-ROAD-TRAVEL-D100-74-001 — D285~17:00 party on established road in western Veyr heading toward Caer Veylan then Eastwatch; horses healthy, belongings retained, HP/spells/resources unchanged, no encounter; group of11 remains with civilian staff at wayhouse.
+
+D285-V-PAYS-14DAY-SEDGECROSS-PATIENT-CARE-200GP-001 — Day285~10:30 staff accept paid independent care and referral responsibility for11 survivors for14 days; V purse722gp6sp6cp; paper inquiry waiting normal carrier, no V escorts, original evidence V keeps, future transport still conditional.
+
+D285-V-SEDGECROSS-CARE-REFERRAL-ROUTES-QUESTION-001 — Day285~09:00 sick-tender willing to gather medical needs/consenting home contacts and keeper willing to use road carrier for potential recovery-home inquiry; no receiving arrangement, message, transfer or new payment. V party, patients, evidence and resources unchanged; time ~30 minutes.
+
+D285-V-VOICES-CONTESTED-FRONT-CONCERN-ALLIES-WEIGH-EVIDENCE-001 — Day285~08:31 V's war-front concern stated to companions, they respond according to individual values and evidence limits. Conversation only, no material resource, NPC movement, custody or patient condition changes; pending player decision about patients/evidence unchanged.
+
+Payment/custody: ONE200gp advance from V, purse92266cp→72266cp.177gp4sp contractual charges plus22gp6sp entrusted restricted transport/postage contingency held by keeper, not currently spent on carts. No additional personal debit; no indefinite care commitment. Future14 nights/meals are prepaid, not elapsed. Originals stay with V, Mara retains notes, Fenar retains six sealed vials/case/tool unappraised; stocks9 rations/12feed unchanged. Exact evidence: automation/recovery/boundaries/PLAY-D285-SEDGECROSS-CARE-HANDOFF-EASTWATCH-DEPARTURE-001.json and SESSION_LOG.
+
 CURRENT ACCEPTED CARE/EVIDENCE PAUSE — Day285~08:30: all11 survivors alive/stable at Sedgecross, P7–P9 still nonambulatory. Three paid nights have ended; future placement and any disclosure remain V decisions. No observed official visit/attack during stay and no guaranteed sanctuary. Earlier Kestrel guard unconsciousness/timers are historical observations, not current Day285 conditions. Newer immutable discussion chunks supersede this frozen pause for live play.
 
 Verified accepted batch PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001 — frozen Day285~08:30. Original evidence: automation/recovery/boundaries/PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001.json and its three immutable chunks; exact evidence also in SESSION_LOG.

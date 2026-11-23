@@ -2,12 +2,18 @@
   "schema_version": 1,
   "request_id": "PLAY-D285-SEDGECROSS-CARE-HANDOFF-EASTWATCH-DEPARTURE-001",
   "status": "partial",
-  "phase": "claimed",
+  "phase": "owners_published",
   "claim_owner": "opened-pr36-0d5cdc60",
   "claim_expires_at": "2026-11-23T21:06:00Z",
   "request_commit": "7c77b3025f19e3e55b3b13f6e1c677348a1ec278",
   "request_blob": "76cf9ee00dfd599ccd00f89c1701cb1bc64966ea",
   "summary": "Four accepted events and three immutable chunks verified. Prerequisite PR35 complete; preparing one200gp cash leg and care/travel records.",
   "blocker": null,
-  "applied_event_ids": []
+  "applied_event_ids": [
+    "D285-V-VOICES-CONTESTED-FRONT-CONCERN-ALLIES-WEIGH-EVIDENCE-001",
+    "D285-V-SEDGECROSS-CARE-REFERRAL-ROUTES-QUESTION-001",
+    "D285-V-PAYS-14DAY-SEDGECROSS-PATIENT-CARE-200GP-001",
+    "D285-V-PARTY-STARTS-EASTWATCH-ROAD-TRAVEL-D100-74-001"
+  ],
+  "tested_candidate": "aa4c0554bd2ff52ad926b6da47afa054eed71f7a"
 }
