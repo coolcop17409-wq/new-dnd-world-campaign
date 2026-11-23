@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D285-SEDGECROSS-CARE-HANDOFF-EASTWATCH-DEPARTURE-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr36-0d5cdc60",
-  "claim_expires_at": "2026-11-23T21:06:00Z",
+  "claim_expires_at": "2026-11-23T20:42:53Z",
   "request_commit": "7c77b3025f19e3e55b3b13f6e1c677348a1ec278",
   "request_blob": "76cf9ee00dfd599ccd00f89c1701cb1bc64966ea",
-  "summary": "Four accepted events and three immutable chunks verified. Prerequisite PR35 complete; preparing one200gp cash leg and care/travel records.",
+  "summary": "Four accepted events applied with one20000cp payment. Frozen Day285~17:00 checkpoint verified; staff-led finite care funded, party on road, no inferred delivery/arrival or future elapsed nights.",
   "blocker": null,
   "applied_event_ids": [
     "D285-V-VOICES-CONTESTED-FRONT-CONCERN-ALLIES-WEIGH-EVIDENCE-001",
@@ -17,5 +17,66 @@
   ],
   "tested_candidate": "aa4c0554bd2ff52ad926b6da47afa054eed71f7a",
   "owner_commit": "fb1d88103b9726fe56f34dd699a3d996a04fdfe0",
-  "owners_verified": true
+  "owners_verified": true,
+  "completed_at": "2026-11-23T20:42:53Z",
+  "tested_commit": "098dee9f1baba6b81a12d8a0d40b46fbbc41a023",
+  "checkpoint_commit": "098dee9f1baba6b81a12d8a0d40b46fbbc41a023",
+  "checkpoint_verified": true,
+  "request_digest": "a7280573a8ea89e16cfb2a47a79857098155c155a8d0a73f6aec113f2f1f3305",
+  "verified_event_ids": [
+    "D285-V-VOICES-CONTESTED-FRONT-CONCERN-ALLIES-WEIGH-EVIDENCE-001",
+    "D285-V-SEDGECROSS-CARE-REFERRAL-ROUTES-QUESTION-001",
+    "D285-V-PAYS-14DAY-SEDGECROSS-PATIENT-CARE-200GP-001",
+    "D285-V-PARTY-STARTS-EASTWATCH-ROAD-TRAVEL-D100-74-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/fb1d88103b9726fe56f34dd699a3d996a04fdfe0/archive/continuity/campaign-state-before-PLAY-D285-SEDGECROSS-CARE-HANDOFF-EASTWATCH-DEPARTURE-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/fb1d88103b9726fe56f34dd699a3d996a04fdfe0/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/fb1d88103b9726fe56f34dd699a3d996a04fdfe0/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/fb1d88103b9726fe56f34dd699a3d996a04fdfe0/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/fb1d88103b9726fe56f34dd699a3d996a04fdfe0/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/fb1d88103b9726fe56f34dd699a3d996a04fdfe0/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/098dee9f1baba6b81a12d8a0d40b46fbbc41a023/campaign/continuity/campaign-state.md"
+  ],
+  "generated_view_status": "verified at 971ed16447b5d9830184965f6692107d93b4ce42",
+  "cleanup_status": "pending verified-only compatibility prune",
+  "tests": [
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr36/request.json",
+      "exit_code": 0,
+      "tested_commit": "098dee9f1baba6b81a12d8a0d40b46fbbc41a023",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr36/pinned.json --request /tmp/pr36/request.json --prior-requests /tmp/pr36/prior.json --supersessions /tmp/pr36/supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "098dee9f1baba6b81a12d8a0d40b46fbbc41a023",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "098dee9f1baba6b81a12d8a0d40b46fbbc41a023",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_recovery_chunks automation.test_recovery_chunk_bridge -q",
+      "exit_code": 0,
+      "tested_commit": "098dee9f1baba6b81a12d8a0d40b46fbbc41a023",
+      "result": "96 passed"
+    },
+    {
+      "command": "PYTHONPATH=. python3 /tmp/pr36/verify.py",
+      "exit_code": 0,
+      "tested_commit": "098dee9f1baba6b81a12d8a0d40b46fbbc41a023",
+      "result": "PASS"
+    }
+  ],
+  "immutable_provenance": {
+    "boundary": "automation/recovery/boundaries/PLAY-D285-SEDGECROSS-CARE-HANDOFF-EASTWATCH-DEPARTURE-001.json",
+    "pinned_commit": "071cdc34fd75454c3c6a3ec4a345e01e5821f77d",
+    "journal_digest": "96f247966e0ace4c152c81ac82b1ed7f008947e1f7547e15b3cc43ab1df894b2",
+    "verified_chunk_count": 3,
+    "original_files_modified": false
+  }
 }
