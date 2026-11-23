@@ -8,7 +8,7 @@ import base64, importlib.util, json, os, re, sys, urllib.error, urllib.parse
 from pathlib import Path
 from automation.play_handoff import validate as validate_play
 from automation.recovery_batch import build, verify
-from automation.recovery_journal import check
+from automation.recovery_journal import check, digest
 
 HERE=Path(__file__).resolve().parent
 SPEC=importlib.util.spec_from_file_location("trusted_repair_api", HERE/"handoffs"/"sync-repair"/"collect.py")
@@ -16,6 +16,7 @@ API_MODULE=importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(API_MODULE)
 API=API_MODULE.API
 JOURNAL="automation/recovery/active.json"
+MARKER="automation/recovery/sync-ready.json"
 REQUESTS="automation/handoffs/play-sync/requests"
 RESULTS="automation/handoffs/play-sync/results"
 REASONS={"combat_end","significant_exploration","qualifying_rest","major_transaction",
@@ -42,6 +43,20 @@ def ready_trigger(journal):
     if marker.get("last_recovery_id")!=last["request_id"] or marker.get("destination_checkpoint")!=last["destination_checkpoint"]:
         raise StaleBoundary("Later accepted play follows a marked boundary")
     return marker
+
+def validated_marker(document):
+    """Explicit, independently pinned boundary; never infer from descriptions."""
+    if not isinstance(document,dict) or document.get("ready") is not True:
+        return None
+    required=("reason","request_id","last_recovery_id","destination_checkpoint")
+    if (document.get("schema_version")!=1 or
+            any(not isinstance(document.get(k),str) or not document[k] for k in required) or
+            document["reason"] not in REASONS or
+            not re.fullmatch("PLAY-[A-Z0-9-]+",document["request_id"]) or
+            not re.fullmatch("[0-9a-f]{40}",str(document.get("journal_commit",""))) or
+            not re.fullmatch("[0-9a-f]{64}",str(document.get("journal_digest","")))):
+        raise ValueError("Malformed explicit pinned sync marker")
+    return document
 
 def file(api,path,ref):
     item=api.get_file(path,ref)
@@ -82,7 +97,7 @@ def priors(api,prs):
             if r.get("status")=="superseded":retired.append(r)
     return out,retired
 
-def submit(api,source_commit):
+def submit(api,source_commit,expected_marker=None):
     if not re.fullmatch("[0-9a-f]{40}",source_commit):
         raise ValueError("Need exact main source SHA")
     data=file(api,JOURNAL,source_commit)
@@ -92,6 +107,15 @@ def submit(api,source_commit):
     except StaleBoundary:
         return {"status":"stale_marker","source_commit":source_commit}
     if marker is None:return {"status":"not_ready","source_commit":source_commit}
+    if expected_marker is not None:
+        pinned=validated_marker(expected_marker)
+        if pinned is None or pinned["journal_commit"]!=source_commit:
+            raise ValueError("Missing or unpinned submitted marker")
+        for key in ("ready","reason","request_id","last_recovery_id","destination_checkpoint"):
+            if marker.get(key)!=pinned.get(key):
+                raise ValueError("Sync marker does not match pinned recovery journal")
+        if pinned["journal_digest"]!=digest(journal):
+            raise ValueError("Sync marker journal digest mismatch")
     status=api.call("GET",f"compare/{source_commit}...main")["status"]
     if status not in ("identical","ahead"):
         raise ValueError("Recovery commit is no longer on current main history")
@@ -149,7 +173,12 @@ def main():
     result={"status":"not_started"}
     try:
         api=API(os.environ["GITHUB_REPOSITORY"],os.environ["GITHUB_TOKEN"])
-        result=submit(api,os.environ["GITHUB_SHA"])
+        marker_text=file(api,MARKER,os.environ["GITHUB_SHA"])
+        signal=validated_marker(json.loads(marker_text)) if marker_text is not None else None
+        if signal is None:
+            result={"status":"not_ready","source_commit":os.environ["GITHUB_SHA"]}
+        else:
+            result=submit(api,signal["journal_commit"],signal)
         print(json.dumps(result,indent=2))
     except Exception as exc:
         result={"status":"blocked","reason":str(exc),"source_commit":os.environ.get("GITHUB_SHA")}

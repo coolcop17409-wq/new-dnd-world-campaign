@@ -3,9 +3,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "automation/recovery/active.json"
-      - "automation/auto_sync_submit.py"
-      - ".github/workflows/auto-sync-submit.yml"
+      # One tiny explicit boundary marker, not every per-turn recovery edit.
+      - "automation/recovery/sync-ready.json"
   pull_request:
     paths:
       - "automation/auto_sync_submit.py"
