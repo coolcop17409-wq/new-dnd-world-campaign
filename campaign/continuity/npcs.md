@@ -1,3 +1,19 @@
+D281-V-QUICK-TOSS-READY-FENAR-GUARDIAN-DESTROYED-001 — End R2 Fenar turn guardian destroyed0/60, V48/48HP Sup2/4 and Psi0 MP7, Fenar51/59 Rage active2/4 uses, vault closed unentered, remaining party/guards/other gear unchanged.
+
+Accepted evidence: Exact player 'Quick Toss, then hold attack and attack on the next turn enemy or ally movement or action'. V Quick Toss bonus dart attack genuine d20FACE5+9=14 miss AC20, Superiority3/4→2/4, no damage. V used Ready action with normal dart for next actor movement/attack, stayed 20ft from guardian (premature automatic advance retracted), no Psychic Blade under 2014 Ready. Horror attacks Fenar w/ADV due Reckless: crit adv(20,5)+6=26, 2d8(4,4)+4=12 slashing /Rage=6, Fenar59→53. V readied dart reaction after first swing d20FACE1+9=10 MISS AC20, no SneakAttack. Horror second adv(4,19)+6=25 hit, d8(1)+4=5 /Rage=2, Fenar53→51. Fenar R2 Reckless raging attacks: greataxe crit adv(20,6)+8=28 2d12(11,1)+7=19 RESIST→9, Horror24→15; magical claw adv(14,18)+8=26 hit d6(1)+7=8, Horror15→7; magical claw adv(13,1)+8=21 hit d6(5)+7=12, Horror7→0 DESTROYED. Fenar51/59HP RageACTIVE2/4 uses, Shift3/3 unspent, guardian vault door CLOSED no new entry; combat ends.
+
+D281-V-TIES-G6-RELOCKS-LAB-FENAR-HORROR-R1-36DAMAGE-001 — Day281~20:54 G6 bound with 50ft rope inside lab, western lab door locked again. Vault R1 now in progress, guardian24/60HP after Fenar36 total damage, Fenar engaged at5ft Rage ACTIVE2/4, V at passage mouth20ft away init10 next, Horror init6 pending; other party/evidence unchanged.
+
+Accepted evidence: Player exact "Tie him up and lock the door again, then we deal with the armor". G6 stable unconscious0/11 wrists+ankles bound with V-owned50ft rope, WEST LAB door relocked from inside. Horror at vault20ft sees pair on exposure, initiative genuine Fenar19+2=21 V6+4=10 Horror5+1=6, none surprised. Fenar BA Rage3→2 uses, Reckless advances20ft to melee, attacks AC20 with greataxe adv(11,13)+8=21, d12FACE12+7=19 nonmag slashing RESIST half9; magical claws adv(9,15)+8=23, d6FACE5+7=12; extra magical claw adv(16,20)+8=28 CRIT 2d6FACES5,3+7=15. Guardian HP60→24, V's turn next before guardian. No extra V attack/feature or other guard action.
+
+D281-V-FENAR-AMBUSH-KN-G6-NONLETHAL-LAB-001 — ~20:52 G6 inside lab at west entrance unconscious stable0HP, not bound/disarmed; lab west door now unlocked/open, V+Fenar uninjured at west entrance; all other party/security/resource/evidence status unchanged.
+
+Accepted evidence: Exact user instruction "Unlock the door and hide for an ambush with Fenar.
+
+Attack when hes inside and both can attack.". G6 steps through unlatched western lab door, hidden V15/Fenar25 vs G6 active Perception7, surprised. Initiative G6 20+1=21 surprised, V5+4=9, Fenar5+2=7. V advantage d20(2,19)+7=26 hits AC16; psychic blade melee nonlethal damage d6(2)+4+Sneak2d6(1,6)=13, G6 HP11→0 unconscious stable. Genuine d4(3) wakes~23:52 absent change. Fenar independently catches body instead of striking helpless guard. No new resources or alarm, guardian still unengaged.
+
+Earlier dated records preserved; newer accepted results above supersede older current-status wording:
+
 D281-V-IMPERSONATES-MAGISTER-G6-REQUESTS-INSPECTION-001 — V audibly mimicked magister but new Deception failed16/DC17; KN-G6 now demands visual inspection at still-locked west lab door, remains physically outside and has not seen pair; other positions/resources unchanged.
 
 Exact accepted evidence: PLAY-REC-D281-V-MAGISTER-VOICE-RETRY-G6-CHALLENGES-001

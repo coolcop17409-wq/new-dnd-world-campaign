@@ -1,3 +1,11 @@
+CURRENT ROPE CUSTODY: V-owned50ft hempen rope binds stable unconscious KN-G6 wrists/ankles behind lab cabinets, remainder coiled there; no longer held by Fenar. No title change or new item. Vault wreckage uncollected; no reward or loot.
+
+D281-V-TIES-G6-RELOCKS-LAB-FENAR-HORROR-R1-36DAMAGE-001 — Day281~20:54 G6 bound with 50ft rope inside lab, western lab door locked again. Vault R1 now in progress, guardian24/60HP after Fenar36 total damage, Fenar engaged at5ft Rage ACTIVE2/4, V at passage mouth20ft away init10 next, Horror init6 pending; other party/evidence unchanged.
+
+Accepted evidence: Player exact "Tie him up and lock the door again, then we deal with the armor". G6 stable unconscious0/11 wrists+ankles bound with V-owned50ft rope, WEST LAB door relocked from inside. Horror at vault20ft sees pair on exposure, initiative genuine Fenar19+2=21 V6+4=10 Horror5+1=6, none surprised. Fenar BA Rage3→2 uses, Reckless advances20ft to melee, attacks AC20 with greataxe adv(11,13)+8=21, d12FACE12+7=19 nonmag slashing RESIST half9; magical claws adv(9,15)+8=23, d6FACE5+7=12; extra magical claw adv(16,20)+8=28 CRIT 2d6FACES5,3+7=15. Guardian HP60→24, V's turn next before guardian. No extra V attack/feature or other guard action.
+
+Earlier dated records preserved; newer accepted results above supersede older current-status wording:
+
 CURRENT KESTREL CUSTODY — Day281 ~20:51
 V retains TWO neatly removed original discharge/current-ward folios, signed local trial/injury packet and the mage’s mundane component pouch (temporary custody, not adjudicated title). KN-S1 retained their duty-sheet copy; Mara has her own interview notes. V-owned 50ft hempen rope is held by Fenar. Three of four station stretchers and blankets accompany the eleven patients with Cirren; one stretcher remains at station. Eight walk and three remain flat. Cirren and patients are out of sight in western woods, NOT confirmed at Mara or safe care. Mage dagger remains on laboratory surface; vault still closed and unlooted. Rations12/feed16, purse969gp3sp6cp, sealed Pixie Dust1. Estate/customer custody below is preserved unchanged.
 

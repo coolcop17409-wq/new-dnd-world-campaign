@@ -2,12 +2,17 @@
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-VAULT-GUARDIAN-END-001",
   "status": "partial",
-  "phase": "claimed",
+  "phase": "owners_published",
   "claim_owner": "opened-pr30-07f6f7de",
   "claim_expires_at": "2026-11-23T18:35:48Z",
   "request_commit": "f42ced0487b6b151b1243053edc10f36843263e0",
   "request_blob": "db706e8b70f74727659573ab34b9a16e7717e363",
-  "summary": "Three-event request verified against pinned legacy main journal and16 historical transports including supersession. PR29 dependency complete; writer idle.",
+  "summary": "Three accepted events; exact evidence,3 mechanical journal legs and rope custody prepared. Scoped preflight and62 regressions PASS; checkpoint pending.",
   "blocker": null,
-  "applied_event_ids": []
+  "applied_event_ids": [
+    "D281-V-FENAR-AMBUSH-KN-G6-NONLETHAL-LAB-001",
+    "D281-V-TIES-G6-RELOCKS-LAB-FENAR-HORROR-R1-36DAMAGE-001",
+    "D281-V-QUICK-TOSS-READY-FENAR-GUARDIAN-DESTROYED-001"
+  ],
+  "tested_candidate": "6490767fd7f664410c1fa34e6bdf5528dd804062"
 }
