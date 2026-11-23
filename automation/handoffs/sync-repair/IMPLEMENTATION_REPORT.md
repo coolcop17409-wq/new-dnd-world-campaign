@@ -1,6 +1,12 @@
 # Background synchronization — implementation and verified boundaries
 
-## Current observed status — maintenance verification 2026-11-22
+## Current observed status — maintenance verification 2026-11-23
+
+Current main b0844161403e7a46377c44241503a7a911d64741 independently passes shops validation and94 scoped regressions. Market owner corrected ADMIN-MARKET-D279-20261122-01 in its scheduled Day281 run (verified owner f94ec3fd143d0cf5ac49bba6318e4885b62013bd; remote market45190356618 SUCCESS). PR22 remains unmerged and its terminal verified proposal is preserved; the independently corrected main no longer needs that patch. PR23's duplicate regression symptom is superseded by verified current-main evidence, not by an automatic merge. Historical failure/proposal evidence below remains intact.
+
+Latest accepted-play boundary PLAY-D281-KESTREL-LAB-ENTRY-001 is still submission-blocked:61 recovery entries through Day281~20:36, pinned89c505ef8291d040189837707f71651efd5ff7a2. Actual builder retry and Actions45129561494 both fail on the pruned Day279 predecessor. No matching PR/request exists; no owners applied or recovery pruned. Exact receipt: automation/handoffs/play-sync/results/PLAY-D281-KESTREL-LAB-ENTRY-001.json. Existing delivery proof remains valid for earlier observed runs; it does not prove delivery of this failed boundary.
+
+## Historical observed status — maintenance verification 2026-11-22
 
 This update supersedes the older account-level403/opened-delivery limitation below **for the observed runs only**. GitHub Actions itself created synthetic [PR7](https://github.com/coolcop17409-wq/new-dnd-world-campaign/pull/7) on2026-11-21 and production [PR22](https://github.com/coolcop17409-wq/new-dnd-world-campaign/pull/22) on2026-11-22. Both PR authors are github-actions[bot]; each has a separate opened-worker claim, actual isolated correction, executed tests and terminal verified proposal receipt. PR22 collector45031073740 succeeded; worker tested0dab0b4320d20cd79e882f7ca8083f865ab4e913 against main4ed0eb91dde8f23c0c045ca1e34baf26afe6aa3d, shops validation and35regressions passed. This is observed Actions→PR→independent worker evidence, not subscription inference. No account setting was changed by this review.
 
