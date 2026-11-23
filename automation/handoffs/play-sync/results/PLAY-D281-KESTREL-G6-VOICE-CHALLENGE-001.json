@@ -2,7 +2,7 @@
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-G6-VOICE-CHALLENGE-001",
   "status": "partial",
-  "phase": "owners_published",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr29-39bd85ec",
   "claim_expires_at": "2026-11-23T18:15:34Z",
   "request_commit": "10293467a510754aab7985dbb2cc7e6031323bd8",
@@ -26,5 +26,7 @@
       "result": "62 passed",
       "tested_commit": "2d8d93926a99c876f7190c64ea3a711ca8f45727"
     }
-  ]
+  ],
+  "owner_commit": "82ea9f71dc5f33fd1b7c7c94b56b710b8829c309",
+  "owners_verified": true
 }
