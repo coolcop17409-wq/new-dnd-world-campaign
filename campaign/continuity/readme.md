@@ -23,3 +23,8 @@ Keep this index under 8,000 characters; checkpoint under 12,000; recent SESSION_
 
 ## Atlas and maintenance pointers
 Previously verified atlas `ATLAS-D281-KESTREL-APPROACH-001` is historical to the current region; current overlays and maintenance receipts belong in their respective owning registers, not this startup. Former specific file links and writer-lease receipts remain preserved in `archive/continuity/continuity-readme-before-live-fastpath-20261123.md`.
+
+## Cooperative writer
+Short owning-record batch coordination; accepted-play recovery retains its separate fast path.
+
+CAMPAIGN_WRITER | state=HELD | token=SHOPS-POOL5X-20261123-01 | claimed_UTC=2026-11-23T22:19:30.118Z | expires_UTC=2026-11-23T22:29:30.118Z | scope=trackers/csv/magic-shops | recovery=ADMIN-SHOP-POOL-5X-20261123-001
