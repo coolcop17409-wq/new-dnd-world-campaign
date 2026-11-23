@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr35-4e547188",
+  "claim_expires_at": "2026-11-23T20:35:00Z",
+  "request_commit": "3b44766b62a8340741e470e7629ca485ee901baa",
+  "request_blob": "f88f6581b0908fd55bbf44728c074c7be1557a8c",
+  "summary": "Immutable three-chunk journal and eight accepted events verified; prerequisite complete. Preparing scoped owner changes and tests; preserving newer Day285 discussion chunk.",
+  "blocker": null,
+  "applied_event_ids": []
+}
