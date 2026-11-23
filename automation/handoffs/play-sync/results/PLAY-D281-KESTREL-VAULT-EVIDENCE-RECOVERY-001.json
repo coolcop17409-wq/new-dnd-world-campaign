@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D281-KESTREL-VAULT-EVIDENCE-RECOVERY-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr32-029dca60",
+  "claim_expires_at": "2026-11-23T19:47:27Z",
+  "request_commit": "97aba95b4a642cdf3b2a51e7e0b68ac8d6110d1b",
+  "request_blob": "a719086da9ba342691cd66dc4d4cff7cc00c4473",
+  "summary": "Seven events independently verified from five immutable chunks, exact boundary and compatible journal;17 historical transports reconciled. Writer idle. Two newer chunks retained separately.",
+  "blocker": null,
+  "applied_event_ids": []
+}
