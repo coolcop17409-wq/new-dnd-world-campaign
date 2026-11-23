@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-SMOKE-20261121-001",
+  "mode": "smoke_test",
+  "status": "complete",
+  "summary": "Independent opened-event delivery observed; smoke envelope and trusted validator regression tests passed. No real accepted-play synchronization tested.",
+  "request_commit": "5607e1aff60356242827552fb24b5b91a397fa0d",
+  "request_blob": "96e4eb469841b34554e2f775db222e50d2cd1e97",
+  "tested_commit": "768ae8acde863bd7743b25d307a771bf80d3caa7",
+  "tests": [
+    {
+      "command": "python3 automation/play_handoff.py automation/handoffs/play-sync/requests/PLAY-SMOKE-20261121-001.json",
+      "exit_code": 0,
+      "result": "PASS; findings=[]"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff -v",
+      "exit_code": 0,
+      "result": "7 tests passed"
+    }
+  ],
+  "delivery": {
+    "event_type": "pull_request",
+    "action": "opened",
+    "pr_number": 5,
+    "delivery_id": "470d21d0-e5c2-11f1-942e-686af4415f3d"
+  },
+  "owner_commit": null,
+  "checkpoint_commit": null,
+  "applied_event_ids": [],
+  "owner_refs": [],
+  "blockers": [],
+  "generated_view_status": "not_applicable",
+  "main_writes": false,
+  "gameplay_effects": false,
+  "verification": "PASS",
+  "execution_method": "Fetched only validator and test module from pinned current main, checked Git blob hashes locally, executed in isolated scratch runtime; request JSON read as data only.",
+  "source_blobs": {
+    "automation/play_handoff.py": "f329a910b0940d6cf8fdab98b94d047d658d59cd",
+    "automation/test_play_handoff.py": "6408429a8b1fd7bee1a0e284100d632b0b4dc569"
+  },
+  "checkpoint_observed": {
+    "path": "campaign/continuity/campaign-state.md",
+    "commit": "768ae8acde863bd7743b25d307a771bf80d3caa7",
+    "blob": "b9928602d3e5c5f562061f4644510e15eebabc87",
+    "checkpoint": "D266-NIGHT-ROAD-TROLLS-001",
+    "changed": false
+  },
+  "branch_scope": "Initial comparison contains only immutable request; no dependencies or owner events. Smoke exception requires no central main claim.",
+  "limitation": "Delivery/envelope smoke test only; no multi-owner application, checkpoint publication or derived refresh exercised."
+}
