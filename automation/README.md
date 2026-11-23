@@ -51,3 +51,7 @@ See `automation/handoffs/README.md`. Existing scheduled tasks (shops, quests, es
 ## Background synchronization repair
 
 See `handoffs/sync-repair/README.md` for the implemented scoped preflight, diagnostics, stable-signature queue/draft-PR collector, Work subscription and scheduled fallback. `sync_validate.py` checks only the requested subsystem; `sync_batch.py` provides strict idempotent append helpers. Generated writes use `publish_generated.py`, rejecting source-head changes instead of rebasing stale output. Verification status is in `handoffs/sync-repair/IMPLEMENTATION_REPORT.md`.
+
+## Fast-sync trigger and alert policy (2026-11-23)
+
+The automatic batch worker is triggered by `automation/recovery/sync-ready.json`, never every recovery append. It can map a dependency on a pruned historical recovery ID through earlier immutable batch manifests. A failed boundary submission is eligible for the dedicated background repair collector. Monitor recovery byte size (>128 KiB warning, >256 KiB critical), pending marker/PR mismatch and older than 8–12 substantive changed turns without a completed batch. Warning does not advance game time, authorize replay or truncate evidence. Do not treat a file-size alert as permission to invent a synchronization boundary. Post exact verified owner records only after the independent worker's checkpoint-last procedure.
