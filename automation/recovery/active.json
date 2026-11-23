@@ -912,13 +912,34 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-WARD-WINDOW-PATIENT-CONTACT-001",
+      "base_commit": "4a8c7d8f9772e823fd3a7d1c754cbba573cb010c",
+      "source_checkpoint": "D281-1959-V-INSIDE-NORTH-WARD-ALARM-001",
+      "destination_checkpoint": "D281-2001-V-ORDINARY-WARD-REAR-PATIENT-CONTACT-001",
+      "source_evidence": "Player's exact next decision at Day281 ~20:00 Kestrel after V crossed north outer wall and remained undetected near north/rear ordinary ward window: \"enter the ward through the inward-opening window to investigate the patients first\". V independently acts SOLO; Cirren/Fenar remain masked west/southwest external woods telepathically linked until ~22:56; Mara with V's four healthy horses and coach ~0.5mi south, no link. Site-wide alarm from prior witnessed western wall intruders continues. The established ordinary ward inward-opening window is four feet above ground and is a physically usable entry without inventing a lock or requiring a trivial climb check. V quietly opens it inward and climbs through to the three rear injured patient beds; window remains inward-open/unlatched, not yet closed. At alarm, fixed KN-G5 Guard guarding the principal ward doorway actively listens/searches; genuine secure executed RNG V Dexterity(Stealth) d20 FACE10+expertise10=20 opposed by KN-G5 active Wisdom(Perception) d20 FACE19+0=19; V WINS narrowly and remains undiscovered by ward guard. KN-M2 Apprentice Wizard remains behind/at screened medicine alcove, no omniscient detection; no additional NPC or bell. Ward now seen from inside: nine occupied ordinary ward beds, six in forward row (P1–P6, mobile status from prior documents) and three rear beds (P7–P9), all alive. V personally observes bandaged immobile limbs, evident injury/old restraint marks, poor condition in rear three, consistent with but not independently proving exactly what procedures occurred. ONE elderly exhausted injured rear patient (KN-P7) notices masked V at bedside and independently whispers, \"You're not one of them,\" cautions that a guard not see V, says, \"They keep taking us through the other doors. Some of us don't come back the same,\" and asks \"Are you here to help?\" His uncertain phrase does NOT establish any deaths and must not be embellished into casualty proof. The guard remains at entrance and has not noticed either the quiet window entry or the patient's low whisper. There are two additional patients in separately CLOSED northern restraint rooms P10–P11, NOT entered/seen. No V speech, promises, physical contact/care, examination with magic, patient release, formal search of tags or documents, combat, initiative, violence, further check, or movement east toward specialist lab. Time advances about one minute to ~20:01. V still holds original two stolen administrative contradictory folios (six shared identifiers among eleven); no new items taken, guards defeated, alarms canceled, doors passed, or forced escape plan. V HP48/48 AC19 HD7/7 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1 ActionSurge/SecondWind1/1, active Whispers to Fenar/Cirren until~22:56; Cirren51/51 full spells/CD2/2, Fenar59/59 Rage4/4 Shift3/3 MP6/6, Mara healthy. V purse969gp3sp6cp; provisions12 person-ration-days/16 horse-feed animal-days, sealed Pixie Dust1, LongRest5/6. This is a continuing stealth investigation beat, NOT a distinct new natural sync boundary beyond previously requested D281 north-wall significant-exploration marker.",
+      "pending_action": "Day281 ~20:01 at Station Kestrel under continuing station-wide alarm. V SOLO masked, currently INSIDE ordinary ward at north/rear three occupied beds after climbing through an inward-OPEN, currently unlatched window four feet above ground; guard KN-G5 still stationed at main ward entrance, oblivious after V Stealth d20FACE10+10=20 versus KN-G5 active Perception d20FACE19+0=19. Medicine alcove screened with KN-M2 Apprentice Wizard; no active confrontation or initiative. Nine patients occupy normal ward: six forward P1–P6, three rear injured nonambulatory P7–P9. One elderly injured rear patient KN-P7 saw V and whispered that patients are taken through other doors and some return changed; he cautions V to avoid guard and asks \"Are you here to help?\" This is firsthand testimony only; does not establish death or exact procedure. Two restrained patients P10–P11 in separate secured northern rooms remain unseen; east specialist lab and corridor still unentered. V has not spoken/responded, promised rescue, released anyone or spent resource. V48/48HP AC19 HD7/7 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1, SecondWind/ActionSurge ready, two original stolen contradictory discharge/occupancy records held. Fenar59/59 and Cirren51/51 masked ALIVE outside west/southwest woods, V-owned intact 50ft rope with Fenar; Whispers link to those two active through~22:56 (not Mara). Mara healthy with four owned horses and intact carriage public turnout~0.5mi south. 969gp3sp6cp; rations12 person-days/feed16 animal-days; sealed Pixie Dust1; LongRest5/6. Await V's answer to rear patient, quiet assessment/treatment, or another chosen maneuver; rising site alarm remains real.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-V-WHISPERS-NORTH-ENTRY-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-KESTREL-ORDINARY-WARD-WINDOW-PATIENT-CONTACT-001",
+          "accepted": true,
+          "evidence": "V explicitly chose entry through existing north-side inward-opening ward window to investigate living patients. Stealth V d20FACE10+10=20 succeeds versus alerted KN-G5 Guard active Perception d20FACE19+0=19; no spell, attack, alarm discovery, damage, equipment or Psi spent. V enters rear ordinary ward, sees six occupied forward and three injured rear beds, and KN-P7 quietly addresses masked V with limited testimony of harsh returns from other doors and asks if V came to help. Other two secured restraint rooms and lab unentered; V has not answered or accepted rescue.",
+          "before": "Day281~20:00 V masked and undetected OUTSIDE ordinary ward window but INSIDE north compound wall under site-wide alarm, still choosing route. Fenar/Cirren exterior west with Psychic Whispers, Mara/coach south; V Psi1/6 HP48/48, original two folios concealed.",
+          "after": "Day281~20:01 V masked and undetected INSIDE ordinary ward at rear three beds via open inward north window. Guard at doorway unsuspecting after opposed 20 vs19, apprentice near medicine alcove. Observed nine occupied beds and visible injury; one bedridden KN-P7 noticed V, quietly asks if V is here to help. No combat, resource changes or promised rescue; next V reply pending.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
-  ],
-  "sync_trigger": {
-    "ready": true,
-    "reason": "significant_exploration",
-    "request_id": "PLAY-D281-KESTREL-NORTH-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-WHISPERS-NORTH-ENTRY-001",
-    "destination_checkpoint": "D281-1959-V-INSIDE-NORTH-WARD-ALARM-001"
-  }
+  ]
 }
