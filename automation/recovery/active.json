@@ -1905,13 +1905,40 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-WARD-LOCAL-COMBAT-ENDED-RETURN-TO-EXPLORATION-001",
+      "base_commit": "fb12c80b723f936f12785d38d183305f390da0d9",
+      "source_checkpoint": "D281-2036-R2-V-ESCAPE-PLAN-RELAYED-BA-PENDING-001",
+      "destination_checkpoint": "D281-2036-WARD-LOCAL-COMBAT-ENDED-EVACUATION-PLAN-001",
+      "source_evidence": "V asks \"Combat is over no?\" immediately after communicating evacuation-first, then conditional stealth return-to-vault plan to Fenar/Cirren on Day281 ~20:36 Station Kestrel ward. DM corrects previous insistence on V remaining in formal ward Round2 initiative: this immediate LOCAL ward fight is finished because its only two hostile participants KN-G5 Guard (0/11HP stable unconscious) and KN-M2 Apprentice Wizard (0/9HP unconscious stable after V Medicine d20FACE13+1=14/DC10) are incapable of fighting; separate west Scout KN-G3 also stable unconscious0/16 from Fenar's earlier melee. No other hostile creature presently attacking or physically contesting V inside ward. External stationwide alarm remains active, rooftop west lookout KN-G2 is alert and corridor guard KN-G6 still active at locked west lab door; further stealth, rescue, guards/renewed combat possible as actual events develop. Resolve next beat under exploration/travel time and independent NPC actions, NOT artificial leftover initiative/bonus action or guaranteed no hazards. The successful prior stabilization and its genuine rolls, previously used superiority die, resource totals, all positions, patient locations and existing ability/effect timers stay valid; no new combat round, Fenar Rage duration tick, extra alarm, free movement, patient transport or resource expenditure by this correction alone. The player has already directed Fenar to assist moving all11 patients, Cirren to escort them (mobile patients help disabled) to Mara and farther safety, then V+Fenar to return stealthily to vault and armored guardian. These intentions are not completed actions. V48/48 HP AC19 HD7/7 Sup3/4 MP7/7 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1; Fenar59/59 at west gate inside perimeter Rage active3/4, Shift3/3, MP6/6, carries V-owned50ft rope; Cirren51/51 outside west woods full spells/CD2; Mara with 4 horses/coach ~0.5mi south. Nine ward patients (6 mobile, 3 nonambulatory) and P10/P11 unassessed mobility still inside station. KN-M1 magister bound/gagged stable0/40 in locked lab; apprentice anticipated waking~22:36 if undisturbed. V retains two original conflicting folios, signed local experiment packet and mage pouch; purse969gp3sp6cp, supplies12 ration-person-days/feed16 animal-days, sealed Pixie Dust1, incomplete LongRest5/6. In-world instant remains ~20:36, Whispers links V↔Fenar/Cirren until~22:56.",
+      "pending_action": "Day281 ~20:36 Kestrel ORDINARY WARD, local fight declared ENDED (not global site alert): KN-G5 guard0/11 stable unconscious at main entrance, KN-M2 apprentice0/9 stable unconscious at medicine alcove (~22:36 spontaneous wake), prior KN-G3 scout0/16 unconscious stable west gate. Stop enforcing V's leftover Round2 bonus action/movement; return to free exploration/stealth timing. All11 patients UNMOVED: 6 ambulatory+3 immobile ward; P10/P11 north separate rooms unbuckled, mobility unassessed. V already telepathically ordered evacuation FIRST with Fenar (currently59/59HP AC14 Rage active3/4 inside west gate, rope50ft) and Cirren (51/51HP full spells/CD2 in concealed west woods) escort to Mara (southern coach/4 horses ~0.5mi south), then retreat farther and V+Fenar stealthily revisit vault. Allies agreed but nobody has moved since planning. Station alarm sounding, western roof Scout KN-G2 alerted, hallway KN-G6 remains guarding locked lab door, KN-M1 mage0/40 bound/gagged inside lab, vault guard still at closed door. No guards actively engaged in ward; renew initiative only if actual hostilities. V48/48HP AC19 Sup3/4 MP7/7 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1. V holds original folios, experimental evidence, magister component pouch; money969gp3sp6cp, rations12/feed16, Pixie Dust1, LongRest5/6, Whispers ~22:56. Advance only actual planned NPC movement and real hazards/rolls, without presuming evacuation success or selecting V's method.",
+      "depends_on": [
+        "PLAY-REC-D281-V-WHISPERS-EVACUATION-THEN-VAULT-PLAN-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-WARD-LOCAL-COMBAT-END-EXPLORATION-RULING-001",
+          "accepted": true,
+          "evidence": "Player asks 'Combat is over no?' DM corrects needless ward initiative, as guard KN-G5 and apprentice KN-M2 both stable unconscious and no hostiles currently attacking in ward; earlier west scout KN-G3 also stable. Station alarm and exterior rooftop lookout remain real threats; no forced initiative/remaining V bonus, resource refund, time advancement or automatic evacuation.",
+          "before": "Recovery tail incorrectly labels V's Round2 as still acting in local ward combat despite its two participating opponents being unconscious/stable.",
+          "after": "Ward encounter treated as ended; V is free to act in active stealth/rescue exploration; existing resources, positions, plans, timers and offscreen dangers preserved.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/rules-dm-procedures.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-V-WHISPERS-EVACUATION-THEN-VAULT-PLAN-001",
-    "destination_checkpoint": "D281-2036-R2-V-ESCAPE-PLAN-RELAYED-BA-PENDING-001"
+    "last_recovery_id": "PLAY-REC-D281-WARD-LOCAL-COMBAT-ENDED-RETURN-TO-EXPLORATION-001",
+    "destination_checkpoint": "D281-2036-WARD-LOCAL-COMBAT-ENDED-EVACUATION-PLAN-001"
   }
 }
