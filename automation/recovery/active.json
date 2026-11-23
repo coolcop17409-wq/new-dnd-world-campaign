@@ -1961,13 +1961,40 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-FENAR-STEALTH-22-RETAINED-ROLL-RETRACTION-001",
+      "base_commit": "229ffc4df6efbf6f6b2f154ebeb5950560893d41",
+      "source_checkpoint": "D281-2039-ALL11-WEST-WARD-EXIT-FENAR-OUTSIDE-001",
+      "destination_checkpoint": "D281-2039-V-STRETCHER-ERRAND-FENAR-WATCHER-PLAN-001",
+      "source_evidence": "Day281~20:39 Station Kestrel. PLAYER exact proposed actions: \"Fenar should have climb speed from the last long rest and can stealthily take out that watcher non lethal \n\nI will get some stretchers\". V directs Fenar to use already-established Bestial Soul CLIMB adaptation (speed40ft, active since last qualifying rest) to stealthily approach and subdue WEST ROOF scout KN-G2 NONLETHALLY; V himself chooses to go obtain ordinary proper stretchers from the established SOUTH supply room to evacuate P7–P9. Neither a new Climb adaptation nor another Long Rest is needed. Before a valid adjudication of roof contact, player interrupts: \"wait why did fenar have to roll stealth again? didn’t she roll a 22 earlier\". The DM had IN ERROR announced a SECOND new stealth check 'Fenar d20FACE1+5=6 versus Scout advantage(15,5)+5=20' and then 'INTRUDER! WEST WALL!' without executing RNG. These second faces/outcome and scout shout are explicitly INVALID and RETRACTED, and may NOT be copied as accepted play, alarm, alert change, combat surprise loss, or action against Fenar. Earlier GENUINE verified stealth result was Fenar d20FACE17+5=22 vs roof scout adv(16,4)+5=21, and successfully concealed her move from west gate to outside the west patient exit. Under 2014 stealth, a still-hidden character does not roll every few steps: maintain this existing check 22 while continuing legal covered/obscured approach. At meaningful NEW EXPOSED terrain where concealment is lost, that position must be disclosed/adjudicated; do not guarantee a rooftop takedown or force a repeat for unchanged cover. Fenar currently at western side of patient exit inside western compound, hidden from roof watcher, not yet at scout, has neither attacked nor expended resources; FenarHP59/59 AC14, Rage NOT active (3/4 uses), Shift3/3 MP6/6, Bestial Soul CLIMB40ft still selected, carries V-owned intact50ft rope. V inside ward west end with 11 gathered patients (8 walking incl P10/P11, P7–P9 requiring flat transport by helpers), prepares to head for south supply room but has not yet obtained/purchased/transferred FOUR available proper stretchers. No new actual traverse toward exposed supply yard, check, hostile attack, time passage, injury, patient exit or alarm is imposed merely by correction. Sitewide PRIOR bell remains audible; roof scout KN-G2 already alert to earlier west scout shout but NOT newly alerted to Fenar's stealthy approach. Existing KN-G3 west scout, KN-G5 ward guard and KN-M2 apprentice remain stable unconscious0HP; KN-M1 mage restrained/gagged unconscious stable in lab, KN-G6 at locked corridor lab door; Cirren hidden west woods and Mara south0.5mi with healthy coach/four horses. V48/48 HP AC19 HD7/7 Sup3/4 MP7/7 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1; carries 2 contradictory folios, signed local experiments packet and KN-M1 component pouch, purse969gp3sp6cp, rations12 person-days/feed16 animal-days, sealed Pixie Dust1, LongRest5/6; Whispers active to Fenar/Cirren through~22:56. Future attempt to neutralize scout and collection of stretchers remain player-authorized but not yet adjudicated; no fake RNG or unverified combat event accepted.",
+      "pending_action": "DAY281~20:39 Station Kestrel: original patient ward rescue still zero outside, all11 at WEST INSIDE ward exit, 8 ambulatory (P1–P6 P10/P11) and 3 nonambulatory P7–P9 supported flat on temporary blankets. V has CHOSEN to retrieve 4 proper stretchers currently in SOUTH supply room; none acquired yet or physically crossed open courtyard. Fenar DM-controlled at OUTSIDE west patient exit inside compound, HP59/59 AC14 no active Rage (3/4 uses remain), CLIMB40ft adaptation active after earlier rest, Shift3/3 MP6/6 and V-owned50ft rope. V instructs Fenar to stealthily approach and NONLETHALLY KO roof scout KN-G2. PRIOR genuine stealth d20FACE17+5=22 vs Scout adv(16,4)+5=21 remains valid while cover permits; DM's subsequently narrated 'natural1' and Scout(15,5) were NOT executed RNG, expressly VOID, and 'INTRUDER! WEST WALL!' shout is RETRACTED; no extra enemy awareness. KN-G2 still watchful from earlier alert, not yet attacked, and separate original station bell persists. At new exposed terrain, reassess real sightlines, use valid rolls if actually needed; do not automatically reroll unchanged hiding or grant success for impossible exposure. V48/48 AC19 HD7/7 Sup3/4 Psi0/6 MP7/7 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1; Cirren51/51 concealed WEST woods, Mara south coach/horses, original guards/unconscious statuses unchanged, mage bound in locked lab. Purse969gp3sp6cp, supplies12 person days/feed16 animal days, Pixie Dust1, LongRest5/6, Psychic Whispers until~22:56. Next DM should adjudicate simultaneous separate V route to supply room and Fenar tactical path/climb to roof without invented rolls or threat and preserve patient consent/carrier timing. Do NOT assume scout neutralized or stretchers collected yet.",
+      "depends_on": [
+        "PLAY-REC-D281-V-FREES-NORTHERN-PAIR-ASSEMBLES-WEST-EXIT-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-STRETCHERS-FENAR-WATCHER-NONLETHAL-INTENT-RETRACT-FAKE-STEALTH-001",
+          "accepted": true,
+          "evidence": "V says \"Fenar should have climb speed from the last long rest and can stealthily take out that watcher non lethal \n\nI will get some stretchers\", then challenges needless second stealth roll \"wait why did fenar have to roll stealth again? didn’t she roll a 22 earlier\". Established Fenar Bestial Soul CLIMB40 and prior genuine stealth22 vs scout21 are retained. DM retracted unexecuted '1' roll and shout (not real/accepted). V's stretcher fetch and Fenar's rooftop nonlethal attempt authorized but not yet completed; no new rolls, patients transported, injury, funds or feature spent.",
+          "before": "~20:39 all11 still inside ward west end, Fenar hidden outside west patient exit after genuine Stealth22 vs roof Perception21; 4 stretchers in southern supply room, roof Scout alerted only by earlier event.",
+          "after": "Same physical and resource state; user intentions set to procure stretchers and send Fenar to subdue rooftop lookout; fabricated later Stealth roll and new Scout shout rejected, no new outcome established.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/rules-dm-procedures.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-V-FREES-NORTHERN-PAIR-ASSEMBLES-WEST-EXIT-001",
-    "destination_checkpoint": "D281-2039-ALL11-WEST-WARD-EXIT-FENAR-OUTSIDE-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-FENAR-STEALTH-22-RETAINED-ROLL-RETRACTION-001",
+    "destination_checkpoint": "D281-2039-V-STRETCHER-ERRAND-FENAR-WATCHER-PLAN-001"
   }
 }
