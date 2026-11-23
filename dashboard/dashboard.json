@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 285,
+  "campaign_day": 289,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -284,10 +284,10 @@
           "recovery": "Short Rest / Long Rest"
         }
       ],
-      "purse_cp": 72266,
+      "purse_cp": 32916,
       "purse": {
-        "gp": 722,
-        "sp": 6,
+        "gp": 329,
+        "sp": 1,
         "cp": 6
       }
     },
@@ -536,15 +536,15 @@
       },
       {
         "item": "Rations (1 day)",
-        "qty": "9.0",
-        "quantity_display": "9.0",
+        "qty": "21.0",
+        "quantity_display": "21.0",
         "holder": "Party/coach supply: recorded15 ration person-days after Day225 travel (B25). No new deduction. Days208–212 exact site/forage/Mara meal provenance unresolved; D-column history preserved. D224-225-TEMP-HARNESS-MANOR-CELLAR-001.",
         "detail": "D196–198: 7 ordinary rations purchased personally at5sp each, combined with 2 Cirren-held forage person-days for 9 person-days consumed by Mara/Cirren/Fenar; stock0, travel cost in"
       },
       {
         "item": "Feed (1 day)",
-        "qty": "12.0",
-        "quantity_display": "12.0",
+        "qty": "28.0",
+        "quantity_display": "28.0",
         "holder": "Party coach: recorded20 horse-feed animal-days after Day225 travel (B26), four healthy horses at Rethwyn rural yard. Days208–212 exact feed reconciliation unresolved; no assumed consumption or restock. D-column history preserved.",
         "detail": "D196–198: 12 horse feed-days purchased personally at5cp each, all12 consumed by four horses over 3-day carriage journey; no feed remains. Purchase6sp included once in V purse row29"
       },
@@ -1323,6 +1323,14 @@
         "holder": "Valenthia — physical custody, ownership not adjudicated",
         "detail": "Central original case holds4 principal documents:1 Corven Nask station authorization bearing western Service Directorate bureau seal;2 EVERMARCH/CLEAR WILL experimental orders;1 transfer/requisition ledger. Original labels/seals retained. Separate from prior2 folios and signed local trial packet; no sale or wider leadership guilt inferred.",
         "source_event": "D281-V-SECURES-KESTREL-REGIONAL-AUTHORIZATION-AND-PATIENT-TRANSFER-ORIGINALS-001"
+      },
+      {
+        "item": "Stone of Good Luck (Luckstone)",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Valenthia — owned and carried, UNATTUNED",
+        "detail": "Original Eastwatch retired quarry surveyor agate purchased375gp. 2014 DMG p205; requires attunement, +1 checks/saves inactive until V chooses attunement. No AC/attack bonus. One unique sold lot, no duplicate.",
+        "source_event": "D288-V-ACCEPTS-375GP-LUCKSTONE-PURCHASE-001"
       }
     ],
     "Cirren": [
@@ -2228,6 +2236,15 @@
       "price_gp": "",
       "status": "Working property · NOT offered for sale",
       "terms": "2sp per dictated page service, no item purchase. Ask for next binder's visit/referral; no quoted maker price or guaranteed date. Never treat this piece as available to buy."
+    },
+    {
+      "settlement": "Eastwatch",
+      "dealer": "Probate estate broker",
+      "lot": "Ring of Mind Shielding",
+      "qty": "1",
+      "price_gp": "250",
+      "status": "Open sale",
+      "terms": "Unbought/unheld; no forced sale or attunement; original duplicated Eastwatch offers revoked."
     }
   ]
 }
