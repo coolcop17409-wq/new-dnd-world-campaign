@@ -7,7 +7,8 @@ ROOT=Path(__file__).resolve().parents[3]
 sys.path.insert(0,str(ROOT))
 from automation.sync_validate import validate
 ALLOWED={'Lightweight live-play validation','Campaign character journal validation','Magic shops — lightweight stock validation','Handoff queue integrity (not a background ChatGPT worker)','Estate audit and campaign dashboard','Campaign synchronization regression',
-         'Queue accepted play at explicit recovery boundary'}
+         'Queue accepted play at explicit recovery boundary',
+         'Assemble immutable recovery at explicit boundary'}
 PREFIX='automation/handoffs'
 
 def signature(report, workflow):
