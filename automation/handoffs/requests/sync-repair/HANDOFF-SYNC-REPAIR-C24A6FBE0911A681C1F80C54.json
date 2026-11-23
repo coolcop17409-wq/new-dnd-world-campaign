@@ -1,0 +1,55 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-C24A6FBE0911A681C1F80C54",
+  "lane": "sync-repair",
+  "source": {
+    "kind": "validation_failure",
+    "checkpoint_id": "UNCHANGED-ADMIN-ONLY",
+    "commit_sha": "77b84f44dd29d68582967d27da6c82f0839b49cb",
+    "workflow_run_id": 45228626488,
+    "workflow_url": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45228626488"
+  },
+  "request": "Investigate this exact validation failure; propose only evidence-supported corrections on the existing repair branch.",
+  "scope": [
+    "campaign/continuity/campaign-state.md",
+    "data/characters/events.csv"
+  ],
+  "output_owner_paths": [
+    "campaign/continuity/campaign-state.md",
+    "data/characters/events.csv"
+  ],
+  "priority": "high",
+  "advances_gameplay": false,
+  "failure_signature": "C24A6FBE0911A681C1F80C54",
+  "diagnostic": {
+    "schema_version": 1,
+    "status": "FAIL",
+    "scope": "final",
+    "phase": "final",
+    "findings": [
+      {
+        "code": "character.overlay",
+        "path": "data/characters/events.csv",
+        "event_id": "",
+        "message": "Character event D279-281-KESTREL-TRAVEL-QUIET-REST-001-D280-RATIONS dated Day 280 is later than the confirmed checkpoint Day 279"
+      },
+      {
+        "code": "checkpoint.latest",
+        "path": "campaign/continuity/campaign-state.md",
+        "event_id": "D281-V-FENAR-WAIT-EVACUATION-OUT-OF-SIGHT-AND-REENTER-VAULT-APPROACH-001",
+        "message": "Newest accepted event D281-V-FENAR-WAIT-EVACUATION-OUT-OF-SIGHT-AND-REENTER-VAULT-APPROACH-001 absent from final checkpoint"
+      }
+    ],
+    "notes": [],
+    "affected_files": [
+      "campaign/continuity/campaign-state.md",
+      "data/characters/events.csv"
+    ],
+    "source_hashes": {
+      "campaign/continuity/campaign-state.md": "8b73e68fca6c35c15a6bf8d70e424f1360b11d85c45cd17205e40ac5cba21f84",
+      "data/characters/events.csv": "d2b42f8806560ddf659fd1172dcba6d2f79b9ad0a6639b57088337b86dd912fb"
+    }
+  },
+  "repair_branch": "campaign-repair/c24a6fbe0911a681c1f80c54",
+  "base_branch": "main",
+  "synthetic": false
+}
