@@ -2,12 +2,21 @@
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-VAULT-EVIDENCE-RECOVERY-001",
   "status": "partial",
-  "phase": "claimed",
+  "phase": "owners_published",
   "claim_owner": "opened-pr32-029dca60",
   "claim_expires_at": "2026-11-23T19:47:27Z",
   "request_commit": "97aba95b4a642cdf3b2a51e7e0b68ac8d6110d1b",
   "request_blob": "a719086da9ba342691cd66dc4d4cff7cc00c4473",
-  "summary": "Seven events independently verified from five immutable chunks, exact boundary and compatible journal;17 historical transports reconciled. Writer idle. Two newer chunks retained separately.",
+  "summary": "Seven exact accepted events and five character postings tested; full immutable provenance and96 regressions PASS. Checkpoint pending.",
   "blocker": null,
-  "applied_event_ids": []
+  "applied_event_ids": [
+    "D281-KESTREL-ARMOR-G6-PASSAGE-INVESTIGATION-VALID-001",
+    "D281-VAULT-DOOR-INVESTIGATION-TRUE-ROLL-SUCCESS-001",
+    "D281-V-SEARCHES-KESTREL-VAULT-CORRIDOR-INVESTIGATION-19-001",
+    "D281-V-THIEVES-TOOLS-UNLOCKS-KESTREL-INNER-VAULT-001",
+    "D281-V-FENAR-OPEN-AND-ENTER-KESTREL-INNER-VAULT-001",
+    "D281-V-SECURES-KESTREL-REGIONAL-AUTHORIZATION-AND-PATIENT-TRANSFER-ORIGINALS-001",
+    "D281-FENAR-CUSTODY-KESTREL-SEALED-REAGENT-CASE-AND-INSTRUMENT-001"
+  ],
+  "tested_candidate": "cffb51114354a7748fbdd5352da9e90c8e0e6afc"
 }

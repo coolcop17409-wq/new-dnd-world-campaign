@@ -1,3 +1,16 @@
+CURRENT VAULT EVIDENCE CUSTODY — Day281~21:09
+V holds central original case with four documents: one station authorization, two EVERMARCH/CLEAR WILL orders, one transfer/requisition ledger. Fenar holds original padded case containing six sealed vials (2 binding ink,2 refined crystalline mixtures,2 preservation salts) and one silver-fitted precision instrument. No valuation, potion properties or enchanted status established; nothing consumed. Prior V-held folios/trial packet/component pouch retained;50ft rope still binds G6.
+
+D281-FENAR-CUSTODY-KESTREL-SEALED-REAGENT-CASE-AND-INSTRUMENT-001 — Fenar carries six sealed reagent vials in original padded case and one silver-fitted precision measuring instrument with unappraised worth; no reagent opened, no spells/coins/resource usage.
+
+Accepted evidence: Genuine V Arcana d20FACE19+0=19/DC15 succeeds reading sealed reagent labels/class, not exact magical item or sale value. Six intact sealed small vials (2 binding inks,2 refined crystalline components,2 preservation salts) packed in existing padded case and one small silver-fitted precision measuring instrument taken with Fenar's consent into FENAR custody. Nonmagical/magic status of instrument not magically checked, no magical powers promised, no potion/consumption/exposure and no cash/GP awarded. V and Fenar remain HP/resources unchanged; about8min vault search.
+
+D281-V-SECURES-KESTREL-REGIONAL-AUTHORIZATION-AND-PATIENT-TRANSFER-ORIGINALS-001 — Day281~21:09 V personally possesses central case of four principal original vault documents (1 authority,2 program orders,1 ledger) along with prior 2 folios/trial evidence; cabinet examined and evidence preserved, no coin or automatic broader conclusion, Superiority remains1/4.
+
+Accepted evidence: Player authorizes investigating/taking evidence. Genuine Fenar-assisted V Investigation advantage d20FACES17,8 choose17+3=20/DC15 SUCCESS. V opens/reads/collects ORIGINAL station directive naming Corven Nask and western Service Directorate bureau seal, TWO original experiment order sets EVERMARCH and CLEAR WILL explicitly contemplating restraints and procedures despite objections, and original transfer/requisition ledger linking patients/authorizations and prior false discharges. Regional bureau/station guilt supported, no top leaders/divine history proved; original seal/reference identifiers retained; no other item lost or additional dice/resources used.
+
+Earlier dated records preserved; newer accepted results above supersede older current-status wording:
+
 CURRENT ROPE CUSTODY: V-owned50ft hempen rope binds stable unconscious KN-G6 wrists/ankles behind lab cabinets, remainder coiled there; no longer held by Fenar. No title change or new item. Vault wreckage uncollected; no reward or loot.
 
 D281-V-TIES-G6-RELOCKS-LAB-FENAR-HORROR-R1-36DAMAGE-001 — Day281~20:54 G6 bound with 50ft rope inside lab, western lab door locked again. Vault R1 now in progress, guardian24/60HP after Fenar36 total damage, Fenar engaged at5ft Rage ACTIVE2/4, V at passage mouth20ft away init10 next, Horror init6 pending; other party/evidence unchanged.
