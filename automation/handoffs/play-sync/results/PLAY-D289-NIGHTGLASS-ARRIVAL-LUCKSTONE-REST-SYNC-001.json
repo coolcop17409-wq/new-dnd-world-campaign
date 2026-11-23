@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D289-NIGHTGLASS-ARRIVAL-LUCKSTONE-REST-SYNC-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr37-4285f276",
+  "claim_expires_at": "2026-11-23T22:35:00Z",
+  "request_commit": "c4939533440a31a831cf2b0e3f9584518b431b46",
+  "request_blob": "93a14de43f095d3705a87bb0a4099f961e831d7f",
+  "summary": "Thirteen accepted events and seven original chunks verified; PR36 complete. Latest corrections supersede courier postage and repeated market offers.",
+  "blocker": null,
+  "applied_event_ids": []
+}
