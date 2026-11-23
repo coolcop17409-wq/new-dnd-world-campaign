@@ -46,7 +46,7 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d0baca22ad3fe053b7675eb4f45350abc1acb99e/campaign/continuity/campaign-state.md"
   ],
   "generated_view_status": "verified at 3bae610841fc777beab75df8834b925e93ca0b4b",
-  "cleanup_status": "pending compatibility-only pruning",
+  "cleanup_status": "complete: five exact verified compatibility entries pruned; all original chunks and boundaries unchanged",
   "immutable_provenance": {
     "boundary": "automation/recovery/boundaries/PLAY-D281-KESTREL-VAULT-EVIDENCE-RECOVERY-001.json",
     "pinned_commit": "f0fc46c2316f998cc48e5bac79c94e8353645cbf",
@@ -85,5 +85,9 @@
       "tested_commit": "d0baca22ad3fe053b7675eb4f45350abc1acb99e",
       "result": "PASS"
     }
+  ],
+  "preserved_newer_chunks": [
+    "automation/recovery/chunks/D281/PLAY-REC-D281-V-EXITS-KESTREL-REJOINS-MARA-PATIENTS-001.json",
+    "automation/recovery/chunks/D281/PLAY-REC-D281-282-HEDRA-EDGE-NIGHT-SR-SEDGECROSS-ARRIVAL-001.json"
   ]
 }
