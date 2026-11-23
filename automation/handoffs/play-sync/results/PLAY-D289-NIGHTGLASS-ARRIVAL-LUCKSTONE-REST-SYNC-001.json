@@ -2,7 +2,7 @@
   "schema_version": 1,
   "request_id": "PLAY-D289-NIGHTGLASS-ARRIVAL-LUCKSTONE-REST-SYNC-001",
   "status": "partial",
-  "phase": "owners_published",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr37-4285f276",
   "claim_expires_at": "2026-11-23T22:35:00Z",
   "request_commit": "c4939533440a31a831cf2b0e3f9584518b431b46",
@@ -27,5 +27,7 @@
   "tested_candidate": "8e85586e2e7a268048fb7d7ae5c2e15aaa1a8749",
   "preserved_newer_chunks": [
     "automation/recovery/chunks/D289/PLAY-REC-D289-V-EXPLAINS-NIGHTGLASS-PROVENANCE-VISIT-TO-PORTER-001.json"
-  ]
+  ],
+  "owner_commit": "a5c8d86bd7e970cbabafca8291928c8220f94bbe",
+  "owners_verified": true
 }
