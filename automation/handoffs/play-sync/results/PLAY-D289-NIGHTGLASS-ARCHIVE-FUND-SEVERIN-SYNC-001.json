@@ -64,7 +64,7 @@
   ],
   "generated_view_status": "checkpoint/counters/hash verified at f540cfd6e10a000a3121beb88e0bbabddd271278; item attunement metadata DERIVED-PENDING",
   "derived_pending": "Current-main overlay supports inventory quantity only, not metadata updates. Dashboard still repeats original purchase-era UNATTUNED holder/detail; explicit current inventory status, tracker status and checkpoint supersede it. No code changed or duplicate item created. Existing maintenance/repair lane can add supported metadata projection.",
-  "cleanup_status": "pending verified-only compatibility prune",
+  "cleanup_status": "complete: ten exact verified compatibility entries pruned; original chunks, boundaries and newer signature/advance chunk retained",
   "tests": [
     {
       "command": "python3 automation/play_handoff.py /tmp/pr38/request.json",
