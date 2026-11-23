@@ -4,7 +4,7 @@
   "status": "complete",
   "phase": "checkpoint_verified",
   "claim_owner": "opened-pr35-4e547188",
-  "claim_expires_at": "2026-11-23T20:13:30Z",
+  "claim_expires_at": "2026-11-23T20:14:03Z",
   "request_commit": "3b44766b62a8340741e470e7629ca485ee901baa",
   "request_blob": "f88f6581b0908fd55bbf44728c074c7be1557a8c",
   "summary": "Eight accepted events applied and verified at frozen Day285~08:30 checkpoint with13 causal postings. Three immutable originals and boundary retained; newer Day285~08:31 discussion remains preserved for live play. No new actions, rolls, resource spends or patient cures.",
@@ -48,7 +48,7 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/03c0a60ffb82a2fdabcde4d939803f766bfe759d/campaign/continuity/campaign-state.md"
   ],
   "generated_view_status": "verified at ec2e7f777bf8805114bb6acf7a250860d52ae09a",
-  "cleanup_status": "pending separate verified-only compatibility prune",
+  "cleanup_status": "complete: three exact verified compatibility entries pruned; original chunks, boundary and newer discussion unchanged",
   "immutable_provenance": {
     "boundary": "automation/recovery/boundaries/PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001.json",
     "pinned_commit": "2a0b644c2da2d44c1a400584b0dfa0f896d3867b",
