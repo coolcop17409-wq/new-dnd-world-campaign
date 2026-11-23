@@ -1,0 +1,54 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9",
+  "lane": "sync-repair",
+  "status": "superseded",
+  "claim_owner": "maintenance-20261123-pr23",
+  "claim_expires_at": "2026-11-23T15:10:31Z",
+  "summary": "Existing market owner independently corrected the matching CSV defect on main; current shops and94 regressions pass. Prior duplicate regression blocker resolved. No repair patch or merge applied by Maintenance.",
+  "blocker": null,
+  "next_trigger": "None for this failure. Future distinct failures use actual diagnostic evidence; do not replay PR22 patch over newer market data.",
+  "source_commit": "85f54c3fe2259fd35c60ad6cb204b90ec4e65215",
+  "tested_commit": "b0844161403e7a46377c44241503a7a911d64741",
+  "owner_refs": [
+    "trackers/csv/magic-shops/events.csv@b0844161403e7a46377c44241503a7a911d64741"
+  ],
+  "verification_path": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9.json",
+  "related_request": "HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B",
+  "related_pr": 22,
+  "applied_to_main": false,
+  "current_base_commit": "b0844161403e7a46377c44241503a7a911d64741",
+  "verified_commit": "b0844161403e7a46377c44241503a7a911d64741",
+  "main_issue_resolved": true,
+  "resolved_by_owner_commit": "f94ec3fd143d0cf5ac49bba6318e4885b62013bd",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase owners",
+      "exit_code": 0,
+      "result": "PASS on current main market correction"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate automation.test_auto_sync_submit automation.test_recovery_batch automation.test_recovery_journal automation.test_play_handoff -q",
+      "exit_code": 0,
+      "result": "94 tests passed"
+    }
+  ],
+  "previous_result": {
+    "request_id": "HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9",
+    "lane": "sync-repair",
+    "status": "blocked",
+    "claim_owner": "maintenance-20261122-pr23",
+    "claim_expires_at": "2026-11-22T15:05:17Z",
+    "summary": "Verified duplicate symptom of PR22's existing market CSV-width defect, not a defect in the maintenance receipt. Fresh reproduction fails once; exact PR22 proposal makes shops and35regressions pass. No duplicate patch and no main application.",
+    "blocker": "Main still contains the known11-column market receipt; existing verified PR22 is unmerged.",
+    "next_trigger": "Human-approved application of PR22, then rerun current-main shops/regression and mark this matching failure resolved/superseded. Never merge automatically.",
+    "source_commit": "85f54c3fe2259fd35c60ad6cb204b90ec4e65215",
+    "tested_commit": "0dab0b4320d20cd79e882f7ca8083f865ab4e913",
+    "owner_refs": [
+      "trackers/csv/magic-shops/events.csv@0dab0b4320d20cd79e882f7ca8083f865ab4e913"
+    ],
+    "verification_path": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9.json",
+    "related_request": "HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B",
+    "related_pr": 22,
+    "applied_to_main": false
+  }
+}
