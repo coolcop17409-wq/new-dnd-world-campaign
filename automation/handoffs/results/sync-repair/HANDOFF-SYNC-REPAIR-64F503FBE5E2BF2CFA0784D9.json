@@ -1,12 +1,12 @@
 {
   "request_id": "HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9",
   "lane": "sync-repair",
-  "status": "blocked",
-  "claim_owner": "maintenance-20261122-pr23",
-  "claim_expires_at": "2026-11-22T15:05:17Z",
-  "summary": "Verified duplicate symptom of PR22's existing market CSV-width defect, not a defect in the maintenance receipt. Fresh reproduction fails once; exact PR22 proposal makes shops and35regressions pass. No duplicate patch and no main application.",
-  "blocker": "Main still contains the known11-column market receipt; existing verified PR22 is unmerged.",
-  "next_trigger": "Human-approved application of PR22, then rerun current-main shops/regression and mark this matching failure resolved/superseded. Never merge automatically.",
+  "status": "partial",
+  "claim_owner": "maintenance-20261123-pr23",
+  "claim_expires_at": "2026-11-23T15:38:25Z",
+  "summary": "Current main market owner has independently corrected the CSV defect; verifying matching regression resolution.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry",
   "source_commit": "85f54c3fe2259fd35c60ad6cb204b90ec4e65215",
   "tested_commit": "0dab0b4320d20cd79e882f7ca8083f865ab4e913",
   "owner_refs": [
@@ -15,5 +15,24 @@
   "verification_path": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9.json",
   "related_request": "HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B",
   "related_pr": 22,
-  "applied_to_main": false
+  "applied_to_main": false,
+  "previous_result": {
+    "request_id": "HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9",
+    "lane": "sync-repair",
+    "status": "blocked",
+    "claim_owner": "maintenance-20261122-pr23",
+    "claim_expires_at": "2026-11-22T15:05:17Z",
+    "summary": "Verified duplicate symptom of PR22's existing market CSV-width defect, not a defect in the maintenance receipt. Fresh reproduction fails once; exact PR22 proposal makes shops and35regressions pass. No duplicate patch and no main application.",
+    "blocker": "Main still contains the known11-column market receipt; existing verified PR22 is unmerged.",
+    "next_trigger": "Human-approved application of PR22, then rerun current-main shops/regression and mark this matching failure resolved/superseded. Never merge automatically.",
+    "source_commit": "85f54c3fe2259fd35c60ad6cb204b90ec4e65215",
+    "tested_commit": "0dab0b4320d20cd79e882f7ca8083f865ab4e913",
+    "owner_refs": [
+      "trackers/csv/magic-shops/events.csv@0dab0b4320d20cd79e882f7ca8083f865ab4e913"
+    ],
+    "verification_path": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-64F503FBE5E2BF2CFA0784D9.json",
+    "related_request": "HANDOFF-SYNC-REPAIR-42B6FA85DCABF4EE9D65488B",
+    "related_pr": 22,
+    "applied_to_main": false
+  }
 }
