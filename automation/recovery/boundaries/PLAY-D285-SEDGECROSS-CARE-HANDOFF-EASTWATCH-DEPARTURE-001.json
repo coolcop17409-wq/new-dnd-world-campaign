@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D285-SEDGECROSS-CARE-HANDOFF-EASTWATCH-DEPARTURE-001",
+  "reason": "major_transaction",
+  "source_checkpoint": "D285-0830-SEDGECROSS-THREE-NIGHTS-LONG-REST-COMPLETE-EVIDENCE-REVIEWED-001",
+  "destination_checkpoint": "D285-1700-SEDGECROSS-CARE-FUNDED-EASTWATCH-JOURNEY-QUIET-001",
+  "last_recovery_id": "PLAY-REC-D285-V-FUNDS-SEDGECROSS-CARE-HANDOFF-DEPARTS-EASTWATCH-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D285/PLAY-REC-D285-V-FRONTIER-ATROCITIES-CONCERN-ALLIES-RESPOND-001.json",
+      "digest": "718ba1dcac557303b0b2addc52f6588c3bfb59de71b3b0a3f2753bf9b890542b"
+    },
+    {
+      "path": "automation/recovery/chunks/D285/PLAY-REC-D285-V-ASKS-SEDGECROSS-LONGTERM-CARE-HOME-ROUTES-001.json",
+      "digest": "ecc1ba4cdfded9eab96bb2c07cac3a863e82c2e974e78316d3e0c29d72017dc9"
+    },
+    {
+      "path": "automation/recovery/chunks/D285/PLAY-REC-D285-V-FUNDS-SEDGECROSS-CARE-HANDOFF-DEPARTS-EASTWATCH-001.json",
+      "digest": "2649f1e318e92eb1c572d1eee4143cbd19ccd42704df6bb6f6f2c34a372dabe1"
+    }
+  ]
+}
