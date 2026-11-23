@@ -33,4 +33,4 @@ Verified edition `ATLAS-D281-KESTREL-APPROACH-001` · Caer Veylan to Station Kes
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | last_token=ESTATES-D281-20261123T104401Z | released_UTC=2026-11-23T10:52:43Z | result=VERIFIED | recovery=data/estate/operational-checkpoint.csv#D281-ESTATE-SOURCE-RECEIPT
+CAMPAIGN_WRITER | state=ACTIVE | token=QUESTS-D281-20261123T1213 | owner=Quest-Development | acquired_UTC=2026-11-23T12:13:19Z | heartbeat_UTC=2026-11-23T12:13:19Z | expires_UTC=2026-11-23T12:23:19Z | scope=quests,index,program,route,ancestry,REGION_PREP | recovery=prep/dm-only/dm-only-secret-quest-outlines.md#current-scoped-verification-and-consumer-handling--admin-quest-d281-20261123-01
