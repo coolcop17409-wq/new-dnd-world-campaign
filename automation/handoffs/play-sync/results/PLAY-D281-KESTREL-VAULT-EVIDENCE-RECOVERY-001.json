@@ -2,7 +2,7 @@
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-VAULT-EVIDENCE-RECOVERY-001",
   "status": "partial",
-  "phase": "owners_published",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr32-029dca60",
   "claim_expires_at": "2026-11-23T19:47:27Z",
   "request_commit": "97aba95b4a642cdf3b2a51e7e0b68ac8d6110d1b",
@@ -18,5 +18,7 @@
     "D281-V-SECURES-KESTREL-REGIONAL-AUTHORIZATION-AND-PATIENT-TRANSFER-ORIGINALS-001",
     "D281-FENAR-CUSTODY-KESTREL-SEALED-REAGENT-CASE-AND-INSTRUMENT-001"
   ],
-  "tested_candidate": "cffb51114354a7748fbdd5352da9e90c8e0e6afc"
+  "tested_candidate": "cffb51114354a7748fbdd5352da9e90c8e0e6afc",
+  "owner_commit": "d2007c265d622eff9968995c53fe2d6f59865f84",
+  "owners_verified": true
 }
