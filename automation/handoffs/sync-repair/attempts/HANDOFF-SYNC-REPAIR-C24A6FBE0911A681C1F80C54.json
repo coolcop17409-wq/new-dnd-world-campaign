@@ -1,0 +1,8 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-C24A6FBE0911A681C1F80C54",
+  "request_path": "automation/handoffs/requests/sync-repair/HANDOFF-SYNC-REPAIR-C24A6FBE0911A681C1F80C54.json",
+  "status": "awaiting_worker",
+  "failure_commit": "77b84f44dd29d68582967d27da6c82f0839b49cb",
+  "workflow_run_id": 45228626488,
+  "synthetic": false
+}
