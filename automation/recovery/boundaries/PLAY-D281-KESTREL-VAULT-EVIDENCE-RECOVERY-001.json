@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D281-KESTREL-VAULT-EVIDENCE-RECOVERY-001",
+  "reason": "quest_milestone",
+  "source_checkpoint": "D281-2054-INNER-VAULT-GUARDIAN-DESTROYED-DOOR-UNOPENED-001",
+  "destination_checkpoint": "D281-2109-KESTREL-VAULT-EVIDENCE-AND-REAGENTS-SECURED-001",
+  "last_recovery_id": "PLAY-REC-D281-V-KESTREL-VAULT-EVIDENCE-REAGENTS-SECURED-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D281/PLAY-REC-D281-KESTREL-ARMOR-GUARD-VAULT-INVESTIGATION-CORRECTED-001.json",
+      "digest": "385ce566f9cd7f6367486ebfdb486a8e66157b20acdad3112519e59cfd77a9c3"
+    },
+    {
+      "path": "automation/recovery/chunks/D281/PLAY-REC-D281-V-CORRIDOR-INVESTIGATION-NO-MECHANICAL-TRAPS-001.json",
+      "digest": "e5c349aa540ab89ff7da92f54f7ffafffa8199ec3ca1b3a926d1a5e7b672f997"
+    },
+    {
+      "path": "automation/recovery/chunks/D281/PLAY-REC-D281-V-PICKS-KESTREL-INNER-VAULT-LOCK-001.json",
+      "digest": "01533e451493e72de6ec10e6ddf134502d49c7fc987416049c6dd6dcfe2287a7"
+    },
+    {
+      "path": "automation/recovery/chunks/D281/PLAY-REC-D281-V-ENTERS-KESTREL-INNER-VAULT-001.json",
+      "digest": "7c6e234d48a7f0c87416ad2fcfa477bfd88f7606571b894f4a9aa6822a2cf2bf"
+    },
+    {
+      "path": "automation/recovery/chunks/D281/PLAY-REC-D281-V-KESTREL-VAULT-EVIDENCE-REAGENTS-SECURED-001.json",
+      "digest": "b9cb07a9f68723fca93b6594dfa0a8d7a4c253ee8a2e668b5e3874d51b0d6df6"
+    }
+  ]
+}
