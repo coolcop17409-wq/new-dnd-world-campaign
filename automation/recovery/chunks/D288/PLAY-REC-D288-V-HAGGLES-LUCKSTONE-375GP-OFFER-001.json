@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D288-V-HAGGLES-LUCKSTONE-375GP-OFFER-001",
+  "base_commit": "b9546f69c08b9a8d5fa913ea34e41bc4937443cf",
+  "source_checkpoint": "D288-1900-EASTWATCH-MAGIC-OFFERS-ANTI-REPEAT-CORRECTED-001",
+  "destination_checkpoint": "D288-1905-EASTWATCH-LUCKSTONE-375GP-COUNTEROFFER-001",
+  "source_evidence": "PLAYER exact 'Haggle for this' referring to Stone of Good Luck (Luckstone), Eastwatch quarry surveyor single consigned agate originally priced450gp, source2014DMG p205 uncommon attunement +1 to ability checks and saving throws, latest immutable shop correction PLAY-REC-D288-V-CORRECTS-REPEATED-EASTWATCH-MAGIC-OFFERS-001. Day288~19:00 Eastwatch west-market survey instrument counter. User authorized bargain, not purchase, deposit, hold, item attunement, character-resource spend or other V words. DM independently positions the actual current retired surveyor consignor at his counter during closing market and able to accept price reductions, with realistic goal of prompt fair sale before household move. Mara Venn has returned from ordinary supply provisioning and can materially Help by scrutinizing the consignment's ordinary history and making a credible buyer-pay-now case, without paid appraisal, magical identification, unchosen V oath or spending. Predeclared Charisma(Persuasion) +6 from owning V CSV, advantage due to feasible independent Mara Help, bargaining tier DC14 => 425gp, DC18=>400gp, DC23=>375gp (seller floor), fail original450gp still viable. Standing D224 ongoing V dice delegation 'keep rolling for me until I say stop' authorizes genuine DM roll, NOT purchase. GENUINE Python secrets RNG d20 advantage FACES(19,7) chooses19, +6=25 vs DC23, exceptional success reaches seller floor 375gp. Seller freely agrees aloud to a 375gp CASH price, 75gp below original450gp; the stone stays with him, no ownership transfer or cash debit. Owner can sell at 375 to V on acceptance; no independent mandatory hold/expiry was imposed. V still may accept, decline or make another distinct reasonable proposal, though seller asserts this is as low as he will go. V limited resources unchanged: HP48/48 AC19 HD7/7 Superiority4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 free Psychic Whispers1/1; Fenar59/59HD6/6 Rage inactive4/4 Shift3/3 MP6/6 CLIMB40; Cirren51/51 full spells/CD2, Mara and four healthy V horses/coach. Personal purse STILL710gp7sp6cp, 21 ration-person-days,28 horse-feed animal-days, sealed Pixie Dust1, LongRest3/6, no inn or late-night rest yet. Other currently offered Ring of Mind Shielding at Eastwatch probate consignor250gp still unbought and unheld; original Eastwatch boots/orb superseded. V retains original Kestrel evidence (regional directive bearing Corven Nask, Evermarch/Clear Will original orders, requisition/transfer ledger, lab signed injury packet and contradictory admin folios) and Mage pouch; Mara Neri notes, Fenar padded six sealed reagents plus silver-fitted tool unappraised. Sedgecross11 rescued patients on previously funded fortnight of nursing/board and original Blackthorn offer given directly before departure, no new placement/reports. Next V choice whether BUY Stone of Good Luck for negotiated375gp, inspect or bargain further, choose other item, lodging or Nightglass. No need for new skill roll for accepting price; no action or cash assumed.",
+  "pending_action": "Day288~19:05 Eastwatch west market, in direct conversation with retired quarry surveyor consignor. Player directed haggling for one Stone of Good Luck (Luckstone)2014DMGp205 previously shown at450gp. With feasible Mara Help, genuine delegated V Persuasion advantage d20FACES19 and7 choose19+6=25 vs predeclared tier DC23: owner agrees to lower cash asking price **375gp** (firm floor); NO PURCHASE/HOLD/PAYMENT/ATTUNEMENT, V purse still710gp7sp6cp. Seller still possesses one original consigned Luckstone and is willing to sell at negotiated375gp on V acceptance; Ring of Mind Shielding from separate Eastwatch probate contact still at250gp asking and not bought. VHP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 free Whispers1/1, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 CLIMB40, Cirren51/51 full spells/CD2, Mara/four horses and coach healthy. Rations21 person-days/feed28 animal-days, sealed PixieDust1, LongRest3/6. No lodging/booked night, Kestrel original evidence remains V-held, Mara witness notes, Fenar six sealed reagents+silver-fitted instrument; 11 Sedgecross patients stay under paid care with Blackthorn voluntary invitation. Ask V if accepts375gp or otherwise acts; do not auto-spend.",
+  "depends_on": [
+    "PLAY-REC-D288-V-CORRECTS-REPEATED-EASTWATCH-MAGIC-OFFERS-001"
+  ],
+  "events": [
+    {
+      "event_id": "D288-V-PERSUASION-25-NEGOTIATES-LUCKSTONE-375GP-001",
+      "accepted": true,
+      "evidence": "Explicit V 'Haggle for this' Luckstone450gp original listed market; genuine Python secrets advantage with Mara Help d20(19,7) choose19, V Persuasion+6 total25 vs predeclared floor tier DC23; owner accepts375gp cash offer as floor. No item purchase/hold/attunement, no limited resource or coin spent.",
+      "before": "Day288~19:00 Eastwatch surveyor offers one actual Stone of Good Luck at450gp, V purse710gp7sp6cp, item unpurchased, Mara nearby.",
+      "after": "Day288~19:05 owner now willing to sell original Luckstone to V at375gp (75gp discount) but still retains title/custody, V purse unchanged710gp7sp6cp, no feature spent, next choice accept or decline.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/stock.csv"
+      ]
+    }
+  ]
+}
