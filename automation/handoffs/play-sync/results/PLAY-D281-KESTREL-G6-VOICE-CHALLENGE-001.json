@@ -2,13 +2,29 @@
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-G6-VOICE-CHALLENGE-001",
   "status": "partial",
-  "phase": "claimed",
+  "phase": "owners_published",
   "claim_owner": "opened-pr29-39bd85ec",
   "claim_expires_at": "2026-11-23T18:15:34Z",
   "request_commit": "10293467a510754aab7985dbb2cc7e6031323bd8",
   "request_blob": "e3d5d34ec0d1a3a7af2325833be0e1f72780665d",
-  "summary": "Exact single-event request verified against pinned main journal,15 historical accepted transports and supersession; prior checkpoint verified complete. No active writer.",
+  "summary": "Source-verified single guard response; preflight PASS and62 regression tests passed. No mechanical posting. Checkpoint pending.",
   "blocker": null,
-  "applied_event_ids": [],
-  "tested_commit": "9d7f0b4778681189e1290576bc64b8dd78529ed5"
+  "applied_event_ids": [
+    "D281-V-IMPERSONATES-MAGISTER-G6-REQUESTS-INSPECTION-001"
+  ],
+  "tested_commit": "9d7f0b4778681189e1290576bc64b8dd78529ed5",
+  "tested_candidate": "2d8d93926a99c876f7190c64ea3a711ca8f45727",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "2d8d93926a99c876f7190c64ea3a711ca8f45727"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
+      "exit_code": 0,
+      "result": "62 passed",
+      "tested_commit": "2d8d93926a99c876f7190c64ea3a711ca8f45727"
+    }
+  ]
 }
