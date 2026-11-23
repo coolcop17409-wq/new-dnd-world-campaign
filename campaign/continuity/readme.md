@@ -33,4 +33,4 @@ Verified edition `ATLAS-D281-KESTREL-APPROACH-001` · Caer Veylan to Station Kes
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | last_token=QUESTS-D281-20261123T1213 | released_UTC=2026-11-23T12:13:46Z | result=VERIFIED_SCOPED_RESCUE_PREPARATION | recovery=prep/dm-only/dm-only-secret-quest-outlines.md#current-scoped-verification-and-consumer-handling--admin-quest-d281-20261123-01
+CAMPAIGN_WRITER | state=ACTIVE | token=SHOPS-D281-20261123-01 | worker=shops | operations=MR281,ACK281,FMT279 | acquired_UTC=2026-11-23T14:02:45.787Z | heartbeat_UTC=2026-11-23T14:02:45.787Z | expires_UTC=2026-11-23T14:12:45.787Z | recovery=trackers/csv/magic-shops/events.csv ADMIN-MARKET-D281-20261123-01
