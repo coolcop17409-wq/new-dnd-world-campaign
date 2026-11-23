@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D288-V-EASTWATCH-RESUPPLY-TWO-MAGIC-MARKET-OFFERS-001",
+  "base_commit": "f0bd2d9b2262161a0ec9c9c09cd76fc91d1312ad",
+  "source_checkpoint": "D288-1730-EASTWATCH-WESTERN-APPROACH-QUIET-ARRIVAL-001",
+  "destination_checkpoint": "D288-1900-EASTWATCH-RESUPPLIED-TWO-MAGIC-OFFERS-001",
+  "source_evidence": "PLAYER exact 'Resupply and check for anything interesting and see if anything magical is for sale' at Day288~17:30 Eastwatch western approaches, V with Mara/Cirren/Fenar, four healthy owned coach horses, pre-sale purse722gp6sp6cp, carried rations0 and four-horse feed0. V authorized ordinary resupply (not magic-item purchase). Enter Eastwatch public market normally, no invented toll/security/political sovereignty. At ordinary provisioner purchase seven days' group road supplies: 3 eaters x7=21 ration person-days at established5sp each=10gp5sp, 4 horses x7=28 animal-feed-days at established5cp each=1gp4sp, total11gp9sp personally PAID once; purse722gp6sp6cp to710gp7sp6cp, carried food0→21/feed0→28 in coach. No other purchase, inn or stabling charge, no meal/rest/time skip.\n\nNew Eastwatch LOCAL MAGIC MARKET first-browse procedure from trackers/csv/magic-shops/rules.csv. Dealers, Stock, Events checked, zero Eastwatch matching existing records. Eastwatch classified MARKET TOWN by ordinary quarry, Magistracy/Archive-Seven, coach road/survey business, not major city. PRESELECTED compatible R01–R30 Templates pool of town contacts: R02,R06,R07,R11,R12,R14,R15,R16,R17,R19,R22,R23,R25,R26,R28,R30, excluding unrelated river/fair/unknown-circuit owners. SINGLE GENUINE secrets Python market-size d100 FACE74, Town 21–75 gives exactly TWO distinct current local contacts. FIRST SLOT SALE/CONDITION pool sorted [\"R02\",\"R06\",\"R07\",\"R11\",\"R12\",\"R15\",\"R16\",\"R17\",\"R22\",\"R23\",\"R25\",\"R26\",\"R28\",\"R30\"] uniform genuine d14 FACE3 selects R07. R07 local Boundary Walker/surveyor with ONE existing Orb of Direction, XGE p138, which on action while held tells north on Material Plane, NO attunement; owner will sell at 40gp ONLY after receiving a reliable replacement compass verified against known north. No orb purchase, no hold or tested compass transaction.\n\nSECOND SLOT remove R07 from eligible general pool; remaining IDs [\"R02\",\"R06\",\"R11\",\"R12\",\"R14\",\"R15\",\"R16\",\"R17\",\"R19\",\"R22\",\"R23\",\"R25\",\"R26\",\"R28\",\"R30\"] uniform genuine Python secrets d15 FACE10 selects R22. R22 existing Eastwatch pass-road cobbler consignment, ONE pair Boots of the Cloud Jumper, Griffon's Saddlebag Book One p37 uncommon REQUIRES ATTUNEMENT, owner asks320gp, once can jump midair before touching a solid surface while using normal remaining movement; midair fall jump prevents up to20ft falling damage. Owner may hear a cash counteroffer, NOT automatically accept. No boot purchase/hold, attunement or ability benefit yet. Fenar has an independent practical interest due to her climbing adaptation. These two R07+R22 represent the ENTIRE current first-draw Eastwatch magical contacts; no third vendor or reroll should be silently added. Original item mechanics and published-source metadata are source-verified in Templates.\n\nEastwatch known local interesting POSSIBILITIES (no new discovery or quest activation): town Magistracy, previously explored Archive-Seven quarry district/Seventh Seat gallery, mapped Veer's Hollow side-road toward Eastwatch hills, Nightglass Hall at low rise roughly half-day carriage east (current chosen expedition). No new magical relic or political report produced by shop browsing. Scene time ~Day28819:00 near Eastwatch western equipment/market quarter before night, no inn/food purchase beyond7-day pack, no long/short rest (weighted progress remains3/6), no future road time/dice. Party V48/48HP AC19 HD7/7 Superiority4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 free Whispers1/1; Fenar59/59HP HD6/6 Rage4/4 inactive Shift3/3 MP6/6 CLIMB40; Cirren51/51 full spells/CD2; Mara and4 horses/coach healthy; purse710gp7sp6cp; rations21 person-days, feed28 animal-days, sealed Pixie Dust1. Original Kestrel bureau authorization Corven Nask/EVERMARCH/CLEAR WILL/transfer ledger, original two conflicting discharges and trial/injury packet and Mage mundane pouch remain V-held; Mara holds Neri interview notes, Fenar six sealed reagents and silver-fitted measuring instrument unappraised. All11 liberated patients remain under prepaid14-night Sedgecross civilian care, Blackthorn voluntary-work invitation actually given IN PERSON before Day285 departure, no offscreen guarantee of home arrival or Crownsunder/Ossent evidence report. V must choose any magical purchase, bargaining, lodging, visit, Nightglass journey.",
+  "pending_action": "Day288 ~19:00 Eastwatch WEST MARKET after user authorized ordinary seven-day resupply and browsed magic. Bought21 ration-person-days for10gp5sp and28 horse-feed animal-days for1gp4sp =11gp9sp paid once; personal purse722gp6sp6cp→710gp7sp6cp; carried food21/feed28. No inn/night rest/camp arranged yet; LongRest3/6. One-time genuine market-size d100FACE74⇒2 Eastwatch magical contacts: R07 Boundary Walker with Orb of Direction, 40gp CONDITIONAL on tested replacement compass (not bought/held); R22 Pass-road Cobbler with consigned Boots of Cloud Jumper asking320gp, rare? NO: UNCOMMON attunement, additional midair jump or avoid up to20ft falling damage, NOT purchased. No other Eastwatch stock established; original draw details/eligible IDs in source_evidence; no rerolls on return. Known nonquest options Eastwatch Magistracy, Archive-Seven quarry district, Veer's Hollow side-road, Nightglass Hall half-day farther east. V48/48HP AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1; Fenar59/59HP HD6/6 Rage4/4 Shift3/3 MP6/6 CLIMB40; Cirren51/51 full spells/CD2; Mara/horses/coach healthy. V's recovered Kestrel originals remain V-held, Mara Neri notes, Fenar six sealed reagents and silver-fitted tool. Eleven survivors remain in Sedgecross paid caretaker care; original Blackthorn directions already personally given. V may choose to buy/inspect magic, visit contacts, secure town lodging or proceed to Nightglass; no automatic night or more spending.",
+  "depends_on": [
+    "PLAY-REC-D286-288-EASTWATCH-ROAD-QUIET-TWO-NIGHTS-ARRIVAL-001"
+  ],
+  "events": [
+    {
+      "event_id": "D288-EASTWATCH-ORDINARY-RESUPPLY-SEVENDAY-001",
+      "accepted": true,
+      "evidence": "Eastwatch provisioner sale from V explicit 'Resupply':21 ration person-days x5sp=10gp5sp and28 horse-feed animal-days x5cp=1gp4sp, total11gp9sp exact cash paid. Supplies loaded in coach. No other expense or night.",
+      "before": "D288~17:30 Eastwatch western approach, purse722gp6sp6cp, carried rations0/feed0; party/horses healthy.",
+      "after": "D288~18:15 Eastwatch market, purse710gp7sp6cp, rations21/feed28, coach and party sound; unchanged HP/limited resources.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D288-EASTWATCH-INITIAL-MAGIC-R07-R22-DRAWS-AND-OFFERS-001",
+      "accepted": true,
+      "evidence": "No Eastwatch rows in source Dealers/Stock/Events. Market Town rural first inquiry true RNG d10074 gives2 contacts. Sorted first SALE/CONDITION eligible IDs [\"R02\",\"R06\",\"R07\",\"R11\",\"R12\",\"R15\",\"R16\",\"R17\",\"R22\",\"R23\",\"R25\",\"R26\",\"R28\",\"R30\"] d14 FACE3 => R07 Boundary Walker Orb of Direction40gp conditional tested replacement compass, XGEp138. Sorted second remaining eligible [\"R02\",\"R06\",\"R11\",\"R12\",\"R14\",\"R15\",\"R16\",\"R17\",\"R19\",\"R22\",\"R23\",\"R25\",\"R26\",\"R28\",\"R30\"] d15 FACE10 => R22 Pass-road Cobbler one Boots of Cloud Jumper consignment asking320gp, Saddlebag BookOne p37; uncommon attunement, extra midair jump/fall protection. These are OFFERS ONLY, no V item purchase/reservation. Existing Eastwatch leads noted; no new quest established.",
+      "before": "D288~18:15 Eastwatch market browsing, no prior prepared Eastwatch magical contacts or current store offers known.",
+      "after": "D288~19:00 Eastwatch has exactly two first-preparation local magic contacts/offers R07 conditional Orb40gp and R22 sale Boots320gp. V owns neither, no other gold/item changed after mundane resupply.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "trackers/csv/magic-shops/dealers.csv",
+        "trackers/csv/magic-shops/stock.csv",
+        "trackers/csv/magic-shops/events.csv"
+      ]
+    }
+  ]
+}
