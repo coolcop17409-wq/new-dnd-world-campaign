@@ -1420,13 +1420,41 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-V-MIMIC-MAGE-GUARD-SUSPICIOUS-001",
+      "base_commit": "9e02a215a8de5eef4a8305cff2d15495d04d766d",
+      "source_checkpoint": "D281-2018-LAB-WEST-LOCKED-KN-G6-ASKS-001",
+      "destination_checkpoint": "D281-2018-V-VOICE-IMITATION-FAILED-GUARD-SUSPICIOUS-001",
+      "source_evidence": "User exact action during live solo infiltration Day281 ~20:18 Station Kestrel laboratory, immediately after V locked the WEST lab wooden door via thieves' tools17/DC15 while KNOWING KN-G6 Guard outside had heard lock click (Perception20/DC14) and asked \"Magister? The door's locked. Is that deliberate?\": \"Mimic the researcher, say don’t let anyone in.\" V alone, masked, aims to imitate unconscious KN-M1 Mage's familiar clipped, impatient voice through a closed locked wooden door, uttering exactly the instruction \"Don't let anyone in.\" 2014 ordinary Charisma(Deception), V expert total+9; impersonation is nonmagical, V lacks any confirmed Actor voice-mimicry feature, KN-G6 had spoken to KN-M1 moments earlier and is already suspicious of unexpected lock and changed orders. Predeclared Deception DC17 (familiar guard and contradictory immediate circumstance); genuinely executed Python secrets d20 FACE7+9=16, FAILURE by1. Guard KN-G6 standing in corridor on OTHER side of locked door hears voice and detects inconsistent tone/manner rather than believing it; asks in ordinary voice \"Magister? Are you unwell, sir? Your voice sounds strange.\" He notes earlier order to inspect vent versus locking room and asks \"You ordered me to have the ventilation checked. Now you've locked yourself inside. What's happening?\" Guard independently decides NOT to force/destroy lock instantly or magically see through door, but states he'll keep passage secure and fetch duty officer if no credible explanation; he has NOT yet left, unlocked, summoned official/other guards, raised additional station-wide alarm, discovered V's identity, established definite mage incapacity or initiated combat. Player has NOT given any second statement or other action. V remains inside laboratory just inward of locked west door, not actually magically disguised as KN-M1, researcher KN-M1 still unconscious stable0/40HP by examination table from previous nonlethal psychic sword KO, recover spontaneously in2h ~22:17 if not healed. Animated Armor physically motionless by lab west threshold, no triggered movement; north separate vault corridor/door untouched, east high vent inner shutters closed and outer grille detached resting on exterior sill. Papers with patient numbers/seals remain central, unread/unseized; original TWO contradictory administrative folios remain in V cloak. Station-wide original bell continues. No new attack, movement, V expenditure, spell, guard entry, rest, patient release or random check. Time still about20:18. V HP48/48 AC19 HD7/7 MP7/7 Sup4/4 Psi0/6 PastLife2/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1; purse969gp3sp6cp, 12 person-ration-days/16 animal-feed-days, sealed unused Pixie Dust1, LongRest5/6. Cirren51/51 and Fenar59/59 remain masked and alive outside west/southwest trees with V-owned intact50ft rope in Fenar hands, Psychic Whispers link to both valid until~22:56; Mara unlinked healthy with V-owned four healthy horses/intact coach at turnout~0.5mi south. All11 patients remain in station: nine ordinary ward (six mobile, three injured nonambulatory), northern P10/P11 unbuckled/waiting for V all-clear in respective north rooms. This small exchange is no fresh sync milestone beyond existing triggered handoff, and recovery capture must not claim actual owning-record sync.",
+      "pending_action": "Day281 ~20:18 Station Kestrel LAB under ongoing station-wide bell, masked V SOLO inside by locked WEST wooden lab door. KN-G6 Guard OUTSIDE in ward-lab connector asked why door locked after hearing lock click. Player explicitly \"Mimic the researcher, say don’t let anyone in.\" V uttered \"Don't let anyone in\" in nonmagical imitation of KN-M1 Magister; genuine Charisma(Deception) d20 FACE7+expertise9=16 against predeclared DC17 FAILED. KN-G6 hears strange voice/contradiction with researcher's prior order to inspect vent and answers \"Magister? Are you unwell, sir? Your voice sounds strange... You ordered me to have the ventilation checked. Now you've locked yourself inside. What's happening?\" Guard independently keeps corridor secure for the moment, warns he'll fetch duty officer unless V offers credible explanation, BUT has not departed, opened door, discovered V/KO, summoned officials or initiated combat. WEST lab door remains locked from inside; east vent inner shutters closed with substantial iron outer grille detached on exterior sill; north separate vault approach/door untouched. KN-M1 Mage unconscious stable0/40HP near central restraint table from nonlethal sword strikes; spontaneous recovery d4FACE2h ~22:17 if unaltered. Papers with patient numbers/official-looking seals on examination table not read/stolen; V retains TWO original contradictory ward/discharge folios. Fixed Animated Armor remains motionless beside west threshold; KN-G6 guard remains other side of locked door, additional patrols not yet known. V HP48/48 AC19 HD7/7 MP7/7 Sup4/4 Psi0/6 PastLife2/3 PsiRecovery0/1 ActionSurge0/1, SecondWind1/1. Cirren51/51 and Fenar59/59 masked/free west woods, Fenar has V-owned intact 50ft rope, 2-way Psychic Whispers V↔these TWO until~22:56. Mara healthy unlinked with V-owned four horses/intact coach half-mile south. Purse969gp3sp6cp, ration-person-days12/feed-animal-days16, Pixie Dust1 unused, LongRest5/6. All eleven detained patients remain inside, nine ordinary ward (six mobile/three unable walk), P10/P11 in separate north rooms unbuckled and waiting. Await V's next response/action; voice impersonation did not secure guard's confidence, possible duty officer notice in future only if causal time passes.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-V-LOCKS-LAB-WEST-DOOR-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-FAILS-MAGE-VOICE-DECEPTION-TO-KN-G6-001",
+          "accepted": true,
+          "evidence": "V tries to mimic unconscious lab Magister KN-M1 across locked west door and says 'Don't let anyone in.' Genuinely rolled V Charisma(Deception) d20FACE7+9=16 vs DC17 failure. Guard KN-G6 notes unnatural voice and contradictory locked door/earlier vent-check order; asks if magister unwell and requests explanation. Guard hasn't left, forced entry, alerted extra personnel or seen V. No other action/resource/change.",
+          "before": "~20:18 V inside lab by locked west door, KN-G6 outside had heard lock and was questioning 'Magister? The door's locked. Is that deliberate?'; mage unconscious0HP stable, no direct guard awareness.",
+          "after": "~20:18 guard remains outside locked door, now distinctly suspicious of failed voice mimic but hasn't escalated beyond questioning/conditional warning to fetch duty officer; no change to mage condition, party positions, money, resource or evidence custody.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-LOCKS-LAB-WEST-DOOR-001",
-    "destination_checkpoint": "D281-2018-LAB-WEST-LOCKED-KN-G6-ASKS-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-MIMIC-MAGE-GUARD-SUSPICIOUS-001",
+    "destination_checkpoint": "D281-2018-V-VOICE-IMITATION-FAILED-GUARD-SUSPICIOUS-001"
   }
 }
