@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D281-KESTREL-VAULT-GUARDIAN-END-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr30-07f6f7de",
+  "claim_expires_at": "2026-11-23T18:35:48Z",
+  "request_commit": "f42ced0487b6b151b1243053edc10f36843263e0",
+  "request_blob": "db706e8b70f74727659573ab34b9a16e7717e363",
+  "summary": "Three-event request verified against pinned legacy main journal and16 historical transports including supersession. PR29 dependency complete; writer idle.",
+  "blocker": null,
+  "applied_event_ids": []
+}
