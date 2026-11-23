@@ -1334,13 +1334,42 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-V-R1-BONUS-HIDE-001",
+      "base_commit": "6f349ca05e05234f8c2c45fe5561a2049b49caf7",
+      "source_checkpoint": "D281-2017-KESTREL-LAB-COMBAT-R1-V-STRIKE-PENDING-BA-001",
+      "destination_checkpoint": "D281-2017-KESTREL-LAB-R2-V-HIDDEN-BEHIND-EXAM-TABLE-001",
+      "source_evidence": "PLAYER EXACT INSTRUCTION at active combat Kestrel LAB Day281~20:17, immediately after V's first nonlethal sword-channelled melee Psychic Blade Attack action hit surprised KN-M1 Mage for 11 psychic (40→29 HP) and before any bonus action: \"Break line of sight with hide bonus\". V currently adjacent to KN-M1 by central heavy restraint examination table,~20ft spent of normal30ft movement and one bonus action still available; V commands 10ft movement around/low behind the examination table's solid base, so actual examination furnishing blocks Mage's current direct sight-line rather than claiming Hide in unobstructed view or teleporting to original east cabinets 20ft away. At that moment KN-M1 has the 2014 surprised condition from not knowing V was inside before initial assault; no opportunity attack or reaction before surprise turn ends. V then spends one CUNNING ACTION bonus action to HIDE behind the table. Genuine executed Python secrets d20 FACE1 (natural one) +V Dexterity(Stealth) expertise10 =11, against KN-M1 currently passive Perception11 (2014 MM Mage printed passive, no search action possible during surprise). 2014 ability checks have NO automatic fail on natural1; ties beat the passive DC, so V narrowly SUCCEEDS to become hidden from Mage at this position, although Mage knows there is an intruder and can later move around furniture or Search. No psychic die/MP/Superiority spent, no new resource-powered Knack (Psi0/6), no nonlethal bonus blade, attack or Action Surge silently taken. V Attack action spent R1, Cunning Action Hide bonus spent R1, remaining movement 10ft spent, V reaction available. KN-M1 first combat turn (initiative4) passes with NO action/movement/reaction because surprised. At END of that first turn its prohibition on reactions ENDS, so in subsequent Round2 Mage can use Shield reaction if legally triggered and still has resources, and act on its normal initiative. KN-M1 has not seen V reappear, is wounded29/40HP, not unconscious, on central opposite side of examination table, knows a masked attacker just struck with psychically manifested sword; no audible ward-wide warning or spell, no automatic sightline through table. V initiative23, KN-M1 initiative4, ROUND2 NOW STARTS with V hidden adjacent/across table, full movement/action/bonus ready; if he emerges to attack from cover, evaluate 2014 hidden attacker advantage and exact melee reach/obstruction, attack reveals position, Mage may react with Shield now. Fixed motionless Animated Armor at lab-side western threshold remains at its post; KN-G6 still outside behind closed western corridor door knowing vent tampering but not combat within room, no instant teleport/security arrival. Lab east high vent shutters ajar and detached grille on exterior ledge; research papers scattered/stacked central, unread/unseized. Nine ordinary ward patients and two northern patients P10/P11 (unbuckled/quiet/waiting) remain on station. V HP48/48 AC19 HD7/7 Sup4/4 Psi0/6 PastLife2/3 PsiRecovery0/1, SecondWind/ActionSurge1/1, MP7/7, two original official contradictory occupancy/discharge folios retained; Cirren51/51 full spell slots, Fenar59/59 with Rage4/4 Shift3/3 MP6/6 remain masked in western exterior woods linked to V by ongoing Psychic Whispers until~22:56, Fenar carries V-owned whole50ft rope; Mara healthy unlinked with V-owned four healthy horses/intact coach half-mile south; V purse969gp3sp6cp, rations12 person-days/feed16 animal-days, Pixie Dust1 sealed, LongRest5/6 unchanged. Day281 time~20:17; NO additional rest, new V action or world event beyond this. Per-response small recovery, no full owner sync during active combat.",
+      "pending_action": "Day281~20:17 Kestrel treatment laboratory40x30ft, alarm from earlier west incident. ACTIVE COMBAT ROUND2 START, initiative V23, KN-M1 Mage4. After previous R1 V nonlethal melee Soulknife Psychic Blade hit Mage for11 psychic (Mage40→29/40HP, AC12 unbuffed), V selected EXACT \"Break line of sight with hide bonus\". Used 10ft remaining movement from adjacent mage to crouch behind SOLID CENTRAL restraint examination table, breaking direct sightline; Cunning Action Hide BA d20 NATURAL1+Stealth10=11 against Mage passive Perception11 => SUCCESS under 2014 tie and no auto failure. V HIDDEN at central examination table's opposite/covered side, ~5–10ft from mage depending going around table, not magically invisible; Mage knows attacker inside and may move to see. V R1 action/BA/move spent. Mage was surprised R1 and took no action/move, could NOT Shield R1 initial attack; surprise reaction ban lifted at end of its R1 turn. Round2 V now starts with action, bonus, 30ft movement, reaction available, no V attack selected yet. Mage wounded/conscious29/40, reaction now available, printed Shield spell and slots untouched, can act initiative4; KN-G6 guard beyond closed west lab door knows vent disturbance only, has not witnessed combat or entered; apparently motionless Animated Armor still west threshold. Lab central paper stacks remain unread, eastern vent shutters ajar and detached grille outside on sill. V HP48/48 AC19 HD7/7, MP7/7 Sup4/4 Psi0/6 PastLife2/3 PsiRecovery0/1 SecondWind1/1 ActionSurge1/1, two original contradictory folios concealed; Cirren51/51 full spells, Fenar59/59 Rage4/4 Shift3/3 MP6/6 in outer west woods with V-owned 50ft rope, V Psychic Whispers links both until~22:56, Mara healthy with V-owned four healthy horses/coach0.5mi south not linked. Purse969gp3sp6cp, 12 ration-person-days/16 feed animal-days, unopened Pixie Dust1, LongRest5/6. Eleven patients still at station, P10/P11 unbuckled and waiting. Await V's Round2 action/target/resource decision; genuine dice needed as usual, no auto second strike/spell, no time skip.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-V-FIRST-NONLETHAL-MAGE-STRIKE-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-KESTREL-LAB-R1-V-HIDE-MAGE-SURPRISE-END-001",
+          "accepted": true,
+          "evidence": "V: 'Break line of sight with hide bonus'. Uses remaining ~10ft movement to crouch behind existing heavy examination table solid base, breaks direct LOS from wounded surprised Mage; spends Cunning Action BA Hide. Genuine d20 FACE1 (natural1)+Stealth10=11 vs Mage passive Perception11 succeeds narrowly (2014 skill checks have no automatic nat1 failure). Mage R1 surprised turn init4 passes with no action; regains legal reactions at end R1. R2 begins V init23 hidden, Mage init4 conscious29/40 HP and able to react/act; no attacks, new limited-resource spending or other actors' detection.",
+          "before": "R1 V adjacent KN-M1 Mage near central table, V48/48, Mage29/40, V Attack action spent, bonus available, 10ft move left; Mage surprised not yet taken turn; closed west door with guard beyond and stationary armor.",
+          "after": "R1 V movement10ft and BA Hide used; V concealed behind heavy central table with Stealth11 vs passive11 success. Mage lost first turn surprised, reaction prohibition over at its turn end. R2 V goes first and has new action/BA/movement; Mage still29/40, all other stats, combatants and physical locations unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "data/characters/events.csv",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-FIRST-NONLETHAL-MAGE-STRIKE-001",
-    "destination_checkpoint": "D281-2017-KESTREL-LAB-COMBAT-R1-V-STRIKE-PENDING-BA-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-R1-BONUS-HIDE-001",
+    "destination_checkpoint": "D281-2017-KESTREL-LAB-R2-V-HIDDEN-BEHIND-EXAM-TABLE-001"
   }
 }
