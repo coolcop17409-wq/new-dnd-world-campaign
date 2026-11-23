@@ -2,7 +2,7 @@
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-VAULT-GUARDIAN-END-001",
   "status": "partial",
-  "phase": "owners_published",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr30-07f6f7de",
   "claim_expires_at": "2026-11-23T18:35:48Z",
   "request_commit": "f42ced0487b6b151b1243053edc10f36843263e0",
@@ -14,5 +14,7 @@
     "D281-V-TIES-G6-RELOCKS-LAB-FENAR-HORROR-R1-36DAMAGE-001",
     "D281-V-QUICK-TOSS-READY-FENAR-GUARDIAN-DESTROYED-001"
   ],
-  "tested_candidate": "6490767fd7f664410c1fa34e6bdf5528dd804062"
+  "tested_candidate": "6490767fd7f664410c1fa34e6bdf5528dd804062",
+  "owner_commit": "c192e25b4fb39af52c737f16e9a74fff0e4639c8",
+  "owners_verified": true
 }
