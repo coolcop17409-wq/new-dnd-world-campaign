@@ -2,7 +2,7 @@
   "schema_version": 1,
   "request_id": "PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001",
   "status": "partial",
-  "phase": "owners_published",
+  "phase": "owners_verified",
   "claim_owner": "opened-pr35-4e547188",
   "claim_expires_at": "2026-11-23T20:35:00Z",
   "request_commit": "3b44766b62a8340741e470e7629ca485ee901baa",
@@ -19,5 +19,7 @@
     "D282-284-V-ALLIES-REVIEW-KESTREL-ORIGINALS-NO-OUTSIDE-DISCLOSURE-001",
     "D285-SEDGECROSS-THREE-TOWN-NIGHTS-FULL-WEIGHTED-LONGREST-001"
   ],
-  "tested_candidate": "f0f2832991459a627f3dd41580ac3045dc66423a"
+  "tested_candidate": "f0f2832991459a627f3dd41580ac3045dc66423a",
+  "owner_commit": "9da418b091948459fa6d3dde79ae5ac1536d5b85",
+  "owners_verified": true
 }
