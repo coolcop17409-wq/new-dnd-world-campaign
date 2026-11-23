@@ -37,7 +37,7 @@
       "result": "Expected original failure reproduced: character.overlay and checkpoint.latest exactly match immutable request. Current-main validator used against original main owner files; no request-branch code executed."
     },
     {
-      "command": "python3 source/hash comparison assertions",
+      "command": "python3 /tmp/pr27_compare.py",
       "exit_code": 0,
       "result": "Both original diagnostic source SHA256 hashes match; original character events identical to current main; only later accepted checkpoint resolves both findings."
     }
