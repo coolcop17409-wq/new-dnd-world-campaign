@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "request_id": "HANDOFF-SYNC-REPAIR-C24A6FBE0911A681C1F80C54",
+  "status": "verified",
+  "disposition": "superseded_already_fixed",
+  "tested_commit": "5bfbb61cdd7b27065f5c9a69987d8a08087c9edd",
+  "current_base_commit": "5bfbb61cdd7b27065f5c9a69987d8a08087c9edd",
+  "failure_commit": "77b84f44dd29d68582967d27da6c82f0839b49cb",
+  "fix_commit": "8b2e98bde2cd7ddb75c4e687c6425e899bcd9331",
+  "tested_at": "2026-11-23T17:35:46Z",
+  "commands": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "result": "PASS; no findings"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -v",
+      "exit_code": 0,
+      "result": "36 tests passed"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --root /tmp/pr27-original --scope final --phase final --report /tmp/pr27-original-diagnostic.json",
+      "exit_code": 1,
+      "result": "Expected original failure reproduced: character.overlay and checkpoint.latest exactly match immutable request. Current-main validator used against original main owner files; no request-branch code executed."
+    },
+    {
+      "command": "python3 /tmp/pr27_compare.py",
+      "exit_code": 0,
+      "result": "Both original diagnostic source SHA256 hashes match; original character events identical to current main; only later accepted checkpoint resolves both findings."
+    }
+  ],
+  "changed_paths": [
+    "automation/handoffs/results/sync-repair/HANDOFF-SYNC-REPAIR-C24A6FBE0911A681C1F80C54.json",
+    "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-C24A6FBE0911A681C1F80C54.json"
+  ],
+  "source_evidence": {
+    "request_blob": "a6eab2ed5876f4a3faec1cd1261a25da1ace19b8",
+    "workflow_run_id": 45228626488,
+    "job_id": 137881813450,
+    "workflow_step": "Validate final character checkpoint (no estate or shop audit) failed; generation/publication skipped",
+    "job_log_download": "Connector returned Internal error; immutable diagnostic, job step result and local exact reproduction independently available",
+    "owner_refs": [
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5bfbb61cdd7b27065f5c9a69987d8a08087c9edd/campaign/continuity/campaign-state.md",
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5bfbb61cdd7b27065f5c9a69987d8a08087c9edd/data/characters/events.csv",
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5bfbb61cdd7b27065f5c9a69987d8a08087c9edd/campaign/continuity/session-log.md",
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/8b2e98bde2cd7ddb75c4e687c6425e899bcd9331/campaign/continuity/campaign-state.md"
+    ]
+  },
+  "summary": "Original main77b84f44 is the intentionally intermediate owner-before-checkpoint phase of accepted PR25 synchronization. Later separate checkpoint8b2e98bde reconciles Day281 and newest event. No source correction remains necessary; no character posting was removed or replayed. Receipt-only repair branch; no merge needed.",
+  "advances_gameplay": false,
+  "main_writes_by_repair": false,
+  "branch_owner_patch": false
+}
