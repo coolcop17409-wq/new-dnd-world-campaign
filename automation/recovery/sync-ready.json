@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "ready": true,
-  "reason": "explicit_sync",
-  "request_id": "PLAY-D281-KESTREL-G6-VOICE-CHALLENGE-001",
-  "last_recovery_id": "PLAY-REC-D281-V-MAGISTER-VOICE-RETRY-G6-CHALLENGES-001",
-  "destination_checkpoint": "D281-2051-G6-DOOR-INSPECTION-DEMANDED-001",
-  "journal_commit": "c58b76055aef79055e032e769b2d7c8e2d563653",
-  "journal_digest": "3d9eddb765cb75409e262c2db89dd00d5eba555983d560c1d1421238b9a63ca5"
+  "reason": "combat_end",
+  "request_id": "PLAY-D281-KESTREL-VAULT-GUARDIAN-END-001",
+  "last_recovery_id": "PLAY-REC-D281-V-QUICK-TOSS-READY-GUARDIAN-R2-DEFEATED-001",
+  "destination_checkpoint": "D281-2054-INNER-VAULT-GUARDIAN-DESTROYED-DOOR-UNOPENED-001",
+  "journal_commit": "63fc2d957a0ee5b739c5eeff61c59c12f258bd93",
+  "journal_digest": "0b2642f8b565c60c3d055af071075542ffd629d9dee32008d6fc97a30fb68c59"
 }
