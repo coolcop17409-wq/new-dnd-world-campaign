@@ -33,4 +33,4 @@ Verified edition `ATLAS-D281-KESTREL-APPROACH-001` · Caer Veylan to Station Kes
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=MAINT-D281-20261123-01 | worker=Record-Maintenance | operations=ADMIN-MAINT-D281-20261123-01 | acquired_UTC=2026-11-23T15:08:25Z | heartbeat_UTC=2026-11-23T15:08:25Z | expires_UTC=2026-11-23T15:18:25Z | recovery=automation/handoffs/play-sync/results/PLAY-D281-KESTREL-LAB-ENTRY-001.json
+CAMPAIGN_WRITER | state=IDLE | last_token=MAINT-D281-20261123-01 | released_UTC=2026-11-23T15:12:00Z | result=VERIFIED_SCOPED_CHECKS_SYNC_BLOCKED | recovery=automation/handoffs/play-sync/results/PLAY-D281-KESTREL-LAB-ENTRY-001.json
