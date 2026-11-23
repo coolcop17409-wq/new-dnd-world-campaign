@@ -1277,13 +1277,41 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-V-HIDES-MAGE-WARNS-GUARD-001",
+      "base_commit": "79974a5f065d337b441de4fa86aa145a32b90f6a",
+      "source_checkpoint": "D281-2016-V-HIDDEN-INSIDE-EAST-LAB-001",
+      "destination_checkpoint": "D281-2017-V-CONCEALED-LAB-MAGE-GUARD-ADVISED-001",
+      "source_evidence": "Player's exact next instruction after V entered Station Kestrel treatment lab through the east vent and hid behind tall east-side storage cabinets with genuine Stealth29 against KN-M1 Perception13: \"Remain hidden\". At Day281~20:16 masked V SOLO stays completely motionless behind existing large cabinets, not emerging, speaking, handling records, moving toward the mage, engaging combat, casting, sending telepathy, or spending any resource. Earlier high Stealth29 remains the operative contested concealment from KN-M1 (no new exposed movement/recheck or fake dice), KN-M1 does NOT spot him. Lab has treatment/examination table with restraints, glass apparatus, anatomical diagrams and papers; two original contradictory ward/discharge folios remain secretly in V's cloak. KN-M1 Mage (the SAME preauthored senior arcane-medical researcher, already suspicious of the detached grille) independently reaches LAB WEST closed wooden door, opens it to the KN-G6 Guard occupying actual ~30ft ward-to-lab connector, states aloud from ordinary hearing range: \"Guard. Someone's tampered with the eastern ventilation grille. Have the outside watch inspect that wall. Keep this passage secured.\" KN-G6 recognizes a legitimate security report, answers from connector \"Understood.\" This is actual word-of-mouth disclosure from KN-M1 to KN-G6 only, NOT instant notice to all staff, external guard arrival or magical surveillance; no courier move beyond corridor has yet been played. KN-M1 CLOSES west lab door after exchange and returns to central examination/worktables to collect loose lab documents into a neat stack, without reading contents aloud, burning, hiding, seizing from V, or removing from room. From his narrow gap behind cabinets V can see anatomy drawings, patient numbers, columns and some pages bearing official-looking seals but CANNOT read the text, authenticate signatures, or take them without action. KN-M1 sets down lamp and stands/works roughly20ft from concealed V. Fixed Animated Armor remains visibly motionless near lab-side western threshold, not revealed to V as animate and not triggered to attack. The east vent's inner shutters were left slightly ajar by V's entry, substantial grille intact but UNATTACHED on exterior ledge; no new tampering observed by guard yet. Nine ordinary ward patients (six mobile P1–P6, three impaired P7–P9) and two freed-from-strap-but-still-waiting northern P10/P11 remain in same beds, no one evacuated. The sitewide bell from west-wall intrusion continues, while external soldiers have no new confirmed V sightings. Time advances about one minute to~20:17 through independent NPC reactions, not a new in-world day, injury or rest. V48/48HP AC19 HD7/7 Superiority4/4 Psi0/6 PastLife2/3 PsiRecovery0/1 ActionSurge/SecondWind1/1, silver sword screened, two original occupancy/discharge folios retained, purse969gp3sp6cp, rations12 person-days/feed16 animal-days, unused Pixie Dust1, LongRest5/6 unchanged. Cirren51/51 full spell slots/CD2/2 and Fenar59/59 Rage4/4 Shift3/3 MP6/6 masked free outside west/southwest woods, whole V-owned50ft rope held by Fenar, Psychic Whispers V↔these TWO linked until~22:56; Mara healthy with V-owned four healthy horses/coach in public wooded turnout ~0.5mi south, not linked. No new dice required for V keeping stationary hidden or KN-M1 calling to clearly present guard; no formal discovery, attack/initiative, healing, paper acquisition or feature use. This is routine NPC security response following the prior significant-exploration sync marker, not a separate natural sync milestone.",
+      "pending_action": "Day281 ~20:17, Kestrel treatment laboratory40x30ft, station-wide alarm from previous west-wall intruders continues. V masked SOLO UNDETECTED behind tall storage cabinets along lab EAST interior near high vent, prior Stealth29 vs KN-M1 Perception13 remains valid since user explicitly chose \"Remain hidden\" and has not moved; no new roll, resource expenditure or attack. KN-M1 Mage knew outside vent grille compromised before V entry; independently opened lab WEST door, told fixed KN-G6 Guard in ~30ft connector to have outside watch inspect EAST vent and keep passage secured; KN-G6 said \"Understood\", but NO later message to exterior watch/guard arrival has occurred yet. KN-M1 SHUT door again, placed lamp near central examination tables and is gathering loose papers into stack ~20ft from V. From concealment V sees anatomical drawings, patient numbers, notes and official-looking seals, not legible/authenticated and NOTHING taken. KN-M1 still does not know V is inside. Visibly motionless suit of armor (fixed Animated Armor) remains near western door, not yet active; fixed staff/constructs not otherwise moved. Exterior grille detached/intact on ledge, east wooden shutters slightly ajar. Nine ordinary-ward patients remain inside (six ambulatory, three unable to walk), northern P10/P11 no longer strapped but waiting quietly for V clear, no extraction. V48/48 HP AC19 HD7/7 Sup4/4 Psi0/6 PastLife2/3 PsiRecovery0/1 ActionSurge/SecondWind ready, original two contradictory patient register folios concealed, purse969gp3sp6cp, rations12 person-days/feed16 horse animal-days, unopened Pixie Dust1, LongRest5/6. Cirren51/51 full slots/CD2 Fenar59/59 Rage4/4 Shift3/3 MP6/6 masked outside WEST woods, Fenar carries V-owned50ft rope, Psychic Whispers V↔these two through~22:56; Mara healthy and unlinked with four V-owned healthy horses and coach at public turnout ~0.5mi south. Player chooses whether remain hidden, examine/grab papers when possible, move, intervene or retreat; no V decision taken beyond remaining hidden.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-V-ENTERS-LAB-VENT-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-KESTREL-V-HIDES-MAGE-INFORMS-CORRIDOR-GUARD-001",
+          "accepted": true,
+          "evidence": "Player says 'Remain hidden'. V stays concealed behind east laboratory cabinets, retains prior valid Stealth29 vs KN-M1 Perception13, no new check/resource. KN-M1 independently opens WEST lab door to KN-G6 in corridor, warns vent tampered and requests external check while KN-G6 guards passage; KN-G6 verbally acknowledges, not yet relayed to outer patrol. Mage shuts door, collects loose papers on central worktable ~20ft away, without destroying/removing them; V sees diagrams, patient numbers and official-looking seals but cannot read/verify or acquire yet. Animated Armor unmoved, no V detection/combat.",
+          "before": "Day281~20:16 V masked unseen inside lab behind east storage cabinets, KN-M1 at west door about to act on vent suspicion; no guard informed yet, no lab papers read or taken.",
+          "after": "Day281~20:17 V still unseen in same cover. KN-M1 explicitly informs KN-G6 corridor guard vent compromised and requests watch check, closes door, starts stacking lab paperwork near middle of room. KN-G6 has heard warning but no exterior alarm relay yet; all physical resources/party/patients unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-ENTERS-LAB-VENT-001",
-    "destination_checkpoint": "D281-2016-V-HIDDEN-INSIDE-EAST-LAB-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-HIDES-MAGE-WARNS-GUARD-001",
+    "destination_checkpoint": "D281-2017-V-CONCEALED-LAB-MAGE-GUARD-ADVISED-001"
   }
 }
