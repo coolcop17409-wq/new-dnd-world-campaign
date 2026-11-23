@@ -1650,13 +1650,40 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-V-ASKS-FENAR-CIRREN-DEFENDER-SIGHTINGS-001",
+      "base_commit": "43882e2bacbc8ac85a8f39f636122c738554e52b",
+      "source_checkpoint": "D281-2028-V-VAULT-ARCANA-UNBOOSTED-MP7-001",
+      "destination_checkpoint": "D281-2028-V-WHISPERS-TWO-ALLY-GUARD-SIGHTINGS-001",
+      "source_evidence": "Player's exact next telepathic in-character question to linked companions after reverting attempted Figure It Out 7MP expenditure and preserving original failed Arcana (d20FACE8+0=8/DC15): \"Fenar, Cirren how many did you see in the facility?\" Time remains Day281~20:28, V masked and undiscovered behind LAB-side SOLID STONE corner at entrance of Kestrel's exposed north20ft inner-vault corridor, heavy animated-looking armored vault sentry at closed iron door. V's previous Psychic Whispers link to EXACT TWO previously visible companions Fenar/Cirren began~19:56 with genuine duration d6FACE3=3h, remains active within1mile until~22:56, and TWO-WAY mental exchange needs no new dice, action, activation, psi spending, target visibility or audible speech. They remain masked in exterior west/southwest woods (with V-owned intact50ft rope in Fenar's possession), not physically inside station, and have NO omniscient interior line-of-sight or access to secret finite DM roster. Cirren's actual earlier Perception d20FACE17+8=25 from outer west perimeter before wall attempt identified west service path scout KN-G3 and southern main-gate roof lookout scout KN-G2. Fenar had direct exterior observation of the same west gate guard/roof post during west wall attempt and ensuing local discovery, but neither independently counted internal KN-G5 or KN-G6 nor magically knew more positions, so they truthfully report TWO DISTINCT visually confirmed guards from western side, one west gate Scout and one roof lookout near south entrance. Cirren replies: \"Two guards we could positively identify from our position. One stationed at the western service gate, the other watching from the roof near the southern entrance. There are certainly more inside, but we never had a clear view of the whole compound. I wouldn't trust any guess at their total strength.\" Fenar independently answers in consistent THIRD PERSON: \"Fenar saw the western guard, Master. And the rooftop lookout. Neither looked like they were leaving their post. Fenar hasn't seen anyone come out after us. But Fenar cannot see what's happening inside those buildings.\" That last clause is Fenar's observation from her limited concealing position, not proof nobody exited elsewhere or no guards could move. Cirren then privately asks V, without choosing V's response: \"Have you found the patients? And are you planning to fight your way out? We should know before that bell brings more trouble.\" Do NOT grant Cirren knowledge of patient contact, mage KO, collected evidence, vault sentinel, V Psi/MP, or plan without V's actual transmission. V has NOT answered those questions, spent a resource, chosen combat or moved. No new check, monster/patrol count, trap or defender response or future world time advanced; Psychic Whispers conveys only communicable thought, not live shared vision. KN-M1 Mage alive stable unconscious0/40HP in lab, west lab door locked and KN-G6 guarding after successful voice impersonation; eleven captive patients still in building (six mobile/three immobile ordinary ward, two northern P10/P11 unbuckled waiting V signal), no rescue, event, escort or magic. V carries two original occupied/discharged mismatch folios and one compact original local signed research trial/injury evidence packet; superior authorization remains in vault. V HP48/48 AC19 HD7/7 MP7/7 (latest player REVOCATION of previous 7MP Figure It Out expenditure; standing +1 per MP rule remains), Sup4/4 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, purse969gp3sp6cp, provisions12 ration-person-days/feed16 horse animal-days, unopened Pixie Dust1, weighted LongRest5/6. Cirren51/51 full spells/CD2/2, Fenar59/59 Rage4/4 Shift3/3 MP6/6 outdoors masked, Mara healthy outside with 4 V-owned healthy horses/intact coach0.5mi south, unlinked. No additional sync boundary from ordinary in-progress telepathic dialogue.",
+      "pending_action": "Day281~20:28 Station Kestrel inner vault approach, V solo masked/undetected behind SOLID STONE corner before exposed20ft passage, armored vault sentinel still guarding closed heavy iron vault door, no conflict. V most recently explicitly rejected spending Figure It Out on prior failed nonproficient Arcana8/DC15, retained MP7/7, standing +1 per MP ruling active; previously read warning plate Fireball/Heat Metal/Lightning Bolt No Effect with Past Life, no guardian-control knowledge discovered. V just ASKED through ongoing two-way Psychic Whispers \"Fenar, Cirren how many did you see in the facility?\" Cirren and Fenar independently truthfully recall seeing TWO guard posts from outside western woods: western service gate Scout and southern roof lookout Scout, not whole garrison, no invented counts; neither can see facility interiors. Cirren then asks \"Have you found the patients? And are you planning to fight your way out? We should know before that bell brings more trouble.\" V has not replied or moved. Whispers link to Cirren/Fenar through~22:56; neither is automatically sent V's private discoveries, and Mara remains unlinked. V currently has two original contradictory ward/discharge register folios plus original signed local trial observations/injury diagram packet; high-order authorizations still in guarded vault, Mage KN-M1 unconscious stable0HP in lab, west lab door locked, corridor KN-G6 still believes no-entry command, exterior vent shutters shut but grille detached, vault guardian still alert only to its fixed assignment. All eleven patients remain detained, northern P10/P11 unbuckled and waiting for V's signal. V HP48/48 AC19 HD7/7 MP7/7 Sup4/4 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1; Cirren51/51 full spells/CD2, Fenar59/59 Rage4/4 Shift3/3 MP6/6 masked outside west woods with V-owned 50ft rope Fenar carries; Mara healthy with 4 V-owned horses/coached carriage ~0.5mi south unlinked. Purse969gp3sp6cp, ration-person-days12/feed animal-days16, Pixie Dust1 sealed, LongRest5/6; no time advancement or new dice/expenses. Await V answer to Cirren's question or next decision on vault/exit/rescue.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-FIGURE-IT-OUT-SPEND-REVOKED-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-WHISPERS-ALLIES-WEST-ROOF-GUARD-COUNT-001",
+          "accepted": true,
+          "evidence": "V asks Cirren and Fenar via already active Psychic Whispers how many guards they saw at Kestrel. No new action/roll/psi cost. Both report only TWO positively seen from west exterior: Scout at west service gate and Scout on rooftop toward south gate, not a total roster count. Cirren asks V whether patients found and whether exit will involve fighting; V has not replied. Party, enemy positions, resources, evidence, and world time unchanged.",
+          "before": "Day281~20:28 V hidden at north vault corridor corner, Figure It Out spending revoked so MP7/7, Arcana failed8/DC15, Cirren/Fenar masked free in west woods linked Whispers, known earlier two exterior scout sightings.",
+          "after": "V receives accurate limited two-scout exterior sighting report via existing psychic link; Cirren asks how V is doing and if planning fight, pending V reply. No V response/movement, combat or resource change.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-FIGURE-IT-OUT-SPEND-REVOKED-001",
-    "destination_checkpoint": "D281-2028-V-VAULT-ARCANA-UNBOOSTED-MP7-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-ASKS-FENAR-CIRREN-DEFENDER-SIGHTINGS-001",
+    "destination_checkpoint": "D281-2028-V-WHISPERS-TWO-ALLY-GUARD-SIGHTINGS-001"
   }
 }
