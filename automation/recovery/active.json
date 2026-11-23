@@ -26,5 +26,12 @@
         }
       ]
     }
-  ]
+  ],
+  "sync_trigger": {
+    "ready": true,
+    "reason": "explicit_sync",
+    "request_id": "PLAY-D281-KESTREL-G6-VOICE-CHALLENGE-001",
+    "last_recovery_id": "PLAY-REC-D281-V-MAGISTER-VOICE-RETRY-G6-CHALLENGES-001",
+    "destination_checkpoint": "D281-2051-G6-DOOR-INSPECTION-DEMANDED-001"
+  }
 }
