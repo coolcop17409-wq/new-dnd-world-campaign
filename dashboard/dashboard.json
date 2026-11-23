@@ -1326,8 +1326,8 @@
       },
       {
         "item": "Stone of Good Luck (Luckstone)",
-        "qty": "1",
-        "quantity_display": "1",
+        "qty": "1.0",
+        "quantity_display": "1.0",
         "holder": "Valenthia — owned and carried, UNATTUNED",
         "detail": "Original Eastwatch retired quarry surveyor agate purchased375gp. 2014 DMG p205; requires attunement, +1 checks/saves inactive until V chooses attunement. No AC/attack bonus. One unique sold lot, no duplicate.",
         "source_event": "D288-V-ACCEPTS-375GP-LUCKSTONE-PURCHASE-001"
