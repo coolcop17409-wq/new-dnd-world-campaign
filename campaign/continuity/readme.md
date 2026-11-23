@@ -33,4 +33,4 @@ Verified edition `ATLAS-D278-WESTERN-VEYR-001` · Western Veyr and Caer Veylan, 
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | last_token=ESTATES-VISIT236-20261122-1624 | released_UTC=2026-11-22T16:35:25.729Z | result=VERIFIED_VISIT236_ESTATE_CORRECTION | recovery=data/estate/operational-checkpoint.csv#VISIT236-ADMIN
+CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D281-1795421105596 | worker=Atlas | operations=ATLAS-D281-KESTREL-APPROACH-001 | acquired_UTC=2026-11-23T08:05:05.596Z | heartbeat_UTC=2026-11-23T08:05:05.596Z | expires_UTC=2026-11-23T08:15:05.596Z | recovery=campaign/continuity/readme.md#atlas-review
