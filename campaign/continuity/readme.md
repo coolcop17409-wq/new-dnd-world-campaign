@@ -27,10 +27,10 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 ## Atlas review
 
-Verified edition `ATLAS-D278-WESTERN-VEYR-001` · Western Veyr and Caer Veylan, Day 278. [HTML v10](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) · [SVG v7](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) · [transparent PNG v3](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) · [preview v6](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal). [Previous edition](../../archive/continuity/continuity-routing-before-auto-sync-20261121.md#atlas-review).
+Verified edition `ATLAS-D281-KESTREL-APPROACH-001` · Caer Veylan to Station Kestrel, Day 281 accepted travel. [HTML v11](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) · [SVG v8](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) · [transparent PNG v3](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) · [preview v7](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal). [Previous edition](https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/89c505ef8291d040189837707f71651efd5ff7a2/campaign/continuity/readme.md#atlas-review).
 
 ## Cooperative writer
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D281-1795421105596 | worker=Atlas | operations=ATLAS-D281-KESTREL-APPROACH-001 | acquired_UTC=2026-11-23T08:05:05.596Z | heartbeat_UTC=2026-11-23T08:05:05.596Z | expires_UTC=2026-11-23T08:15:05.596Z | recovery=campaign/continuity/readme.md#atlas-review
+CAMPAIGN_WRITER | state=IDLE | last_token=ATLAS-D281-1795421105596 | released_UTC=2026-11-23T08:06:26.072Z | result=VERIFIED | recovery=campaign/continuity/readme.md#atlas-review
