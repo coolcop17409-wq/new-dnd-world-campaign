@@ -1,3 +1,25 @@
+CURRENT ACCEPTED Day289~13:00 Nightglass Hall outer entrance. LATEST CORRECTIONS: Blackthorn invitation and single Tamsin call occurred BEFORE Day285 departure at Sedgecross. Postdeparture courier/delivery and2sp cost VOID, no cash posting for either void cost or refund. Prior200gp care/separate1gp trustee inquiry unchanged. Old Eastwatch Orb/Boots offers superseded before purchase; only corrected Luckstone and Ring lots exist locally. No attunement chosen. Purse329gp1sp6cp, food21/feed28, weighted rest5/6; full pools unchanged. V owns one UNATTUNED Stone of Good Luck, no bonus applied; Kestrel originals V-held, notes Mara-held, reagents/tool Fenar-held unchanged. Survivors retain agency in prepaid Sedgecross care, no hires/relocation. Edric letter unread at Blackthorn, no Hall access or disclosures assumed.
+
+D289-V-PARTY-REACHES-NIGHTGLASS-HALL-EAST-LANE-QUIET-001 — D289~13:00 V/Mara/Cirren/Fenar and four horses+coach physically at Nightglass Hall outer estate lane entrance after quiet travel, evening purchases/rest unchanged, V pending action to request meeting/entry.
+
+D288-V-PERSUASION-25-NEGOTIATES-LUCKSTONE-375GP-001 — Day288~19:05 owner now willing to sell original Luckstone to V at375gp (75gp discount) but still retains title/custody, V purse unchanged710gp7sp6cp, no feature spent, next choice accept or decline.
+
+D288-EASTWATCH-MAGIC-MARKET-REPEATED-TEMPLATE-OFFER-CORRECT-001 — Eastwatch Day288~19:00 SAME two local magic contacts but revised identities and wares: retired quarry surveyor offers one Luckstone450gp, probate/estate broker one Ring of Mind Shielding250gp; old repeat item offers superseded and no duplicated lots. Character cash, equipment, private evidence, resources and scene time unchanged.
+
+D288-EASTWATCH-INITIAL-MAGIC-R07-R22-DRAWS-AND-OFFERS-001 — D288~19:00 Eastwatch has exactly two first-preparation local magic contacts/offers R07 conditional Orb40gp and R22 sale Boots320gp. V owns neither, no other gold/item changed after mundane resupply.
+
+D287-288-EASTWATCH-APPROACH-QUIET-ARRIVAL-001 — D288~17:30 EASTWATCH western outskirts, rations0/feed0 pending resupply before onward road, LongRest3/6, V purse722gp6sp6cp unchanged, full character resources, four horses and coach healthy, all original evidence/custody unchanged. Await V decision to enter/resupply/visit/continue.
+
+D286-V-RETCON-BLACKTHORN-PATIENT-OFFER-DELIVERED-IN-SEDGECROSS-001 — Retconned Blackthorn message delivered face-to-face at Sedgecross prior to Day285~10:45 departure to all11 patients and sick-tender/keeper with verified route and voluntary work invitation; V/Tamsin once-per-day message before departure, no duplicate charge, no courier/2sp cost. V purse722gp6sp6cp. Current time/place Day286~16:30 eastbound road and all later actual travel/rest/rolls unchanged.
+
+D285-286-EASTWATCH-ROAD-QUIET-CAMP-AND-TRAVEL-001 — D286~16:30 party on Caer Veylan eastward road heading Eastwatch with party/horses unharmed, carried food6/feed8, new LongRest1/6; no hostile encounter or city business, all V resources still full, courier message has been delivered to Sedgecross.
+
+D285-V-TAMSIN-SENDINGSTONE-HOSPITALITY-SETUP-001 — Tamsin aware of authorized voluntary hospitality/job inquiry, will individually assess lodging, skills, actual paid shifts and lawful travel on arrival; Sending Stone current Day286 ready again, no completed hires.
+
+D285-V-OFFERS-BLACKTHORN-HOSPITALITY-TO-KESTREL-SURVIVORS-001 — D286 afternoon Sedgecross keeper has shared real voluntary Blackthorn directions/invitation with all11, none compelled/assigned; 2sp local courier postage paid, purse722gp4sp6cp; Tamsin informed and willing to evaluate applicants, V/Tamsin stone reset at dawn286.
+
+Earlier dated records below; corrected current facts above govern. LATEST CORRECTIONS: Blackthorn invitation and single Tamsin call occurred BEFORE Day285 departure at Sedgecross. Postdeparture courier/delivery and2sp cost VOID, no cash posting for either void cost or refund. Prior200gp care/separate1gp trustee inquiry unchanged. Old Eastwatch Orb/Boots offers superseded before purchase; only corrected Luckstone and Ring lots exist locally. No attunement chosen. 
+
 CURRENT ACCEPTED UPDATE — Day285~17:00. Party departed toward Eastwatch; all11 patients voluntarily remain with Sedgecross civilian keeper/sick-tender under finite14-night prepaid care. Three remain nonambulatory. No patient transfer, trustee acceptance, delivered inquiry or foreign disclosure established. Earlier dated entries below remain historical.
 
 D285-V-PARTY-STARTS-EASTWATCH-ROAD-TRAVEL-D100-74-001 — D285~17:00 party on established road in western Veyr heading toward Caer Veylan then Eastwatch; horses healthy, belongings retained, HP/spells/resources unchanged, no encounter; group of11 remains with civilian staff at wayhouse.
