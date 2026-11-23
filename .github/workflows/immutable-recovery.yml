@@ -22,7 +22,7 @@ jobs:
       - name: Verify chunk schema and exact replay safety
         run: |
           python3 -m py_compile automation/recovery_chunks.py automation/recovery_chunk_bridge.py
-          python3 -m unittest automation.test_recovery_chunks automation.test_recovery_journal automation.test_recovery_batch -v
+          python3 -m unittest automation.test_recovery_chunks automation.test_recovery_chunk_bridge automation.test_recovery_journal automation.test_recovery_batch -v
   bridge:
     if: github.event_name == 'push'
     concurrency:

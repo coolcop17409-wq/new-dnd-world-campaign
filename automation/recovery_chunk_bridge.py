@@ -65,6 +65,12 @@ def run(api,source_sha,request_id):
     current=json.loads(get(api,LIVE,head))
     mode=json.loads(get(api,MODE,head))
     if mode.get("mode")!="chunked":return {"status":"not_activated"}
+    state=get(api,"campaign/continuity/campaign-state.md",head)
+    if state is None:raise ValueError("Cannot establish authoritative current checkpoint")
+    match=re.search(r"CURRENT EXACT PLAYED CHECKPOINT\s*[—–-]\s*([A-Za-z0-9-]+)",state)
+    if not match or match.group(1)!=prep["boundary"]["source_checkpoint"]:
+        raise ValueError("Current owner checkpoint does not match new chunk boundary source")
+
     if current.get("entries"):
         if digest(current)!=wanted:
             raise ValueError("Unfinished earlier sync: do not overwrite owner evidence")
