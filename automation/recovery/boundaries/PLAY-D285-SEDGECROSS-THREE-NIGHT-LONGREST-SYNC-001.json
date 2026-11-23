@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001",
+  "reason": "qualifying_rest",
+  "source_checkpoint": "D281-2109-KESTREL-VAULT-EVIDENCE-AND-REAGENTS-SECURED-001",
+  "destination_checkpoint": "D285-0830-SEDGECROSS-THREE-NIGHTS-LONG-REST-COMPLETE-EVIDENCE-REVIEWED-001",
+  "last_recovery_id": "PLAY-REC-D282-285-SEDGECROSS-THREE-NIGHT-LONG-REST-EVIDENCE-REVIEW-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D281/PLAY-REC-D281-V-EXITS-KESTREL-REJOINS-MARA-PATIENTS-001.json",
+      "digest": "7c24a3cde1e6100d701633076b1c325cf86f3903d89f196d78bc305f7610e89b"
+    },
+    {
+      "path": "automation/recovery/chunks/D281/PLAY-REC-D281-282-HEDRA-EDGE-NIGHT-SR-SEDGECROSS-ARRIVAL-001.json",
+      "digest": "bd30e3b697f987174b347a33688b1cf4cd87d5bcc03cbebcb51a25deb6644120"
+    },
+    {
+      "path": "automation/recovery/chunks/D282/PLAY-REC-D282-285-SEDGECROSS-THREE-NIGHT-LONG-REST-EVIDENCE-REVIEW-001.json",
+      "digest": "9c35377220db90b3b030320a4b9d8b06ec740e416c6c50dcc922303c40c76bd3"
+    }
+  ]
+}
