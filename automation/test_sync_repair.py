@@ -68,6 +68,22 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(validate(self.root,'checkpoint','final')['status'],'PASS')
     def test_concurrent_write_protected(self):
         with self.assertRaises(ValueError):require_head('old','new')
+    def test_auto_sync_diagnostic_preserves_real_failure_cause(self):
+        outcome=dict(status='blocked',
+                     reason='ValueError: unresolved dependency: PLAY-REC-D279-YARD-SETTLEMENT-AND-PATIENT-LEAD-001',
+                     source_commit='a'*40)
+        report=collector.auto_sync_failure_diagnostic(outcome)
+        self.assertEqual(report['scope'],'workflow')
+        self.assertEqual(report['findings'][0]['code'],'auto_sync.submit')
+        self.assertIn('PLAY-REC-D279',report['findings'][0]['message'])
+        first=collector.signature(report,'Queue accepted play at explicit recovery boundary')
+        same=collector.auto_sync_failure_diagnostic(dict(outcome,source_commit='b'*40))
+        self.assertEqual(first,collector.signature(same,'Queue accepted play at explicit recovery boundary'))
+        different=collector.auto_sync_failure_diagnostic(dict(outcome,reason='ValueError: different schema failure'))
+        self.assertNotEqual(first,collector.signature(different,'Queue accepted play at explicit recovery boundary'))
+        self.assertIsNone(collector.auto_sync_failure_diagnostic(dict(status='not_ready')))
+        self.assertIsNone(collector.auto_sync_failure_diagnostic(dict(status='blocked',reason='')))
+
     def test_signature_stable_across_retries(self):
         r={'scope':'characters','findings':[{'code':'csv.width','path':CHAR,'message':'bad row'}]}
         self.assertEqual(collector.signature(r,'test'),collector.signature(dict(r,run_id=22,commit_sha='new'),'test'))

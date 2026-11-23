@@ -58,8 +58,33 @@ class API:
             if base64.b64decode(actual['content']).decode()!=s:raise RuntimeError('Readback failed: '+p)
         return commit['sha']
 
+def auto_sync_failure_diagnostic(result):
+    """Preserve the actual auto-submit error in a deduplicatable repair signature."""
+    if not isinstance(result,dict) or result.get('status')!='blocked':
+        return None
+    reason=result.get('reason')
+    if not isinstance(reason,str) or not reason.strip():
+        return None
+    return {'schema_version':1,'status':'FAIL','scope':'workflow',
+        'findings':[{'code':'auto_sync.submit',
+                     'path':'automation/recovery/sync-ready.json',
+                     'event_id':'','message':reason[:2000]}],
+        'affected_files':['automation/recovery/sync-ready.json',
+                          'automation/recovery/active.json',
+                          'automation/recovery_batch.py'],
+        'notes':['Exact blocked auto-submit artifact, not an inferred gameplay event.',
+                 'Pinned source commit: '+str(result.get('source_commit') or 'unknown')]}
+
 def diagnose(api,run):
     artifacts=api.call('GET',f"actions/runs/{run['id']}/artifacts?per_page=100")['artifacts']
+    for a in artifacts:
+        if a['name']!='auto-sync-submission' or a['expired']:continue
+        raw=api.call('GET',f"actions/artifacts/{a['id']}/zip",binary=True)
+        with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+            for info in archive.infolist():
+                if info.filename.endswith('auto-sync-submission.json') and info.file_size<1_000_000:
+                    result=auto_sync_failure_diagnostic(json.loads(archive.read(info)))
+                    if result is not None:return result
     for a in artifacts:
         if a['name']!='campaign-sync-diagnostic' or a['expired']:continue
         raw=api.call('GET',f"actions/artifacts/{a['id']}/zip",binary=True)
