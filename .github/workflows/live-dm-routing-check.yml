@@ -1,0 +1,29 @@
+name: Live DM routing and performance metadata validation
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "AGENTS.md"
+      - "campaign/continuity/readme.md"
+      - "campaign/continuity/rules-dm-procedures.md"
+      - "runtime/LIVE_DM_FAST_PATH.md"
+      - "runtime/SCENE_CACHE_SPEC.md"
+      - "runtime/SCENE_CACHE.md"
+      - "runtime/REGION_PREP.md"
+      - "runtime/SCOPED_RULES_INDEX.md"
+      - "automation/fastplay_diagnostics.py"
+      - "automation/test_fastplay_diagnostics.py"
+      - "automation/test_live_dm_fastpath.py"
+      - ".github/workflows/live-dm-routing-check.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check fast-path source, cache and diagnostic invariants
+        run: |
+          python3 -m py_compile automation/fastplay_diagnostics.py
+          python3 -m unittest automation.test_fastplay_diagnostics automation.test_live_dm_fastpath -v
