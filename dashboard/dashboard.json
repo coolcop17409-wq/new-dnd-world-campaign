@@ -279,7 +279,7 @@
         },
         {
           "name": "Superiority Dice",
-          "current": "3.0",
+          "current": "2.0",
           "max": "4",
           "recovery": "Short Rest / Long Rest"
         }
@@ -348,7 +348,7 @@
     {
       "name": "Fenar",
       "level": "6",
-      "hp": "59.0",
+      "hp": "51.0",
       "max_hp": "59",
       "ac": "14",
       "initiative": "2",
@@ -356,7 +356,7 @@
       "resources": [
         {
           "name": "Rage",
-          "current": "3.0",
+          "current": "2.0",
           "max": "4",
           "recovery": "Long Rest only"
         },
