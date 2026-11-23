@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D289-NIGHTGLASS-ARCHIVE-FUND-SEVERIN-SYNC-001",
+  "reason": "quest_milestone",
+  "source_checkpoint": "D289-1300-NIGHTGLASS-HALL-ESTATE-LANE-ARRIVAL-LUCKSTONE-OWNED-001",
+  "destination_checkpoint": "D289-1710-NIGHTGLASS-SCHOLARLY-100GP-ADVANCE-OFFER-SEVERIN-ALLIANCE-IN-PRINCIPLE-001",
+  "last_recovery_id": "PLAY-REC-D289-V-NEGOTIATES-SCHOLARLY-ADVANCE-AND-SEVERIN-UNIFIED-HOUSES-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-EXPLAINS-NIGHTGLASS-PROVENANCE-VISIT-TO-PORTER-001.json",
+      "digest": "588fa9e168aaabeb9e39994bc6f9a34038efdb00a0dd699ee3738bd42c6f6bed"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-ENTERS-NIGHTGLASS-RECEPTION-EDRIC-GREETS-001.json",
+      "digest": "8835794f2de3656086bb96e18ff36a62b87f3417382847643fec5ab1f875c061"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-ATTUNES-LUCKSTONE-D288-INN-RETCON-001.json",
+      "digest": "c89b5a843abe1d0e32b44f2b307d92cdbbfd1a177a05ea52e27738a028a7af2a"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-EDRIC-HEART-RECOVERY-SEVERIN-HOUSE-REUNION-DISCUSSION-001.json",
+      "digest": "7b8d8e9ff8c3310e78a5c219812ce849906ca0f0fceda5c4253a53f07630640e"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-CLARIFIES-SEVERIN-ALLIED-HOUSE-STATUS-001.json",
+      "digest": "df7b1270a7a232ba5217880ace4a8ac40a3708642cac4c1894a3c67e9bc107a0"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-INVESTIGATES-NIGHTGLASS-HEART-PACKING-NOTES-001.json",
+      "digest": "466c4e163ac8e198aa381a1dff81a6a210c1b44467bb76622a17706843fdf98b"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-EDRIC-REQUESTS-ORSAVEN-SURVEY-V-STUDIES-VERDANA-REFERENCES-001.json",
+      "digest": "e1ea81f04d99fc8b6faf29d47031d777440a051fc7d265a2de99e90969211912"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-NIGHTGLASS-FURTHER-ARCHIVE-REVIEW-FUND-LEAD-001.json",
+      "digest": "43f9357a4ed0fc474d6aee3b4ef11607abc7721690897aa72bc8cc5225eb17f2"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-MEETS-FUND-AGENT-AND-SEVERIN-AUDIENCE-001.json",
+      "digest": "78a32adbb531ecac4dcc5817d6ce8e23c42479f40a6f0f65052b15185a4f18c7"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-NEGOTIATES-SCHOLARLY-ADVANCE-AND-SEVERIN-UNIFIED-HOUSES-001.json",
+      "digest": "d70826eadb7b767507f5d3a57f2210caaad9702d12c107df0dc49aafd85b847e"
+    }
+  ]
+}
