@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D289-NIGHTGLASS-ARCHIVE-FUND-SEVERIN-SYNC-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr38-ef4aa2b4",
-  "claim_expires_at": "2026-11-23T23:43:00Z",
+  "claim_expires_at": "2026-11-23T23:20:00Z",
   "request_commit": "101fe31cc16bc89e043dc682b049234e536c691a",
   "request_blob": "baf0adaa2a24c19cff0cd5b37f7754ed602173ab",
-  "summary": "Fifteen accepted events and ten original chunks verified; PR37 complete, campaign writer IDLE. Preparing accepted narrative/attunement updates; no funding payment authorized.",
+  "summary": "Fifteen accepted events applied; explicit attunement recorded in inventory/checkpoint/status tracker with quantity1 confirmation. No cash or resource delta; scholarly offer unsigned, alliance in principle only. Original purchase evidence retained. Newer signature/advance chunk retained outside frozen17:10 batch; live play must recover it.",
   "blocker": null,
   "applied_event_ids": [
     "D289-V-NIGHTGLASS-PROVENANCE-AND-EDRIC-LETTER-INTRODUCTION-001",
@@ -28,5 +28,83 @@
   ],
   "tested_candidate": "2cee446acc218d61348780adf0feabd7bbca3496",
   "owner_commit": "988697f78f96376d59045daec688cdd438061fa2",
-  "owners_verified": true
+  "owners_verified": true,
+  "completed_at": "2026-11-23T23:20:00Z",
+  "tested_commit": "165d0aa34df226faf155c7302889e40deb9fc6af",
+  "checkpoint_commit": "165d0aa34df226faf155c7302889e40deb9fc6af",
+  "checkpoint_verified": true,
+  "request_digest": "1c43865796ce9413b87f0ed9e2c7228c26b510d284f3b413e25d97cae4fd31ea",
+  "verified_event_ids": [
+    "D289-V-NIGHTGLASS-PROVENANCE-AND-EDRIC-LETTER-INTRODUCTION-001",
+    "D289-V-WAITS-NIGHTGLASS-RECEPTION-EDRIC-RECORDS-OFFER-001",
+    "D289-V-RETRO-ATTUNES-EQUIPPED-LUCKSTONE-D288-TOWN-INN-001",
+    "D289-NIGHTGLASS-V-HEART-RECOVERY-SERVICE-HOUSE-WAYPOINT-FIRST-REVIEW-001",
+    "D289-NIGHTGLASS-V-DISCUSSES-SEVERIN-VAISHNAVI-HOUSE-REUNION-001",
+    "D289-V-CLARIFIES-SEVERIN-VAISHNAVI-REUNION-AND-MODERN-HOLDINGS-001",
+    "D289-V-INVESTIGATES-HEART-PACKING-CARRIER-MARK-SUCCESS-001",
+    "D289-EDRIC-ORSAVEN-SURVEY-BOOK-COPY-REQUEST-QUEUED-001",
+    "D289-V-EDRIC-REVIEW-OLDER-VERDANA-VAISHNAVI-HALL-INDEXES-001",
+    "D289-NIGHTGLASS-SECONDARY-CITATION-CHAIN-REVIEW-001",
+    "D289-NIGHTGLASS-EDRIC-SCHOLARLY-RECOVERY-FUND-LEAD-001",
+    "D289-V-MEETS-CORIS-TALLEN-SCHOLARLY-RECOVERY-FUND-OFFER-001",
+    "D289-EDRIC-ARRANGES-SEVERIN-BEFORE-EVENING-AUDIENCE-001",
+    "D289-V-FUND-CORIS-NEGOTIATES-100GP-DOCUMENT-ADVANCE-001",
+    "D289-V-SEVERIN-PROPOSES-THREE-HOUSE-CROSSBORDER-UNIFIED-VOICE-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/988697f78f96376d59045daec688cdd438061fa2/archive/continuity/campaign-state-before-PLAY-D289-NIGHTGLASS-ARCHIVE-FUND-SEVERIN-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/988697f78f96376d59045daec688cdd438061fa2/archive/continuity/session-log-before-PLAY-D289-NIGHTGLASS-ARCHIVE-FUND-SEVERIN-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/988697f78f96376d59045daec688cdd438061fa2/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/988697f78f96376d59045daec688cdd438061fa2/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/988697f78f96376d59045daec688cdd438061fa2/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/988697f78f96376d59045daec688cdd438061fa2/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/988697f78f96376d59045daec688cdd438061fa2/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/988697f78f96376d59045daec688cdd438061fa2/trackers/csv/v/v-inventory.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/165d0aa34df226faf155c7302889e40deb9fc6af/campaign/continuity/campaign-state.md"
+  ],
+  "generated_view_status": "checkpoint/counters/hash verified at f540cfd6e10a000a3121beb88e0bbabddd271278; item attunement metadata DERIVED-PENDING",
+  "derived_pending": "Current-main overlay supports inventory quantity only, not metadata updates. Dashboard still repeats original purchase-era UNATTUNED holder/detail; explicit current inventory status, tracker status and checkpoint supersede it. No code changed or duplicate item created. Existing maintenance/repair lane can add supported metadata projection.",
+  "cleanup_status": "pending verified-only compatibility prune",
+  "tests": [
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr38/request.json",
+      "exit_code": 0,
+      "tested_commit": "165d0aa34df226faf155c7302889e40deb9fc6af",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr38/pinned.json --request /tmp/pr38/request.json --prior-requests /tmp/pr38/prior.json --supersessions /tmp/pr38/supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "165d0aa34df226faf155c7302889e40deb9fc6af",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "165d0aa34df226faf155c7302889e40deb9fc6af",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_recovery_chunks automation.test_recovery_chunk_bridge -q",
+      "exit_code": 0,
+      "tested_commit": "165d0aa34df226faf155c7302889e40deb9fc6af",
+      "result": "96 passed"
+    },
+    {
+      "command": "PYTHONPATH=. python3 /tmp/pr38/verify.py",
+      "exit_code": 0,
+      "tested_commit": "165d0aa34df226faf155c7302889e40deb9fc6af",
+      "result": "PASS"
+    }
+  ],
+  "immutable_provenance": {
+    "boundary": "automation/recovery/boundaries/PLAY-D289-NIGHTGLASS-ARCHIVE-FUND-SEVERIN-SYNC-001.json",
+    "pinned_commit": "fd46512f10a340282cca87e72352b34c44403e1b",
+    "journal_digest": "4a43acae79361e43d0f15d12a259a522e585fe9068936d23f5560a8e62a19108",
+    "verified_chunk_count": 10,
+    "original_files_modified": false
+  },
+  "preserved_newer_chunks": [
+    "automation/recovery/chunks/D289/PLAY-REC-D289-V-SIGNS-SCHOLARLY-FUND-RECEIVES-100GP-AND-SENDS-ELARA-PROPOSAL-001.json"
+  ]
 }
