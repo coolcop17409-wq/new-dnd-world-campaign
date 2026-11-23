@@ -1052,6 +1052,34 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-P10-P11-RESTRAINTS-RELEASED-001",
+      "base_commit": "7ad4afafbb2eb38b010bf5e191c74c09abc317f8",
+      "source_checkpoint": "D281-2005-P10-TESTIMONY-LOCAL-VEYRN-KNOWLEDGE-001",
+      "destination_checkpoint": "D281-2006-P10-P11-RESTRAINTS-RELEASED-WAIT-001",
+      "source_evidence": "Player's exact in-character instruction Day281 ~20:05 at Station Kestrel, masked V alone inside the two north secured patient rooms after questioning KN-P10 and KN-P11: \"I will be back… I am going to release your restrains, but do not move until I give the clear\". V expresses intent to RETURN and undertakes immediate release of mundane wrist/ankle bed restraints of BOTH existing restrained detained patients P10 (man in room1) and P11 (woman in adjacent room2). Existing iron locks on both room doors were picked successfully earlier and remain open. Both patients are conscious, understand hushed request and independently consent to unfastening and agree to REMAIN ON THEIR BEDS until V gives further clear instruction; P10 responds \"I understand. We stay here until you say otherwise\", thanks V; frightened P11 briefly recoils then offers her arms, asks \"You're really coming back?\", accepts, remains seated/reclining. V quietly manually unbuckles each ordinary leather strap from each patient's wrist/ankle, no cut, no forced lock or special tool, no spell, no ability check or random roll needed because accessible ordinary buckles and cooperative stationary patients. Straps physically remain loose at beds; neither restrained now, but still IN NORTHERN ROOMS, NOT discharged, not out of secure ward/compound and neither has attempted to stand, so mobility beyond basic responsiveness not yet established. No third prisoner released, no escort, no planned safehouse/cart, no fight/attack or trigger of rescue completion. Day281 stationwide alarm persists due previous western wall incident, but KN-G5 at ordinary ward main doorway and KN-M2 at/near screened medicine alcove have NOT discovered V or freed patients. Ordinary ward footsteps briefly heard passing by medicine alcove without entering north secured room doors; actual staff awareness remains bounded by sight/sound. Window on north side of ordinary ward is inward OPEN as earlier, nine other patients still main ward (six forward ambulatory, rear three immobile incl P7); P10/P11 now UNRESTRAINED but still waiting. Time ~20:06 (about1 minute for unfastening four straps each), V mask/cover maintained, HP48/48 AC19 HD7/7 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1, ActionSurge/SecondWind ready, original TWO official contradiction folios retained, purse969gp3sp6cp, rations12 person-days/feed16 animal-days, one unused Pixie Dust, LongRest5/6. Cirren51/51 full spells and Fenar59/59 Rage4/4 Shift3/3 MP6/6 alive masked in western/southwestern exterior trees, Fenar holding V-owned intact 50ft rope; 2-way Psychic Whispers V↔Fenar/Cirren continues until~22:56, no message sent by this action. Mara healthy with V-owned four healthy horses/coach at wooded public turnout half-mile south unlinked. V next decision UNMADE: route toward eastern specialist records, local ward, or other task; V did not direct other members, speak further beyond quoted instruction or spend consequential resources. This is incremental patient-custody change, not full rescue/quest milestone and not a new sync trigger.",
+      "pending_action": "Day281 ~20:06, Station Kestrel under active compound-wide security bell, masked V SOLO unseen in northern pair of formerly restrained patient rooms, both doors previously picked open. In response to V's exact promise/instruction \"I will be back… I am going to release your restrains, but do not move until I give the clear\", V quietly unbuckled ordinary leather wrist/ankle straps of KN-P10 male and KN-P11 female, all restraints now LOOSE/UNBUCKLED, not cut. Both awake patients consent and independently agree to stay quietly in separate beds until V gives clear; neither has attempted to stand/leave, so mobility not proven. KN-G5 Guard still stationed near ordinary ward principal entrance, KN-M2 Apprentice Wizard at/near curtained medicine alcove, footsteps were heard within main ward but NO north-room discovery/arrival; site alarm from WEST intrusion unchanged. Nine other patients remain ordinary ward (six mobile at forward beds, three nonambulatory rear incl P7), north inward-opening ward window still open. Witness testimony P10 described forced obedience/magical questioning and uncertain HIGH Veyran leadership knowledge; P11 painful involuntary arcane experiments. V controls next action, no East lab entry, record theft beyond two existing folios, patient evacuation, combat, spell or new coin spend. V48/48HP AC19 HD7/7 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1 ActionSurge1/1 SecondWind1/1; original two contradictory Kestrel folios concealed. Cirren51/51 and Fenar59/59 outside west/southwest woods, Fenar holds intact V-owned 50ft rope; Psychic Whispers V-to-them active until~22:56, Mara and V's four healthy horses/coach remain ~0.5mi south unlinked. Purse969gp3sp6cp, provisions12 person ration-days/feed16 animal-days, unopened Pixie Dust1, LongRest5/6. Await V's next chosen move, while two now-unbound patients stay put.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-P10-TESTIMONY-VEYRN-KNOWLEDGE-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-FREES-P10-P11-RESTRAINTS-WAIT-001",
+          "accepted": true,
+          "evidence": "V says 'I will be back… I am going to release your restrains, but do not move until I give the clear' then quietly unbuckles both restrained patients' ordinary wrist/ankle straps; P10 and P11 each consent and agree to stay in beds until clear. Neither freed from room/compound. No check or resource use; guard and apprentice unaware, footsteps remain in ordinary ward.",
+          "before": "Masked V unseen in north rooms, conscious P10/P11 physically restrained; both northern doors unlocked, main ward holds nine; alarm active, guard KN-G5 entrance, KN-M2 alcove.",
+          "after": "~20:06 P10/P11 in separate north beds alive and unrestrained with straps unbuckled, remaining in rooms by agreement; V undetected. No exposure, combat, further release, resources or other tactical change.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ]
 }
