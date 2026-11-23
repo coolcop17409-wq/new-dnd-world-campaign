@@ -1,0 +1,24 @@
+# Live DM fast path — authoritative routing contract
+
+**Purpose:** preserve all canon, tactical rigor, NPC independence and accepted game state while eliminating repeated unchanged reads and foreground administration. Source priority stays: latest player correction/accepted play → current owning GitHub records → approved homebrew → 2014 D&D. This is operational guidance, not another game-state authority.
+
+## Startup: verify and pin once, do not reconstruct repeatedly
+1. Read repository `README.md` → `AGENTS.md` → `campaign/continuity/readme.md` → `campaign/continuity/campaign-state.md`.
+2. Read `automation/recovery/mode.json`. In `chunked` mode, recover unsynced immutable suffix from `automation/recovery/chunks/D###/` and verified handoff receipts per `automation/recovery/CHUNKS.md`; in `legacy` mode read guarded `active.json`. **Never rely on an empty compatibility journal to infer no unsynced chunks.**
+3. Compare latest owning checkpoint, newest accepted log event, `runtime/PLAY_NOW.md`, current relevant recovery suffix and `runtime/SCENE_CACHE.md` source pins. Owner/newer accepted events win. If the cache is stale, reconstruct from current owners and actual chunks, not guessed continuity.
+4. Read `runtime/SCOPED_RULES_INDEX.md`; retrieve only applicable RULES and the current-region quest/NPC/DM preparation sections necessary for the scene, preserving unrevealed truth. Capture source path + revision/section. Keep the verified scene packet **in conversation** until the actual scene changes.
+5. Use `dashboard/dashboard.json` for resource gaps and owning character CSV/event overlays only when disputed, missing or mechanically critical. The full world/estate/market archives are not startup prerequisites.
+
+## Each live turn
+- Identify V's exact action/authorized delegation; DM controls NPCs and their independent knowledge, goals and dice. Reason from retained verified tactical/relationship state. Do not manufacture checks, events, rewards, permission, player speech or future results.
+- Fetch **only a genuinely new or material missing/disputed fact**: new creature/statblock/spell, first material NPC contact, consequential newly revealed secret, changed regional politics, meaningful travel/rest/quest clocks or a conflicting rule. Fetch its smallest owning section and pin it for the rest of this relevant scene. No per-action full quest/NPС/world/rules read.
+- Execute genuine RNG for DM/delegated rolls; apply 2014 action economy/conditions/position/cover/concentration/time, party Help and standing V feature rulings. Narrate the actual outcome, next choice, and update the in-conversation packet.
+- **For every response changing accepted play, create exactly one immutable original recovery chunk with GitHub `create_file` and verify exact readback** (source `automation/recovery/CHUNKS.md`). This is the *only routine foreground GitHub write*. Never skip durability to shorten a turn. If it fails, tell the player it remains unsaved. OOC discussion without accepted change requires no chunk.
+- Do not poll CI, regenerate dashboard, write owner journals, run an estate/shops/atlas audit, or create repair PRs during the turn. At a genuine combat/exploration/quest/rest/transaction milestone, pause/end or 8–12 substantive changed turns, create **one immutable ordered boundary manifest** and let GitHub Actions/Work submit, post and verify owners. The live DM doesn't wait for full synchronization unless explicitly asked to check completion.
+- At a scene transition, review source cache invalidators and narrow delivery/visual preflight; **not** every movement or conversational exchange. Existing approved artwork may be used where genuinely requested/appropriate; do not generate new art unless the player requests an image.
+
+## Invalidate only what changed
+See `runtime/SCENE_CACHE_SPEC.md`. New NPC → that NPC's knowledge and current motives; new monster/spell → that mechanical source; new region/location → local politics/travel/delivery prep; rest/time advance → clocks/resources/conditions; consequential player correction → conflicting packet fields; verified owner commit → owning source pins that changed. Unchanged NPC/canon/monster facts remain reusable. Don't let a cache override newer accepted actions or a DM secret leak into player-facing narration.
+
+## Workflow and measurement
+Retain a small optional **in-conversation** diagnostic for representative turns (elapsed wall time, GitHub read count, unique/repeated paths, source bytes, write/readback count, reason for fetch). Do **not** create another per-turn GitHub commit to record metrics. `automation/fastplay_diagnostics.py` can analyze synthetic/manual traces only; it cannot observe ChatGPT internal reasoning, another chat's hidden tool timings or infer wall time from commit timestamps. Keep fidelity above arbitrary speed targets; use the evidence to remove redundant work, not necessary lore checking.
