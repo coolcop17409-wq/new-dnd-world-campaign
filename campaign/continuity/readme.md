@@ -33,4 +33,4 @@ Verified edition `ATLAS-D281-KESTREL-APPROACH-001` · Caer Veylan to Station Kes
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ESTATES-D281-20261123T104401Z | acquired_UTC=2026-11-23T10:44:01Z | owner=Estate Ledger Updates | files=data/estate/*;trackers/csv/property/*;campaign/continuity/session-log.md
+CAMPAIGN_WRITER | state=IDLE | last_token=ESTATES-D281-20261123T104401Z | released_UTC=2026-11-23T10:52:43Z | result=VERIFIED | recovery=data/estate/operational-checkpoint.csv#D281-ESTATE-SOURCE-RECEIPT

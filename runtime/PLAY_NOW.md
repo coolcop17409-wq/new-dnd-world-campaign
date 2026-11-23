@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `8b73e68fca6c35c15a6bf8d70e424f1360b11d85c45cd17205e40ac5cba21f84`).
-Dashboard SHA256: `b72e2035a9632f352ef38d1776d4236a2639c0347e3fc8a61eeae31b271cd9a2`.
+Dashboard SHA256: `7a7dd6c898fc02555c90d1f75655c6a4822dda2e8045b90f0d140ba92b7d6a01`.
 Confirmed campaign day: **279**.
 Newest played event: `D279-YARD-KESTREL-SUPPORT-WORKER-PRIVATE-HELP-LEAD-001`.
 
