@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-VAULT-GUARDIAN-END-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr30-07f6f7de",
-  "claim_expires_at": "2026-11-23T18:35:48Z",
+  "claim_expires_at": "2026-11-23T18:12:28Z",
   "request_commit": "f42ced0487b6b151b1243053edc10f36843263e0",
   "request_blob": "db706e8b70f74727659573ab34b9a16e7717e363",
-  "summary": "Three accepted events; exact evidence,3 mechanical journal legs and rope custody prepared. Scoped preflight and62 regressions PASS; checkpoint pending.",
+  "summary": "Three accepted events applied and independently verified; original dice, corrected V position, resources, rope custody and unopened vault pause retained. No new play.",
   "blocker": null,
   "applied_event_ids": [
     "D281-V-FENAR-AMBUSH-KN-G6-NONLETHAL-LAB-001",
@@ -16,5 +16,58 @@
   ],
   "tested_candidate": "6490767fd7f664410c1fa34e6bdf5528dd804062",
   "owner_commit": "c192e25b4fb39af52c737f16e9a74fff0e4639c8",
-  "owners_verified": true
+  "owners_verified": true,
+  "completed_at": "2026-11-23T18:12:28Z",
+  "tested_commit": "fdb399957defb8ce6df03267eb76acaea3370c28",
+  "checkpoint_commit": "fdb399957defb8ce6df03267eb76acaea3370c28",
+  "checkpoint_verified": true,
+  "request_digest": "c58abd9a81ef153a25a707d2111a5067a0a95f1591789c470178a902bf943e15",
+  "verified_event_ids": [
+    "D281-V-FENAR-AMBUSH-KN-G6-NONLETHAL-LAB-001",
+    "D281-V-TIES-G6-RELOCKS-LAB-FENAR-HORROR-R1-36DAMAGE-001",
+    "D281-V-QUICK-TOSS-READY-FENAR-GUARDIAN-DESTROYED-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c192e25b4fb39af52c737f16e9a74fff0e4639c8/archive/continuity/campaign-state-before-PLAY-D281-KESTREL-VAULT-GUARDIAN-END-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c192e25b4fb39af52c737f16e9a74fff0e4639c8/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c192e25b4fb39af52c737f16e9a74fff0e4639c8/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c192e25b4fb39af52c737f16e9a74fff0e4639c8/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c192e25b4fb39af52c737f16e9a74fff0e4639c8/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/c192e25b4fb39af52c737f16e9a74fff0e4639c8/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/fdb399957defb8ce6df03267eb76acaea3370c28/campaign/continuity/campaign-state.md"
+  ],
+  "generated_view_status": "verified at 33752fa1c94cb927b9a003cab28957d89089c41b",
+  "cleanup_status": "pending verified-only pruning",
+  "tests": [
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr30/request.json",
+      "exit_code": 0,
+      "tested_commit": "fdb399957defb8ce6df03267eb76acaea3370c28",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr30/pinned.json --request /tmp/pr30/request.json --prior-requests /tmp/pr30/prior.json --supersessions /tmp/pr30/supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "fdb399957defb8ce6df03267eb76acaea3370c28",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "fdb399957defb8ce6df03267eb76acaea3370c28",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play -q",
+      "exit_code": 0,
+      "tested_commit": "fdb399957defb8ce6df03267eb76acaea3370c28",
+      "result": "62 passed"
+    },
+    {
+      "command": "PYTHONPATH=. python3 /tmp/pr30/verify.py",
+      "exit_code": 0,
+      "tested_commit": "fdb399957defb8ce6df03267eb76acaea3370c28",
+      "result": "PASS"
+    }
+  ]
 }
