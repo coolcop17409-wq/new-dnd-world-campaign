@@ -1,55 +1,27 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-  "status": "blocked",
-  "phase": "submission_blocked",
-  "summary": "Latest explicit boundary is durably recorded through Day281~20:36, but no request/PR exists. Actual fallback build with all historical accepted requests and verified supersession reproduces unresolved pruned-predecessor dependency. All61 entries retained; no gameplay owner/checkpoint application.",
-  "source_commit": "89c505ef8291d040189837707f71651efd5ff7a2",
-  "source_journal": "automation/recovery/active.json",
-  "source_journal_blob": "64f240298f1456ed0f235c0e8f7caf27f52e8ef9",
-  "request_commit": null,
-  "request_blob": null,
-  "transport_pr": null,
-  "owners_verified": false,
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr25-94464ad4",
+  "claim_expires_at": "2026-11-23T17:51:12Z",
+  "request_commit": "57ef7dc8eaa192519ad9ac7a95761287d2519b91",
+  "request_blob": "da0aaff49162f6fc07e4e2e84a081dcf3001a821",
+  "transport_pr": 25,
+  "summary": "Immutable 76-event batch independently verified against pinned main journal and all 14 historical accepted transports, including verified supersession; predecessor complete. Preparing source-supported owner changes.",
+  "blocker": null,
   "applied_event_ids": [],
-  "tested_commit": "b0844161403e7a46377c44241503a7a911d64741",
-  "blocker": "Trusted automation.recovery_batch.build cannot resolve PLAY-REC-D279-YARD-SETTLEMENT-AND-PATIENT-LEAD-001 after verified cleanup. PR21 preserves its hash/event evidence; builder maps only entries still active, not prior recovery_entries. Do not modify dependencies or fabricate a transport to bypass this guard.",
-  "next_trigger": "Reviewed correction of trusted pruned-predecessor mapping, with exact prior request/entry hash and event binding. Then retry this same ID from source_commit after full historical PR/supersession discovery. Apply accepted owners with central claim and checkpoint-last validation; retain all recovery until verified. Older failed markers have no immutable transport and overlap this batch: discover them, never submit overlapping events twice.",
+  "owners_verified": false,
+  "discovery": "All 25 historical PRs inspected, open and closed. Only immutable request added on transport branch. No active campaign writer; prior submission blocker resolved in current-main trusted code.",
+  "tested_commit": "a1df2c83758e33a77ea7950747213203344f9ae2",
   "tests": [
     {
-      "command": "python3 -m automation.recovery_batch build pinned.json --journal-commit 89c505ef8291d040189837707f71651efd5ff7a2 --request-id PLAY-D281-KESTREL-LAB-ENTRY-001 --prior-requests priors.json --supersessions supersessions.json",
-      "exit_code": 1,
-      "result": "unresolved dependency: PLAY-REC-D279-YARD-SETTLEMENT-AND-PATIENT-LEAD-001"
+      "command": "python3 automation/play_handoff.py /tmp/pr25/request.json",
+      "exit_code": 0
     },
     {
-      "command": "python3 automation/sync_validate.py --scope final --phase final",
-      "exit_code": 0,
-      "result": "PASS for persisted Day279 owners only; does not assert recovery synchronized"
-    },
-    {
-      "command": "python3 automation/sync_validate.py --scope shops --phase owners",
-      "exit_code": 0,
-      "result": "PASS on current main market correction"
-    },
-    {
-      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate automation.test_auto_sync_submit automation.test_recovery_batch automation.test_recovery_journal automation.test_play_handoff -q",
-      "exit_code": 0,
-      "result": "94 tests passed"
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr25/pinned.json --request /tmp/pr25/request.json --prior-requests /tmp/pr25/prior.json --supersessions /tmp/pr25/supersessions.json",
+      "exit_code": 0
     }
-  ],
-  "owner_refs": [
-    "automation/recovery/active.json@89c505ef8291d040189837707f71651efd5ff7a2",
-    "automation/recovery_batch.py@b0844161403e7a46377c44241503a7a911d64741",
-    "automation/handoffs/play-sync/requests/PLAY-D279-FREIGHT-YARD-RESOLUTION-001.json@71652bee3ddd176f335eee0da4c4200c8657f694",
-    "automation/handoffs/play-sync/results/PLAY-D279-FREIGHT-YARD-RESOLUTION-001.json@b0844161403e7a46377c44241503a7a911d64741"
-  ],
-  "failed_workflow": {
-    "id": 45129561494,
-    "job_id": 137541691592,
-    "url": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45129561494"
-  },
-  "recovery_preserved": true,
-  "advances_gameplay": false,
-  "discovery": "All23 historical PRs (open and closed) inspected;14 accepted immutable envelopes read including retired PR10 and replacement PR11, with exact main supersession. Existing accepted requests are terminal complete/superseded; smoke remains branch-only. No matching latest request/PR on main/history. Maintenance lane empty. No duplicate queues or workflow dispatch.",
-  "source_journal_digest": "49cf55a0c287cc765f84e23fad81e3ef6c8b3f11c779a3138fea4b06839630d9"
+  ]
 }
