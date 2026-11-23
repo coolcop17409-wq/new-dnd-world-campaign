@@ -1932,13 +1932,42 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-V-FREES-NORTHERN-PAIR-ASSEMBLES-WEST-EXIT-001",
+      "base_commit": "15b5850ed204f047c182208a23f20f39b36d90e1",
+      "source_checkpoint": "D281-2036-WARD-LOCAL-COMBAT-ENDED-EVACUATION-PLAN-001",
+      "destination_checkpoint": "D281-2039-ALL11-WEST-WARD-EXIT-FENAR-OUTSIDE-001",
+      "source_evidence": "PLAYER exact direction: \"Get the two others free and start making our way to fenar\" after correction that Kestrel ward local combat ended; Day281~20:36 at ward medicine alcove. V independently navigates from curtained alcove through ward to two known separate northern20x10 patient rooms, where P10/P11's mundane straps had already actually been unbuckled by V earlier and they awaited his all-clear. V supports ordinary physical release/standing and escorts them into main ward, no check necessary for unobstructed familiar interior movement or plain willingness to leave. On first direct physical assessment P10/P11 both can walk, though traumatized and hesitant; one needs an arm briefly; neither conscripted, spoken for by V or automatically healed. Six already-walking P1–P6 voluntarily assist P7–P9 whose prepared condition still requires prone/flat supported transport. Existing bed blankets are folded and gripped as improvised short-distance carrying slings (no new manufactured stretcher, supplies or magical healing); the six ambulatory patients make short careful lifts of three injured who remain flat, while P10/P11 walk with assistance and V supervises/escorts at their own pace. By~20:39 all ELEVEN reach the WESTERN END INSIDE ordinary patient ward near its existing closed western patient exit, NOT yet across the outer door, western path or safe woods; no general evacuation success claimed. Original four proper stretchers/blankets remain in SOUTH supply room untouched, needed for more reliable extended transport. Meanwhile DM-controlled Fenar, having accepted existing V directive to help rescue patients, moves from INSIDE western gate after nonlethal KN-G3 KO along established inner west compound wall toward OUTSIDE of western patient exit, using the existing wall for cover while roof KN-G2 Scout (alerted to earlier west shout, active Keen Hearing and Sight) actively scans. Predeclared opposed Dexterity(Stealth) Fenar+5 vs Scout active Wisdom(Perception)+5 with Scout Keen Sight/Hearing ADV: GENUINE Python secrets Fenar d20FACE17+5=22, Scout adv d20FACES(16,4), higher16+5=21, Fenar SUCCESS by1. Roof Scout does NOT presently notice her approach, and no additional guard sighting, arrow, extra alarm or patrol is invented. Fenar now directly outside the same WEST PATIENT EXIT behind wall cover and whispers through active V↔Fenar/Cirren telepathy that she is at the door ready to help. Cirren still hidden WEST OUTSIDE wood line ready to receive patients, Mara south with horses/coach~0.5mi not linked or told by fiat. This few-minute exploration spans >1 ordinary combat turn and has no hostile exchange/damage to Fenar, so prior 2014 Rage EFFECT expires naturally from no attack/damage, but Rage SPENT USE remains3/4, Shift3/3 MP6/6, Fenar59/59AC14. V48/48 HP AC19 HD7/7 Sup3/4 MP7/7 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1. Nearby KN-G5 guard0/11 and KN-M2 apprentice0/9 continue unconscious stable, prior west KN-G3 scout0/16 unconscious stable, bound/gagged KN-M1 mage0/40 in locked lab, corridor KN-G6 stays at lab door, roof KN-G2 remains alert and active; no new guard action in ward verified. Apprentice spontaneous consciousness anticipated~22:36 unchanged. V holds two original contradictory folios, signed laboratory trial/injury packet, mage component pouch; purse969gp3sp6cp,12 ration-person-days/feed16 animal-days, Pixie Dust1 sealed, LongRest5/6; Whispers link to Fenar/Cirren through~22:56. No V spell/feature spend, injury, money, item custody change or extra roll. Plan is still to evade roof lookout, get patients to Cirren/Mara, then optional V+Fenar stealthy return to vault; no player decision on actual door crossing under roof lookout yet.",
+      "pending_action": "Day281~20:39 Station Kestrel ordinary PATIENT WARD WEST END just INSIDE still-closed WEST PATIENT EXIT to wooded western service path. V fulfilled exact 'Get the two others free and start making our way to fenar': P10/P11 already unbuckled, both now out of north rooms and capable of walking (one needs brief arm assistance), 6 other ambulatory patients P1–P6 and these2 together in ward. 3 seriously injured P7–P9 (no new wounds) remain FLAT supported on improvised short-haul bedding slings lifted by pairs of ambulatory patients; all11 have carefully moved to ward west end but ZERO actually exited compound. Four prepared proper stretchers still in south supply room, NOT acquired. Fenar59/59 AC14 at outside of WEST patient exit inside compound after genuine Stealth d20 17+5=22 versus active roof Scout KN-G2 Keen hearing/sight Perception adv(16,4)+5=21: unseen on approach. Fenar's prior Rage has naturally ENDED without attacks over elapsed minutes; remaining uses3/4, Shift3/3 MP6/6, V-owned50ft rope still held. Roof scout alert but not alerted to Fenar's latest approach; original compound bell continues, potential exposure at actual exit/woodland crossing. Cirren51/51 full cleric slots/CD2 masked outside west woods ready escort, Mara healthy with four horses/coach~0.5mi SOUTH, unlinked. V48/48HP AC19 Sup3/4 MP7/7 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, retains two original contradictory folios+original signed local experiment packet+bound mage's component pouch, purse969gp3sp6cp, rations12/feed16, sealed Pixie Dust1, LongRest5/6 and Whispers through~22:56. KN-G5 ward guard0/11 stable unconscious by main door, KN-M2 apprentice0/9 stable unconscious at alcove (wake~22:36), west scout KN-G3 0/16 unconscious stable, roof KN-G2 active, KN-G6 still guarding locked lab corridor door, mage KN-M1 0/40 bound/gagged stable inside lab. Await V next decision to open western exit/cross exposed route, signal Fenar to assess lookout, seek proper stretchers or other creative exit. No vault return until patients actually secure; no additional combat initiative yet.",
+      "depends_on": [
+        "PLAY-REC-D281-WARD-LOCAL-COMBAT-ENDED-RETURN-TO-EXPLORATION-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-RELEASES-P10-P11-AND-ASSEMBLES-ELEVEN-AT-WEST-WARD-EXIT-001",
+          "accepted": true,
+          "evidence": "Player exact \"Get the two others free and start making our way to fenar\". Both already-unbuckled north room patients agree to leave and can walk; all11 moved inside ward toward west exit by~20:39, three nonambulatory supported flat by available bedding improvised for short carry; none left compound. Fenar DM Stealth17+5=22 vs actively watching roof Scout advantaged (16,4)+5=21 succeeds to reach west patient exit outside; original alert stays. No untracked stretchers, damage, V resources or automatic successful evacuation. Fenar Rage active condition drops due elapsed minutes without new attacks/damage, Rage3/4 uses remain.",
+          "before": "~20:36 V ward medicine alcove, P10/P11 unbuckled but in separate northern rooms awaiting signal, P1–P6 walking and P7–P9 in rear beds, Fenar west gate and Cirren west woods, roof lookout active, local ward combat over.",
+          "after": "~20:39 P10/P11 are freely mobile and together with other patients, all11 assembled near inside ward west exit with three kept flat on temporary bedding carrying slings; Fenar stealthily reached outside western patient exit unnoticed, no patients left compound, roof lookout still active. Fenar rage effect expired; resource use3/4 unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/quests.md",
+            "campaign/continuity/npcs.md",
+            "data/characters/events.csv"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-WARD-LOCAL-COMBAT-ENDED-RETURN-TO-EXPLORATION-001",
-    "destination_checkpoint": "D281-2036-WARD-LOCAL-COMBAT-ENDED-EVACUATION-PLAN-001"
+    "last_recovery_id": "PLAY-REC-D281-V-FREES-NORTHERN-PAIR-ASSEMBLES-WEST-EXIT-001",
+    "destination_checkpoint": "D281-2039-ALL11-WEST-WARD-EXIT-FENAR-OUTSIDE-001"
   }
 }
