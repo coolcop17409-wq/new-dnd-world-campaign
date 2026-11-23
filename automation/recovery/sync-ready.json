@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "ready": false,
+  "reason": null,
+  "request_id": null,
+  "last_recovery_id": null,
+  "destination_checkpoint": null,
+  "journal_commit": null,
+  "journal_digest": null
+}

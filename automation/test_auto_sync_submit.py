@@ -1,7 +1,8 @@
 """Network-free regression tests for explicitly marked accepted-play auto submission."""
 import base64,copy,json,unittest,urllib.error
-from automation.auto_sync_submit import ready_trigger,submit,priors,StaleBoundary
+from automation.auto_sync_submit import ready_trigger,submit,priors,StaleBoundary,validated_marker
 from automation.test_recovery_journal import RecoveryTests
+from automation.recovery_journal import digest
 SOURCE="e"*40
 MAIN="a"*40
 NEW="d"*40
@@ -49,6 +50,25 @@ class FakeAPI:
         return NEW
 
 class AutoSyncTests(unittest.TestCase):
+    def test_pinned_marker_matches_exact_recovery_snapshot(self):
+        api=FakeAPI(fixture())
+        journal=api.journal
+        marker=dict(journal["sync_trigger"], schema_version=1, 
+                    journal_commit=SOURCE,journal_digest=digest(journal))
+        self.assertEqual(validated_marker(marker)["journal_commit"], SOURCE)
+        self.assertEqual(submit(api,SOURCE,marker)["status"],"queued")
+        changed=dict(marker,journal_digest="0"*64)
+        with self.assertRaisesRegex(ValueError,"digest mismatch"):
+            submit(FakeAPI(journal),SOURCE,changed)
+        changed=dict(marker,destination_checkpoint="WRONG")
+        with self.assertRaisesRegex(ValueError,"does not match"):
+            submit(FakeAPI(journal),SOURCE,changed)
+    def test_unpinned_marker_rejected_and_ready_false_no_work(self):
+        journal=fixture()
+        marker=dict(journal["sync_trigger"],schema_version=1,
+                    journal_commit="bad",journal_digest=digest(journal))
+        with self.assertRaises(ValueError):validated_marker(marker)
+        self.assertIsNone(validated_marker({"schema_version":1,"ready":False}))
     def test_no_marker_means_no_pr(self):
         journal=fixture();journal.pop("sync_trigger");api=FakeAPI(journal)
         self.assertEqual(submit(api,SOURCE)["status"],"not_ready")

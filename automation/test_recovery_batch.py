@@ -26,6 +26,35 @@ class BatchTests(unittest.TestCase):
         request=self.batch(prior=[old])
         self.assertEqual(request['events'],self.second['events'])
         self.assertEqual(request['depends_on'],['PLAY-OLD-001'])
+    def test_pruned_historical_recovery_dependency_maps_to_prior_batch(self):
+        # The exact Day279 failure: first active entry refers to a recovery
+        # ID present only in an already-verified historical batch manifest.
+        old=build(dict(schema_version=1,entries=[self.first]),
+                  'PLAY-D279-FREIGHT-YARD-RESOLUTION-001','e'*40,[])
+        current=dict(schema_version=1,entries=[self.second])
+        request=build(current,'PLAY-D281-KESTREL-LAB-ENTRY-001','f'*40,[old])
+        self.assertEqual(request['events'],self.second['events'])
+        self.assertEqual(request['depends_on'],['PLAY-D279-FREIGHT-YARD-RESOLUTION-001'])
+        self.assertEqual(request['recovery_entries'].keys(),{self.second['request_id']})
+        self.assertTrue(verify(current,request,[old]))
+
+    def test_duplicate_historical_manifest_owner_rejected(self):
+        old=build(dict(schema_version=1,entries=[self.first]),
+                  'PLAY-OLD-001','e'*40,[])
+        duplicate=copy.deepcopy(old)
+        duplicate['request_id']='PLAY-OTHER-001'
+        duplicate['events'][0]['event_id']='DIFFERENT-EVENT'
+        with self.assertRaises(ValueError):
+            self.batch(prior=[old,duplicate])
+
+    def test_unknown_historical_recovery_dependency_still_fails(self):
+        old=build(dict(schema_version=1,entries=[self.first]),
+                  'PLAY-OLD-001','e'*40,[])
+        self.second['depends_on']=['PLAY-REC-NOT-IN-HISTORY']
+        with self.assertRaises(ValueError):
+            build(dict(schema_version=1,entries=[self.second]),
+                  'PLAY-NEW-001','f'*40,[old])
+
     def test_invented_or_edited_payload_rejected(self):
         for key,value in [('pending_action','invented'),('source_evidence','invented'),('destination_checkpoint','D')]:
             request=self.batch();request[key]=value
