@@ -996,6 +996,34 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-P11-FIRSTHAND-TESTIMONY-001",
+      "base_commit": "f645035a6ac75a7cc222d23d9e030383da0cb99a",
+      "source_checkpoint": "D281-2003-V-RESTRAINT-ROOMS-P10-P11-LOCATED-001",
+      "destination_checkpoint": "D281-2004-P11-TESTIMONY-NORTH-ROOM-001",
+      "source_evidence": "Player speaks to the two restrained individuals at Station Kestrel Day281~20:03: \"I am here to help, tell me what’s happening, what did they do to you?\" V is in/at the second northern secured room physically nearest female KN-P11; male KN-P10 remains in separate adjacent room with stone partition, so only KN-P11 responds privately and P10 does NOT overhear whispers by fiat. KN-P11 is awake, frightened, bound at wrists/ankles with mundane straps; at quiet range she gives FIRSTHAND TESTIMONY, not independently proven station facts. She says staff represented Kestrel as a recovery hospital, but forcibly took her against pleas into EAST specialist-treatment rooms, strapped her to a table, used metal instruments with writing/glowing marks and at other times spoken magic; a treatment/test caused searing pain and trembling/temporary inability to hold a cup. Staff continued after she begged them to stop, writing down her response, calling it \"unsatisfactory response\" and varying procedures. She reveals small discolored neck/shoulder marks and fears being left bound when staff return. She does NOT know what the magic is, the hierarchy's objective, or institutional authorization. She suggests the other restrained man KN-P10 has been there longer and could know more; this is her belief and not yet P10 testimony. Dialogue stays hushed; KN-G5 Guard remains stationed at ordinary ward entrance with no reported detection and KN-M2 Apprentice Wizard remains by curtained medicine alcove (only a chair scrape audible, not a confirmed approach). Site-wide alarm remains active due to western-wall intrusion. No check demanded for natural whispered testimony (alarm masks sounds, guard remains distant), no dice executed, no new detection or confrontation. V has NOT unstrapped either patient, healed, committed to an immediate escape path, entered eastern lab, seen lab equipment firsthand, taken new records or spoken to P10 in response to this question; nor used Psychic Whispers. Northern doors picked/open, inward-opening rear ordinary ward window accessible through ward, nine other detained persons (six ambulatory, three nonambulatory) remain in ordinary ward. V48/48 AC19 HD7/7 Superiority4/4 Psi1/6 PastLife2/3 PsiRecovery0/1 ActionSurge/SecondWind ready, two original occupancy/discharge folios concealed, purse969gp3sp6cp, rations12/feed16, Pixie Dust1, LongRest5/6. Cirren51/51 and Fenar59/59 outside west/southwest woods, Fenar retains V-owned 50ft rope, Psychic Whispers active to these two only until~22:56; Mara with four healthy V-owned horses/coach0.5mi south, no link. Time~20:04, conversation ongoing, no new sync boundary or gameplay event other than this testimony.",
+      "pending_action": "Day281 ~20:04 Kestrel northern secured patient room #2. Masked V remains undetected inside, both ordinary DC15 locks picked/open, P10 and P11 still physically restrained in SEPARATE rooms. V asked \"I am here to help, tell me what’s happening, what did they do to you?\" KN-P11 privately answered from her own experience: recovery-hospital promise, forced nonconsensual tests in east treatment rooms with restraints, metal marked/glowing instruments, sometimes spoken magic, pain and trembling hands, researcher label \"unsatisfactory response\"; small discolored neck/shoulder marks. She does not know precise magic or wider program. P11 says P10 has been there longer, may know more; P10 has NOT yet been questioned further, cannot hear soft conversation through stone wall by fiat. KN-G5 still at main ward doorway unaware; KN-M2 near alcove, only chair scrape heard, site alarm active unrelated to V's hidden position; no combat. Main ordinary ward holds nine (six mobile/three injured nonmobile), P10/P11 account for other two; no rescue or untying yet. V48/48 AC19 Sup4/4 Psi1/6 PastLife2/3 PsiRecovery0/1, two original stolen records concealed; Cirren51/51 Fenar59/59 masked outside west woods linked until~22:56 with rope carried by Fenar; Mara healthy with4 owned horses/intact coach half-mile south, not linked. V purse969gp3sp6cp, carried rations12/feed16, Pixie Dust1, LongRest5/6. Await V follow-up to P11, speaking separately to P10, releasing restraints, stealth movement or other action; do not assume care or force attack/quest resolution.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-RESTRAINT-ROOMS-RECON-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-KESTREL-P11-EXPERIMENT-WITNESS-001",
+          "accepted": true,
+          "evidence": "V explicitly asks both patients what happened and offers help. KN-P11 alone nearby responds at whisper range: firsthand involuntary tests involving straps, glowing marked metal apparatus, sometimes spoken magic, severe pain/shaking, researcher notes of 'unsatisfactory response'; shows discolored marks, says P10 may know more. P10 next door has not been engaged. Guard still oblivious, no roll, release or resource change.",
+          "before": "~20:03 V masked unseen in north restraint room2; two doors unlocked, both patients strapped; P10 male asked who V is, P11 female pleaded innocence. Nine others in ordinary ward; KN-G5 entrance, KN-M2 curtained medicine alcove.",
+          "after": "~20:04 P11 shares her own firsthand involuntary test account, no mechanical or political secrets verified; frightened patients remain strapped, no confrontation and no PC resource/custody change.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ]
 }
