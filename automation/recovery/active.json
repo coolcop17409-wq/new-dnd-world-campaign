@@ -1534,13 +1534,42 @@
           ]
         }
       ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "accepted_play",
+      "request_id": "PLAY-REC-D281-KESTREL-PAST-LIFE-VAULT-INSCRIPTIONS-001",
+      "base_commit": "7191234c99f8c248eb842aea3222f3fdffa37233",
+      "source_checkpoint": "D281-2027-V-CONCEALED-AT-INNER-VAULT-APPROACH-001",
+      "destination_checkpoint": "D281-2027-V-VAULT-INSCRIPTIONS-READ-PAST-LIFE-001",
+      "source_evidence": "Immediately after V's Day281 ~20:27 solo concealed recon at the stone corner of Station Kestrel's NORTH 20ft lab-to-vault approach, the prior active Wisdom(Perception) attempt to distinguish warning/maintenance inscriptions on a large armored vault sentinel was genuine d20FACE7 + Perception4 =11 vs predeclared DC14, initially failed. Player's exact immediate correction is \"knowledge from past\", invoking Reborn Knowledge from a Past Life on THIS same skill ability check, not a new check, movement, spell, attack, limited-use Psi Knack or campaign time. V had ONE available Knowledge from a Past Life use1/3 at this actual checkpoint, Psi0/6. Genuine separately executed Python secrets d6 FACE6 added to existing result11→17, SUCCESS vsDC14. PastLife1/3→0/3 and no other resource spent; per campaign rule Past Life use is spent regardless. This supersedes only the initial failed Perception's no-readable-inscription outcome; earlier successful stealth d20FACE6+expertise10=16 vs preauthored sentinel passive Perception14 still stands, and no new enemy check or alarm occurs. Through distance20ft, V now can READ the existing fixed maintenance/warning plate's three test protections on the sentinel: 'Fireball — No Effect', 'Heat Metal — No Effect', 'Lightning Bolt — No Effect'. These inscriptions give practical in-game warning against those spells but do NOT automatically grant exact statblock, creature name, immunity to other effects, a control word, vault key, or broader secret program information. Sentinel helmet subtly turned at earlier recon but no detection of V; guard remains at fixed vault entrance. V remains concealed at lab-side SOLID STONE corner, not exposed in the open 20ft passage, with closed reinforced iron vault door beyond sentinel, no attack/initiative or vault entry. Time remains Day281~20:27; no other movement or audio alarm. KN-M1 Mage stable unconscious0/40HP from prior nonlethal knockout and still unbound in accessible lab; original two administrative contradictory folios and newly gathered ordered signed experimental instructions, linked patient log and injury diagram packet remain physically in V's document case. WEST lab door locked from inside, KN-G6 beyond believes corrected PastLife-successful V impersonation and guards corridor; east vent shutters closed, exterior iron grille detached on sill; visually motionless Animated Armor remains west threshold. V HP48/48 AC19 HD7/7 Sup4/4 MP7/7 Psi0/6 PastLife NOW0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, purse969gp3sp6cp, 12 person-ration-days/16 horse-feed days, unopened Pixie Dust1, LongRest5/6. Cirren51/51 full spells/CD2 and Fenar59/59 Rage4/4 Shift3/3 MP6/6 free masked outside western woods, Fenar holding V-owned intact50ft rope, Psychic Whispers V↔both until~22:56; Mara healthy unlinked with four owned horses and intact coach half-mile south. All11 patients still inside, nine ordinary ward (six mobile, three nonambulatory), two northern P10/P11 with unbuckled restraints staying in beds awaiting V's clear. Original significant exploration handoff marker remains and must point to the latest recovery ID after this correction; this recovery capture does not itself prove owning files synchronized.",
+      "pending_action": "Day281 ~20:27 Station Kestrel lab, masked V SOLO and UNDETECTED behind solid stone corner at mouth of exposed NORTH 20ft passage to CLOSED iron vault door. Fixed imposing plated sentinel/guardian at vault entrance. Earlier V Wisdom(Perception) d20FACE7+4=11/DC14 initially failed to read engravings; latest USER correction 'knowledge from past' activated Reborn Knowledge from a Past Life d6FACE6, new total17/DC14 SUCCESS, PastLife1/3→0/3, no Psi spent. V can now read maintenance plate inscriptions 'Fireball — No Effect', 'Heat Metal — No Effect', 'Lightning Bolt — No Effect', but sees NO shutdown command, vault key, or full statblock. Earlier Stealth16 beats sentinel passive14 while staying in stone cover; no hostile detection, no exposed crossing, no vault entry/armor attack. KN-M1 Mage still unconscious stable0/40HP unbound by central lab examination table, dagger removed to nearby lab surface, component pouch still with mage, predicted spontaneous recovery~22:17 if not disturbed. WEST lab door LOCKED from inside; KN-G6 corridor guard accepted corrected V voice 'Don't let anyone in', watching corridor but not inside; east vent shutters closed, exterior grille detached on sill; separate stationary Animated Armor still near west lab threshold. V has TWO original contradictory discharge/occupancy register folios plus ONE compact signed local experimental instruction/patient-observation/injury-diagram packet, all in V document case; original superior authorization remains unseen in guarded vault. V48/48HP AC19 HD7/7 MP7/7 Sup4/4 Psi0/6 PastLife0/3 PsiRecovery0/1 ActionSurge0/1 SecondWind1/1, purse969gp3sp6cp, provisions12 ration-person-days/feed16 animal feed-days, Pixie Dust1 sealed, LongRest5/6. Cirren51/51 full slots/CD2, Fenar59/59 Rage4/4 Shift3/3 MP6/6 masked/free outside west woods with V-owned rope carried by Fenar, Psychic Whispers 2-way link through~22:56; Mara healthy with four V-owned horses and intact coach~0.5mi south unlinked. Eleven living patients still inside: nine ordinary ward (six mobile/three injured cannot walk), P10/P11 northern rooms unbuckled, quietly waiting for V's signal, none evacuated. Sitewide alarm still from previous west-side intruders. Await V's next choice whether to attempt vault guardian/lock, back out with evidence or plan rescue. No extra V action/time advanced.",
+      "depends_on": [
+        "PLAY-REC-D281-KESTREL-V-RECON-INNER-VAULT-ENTRY-001"
+      ],
+      "events": [
+        {
+          "event_id": "D281-V-PAST-LIFE-VAULT-PERCEPTION-CORRECTED-001",
+          "accepted": true,
+          "evidence": "User invokes 'knowledge from past' immediately after previous failed V Perception d20FACE7+4=11/DC14 on vault sentinel inscriptions. Genuine Reborn Past Life d6FACE6 makes17 success, use1/3→0/3, replaces only original failure's unable-to-read detail. V at concealed solid stone corner20ft away reads fixed warning maintenance plate: Fireball, Heat Metal, Lightning Bolt each 'No Effect'. No vault entry, spell, attack, controller discovery or guardian detection; previously successful Stealth16/passive14 remains. Other party/records/HP unchanged.",
+          "before": "Day281~20:27 V concealed at vault approach corner, guardian at iron door; prior Stealth16 passed, inscription Perception11/DC14 failed; PastLife1/3 and Psi0/6.",
+          "after": "Same position/time; Perception now17/DC14 through Past Life6, V knows plate's three no-effect test spells; PastLife0/3, guardian still unaware, vault closed, other resources unchanged.",
+          "owner_paths": [
+            "campaign/continuity/session-log.md",
+            "campaign/continuity/campaign-state.md",
+            "data/characters/events.csv",
+            "campaign/continuity/npcs.md",
+            "campaign/continuity/quests.md"
+          ]
+        }
+      ]
     }
   ],
   "sync_trigger": {
     "ready": true,
     "reason": "significant_exploration",
     "request_id": "PLAY-D281-KESTREL-LAB-ENTRY-001",
-    "last_recovery_id": "PLAY-REC-D281-KESTREL-V-RECON-INNER-VAULT-ENTRY-001",
-    "destination_checkpoint": "D281-2027-V-CONCEALED-AT-INNER-VAULT-APPROACH-001"
+    "last_recovery_id": "PLAY-REC-D281-KESTREL-PAST-LIFE-VAULT-INSCRIPTIONS-001",
+    "destination_checkpoint": "D281-2027-V-VAULT-INSCRIPTIONS-READ-PAST-LIFE-001"
   }
 }
