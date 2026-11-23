@@ -16,9 +16,9 @@ Audit/report only: this process does not post wages, income, expenses, transfers
 
 All available-cash, cashbook roll-forward, and cashbook ID checks passed.
 
-## Unfinished tasks due by campaign Day 281
+## Unfinished tasks due by campaign Day 279
 
-Campaign-day source: manual workflow input.
+Campaign-day source: CAMPAIGN_STATE.
 - **Miregate — Day 272: MG-TAX-272** (Pending)
 - **Miregate — Day 249: MG-WEEK-249** (Pending)
 - **Miregate — Day 256: MG-WEEK-256** (Pending)
