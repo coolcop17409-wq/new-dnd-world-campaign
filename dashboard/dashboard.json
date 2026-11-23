@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 279,
+  "campaign_day": 281,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -237,7 +237,7 @@
         },
         {
           "name": "Psionic Energy Dice",
-          "current": "6.0",
+          "current": "0.0",
           "max": "6",
           "recovery": "Long Rest"
         },
@@ -249,13 +249,13 @@
         },
         {
           "name": "Knowledge from Past Life",
-          "current": "3.0",
+          "current": "0.0",
           "max": "3",
           "recovery": "Long Rest"
         },
         {
           "name": "Psi Recovery",
-          "current": "1.0",
+          "current": "0.0",
           "max": "1",
           "recovery": "Once per Short Rest or Long Rest"
         },
@@ -267,19 +267,19 @@
         },
         {
           "name": "Psychic Whispers free use",
-          "current": "1",
+          "current": "0.0",
           "max": "1",
           "recovery": "Long Rest"
         },
         {
           "name": "Action Surge",
-          "current": "1.0",
+          "current": "0.0",
           "max": "1",
           "recovery": "Short Rest"
         },
         {
           "name": "Superiority Dice",
-          "current": "4.0",
+          "current": "3.0",
           "max": "4",
           "recovery": "Short Rest / Long Rest"
         }
@@ -356,7 +356,7 @@
       "resources": [
         {
           "name": "Rage",
-          "current": "4.0",
+          "current": "3.0",
           "max": "4",
           "recovery": "Long Rest only"
         },
@@ -536,15 +536,15 @@
       },
       {
         "item": "Rations (1 day)",
-        "qty": "18.0",
-        "quantity_display": "18.0",
+        "qty": "12.0",
+        "quantity_display": "12.0",
         "holder": "Party/coach supply: recorded15 ration person-days after Day225 travel (B25). No new deduction. Days208–212 exact site/forage/Mara meal provenance unresolved; D-column history preserved. D224-225-TEMP-HARNESS-MANOR-CELLAR-001.",
         "detail": "D196–198: 7 ordinary rations purchased personally at5sp each, combined with 2 Cirren-held forage person-days for 9 person-days consumed by Mara/Cirren/Fenar; stock0, travel cost in"
       },
       {
         "item": "Feed (1 day)",
-        "qty": "24.0",
-        "quantity_display": "24.0",
+        "qty": "16.0",
+        "quantity_display": "16.0",
         "holder": "Party coach: recorded20 horse-feed animal-days after Day225 travel (B26), four healthy horses at Rethwyn rural yard. Days208–212 exact feed reconciliation unresolved; no assumed consumption or restock. D-column history preserved.",
         "detail": "D196–198: 12 horse feed-days purchased personally at5cp each, all12 consumed by four horses over 3-day carriage journey; no feed remains. Purchase6sp included once in V purse row29"
       },
@@ -1291,6 +1291,30 @@
         "holder": "Valenthia — one sealed unused packet",
         "detail": "Original M7-UC-02-08 Stage Veil Cosmetics consignment, purchased for145gp Day276. The Wild Beyond the Witchlight p212; one creature gains30ft fly/hover for1 minute with safe descent at end; uncommon consumable, no attunement; not used.",
         "source_event": "D276-CAER-VEYLAN-PIXIE-DUST-SALE-001"
+      },
+      {
+        "item": "Kestrel original discharge and current-ward folios",
+        "qty": "2",
+        "quantity_display": "2",
+        "holder": "Valenthia — actual physical custody; ownership not adjudicated",
+        "detail": "Two neatly removed original matching leaves. Explicit correction supersedes single ragged discharge folio; not three sheets. Six IDs appear discharged and still occupying beds. No transfer or sale.",
+        "source_event": "D281-KESTREL-SLEIGHT-OF-HAND-KNACK-CORRECTION-001"
+      },
+      {
+        "item": "Kestrel signed local trial and injury packet",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Valenthia — actual physical custody; ownership not adjudicated",
+        "detail": "Original signed local research/trial notes, patient-linked observations and injury diagrams in document case. Separate from two admin folios; no vault papers.",
+        "source_event": "D281-V-SEARCHES-LAB-MAGE-SECURES-TRIAL-RECORDS-001"
+      },
+      {
+        "item": "Kestrel mage mundane component pouch",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Valenthia — actual physical custody; ownership not adjudicated",
+        "detail": "Removed from stable unconscious KN-M1 while he was bound/gagged on lab table. Temporary custody; dagger remains on lab surface. No inferred gold value, magical contents or use.",
+        "source_event": "D281-V-BINDS-GAGS-KN-M1-AND-SECURES-POUCH-001"
       }
     ],
     "Cirren": [
