@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "mode": "legacy",
-  "activation_checkpoint": null,
-  "cutover_commit": null,
-  "notes": "Inactive until verified empty legacy journal and safe handoff."
+  "mode": "chunked",
+  "activation_checkpoint": "D281-2054-INNER-VAULT-GUARDIAN-DESTROYED-DOOR-UNOPENED-001",
+  "cutover_commit": "9fa3411047f3bafb676509aea126e5698a32dd22",
+  "notes": "Owner-authorized 2026-11-23 cutover. Legacy journal empty; latest Day281 vault-combat batch and generated views verified. Record future accepted responses as immutable chunks. Never delete original chunks or bypass Work validation."
 }
