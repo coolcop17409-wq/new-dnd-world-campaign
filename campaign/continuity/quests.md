@@ -1,3 +1,21 @@
+CURRENT ACCEPTED CARE/EVIDENCE PAUSE — Day285~08:30: all11 survivors alive/stable at Sedgecross, P7–P9 still nonambulatory. Three paid nights have ended; future placement and any disclosure remain V decisions. No observed official visit/attack during stay and no guaranteed sanctuary. Earlier Kestrel guard unconsciousness/timers are historical observations, not current Day285 conditions. Newer immutable discussion chunks supersede this frozen pause for live play.
+
+Verified accepted batch PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001 — frozen Day285~08:30. Original evidence: automation/recovery/boundaries/PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001.json and its three immutable chunks; exact evidence also in SESSION_LOG.
+
+D285-SEDGECROSS-THREE-TOWN-NIGHTS-FULL-WEIGHTED-LONGREST-001 — D285~08:30 three uninterrupted town overnights credited +2 each → cap6/6 FULL Long Rest, restore V Psi6/6 PastLife3/3 free Whispers1/1, all other V pools already full; Fenar HD6/6 Rage4/4 full, Shift3/3, HP59/59, CLIMB adaptation retained, Cirren full slots/CD2/HD/HP, Mara/horses healthy; no travel after breakfast.
+
+D282-284-V-ALLIES-REVIEW-KESTREL-ORIGINALS-NO-OUTSIDE-DISCLOSURE-001 — By Day284 party voluntarily reviewed sealed original directive, two nonconsenting experimental program orders, original patient-transfer/requisition ledger, two contradicting false-discharge folios, signed local trial packet and independent firsthand accounts/Mara interview notes. Conclusions limited to local abuse and bureau link, not high political or divine-death truth. All originals preserved with V, no public report/official contact/affidavit/copied evidence, future decisions remain V's.
+
+D282-SEDGECROSS-TRAVEL-QUIET-MORNING-SUPPLIES-AND-WAYHOUSE-OFFER-001 — Day282~14:30 Sedgecross wayhouse before pricing decision; 9 ration-person-days/12 feed-animal-days remaining, purse unchanged969gp3sp6cp, no paid care or lodging, all11 present with coach/horses and evidence.
+
+D281-PARTY-HEDRA-EDGE-REST-STAGING-AND-EXPOSED-NIGHT-QUIET-001 — Day282~07:45 group finishes quiet exposed short rest outside Hedra's house/barn near farm edge with no sanctuary contract; V rest grants Sup4/4 ActionSurge1/1 PsiRecovery1/1, Psi remains0/6; Fenar recovers8HP to59, HD5/6, Rage2/4 unchanged; LongRest new1/6, no station pursuit observed.
+
+D281-CIRREN-ELEVEN-PATIENTS-REACH-MARA-V-FENAR-REUNION-001 — All V party and eleven patients physically reunited near Mara's intact coach/horses at wooded southern rendezvous ~21:25, with original evidence and reagent case. Medical care and onward transport still need V direction.
+
+D281-V-FENAR-EXIT-KESTREL-QUIETLY-WITH-VAULT-EVIDENCE-001 — Day281~21:13 V/Fenar outside western compound hidden in woods, keeping all vault evidence and contents, uninjured by exit, lab guards/mage still bound, remaining station threats/old bell unchanged.
+
+Earlier dated records preserved; newer accepted results above supersede older current-status wording:
+
 D281-V-SECURES-KESTREL-REGIONAL-AUTHORIZATION-AND-PATIENT-TRANSFER-ORIGINALS-001 — Day281~21:09 V personally possesses central case of four principal original vault documents (1 authority,2 program orders,1 ledger) along with prior 2 folios/trial evidence; cabinet examined and evidence preserved, no coin or automatic broader conclusion, Superiority remains1/4.
 
 Accepted evidence: Player authorizes investigating/taking evidence. Genuine Fenar-assisted V Investigation advantage d20FACES17,8 choose17+3=20/DC15 SUCCESS. V opens/reads/collects ORIGINAL station directive naming Corven Nask and western Service Directorate bureau seal, TWO original experiment order sets EVERMARCH and CLEAR WILL explicitly contemplating restraints and procedures despite objections, and original transfer/requisition ledger linking patients/authorizations and prior false discharges. Regional bureau/station guilt supported, no top leaders/divine history proved; original seal/reference identifiers retained; no other item lost or additional dice/resources used.

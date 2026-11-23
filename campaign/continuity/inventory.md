@@ -1,3 +1,15 @@
+CURRENT CUSTODY AND STOCK — Day285~08:30: V retains all Kestrel original records and mage component pouch; Mara retains her independent Neri interview notes; Fenar retains six intact sealed reagent vials in their original padded case and the silver-fitted precision instrument, unappraised and unused. Carried rations9 person-days/feed12 animal-days; purse922gp6sp6cp after ONE46gp7sp payment. V rope was left binding G6 at Kestrel; present station conditions unknown after elapsed days. No originals copied, transferred or disclosed.
+
+Verified accepted batch PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001 — frozen Day285~08:30. Original evidence: automation/recovery/boundaries/PLAY-D285-SEDGECROSS-THREE-NIGHT-LONGREST-SYNC-001.json and its three immutable chunks; exact evidence also in SESSION_LOG.
+
+D282-SEDGECROSS-THREE-NIGHT-PAID-STAY-MEDICAL-AND-MEALS-001 — Booked and completed D282/283/284 three staffed safe-town wayhouse nights, common pallets11patients+Cirren, optional one private bed Mara, Fenar coach in attended yard and V seated Reborn; consented civilian medical assessment and nonmagical care for eleven, 126 paid meals and three nights horse stabling/feed; total46gp7sp PAID ONCE from V purse→922gp6sp6cp, carried rations9/feed12 unchanged, all patients stable incl3 still nonambulatory.
+
+D282-SEDGECROSS-TRAVEL-QUIET-MORNING-SUPPLIES-AND-WAYHOUSE-OFFER-001 — Day282~14:30 Sedgecross wayhouse before pricing decision; 9 ration-person-days/12 feed-animal-days remaining, purse unchanged969gp3sp6cp, no paid care or lodging, all11 present with coach/horses and evidence.
+
+D281-V-FENAR-EXIT-KESTREL-QUIETLY-WITH-VAULT-EVIDENCE-001 — Day281~21:13 V/Fenar outside western compound hidden in woods, keeping all vault evidence and contents, uninjured by exit, lab guards/mage still bound, remaining station threats/old bell unchanged.
+
+Earlier dated records preserved; newer accepted results above supersede older current-status wording:
+
 CURRENT VAULT EVIDENCE CUSTODY — Day281~21:09
 V holds central original case with four documents: one station authorization, two EVERMARCH/CLEAR WILL orders, one transfer/requisition ledger. Fenar holds original padded case containing six sealed vials (2 binding ink,2 refined crystalline mixtures,2 preservation salts) and one silver-fitted precision instrument. No valuation, potion properties or enchanted status established; nothing consumed. Prior V-held folios/trial packet/component pouch retained;50ft rope still binds G6.
 
