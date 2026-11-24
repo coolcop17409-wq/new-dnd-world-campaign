@@ -135,7 +135,7 @@
   ],
   "generated_view_status": "Checkpoint/event/hash/counters verified at 9c1397acb5eaf43716858cb3cf581abe8ff91e6e; Luckstone metadata DERIVED-PENDING",
   "derived_pending": "Existing current-main quantity overlay still displays purchase-era UNATTUNED holder/detail. Current inventory/status/checkpoint confirm already accepted attunement; no duplicate item or code change. Existing maintenance/repair lane remains fallback.",
-  "cleanup_status": "pending separate verified-only prune",
+  "cleanup_status": "complete: twelve exact verified compatibility entries pruned; original chunks/boundaries and newer D297–299 chunk retained",
   "immutable_provenance": {
     "boundary": "automation/recovery/boundaries/PLAY-D297-CAER-VEYLAN-MARKET-WESTBOUND-ROAD-SYNC-001.json",
     "pinned_commit": "c5ae62628221a289b14330331d66f510c6ffecb1",
