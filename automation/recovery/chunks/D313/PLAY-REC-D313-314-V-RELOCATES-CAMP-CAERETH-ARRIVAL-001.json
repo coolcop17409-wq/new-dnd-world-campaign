@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D313-314-V-RELOCATES-CAMP-CAERETH-ARRIVAL-001",
+  "base_commit": "43caba4cb823ca865d52548beffdb8ad874cd3a7",
+  "source_checkpoint": "D313-2200-CAERETH-ROAD-RAIN-DRAINAGE-HAZARD-PENDING-001",
+  "destination_checkpoint": "D314-1630-CAERETH-RETHWYN-CITY-RESIDENCE-ARRIVAL-001",
+  "source_evidence": "Player exact 'Relocate' authorizes safe camp movement at D313~22:00 drainage hazard. Previously established higher firm shoulder safely reachable before water; party works together, moves animals, coach and gear, takes ~20min, no injury or loss or consequential uncertain check. Hazard closes, no repeat night occurrence because D313 cap used. Rest restarted and sufficient full wilderness overnight completes by ~06:20, weighted LongRest2→3/6 and ordinary Short Rest with all pools already full, no expenditure. Existing V-directed Caereth travel resumes morning D314. Predeclared normal road occurrence <=15, actual visible Python secrets d100 FACE27 quiet, receipt ecb47a548de35a61ccb6f1dd0a1c98e0. Full ordinary day ration3/feed4 use, stocks18/24→15/20. Arrive D314~16:30 at familiar city residence, no toll, fee, new random encounter or court approval. Household advance rider sent D313 now has reached residence ahead of party and routine request forwarded through Elara's channels, no evidence or political commitment given, no scheduled audience confirmed. D314~16:30, party safely arrived at Elara's familiar Caereth city residence after completing ordinary Rethwyn→Caereth road journey. V/Elara/Mara/Cirren/Fenar, four V-owned horses and coach and Elara's own travel arrangements unharmed. D313 camp relocated to previously visible higher firm roadside ground before drainage overflow reached camp; no check necessary, no damage/loss, sufficient uninterrupted rest from ~22:20 to ~06:20 D314 completed qualifying wilderness night, LongRest2→3/6. D314 day actual d10027>15 quiet; consumed standard 3 ration-person-days and 4 horse-feed animal-days, carried18/24→15/20 (5 ordinary travel days). No extra fees. V48/48 AC19 HD7/7 all resources full, cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 full; purse386gp8sp6cp PixieDust1 peryton specimens coach; other custody unchanged. Elara's advance rider has reached her city household and forwarded her request for a discreet royal court audience through established channels; no confirmed royal approval or appointment, no original evidence shared. Marriage clerk preliminary advice stands, no formal recognition or appointment accomplished. Elara offers city house hospitality; no overnight yet. Severin memorandum onward delivery/reply unverified. V dice delegated until stop. V chooses next action at Caereth residence.",
+  "pending_action": "D314~16:30, party safely arrived at Elara's familiar Caereth city residence after completing ordinary Rethwyn→Caereth road journey. V/Elara/Mara/Cirren/Fenar, four V-owned horses and coach and Elara's own travel arrangements unharmed. D313 camp relocated to previously visible higher firm roadside ground before drainage overflow reached camp; no check necessary, no damage/loss, sufficient uninterrupted rest from ~22:20 to ~06:20 D314 completed qualifying wilderness night, LongRest2→3/6. D314 day actual d10027>15 quiet; consumed standard 3 ration-person-days and 4 horse-feed animal-days, carried18/24→15/20 (5 ordinary travel days). No extra fees. V48/48 AC19 HD7/7 all resources full, cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 full; purse386gp8sp6cp PixieDust1 peryton specimens coach; other custody unchanged. Elara's advance rider has reached her city household and forwarded her request for a discreet royal court audience through established channels; no confirmed royal approval or appointment, no original evidence shared. Marriage clerk preliminary advice stands, no formal recognition or appointment accomplished. Elara offers city house hospitality; no overnight yet. Severin memorandum onward delivery/reply unverified. V dice delegated until stop. V chooses next action at Caereth residence.",
+  "depends_on": [
+    "PLAY-REC-D313-V-CAERETH-COURT-REQUEST-RESUPPLY-ROAD-NIGHT-HAZARD-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "ecb47a548de35a61ccb6f1dd0a1c98e0",
+        "rolls": [
+          {
+            "id": "D314.Caereth_road.day",
+            "sides": 100,
+            "faces": [
+              27
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D313-V-RELOCATES-CAMP-RAIN-HAZARD-SAFELY-001",
+      "accepted": true,
+      "evidence": "Player directs relocation to pre-established high firm ground, routine cooperative move ~20min, no roll, loss, injury, cost or limited resource expenditure. Full uninterrupted wilderness rest thereafter through ~06:20 D314, LongRest2→3/6.",
+      "before": "D313~22:00 threatened low roadside camp, rest2/6, all healthy.",
+      "after": "D314 dawn safe high camp, all healthy, rest3/6; no additional D313 encounter.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D314-CAERETH-RETHWYN-CITY-RESIDENCE-ARRIVAL-001",
+      "accepted": true,
+      "evidence": "Actual d10027 vs threshold15 quiet. Existing chosen travel completed, routine daily provisions3/4 consumed, now15/20. Arrival Elara's city residence ~16:30, advance rider delivered request to household and forwarded through normal channels, no court appointment/approval or evidence transfer.",
+      "before": "D314 dawn high camp, stocks18/24, V party travelling to Caereth.",
+      "after": "D314~16:30, party safely arrived at Elara's familiar Caereth city residence after completing ordinary Rethwyn→Caereth road journey. V/Elara/Mara/Cirren/Fenar, four V-owned horses and coach and Elara's own travel arrangements unharmed. D313 camp relocated to previously visible higher firm roadside ground before drainage overflow reached camp; no check necessary, no damage/loss, sufficient uninterrupted rest from ~22:20 to ~06:20 D314 completed qualifying wilderness night, LongRest2→3/6. D314 day actual d10027>15 quiet; consumed standard 3 ration-person-days and 4 horse-feed animal-days, carried18/24→15/20 (5 ordinary travel days). No extra fees. V48/48 AC19 HD7/7 all resources full, cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 full; purse386gp8sp6cp PixieDust1 peryton specimens coach; other custody unchanged. Elara's advance rider has reached her city household and forwarded her request for a discreet royal court audience through established channels; no confirmed royal approval or appointment, no original evidence shared. Marriage clerk preliminary advice stands, no formal recognition or appointment accomplished. Elara offers city house hospitality; no overnight yet. Severin memorandum onward delivery/reply unverified. V dice delegated until stop. V chooses next action at Caereth residence.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
