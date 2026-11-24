@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D315-VALUABLES-SALE-AUTHORIZATION-CONDITIONAL-OFFER-001",
+  "base_commit": "44fc94565a07bd2df324057dfed589233f9b14eb",
+  "source_checkpoint": "D315-1030-CAERETH-CROWN-AUDIENCE-APPRAISAL-CLARIFIED-001",
+  "destination_checkpoint": "D315-1030-CAERETH-CROWN-AUDIENCE-VALUABLES-SALE-AUTHORIZED-001",
+  "source_evidence": "Player exact 'Sell them all best negotiated price' authorizes ordinary sale of all previously listed gems/jewelry/precious metals, not disposal of Kestrel exhibits. In keeping with preceding player-directed clarification of the same morning appraisal before the now-pending audience, establish conditional broker terms without replaying earlier actual sale or advancing current time. Confirmed lot appraised210gp but previously explicit unresolved third-party title; not presumed cleared. Before executed RNG price bands <14=210gp,14–17=220gp,18–22=230gp,23+=240gp subject to lawful sale. Mara meaningfully helps, Cirren Guidance at-will; genuine visible Python secrets receipt ca503904183d7c651e43ea80ee2cbbcb, advantage d20 faces15,7 select15 +Persuasion6+Luckstone1+Guidance d4face3=25. Jeweler offers240gp conditional on title clearance and actual transfer. No cash or item movement yet; no unchosen escrow, title fabrication, buyer risk assumption or expenditure. Early three silver items provisional35gp excluded from offer until physically confirmed and provenance established. Player's authorization persists for routine clerk coordination, best terms and lawful sale without repeatedly seeking approval; no completed clerk inquiry claimed. D315~10:30 private Crown audience in Caereth, V/Elara/Mara/Cirren/Fenar present, security councillor and secretary await V's opening account. No palace testimony or evidence surrender yet. V explicitly authorizes sale of all previously listed gems/jewelry/precious metal pieces at best negotiated terms. Morning guild jeweler's conditional offer for confirmed held Reedbed/Fort lot (3 garnets,2 amber,1 silver brooch,2 stamped silver bars; appraised210gp) negotiated to240gp, payable only on lawful sale/transfer after outstanding title concerns resolved; no actual payment or transfer today, no escrow or unchosen liability. Early ornate silver key, military insignia, captain signet still only provisional35gp and exact custody/provenance unverified; authorized to sell if located and saleable, actual offer not yet obtained. Elara's ordinary household clerk may handle routine ownership/provenance inquiries and lawful sale coordination without requiring repeated V authorization; no letter dispatch, official clearance or sale falsely claimed. Prior65gp loot sale remains completed once. Purse203gp4sp6cp, food21/feed28, LR5/6, V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned2/3; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Mara/Elara/horses healthy. Kestrel originals V, notes Mara, six sealed reagent vials and silver-fitted instrument Fenar, compact Cirren; unchanged. Defense quest accepted, late afternoon D315 meeting, rewards unearned. No new time or funds. V dice delegated until stop.",
+  "pending_action": "D315~10:30 private Crown audience in Caereth, V/Elara/Mara/Cirren/Fenar present, security councillor and secretary await V's opening account. No palace testimony or evidence surrender yet. V explicitly authorizes sale of all previously listed gems/jewelry/precious metal pieces at best negotiated terms. Morning guild jeweler's conditional offer for confirmed held Reedbed/Fort lot (3 garnets,2 amber,1 silver brooch,2 stamped silver bars; appraised210gp) negotiated to240gp, payable only on lawful sale/transfer after outstanding title concerns resolved; no actual payment or transfer today, no escrow or unchosen liability. Early ornate silver key, military insignia, captain signet still only provisional35gp and exact custody/provenance unverified; authorized to sell if located and saleable, actual offer not yet obtained. Elara's ordinary household clerk may handle routine ownership/provenance inquiries and lawful sale coordination without requiring repeated V authorization; no letter dispatch, official clearance or sale falsely claimed. Prior65gp loot sale remains completed once. Purse203gp4sp6cp, food21/feed28, LR5/6, V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned2/3; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Mara/Elara/horses healthy. Kestrel originals V, notes Mara, six sealed reagent vials and silver-fitted instrument Fenar, compact Cirren; unchanged. Defense quest accepted, late afternoon D315 meeting, rewards unearned. No new time or funds. V dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D315-REMAINING-VALUABLES-APPRAISAL-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "ca503904183d7c651e43ea80ee2cbbcb",
+        "rolls": [
+          {
+            "id": "D315.V.remaining_valuables.conditional_price.persuasion",
+            "sides": 20,
+            "faces": [
+              15,
+              7
+            ]
+          },
+          {
+            "id": "D315.V.remaining_valuables.conditional_price.guidance",
+            "sides": 4,
+            "faces": [
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D315-V-REMAINING-VALUABLES-CONDITIONAL-240GP-OFFER-001",
+      "accepted": true,
+      "evidence": "Player exact 'Sell them all best negotiated price' authorizes ordinary sale of all previously listed gems/jewelry/precious metals, not disposal of Kestrel exhibits. In keeping with preceding player-directed clarification of the same morning appraisal before the now-pending audience, establish conditional broker terms without replaying earlier actual sale or advancing current time. Confirmed lot appraised210gp but previously explicit unresolved third-party title; not presumed cleared. Before executed RNG price bands <14=210gp,14–17=220gp,18–22=230gp,23+=240gp subject to lawful sale. Mara meaningfully helps, Cirren Guidance at-will; genuine visible Python secrets receipt ca503904183d7c651e43ea80ee2cbbcb, advantage d20 faces15,7 select15 +Persuasion6+Luckstone1+Guidance d4face3=25. Jeweler offers240gp conditional on title clearance and actual transfer. No cash or item movement yet; no unchosen escrow, title fabrication, buyer risk assumption or expenditure. Early three silver items provisional35gp excluded from offer until physically confirmed and provenance established. Player's authorization persists for routine clerk coordination, best terms and lawful sale without repeatedly seeking approval; no completed clerk inquiry claimed. D315~10:30 private Crown audience in Caereth, V/Elara/Mara/Cirren/Fenar present, security councillor and secretary await V's opening account. No palace testimony or evidence surrender yet. V explicitly authorizes sale of all previously listed gems/jewelry/precious metal pieces at best negotiated terms. Morning guild jeweler's conditional offer for confirmed held Reedbed/Fort lot (3 garnets,2 amber,1 silver brooch,2 stamped silver bars; appraised210gp) negotiated to240gp, payable only on lawful sale/transfer after outstanding title concerns resolved; no actual payment or transfer today, no escrow or unchosen liability. Early ornate silver key, military insignia, captain signet still only provisional35gp and exact custody/provenance unverified; authorized to sell if located and saleable, actual offer not yet obtained. Elara's ordinary household clerk may handle routine ownership/provenance inquiries and lawful sale coordination without requiring repeated V authorization; no letter dispatch, official clearance or sale falsely claimed. Prior65gp loot sale remains completed once. Purse203gp4sp6cp, food21/feed28, LR5/6, V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned2/3; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Mara/Elara/horses healthy. Kestrel originals V, notes Mara, six sealed reagent vials and silver-fitted instrument Fenar, compact Cirren; unchanged. Defense quest accepted, late afternoon D315 meeting, rewards unearned. No new time or funds. V dice delegated until stop.",
+      "before": "Remaining confirmed valuables appraised210gp, title unresolved; early silver items provisional35gp, no sale authorization for disputed lot.",
+      "after": "D315~10:30 private Crown audience in Caereth, V/Elara/Mara/Cirren/Fenar present, security councillor and secretary await V's opening account. No palace testimony or evidence surrender yet. V explicitly authorizes sale of all previously listed gems/jewelry/precious metal pieces at best negotiated terms. Morning guild jeweler's conditional offer for confirmed held Reedbed/Fort lot (3 garnets,2 amber,1 silver brooch,2 stamped silver bars; appraised210gp) negotiated to240gp, payable only on lawful sale/transfer after outstanding title concerns resolved; no actual payment or transfer today, no escrow or unchosen liability. Early ornate silver key, military insignia, captain signet still only provisional35gp and exact custody/provenance unverified; authorized to sell if located and saleable, actual offer not yet obtained. Elara's ordinary household clerk may handle routine ownership/provenance inquiries and lawful sale coordination without requiring repeated V authorization; no letter dispatch, official clearance or sale falsely claimed. Prior65gp loot sale remains completed once. Purse203gp4sp6cp, food21/feed28, LR5/6, V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned2/3; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Mara/Elara/horses healthy. Kestrel originals V, notes Mara, six sealed reagent vials and silver-fitted instrument Fenar, compact Cirren; unchanged. Defense quest accepted, late afternoon D315 meeting, rewards unearned. No new time or funds. V dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "trackers/csv/v/v-inventory.csv"
+      ]
+    }
+  ]
+}
