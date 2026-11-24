@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D308-PERYTON-VERIFIED-R3-HIDE-READY-001",
+  "base_commit": "0c7dd5e5e1575b40ce58250340ca54fa2e889df9",
+  "source_checkpoint": "D308-1020-PERYTON-VERIFIED-R3-V-TURN-001",
+  "destination_checkpoint": "D308-1020-PERYTON-VERIFIED-R4-V-TURN-001",
+  "source_evidence": "Player exact 'Hide, then Same thing' at verified R3 checkpoint. Standing dice delegation until stop. V moves from(10,-5,0) to coach-side concealment near(0,-5,0), Cunning Action Hide, actual visible Python receipt 9eea8fe78820a366d2d97d9e80c5841b: Stealth8+11=19 fails keen sight passive20; no optional limited feature spent. V readies main thrown Psychic Blade on peryton entering melee of ally. P1 15/33 independently retreats away toward hills (Dash, out of immediate battlefield), no further attacks. P2 from(10,-5,8) climbs toward(10,5,35), descends30ft to(10,5,5) within60ft movement targeting Cirren, triggering V and Cirren readied reactions. V d20 16+9=25 hit AC13, d6 6+4 plus SA2d6 3,1=14 psychic; P2 33→19; ally Cirren adjacent, no disadvantage. Cirren Toll WIS1+1=2 fails DC16; 2d12 7,1=8 necrotic P2 19→11. Gore12+5=17 and talons3+5=8 miss Cirren AC18. P2 Flyby climbs remaining distance to approx(10,5,6), outside actual5ft reach. P3 from(10,5,19) climbs toward(20,5,35) descends30ft to(20,5,5), legal flight within60ft, targets Fenar; Fenar readied magical claw natural1 miss, no Reckless off-turn. P3 Gore19+5=24 hits, d8 7+3+2d8 3,5=18 piercing halved9, absorbs6THP then HP59→56; Talons14+5=19 hits, 2d4 1,2+3+2d8 3,8=17 piercing halved8, HP56→48. P3 Flyby ascends remaining ~11ft to(20,5,16), no OAs. V/Cirren/Fenar reactions expended on monster turn. Fenar R3 renews Ready magical Beast claw; Cirren R3 renews Ready Toll the Dead with concentration, no spell slot, stays40/51. No further BA/feature use, all four horses healthy, Mara remains sheltered. R4 V next. Raw actual rolls preserved; no fictional rolls.",
+  "pending_action": "Day308~10:20 R4 V turn start. Initiative V23 Perytons13 Fenar9 Cirren7, Mara sheltered. V near coach(0,-5,0) HP42/48 AC19 not hidden, action BA move reaction available, HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned, dice delegated until stop. Fenar(20,5,0)48/59 THP0 AC14 Rage3/4 active magical Beast Claws, Shift2/3 active, MP6/6 HD6/6 readied claw reaction available. Cirren(10,5,0)40/51 AC18 slots4/3/3 CD2/2 HD6/6, concentrating readied Toll the Dead, reaction available. P1 15/33 fleeing hills out of immediate fight, P2 11/33 approx(10,5,6), P3 33/33 approx(20,5,16); AC13 fly60 Flyby nonmagical B/P/S resistance. Mara inside coach healthy, four harnessed horses and coach sound. LongRest0/6 food21/feed28 cash391gp9sp6cp PixieDust1. Custody and route unchanged. Await V R4 decision.",
+  "depends_on": [
+    "PLAY-REC-D308-PERYTON-VERIFIED-RESTART-R1-R2-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "9eea8fe78820a366d2d97d9e80c5841b",
+        "rolls": [
+          {
+            "id": "R3.V.hide",
+            "sides": 20,
+            "faces": [
+              8
+            ]
+          },
+          {
+            "id": "R3.V.ready.P2.attack",
+            "sides": 20,
+            "faces": [
+              16
+            ]
+          },
+          {
+            "id": "R3.V.ready.P2.psychic_and_sneak",
+            "sides": 6,
+            "faces": [
+              6,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "R3.Cirren.Toll.P2.save",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "R3.Cirren.Toll.P2.damage",
+            "sides": 12,
+            "faces": [
+              7,
+              1
+            ]
+          },
+          {
+            "id": "R3.P2.Gore.Cirren.attack",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "R3.P2.Talons.Cirren.attack",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "R3.Fenar.ready.P3.attack",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "R3.P3.Gore.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              19
+            ]
+          },
+          {
+            "id": "R3.P3.Gore.base",
+            "sides": 8,
+            "faces": [
+              7
+            ]
+          },
+          {
+            "id": "R3.P3.Gore.dive",
+            "sides": 8,
+            "faces": [
+              3,
+              5
+            ]
+          },
+          {
+            "id": "R3.P3.Talons.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              14
+            ]
+          },
+          {
+            "id": "R3.P3.Talons.base",
+            "sides": 4,
+            "faces": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "R3.P3.Talons.dive",
+            "sides": 8,
+            "faces": [
+              3,
+              8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D308-PERYTON-VERIFIED-R3-HIDE-READY-001",
+      "accepted": true,
+      "evidence": "Player exact 'Hide, then Same thing' at verified R3 checkpoint. Standing dice delegation until stop. V moves from(10,-5,0) to coach-side concealment near(0,-5,0), Cunning Action Hide, actual visible Python receipt 9eea8fe78820a366d2d97d9e80c5841b: Stealth8+11=19 fails keen sight passive20; no optional limited feature spent. V readies main thrown Psychic Blade on peryton entering melee of ally. P1 15/33 independently retreats away toward hills (Dash, out of immediate battlefield), no further attacks. P2 from(10,-5,8) climbs toward(10,5,35), descends30ft to(10,5,5) within60ft movement targeting Cirren, triggering V and Cirren readied reactions. V d20 16+9=25 hit AC13, d6 6+4 plus SA2d6 3,1=14 psychic; P2 33→19; ally Cirren adjacent, no disadvantage. Cirren Toll WIS1+1=2 fails DC16; 2d12 7,1=8 necrotic P2 19→11. Gore12+5=17 and talons3+5=8 miss Cirren AC18. P2 Flyby climbs remaining distance to approx(10,5,6), outside actual5ft reach. P3 from(10,5,19) climbs toward(20,5,35) descends30ft to(20,5,5), legal flight within60ft, targets Fenar; Fenar readied magical claw natural1 miss, no Reckless off-turn. P3 Gore19+5=24 hits, d8 7+3+2d8 3,5=18 piercing halved9, absorbs6THP then HP59→56; Talons14+5=19 hits, 2d4 1,2+3+2d8 3,8=17 piercing halved8, HP56→48. P3 Flyby ascends remaining ~11ft to(20,5,16), no OAs. V/Cirren/Fenar reactions expended on monster turn. Fenar R3 renews Ready magical Beast claw; Cirren R3 renews Ready Toll the Dead with concentration, no spell slot, stays40/51. No further BA/feature use, all four horses healthy, Mara remains sheltered. R4 V next. Raw actual rolls preserved; no fictional rolls.",
+      "before": "R3 start V42/48 Fenar59/59+6THP Cirren40/51 P1 15 P2 33 P3 33, full V limited features.",
+      "after": "R4 start V42/48 Fenar48/59 no THP Cirren40/51 P1 15 retreating P2 11 P3 33. V all resources unchanged. Fenar/Cirren Ready renewed.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
