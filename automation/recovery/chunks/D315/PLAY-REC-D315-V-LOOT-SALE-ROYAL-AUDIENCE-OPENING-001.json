@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D315-V-LOOT-SALE-ROYAL-AUDIENCE-OPENING-001",
+  "base_commit": "4a89e04e9fee17d6211f3d4677e95f6ba3a6acd3",
+  "source_checkpoint": "D314-2135-CAERETH-CIRREN-ELVENKIND-BOOTS-GIFT-001",
+  "destination_checkpoint": "D315-1030-CAERETH-PRIVATE-CROWN-AUDIENCE-OPENING-001",
+  "source_evidence": "User exact 'Great lets do that and continue with the story' accepts planned appraisal/sale of legitimate loot, safeguarding exhibits, and next-day royal audience. At Elara's hosted city residence a peaceful uninterrupted night D314→315 qualifies safe city +2 weighted units, LR3→5/6 not full, all HP/features already full and no provision cost charged V. Morning D315 prior to audience, guild organizer independently honors negotiated professional appraisal/merchant introduction early, no fee V, no other completion rewards. Specialist ordinary materials quote45gp for peryton lot after inspecting intact antlers, feathers and talons; soft tissue not valued; jeweler confirms ordinary small red gemstone from original V PDF baseline and offers10gp, no special magical item. Before actual RNG total price bands <13=55,13–17=60,18–22=65,23+=70. Mara provides meaningful negotiation Help, Cirren Guidance at-will. Visible executed Python secrets batch 8a83ee4d110484eb8efa35c8abf5e0b4 d20 faces10,11 select11+Persuasion6+Luckstone1+Guidance d4face1=19, buyer accepts improved total65gp (specimens55 and gem10), V expressly authorized sale, actual materials and gem transferred and payment received once, no double credit. Purse13846cp→20346cp. Prior Reedbed/Fort valuables estimate210gp, physical holdings retained; clerk cannot clear third-party claims across jurisdiction and recommends claim/title verification through Ossent's relevant authorities, no invented clearance or seizure. Elara's clerk can prepare ordinary inquiry, no letter sent yet. Kestrel exhibits/records withheld intact for Crown. Elara's earlier advance rider and family request result in actual private appointment 10:30 with security-responsible Crown councillor and royal secretary at Caereth palace; companions admitted as witnesses, no monarch attendance, no Crown ruling or evidence transfer, no V speech beyond authorized request. Court NPC asks V for first account. D315~10:30 inside Caereth palace private council chamber, V and willing Elara received by a Crown councillor responsible for security matters and a royal secretary; Mara/Cirren/Fenar accompany V as witnesses admitted for this private audience. Actual appointment obtained through Elara's earlier household request, no monarch personally present, no testimony or evidence transfer yet. Councillor asks V to present what he personally witnessed at Kestrel and what the originals establish. V owns exact disclosure and any surrender/copy authorization. Original Kestrel records still V-held, Mara notes, Fenar six sealed reagent vials and silver-fitted instrument, Cirren original private marriage compact. D314→315 secure city-house overnight +2 weighted LR3→5/6, no full LR yet; all HP/resources already full. D315 morning guild organizer arranged negotiated appraisal introductions before afternoon meeting, ordinary peryton lot (antler pair, feather bundle, two taloned feet) and small red gemstone professionally examined and sold with V authorization for total65gp (55gp specimens,10gp ordinary gemstone), transfer complete, no extra fee. Purse138gp4sp6cp→203gp4sp6cp. Older Reedbed garnet,2 amber, silver brooch, Fort2 garnets and2 stamped trade bars remain physically held with title unresolved, estimated210gp total, not sold or counted as cash; Elara's clerk advises relevant Ossent custody/claim clearance, ordinary inquiry can be prepared, no official clearance or dispatch yet. Kestrel physical exhibits withheld from sale. Food21/feed28, PixieDust1, Cirren wears Boots of Elvenkind, V attuned cloak+Luckstone. V48/48 AC19 HD7/7 all pools full; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2; Mara/Elara and horses healthy. Defense quest accepted late afternoon D315 meeting, reward unearned; no guarantee of national action. Severin correspondence pending. V dice delegated until stop. Await V's opening statement to Crown officials.",
+  "pending_action": "D315~10:30 inside Caereth palace private council chamber, V and willing Elara received by a Crown councillor responsible for security matters and a royal secretary; Mara/Cirren/Fenar accompany V as witnesses admitted for this private audience. Actual appointment obtained through Elara's earlier household request, no monarch personally present, no testimony or evidence transfer yet. Councillor asks V to present what he personally witnessed at Kestrel and what the originals establish. V owns exact disclosure and any surrender/copy authorization. Original Kestrel records still V-held, Mara notes, Fenar six sealed reagent vials and silver-fitted instrument, Cirren original private marriage compact. D314→315 secure city-house overnight +2 weighted LR3→5/6, no full LR yet; all HP/resources already full. D315 morning guild organizer arranged negotiated appraisal introductions before afternoon meeting, ordinary peryton lot (antler pair, feather bundle, two taloned feet) and small red gemstone professionally examined and sold with V authorization for total65gp (55gp specimens,10gp ordinary gemstone), transfer complete, no extra fee. Purse138gp4sp6cp→203gp4sp6cp. Older Reedbed garnet,2 amber, silver brooch, Fort2 garnets and2 stamped trade bars remain physically held with title unresolved, estimated210gp total, not sold or counted as cash; Elara's clerk advises relevant Ossent custody/claim clearance, ordinary inquiry can be prepared, no official clearance or dispatch yet. Kestrel physical exhibits withheld from sale. Food21/feed28, PixieDust1, Cirren wears Boots of Elvenkind, V attuned cloak+Luckstone. V48/48 AC19 HD7/7 all pools full; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2; Mara/Elara and horses healthy. Defense quest accepted late afternoon D315 meeting, reward unearned; no guarantee of national action. Severin correspondence pending. V dice delegated until stop. Await V's opening statement to Crown officials.",
+  "depends_on": [
+    "PLAY-REC-D314-V-GIFTS-ELVENKIND-BOOTS-CIRREN-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "8a83ee4d110484eb8efa35c8abf5e0b4",
+        "rolls": [
+          {
+            "id": "D315.V.loot_sale.persuasion",
+            "sides": 20,
+            "faces": [
+              10,
+              11
+            ]
+          },
+          {
+            "id": "D315.V.loot_sale.guidance",
+            "sides": 4,
+            "faces": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D314-315-CAERETH-HOSTED-NIGHT-REST-001",
+      "accepted": true,
+      "evidence": "Actual quiet hosted city overnight, all pools/HP already full, weighted LR3→5/6; no full LR or extra provisions/fees.",
+      "before": "D314 21:35 rest3/6, full pools.",
+      "after": "D315 dawn rest5/6, full pools.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D315-V-SELLS-PERYTON-LOT-RED-GEM-65GP-001",
+      "accepted": true,
+      "evidence": "Actual authorized sale 55gp peryton antlers1pair/flight feathers1bundle/taloned feet2, 10gp original small red gemstone1; negotiation 11+7+1=19, actual raw receipt attached. All transferred, paid65gp once. Other disputed valuables and evidence retained; no fee.",
+      "before": "Purse13846cp, specimens and red gemstone carried.",
+      "after": "Purse20346cp, specimen lot and red gemstone sold qty0; other custody unchanged.",
+      "owner_paths": [
+        "trackers/csv/v/v-inventory.csv",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D315-ELARA-PRIVATE-CROWN-AUDIENCE-OPENS-001",
+      "accepted": true,
+      "evidence": "Elara's existing request yields actual private security councillor/secretary audience at10:30, V and companions physically present, no testimony or evidence surrender, no official determination. Councillor asks V to begin.",
+      "before": "Audience request forwarded, no appointment.",
+      "after": "D315~10:30 inside Caereth palace private council chamber, V and willing Elara received by a Crown councillor responsible for security matters and a royal secretary; Mara/Cirren/Fenar accompany V as witnesses admitted for this private audience. Actual appointment obtained through Elara's earlier household request, no monarch personally present, no testimony or evidence transfer yet. Councillor asks V to present what he personally witnessed at Kestrel and what the originals establish. V owns exact disclosure and any surrender/copy authorization. Original Kestrel records still V-held, Mara notes, Fenar six sealed reagent vials and silver-fitted instrument, Cirren original private marriage compact. D314→315 secure city-house overnight +2 weighted LR3→5/6, no full LR yet; all HP/resources already full. D315 morning guild organizer arranged negotiated appraisal introductions before afternoon meeting, ordinary peryton lot (antler pair, feather bundle, two taloned feet) and small red gemstone professionally examined and sold with V authorization for total65gp (55gp specimens,10gp ordinary gemstone), transfer complete, no extra fee. Purse138gp4sp6cp→203gp4sp6cp. Older Reedbed garnet,2 amber, silver brooch, Fort2 garnets and2 stamped trade bars remain physically held with title unresolved, estimated210gp total, not sold or counted as cash; Elara's clerk advises relevant Ossent custody/claim clearance, ordinary inquiry can be prepared, no official clearance or dispatch yet. Kestrel physical exhibits withheld from sale. Food21/feed28, PixieDust1, Cirren wears Boots of Elvenkind, V attuned cloak+Luckstone. V48/48 AC19 HD7/7 all pools full; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2; Mara/Elara and horses healthy. Defense quest accepted late afternoon D315 meeting, reward unearned; no guarantee of national action. Severin correspondence pending. V dice delegated until stop. Await V's opening statement to Crown officials.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
