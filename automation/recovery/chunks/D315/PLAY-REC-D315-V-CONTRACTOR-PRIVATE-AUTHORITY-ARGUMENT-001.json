@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D315-V-CONTRACTOR-PRIVATE-AUTHORITY-ARGUMENT-001",
+  "base_commit": "338cf0ba0c237d9fda19dca6aee5712a3f9eea9a",
+  "source_checkpoint": "D315-1425-CAERETH-PRIVATE-CONTRACTOR-DIALOGUE-PENDING-001",
+  "destination_checkpoint": "D315-1430-CAERETH-COMMANDER-ACKNOWLEDGES-LIMIT-COUNTERPROPOSAL-001",
+  "source_evidence": "Player exact 'Operational control is not appropriation. That means you get to organize whatever inventory you are explicit authority over. I know for a fact that the crown will see it the same way.' V makes legal/political argument; no actual Crown ruling established by claim. Elara meaningfully Helps with her prior express corroboration. Predeclared DC15 acknowledge limit/consider lawful alternative, DC20 withdraw unilateral demand and propose joint custody publicly. Genuine visible Python secrets batch9b1017154982784c28a998dda27c2f1e d20 faces8,3 choose8+7=15; partial success only, no Guidance or limited resources. Commander acknowledges distinction but independently wants credible operational readiness, suggests lawful rapid issue protocol with designated guild personnel and agreed emergency trigger; no accepted terms or withdrawal. D315~14:30 Caereth guildhall side chamber, V/Elara/Cirren with private defense commander, Mara/Fenar just outside. V argues operational control is distinct from appropriation and limited to explicitly authorized inventory, asserts Crown would agree (V's position, not actual Crown ruling). Elara's meaningful Help corroborates legal distinction. Genuine visible Python secrets advantage faces8,3 take8 +Persuasion6 +Luckstone1=15, meets DC15 acknowledgment but falls short of DC20 withdrawal/joint custody agreement. Commander concedes existing Assembly mandate does not authorize unilateral taking of keys or stock, but has not withdrawn his instruction; counters that a rapid lawful release protocol with a quartermaster or designated deputy on duty and authority to mobilize on agreed alarm could address his readiness concern. He asks whether guild will actually agree; no V promise or guild consent yet. V can respond, propose joint custody, or explicitly invoke an eligible limited feature to improve failed DC20 threshold (not rolled/spent yet). No threat, combat, transfer, foreign link or milestone payment. Quartermaster holds keys, public meeting ~16:00. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 food21/feed28 purse403gp4sp6cp conditional240gp sale unpaid; Crown commission active remaining300+1300, D316 consultation invitation available; Defense contract833+1667 unearned. Dice delegated until stop.",
+  "pending_action": "D315~14:30 Caereth guildhall side chamber, V/Elara/Cirren with private defense commander, Mara/Fenar just outside. V argues operational control is distinct from appropriation and limited to explicitly authorized inventory, asserts Crown would agree (V's position, not actual Crown ruling). Elara's meaningful Help corroborates legal distinction. Genuine visible Python secrets advantage faces8,3 take8 +Persuasion6 +Luckstone1=15, meets DC15 acknowledgment but falls short of DC20 withdrawal/joint custody agreement. Commander concedes existing Assembly mandate does not authorize unilateral taking of keys or stock, but has not withdrawn his instruction; counters that a rapid lawful release protocol with a quartermaster or designated deputy on duty and authority to mobilize on agreed alarm could address his readiness concern. He asks whether guild will actually agree; no V promise or guild consent yet. V can respond, propose joint custody, or explicitly invoke an eligible limited feature to improve failed DC20 threshold (not rolled/spent yet). No threat, combat, transfer, foreign link or milestone payment. Quartermaster holds keys, public meeting ~16:00. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 food21/feed28 purse403gp4sp6cp conditional240gp sale unpaid; Crown commission active remaining300+1300, D316 consultation invitation available; Defense contract833+1667 unearned. Dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D315-V-PRIVATE-CONTRACTOR-COMMANDER-APPROACH-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "9b1017154982784c28a998dda27c2f1e",
+        "rolls": [
+          {
+            "id": "D315.V.guild_commander.private_persuasion",
+            "sides": 20,
+            "faces": [
+              8,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D315-V-GUILD-COMMANDER-AUTHORITY-ARGUMENT-PARTIAL-SUCCESS-001",
+      "accepted": true,
+      "evidence": "Player exact 'Operational control is not appropriation. That means you get to organize whatever inventory you are explicit authority over. I know for a fact that the crown will see it the same way.' V makes legal/political argument; no actual Crown ruling established by claim. Elara meaningfully Helps with her prior express corroboration. Predeclared DC15 acknowledge limit/consider lawful alternative, DC20 withdraw unilateral demand and propose joint custody publicly. Genuine visible Python secrets batch9b1017154982784c28a998dda27c2f1e d20 faces8,3 choose8+7=15; partial success only, no Guidance or limited resources. Commander acknowledges distinction but independently wants credible operational readiness, suggests lawful rapid issue protocol with designated guild personnel and agreed emergency trigger; no accepted terms or withdrawal. D315~14:30 Caereth guildhall side chamber, V/Elara/Cirren with private defense commander, Mara/Fenar just outside. V argues operational control is distinct from appropriation and limited to explicitly authorized inventory, asserts Crown would agree (V's position, not actual Crown ruling). Elara's meaningful Help corroborates legal distinction. Genuine visible Python secrets advantage faces8,3 take8 +Persuasion6 +Luckstone1=15, meets DC15 acknowledgment but falls short of DC20 withdrawal/joint custody agreement. Commander concedes existing Assembly mandate does not authorize unilateral taking of keys or stock, but has not withdrawn his instruction; counters that a rapid lawful release protocol with a quartermaster or designated deputy on duty and authority to mobilize on agreed alarm could address his readiness concern. He asks whether guild will actually agree; no V promise or guild consent yet. V can respond, propose joint custody, or explicitly invoke an eligible limited feature to improve failed DC20 threshold (not rolled/spent yet). No threat, combat, transfer, foreign link or milestone payment. Quartermaster holds keys, public meeting ~16:00. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 food21/feed28 purse403gp4sp6cp conditional240gp sale unpaid; Crown commission active remaining300+1300, D316 consultation invitation available; Defense contract833+1667 unearned. Dice delegated until stop.",
+      "before": "Private commander conversation open, V substantive argument pending.",
+      "after": "D315~14:30 Caereth guildhall side chamber, V/Elara/Cirren with private defense commander, Mara/Fenar just outside. V argues operational control is distinct from appropriation and limited to explicitly authorized inventory, asserts Crown would agree (V's position, not actual Crown ruling). Elara's meaningful Help corroborates legal distinction. Genuine visible Python secrets advantage faces8,3 take8 +Persuasion6 +Luckstone1=15, meets DC15 acknowledgment but falls short of DC20 withdrawal/joint custody agreement. Commander concedes existing Assembly mandate does not authorize unilateral taking of keys or stock, but has not withdrawn his instruction; counters that a rapid lawful release protocol with a quartermaster or designated deputy on duty and authority to mobilize on agreed alarm could address his readiness concern. He asks whether guild will actually agree; no V promise or guild consent yet. V can respond, propose joint custody, or explicitly invoke an eligible limited feature to improve failed DC20 threshold (not rolled/spent yet). No threat, combat, transfer, foreign link or milestone payment. Quartermaster holds keys, public meeting ~16:00. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 food21/feed28 purse403gp4sp6cp conditional240gp sale unpaid; Crown commission active remaining300+1300, D316 consultation invitation available; Defense contract833+1667 unearned. Dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
