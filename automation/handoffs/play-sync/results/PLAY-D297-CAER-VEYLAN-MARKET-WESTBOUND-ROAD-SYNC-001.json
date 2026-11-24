@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D297-CAER-VEYLAN-MARKET-WESTBOUND-ROAD-SYNC-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr39-c3c55816",
+  "claim_expires_at": "2026-11-24T01:55:00Z",
+  "request_commit": "f9cdfde207d2efd274c9e7fc7ed973a9a4715cb8",
+  "request_blob": "a2790ade04ac7d284a15d7366e6879766568c40d",
+  "summary": "26 accepted events; verified 12 immutable chunks, pinned journal and completed dependency. Preparing minimal owner updates through D297; convoy choice remains pending.",
+  "blocker": null,
+  "applied_event_ids": [],
+  "owners_verified": false,
+  "checkpoint_verified": false
+}
