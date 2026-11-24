@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D319-320-ORSAVEN-ROAD-FRONTIER-TRAVELERS-001",
+  "base_commit": "d828cf0c62d079eb22d9fd64cfad7c6f3b68d0c5",
+  "source_checkpoint": "D319-0730-CROWNSUNDER-ORSAVEN-ROAD-TWO-QUIET-DAYS-001",
+  "destination_checkpoint": "D320-1200-CROWNSUNDER-FRONTIER-WOOL-CARTER-SOCIAL-ENCOUNTER-001",
+  "source_evidence": "Player exact 'Continue' authorizes continued ordinary westbound travel. Source-pinned travel packet from PLAY-REC-D316-319-V-CROWN-LETTER-CAERETH-DEPARTURE-TWO-QUIET-DAYS-001; rules-travel-communication.md D100 occurrence/one per day, rules-combat-recovery.md weighted rests, geography-seats.md and human-states.md shared frontier/succession and household practices. Prior visible Python predeclares D319 ordinary trade road day15/night7, D320 militarized frontier day30, stop on occurrence or before crossing, same local candidate categories, no relocating prepared frontier quest. Actual visible secrets batch fcf607f6a83490828cbebb0d7734f1df: D319 day72 and night62 quiet, D320 day23 triggers, type79 social. No hostility/severity roll. D319 completed, rations15→12 feed20→16, quiet exposed night +1 rest4→5, all pools remain full. D320 reaches social scene before crossing, no nightly check due encounter day, no full day debit yet. Independent carter and sister use trade road and maintain cross-border family connection, own knowledge limited to past commercial crossings and relatives, no invented confidential intelligence or attack schedule. V decides response. D320~12:00 westbound Caereth→Orsaven coach route, on Crownsunder side in the militarized frontier approaches, before actual border crossing. V/Mara/Cirren/Fenar and own coach/four horses healthy. D319 ordinary trade road genuine day72 vs15 and exposed night62 vs7 quiet; D319 full travel day supplies15→12 ration person-days,20→16 horse-feed units, overnight weighted LR4→5/6, no full LR. Routine Tamsin exchanges on D319/D320, no specific business outcome inferred. D320 frontier tier day30/night20 fixed prior to genuine roll; day23 triggers occurrence, type79 social. Current leg8 planned days D317–324, cap5, now1 encounter day (D320), consecutive1; no D320 night occurrence roll even if exposed, no full D320 supply debit/overnight yet. At noon roadside stone watering trough near a shared-war memorial, a westbound wool carter and his adult sister from families divided by the frontier have halted to water their team. Carter has made this commercial crossing before, speaks from his own experience that ordinary freight passage continues despite differing loyalties; his sister lives on the other side and wants to visit family graves. No knowledge of V's sealed letter, Kestrel, frontier perpetrators or any privileged official report. He asks V if returning from Caereth and whether they are headed to Orsaven, offers to share crossing conditions from his own experience; no escort contract, quest, fee, threat, mandatory check or claimed fresh raid. V may converse or proceed. G1 shared household traditions and disputed succession/armistice grounded in world/politics/human-states.md; G2 voluntary social encounter with meaningful opportunity to understand local tensions or pass; G3 routine social interaction no combat or prize, no compulsory consequence. Frontier operation geographically distinct, not moved here. All party HP/resources full: V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; Mara healthy. Purse2903gp4sp6cp; provisions12/16 four days at normal daily usage before D320 charge. Conditional240gp sale unpaid. Sealed diplomatic invitation/limited credentials V-held, Crown intelligence commission active remaining300+1300, Kestrel evidence custody unchanged, Elara Caereth representative, Severin reply pending. Dice delegated until stop.",
+  "pending_action": "D320~12:00 westbound Caereth→Orsaven coach route, on Crownsunder side in the militarized frontier approaches, before actual border crossing. V/Mara/Cirren/Fenar and own coach/four horses healthy. D319 ordinary trade road genuine day72 vs15 and exposed night62 vs7 quiet; D319 full travel day supplies15→12 ration person-days,20→16 horse-feed units, overnight weighted LR4→5/6, no full LR. Routine Tamsin exchanges on D319/D320, no specific business outcome inferred. D320 frontier tier day30/night20 fixed prior to genuine roll; day23 triggers occurrence, type79 social. Current leg8 planned days D317–324, cap5, now1 encounter day (D320), consecutive1; no D320 night occurrence roll even if exposed, no full D320 supply debit/overnight yet. At noon roadside stone watering trough near a shared-war memorial, a westbound wool carter and his adult sister from families divided by the frontier have halted to water their team. Carter has made this commercial crossing before, speaks from his own experience that ordinary freight passage continues despite differing loyalties; his sister lives on the other side and wants to visit family graves. No knowledge of V's sealed letter, Kestrel, frontier perpetrators or any privileged official report. He asks V if returning from Caereth and whether they are headed to Orsaven, offers to share crossing conditions from his own experience; no escort contract, quest, fee, threat, mandatory check or claimed fresh raid. V may converse or proceed. G1 shared household traditions and disputed succession/armistice grounded in world/politics/human-states.md; G2 voluntary social encounter with meaningful opportunity to understand local tensions or pass; G3 routine social interaction no combat or prize, no compulsory consequence. Frontier operation geographically distinct, not moved here. All party HP/resources full: V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; Mara healthy. Purse2903gp4sp6cp; provisions12/16 four days at normal daily usage before D320 charge. Conditional240gp sale unpaid. Sealed diplomatic invitation/limited credentials V-held, Crown intelligence commission active remaining300+1300, Kestrel evidence custody unchanged, Elara Caereth representative, Severin reply pending. Dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D316-319-V-CROWN-LETTER-CAERETH-DEPARTURE-TWO-QUIET-DAYS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "fcf607f6a83490828cbebb0d7734f1df",
+        "rolls": [
+          {
+            "id": "D319.Caereth_Orsaven.road.occurrence.day",
+            "sides": 100,
+            "faces": [
+              72
+            ]
+          },
+          {
+            "id": "D319.Caereth_Orsaven.road.occurrence.night",
+            "sides": 100,
+            "faces": [
+              62
+            ]
+          },
+          {
+            "id": "D320.Caereth_Orsaven.road.occurrence.day",
+            "sides": 100,
+            "faces": [
+              23
+            ]
+          },
+          {
+            "id": "D320.Caereth_Orsaven.road.type",
+            "sides": 100,
+            "faces": [
+              79
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D319-CROWNSUNDER-TRADE-ROAD-QUIET-DAY-NIGHT-001",
+      "accepted": true,
+      "evidence": "Actual day72/night62 vs15/7 quiet. Full day travel uses3 rations and4 feed, quiet wilderness overnight rest+1.",
+      "before": "D319 dawn rations15/feed20 rest4/6.",
+      "after": "D320 dawn rations12/feed16 rest5/6, all pools full.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-inventory.csv"
+      ]
+    },
+    {
+      "event_id": "D320-CROWNSUNDER-FRONTIER-SOCIAL-WOOL-CARTER-001",
+      "accepted": true,
+      "evidence": "Player exact 'Continue' authorizes continued ordinary westbound travel. Source-pinned travel packet from PLAY-REC-D316-319-V-CROWN-LETTER-CAERETH-DEPARTURE-TWO-QUIET-DAYS-001; rules-travel-communication.md D100 occurrence/one per day, rules-combat-recovery.md weighted rests, geography-seats.md and human-states.md shared frontier/succession and household practices. Prior visible Python predeclares D319 ordinary trade road day15/night7, D320 militarized frontier day30, stop on occurrence or before crossing, same local candidate categories, no relocating prepared frontier quest. Actual visible secrets batch fcf607f6a83490828cbebb0d7734f1df: D319 day72 and night62 quiet, D320 day23 triggers, type79 social. No hostility/severity roll. D319 completed, rations15→12 feed20→16, quiet exposed night +1 rest4→5, all pools remain full. D320 reaches social scene before crossing, no nightly check due encounter day, no full day debit yet. Independent carter and sister use trade road and maintain cross-border family connection, own knowledge limited to past commercial crossings and relatives, no invented confidential intelligence or attack schedule. V decides response. D320~12:00 westbound Caereth→Orsaven coach route, on Crownsunder side in the militarized frontier approaches, before actual border crossing. V/Mara/Cirren/Fenar and own coach/four horses healthy. D319 ordinary trade road genuine day72 vs15 and exposed night62 vs7 quiet; D319 full travel day supplies15→12 ration person-days,20→16 horse-feed units, overnight weighted LR4→5/6, no full LR. Routine Tamsin exchanges on D319/D320, no specific business outcome inferred. D320 frontier tier day30/night20 fixed prior to genuine roll; day23 triggers occurrence, type79 social. Current leg8 planned days D317–324, cap5, now1 encounter day (D320), consecutive1; no D320 night occurrence roll even if exposed, no full D320 supply debit/overnight yet. At noon roadside stone watering trough near a shared-war memorial, a westbound wool carter and his adult sister from families divided by the frontier have halted to water their team. Carter has made this commercial crossing before, speaks from his own experience that ordinary freight passage continues despite differing loyalties; his sister lives on the other side and wants to visit family graves. No knowledge of V's sealed letter, Kestrel, frontier perpetrators or any privileged official report. He asks V if returning from Caereth and whether they are headed to Orsaven, offers to share crossing conditions from his own experience; no escort contract, quest, fee, threat, mandatory check or claimed fresh raid. V may converse or proceed. G1 shared household traditions and disputed succession/armistice grounded in world/politics/human-states.md; G2 voluntary social encounter with meaningful opportunity to understand local tensions or pass; G3 routine social interaction no combat or prize, no compulsory consequence. Frontier operation geographically distinct, not moved here. All party HP/resources full: V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; Mara healthy. Purse2903gp4sp6cp; provisions12/16 four days at normal daily usage before D320 charge. Conditional240gp sale unpaid. Sealed diplomatic invitation/limited credentials V-held, Crown intelligence commission active remaining300+1300, Kestrel evidence custody unchanged, Elara Caereth representative, Severin reply pending. Dice delegated until stop.",
+      "before": "D320 morning frontier approach, no encounter days yet.",
+      "after": "D320~12:00 westbound Caereth→Orsaven coach route, on Crownsunder side in the militarized frontier approaches, before actual border crossing. V/Mara/Cirren/Fenar and own coach/four horses healthy. D319 ordinary trade road genuine day72 vs15 and exposed night62 vs7 quiet; D319 full travel day supplies15→12 ration person-days,20→16 horse-feed units, overnight weighted LR4→5/6, no full LR. Routine Tamsin exchanges on D319/D320, no specific business outcome inferred. D320 frontier tier day30/night20 fixed prior to genuine roll; day23 triggers occurrence, type79 social. Current leg8 planned days D317–324, cap5, now1 encounter day (D320), consecutive1; no D320 night occurrence roll even if exposed, no full D320 supply debit/overnight yet. At noon roadside stone watering trough near a shared-war memorial, a westbound wool carter and his adult sister from families divided by the frontier have halted to water their team. Carter has made this commercial crossing before, speaks from his own experience that ordinary freight passage continues despite differing loyalties; his sister lives on the other side and wants to visit family graves. No knowledge of V's sealed letter, Kestrel, frontier perpetrators or any privileged official report. He asks V if returning from Caereth and whether they are headed to Orsaven, offers to share crossing conditions from his own experience; no escort contract, quest, fee, threat, mandatory check or claimed fresh raid. V may converse or proceed. G1 shared household traditions and disputed succession/armistice grounded in world/politics/human-states.md; G2 voluntary social encounter with meaningful opportunity to understand local tensions or pass; G3 routine social interaction no combat or prize, no compulsory consequence. Frontier operation geographically distinct, not moved here. All party HP/resources full: V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; Mara healthy. Purse2903gp4sp6cp; provisions12/16 four days at normal daily usage before D320 charge. Conditional240gp sale unpaid. Sealed diplomatic invitation/limited credentials V-held, Crown intelligence commission active remaining300+1300, Kestrel evidence custody unchanged, Elara Caereth representative, Severin reply pending. Dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
