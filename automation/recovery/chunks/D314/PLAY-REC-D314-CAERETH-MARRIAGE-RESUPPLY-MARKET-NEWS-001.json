@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D314-CAERETH-MARRIAGE-RESUPPLY-MARKET-NEWS-001",
+  "base_commit": "d093729e6804082ef222178dea130e31f403542e",
+  "source_checkpoint": "D314-1630-CAERETH-RETHWYN-CITY-RESIDENCE-ARRIVAL-001",
+  "destination_checkpoint": "D314-1900-CAERETH-MARRIED-MARKET-CHOICE-PENDING-001",
+  "source_evidence": "Player exact 'Well we have a few things to do... first our marriage! Then supplies and magical items. Then see what is new in town and what adventuring there is to be had. Then dinner, and to your estate in Caereth. Tomorrow hopefully the palace.' This expressly directs marriage recognition, routine restock, magic browse and local public inquiry, not an automatic magic purchase, acceptance of a quest, royal hearing or testimony. D314~16:30 arrival at Elara's Caereth house. Prior D310 preliminary clerk consultation and D233 compact signed by V/Elara with Mara/Fenar witness, original Cirren custody. Elara independently arranges timely meeting via established clerk and competent civil registrar after prior household legal consultation; actual current ordinary proceedings: both consent to marriage (V explicitly says first our marriage), witnesses confirm existing signatures, registrar accepts and enters marriage in Crownsunder civil register. Newly adjudicated successful routine civil procedure consistent with household recognition traditions, not a claimed recovered earlier official approval, not formal peerage/inheritance decision or cross-border recognition; no exact new vow or compact text invented, no new V oath or property change. Acknowledgment retained by Elara's household; Cirren retains original compact; Elara covers normal household administration, no V debit. Afterward routine supply restock to seven travel days, 6 ration-days×5sp=3gp and8 feed-days×5cp=4sp total3gp4sp, V cash386gp8sp6cp→383gp4sp6cp; food15→21 feed20→28. Elara independently covers her provisions. Scoped due open-sale stock reviews from verified Caereth Dealers/Stock/Events, no known funded buyer or alternative custodian, p35%, precommitted unchanged review interval28 days; genuine visible Python receipt 358c6b389ea744672d8cb0b46a0f189e: D282 Gilt Thread Ring d10083 unchanged350 next310; D310 d10042 unchanged350 next338; D289 Lantern & Lens Driftglobe d10077 unchanged310 next317; D301 Quiet Heel Boots d10048 unchanged290 next329. No development roll because all exceed35. One actual market inquiry each, offers disclosed, no sale/hold; other overdue lots not adjudicated. Local guild courtyard and contact inquiry grounds public news and three offers from prep/dm-only/dm-orath-regional-arcs.md OR-CR-CA, not DM truth: defense debate, district organizer asks for safe meeting and opposition to threatened unauthorized seizure with guild-backed total2500gp subject to agreed protection/objective; household steward seeks heirloom at dangerous abandoned upland stronghold 12 rough-path miles north, 650gp, another family claim, documentation alternative; menagerie keeper reports deliberate attacks on rare animal enclosure about1mile east, 500gp to investigate and secure animal/staff, cancellation possible. No quest accepted, specific hidden actors or combat details not revealed. Time advances to ~19:00; stop for V magic spending/decision before dinner, no D314 overnight or palace appointment. D314~19:00 Caereth, late market/guild courtyard, V/Elara/Mara/Cirren/Fenar together. V and Elara's mutually requested marriage has now been entered in Caereth's competent civil marriage register after prior consultation and actual review of witnessed Day233 compact and their present consent; marriage recognized in Crownsunder, no automatic new hereditary title, foreign recognition, property merger, separate inheritance determination, alliance oath, or change in house authority. Original compact remains with Cirren after inspection; Elara's household retains registration acknowledgment. No V fee charged, Elara covers any ordinary household administrative charges without specified amount. V bought6 ration-person-days+8 animal-feed days at established rates5sp/5cp, total3gp4sp, purse386gp8sp6cp→383gp4sp6cp; stocks15/20→21/28, no further travel ration consumption. Three actual local open-sale inquiries now presented: Boots of Elvenkind290gp Quiet Heel Bootworks, Driftglobe310gp Lantern & Lens, Ring of Truth Telling350gp Gilt Thread Repairs; no purchases, holds, negotiation, or attunement. Due review results D282 ring83>35 next310, D310 ring42>35 next338, D289 Driftglobe77>35 next317, D301 boots48>35 next329. These four dated market reviews require posting once to specialist owners; no other market reviews adjudicated. Actual public local news/openings learned via guild courtyard/people there: assembly debate over emergency defense powers, district organizer seeks help protecting a guild meeting and preventing unauthorized coercive control of armory, guild reserve2500gp total with terms to discuss; bereaved household steward seeks dangerous northern stronghold heirloom recovery650gp, another family claims it, lawful evidence alternative; keeper seeks aid against deliberate attacks on rare creature enclosure east of city500gp, safe exhibition cancellation possible. No accepted quest, hidden roster or cause revealed. Palace private audience request forwarded, still awaiting appointment, no evidence transfer. V chooses whether to buy magic, pursue a lead or finish evening at Elara's residence as planned; no dinner/night completed yet. All party HP full V48/48 AC19 HD7/7 all pools full attuned cloak+Luckstone, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2, Mara/Elara and horses healthy; rest3/6. PixieDust1, peryton specimens and evidence custody unchanged. Severin memorandum pending reply. V dice delegated until stop.",
+  "pending_action": "D314~19:00 Caereth, late market/guild courtyard, V/Elara/Mara/Cirren/Fenar together. V and Elara's mutually requested marriage has now been entered in Caereth's competent civil marriage register after prior consultation and actual review of witnessed Day233 compact and their present consent; marriage recognized in Crownsunder, no automatic new hereditary title, foreign recognition, property merger, separate inheritance determination, alliance oath, or change in house authority. Original compact remains with Cirren after inspection; Elara's household retains registration acknowledgment. No V fee charged, Elara covers any ordinary household administrative charges without specified amount. V bought6 ration-person-days+8 animal-feed days at established rates5sp/5cp, total3gp4sp, purse386gp8sp6cp→383gp4sp6cp; stocks15/20→21/28, no further travel ration consumption. Three actual local open-sale inquiries now presented: Boots of Elvenkind290gp Quiet Heel Bootworks, Driftglobe310gp Lantern & Lens, Ring of Truth Telling350gp Gilt Thread Repairs; no purchases, holds, negotiation, or attunement. Due review results D282 ring83>35 next310, D310 ring42>35 next338, D289 Driftglobe77>35 next317, D301 boots48>35 next329. These four dated market reviews require posting once to specialist owners; no other market reviews adjudicated. Actual public local news/openings learned via guild courtyard/people there: assembly debate over emergency defense powers, district organizer seeks help protecting a guild meeting and preventing unauthorized coercive control of armory, guild reserve2500gp total with terms to discuss; bereaved household steward seeks dangerous northern stronghold heirloom recovery650gp, another family claims it, lawful evidence alternative; keeper seeks aid against deliberate attacks on rare creature enclosure east of city500gp, safe exhibition cancellation possible. No accepted quest, hidden roster or cause revealed. Palace private audience request forwarded, still awaiting appointment, no evidence transfer. V chooses whether to buy magic, pursue a lead or finish evening at Elara's residence as planned; no dinner/night completed yet. All party HP full V48/48 AC19 HD7/7 all pools full attuned cloak+Luckstone, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2, Mara/Elara and horses healthy; rest3/6. PixieDust1, peryton specimens and evidence custody unchanged. Severin memorandum pending reply. V dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D313-314-V-RELOCATES-CAMP-CAERETH-ARRIVAL-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "358c6b389ea744672d8cb0b46a0f189e",
+        "rolls": [
+          {
+            "id": "D282.Caereth.ring.review",
+            "sides": 100,
+            "faces": [
+              83
+            ]
+          },
+          {
+            "id": "D310.Caereth.ring.review",
+            "sides": 100,
+            "faces": [
+              42
+            ]
+          },
+          {
+            "id": "D289.Caereth.driftglobe.review",
+            "sides": 100,
+            "faces": [
+              77
+            ]
+          },
+          {
+            "id": "D301.Caereth.boots.review",
+            "sides": 100,
+            "faces": [
+              48
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D314-CAERETH-V-ELARA-CIVIL-MARRIAGE-REGISTERED-001",
+      "accepted": true,
+      "evidence": "Mutual expressed consent, original witnessed D233 compact inspected by competent local registrar with established clerk's preliminary advice. Current official marriage registered in Crownsunder. No automatic house property merger, title, succession, foreign recognition, pact or V expense; household acknowledgment Elara, compact Cirren.",
+      "before": "Private engaged couple, formal recognition pending.",
+      "after": "Recognized married couple in Crownsunder; separate house autonomy and assets.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    },
+    {
+      "event_id": "D314-V-CAERETH-TWO-DAY-PROVISION-REFILL-001",
+      "accepted": true,
+      "evidence": "6 ration-days @5sp and8 feed-days @5cp, cost3gp4sp, no other V cost.",
+      "before": "386gp8sp6cp, food15/feed20.",
+      "after": "383gp4sp6cp, food21/feed28.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D314-CAERETH-SCOPED-MAGIC-REVIEWS-AND-BROWSE-001",
+      "accepted": true,
+      "evidence": "Four due reviews raw visible receipt; ring83 D282 and42 D310 unchanged350 next338, driftglobe77 D289 unchanged310 next317, boots48 D301 unchanged290 next329. All three offers shown, none bought. Apply once to dealers/events, no other lots.",
+      "before": "Original stock and four due reviews outstanding, ring undiscovered.",
+      "after": "Three available disclosed offers, no transfer.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "trackers/csv/magic-shops/dealers.csv",
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/stock.csv"
+      ]
+    },
+    {
+      "event_id": "D314-CAERETH-GUILD-COURTYARD-THREE-ADVENTURE-OPENINGS-001",
+      "accepted": true,
+      "evidence": "Actual local contact presents OR-CR-CA guild defense2500, heirloom650, menagerie500 as public offers, no acceptance or hidden details. Palace appointment still pending.",
+      "before": "Caereth city leads not introduced.",
+      "after": "D314~19:00 Caereth, late market/guild courtyard, V/Elara/Mara/Cirren/Fenar together. V and Elara's mutually requested marriage has now been entered in Caereth's competent civil marriage register after prior consultation and actual review of witnessed Day233 compact and their present consent; marriage recognized in Crownsunder, no automatic new hereditary title, foreign recognition, property merger, separate inheritance determination, alliance oath, or change in house authority. Original compact remains with Cirren after inspection; Elara's household retains registration acknowledgment. No V fee charged, Elara covers any ordinary household administrative charges without specified amount. V bought6 ration-person-days+8 animal-feed days at established rates5sp/5cp, total3gp4sp, purse386gp8sp6cp→383gp4sp6cp; stocks15/20→21/28, no further travel ration consumption. Three actual local open-sale inquiries now presented: Boots of Elvenkind290gp Quiet Heel Bootworks, Driftglobe310gp Lantern & Lens, Ring of Truth Telling350gp Gilt Thread Repairs; no purchases, holds, negotiation, or attunement. Due review results D282 ring83>35 next310, D310 ring42>35 next338, D289 Driftglobe77>35 next317, D301 boots48>35 next329. These four dated market reviews require posting once to specialist owners; no other market reviews adjudicated. Actual public local news/openings learned via guild courtyard/people there: assembly debate over emergency defense powers, district organizer seeks help protecting a guild meeting and preventing unauthorized coercive control of armory, guild reserve2500gp total with terms to discuss; bereaved household steward seeks dangerous northern stronghold heirloom recovery650gp, another family claims it, lawful evidence alternative; keeper seeks aid against deliberate attacks on rare creature enclosure east of city500gp, safe exhibition cancellation possible. No accepted quest, hidden roster or cause revealed. Palace private audience request forwarded, still awaiting appointment, no evidence transfer. V chooses whether to buy magic, pursue a lead or finish evening at Elara's residence as planned; no dinner/night completed yet. All party HP full V48/48 AC19 HD7/7 all pools full attuned cloak+Luckstone, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2, Mara/Elara and horses healthy; rest3/6. PixieDust1, peryton specimens and evidence custody unchanged. Severin memorandum pending reply. V dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
