@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D316-319-V-CROWN-LETTER-CAERETH-DEPARTURE-TWO-QUIET-DAYS-001",
+  "base_commit": "8d216a69c3996e6ac97a3b1d18a7130f99de3ff7",
+  "source_checkpoint": "D316-1500-CAERETH-DEFENSE-CONSULTATION-CONCLUDED-001",
+  "destination_checkpoint": "D319-0730-CROWNSUNDER-ORSAVEN-ROAD-TWO-QUIET-DAYS-001",
+  "source_evidence": "Player exact 'Then its time to go to Orsaven' authorizes ordinary preparations, collection of accepted diplomatic assignment packet and travel on established westward coach route. Prior accepted invitation delivery request authorizes official staff to complete the previously promised letter and limited credentials by D317 morning; actual Crown office prepares and hands V sealed preliminary invitation for appropriate Ossent royal authorities, no treaty signature power, no surrender of claims or disclosure of Kestrel exhibits. Existing political canon: Ossent conditions cooperation on suspension of Crownsunder throne claim; letter only opens preliminary discussion, cannot guarantee acceptance. Elara remains in Caereth, no unauthorized pledges; farewell and ordinary hosted D316 night, no personal cost. Prior D216–223 reverse trip supports approximate eight-day travel planning (not exact surveyed mileage), leg D317–324 planned, cap floor(.7×8)=5 encounter days; first two ordinary maintained trade road days, thresholds day15/night7, exposed camp, local candidates declared in actual visible Python script before rolls, no encounter/type/severity rolls triggered. Genuine batch ad6079bc6695c832adb05e989f2486bf actual d100s D317 day33/night58,D318 day28/night53; two uneventful days and nights, stop at D319 morning, no frontier crossing. D316 secure hosted night +2 and two wilderness nights +1 each weighted0→4/6, no full LR, all pools full. Carried supplies daily three ration person-days/four feed days ×2:21→15,28→20, no invented purchases. Routine Tamsin communications as established, no asserted estate outcome. Source pins world/politics/geography-seats.md; world/politics/human-states.md; campaign/continuity/rules-travel-communication.md D216–223 geography and travel D100; rules-combat-recovery.md weighted rest; NPCS voice guides; D316 accepted consultation end. G1 route consistent and distinct political interests; G2 known route and purpose, V chose departure; G3 scoped routine travel occurrence/caps/candidate bands and rest/supplies fixed before rolls, no quest fight or reward advanced, actual border encounter and diplomatic audience require separate readiness checks. D319~07:30 at ordinary westbound road camp on Caereth→Orsaven coach route, two of planned eight travel days completed (D317–318), still within Crownsunder, no Ossent frontier crossing yet. V/Mara/Cirren/Fenar and owned coach/4 horses healthy. Original signed sealed preliminary Crown diplomatic invitation and limited authenticated messenger credentials with recipient instructions for appropriate Ossent royal authorities now V-held, private, distinct from already received frontier intelligence commission credentials; no treaty authority or guaranteed audience/acceptance. Elara remains in Caereth at her residence, standing representative of Vaishnavi and her own Rethwyn interests, Severin assent/reply unconfirmed; cordial farewell. D316→317 uninterrupted hosted secure night +2, then D317→318 and D318→319 qualifying exposed quiet roadside nights +1 each, weighted LR0→4/6, no full LR or resource spend. D317 day33 vs15, night58 vs7, D318 day28 vs15, night53 vs7 all genuine quiet. Leg intended8days D317–324 subject to actual conditions, cap5 encounter days, currently0, consecutive0; first two days ordinary trade road, reassess actual frontier geography before further rolls. Rations21→15 person-days, horse feed28→20 (five days remain at3/4 daily), V Reborn no ration. No new personal spending, purchase, fee or reward, purse2903gp4sp6cp, conditional240gp sale unpaid; needs routine replenishment before exhaustion if final leg takes8 days. Routine daily Tamsin stone exchanges per standing instruction during elapsed days, no particular business result inferred, D319 morning exchange available. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Mara healthy. Kestrel originals V, Mara notes, Fenar six sealed vials/instrument, Cirren compact; Crown certified copies retained. Defense complete, 2500 paid; Crown intel commission 200 advanced,300+1300 outstanding, active scholarly commission300/800 contingent, no other quest commitment. Next action: resume westbound journey, actual regional transition and border checks not yet played. Dice delegated until stop.",
+  "pending_action": "D319~07:30 at ordinary westbound road camp on Caereth→Orsaven coach route, two of planned eight travel days completed (D317–318), still within Crownsunder, no Ossent frontier crossing yet. V/Mara/Cirren/Fenar and owned coach/4 horses healthy. Original signed sealed preliminary Crown diplomatic invitation and limited authenticated messenger credentials with recipient instructions for appropriate Ossent royal authorities now V-held, private, distinct from already received frontier intelligence commission credentials; no treaty authority or guaranteed audience/acceptance. Elara remains in Caereth at her residence, standing representative of Vaishnavi and her own Rethwyn interests, Severin assent/reply unconfirmed; cordial farewell. D316→317 uninterrupted hosted secure night +2, then D317→318 and D318→319 qualifying exposed quiet roadside nights +1 each, weighted LR0→4/6, no full LR or resource spend. D317 day33 vs15, night58 vs7, D318 day28 vs15, night53 vs7 all genuine quiet. Leg intended8days D317–324 subject to actual conditions, cap5 encounter days, currently0, consecutive0; first two days ordinary trade road, reassess actual frontier geography before further rolls. Rations21→15 person-days, horse feed28→20 (five days remain at3/4 daily), V Reborn no ration. No new personal spending, purchase, fee or reward, purse2903gp4sp6cp, conditional240gp sale unpaid; needs routine replenishment before exhaustion if final leg takes8 days. Routine daily Tamsin stone exchanges per standing instruction during elapsed days, no particular business result inferred, D319 morning exchange available. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Mara healthy. Kestrel originals V, Mara notes, Fenar six sealed vials/instrument, Cirren compact; Crown certified copies retained. Defense complete, 2500 paid; Crown intel commission 200 advanced,300+1300 outstanding, active scholarly commission300/800 contingent, no other quest commitment. Next action: resume westbound journey, actual regional transition and border checks not yet played. Dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D316-DEFENSE-CONSULTATION-CONCLUDES-DIGNITY-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "ad6079bc6695c832adb05e989f2486bf",
+        "rolls": [
+          {
+            "id": "D317.Caereth_Orsaven.road.occurrence.day",
+            "sides": 100,
+            "faces": [
+              33
+            ]
+          },
+          {
+            "id": "D317.Caereth_Orsaven.road.occurrence.night",
+            "sides": 100,
+            "faces": [
+              58
+            ]
+          },
+          {
+            "id": "D318.Caereth_Orsaven.road.occurrence.day",
+            "sides": 100,
+            "faces": [
+              28
+            ]
+          },
+          {
+            "id": "D318.Caereth_Orsaven.road.occurrence.night",
+            "sides": 100,
+            "faces": [
+              53
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D317-CROWN-SEALED-OSSENT-INVITATION-CREDENTIALS-DELIVERED-V-001",
+      "accepted": true,
+      "evidence": "Previously accepted limited diplomatic carriage assignment's sealed invitation and messenger credentials prepared and delivered to V before departure. Preliminary invitation only, no substantive treaty power or acceptance.",
+      "before": "Letter/credentials in preparation.",
+      "after": "V holds sealed letter and credentials; delivery to Ossent pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md",
+        "trackers/csv/v/v-inventory.csv"
+      ]
+    },
+    {
+      "event_id": "D316-319-V-DEPARTS-CAERETH-TWO-QUIET-ROAD-DAYS-001",
+      "accepted": true,
+      "evidence": "Player exact 'Then its time to go to Orsaven' authorizes ordinary preparations, collection of accepted diplomatic assignment packet and travel on established westward coach route. Prior accepted invitation delivery request authorizes official staff to complete the previously promised letter and limited credentials by D317 morning; actual Crown office prepares and hands V sealed preliminary invitation for appropriate Ossent royal authorities, no treaty signature power, no surrender of claims or disclosure of Kestrel exhibits. Existing political canon: Ossent conditions cooperation on suspension of Crownsunder throne claim; letter only opens preliminary discussion, cannot guarantee acceptance. Elara remains in Caereth, no unauthorized pledges; farewell and ordinary hosted D316 night, no personal cost. Prior D216–223 reverse trip supports approximate eight-day travel planning (not exact surveyed mileage), leg D317–324 planned, cap floor(.7×8)=5 encounter days; first two ordinary maintained trade road days, thresholds day15/night7, exposed camp, local candidates declared in actual visible Python script before rolls, no encounter/type/severity rolls triggered. Genuine batch ad6079bc6695c832adb05e989f2486bf actual d100s D317 day33/night58,D318 day28/night53; two uneventful days and nights, stop at D319 morning, no frontier crossing. D316 secure hosted night +2 and two wilderness nights +1 each weighted0→4/6, no full LR, all pools full. Carried supplies daily three ration person-days/four feed days ×2:21→15,28→20, no invented purchases. Routine Tamsin communications as established, no asserted estate outcome. Source pins world/politics/geography-seats.md; world/politics/human-states.md; campaign/continuity/rules-travel-communication.md D216–223 geography and travel D100; rules-combat-recovery.md weighted rest; NPCS voice guides; D316 accepted consultation end. G1 route consistent and distinct political interests; G2 known route and purpose, V chose departure; G3 scoped routine travel occurrence/caps/candidate bands and rest/supplies fixed before rolls, no quest fight or reward advanced, actual border encounter and diplomatic audience require separate readiness checks. D319~07:30 at ordinary westbound road camp on Caereth→Orsaven coach route, two of planned eight travel days completed (D317–318), still within Crownsunder, no Ossent frontier crossing yet. V/Mara/Cirren/Fenar and owned coach/4 horses healthy. Original signed sealed preliminary Crown diplomatic invitation and limited authenticated messenger credentials with recipient instructions for appropriate Ossent royal authorities now V-held, private, distinct from already received frontier intelligence commission credentials; no treaty authority or guaranteed audience/acceptance. Elara remains in Caereth at her residence, standing representative of Vaishnavi and her own Rethwyn interests, Severin assent/reply unconfirmed; cordial farewell. D316→317 uninterrupted hosted secure night +2, then D317→318 and D318→319 qualifying exposed quiet roadside nights +1 each, weighted LR0→4/6, no full LR or resource spend. D317 day33 vs15, night58 vs7, D318 day28 vs15, night53 vs7 all genuine quiet. Leg intended8days D317–324 subject to actual conditions, cap5 encounter days, currently0, consecutive0; first two days ordinary trade road, reassess actual frontier geography before further rolls. Rations21→15 person-days, horse feed28→20 (five days remain at3/4 daily), V Reborn no ration. No new personal spending, purchase, fee or reward, purse2903gp4sp6cp, conditional240gp sale unpaid; needs routine replenishment before exhaustion if final leg takes8 days. Routine daily Tamsin stone exchanges per standing instruction during elapsed days, no particular business result inferred, D319 morning exchange available. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Mara healthy. Kestrel originals V, Mara notes, Fenar six sealed vials/instrument, Cirren compact; Crown certified copies retained. Defense complete, 2500 paid; Crown intel commission 200 advanced,300+1300 outstanding, active scholarly commission300/800 contingent, no other quest commitment. Next action: resume westbound journey, actual regional transition and border checks not yet played. Dice delegated until stop.",
+      "before": "D316 15:00 Caereth, rest0/6, rations21/feed28, purse2903gp4sp6cp.",
+      "after": "D319~07:30 at ordinary westbound road camp on Caereth→Orsaven coach route, two of planned eight travel days completed (D317–318), still within Crownsunder, no Ossent frontier crossing yet. V/Mara/Cirren/Fenar and owned coach/4 horses healthy. Original signed sealed preliminary Crown diplomatic invitation and limited authenticated messenger credentials with recipient instructions for appropriate Ossent royal authorities now V-held, private, distinct from already received frontier intelligence commission credentials; no treaty authority or guaranteed audience/acceptance. Elara remains in Caereth at her residence, standing representative of Vaishnavi and her own Rethwyn interests, Severin assent/reply unconfirmed; cordial farewell. D316→317 uninterrupted hosted secure night +2, then D317→318 and D318→319 qualifying exposed quiet roadside nights +1 each, weighted LR0→4/6, no full LR or resource spend. D317 day33 vs15, night58 vs7, D318 day28 vs15, night53 vs7 all genuine quiet. Leg intended8days D317–324 subject to actual conditions, cap5 encounter days, currently0, consecutive0; first two days ordinary trade road, reassess actual frontier geography before further rolls. Rations21→15 person-days, horse feed28→20 (five days remain at3/4 daily), V Reborn no ration. No new personal spending, purchase, fee or reward, purse2903gp4sp6cp, conditional240gp sale unpaid; needs routine replenishment before exhaustion if final leg takes8 days. Routine daily Tamsin stone exchanges per standing instruction during elapsed days, no particular business result inferred, D319 morning exchange available. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Mara healthy. Kestrel originals V, Mara notes, Fenar six sealed vials/instrument, Cirren compact; Crown certified copies retained. Defense complete, 2500 paid; Crown intel commission 200 advanced,300+1300 outstanding, active scholarly commission300/800 contingent, no other quest commitment. Next action: resume westbound journey, actual regional transition and border checks not yet played. Dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-inventory.csv"
+      ]
+    }
+  ]
+}
