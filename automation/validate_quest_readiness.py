@@ -43,10 +43,10 @@ def validate(text: str) -> list[str]:
             errors.append(f"line {line_no}: owner needs a linked source reference")
         for key in ("g1", "g2", "g3"):
             value = cells[indexes[key]]
-            status = next((s for s in STATUSES if value.startswith(s)), None)
+            status = next((s for s in STATUSES if re.search(r"\\b" + re.escape(s) + r"\\b", value)), None)
             if status is None:
                 errors.append(f"line {line_no}: {key.upper()} needs an explicit status")
-            elif status in {"PASS", "CONDITIONAL", "HOLD"} and len(value) <= len(status) + 2:
+            elif status in {"PASS", "CONDITIONAL", "HOLD"} and not value[value.find(status) + len(status):].strip(" ;:—-"):
                 errors.append(f"line {line_no}: {key.upper()} {status} needs evidence or a concrete blocker")
     return errors
 
