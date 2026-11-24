@@ -33,4 +33,4 @@ Verified edition `ATLAS-D278-WESTERN-VEYR-001` · Western Veyr and Caer Veylan, 
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-24T14:11:31.020Z | previous_token=SHOPS-D320-20261124-01 | recovery=trackers/csv/magic-shops/events.csv
+CAMPAIGN_WRITER | state=ACTIVE | token=ADMIN-MAINT-D320-20261124-01 | worker=Record-Maintenance | operations=M320-R1,M320-R2,M320-R3 | acquired_UTC=2026-11-24T15:12:51Z | heartbeat_UTC=2026-11-24T15:12:51Z | expires_UTC=2026-11-24T15:22:51.000Z | recovery=automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md
