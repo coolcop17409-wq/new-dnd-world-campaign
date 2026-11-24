@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D310-313-RETHWYN-ALLIANCE-POST-REST-001",
+  "base_commit": "1bed8267260ba636c931c0fc68d6e4cf41b84567",
+  "source_checkpoint": "D310-1910-ELARA-ALLIANCE-CONSENT-PRINCIPLES-MEMORANDUM-OFFER-001",
+  "destination_checkpoint": "D313-0800-RETHWYN-RESTED-ALLIANCE-POST-PENDING-001",
+  "source_evidence": "Player exact 'Yes, lets send a pigeon to him as soon as we can. And for the next few days, lets rest and enjoy each other, all of us…' V authorizes Elara's proposed nonbinding memorandum and peaceful hosted stay. Elara's household prepares the concise consent-based text after dinner D310; Elara independently approves and covers ordinary household postal expenses. On D311 dawn her rider carries it to Caereth (established 1.5–2 coach-day route; rider arrives D312), broker has actual Tarnford-homed pigeon available following genuine visible Python RNG d20 face11 +3=14 vs DC11 (receipt 975bc17f4546e974a7f4557598f18d38). D312 actual bird release with sealed compact memorandum for priority onward routing to Lord Severin, Nightglass via established Tarnford–Eastwatch commercial road and suitable homing-bird relays if available. No claim of onward bird release, guaranteed direct route, destination receipt or assent; request priority onward forwarding. No V expenditure, no specific Elara household fee asserted. Three uninterrupted secure hosted nights at staffed occupied Rethwyn manor D310→311,311→312,312→313; established two weighted units per night. Start 2/6, dawn311 4/6, dawn312 6/6 full LR reset0, dawn313 2/6. All HP already full; Fenar HD5→6, Rage3→4 and Shift2→3; Cirren HD4→6; V all already full; retain Fenar climb adaptation. No damage, spell expenditure or interrupted rest. Household provides meals, rooms, attended stable/feed; no carried rations/feed consumption or V purse change. Party shares walks, meals, friendly banter, quiet private companionship with mutually voluntary affection and no scripted individual sexual acts, promises, spending or consent beyond player directive; Cirren enjoys companionship without implying romance. No active local threat or unchosen quest introduced, no formal marriage, alliance ratification, political commitment or remote patient outcome invented. Routine daily Tamsin stone communication as standing delegation without specific news or financial claims. D313~08:00 Rethwyn rural manor, after three peaceful hosted nights and two full days of shared leisure, no departure yet. V and Elara authorized consent-based alliance memorandum, her household prepared and she approved it for Lord Severin's review; rider left D311 dawn for Caereth, arrived D312; actual broker availability d20 11+3=14/DC11 success, priority Tarnford-homed bird released D312 carrying compact sealed memorandum for onward priority dispatch toward Eastwatch/Nightglass, further relay/receipt/reply unconfirmed. Elara covers ordinary household correspondence; no V purse debit, no binding pact. D310→311 rest2→4/6, D311→312 rest4→6 full Long Rest, reset0; D312→313 +2/6 new cycle. V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6 climb40; Cirren51/51 AC18 HD6/6 all slots4/3/3 CD2/2 full. Mara, coach and 4 horses healthy, household fed and hosted at Elara's expense, carried food12/feed16 unchanged, purse391gp9sp6cp PixieDust1, peryton specimens coach. All custody unchanged. Marriage preliminary consultation, joint Caereth visit planned, formal approval unconfirmed. V dice delegated until stop. Routine Tamsin communications abstract only, no new business decision. Await V's choice whether stay longer, prepare Caereth visit or other action.",
+  "pending_action": "D313~08:00 Rethwyn rural manor, after three peaceful hosted nights and two full days of shared leisure, no departure yet. V and Elara authorized consent-based alliance memorandum, her household prepared and she approved it for Lord Severin's review; rider left D311 dawn for Caereth, arrived D312; actual broker availability d20 11+3=14/DC11 success, priority Tarnford-homed bird released D312 carrying compact sealed memorandum for onward priority dispatch toward Eastwatch/Nightglass, further relay/receipt/reply unconfirmed. Elara covers ordinary household correspondence; no V purse debit, no binding pact. D310→311 rest2→4/6, D311→312 rest4→6 full Long Rest, reset0; D312→313 +2/6 new cycle. V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6 climb40; Cirren51/51 AC18 HD6/6 all slots4/3/3 CD2/2 full. Mara, coach and 4 horses healthy, household fed and hosted at Elara's expense, carried food12/feed16 unchanged, purse391gp9sp6cp PixieDust1, peryton specimens coach. All custody unchanged. Marriage preliminary consultation, joint Caereth visit planned, formal approval unconfirmed. V dice delegated until stop. Routine Tamsin communications abstract only, no new business decision. Await V's choice whether stay longer, prepare Caereth visit or other action.",
+  "depends_on": [
+    "PLAY-REC-D310-ELARA-ALLIANCE-CONSENT-PRINCIPLES-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "975bc17f4546e974a7f4557598f18d38",
+        "rolls": [
+          {
+            "id": "D312.Caereth.priority_Tarnford_homed_bird_availability",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D310-312-RETHWYN-ALLIANCE-MEMORANDUM-PRIORITY-PIGEON-DISPATCH-001",
+      "accepted": true,
+      "evidence": "User authorizes Elara memorandum and priority pigeon. Household prepared and Elara approved nonbinding text; rider departs D311 dawn and reaches Caereth D312; visible genuine d20 11+3=14/DC11 confirms available Tarnford-homed bird, released D312 for onward priority routing to Eastwatch/Nightglass. Elara covers ordinary cost, no V debit, no recipient receipt or assent.",
+      "before": "Consent principles agreed in principle; no document or dispatch.",
+      "after": "Memorandum sent by actual first bird leg, onward/receipt/reply pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    },
+    {
+      "event_id": "D310-313-RETHWYN-HOSTED-LEISURE-FULL-REST-001",
+      "accepted": true,
+      "evidence": "Three actual peaceful hosted nights two units each; 2→4→6/full Dawn312 then new2/6 Dawn313. Fenar HD5→6 Rage3→4 Shift2→3, Cirren HD4→6, V all full already; all HP full. Household hospitality and feed, no V coin or carried supply debit. Voluntary leisure and companionship, no further commitments.",
+      "before": "Day310 evening, rest2/6, Fenar Rage3/4 Shift2/3 HD5/6, Cirren HD4/6.",
+      "after": "D313~08:00 Rethwyn rural manor, after three peaceful hosted nights and two full days of shared leisure, no departure yet. V and Elara authorized consent-based alliance memorandum, her household prepared and she approved it for Lord Severin's review; rider left D311 dawn for Caereth, arrived D312; actual broker availability d20 11+3=14/DC11 success, priority Tarnford-homed bird released D312 carrying compact sealed memorandum for onward priority dispatch toward Eastwatch/Nightglass, further relay/receipt/reply unconfirmed. Elara covers ordinary household correspondence; no V purse debit, no binding pact. D310→311 rest2→4/6, D311→312 rest4→6 full Long Rest, reset0; D312→313 +2/6 new cycle. V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 inactive MP6/6 climb40; Cirren51/51 AC18 HD6/6 all slots4/3/3 CD2/2 full. Mara, coach and 4 horses healthy, household fed and hosted at Elara's expense, carried food12/feed16 unchanged, purse391gp9sp6cp PixieDust1, peryton specimens coach. All custody unchanged. Marriage preliminary consultation, joint Caereth visit planned, formal approval unconfirmed. V dice delegated until stop. Routine Tamsin communications abstract only, no new business decision. Await V's choice whether stay longer, prepare Caereth visit or other action.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
