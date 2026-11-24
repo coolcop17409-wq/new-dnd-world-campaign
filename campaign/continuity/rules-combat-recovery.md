@@ -1,3 +1,9 @@
+LATEST EXPLICIT CORRECTIONS — D307-PLAYER-REASSERTS-FENAR-DOUBLE-CLAW-REND-VISUAL-RULE-001 / D308-VOID-FABRICATED-COMBAT-RESTORE-PREINITIATIVE-001
+
+Player says every Fenar axe attack is actually narrated as double-claw attack; repeated past assistant narration needs correction. Standing 2014 house rule already in rules-combat-recovery.md and Fenar-features.csv. Greataxe physical weapon mechanics unchanged, even when not raging. Retro farm gate described as two double-claw rending strikes, not metal axe swings; original AC, damage, rolls, failure consequences and oxen rescue intact.
+Player approved correction after audit; five invalid D308 chunks pinned in mode.json and blocked from synchronization. Restore last valid preinitiative checkpoint, preserve chosen defensive strategy and dice delegation. Psychic Blades inherently psychic; prior homebrew characterization withdrawn, Ready main blade allowed per accepted ruling.
+Accepted D308 exception supersedes the older Ready-main-Psychic-Blade prohibition below; no new bonus-action blade, additional attack or free resource is granted. The five mode.json voided blobs remain audit-only.
+
 <!-- Source: Google Doc 1F0NshIRsq70AwPTzRWZ7yULWFt6UUNUReh854-RlAB4, tab t.fyu369of2vaf; title: RULES — COMBAT & RECOVERY; snapshot revision: AHj4eMRdUfJTQfnZ1m2n4LIieGRkpFbgNcCYkmUtJIfxKEbHM9Ax5DE1ByEYxe0AlMh2hFoG-ctlHNuI38Bgj5wpmjdN-OoJcWrIEktV5w -->
 
 RULES — COMBAT & RECOVERY

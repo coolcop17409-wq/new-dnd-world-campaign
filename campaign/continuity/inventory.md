@@ -1,3 +1,24 @@
+CURRENT ACCEPTED UPDATE PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001
+
+Day308~10:20 Crownsunder road; verified peryton combat ends R4. P3 dead near Fenar(20,5,0); P1 15/33 and P2 11/33 fled toward hills, no pursuit. V near coach(0,-5,0)42/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; dice delegated until stop. Fenar48/59 AC14 Rage3/4 active claws magical Shift2/3 active THP0 MP6/6 HD6/6. Cirren40/51 AC18 slots4/3/3 CD2/2 HD6/6 no concentration. Mara sheltered healthy, 4 harnessed horses and coach intact. LongRest0/6, purse391gp9sp6cp, rations21/feed28 PixieDust1. Custody and route Lady Elara rural manor first unchanged. D308 encounter used, D309 random quiet mandatory. V chooses postcombat action; no rest, healing, harvesting or travel yet.
+No Day308 full-day food/feed charge yet; no new aftermath action. Earlier five D308 fabricated combat chunks are void audit-only; none of their HP/resources/deaths survive. Replacement receipts are preserved as submitted accepted evidence, structurally checked with arithmetic review, not independent authentication of external ChatGPT execution. Previously completed travel/rest not replayed.
+Fenar mechanical greataxe always depicted as one paired Double-Claw Rend, even outside Rage; no bonus hit/die or magic from the visual. Inherent Soulknife psychic damage is not homebrew. Accepted D308 exception permits Ready main Psychic Blade; standing V dice delegation until stopped grants no additional V choice or resource authority.
+Prior Kestrel evidence/custody, original Nightglass heart ownership, signed scholarly100gp advance and contingent300/800, letters without verified receipt, and uncommunicated Sedgecross patient outcomes remain unchanged. No inferred post-Day299 patient outcome or new care funding.
+
+D297-298-V-DEPARTS-MERCHANT-GATHERING-INDEPENDENT-AND-VW-ROAD-QUIET-001 — D298 late afternoon party independent on established border crossing approach, stock6/8, LongRest3/6, no encounter or money spent.
+Accepted evidence: User exact toward Crownsunder independently declines slower collective caravan, resumes own4horse coach. Genuine Day297→298 exposed Veyran guarded road night d100FACE64 vs03 quiet, weighted rest2→3/6; Day298 guarded road daytime d100FACE99 vs07 quiet, consumed3 companion ration-days and4 horse-feed days, stocks9/12→6/8, all unharmed.
+
+D298-299-V-CROWNSUNDER-ROAD-NIGHT-AND-D299-QUIET-001 — D299 late afternoon Crownsunder carriage road heading Elara's rural manor, food3 person-days/feed4 animal-days (one packed day), LongRest4/6, V cash and full pools unchanged, no encounters.
+Accepted evidence: D298→299 exposed Crownsunder ordinary trade-road night genuine Python d100FACE97 vs03? Correct applicable ORDINARY TRADE road night trigger07, face97>7 quiet, weighted rest3→4/6 Dawn299. D299 ordinary trade road day genuine d100FACE37>15 quiet, consumed3 companion ration-person-days and4 horse feed days, stock6/8→3/4; no next night or new settlement arrival.
+
+D300-V-ROADSIDE-SEVEN-DAY-RATION-FEED-RESUPPLY-001 — After D300 ordinary replenishment + subsequent D301-306 daily use, D307 morning one packed day ration3/feed4, purse403gp8sp6cp, all other inventory unchanged.
+Accepted evidence: D300 full day's 3 ration-person-days and 4 horse feed animal-days consumed original stocked3/4->0/0; at existing maintained trade-road ordinary market supplier buy21 ration person-days x5sp=10gp5sp and28 animal-feed days x5cp=1gp4sp, total11gp9sp cash415gp7sp6cp->403gp8sp6cp, no stall/search/feat. D301-306 six days consume18/24 leaving3/4 at Dawn307, no Day307 extra consumption yet.
+
+D307-308-V-BYPASSES-SMOKE-ROAD-REFUELS-AND-QUIET-CAMP-001 — D308 dawn on further Crownsunder westbound road, coach/horses healthy, purse391gp9sp6cp food21/feed28, rest1/6, no loss or new mail outcomes.
+Accepted evidence: Player directs Continue after farm safe. Party chooses evident safe south farm coach track +2mi/~1h, avoids smoke/horse risk without roll, no farmer bounty or cost. One full D307 food3/feed4 used ->0/0, roadside ordinary trade supplier sells7day 21food @5sp+28feed @5cp total11gp9sp, cash403gp8sp6cp->391gp9sp6cp, stock21/28. D307 random fire previously filled event day so NO D307 night check; peaceful exposed D307→308 camp adds1 wilderness LongRest unit0→1/6, all stats full, no other expense.
+
+HISTORICAL RECORDS BELOW — current accepted updates above supersede earlier intermediate state.
+
 ACCEPTED SYNCHRONIZATION PLAY-D297-CAER-VEYLAN-MARKET-WESTBOUND-ROAD-SYNC-001
 
 CURRENT Day297~17:30 — western Veyr westbound merchant-trunk road, before frontier crossing. Convoy invitation pending: V has NOT joined or accepted any city mission. Intended route Elara Rethwyn rural manor → Caereth → Orsaven. No Day297 night or further travel resolved.
