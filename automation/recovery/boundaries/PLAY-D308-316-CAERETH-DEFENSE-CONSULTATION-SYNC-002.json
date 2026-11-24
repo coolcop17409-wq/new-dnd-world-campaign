@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
+  "reason": "quest_milestone",
+  "source_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
+  "destination_checkpoint": "D316-1420-CAERETH-OSSENT-INVITATION-ACCEPTED-DEFENSE-TALKS-001",
+  "last_recovery_id": "PLAY-REC-D316-V-ACCEPTS-OSSENT-DIPLOMATIC-INVITATION-MANDATE-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D308/PLAY-REC-D308-V-PERYTON-CORPSE-INVESTIGATION-001.json",
+      "digest": "2c189bace0b7490a699839040bc896d214662e623443d3a60b5d31ed78fb0ca0"
+    },
+    {
+      "path": "automation/recovery/chunks/D308/PLAY-REC-D308-CIRREN-PERYTON-EXAMINATION-SPECIMENS-001.json",
+      "digest": "dd6acd55ddb057c06a94d2d50e359b91d978e5ebd095b8096b04c002afab608e"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D308-310-V-RETHWYN-MANOR-APPROACH-RECOVERY-001.json",
+      "digest": "062b59b2c86a06e5af8723f195d91b1e86bfbd9e770ea5a1f2a93079a9a1749f"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D310-V-RETHWYN-WARM-REUNION-001.json",
+      "digest": "24da7c8f556345a4b87cf728b2f073c632bfc76c0656b4f19e9ccd797a8cb3fb"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D310-ELARA-PRIVATE-BRIEFING-MARRIAGE-ALLIANCE-001.json",
+      "digest": "c3c94318489476c72115447e9303ccd400defa43d173b3d43cb9df48e2e14150"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D310-ELARA-ALLIANCE-CONSENT-PRINCIPLES-001.json",
+      "digest": "3610e71790162654b2e283f9368fb04e6252ff219e90b1bde10554ef68b57d54"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D310-313-RETHWYN-ALLIANCE-POST-REST-001.json",
+      "digest": "57cfbd509b4c097d634d03fa6838f58866d138c60db0e8a012ad6171361ab3aa"
+    },
+    {
+      "path": "automation/recovery/chunks/D313/PLAY-REC-D313-V-CAERETH-COURT-REQUEST-RESUPPLY-ROAD-NIGHT-HAZARD-001.json",
+      "digest": "1c36e2628f72ac95650483fe20449deff19e8c5bbbee2538870ad0f3e27bfc0b"
+    },
+    {
+      "path": "automation/recovery/chunks/D313/PLAY-REC-D313-314-V-RELOCATES-CAMP-CAERETH-ARRIVAL-001.json",
+      "digest": "3f4ca8500d7614d04c25e145dd71c7974a9af91b34f36a6187af008fa41fa2f5"
+    },
+    {
+      "path": "automation/recovery/chunks/D314/PLAY-REC-D314-CAERETH-MARRIAGE-RESUPPLY-MARKET-NEWS-001.json",
+      "digest": "26f371161dec7144ece70cf6673077607ed4f8700a28aef5e3d286b2752ff39d"
+    },
+    {
+      "path": "automation/recovery/chunks/D314/PLAY-REC-D314-CAERETH-DEFENSE-ORGANIZER-INQUIRY-001.json",
+      "digest": "e35f64deb78fe8c348cb99c56a11e5b41678681f79bf296945faab05a6d4563e"
+    },
+    {
+      "path": "automation/recovery/chunks/D314/PLAY-REC-D314-CAERETH-DEFENSE-REWARD-NEGOTIATION-001.json",
+      "digest": "3f91d6c7cba9d1ac6918d4a71c6f9f09cb1ed2dcb14981a4ba623639fd92cc12"
+    },
+    {
+      "path": "automation/recovery/chunks/D314/PLAY-REC-D314-V-ACCEPTS-DEFENSE-BUYS-ELVENKIND-BOOTS-001.json",
+      "digest": "3d68bdd64fe517812ee8be375231846057acd88e523b7a0104dc5ddace0a8f63"
+    },
+    {
+      "path": "automation/recovery/chunks/D314/PLAY-REC-D314-V-GIFTS-ELVENKIND-BOOTS-CIRREN-001.json",
+      "digest": "770e3943dbc56be0a2b84ccb63583403cead7c4b25cdc691865d739d60038e5c"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-V-LOOT-SALE-ROYAL-AUDIENCE-OPENING-001.json",
+      "digest": "b411437a8cea11c0778306f3b5d5fdcfce2bc5d26da48f1c14a742f22226ac51"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-REMAINING-VALUABLES-APPRAISAL-001.json",
+      "digest": "8628c6b954b7ce5a347bbe59607481efc1b92e4353bd240ab6f4cd865779c8ff"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-VALUABLES-SALE-AUTHORIZATION-CONDITIONAL-OFFER-001.json",
+      "digest": "fcfbc28298d1b6eb690a25997a9ac008179de52ee82d0fdcac74c616d864d35c"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-V-KESTREL-EVIDENCE-PRESENTED-CROWN-001.json",
+      "digest": "50e4460e9960f0fbaacf7e0ee3e982c6d8595affaa04f33e25ffa0b1f93da9aa"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-V-CROWN-COPIES-AUTHORIZED-FRONTIER-LEAD-001.json",
+      "digest": "4600725cb87b7c955e5c0f3c4d44333cc4e68549faee0aac1f9ce5b099d25420"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-CROWN-FRONTIER-REPORT-NEGOTIATED-COMMISSION-001.json",
+      "digest": "d51c9834c94da518119ac42142e7deaacb47a820c8443deadac00a9fb03834df"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-V-KNACK-CROWN-COMMISSION-1800-OFFER-001.json",
+      "digest": "8cdfa378db04ab52568e7adc26bfde671d0354ee21b05d7d5e16fdb3a276575e"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-V-CROWN-COMMISSION-SIGNED-VAISHNAVI-RECOGNITION-REQUEST-001.json",
+      "digest": "20d8ae7bde98eecdfdfaad705ff107e13cd30d53ec0bb8c9bdc8841fd79fc488"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-V-ELARA-CAERETH-REPRESENTATION-DELEGATION-001.json",
+      "digest": "8d2458fc0e4cf6af893736c6b5d6c87d6d898e3e3830a5640edee9fad7c238de"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-CAERETH-CROWN-COPIES-COMPLETE-GUILD-RECORDS-001.json",
+      "digest": "77efada972cdd1abb9328770d29676883c04b8e782e44383381a12b13456e4fe"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-V-PRIVATE-CONTRACTOR-COMMANDER-APPROACH-001.json",
+      "digest": "89d4709f4d6b19a42f05165b370eef5cad7617abfbac58e6e6ee549517689c98"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-V-CONTRACTOR-PRIVATE-AUTHORITY-ARGUMENT-001.json",
+      "digest": "c0786a58bd1bb3238d1a7d338909d0c34e638a2dce64db8e72da77b614ca94cd"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-COMMANDER-CONDITIONAL-WITHDRAWAL-PLEDGE-001.json",
+      "digest": "bcd504dcdceaeb0f2f0b2981ef7ae37d2e3450aadcd460324d7659acc4dec3f3"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-GUILD-AGREES-LAWFUL-RELEASE-PROTOCOL-001.json",
+      "digest": "584bd2212b21acd58c08144d7e029ec5d3ff64b53881392ed2872312eb0f62bb"
+    },
+    {
+      "path": "automation/recovery/chunks/D315/PLAY-REC-D315-CAERETH-DEFENSE-PUBLIC-AGREEMENT-COMPLETE-001.json",
+      "digest": "b2254d632a70c44e21244bd2c792cf2a1804b4ef955531cfaef31f89c1fa5d7a"
+    },
+    {
+      "path": "automation/recovery/chunks/D316/PLAY-REC-D316-CAERETH-LONGREST-DEFENSE-CONSULTATION-OPEN-001.json",
+      "digest": "c9b32efaba1fed3b84875cbbe5d2c5881ecd015e66f5381df27c4262f7fff683"
+    },
+    {
+      "path": "automation/recovery/chunks/D316/PLAY-REC-D316-V-CROWN-OSSENT-COOPERATION-ARGUMENT-001.json",
+      "digest": "ae13cdad9a64b2718c6070e8820c905062367d8437ededc5fd85d351b0527366"
+    },
+    {
+      "path": "automation/recovery/chunks/D316/PLAY-REC-D316-V-ACCEPTS-OSSENT-DIPLOMATIC-INVITATION-MANDATE-001.json",
+      "digest": "d26882e227f038d1a543bf37988e96e60e013c9f642563c4bed0ba3c3a7b88df"
+    }
+  ]
+}
