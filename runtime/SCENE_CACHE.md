@@ -26,6 +26,6 @@ The consultation continues. The security councillor asks V's view on domestic em
   - `automation/recovery/chunks/D316/PLAY-REC-D316-V-CROWN-OSSENT-COOPERATION-ARGUMENT-001.json`, blob `d35765e6787b6bfd293afe5574e168b30ca3af05`.
   - `automation/recovery/chunks/D316/PLAY-REC-D316-V-ACCEPTS-OSSENT-DIPLOMATIC-INVITATION-MANDATE-001.json`, blob `8b474e977f16e2b923c431ddef86e72bac270df3`.
 - D316 opening chunk depends on accepted D315 checkpoint `D315-1645-CAERETH-DEFENSE-AGREEMENT-QUEST-COMPLETE-001`; completed play remains historical and must not be replayed.
-- Known outstanding boundary: `automation/recovery/boundaries/PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001.json`. Do not assume D314–D316 has been owner-synced without its verified worker receipt and owning commits. Do not rebuild or prune immutable records from this cache.
+- Known outstanding boundary: `automation/recovery/boundaries/PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json` (32 ordered chunks; durable on main, worker submission/owner sync not yet verified). The older D314 boundary remains immutable. Do not assume D314–D316 has been owner-synced without a verified worker receipt and owning commits. Do not rebuild or prune immutable records from this cache.
 
 **Classification:** accepted owner D308 → newer accepted recovery through D316 → unplayed/unknown next consultation response. Cache classifications are source labels, not authority changes.
