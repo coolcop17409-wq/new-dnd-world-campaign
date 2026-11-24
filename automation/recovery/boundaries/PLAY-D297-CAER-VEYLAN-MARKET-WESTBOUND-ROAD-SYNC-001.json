@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D297-CAER-VEYLAN-MARKET-WESTBOUND-ROAD-SYNC-001",
+  "reason": "major_transaction",
+  "source_checkpoint": "D289-1710-NIGHTGLASS-SCHOLARLY-100GP-ADVANCE-OFFER-SEVERIN-ALLIANCE-IN-PRINCIPLE-001",
+  "destination_checkpoint": "D297-1730-WESTERN-VEYR-ROAD-MERCHANT-CONVOY-OPTION-PENDING-001",
+  "last_recovery_id": "PLAY-REC-D293-297-V-CAER-VEYLAN-RESUPPLY-MAGIC-BROWSE-NEWS-WESTWARD-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-V-SIGNS-SCHOLARLY-FUND-RECEIVES-100GP-AND-SENDS-ELARA-PROPOSAL-001.json",
+      "digest": "3d19c643370c310a41d4eec083800d8444a4e71a2929161da48cb5e34a615c98"
+    },
+    {
+      "path": "automation/recovery/chunks/D289/PLAY-REC-D289-290-V-ACCEPTS-SEVERIN-HOSPITALITY-D290-FULL-LONGREST-001.json",
+      "digest": "653310462fb2cd6cfe4993ffd4cb0f486a34824441d95be84aa3a7bc5407c488"
+    },
+    {
+      "path": "automation/recovery/chunks/D290/PLAY-REC-D290-V-CORRECTS-HALL-OUTBOUND-LETTERS-TO-PRIORITY-PIGEON-POST-001.json",
+      "digest": "15547c4ec2310db1f59f3b944da7b985588dae5bc001188773855337aa3e9ec7"
+    },
+    {
+      "path": "automation/recovery/chunks/D290/PLAY-REC-D290-V-TOUCHES-SILVER-VEINED-HEART-IN-SEVERIN-RELIQUARY-001.json",
+      "digest": "cdb7aa9abd8bc015d7ff8c14c7b3564f9eb8e751618b0d502c6e6a6cdee73a5d"
+    },
+    {
+      "path": "automation/recovery/chunks/D290/PLAY-REC-D290-CIRREN-RITUAL-DETECT-MAGIC-IDENTIFY-HEART-V-SEEKS-CONNECTION-001.json",
+      "digest": "e6d569a3ec38f8df68b4f5342fc4524e804253de0979e6badc346925fb6aa45a"
+    },
+    {
+      "path": "automation/recovery/chunks/D290/PLAY-REC-D290-V-ENDS-HEART-EXAMINATION-RELIQUARY-CLOSED-001.json",
+      "digest": "bb3193a4941b50b5e9f8fbfe97372290882c343bf1b14af305baba9805024bdf"
+    },
+    {
+      "path": "automation/recovery/chunks/D290/PLAY-REC-D290-V-SELECTS-NIGHTGLASS-RETHWYN-CAERETH-ORSAVEN-PLANNED-ROUTE-001.json",
+      "digest": "126a1420f98ef9be842194057c107de2fa72af8a32d766a87ff65d734bbae472"
+    },
+    {
+      "path": "automation/recovery/chunks/D290/PLAY-REC-D290-291-V-DEPARTS-NIGHTGLASS-WEST-D291-MANTICORE-WARNING-001.json",
+      "digest": "9c4e291f01a64c7110504e55be61ee70350c3e2de270419120ef0e56fa3e69f1"
+    },
+    {
+      "path": "automation/recovery/chunks/D291/PLAY-REC-D291-V-INTIMIDATES-MANTICORE-ADV17-RETREATS-001.json",
+      "digest": "eca835eaa14ba564300bc6a606c4b4a9a88bc245a8f627803eb56c4da28d03e6"
+    },
+    {
+      "path": "automation/recovery/chunks/D291/PLAY-REC-D291-293-V-TRAVELS-WEST-TO-CAER-VEYLAN-KESTREL-CARE-DEADLINE-001.json",
+      "digest": "3e2c6e60489fc1d287dcecb0d06212c0435a3276ce6ec19032f8e3b75c1da68f"
+    },
+    {
+      "path": "automation/recovery/chunks/D293/PLAY-REC-D293-RETRO-SEDGECROSS-PATIENT-INDEPENDENT-RECOVERY-AND-EXIT-PROGRESS-001.json",
+      "digest": "bf2e9d2bc27465d6d2444cd8a22ce71de78446e66da311bc64bba9fc1db0224f"
+    },
+    {
+      "path": "automation/recovery/chunks/D293/PLAY-REC-D293-297-V-CAER-VEYLAN-RESUPPLY-MAGIC-BROWSE-NEWS-WESTWARD-001.json",
+      "digest": "c467790b463e2e4f8b9586d9eb8d4979d24791306ac4000709474e09bccd42b6"
+    }
+  ]
+}
