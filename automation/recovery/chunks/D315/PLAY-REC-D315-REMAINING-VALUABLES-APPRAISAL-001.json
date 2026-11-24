@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D315-REMAINING-VALUABLES-APPRAISAL-001",
+  "base_commit": "868f2442ee56b75e7c76a237918c9788595c9646",
+  "source_checkpoint": "D315-1030-CAERETH-PRIVATE-CROWN-AUDIENCE-OPENING-001",
+  "destination_checkpoint": "D315-1030-CAERETH-CROWN-AUDIENCE-APPRAISAL-CLARIFIED-001",
+  "source_evidence": "Player exact 'appraise all of them' follows prior request to appraise/sell loot and clarification of remaining gems/jewelry/metalwork. Extend that morning's already authorized guild-funded professional appraisal scope retrospectively as explicit player-directed clarification at Day315, not another market trip or replay of completed sale; no delay to current palace audience. New in-world jeweler's ordinary valuation for physically recorded Reedbed/Fort lot: garnets3×25=75gp, amber2×25=50gp, silver brooch15gp, stamped trade bars2×35=70gp, total210gp, consistent with prior estimates. Ownership still disputed, no legal clearance, sale or transfer. Early tracker lists ornate silver key1, military silver insignia1 and captain's silver signet1, but current exact carried custody/provenance not fully verified, so give conditional material/craft valuation assuming ordinary silver examples in serviceable condition: key10gp, insignia10gp, signet15gp; 35gp indicative only, not a claim of actual inspection, specific identity, magic, usable lock, or current ownership. Total indicative 245gp if those three pieces are present and as described; only 210gp professionally appraised from confirmed held lot. No roll needed routine qualified valuation; no invented transaction. Prior peryton and small gemstone sale65gp remains completed once. No funds or custody change. Current palace opening unchanged.",
+  "pending_action": "D315~10:30 inside Caereth palace private council chamber. V/Elara/Mara/Cirren/Fenar present, Crown security councillor and secretary await V's account of Kestrel; no testimony, copy permission or evidence surrender yet. Player extends morning appraisal: confirmed held Reedbed/Fort valuables professionally appraised at210gp total (3 garnets75,2 amber50,brooch15,2 trade bars70), title disputed, not sold. Early tracker silver key/insignia/signet indicative10/10/15gp only pending physical custody/provenance verification; conditional combined245gp, no sale. Prior65gp morning sale already included, V purse203gp4sp6cp food21/feed28, rest5/6, all HP/resources full V48/48 AC19 HD7/7 cloak+Luckstone, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Mara/Elara and horses healthy. Evidence V originals, Mara notes, Fenar six sealed vials and silver-fitted instrument, Cirren private compact unchanged. Defense quest accepted, late afternoon D315 meeting, rewards unearned. No new time, expenditure, official title clearance or quest outcome. V dice delegated until stop. Await V opening statement.",
+  "depends_on": [
+    "PLAY-REC-D315-V-LOOT-SALE-ROYAL-AUDIENCE-OPENING-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Routine professional valuation, conditional estimates for unverified pieces, no contested check or sale."
+  },
+  "events": [
+    {
+      "event_id": "D315-REMAINING-PORTABLE-VALUABLES-APPRAISAL-001",
+      "accepted": true,
+      "evidence": "Player exact 'appraise all of them' follows prior request to appraise/sell loot and clarification of remaining gems/jewelry/metalwork. Extend that morning's already authorized guild-funded professional appraisal scope retrospectively as explicit player-directed clarification at Day315, not another market trip or replay of completed sale; no delay to current palace audience. New in-world jeweler's ordinary valuation for physically recorded Reedbed/Fort lot: garnets3×25=75gp, amber2×25=50gp, silver brooch15gp, stamped trade bars2×35=70gp, total210gp, consistent with prior estimates. Ownership still disputed, no legal clearance, sale or transfer. Early tracker lists ornate silver key1, military silver insignia1 and captain's silver signet1, but current exact carried custody/provenance not fully verified, so give conditional material/craft valuation assuming ordinary silver examples in serviceable condition: key10gp, insignia10gp, signet15gp; 35gp indicative only, not a claim of actual inspection, specific identity, magic, usable lock, or current ownership. Total indicative 245gp if those three pieces are present and as described; only 210gp professionally appraised from confirmed held lot. No roll needed routine qualified valuation; no invented transaction. Prior peryton and small gemstone sale65gp remains completed once. No funds or custody change. Current palace opening unchanged.",
+      "before": "Held Reedbed/Fort goods estimated210gp, early silver items unappraised and custody uncertain; Crown audience awaiting V.",
+      "after": "D315~10:30 inside Caereth palace private council chamber. V/Elara/Mara/Cirren/Fenar present, Crown security councillor and secretary await V's account of Kestrel; no testimony, copy permission or evidence surrender yet. Player extends morning appraisal: confirmed held Reedbed/Fort valuables professionally appraised at210gp total (3 garnets75,2 amber50,brooch15,2 trade bars70), title disputed, not sold. Early tracker silver key/insignia/signet indicative10/10/15gp only pending physical custody/provenance verification; conditional combined245gp, no sale. Prior65gp morning sale already included, V purse203gp4sp6cp food21/feed28, rest5/6, all HP/resources full V48/48 AC19 HD7/7 cloak+Luckstone, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots equipped, Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Mara/Elara and horses healthy. Evidence V originals, Mara notes, Fenar six sealed vials and silver-fitted instrument, Cirren private compact unchanged. Defense quest accepted, late afternoon D315 meeting, rewards unearned. No new time, expenditure, official title clearance or quest outcome. V dice delegated until stop. Await V opening statement.",
+      "owner_paths": [
+        "trackers/csv/v/v-inventory.csv",
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
