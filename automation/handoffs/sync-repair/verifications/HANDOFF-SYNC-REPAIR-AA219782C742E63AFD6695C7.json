@@ -1,0 +1,45 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-AA219782C742E63AFD6695C7",
+  "lane": "sync-repair",
+  "status": "verified",
+  "tested_commit": "0e59fd8c77e331737fd70fbc68f68954e3cfe140",
+  "current_base_commit": "55b5eb9d3a351d427a2b5faf692129de4b64cb86",
+  "commands": [
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase owners",
+      "exit_code": 0,
+      "result": "PASS; no findings"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -v",
+      "exit_code": 0,
+      "result": "36 tests passed"
+    },
+    {
+      "command": "python3 - <<'PY'\nimport subprocess,csv,io,pathlib,hashlib\nbase='55b5eb9d3a351d427a2b5faf692129de4b64cb86';p='trackers/csv/magic-shops/events.csv'\na=subprocess.check_output(['git','show',base+':'+p]);b=pathlib.Path(p).read_bytes()\nold=list(csv.reader(io.StringIO(a.decode(),newline='')));new=list(csv.reader(io.StringIO(b.decode(),newline='')))\nassert len(old)==len(new)\ni=next(i for i,r in enumerate(old) if r[0]=='ADMIN-MARKET-D320-20261124-01')\nassert old[i][:11]==new[i][:11] and new[i][11]==','.join(old[i][11:])\nassert all(old[j]==new[j] for j in range(len(old)) if j!=i)\nassert all(len(r)==12 for r in new)\nal=a.splitlines(keepends=True);bl=b.splitlines(keepends=True);j=next(j for j,l in enumerate(al) if l.startswith(b'ADMIN-MARKET-D320-20261124-01,'))\nassert al[:j]==bl[:j] and al[j+1:]==bl[j+1:] and len(b)==len(a)+2\nassert hashlib.sha256(b).hexdigest()=='a09d5fca1dff1ae9ea51018e353406e4ab674ab25b23b3fe49ea3031f629640c'\nprint('PASS: two quote bytes only; unchanged field text, IDs, order, other rows; all rows 12 columns.')\nPY",
+      "exit_code": 0,
+      "result": "Exactly two quote bytes added; all field text, IDs, row order and other rows preserved; every CSV row has 12 columns."
+    }
+  ],
+  "changed_paths": [
+    "trackers/csv/magic-shops/events.csv"
+  ],
+  "source_evidence": {
+    "failure_commit": "c1cbcf00508df6c1360364ad9d0a3e3a78a12e85",
+    "failure_run": 45411349243,
+    "source_sha256": "07a0ebdc41335981f4879d57d39d87dccb12755bd6d8fdcaec487eb965dc8309",
+    "event_id": "ADMIN-MARKET-D320-20261124-01",
+    "explanation": "The existing final Status / outcome field contains five literal commas but lacked CSV quoting. Surround the existing unchanged field with quotes; no value inferred. Failure content equals current main owner content.",
+    "fixed_sha256": "a09d5fca1dff1ae9ea51018e353406e4ab674ab25b23b3fe49ea3031f629640c"
+  },
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/0e59fd8c77e331737fd70fbc68f68954e3cfe140/trackers/csv/magic-shops/events.csv"
+  ],
+  "main_applied": false,
+  "merged": false,
+  "limitations": [
+    "Branch-only verified proposal. Fresh base and tested-head comparison required before human-authorized merge.",
+    "No full GitHub Actions outcome asserted.",
+    "No gameplay, resource, roll, time, recovery or checkpoint changes."
+  ]
+}

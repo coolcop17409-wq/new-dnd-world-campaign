@@ -1,10 +1,21 @@
 {
   "request_id": "HANDOFF-SYNC-REPAIR-AA219782C742E63AFD6695C7",
   "lane": "sync-repair",
-  "status": "partial",
+  "status": "complete",
   "claim_owner": "opened-pr44-08721c22",
-  "claim_expires_at": "2026-11-24T14:38:37.000Z",
-  "summary": "Quote existing administrative status field without changing content or gameplay.",
-  "blocker": "verification in progress",
-  "next_trigger": "claim completion or expiry"
+  "claim_expires_at": "2026-11-24T14:14:53.023Z",
+  "summary": "Verified branch-only CSV quoting repair; not merged or applied to main.",
+  "blocker": null,
+  "next_trigger": "Human-authorized merge only after fresh base/head comparison; maintenance verifies main after merge.",
+  "verified_commit": "0e59fd8c77e331737fd70fbc68f68954e3cfe140",
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/0e59fd8c77e331737fd70fbc68f68954e3cfe140/trackers/csv/magic-shops/events.csv"
+  ],
+  "verification_ref": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-AA219782C742E63AFD6695C7.json",
+  "phase_commits": {
+    "claim": "212736a3a1082131ff3a11992b01d9185e131fd2",
+    "repair": "0e59fd8c77e331737fd70fbc68f68954e3cfe140"
+  },
+  "main_applied": false,
+  "merged": false
 }
