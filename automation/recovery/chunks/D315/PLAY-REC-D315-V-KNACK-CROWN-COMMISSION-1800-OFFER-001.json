@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D315-V-KNACK-CROWN-COMMISSION-1800-OFFER-001",
+  "base_commit": "449ed95d58dab08e16e4d35ecf09a5808a5f968a",
+  "source_checkpoint": "D315-1145-CAERETH-CROWN-FRONTIER-COMMISSION-OFFER-PENDING-001",
+  "destination_checkpoint": "D315-1145-CAERETH-CROWN-1800-COMMISSION-SIGNATURE-PENDING-001",
+  "source_evidence": "Player exact 'use knack' authorizes Psi-Bolstered Knack, not Commanding Presence or automatic commission acceptance. The original negotiation 22 fell short of the explicitly predeclared highest DC23; lower compensation was a fallback, so this targeted failed tier is treated as eligible failed proficient Persuasion check under campaign Knack rule. Rogue4 d6, actual visible Python secrets batch 547eb1445a34205ea187409016f0bf14 face2 =>24 success; spend exactly one Psi die,6→5/6. No reroll or Superiority spend. Apply predeclared improved offer1800gp including200gp signing advance credited against first500gp milestone, remaining300gp on that milestone and1300gp on second. No accepted signature or payment yet. D315~11:45 Caereth palace private council chamber, V/Elara/Mara/Cirren/Fenar with security councillor and secretary. V explicitly invoked Psi-Bolstered Knack on failed highest DC23 negotiation tier (lower fallback offer already available at original22). Genuine visible Python secrets d6 face2, total24 meets DC23, one Psi die spent6→5/6; Superiority4/4 unchanged. Crown revised offer maximum1800gp, 200gp payable on signing credited toward total, 500gp total first identification/corroboration milestone (300 additional after advance), 1300gp second authenticated sponsor/controller chain and usable intelligence milestone. No signature, advance, receipt, commission acceptance, letter transfer or travel yet. Written liaison credentials and access offered; no private-war authority or double payment for identical milestone. Orseld warning dated D306 received D313, rival colors/similar tactics, perpetrators and sponsor unconfirmed. Kestrel copying begun, no completed certified set or surrender. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 safe-city sequence, food21/feed28, purse203gp4sp6cp, conditional240gp sale unpaid; all other custody unchanged. Guild Defense meeting late afternoon D315 still planned. V dice delegated until stop. Await acceptance or alternative.",
+  "pending_action": "D315~11:45 Caereth palace private council chamber, V/Elara/Mara/Cirren/Fenar with security councillor and secretary. V explicitly invoked Psi-Bolstered Knack on failed highest DC23 negotiation tier (lower fallback offer already available at original22). Genuine visible Python secrets d6 face2, total24 meets DC23, one Psi die spent6→5/6; Superiority4/4 unchanged. Crown revised offer maximum1800gp, 200gp payable on signing credited toward total, 500gp total first identification/corroboration milestone (300 additional after advance), 1300gp second authenticated sponsor/controller chain and usable intelligence milestone. No signature, advance, receipt, commission acceptance, letter transfer or travel yet. Written liaison credentials and access offered; no private-war authority or double payment for identical milestone. Orseld warning dated D306 received D313, rival colors/similar tactics, perpetrators and sponsor unconfirmed. Kestrel copying begun, no completed certified set or surrender. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 safe-city sequence, food21/feed28, purse203gp4sp6cp, conditional240gp sale unpaid; all other custody unchanged. Guild Defense meeting late afternoon D315 still planned. V dice delegated until stop. Await acceptance or alternative.",
+  "depends_on": [
+    "PLAY-REC-D315-CROWN-FRONTIER-REPORT-NEGOTIATED-COMMISSION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "547eb1445a34205ea187409016f0bf14",
+        "rolls": [
+          {
+            "id": "D315.V.Crown.frontier_commission.psi_bolstered_knack",
+            "sides": 6,
+            "faces": [
+              2
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D315-V-PSI-KNACK-CROWN-FRONTIER-1800-OFFER-001",
+      "accepted": true,
+      "evidence": "Player exact 'use knack' authorizes Psi-Bolstered Knack, not Commanding Presence or automatic commission acceptance. The original negotiation 22 fell short of the explicitly predeclared highest DC23; lower compensation was a fallback, so this targeted failed tier is treated as eligible failed proficient Persuasion check under campaign Knack rule. Rogue4 d6, actual visible Python secrets batch 547eb1445a34205ea187409016f0bf14 face2 =>24 success; spend exactly one Psi die,6→5/6. No reroll or Superiority spend. Apply predeclared improved offer1800gp including200gp signing advance credited against first500gp milestone, remaining300gp on that milestone and1300gp on second. No accepted signature or payment yet. D315~11:45 Caereth palace private council chamber, V/Elara/Mara/Cirren/Fenar with security councillor and secretary. V explicitly invoked Psi-Bolstered Knack on failed highest DC23 negotiation tier (lower fallback offer already available at original22). Genuine visible Python secrets d6 face2, total24 meets DC23, one Psi die spent6→5/6; Superiority4/4 unchanged. Crown revised offer maximum1800gp, 200gp payable on signing credited toward total, 500gp total first identification/corroboration milestone (300 additional after advance), 1300gp second authenticated sponsor/controller chain and usable intelligence milestone. No signature, advance, receipt, commission acceptance, letter transfer or travel yet. Written liaison credentials and access offered; no private-war authority or double payment for identical milestone. Orseld warning dated D306 received D313, rival colors/similar tactics, perpetrators and sponsor unconfirmed. Kestrel copying begun, no completed certified set or surrender. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 safe-city sequence, food21/feed28, purse203gp4sp6cp, conditional240gp sale unpaid; all other custody unchanged. Guild Defense meeting late afternoon D315 still planned. V dice delegated until stop. Await acceptance or alternative.",
+      "before": "Persuasion22, highest tier DC23 unmet, offered1500gp no advance, Psi6/6.",
+      "after": "D315~11:45 Caereth palace private council chamber, V/Elara/Mara/Cirren/Fenar with security councillor and secretary. V explicitly invoked Psi-Bolstered Knack on failed highest DC23 negotiation tier (lower fallback offer already available at original22). Genuine visible Python secrets d6 face2, total24 meets DC23, one Psi die spent6→5/6; Superiority4/4 unchanged. Crown revised offer maximum1800gp, 200gp payable on signing credited toward total, 500gp total first identification/corroboration milestone (300 additional after advance), 1300gp second authenticated sponsor/controller chain and usable intelligence milestone. No signature, advance, receipt, commission acceptance, letter transfer or travel yet. Written liaison credentials and access offered; no private-war authority or double payment for identical milestone. Orseld warning dated D306 received D313, rival colors/similar tactics, perpetrators and sponsor unconfirmed. Kestrel copying begun, no completed certified set or surrender. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 safe-city sequence, food21/feed28, purse203gp4sp6cp, conditional240gp sale unpaid; all other custody unchanged. Guild Defense meeting late afternoon D315 still planned. V dice delegated until stop. Await acceptance or alternative.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
