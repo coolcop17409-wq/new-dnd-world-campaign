@@ -31,7 +31,17 @@ Audit blob pins (versions only; unrelated revision changes do not trigger re-aud
 
 Operation plan: M320-R1 replaces only stale routing/atlas pointers and labels legacy migration steps; M320-R2 changes current technical status from historical281 blocker to verified308/accepted320 plus exact existing PR41/44 holds and adds two absent boundary-ID blocked receipts; M320-R3 records this scoped verification, preserving all other owners. Expected gameplay before/after: identical state/log/character/custody/chunks. Required dependencies: source main and historical manifest blob comparisons, no active central claim, acquired writer token31b50b363098dc00bfdbca5de619459a3dbff70c.
 
-Publication verification: PREPARED; final independent readback will bind the owner batch commit here. No accepted owner/checkpoint was applied by this metadata repair.
+Publication verification: VERIFIED metadata batch `34161030c1d38ae0869dadef32a524d0d7852cd7`; all six files independently fetched at that commit and exact contents compared. Final main/tree recheck confirmed only these six scoped paths changed, no additional chunks and unchanged checkpoint blob2ee65cdb30fb7906ebdccb3ce69fd91205b205a8. Final resource-overlay validation PASS; actual107-test run against published routing and unchanged trusted code reports106 pass/1 known obsolete-region-fixture failure (exit1). No accepted owner/checkpoint was applied by this metadata repair. Writer released after verification; these boundary receipts remain BLOCKED, not owner-verified.
+
+Per-file verified batch blobs (before this final receipt/release):
+- campaign/continuity/readme.md: efb00b45d6f890d6b4b59c168f2517d7ab288c3d
+- migration/ONGOING_UPDATE_PROTOCOL.md: 8c1944cc3608c0ed7bf43820a84a34e2b31fb400
+- automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md: 3bb2f909308da3a60b6a19b96bb8b0cee5b5d842
+- automation/handoffs/play-sync/results/PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001.json: b2ede8cb3aae8d6794ebe5ac6d7fe6b43837d136
+- automation/handoffs/play-sync/results/PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json: 8ee6d1364299370d50767be5dc939ec1d6d92ef9
+- prep/dm-only/dm-only-secret-quest-outlines.md: 473fb99d8878459d1ddef48d2af83c2efb1db341
+
+Semantic scope fingerprint `3bd0df0f6dd23f59768fe09905c22d845984fb0882a8187b589dabf9e6489d1a` covers saved308 checkpoint, accepted320 checkpoint, estate close319/elapsed320 noon, market due320=0, current quest320 and Atlas-D320 scoped review; excludes timestamps, writer slot and maintenance narrative. Exact audit blob pins above remain separate.
 
 ## Design review coverage — QDF-1
 Standard: [rules-quest-design.md](../../campaign/continuity/rules-quest-design.md). One current ledger; details remain in owners. OOC-D278-ORATH-PREP-NOW-001 follows the player's explicit instruction to prepare the Orath adventures now. No gate means delivery, acceptance or a played victory.
