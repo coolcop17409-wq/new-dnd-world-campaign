@@ -1,6 +1,6 @@
-# Minor polities — atlas working register
+# Minor Polities — adopted canon register
 
-**Status:** worldbuilding proposals aligned to the interactive atlas, not yet adopted as binding geographic canon. This register documents the current 150-entry layer; the atlas is the placement reference. The entries may describe political institutions, communities, or mobile networks, and do not all claim fixed sovereign territory. Most settled entries share the language, religion and broad customs of their host or nearest major state, with local laws, identities and rivalries layered on top. Exact boundaries remain approximate.
+**Status:** adopted world canon (2026-11-24). The names, political categories, host relations, and short descriptions of all 150 entries are confirmed. The atlas is the placement reference, but its border lines remain schematic; exact legal boundaries are not surveyed. Entries include sovereign polities, autonomous communities, and mobile networks, so not every entry claims fixed territory. Most settled entries share the language, religion, and broad customs of their host or nearest major state, with local laws, identities, and rivalries layered on top.
 
 ## Reading the layer
 
@@ -35,7 +35,7 @@
 - **The Whitegrain Plain** — *Independent.* Grain villages maintain shared threshing floors and a reserve against failed harvests. Their bargaining power rises when neighboring garrisons need food.
 - **Oranford** — *Independent.* A market town at the lake-road crossing earns from ferries and grain exchange. Its council keeps the ford usable and arbitrates disputes between carriers.
 - **The Larkspur Holds** — *Independent.* Small fortified estates share a hill court and seasonal militia. Their rival inheritance claims are balanced by common obligations to keep the road open.
-- **Serefen** — *Independent.* Serefen’s farming wards follow a tributary in lower Zafira toward the Serevan River. Sluice wardens apportion water, while Zafiran officials press for regular access to the headwaters; the precise tributary course remains a local atlas proposal.
+- **Serefen** — *Independent.* Serefen’s farming wards follow a local tributary in lower Zafira toward the Serevan River. Sluice wardens apportion water, while Zafiran officials press for regular access to the headwaters; the tributary’s exact course remains unsurveyed.
 - **The Flint Hills Moot** — *Independent.* Hill communities rotate their moot among settlements and share stone quarries. The moot settles grazing lines before the spring migration.
 - **Westbarrow** — *Independent.* A compact of farmsteads and roadside markets elects a reeve for common defense. Its prosperity depends on traffic through the western approaches.
 - **The Sunward Cantons** — *Independent.* Sun-facing valleys cooperate on terrace walls and harvest calendars. Their delegates trade seasonal labor with the higher settlements.
@@ -174,9 +174,9 @@
 
 ## Geographic constraints
 
-Use `world/politics/geography-seats.md` for adopted continent, coast, terrain, state and watershed relationships. This register does not add a new major river or alter those relationships. The Serefen tributary and other unnamed local watercourses remain proposals unless mapped and adopted there. Dragonborn state buffers, climate limits, deserts and the Underdark constrain future placements; do not use those regions as default settlement gaps.
+Use `world/politics/geography-seats.md` for adopted continent, coast, terrain, state and watershed relationships. Features named in the entries are adopted at the level described; exact courses of unnamed streams, tributaries, and spring catchments remain unsurveyed where noted. This register adds no major river and does not alter adopted watershed relationships. Dragonborn state buffers, climate limits, deserts and the Underdark constrain future placements; do not use those regions as default settlement gaps.
 
-### Corrections recorded 2026-11-24
+### Adopted cartographic corrections — 2026-11-24
 
-- **Serefen** is in lower Zafira on Arden, along a proposed local tributary toward the Serevan River. Its former position on Ashcrown’s landmass was erroneous; the local tributary course is not established canon.
+- **Serefen** is in lower Zafira on Arden, along a proposed local tributary toward the Serevan River. Its former position on Ashcrown’s landmass was erroneous; the local tributary is established, while its exact course remains unsurveyed.
 - **Stonefold League** replaces “Lake Oran League.” It lies on the eastern rim of the Saltward Basin along an upland route toward mapped **Lake Orun**. No separate Lake Oran is established.
