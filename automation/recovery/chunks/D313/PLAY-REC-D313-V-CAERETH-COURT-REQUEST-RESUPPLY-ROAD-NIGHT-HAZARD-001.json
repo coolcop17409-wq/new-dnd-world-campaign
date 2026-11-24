@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D313-V-CAERETH-COURT-REQUEST-RESUPPLY-ROAD-NIGHT-HAZARD-001",
+  "base_commit": "1f270b190c1fc0595ddc42f2ae21791ce9aba0cc",
+  "source_checkpoint": "D313-0800-RETHWYN-RESTED-ALLIANCE-POST-PENDING-001",
+  "destination_checkpoint": "D313-2200-CAERETH-ROAD-RAIN-DRAINAGE-HAZARD-PENDING-001",
+  "source_evidence": "User exact 'Lets restock. Then its Caereth together. I have some business there as well… I need an audience with the royal court… there are warcrimes to be exposed.' V authorizes ordinary replenishment and traveling together with willing Elara to Caereth, and requests seeking an audience, not any particular testimony, surrender of original records or official accusation before actual contact. Elara agrees to use her household's established channels and requests discretion given Kestrel evidence. A household advance rider departs morning D313 with a brief request to arrange private Crown audience for Lord Valenthia concerning serious evidence from Veyr; no evidence specifics entrusted, no new fee to V, no confirmed court receipt/approval. The existing marriage appointment inquiry remains separate. Ordinary local supplies purchased at existing rates, 9 ration-person-days×5sp=4gp5sp +12 animal-feed days×5cp=6sp, total5gp1sp. Purse391gp9sp6cp→386gp8sp6cp, carried12/16→21/28. Elara arranges her own mount/provisions through household, no V extra expense, voluntarily joins same road party. Depart Rethwyn D313 morning, established ~1.5–2 coach days to Caereth. D313 day d10089>15 quiet, ordinary travel uses3 rations and4 feed, now18/24. Camp exposed night D313 d1007<=7 triggers, type d10070 environmental band60–76. No hostile severity roll. A heavy rain swells ordinary roadside drainage channel threatening low camp, higher firm shoulder/ground visible reachable; no injury or loss or automatically interrupted/completed rest adjudicated, stop at V's choice before dependent rolls. All raw dice from actual visible Python execution batch 02ef52aeabf283fa6231cdc60ac804a2. No Day314 roll. D313~22:00 exposed roadside camp on established Rethwyn manor→Caereth road, first travel day complete, V/Elara/Mara/Cirren/Fenar and four V-owned horses plus Elara's separately provisioned own riding arrangement all healthy. DAY313 daytime d10089 quiet; exposed night d1007 triggers environmental event type70. Sudden heavy rain causes a shallow roadside drainage channel to begin overtopping toward the camp; moving people, supplies and four-horse coach to the visible higher firm road shoulder/nearby raised ground is feasible before floodwater reaches it. No damage, forced movement, ability check, night-rest completion or resource expenditure yet. V chooses response. Before departure V bought exactly 9 ration-person-days and 12 horse-feed animal-days at established ordinary rates 5sp and5cp, cost5gp1sp; purse391gp9sp6cp→386gp8sp6cp. Packed21/28 after refill, D313 food3/feed4 consumed, now18/24 (6 travel days). Elara covers her own provisions and arrangements, not V's expenses. Elara agrees to seek a discreet royal court audience in Caereth concerning V's stated evidence of Veyran atrocities; household advance rider left D313 morning toward her Caereth house to arrange request, no receipt, scheduled audience or Crown action yet. V's original Kestrel records stay private with him, no originals disclosed/transferred to messenger or public. Marriage legal consultation remains separate. Lord Severin memorandum bird released D312, onward delivery/response unconfirmed. V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned; Fenar59/59 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 HD6/6 slots4/3/3 CD2/2 full; Mara/Elara unharmed. LongRest2/6, no night completion yet, PixieDust1, peryton specimens coach, other custody unchanged. Day313 encounter used; Day314 not rolled. Dice delegated until stop.",
+  "pending_action": "D313~22:00 exposed roadside camp on established Rethwyn manor→Caereth road, first travel day complete, V/Elara/Mara/Cirren/Fenar and four V-owned horses plus Elara's separately provisioned own riding arrangement all healthy. DAY313 daytime d10089 quiet; exposed night d1007 triggers environmental event type70. Sudden heavy rain causes a shallow roadside drainage channel to begin overtopping toward the camp; moving people, supplies and four-horse coach to the visible higher firm road shoulder/nearby raised ground is feasible before floodwater reaches it. No damage, forced movement, ability check, night-rest completion or resource expenditure yet. V chooses response. Before departure V bought exactly 9 ration-person-days and 12 horse-feed animal-days at established ordinary rates 5sp and5cp, cost5gp1sp; purse391gp9sp6cp→386gp8sp6cp. Packed21/28 after refill, D313 food3/feed4 consumed, now18/24 (6 travel days). Elara covers her own provisions and arrangements, not V's expenses. Elara agrees to seek a discreet royal court audience in Caereth concerning V's stated evidence of Veyran atrocities; household advance rider left D313 morning toward her Caereth house to arrange request, no receipt, scheduled audience or Crown action yet. V's original Kestrel records stay private with him, no originals disclosed/transferred to messenger or public. Marriage legal consultation remains separate. Lord Severin memorandum bird released D312, onward delivery/response unconfirmed. V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned; Fenar59/59 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 HD6/6 slots4/3/3 CD2/2 full; Mara/Elara unharmed. LongRest2/6, no night completion yet, PixieDust1, peryton specimens coach, other custody unchanged. Day313 encounter used; Day314 not rolled. Dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D310-313-RETHWYN-ALLIANCE-POST-REST-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "02ef52aeabf283fa6231cdc60ac804a2",
+        "rolls": [
+          {
+            "id": "D313.Caereth_road.day",
+            "sides": 100,
+            "faces": [
+              89
+            ]
+          },
+          {
+            "id": "D313.Caereth_road.exposed_night",
+            "sides": 100,
+            "faces": [
+              7
+            ]
+          },
+          {
+            "id": "D313.Caereth_road.night_type",
+            "sides": 100,
+            "faces": [
+              70
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D313-V-CAERETH-ROYAL-AUDIENCE-REQUEST-HOUSEHOLD-RIDER-001",
+      "accepted": true,
+      "evidence": "User requests audience regarding war crimes. Elara supports private request, household advance rider departed toward Caereth house, no recipient receipt or appointment, no original evidence transfer or disclosure to third parties.",
+      "before": "Rested at manor, no court audience request yet.",
+      "after": "Household request en route; V/Elara still retain own choices on actual audience and marriage.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    },
+    {
+      "event_id": "D313-V-ORDINARY-RESUPPLY-SEVEN-DAYS-001",
+      "accepted": true,
+      "evidence": "9 rations at5sp +12 feed at5cp=5gp1sp, purse391gp9sp6cp→386gp8sp6cp, food12→21 feed16→28. Elara separate provision.",
+      "before": "Purse391gp9sp6cp, supplies12/16.",
+      "after": "Purse386gp8sp6cp, supplies21/28 before travel.",
+      "owner_paths": [
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/session-log.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D313-CAERETH-ROAD-DAY-QUIET-NIGHT-DRAINAGE-HAZARD-001",
+      "accepted": true,
+      "evidence": "Depart manor together, genuine day89 quiet; day consumption3/4; genuine night7 and type70 environmental, heavy rain rising drainage water, no consequences resolved yet.",
+      "before": "Day313 morning rested at Rethwyn, LongRest2/6.",
+      "after": "D313~22:00 exposed roadside camp on established Rethwyn manor→Caereth road, first travel day complete, V/Elara/Mara/Cirren/Fenar and four V-owned horses plus Elara's separately provisioned own riding arrangement all healthy. DAY313 daytime d10089 quiet; exposed night d1007 triggers environmental event type70. Sudden heavy rain causes a shallow roadside drainage channel to begin overtopping toward the camp; moving people, supplies and four-horse coach to the visible higher firm road shoulder/nearby raised ground is feasible before floodwater reaches it. No damage, forced movement, ability check, night-rest completion or resource expenditure yet. V chooses response. Before departure V bought exactly 9 ration-person-days and 12 horse-feed animal-days at established ordinary rates 5sp and5cp, cost5gp1sp; purse391gp9sp6cp→386gp8sp6cp. Packed21/28 after refill, D313 food3/feed4 consumed, now18/24 (6 travel days). Elara covers her own provisions and arrangements, not V's expenses. Elara agrees to seek a discreet royal court audience in Caereth concerning V's stated evidence of Veyran atrocities; household advance rider left D313 morning toward her Caereth house to arrange request, no receipt, scheduled audience or Crown action yet. V's original Kestrel records stay private with him, no originals disclosed/transferred to messenger or public. Marriage legal consultation remains separate. Lord Severin memorandum bird released D312, onward delivery/response unconfirmed. V48/48 AC19 HD7/7 all pools full, cloak+Luckstone attuned; Fenar59/59 HD6/6 Rage4/4 Shift3/3 inactive MP6/6; Cirren51/51 HD6/6 slots4/3/3 CD2/2 full; Mara/Elara unharmed. LongRest2/6, no night completion yet, PixieDust1, peryton specimens coach, other custody unchanged. Day313 encounter used; Day314 not rolled. Dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
