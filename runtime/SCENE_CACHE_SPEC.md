@@ -33,3 +33,16 @@ This is a **cache, not canon**. Keep one current scene packet in conversation; `
 - When conflict changes a decision or combat mechanic, fetch the narrow authority before adjudicating that fact.
 - The DM uses the latest accepted in-conversation tactical packet across ordinary turns. On new chats, reconstruct from owner checkpoint plus immutable recovery suffix and the currently applicable scoped prep; do not assume this persisted cache is current.
 - No extra per-turn GitHub write is created for packet updates. Only the accepted-play recovery chunk is written immediately.
+
+## Mandatory significant-scene preparation
+At entry to a significant scene (new location or region, first material contact with a major NPC/faction, quest offer or major quest turn, consequential encounter, political/legal negotiation, major reveal, or transaction with durable stakes), prepare this compact **once-per-scene** context packet from the smallest authoritative sections. Retain it through the scene and update only fields invalidated by new evidence or events.
+
+Required scene-context fields, each with a source pin and knowledge classification:
+- **Setting:** only relevant history, culture, religion, geography and local practices that shape this situation.
+- **Politics:** active disputes, alliances, jurisdiction, restrictions, strategic interests and who can actually decide.
+- **People:** each material NPC/faction's objective, motive, finite means, constraints, red lines, relationships, and separately what they know and how.
+- **Quest:** objective and stakes; fixed opposition/hazard; difficulty and uncertainty; meaningful alternatives; possible consequences, rewards, ownership and conditions; delivery/status (prepared, eligible, offered, accepted, declined, resolved).
+- **Played context:** prior decisions, accomplishments, promises and losses that causally affect this scene.
+- **Mechanics:** applicable campaign/2014 rules, party resources, positioning/effects if tactical, and clocks or costs.
+
+Keep only facts that can affect the next decision. Mark accepted play, owner canon, private preparation, proposal and unknown distinctly. A missing field is explicitly not relevant with a reason or unknown with its next trigger. The packet is source-verified at scene entry; repeated turns use it without broad re-reads. Refresh only when a source changes, a new actor/rule/location matters, or uncertainty could change adjudication.

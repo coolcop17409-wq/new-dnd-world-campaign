@@ -352,3 +352,14 @@ New explicit player retcon replaces affected estate results200–244; prior catc
 
 River information remains Meret/site knowledge until real communication:pilot233sold/some repeatsdeclined;Reedbedsafe222,BARGE01own238upper8ttest/240–242voyage/243return;Fortduty225,120due245uncollected;puntinvoicegapdoesnotrevoke235operation. Do not resurrect superseded technicalholds/customerorders. Quest/live-DM/Maintenance each PENDING ownACK for R200-ESTATE-RESULTS-AND-REPORT; actualdelivery is separate. Atlas effects remain ATLAS-PENDING pending matchingACK. No private cause/prep revealed or forcedhook.
 
+
+
+## Retrospective design feedback — Defense of Caereth (Day 316)
+
+**Completed play remains closed and unchanged.** The accepted recovery records confirm that V negotiated and publicly formalized a lawful equipment-release protocol, the commander rescinded the unilateral seizure demand, and the guild paid the earned 2,500 gp milestone reward. Preserve that outcome and payment; do not replay the quest or revise its reward without explicit player approval.
+
+- **G1 — Narrative integrity: PASS for the played scope.** The conflict concerned emergency equipment authority, guild custody and public safety in Caereth; the negotiated local outcome did not enact national policy or settle the wider border dispute. Evidence: D315 public agreement chunk and current regional rules/canon.
+- **G2 — Playability and agency: PASS for the played scope.** V could negotiate limits, seek lawful safeguards and choose a public conclusion; the parties retained independent authority and agreed only to bounded terms. Evidence: D315 private contractor/commander negotiation and public agreement chunks.
+- **G3 — retrospective HOLD as a future design regression.** The player reported that resolving the dispute felt “outrageously easy” for 2,500 gp. This flags insufficient perceived opposition/risk/uncertainty relative to a substantial reward. For future high-value quests, specify meaningful competing interests, credible opposition and proportional uncertainty before offering the reward. Diplomacy must remain a valid success path; do not force combat, and do not apply this critique to completed play.
+
+**Next trigger:** apply the calibration when preparing the next consequential reward-bearing quest, then record its scoped evidence in the existing gate ledger.
