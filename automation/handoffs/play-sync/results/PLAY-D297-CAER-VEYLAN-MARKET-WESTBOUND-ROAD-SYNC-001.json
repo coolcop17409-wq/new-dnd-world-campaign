@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D297-CAER-VEYLAN-MARKET-WESTBOUND-ROAD-SYNC-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr39-c3c55816",
-  "claim_expires_at": "2026-11-24T01:55:00Z",
+  "claim_expires_at": "2026-11-24T01:32:56Z",
   "request_commit": "f9cdfde207d2efd274c9e7fc7ed973a9a4715cb8",
   "request_blob": "a2790ade04ac7d284a15d7366e6879766568c40d",
-  "summary": "26 accepted events; verified 12 immutable chunks, pinned journal and completed dependency. Preparing minimal owner updates through D297; convoy choice remains pending.",
+  "summary": "26 accepted events synchronized through frozen D29717:30. Actual100gp advance and13gp4sp purchases/lodging; 21 unique cash/supply legs; three supported market reviews. V convoy decision remains pending in this batch. Newer D297–299 immutable live-play chunk retained for subsequent recovery, not replayed here.",
   "blocker": null,
   "applied_event_ids": [
     "D289-V-SIGNS-SCHOLARLY-COMMISSION-100GP-FUND-ADVANCE-001",
@@ -38,7 +38,7 @@
     "D297-WESTERN-VEYR-MERCHANT-CARAVAN-SHARED-TRAVEL-OPTION-001"
   ],
   "owners_verified": true,
-  "checkpoint_verified": false,
+  "checkpoint_verified": true,
   "owner_commit": "9fabde5232b593316e24405896e7eafdf4530c6c",
   "tested_candidate": "a58e9cbe04a8fd98c7a60c24f4e8c6e335a227ad",
   "preserved_newer_chunks": [
@@ -49,5 +49,98 @@
       "event_id": "D289-290-V-GUESTS-NIGHTGLASS-PROTECTED-FULL-LONGREST-001",
       "reason": "All HP/HD/resources already full; hosted meals/stabling have no personal cash or packed supply debit. Rest recorded in narrative/checkpoint; no synthetic journal leg."
     }
-  ]
+  ],
+  "completed_at": "2026-11-24T01:32:56Z",
+  "tested_commit": "af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722",
+  "checkpoint_commit": "af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722",
+  "request_digest": "fa4bc0b3eb9fa00291eef3b00bf8c188591c2d8c2297d24983441ec8ad2396d8",
+  "verified_event_ids": [
+    "D289-V-SIGNS-SCHOLARLY-COMMISSION-100GP-FUND-ADVANCE-001",
+    "D289-SEVERIN-EDRIC-THREEHOUSE-PROPOSAL-TO-ELARA-QUEUED-001",
+    "D289-290-V-GUESTS-NIGHTGLASS-PROTECTED-FULL-LONGREST-001",
+    "D290-NIGHTGLASS-HOUSE-OUTGOING-POST-LEAVES-WITH-ORSAVEN-ELARA-LETTERS-001",
+    "D290-SEVERIN-OFFERS-OPTIONAL-SUPERVISED-RELIQUARY-HEART-VIEWING-001",
+    "D290-V-CORRECTS-TWO-NIGHTGLASS-LETTERS-TO-PRIORITY-PIGEON-POST-001",
+    "D290-V-PHYSICALLY-TOUCHES-NIGHTGLASS-ORIGINAL-SILVER-HEART-001",
+    "D290-CIRREN-RITUAL-DETECT-MAGIC-IDENTIFY-HEART-001",
+    "D290-V-TRIES-NONRESOURCE-HEART-BOND-DURING-CIRREN-RITUALS-001",
+    "D290-V-ENDS-NIGHTGLASS-HEART-CONTACT-SEVERIN-SECURES-RELIC-001",
+    "D290-V-SELECTS-WESTBOUND-ITINERARY-RETHWYN-CAERETH-ORSAVEN-001",
+    "D290-291-V-PARTY-DEPARTS-NIGHTGLASS-EASTWATCH-WEST-ROAD-QUIET-001",
+    "D291-EASTWATCH-ROAD-SINGLE-MANTICORE-SIGHTED-BEFORE-INITIATIVE-001",
+    "D291-V-MANTICORE-PARTY-INTIMIDATION-SUCCESS-RETREAT-001",
+    "D291-293-V-WESTBOUND-CAER-VEYLAN-QUIET-TRAVEL-REST-SUPPLIES-001",
+    "D293-CIRREN-REMIND-KESTREL-SURVIVOR-CARE-END-D299-001",
+    "D293-SEDGECROSS-AMBULATORY-PATIENTS-INDEPENDENT-DEPARTURE-PLANS-RETRO-001",
+    "D293-SEDGECROSS-CAER-VEYLAN-TRUSTEE-REFERRAL-AND-THREE-MOBILITY-CHECKS-RETRO-001",
+    "D293-V-CAER-VEYLAN-ROAD-RESUPPLY-SEVEN-DAYS-001",
+    "D293-294-V-CAER-VEYLAN-TWO-ROOM-OVERNIGHT-INN-001",
+    "D290-CAER-VEYLAN-LONG-CAST-WAND-ENTANGLE-DUE-REVIEW-001",
+    "D290-CAER-VEYLAN-ROAD-FOLD-BOOTS-DUE-REVIEW-001",
+    "D293-CAER-VEYLAN-EVENING-CUP-WATCHFUL-REST-PRICE-REVIEW-001",
+    "D294-V-CAER-VEYLAN-MAGIC-BROWSE-NEWS-QUEST-LEADS-001",
+    "D294-297-V-DEPARTS-CAER-VEYLAN-WEST-CORRIDOR-QUIET-TRAVEL-001",
+    "D297-WESTERN-VEYR-MERCHANT-CARAVAN-SHARED-TRAVEL-OPTION-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/archive/continuity/campaign-state-before-PLAY-D297-CAER-VEYLAN-MARKET-WESTBOUND-ROAD-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/archive/continuity/session-log-before-PLAY-D297-CAER-VEYLAN-MARKET-WESTBOUND-ROAD-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722/campaign/continuity/campaign-state.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/trackers/csv/magic-shops/dealers.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/trackers/csv/magic-shops/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9fabde5232b593316e24405896e7eafdf4530c6c/trackers/csv/magic-shops/stock.csv"
+  ],
+  "tests": [
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr39/request.json",
+      "exit_code": 0,
+      "tested_commit": "af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr39/pinned.json --request /tmp/pr39/request.json --prior-requests /tmp/pr39/prior.json --supersessions /tmp/pr39/supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase final --report /tmp/pr39/shops.json",
+      "exit_code": 0,
+      "tested_commit": "af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_recovery_chunks automation.test_recovery_chunk_bridge -q",
+      "exit_code": 0,
+      "tested_commit": "af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722",
+      "result": "96 passed"
+    },
+    {
+      "command": "PYTHONPATH=. python3 /tmp/pr39/verify.py",
+      "exit_code": 0,
+      "tested_commit": "af2c9fc9aacfa962efd2bcd4b6a3605c0b4d7722",
+      "result": "PASS"
+    }
+  ],
+  "generated_view_status": "Checkpoint/event/hash/counters verified at 9c1397acb5eaf43716858cb3cf581abe8ff91e6e; Luckstone metadata DERIVED-PENDING",
+  "derived_pending": "Existing current-main quantity overlay still displays purchase-era UNATTUNED holder/detail. Current inventory/status/checkpoint confirm already accepted attunement; no duplicate item or code change. Existing maintenance/repair lane remains fallback.",
+  "cleanup_status": "pending separate verified-only prune",
+  "immutable_provenance": {
+    "boundary": "automation/recovery/boundaries/PLAY-D297-CAER-VEYLAN-MARKET-WESTBOUND-ROAD-SYNC-001.json",
+    "pinned_commit": "c5ae62628221a289b14330331d66f510c6ffecb1",
+    "journal_digest": "b09539b6283bd371837df56ecb8ee57d0f4afe0d2f112d5ab092db5052f31c8a",
+    "verified_chunk_count": 12,
+    "original_files_modified": false
+  }
 }
