@@ -1,5 +1,7 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.5mdzuht5l44k; title: DM — FERRY III; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+**Catalogue disposition — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01: Settlement epilogue; retired as a separate quest offer.** Part of the one optional ferry case in [the setup](dm-ferry-setup.md); no mandatory chapter sequence, duplicate reward or reopened mentor verdict. Existing facts/terms below remain.
+
 The price of the last crossing
 Status and actual trigger
 Optional civil closure on a later return; read FERRY SETUP and earned prior outcomes. Loss of lace receipts may threaten the rebuilding-loan installment; an authorized claim reaching the paymaster may expose the eighth during refinancing. Either can motivate sale. Rumor or Quenwood's questioning alone does not.

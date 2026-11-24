@@ -1,5 +1,7 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.bzsn3ns61f1x; title: DM — FERRY I; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+**Catalogue disposition — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01: Yard/loss approach.** Part of the one optional ferry case in [the setup](dm-ferry-setup.md); no mandatory chapter sequence, duplicate reward or reopened mentor verdict. Existing facts/terms below remain.
+
 The bell in the boatyard
 Status and prerequisite
 Later-return optional chapter; read FERRY SETUP. The yard is a good-faith business. Its independent monster problem can be solved without accepting the whole recovery inquiry.

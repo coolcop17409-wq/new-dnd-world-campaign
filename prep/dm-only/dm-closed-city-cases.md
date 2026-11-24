@@ -1,5 +1,13 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.6or9wb9wwk3j; title: DM — CLOSED CITY CASES; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Catalogue development — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
+
+## Closed cases stay closed; narrow the remaining callback
+
+Retain the completed fire, waterworks, theater/market-related and burial victories exactly. The Keeper's requested201 review is not evidence that a new outbreak, result or message occurred. The prepared Embalmed Compact corpse-diversion cause is a distinct unresolved possibility, not a reason to respawn the two defeated ghouls or make prior success illusory.
+
+Rework the dormant callback as a bounded inquiry first: a genuinely obtained Keeper report can compare the authorized burial list with the actual missing-custody entries; a consenting family or the retained transport record independently identifies the recipient. That inquiry may settle a misdelivery/restitution or expose the already-prepared diversion without compulsory combat. Do not offer a dangerous depot expedition until its actual location, finite occupants, recipient authority and funded terms are pinned; none is established merely by the old request. The later regional mortuary strand may reuse an eligible recipient/evidence route, but not claim this completed cemetery as its prior work or pay twice. G1/G2 PASS for a conditional documentary callback; G3 HOLD physical depot. This remains a light reserve, removed from the immediate city-adventure shortlist until real new evidence—not another automatic return crisis.
+
 Closed city cases
 Status and scope
 Completed interventions. Public outcomes remain in QUESTS; private causes below are retained for a material follow-up, never a replay or new collection obligation.

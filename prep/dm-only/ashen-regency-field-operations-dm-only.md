@@ -1,5 +1,23 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.bntubin1yjkw; title: ASHEN REGENCY — FIELD OPERATIONS [DM ONLY]; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Catalogue development — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
+
+## Manor: the price of inherited protection
+
+UNPLAYED development of the already fixed manor, not a new Regency site or an added force. The local road/tower victory remains complete in its own right. Manor access can follow the tower's ordinary12-path-mile route, a real appointment arranged by the existing factor, or the rescued household's volunteered route knowledge. No mandatory sponsorship chain. The castellan knows who is confined and what provisions are issued; the antiquarian knows documents, not every secret. Each may refuse cooperation without removing the route, copies or physical evidence. Neither is automatically a combatant.
+
+**Fixed approach and rooms.** The walled yard is100ft east–west by80ft north–south, gate centered south; the manor occupies the northern60x40ft. Ground floor: west receiving room30x40, east counting room30x20 with rear stair and east domestic room30x20. Upper floor: west audience gallery30x40 with south windows and heavy interior shutters; east private archive30x20 and stair landing30x20. Cellar beneath the west room30x40 holds the regent's stone coffin at its north end; an ordinary narrow ventilation flue reaches the west yard wall. No second coffin, magic portal or unexplained escape tunnel. The east ground door gives an alternative access route to the rear stair; roofs/windows can be approached using actual movement/tools. Doors are ordinary existing material: use the regional packet's sourced object rules, declare dimensions/durability before an attack. No artificial magical seal requires the heir's blood.
+
+**Allocation, fixed total.** Of the original five manor retainers, the two Veterans occupy gate and receiving room, the two Guards yard and stair, and the Spy counting room. Both spawn shelter in the cellar during daylight, moving only by actual orders/awareness and paths; Ysendre uses gallery/archive at night and coffin by day. The castellan works the domestic room. These are initial unplayed assignments, superseded by actual later deployments/casualties. The tower and patrol do not teleport here. Sound crosses adjacent open rooms; an alarm can be shouted down the stair, but closed stone floors prevent instant omniscience. A messenger to the tower travels twelve path miles. No assumed precast effects or new guards.
+
+**Three objectives, several methods.** Obtain the paternal register in the archive, end the coercive administration, and if chosen destroy the predator sustaining it. The register gives its fixed limited genealogical proof, not title to all dependent land. The counting-room levy record and the tower's exemption/copies independently prove current abuse. A household can be released without accepting V as lord. Destroying Ysendre does not erase records or legally distribute others' homes; taking the records and leaving does not end her regime. An actual settlement must remove coercive demands and provide enforceable safe departure; a polite promise alone is insufficient. Residents may reject both claimants.
+
+**A dynamic fight using real Vampire rules.** Ysendre retains the2014 MM Vampire, not a new multi-HP boss. Window shutters can be opened from the gallery as an ordinary action at each window; exterior daylight and its actual direction must be established before combat. Ordinary bright light is not sunlight. The intact roof means opening shutters creates only the geometrically exposed light, not instant sunlight in the cellar. Players can prepare a daylight approach, hold illuminated exits, reach the coffin separately, draw defenders out or withdraw. Ysendre can use printed Spider Climb, legendary movement and action-cost Shapechanger; bat/mist forms share her current statistics/HP and do not reset resources. Mist cannot attack, speak or manipulate objects. On0HP outside her resting place, actual Misty Escape applies only when she can transform; sunlight/running water can destroy her instead. If eligible she must physically reach this coffin within2hours; she regains1HP only after an hour there. The flue is discoverable from the yard vent or cellar and can be physically sealed; no guaranteed escape. A stake incapacitates only under the printed resting-place conditions, not any combat hit.
+
+**Presence and counterplay.** In a real audience she offers order, cultivated hospitality and hereditary legitimacy while insisting dependents owe blood/service; use the already fixed cruelty rather than a new atrocity performed on demand. A seized levy register, a willing survivor or direct observation gives earlier recognizable mentions. She can defend that policy in her own words without suddenly recognizing V. In battle she tries to isolate a target with printed grapple/bite/charm and withdraw toward darkness; harming a charmed target gives its printed repeat save. Charm is not total mind control or an instruction to write V's choices. Destroying her early stands. No replacement regent or remote peer arrives to restore the local operation.
+
+**Readiness and reward.** G1/G2 PASS for manor objectives, routes, evidence, agency and closure. G3 CONDITIONALLY PREPARED: exact Vampire source/profile appended here and existing retained minion profiles available; use current participant/rest limits, visual map and actual sunlight before activation. Children of the Night must retain its real1/day, sun-down limit,2d4 bat/rat swarms or outdoors3d6 wolves and1d4-round arrival; no pre-roll or free standing garrison. Those referenced profiles are cached below. Vampire alone is10000XP versus5100Deadly for the three-level7 planning baseline; all eight manor enemies together are15250base/38125adjustedXP before any actual night calling. This is a very dangerous voluntary escalation, not a balanced level7 assignment or an unavoidable continuation. The road/city patron budgets pay their existing local milestones once; they do not fund a second unpromised manor bounty. An additional full-regime commission is not READY to offer until a solvent recipient and terms exist. Paternal evidence, ending this predation and the lasting independent household settlement are real noncash payoffs; no automatic magic item, treasury ownership or estate transfer. Distant lich/mummy/necromancer sanctuaries remain separate unready operations.
+
 Ashen Regency — Operational Run Sheet (DM ONLY; junior contact played, later threats unplayed)
 ## Nightglass / Verdana evidence bridge — ADMIN-NIGHTGLASS-EXPANSION-20261120-001
 
@@ -88,3 +106,641 @@ Local rumor progression may include accounts of strangely long-lived sponsors, a
 When a first death-rite expedition is offered, it is a separate OPTION from the existing old-road recovery: precommit a real location, the number of weaker undead there, a finite enemy objective and 2014 stat blocks before rolling. Do not call a mummy lord a normal mummy or put a 2014 CR21 lich in an ordinary encounter for the current party. The Exarch's original two mummies remain at its separate crypt until moved with cause, not spawned on the roadside. Successful action against the road/tower ends that local atrocity operation, while other elite circles remain independently active only through real assets and credible motives. Vampire capture/spawn creation, lich rejuvenation and mummy lord revival follow actual 2014 rules; do not invent generic insta-revival or magical immunity.
 State and resource firewall: the only PLANNED new presence at reception is Ophira, who has now ALREADY been met during actual play; do not replay her entrance. Historically on Day172 ~7:27PM V consented to routing FUTURE commercially documented stonework contact via Tamsin Brack, Tarnford post, without committing any supply or demanding client title. He pressed why Ophira had information about his 'family'; she truthfully distinguished superficial name resemblance from actual kinship and gave a secondary incomplete index of land/road-charter documents she encountered in legitimate private-client work as the possible source. The book's precise provenance, date, and person are NOT established to V or the narrator as hard evidence; she has not brought/released copies and no courier/report sent. Ophira knows only a rising Viscount Vaishnavi values ancestral responsibility and is interested in possible surname history; she does NOT identify the Sovereign's child or any personal supernatural secret. V and Mara at Day172 ~7:30PM expressed interest in personally examining the old incomplete catalogue if permission can be obtained. Ophira agreed to LOOK at her own working notes Day173 and promised to leave a positive OR negative note via Pellin Arkwright at Exchange by Day174, without asserting owner permission, actual provenance, family match or having any original with her. An NPC intent may fail or change only for credible cause; there is NO automatic successful document, fake genealogy, immediate messenger or entitlement. What she privately knows remains limited (name resemblance and general old road charters), does not identify V's Sovereign father. No other Regency actor has been informed, military roster unchanged, no report or courier dispatched, no old dues rumor exposed. No new game-resource expenditure or combat. Day172 ~7:30PM V made Wisdom(Insight) 19 vs DC16 SUCCESS on the already played Ophira social conversation. Credible observable impressions conveyed: her charter expertise and supplier prospect appear real, she is deliberately testing V's hereditary-claim values, had a fleeting discomfort at burdens/resident protections, and has personal/professional stakes concealed behind careful evasions. This is NOT detection of her known DM-only wrongdoing or direct faction identification, supernatural nature, father's court, secrets or proven crime. No competing NPC dice were required because no new specific lie was asserted; no resource used, nobody sent message and faction roster unchanged. V free to continue reception or speak more.
 DM ONLY DAY180 ORSAVEN EXCHANGE OPHIRA CALLBACK played: On V's explicitly chosen Exchange visit, Pellin physically supplied a Day174 Ophira Drel note as previously promised. Ophira responsibly states her secondary copied historical index name is too incomplete to confidently identify as VAISHNAVI; no original/dates/signatories, no private client permission to display/reproduce, no verified genealogy/rights or stonework bid. This is accurate, noncommittal, not new hidden full knowledge that V's father is Sanguine Sovereign or faction employer; no old toll rumor automatic, no dangerous patrol encounter. An authorized later inspection might be offered only by actual source permission, not guaranteed. Pellin independently confirms Blackthorn grade specs courier packet delivered to ESTATE OFFICE Day175, but no Tamsin evaluation or buyer contract assumed. V has not exposed or targeted Ophira's private Regency mission by reading note. World/faction clock continues according to actual movement/knowledge; no enemy operation automatically spawned by mundane Exchange visit.
+
+## Pinned standalone2014 profiles — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
+
+Source: https://github.com/5etools-mirror-3/5etools-src/blob/c286d15651c5b79004496132c22164f59728480d/data/bestiary/bestiary-mm.json . Exact MM name/source/page retained below; no _copy inheritance. Standard2014 conditions and campaign rules apply. All attacks/traits/actions/reactions/legendary action costs and referenced roll expressions remain in the records. Not pre-rolled, rescaled or2024.
+
+### Vampire
+```json
+{
+  "name": "Vampire",
+  "source": "MM",
+  "page": 297,
+  "srd": true,
+  "referenceSources": [
+    "AATM",
+    "BGDIA",
+    "BMT",
+    "CM",
+    "CoS",
+    "DSotDQ",
+    "EGW",
+    "GoS",
+    "HotDQ",
+    "LLK",
+    "RoT",
+    "SatO",
+    "SKT",
+    "TCE",
+    "TftYP",
+    "TftYP-DiT",
+    "TftYP-THSoT",
+    "TftYP-WPM",
+    "ToFW",
+    "VEoR",
+    "WDMM"
+  ],
+  "reprintedAs": [
+    "Vampire|XMM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "undead",
+    "tags": [
+      "shapechanger"
+    ]
+  },
+  "alignment": [
+    "L",
+    "E"
+  ],
+  "ac": [
+    {
+      "ac": 16,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 144,
+    "formula": "17d8 + 68"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 18,
+  "dex": 18,
+  "con": 18,
+  "int": 17,
+  "wis": 15,
+  "cha": 18,
+  "save": {
+    "dex": "+9",
+    "wis": "+7",
+    "cha": "+9"
+  },
+  "skill": {
+    "perception": "+7",
+    "stealth": "+9"
+  },
+  "senses": [
+    "darkvision 120 ft."
+  ],
+  "passive": 17,
+  "resist": [
+    "necrotic",
+    {
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "note": "from nonmagical attacks",
+      "cond": true
+    }
+  ],
+  "languages": [
+    "the languages it knew in life"
+  ],
+  "cr": "13",
+  "trait": [
+    {
+      "name": "Shapechanger",
+      "entries": [
+        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+        "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+      ]
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "entries": [
+        "If the vampire fails a saving throw, it can choose to succeed instead."
+      ]
+    },
+    {
+      "name": "Misty Escape",
+      "entries": [
+        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "entries": [
+        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from {@item Holy Water (Flask)|PHB|holy water}, this trait doesn't function at the start of the vampire's next turn."
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "entries": [
+        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    },
+    {
+      "name": "Vampire Weaknesses",
+      "entries": [
+        "The vampire has the following flaws:",
+        {
+          "type": "list",
+          "style": "list-hang-subtrait",
+          "items": [
+            {
+              "type": "itemSub",
+              "name": "Forbiddance",
+              "entry": "The vampire can't enter a residence without an invitation from one of the occupants."
+            },
+            {
+              "type": "itemSub",
+              "name": "Harmed by Running Water",
+              "entry": "The vampire takes 20 acid damage if it ends its turn in running water."
+            },
+            {
+              "type": "itemSub",
+              "name": "Stake to the Heart",
+              "entry": "If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed."
+            },
+            {
+              "type": "itemSub",
+              "name": "Sunlight Hypersensitivity",
+              "entry": "The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Multiattack (Vampire Form Only)",
+      "entries": [
+        "The vampire makes two attacks, only one of which can be a bite attack."
+      ]
+    },
+    {
+      "name": "Unarmed Strike (Vampire Form Only)",
+      "entries": [
+        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+      ]
+    },
+    {
+      "name": "Bite (Bat or Vampire Form Only)",
+      "entries": [
+        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+      ]
+    },
+    {
+      "name": "Charm",
+      "entries": [
+        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+      ]
+    },
+    {
+      "name": "Children of the Night (1/Day)",
+      "entries": [
+        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+      ]
+    }
+  ],
+  "legendary": [
+    {
+      "name": "Move",
+      "entries": [
+        "The vampire moves up to its speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "name": "Unarmed Strike",
+      "entries": [
+        "The vampire makes one unarmed strike."
+      ]
+    },
+    {
+      "name": "Bite (Costs 2 Actions)",
+      "entries": [
+        "The vampire makes one bite attack."
+      ]
+    }
+  ],
+  "legendaryGroup": {
+    "name": "Vampire",
+    "source": "MM"
+  },
+  "environment": [
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/vampire.opus"
+  },
+  "traitTags": [
+    "Legendary Resistances",
+    "Regeneration",
+    "Shapechanger",
+    "Spider Climb",
+    "Sunlight Sensitivity"
+  ],
+  "senseTags": [
+    "SD"
+  ],
+  "actionTags": [
+    "Multiattack"
+  ],
+  "languageTags": [
+    "LF"
+  ],
+  "damageTags": [
+    "B",
+    "N",
+    "P"
+  ],
+  "miscTags": [
+    "HPR",
+    "MW"
+  ],
+  "conditionInflict": [
+    "charmed"
+  ],
+  "savingThrowForced": [
+    "wisdom"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}
+```
+
+### Swarm of Bats
+```json
+{
+  "name": "Swarm of Bats",
+  "source": "MM",
+  "page": 337,
+  "srd": true,
+  "basicRules": true,
+  "referenceSources": [
+    "AATM",
+    "CM",
+    "CoS",
+    "DitLCoT",
+    "EGW",
+    "FS",
+    "HotDQ",
+    "LLK",
+    "OotA",
+    "PotA",
+    "QftIS",
+    "TftYP",
+    "TftYP-THSoT",
+    "ToA",
+    "WBtW",
+    "WDH",
+    "WDMM"
+  ],
+  "reprintedAs": [
+    "Swarm of Bats|XMM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "beast",
+    "swarmSize": "T"
+  },
+  "alignment": [
+    "U"
+  ],
+  "ac": [
+    12
+  ],
+  "hp": {
+    "average": 22,
+    "formula": "5d8"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": 30
+  },
+  "str": 5,
+  "dex": 15,
+  "con": 10,
+  "int": 2,
+  "wis": 12,
+  "cha": 4,
+  "senses": [
+    "blindsight 60 ft."
+  ],
+  "passive": 11,
+  "resist": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "conditionImmune": [
+    "charmed",
+    "frightened",
+    "grappled",
+    "paralyzed",
+    "petrified",
+    "prone",
+    "restrained",
+    "stunned"
+  ],
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Echolocation",
+      "entries": [
+        "The swarm can't use its blindsight while {@condition deafened}."
+      ]
+    },
+    {
+      "name": "Keen Hearing",
+      "entries": [
+        "The swarm has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "entries": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bites",
+      "entries": [
+        "{@atk mw} {@hit 4} to hit, reach 0 ft., one creature in the swarm's space. {@h}5 ({@damage 2d4}) piercing damage, or 2 ({@damage 1d4}) piercing damage if the swarm has half of its hit points or fewer."
+      ]
+    }
+  ],
+  "environment": [
+    "underdark",
+    "mountain",
+    "hill",
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/swarm-of-bats.opus"
+  },
+  "traitTags": [
+    "Keen Senses"
+  ],
+  "senseTags": [
+    "B"
+  ],
+  "damageTags": [
+    "P"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}
+```
+
+### Swarm of Rats
+```json
+{
+  "name": "Swarm of Rats",
+  "source": "MM",
+  "page": 339,
+  "srd": true,
+  "basicRules": true,
+  "referenceSources": [
+    "BGDIA",
+    "CM",
+    "CoS",
+    "GoS",
+    "HotDQ",
+    "TCE",
+    "TftYP",
+    "TftYP-THSoT",
+    "TftYP-TSC",
+    "WDH",
+    "WDMM"
+  ],
+  "reprintedAs": [
+    "Swarm of Rats|XMM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": {
+    "type": "beast",
+    "swarmSize": "T"
+  },
+  "alignment": [
+    "U"
+  ],
+  "ac": [
+    10
+  ],
+  "hp": {
+    "average": 24,
+    "formula": "7d8 - 7"
+  },
+  "speed": {
+    "walk": 30
+  },
+  "str": 9,
+  "dex": 11,
+  "con": 9,
+  "int": 2,
+  "wis": 10,
+  "cha": 3,
+  "senses": [
+    "darkvision 30 ft."
+  ],
+  "passive": 10,
+  "resist": [
+    "bludgeoning",
+    "piercing",
+    "slashing"
+  ],
+  "conditionImmune": [
+    "charmed",
+    "frightened",
+    "grappled",
+    "paralyzed",
+    "petrified",
+    "prone",
+    "restrained",
+    "stunned"
+  ],
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Keen Smell",
+      "entries": [
+        "The swarm has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Swarm",
+      "entries": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bites",
+      "entries": [
+        "{@atk mw} {@hit 2} to hit, reach 0 ft., one target in the swarm's space. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm has half of its hit points or fewer."
+      ]
+    }
+  ],
+  "environment": [
+    "swamp",
+    "urban"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/swarm-of-rats.opus"
+  },
+  "traitTags": [
+    "Keen Senses"
+  ],
+  "senseTags": [
+    "D"
+  ],
+  "damageTags": [
+    "P"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+}
+```
+
+### Wolf
+```json
+{
+  "name": "Wolf",
+  "source": "MM",
+  "page": 341,
+  "srd": true,
+  "basicRules": true,
+  "referenceSources": [
+    "BMT",
+    "CM",
+    "CoA",
+    "CoS",
+    "DD",
+    "EGW",
+    "FS",
+    "GoS",
+    "HftT",
+    "HotDQ",
+    "IDRotF",
+    "LK",
+    "LMoP",
+    "PaBTSO",
+    "PotA",
+    "QftIS",
+    "RoT",
+    "SKT",
+    "TCE",
+    "WDH"
+  ],
+  "reprintedAs": [
+    "Wolf|XMM"
+  ],
+  "size": [
+    "M"
+  ],
+  "type": "beast",
+  "alignment": [
+    "U"
+  ],
+  "ac": [
+    {
+      "ac": 13,
+      "from": [
+        "natural armor"
+      ]
+    }
+  ],
+  "hp": {
+    "average": 11,
+    "formula": "2d8 + 2"
+  },
+  "speed": {
+    "walk": 40
+  },
+  "str": 12,
+  "dex": 15,
+  "con": 12,
+  "int": 3,
+  "wis": 12,
+  "cha": 6,
+  "skill": {
+    "perception": "+3",
+    "stealth": "+4"
+  },
+  "passive": 13,
+  "cr": "1/4",
+  "trait": [
+    {
+      "name": "Keen Hearing and Smell",
+      "entries": [
+        "The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "entries": [
+        "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Bite",
+      "entries": [
+        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+      ]
+    }
+  ],
+  "environment": [
+    "grassland",
+    "forest",
+    "hill"
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "bestiary/wolf.opus"
+  },
+  "traitTags": [
+    "Keen Senses",
+    "Pack Tactics"
+  ],
+  "damageTags": [
+    "P"
+  ],
+  "miscTags": [
+    "MW"
+  ],
+  "conditionInflict": [
+    "prone"
+  ],
+  "savingThrowForced": [
+    "strength"
+  ],
+  "hasToken": true,
+  "hasFluffImages": true
+}
+```

@@ -1,5 +1,15 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.78bhmgiusdji; title: DM — CIRREN FAMILY & MENTOR; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Catalogue development — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
+
+## Cirren after the verdict: a life beyond the solved case
+
+The205 verdict,176 reunion and215 family correspondence retain their exact outcomes. Tobin's stated unreadiness to meet is not a problem V must solve, and an unseen reply cannot be fabricated. Cirren can initiate a quiet discussion about what relationship he wants with living relatives, choose to write a non-demanding letter, or spend an ordinary visit with people who actually welcome him. He need not wait for V to assign a personal goal. A letter here is a prepared intention; actual writing, sending, cost, arrival and reply follow play/owning records.
+
+For a substantial personal development, give him an actual choice between preserving privacy and seeking corroboration about his own history when a legitimate new source appears. The GLASS SPEAR owner supplies the separate proof network; neither the solved murder case nor a relative's refusal becomes evidence of that conspiracy. He can ask for V's help with a defined recipient or join V's scholarly comparison because protection obligations matter to him, then disagree about acceptable disclosure. An absent/unwilling family member leaves his own records and a consenting independent source available. He can close the family chapter on respectful distance without losing his companion arc or being punished with a kidnapping.
+
+Retire any reading of the ferry sequence as Cirren's compulsory next personal quest; it is an independent optional financial case. G1/G2 PASS for these source-compatible initiatives; G3 N/A quiet scenes, later divine-history expedition separately HOLD until its site packet. Next trigger: compatible shared conversation, an actual reply or willingly chosen recipient visit. No delivered initiative or new approval inferred.
+
 Cirren — family and mentor
 Day203 courthouse reserve — DUTY COMPLETED ~3:50PM [D203-COURT-RESERVE-COMPLETE-001]
 HISTORICAL DAY203 BRIEFING: the following duty setup is retained for provenance, not current instructions. Duty completed safely Day203; Day205 verdict is played and must not be rerolled. Witness addresses stay private; no attack was established.

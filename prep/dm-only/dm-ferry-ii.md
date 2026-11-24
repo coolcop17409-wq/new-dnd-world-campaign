@@ -1,5 +1,7 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.e1q90ag34li5; title: DM — FERRY II; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+**Catalogue disposition — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01: Live-run approach.** Part of the one optional ferry case in [the setup](dm-ferry-setup.md); no mandatory chapter sequence, duplicate reward or reopened mentor verdict. Existing facts/terms below remain.
+
 The last passenger boat
 Status and prerequisite
 Later-return optional chapter; read FERRY SETUP and actual Chapter I outcome. Surveillance/rescue can succeed without a fight. Smuggling alone is not an immediate lethal threat.

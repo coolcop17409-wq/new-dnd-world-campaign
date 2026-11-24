@@ -1,5 +1,17 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.lh33eff4pous; title: DM — STANDING STORY DIRECTIONS; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Developed choices — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
+
+### Companion goals now attached to playable owners
+Mara's scholarly concern has an actual two-holding archive/salvage/consent situation in dm-covenant-aftercare.md, and a concrete copy/credit request within the accepted ancestry chapter. These are different scales of the same personal interest; do not offer two paid copies of the same research. Her proposed future library remains a relationship/house ambition, not a construction order or an estate expense. She can laugh, disagree, visit colleagues or spend time alone without every interaction generating a quest.
+
+Cirren's owner now gives choices about family contact/privacy after his solved case, while GLASS SPEAR supplies his separate evidence route. Neither route requires convincing Tobin to meet. He can ask for an evening or a recipient visit and pursue lawful correspondence in his own time; the DM still records actual actions and knowledge only when performed.
+
+Fenar's next personal undertaking is to decide what she wants carried home: a truthful account of her loss and growth, a request for remembered traditions, or a visit to Raukhar's Rest. At a compatible conversation she can say which matters and ask whether the route can accommodate it. Her family/home facts remain in her Roleplay/NPCS owners; no new clan casualty or summons. If V supports contact, two paths exist: ordinary correspondence through a real reached carrier, or an actual Ilvaran journey planned with its regional owner. If V declines, she can choose her own correspondence/training and revisit travel later without an automatic departure or loyalty penalty. A willing elder's remembered account and independent historical evidence can later inform her GLASS SPEAR inquiry; neither predetermines her interpretation. A visit's first meaningful choice is time with living kin versus following a corroborated historical trail, not another kidnapping. That distant journey remains lightly prepared until selected; no claimed G3 family dungeon or power reward.
+
+### Weaving without homogenizing
+The ancestry crossing can illuminate modern protection claims; the separate Regency operation tests what a lasting house owes others. Pennant evidence can make the Crown's current intelligence request concrete and eventually expose a distinct military program. Companion histories supply personal perspectives and independent decisions, not three keys V must collect. Wychstone is a separate test of stewardship/exploration with no mandatory bloodline connection. Major political victories can open allies, lawful recognition or opposition on actual evidence; estate/title owners resolve those effects, not a quest reward paragraph. The completed Kestrel, Caereth defense, Graven and Elara victories remain foundations of the epic rather than repeatedly reopened emergencies.
+
 DM ONLY — Standing story directions
 These are creative constraints and unrevealed source routes, not player-known discoveries or new played events.
 ## Central campaign spine — OOC-EPIC-CAMPAIGN-SPINE-20261124-001
