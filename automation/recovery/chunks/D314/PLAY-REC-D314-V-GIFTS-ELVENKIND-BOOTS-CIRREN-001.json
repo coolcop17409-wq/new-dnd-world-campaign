@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D314-V-GIFTS-ELVENKIND-BOOTS-CIRREN-001",
+  "base_commit": "7fe7171cecc4cb695438bbe883a473d05cfe897d",
+  "source_checkpoint": "D314-2130-CAERETH-DEFENSE-ACCEPTED-BOOTS-PURCHASED-DINNER-END-001",
+  "destination_checkpoint": "D314-2135-CAERETH-CIRREN-ELVENKIND-BOOTS-GIFT-001",
+  "source_evidence": "Player exact 'Give the boots to Cirren'. V transfers the exact single original Boots of Elvenkind purchased earlier D314 for245gp from his own possession to willing Cirren, who accepts gift and wears them. No attunement, no extra funds, no stat changes other than item custody/effect. No roll necessary. Prior merchant sale not replayed; boots are not duplicated. D314~21:35 at Elara's Caereth city residence, after celebratory dinner. V voluntarily gives his single original Boots of Elvenkind bought earlier today for245gp to Cirren, who gratefully accepts and wears them. V no longer possesses or benefits from boots; Cirren has silent footsteps and advantage on Dexterity (Stealth) checks relying on moving silently, no attunement, no universal concealment or armor Stealth penalty cancellation beyond ordinary advantage/disadvantage rules. No new purchase, sale, fee, or duplicate item; market lot remains sold. V purse138gp4sp6cp, food21/feed28, rest3/6, no overnight yet; V48/48 AC19 HD7/7 all pools full attuned cloak+Luckstone2/3, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 full, Mara/Elara/4 horses healthy. Defense of Caereth accepted,2500gp conditional milestones and negotiated benefits unearned, tomorrow late afternoon meeting with records access; palace audience requested appointment not confirmed, original Kestrel evidence unchanged, marriage recognized Crownsunder, Severin memorandum reply pending. PixieDust1, peryton specimens and all other custody unchanged. V dice delegated until stop. Await next action/overnight.",
+  "pending_action": "D314~21:35 at Elara's Caereth city residence, after celebratory dinner. V voluntarily gives his single original Boots of Elvenkind bought earlier today for245gp to Cirren, who gratefully accepts and wears them. V no longer possesses or benefits from boots; Cirren has silent footsteps and advantage on Dexterity (Stealth) checks relying on moving silently, no attunement, no universal concealment or armor Stealth penalty cancellation beyond ordinary advantage/disadvantage rules. No new purchase, sale, fee, or duplicate item; market lot remains sold. V purse138gp4sp6cp, food21/feed28, rest3/6, no overnight yet; V48/48 AC19 HD7/7 all pools full attuned cloak+Luckstone2/3, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 full, Mara/Elara/4 horses healthy. Defense of Caereth accepted,2500gp conditional milestones and negotiated benefits unearned, tomorrow late afternoon meeting with records access; palace audience requested appointment not confirmed, original Kestrel evidence unchanged, marriage recognized Crownsunder, Severin memorandum reply pending. PixieDust1, peryton specimens and all other custody unchanged. V dice delegated until stop. Await next action/overnight.",
+  "depends_on": [
+    "PLAY-REC-D314-V-ACCEPTS-DEFENSE-BUYS-ELVENKIND-BOOTS-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary gift and acceptance, no uncertain check."
+  },
+  "events": [
+    {
+      "event_id": "D314-V-TO-CIRREN-BOOTS-OF-ELVENKIND-GIFT-001",
+      "accepted": true,
+      "evidence": "Player exact 'Give the boots to Cirren'. V transfers the exact single original Boots of Elvenkind purchased earlier D314 for245gp from his own possession to willing Cirren, who accepts gift and wears them. No attunement, no extra funds, no stat changes other than item custody/effect. No roll necessary. Prior merchant sale not replayed; boots are not duplicated. D314~21:35 at Elara's Caereth city residence, after celebratory dinner. V voluntarily gives his single original Boots of Elvenkind bought earlier today for245gp to Cirren, who gratefully accepts and wears them. V no longer possesses or benefits from boots; Cirren has silent footsteps and advantage on Dexterity (Stealth) checks relying on moving silently, no attunement, no universal concealment or armor Stealth penalty cancellation beyond ordinary advantage/disadvantage rules. No new purchase, sale, fee, or duplicate item; market lot remains sold. V purse138gp4sp6cp, food21/feed28, rest3/6, no overnight yet; V48/48 AC19 HD7/7 all pools full attuned cloak+Luckstone2/3, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 full, Mara/Elara/4 horses healthy. Defense of Caereth accepted,2500gp conditional milestones and negotiated benefits unearned, tomorrow late afternoon meeting with records access; palace audience requested appointment not confirmed, original Kestrel evidence unchanged, marriage recognized Crownsunder, Severin memorandum reply pending. PixieDust1, peryton specimens and all other custody unchanged. V dice delegated until stop. Await next action/overnight.",
+      "before": "V owns and wears single Boots of Elvenkind; Cirren does not.",
+      "after": "Cirren owns and wears the same pair; V has none. Purse unchanged.",
+      "owner_paths": [
+        "trackers/csv/v/v-inventory.csv",
+        "trackers/csv/cirren/cirren-inventory.csv",
+        "data/characters/events.csv",
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
