@@ -32,3 +32,6 @@ Character visual folders and likeness rules: README child t.be7bspidbjti.
 Standing unrevealed story directions: DM-only child t.lh33eff4pous. Do not expose private knowledge.
 Retired situational rule notes: historical child https://docs.google.com/document/d/1xxrGQJ1kWeL7tffEb6J-fgjaK-3IYE2PpQJeHS_F4Lw/edit?tab=t.u7s0rdju9mt4, only for provenance/conflicts.
 Exact file/range routes and synchronization procedure: README. Do not append combat rounds or current resource snapshots here.
+
+Companion initiative and villain presence — OOC-COMPANION-VILLAIN-PRESENCE-20261124-001
+Companions have independent needs, ambitions, relationships and developing quests within, intersecting or parallel to V's story; they initiate meaningful activity rather than wait for instructions. Major villains should be recognizable and recurrent through credible appearances, mentions and consequential conduct, creating concrete reasons to stop them. Normally prepare memorable combat culminations with project-specific objectives, terrain and verified ritual/experiment/transformation mechanics; preserve earned early victory and real alternatives. Full procedure: [QDF-1](rules-quest-design.md#living-companions-and-visible-consequential-villains). No gameplay or mechanics are granted by this direction.
