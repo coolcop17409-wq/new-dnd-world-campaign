@@ -27,4 +27,4 @@ Previously verified atlas `ATLAS-D281-KESTREL-APPROACH-001` is historical to the
 ## Cooperative writer
 Short owning-record batch coordination; accepted-play recovery retains its separate fast path.
 
-CAMPAIGN_WRITER | state=IDLE
+CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D320-20261124-01 | worker=Atlas | ops=ATLAS-D320-OSSENT-APPROACH-001 | acquired_UTC=2026-11-24T08:10:27.000Z | heartbeat_UTC=2026-11-24T08:10:27.000Z | expires_UTC=2026-11-24T08:20:27.000Z | recovery=assets/README.md#atlas-review
