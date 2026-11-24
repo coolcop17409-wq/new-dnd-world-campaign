@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001",
+  "reason": "combat_end",
+  "source_checkpoint": "D297-1730-WESTERN-VEYR-ROAD-MERCHANT-CONVOY-OPTION-PENDING-001",
+  "destination_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
+  "last_recovery_id": "PLAY-REC-D308-PERYTON-VERIFIED-R4-COMBAT-END-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D297/PLAY-REC-D297-299-V-INDEPENDENT-WESTWARD-CROSSES-INTO-CROWNSUNDER-001.json",
+      "digest": "11edc78d1819aed312fee04d337f1c5a86fdd6a24ad307aa3b9f91210d9dacf2"
+    },
+    {
+      "path": "automation/recovery/chunks/D299/PLAY-REC-D299-307-V-CROWNSUNDER-QUIET-TRAVEL-RESUPPLY-ROAD-FIRE-001.json",
+      "digest": "aab09418b08b5df6b0256c59ad68dc862cf64b168d501625480e46167163ae15"
+    },
+    {
+      "path": "automation/recovery/chunks/D307/PLAY-REC-D307-V-HELPS-FARM-FIRE-RESCUES-OXEN-CONTAINS-FLAMES-001.json",
+      "digest": "f29c35449a6f7990fa2e7bc490c4aeb9549e611b7eff950698b34339ed44af72"
+    },
+    {
+      "path": "automation/recovery/chunks/D307/PLAY-REC-D307-V-REASSERTS-FENAR-ALWAYS-DOUBLE-CLAW-REND-AXE-VISUAL-001.json",
+      "digest": "d4977e66f45198dfb2a114dc7058a4d5774c5c0ad919d5d4ea96e69e745616a9"
+    },
+    {
+      "path": "automation/recovery/chunks/D307/PLAY-REC-D307-308-V-BYPASSES-FARM-FIRE-REFUELS-THREE-PERYTONS-SIGHTED-001.json",
+      "digest": "ffc29007f717afbf29a282119ff75451f2429e3a910d29349d912990d3b151aa"
+    },
+    {
+      "path": "automation/recovery/chunks/D308/PLAY-REC-D308-PERYTON-VERIFIED-RESTART-R1-R2-001.json",
+      "digest": "ec91294867836b8116a8dee440af143fede87df23d5c515d2d2f367774c5da70"
+    },
+    {
+      "path": "automation/recovery/chunks/D308/PLAY-REC-D308-PERYTON-VERIFIED-R3-HIDE-READY-001.json",
+      "digest": "7f14867d98e102c21d6909e24f9c108a56a7e1ba577233475bfce2decf71d92c"
+    },
+    {
+      "path": "automation/recovery/chunks/D308/PLAY-REC-D308-PERYTON-VERIFIED-R4-COMBAT-END-001.json",
+      "digest": "df7d27c8a3db599cbf9815d0fde69f3e964f34e08a1951d78fd6b43b39777427"
+    }
+  ]
+}
