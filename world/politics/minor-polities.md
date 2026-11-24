@@ -2,13 +2,15 @@
 
 **Status:** adopted world canon (2026-11-24). The names, political categories, host relations, and short descriptions of all 150 entries are confirmed. The atlas is the placement reference, but its border lines remain schematic; exact legal boundaries are not surveyed. Entries include sovereign polities, autonomous communities, and mobile networks, so not every entry claims fixed territory. Most settled entries share the language, religion, and broad customs of their host or nearest major state, with local laws, identities, and rivalries layered on top.
 
+**Player confirmation — ADMIN-QUEST-MINOR-CANON-20261124-01:** “it scanon now so review and rework.” This confirms the existing150-entry adoption and supersedes proposal-only restrictions in earlier quest reviews. World existence/institutions are canon; a prepared quest, dispatched message, current NPC whereabouts or V's knowledge still requires its own evidence.
+
 ## Reading the layer
 
-- **Independent**: proposed separate political authority.
+- **Independent**: separate political authority.
 - **Contested**: mapped limit is disputed against one or more major states; minor entities do not claim one another’s territory. Any apparent minor-to-minor overlap in a drawing is a cartographic error, not an intended joint claim.
 - **Autonomous**: local self-government under the named host state.
 - **Mobile**: seasonal or route-based community; its marker is an anchor, not a fixed border.
-- Local customs, roads, tributaries and offices in the short descriptions are working details unless separately adopted in the geographic canon.
+- Local customs, roads, tributaries and offices in the short descriptions are adopted at the stated level. Unspecified exact alignments, surveyed borders, travel times and individual officeholders remain to be established where needed; this does not make the entities or their described institutions provisional.
 
 ## Arden
 
@@ -178,5 +180,5 @@ Use `world/politics/geography-seats.md` for adopted continent, coast, terrain, s
 
 ### Adopted cartographic corrections — 2026-11-24
 
-- **Serefen** is in lower Zafira on Arden, along a proposed local tributary toward the Serevan River. Its former position on Ashcrown’s landmass was erroneous; the local tributary is established, while its exact course remains unsurveyed.
+- **Serefen** is in lower Zafira on Arden, along its established local tributary toward the Serevan River. Its former position on Ashcrown’s landmass was erroneous; the local tributary is established, while its exact course remains unsurveyed.
 - **Stonefold League** replaces “Lake Oran League.” It lies on the eastern rim of the Saltward Basin along an upland route toward mapped **Lake Orun**. No separate Lake Oran is established.
