@@ -4,16 +4,16 @@ The owner's 2026-11-20 GitHub cutover remains active. This file is a **short ind
 
 ## Mandatory scoped startup
 1. Read repository `README.md` → `AGENTS.md` → this routing index.
-2. Read `campaign/continuity/campaign-state.md` (exact owner checkpoint), `runtime/PLAY_NOW.md` (generated counters/summary) and `automation/recovery/active.json` (accepted unsynced play). Compare current checkpoint, newest SESSION_LOG ID and pinned request receipts; owner and newer accepted play override generated views.
-3. Read only applicable `campaign/continuity/rules*.md`, recent relevant `session-log.md`, active `quests.md`, `npcs.md`, `inventory.md`, and eligible current-region `prep/dm-only/` sections. `runtime/REGION_PREP.md` is a *DM-only convenience briefing*; check its checkpoint against the actual scene. If stale, use owning references.
+2. Read `campaign/continuity/campaign-state.md` and `automation/recovery/mode.json`. In active chunked mode recover the newer immutable `automation/recovery/chunks/D###/` suffix under `automation/recovery/CHUNKS.md`; an empty compatibility `active.json` does not mean no newer accepted play. Compare `runtime/PLAY_NOW.md`, newest SESSION_LOG ID and bound receipts against owners plus accepted chunks.
+3. Read only applicable `campaign/continuity/rules*.md`, recent relevant `session-log.md`, active `quests.md`, `npcs.md`, `inventory.md`, and eligible current-region `prep/dm-only/` sections. Read `runtime/LIVE_DM_FAST_PATH.md` once at startup. Use `runtime/SCENE_CACHE.md` only with matching source pins and `runtime/REGION_PREP.md` only for relevant locale transitions; stale packets yield to owners/newer accepted chunks. `runtime/SCOPED_RULES_INDEX.md` routes to RULES, never replaces them.
 4. Use `dashboard/dashboard.json` only for missing/disputed counters; owning character CSVs and `data/characters/events.csv` control actual changes. Do not bulk-read archives, full NPCS/QUESTS, estates, shops, world politics or visuals unless relevant.
 
 ## Fast live play and record durability
 Retain one verified in-conversation scene/tactical packet; genuine DM dice, independent companions and V-controlled actions remain mandatory. Do not reread known monster/character sources or conduct background accounting during a turn.
 
-Each response with new accepted play appends exactly one guarded recovery entry in `automation/recovery/active.json`. At an actual natural sync boundary, include the explicit validated `sync_trigger` marker in that same update (or use a guarded marker-only update for explicit Sync when unqueued entries already exist). **GitHub Actions**, not the live DM, discovers prior PRs, pins the journal, builds the immutable request and opens the draft `[CAMPAIGN-SYNC]` transport. The independent Work worker applies accepted owning events, CAMPAIGN_STATE last, verifies and prunes covered recovery. The DM need not wait for Actions or investigate repair logs while narrating. A saved recovery entry is not a queued or owner-synced result. Marker without durable readback is unsaved; worker may not advance V or invent events.
+Every changed response creates and reads back exactly **one immutable original chunk**, with stable ID and exact accepted evidence, via GitHub `create_file`. Never append per-turn to `active.json` in chunked mode. At a genuine synchronization threshold create one ordered digest-checked immutable boundary manifest. GitHub Actions assembles the compatibility journal only at that boundary and queues the deduplicated draft `[CAMPAIGN-SYNC]` transport; the independent Work worker applies verified owner events and CAMPAIGN_STATE last. Preserve original chunks permanently. Recovery recorded, PR queued, worker partial and owners verified/cleaned are separate states. Failed readback remains unsaved; retain exact deltas. Do not wait for CI during narration or invent a boundary, V action or outcome.
 
-Fallback, exact marker schema, prior-request discovery, supersession, retries and verified-only cleanup: `automation/recovery/README.md`, `automation/handoffs/play-sync/README.md` and `migration/ONGOING_UPDATE_PROTOCOL.md`. Technical validation failures route to `automation/handoffs/sync-repair/README.md` and cannot automatically merge unreviewed fixes. Never silently claim completed saving.
+Mode-specific fallback, prior-request discovery, supersession, retries and verified-only compatibility cleanup: `automation/recovery/CHUNKS.md`, `automation/recovery/README.md`, `automation/handoffs/play-sync/README.md` and `migration/ONGOING_UPDATE_PROTOCOL.md`. Technical validation failures route to `automation/handoffs/sync-repair/README.md` and cannot automatically merge unreviewed fixes. Never silently claim completed saving.
 
 ## Owning records
 - `campaign/continuity/campaign-state.md`: sole current pause and V pending action; `session-log.md`: recent accepted history; `archive/`: closed evidence
@@ -27,7 +27,7 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 ## Atlas review
 
-Verified edition `ATLAS-D278-WESTERN-VEYR-001` · Western Veyr and Caer Veylan, Day 278. [HTML v10](https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal) · [SVG v7](https://chatgpt.com/library?file_id=libfile_9b506d61a5208191aaa86f32100ecfe0&account_id=personal) · [transparent PNG v3](https://chatgpt.com/library?file_id=libfile_cb3bd386e910819187a767f1b4b6ee7a&account_id=personal) · [preview v6](https://chatgpt.com/library?file_id=libfile_58d6beffe2c481918bffb5c188806a48&account_id=personal). [Previous edition](../../archive/continuity/continuity-routing-before-auto-sync-20261121.md#atlas-review).
+Verified scoped edition `ATLAS-D320-OSSENT-APPROACH-001`: player-known journey through the Crownsunder side of the Ossent frontier, Day320 noon; no crossing implied. Current publication and asset versions: [owning Atlas review](../../assets/README.md#atlas-review).
 
 ## Cooperative writer
 

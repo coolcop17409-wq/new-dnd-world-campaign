@@ -1,6 +1,12 @@
 # Ongoing update protocol — active GitHub source
 
-## Per-response recovery — owner-authorized 2026-11-21
+## Current recovery routing
+
+Read `automation/recovery/mode.json` first. In active **chunked** mode, `runtime/LIVE_DM_FAST_PATH.md` and `automation/recovery/CHUNKS.md` govern: each changed response creates and independently reads back one immutable original chunk; an actual synchronization threshold creates one ordered digest manifest. The independent bridge assembles compatibility `active.json` only at that boundary; the owner worker verifies dependent records before CAMPAIGN_STATE last and cleans only verified compatibility entries. Original chunks remain immutable. Startup must recover newer chunks even when `active.json` is empty. No per-turn legacy append or in-conversation-only durability substitutes for that write.
+
+The legacy recording/foreground-sync passages below are historical or legacy-mode procedures; they do not override current mode and the fast-play contract. RPG rulings, accepted outcomes, causal guards and ownership are unchanged.
+
+## Historical legacy-mode per-response recovery — owner-authorized 2026-11-21
 
 After each response with accepted new play, append and verify **one** small recovery entry in `automation/recovery/active.json` per `automation/recovery/README.md`. For that single metadata file, GitHub Contents API `update_file` with the current blob SHA plus exact readback is the fast guarded path; avoid a full commit-tree-branch-ref sequence and CI polling during combat. Owner records still use the separate guarded batch procedure. No other per-turn GitHub write is required. At startup recover this journal alongside pending play-sync batches before continuing. Clear only exact entries covered by independently verified completed batches, preserving newer entries. Recovery recorded, queued and saved to owners are distinct states. Failed writes remain unsaved; no after-close capture is promised.
 

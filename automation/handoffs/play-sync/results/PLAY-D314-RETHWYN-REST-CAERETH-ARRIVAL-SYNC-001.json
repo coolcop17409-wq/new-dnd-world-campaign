@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001",
+  "status": "blocked",
+  "phase": "submission_blocked",
+  "source_commit": "7056fd9094fc408cb528ab00de8aab34bdd51efc",
+  "source_boundary": "automation/recovery/boundaries/PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001.json",
+  "source_boundary_blob": "b77839c0f8f91f1c820c95ef05116a95d2335892",
+  "source_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
+  "destination_checkpoint": "D314-1630-CAERETH-RETHWYN-CITY-RESIDENCE-ARRIVAL-001",
+  "record_count": 9,
+  "request_commit": null,
+  "request_blob": null,
+  "transport_pr": null,
+  "owners_verified": false,
+  "applied_event_ids": [],
+  "tested_commit": "55b5eb9d3a351d427a2b5faf692129de4b64cb86",
+  "summary": "Exact explicit immutable boundary recovered and independently checked; trusted current-main compatibility assembly fails before any write. Accepted evidence retained; no transport or gameplay applied.",
+  "blocker": "Chunk filename and accepted entry ID mismatch: boundary references automation/recovery/chunks/D310/PLAY-REC-D308-310-V-RETHWYN-MANOR-APPROACH-RECOVERY-001.json, but current validator derives D308 from ID. Byte-identical original exists at both paths; neither is modified. Existing terminal repair proposal PR41 remains unmerged.",
+  "next_trigger": "After a human-reviewed/authorized fix reaches main, verify its application, recheck latest checkpoint/claims and all historical transports, then retry the same stable boundary ID with its pinned source. Resolve overlap with the other boundary through trusted bridge/batching before any owner application; never submit/apply the same prefix twice.",
+  "depends_on": [],
+  "overlaps_boundary_ids": [
+    "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002"
+  ],
+  "repair_pr": 41,
+  "tests": [
+    {
+      "command": "automation.recovery_chunks.compatibility_journal(boundary, exact_pinned_loader, active, mode)",
+      "result": "BLOCKED: Chunk filename and accepted entry ID mismatch"
+    },
+    {
+      "command": "Independent historical Git blob, manifest digest and checkpoint-chain comparison",
+      "result": "PASS 9 exact entries; not an assembly bypass"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "result": "PASS saved Day308 only"
+    }
+  ],
+  "discovery": "All44 open/closed PRs inspected; no request/PR for this ID, no active central worker claim for it. Maintenance lane empty. Terminal repair/play receipts preserved.",
+  "owner_refs": [
+    "automation/recovery/boundaries/PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001.json",
+    "automation/recovery/CHUNKS.md",
+    "campaign/continuity/campaign-state.md",
+    "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md"
+  ],
+  "recovery_preserved": true,
+  "advances_gameplay": false
+}
