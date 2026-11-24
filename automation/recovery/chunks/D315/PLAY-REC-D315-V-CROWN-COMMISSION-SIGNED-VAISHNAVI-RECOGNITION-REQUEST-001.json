@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D315-V-CROWN-COMMISSION-SIGNED-VAISHNAVI-RECOGNITION-REQUEST-001",
+  "base_commit": "9e65c22d292f577f486fc726f6a4d9428ba7bf6a",
+  "source_checkpoint": "D315-1145-CAERETH-CROWN-1800-COMMISSION-SIGNATURE-PENDING-001",
+  "destination_checkpoint": "D315-1200-CAERETH-CROWN-COMMISSION-SIGNED-RECOGNITION-TALKS-OFFER-001",
+  "source_evidence": "Player exact 'Deal. We also want to formally recognize our three houses under the House Vaishnavi banner. And be involved with the grand political talks.' Acceptance of explicitly offered Crown commission with 200gp signing advance, remaining300/1300; actual signature, written commission/liaison introduction, and receipt of 200gp. Crown limited intelligence remit only. V requests formal recognition of previously discussed consent-based alliance and meaningful participation in grand political talks. Elara independently confirms previously stated in-principle consent, not acting for Severin; no implied commitment of third party. Councillor treats request substantively: route proposed association through established Crown/Assembly recognition, contingent on written terms and Severin's actual assent; Crownsunder cannot automatically recognize foreign estates or grant rights in other realms. Based on V's demonstrated evidence and role as contracted investigator, councillor independently invites V and Elara to his D316 afternoon defense consultation with royal advisers/Assembly delegates as invited speakers on frontier security; no elective seat, sovereign decision, automatic recognition or wider House obligations. No new contested check, no expenditures other than actual Crown advance; no completion of copying or guild matter. D315~12:00 Caereth palace private council chamber. V accepted and signed Crown frontier intelligence commission, councillor signed on Crown's limited intelligence authority; actual200gp advance paid once, purse203gp4sp6cp→403gp4sp6cp. Maximum1800gp including advance; remaining300gp on substantiated identification/corroboration,1300gp on authenticated sponsor/controller chain and actionable intelligence. Written commission and sealed liaison introduction handed to V; authorizes lawful inquiries/requests for assistance, no private war, compulsory military command or diplomatic immunity. Orseld report read, no perpetrators established. V expressly requests formal Crown recognition of three autonomous houses associated under House Vaishnavi's senior coordinating banner and involvement in high-level political talks. Elara confirms her own consent in principle and supports recognition after Severin assents; councillor agrees to route request through appropriate Crown/Assembly recognition process, explains that Severin's explicit assent and actual instrument are still required and foreign rights/territory cannot be conferred unilaterally; no recognition/title/seat/oath enacted. Councillor invites V and Elara to his next defense consultation with invited royal advisers and Assembly delegates D316 afternoon, as invited participants able to speak on frontier evidence and common defense, not voting members or authorized to bind Severin; no guaranteed audience with monarch or final policy decision. V may accept attendance or decide later. Kestrel supervised copying remains in progress, originals V-held, physical exhibits Fenar-held. Guild Defense meeting late afternoon D315 still planned. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 food21/feed28, conditional240gp sale unpaid, all other custody unchanged. Dice delegated until stop.",
+  "pending_action": "D315~12:00 Caereth palace private council chamber. V accepted and signed Crown frontier intelligence commission, councillor signed on Crown's limited intelligence authority; actual200gp advance paid once, purse203gp4sp6cp→403gp4sp6cp. Maximum1800gp including advance; remaining300gp on substantiated identification/corroboration,1300gp on authenticated sponsor/controller chain and actionable intelligence. Written commission and sealed liaison introduction handed to V; authorizes lawful inquiries/requests for assistance, no private war, compulsory military command or diplomatic immunity. Orseld report read, no perpetrators established. V expressly requests formal Crown recognition of three autonomous houses associated under House Vaishnavi's senior coordinating banner and involvement in high-level political talks. Elara confirms her own consent in principle and supports recognition after Severin assents; councillor agrees to route request through appropriate Crown/Assembly recognition process, explains that Severin's explicit assent and actual instrument are still required and foreign rights/territory cannot be conferred unilaterally; no recognition/title/seat/oath enacted. Councillor invites V and Elara to his next defense consultation with invited royal advisers and Assembly delegates D316 afternoon, as invited participants able to speak on frontier evidence and common defense, not voting members or authorized to bind Severin; no guaranteed audience with monarch or final policy decision. V may accept attendance or decide later. Kestrel supervised copying remains in progress, originals V-held, physical exhibits Fenar-held. Guild Defense meeting late afternoon D315 still planned. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 food21/feed28, conditional240gp sale unpaid, all other custody unchanged. Dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D315-V-KNACK-CROWN-COMMISSION-1800-OFFER-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Acceptance of previously negotiated commission, actual advance, voluntary official response and invitation; no opposed check or formal recognition adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D315-V-CROWN-FRONTIER-COMMISSION-SIGNED-ADVANCE-200-001",
+      "accepted": true,
+      "evidence": "V accepts final1800gp terms; signed written commission and sealed liaison introduction delivered, 200gp paid once, remaining300+1300 contingent. No war authority.",
+      "before": "Crown commission offered, purse203gp4sp6cp.",
+      "after": "Commission active, advance received, purse403gp4sp6cp; credentials V-held.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-inventory.csv"
+      ]
+    },
+    {
+      "event_id": "D315-V-CROWN-VAISHNAVI-ASSOCIATION-RECOGNITION-REQUEST-001",
+      "accepted": true,
+      "evidence": "V requests Crown recognition of three-house autonomous association under Vaishnavi coordinating banner; Elara confirms support, Severin assent pending, councillor agrees to route recognition request; no legal grant.",
+      "before": "Alliance proposed, no recognition request made to Crown.",
+      "after": "Request made to Crown, review contingent on actual signed agreement and lawful scope.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    },
+    {
+      "event_id": "D315-CROWN-DEFENSE-CONSULTATION-INVITATION-V-ELARA-001",
+      "accepted": true,
+      "evidence": "Councillor invites V and Elara to D316 afternoon defense consultation as speakers, not voting members; acceptance pending.",
+      "before": "V requested involvement in high-level talks.",
+      "after": "D315~12:00 Caereth palace private council chamber. V accepted and signed Crown frontier intelligence commission, councillor signed on Crown's limited intelligence authority; actual200gp advance paid once, purse203gp4sp6cp→403gp4sp6cp. Maximum1800gp including advance; remaining300gp on substantiated identification/corroboration,1300gp on authenticated sponsor/controller chain and actionable intelligence. Written commission and sealed liaison introduction handed to V; authorizes lawful inquiries/requests for assistance, no private war, compulsory military command or diplomatic immunity. Orseld report read, no perpetrators established. V expressly requests formal Crown recognition of three autonomous houses associated under House Vaishnavi's senior coordinating banner and involvement in high-level political talks. Elara confirms her own consent in principle and supports recognition after Severin assents; councillor agrees to route request through appropriate Crown/Assembly recognition process, explains that Severin's explicit assent and actual instrument are still required and foreign rights/territory cannot be conferred unilaterally; no recognition/title/seat/oath enacted. Councillor invites V and Elara to his next defense consultation with invited royal advisers and Assembly delegates D316 afternoon, as invited participants able to speak on frontier evidence and common defense, not voting members or authorized to bind Severin; no guaranteed audience with monarch or final policy decision. V may accept attendance or decide later. Kestrel supervised copying remains in progress, originals V-held, physical exhibits Fenar-held. Guild Defense meeting late afternoon D315 still planned. V48/48 AC19 HD7/7 Sup4/4 Psi5/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 full slots4/3/3 CD2/2 boots; Mara/Elara/horses healthy. Rest5/6 food21/feed28, conditional240gp sale unpaid, all other custody unchanged. Dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
