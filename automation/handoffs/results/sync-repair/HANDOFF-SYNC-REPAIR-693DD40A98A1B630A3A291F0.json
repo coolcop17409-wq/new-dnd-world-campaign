@@ -1,9 +1,18 @@
 {
   "request_id": "HANDOFF-SYNC-REPAIR-693DD40A98A1B630A3A291F0",
-  "status": "partial",
+  "status": "complete",
   "claim_owner": "opened-pr41-e24b8a78",
-  "claim_expires_at": "2026-11-24T05:48:14.000Z",
-  "summary": "Reproducing immutable chunk path mismatch; isolated branch only.",
-  "blocker": "verification in progress",
-  "next_trigger": "claim completion or expiry"
+  "claim_expires_at": "2026-11-24T05:24:58Z",
+  "summary": "Verified isolated repair proposal for one immutable chunk storage-path mismatch; not applied to main.",
+  "blocker": null,
+  "next_trigger": "Human-authorized review/merge after fresh base/head comparison; existing maintenance handles exact boundary retry.",
+  "tested_commit": "acb702b2c07a8137da5d57477ae8c255fc197f1a",
+  "current_base_commit": "d093729e6804082ef222178dea130e31f403542e",
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/acb702b2c07a8137da5d57477ae8c255fc197f1a/automation/recovery_chunks.py",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/acb702b2c07a8137da5d57477ae8c255fc197f1a/automation/test_recovery_storage_path.py"
+  ],
+  "verification_ref": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-693DD40A98A1B630A3A291F0.json",
+  "main_applied": false,
+  "completed_at": "2026-11-24T05:24:58Z"
 }
