@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001",
+  "reason": "significant_exploration",
+  "source_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
+  "destination_checkpoint": "D314-1630-CAERETH-RETHWYN-CITY-RESIDENCE-ARRIVAL-001",
+  "last_recovery_id": "PLAY-REC-D313-314-V-RELOCATES-CAMP-CAERETH-ARRIVAL-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D308/PLAY-REC-D308-V-PERYTON-CORPSE-INVESTIGATION-001.json",
+      "digest": "2c189bace0b7490a699839040bc896d214662e623443d3a60b5d31ed78fb0ca0"
+    },
+    {
+      "path": "automation/recovery/chunks/D308/PLAY-REC-D308-CIRREN-PERYTON-EXAMINATION-SPECIMENS-001.json",
+      "digest": "dd6acd55ddb057c06a94d2d50e359b91d978e5ebd095b8096b04c002afab608e"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D308-310-V-RETHWYN-MANOR-APPROACH-RECOVERY-001.json",
+      "digest": "062b59b2c86a06e5af8723f195d91b1e86bfbd9e770ea5a1f2a93079a9a1749f"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D310-V-RETHWYN-WARM-REUNION-001.json",
+      "digest": "24da7c8f556345a4b87cf728b2f073c632bfc76c0656b4f19e9ccd797a8cb3fb"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D310-ELARA-PRIVATE-BRIEFING-MARRIAGE-ALLIANCE-001.json",
+      "digest": "c3c94318489476c72115447e9303ccd400defa43d173b3d43cb9df48e2e14150"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D310-ELARA-ALLIANCE-CONSENT-PRINCIPLES-001.json",
+      "digest": "3610e71790162654b2e283f9368fb04e6252ff219e90b1bde10554ef68b57d54"
+    },
+    {
+      "path": "automation/recovery/chunks/D310/PLAY-REC-D310-313-RETHWYN-ALLIANCE-POST-REST-001.json",
+      "digest": "57cfbd509b4c097d634d03fa6838f58866d138c60db0e8a012ad6171361ab3aa"
+    },
+    {
+      "path": "automation/recovery/chunks/D313/PLAY-REC-D313-V-CAERETH-COURT-REQUEST-RESUPPLY-ROAD-NIGHT-HAZARD-001.json",
+      "digest": "1c36e2628f72ac95650483fe20449deff19e8c5bbbee2538870ad0f3e27bfc0b"
+    },
+    {
+      "path": "automation/recovery/chunks/D313/PLAY-REC-D313-314-V-RELOCATES-CAMP-CAERETH-ARRIVAL-001.json",
+      "digest": "3f4ca8500d7614d04c25e145dd71c7974a9af91b34f36a6187af008fa41fa2f5"
+    }
+  ]
+}
