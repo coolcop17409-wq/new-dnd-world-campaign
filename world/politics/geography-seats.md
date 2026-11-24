@@ -50,7 +50,7 @@ The Lantern Strait joins basins with differing tides, water levels, and seasonal
 Nearest continental shores are approximately 250–500 miles apart. Common intercontinental shipping routes cover roughly 600–1,500 miles, consistent with two-to-six-week journeys including weather and stops. Major developed regions commonly lie several hundred miles apart. Dominion heartland to Veyr is several thousand miles by practical routes and takes months. These are scale bands, not fixed coordinates; the existing local travel times remain constraints on later maps.
 Large interiors, outer coasts, and intervening regions remain outside the developed political inventory.
 
-## Minor-polity atlas layer — working proposals (2026-11-24)
+## Minor-polity atlas layer — adopted canon (2026-11-24)
 
 The 150 names, political categories, host relations, and short setting briefs are adopted in [minor-polities.md](minor-polities.md), with their positions in the interactive atlas linked from [assets/README.md](../../assets/README.md). This layer does not revise the adopted continents, major-state placements, named watersheds, or climate limits above. Most settled minor communities share the broad language, religion, and customs of their host or nearest major state; local law, economy, and allegiance distinguish them. Mobile groups are route networks, not fixed territorial claims. Minor extents are approximate. The cartographic rule is that minor territories do not overlap one another; any contested overlay is against a major-state claim. An apparent minor-to-minor overlap is a drawing error, not joint sovereignty.
 
