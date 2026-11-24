@@ -1,0 +1,10 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-AA219782C742E63AFD6695C7",
+  "lane": "sync-repair",
+  "status": "partial",
+  "claim_owner": "opened-pr44-08721c22",
+  "claim_expires_at": "2026-11-24T14:38:37.000Z",
+  "summary": "Quote existing administrative status field without changing content or gameplay.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry"
+}
