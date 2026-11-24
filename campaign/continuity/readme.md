@@ -33,4 +33,4 @@ Verified edition `ATLAS-D278-WESTERN-VEYR-001` · Western Veyr and Caer Veylan, 
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=HELD | token=QUESTS-D320-20261124-01 | claimed_UTC=2026-11-24T12:14:56.443Z | expires_UTC=2026-11-24T12:24:56.443Z | scope=quests,private-prep,runtime-briefings | source=e0e83387f0ba92c87b2559c3f65074f4b6d2b0eb
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-24T12:16:04.394Z | previous_token=QUESTS-D320-20261124-01 | receipt=prep/dm-only/dm-only-secret-quest-outlines.md#current-scoped-verification-and-consumer-handling--ADMIN-QUEST-D320-20261124-01
