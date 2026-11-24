@@ -1,0 +1,43 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-693DD40A98A1B630A3A291F0",
+  "lane": "sync-repair",
+  "source": {
+    "kind": "validation_failure",
+    "checkpoint_id": "UNCHANGED-ADMIN-ONLY",
+    "commit_sha": "7056fd9094fc408cb528ab00de8aab34bdd51efc",
+    "workflow_run_id": 45332664423,
+    "workflow_url": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45332664423"
+  },
+  "request": "Investigate this exact validation failure; propose only evidence-supported corrections on the existing repair branch.",
+  "scope": [
+    "automation/recovery/boundaries/PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001.json"
+  ],
+  "output_owner_paths": [
+    "automation/recovery/boundaries/PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001.json"
+  ],
+  "priority": "high",
+  "advances_gameplay": false,
+  "failure_signature": "693DD40A98A1B630A3A291F0",
+  "diagnostic": {
+    "schema_version": 1,
+    "status": "FAIL",
+    "scope": "workflow",
+    "findings": [
+      {
+        "code": "workflow.step",
+        "path": ".github/workflows/immutable-recovery.yml",
+        "event_id": "",
+        "message": "bridge: Assemble pinned chunks and create independent sync PR"
+      }
+    ],
+    "affected_files": [
+      "automation/recovery/boundaries/PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001.json"
+    ],
+    "notes": [
+      "Artifact unavailable or tests failed outside scoped validator; no automatic record correction."
+    ]
+  },
+  "repair_branch": "campaign-repair/693dd40a98a1b630a3a291f0",
+  "base_branch": "main",
+  "synthetic": false
+}
