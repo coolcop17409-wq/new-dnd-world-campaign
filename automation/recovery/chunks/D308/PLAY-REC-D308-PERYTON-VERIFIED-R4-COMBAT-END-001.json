@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D308-PERYTON-VERIFIED-R4-COMBAT-END-001",
+  "base_commit": "071fd96045f1bf20ac41ffe6b605be8b4fefa484",
+  "source_checkpoint": "D308-1020-PERYTON-VERIFIED-R4-V-TURN-001",
+  "destination_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
+  "source_evidence": "Player exact 'Hide, then same thing' repeats Cunning Action Hide and Ready main psychic blade for peryton entering melee with ally; standing V dice delegation. R4 from verified R3 only. V behind coach at (0,-5,0), actual Python visible receipt fa5520921b9d42e13eee5ce70b733709 Stealth d20 FACE6+11=17 fails vs keen sight passive20. BA spent, action Ready; no V limited resource. Wounded P2 11/33 independently retreats toward hills, P1 already fled. P3 33/33 commits to final dive at Fenar, can climb from z16 to35 then descend straight to within5ft of Fenar within fly60. V's reaction (normal range, Fenar conscious within5ft of P3, no disadvantage) d20 FACE18+9=27 HIT AC13; d6 FACE4+DEX4 plus SA2d6 FACES6,5=19 psychic, P3 33→14. Fenar readied magical Beast claw (no Reckless off-turn) d20 FACE18+8=26 HIT, d6 FACE5+STR5+Rage2=12 magical slashing P3 14→2. Cirren readied Toll the Dead WIS save d20 FACE12+1=13 fails DC16; wounded 2d12 FACES3,7=10 necrotic P3 2→0 DEAD before attack, drops from low height; no further peryton attacks or allies damaged. All three reactions used and Cirren readied concentration ended. Combat ends R4 Day308~10:20, roughly24s after start, one peryton corpse at Fenar, P1 15/33 and P2 11/33 escaped alive toward hills. No pursuit, harvesting, loot or rest selected. V42/48 AC19 all pools full, Fenar48/59 AC14 Rage3/4 active magical Beast Claws, Shift2/3 active no THP MP6/6, Cirren40/51 AC18 full slots4/3/3 CD2/2 no concentration, Mara and 4 harnessed horses/coach unharmed. LongRest0/6 food21/feed28 cash391gp9sp6cp PixieDust1, custody and route unchanged. V next chooses aftermath; do not auto-spend resources, rest, or advance journey. Earlier five invalid chunks remain audit-only.",
+  "pending_action": "Day308~10:20 Crownsunder road; verified peryton combat ends R4. P3 dead near Fenar(20,5,0); P1 15/33 and P2 11/33 fled toward hills, no pursuit. V near coach(0,-5,0)42/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; dice delegated until stop. Fenar48/59 AC14 Rage3/4 active claws magical Shift2/3 active THP0 MP6/6 HD6/6. Cirren40/51 AC18 slots4/3/3 CD2/2 HD6/6 no concentration. Mara sheltered healthy, 4 harnessed horses and coach intact. LongRest0/6, purse391gp9sp6cp, rations21/feed28 PixieDust1. Custody and route Lady Elara rural manor first unchanged. D308 encounter used, D309 random quiet mandatory. V chooses postcombat action; no rest, healing, harvesting or travel yet.",
+  "depends_on": [
+    "PLAY-REC-D308-PERYTON-VERIFIED-R3-HIDE-READY-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "fa5520921b9d42e13eee5ce70b733709",
+        "rolls": [
+          {
+            "id": "R4.V.hide",
+            "sides": 20,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "R4.V.ready.P3.attack",
+            "sides": 20,
+            "faces": [
+              18
+            ]
+          },
+          {
+            "id": "R4.V.ready.P3.damage",
+            "sides": 6,
+            "faces": [
+              4,
+              6,
+              5
+            ]
+          },
+          {
+            "id": "R4.Fenar.ready.P3.attack",
+            "sides": 20,
+            "faces": [
+              18
+            ]
+          },
+          {
+            "id": "R4.Fenar.ready.P3.damage",
+            "sides": 6,
+            "faces": [
+              5
+            ]
+          },
+          {
+            "id": "R4.Cirren.Toll.P3.save",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "R4.Cirren.Toll.P3.damage",
+            "sides": 12,
+            "faces": [
+              3,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D308-PERYTON-VERIFIED-R4-COMBAT-END-001",
+      "accepted": true,
+      "evidence": "Player exact 'Hide, then same thing' repeats Cunning Action Hide and Ready main psychic blade for peryton entering melee with ally; standing V dice delegation. R4 from verified R3 only. V behind coach at (0,-5,0), actual Python visible receipt fa5520921b9d42e13eee5ce70b733709 Stealth d20 FACE6+11=17 fails vs keen sight passive20. BA spent, action Ready; no V limited resource. Wounded P2 11/33 independently retreats toward hills, P1 already fled. P3 33/33 commits to final dive at Fenar, can climb from z16 to35 then descend straight to within5ft of Fenar within fly60. V's reaction (normal range, Fenar conscious within5ft of P3, no disadvantage) d20 FACE18+9=27 HIT AC13; d6 FACE4+DEX4 plus SA2d6 FACES6,5=19 psychic, P3 33→14. Fenar readied magical Beast claw (no Reckless off-turn) d20 FACE18+8=26 HIT, d6 FACE5+STR5+Rage2=12 magical slashing P3 14→2. Cirren readied Toll the Dead WIS save d20 FACE12+1=13 fails DC16; wounded 2d12 FACES3,7=10 necrotic P3 2→0 DEAD before attack, drops from low height; no further peryton attacks or allies damaged. All three reactions used and Cirren readied concentration ended. Combat ends R4 Day308~10:20, roughly24s after start, one peryton corpse at Fenar, P1 15/33 and P2 11/33 escaped alive toward hills. No pursuit, harvesting, loot or rest selected. V42/48 AC19 all pools full, Fenar48/59 AC14 Rage3/4 active magical Beast Claws, Shift2/3 active no THP MP6/6, Cirren40/51 AC18 full slots4/3/3 CD2/2 no concentration, Mara and 4 harnessed horses/coach unharmed. LongRest0/6 food21/feed28 cash391gp9sp6cp PixieDust1, custody and route unchanged. V next chooses aftermath; do not auto-spend resources, rest, or advance journey. Earlier five invalid chunks remain audit-only.",
+      "before": "R4 V42/48 Fenar48/59 Cirren40/51, P1 fled, P2 11 P3 33, V action pending.",
+      "after": "P2 flees; P3 killed by V 19 psychic, Fenar12 magical slashing, Cirren10 necrotic; no further party damage or resource expenditure. Combat ended, aftermath pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
