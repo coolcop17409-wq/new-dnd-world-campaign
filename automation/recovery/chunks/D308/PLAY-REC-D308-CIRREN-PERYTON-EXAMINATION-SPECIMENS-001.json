@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D308-CIRREN-PERYTON-EXAMINATION-SPECIMENS-001",
+  "base_commit": "52478c1de5f27225810dcf5330dba80a3cfa128b",
+  "source_checkpoint": "D308-1025-PERYTON-CORPSE-EXAMINED-HARVEST-PENDING-001",
+  "destination_checkpoint": "D308-1050-PERYTON-SPECIMENS-PACKED-V-DECISION-001",
+  "source_evidence": "Player exact 'Yea cirren you take it away' delegates handling of the corpse examination and routine recovery of useful parts to Cirren after failed V Investigation. Cirren uses different approach: knowledgeable Nature +4, V's meaningful routine Help exposing anatomical features (advantage), self Guidance at-will cantrip d4. Predeclared DC13 intact ordinary specimen materials, DC18 finer anatomical distinctions. Actual visible Python secrets receipt 5f53079f7be3dfc37aa7038f4548aca3, d20 faces10,9 take10+4+Guidance d4 face4=18, succeeds both thresholds. No V limited resource expenditure or reroll of prior failed Investigation. Cirren identifies intact antlers, sound flight feathers and taloned feet, observes the natural wing/leg musculature consistent with diving predator; no proof these parts confer monster resistance or supernatural powers, no invented magical recipe, price or heart organ property. Cirren also performs prepared Detect Magic as ritual (10 minutes plus action; no spell slot), no separately detectable magical aura on the dead creature/ordinary parts; this is not proof that no alchemical application exists, no need to cast Identify on mundane specimens. He conservatively separates accessible intact materials with ordinary party equipment, no uncertain delicate organ extraction, no new roll for straightforward removal: one pair of antlers, one bundle of intact flight feathers, two taloned feet (one specimen lot). Cirren wraps and stores specimens in party coach for later appraisal; no sale, coin, magic item, weight or reagent value asserted. Elapsed about25min D308~10:25→10:50 including ritual, examination, packing. All prior party HP/resources unchanged, Guidance and Detect Magic ended, no active concentration. No travel/rest yet.",
+  "pending_action": "D308~10:50 Crownsunder westbound road. P3 dead, Cirren finished examination and packed one pair peryton antlers, one bundle flight feathers, two taloned feet, ordinary unappraised specimen lot in coach, no active magic detected. Remaining carcass onsite, P1/P2 fled. V42/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned, dice delegated until stop. Fenar48/59 AC14 HD6/6 Rage3/4 ended Shift2/3 expired THP0 MP6/6. Cirren40/51 AC18 HD6/6 slots4/3/3 CD2/2, no concentration. Mara, four horses and coach healthy. Rest0/6 purse391gp9sp6cp food21/feed28 PixieDust1, other custody unchanged. D308 encounter used, D309 random quiet mandatory. Route Elara rural manor first, Caereth then Orsaven. V chooses next action, no rest or departure yet.",
+  "depends_on": [
+    "PLAY-REC-D308-V-PERYTON-CORPSE-INVESTIGATION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "5f53079f7be3dfc37aa7038f4548aca3",
+        "rolls": [
+          {
+            "id": "D308.Cirren.peryton_anatomy.nature",
+            "sides": 20,
+            "faces": [
+              10,
+              9
+            ]
+          },
+          {
+            "id": "D308.Cirren.peryton_anatomy.guidance",
+            "sides": 4,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D308-CIRREN-PERYTON-ANATOMY-AND-SPECIMEN-RECOVERY-001",
+      "accepted": true,
+      "evidence": "Player exact 'Yea cirren you take it away' delegates handling of the corpse examination and routine recovery of useful parts to Cirren after failed V Investigation. Cirren uses different approach: knowledgeable Nature +4, V's meaningful routine Help exposing anatomical features (advantage), self Guidance at-will cantrip d4. Predeclared DC13 intact ordinary specimen materials, DC18 finer anatomical distinctions. Actual visible Python secrets receipt 5f53079f7be3dfc37aa7038f4548aca3, d20 faces10,9 take10+4+Guidance d4 face4=18, succeeds both thresholds. No V limited resource expenditure or reroll of prior failed Investigation. Cirren identifies intact antlers, sound flight feathers and taloned feet, observes the natural wing/leg musculature consistent with diving predator; no proof these parts confer monster resistance or supernatural powers, no invented magical recipe, price or heart organ property. Cirren also performs prepared Detect Magic as ritual (10 minutes plus action; no spell slot), no separately detectable magical aura on the dead creature/ordinary parts; this is not proof that no alchemical application exists, no need to cast Identify on mundane specimens. He conservatively separates accessible intact materials with ordinary party equipment, no uncertain delicate organ extraction, no new roll for straightforward removal: one pair of antlers, one bundle of intact flight feathers, two taloned feet (one specimen lot). Cirren wraps and stores specimens in party coach for later appraisal; no sale, coin, magic item, weight or reagent value asserted. Elapsed about25min D308~10:25→10:50 including ritual, examination, packing. All prior party HP/resources unchanged, Guidance and Detect Magic ended, no active concentration. No travel/rest yet.",
+      "before": "D308~10:25 failed V Investigation, corpse untouched, no harvest.",
+      "after": "D308~10:50 Cirren identifies and collects ordinary specimen lot: one pair antlers, one feather bundle, two taloned feet, stored coach, unappraised. No slot, cash, V feature or HP changes.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
