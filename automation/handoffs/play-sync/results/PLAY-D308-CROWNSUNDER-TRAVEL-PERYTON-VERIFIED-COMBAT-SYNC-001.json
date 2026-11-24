@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr40-2212094a",
-  "claim_expires_at": "2026-11-24T04:24:08.000Z",
+  "claim_expires_at": "2026-11-24T04:01:56Z",
   "request_commit": "be7e6398719095f019b83507a0d9f9ca655db71b",
   "request_blob": "15ffab3da63e34e009efec70ae6156ee4932122b",
-  "summary": "Validated immutable eight-chunk batch and completed prerequisite; five voided combat chunks excluded. Preparing accepted owners only.",
+  "summary": "16 accepted events applied; 31 unique cash/supply/combat legs. Five voided combat chunks excluded, original evidence unchanged. Newer corpse-inspection chunk retained outside frozen combat-end batch.",
   "blocker": null,
   "applied_event_ids": [
     "D297-298-V-DEPARTS-MERCHANT-GATHERING-INDEPENDENT-AND-VW-ROAD-QUIET-001",
@@ -29,5 +29,86 @@
   ],
   "owner_commit": "a291f5eabb70b2344d52ea5f027173d5d81723cd",
   "owners_verified": true,
-  "tested_candidate": "3ceca29d063509a54fc47ad14f62c7f378abd26c"
+  "tested_candidate": "3ceca29d063509a54fc47ad14f62c7f378abd26c",
+  "completed_at": "2026-11-24T04:01:56Z",
+  "checkpoint_commit": "cf5920f7dfba2daffb4e33538eda4595032257f3",
+  "checkpoint_verified": true,
+  "tested_commit": "a97d63ebf6df891fb223a4bd9627f24ce0541ca4",
+  "request_digest": "1c0059377d4d01ddf94d9054e79c4647158dc84c51b69ed700000f3e6a7414c9",
+  "verified_event_ids": [
+    "D297-298-V-DEPARTS-MERCHANT-GATHERING-INDEPENDENT-AND-VW-ROAD-QUIET-001",
+    "D298-V-PARTY-CROSSES-VEYR-CROWNSUNDER-COMMERCIAL-BORDER-001",
+    "D298-299-V-CROWNSUNDER-ROAD-NIGHT-AND-D299-QUIET-001",
+    "D299-307-V-CROWNSUNDER-QUIET-COACH-TRAVEL-AND-REST-001",
+    "D300-V-ROADSIDE-SEVEN-DAY-RATION-FEED-RESUPPLY-001",
+    "D307-CROWNSUNDER-ROAD-ASH-WAGON-DRY-FIELD-FIRE-SIGHTED-001",
+    "D307-V-FENAR-GATE-FAILED-LEVER-HINGE-AND-AXE-OPEN-001",
+    "D307-CIRREN-CALMS-TWO-OXEN-VOLUNTARY-RESCUE-001",
+    "D307-FENAR-FIRST-FIREBREAK-FAIL-CIRREN-SECOND-FIREBREAK-SUCCESS-001",
+    "D307-PLAYER-REASSERTS-FENAR-DOUBLE-CLAW-REND-VISUAL-RULE-001",
+    "D307-308-V-BYPASSES-SMOKE-ROAD-REFUELS-AND-QUIET-CAMP-001",
+    "D308-CROWNSUNDER-ROAD-THREE-PERYTONS-SIGHTED-PREINITIATIVE-001",
+    "D308-VOID-FABRICATED-COMBAT-RESTORE-PREINITIATIVE-001",
+    "D308-PERYTON-VERIFIED-R1-R2-001",
+    "D308-PERYTON-VERIFIED-R3-HIDE-READY-001",
+    "D308-PERYTON-VERIFIED-R4-COMBAT-END-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/archive/continuity/session-log-before-PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/archive/continuity/campaign-state-before-PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/cf5920f7dfba2daffb4e33538eda4595032257f3/campaign/continuity/campaign-state.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/campaign/continuity/rules-combat-recovery.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/trackers/csv/fenar/fenar-features.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/a291f5eabb70b2344d52ea5f027173d5d81723cd/data/characters/events.csv"
+  ],
+  "tests": [
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr40/request.json",
+      "exit_code": 0,
+      "tested_commit": "a97d63ebf6df891fb223a4bd9627f24ce0541ca4",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr40/pinned.json --request /tmp/pr40/request.json --prior-requests /tmp/pr40/prior.json --supersessions /tmp/pr40/supersessions.json",
+      "exit_code": 0,
+      "tested_commit": "a97d63ebf6df891fb223a4bd9627f24ce0541ca4",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "tested_commit": "a97d63ebf6df891fb223a4bd9627f24ce0541ca4",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_recovery_chunks automation.test_recovery_chunk_bridge automation.test_rng_gate -q",
+      "exit_code": 0,
+      "tested_commit": "a97d63ebf6df891fb223a4bd9627f24ce0541ca4",
+      "result": "100 passed"
+    },
+    {
+      "command": "PYTHONPATH=. python3 /tmp/pr40/verify.py",
+      "exit_code": 0,
+      "tested_commit": "a97d63ebf6df891fb223a4bd9627f24ce0541ca4",
+      "result": "PASS"
+    }
+  ],
+  "immutable_provenance": {
+    "pinned_commit": "975b52c1f740ff619a55bf512780716d8333d464",
+    "journal_digest": "2a4ad61bce1e3696d3ee2a8669a58e9139b2ad58eac1370496a48486ca5c1ccf",
+    "boundary": "automation/recovery/boundaries/PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001.json",
+    "verified_chunk_count": 8,
+    "voided_chunks_applied": 0,
+    "original_files_modified": false,
+    "rng_scope": "Structural receipt validation and source arithmetic checked; no independent attestation of external ChatGPT tool execution. Legacy hash-pinned chunks grandfathered per current-main gate."
+  },
+  "preserved_newer_chunks": [
+    "automation/recovery/chunks/D308/PLAY-REC-D308-V-PERYTON-CORPSE-INVESTIGATION-001.json"
+  ],
+  "generated_view_status": "DERIVED-PENDING: checkpoint refresh not yet verified; existing Luckstone purchase-era UNATTUNED metadata also remains superseded by current inventory/checkpoint.",
+  "cleanup_status": "pending separate verified-only prune"
 }
