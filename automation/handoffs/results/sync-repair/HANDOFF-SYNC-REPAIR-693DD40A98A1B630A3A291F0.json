@@ -1,0 +1,9 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-693DD40A98A1B630A3A291F0",
+  "status": "partial",
+  "claim_owner": "opened-pr41-e24b8a78",
+  "claim_expires_at": "2026-11-24T05:48:14.000Z",
+  "summary": "Reproducing immutable chunk path mismatch; isolated branch only.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry"
+}
