@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D308-V-PERYTON-CORPSE-INVESTIGATION-001",
+  "base_commit": "9214b0b2cfcd7a2e53228362035f05a576f0b30b",
+  "source_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
+  "destination_checkpoint": "D308-1025-PERYTON-CORPSE-EXAMINED-HARVEST-PENDING-001",
+  "source_evidence": "Player exact 'Investigate it' refers to dead P3. V dice delegated until stop. Cirren meaningfully Helps corpse examination, advantage Investigation+3 Luckstone+1 DC13 fixed before dice. Actual visible Python secrets receipt b62591cbf6ae97705c17f80e983c1c06 faces1,1 total5 FAIL. Obvious antlers, feathers, talons and combat wounds visible; no reliable determination of useful alchemical/magical properties or market value. Cirren advises caution before cutting. No magical test, harvest, appraisal, resource spending or new clues. Five minutes 10:20→10:25. Fenar ends Rage and Shift expires after combat; both uses remain spent. V may choose Tactical Assessment/Past Life on same check, not automatically spent. HP and all other resources, custody, route and provisions unchanged. First write returned 409; refreshed main and verified no same-ID chunk, retry exact event with refreshed base.",
+  "pending_action": "D308~10:25 Crownsunder westbound road, P3 corpse examined with failed Investigation5/DC13, no harvest. P1/P2 fled. V42/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; dice delegated until stop. Fenar48/59 AC14 HD6/6 Rage3/4 ended Shift2/3 expired THP0 MP6/6; Cirren40/51 AC18 HD6/6 slots4/3/3 CD2/2 no concentration. Mara, 4 horses and coach healthy. Rest0/6, purse391gp9sp6cp food21/feed28 PixieDust1. D308 encounter used, D309 random quiet mandatory. Lady Elara rural manor first, Caereth then Orsaven. No other custody or quest changes. V may supplement check, harvest or choose another action.",
+  "depends_on": [
+    "PLAY-REC-D308-PERYTON-VERIFIED-R4-COMBAT-END-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "b62591cbf6ae97705c17f80e983c1c06",
+        "rolls": [
+          {
+            "id": "D308.V.peryton_corpse.investigation",
+            "sides": 20,
+            "faces": [
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D308-V-PERYTON-CORPSE-INVESTIGATION-FAIL-001",
+      "accepted": true,
+      "evidence": "Player exact 'Investigate it' refers to dead P3. V dice delegated until stop. Cirren meaningfully Helps corpse examination, advantage Investigation+3 Luckstone+1 DC13 fixed before dice. Actual visible Python secrets receipt b62591cbf6ae97705c17f80e983c1c06 faces1,1 total5 FAIL. Obvious antlers, feathers, talons and combat wounds visible; no reliable determination of useful alchemical/magical properties or market value. Cirren advises caution before cutting. No magical test, harvest, appraisal, resource spending or new clues. Five minutes 10:20→10:25. Fenar ends Rage and Shift expires after combat; both uses remain spent. V may choose Tactical Assessment/Past Life on same check, not automatically spent. HP and all other resources, custody, route and provisions unchanged. First write returned 409; refreshed main and verified no same-ID chunk, retry exact event with refreshed base.",
+      "before": "D308~10:20 P3 corpse unexamined, Fenar Rage/Shift active.",
+      "after": "D308~10:25 examined, no harvest or reliable identification, Fenar Rage/Shift ended, other state unchanged.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
