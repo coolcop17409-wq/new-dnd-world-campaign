@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D293-297-V-CAER-VEYLAN-RESUPPLY-MAGIC-BROWSE-NEWS-WESTWARD-001",
+  "base_commit": "12eb7a0c75e37334625fcb2a4aecac448700ab8a",
+  "source_checkpoint": "D293-1730-CAER-VEYLAN-SEDGECROSS-INDEPENDENT-CARE-PROGRESS-RECONCILED-001",
+  "destination_checkpoint": "D297-1730-WESTERN-VEYR-ROAD-MERCHANT-CONVOY-OPTION-PENDING-001",
+  "source_evidence": "USER EXACT: We should resupply, loo for magic items, interesting events/news/quests, then make our way out and continue the journey. At Day293~17:30 near Caer Veylan, party V/Mara/Cirren/Fenar and 4 healthy owned horses+coach, already selected route FIRST rural Elara Rethwyn manor in Crownsunder, THEN Caereth THEN Orsaven. User authorizes ordinary resupply, sightseeing/browsing and actual departure/travel, but NOT buying any named magical item, accepting one of the optional city quests or choosing a political/military commitment.\nOn D293 evening the city outfitters supply 12 companion ration person-days x5sp=6gp and16 horse-feed animal-days x5cp=8sp =6gp8sp once. Packed rations9->21, horse feed12->28, purse429gp1sp6cp->422gp3sp6cp. Existing Copper Hearth city inn same prior TWO rooms1gp6sp plus4horse stabling2gp and3 companion dinner+breakfast3gp =6gp6sp once. Purse ->415gp7sp6cp. Town night D293->294 staffed/secure, weighted LongRest progress3/6->5/6, not full. Day293 earlier ration/feed allocation already posted and not duplicated; inn meals additional hospitality not a second carried-stock debit.\nOwner-caused magic market due reviews checked against trackers/csv/magic-shops/dealers.csv, stock.csv, events.csv and rules.csv. Active original unique Caer Veylan UC02 package bound Day276 (sold original one PixieDust packet to V for145gp then, not restocked). Three genuine D290/D293 reviews were not in Events before resolution. PREDECLARED each open owner-authorized consignment has 35% change; no identifiable funded independent buyer or transferee, so on triggered d3 weighted1-2 original owner withdraws from sale,3 owner reduces ask ~5% whole gp. Genuine Python secrets: Day290 Long Cast Rodmaker Wand Entangle d100 FACE56>35 nochange still one345gp next D311; Day290 Road Fold Luggage Boots Cloud Jumper d100 FACE96>35 nochange one325gp next D311; Day293 Evening Cup Pewterer Potion Watchful Rest d100 FACE10<=35, d3 FACE3 reduction35->33gp, original one potion remains unsold at shop, next review D314. No retrospective sale or duplicate, user not charged.\nD294 morning user views five actionable original seller options: Road Fold Boots Cloud Jumper325gp (already seen276), Long Pocket Leatherwork Coiling Grasp Tattoo375gp requires attunement (already seen276), Leaping Hart Jeweler Amulet of Buoyancy290gp (already seen276), NEW Long Cast Wand Entangle345gp requires spellcaster attunement, NEW Quickstep Goldsmith Card Sharp's Deck380gp, hears Watchful Rest reduced33gp; all are original existing unique seller lots, not purchased or held. V has Cloak+Luckstone attuned2/3, so one free V slot, Cirren qualifies as spellcaster for wand if he elects. Coiling tattoo and boots no automatic purchase, dormant unique stock preserved. Previously Bright Measure Wand Magic Detection remains working/conditional260gp, Rescue Line Immovable Rod conditional350gp plus tested brace; not presented as ready sale.\nD294 public city freight-quarter news grounded in prep/dm-only/dm-orath-regional-arcs.md OR-VY-CV: V hears increased Veyran freight manifest scrutiny (consistent with prior Edran Fenn D278 public road report), and credible introductions to independent currently UNACCEPTED city opportunities. Clinic laundress has observed 3 civilian family members followed amid alleged debt dispute, independent benefactor up to1200gp for their actual safety and evidence, without disclosing broker's private hidden plan; guild fire officer describes four workers and dangerous malfunctioning magical workshop, insurer budget500gp for real rescue/containment, no hidden iron cobra mechanics disclosed to V; former fencing pupils offer450gp for protecting witness/ending dangerous possibly dishonest contests, no inside trap knowledge assumed. Contact and reward prospects known to V, no quest accepted/completed or money paid, no NPC lured onto outbound road.\nDepart Caer Veylan late D294 morning west along established heavily patrolled Veyr commercial coach road toward legal Crownsunder border and eventually Elara rural estate; no unplayed Hollowdeep detour or instant border crossing. Fixed random occurrence risk each day 01-07 d100, exposed night 01-03, one event/day and 7/10-day rolling cap. GENUINE Python secrets d100 in order: D294 DAY71>7 and exposed NIGHT90>3; D295 DAY98>7 and night43>3; D296 DAY88>7 and night16>3; D297 DAY22>7, ALL QUIET. D297 night not yet rolled/finished. Four full road days D294,D295,D296,D297 consume3 ration person-days and4 horse-feed animal-days each: new stock21->9,28->12. All party/4horses/coach unchanged healthy and no toll/road fees, personal purse remains415gp7sp6cp. D294->295 wilderness overnight +1 weighted LongRest5/6->6/6 FULL at Dawn295 then new0/6. D295->296 wild +1 new1/6. D296->297 wild +1 new2/6. No spell/HP/limited-use costs. D297 late afternoon at westbound commercial road approach toward frontier; NOT yet a confirmed legal border passage or named new town. There is ordinary merchant gathering and independent westbound commercial captain offers voluntary slower caravan shared watch for next stage; not accepted by V, no charge or magical safety guarantee. Cirren independently values trade-road cover, Fenar wants to reach Elara sooner; user controls whether to join or continue on known open road.\nCurrent Day297~17:30 V48/48HP AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 first free PsychicWhispers1/1, physically attuned cloak+Luckstone2/3 with +1 checks/saves/initiative not AC; Fenar59/59 HP HD6/6 Rage4/4 inactive Shift3/3 MP6/6 CLIMB40, Cirren51/51 slots4/4,3/3,3/3 ChannelDivinity2/2, Mara and 4 horses/coach well. Cash415gp7sp6cp, food9 person-days/feed12 animal-days (three ordinary road days), PixieDust sealed1. Kestrel evidence V-held private, Mara notes, Fenar six sealed reagent vials+measure tool, Cirren Rethwyn-Vaishnavi compact original. Day293 accepted Sedgecross caretaker independent recovery/placement remains three ambulatory departed, four plans, one seeking, 3 nonambulatory stable; existing care prepaid through Day299 and unused capped transport contingency22gp6sp, no new V funds or report arrived. Coris scholarly fund signed and100gp received already, future300+optional800 unearned. Nightglass Orsaven survey request and Severin three-House memorandum to Elara priority pigeon forwarding originally outbound Day290, no verified receiver replies or fixed crossing. Lady Elara still independent with no newer verified location or agreement. Owner campaign-state may lag newer immutable recovery, do not repeat prior Day293 encounter or autoadvance beyond D297.",
+  "pending_action": "Day297~17:30 WESTBOUND western Veyr merchant-trunk road near ordinary caravan gathering toward Crownsunder commercial frontier, party on owned coach with4 healthy horses. User completed D293 Caer Veylan ordinary resupply12 rations+16 horse-feed units for6gp8sp and one Copper Hearth two-room secure lodging/stable/supper/breakfast for6gp6sp, total13gp4sp personal purse429gp1sp6cp->415gp7sp6cp. D294 browsed shop and quest/news, NO magic purchase or mission acceptance. Original lots: boots Cloud Jumper325, Coiling Grasp Tattoo375, Amulet Buoyancy290, Wand Entangle345, Card Sharp's Deck380; Potion Watchful Rest now33 after market due review (genuine D293 d10010/35, d3=3). Other two due reviews D290 Entangle56/35 no change, boots96/35 no change; future due D311/D314. Caer Veylan local public leads unaccepted: three clinic witnesses/benefactor1200gp, hazardous magic workshop four workers/insurer500gp, fraudulent duel witness/pupils450gp; Veyran trade scrutiny news. D294 departure west, genuine road d100 D294 day71 night90, D295 day98 night43, D296 day88 night16, D297 day22 all quiet vs day7/night3 thresholds, no night297 yet; 4 day carried food rations21->9, horse feed28->12; full LongRest Dawn295 after weighted3->5 town+1 wild, new cycle now2/6 after two more wilderness nights. V HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1, cloak+Luckstone attuned2/3, Fenar59/59HP Rage4/4 Shift3/3 MP6/6 HD6/6 CLIMB40, Cirren51/51HP full spells/CD2, Mara and horses healthy. V cash415gp7sp6cp, packed3days at normal rate, PixieDust1 sealed, other custody unchanged, Sedgecross patients independently progressing under original prepaid care Day299 with no extra cash, correspondence Orsaven/Elara no verified receipt. A merchant convoy option with slower pace but shared watch is presented, NOT accepted; road also open independently. V chooses to join slower caravan, continue solo, or another action, no border crossing yet. Intended journey Elara rural manor first, Caereth second, Orsaven third.",
+  "depends_on": [
+    "PLAY-REC-D293-RETRO-SEDGECROSS-PATIENT-INDEPENDENT-RECOVERY-AND-EXIT-PROGRESS-001"
+  ],
+  "events": [
+    {
+      "event_id": "D293-V-CAER-VEYLAN-ROAD-RESUPPLY-SEVEN-DAYS-001",
+      "accepted": true,
+      "evidence": "Buy 12 ration-days x5sp=6gp and 16 feed animal-days x5cp=8sp:6gp8sp once, inventory9/12->21/28, V cash429gp1sp6cp->422gp3sp6cp.",
+      "before": "D293 city approach rations9/feed12, purse429gp1sp6cp.",
+      "after": "D293 purchases received, rations21/feed28, purse422gp3sp6cp.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D293-294-V-CAER-VEYLAN-TWO-ROOM-OVERNIGHT-INN-001",
+      "accepted": true,
+      "evidence": "Practical night in previously used Copper Hearth:2 rooms1gp6sp +4horse stables2gp +3 companion supper/breakfast3gp =6gp6sp; purse422gp3sp6cp->415gp7sp6cp. Secure city night weighted3/6->5/6, not full, no packed food/hay charged.",
+      "before": "D293 after resupply purse422gp3sp6cp, rest3/6.",
+      "after": "D294 dawn Copper Hearth, 4 horses fed, purse415gp7sp6cp, rest5/6.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D290-CAER-VEYLAN-LONG-CAST-WAND-ENTANGLE-DUE-REVIEW-001",
+      "accepted": true,
+      "evidence": "Scheduled Day290 35% original open consignment, genuine Python secrets d100 FACE56>35 no change, Wand Entangle one345gp at Long Cast Rodmaker, next reviewD311.",
+      "before": "D290 original consignment one345gp review due.",
+      "after": "Available same one345gp no custody transfer, next dueD311.",
+      "owner_paths": [
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/dealers.csv"
+      ]
+    },
+    {
+      "event_id": "D290-CAER-VEYLAN-ROAD-FOLD-BOOTS-DUE-REVIEW-001",
+      "accepted": true,
+      "evidence": "Scheduled Day290 original Boots Cloud Jumper one325gp, genuine d100FACE96>35 no change, next reviewD311.",
+      "before": "D290 Boots original one325gp review due.",
+      "after": "Same original one325gp at Road Fold, next D311.",
+      "owner_paths": [
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/dealers.csv"
+      ]
+    },
+    {
+      "event_id": "D293-CAER-VEYLAN-EVENING-CUP-WATCHFUL-REST-PRICE-REVIEW-001",
+      "accepted": true,
+      "evidence": "Scheduled Day293 original Potion Watchful Rest one35gp, genuine d100FACE10<=35, predeclared d3 FACE3 (1-2 withdrawal,3 owner price decrease5% whole gp) causes ask35->33gp, same one unsold, next dueD314.",
+      "before": "Day293 potion original 1 unit35gp review due.",
+      "after": "Original one available at Evening Cup for33gp, no owner/custody change, nextD314.",
+      "owner_paths": [
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/dealers.csv",
+        "trackers/csv/magic-shops/stock.csv"
+      ]
+    },
+    {
+      "event_id": "D294-V-CAER-VEYLAN-MAGIC-BROWSE-NEWS-QUEST-LEADS-001",
+      "accepted": true,
+      "evidence": "Player sees actual five original merchant-quarter item offers including two newly encountered seller contacts, learns reduced Watchful Rest33gp, not buying/holding. City public traffic news more Veyran freight manifest checks, hears three credible prepared optional leads from clinic laundress, fire guild officer and former fencing pupils, prospective 1200/500/450gp rewards, none accepted.",
+      "before": "D294 city morning before browse; old contacts known, new local possible quests not revealed.",
+      "after": "D294 five actionable magic consignments and three optional city leads known to party, no money or magic-item change.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "trackers/csv/magic-shops/events.csv"
+      ]
+    },
+    {
+      "event_id": "D294-297-V-DEPARTS-CAER-VEYLAN-WEST-CORRIDOR-QUIET-TRAVEL-001",
+      "accepted": true,
+      "evidence": "User directs departure/continue, D294 day71 night90, D295 day98 night43, D296 day88 night16, D297 day22 all genuine Python secrets d100 above heavily patrolled triggers7/day3/night; no daytime or night events. D294-297 four days consume12 companion ration-person-days and16 horse feed-animal-days =>21/28 to9/12. D294-295 wild night completes 5/6 rest6/6 Dawn295 resets0, two next nights new2/6, no HP/ability spend, cash stays415gp7sp6cp.",
+      "before": "D294 after city night full supplies21/28, rest5/6, cash415gp7sp6cp.",
+      "after": "D297 late afternoon west Veyr trade road rations9/feed12, current rest2/6, party/coach/horses full, cash415gp7sp6cp; night297 not occurred.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D297-WESTERN-VEYR-MERCHANT-CARAVAN-SHARED-TRAVEL-OPTION-001",
+      "accepted": true,
+      "evidence": "Ordinary westbound captain at roadside merchant gathering offers shared vigilance/slow commercial convoy, V makes no choice; Cirren sees cover, Fenar prefers speed to Elara, regular road remains open with no border fees or group entitlement.",
+      "before": "D297 V-owned coach alone westbound, no joint convoy contract.",
+      "after": "D297 optional slower protected-seeming merchant company available, no V assent or resources.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
