@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D310-ELARA-PRIVATE-BRIEFING-MARRIAGE-ALLIANCE-001",
+  "base_commit": "967524afc34bcba86054d78f9569845e5b2f8f95",
+  "source_checkpoint": "D310-1815-RETHWYN-MANOR-WARM-REUNION-001",
+  "destination_checkpoint": "D310-1900-ELARA-ALLIANCE-AUTHORITY-QUESTION-PENDING-001",
+  "source_evidence": "Player exact 'Tell her everything, ask about the marriage approvals update, speak face to face about the three house alliance'. At Elara's private drawing room with trusted established party, V explicitly authorizes broad substantive sharing of his own established experiences and intentions to Elara, including Kestrel forced experiments, original records held, eleven freed patients and prepaid care/last known situation (no fabricated latest survivor report), Nightglass discussion, heart magical but no established usable function, unresolved ancestral historical questions, Coris 100gp advance and contingent scholarly work, and road experiences. No invented exact V speech, gift, evidence custody transfer, public disclosure, new promise or DM-only knowledge. Elara independently reacts with concern and sympathy; newly adjudicated current legal correspondence contact after 77 elapsed days since Day233 ordinary household inquiry: she reports her Caereth clerk has provided preliminary advice and is ready to arrange the recognition procedure with both present when they next visit Caereth. This is newly revealed routine professional reply, not a previously verified event or exact dated official letter; no court approval, eligibility verdict, legal fee, marriage registration, property merger, or need for arbitrary extra quest established. No exact formal legal requirements beyond preliminary advice invented. Elara independently remains committed to private engagement and proposes attending together. She has no confirmed receipt of separate Nightglass memorandum and hears its substance from V in person. Discusses Lord Severin's willingness to negotiate three-house cooperation: Vaishnavi senior coordinating role, separate lawful holdings/identity, political coordination, voluntary mutual protection subject to actual agreed obligations, each House's autonomy and consent. Elara favors negotiating in principle, not unconditional fealty; requests clarity on limits of V's authority, especially independent decisions and commitments. No roll needed for voluntary conversation and ordinary professional correspondence follow-through, no persuasion to compel assent. Day310~19:00 Rethwyn rural manor private drawing room. V/Mara/Cirren/Fenar/Elara discussed V's actual journey, Kestrel abuse and rescued patients (last known arrangements only), Nightglass heart inquiry and historical evidence limits, Coris scholarly commission, and proposed three-house alliance. Elara now knows these facts by V's explicit disclosure, not DM-only offscreen patient outcomes or unrevealed secrets. New current contact: Elara reports preliminary advice from her own Caereth legal clerk on Day233 inquiry; she is willing to attend with V during planned Caereth visit, and clerk can arrange appropriate recognition procedure. No official ruling, fees, binding eligibility determination, registered marriage or merged holdings yet. Elara has not confirmed receipt of Severin's separate priority-post memorandum; hears proposal directly now. She is positively receptive in principle to voluntary council and V as senior coordinating voice subject to independent house authority, separate property/revenues, consent of affected houses before military/financial commitments, and lawful obligations to respective realms. No oath, signed pact, political subordination, war commitment or payment. Elara asks whether V intends that his senior role give him power to command her or Severin without their agreement; V chooses response. All stats/custody unchanged; V48/48 HD7/7 AC19 all pools full, Fenar59/59 HD5/6 Rage3/4 Shift2/3 MP6/6 inactive, Cirren51/51 HD4/6 full slots4/3/3 CD2/2, Mara/4 horses healthy. Rest2/6, purse391gp9sp6cp food12/feed16, PixieDust1, peryton specimens coach. Private compact remains with Cirren, Kestrel originals V, Mara notes, Fenar reagents/instrument. No overnight or departure. Route Caereth then Orsaven after manor. Dice delegated until stop.",
+  "pending_action": "Day310~19:00 Rethwyn rural manor private drawing room. V/Mara/Cirren/Fenar/Elara discussed V's actual journey, Kestrel abuse and rescued patients (last known arrangements only), Nightglass heart inquiry and historical evidence limits, Coris scholarly commission, and proposed three-house alliance. Elara now knows these facts by V's explicit disclosure, not DM-only offscreen patient outcomes or unrevealed secrets. New current contact: Elara reports preliminary advice from her own Caereth legal clerk on Day233 inquiry; she is willing to attend with V during planned Caereth visit, and clerk can arrange appropriate recognition procedure. No official ruling, fees, binding eligibility determination, registered marriage or merged holdings yet. Elara has not confirmed receipt of Severin's separate priority-post memorandum; hears proposal directly now. She is positively receptive in principle to voluntary council and V as senior coordinating voice subject to independent house authority, separate property/revenues, consent of affected houses before military/financial commitments, and lawful obligations to respective realms. No oath, signed pact, political subordination, war commitment or payment. Elara asks whether V intends that his senior role give him power to command her or Severin without their agreement; V chooses response. All stats/custody unchanged; V48/48 HD7/7 AC19 all pools full, Fenar59/59 HD5/6 Rage3/4 Shift2/3 MP6/6 inactive, Cirren51/51 HD4/6 full slots4/3/3 CD2/2, Mara/4 horses healthy. Rest2/6, purse391gp9sp6cp food12/feed16, PixieDust1, peryton specimens coach. Private compact remains with Cirren, Kestrel originals V, Mara notes, Fenar reagents/instrument. No overnight or departure. Route Caereth then Orsaven after manor. Dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D310-V-RETHWYN-WARM-REUNION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Authorized private disclosure, ordinary professional correspondence follow-through after elapsed time, and independent voluntary NPC discussion; no uncertain opposed check or legal approval adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D310-V-ELARA-PRIVATE-TRAVEL-KESTREL-NIGHTGLASS-BRIEFING-001",
+      "accepted": true,
+      "evidence": "V authorizes telling Elara everything known from journey in trusted private setting; disclosed Kestrel evidence and rescue last known status, Nightglass historical/heart observations and scholarly commission, road events. No DM-only revelations, original transfer or public disclosure.",
+      "before": "Elara had not been told V's new travel discoveries.",
+      "after": "Elara learns V's actual reported experiences and evidence limits.",
+      "owner_paths": [
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D310-ELARA-CAERETH-LEGAL-CLERK-PRELIMINARY-REPLY-001",
+      "accepted": true,
+      "evidence": "Newly revealed at actual return after 77 elapsed days, ordinary household clerk provided preliminary advice and is ready to arrange recognition procedure during both parties' planned Caereth visit; no exact date of receipt, official approval, fees or registry entry. Elara willing to attend jointly.",
+      "before": "Day233 legal inquiry dispatched, reply/status unverified to V.",
+      "after": "V knows practical next step is jointly attending clerk in Caereth; official recognition pending.",
+      "owner_paths": [
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D310-ELARA-THREE-HOUSE-ALLIANCE-RECEPTIVE-AUTHORITY-QUESTION-001",
+      "accepted": true,
+      "evidence": "V directly presents Severin negotiation and proposed three-house council. Elara independently receptive in principle to coordinated voice, voluntary protection, separate holdings and consent-based commitments, asks explicit authority clarification. No letter receipt verified, signature, pledge or obligations accepted.",
+      "before": "Elara not informed of D289 specific proposal.",
+      "after": "Day310~19:00 Rethwyn rural manor private drawing room. V/Mara/Cirren/Fenar/Elara discussed V's actual journey, Kestrel abuse and rescued patients (last known arrangements only), Nightglass heart inquiry and historical evidence limits, Coris scholarly commission, and proposed three-house alliance. Elara now knows these facts by V's explicit disclosure, not DM-only offscreen patient outcomes or unrevealed secrets. New current contact: Elara reports preliminary advice from her own Caereth legal clerk on Day233 inquiry; she is willing to attend with V during planned Caereth visit, and clerk can arrange appropriate recognition procedure. No official ruling, fees, binding eligibility determination, registered marriage or merged holdings yet. Elara has not confirmed receipt of Severin's separate priority-post memorandum; hears proposal directly now. She is positively receptive in principle to voluntary council and V as senior coordinating voice subject to independent house authority, separate property/revenues, consent of affected houses before military/financial commitments, and lawful obligations to respective realms. No oath, signed pact, political subordination, war commitment or payment. Elara asks whether V intends that his senior role give him power to command her or Severin without their agreement; V chooses response. All stats/custody unchanged; V48/48 HD7/7 AC19 all pools full, Fenar59/59 HD5/6 Rage3/4 Shift2/3 MP6/6 inactive, Cirren51/51 HD4/6 full slots4/3/3 CD2/2, Mara/4 horses healthy. Rest2/6, purse391gp9sp6cp food12/feed16, PixieDust1, peryton specimens coach. Private compact remains with Cirren, Kestrel originals V, Mara notes, Fenar reagents/instrument. No overnight or departure. Route Caereth then Orsaven after manor. Dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
