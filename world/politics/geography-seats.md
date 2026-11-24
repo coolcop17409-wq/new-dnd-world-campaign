@@ -54,7 +54,7 @@ Large interiors, outer coasts, and intervening regions remain outside the develo
 | - | - |
 | Iron Dominion | Northern and northeastern plains and rolling country, with extensive territory beyond the developed frontier |
 | Kheldorn | Cold northern mountain section facing the Dominion, primarily within the mountains; surface valleys, mines, farms, and outlying holdings remain exposed |
-| Talveren | Upland basins southwest of Kheldorn, connecting toward Aundar; lower ridges, farms, and a major lake |
+| Talveren | Upland basins, lower ridges, and farms southwest of Kheldorn. From Kithring, its territory extends south along Lake Orun’s eastern shore and down the river valley toward Aundar. |
 | Aundar | Broader, warmer southwestern mountain region, primarily within the ranges and sheltered valleys |
 | Dry interior | West of Aundar beyond wetter slopes; steppe, scrub, salt flats, irrigated settlements, and terminal lakes |
 | Oathmark | Southern foothills and headwaters southeast of the dwarven corridor, extending to an independent southern coast on the Serean Sea |
