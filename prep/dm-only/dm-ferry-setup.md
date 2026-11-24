@@ -2,6 +2,7 @@
 
 The Ferrymen's Share — setup
 Status and entry
+**QDF-1 review — ADMIN-QUEST-WORLD-REVIEW-20261124-01:** G1 PASS for fixed independent financial cause and finite wider organization; G2/G3 HOLD for activation of the expanded underworld branch until a current, authorized source, actual premises/route, patron reward terms, complete assigned profiles and site/alarm/resolution packet are pinned. Existing chapters I–III retain their narrower evidence/custody options, not blanket readiness for every later syndicate site. A closed mentor investigation is not a compulsory sequel; no voyage, review, theft or new recipient knowledge begins from this outline. Next trigger: genuine new payment/wage evidence or chosen inquiry, then complete only the selected branch before approach.
 Optional later-return financial aftermath with river danger and an approved wider criminal-underworld branch. Cirren's mentor search, family correspondence and Quenwood's own case can conclude independently. Read this setup plus only the relevant ferry chapter or underworld branch. New introductions remain unplayed; current commitments and player choice govern timing.
 A traced clearing-office payment, authorized investigator disclosure or a crew member's actual wage grievance can open the inquiry. Desen compares the four receipted records with the old payment and shares only authorized information; he cannot promise immunity or a sentence. No rumor, document review or quiet stay activates the sequel.
 Fixed cause: the loss and murders

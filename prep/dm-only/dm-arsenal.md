@@ -2,6 +2,7 @@
 
 The hour before the arsenal opens
 Status and scope
+**QDF-1 review — ADMIN-QUEST-WORLD-REVIEW-20261124-01:** G1 PASS for independent pension diversion, theft motive and voluntary resolution; G2 CONDITIONAL on actual Orsaven source/convoy timing (the title does not start a one-hour timer). G3 HOLD for armed activation until the minder's exact2014 profile, court/slit/loft distances and finite convoy/alarm timing are pinned against actual participants. No funded major bounty is established; do not advertise this civic situation as one of the substantial paid regional contracts. The drummer/armorer can supply their own observed problem at an eligible scene, not Pennant's concealed plans. Next work: complete the named court packet before any consequential approach, preserving original actors and the independent arms-sale branch.
 Unaccepted optional civic situation with a possible arms-theft branch. Preserve negotiation, evacuation and actual motives; this is not the primary answer to the request for monster/lethal-threat adventures.
 Cross-thread preparation: ORSAVEN FRAMEWORK (t.pcdbbvp4zheq), “Veterans” and “Border logistics”. If V pursues a new arms transaction, DM — HOLLOW PENNANT (t.5tbr66edyxrr) owns the prospective buyer and later expedition; this outline owns the independent pension diversion/theft.
 The hour before the arsenal opens • An urban siege in three scenes

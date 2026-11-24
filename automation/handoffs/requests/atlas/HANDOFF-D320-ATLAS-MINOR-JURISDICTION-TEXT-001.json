@@ -1,0 +1,24 @@
+{
+  "request_id": "HANDOFF-D320-ATLAS-MINOR-JURISDICTION-TEXT-001",
+  "lane": "atlas",
+  "source": {
+    "kind": "ooc_request",
+    "checkpoint_id": "D320-1200-CROWNSUNDER-FRONTIER-TRAVELERS-VALUABLES-SALE-CORRECTED-001",
+    "campaign_day": 320,
+    "commit": "51cf12f0994e38cf79f7327ad3ab72873c5f0817",
+    "review_id": "ADMIN-QUEST-WORLD-REVIEW-20261124-01"
+  },
+  "request": "During the existing atlas worker run, reconcile two incompatible authority names in the minor-polity working register and the atlas49 placement descriptions, using adopted geography. This is a source-owner correction request from the player's full quest/world review, not an instant task trigger or gameplay.",
+  "scope": [
+    "world/politics/minor-polities.md @81cb1cbeb49c9e3b5834757f3b8c253b584bd0a1: Bracken March is under Arden but names Crownsunder (Orath) as adjacent rent claimant; atlas Library version49 localPlacementNotes[0] repeats it. Establish the correct claimant from placement and owning state evidence; if unresolved, explicitly leave that claimant OPEN instead of inventing a cross-continent border.",
+    "Millstone Charter is Autonomous under Veyran Commonwealth, district host122, but description says 'The Dominion values the flour supply'; atlas49 localPlacementNotes[122] repeats it. Reconcile to verified host authority, without changing its location or inventing new sovereignty.",
+    "Preserve proposal status, current campaign scene, base map, all other entity placements and accepted history. Verify exact register/atlas changes and report only this scoped result; no boundary polygon or whole-catalogue certification implied."
+  ],
+  "output_owner_paths": [
+    "world/politics/minor-polities.md",
+    "assets/README.md",
+    "https://chatgpt.com/library?file_id=libfile_70639e30a8e88191893e8c0afca5ed4b&account_id=personal"
+  ],
+  "priority": "normal",
+  "advances_gameplay": false
+}
