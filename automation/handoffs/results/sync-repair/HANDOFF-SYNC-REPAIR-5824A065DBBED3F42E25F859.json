@@ -1,0 +1,9 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-5824A065DBBED3F42E25F859",
+  "status": "partial",
+  "claim_owner": "opened-pr43-9964afc0",
+  "claim_expires_at": "2026-11-24T11:37:41.000Z",
+  "summary": "Historical-byte reconstruction of two corrupted estate CSVs; isolated branch only.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry"
+}
