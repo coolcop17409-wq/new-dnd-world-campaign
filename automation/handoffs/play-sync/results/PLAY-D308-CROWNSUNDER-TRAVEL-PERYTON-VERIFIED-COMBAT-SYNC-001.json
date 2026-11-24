@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr40-2212094a",
+  "claim_expires_at": "2026-11-24T04:24:08.000Z",
+  "request_commit": "be7e6398719095f019b83507a0d9f9ca655db71b",
+  "request_blob": "15ffab3da63e34e009efec70ae6156ee4932122b",
+  "summary": "Validated immutable eight-chunk batch and completed prerequisite; five voided combat chunks excluded. Preparing accepted owners only.",
+  "blocker": null,
+  "applied_event_ids": []
+}
