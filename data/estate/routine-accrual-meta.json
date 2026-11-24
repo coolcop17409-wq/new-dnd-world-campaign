@@ -1,8 +1,8 @@
 {
-  "last_confirmed_closed_day": 280,
+  "last_confirmed_closed_day": 319,
   "source_opening_day": 182,
-  "evidence": "D281-ESTATE-CATCHUP-001; authorized autonomous estate work through accepted Day281~20:36; full close280 plus elapsed Day281 daytime; D281-ESTATE-DRAW-01 owns uncertain decisions.",
-  "last_accounted_day": 281,
-  "open_day": 281,
-  "open_day_activity": "Elapsed Day281 daytime operations posted across all four estates through accepted~20:36; full Day281/night close remains open."
+  "evidence": "D320-ESTATE-CATCHUP-001; accepted checkpoint Day320 approximately12:00; full daily close319 plus elapsed morning320 only; D320-ESTATE-DRAW-01 resolved once and preserved.",
+  "last_accounted_day": 320,
+  "open_day": 320,
+  "open_day_activity": "Elapsed Day320 morning: confirmed Blackthorn catalog buyer pickup and shared payroll/upkeep settlements through Day319; Reedbed full-bench inquiry scheduled Day321. No Day320 full-day production, wages, upkeep, storage, duty or close."
 }
