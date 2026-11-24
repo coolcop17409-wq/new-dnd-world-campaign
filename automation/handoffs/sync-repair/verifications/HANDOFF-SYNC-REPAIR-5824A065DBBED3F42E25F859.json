@@ -1,0 +1,86 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-5824A065DBBED3F42E25F859",
+  "lane": "sync-repair",
+  "status": "verified",
+  "disposition": "superseded",
+  "tested_commit": "e0e83387f0ba92c87b2559c3f65074f4b6d2b0eb",
+  "current_base_commit": "e0e83387f0ba92c87b2559c3f65074f4b6d2b0eb",
+  "verified_at": "2026-11-24 11:16:45 UTC",
+  "summary": "Newer main repair resolved the original UTF-8 transport corruption before this worker published a correction.",
+  "commands": [
+    {
+      "command": "python3 automation/blackthorn_operations.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/routine_accruals.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/blackthorn_tax.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/estate_audit.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/estate_ledger.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/tracker_validate.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m unittest automation.test_estate_ledger automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -v",
+      "exit_code": 0,
+      "summary": "nd_unsupported_receipt) ... ok\n\n----------------------------------------------------------------------\nRan 55 tests in 0.101s\n\nOK\n"
+    }
+  ],
+  "integrity_command": "python3 - <<'PY'\nimport subprocess,pathlib,json,hashlib,base64,csv,io\nfailure='d86d0faedca2294027529a02440f60bf67e33f5b'\nproof=[]\nfor name,missing in [('events.csv',87008),('operational-checkpoint.csv',104492)]:\n path='data/estate/'+name\n bad=subprocess.check_output(['git','show',failure+':'+path])\n old=subprocess.check_output(['git','show',failure+'^:'+path])\n s=base64.b64encode(bad).decode().rstrip('='); o=base64.b64encode(old).decode()\n marker=str(missing)+'bytesomitted'; i=s.index(marker)\n assert i==524288 and s[:i]==o[:i]\n fixed=s[:i]+o[i:i+missing]+s[i+len(marker):]\n recovered=base64.b64decode(fixed+'='*((-len(fixed))%4),validate=True)\n assert recovered.startswith(old)\n actual=pathlib.Path(path).read_bytes()\n assert actual==recovered or (name=='operational-checkpoint.csv' and actual==recovered+b'\\n')\n rows=list(csv.reader(io.StringIO(actual.decode('utf-8'),newline='')))\n assert all(len(r)==len(rows[0]) for r in rows)\n proof.append({'path':path,'sha256':hashlib.sha256(actual).hexdigest(),'git_blob':subprocess.check_output(['git','rev-parse','HEAD:'+path],text=True).strip(),'rows':len(rows)-1,'historical_prefix_bytes':len(old),'base64_recovered_characters':missing,'result':'PASS'})\ncommands=[['python3','automation/'+n+'.py'] for n in ['blackthorn_operations','routine_accruals','blackthorn_tax','estate_audit','estate_ledger','tracker_validate']]\ncommands.append(['python3','-m','unittest','automation.test_estate_ledger','automation.test_sync_repair','automation.test_fast_play','automation.handoffs.test_validate','-v'])\nresults=[]\nfor idx,args in enumerate(commands):\n p=subprocess.run(args,capture_output=True,text=True)\n pathlib.Path('/tmp/pr43/current-'+str(idx)+'.log').write_text(p.stdout+p.stderr)\n result={'command':' '.join(args),'exit_code':p.returncode}\n if '-m' in args: result['summary']=(p.stdout+p.stderr)[-130:]\n results.append(result)\nout={'tested_commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'proof':proof,'commands':results}\npathlib.Path('/tmp/pr43/final-results.json').write_text(json.dumps(out,indent=2)+'\\n')\nprint(json.dumps(out))\nassert all(r['exit_code']==0 for r in results)\nPY",
+  "integrity_results": [
+    {
+      "path": "data/estate/events.csv",
+      "sha256": "17f8d22ccdd79188400d10f42ceba96b7ba23f99b5699381d5f64eaada398936",
+      "git_blob": "2c235568568ed961480c621506ded0c3991dbc9e",
+      "rows": 2018,
+      "historical_prefix_bytes": 511892,
+      "base64_recovered_characters": 87008,
+      "result": "PASS"
+    },
+    {
+      "path": "data/estate/operational-checkpoint.csv",
+      "sha256": "25ce9e9fb6b6c8eeb6c067a1d798bf4bd7f62d8dc7dae10039f2d1822d0c35fe",
+      "git_blob": "a51409e4b9eddda1436249bd8f5e2a375b8ddd47",
+      "rows": 748,
+      "historical_prefix_bytes": 789048,
+      "base64_recovered_characters": 104492,
+      "result": "PASS"
+    }
+  ],
+  "changed_paths": [
+    "automation/handoffs/results/sync-repair/HANDOFF-SYNC-REPAIR-5824A065DBBED3F42E25F859.json",
+    "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-5824A065DBBED3F42E25F859.json"
+  ],
+  "owner_changes_by_this_worker": [],
+  "main_writes_by_this_worker": [],
+  "merged": false,
+  "source_evidence": {
+    "failure_commit": "d86d0faedca2294027529a02440f60bf67e33f5b",
+    "historical_parent": "0e2f1c25dbeb89212cc552b5ca33ed7f3907767a",
+    "newer_repair_commit": "3b9e7bd",
+    "diagnostic_run": 45381565449,
+    "diagnostic_job": 138401620608,
+    "explanation": "Base64 encoding of each malformed blob contains a bytesomitted marker at character 524288. Restore the exact missing historical base64 characters from the parent, preserving the surviving suffix. Current main events.csv equals this reconstruction byte for byte. Current main operational-checkpoint.csv equals it with the final LF restored. Both entire historical prefixes are byte-identical. CSV widths and UTF-8 are valid."
+  },
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/e0e83387f0ba92c87b2559c3f65074f4b6d2b0eb/data/estate/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/e0e83387f0ba92c87b2559c3f65074f4b6d2b0eb/data/estate/operational-checkpoint.csv"
+  ],
+  "limitations": [
+    "No full GitHub Actions run claimed; listed commands actually executed locally from the exact current-main commit.",
+    "Local generated reports were not published.",
+    "Transport PR remains unmerged. No CAMPAIGN_STATE or recovery evidence modified."
+  ]
+}

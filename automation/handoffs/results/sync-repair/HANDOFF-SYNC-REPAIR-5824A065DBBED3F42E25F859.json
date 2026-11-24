@@ -1,9 +1,29 @@
 {
   "request_id": "HANDOFF-SYNC-REPAIR-5824A065DBBED3F42E25F859",
-  "status": "partial",
+  "lane": "sync-repair",
+  "status": "superseded",
+  "summary": "Newer main repair resolved the original UTF-8 transport corruption before this worker published a correction.",
   "claim_owner": "opened-pr43-9964afc0",
-  "claim_expires_at": "2026-11-24T11:37:41.000Z",
-  "summary": "Historical-byte reconstruction of two corrupted estate CSVs; isolated branch only.",
-  "blocker": "verification in progress",
-  "next_trigger": "claim completion or expiry"
+  "claim_expires_at": "2026-11-24T11:16:45Z",
+  "verified_commit": "e0e83387f0ba92c87b2559c3f65074f4b6d2b0eb",
+  "verification_ref": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-5824A065DBBED3F42E25F859.json",
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/e0e83387f0ba92c87b2559c3f65074f4b6d2b0eb/data/estate/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/e0e83387f0ba92c87b2559c3f65074f4b6d2b0eb/data/estate/operational-checkpoint.csv"
+  ],
+  "source_refs": {
+    "failure_commit": "d86d0faedca2294027529a02440f60bf67e33f5b",
+    "historical_parent": "0e2f1c25dbeb89212cc552b5ca33ed7f3907767a",
+    "newer_repair_commit": "3b9e7bd",
+    "diagnostic_run": 45381565449,
+    "diagnostic_job": 138401620608,
+    "explanation": "Base64 encoding of each malformed blob contains a bytesomitted marker at character 524288. Restore the exact missing historical base64 characters from the parent, preserving the surviving suffix. Current main events.csv equals this reconstruction byte for byte. Current main operational-checkpoint.csv equals it with the final LF restored. Both entire historical prefixes are byte-identical. CSV widths and UTF-8 are valid."
+  },
+  "blocker": null,
+  "next_trigger": "None for this resolved failure; persistent opened webhook remains enabled.",
+  "applied_by_this_worker": false,
+  "main_write_commits": [],
+  "phase_commits": {
+    "claim": "b2515c0cb9988cf084ecea1da31a4aa810bce4b7"
+  }
 }
