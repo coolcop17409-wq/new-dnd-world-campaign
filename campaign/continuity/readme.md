@@ -22,9 +22,9 @@ Only at combat/exploration/quest/rest/major transaction milestone, ~8–12 subst
 Keep this index under 8,000 characters; checkpoint under 12,000; recent SESSION_LOG under 75,000. Archive exact text before trimming. Do not assume historic `migration/TEST_REPORT.md` pending checks are resolved.
 
 ## Atlas and maintenance pointers
-Previously verified atlas `ATLAS-D281-KESTREL-APPROACH-001` is historical to the current region; current overlays and maintenance receipts belong in their respective owning registers, not this startup. Former specific file links and writer-lease receipts remain preserved in `archive/continuity/continuity-readme-before-live-fastpath-20261123.md`.
+[Current player atlas and verified editions](../../assets/README.md#atlas-review). Specialist findings belong in their owning registers. Earlier routing and receipts are preserved in `archive/continuity/continuity-readme-before-live-fastpath-20261123.md`.
 
 ## Cooperative writer
 Short owning-record batch coordination; accepted-play recovery retains its separate fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D320-20261124-01 | worker=Atlas | ops=ATLAS-D320-OSSENT-APPROACH-001 | acquired_UTC=2026-11-24T08:10:27.000Z | heartbeat_UTC=2026-11-24T08:10:27.000Z | expires_UTC=2026-11-24T08:20:27.000Z | recovery=assets/README.md#atlas-review
+CAMPAIGN_WRITER | state=IDLE | last_token=ATLAS-D320-20261124-01 | released_UTC=2026-11-24T08:11:41Z | recovery=assets/README.md#atlas-review
