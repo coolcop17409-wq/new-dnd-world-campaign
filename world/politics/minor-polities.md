@@ -5,7 +5,7 @@
 ## Reading the layer
 
 - **Independent**: proposed separate political authority.
-- **Contested**: mapped limit is disputed with one or more major states; minor entities should not claim one another’s territory.
+- **Contested**: mapped limit is disputed against one or more major states; minor entities do not claim one another’s territory. Any apparent minor-to-minor overlap in a drawing is a cartographic error, not an intended joint claim.
 - **Autonomous**: local self-government under the named host state.
 - **Mobile**: seasonal or route-based community; its marker is an anchor, not a fixed border.
 - Local customs, roads, tributaries and offices in the short descriptions are working details unless separately adopted in the geographic canon.
