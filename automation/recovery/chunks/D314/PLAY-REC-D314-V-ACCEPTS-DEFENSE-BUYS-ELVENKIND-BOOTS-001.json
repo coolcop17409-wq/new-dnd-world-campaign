@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D314-V-ACCEPTS-DEFENSE-BUYS-ELVENKIND-BOOTS-001",
+  "base_commit": "82caeaf3f942945ec31be1e1b2105b079e6992f2",
+  "source_checkpoint": "D314-1925-CAERETH-DEFENSE-NEGOTIATED-OFFER-PENDING-001",
+  "destination_checkpoint": "D314-2130-CAERETH-DEFENSE-ACCEPTED-BOOTS-PURCHASED-DINNER-END-001",
+  "source_evidence": "Player exact 'These terms are acceptable. And I'll take the boots of elven kind, negotiated for price of course.' V accepts negotiated Defense of Caereth contract exactly as offered: maximum2500gp reserved by guild, 833gp for safe civilians/functioning meeting and1667gp for ending coercive hold, guild-funded appraisal and merchant/craft/magic broker introductions, written guild endorsement of V/House Vaishnavi and Assembly introductions on successful completion. No signing advance, no extra items guaranteed, no political pledge. Organizer expects V tomorrow after palace business and can arrange access to guild records and quartermaster before late-afternoon meeting. V then authorizes purchase of actual Quiet Heel Bootworks consigned original Boots of Elvenkind at negotiated price, stock owner asks290gp. Predeclared thresholds below13=290,13–17=275,18–22=260,23+=245gp. Mara helps negotiate; Cirren casts at-will Guidance before check, concentration ends, no slot. Actual visible Python receipt batch ab31dee67f966edc9d577c906abcd22c: advantage d20 faces20,11 choose20 +Persuasion6 +attuned Luckstone1 +Guidance d4 face1 =28, top tier245gp (45gp discount); natural20 skill check not automatic success. Cobbler accepts245 and transfers original boots, V pays once and wears, personal purse383gp4sp6cp (38346cp)→138gp4sp6cp (13846cp). Stock1→0 SOLD, no replacement. Item 2014 DMG Boots of Elvenkind: no attunement, soundless steps and advantage on Dexterity Stealth checks relying on moving silently, not all Stealth/Hide checks. No extra item or superiority/psi/MP spent. Per earlier explicit itinerary, party returns to Elara's Caereth residence and enjoys celebratory hosted dinner, household tends horses, no packed supply deduction, no public disclosure or extra expenditures. No night/rest completion or palace confirmation fabricated. D314~21:30 at Elara's Caereth city residence after accepted Defense of Caereth contract and purchase of original Boots of Elvenkind, celebratory dinner completed as previously requested, no overnight yet. Guild 2500gp capped milestones833+1667, appraisal and merchant/broker introductions, written endorsement and Assembly introductions on successful completion; no advance, earned payments or benefits yet. Organizer expects party D315 after palace business, late-afternoon meeting, offers records/quartermaster access. Original Quiet Heel Bootworks consigned Boots of Elvenkind purchased at245gp after actual Persuasion advantage 20/11 +7 +Guidance1=28; V purse383gp4sp6cp→138gp4sp6cp, stock1→0, V wears boots, no attunement, footsteps silent and advantage on Stealth relying on silent movement only, not universal Hide success. No class resource spent. All party HP/resources full, V48/48 AC19 HD7/7 attuned cloak+Luckstone2/3, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 HD6/6 slots4/3/3 CD2/2 full, Mara/Elara/4 horses healthy; food21/feed28 unchanged, rest3/6 (no night yet), PixieDust1, peryton specimens coach, all original evidence and compact custody unchanged. Palace audience requested, appointment not yet confirmed; no official accusation/evidence handoff. Elara covers hosted dinner and ordinary house hospitality, no V expense. Marriage recognized in Crownsunder, alliance memorandum reply pending. V dice delegated until stop. Next V decision before overnight or continue to morning palace business.",
+  "pending_action": "D314~21:30 at Elara's Caereth city residence after accepted Defense of Caereth contract and purchase of original Boots of Elvenkind, celebratory dinner completed as previously requested, no overnight yet. Guild 2500gp capped milestones833+1667, appraisal and merchant/broker introductions, written endorsement and Assembly introductions on successful completion; no advance, earned payments or benefits yet. Organizer expects party D315 after palace business, late-afternoon meeting, offers records/quartermaster access. Original Quiet Heel Bootworks consigned Boots of Elvenkind purchased at245gp after actual Persuasion advantage 20/11 +7 +Guidance1=28; V purse383gp4sp6cp→138gp4sp6cp, stock1→0, V wears boots, no attunement, footsteps silent and advantage on Stealth relying on silent movement only, not universal Hide success. No class resource spent. All party HP/resources full, V48/48 AC19 HD7/7 attuned cloak+Luckstone2/3, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 HD6/6 slots4/3/3 CD2/2 full, Mara/Elara/4 horses healthy; food21/feed28 unchanged, rest3/6 (no night yet), PixieDust1, peryton specimens coach, all original evidence and compact custody unchanged. Palace audience requested, appointment not yet confirmed; no official accusation/evidence handoff. Elara covers hosted dinner and ordinary house hospitality, no V expense. Marriage recognized in Crownsunder, alliance memorandum reply pending. V dice delegated until stop. Next V decision before overnight or continue to morning palace business.",
+  "depends_on": [
+    "PLAY-REC-D314-CAERETH-DEFENSE-REWARD-NEGOTIATION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "ab31dee67f966edc9d577c906abcd22c",
+        "rolls": [
+          {
+            "id": "D314.V.boots.price.persuasion",
+            "sides": 20,
+            "faces": [
+              20,
+              11
+            ]
+          },
+          {
+            "id": "D314.V.boots.price.guidance",
+            "sides": 4,
+            "faces": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D314-CAERETH-DEFENSE-NEGOTIATED-CONTRACT-ACCEPTED-001",
+      "accepted": true,
+      "evidence": "V accepts exact negotiated terms2500gp (833+1667), appraisal and introductions, written endorsement on completion; no advance/payment. Meeting D315 after palace business, records access offered.",
+      "before": "Quest terms offered but not accepted.",
+      "after": "Quest ACTIVE, conditional milestones unearned.",
+      "owner_paths": [
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D314-V-QUIET-HEEL-BOOTS-ELVENKIND-PURCHASE-001",
+      "accepted": true,
+      "evidence": "Actual visible Python d20 advantage20/11 +7 +Guidance1=28, predeclared top price245gp vs original290. V authorized purchase, paid245gp once, receives/wears original no-attunement Boots of Elvenkind, silent footstep advantage when movement matters. Stock1→0, purse38346cp→13846cp. No class feature expenditure.",
+      "before": "Original boots open consignment 290gp, V383gp4sp6cp.",
+      "after": "Boots V-owned and worn; cash138gp4sp6cp; original lot sold.",
+      "owner_paths": [
+        "trackers/csv/magic-shops/stock.csv",
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/dealers.csv",
+        "trackers/csv/v/v-inventory.csv",
+        "data/characters/events.csv",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D314-CAERETH-RETHWYN-MARRIAGE-CELEBRATORY-DINNER-001",
+      "accepted": true,
+      "evidence": "Earlier player ordered dinner and return to city residence; party returns and enjoys Elara-hosted celebratory meal, no packed supply/cash debit, no overnight yet.",
+      "before": "D314 evening guild and shop inquiries.",
+      "after": "D314~21:30 at Elara's Caereth city residence after accepted Defense of Caereth contract and purchase of original Boots of Elvenkind, celebratory dinner completed as previously requested, no overnight yet. Guild 2500gp capped milestones833+1667, appraisal and merchant/broker introductions, written endorsement and Assembly introductions on successful completion; no advance, earned payments or benefits yet. Organizer expects party D315 after palace business, late-afternoon meeting, offers records/quartermaster access. Original Quiet Heel Bootworks consigned Boots of Elvenkind purchased at245gp after actual Persuasion advantage 20/11 +7 +Guidance1=28; V purse383gp4sp6cp→138gp4sp6cp, stock1→0, V wears boots, no attunement, footsteps silent and advantage on Stealth relying on silent movement only, not universal Hide success. No class resource spent. All party HP/resources full, V48/48 AC19 HD7/7 attuned cloak+Luckstone2/3, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 HD6/6 slots4/3/3 CD2/2 full, Mara/Elara/4 horses healthy; food21/feed28 unchanged, rest3/6 (no night yet), PixieDust1, peryton specimens coach, all original evidence and compact custody unchanged. Palace audience requested, appointment not yet confirmed; no official accusation/evidence handoff. Elara covers hosted dinner and ordinary house hospitality, no V expense. Marriage recognized in Crownsunder, alliance memorandum reply pending. V dice delegated until stop. Next V decision before overnight or continue to morning palace business.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
