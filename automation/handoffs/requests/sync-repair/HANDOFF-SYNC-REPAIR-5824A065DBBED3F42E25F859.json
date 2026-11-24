@@ -1,0 +1,55 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-5824A065DBBED3F42E25F859",
+  "lane": "sync-repair",
+  "source": {
+    "kind": "validation_failure",
+    "checkpoint_id": "UNCHANGED-ADMIN-ONLY",
+    "commit_sha": "d86d0faedca2294027529a02440f60bf67e33f5b",
+    "workflow_run_id": 45381565449,
+    "workflow_url": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45381565449"
+  },
+  "request": "Investigate this exact validation failure; propose only evidence-supported corrections on the existing repair branch.",
+  "scope": [
+    "data/estate/README.md",
+    "data/estate/blackthorn-operations-events.csv",
+    "data/estate/events.csv",
+    "data/estate/operational-checkpoint.csv",
+    "data/estate/routine-accrual-meta.json"
+  ],
+  "output_owner_paths": [
+    "data/estate/README.md",
+    "data/estate/blackthorn-operations-events.csv",
+    "data/estate/events.csv",
+    "data/estate/operational-checkpoint.csv",
+    "data/estate/routine-accrual-meta.json"
+  ],
+  "priority": "high",
+  "advances_gameplay": false,
+  "failure_signature": "5824A065DBBED3F42E25F859",
+  "diagnostic": {
+    "schema_version": 1,
+    "status": "FAIL",
+    "scope": "workflow",
+    "findings": [
+      {
+        "code": "workflow.step",
+        "path": ".github/workflows/estate-audit.yml",
+        "event_id": "",
+        "message": "audit: Mark validation findings as workflow failure"
+      }
+    ],
+    "affected_files": [
+      "data/estate/README.md",
+      "data/estate/blackthorn-operations-events.csv",
+      "data/estate/events.csv",
+      "data/estate/operational-checkpoint.csv",
+      "data/estate/routine-accrual-meta.json"
+    ],
+    "notes": [
+      "Artifact unavailable or tests failed outside scoped validator; no automatic record correction."
+    ]
+  },
+  "repair_branch": "campaign-repair/5824a065dbbed3f42e25f859",
+  "base_branch": "main",
+  "synthetic": false
+}
