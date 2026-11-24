@@ -9,6 +9,7 @@ import json
 import re
 from pathlib import Path
 from automation.recovery_journal import check, digest
+from automation.rng_gate import reject_void, validate_rng
 
 PREFIX="automation/recovery/chunks/"
 BOUNDARY_DIR="automation/recovery/boundaries/"
@@ -25,6 +26,7 @@ def chunk_path(entry):
     return PREFIX+"D"+matched.group("day")+"/"+rid+".json"
 
 def chunk_content(entry):
+    reject_void(entry)
     check({"schema_version":1,"entries":[entry]})
     chunk_path(entry)
     return json.dumps(entry,indent=2,ensure_ascii=False)+"\n"
@@ -33,6 +35,7 @@ def validate_chunk(path,content,expected_digest):
     if not isinstance(content,str) or not isinstance(expected_digest,str):
         raise ValueError("Invalid chunk payload/digest")
     entry=json.loads(content)
+    reject_void(entry)
     if path!=chunk_path(entry):
         raise ValueError("Chunk filename and accepted entry ID mismatch")
     check({"schema_version":1,"entries":[entry]})
@@ -93,6 +96,11 @@ def compatibility_journal(boundary,loader,existing,mode):
     if existing["entries"]:
         raise ValueError("Old recovery journal still has unsynchronized evidence")
     entries=validate_boundary(boundary,loader)
+    if "rng_gate" in mode:
+        seen_batches=set()
+        for entry in entries:
+            path=chunk_path(entry)
+            validate_rng(entry,path,loader(path),mode["rng_gate"],seen_batches)
     trigger={k:boundary[k] for k in
              ("ready","reason","request_id","last_recovery_id","destination_checkpoint")}
     return {"schema_version":1,"entries":entries,"sync_trigger":trigger}
