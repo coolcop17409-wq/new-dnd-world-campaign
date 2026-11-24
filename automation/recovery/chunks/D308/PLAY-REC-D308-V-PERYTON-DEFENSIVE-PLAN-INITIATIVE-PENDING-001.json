@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D308-V-PERYTON-DEFENSIVE-PLAN-INITIATIVE-PENDING-001",
+  "base_commit": "237e711dd89b1130d1091ac2dde8fb2f822bc822",
+  "source_checkpoint": "D308-1020-CROWNSUNDER-ROAD-THREE-PERYTONS-APPROACH-V-DECISION-001",
+  "destination_checkpoint": "D308-1020-PERYTON-DEFENSIVE-PLAN-V-INITIATIVE-PENDING-001",
+  "source_evidence": "Player exact: 'Group together us and the horses and hold your attacks until they get within melee. Mara hide deep in the carriage. V will hold attack until one gets into melee with an ally.' Tactical intent accepted; companions independently agree to protective formation and wait for melee; Mara prepares withdrawal inside coach. No positioning movement, Ready action, spell, Rage, Shift, damage, monster movement or elapsed round resolved before initiative. No new V dialogue intended; quoted defensive call is party coordination, not scripted V speech. Genuine executed Python secrets.randbelow(20)+1 rolled Fenar face4+Dex2=6, Cirren face5+Dex2=7, three identical perytons shared initiative face16+Dex1=17, no surprise. V initiative requires player roll, baseline+4 and attuned Luckstone+1=+5; no delegated standing V roll confirmed. Mara noncombatant cover withdrawal intended; no fabricated Mara stats or Hide check. V intends Ready on own turn, triggering when a peryton enters melee with an ally; reaction attack requires legal physical weapon (normal darts available, original Galepierce Dart available if player selects) rather than native Psychic Blades per standing 2014 combat rule. Ready expires at next turn and not yet taken. No resources spent.",
+  "pending_action": "Day308~10:20 same pre-initiative geometry and monster HP33 each. Await V initiative d20+5 (or express delegation). NPC initiatives Perytons17 shared, Cirren7, Fenar6. Mara intends to duck inside coach, V/Cirren/Fenar defensive grouping around still-harnessed four healthy horses and coach, all combat moves/Ready pending actual turns. Three perytons positions P1(130,60,75), P2(165,-15,60), P3(145,30,70), west positive x; party and horses original positions. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 attuned cloak and luckstone; Fenar59/59 AC14 Rage4/4 Shift3/3 MP6/6, no active rage/shift, paired Double-Claw Rend visual always; Cirren51/51 AC18 slots4/3/3 full CD2/2, Mara healthy, purse391gp9sp6cp, ration21/feed28, rest1/6. No attack, resource, damage or travel advancement. Day308 encounter cap used, D309 mandatory quiet random day.",
+  "depends_on": [
+    "PLAY-REC-D307-308-V-BYPASSES-FARM-FIRE-REFUELS-THREE-PERYTONS-SIGHTED-001"
+  ],
+  "events": [
+    {
+      "event_id": "D308-V-PERYTON-DEFENSIVE-PLAN-NPC-INITIATIVE-001",
+      "accepted": true,
+      "evidence": "Exact player directive group around horses, hold until melee, Mara inside coach, V Ready on ally engagement; actual NPC initiative Python secrets Fenar4+2=6, Cirren5+2=7, shared three perytons16+1=17; V initiative not rolled. No movement/attack/feature use yet.",
+      "before": "D308 preinitiative perytons 150–180ft distant, no surprise, all healthy.",
+      "after": "Defensive intent fixed; NPC initiative results fixed; waiting for V initiative+5 before turns. No resource or HP change.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
