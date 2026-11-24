@@ -49,6 +49,12 @@ The Lantern Strait joins basins with differing tides, water levels, and seasonal
 | Orath | Northeast and east, with extensive continental interior | 2,500–3,000 miles |
 Nearest continental shores are approximately 250–500 miles apart. Common intercontinental shipping routes cover roughly 600–1,500 miles, consistent with two-to-six-week journeys including weather and stops. Major developed regions commonly lie several hundred miles apart. Dominion heartland to Veyr is several thousand miles by practical routes and takes months. These are scale bands, not fixed coordinates; the existing local travel times remain constraints on later maps.
 Large interiors, outer coasts, and intervening regions remain outside the developed political inventory.
+
+## Minor-polity atlas layer — working proposals (2026-11-24)
+
+The 150 proposed names and setting briefs are maintained in [minor-polities.md](minor-polities.md), with their positions in the interactive atlas linked from [assets/README.md](../../assets/README.md). This layer does not revise the adopted continents, major-state placements, named watersheds, or climate limits above. Most settled minor communities share the broad language, religion, and customs of their host or nearest major state; local law, economy, and allegiance distinguish them. Mobile groups are route networks, not fixed territorial claims. Minor extents are approximate; their contested claims concern major-state borders, not overlapping claims between minor polities.
+
+The latest atlas pass corrected **Serefen** to lower Zafira in Arden, beside a locally proposed tributary toward the Serevan River; the tributary's exact course remains open. **Stonefold League** replaces “Lake Oran League” on the eastern rim of the Saltward Basin, along an upland track toward mapped Lake Orun. No separate Lake Oran is established.
 ## Arden regional placement
 | Region | Adopted position and terrain |
 | - | - |
