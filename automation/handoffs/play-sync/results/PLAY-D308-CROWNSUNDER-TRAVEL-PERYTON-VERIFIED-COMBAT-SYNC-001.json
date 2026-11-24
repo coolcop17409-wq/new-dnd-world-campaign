@@ -110,5 +110,5 @@
     "automation/recovery/chunks/D308/PLAY-REC-D308-V-PERYTON-CORPSE-INVESTIGATION-001.json"
   ],
   "generated_view_status": "DERIVED-PENDING: checkpoint refresh not yet verified; existing Luckstone purchase-era UNATTUNED metadata also remains superseded by current inventory/checkpoint.",
-  "cleanup_status": "pending separate verified-only prune"
+  "cleanup_status": "complete: eight exact verified compatibility entries pruned; all original chunks/boundaries and newer corpse-inspection chunk preserved"
 }
