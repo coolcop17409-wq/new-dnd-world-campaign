@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D308-310-V-RETHWYN-MANOR-APPROACH-RECOVERY-001",
+  "base_commit": "452e76045c949a80829dbc6cb8b99eb5688bac31",
+  "source_checkpoint": "D308-1050-PERYTON-SPECIMENS-PACKED-V-DECISION-001",
+  "destination_checkpoint": "D310-1730-RETHWYN-MANOR-APPROACH-V-DECISION-001",
+  "source_evidence": "Player exact 'Continue' after D308~10:50 Cirren packed peryton specimen lot. V previously selected Lady Elara rural manor FIRST then Caereth and Orsaven. Continue west with four healthy horses, no pursuit of fleeing perytons, no sale of specimens. D308 remaining day peaceful; earlier verified peryton encounter filled random event cap; no night roll. D309 mandatory quiet day and night after D307/D308 consecutive events. Before next RNG fix D310 final rural approach to familiar Rethwyn manor on ordinary trade road (approximate DM journey pacing, no surveyed mileage); day trigger 01–15. Actual visible Python D310 d10040 quiet. No D310 night played. D308 planned wilderness short rest: standing Second Wind pre-rest use actual d10 face1+Fighter3=4, V42→46, ready1→0; D308→309 qualifying rest restores feature1/1. Fenar independently spends one d12 HD face10+CON2=12 healing capped11, HP48→59 and HD6→5; Cirren spends two d8 HD faces2 and8 +CON3 each (5+11 healing, actual11 total) HP40→51 HD6→4. D309 planned pre-rest Second Wind d10 face10+3=13 heals remaining2, V46→48, feature1→0 then actual D309→310 quiet rest refreshes1/1. These routine noncombat recovery uses do not interrupt the new Long Rest progression (not significant adventuring expenditure); two wilderness nights give 2/6, no Long Rest or rage/shift/spell/HD refresh. All actual RNG in two visible receipts. Cirren slots4/3/3 CD2/2; Fenar Rage3/4, Shift2/3, MP6/6, no active rage/shift; V all pools full. Three travel-day provision allocations D308–310: 3 rations and4 animal feed each, rations21→12, feed28→16; purse391gp9sp6cp unchanged, PixieDust1 sealed. Peryton antlers1 pair, flight feathers1 bundle, taloned feet2 remain unappraised in coach. Four horses and coach healthy, Mara healthy. Approx late afternoon D310 reach familiar Rethwyn rural manor approach; no entry, audience, Elara availability, letter receipt, legal status, household commitment, or new payment assumed. Prior completed local predator case/burial and independent private compact preserved. No confirmed external correspondence received en route; no new Tamsin communication content asserted. Stop at familiar household approach, V next choice. All original Kestrel evidence/other custody and ongoing quest state unchanged.",
+  "pending_action": "D310~17:30 familiar Lady Elara Rethwyn rural manor approach, coach and four horses sound, no household entry/audience yet. V chooses approach/request contact, Elara availability not yet confirmed. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1, cloak+Luckstone attuned, dice delegated until stop. Fenar59/59 AC14 HD5/6 Rage3/4 inactive Shift2/3 inactive MP6/6 CLIMB40; Cirren51/51 AC18 HD4/6 L1slots4/4 L2slots3/3 L3slots3/3 CD2/2. Mara and four horses healthy. LongRest2/6, purse391gp9sp6cp ration12/feed16 (4 travel days), PixieDust1, peryton antlers pair/feathers bundle/2 taloned feet wrapped in coach. D310 daytime d10040 quiet; no D310 night. Existing signed private compact retained by Cirren, Kestrel proof V, Mara notes, Fenar reagents/instrument. No letter receipt, formal marriage, new mission or payment assumed. Caereth then Orsaven planned after Elara.",
+  "depends_on": [
+    "PLAY-REC-D308-CIRREN-PERYTON-EXAMINATION-SPECIMENS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "60a739958f0308539e703c5ecf2a35f0",
+        "rolls": [
+          {
+            "id": "D308.V.SecondWind",
+            "sides": 10,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D308-309.Fenar.HD1",
+            "sides": 12,
+            "faces": [
+              10
+            ]
+          },
+          {
+            "id": "D308-309.Cirren.HD1",
+            "sides": 8,
+            "faces": [
+              2
+            ]
+          },
+          {
+            "id": "D308-309.Cirren.HD2",
+            "sides": 8,
+            "faces": [
+              8
+            ]
+          },
+          {
+            "id": "D309.V.SecondWind",
+            "sides": 10,
+            "faces": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "2963202e7841e601275fc3ca81211cd9",
+        "rolls": [
+          {
+            "id": "D310.road.daytime_occurrence",
+            "sides": 100,
+            "faces": [
+              40
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D308-310-V-PARTY-QUIET-TRAVEL-RECOVERY-001",
+      "accepted": true,
+      "evidence": "D308 after battle no second occurrence; D309 mandatory quiet after two successive event days. Two actual wilderness overnight rests. V pre-rest Second Wind d10 1+3=4 then next evening 10+3=13 capped2; both refresh after completed rest. Fenar HD d12 10+2 capped11, HD6→5. Cirren HD d8 2+3 and8+3 capped total11, HD6→4. All HP full; no LR. Actual raw receipt 60a739958f0308539e703c5ecf2a35f0.",
+      "before": "D308~10:50 V42 Fenar48 Cirren40, HD7/6/6, rest0/6.",
+      "after": "D310 dawn V48 Fenar59 Cirren51 HD7/5/4, rest2/6, V SecondWind1/1, Fenar Rage3 Shift2, Cirren slots full.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D308-310-V-RETHWYN-MANOR-APPROACH-001",
+      "accepted": true,
+      "evidence": "Three days travel west following player Continue; D310 occurrence actual d10040 >15, no encounter. Food21→12, feed28→16, no purchase, purse unchanged, coach/horse healthy, specimens retained. Late afternoon D310 familiar Rethwyn manor approach; no entry/contact or reply yet.",
+      "before": "D308~10:50 Crownsunder road after specimen packing.",
+      "after": "D310~17:30 manor approach; V next action; no D310 night.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
