@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D326-BOATYARD-OCHRE-JELLY-ROUND1-001",
+  "base_commit": "d989216378646829327e1c771bc813aea24267d3",
+  "source_checkpoint": "D326-1335-ORSAVEN-BOATYARD-OCHRE-JELLY-KNOWLEDGE-REVEALED-001",
+  "destination_checkpoint": "D326-1336-BOATYARD-OCHRE-JELLY-R2-V-PENDING-001",
+  "source_evidence": "Actual player-directed combat actions and genuine visible RNG receipt batches preserved verbatim, no extra resource expenditures or unauthorized round. Source: pinned 2014 MM Ochre Jelly, rules-combat-recovery.md Soulknife/Archery, Vex 1MP and Sneak Attack, Cirren Toll the Dead DC16.  Player exact 'Fenar may be just Cirren and I will handel this one\\nAttack with Vex then Bonus attack. Cirren can just Toll the Dead' authorizes V's normal thrown Soulknife attack with Vex (1MP) and native BA thrown blade; Cirren independently accepts at-will Toll the Dead. Fenar willingly stays out with Mara and workers at safe quay. Initiative rolled no surprise V9+5=14, jelly15-2=13, Cirren6+2=8. V and Cirren on upper inspection threshold, no ally within5ft jelly/no initial advantage. R1 V spends1MP 7→6, main attack10+9=19 vsAC8 hits 6+4=10 psychic HP45→35, Vex grants advantage on next attack; BA attack9,1 keep9+9=18 hits 3+4=7 psychic plus eligible once-per-turn SA4+4=8 psychic, HP35→20. No slashing/lightning or Split. Jelly crawls10ft west toward attackers from center(35,15,0) to(25,15,0), still well beyond5ft reach, no Pseudopod attack, no other action/effect. Cirren casts Toll the Dead at wounded visible jelly within60ft, DC16 WIS save16-2=14 fails,2d12 faces8,6=14 necrotic HP20→6. No slots spent. End R1, start R2 V's turn, one living injured Large Ochre Jelly HP6/45 AC8 center(25,15,0), same 2014 stats, V/Cirren upper threshold(0,15,10), Fenar/Mara safely out at quay, no one took damage, no concentration/effects, reactions available, Vex benefit consumed and SA resets next turn. Chain still not repaired; no skiff release or new paymaster visit. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 attunement unchanged; Cirren51/51 AC19 slots4/3/3 CD2/2, Fenar59/59 AC16 full unchanged, all other resources/custody and commitments unchanged. D326~13:36. Await V action for R2, no automatic extra attack. Dice remain delegated.",
+  "pending_action": "D326~13:35 Orsaven boatyard, V/Mara/Cirren/Fenar at the upper inspection access of the dry service chamber, daughter and workers remain safely on quay. V expressly accepts helping free the skiff, not a commitment to attack or spend resources. Daughter leads party to blocked lower stair, provides available line/hook/replacement pin and explains chain/wheel/lifting eye; no fee or promised reward. Fixed one Large Ochre Jelly, original 2014 MM p243, exact source 5etools-mirror-3/5etools-src blob ea2a16def25116746411fa1de80c346444228759, monster name Ochre Jelly source MM; AC8 HP45/45 speed10 climb10 STR+2 DEX-2 CON+2 INT-4 WIS-2 CHA-5, blindsight60, passive8, acid resistance, lightning/slashing immunity, blinded/charmed/deafened/exhaustion/frightened/prone immunity, Amorphous through1inch gap, Spider Climb, Pseudopod +4 reach5,2d6+2 bludgeoning+1d6 acid, reaction Split when Medium+ takes lightning/slashing and HP>=10 into2 smaller jellies each floor(original HP/2). No pre-roll or additional creature. Newly fixed practical geometry consistent with existing prep: rectangular dry chamber 40ft long by30ft wide; quay stair/closed barred lower entrance at west end x0, chain/pin at (15,15,0), jelly at (35,15,0) 20ft east of pin, occupies10ft footprint, high inspection shelf/wheel at (5,15,10), lifting eye above pin, greasy ledge toward chain; daylight exit east into skiff pen, fitted solid sump hatch in floor near east wall. Party at upper inspection threshold (0,15,10), V/Cirren/Fenar/Mara not yet descended, no initiative or surprise, jelly visible through open inspection aperture feeding near gnawed bait pail, not yet moving toward party; actual attack/approach triggers initiative before resolution, no assumption height is safe or creature blind to party. Lower stair barred against workers; solid containment hatch can be closed if jelly actually lured into sump; no guaranteed outcome until chosen action. Correct leverage and coordinated line work can seat pin from above without check if safe; solo pressured greasy ledge DC12 Acrobatics, failure slip to lower grating near ooze. Existing skiff help independent of previously obtained Quenwood guarantee and paymaster lead, no money or extra commission. Party unchanged V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 shield/boots; Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia, claws/fangs+9/1d6+6 base or+8 raging, mechanical greataxe unaffected. Mara and animals healthy; purse2049gp8sp6cp rations21/feed28 LR0/6, no resource use. Other active commitments/custody as preceding checkpoint unchanged. Dice delegated. At V's question 'This thing looks strange, do any of us know anything about this creature?' Cirren makes Nature check (+4 from proficient Nature INT+1 PB3; Fenar meaningfully assists with proficient Nature and observable movement). Genuine advantage faces5,19 keep19 +4 =23, exceeds predeclared DC10,14,18. Cirren recognizes Ochre Jelly and explains predatory acidic contact, slow crawling/climbing including ceilings, slashing/lightning do not harm it and can cause division, acid resistance, senses prey without eyes within about60ft, squeezing through inch-wide gaps, recommends blunt/piercing/psychic or other nonimmune damage, remaining at distance. Fenar understands warning to avoid slashing rend/claws; no attack, spell, change in position, additional movement or initiative. All party members present hear explanation. No limited feature spent or additional enemy. Current approach and resources unchanged.  Player exact 'Fenar may be just Cirren and I will handel this one\\nAttack with Vex then Bonus attack. Cirren can just Toll the Dead' authorizes V's normal thrown Soulknife attack with Vex (1MP) and native BA thrown blade; Cirren independently accepts at-will Toll the Dead. Fenar willingly stays out with Mara and workers at safe quay. Initiative rolled no surprise V9+5=14, jelly15-2=13, Cirren6+2=8. V and Cirren on upper inspection threshold, no ally within5ft jelly/no initial advantage. R1 V spends1MP 7→6, main attack10+9=19 vsAC8 hits 6+4=10 psychic HP45→35, Vex grants advantage on next attack; BA attack9,1 keep9+9=18 hits 3+4=7 psychic plus eligible once-per-turn SA4+4=8 psychic, HP35→20. No slashing/lightning or Split. Jelly crawls10ft west toward attackers from center(35,15,0) to(25,15,0), still well beyond5ft reach, no Pseudopod attack, no other action/effect. Cirren casts Toll the Dead at wounded visible jelly within60ft, DC16 WIS save16-2=14 fails,2d12 faces8,6=14 necrotic HP20→6. No slots spent. End R1, start R2 V's turn, one living injured Large Ochre Jelly HP6/45 AC8 center(25,15,0), same 2014 stats, V/Cirren upper threshold(0,15,10), Fenar/Mara safely out at quay, no one took damage, no concentration/effects, reactions available, Vex benefit consumed and SA resets next turn. Chain still not repaired; no skiff release or new paymaster visit. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 attunement unchanged; Cirren51/51 AC19 slots4/3/3 CD2/2, Fenar59/59 AC16 full unchanged, all other resources/custody and commitments unchanged. D326~13:36. Await V action for R2, no automatic extra attack. Dice remain delegated.",
+  "depends_on": [
+    "PLAY-REC-D326-CIRREN-OCHRE-JELLY-NATURE-IDENTIFICATION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "06239752b148d0aa123026b6a7220649",
+        "rolls": [
+          {
+            "id": "D326.ochre_jelly.initiative.V",
+            "sides": 20,
+            "faces": [
+              9
+            ]
+          },
+          {
+            "id": "D326.ochre_jelly.initiative.Cirren",
+            "sides": 20,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D326.ochre_jelly.initiative.jelly",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "5461851b46e2a3f318c55b0c4854702b",
+        "rolls": [
+          {
+            "id": "D326.ochre_jelly.R1.V.main_attack",
+            "sides": 20,
+            "faces": [
+              10
+            ]
+          },
+          {
+            "id": "D326.ochre_jelly.R1.V.main_damage",
+            "sides": 6,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D326.ochre_jelly.R1.V.bonus_attack",
+            "sides": 20,
+            "faces": [
+              9,
+              1
+            ]
+          },
+          {
+            "id": "D326.ochre_jelly.R1.V.bonus_damage",
+            "sides": 4,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D326.ochre_jelly.R1.V.sneak_attack",
+            "sides": 6,
+            "faces": [
+              4,
+              4
+            ]
+          },
+          {
+            "id": "D326.ochre_jelly.R1.jelly.wisdom_save",
+            "sides": 20,
+            "faces": [
+              16
+            ]
+          },
+          {
+            "id": "D326.ochre_jelly.R1.Cirren.toll_damage",
+            "sides": 12,
+            "faces": [
+              8,
+              6
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D326-BOATYARD-OCHRE-JELLY-ROUND1-RESOLVED-001",
+      "accepted": true,
+      "evidence": "Actual player-directed combat actions and genuine visible RNG receipt batches preserved verbatim, no extra resource expenditures or unauthorized round. Source: pinned 2014 MM Ochre Jelly, rules-combat-recovery.md Soulknife/Archery, Vex 1MP and Sneak Attack, Cirren Toll the Dead DC16.  Player exact 'Fenar may be just Cirren and I will handel this one\\nAttack with Vex then Bonus attack. Cirren can just Toll the Dead' authorizes V's normal thrown Soulknife attack with Vex (1MP) and native BA thrown blade; Cirren independently accepts at-will Toll the Dead. Fenar willingly stays out with Mara and workers at safe quay. Initiative rolled no surprise V9+5=14, jelly15-2=13, Cirren6+2=8. V and Cirren on upper inspection threshold, no ally within5ft jelly/no initial advantage. R1 V spends1MP 7→6, main attack10+9=19 vsAC8 hits 6+4=10 psychic HP45→35, Vex grants advantage on next attack; BA attack9,1 keep9+9=18 hits 3+4=7 psychic plus eligible once-per-turn SA4+4=8 psychic, HP35→20. No slashing/lightning or Split. Jelly crawls10ft west toward attackers from center(35,15,0) to(25,15,0), still well beyond5ft reach, no Pseudopod attack, no other action/effect. Cirren casts Toll the Dead at wounded visible jelly within60ft, DC16 WIS save16-2=14 fails,2d12 faces8,6=14 necrotic HP20→6. No slots spent. End R1, start R2 V's turn, one living injured Large Ochre Jelly HP6/45 AC8 center(25,15,0), same 2014 stats, V/Cirren upper threshold(0,15,10), Fenar/Mara safely out at quay, no one took damage, no concentration/effects, reactions available, Vex benefit consumed and SA resets next turn. Chain still not repaired; no skiff release or new paymaster visit. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 attunement unchanged; Cirren51/51 AC19 slots4/3/3 CD2/2, Fenar59/59 AC16 full unchanged, all other resources/custody and commitments unchanged. D326~13:36. Await V action for R2, no automatic extra attack. Dice remain delegated.",
+      "before": "Party observes identified jelly HP45, V MP7/7, initiative not rolled.",
+      "after": "D326~13:35 Orsaven boatyard, V/Mara/Cirren/Fenar at the upper inspection access of the dry service chamber, daughter and workers remain safely on quay. V expressly accepts helping free the skiff, not a commitment to attack or spend resources. Daughter leads party to blocked lower stair, provides available line/hook/replacement pin and explains chain/wheel/lifting eye; no fee or promised reward. Fixed one Large Ochre Jelly, original 2014 MM p243, exact source 5etools-mirror-3/5etools-src blob ea2a16def25116746411fa1de80c346444228759, monster name Ochre Jelly source MM; AC8 HP45/45 speed10 climb10 STR+2 DEX-2 CON+2 INT-4 WIS-2 CHA-5, blindsight60, passive8, acid resistance, lightning/slashing immunity, blinded/charmed/deafened/exhaustion/frightened/prone immunity, Amorphous through1inch gap, Spider Climb, Pseudopod +4 reach5,2d6+2 bludgeoning+1d6 acid, reaction Split when Medium+ takes lightning/slashing and HP>=10 into2 smaller jellies each floor(original HP/2). No pre-roll or additional creature. Newly fixed practical geometry consistent with existing prep: rectangular dry chamber 40ft long by30ft wide; quay stair/closed barred lower entrance at west end x0, chain/pin at (15,15,0), jelly at (35,15,0) 20ft east of pin, occupies10ft footprint, high inspection shelf/wheel at (5,15,10), lifting eye above pin, greasy ledge toward chain; daylight exit east into skiff pen, fitted solid sump hatch in floor near east wall. Party at upper inspection threshold (0,15,10), V/Cirren/Fenar/Mara not yet descended, no initiative or surprise, jelly visible through open inspection aperture feeding near gnawed bait pail, not yet moving toward party; actual attack/approach triggers initiative before resolution, no assumption height is safe or creature blind to party. Lower stair barred against workers; solid containment hatch can be closed if jelly actually lured into sump; no guaranteed outcome until chosen action. Correct leverage and coordinated line work can seat pin from above without check if safe; solo pressured greasy ledge DC12 Acrobatics, failure slip to lower grating near ooze. Existing skiff help independent of previously obtained Quenwood guarantee and paymaster lead, no money or extra commission. Party unchanged V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 shield/boots; Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia, claws/fangs+9/1d6+6 base or+8 raging, mechanical greataxe unaffected. Mara and animals healthy; purse2049gp8sp6cp rations21/feed28 LR0/6, no resource use. Other active commitments/custody as preceding checkpoint unchanged. Dice delegated. At V's question 'This thing looks strange, do any of us know anything about this creature?' Cirren makes Nature check (+4 from proficient Nature INT+1 PB3; Fenar meaningfully assists with proficient Nature and observable movement). Genuine advantage faces5,19 keep19 +4 =23, exceeds predeclared DC10,14,18. Cirren recognizes Ochre Jelly and explains predatory acidic contact, slow crawling/climbing including ceilings, slashing/lightning do not harm it and can cause division, acid resistance, senses prey without eyes within about60ft, squeezing through inch-wide gaps, recommends blunt/piercing/psychic or other nonimmune damage, remaining at distance. Fenar understands warning to avoid slashing rend/claws; no attack, spell, change in position, additional movement or initiative. All party members present hear explanation. No limited feature spent or additional enemy. Current approach and resources unchanged.  Player exact 'Fenar may be just Cirren and I will handel this one\\nAttack with Vex then Bonus attack. Cirren can just Toll the Dead' authorizes V's normal thrown Soulknife attack with Vex (1MP) and native BA thrown blade; Cirren independently accepts at-will Toll the Dead. Fenar willingly stays out with Mara and workers at safe quay. Initiative rolled no surprise V9+5=14, jelly15-2=13, Cirren6+2=8. V and Cirren on upper inspection threshold, no ally within5ft jelly/no initial advantage. R1 V spends1MP 7→6, main attack10+9=19 vsAC8 hits 6+4=10 psychic HP45→35, Vex grants advantage on next attack; BA attack9,1 keep9+9=18 hits 3+4=7 psychic plus eligible once-per-turn SA4+4=8 psychic, HP35→20. No slashing/lightning or Split. Jelly crawls10ft west toward attackers from center(35,15,0) to(25,15,0), still well beyond5ft reach, no Pseudopod attack, no other action/effect. Cirren casts Toll the Dead at wounded visible jelly within60ft, DC16 WIS save16-2=14 fails,2d12 faces8,6=14 necrotic HP20→6. No slots spent. End R1, start R2 V's turn, one living injured Large Ochre Jelly HP6/45 AC8 center(25,15,0), same 2014 stats, V/Cirren upper threshold(0,15,10), Fenar/Mara safely out at quay, no one took damage, no concentration/effects, reactions available, Vex benefit consumed and SA resets next turn. Chain still not repaired; no skiff release or new paymaster visit. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 attunement unchanged; Cirren51/51 AC19 slots4/3/3 CD2/2, Fenar59/59 AC16 full unchanged, all other resources/custody and commitments unchanged. D326~13:36. Await V action for R2, no automatic extra attack. Dice remain delegated.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
