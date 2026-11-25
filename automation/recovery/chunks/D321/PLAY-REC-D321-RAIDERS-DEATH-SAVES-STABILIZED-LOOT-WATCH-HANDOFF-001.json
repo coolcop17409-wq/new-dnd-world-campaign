@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D321-RAIDERS-DEATH-SAVES-STABILIZED-LOOT-WATCH-HANDOFF-001",
+  "base_commit": "8dcf0fc0e5e9b45e02a4b0a54123ef71f88ca05b",
+  "source_checkpoint": "D321-1031-OSSENT-ROAD-GANG-COMBAT-END-AFTERMATH-PENDING-001",
+  "destination_checkpoint": "D321-1125-OSSENT-WATCH-RAIDERS-ALIVE-HANDOFF-001",
+  "source_evidence": "Player exact 'They would have been making death saves... Also see what they took so far and loot them', following exact 'nah lets stabalize them and take them to a guard.' Explicit correction supersedes automatic death narration for captain and veteran in accepted R1/R2 outcomes; preserve all actual damage and unchanged combat actions. 2014 DM discretion adopted for these two significant named-by-role opponents: excess damage C6<max65, veteran13<max58, neither massive-damage death. C reached0 after own R1 turn; restore omitted R2 death save genuinely d20=12 success. Veteran reached0 after own R2 turn, no prior death save. R3 V moves adjacent C, Medicine d20 5+Wis1+Luckstone1=7 vs10 fails; Cirren moves adjacent veteran, Medicine d20 11+8=19/DC10 stabilizes. C R3 death save3 fails, tally1 success1 failure; Fenar moves adjacent and Medicine11+Wis2=13/DC10 stabilizes C before any additional death saves. No free simultaneous Help during initiative (actions/positions committed), no kits/slots/features used. Both stable0, all saves reset. Actual 1d4 natural stable recovery timers C1h from~10:31:18 (earliest~11:31:18), veteran4h from~10:31:15 (earliest~14:31:15), absent new healing/damage. Fenar voluntarily ends Rage after immediate danger, no extra recovery; Spiritual Weapon expires naturally by~10:32. Fleeing five unpursued, no invented capture or death. User authorizes looting and disarming: actual visible coin RNG captain3d6 gp(6,4,1)=11gp and2d6 sp(6,2)=8sp; veteran2d6 gp(1,5)=6gp and3d6 sp(5,2,5)=12sp. Total17gp20sp=19gp, actual V takes once, purse317846cp→319746cp. Recover existing C scimitar,2 daggers previously thrown, studded leather; veteran longsword, shortsword, heavy crossbow, splint; no extra ammo count, gems, magic or invented hoard; physical gear stowed own coach, no appraisal/sale. Brief inspection immediate roadside finds no identifiable stolen cargo or cache; no proof of historical ownership, no claim either man already robbed particular travelers. No stolen property assigned from DM secrets. Fenar's known own50ft hemp rope used to bind both safely for transport; no new rope charge, no injury. Merchant independently knows nearest ordinary Ossent watch station along this same westbound route, about2 road miles ahead, from his frequent passage; willingly provides firsthand account of today's extortion and no wool surrendered. Party conveys both stable captives safely in coach, no extra food/feed charge or added day, arrival~11:25 before C's natural wake; ordinary watch receives both living captives and eyewitness report, replaces Fenar rope with guard restraints; Fenar recovers same rope, no charge. Watch notes recovered weapons' descriptions, no actual evidence identifying owner of ordinary loot, no seizure or award; party retains loot. No automatic conviction, reward, additional intelligence, pursuit or linked quest. Handoff accepted under earlier explicit direction to take them to guard; no invented V exact testimony or extra signature. G1 independent road gang, legitimate local patrol jurisdiction; G2 voluntary stabilization/search/handoff; G3 2014 death save/Medicine and recovery timers applied with actual rolls, no combat retuning or guaranteed loot hoard.",
+  "pending_action": "D321~11:25 Ossent westbound road, at ordinary staffed watch station approximately2 road miles west of encounter. Both vehicles, party and merchant healthy. Captain and Veteran ALIVE at0 HP stable unconscious in actual watch custody, not dead; C natural1HP recovery due~11:31:18 and veteran~14:31:15 if no other care/damage. Watch has merchant eyewitness account of attempted highway extortion, no guaranteed verdict or bounty. Five remaining raiders fled west, no pursuit, no known cache/other stolen goods. V physically holds19gp newly looted and ordinary seized gear:1 scimitar,2 daggers,1 longsword,1 shortsword,1 heavy crossbow,1 studded leather,1 splint; not appraised/sold; no identifiable stolen cargo found, no invented claimant disclosure. Purse3197gp4sp6cp. Fenar rope recovered intact. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Cirren51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots, Spiritual Weapon naturally expired, no concentration; Fenar59/59 AC14 HD6/6 Rage3/4 inactive, Shift3/3 inactive, MP6/6 CLIMB40, Reckless expired, no temporary HP. Rations9/feed12 before D321 full-day debit, LR0/6, encounter days2/5 consecutive2, D321 night skipped, D322 mandatory quiet. Sealed diplomatic letter/limited messenger credentials and Kestrel evidence unchanged, Crown intel remaining300+1300, Coris remaining300/800; no new fee/XP/reward, no rest. Elara remains Caereth, Severin assent pending. V dice delegated. Await next action, ordinary westbound journey available.",
+  "depends_on": [
+    "PLAY-REC-D321-ROAD-GANG-R2-VETERAN-DEFEATED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "c3f697756547945968d45100aa2f5c32",
+        "rolls": [
+          {
+            "id": "D321.aftercare.Captain.R2.death_save",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D321.aftercare.V.R3.medicine.Captain",
+            "sides": 20,
+            "faces": [
+              5
+            ]
+          },
+          {
+            "id": "D321.aftercare.Cirren.R3.medicine.Veteran",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D321.aftercare.loot.Captain.gp",
+            "sides": 6,
+            "faces": [
+              6,
+              4,
+              1
+            ]
+          },
+          {
+            "id": "D321.aftercare.loot.Captain.sp",
+            "sides": 6,
+            "faces": [
+              6,
+              2
+            ]
+          },
+          {
+            "id": "D321.aftercare.loot.Veteran.gp",
+            "sides": 6,
+            "faces": [
+              1,
+              5
+            ]
+          },
+          {
+            "id": "D321.aftercare.loot.Veteran.sp",
+            "sides": 6,
+            "faces": [
+              5,
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "d85638ac6b826399e85327974a34f143",
+        "rolls": [
+          {
+            "id": "D321.aftercare.Captain.R3.death_save",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D321.aftercare.Fenar.R3.medicine.Captain",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "d947808dc56f9cf74621092ac2cdf464",
+        "rolls": [
+          {
+            "id": "D321.aftercare.Captain.stable_recovery_hours",
+            "sides": 4,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D321.aftercare.Veteran.stable_recovery_hours",
+            "sides": 4,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D321-CAPTAIN-VETERAN-DEATH-SAVE-CORRECTION-STABILIZED-001",
+      "accepted": true,
+      "evidence": "Player exact 'They would have been making death saves... Also see what they took so far and loot them', following exact 'nah lets stabalize them and take them to a guard.' Explicit correction supersedes automatic death narration for captain and veteran in accepted R1/R2 outcomes; preserve all actual damage and unchanged combat actions. 2014 DM discretion adopted for these two significant named-by-role opponents: excess damage C6<max65, veteran13<max58, neither massive-damage death. C reached0 after own R1 turn; restore omitted R2 death save genuinely d20=12 success. Veteran reached0 after own R2 turn, no prior death save. R3 V moves adjacent C, Medicine d20 5+Wis1+Luckstone1=7 vs10 fails; Cirren moves adjacent veteran, Medicine d20 11+8=19/DC10 stabilizes. C R3 death save3 fails, tally1 success1 failure; Fenar moves adjacent and Medicine11+Wis2=13/DC10 stabilizes C before any additional death saves. No free simultaneous Help during initiative (actions/positions committed), no kits/slots/features used. Both stable0, all saves reset. Actual 1d4 natural stable recovery timers C1h from~10:31:18 (earliest~11:31:18), veteran4h from~10:31:15 (earliest~14:31:15), absent new healing/damage. Fenar voluntarily ends Rage after immediate danger, no extra recovery; Spiritual Weapon expires naturally by~10:32. Fleeing five unpursued, no invented capture or death. User authorizes looting and disarming: actual visible coin RNG captain3d6 gp(6,4,1)=11gp and2d6 sp(6,2)=8sp; veteran2d6 gp(1,5)=6gp and3d6 sp(5,2,5)=12sp. Total17gp20sp=19gp, actual V takes once, purse317846cp→319746cp. Recover existing C scimitar,2 daggers previously thrown, studded leather; veteran longsword, shortsword, heavy crossbow, splint; no extra ammo count, gems, magic or invented hoard; physical gear stowed own coach, no appraisal/sale. Brief inspection immediate roadside finds no identifiable stolen cargo or cache; no proof of historical ownership, no claim either man already robbed particular travelers. No stolen property assigned from DM secrets. Fenar's known own50ft hemp rope used to bind both safely for transport; no new rope charge, no injury. Merchant independently knows nearest ordinary Ossent watch station along this same westbound route, about2 road miles ahead, from his frequent passage; willingly provides firsthand account of today's extortion and no wool surrendered. Party conveys both stable captives safely in coach, no extra food/feed charge or added day, arrival~11:25 before C's natural wake; ordinary watch receives both living captives and eyewitness report, replaces Fenar rope with guard restraints; Fenar recovers same rope, no charge. Watch notes recovered weapons' descriptions, no actual evidence identifying owner of ordinary loot, no seizure or award; party retains loot. No automatic conviction, reward, additional intelligence, pursuit or linked quest. Handoff accepted under earlier explicit direction to take them to guard; no invented V exact testimony or extra signature. G1 independent road gang, legitimate local patrol jurisdiction; G2 voluntary stabilization/search/handoff; G3 2014 death save/Medicine and recovery timers applied with actual rolls, no combat retuning or guaranteed loot hoard.",
+      "before": "Prior two enemies incorrectly labeled dead at0HP, player directs correction and stabilization.",
+      "after": "Both stable0 alive; death saves reset, C recovery timer1h, veteran4h. No change to damage or other prior combat actions.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/npcs.md"
+      ]
+    },
+    {
+      "event_id": "D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001",
+      "accepted": true,
+      "evidence": "Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.",
+      "before": "Purse3178gp4sp6cp, no loot.",
+      "after": "Purse3197gp4sp6cp, listed items retained.",
+      "owner_paths": [
+        "data/characters/events.csv",
+        "trackers/csv/v/v-inventory.csv",
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D321-OSSENT-WATCH-CAPTIVES-HANDOFF-001",
+      "accepted": true,
+      "evidence": "Existing user order to take both to guard carried out, routine watch station known by merchant on same route; both stable alive, rope returned, witness report. No bounty or verdict.",
+      "before": "Both stabilized and bound, roadside.",
+      "after": "D321~11:25 Ossent westbound road, at ordinary staffed watch station approximately2 road miles west of encounter. Both vehicles, party and merchant healthy. Captain and Veteran ALIVE at0 HP stable unconscious in actual watch custody, not dead; C natural1HP recovery due~11:31:18 and veteran~14:31:15 if no other care/damage. Watch has merchant eyewitness account of attempted highway extortion, no guaranteed verdict or bounty. Five remaining raiders fled west, no pursuit, no known cache/other stolen goods. V physically holds19gp newly looted and ordinary seized gear:1 scimitar,2 daggers,1 longsword,1 shortsword,1 heavy crossbow,1 studded leather,1 splint; not appraised/sold; no identifiable stolen cargo found, no invented claimant disclosure. Purse3197gp4sp6cp. Fenar rope recovered intact. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Cirren51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots, Spiritual Weapon naturally expired, no concentration; Fenar59/59 AC14 HD6/6 Rage3/4 inactive, Shift3/3 inactive, MP6/6 CLIMB40, Reckless expired, no temporary HP. Rations9/feed12 before D321 full-day debit, LR0/6, encounter days2/5 consecutive2, D321 night skipped, D322 mandatory quiet. Sealed diplomatic letter/limited messenger credentials and Kestrel evidence unchanged, Crown intel remaining300+1300, Coris remaining300/800; no new fee/XP/reward, no rest. Elara remains Caereth, Severin assent pending. V dice delegated. Await next action, ordinary westbound journey available.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
