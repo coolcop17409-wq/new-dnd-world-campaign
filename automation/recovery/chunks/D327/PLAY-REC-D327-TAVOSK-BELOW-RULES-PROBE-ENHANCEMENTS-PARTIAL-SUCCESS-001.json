@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-TAVOSK-BELOW-RULES-PROBE-ENHANCEMENTS-PARTIAL-SUCCESS-001",
+  "base_commit": "42d0df8bff8735d8a5740b01f6f7129da6811ed4",
+  "source_checkpoint": "D327-1536-ORSAVEN-TAVOSK-BELOW-RULES-PROBE-KNACK-PENDING-001",
+  "destination_checkpoint": "D327-1536-ORSAVEN-TAVOSK-PRIVATE-SERVICE-ADMISSION-CARGO-QUESTION-PENDING-001",
+  "source_evidence": "D327~15:36 exact player 'Knack first, past if necessary' authorizes ordered conditional feature use on same pending Deception16 (advantage6/3+10), DC18 acknowledgment of private services and DC23 concrete offer. Before rolling DM explicitly set stronger concrete offer as desired threshold for Past Life conditional use; Knack cannot alone reach23. Actual user-visible Python secrets receipt 76802df5e54a5566072503ef9d1e37c5: Knack d6 face3 raises16→19, turns failed proficient check into success at DC18, spend Psi die4/6→3/6. Past Life d6 face2 raises19→21, below DC23, consume PastLife2/3→1/3. No new d20, no additional features. Final21 meets DC18 but not DC23. Tavosk elects to acknowledge his own paid private inspection-information service in general terms: 'There are people who pay me privately for information before the berth inspections are announced. Knowing what is coming gives a carrier time to make his own arrangements.' He distinguishes this from changing the law, then declines to offer specific fees or terms until he understands V's actual cargo and commercial needs: 'But before I discuss terms with you, I would need to know what sort of business you intend to bring me.' This is a voluntary firsthand admission consistent with fixed delegate role; no specific named payer or payment amount, confirmed future inspection, illegal agreement, document, guarantee of immunity, or new appointment disclosed. V, Mara, Cirren and Fenar hear it firsthand; Desen not yet informed of afternoon statements. V has made no actual commercial commitment or revealed Watch evidence. Await V response in same office. No other resource, clock or custody changes.",
+  "pending_action": "Day327~15:36 Noldren Tavosk's petition office, Exchange district, Orsaven. V/Mara/Cirren/Fenar present. Same commercial probe resolved advantage6/3+10+Knack3+PastLife2=21, DC18 met/DC23 not met. Tavosk personally acknowledges private payment for advance inspection information but withholds concrete offer, asks what kind of business/cargo V intends to bring. V reply pending. No commitment, fee, actual shipment, specific payer named, evidence revelation, or new document. V48/48 AC19 HD7/7 Sup4/4 Psi3/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes and Sallow signed referral; Cirren signed receipt. Halvessa admission reported; afternoon Sallow/Harthvale/Tavosk developments not yet reported. Harthvale reply destination Copper Hart; dispatch/receipt/meeting pending. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-TAVOSK-BELOW-RULES-PROBE-KNACK-PENDING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "76802df5e54a5566072503ef9d1e37c5",
+        "rolls": [
+          {
+            "id": "D327.V.Tavosk.below_rules_commercial_probe.knack",
+            "sides": 6,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D327.V.Tavosk.below_rules_commercial_probe.past_life",
+            "sides": 6,
+            "faces": [
+              2
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D327-V-TAVOSK-BELOW-RULES-PROBE-ENHANCEMENTS-PARTIAL-SUCCESS-001",
+      "accepted": true,
+      "evidence": "D327~15:36 exact player 'Knack first, past if necessary' authorizes ordered conditional feature use on same pending Deception16 (advantage6/3+10), DC18 acknowledgment of private services and DC23 concrete offer. Before rolling DM explicitly set stronger concrete offer as desired threshold for Past Life conditional use; Knack cannot alone reach23. Actual user-visible Python secrets receipt 76802df5e54a5566072503ef9d1e37c5: Knack d6 face3 raises16→19, turns failed proficient check into success at DC18, spend Psi die4/6→3/6. Past Life d6 face2 raises19→21, below DC23, consume PastLife2/3→1/3. No new d20, no additional features. Final21 meets DC18 but not DC23. Tavosk elects to acknowledge his own paid private inspection-information service in general terms: 'There are people who pay me privately for information before the berth inspections are announced. Knowing what is coming gives a carrier time to make his own arrangements.' He distinguishes this from changing the law, then declines to offer specific fees or terms until he understands V's actual cargo and commercial needs: 'But before I discuss terms with you, I would need to know what sort of business you intend to bring me.' This is a voluntary firsthand admission consistent with fixed delegate role; no specific named payer or payment amount, confirmed future inspection, illegal agreement, document, guarantee of immunity, or new appointment disclosed. V, Mara, Cirren and Fenar hear it firsthand; Desen not yet informed of afternoon statements. V has made no actual commercial commitment or revealed Watch evidence. Await V response in same office. No other resource, clock or custody changes.",
+      "before": "Pending Deception16/DC18,23; Psi4/6 PastLife2/3.",
+      "after": "Final21 meets18 not23; Psi3/6 PastLife1/3. Tavosk admits paid advance information in general terms and asks intended business before offering terms.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-character.csv"
+      ]
+    }
+  ]
+}
