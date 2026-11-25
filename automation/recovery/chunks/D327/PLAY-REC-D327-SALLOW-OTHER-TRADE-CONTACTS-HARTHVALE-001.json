@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-SALLOW-OTHER-TRADE-CONTACTS-HARTHVALE-001",
+  "base_commit": "f8d7a633da53370a31fd9ebafcaeea4da0519619",
+  "source_checkpoint": "D327-1506-ORSAVEN-SALLOW-ADMISSION-REFERRAL-RECEIVED-PENDING-001",
+  "destination_checkpoint": "D327-1509-ORSAVEN-SALLOW-HARTHVALE-CONTACT-OFFER-PENDING-001",
+  "source_evidence": "D327~15:09 exact player 'Who else does this? I am sure there are even more opportunies available that I didnt think of before, now that is has opened my eyes' continues commercial pretext and asks a distinct sensitive question about other participants and business scope, not a pledge, payment or actual illegal transaction. Mara willingly Helps by saying 'We have more than one kind of cargo to consider. It would be useful to know who is worth speaking to.' Predeclared Deception+10 with advantage, DC18 candid information about other arrangements, DC23 concrete additional contact Sallow actually knows. Actual visible Python receipt 3ad6f2ef774d7102534de13e7f2ca86e, faces2,19; 19+10=29 meets both. No limited features or other dice. Sallow voluntarily identifies existing syndicate chair role, not new leader/faction: Demeric Harthvale, former freight factor and head of the three trading households sharing the joint freight account, whom Sallow knows in his own purchasing capacity. Name newly assigned in play after exact and component repository code searches Demeric Harthvale/Harthvale/Demeric each returned no matches. Fixed source prep/dm-only/dm-ferry-setup.md @72d5bde0ab9d84d89fdc63f20cf9c7bfb63b1516; three-household association, chair, broker, limited independent clients and legitimate trade unchanged. Sallow distinguishes commercial coordination from knowledge of each customer's unlawful conduct. He says 'There are three trading households that operate together under a joint freight account. Demeric Harthvale is the man who heads their association. The broker works on their behalf. They can offer much more than inspection notices: reliable space on cargo boats, preferred access to imported goods, and arrangements for regular customers. I deal with them for my lady's purchases. I can't tell you what every other customer knows, and I don't make a habit of discussing their accounts.' He offers a concrete next route: 'If you are interested in the supply side as well as Tavosk's services, I can ask the broker to introduce you to Harthvale. He's the man I would speak with about a larger arrangement.' No actual message, appointment, proposal, deal, second note, payment, guaranteed availability, new participant or unrelated criminal conspiracy. No named unrelated customer established as criminal. No claim of any other specific offense, murder connection or wider network beyond actual disclosure. V/Mara/Cirren/Fenar hear this; Watch not yet informed. V retains earlier Sallow signed referral to Tavosk and handwritten notes. V next choice pending in Sallow office; no resource/custody change.",
+  "pending_action": "Day327~15:09 House Veldrake private business room, Old Crown Ward, Orsaven. V/Mara/Cirren/Fenar with Sallow. Deception advantage2/19+10=29/DC18&23. Sallow reveals joint freight association of three trading households headed by former freight factor Demeric Harthvale and broker's role; describes scope of freight/supply arrangements and offers to ask broker for introduction to Harthvale. No proof of each household/customer's knowledge; no other customer specifically named, message/meeting/transaction unconfirmed. V chooses response or next action; no new spending, departure or Watch report. Prior Sallow admission and original signed nonbinding Tavosk referral remain, V holds letter and notes; Desen unaware of afternoon findings. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife2/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and 14gp Tavosk acknowledgement) and copy of notes; Cirren signed receipt. Halvessa firsthand admission previously reported to Desen; Sallow statements, Harthvale identification and referral not yet reported. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-SALLOW-COMMERCIAL-PROBE-REFERRAL-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "3ad6f2ef774d7102534de13e7f2ca86e",
+        "rolls": [
+          {
+            "id": "D327.V.Sallow.other_clients_and_opportunities.advantage",
+            "sides": 20,
+            "faces": [
+              2,
+              19
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D327-SALLOW-OTHER-TRADE-CONTACTS-HARTHVALE-001",
+      "accepted": true,
+      "evidence": "D327~15:09 exact player 'Who else does this? I am sure there are even more opportunies available that I didnt think of before, now that is has opened my eyes' continues commercial pretext and asks a distinct sensitive question about other participants and business scope, not a pledge, payment or actual illegal transaction. Mara willingly Helps by saying 'We have more than one kind of cargo to consider. It would be useful to know who is worth speaking to.' Predeclared Deception+10 with advantage, DC18 candid information about other arrangements, DC23 concrete additional contact Sallow actually knows. Actual visible Python receipt 3ad6f2ef774d7102534de13e7f2ca86e, faces2,19; 19+10=29 meets both. No limited features or other dice. Sallow voluntarily identifies existing syndicate chair role, not new leader/faction: Demeric Harthvale, former freight factor and head of the three trading households sharing the joint freight account, whom Sallow knows in his own purchasing capacity. Name newly assigned in play after exact and component repository code searches Demeric Harthvale/Harthvale/Demeric each returned no matches. Fixed source prep/dm-only/dm-ferry-setup.md @72d5bde0ab9d84d89fdc63f20cf9c7bfb63b1516; three-household association, chair, broker, limited independent clients and legitimate trade unchanged. Sallow distinguishes commercial coordination from knowledge of each customer's unlawful conduct. He says 'There are three trading households that operate together under a joint freight account. Demeric Harthvale is the man who heads their association. The broker works on their behalf. They can offer much more than inspection notices: reliable space on cargo boats, preferred access to imported goods, and arrangements for regular customers. I deal with them for my lady's purchases. I can't tell you what every other customer knows, and I don't make a habit of discussing their accounts.' He offers a concrete next route: 'If you are interested in the supply side as well as Tavosk's services, I can ask the broker to introduce you to Harthvale. He's the man I would speak with about a larger arrangement.' No actual message, appointment, proposal, deal, second note, payment, guaranteed availability, new participant or unrelated criminal conspiracy. No named unrelated customer established as criminal. No claim of any other specific offense, murder connection or wider network beyond actual disclosure. V/Mara/Cirren/Fenar hear this; Watch not yet informed. V retains earlier Sallow signed referral to Tavosk and handwritten notes. V next choice pending in Sallow office; no resource/custody change.",
+      "before": "Sallow gave Tavosk referral; V asks who else participates and about further opportunities.",
+      "after": "Successful Deception29, Sallow identifies association head Harthvale, describes trade scope and offers mediated introduction; V decision pending, no additional resources spent.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "prep/dm-only/dm-ferry-setup.md"
+      ]
+    }
+  ]
+}
