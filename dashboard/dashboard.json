@@ -1747,9 +1747,9 @@
       "dealer": "The Bent Sounding Line",
       "lot": "Rope Caster",
       "qty": "1",
-      "price_gp": "",
+      "price_gp": "48",
       "status": "Working tool",
-      "terms": "Conditional sale. The chandler would take 50 gp if V also supplies a serviceable line launcher the crew can test at the pier. A better replacement is leverage on the cash portion."
+      "terms": "D293-ORSAVEN-THE-BENT-SOUNDING-LINE-REVIEW: CURRENT indicative cash component 48gp (formerly50gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altere"
     },
     {
       "settlement": "Orsaven",
@@ -1759,15 +1759,6 @@
       "price_gp": "",
       "status": "Family heirloom",
       "terms": "The daughter keeps her father’s original. She can make a new Glass Carver for 350 gp in four campaign weeks, with 100 gp down and 250 gp at delivery. Timing starts on agreement. A supplied suitable cr"
-    },
-    {
-      "settlement": "Orsaven",
-      "dealer": "Reedbank Sail Loft",
-      "lot": "Rope of Mending",
-      "qty": "1",
-      "price_gp": "24",
-      "status": "Offered secondhand",
-      "terms": "Buy at 24 gp. The sailmaker also needs sound canvas and can credit a usable bolt toward the price."
     },
     {
       "settlement": "Orsaven",
@@ -1807,15 +1798,6 @@
     },
     {
       "settlement": "Orsaven",
-      "dealer": "Last Turn Boot Repair",
-      "lot": "Phantom Walkers",
-      "qty": "1",
-      "price_gp": "300",
-      "status": "Offered for sale",
-      "terms": "Buy at 300 gp. The rider will consider coin plus a fitted pair of ordinary boots. Agree value before exchanging."
-    },
-    {
-      "settlement": "Orsaven",
       "dealer": "Copper Nose Kennels",
       "lot": "Bloodhound Amulet",
       "qty": "1",
@@ -1846,18 +1828,9 @@
       "dealer": "Courtlock Repairs",
       "lot": "Gloves of Thievery",
       "qty": "1",
-      "price_gp": "470",
+      "price_gp": "447",
       "status": "Offered on consignment",
-      "terms": "Firm 470gp asking; locksmith authorized to take reasonable offer to owner; no V purchase yet."
-    },
-    {
-      "settlement": "Caereth",
-      "dealer": "Quiet Heel Bootworks",
-      "lot": "Boots of Elvenkind",
-      "qty": "1",
-      "price_gp": "290",
-      "status": "Offered secondhand",
-      "terms": "Firm 290gp asking; try size and condition before agreeing."
+      "terms": "D301-CAERETH-COURTLOCK-REPAIRS-REVIEW: CURRENT asking price 447gp (formerly470gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historical pr"
     },
     {
       "settlement": "Caereth",
@@ -1865,8 +1838,8 @@
       "lot": "Driftglobe",
       "qty": "1",
       "price_gp": "310",
-      "status": "Offered secondhand",
-      "terms": "Firm 310gp asking; intact unit inspected, no sale or hold yet."
+      "status": "Open sale · discovered Day314",
+      "terms": "Firm 310gp asking; intact unit inspected, no sale or hold yet. D314-CAERETH-SCOPED-MAGIC-REVIEWS-AND-BROWSE-001: actual inquiry, unchanged asking price; no hold or purchase."
     },
     {
       "settlement": "Caereth",
@@ -1900,9 +1873,9 @@
       "dealer": "Stairwright's Last",
       "lot": "Boots of Striding and Springing",
       "qty": "1.",
-      "price_gp": "420.",
+      "price_gp": "399",
       "status": "Prepared working tool · conditional",
-      "terms": "M7-CAE-04. Prepared as of Day228; no V discovery, quote acceptance, hold or purchase. Indicative 420gp with the stated condition; not an unconditional sale. See the porter testing boots at the cobbler"
+      "terms": "D315-CAERETH-STAIRWRIGHT-S-LAST-REVIEW: CURRENT indicative cash component 399gp (formerly420gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered."
     },
     {
       "settlement": "Caereth",
@@ -1910,8 +1883,8 @@
       "lot": "Ring of Truth Telling",
       "qty": "1.",
       "price_gp": "350.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-CAE-05. Prepared, undiscovered. Ask at Gilt Thread Repairs during trade hours. Owner authorizes 350 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+      "status": "Open sale · discovered Day314",
+      "terms": "M7-CAE-05. Prepared, undiscovered. Ask at Gilt Thread Repairs during trade hours. Owner authorizes 350 gp for this lot. Counteroffers go to the owner. No hold or deposit. D314-CAERETH-SCOPED-MAGIC-REV"
     },
     {
       "settlement": "Caereth",
@@ -1963,9 +1936,9 @@
       "dealer": "Ember Screen Ceramics",
       "lot": "Glowrune Pigment",
       "qty": "1.",
-      "price_gp": "320.",
+      "price_gp": "304",
       "status": "Prepared open sale · undiscovered",
-      "terms": "M7-VEY-05. Prepared, undiscovered. Ask at Ember Screen Ceramics during trade hours. Owner authorizes 320 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+      "terms": "D310-VEYRHOLD-EMBER-SCREEN-CERAMICS-REVIEW: CURRENT asking price 304gp (formerly320gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historic"
     },
     {
       "settlement": "Veyrhold",
@@ -1990,9 +1963,9 @@
       "dealer": "Stonecut Ledger Bindery",
       "lot": "Spellshard",
       "qty": "1.",
-      "price_gp": "45.",
+      "price_gp": "43",
       "status": "Prepared open sale · undiscovered",
-      "terms": "M7-VEY-10. Prepared, undiscovered. Ask at Stonecut Ledger Bindery during trade hours. Owner authorizes 45 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+      "terms": "D310-VEYRHOLD-STONECUT-LEDGER-BINDERY-REVIEW: CURRENT asking price 43gp (formerly45gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historic"
     },
     {
       "settlement": "Ilarath",
@@ -2089,9 +2062,9 @@
       "dealer": "Crosscurrent Outfitter",
       "lot": "Gloves of Swimming and Climbing",
       "qty": "1.",
-      "price_gp": "400.",
+      "price_gp": "380",
       "status": "Available for sale · undiscovered",
-      "terms": "M7-ALL-05. D230-ALLHAVEN-CROSSCURRENT-REVIEW: bridge inspection completed. Forewoman retains the pair, available through Crosscurrent’s river-work counter during ordinary trade hours. 400 gp at inspec"
+      "terms": "D307-ALLHAVEN-CROSSCURRENT-OUTFITTER-REVIEW: CURRENT asking price 380gp (formerly400gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Histori"
     },
     {
       "settlement": "Allhaven",
@@ -2143,9 +2116,9 @@
       "dealer": "Evening Cup Pewterer",
       "lot": "Potion of Watchful Rest",
       "qty": "1",
-      "price_gp": "33.",
+      "price_gp": "31",
       "status": "Available · owner-authorized sale",
-      "terms": "M7-UC-02-02. One original lot activated Day276; no clone. Ask at Evening Cup Pewterer during trade hours. Owner authorizes 33 gp for this lot after Day293 review; previous ask35gp. Counteroffers go to"
+      "terms": "D314-CAER-VEYLAN-EVENING-CUP-PEWTERER-REVIEW: CURRENT asking price 31gp (formerly33gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historic"
     },
     {
       "settlement": "Caer Veylan",
@@ -2173,15 +2146,6 @@
       "price_gp": "375.",
       "status": "Available · owner-authorized sale",
       "terms": "M7-UC-02-05. One original lot activated Day276; no clone. Ask at Long Pocket Leatherwork during trade hours. Owner authorizes 375 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Caer Veylan",
-      "dealer": "Road Fold Luggage",
-      "lot": "Boots of the Cloud Jumper",
-      "qty": "1",
-      "price_gp": "325.",
-      "status": "Available · owner-authorized sale",
-      "terms": "M7-UC-02-06. One original lot activated Day276; no clone. Ask at Road Fold Luggage during trade hours. Owner authorizes 325 gp for this lot. Counteroffers go to the owner. No hold or deposit."
     },
     {
       "settlement": "Caer Veylan",
@@ -2221,30 +2185,12 @@
     },
     {
       "settlement": "Tarnford",
-      "dealer": "Carrier's Counter Apothecary",
-      "lot": "R26 — Potion of Comprehension",
-      "qty": "1",
-      "price_gp": "40",
-      "status": "Offer on hand · sealed single dose",
-      "terms": "One sealed potion for 40 gp, cash sale on acceptance. No extra potion created, no V hold or purchase."
-    },
-    {
-      "settlement": "Tarnford",
       "dealer": "Petition & Ink",
       "lot": "R14 — Orator's Quill",
       "qty": "1",
       "price_gp": "",
       "status": "Working property · NOT offered for sale",
       "terms": "2sp per dictated page service, no item purchase. Ask for next binder's visit/referral; no quoted maker price or guaranteed date. Never treat this piece as available to buy."
-    },
-    {
-      "settlement": "Eastwatch",
-      "dealer": "Probate estate broker",
-      "lot": "Ring of Mind Shielding",
-      "qty": "1",
-      "price_gp": "250",
-      "status": "Open sale",
-      "terms": "Unbought/unheld; no forced sale or attunement; original duplicated Eastwatch offers revoked."
     }
   ]
 }
