@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-TAVOSK-INITIAL-FEE-AGREEABLE-PAYMENT-PENDING-001",
+  "base_commit": "dbcda5245cbe8e2ac3662a5052825ef268a360da",
+  "source_checkpoint": "D327-1538-ORSAVEN-TAVOSK-INITIAL-PRIVATE-FEE-OFFER-PENDING-001",
+  "destination_checkpoint": "D327-1539-ORSAVEN-TAVOSK-FEE-AGREEABLE-COMMISSION-PENDING-001",
+  "source_evidence": "D327~15:39 exact player 'That sounds agreeable' expresses approval of Tavosk's tentative 6gp first-notice price. It does not explicitly authorize handing over coins, ordering a particular warning, actual shipment, signature, or continuing commitment. Tavosk interprets V as an interested prospective client, says 'Good. Six gold for the first notice, then. Would you like to commission it now, or shall we wait until you have a consignment in mind?' He is willing to proceed on a separate actual instruction and payment, but no payment received, service commissioned, inspection identified, warning delivered, or document created. V controls consequential spending; stop before it. Mara, Cirren and Fenar hear the exchange. No check, feature use, new disclosure of Watch evidence, new actor or Harthvale reply. All counters and custody unchanged.",
+  "pending_action": "Day327~15:39 Noldren Tavosk's petition office, Exchange district, Orsaven. V/Mara/Cirren/Fenar present. V expresses approval of tentative6gp first warning price; Tavosk asks if V wants to commission now or wait for a consignment. No purchase/payment/commission or continuing agreement authorized; V chooses next action. No actual inspection or warning identified. V48/48 AC19 HD7/7 Sup4/4 Psi3/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes and Sallow signed referral; Cirren signed receipt. Halvessa admission reported; afternoon Sallow/Harthvale/Tavosk developments not yet reported. Harthvale reply destination Copper Hart; dispatch/receipt/meeting pending. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-TAVOSK-RIVER-HOLDINGS-INITIAL-FEE-OFFER-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "V indicates agreeable price; NPC responds voluntarily, no contested check or delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D327-V-TAVOSK-INITIAL-FEE-AGREEABLE-PAYMENT-PENDING-001",
+      "accepted": true,
+      "evidence": "D327~15:39 exact player 'That sounds agreeable' expresses approval of Tavosk's tentative 6gp first-notice price. It does not explicitly authorize handing over coins, ordering a particular warning, actual shipment, signature, or continuing commitment. Tavosk interprets V as an interested prospective client, says 'Good. Six gold for the first notice, then. Would you like to commission it now, or shall we wait until you have a consignment in mind?' He is willing to proceed on a separate actual instruction and payment, but no payment received, service commissioned, inspection identified, warning delivered, or document created. V controls consequential spending; stop before it. Mara, Cirren and Fenar hear the exchange. No check, feature use, new disclosure of Watch evidence, new actor or Harthvale reply. All counters and custody unchanged.",
+      "before": "Tavosk quoted tentative 6gp first notice; V reply pending.",
+      "after": "V indicates price agreeable; Tavosk invites separate commission decision; no spending or service ordered.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
