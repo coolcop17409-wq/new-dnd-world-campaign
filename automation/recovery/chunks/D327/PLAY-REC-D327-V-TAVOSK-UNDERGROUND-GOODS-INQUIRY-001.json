@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-TAVOSK-UNDERGROUND-GOODS-INQUIRY-001",
+  "base_commit": "ed540aaafea75a185710bb2c23d47825000cd7a8",
+  "source_checkpoint": "D327-1541-ORSAVEN-TAVOSK-NOTICE-COPPER-HART-AUDIENCE-END-PENDING-001",
+  "destination_checkpoint": "D327-1542-ORSAVEN-TAVOSK-UNDERGROUND-GOODS-CLARIFICATION-PENDING-001",
+  "source_evidence": "D327~15:42 exact player 'One last thing… do you have any connections that can produce or receive some more… underground goods?' asks Tavosk about potentially illicit goods beyond existing undeclared imports. No particular commodity, unlawful purchase, payment, threat, commitment, or new disclosure of Watch evidence authorized. Tavosk distinguishes his known commercial role and existing freight contacts from trade in prohibited goods; he says 'If you mean goods that have not been declared, Sallow and the freight association can put you in touch with the right people. If you mean goods that are unlawful even with the duties paid, that is a rather different question. What manner of goods did you have in mind?' He does not volunteer new names, claim knowledge of unrelated criminal operations, or guarantee any production or supply contact. Mara remains available to provide meaningful Help if a specific contested social concession is sought; no new check before clarification of the actual desired inquiry. Cirren and Fenar hear the exchange. No movement, resource, custody or commitment changes beyond brief dialogue. Prior paid advance-notice commission and Harthvale introduction request remain pending. V reply pending.",
+  "pending_action": "Day327~15:42 Noldren Tavosk's petition office, Exchange district, Orsaven. V/Mara/Cirren/Fenar present. V asks about connections to produce or receive underground goods; Tavosk distinguishes undeclared goods from intrinsically prohibited goods and asks what V means. No specific commodity, new contact, supply guarantee, payment, deal or check. V reply pending; Mara available for eligible Help. Paid6gp single advance inspection notice delivery Copper Hart pending; Harthvale introduction reply Copper Hart pending. Purse2041gp8sp6cp. V48/48 AC19 HD7/7 Sup4/4 Psi3/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes, Sallow signed referral and Tavosk signed6gp generic receipt; Cirren signed evidence receipt. Halvessa admission reported; afternoon Sallow/Harthvale/Tavosk statements and payment not yet reported. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-TAVOSK-NOTICE-COPPER-HART-DELIVERY-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "NPC requests clarification of ambiguous commodity inquiry before attempting any new uncertain disclosure; no check or delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D327-V-TAVOSK-UNDERGROUND-GOODS-INQUIRY-001",
+      "accepted": true,
+      "evidence": "D327~15:42 exact player 'One last thing… do you have any connections that can produce or receive some more… underground goods?' asks Tavosk about potentially illicit goods beyond existing undeclared imports. No particular commodity, unlawful purchase, payment, threat, commitment, or new disclosure of Watch evidence authorized. Tavosk distinguishes his known commercial role and existing freight contacts from trade in prohibited goods; he says 'If you mean goods that have not been declared, Sallow and the freight association can put you in touch with the right people. If you mean goods that are unlawful even with the duties paid, that is a rather different question. What manner of goods did you have in mind?' He does not volunteer new names, claim knowledge of unrelated criminal operations, or guarantee any production or supply contact. Mara remains available to provide meaningful Help if a specific contested social concession is sought; no new check before clarification of the actual desired inquiry. Cirren and Fenar hear the exchange. No movement, resource, custody or commitment changes beyond brief dialogue. Prior paid advance-notice commission and Harthvale introduction request remain pending. V reply pending.",
+      "before": "Tavosk audience ready to conclude; V next action pending.",
+      "after": "V asks about underground goods; Tavosk asks whether undeclared or prohibited goods and what commodity; V reply pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
