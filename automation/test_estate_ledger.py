@@ -736,6 +736,16 @@ class SameDayPostingDependencies(unittest.TestCase):
         self.assertEqual([r["event_id"] for r in ledger.order_ledger_events(rows)],
                          ["original", "advance", "earn"])
 
+    def test_prior_tax_reassessment_keeps_original_and_checks_its_account(self):
+        assessment = dict(self.row("original", "tax_adjustment"), estate="Miregate", liability_id="tax")
+        revision = dict(self.row("revision", "tax_adjustment_before_event", after="original"),
+                        estate="Miregate", liability_id="tax")
+        self.assertEqual(ledger.order_ledger_events([assessment, revision]), [revision, assessment])
+        for bad in [dict(revision, estate="Reedbed"), dict(revision, liability_id="other"),
+                    dict(revision, effective_day="1"), dict(revision, reference_id="missing")]:
+            with self.assertRaises(ValueError):
+                ledger.order_ledger_events([assessment, bad])
+
     def test_unmodified_history_preserves_legacy_order(self):
         rows = [self.row("late", day="246"), self.row("retcon", "retcon_adjustment"), self.row("normal")]
         self.assertEqual([r["event_id"] for r in ledger.order_ledger_events(rows)], ["normal", "retcon", "late"])

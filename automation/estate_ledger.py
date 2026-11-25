@@ -67,7 +67,7 @@ def prerequisite_tasks():
  return tasks
 
 def order_ledger_events(events):
- """Keep legacy day order; explicit *_after_event legs follow their same-day source.
+ """Keep legacy order except explicit same-day dependencies, including prior tax adjustments.
 
  reference_id names a real event, never an instruction to bypass a balance check.
  This permits newly produced stock to be reserved and reconciled opening advances
@@ -78,13 +78,22 @@ def order_ledger_events(events):
  by_id={r.get("event_id"):i for i,r in enumerate(ordered)}
  edges=defaultdict(list);degree=[0]*len(ordered)
  for i,r in enumerate(ordered):
-  if not r.get("event_type","").endswith("_after_event"):continue
+  event_type=r.get("event_type","")
+  before_tax=event_type=="tax_adjustment_before_event"
+  if not before_tax and not event_type.endswith("_after_event"):continue
   anchor=r.get("reference_id","")
   if anchor not in by_id:raise ValueError(f"{r.get('event_id')}: missing posting predecessor {anchor}")
   j=by_id[anchor]
   if dec(ordered[j].get("effective_day","0"))!=dec(r.get("effective_day","0")):
    raise ValueError(f"{r.get('event_id')}: posting predecessor must share actual day")
-  edges[j].append(i);degree[i]+=1
+  if before_tax:
+   target=ordered[j]
+   if (target.get("event_type")!="tax_adjustment" or not r.get("liability_id")
+       or r.get("liability_id")!=target.get("liability_id") or r.get("estate")!=target.get("estate")):
+    raise ValueError(f"{r.get('event_id')}: prior tax adjustment requires the same tax account and estate")
+   edges[i].append(j);degree[j]+=1
+  else:
+   edges[j].append(i);degree[i]+=1
  heap=[i for i,n in enumerate(degree) if not n];heapq.heapify(heap);result=[]
  while heap:
   i=heapq.heappop(heap);result.append(ordered[i])

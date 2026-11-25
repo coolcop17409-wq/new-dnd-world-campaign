@@ -34,6 +34,10 @@ Re-read before writing; use scoped atomic Git trees/commits and expected-head up
 
 ## Latest estate run
 
+D326-RIVER-REPLIES completes the Day 244–326 Miregate and Reedbed outreach correction. Each of the 83 paired outreach days now has a dated disposition. The operational journal identifies every accepted order, each service date, original dice, declines, unavailable slots and previously settled decisions. The economic journal records elapsed performance and cash, with open storage earned by ton-day. Five booked Miregate jobs await their service dates and one storage lot awaits release on Day 330. The completed close remains Day 325.
+
+Going forward, Meret and the Reedbed leads pursue distinct, reachable customers on staffed days while contribution fails to cover wages and upkeep sustainably. On rest days use the established duty-desk contact route where feasible. Preserve each customer’s own reply and return date while pursuing other customers. Each elapsed opportunity needs a response or specific dated dependency, fulfillment when feasible, a repeat offer at first successful contact and separate earned/collected postings. The next local work includes Day 327 bakery pickup, Day 329 bakery pickup and storage intake, Day 330 grain release, Day 331 berth work and Days 332–334 local passage. Recheck actual shared capacity and already-booked work.
+
 D326-ESTATE-CATCHUP-001 advances all four registered estates from the verified Day319 close through completed Day325 and separately posts elapsed Day326 daytime at the accepted ~17:15 recovery checkpoint. Durable draw D326-ESTATE-DRAW-01 owns the Blackthorn catalog contact, Miregate market contact and Reedbed passing-trade demand exactly once; routine fulfillment, production, payroll, upkeep, storage, Crown duty, tax and Carrow remain deterministic. Day326 is not a full close. The Day327 catalog pickup, Day328 Miregate second shift and queued Reedbed storage remain unearned. Exact balances, stock, bookings and verification are in the journals/report; V and the active scene are unchanged.
 
 D320-ESTATE-CATCHUP-001 remains the prior verified close through Day319 plus elapsed Day320 morning. Its outcomes and original draw are preserved and were not rerolled by D326.
@@ -74,3 +78,5 @@ The player's explicit request to determine/reconcile the omitted cost is resolve
 ## Same-day source ordering
 
 New economic event types ending `_after_event` use `reference_id` to name an exact same-day predecessor event. The ledger preserves legacy ordering for all other rows and rejects missing, cross-day or cyclic predecessors. This records production before its reservation and adopted opening corrections before dependent remaining-day earnings; it never bypasses physical, liability, prerequisite or amount checks.
+
+A new `tax_adjustment_before_event` can name an original same-day tax adjustment on the same estate and liability. This preserves the sequence of a retrospective reassessment followed by an existing credit without rewriting the original row. All balance checks still apply.
