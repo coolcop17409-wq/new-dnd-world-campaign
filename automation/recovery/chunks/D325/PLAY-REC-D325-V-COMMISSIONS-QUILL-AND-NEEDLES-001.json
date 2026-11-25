@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D325-V-COMMISSIONS-QUILL-AND-NEEDLES-001",
+  "base_commit": "9a4aa143720d28300c6872f0e0b7c38326d53959",
+  "source_checkpoint": "D325-1600-ORSAVEN-NEGOTIATED-COMMISSION-ACCEPTANCE-PENDING-001",
+  "destination_checkpoint": "D325-1615-ORSAVEN-BOTH-ENCHANTMENT-COMMISSIONS-ACCEPTED-001",
+  "source_evidence": "Player exact 'yes commission both' authorizes both negotiated maker offers and deposits; subsequent question 'how long until they are done and arrive?' asks for existing timeline, not time advancement or shipping authorization. Two orders accepted on D325, estimated D353 local collection, no guaranteed completion, no extra roll/fee, no item delivery.",
+  "pending_action": "D325~16:15 Orsaven, V accepted both negotiated commissions. Lark Street Letter Writer's confirmed quillwright receives140gp deposit for one Hadiya's Handy Quill (Saddlebag Book Two p97, uncommon attunement), total420gp, remaining280gp on completed delivery. Two Spindles Clothiers' confirmed needlecraft specialist receives120gp deposit for one set Weaving Wasp Needles (Saddlebag Book Two p187, uncommon), total360gp, remaining240gp upon completed delivery. Separate makers' single commission slots now committed, work starts D325, target D353 after28 campaign days. Expected ready for local collection in Orsaven; actual completion/handover required; no onward shipment or transport fee arranged. V pays260gp once, purse2311gp8sp6cp→2051gp8sp6cp, remaining contractual balances520gp not yet paid or a protected reserve. Existing D216-ORSAVEN-HADIYA-QUILL-INQUIRY-001 and D216-ORSAVEN-WASP-NEEDLES-INQUIRY-001 become accepted orders; no item yet in party custody/attuned. Serpent Dart still no supplier. Prior visits to Pellin/Maud/Sabine completed. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Cirren51/51 AC19 +1 Shield equipped old shield retained HD6/6 slots4/2/3 CD2/2 boots; Fenar59/59 AC16 breastplate and Insignia HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40, natural attacks+9, greataxe unchanged. Mara, coach and four horses healthy, stabled at Copper Hart. Rations21/feed28, LR5/6, D325 overnight not yet booked or rested. Crown sealed invitation and credentials undelivered, frontier commission300+1300, Coris300/800 contingent, Elara Caereth, Severin assent unconfirmed, Kestrel custody unchanged. V dice delegated. Await next chosen activity.",
+  "depends_on": [
+    "PLAY-REC-D325-ORSAVEN-QUILL-NEEDLES-NEGOTIATED-QUOTES-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Acceptance of already negotiated and authorized terms, no uncertain check."
+  },
+  "events": [
+    {
+      "event_id": "D325-ORSAVEN-HADIYA-QUILL-ORDER-DEPOSIT-001",
+      "accepted": true,
+      "evidence": "D216 inquiry accepted at420gp,140gp deposit paid,280gp on completed delivery; one quillwright slot occupied; target D353.",
+      "before": "No order; purse231186cp.",
+      "after": "Order accepted; purse217186cp; no item received.",
+      "owner_paths": [
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/dealers.csv",
+        "data/characters/events.csv",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D325-ORSAVEN-WASP-NEEDLES-ORDER-DEPOSIT-001",
+      "accepted": true,
+      "evidence": "D216 inquiry accepted at360gp,120gp deposit paid,240gp on completed delivery; separate maker slot occupied; target D353.",
+      "before": "No needle order; purse217186cp.",
+      "after": "Order accepted; purse205186cp; no item received.",
+      "owner_paths": [
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/dealers.csv",
+        "data/characters/events.csv",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
