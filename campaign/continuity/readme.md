@@ -27,7 +27,7 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 ## Atlas review
 
-Verified scoped edition `ATLAS-D320-OSSENT-APPROACH-001`: player-known journey through the Crownsunder side of the Ossent frontier, Day320 noon; no crossing implied. Current publication and asset versions: [owning Atlas review](../../assets/README.md#atlas-review).
+Verified scoped edition `ATLAS-D326-ORSAVEN-001`: player-known Orsaven journey and waterfront references through Day326; prospective western field travel remains unplayed. Current publication and asset versions: [owning Atlas review](../../assets/README.md#atlas-review).
 
 ## Cooperative writer
 

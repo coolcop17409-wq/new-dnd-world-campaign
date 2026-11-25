@@ -1,0 +1,66 @@
+{
+  "request_id": "HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001",
+  "lane": "maintenance",
+  "status": "blocked",
+  "source_commit": "2120b1d38a2483234e885dc24002b5dd76cb02d7",
+  "source_request_blob": "babc59462126f3487d5fa7486dfcee61bc92430a",
+  "summary": "Checked through newer accepted Day326 rather than stale request Day325. Owner-sync prerequisite remains blocked by unmerged PR41; two later immutable-source defects identified with original provenance. Repaired estate coverage type routing and refreshed existing atlas pointer; no gameplay owner or checkpoint application.",
+  "owner_refs": [
+    "campaign/continuity/readme.md",
+    "data/estate/operational-checkpoint.csv#D326-COVERAGE-*",
+    "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md",
+    "campaign/continuity/campaign-state.md",
+    "automation/handoffs/play-sync/results/PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json"
+  ],
+  "blocker": "PR41 storage-path repair remains unmerged; both original explicit boundaries fail current trusted validation. Later D325–326 long-rest chunk is stored under D326 although ID derives D325; D326 return-to-storehouse chunk has malformed base_commit. Preserve originals; reviewed provenance/alias handling is required before dependent owner sync.",
+  "next_trigger": "Human-reviewed/authorized prerequisite repair applied and verified on main, then current claims/owners and full transport history recheck. Resume original boundary IDs with overlap deduplication; only after verified D316 owner checkpoint validate/queue later exact suffix under the existing maintenance request. No new player choice or approval needed for already authorized outcomes; no auto-merge.",
+  "latest_owner_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
+  "latest_accepted_checkpoint": "D326-1715-ORSAVEN-COUNTING-SHOP-ROUTE-BROKER-CONTACT-PENDING-001",
+  "accepted_suffix_entries": 100,
+  "accepted_suffix_bytes": 1462378,
+  "owners_verified": false,
+  "applied_gameplay_event_ids": [],
+  "advances_gameplay": false,
+  "metadata_repairs": {
+    "operation_id": "ADMIN-MAINT-D326-20261125-01",
+    "estate_record_ids": [
+      "D326-COVERAGE-Blackthorn",
+      "D326-COVERAGE-Miregate",
+      "D326-COVERAGE-Reedbed",
+      "D326-COVERAGE-Old-Distributary-Fort"
+    ],
+    "expected_before": "record_type=Accounting coverage; derived coverage320",
+    "expected_after": "record_type=Posting coverage; generator selects source-verified close325/elapsed326; all amounts, IDs and other fields identical",
+    "atlas_before": "ATLAS-D320-OSSENT-APPROACH-001 display pointer",
+    "atlas_after": "ATLAS-D326-ORSAVEN-001 display pointer; owning assets/README unchanged"
+  },
+  "tested_commit": "2120b1d38a2483234e885dc24002b5dd76cb02d7",
+  "tests": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "result": "PASS saved308 only",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase owners",
+      "result": "PASS",
+      "exit_code": 0
+    },
+    {
+      "command": "107 recovery/bridge/auto-submit/fast-path/RNG unittest cases",
+      "result": "106 PASS;1 existing stale-region-fixture failure",
+      "exit_code": 1
+    },
+    {
+      "command": "Exact CSV blob check, row-by-row label-only comparison and current generator coverage selection",
+      "result": "PASS four changes only; balances agree with2716-event estate report"
+    },
+    {
+      "command": "Current-main compatibility_journal on both unchanged explicit boundaries",
+      "result": "BLOCKED: Chunk filename and accepted entry ID mismatch"
+    }
+  ],
+  "recovery_preserved": true,
+  "generated_view_status": "Pending automatic rebuild/readback after coverage owning repair; market lots also require refresh. PLAY_NOW matches persisted308, never substitute accepted326 counters by hand.",
+  "verification_status": "prepared; publish and independently read back affected records before marking metadata verified"
+}
