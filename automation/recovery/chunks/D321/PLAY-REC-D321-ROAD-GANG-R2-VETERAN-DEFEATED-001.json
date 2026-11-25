@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D321-ROAD-GANG-R2-VETERAN-DEFEATED-001",
+  "base_commit": "5a4687b9f50045e7fb7e1d2d9c3c2ad7f7964510",
+  "source_checkpoint": "D321-1031-OSSENT-ROAD-GANG-R2-TARGET-CLARIFICATION-PENDING-001",
+  "destination_checkpoint": "D321-1031-OSSENT-ROAD-GANG-COMBAT-END-AFTERMATH-PENDING-001",
+  "source_evidence": "Player exact 'oo yes the veteren' confirms previous Vex main and bonus attack on adjacent Veteran, not dead captain, and prior Cirren no Spirit Guardians instruction. V main melee Psychic Blade +7, Vex1MP7→6, ally Fenar adjacent veteran qualifies Sneak Attack: actual d20 12+7=19 hit AC17, d6 1+4+2d6(5,6)=16 psychic, Veteran58→42. Vex advantage bonus d20 13,6 choose13+7=20 hit, d4 3+4=7 psychic,42→35. Cirren uses no spell slot; Toll the Dead WIS save10+0=10/DC16 fail, 2d12(6,9)=15 necrotic,35→20; BA moves existing Spiritual Weapon20ft from(55,0) toward veteran to(35,-15), no target within reach at that point so no attack. Veteran, leader dead/allies fleeing, Disengages and moves30ft to(55,-15) rather than suicide attack. Fenar independently intercepts from(30,-10) to(50,-15), existing Rage, Reckless: mechanical greataxe visual paired Double-Claw Rend d20 11,9 choose11+8=19 hit AC17, d12 12+7=19 slashing,20→1; Beast claw adv nat20,16 critical, 2d6(5,2)+7=14 slashing,1→0 DEAD. No extra claw or Shift. Remaining scouts/thugs continue retreat Dashes60ft, no pursuit or further hostile action; immediate fight ends with five alive fleeing, not automatically killed/captured. Actual receipt IDs f44c5302c85e043954ef6823c00bcd40 and d49026491d6c005884459b9424d700e2, all HP/resources unchanged except explicit MP expenditure; no fabricated rolls or additional V action. D321~10:31:12 Ossent frontier road, immediate combat concluded R2 after V and allies defeat veteran. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned, R2 action and BA spent, no reaction spent; not hidden. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2, Spiritual Weapon repositioned toward veteran by20ft to(35,-15) without attack, active nonconcentration through R10 (one minute from R1); no Spirit Guardians, no new slot. Fenar(50,-15) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless through next turn, Shift3/3 inactive MP6/6 CLIMB40; no extra use. Captain dead(35,-10), veteran dead(55,-15), remaining five raiders fled another60ft west from R1 positions, S1(160,25),S2(160,-25),S3(190,25),T1(175,8),T2(175,-8); full HP, retreating independently, no new attack or pursuit, no automatic capture/escape guarantee if V pursues. Mara(-45,-5) and merchant near(-35,0), both vehicles and all horses healthy, no wool or money surrendered. Purse3178gp4sp6cp, provisions9/12 before D321 full-day debit, LR0/6, encounter count2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No XP, reward, corpse search, loot, rest or further travel yet; no evidence, quests or commitments changed. V dice delegated until stop. Await V decision whether to pursue, search, speak with merchant or continue road.",
+  "pending_action": "D321~10:31:12 Ossent frontier road, immediate combat concluded R2 after V and allies defeat veteran. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned, R2 action and BA spent, no reaction spent; not hidden. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2, Spiritual Weapon repositioned toward veteran by20ft to(35,-15) without attack, active nonconcentration through R10 (one minute from R1); no Spirit Guardians, no new slot. Fenar(50,-15) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless through next turn, Shift3/3 inactive MP6/6 CLIMB40; no extra use. Captain dead(35,-10), veteran dead(55,-15), remaining five raiders fled another60ft west from R1 positions, S1(160,25),S2(160,-25),S3(190,25),T1(175,8),T2(175,-8); full HP, retreating independently, no new attack or pursuit, no automatic capture/escape guarantee if V pursues. Mara(-45,-5) and merchant near(-35,0), both vehicles and all horses healthy, no wool or money surrendered. Purse3178gp4sp6cp, provisions9/12 before D321 full-day debit, LR0/6, encounter count2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No XP, reward, corpse search, loot, rest or further travel yet; no evidence, quests or commitments changed. V dice delegated until stop. Await V decision whether to pursue, search, speak with merchant or continue road.",
+  "depends_on": [
+    "PLAY-REC-D321-R2-V-TARGET-CLARIFICATION-CIRREN-NO-SPIRIT-GUARDIANS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "f44c5302c85e043954ef6823c00bcd40",
+        "rolls": [
+          {
+            "id": "D321.R2.V.main.hit",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D321.R2.V.main.damage",
+            "sides": 6,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D321.R2.V.main.sneak_attack",
+            "sides": 6,
+            "faces": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "D321.R2.V.bonus.hit",
+            "sides": 20,
+            "faces": [
+              13,
+              6
+            ]
+          },
+          {
+            "id": "D321.R2.V.bonus.damage",
+            "sides": 4,
+            "faces": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "d49026491d6c005884459b9424d700e2",
+        "rolls": [
+          {
+            "id": "D321.R2.Veteran.toll_the_dead.save",
+            "sides": 20,
+            "faces": [
+              10
+            ]
+          },
+          {
+            "id": "D321.R2.Cirren.toll_the_dead.damage",
+            "sides": 12,
+            "faces": [
+              6,
+              9
+            ]
+          },
+          {
+            "id": "D321.R2.Fenar.rend.hit",
+            "sides": 20,
+            "faces": [
+              11,
+              9
+            ]
+          },
+          {
+            "id": "D321.R2.Fenar.rend.damage",
+            "sides": 12,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D321.R2.Fenar.claw1.hit",
+            "sides": 20,
+            "faces": [
+              20,
+              16
+            ]
+          },
+          {
+            "id": "D321.R2.Fenar.claw1.damage",
+            "sides": 6,
+            "faces": [
+              5,
+              2
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D321-R2-V-VEX-BONUS-VETERAN-001",
+      "accepted": true,
+      "evidence": "Player exact 'oo yes the veteren' confirms previous Vex main and bonus attack on adjacent Veteran, not dead captain, and prior Cirren no Spirit Guardians instruction. V main melee Psychic Blade +7, Vex1MP7→6, ally Fenar adjacent veteran qualifies Sneak Attack: actual d20 12+7=19 hit AC17, d6 1+4+2d6(5,6)=16 psychic, Veteran58→42. Vex advantage bonus d20 13,6 choose13+7=20 hit, d4 3+4=7 psychic,42→35. Cirren uses no spell slot; Toll the Dead WIS save10+0=10/DC16 fail, 2d12(6,9)=15 necrotic,35→20; BA moves existing Spiritual Weapon20ft from(55,0) toward veteran to(35,-15), no target within reach at that point so no attack. Veteran, leader dead/allies fleeing, Disengages and moves30ft to(55,-15) rather than suicide attack. Fenar independently intercepts from(30,-10) to(50,-15), existing Rage, Reckless: mechanical greataxe visual paired Double-Claw Rend d20 11,9 choose11+8=19 hit AC17, d12 12+7=19 slashing,20→1; Beast claw adv nat20,16 critical, 2d6(5,2)+7=14 slashing,1→0 DEAD. No extra claw or Shift. Remaining scouts/thugs continue retreat Dashes60ft, no pursuit or further hostile action; immediate fight ends with five alive fleeing, not automatically killed/captured. Actual receipt IDs f44c5302c85e043954ef6823c00bcd40 and d49026491d6c005884459b9424d700e2, all HP/resources unchanged except explicit MP expenditure; no fabricated rolls or additional V action. D321~10:31:12 Ossent frontier road, immediate combat concluded R2 after V and allies defeat veteran. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned, R2 action and BA spent, no reaction spent; not hidden. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2, Spiritual Weapon repositioned toward veteran by20ft to(35,-15) without attack, active nonconcentration through R10 (one minute from R1); no Spirit Guardians, no new slot. Fenar(50,-15) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless through next turn, Shift3/3 inactive MP6/6 CLIMB40; no extra use. Captain dead(35,-10), veteran dead(55,-15), remaining five raiders fled another60ft west from R1 positions, S1(160,25),S2(160,-25),S3(190,25),T1(175,8),T2(175,-8); full HP, retreating independently, no new attack or pursuit, no automatic capture/escape guarantee if V pursues. Mara(-45,-5) and merchant near(-35,0), both vehicles and all horses healthy, no wool or money surrendered. Purse3178gp4sp6cp, provisions9/12 before D321 full-day debit, LR0/6, encounter count2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No XP, reward, corpse search, loot, rest or further travel yet; no evidence, quests or commitments changed. V dice delegated until stop. Await V decision whether to pursue, search, speak with merchant or continue road.",
+      "before": "V MP7/7, Veteran58/58, V action/BA fresh.",
+      "after": "V MP6/7, action/BA spent, Veteran35/58, V HP48.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D321-R2-ROAD-GANG-IMMEDIATE-COMBAT-END-001",
+      "accepted": true,
+      "evidence": "Player exact 'oo yes the veteren' confirms previous Vex main and bonus attack on adjacent Veteran, not dead captain, and prior Cirren no Spirit Guardians instruction. V main melee Psychic Blade +7, Vex1MP7→6, ally Fenar adjacent veteran qualifies Sneak Attack: actual d20 12+7=19 hit AC17, d6 1+4+2d6(5,6)=16 psychic, Veteran58→42. Vex advantage bonus d20 13,6 choose13+7=20 hit, d4 3+4=7 psychic,42→35. Cirren uses no spell slot; Toll the Dead WIS save10+0=10/DC16 fail, 2d12(6,9)=15 necrotic,35→20; BA moves existing Spiritual Weapon20ft from(55,0) toward veteran to(35,-15), no target within reach at that point so no attack. Veteran, leader dead/allies fleeing, Disengages and moves30ft to(55,-15) rather than suicide attack. Fenar independently intercepts from(30,-10) to(50,-15), existing Rage, Reckless: mechanical greataxe visual paired Double-Claw Rend d20 11,9 choose11+8=19 hit AC17, d12 12+7=19 slashing,20→1; Beast claw adv nat20,16 critical, 2d6(5,2)+7=14 slashing,1→0 DEAD. No extra claw or Shift. Remaining scouts/thugs continue retreat Dashes60ft, no pursuit or further hostile action; immediate fight ends with five alive fleeing, not automatically killed/captured. Actual receipt IDs f44c5302c85e043954ef6823c00bcd40 and d49026491d6c005884459b9424d700e2, all HP/resources unchanged except explicit MP expenditure; no fabricated rolls or additional V action. D321~10:31:12 Ossent frontier road, immediate combat concluded R2 after V and allies defeat veteran. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned, R2 action and BA spent, no reaction spent; not hidden. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2, Spiritual Weapon repositioned toward veteran by20ft to(35,-15) without attack, active nonconcentration through R10 (one minute from R1); no Spirit Guardians, no new slot. Fenar(50,-15) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless through next turn, Shift3/3 inactive MP6/6 CLIMB40; no extra use. Captain dead(35,-10), veteran dead(55,-15), remaining five raiders fled another60ft west from R1 positions, S1(160,25),S2(160,-25),S3(190,25),T1(175,8),T2(175,-8); full HP, retreating independently, no new attack or pursuit, no automatic capture/escape guarantee if V pursues. Mara(-45,-5) and merchant near(-35,0), both vehicles and all horses healthy, no wool or money surrendered. Purse3178gp4sp6cp, provisions9/12 before D321 full-day debit, LR0/6, encounter count2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No XP, reward, corpse search, loot, rest or further travel yet; no evidence, quests or commitments changed. V dice delegated until stop. Await V decision whether to pursue, search, speak with merchant or continue road.",
+      "before": "Veteran35/58, captain dead, five retreating, Cirren/Fenar full HP.",
+      "after": "D321~10:31:12 Ossent frontier road, immediate combat concluded R2 after V and allies defeat veteran. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP6/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned, R2 action and BA spent, no reaction spent; not hidden. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2, Spiritual Weapon repositioned toward veteran by20ft to(35,-15) without attack, active nonconcentration through R10 (one minute from R1); no Spirit Guardians, no new slot. Fenar(50,-15) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless through next turn, Shift3/3 inactive MP6/6 CLIMB40; no extra use. Captain dead(35,-10), veteran dead(55,-15), remaining five raiders fled another60ft west from R1 positions, S1(160,25),S2(160,-25),S3(190,25),T1(175,8),T2(175,-8); full HP, retreating independently, no new attack or pursuit, no automatic capture/escape guarantee if V pursues. Mara(-45,-5) and merchant near(-35,0), both vehicles and all horses healthy, no wool or money surrendered. Purse3178gp4sp6cp, provisions9/12 before D321 full-day debit, LR0/6, encounter count2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No XP, reward, corpse search, loot, rest or further travel yet; no evidence, quests or commitments changed. V dice delegated until stop. Await V decision whether to pursue, search, speak with merchant or continue road.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
