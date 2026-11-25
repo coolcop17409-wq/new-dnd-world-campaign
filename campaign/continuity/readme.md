@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D320-OSSENT-APPROACH-001`: player-known journey t
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-25T10:26:30Z | previous_token=ESTATES-D326-20261125-01 | result=VERIFIED | recovery=data/estate/operational-checkpoint.csv#D326-ESTATE-SOURCE-RECEIPT
+CAMPAIGN_WRITER | state=ACTIVE | token=ESTATES-D326-STOCKFIX-20261125-01 | claimed_UTC=2026-11-25T10:30:00Z | operation=D326-ESTATE-STOCK-RESERVATION-FIX-001 | recovery=data/estate/operational-checkpoint.csv#D326-ESTATE-SOURCE-RECEIPT
