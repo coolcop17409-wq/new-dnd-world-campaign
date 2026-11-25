@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D326-ORSAVEN-001`: player-known Orsaven journey a
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=D326-RIVER-RESPONSES-01 | scope=Miregate and Reedbed responses | acquired_UTC=2026-11-25T17:45:17.344Z | expires_UTC=2026-11-25T18:05:17.344Z
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-25T17:55:19.373Z | previous_token=D326-RIVER-RESPONSES-01 | result=VERIFIED | recovery=D326-RIVER-REPLIES-ADMIN
