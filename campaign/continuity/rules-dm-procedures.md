@@ -1,5 +1,8 @@
 <!-- Source: Google Doc 1F0NshIRsq70AwPTzRWZ7yULWFt6UUNUReh854-RlAB4, tab t.3s5o9lq5dpdd; title: RULES — DM PROCEDURES
 
+## Quest-offer funding check — OOC-QUEST-ECONOMIC-REALISM-20261124-001
+Before quoting a new reward, use QDF1's [economic funding card](rules-quest-design.md#quest-rewards-grounded-in-the-economy) and the payer's actual means under adopted estate/economic rates. A prepared number or the words 'reserved fund' do not prove affordability. Check disposable cash versus turnover/capital, real obligations, authority, each willing pooled share, competing claims and payment date. Match payment to the result and payer benefit without a CR/level price formula. Major rewards need credible major beneficiaries; poorer sources can offer affordable coin plus owned goods/services or genuinely authorized recovery rights. Don't conjure a rich co-sponsor or magic heirloom to preserve an arbitrary payout. Tell V the useful terms naturally; keep the calculation in prep. Existing offers/earned results stand even after an easy or peaceful success. Unresolved economics hold only that unoffered quote, not ordinary conversation or already accepted play. No new debt, income, treasury payment or estate rule from preparation.
+
 **Active operational routing:** `runtime/LIVE_DM_FAST_PATH.md` and `runtime/SCOPED_RULES_INDEX.md`. Existing mechanical, narrative, companion and world rulings in this file remain authoritative; the new routing only replaces contradictory old per-turn GitHub procedures. Live owner values are GitHub `campaign-state.md`, character CSVs and `data/characters/events.csv`, plus newer original immutable recovery chunks—not historical Sheets.
 
 ## Combat hot path — current 2026-11-23
