@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-REGROUPS-COMPANIONS-HALVESSA-ADMISSION-001",
+  "base_commit": "566d83233d5febe39960a93c60f6acfca4c7cb79",
+  "source_checkpoint": "D327-1021-ORSAVEN-HALVESSA-SALLOW-APPOINTMENT-OFFER-PENDING-001",
+  "destination_checkpoint": "D327-1025-ORSAVEN-OLD-CROWN-WARD-PARTY-REGROUP-NEXT-DECISION-001",
+  "source_evidence": "D327~10:25 player exact 'Regroup.\n\nWhat do we think team?' authorizes courteous conclusion of current audience, ordinary departure together with Mara/Cirren/Fenar and private discussion in a quiet stretch of Old Crown Ward street away from the Veldrake doorway, not an automatic appointment acceptance, trip to Desen, spell, investigation, commitment or expenditure. No V speech invented, no contested exit, no observed follower or eavesdropper; not guarantee of privacy against unknown surveillance. Halvessa remains with her prior offer; Sallow actual notification and Tavosk availability unconfirmed. Cirren independently says 'We have her own words now. All four of us heard them. That ties the purchasing instructions to her personally, but it does not tell us what she knows about Tavosk's payments. I would tell Desen before we go back. Let him decide how best to preserve our testimony and the original papers.' Mara says 'I think we should keep the appointment. She believes we're potential customers, and Sallow is the man who actually handles her arrangements. Let him explain what he can offer. We needn't buy a thing.' Fenar says 'Fenar thinks Master has enough to put the lady in trouble. But if Master wants the man who sells the warnings, Fenar would like to see him. Fenar would rather Desen know where we are going first.' These are companion opinions/recommendations, not binding legal findings or chosen future actions. They know only actual observed documents, public research and Halvessa's statement; no knowledge of hidden patron proposal, actual Tavosk attendance or other crimes. V has not reported statement, agreed a time, returned, hired anyone or agreed illicit commerce. All resource/custody counters unchanged. Await V decision.",
+  "pending_action": "Day327~10:25 Orsaven Old Crown Ward, quiet public street away from House Veldrake entrance; V/Mara/Cirren/Fenar regrouped, all heard Halvessa admission. Cirren recommends reporting to Desen before returning; Mara favors attending 15:00 Sallow appointment without commitments; Fenar favors informing Desen first and learning who sells inspection warnings. V chooses next action; no appointment confirmation, Watch visit, new message, investigation or spending yet. Halvessa offered Sallow appointment at townhouse 15:00; Tavosk attendance and Sallow notification unconfirmed. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife2/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and 14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes; Cirren signed receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; no lawful corroboration, recovery of paymaster48gp, warrant, arrest, restitution or notification verified. Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-ACCEPTS-HALVESSA-TAVOSK-INTRODUCTION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary departure and informed companion discussion; no contested check or DM/delegated die."
+  },
+  "events": [
+    {
+      "event_id": "D327-V-REGROUPS-COMPANIONS-HALVESSA-ADMISSION-001",
+      "accepted": true,
+      "evidence": "D327~10:25 player exact 'Regroup.\n\nWhat do we think team?' authorizes courteous conclusion of current audience, ordinary departure together with Mara/Cirren/Fenar and private discussion in a quiet stretch of Old Crown Ward street away from the Veldrake doorway, not an automatic appointment acceptance, trip to Desen, spell, investigation, commitment or expenditure. No V speech invented, no contested exit, no observed follower or eavesdropper; not guarantee of privacy against unknown surveillance. Halvessa remains with her prior offer; Sallow actual notification and Tavosk availability unconfirmed. Cirren independently says 'We have her own words now. All four of us heard them. That ties the purchasing instructions to her personally, but it does not tell us what she knows about Tavosk's payments. I would tell Desen before we go back. Let him decide how best to preserve our testimony and the original papers.' Mara says 'I think we should keep the appointment. She believes we're potential customers, and Sallow is the man who actually handles her arrangements. Let him explain what he can offer. We needn't buy a thing.' Fenar says 'Fenar thinks Master has enough to put the lady in trouble. But if Master wants the man who sells the warnings, Fenar would like to see him. Fenar would rather Desen know where we are going first.' These are companion opinions/recommendations, not binding legal findings or chosen future actions. They know only actual observed documents, public research and Halvessa's statement; no knowledge of hidden patron proposal, actual Tavosk attendance or other crimes. V has not reported statement, agreed a time, returned, hired anyone or agreed illicit commerce. All resource/custody counters unchanged. Await V decision.",
+      "before": "V and companions at Halvessa audience with offered 15:00 Sallow introduction appointment.",
+      "after": "Group privately discusses witnessed admission in quiet street, recommends report and meeting; V next action pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
