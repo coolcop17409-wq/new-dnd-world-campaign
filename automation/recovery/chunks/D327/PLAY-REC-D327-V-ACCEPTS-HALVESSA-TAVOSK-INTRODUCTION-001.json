@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-ACCEPTS-HALVESSA-TAVOSK-INTRODUCTION-001",
+  "base_commit": "9fe70de33330edb9116a32143022d9676107133f",
+  "source_checkpoint": "D327-1020-ORSAVEN-HALVESSA-PROBE-HELP-CORRECTED-INTRODUCTION-OFFER-PENDING-001",
+  "destination_checkpoint": "D327-1021-ORSAVEN-HALVESSA-SALLOW-APPOINTMENT-OFFER-PENDING-001",
+  "source_evidence": "D327~10:21 exact player 'Yes that would be lovely' accepts Lady Halvessa's offered Sallow-mediated introduction to Noldren Tavosk after the corrected successful Deception25/DC17,22. No commitment to smuggling, investment, exclusive supply, hiring, payment, further deception or evidence disclosure. Halvessa voluntarily directs the already introduced household attendant to tell Sallow to arrange a private commercial introduction to Tavosk, and offers V a meeting with Sallow at the Veldrake townhouse at 15:00 today to discuss the introduction. This is a newly played ordinary household instruction and offered appointment with her own purchasing agent, not confirmed availability or attendance by Tavosk, actual delivery of message to Sallow, secret supper, transaction, or V commitment to the hour. Halvessa says 'Come back at three. I will have Sallow receive you here. He can arrange a proper introduction to Master Tavosk.' She remains cordial and views the party as prospective commercial contacts. V and companions still in reception, audience not automatically ended. No contested roll; prior successful concession covers acceptance. No new revelation, new attendee, expenditure, movement outside, or resource change. Watch has not yet learned Halvessa's firsthand statement. Await V's response or next action.",
+  "pending_action": "D327~10:21 House Veldrake townhouse reception room, Old Crown Ward, Orsaven. V accepted offered Sallow-mediated introduction; Halvessa directs attendant to tell Sallow to arrange it and offers V an appointment with Sallow here today 15:00. V has not committed to the time or left the audience; Tavosk availability, actual invitation and meeting unconfirmed. Await V next action. Halvessa's prior corrected admission heard by V/Mara/Cirren/Fenar only; no actual Watch notification or illegal agreement. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife2/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and 14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes; Cirren signed receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; no lawful corroboration, recovery of paymaster48gp, warrant, arrest, restitution or notification verified. Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged. No new expenditure.",
+  "depends_on": [
+    "PLAY-REC-D327-HALVESSA-VEILED-PROBE-PARTY-HELP-CORRECTION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Acceptance of prior successful social concession and routine NPC instruction; no additional uncertain action or DM/delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D327-V-ACCEPTS-HALVESSA-TAVOSK-INTRODUCTION-001",
+      "accepted": true,
+      "evidence": "D327~10:21 exact player 'Yes that would be lovely' accepts Lady Halvessa's offered Sallow-mediated introduction to Noldren Tavosk after the corrected successful Deception25/DC17,22. No commitment to smuggling, investment, exclusive supply, hiring, payment, further deception or evidence disclosure. Halvessa voluntarily directs the already introduced household attendant to tell Sallow to arrange a private commercial introduction to Tavosk, and offers V a meeting with Sallow at the Veldrake townhouse at 15:00 today to discuss the introduction. This is a newly played ordinary household instruction and offered appointment with her own purchasing agent, not confirmed availability or attendance by Tavosk, actual delivery of message to Sallow, secret supper, transaction, or V commitment to the hour. Halvessa says 'Come back at three. I will have Sallow receive you here. He can arrange a proper introduction to Master Tavosk.' She remains cordial and views the party as prospective commercial contacts. V and companions still in reception, audience not automatically ended. No contested roll; prior successful concession covers acceptance. No new revelation, new attendee, expenditure, movement outside, or resource change. Watch has not yet learned Halvessa's firsthand statement. Await V's response or next action.",
+      "before": "Halvessa offers possible introduction through Sallow; V reply pending.",
+      "after": "V accepts introduction; Halvessa directs attendant to notify Sallow and offers 15:00 appointment at townhouse; V next action pending, actual Tavosk meeting unconfirmed.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
