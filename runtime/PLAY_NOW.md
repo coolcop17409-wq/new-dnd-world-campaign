@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `32ff378250fa48b26f93d7761f09cc187395aa5582a6fed98b66c43c90a6255e`).
-Dashboard SHA256: `78b29ae0486f51d45db79943ee68357dd070c371ee47d91df2adee2b9ff3e97b`.
+Dashboard SHA256: `53ad25e4892f953310ab042454346c2eba095ac819ef649b8f011c0ee256f4be`.
 Confirmed campaign day: **308**.
 Newest played event: `D308-PERYTON-VERIFIED-R4-COMBAT-END-001`.
 
