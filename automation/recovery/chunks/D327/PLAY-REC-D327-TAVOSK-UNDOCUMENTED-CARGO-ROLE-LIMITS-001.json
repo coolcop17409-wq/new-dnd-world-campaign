@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-TAVOSK-UNDOCUMENTED-CARGO-ROLE-LIMITS-001",
+  "base_commit": "eadd4900f2f997f01f8896e068eb7e8207d16c6f",
+  "source_checkpoint": "D327-1542-ORSAVEN-TAVOSK-UNDERGROUND-GOODS-CLARIFICATION-PENDING-001",
+  "destination_checkpoint": "D327-1543-ORSAVEN-TAVOSK-UNDERGROUND-INQUIRY-ROLE-LIMITS-NEXT-ACTION-001",
+  "source_evidence": "Day327~15:43 exact player 'I am looking to expand my business to much more lucretive offerings, things that may not be accepted by official routes' explains broad commercial pretext but specifies no commodity, actual purchase, payment, arrangement, or admission of wrongdoing. Tavosk considers it, then draws a boundary around his own service. 'Then you are looking for a trading partner rather than a petition representative. I sell information. I don't arrange the purchase or sale of merchandise. Harthvale and his broker deal with freight. They would be better placed to tell you what business they are prepared to accept. I cannot speak for them.' This is a voluntary response within his established knowledge and role, not a new concession, evidence of specific prohibited cargo, claim that the association trades anything beyond established undeclared imports, or an introduction to an unrelated criminal enterprise. He declines to recommend a producer or buyer of unspecified prohibited goods and does not demand further explanation. No new roll is warranted for this ordinary statement of his own limits; prior admitted service, fee and paid commission remain unchanged. Mara/Cirren/Fenar hear the answer. No new suspicion of Watch investigation established, threat, expenditure, message, appointment, movement or custody change. V controls next action in Tavosk's office.",
+  "pending_action": "Day327~15:43 Noldren Tavosk's petition office, Exchange district, Orsaven. V/Mara/Cirren/Fenar present. V explains broad interest in more lucrative goods not accepted on official routes. Tavosk distinguishes his information service from purchase/sale of merchandise, identifies Harthvale and existing broker as better placed to discuss freight arrangements without vouching for their willingness or naming new prohibited-goods contacts. No evidence of specific additional contraband, new introduction or commitment. V chooses response or departure. Paid6gp single advance inspection notice delivery Copper Hart pending; Harthvale introduction reply Copper Hart pending. Purse2041gp8sp6cp. V48/48 AC19 HD7/7 Sup4/4 Psi3/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes, Sallow signed referral and Tavosk signed6gp generic receipt; Cirren signed evidence receipt. Halvessa admission reported; afternoon Sallow/Harthvale/Tavosk statements and payment not yet reported. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-TAVOSK-UNDERGROUND-GOODS-INQUIRY-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Tavosk voluntarily states the limits of his own business and known contacts; no contested disclosure or new delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D327-TAVOSK-UNDOCUMENTED-CARGO-ROLE-LIMITS-001",
+      "accepted": true,
+      "evidence": "Day327~15:43 exact player 'I am looking to expand my business to much more lucretive offerings, things that may not be accepted by official routes' explains broad commercial pretext but specifies no commodity, actual purchase, payment, arrangement, or admission of wrongdoing. Tavosk considers it, then draws a boundary around his own service. 'Then you are looking for a trading partner rather than a petition representative. I sell information. I don't arrange the purchase or sale of merchandise. Harthvale and his broker deal with freight. They would be better placed to tell you what business they are prepared to accept. I cannot speak for them.' This is a voluntary response within his established knowledge and role, not a new concession, evidence of specific prohibited cargo, claim that the association trades anything beyond established undeclared imports, or an introduction to an unrelated criminal enterprise. He declines to recommend a producer or buyer of unspecified prohibited goods and does not demand further explanation. No new roll is warranted for this ordinary statement of his own limits; prior admitted service, fee and paid commission remain unchanged. Mara/Cirren/Fenar hear the answer. No new suspicion of Watch investigation established, threat, expenditure, message, appointment, movement or custody change. V controls next action in Tavosk's office.",
+      "before": "Tavosk asks what kind of underground goods V means.",
+      "after": "V supplies broad purpose; Tavosk declines to name new producers/buyers and refers to known freight association as better placed to discuss business, without guaranteeing any prohibited trade. Next V action pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
