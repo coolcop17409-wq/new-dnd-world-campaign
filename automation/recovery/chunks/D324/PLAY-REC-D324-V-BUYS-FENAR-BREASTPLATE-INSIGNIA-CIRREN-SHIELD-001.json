@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D324-V-BUYS-FENAR-BREASTPLATE-INSIGNIA-CIRREN-SHIELD-001",
+  "base_commit": "dcb698fea6f193c35e8039dbea603268885848c1",
+  "source_checkpoint": "D324-1750-ORSAVEN-SALE-RESUPPLY-EQUIPMENT-PROPERTY-DECISION-001",
+  "destination_checkpoint": "D324-1820-ORSAVEN-COMPANION-EQUIPMENT-PURCHASED-001",
+  "source_evidence": "Player exact 'Breastplate, **+1 Shield**, **Insignia of Claws**, buy these and negotiate the price' authorizes negotiation, payment and equipment gifts to willing intended companions from immediately preceding offers. Source D324 equipment/property options recovery chunk, confirmed owner-authorized distinct shield and insignia consignments, ordinary fitted breastplate stock; 5etools source PHB2014 p145 breastplate, DMG2014 p200 Shield +1/+2/+3, HotDQ p94 Insignia of Claws, Fenar character/features/inventory and Cirren character/inventory. Mara meaningfully assists each merchant negotiation and Cirren casts Guidance each time. Before actual RNG: bundle DC<15=400/450,15–19=380/425,20–24=360/405,25+=340/385; jeweler DC<15=390,15–19=370,20–24=350,25+=330. Visible genuine Python secrets batch1fe48e684906a9b860f903140af849c1: armorer d20 adv12,16 select16 +7 +d4(2)=25; jeweler adv19,14 select19 +7 +d4(4)=30. Both maximum fixed concessions. Pay340+385+330=1055gp vs1240 ask, save185gp; 336886cp→231386cp. Actual three pieces transferred and equipped, previous ordinary shield retained, no trade-in or sale. No limited V resources spent. G1 commercial local suppliers distinct, G2 player exact authorization, G3 predeclared price tiers, legitimate discounts, actual cash/gear transfer and source-backed mechanics. D324~18:20 Orsaven commercial district. V explicitly purchased three chosen pieces at negotiated prices: fitted mundane breastplate for Fenar340gp, original consigned +1 Shield for Cirren385gp, original consigned Insignia of Claws for Fenar330gp. Total1055gp actually paid, purse3368gp8sp6cp→2313gp8sp6cp once. Both companions willingly accept gifts and equip; Fenar medium armor AC14→16 (14+Dex2, no Stealth disadvantage, Rage and Fast Movement compatible); Insignia no attunement, +1 attack and damage on actual natural weapons/unarmed strikes, magical, no bonus on mechanical greataxe visually Double-Claw Rend. Fenar Beast claws/fangs +9 to hit, 1d6+6 base on each hit, 1d6+8 while raging when Strength melee qualifies; Double-Claw Rend stays +8,1d12+5 base/1d12+7 raging, no extra attacks. Cirren +1 Shield no attunement, replaces equipped mundane shield, AC18→19; old ordinary shield retained in Cirren custody unequipped (not sold or traded). No attunement changes. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Cirren51/51 AC19 HD6/6 slots4/2/3 CD2/2 Boots of Elvenkind; Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40; Mara, coach and four horses healthy. Rest3/6, rations21/feed28, no overnight. Prior recovered loot sold and resupply paid once. Magic consignments sold to V and gifted, no remaining physical shop lot/reoffer. Forecaster's Cloak36 and Bloodhound Amulet240 remain separate unchanged offers. Serpent Dart, Hadiya's Handy Quill, Weaving Wasp Needles follow-ups unconfirmed. Two residential leads: 1450gp merchant townhouse without four-horse stabling; 2250gp Old Crown Ward townhouse with four bedrooms, study, kitchen, gated carriage courtyard, four-horse stabling, secure storage. Both uninspected, no purchase/hold/deposit, title/condition/terms to be checked. Lodging unarranged. Sealed diplomatic invitation and limited credentials V-held; frontier commission remaining300+1300, scholarly300/800, Kestrel custody unchanged; Elara in Caereth, Severin assent unverified. No further quest, travel or purchase. Dice delegated. Await V next choice.",
+  "pending_action": "D324~18:20 Orsaven commercial district. V explicitly purchased three chosen pieces at negotiated prices: fitted mundane breastplate for Fenar340gp, original consigned +1 Shield for Cirren385gp, original consigned Insignia of Claws for Fenar330gp. Total1055gp actually paid, purse3368gp8sp6cp→2313gp8sp6cp once. Both companions willingly accept gifts and equip; Fenar medium armor AC14→16 (14+Dex2, no Stealth disadvantage, Rage and Fast Movement compatible); Insignia no attunement, +1 attack and damage on actual natural weapons/unarmed strikes, magical, no bonus on mechanical greataxe visually Double-Claw Rend. Fenar Beast claws/fangs +9 to hit, 1d6+6 base on each hit, 1d6+8 while raging when Strength melee qualifies; Double-Claw Rend stays +8,1d12+5 base/1d12+7 raging, no extra attacks. Cirren +1 Shield no attunement, replaces equipped mundane shield, AC18→19; old ordinary shield retained in Cirren custody unequipped (not sold or traded). No attunement changes. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Cirren51/51 AC19 HD6/6 slots4/2/3 CD2/2 Boots of Elvenkind; Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40; Mara, coach and four horses healthy. Rest3/6, rations21/feed28, no overnight. Prior recovered loot sold and resupply paid once. Magic consignments sold to V and gifted, no remaining physical shop lot/reoffer. Forecaster's Cloak36 and Bloodhound Amulet240 remain separate unchanged offers. Serpent Dart, Hadiya's Handy Quill, Weaving Wasp Needles follow-ups unconfirmed. Two residential leads: 1450gp merchant townhouse without four-horse stabling; 2250gp Old Crown Ward townhouse with four bedrooms, study, kitchen, gated carriage courtyard, four-horse stabling, secure storage. Both uninspected, no purchase/hold/deposit, title/condition/terms to be checked. Lodging unarranged. Sealed diplomatic invitation and limited credentials V-held; frontier commission remaining300+1300, scholarly300/800, Kestrel custody unchanged; Elara in Caereth, Severin assent unverified. No further quest, travel or purchase. Dice delegated. Await V next choice.",
+  "depends_on": [
+    "PLAY-REC-D324-ORSAVEN-ARMS-SALE-RESUPPLY-COMPANION-PROPERTY-OPTIONS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "1fe48e684906a9b860f903140af849c1",
+        "rolls": [
+          {
+            "id": "D324.V.orsaven_armorer.bundle.persuasion",
+            "sides": 20,
+            "faces": [
+              12,
+              16
+            ]
+          },
+          {
+            "id": "D324.V.orsaven_armorer.bundle.guidance",
+            "sides": 4,
+            "faces": [
+              2
+            ]
+          },
+          {
+            "id": "D324.V.orsaven_clasp_jeweler.insignia.persuasion",
+            "sides": 20,
+            "faces": [
+              19,
+              14
+            ]
+          },
+          {
+            "id": "D324.V.orsaven_clasp_jeweler.insignia.guidance",
+            "sides": 4,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D324-V-PURCHASES-FENAR-BREASTPLATE-340-001",
+      "accepted": true,
+      "evidence": "Negotiated bundled armorer price340gp, paid by V, gifted to and equipped by Fenar, medium armor AC16; no additional sale or attunement.",
+      "before": "Purse336886cp, Fenar AC14.",
+      "after": "Purse302886cp, Fenar breastplate1 AC16.",
+      "owner_paths": [
+        "trackers/csv/v/v-inventory.csv",
+        "trackers/csv/fenar/fenar-inventory.csv",
+        "trackers/csv/fenar/fenar-character.csv",
+        "data/characters/events.csv",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001",
+      "accepted": true,
+      "evidence": "Actual original shield consignment purchased385gp and gifted/equipped by Cirren. Ordinary shield retained unequipped. No attunement.",
+      "before": "Purse302886cp, Cirren AC18.",
+      "after": "Purse264386cp, Cirren +1 Shield1 AC19.",
+      "owner_paths": [
+        "trackers/csv/v/v-inventory.csv",
+        "trackers/csv/cirren/cirren-inventory.csv",
+        "trackers/csv/cirren/cirren-character.csv",
+        "data/characters/events.csv",
+        "trackers/csv/magic-shops/stock.csv",
+        "trackers/csv/magic-shops/dealers.csv",
+        "trackers/csv/magic-shops/events.csv",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001",
+      "accepted": true,
+      "evidence": "Distinct jeweler consignment purchased330gp, gifted and worn by Fenar; +1 to natural weapons/unarmed, no bonus to greataxe, no attunement.",
+      "before": "Purse264386cp, Fenar no insignia.",
+      "after": "D324~18:20 Orsaven commercial district. V explicitly purchased three chosen pieces at negotiated prices: fitted mundane breastplate for Fenar340gp, original consigned +1 Shield for Cirren385gp, original consigned Insignia of Claws for Fenar330gp. Total1055gp actually paid, purse3368gp8sp6cp→2313gp8sp6cp once. Both companions willingly accept gifts and equip; Fenar medium armor AC14→16 (14+Dex2, no Stealth disadvantage, Rage and Fast Movement compatible); Insignia no attunement, +1 attack and damage on actual natural weapons/unarmed strikes, magical, no bonus on mechanical greataxe visually Double-Claw Rend. Fenar Beast claws/fangs +9 to hit, 1d6+6 base on each hit, 1d6+8 while raging when Strength melee qualifies; Double-Claw Rend stays +8,1d12+5 base/1d12+7 raging, no extra attacks. Cirren +1 Shield no attunement, replaces equipped mundane shield, AC18→19; old ordinary shield retained in Cirren custody unequipped (not sold or traded). No attunement changes. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Cirren51/51 AC19 HD6/6 slots4/2/3 CD2/2 Boots of Elvenkind; Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40; Mara, coach and four horses healthy. Rest3/6, rations21/feed28, no overnight. Prior recovered loot sold and resupply paid once. Magic consignments sold to V and gifted, no remaining physical shop lot/reoffer. Forecaster's Cloak36 and Bloodhound Amulet240 remain separate unchanged offers. Serpent Dart, Hadiya's Handy Quill, Weaving Wasp Needles follow-ups unconfirmed. Two residential leads: 1450gp merchant townhouse without four-horse stabling; 2250gp Old Crown Ward townhouse with four bedrooms, study, kitchen, gated carriage courtyard, four-horse stabling, secure storage. Both uninspected, no purchase/hold/deposit, title/condition/terms to be checked. Lodging unarranged. Sealed diplomatic invitation and limited credentials V-held; frontier commission remaining300+1300, scholarly300/800, Kestrel custody unchanged; Elara in Caereth, Severin assent unverified. No further quest, travel or purchase. Dice delegated. Await V next choice.",
+      "owner_paths": [
+        "trackers/csv/v/v-inventory.csv",
+        "trackers/csv/fenar/fenar-inventory.csv",
+        "trackers/csv/fenar/fenar-character.csv",
+        "trackers/csv/fenar/fenar-features.csv",
+        "data/characters/events.csv",
+        "trackers/csv/magic-shops/stock.csv",
+        "trackers/csv/magic-shops/dealers.csv",
+        "trackers/csv/magic-shops/events.csv",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
