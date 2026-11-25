@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-HALVESSA-VEILED-PROBE-PARTY-HELP-CORRECTION-001",
+  "base_commit": "6efb89678e3e714a1b97981f0931ee7211d0a73f",
+  "source_checkpoint": "D327-1020-ORSAVEN-HALVESSA-VEILED-PROBE-FAILED-CLARIFICATION-PENDING-001",
+  "destination_checkpoint": "D327-1020-ORSAVEN-HALVESSA-PROBE-HELP-CORRECTED-INTRODUCTION-OFFER-PENDING-001",
+  "source_evidence": "Player asked 'I dont get advantage from my companions?' and explicitly accepted the DM's proposed correction with 'Yes'. Apply standing Day173 proactive party Help (campaign/continuity/rules-dm-procedures.md @6d9f223bc6e40d716ac16f5108166578f31a7c91). Mara, present, informed, having proposed the legitimate social visit and introduced the river holdings, willingly reinforces the commercial pretext without pledging illegal business: 'We have mills and berths to keep busy. Knowing when cargo can move is worth more to us than a well-written petition.' This replaces her passive participation in the original attempt; no additional V words/actions. Correct SAME Deception check, not a retry: retain original d20 face1 (PLAY-REC-D327-V-HALVESSA-VEILED-PROBE-KNACK-PENDING-001), missing advantage d20 face15 genuinely executed in user-visible Python receipt batch 316ae94ae4188a9d4e0fa169e7a24654. Higher15+10=25 vs fixed DC17 guarded hint/DC22 concrete corroborating statement and proposed introduction, both succeed. Prior conditional Knack face2 and Past Life face1 remain immutable historical evidence but are unnecessary and superseded for the corrected check; neither applies, no new feature rolls. Psi remains4/6, restore Past Life1/3→2/3, no other spend. Supersede only the failed check and resulting guarded clarification from PLAY-REC-D327-V-HALVESSA-VEILED-PROBE-KNACK-PENDING-001 and PLAY-REC-D327-HALVESSA-VEILED-PROBE-FINAL-FAILURE-001; retain original chunks for audit, apply this causal correction after them, no second conversation or duplicate recovery. Halvessa now judges the party plausible business contacts and elects to say privately in the existing reception audience: 'Sallow has standing instructions from me. Some of the goods we buy are landed before assessment. I know the duties are not included in our bills. Tavosk understands how the inspections work. If you are interested in a similar arrangement, I could have Sallow introduce you to him.' Concrete firsthand statement consistent with fixed PATRON knowing undeclared luxury purchases and her own authority over substantial commitments (dm-ferry-setup.md @72d5bde0ab9d84d89fdc63f20cf9c7bfb63b1516). Not an admission of specific delegate payment knowledge, murder complicity, proof of an enacted exemption or actual exclusivity investment; proposed introduction only, no meeting scheduled, no new attendee, no commitment or evidence disclosure by V. Cirren/Fenar and Mara hear it directly. The Watch has no new statement yet. Await V response in same moment.",
+  "pending_action": "D327~10:20 House Veldrake townhouse reception room, Old Crown Ward, Orsaven. Corrected original commercial probe succeeds with Mara's Help: advantage d20s1/15 take15+10=25, DC17/22 met. Halvessa voluntarily acknowledges that Sallow acts on her standing instructions and that some goods are landed before assessment, with duties not included in bills; she offers a possible Sallow introduction to Tavosk. V chooses reply to her offer; no introduction arranged, promise, purchase, accusation, evidence revelation, separate roll or movement. V/Mara/Cirren/Fenar present, coach/four horses at Copper Hart. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife2/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara/animals healthy. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and 14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes; Cirren signed receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; no lawful corroboration, recovery of paymaster48gp, warrant, arrest, restitution, or notification verified. Quenwood life sentence upheld/assets frozen. Halvessa's statement heard by party only; no proof of other actors' murder involvement. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged. No new game time or expenditure.",
+  "depends_on": [
+    "PLAY-REC-D327-HALVESSA-VEILED-PROBE-FINAL-FAILURE-001",
+    "PLAY-REC-D327-V-HALVESSA-VEILED-PROBE-KNACK-PENDING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "316ae94ae4188a9d4e0fa169e7a24654",
+        "rolls": [
+          {
+            "id": "D327.V.Halvessa.veiled_commercial_probe.corrected_advantage_second_d20",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D327-V-HALVESSA-PROBE-HELP-CORRECTION-001",
+      "accepted": true,
+      "evidence": "Player asked 'I dont get advantage from my companions?' and explicitly accepted the DM's proposed correction with 'Yes'. Apply standing Day173 proactive party Help (campaign/continuity/rules-dm-procedures.md @6d9f223bc6e40d716ac16f5108166578f31a7c91). Mara, present, informed, having proposed the legitimate social visit and introduced the river holdings, willingly reinforces the commercial pretext without pledging illegal business: 'We have mills and berths to keep busy. Knowing when cargo can move is worth more to us than a well-written petition.' This replaces her passive participation in the original attempt; no additional V words/actions. Correct SAME Deception check, not a retry: retain original d20 face1 (PLAY-REC-D327-V-HALVESSA-VEILED-PROBE-KNACK-PENDING-001), missing advantage d20 face15 genuinely executed in user-visible Python receipt batch 316ae94ae4188a9d4e0fa169e7a24654. Higher15+10=25 vs fixed DC17 guarded hint/DC22 concrete corroborating statement and proposed introduction, both succeed. Prior conditional Knack face2 and Past Life face1 remain immutable historical evidence but are unnecessary and superseded for the corrected check; neither applies, no new feature rolls. Psi remains4/6, restore Past Life1/3→2/3, no other spend. Supersede only the failed check and resulting guarded clarification from PLAY-REC-D327-V-HALVESSA-VEILED-PROBE-KNACK-PENDING-001 and PLAY-REC-D327-HALVESSA-VEILED-PROBE-FINAL-FAILURE-001; retain original chunks for audit, apply this causal correction after them, no second conversation or duplicate recovery. Halvessa now judges the party plausible business contacts and elects to say privately in the existing reception audience: 'Sallow has standing instructions from me. Some of the goods we buy are landed before assessment. I know the duties are not included in our bills. Tavosk understands how the inspections work. If you are interested in a similar arrangement, I could have Sallow introduce you to him.' Concrete firsthand statement consistent with fixed PATRON knowing undeclared luxury purchases and her own authority over substantial commitments (dm-ferry-setup.md @72d5bde0ab9d84d89fdc63f20cf9c7bfb63b1516). Not an admission of specific delegate payment knowledge, murder complicity, proof of an enacted exemption or actual exclusivity investment; proposed introduction only, no meeting scheduled, no new attendee, no commitment or evidence disclosure by V. Cirren/Fenar and Mara hear it directly. The Watch has no new statement yet. Await V response in same moment.",
+      "before": "Final failed probe14/DC17 with missing Help, Psi4/6 PastLife1/3; guarded clarification pending.",
+      "after": "Corrected advantage25/DC17 and DC22; Psi4/6 PastLife2/3. Halvessa acknowledges knowingly buying pre-assessment goods through Sallow and proposes introduction to Tavosk; V reply pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-character.csv"
+      ]
+    }
+  ]
+}
