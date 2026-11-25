@@ -30,50 +30,48 @@
       "stock_reservation_reconciliation": "Released completed pickup holds and reserved confirmed Day327 order exactly once."
     },
     "Miregate": {
-      "source": "D326-ESTATE-CATCHUP-001",
-      "previous_full_close": 319,
+      "source": "D326-RIVER-REPLIES",
+      "previous_full_close": 325,
       "new_full_close": 325,
-      "current_day": "Day326 through approximately17:15 only",
+      "current_day": "Day 326 through approximately 18:35",
       "daily_work_posted_through": 326,
       "current_day_full_close": false,
-      "verification": "PASS: final owner blob readback, corrected stock custody, estate ledger, Blackthorn operations/tax and32 unit tests; CI report values verified.",
+      "verification": "Economic and operational owner blobs read back by SHA and matched independently. Estate replay passed, common payday and stock checked. Both lane folders contain only their placeholders.",
       "verified_balances": {
-        "cash_gp": "184.29",
-        "liabilities_gp": "74.78",
-        "available_gp": "109.51",
-        "receivables_gp": "0.00"
-      },
-      "verified_owner_commit": "2ab1e52bb1f50cb5a4c973266120b0fb5aef2a6c",
-      "verified_cutoff_commit": "d62a0b1eaa46628291020466248579eff7b3c4bc",
-      "generated_report_commit": "fbb345245c534e0e949124d7707392f33c27ac8c",
-      "last_accounted_day": 326,
-      "accounted_time": "Day326 approximately17:15; elapsed daytime only",
-      "next_regular_payday": 327,
-      "next_tax_and_carrow_due": 362,
-      "open_current_interval": "Day326 evening/night; no later activity posted."
-    },
-    "Reedbed": {
-      "source": "D326-ESTATE-CATCHUP-001",
-      "previous_full_close": 319,
-      "new_full_close": 325,
-      "current_day": "Day326 through approximately17:15 only",
-      "daily_work_posted_through": 326,
-      "current_day_full_close": false,
-      "verification": "PASS: final owner blob readback, corrected stock custody, estate ledger, Blackthorn operations/tax and32 unit tests; CI report values verified.",
-      "verified_balances": {
-        "cash_gp": "145.40",
-        "liabilities_gp": "55.00",
-        "available_gp": "90.40",
+        "cash_gp": "459.29",
+        "liabilities_gp": "88.05",
+        "available_gp": "371.24",
         "receivables_gp": "1.14"
       },
-      "verified_owner_commit": "2ab1e52bb1f50cb5a4c973266120b0fb5aef2a6c",
-      "verified_cutoff_commit": "d62a0b1eaa46628291020466248579eff7b3c4bc",
-      "generated_report_commit": "fbb345245c534e0e949124d7707392f33c27ac8c",
+      "verified_owner_commit": "270f6a946de24aae8d27277c6104802506ac5f8f",
       "last_accounted_day": 326,
-      "accounted_time": "Day326 approximately17:15; elapsed daytime only",
+      "accounted_time": "Day 326 approximately 18:35; only elapsed activities",
       "next_regular_payday": 327,
       "next_tax_and_carrow_due": 362,
-      "open_current_interval": "Day326 evening/night; no later activity posted."
+      "open_current_interval": "Day 326 after approximately 18:35 through close.",
+      "scope": "Day 244–326 supplementary daily customer response and order reconciliation. Underlying operating closes continue through 325."
+    },
+    "Reedbed": {
+      "source": "D326-RIVER-REPLIES",
+      "previous_full_close": 325,
+      "new_full_close": 325,
+      "current_day": "Day 326 through approximately 18:35",
+      "daily_work_posted_through": 326,
+      "current_day_full_close": false,
+      "verification": "Economic and operational owner blobs read back by SHA and matched independently. Estate replay passed, common payday and stock checked. Both lane folders contain only their placeholders.",
+      "verified_balances": {
+        "cash_gp": "410.70",
+        "liabilities_gp": "65.91",
+        "available_gp": "344.79",
+        "receivables_gp": "1.14"
+      },
+      "verified_owner_commit": "270f6a946de24aae8d27277c6104802506ac5f8f",
+      "last_accounted_day": 326,
+      "accounted_time": "Day 326 approximately 18:35; only elapsed activities",
+      "next_regular_payday": 327,
+      "next_tax_and_carrow_due": 362,
+      "open_current_interval": "Day 326 after approximately 18:35 through close.",
+      "scope": "Day 244–326 supplementary daily customer response and order reconciliation. Underlying operating closes continue through 325."
     },
     "Old Distributary Fort": {
       "source": "D326-ESTATE-CATCHUP-001",
