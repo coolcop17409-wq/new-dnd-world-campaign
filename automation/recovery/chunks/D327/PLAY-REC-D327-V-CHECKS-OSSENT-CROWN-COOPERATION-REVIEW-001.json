@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-CHECKS-OSSENT-CROWN-COOPERATION-REVIEW-001",
+  "base_commit": "138f6405ce0100f4f76cab56c8985262b3f6f2df",
+  "source_checkpoint": "D327-1616-ORSAVEN-DESEN-HARTHVALE-NEXT-STEP-ADVICE-PENDING-001",
+  "destination_checkpoint": "D327-1645-ORSAVEN-ROYAL-CORRESPONDENCE-PROPOSAL-CONSIDERED-DECISION-PENDING-001",
+  "source_evidence": "Day327~16:45 exact player 'OK lets see if the royal court has considered the cooperation with crownsunder' accepts Cirren's immediately preceding suggestion to give Desen his copies and directs an ordinary inquiry at the royal court about the already delivered Crownsunder cooperation proposal. Desen supervises faithful copies of V-held Sallow signed referral and Tavosk signed6gp generic receipt, retains the copies in the investigation file, and returns both originals to V; not an original surrender, sworn deposition or new legal finding. Party walks together to the previously visited royal correspondence receiving office, presents existing limited messenger credentials/receipt, and asks for status; no fee, new audience, threat or player commitment. Relevant authority verified from D326 handshake and reciprocal safeguards chunks (00e22319a5fb51731a3004072911c1328f122c93 and 0c6a35806911479aa62f8c318a689b05d987669c), prep/dm-only/dm-orsaven-framework.md @867ef9128ee431adba75e6d8b771a3b71a876107 and world/politics/human-states.md @77333e27aa5946858c824352e71af893aa6e1b96. DM sets an independent Crown review progress d20 before rolling: 1–5 awaiting substantive review; 6–14 considered but undecided; 15–20 authority for limited exploratory talks only, never treaty or recognition. Actual user-visible Python secrets receipt 334bb876654ea4d3074bf603eb78962b d20 face6, considered but undecided. New offscreen development established in play from councillor's prior commitment, elapsed day, and actual roll: the frontier-security councillor has presented his favorable recommendation and confidential material for royal council review; the proposal has received initial substantive consideration, but no final royal instruction or authorization has been issued. Authorized correspondence staff verify status to the accredited limited messenger, stating 'The councillor's recommendation has been considered. No decision has yet been issued. We will send word to the Copper Hart when the Crown has given its instructions.' No disclosure of individual votes, secret proceedings, independent authentication of Kestrel allegations, royal assent, claim suspension/waiver, direct liaison, official timetable, signed reply, treaty, funding or troop commitment. Existing Ossent policy remains; both crowns retain their claims. No additional V check, feature expenditure, food/feed charge or rest. Party at correspondence office, V chooses next action.",
+  "pending_action": "Day327~16:45 royal correspondence receiving office, Orsaven. V/Mara/Cirren/Fenar together. Desen now holds faithful copies of Sallow referral and Tavosk receipt; V retains both originals and notes. Crown progress d20 face6 under predeclared thresholds: councillor's favorable recommendation on reciprocal verified frontier warnings/possible joint inquiries has received initial consideration, but no final instruction, recognition, claim waiver, formal authorization, direct liaison or treaty. Staff will notify Copper Hart upon actual decision; no promised date or received reply. V chooses next action. Paid6gp one advance Orsaven berth inspection notice and Harthvale introduction reply pending at Copper Hart; no confirmed dispatch or delivery. Purse2041gp8sp6cp. V48/48 AC19 HD7/7 Sup4/4 Psi3/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Rations21/feed28 LR2/6. Desen fully briefed on afternoon admissions and6gp payment; retains original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, new copies of referral and receipt; V retains notes and both new originals; Cirren signed evidence receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. No specific additional contraband or Harthvale murder involvement proven. Existing Kestrel originals/custody and confidential copies, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-ASKS-DESEN-HARTHVALE-NEXT-STEP-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "334bb876654ea4d3074bf603eb78962b",
+        "rolls": [
+          {
+            "id": "D327.Ossent.Crown.preliminary_reciprocal_warning_review",
+            "sides": 20,
+            "faces": [
+              6
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D327-DESEN-RECEIVES-REFERRAL-RECEIPT-COPIES-001",
+      "accepted": true,
+      "evidence": "Player's OK accepts Cirren's proposed copies. Desen makes faithful copies of Sallow referral and Tavosk receipt for case file, returns originals to V; no original transfer.",
+      "before": "Two new original papers V-held; Desen asked for permission to copy.",
+      "after": "Desen holds faithful copies; originals remain V-held.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/npcs.md"
+      ]
+    },
+    {
+      "event_id": "D327-V-CHECKS-OSSENT-CROWN-COOPERATION-REVIEW-001",
+      "accepted": true,
+      "evidence": "Day327~16:45 exact player 'OK lets see if the royal court has considered the cooperation with crownsunder' accepts Cirren's immediately preceding suggestion to give Desen his copies and directs an ordinary inquiry at the royal court about the already delivered Crownsunder cooperation proposal. Desen supervises faithful copies of V-held Sallow signed referral and Tavosk signed6gp generic receipt, retains the copies in the investigation file, and returns both originals to V; not an original surrender, sworn deposition or new legal finding. Party walks together to the previously visited royal correspondence receiving office, presents existing limited messenger credentials/receipt, and asks for status; no fee, new audience, threat or player commitment. Relevant authority verified from D326 handshake and reciprocal safeguards chunks (00e22319a5fb51731a3004072911c1328f122c93 and 0c6a35806911479aa62f8c318a689b05d987669c), prep/dm-only/dm-orsaven-framework.md @867ef9128ee431adba75e6d8b771a3b71a876107 and world/politics/human-states.md @77333e27aa5946858c824352e71af893aa6e1b96. DM sets an independent Crown review progress d20 before rolling: 1–5 awaiting substantive review; 6–14 considered but undecided; 15–20 authority for limited exploratory talks only, never treaty or recognition. Actual user-visible Python secrets receipt 334bb876654ea4d3074bf603eb78962b d20 face6, considered but undecided. New offscreen development established in play from councillor's prior commitment, elapsed day, and actual roll: the frontier-security councillor has presented his favorable recommendation and confidential material for royal council review; the proposal has received initial substantive consideration, but no final royal instruction or authorization has been issued. Authorized correspondence staff verify status to the accredited limited messenger, stating 'The councillor's recommendation has been considered. No decision has yet been issued. We will send word to the Copper Hart when the Crown has given its instructions.' No disclosure of individual votes, secret proceedings, independent authentication of Kestrel allegations, royal assent, claim suspension/waiver, direct liaison, official timetable, signed reply, treaty, funding or troop commitment. Existing Ossent policy remains; both crowns retain their claims. No additional V check, feature expenditure, food/feed charge or rest. Party at correspondence office, V chooses next action.",
+      "before": "Councillor favorable recommendation, no verified Crown consideration or reply; party at Watch annex.",
+      "after": "Party at royal correspondence receiving office; initial consideration confirmed via genuine d20 face6, final royal decision pending, no binding commitment.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
