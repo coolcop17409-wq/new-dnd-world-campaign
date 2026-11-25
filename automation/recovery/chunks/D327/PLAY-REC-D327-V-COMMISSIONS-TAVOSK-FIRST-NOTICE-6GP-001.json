@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-COMMISSIONS-TAVOSK-FIRST-NOTICE-6GP-001",
+  "base_commit": "24bd685d936926bb5d09ca780f0c89b581e84179",
+  "source_checkpoint": "D327-1539-ORSAVEN-TAVOSK-FEE-AGREEABLE-COMMISSION-PENDING-001",
+  "destination_checkpoint": "D327-1540-ORSAVEN-TAVOSK-FIRST-NOTICE-COMMISSIONED-DELIVERY-ADDRESS-PENDING-001",
+  "source_evidence": "D327~15:40 exact player 'Now' answers Tavosk's explicit question whether to commission the first advance inspection notice now or wait for a consignment, following V's approval of the quoted6gp price. Authorizes this specific commission and payment only. V pays Tavosk6gp from personal purse2047gp8sp6cp→2041gp8sp6cp, no additional fees, continuing agreement, consignment, false declaration, shipment or signature. Tavosk accepts the six gold pieces and confirms he will provide the first advance notice concerning an Orsaven berth inspection when he obtains it. He voluntarily issues a brief signed receipt, 'Received six gold pieces from Lord Vaishnavi for commercial information. Noldren Tavosk.' Generic wording does not itself identify confidential inspection information; all three companions witnessed the actual context and payment. Receipt offered and V retains it as ordinary transaction custody. Tavosk asks where he should deliver the notice. No inspection date, actual warning, completed service, delivery address, new payer identity, immunity, fee schedule or future result established. Cirren's earlier advice against commitment remains his own view; he observes this transaction without endorsing it. No additional roll or feature expenditure. Desen has not yet learned the afternoon developments or payment. Await V reply.",
+  "pending_action": "Day327~15:40 Noldren Tavosk's petition office, Exchange district, Orsaven. V/Mara/Cirren/Fenar present. V paid6gp for one advance notice of an Orsaven berth inspection; Tavosk accepted and issued generic signed6gp commercial-information receipt V-held. Service pending; no actual inspection, advance warning, shipment, declaration, continuing agreement, new fee or delivery address. Tavosk asks where to send notice. V reply pending. Purse2041gp8sp6cp. V48/48 AC19 HD7/7 Sup4/4 Psi3/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes, Sallow signed referral and new Tavosk receipt; Cirren signed evidence receipt. Halvessa admission reported; afternoon Sallow/Harthvale/Tavosk developments not yet reported. Harthvale reply destination Copper Hart; dispatch/receipt/meeting pending. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-TAVOSK-INITIAL-FEE-AGREEABLE-PAYMENT-PENDING-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Explicit player authorization of quoted one-time fee and willing NPC acceptance; no uncertain check or delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D327-V-TAVOSK-FIRST-NOTICE-6GP-PAYMENT-001",
+      "accepted": true,
+      "evidence": "D327~15:40 exact player 'Now' answers Tavosk's explicit question whether to commission the first advance inspection notice now or wait for a consignment, following V's approval of the quoted6gp price. Authorizes this specific commission and payment only. V pays Tavosk6gp from personal purse2047gp8sp6cp→2041gp8sp6cp, no additional fees, continuing agreement, consignment, false declaration, shipment or signature. Tavosk accepts the six gold pieces and confirms he will provide the first advance notice concerning an Orsaven berth inspection when he obtains it. He voluntarily issues a brief signed receipt, 'Received six gold pieces from Lord Vaishnavi for commercial information. Noldren Tavosk.' Generic wording does not itself identify confidential inspection information; all three companions witnessed the actual context and payment. Receipt offered and V retains it as ordinary transaction custody. Tavosk asks where he should deliver the notice. No inspection date, actual warning, completed service, delivery address, new payer identity, immunity, fee schedule or future result established. Cirren's earlier advice against commitment remains his own view; he observes this transaction without endorsing it. No additional roll or feature expenditure. Desen has not yet learned the afternoon developments or payment. Await V reply.",
+      "before": "Purse2047gp8sp6cp; prospective first-notice commission6gp not yet authorized or paid.",
+      "after": "Purse2041gp8sp6cp;6gp paid to Tavosk for first advance notice, service pending; V holds signed generic receipt, delivery address pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-character.csv"
+      ]
+    }
+  ]
+}
