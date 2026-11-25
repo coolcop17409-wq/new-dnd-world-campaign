@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-PARTY-ADVISES-HARTHVALE-APPROACH-001",
+  "base_commit": "d578b5bbd1c59c253f6c378ab543b3b3d2fd9e2b",
+  "source_checkpoint": "D327-1548-ORSAVEN-EXCHANGE-PARTY-REGROUP-ASSESSMENT-PENDING-001",
+  "destination_checkpoint": "D327-1549-ORSAVEN-EXCHANGE-HARTHVALE-ADVICE-NEXT-ACTION-001",
+  "source_evidence": "Day327~15:49 exact player 'Demeric Harthvale… what to do about him?' asks companions for advice during the ongoing regroup in the Exchange district. Mara advises accepting the already requested introduction if offered, without sending another request or promising a deal; letting Harthvale explain what the association actually offers and whether he directs the broker or authorizes payments, and seeking a written proposal if voluntarily offered. Cirren advises first briefing Desen with the afternoon evidence, allowing him to determine whether an additional meeting is necessary and whether official intervention is justified; Harthvale's leadership and commercial association alone do not establish criminal knowledge, involvement in killings, or responsibility for every member's conduct. Fenar advises finding out whether Harthvale uses threats or violence against crews and witnesses, and not confronting him without a concrete reason. These are independent companion recommendations from actual player-known information, not new discoveries or commitments. No report, invitation received, meeting scheduled, new inquiry, surveillance, agreement, payment, or dice. All party counters, pending correspondence and custody unchanged. V chooses next action.",
+  "pending_action": "Day327~15:49 quieter side street in Exchange district, Orsaven. V/Mara/Cirren/Fenar regrouped; V asks advice about Harthvale. Companions recommend report to Desen first, keep pending invitation open, establish Harthvale's own knowledge, direction and conduct if actual meeting occurs, and avoid unnecessary promises or confrontation. No new fact about Harthvale's guilt, new contact, Watch report, travel, payment or roll. V chooses next action. Paid6gp single advance inspection notice for Orsaven berth inspection, delivery Copper Hart pending; broker-mediated Harthvale introduction reply Copper Hart pending. No additional specific contraband or murder involvement proven. Purse2041gp8sp6cp. V48/48 AC19 HD7/7 Sup4/4 Psi3/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes, Sallow signed referral and Tavosk signed6gp generic receipt; Cirren signed evidence receipt. Halvessa admission reported; afternoon Sallow/Harthvale/Tavosk statements and payment not yet reported. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-REGROUPS-AFTER-TAVOSK-ASSESSMENT-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Companion advice during ongoing discussion; no uncertain action or delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D327-PARTY-ADVISES-HARTHVALE-APPROACH-001",
+      "accepted": true,
+      "evidence": "Day327~15:49 exact player 'Demeric Harthvale… what to do about him?' asks companions for advice during the ongoing regroup in the Exchange district. Mara advises accepting the already requested introduction if offered, without sending another request or promising a deal; letting Harthvale explain what the association actually offers and whether he directs the broker or authorizes payments, and seeking a written proposal if voluntarily offered. Cirren advises first briefing Desen with the afternoon evidence, allowing him to determine whether an additional meeting is necessary and whether official intervention is justified; Harthvale's leadership and commercial association alone do not establish criminal knowledge, involvement in killings, or responsibility for every member's conduct. Fenar advises finding out whether Harthvale uses threats or violence against crews and witnesses, and not confronting him without a concrete reason. These are independent companion recommendations from actual player-known information, not new discoveries or commitments. No report, invitation received, meeting scheduled, new inquiry, surveillance, agreement, payment, or dice. All party counters, pending correspondence and custody unchanged. V chooses next action.",
+      "before": "Group regrouped in Exchange side street; V next action pending.",
+      "after": "Companions discuss approach to Harthvale, recommend brief Desen and preserve pending invitation; V next action pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
