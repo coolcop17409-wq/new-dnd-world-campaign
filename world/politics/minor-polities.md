@@ -14,7 +14,7 @@
 
 ## Arden
 
-- **Bracken March** — *Contested.* A chain of hamlets elects a marcher reeve to maintain woodland lanes and levy warning beacons. Crownsunder and its neighbors dispute the boundary rents.
+- **Bracken March** — *Contested.* A chain of hamlets elects a marcher reeve to maintain woodland lanes and levy warning beacons. The march lies on the western Dominion–Oathmark frontier. Its boundary rents are disputed; the claimant remains unidentified.
 - **Lornford** — *Contested.* The ford toll is shared between a town council and nearby farmsteads. Its ferry rights matter more in flood season, when the high road becomes unreliable.
 - **The Bannerfold Cantons** — *Contested.* Each canton sends a standard bearer to a seasonal moot. The banners settle militia rotations and pasture access, while rival lords contest old land grants.
 - **Northmere Freeholds** — *Contested.* Households hold strips in common and choose wardens for the winter stores. Their chief concern is preserving access to northern grazing and timber.
@@ -140,7 +140,7 @@
 - **Crownward Manors** — *Autonomous under **Crownsunder**.* Manor courts retain local authority over rents and field schedules under the Crownsunder crown. Neighboring freeholders contest the extent of their old grants.
 - **The Sable Toll** — *Autonomous under **Crownsunder**.* A toll charter funds a maintained crossing and road patrol. Carters accept the fee when the bridge is kept sound and the account is public.
 - **Veyrmark Assembly** — *Autonomous under **Veyran Commonwealth**.* Representatives of the border market towns meet to apportion road costs and petitions to Veyrhold. Their assembly has negotiating power, not independent foreign policy.
-- **Millstone Charter** — *Autonomous under **Veyran Commonwealth**.* Mill owners control grinding schedules and water rights by charter. The Dominion values the flour supply but audits the charter closely.
+- **Millstone Charter** — *Autonomous under **Veyran Commonwealth**.* Mill owners control grinding schedules and water rights by charter. The Veyran Commonwealth values the flour supply and audits the charter.
 - **Dornal Bellhouses** — *Autonomous under **Drusk**.* Bell towers warn river towns of floods and hostile boats. Bell keepers exchange signals under a common schedule but each town controls its own harbor.
 - **Allhaven Warehouse Quarter** — *Autonomous under **Allhaven**.* Warehouse guilds elect inspectors and share fire crews under the city charter. Merchants compete for space while the city guarantees common measures.
 - **Dunwall Parish Ring** — *Autonomous under **Dunwall Crossing (Veyran occupation)**.* Parishes maintain a ring of roads and ferries around occupied Dunwall. The Veyran administration depends on local labor but residents dispute its levies.
