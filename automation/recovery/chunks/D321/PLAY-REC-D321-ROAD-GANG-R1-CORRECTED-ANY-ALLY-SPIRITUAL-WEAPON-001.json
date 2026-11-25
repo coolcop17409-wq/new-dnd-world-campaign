@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D321-ROAD-GANG-R1-CORRECTED-ANY-ALLY-SPIRITUAL-WEAPON-001",
+  "base_commit": "ada211138cbcce0eedb2a23f32d7654989f1be9f",
+  "source_checkpoint": "D321-1031-OSSENT-ROAD-GANG-R2-V-TURN-001",
+  "destination_checkpoint": "D321-1031-OSSENT-ROAD-GANG-R2-V-TURN-CORRECTED-001",
+  "source_evidence": "Player exact 'Bonus Hide, then action surge to attack BC. Then hold my action to attack when any ally gets into melee. Tell Cirren, spiritual weapon, and toll the dead. Next turn spirit guardians.' Existing saved PLAY-REC-D321-ROAD-GANG-R1-V-READY-CIRREN-FENAR-ROUND-001 records materially different instruction (Cirren immediately casts Spirit Guardians; only Cirren melee trigger). Current player's express instructions control and are treated as a correction of that conflicting R1 branch, preserving original initiative, positions and identical V opening roll from existing batch 220f970531bf09609c3face83920cf20, not duplicating receipt/Action Surge or claiming a new roll. V moves into southern brush(20,-15), BA Hide face12+11=23, concealed; Action Surge thrown Psychic Blade adv6,19+9=28 hit AC15, damage d6face2+4+Sneak2d6faces3,1=10 psychic, C65→55, V revealed. V main action Ready captain attack on either ally entering melee, interpreted from player's continuing captain focus; adopted Ready exception. Supersede all downstream effects/rolls of conflicting branch starting after this opening; old batch 4bf740622517b33c3db6145146eef2bc historical for superseded branch only, not live damage. New genuine visible Python batch 701b2fc2e127ccf3704813b36e721b4e: Cirren moves to(35,10), casts Spiritual Weapon BA beside captain at(55,0), second-level slot3→2; melee spell face2+8=10 misses AC15. Toll the Dead WIS face6+0=6 vsDC16 fails, wounded target 2d12 faces7,12=19 necrotic, C55→36. 2014 BA spell plus action cantrip legal, nonconcentration. No Spirit Guardians or 3rd-level slot used. Captain advances to(35,-10), throws two daggers at V; new genuine batch e7e872d5fe2ab1fdaa4ef18d821cc74f, faces9+5=14 and5+5=10 both miss AC19. Veteran Dash to(25,-15) adjacent V, no attack. Fenar advances to(30,-10), bonus Rage4→3, magical Beast claws and chooses Reckless; entering captain melee triggers V Ready. V thrown Psychic Blade disadvantage due adjacent Veteran, faces10,10+9=19 hits AC17 including half cover from Fenar between, d6face6+4=10 psychic, no Sneak Attack due disadvantage, C36→26. Reaction expended. Fenar paired double-claw rend (one mechanical greataxe) adv3,11+8=19 hits AC15, d12face6+7=13, C26→13; Beast claw adv12,9+8=20 hits d6face2+7=9, C13→4; extra claw adv16,1+8=24 hits d6face3+7=10, C4→0 dead, not nonlethal. Parry never improves outcome. Existing fixed gang morale: leader defeated, remaining 3 scouts and 2 thugs Dash60 west on turns to listed coordinates, no attacks; Veteran had already acted, remains adjacent to V. No damage to party or civilian. End R1, R2 starts; no fresh V choice. D321~10:31 Ossent frontier road, corrected end R1/start R2 V initiative22. Latest explicit player R1 instruction supersedes conflicting earlier saved alternative after common opening attack; original immutable chunk remains audit trail, do not apply old downstream damage/Spirit Guardians expenditure or expired ready. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; not hidden after R1 attack, R1 Ready triggered when Fenar engaged captain and reaction spent, refreshed at start R2, all current action/BA/reaction/movement30 available. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots; 2nd-level Spiritual Weapon active at(55,0), 1-minute duration beginning R1, nonconcentration, no Spirit Guardians cast yet; intends Spirit Guardians R2 if still sensible. Fenar(30,-10) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless advantage against her until her next turn, Shift3/3 inactive MP6/6 CLIMB40. Captain(35,-10) HP0/65 dead from Fenar's lethal claw attack, no Parry used. Veteran(25,-15) HP58/58 AC17 adjacent V and within melee distance Fenar, longsword/shortsword drawn, still active; remaining scouts and thugs independently broke off and fled west on their turns, not yet escaped final encounter: S1(100,25),S2(100,-25),S3(130,25) HP16 each AC13; T1(115,8),T2(115,-8) HP32 each AC11; all Dashes used R1, no attacks, no hidden foes. Initiative V22,Cirren21,dead C21 removed,Veteran20,Fenar18,Scouts6,Thugs3. Mara(-45,-5), merchant near(-35,0), coach(0,0), horse team x10–20, wool wagon(-40,0), horses x-30–-20 all uninjured. Road width20ft y±10, west positive x, south brush and broken scout walls provide cover only where lines obstructed. Purse3178gp4sp6cp, provisions9/feed12 before D321 full-day debit, LR0/6, encounter days2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No new quest, loot, XP posting or reward, original evidence/letters and commitments unchanged. V dice delegated, no limited feature use beyond Action Surge. Await R2 V decision.",
+  "pending_action": "D321~10:31 Ossent frontier road, corrected end R1/start R2 V initiative22. Latest explicit player R1 instruction supersedes conflicting earlier saved alternative after common opening attack; original immutable chunk remains audit trail, do not apply old downstream damage/Spirit Guardians expenditure or expired ready. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; not hidden after R1 attack, R1 Ready triggered when Fenar engaged captain and reaction spent, refreshed at start R2, all current action/BA/reaction/movement30 available. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots; 2nd-level Spiritual Weapon active at(55,0), 1-minute duration beginning R1, nonconcentration, no Spirit Guardians cast yet; intends Spirit Guardians R2 if still sensible. Fenar(30,-10) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless advantage against her until her next turn, Shift3/3 inactive MP6/6 CLIMB40. Captain(35,-10) HP0/65 dead from Fenar's lethal claw attack, no Parry used. Veteran(25,-15) HP58/58 AC17 adjacent V and within melee distance Fenar, longsword/shortsword drawn, still active; remaining scouts and thugs independently broke off and fled west on their turns, not yet escaped final encounter: S1(100,25),S2(100,-25),S3(130,25) HP16 each AC13; T1(115,8),T2(115,-8) HP32 each AC11; all Dashes used R1, no attacks, no hidden foes. Initiative V22,Cirren21,dead C21 removed,Veteran20,Fenar18,Scouts6,Thugs3. Mara(-45,-5), merchant near(-35,0), coach(0,0), horse team x10–20, wool wagon(-40,0), horses x-30–-20 all uninjured. Road width20ft y±10, west positive x, south brush and broken scout walls provide cover only where lines obstructed. Purse3178gp4sp6cp, provisions9/feed12 before D321 full-day debit, LR0/6, encounter days2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No new quest, loot, XP posting or reward, original evidence/letters and commitments unchanged. V dice delegated, no limited feature use beyond Action Surge. Await R2 V decision.",
+  "depends_on": [
+    "PLAY-REC-D321-ROAD-GANG-R1-V-READY-CIRREN-FENAR-ROUND-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "701b2fc2e127ccf3704813b36e721b4e",
+        "rolls": [
+          {
+            "id": "D321.R1.corrected.Cirren.spiritual_weapon.attack",
+            "sides": 20,
+            "faces": [
+              2
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Captain.toll_the_dead.wisdom",
+            "sides": 20,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Cirren.toll_the_dead.damage",
+            "sides": 12,
+            "faces": [
+              7,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "e7e872d5fe2ab1fdaa4ef18d821cc74f",
+        "rolls": [
+          {
+            "id": "D321.R1.corrected.Captain.dagger1.hit",
+            "sides": 20,
+            "faces": [
+              9
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Captain.dagger2.hit",
+            "sides": 20,
+            "faces": [
+              5
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.V.readied.psychic_blade.hit",
+            "sides": 20,
+            "faces": [
+              10,
+              10
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.V.readied.psychic_blade.damage",
+            "sides": 6,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Fenar.attack1.hit",
+            "sides": 20,
+            "faces": [
+              3,
+              11
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Fenar.attack1.damage",
+            "sides": 12,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Fenar.attack2.hit",
+            "sides": 20,
+            "faces": [
+              12,
+              9
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Fenar.attack2.damage",
+            "sides": 6,
+            "faces": [
+              2
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Fenar.attack3.hit",
+            "sides": 20,
+            "faces": [
+              16,
+              1
+            ]
+          },
+          {
+            "id": "D321.R1.corrected.Fenar.attack3.damage",
+            "sides": 6,
+            "faces": [
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D321-ROAD-GANG-R1-LATEST-PLAYER-INSTRUCTION-CORRECTION-001",
+      "accepted": true,
+      "evidence": "Player exact 'Bonus Hide, then action surge to attack BC. Then hold my action to attack when any ally gets into melee. Tell Cirren, spiritual weapon, and toll the dead. Next turn spirit guardians.' Existing saved PLAY-REC-D321-ROAD-GANG-R1-V-READY-CIRREN-FENAR-ROUND-001 records materially different instruction (Cirren immediately casts Spirit Guardians; only Cirren melee trigger). Current player's express instructions control and are treated as a correction of that conflicting R1 branch, preserving original initiative, positions and identical V opening roll from existing batch 220f970531bf09609c3face83920cf20, not duplicating receipt/Action Surge or claiming a new roll. V moves into southern brush(20,-15), BA Hide face12+11=23, concealed; Action Surge thrown Psychic Blade adv6,19+9=28 hit AC15, damage d6face2+4+Sneak2d6faces3,1=10 psychic, C65→55, V revealed. V main action Ready captain attack on either ally entering melee, interpreted from player's continuing captain focus; adopted Ready exception. Supersede all downstream effects/rolls of conflicting branch starting after this opening; old batch 4bf740622517b33c3db6145146eef2bc historical for superseded branch only, not live damage. New genuine visible Python batch 701b2fc2e127ccf3704813b36e721b4e: Cirren moves to(35,10), casts Spiritual Weapon BA beside captain at(55,0), second-level slot3→2; melee spell face2+8=10 misses AC15. Toll the Dead WIS face6+0=6 vsDC16 fails, wounded target 2d12 faces7,12=19 necrotic, C55→36. 2014 BA spell plus action cantrip legal, nonconcentration. No Spirit Guardians or 3rd-level slot used. Captain advances to(35,-10), throws two daggers at V; new genuine batch e7e872d5fe2ab1fdaa4ef18d821cc74f, faces9+5=14 and5+5=10 both miss AC19. Veteran Dash to(25,-15) adjacent V, no attack. Fenar advances to(30,-10), bonus Rage4→3, magical Beast claws and chooses Reckless; entering captain melee triggers V Ready. V thrown Psychic Blade disadvantage due adjacent Veteran, faces10,10+9=19 hits AC17 including half cover from Fenar between, d6face6+4=10 psychic, no Sneak Attack due disadvantage, C36→26. Reaction expended. Fenar paired double-claw rend (one mechanical greataxe) adv3,11+8=19 hits AC15, d12face6+7=13, C26→13; Beast claw adv12,9+8=20 hits d6face2+7=9, C13→4; extra claw adv16,1+8=24 hits d6face3+7=10, C4→0 dead, not nonlethal. Parry never improves outcome. Existing fixed gang morale: leader defeated, remaining 3 scouts and 2 thugs Dash60 west on turns to listed coordinates, no attacks; Veteran had already acted, remains adjacent to V. No damage to party or civilian. End R1, R2 starts; no fresh V choice. D321~10:31 Ossent frontier road, corrected end R1/start R2 V initiative22. Latest explicit player R1 instruction supersedes conflicting earlier saved alternative after common opening attack; original immutable chunk remains audit trail, do not apply old downstream damage/Spirit Guardians expenditure or expired ready. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; not hidden after R1 attack, R1 Ready triggered when Fenar engaged captain and reaction spent, refreshed at start R2, all current action/BA/reaction/movement30 available. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots; 2nd-level Spiritual Weapon active at(55,0), 1-minute duration beginning R1, nonconcentration, no Spirit Guardians cast yet; intends Spirit Guardians R2 if still sensible. Fenar(30,-10) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless advantage against her until her next turn, Shift3/3 inactive MP6/6 CLIMB40. Captain(35,-10) HP0/65 dead from Fenar's lethal claw attack, no Parry used. Veteran(25,-15) HP58/58 AC17 adjacent V and within melee distance Fenar, longsword/shortsword drawn, still active; remaining scouts and thugs independently broke off and fled west on their turns, not yet escaped final encounter: S1(100,25),S2(100,-25),S3(130,25) HP16 each AC13; T1(115,8),T2(115,-8) HP32 each AC11; all Dashes used R1, no attacks, no hidden foes. Initiative V22,Cirren21,dead C21 removed,Veteran20,Fenar18,Scouts6,Thugs3. Mara(-45,-5), merchant near(-35,0), coach(0,0), horse team x10–20, wool wagon(-40,0), horses x-30–-20 all uninjured. Road width20ft y±10, west positive x, south brush and broken scout walls provide cover only where lines obstructed. Purse3178gp4sp6cp, provisions9/feed12 before D321 full-day debit, LR0/6, encounter days2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No new quest, loot, XP posting or reward, original evidence/letters and commitments unchanged. V dice delegated, no limited feature use beyond Action Surge. Await R2 V decision.",
+      "before": "Conflicting saved R1 branch ended V44/Fenar50/Cirren42, Cirren slots4/3/2, C16HP, Ready never triggered. Common V opening retained.",
+      "after": "D321~10:31 Ossent frontier road, corrected end R1/start R2 V initiative22. Latest explicit player R1 instruction supersedes conflicting earlier saved alternative after common opening attack; original immutable chunk remains audit trail, do not apply old downstream damage/Spirit Guardians expenditure or expired ready. V(20,-15) HP48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; not hidden after R1 attack, R1 Ready triggered when Fenar engaged captain and reaction spent, refreshed at start R2, all current action/BA/reaction/movement30 available. Cirren(35,10) HP51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots; 2nd-level Spiritual Weapon active at(55,0), 1-minute duration beginning R1, nonconcentration, no Spirit Guardians cast yet; intends Spirit Guardians R2 if still sensible. Fenar(30,-10) HP59/59 AC14 HD6/6 Rage3/4 active magical Beast claws, Reckless advantage against her until her next turn, Shift3/3 inactive MP6/6 CLIMB40. Captain(35,-10) HP0/65 dead from Fenar's lethal claw attack, no Parry used. Veteran(25,-15) HP58/58 AC17 adjacent V and within melee distance Fenar, longsword/shortsword drawn, still active; remaining scouts and thugs independently broke off and fled west on their turns, not yet escaped final encounter: S1(100,25),S2(100,-25),S3(130,25) HP16 each AC13; T1(115,8),T2(115,-8) HP32 each AC11; all Dashes used R1, no attacks, no hidden foes. Initiative V22,Cirren21,dead C21 removed,Veteran20,Fenar18,Scouts6,Thugs3. Mara(-45,-5), merchant near(-35,0), coach(0,0), horse team x10–20, wool wagon(-40,0), horses x-30–-20 all uninjured. Road width20ft y±10, west positive x, south brush and broken scout walls provide cover only where lines obstructed. Purse3178gp4sp6cp, provisions9/feed12 before D321 full-day debit, LR0/6, encounter days2/5 consecutive2, no D321 night roll, D322 mandatory quiet. No new quest, loot, XP posting or reward, original evidence/letters and commitments unchanged. V dice delegated, no limited feature use beyond Action Surge. Await R2 V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-character.csv",
+        "trackers/csv/cirren/cirren-character.csv",
+        "trackers/csv/fenar/fenar-character.csv"
+      ]
+    }
+  ]
+}
