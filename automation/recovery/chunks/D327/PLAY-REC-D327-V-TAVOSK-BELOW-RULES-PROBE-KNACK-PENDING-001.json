@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-TAVOSK-BELOW-RULES-PROBE-KNACK-PENDING-001",
+  "base_commit": "ccee70231776badf28405777fc9a88c459ddfce9",
+  "source_checkpoint": "D327-1535-ORSAVEN-EXCHANGE-TAVOSK-AUDIENCE-OPENING-PENDING-001",
+  "destination_checkpoint": "D327-1536-ORSAVEN-TAVOSK-BELOW-RULES-PROBE-KNACK-PENDING-001",
+  "source_evidence": "D327~15:36 exact player 'I am looking to be below the rule, so under that the rules are not even there' continues the commercial pretext as a veiled inquiry about avoiding inspection requirements, not a purchase, agreement, fee, exposure of evidence or actual unlawful shipment. Mara willingly Helps by grounding the implication in genuine freight interests: 'We would rather have predictable arrangements than spend our days petitioning for exceptions.' Standing Day173 proactive Help; predeclared Deception+10 (CHA3+expertise6+Luckstone1), advantage, DC18 acknowledgement of private services and DC23 concrete offer. Actual user-visible Python secrets receipt batch 7e0a2d9b84d457fc342c3bee0c574b0a faces6,3; take6+10=16, initial failure by2. Pause before adjudicating final NPC disclosure for eligible Psi-Bolstered Knack d6 (needs2+ for18; cannot reach23 alone), Knowledge from a Past Life also available if V specifically authorizes. No feature expenditure yet, no second d20 or new check. Tavosk considers implication without yet giving an answer; no finalized refusal, confession, offer, suspicion of Watch investigation, hostility, or new commitment. V controls feature use; standing dice delegation does not authorize spending. All party counters and custody unchanged. Await V choice.",
+  "pending_action": "Day327~15:36 Noldren Tavosk's petition office, Exchange district, Orsaven. V/Mara/Cirren/Fenar present. V's veiled commercial probe with Mara Help advantage6/3+10=16 vs DC18 acknowledgement and DC23 concrete offer. Initial failure by2; pending V choice to use eligible Psi-Bolstered Knack d6, specifically authorize Past Life d6 or accept result; final NPC answer not adjudicated. No resources spent. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife2/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes and Sallow signed referral; Cirren signed receipt. Halvessa admission reported; afternoon Sallow/Harthvale/Tavosk developments not yet reported. Harthvale reply destination Copper Hart; dispatch/receipt/meeting pending. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-TAVOSK-PETITION-OFFICE-AUDIENCE-OPENING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "7e0a2d9b84d457fc342c3bee0c574b0a",
+        "rolls": [
+          {
+            "id": "D327.V.Tavosk.below_rules_commercial_probe.advantage",
+            "sides": 20,
+            "faces": [
+              6,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D327-V-TAVOSK-BELOW-RULES-PROBE-KNACK-PENDING-001",
+      "accepted": true,
+      "evidence": "D327~15:36 exact player 'I am looking to be below the rule, so under that the rules are not even there' continues the commercial pretext as a veiled inquiry about avoiding inspection requirements, not a purchase, agreement, fee, exposure of evidence or actual unlawful shipment. Mara willingly Helps by grounding the implication in genuine freight interests: 'We would rather have predictable arrangements than spend our days petitioning for exceptions.' Standing Day173 proactive Help; predeclared Deception+10 (CHA3+expertise6+Luckstone1), advantage, DC18 acknowledgement of private services and DC23 concrete offer. Actual user-visible Python secrets receipt batch 7e0a2d9b84d457fc342c3bee0c574b0a faces6,3; take6+10=16, initial failure by2. Pause before adjudicating final NPC disclosure for eligible Psi-Bolstered Knack d6 (needs2+ for18; cannot reach23 alone), Knowledge from a Past Life also available if V specifically authorizes. No feature expenditure yet, no second d20 or new check. Tavosk considers implication without yet giving an answer; no finalized refusal, confession, offer, suspicion of Watch investigation, hostility, or new commitment. V controls feature use; standing dice delegation does not authorize spending. All party counters and custody unchanged. Await V choice.",
+      "before": "Tavosk asks what V wants; no probe roll.",
+      "after": "V veiled probe with Mara Help initially16/DC18 and23; pending eligible feature choice; final answer not resolved; counters unchanged.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
