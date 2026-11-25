@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "through_day": 320,
+  "through_day": 326,
   "source_checkpoint_day": 230,
   "periods": [
     {
@@ -27,13 +27,13 @@
       "end_day": 361,
       "due_day": 362,
       "liability_id": "BT-TAX-272",
-      "through_day": 320,
-      "actual_income_gp": "1499.00",
-      "actual_expenses_gp": "802.78",
-      "management_payroll_gp": "343.00",
-      "upkeep_gp": "87.50",
-      "taxable_base_gp": "265.72",
-      "assessment_estimate_gp": "26.57",
+      "through_day": 326,
+      "actual_income_gp": "1634.00",
+      "actual_expenses_gp": "881.05",
+      "management_payroll_gp": "385.00",
+      "upkeep_gp": "98.21",
+      "taxable_base_gp": "269.74",
+      "assessment_estimate_gp": "26.97",
       "period_closed": false
     },
     {
