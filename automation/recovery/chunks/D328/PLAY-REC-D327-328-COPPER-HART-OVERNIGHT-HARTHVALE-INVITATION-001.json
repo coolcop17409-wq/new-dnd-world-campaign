@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-328-COPPER-HART-OVERNIGHT-HARTHVALE-INVITATION-001",
+  "base_commit": "a0ad19e8d05f4f9e28a4d78075470ace83616e0b",
+  "source_checkpoint": "D327-1645-ORSAVEN-ROYAL-CORRESPONDENCE-PROPOSAL-CONSIDERED-DECISION-PENDING-001",
+  "destination_checkpoint": "D328-0730-ORSAVEN-COPPER-HART-OVERNIGHT-HARTHVALE-INVITATION-PENDING-001",
+  "source_evidence": "Exact player 'Ok Lets rest for another day' authorizes routine return to established Copper Hart lodging and one additional quiet overnight, not an entire extra calendar day beyond the next morning, repeated short rests, further investigation or a future meeting. D327 evening group returns together to Copper Hart, pays established2gp package (two rooms, three non-V suppers, coach/four horses care/stabling) once: personal purse2041gp8sp6cp→2039gp8sp6cp; no ration/feed deduction, extra lunch cost or discretionary spend. Under standing Day245–246 pre-SR Psi Recovery rule V regains one die3→4/6 before planned rest, Psi Recovery1→0 then returns to1/1 on actual completed peaceful overnight. Full HP so no Second Wind. Safe-city overnight adds2 weighted LR units2→4/6; not a Long Rest, no extra SRs, PastLife1/3 and freeWhispers0/1 unchanged; no other missing short-rest resources, all party HP full. D328~07:30. Independent pending correspondence timing fixed before roll in visible script: Harthvale reply by dawn d20 1–5 pending/6–20 invitation; Tavosk availability d20 1–15 no notice available/16–20 notice received. Actual user-visible Python receipt batch7c61317a2fa64f0190f68c25d8beb509 faces11 and5, respectively. Harthvale invitation arrives via ordinary Sallow/broker communication at inn this morning, consistent with their promised reply and elapsed time: Sallow's signed note says 'Master Harthvale would be pleased to meet you. The route broker will receive you at his counting shop at eleven this morning and introduce you.' Meeting at existing counting shop (200ft uphill of storehouse1), offered D328 11:00, not actual attendance or presence guarantee. Sallow's correspondence establishes Harthvale's willingness to meet, not acceptance of any trade, confirmed other cargo or admission of guilt. Innkeeper hands note to V; no additional message charge. No Tavosk notice has arrived; service remains pending. No new royal decision or dispatch established, no daily reroll of undecided Crown. Routine dawn Tamsin contact per standing instruction, no specific new estate result asserted. No new Watch authority, arrest, witness recovery, new contraband, or offscreen attack inferred. V chooses whether to attend the invitation, brief Desen, wait, or otherwise act; no meeting, message to Desen, further recovery or expenditure assumed.",
+  "pending_action": "Day328~07:30 Copper Hart, Orsaven, V/Mara/Cirren/Fenar together, coach/four horses safely stabled. One completed qualifying city overnight, LR4/6, personal purse2039gp8sp6cp after2gp package, rations21/feed28 unchanged. Sallow signed note received by V offering Harthvale introduction today11:00 through broker at existing counting shop200ft uphill of storehouse1; V has not accepted/attended, no actual meeting or business commitment. Paid6gp one advance Orsaven berth inspection notice remains pending (d20 face5 no notice by dawn). Harthvale response d20 face11 invitation received. Royal proposal considered but undecided, no new decision. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy. Desen fully briefed, holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; V retains notes, both new originals and Harthvale invitation; Cirren signed evidence receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. No specific additional contraband or Harthvale murder involvement proven. Existing Kestrel originals/custody and confidential copies, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged. V next action pending.",
+  "depends_on": [
+    "PLAY-REC-D327-V-CHECKS-OSSENT-CROWN-COOPERATION-REVIEW-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "7c61317a2fa64f0190f68c25d8beb509",
+        "rolls": [
+          {
+            "id": "D328.Harthvale.introduction_reply_by_dawn",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D328.Tavosk.advance_notice_availability_by_dawn",
+            "sides": 20,
+            "faces": [
+              5
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D327-328-COPPER-HART-OVERNIGHT-REST-001",
+      "accepted": true,
+      "evidence": "Exact player 'Ok Lets rest for another day' authorizes routine return to established Copper Hart lodging and one additional quiet overnight, not an entire extra calendar day beyond the next morning, repeated short rests, further investigation or a future meeting. D327 evening group returns together to Copper Hart, pays established2gp package (two rooms, three non-V suppers, coach/four horses care/stabling) once: personal purse2041gp8sp6cp→2039gp8sp6cp; no ration/feed deduction, extra lunch cost or discretionary spend. Under standing Day245–246 pre-SR Psi Recovery rule V regains one die3→4/6 before planned rest, Psi Recovery1→0 then returns to1/1 on actual completed peaceful overnight. Full HP so no Second Wind. Safe-city overnight adds2 weighted LR units2→4/6; not a Long Rest, no extra SRs, PastLife1/3 and freeWhispers0/1 unchanged; no other missing short-rest resources, all party HP full. D328~07:30. Independent pending correspondence timing fixed before roll in visible script: Harthvale reply by dawn d20 1–5 pending/6–20 invitation; Tavosk availability d20 1–15 no notice available/16–20 notice received. Actual user-visible Python receipt batch7c61317a2fa64f0190f68c25d8beb509 faces11 and5, respectively. Harthvale invitation arrives via ordinary Sallow/broker communication at inn this morning, consistent with their promised reply and elapsed time: Sallow's signed note says 'Master Harthvale would be pleased to meet you. The route broker will receive you at his counting shop at eleven this morning and introduce you.' Meeting at existing counting shop (200ft uphill of storehouse1), offered D328 11:00, not actual attendance or presence guarantee. Sallow's correspondence establishes Harthvale's willingness to meet, not acceptance of any trade, confirmed other cargo or admission of guilt. Innkeeper hands note to V; no additional message charge. No Tavosk notice has arrived; service remains pending. No new royal decision or dispatch established, no daily reroll of undecided Crown. Routine dawn Tamsin contact per standing instruction, no specific new estate result asserted. No new Watch authority, arrest, witness recovery, new contraband, or offscreen attack inferred. V chooses whether to attend the invitation, brief Desen, wait, or otherwise act; no meeting, message to Desen, further recovery or expenditure assumed.",
+      "before": "Day327~16:45, purse2041gp8sp6cp, LR2/6, Psi3/6, PsiRecovery1/1.",
+      "after": "Day328~07:30, completed one city overnight, purse2039gp8sp6cp, LR4/6, Psi4/6 and PsiRecovery1/1; all other counters unchanged.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-character.csv"
+      ]
+    },
+    {
+      "event_id": "D328-SALLOW-HARTHVALE-INTRODUCTION-INVITATION-RECEIVED-001",
+      "accepted": true,
+      "evidence": "D328 dawn d20 Harthvale11 and Tavosk5 per receipt. Sallow signed note at Copper Hart offers11:00 meeting through broker at existing counting shop. V holds note. No Tavosk notice received; no Crown decision established.",
+      "before": "Both commercial correspondence deliveries pending.",
+      "after": "Sallow invitation delivered, V decision pending; Tavosk notice still pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
