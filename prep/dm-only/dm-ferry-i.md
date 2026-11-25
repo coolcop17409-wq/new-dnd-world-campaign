@@ -1,5 +1,8 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.bzsn3ns61f1x; title: DM — FERRY I; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Current disposition — ADMIN-QUEST-D326-20261125-01
+CLOSED skiff incident / completed yard explanation: PLAY-REC-D326-BOATYARD-JELLY-DEFEATED-SKIFF-FREED-001 @e890979c697928171c627103a45ce1758385748a. One jelly dead, skiff freed; never replay either. Daughter's later pilot/pickup offer actually delivered but unarranged. PLAY-REC-D326-BOATYARD-MERET-WORK-REFERRAL-001 delivered Meret introduction to daughter; family decision/contact pending, no hire/dispatch/contract. Earlier scenario below is original prep/history, not a new opening. [Setup](dm-ferry-setup.md) owns current inquiry. No cash bounty created.
+
 **Catalogue disposition — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01: Yard/loss approach.** Part of the one optional ferry case in [the setup](dm-ferry-setup.md); no mandatory chapter sequence, duplicate reward or reopened mentor verdict. Existing facts/terms below remain.
 
 The bell in the boatyard

@@ -1,32 +1,32 @@
 # Regional preparation — DM ONLY, nonauthoritative
-Revision ADMIN-QUEST-CATALOGUE-REWORK-20261124-01. Source main 2027f9b15a276947ce4a19db94cbd36c312ed771; source-ordered accepted checkpoint D320-1200-CROWNSUNDER-FRONTIER-TRAVELERS-VALUABLES-SALE-CORRECTED-001. Persisted CAMPAIGN_STATE still D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001, blob2ee65cdb30fb7906ebdccb3ce69fd91205b205a8. Latest correction automation/recovery/chunks/D320/PLAY-REC-D320-VALUABLES-PRIVATE-KNOWLEDGE-SALE-CORRECTION-001.json @5a387fa9e82a98e4bf2f5d4b0ed35d873474d6dd; original320scene @73810940e69d01f679724bf6271cca81d105b180. Owners and newer accepted chunks win.
+Revision ADMIN-QUEST-D326-20261125-01; source main abec10f812b19073382629154da50e30ac5d9eab. Accepted D326-1715-ORSAVEN-COUNTING-SHOP-ROUTE-BROKER-CONTACT-PENDING-001; saved checkpoint Day308. Owners/newer chunks win.
 
-## Region and pending choice
-Day320~12:00, westbound Caereth→Orsaven coach route, Crownsunder side of militarized frontier approaches BEFORE crossing. At a stone watering trough near shared-war memorial, westbound wool carter and adult sister water their team. He asks whether party returns from Caereth/is headed to Orsaven and offers personal crossing experience. **V may converse or proceed; no response, crossing, fee, escort or quest assumed.** Mara/Cirren/Fenar accompany V; Elara remains Caereth.
+## Region/current moment
+Day326~17:15 Orsaven, Ossent, functioning main-river commercial district. V reached broker at counting-shop public counter200ft uphill from storehouse1; Cirren/Fenar outside, Mara at Copper Hart with coach/four horses. Broker asks V's business; response pending. Two existing storehouses150ft apart; no private meeting inferred.
+Coach crossing320/Orsaven arrival324 complete. No frontier-trough restart. Main river differs from diminished Miregate secondary branch; no new direct navigable estate route. Western service-house itinerary48road+12rough miles/~3days each way is prospective, no departure/guaranteed ETA.
 
-## Known, believed, private, prepared
-- PLAYER-KNOWN: ordinary freight passage continues in carter's experience; sister wishes to visit family graves. They know their own crossings/family, not V's letter, Kestrel, classified sponsors or imminent raids.
-- PLAYER-KNOWN: Defense of Caereth completed/2500gp paid315; Crown intelligence contract accepted200gp advance, remaining300/1300 contingent. Preliminary diplomatic invitation accepted316 and actual sealed packet/limited credentials collected317. No treaty powers or guaranteed reception. Coris scholarly commission active100gp received,300/800 contingent; Hall visit complete.
-- PRIVATE: inventory provenance never disclosed; invented clerk/title inquiry voided by latest correction. No merchant/authority learns it from preparation.
-- PRIVATE: source-specific Pennant attribution/roster remains in its owner; report of differing colors/similar tactics is not proof. Kestrel latest private patient outcomes293 were not communicated; no post299 outcome known. Severin assent/remote letter receipt unconfirmed.
-- PREPARED POSSIBILITIES: source-eligible follow-ups below are not new OFFERED play. No event, agreement or reward occurs from prep.
+## Knowledge boundaries
+PLAYER-KNOWN: Quenwood life sentence/assets frozen; good-faith yard loss/guarantee explained; jelly defeated/skiff freed; actual ferry/lace trail; V-held36gp invoice and14gp delegate acknowledgement. Cirren/Fenar briefed, Mara not on later warehouse details. Paymaster48gp held for restitution, none paid. Broker reached from actual clerk directions.
+PLAYER-KNOWN: map comparison complete, Mara authenticated survey retained; Coris duplicate keeper-held for forwarding, dispatch/receipt/300gp assessment pending. Conditional recovery grant accepted326, no deed; hazard control, ferrier/public rights and parcel/safety verification required. No price/fixed deadline/full rebuilding. Diplomatic letter delivered325/audience326 complete; favorable recommendation is not Crown assent/treaty.
+PRIVATE: finite faction roster/motives and unplayed patron bargain remain in ferry setup. Organization did not order Quenwood's murders; no guilt by association. Broker knows own arrangements, not theft/party secrets automatically. No new discovery/alarm, courier or clock from refresh.
+PREPARED: invitations/encounters are not OFFERED merely because written. Magical commissions target353/actual completion, not current stock or free rewards.
 
-## Local life
-world/politics/human-states.md @ 77333e27aa5946858c824352e71af893aa6e1b96: split succession about80 years ago; shared household/witness/guest traditions and memorials across militarized frontier. Ossent preserves institutional continuity; Crownsunder hereditary obligations/Articles. Ordinary relatives/traders can cooperate despite Crown dispute. No universal hostility/recruitment. Ossent conditions cooperation on suspended rival claim; preliminary letter does not resolve this.
-world/politics/geography-seats.md @ 6eb6fb0ce84b76bd8e68c168c88fc31bde458373: shared Orseld country, distinct capital/road routes. Current eight-day Caereth→Orsaven planning leg317–324 comes from accepted source, not guaranteed ETA. Fixed Pennant waystation is on separate72-mile E/NE Orsaven road plus4-mile spur; never move it onto this trough.
+## Regional life
+Ossent's old institutional monarchy and Crownsunder's disputed succession about80years ago share family/witness/guest traditions despite divided loyalties. Freight households prize dependable deliveries, ownership, work and street safety. Household bands, shift meals and shop correspondence color ordinary life without another quest. Mixed-species urban life is normal; no universal hostility/allegiance. Public rights constrain titles and authority.
+Grain Court/Candlewick are canon autonomous Ossent entities; witnesses/fire-watch know only actually learned local facts, no Crown powers or newly played contact. Bracken/Millstone atlas corrections concern other regions and relocate no local sources.
 
-## Delivery shortlist — conditional, one at a compatible opening
-| Candidate | Status / informed source / next step | Deferral and next trigger |
+## Delivery shortlist — one compatible opening
+| Candidate | Status / actual source / first step | Deferral and next trigger |
 |---|---|---|
-| Frontier corroboration | ACCEPTED Crown inquiry315; actual report/limited introduction lets V seek a reached competent liaison, report copy or originating witness. Hidden site attribution unproven. Owner dm-hollow-pennant.md current320 packet. | Preserve current ordinary conversation. Actual liaison contact/chosen inquiry; carter is not prepared informant. |
-| Ossent invitation | ACCEPTED carriage; packet V-held317. On actual Orsaven arrival, royal receiving office can examine credentials/route sealed letter; receipt differs from audience/assent. | Actual city arrival and V presents packet. No treaty or reward inferred. dm-orsaven-framework.md arrival/contact packet. |
-| Scholarly comparison | ACCEPTED Coris commission; actual Hall knowledge supports map-room field-book comparison. Mara/Cirren can propose comparison from known Hall work; branching chapter prepared. | Actual Orsaven scholarly contact/willing direction question; no repeated Hall trip. dm-estate-ancestry.md. |
-| Independent city adventure | UNINTRODUCED boat-builder500gp / university assistant700gp, sources, visible first steps and alternate discovery in Orsaven framework/OR-OS-OR. | One eligible city/source opening; actual incident/whereabouts fixed before clue, no clock from review. Quiet/letter business may take priority. |
+| Ferry evidence | ACTIVE; reached broker's own business knowledge or retained papers to competent recipient | Current V reply pending; no compulsory supper/theft/all hidden actors exposed |
+| Western crossing | ACCEPTED grant/scholarly commission; Mara survey supports planning/inspection | Current inquiry first; actual expedition choice triggers travel/household/danger preflight |
+| Diplomatic response | Delivery/audience COMPLETE; councillor recommendation pending decision | Actual received message or chosen inquiry; no invented date/assent or repeat delivery |
+| Assistant | UNINTRODUCED; informed scholarly source can explain access/rescue problem,120gp terms | Compatible scholarly/companion-direction opening; focused conversation defers, no clock or offer now |
 
-Atlas50:150 minor entities CANON (minor-polities.md @288e71fb3e58105c01a39e5fa738c3eca7b623f6). Borders remain schematic; contact/knowledge unplayed. Orsaven: Grain Court witness and Candlewick fire-watch→builder referral within local remit; no royal authority or extra permit chain.
+Builder100gp adventure remains a distinct unintroduced incident, not completed skiff/earlier workers' rescue. Quiet companion reunion or research can be the whole scene; no mandatory menu.
 
-## Mechanics and source use
-SCENE_CACHE owns the convenience resource/recovery packet. Travel: rules-travel-communication.md; rests/standing visual correction: rules-combat-recovery.md; delivery/source checks: rules-dm-procedures.md and QDF-1. No combat active; danger uses owner's2014 profiles/layout and actual resources. Preserve d100/caps/quiet days; no unplayed occurrence or loot rolls.
-Owner review ADMIN-QUEST-CATALOGUE-REWORK-20261124-01: actual quest developments revised; source pins govern; offers unplayed. Previous exact edition archived in archive/runtime/REGION_PREP-before-ADMIN-QUEST-CATALOGUE-REWORK-20261124-01.md.
-
-Prepared-source blob pins (DM ONLY; unplayed): dm-hollow-pennant.md @176a9a99cce7ccffd9505b27d62acd1c2a25ca81; dm-orsaven-framework.md @9d35d62e1d25f9021a8105d1d8bd8db9bc583758; dm-estate-ancestry.md @582dd9cfe965575548562916b606e5965813b522; dm-orath-regional-arcs.md @fceca9c1c52aa9b40e1a359d7ba9f6e0b3db7404; dm-covenant-aftercare.md @895bc7bec46a6867411361dbe92e7acd6e6ec30b.
+## Mechanics and provenance
+Resources/effects in SCENE_CACHE, verified against latest chunk first. QDF-1/rules-dm-procedures.md delivery; rules-travel-communication.md travel; rules-combat-recovery.md rests. No combat active. Unplayed d100/caps/quiet days untouched; dangerous approaches need fixed2014 owner profiles and actual participants, no opponent upgrade.
+Latest: automation/recovery/chunks/D326/PLAY-REC-D326-V-STOREHOUSE-EXIT-BROKER-CONTACT-001.json @5de2d557904be80eb64e312ee27bc6c217f13d9e. Supporting Day325 comparison/forwarding, Day326 grant/councillor/boatyard originals remain immutable. Saved campaign-state.md @2ee65cdb30fb7906ebdccb3ce69fd91205b205a8.
+Current owners revised ADMIN-QUEST-D326-20261125-01: dm-ferry-setup.md, dm-ferry-i.md, dm-estate-ancestry.md, dm-orsaven-framework.md, private index/public QUESTS. Political pins human-states.md @77333e27aa5946858c824352e71af893aa6e1b96; minor-polities.md @c41c83e3da662ab79828a248ccb75f3aef0f8ecc; assets/README.md @711c467cfd558a37df53457cb739689df5f1fc75 / ATLAS-D326-ORSAVEN-001. Estate D326-MG-SHIPWRIGHT-REFERRAL waits actual family decision/contact, no automatic Meret knowledge.
+Prior exact edition: archive/runtime/REGION_PREP-before-ADMIN-QUEST-D326-20261125-01.md.
