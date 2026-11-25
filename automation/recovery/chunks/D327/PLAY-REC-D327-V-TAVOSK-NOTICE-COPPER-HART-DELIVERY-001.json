@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-TAVOSK-NOTICE-COPPER-HART-DELIVERY-001",
+  "base_commit": "9822151cb8932ef96e449fb156f944ea355bbf69",
+  "source_checkpoint": "D327-1540-ORSAVEN-TAVOSK-FIRST-NOTICE-COMMISSIONED-DELIVERY-ADDRESS-PENDING-001",
+  "destination_checkpoint": "D327-1541-ORSAVEN-TAVOSK-NOTICE-COPPER-HART-AUDIENCE-END-PENDING-001",
+  "source_evidence": "Day327~15:41 exact player 'The Copper Hart' specifies delivery destination for the already paid one-time Tavosk advance-notice service. Tavosk notes the inn and agrees to have word sent there when information becomes available. This is a delivery instruction only; no specific inspection identified, actual notice dispatched/received, further payment, shipment, declaration, continuing contract, or departure authorized. Tavosk courteously signals the audience can conclude. Mara, Cirren and Fenar witness the exchange. No dice or resource changes. V remains in Tavosk's office with companions; V determines next action.",
+  "pending_action": "Day327~15:41 Noldren Tavosk's petition office, Exchange district, Orsaven. V/Mara/Cirren/Fenar present. V designated Copper Hart for delivery of paid6gp single advance inspection notice. Tavosk acknowledged; notice/service pending, no identified inspection, dispatch, receipt, actual shipment or continuing agreement. Audience ready to conclude; V chooses departure/next action. Purse2041gp8sp6cp. V48/48 AC19 HD7/7 Sup4/4 Psi3/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes, Sallow signed referral and Tavosk signed6gp generic receipt; Cirren signed evidence receipt. Halvessa admission reported; afternoon Sallow/Harthvale/Tavosk statements and payment not yet reported. Harthvale reply destination Copper Hart; dispatch/receipt/meeting pending. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-COMMISSIONS-TAVOSK-FIRST-NOTICE-6GP-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Routine delivery address supplied for existing service; willing NPC acknowledgment."
+  },
+  "events": [
+    {
+      "event_id": "D327-V-TAVOSK-NOTICE-COPPER-HART-DELIVERY-001",
+      "accepted": true,
+      "evidence": "Day327~15:41 exact player 'The Copper Hart' specifies delivery destination for the already paid one-time Tavosk advance-notice service. Tavosk notes the inn and agrees to have word sent there when information becomes available. This is a delivery instruction only; no specific inspection identified, actual notice dispatched/received, further payment, shipment, declaration, continuing contract, or departure authorized. Tavosk courteously signals the audience can conclude. Mara, Cirren and Fenar witness the exchange. No dice or resource changes. V remains in Tavosk's office with companions; V determines next action.",
+      "before": "Paid first-notice commission; delivery destination pending.",
+      "after": "Copper Hart designated and acknowledged; service still pending; V chooses next action.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
