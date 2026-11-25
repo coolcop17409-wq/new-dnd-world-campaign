@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D326-ORSAVEN-001`: player-known Orsaven journey a
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ADMIN-MAINT-D326-20261125-01 | worker=Record-Maintenance | operations=M326-COVERAGE,M326-ROUTING,M326-RECEIPT | acquired_UTC=2026-11-25T15:10:34Z | heartbeat_UTC=2026-11-25T15:10:34Z | expires_UTC=2026-11-25T15:20:34.000Z | recovery=automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-25T15:12:25Z | previous_token=ADMIN-MAINT-D326-20261125-01 | result=VERIFIED_METADATA_AND_VIEWS | recovery=automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json

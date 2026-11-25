@@ -58,9 +58,48 @@
     {
       "command": "Current-main compatibility_journal on both unchanged explicit boundaries",
       "result": "BLOCKED: Chunk filename and accepted entry ID mismatch"
+    },
+    {
+      "command": "Remote Estate audit and campaign dashboard45642240753; Campaign synchronization regression45642240821; Handoff queue integrity45642241330",
+      "result": "All completed SUCCESS at owning batch2a532554adcdc446ae44d9336ef1242c8e779113"
+    },
+    {
+      "command": "Independent build_dashboard.main and build_play_packet.make_packet comparison against published3d97a485",
+      "result": "PASS exact Git blob hashes for dashboard/PLAY_NOW; report has all four fullclose325/current_day_full_close=false"
     }
   ],
   "recovery_preserved": true,
-  "generated_view_status": "Pending automatic rebuild/readback after coverage owning repair; market lots also require refresh. PLAY_NOW matches persisted308, never substitute accepted326 counters by hand.",
-  "verification_status": "prepared; publish and independently read back affected records before marking metadata verified"
+  "generated_view_status": "VERIFIED at3d97a485a7eae206761f86360dd4c320f913f97b: estate report close325/elapsed326, market lots refreshed, dashboard and PLAY_NOW exact independent local-generator match. Saved Day308 counters/checkpoint retained; newer accepted Day326 is not falsely applied.",
+  "verification_status": "Metadata repairs independently read back and verified; requested gameplay synchronization remains blocked.",
+  "verified_commit": "2a532554adcdc446ae44d9336ef1242c8e779113",
+  "verified_at": "2026-11-25T15:12:25Z",
+  "per_file_verification": [
+    {
+      "path": "campaign/continuity/readme.md",
+      "sha": "c20aead8ace6ed036b8ed3ce14834a03b77cdd90",
+      "verified": true
+    },
+    {
+      "path": "data/estate/operational-checkpoint.csv",
+      "sha": "701d415d44f5ce61f1e8750e57dec6c7b5901fc9",
+      "verified": true
+    },
+    {
+      "path": "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md",
+      "sha": "a937356c016250fb3ce2fb763202281e6ba4172b",
+      "verified": true
+    },
+    {
+      "path": "automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json",
+      "sha": "0e96e19f28dcc5b15c8760d5e8732c9360bc5442",
+      "verified": true
+    }
+  ],
+  "generated_commit": "3d97a485a7eae206761f86360dd4c320f913f97b",
+  "generated_blobs": {
+    "reports/estate-ledger.json": "dc1b6db92108c2429eb17e8e4a6a097144fb9247",
+    "dashboard/dashboard.json": "f4701dd1a454e9e7d308b3712151944424623f9f",
+    "runtime/PLAY_NOW.md": "77695032f0492821c6e22fb8103548ede8db7595"
+  },
+  "final_checkpoint_recheck": "Owner checkpoint blob2ee65cdb30fb7906ebdccb3ce69fd91205b205a8 unchanged at generated publication; no gameplay applied."
 }
