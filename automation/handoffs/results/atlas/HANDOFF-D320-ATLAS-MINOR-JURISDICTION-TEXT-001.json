@@ -1,0 +1,16 @@
+{
+  "request_id": "HANDOFF-D320-ATLAS-MINOR-JURISDICTION-TEXT-001",
+  "lane": "atlas",
+  "status": "complete",
+  "summary": "Corrected both adopted briefs in the register and interactive atlas. Bracken March lies on the western Dominion–Oathmark frontier; the identity of the rent claimant remains open. Millstone’s charter auditor is its Veyran host. The later adoption ruling governs. Neither polity’s geometry was changed.",
+  "source_commit": "eda85dac75afe77cc3dd003685504975ab0c5295",
+  "verified_commit": "03e0f6f113ec464f43db5882b9df00c4dd22e8be",
+  "owner_refs": [
+    "world/politics/minor-polities.md@03e0f6f113ec464f43db5882b9df00c4dd22e8be#arden",
+    "world/politics/minor-polities.md@03e0f6f113ec464f43db5882b9df00c4dd22e8be (Millstone Charter; Veyran Commonwealth)",
+    "assets/README.md#atlas-review",
+    "libfile_70639e30a8e88191893e8c0afca5ed4b v53 / file_00000000fd2c81f5904859b307a2bacf / localPlacementNotes[0,122]"
+  ],
+  "blocker": null,
+  "next_trigger": "Reopen the Bracken claimant detail only if a later adopted source identifies who claims those rents."
+}
