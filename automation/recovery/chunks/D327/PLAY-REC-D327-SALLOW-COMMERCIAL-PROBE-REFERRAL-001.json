@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-SALLOW-COMMERCIAL-PROBE-REFERRAL-001",
+  "base_commit": "77c07c94fd8815c2ae09a0ba5f38a964d378f10a",
+  "source_checkpoint": "D327-1500-ORSAVEN-VELDRAKE-SALLOW-AUDIENCE-OPENING-PENDING-001",
+  "destination_checkpoint": "D327-1506-ORSAVEN-SALLOW-ADMISSION-REFERRAL-RECEIVED-PENDING-001",
+  "source_evidence": "D327~15:06 exact player 'Follow the plan as do the asks that Mara laid out, try to get him talking' delegates the specific agreed commercial inquiry wording, not purchase, payment, contract, accusation, arrest, exposure of Watch evidence, additional V feature expenditure or unrelated choices. V asks how Lady Halvessa's arrangements work, whether Tavosk provides advance inspection notice, how services are paid, whether directly or through Sallow, and for a proposal for his river holdings. Mara willingly provides meaningful Help by reinforcing actual Blackthorn and river property freight interests, saying 'A delayed shipment can cost us a day's work at the mills. Predictability is what we're after.' Standing Day173 proactive Help. Predeclared Deception+10, advantage d20 faces7,13 take13+10=23, DC17 candid explanation and DC22 concrete terms or direct introduction both met; user-visible Python receipt batch f796d2f21dd7e1f8e6837b2e3657c6f9, no Knack/Past Life/other feature spent. Sallow accepts genuine business context as credible and speaks within his own purchasing role: 'I tell the route broker what the household needs. He arranges the consignments so that certain goods are landed before assessment. Her ladyship approves that arrangement. I issue the purchasing instructions, and our bills do not include the assessed duties.' On Tavosk: 'His usefulness is knowing when berth inspections are likely to occur before the carriers are told, and pressing for more favorable declaration arrangements. The route broker handles the payments on our existing arrangement. If you want something of your own, you should discuss his fee with him directly. I cannot quote on his behalf.' This is newly played firsthand Sallow statement regarding own instructions, household practice and understanding of brokerage; corroborates V's existing notes and Halvessa's admission, does not prove Sallow personally witnessed a specific Tavosk payment, knows its exact amount, knows murders, or that a public exemption was enacted. Asked for terms, Sallow declines to bind Tavosk or quote his fees and instead voluntarily writes and signs a nonbinding referral on household stationery: 'Master Tavosk — Lord Vaishnavi has interests in upriver freight and would welcome a discussion of advance inspection notices and declaration arrangements. I commend him to your attention. Jorveth Sallow, for House Veldrake.' Sallow offers the original signed note to V and says 'Take this to his petition office in the Exchange district. He can discuss the terms with you himself.' V accepts custody of offered nonbinding referral within explicit agreed plan to obtain written material/direct introduction; no signature or agreement by V, payment, illegal order, actual Tavosk appointment or guaranteed availability. Sallow remains in room and expects a response; Cirren/Fenar/Mara all hear exchange. Desen not yet informed of this new statement or note. No other resource, custody, movement or clock changes beyond conversation time. Await V's next decision.",
+  "pending_action": "Day327~15:06 House Veldrake private business room, Orsaven. V/Mara/Cirren/Fenar with Sallow. V's delegated agreed commercial probe succeeded with Mara Help, advantage7/13+10=23/DC17&22; Sallow personally acknowledges issuing household purchasing instructions for pre-assessment consignments without assessed duties, with Halvessa approval, describes his understanding of Tavosk providing advance inspection information and representation, and broker handling existing arrangement payments. No specific payment witnessed or amount admitted by Sallow, no murder connection or enacted exemption. V holds newly offered original signed nonbinding Sallow referral to Tavosk's public Exchange petition office, exact text in event. No fee, signature, purchase, actual Tavosk appointment/availability, departure, Watch notification or further commitment. V next action pending in room. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife2/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and 14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes plus new signed referral; Cirren signed receipt. Halvessa firsthand admission previously reported to Desen; Sallow statement and referral not yet reported. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-SALLOW-APPOINTMENT-OPENING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "f796d2f21dd7e1f8e6837b2e3657c6f9",
+        "rolls": [
+          {
+            "id": "D327.V.Sallow.commercial_pretext.advantage",
+            "sides": 20,
+            "faces": [
+              7,
+              13
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D327-SALLOW-COMMERCIAL-PROBE-REFERRAL-001",
+      "accepted": true,
+      "evidence": "D327~15:06 exact player 'Follow the plan as do the asks that Mara laid out, try to get him talking' delegates the specific agreed commercial inquiry wording, not purchase, payment, contract, accusation, arrest, exposure of Watch evidence, additional V feature expenditure or unrelated choices. V asks how Lady Halvessa's arrangements work, whether Tavosk provides advance inspection notice, how services are paid, whether directly or through Sallow, and for a proposal for his river holdings. Mara willingly provides meaningful Help by reinforcing actual Blackthorn and river property freight interests, saying 'A delayed shipment can cost us a day's work at the mills. Predictability is what we're after.' Standing Day173 proactive Help. Predeclared Deception+10, advantage d20 faces7,13 take13+10=23, DC17 candid explanation and DC22 concrete terms or direct introduction both met; user-visible Python receipt batch f796d2f21dd7e1f8e6837b2e3657c6f9, no Knack/Past Life/other feature spent. Sallow accepts genuine business context as credible and speaks within his own purchasing role: 'I tell the route broker what the household needs. He arranges the consignments so that certain goods are landed before assessment. Her ladyship approves that arrangement. I issue the purchasing instructions, and our bills do not include the assessed duties.' On Tavosk: 'His usefulness is knowing when berth inspections are likely to occur before the carriers are told, and pressing for more favorable declaration arrangements. The route broker handles the payments on our existing arrangement. If you want something of your own, you should discuss his fee with him directly. I cannot quote on his behalf.' This is newly played firsthand Sallow statement regarding own instructions, household practice and understanding of brokerage; corroborates V's existing notes and Halvessa's admission, does not prove Sallow personally witnessed a specific Tavosk payment, knows its exact amount, knows murders, or that a public exemption was enacted. Asked for terms, Sallow declines to bind Tavosk or quote his fees and instead voluntarily writes and signs a nonbinding referral on household stationery: 'Master Tavosk — Lord Vaishnavi has interests in upriver freight and would welcome a discussion of advance inspection notices and declaration arrangements. I commend him to your attention. Jorveth Sallow, for House Veldrake.' Sallow offers the original signed note to V and says 'Take this to his petition office in the Exchange district. He can discuss the terms with you himself.' V accepts custody of offered nonbinding referral within explicit agreed plan to obtain written material/direct introduction; no signature or agreement by V, payment, illegal order, actual Tavosk appointment or guaranteed availability. Sallow remains in room and expects a response; Cirren/Fenar/Mara all hear exchange. Desen not yet informed of this new statement or note. No other resource, custody, movement or clock changes beyond conversation time. Await V's next decision.",
+      "before": "15:00 Sallow asks what V is looking for; no Sallow testimony or referral.",
+      "after": "15:06 successful Deception23; Sallow firsthand purchasing admission and explanation of broker/Tavosk roles; signed nonbinding referral in V custody; no transaction or feature spent; V reply pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
