@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D326-ORSAVEN-001`: player-known Orsaven journey a
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-25T15:12:25Z | previous_token=ADMIN-MAINT-D326-20261125-01 | result=VERIFIED_METADATA_AND_VIEWS | recovery=automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json
+CAMPAIGN_WRITER | state=ACTIVE | token=ESTATE-REDO-244-326-20261125-01 | owner=Estate Ledger Updates | scope=Day244-326 outreach redo + D326 first-contact retention | acquired_UTC=2026-11-25T00:00:00Z | expires_UTC=2026-11-25T00:20:00Z
