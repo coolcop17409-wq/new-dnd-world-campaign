@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D328-HARTHVALE-RIVER-PARTNERSHIP-PROBE-SUCCESS-001",
+  "base_commit": "eb8f9186d4716980fdfc77560842f462d2518261",
+  "source_checkpoint": "D328-1100-ORSAVEN-COUNTING-SHOP-HARTHVALE-AUDIENCE-OPENING-PENDING-001",
+  "destination_checkpoint": "D328-1105-ORSAVEN-HARTHVALE-PRIVATE-PAYMENT-ADMISSION-TRIAL-PROPOSAL-PENDING-001",
+  "source_evidence": "Day328~11:05 exact player 'Ask him what he would do if he had access to our properties' delegates this specific question, not actual access, agreement, fee, purchase, transfer of rights, cargo movement or unlawful activity. Mara willingly provides meaningful Help by explaining genuine river-property interests (mill/private berth, bargeyard and fort interests) without claiming a shipping monopoly, operational capacity, special Crown authority or promising access. Predeclared Deception+10 with advantage, DC17 candid ambitions and DC22 concrete proposal involving existing arrangements. Actual user-visible Python secrets receipt batch df6f01769352fd2608a8a25060ff584a, d20 faces3,15, take15+10=25; both thresholds met, no limited feature used. Harthvale willingly explains a prospective business arrangement in keeping with fixed chair role and known finite freight operations: 'I would start with your berth and bargeyard. Space we could reserve when it is available, a regular place to unload and store goods, and a reliable carrier farther upriver. My customers pay for certainty.' He distinguishes a private commercial arrangement from V granting control over public navigation or Crown security, says he would negotiate handling and storage charges and start with a trial consignment, not require V to turn over holdings. He voluntarily acknowledges his own involvement in the existing paid information arrangement: 'We already pay Tavosk through the broker for advance inspection information. I approve that expense for the association. Some of our imported consignments are landed without the duties being assessed.' Broker remains present and does not independently confess or deny. This establishes Harthvale's newly played firsthand statement of his own approval of payments and awareness of undeclared imports, consistent with fixed association chair/broker roles, not proof of exact historical payment authorization for each transaction, murder involvement, violence, new category of prohibited goods or other customer's knowledge. He asks whether V would consider a nonbinding proposal for a trial using available private facilities, subject to actual capacity and agreement; no price quoted, written terms issued, concession of public rights, access granted, deal, payment, shipment or specific cargo established. V/Mara/Cirren/Fenar hear his statements; no report yet to Desen. V controls reply. No resource/custody changes beyond dialogue time.",
+  "pending_action": "Day328~11:05 broker rented upper office above counting shop 200ft uphill of storehouse1, Orsaven. V/Mara/Cirren/Fenar present with Harthvale and route broker. V asked what Harthvale would do with access to holdings; Deception advantage3/15+10=25/DC17&22, Mara Help, no features spent. Harthvale personally acknowledges approving association payments through broker to Tavosk for advance inspection information and knowing some imported goods landed without duties assessed. He proposes discussing nonbinding trial use of available private berth/bargeyard handling/storage capacity and asks V if interested in a proposal. No price, written terms, specific cargo, payment, access granted, agreement, public authority transfer, actual shipment or evidence of murders/additional prohibited merchandise. V chooses reply; Desen unaware of today's new admission. Paid6gp single advance notice pending at Copper Hart; royal decision pending. Purse2039gp8sp6cp, rations21/feed28, LR4/6. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Desen knows appointment and prior findings, holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; V retains notes, both new originals and Sallow invitation; Cirren signed evidence receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. No specific additional contraband or Harthvale murder involvement proven. Existing Kestrel originals/custody and confidential copies, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D328-V-WAITS-HARTHVALE-INTRODUCTION-OPENING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "df6f01769352fd2608a8a25060ff584a",
+        "rolls": [
+          {
+            "id": "D328.V.Harthvale.river_properties_partnership_probe.advantage",
+            "sides": 20,
+            "faces": [
+              3,
+              15
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D328-HARTHVALE-RIVER-PARTNERSHIP-PROBE-SUCCESS-001",
+      "accepted": true,
+      "evidence": "Day328~11:05 exact player 'Ask him what he would do if he had access to our properties' delegates this specific question, not actual access, agreement, fee, purchase, transfer of rights, cargo movement or unlawful activity. Mara willingly provides meaningful Help by explaining genuine river-property interests (mill/private berth, bargeyard and fort interests) without claiming a shipping monopoly, operational capacity, special Crown authority or promising access. Predeclared Deception+10 with advantage, DC17 candid ambitions and DC22 concrete proposal involving existing arrangements. Actual user-visible Python secrets receipt batch df6f01769352fd2608a8a25060ff584a, d20 faces3,15, take15+10=25; both thresholds met, no limited feature used. Harthvale willingly explains a prospective business arrangement in keeping with fixed chair role and known finite freight operations: 'I would start with your berth and bargeyard. Space we could reserve when it is available, a regular place to unload and store goods, and a reliable carrier farther upriver. My customers pay for certainty.' He distinguishes a private commercial arrangement from V granting control over public navigation or Crown security, says he would negotiate handling and storage charges and start with a trial consignment, not require V to turn over holdings. He voluntarily acknowledges his own involvement in the existing paid information arrangement: 'We already pay Tavosk through the broker for advance inspection information. I approve that expense for the association. Some of our imported consignments are landed without the duties being assessed.' Broker remains present and does not independently confess or deny. This establishes Harthvale's newly played firsthand statement of his own approval of payments and awareness of undeclared imports, consistent with fixed association chair/broker roles, not proof of exact historical payment authorization for each transaction, murder involvement, violence, new category of prohibited goods or other customer's knowledge. He asks whether V would consider a nonbinding proposal for a trial using available private facilities, subject to actual capacity and agreement; no price quoted, written terms issued, concession of public rights, access granted, deal, payment, shipment or specific cargo established. V/Mara/Cirren/Fenar hear his statements; no report yet to Desen. V controls reply. No resource/custody changes beyond dialogue time.",
+      "before": "Harthvale invited V to describe desired partnership; V reply pending.",
+      "after": "Successful Deception25 with Mara Help; Harthvale admits knowing undeclared imports and personally approving inspection-information expense, proposes discussing trial; V reply pending, no commitments or expenditure.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
