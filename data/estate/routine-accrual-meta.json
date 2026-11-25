@@ -1,8 +1,8 @@
 {
-  "last_confirmed_closed_day": 319,
+  "last_confirmed_closed_day": 325,
   "source_opening_day": 182,
-  "evidence": "D320-ESTATE-CATCHUP-001; accepted checkpoint Day320 approximately12:00; full daily close319 plus elapsed morning320 only; D320-ESTATE-DRAW-01 resolved once and preserved.",
-  "last_accounted_day": 320,
-  "open_day": 320,
-  "open_day_activity": "Elapsed Day320 morning: confirmed Blackthorn catalog buyer pickup and shared payroll/upkeep settlements through Day319; Reedbed full-bench inquiry scheduled Day321. No Day320 full-day production, wages, upkeep, storage, duty or close."
+  "evidence": "D326-ESTATE-CATCHUP-001; accepted immutable recovery checkpoint Day326 approximately17:15; full daily close through325 plus elapsed Day326 daytime only; D326-ESTATE-DRAW-01 resolved once and preserved.",
+  "last_accounted_day": 326,
+  "open_day": 326,
+  "open_day_activity": "Elapsed Day326 daytime through approximately17:15: routine estate work, Garran pickup, Miregate first milling shift, Reedbed passing services/storage, Fort daylight duty and open-period assessment adjustments posted. Day326 evening/night remains open; catalog Day327 pickup, Miregate Day328 second shift and future queued storage remain unearned."
 }

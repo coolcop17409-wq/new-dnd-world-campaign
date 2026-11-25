@@ -34,7 +34,9 @@ Re-read before writing; use scoped atomic Git trees/commits and expected-head up
 
 ## Latest estate run
 
-D320-ESTATE-CATCHUP-001 closes all four registered estates through Day319 and separately records only elapsed Day320 morning at the accepted ~12:00 cutoff. Durable draw D320-ESTATE-DRAW-01 owns the finite Blackthorn/Miregate customer decisions and Reedbed passing-trade demand exactly once; ordinary fulfillment, payroll, upkeep, storage, Crown duty, tax and Carrow remain deterministic under their established rules. Day320 is not a full close. Exact balances, physical stock, open bookings and verification are in the journals/report; V and the active scene are unchanged.
+D326-ESTATE-CATCHUP-001 advances all four registered estates from the verified Day319 close through completed Day325 and separately posts elapsed Day326 daytime at the accepted ~17:15 recovery checkpoint. Durable draw D326-ESTATE-DRAW-01 owns the Blackthorn catalog contact, Miregate market contact and Reedbed passing-trade demand exactly once; routine fulfillment, production, payroll, upkeep, storage, Crown duty, tax and Carrow remain deterministic. Day326 is not a full close. The Day327 catalog pickup, Day328 Miregate second shift and queued Reedbed storage remain unearned. Exact balances, stock, bookings and verification are in the journals/report; V and the active scene are unchanged.
+
+D320-ESTATE-CATCHUP-001 remains the prior verified close through Day319 plus elapsed Day320 morning. Its outcomes and original draw are preserved and were not rerolled by D326.
 
 D281-ESTATE-CATCHUP-001 closes all four registered estates through Day280 and separately posts elapsed Day281 daytime through the accepted ~20:36 recovery cutoff. D281-ESTATE-DRAW-01 records Miregate outlet assent and Reedbed passing-trade outcomes once. Current-day night/full close remains open; V, the active Kestrel scene and personal resources are unchanged. Exact balances and open commitments are in the verified journals/report.
 
