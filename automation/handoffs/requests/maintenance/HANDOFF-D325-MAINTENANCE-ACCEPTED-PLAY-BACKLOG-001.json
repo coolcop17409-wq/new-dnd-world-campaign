@@ -1,0 +1,29 @@
+{
+  "request_id": "HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001",
+  "lane": "maintenance",
+  "source": {
+    "kind": "ooc_request",
+    "checkpoint_id": "D325-1845-ORSAVEN-DIPLOMATIC-DELIVERED-NIGHTGLASS-COMPARISON-COMPLETE-001",
+    "campaign_day": 325,
+    "source_commit": "2d0e78ddde119e48c706da21c0e13c97a74b250c"
+  },
+  "request": "Explicit player request to update DM instructions and GitHub records. Reconcile already accepted play from the verified D308 owner checkpoint through D325 18:45 in dependency order, without new gameplay or duplicate posting; resolve or report actual owner-sync blockers and refresh derived views after verified owner postings.",
+  "scope": [
+    "Verify latest main and terminal/partial receipts, existing PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002 and overlapping D314 boundary; reuse exact existing IDs/transport and historical accepted envelopes, do not auto-merge or rewrite original chunks. PR41 verified historical D308/D310 path exception remains draft, PR44 verified markets CSV quote repair remains draft; check current status and obtain required human approval where applicable. Do not create duplicate repair PRs or bypass validators.",
+    "After verified prerequisite D316 owner checkpoint, validate and queue only newer source-ordered unsynced accepted recovery suffix through latest D325 or later actual accepted checkpoint. Include correction/supersession of D320 private sale, D321 R1/aftercare and distinct actual roll receipts. Do not reapply superseded alternate combat, death, disclosures or previous postings. Preserve accepted transactions and actual resource/custody changes.",
+    "Verify/reconcile character event journal, log, quests/NPC/custody, shop purchase/deposit/commission legs with Markets owner, diplomacy delivery and survey milestone; no hypothetical 300gp/800gp payments, delivery, new rest, letter reply, encounter, estate result or NPC action. Apply owner files under central claim and expected SHA; CAMPAIGN_STATE last; regenerate/verify PLAY_NOW/dashboard using trusted tools; distinguish blocked/partial/complete. Route quest/market/estate/atlas specialist dependencies to existing lanes if needed. Record exact tested SHA, commands, result and unresolved scope."
+  ],
+  "output_owner_paths": [
+    "campaign/continuity/",
+    "data/characters/events.csv",
+    "trackers/csv/v/",
+    "trackers/csv/cirren/",
+    "trackers/csv/fenar/",
+    "trackers/csv/magic-shops/",
+    "runtime/PLAY_NOW.md",
+    "dashboard/dashboard.json",
+    "automation/handoffs/play-sync/"
+  ],
+  "priority": "high",
+  "advances_gameplay": false
+}
