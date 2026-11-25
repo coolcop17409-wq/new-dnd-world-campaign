@@ -1,10 +1,14 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.d8we6otw4l0t; title: DM — WARDEN OF TYR; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Reward review — ADMIN-QUEST-REWARD-REBUILD-20261125-01
+
+Personal120gp travel funds remain her actual finite means, not a guild treasury. Revise the unoffered relic expense promise from up to60gp to up to20gp total actual agreed recovery/necessary expenses, leaving100gp for her continuing travel/needs without changing any balance. Pay against actual agreed costs, no extra cash bounty or hidden magical reward. Twenty is a cap, not an automatic cost or a protected reserve. Her relic remains hers and actual consent/ownership governs; private intent creates no expense.
+
 ## Catalogue development — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
 
 ## Personal relic: verification, retrieval, remembrance
 
-Ruzena's independent want is to recover her dead partner's inert relic and stop its use as false authority. She can ask for a bounded comparison or company; she does not exist to assign V another divine quest. The relic is not a trapped soul, god fragment or secret key. Her47-year-old human identity, single horse and120gp personal means remain. She may choose to spend up to60gp on recovery/necessary expenses from those means if she actually agrees; this is not a major paid contract, automatic expense or new party purse entry.
+Ruzena's independent want is to recover her dead partner's inert relic and stop its use as false authority. She can ask for a bounded comparison or company; she does not exist to assign V another divine quest. The relic is not a trapped soul, god fragment or secret key. Her47-year-old human identity, single horse and120gp personal means remain. She may choose to spend up to20gp on recovery/necessary expenses from those means if she actually agrees; this is not a major paid contract, automatic expense or new party purse entry.
 
 Fix the previously open unvisited dealer setting as a small Orsaven antiquarian shop:30x20ft public room, ten-foot-deep rear store, front street door and rear yard door, no hidden dungeon. Role ID WRT-DEALER, civilian Commoner, knowingly represents the genuine object as current delegated authority despite the partner's death. The interested buyer wants apparent access, not a magical weapon, and can withdraw when provenance is shown. Exactly two existing hired guards use2014 MM Guard profiles from the regional cache; no new agents. They know they protect stock, not the private lie, and may refuse an unlawful order. This bounded ordinary choice fits better than cached Veteran/Spy combat specialists. No assumption that Ruzena joins combat with an unspecified stat block; her participation needs her actual sheet before initiative.
 

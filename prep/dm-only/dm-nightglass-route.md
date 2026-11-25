@@ -1,6 +1,10 @@
 ## Current corridor reconciliation — ADMIN-QUEST-WORLD-REVIEW-20261124-01
 Current authority: campaign/continuity/campaign-state.md plus source-ordered accepted immutable recovery chunks, with exact cursor in dm-only-secret-quest-outlines.md. Latest accepted checkpoint D320-1200-CROWNSUNDER-FRONTIER-TRAVELERS-VALUABLES-SALE-CORRECTED-001 leaves V at the frontier trough, westbound Caereth→Orsaven: V may converse or proceed. This owner prepares travel; it does not own the current turn.
 
+## Reward review — ADMIN-QUEST-REWARD-REBUILD-20261125-01
+
+Regional OR-VY-W original1800gp relief-trust bounty was never offered and its extraction/care is already complete. It is retired as an active quote; no retrospective rescue payment or newly raised trust money. Preserve all actual care contracts/cash/custody, route victories and declined work. Any genuinely new future commission needs its own economically grounded objective/payer; it cannot pay twice or reopen the rescue.
+
 The eastbound bridge was delivered/resolved279; Kestrel extraction and care completed281–285; Hall comparison completed289–290 and Coris's scholarly commission was accepted. The optional western-Ossent field expedition remains unchosen. WTR four-worker rescue completed274 and annex clearance was declined; no replacement messenger, repeated rescue or clearance. Patient outcomes after299, recipient replies and future field conditions require actual owning evidence. No camp/yard/Hall scene is replayed.
 
 Original3–4-week Nightglass journey scale is historic planning, not current remaining ETA or elapsed time. Preserve fixed route/geometry, local closures, unplayed d100 tables, quiet days, travel caps and rests. A return consequence requires a real later event, informed actor and elapsed time; neither this review nor the closed outbound rescue starts it. No mandatory Hollowdeep detour.

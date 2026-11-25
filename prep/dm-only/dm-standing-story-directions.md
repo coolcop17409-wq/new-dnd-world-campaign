@@ -1,5 +1,9 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.lh33eff4pous; title: DM — STANDING STORY DIRECTIONS; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Reward review — ADMIN-QUEST-REWARD-REBUILD-20261125-01
+
+Use current per-ID economic cards, not the original250–700/1200–3000 design ranges. Significant adventures can pay meaningful local sums; larger wealth must follow a genuinely larger beneficiary, owned treasure or separately authorized lasting gain. Do not invent rare items/land grants to restore an inflated cash total. Regional/current quotes have been individually rebuilt in their owners; existing promises/paid outcomes remain protected historical exceptions, not future economic benchmarks.
+
 ## Developed choices — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
 
 ### Companion goals now attached to playable owners

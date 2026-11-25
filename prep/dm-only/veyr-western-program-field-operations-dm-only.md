@@ -1,5 +1,9 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.fpivpot2jgj4; title: VEYR WESTERN PROGRAM — FIELD OPERATIONS [DM ONLY]; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Reward review — ADMIN-QUEST-REWARD-REBUILD-20261125-01
+
+Regional OR-VY-W original1800gp relief-trust bounty was never offered and its extraction/care is already complete. It is retired as an active quote; no retrospective rescue payment or newly raised trust money. Preserve all actual care contracts/cash/custody, route victories and declined work. Any genuinely new future commission needs its own economically grounded objective/payer; it cannot pay twice or reopen the rescue.
+
 ## Catalogue development — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
 
 ## After Kestrel: accountability, not a second rescue
