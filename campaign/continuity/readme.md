@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D320-OSSENT-APPROACH-001`: player-known journey t
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-25T14:10:56.355Z | previous_token=SHOPS-D326-20261125-01 | result=VERIFIED_MARKET_OWNERS | recovery=trackers/csv/magic-shops/events.csv
+CAMPAIGN_WRITER | state=ACTIVE | token=ADMIN-MAINT-D326-20261125-01 | worker=Record-Maintenance | operations=M326-COVERAGE,M326-ROUTING,M326-RECEIPT | acquired_UTC=2026-11-25T15:10:34Z | heartbeat_UTC=2026-11-25T15:10:34Z | expires_UTC=2026-11-25T15:20:34.000Z | recovery=automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md
