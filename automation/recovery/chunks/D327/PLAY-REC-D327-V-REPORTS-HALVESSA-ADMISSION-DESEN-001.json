@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-REPORTS-HALVESSA-ADMISSION-DESEN-001",
+  "base_commit": "df4d0b7c7adcfe848773db404dd8f0e4ef98bda9",
+  "source_checkpoint": "D327-1025-ORSAVEN-OLD-CROWN-WARD-PARTY-REGROUP-NEXT-DECISION-001",
+  "destination_checkpoint": "D327-1055-ORSAVEN-DESEN-BRIEFED-SALLOW-APPOINTMENT-NEXT-DECISION-001",
+  "source_evidence": "D327~10:55 player exact 'Yes' following companions' agreed recommendation to inform Desen first and keep Halvessa's proposed 15:00 appointment. V/Mara/Cirren/Fenar walk together from Old Crown Ward to Western District Watch annex, meet Sgt Rill Desen and report the actual audience and offered Sallow introduction. Ordinary travel and report; new time estimate for ordinary city movement and conversation, no check or new expense. Companions independently confirm Halvessa's exact statement: 'Sallow has standing instructions from me. Some of the goods we buy are landed before assessment. I know the duties are not included in our bills.' They explain her offer to introduce the party through Sallow to Tavosk and proposed 15:00 appointment. Desen records the report and identities of the four firsthand witnesses as a lead to be checked alongside existing evidence, not a sworn deposition, signed V statement, independently authenticated household exhibits or conviction. He advises that if they go back, listen to what Sallow actually offers, avoid promising illegal purchases or revealing evidence, do not attempt arrest, and leave if the meeting becomes unsafe; he will continue official corroboration. No police deputization, covert surveillance, warrant, deployment, arrest, new fee, restitution or recovery of money. Desen now knows the admission and offered appointment, not hidden prep or unobserved facts. V has indicated intent to keep proposed appointment, not actually attended or confirmed Tavosk's presence, agreed to a deal, or chosen intervening activity. Meeting with Desen concluded for now; group together outside annex ~10:55; next decision before 15:00. No resource changes.",
+  "pending_action": "Day327~10:55 Western District Watch annex exterior, Orsaven. V/Mara/Cirren/Fenar reported Halvessa's witnessed admission and appointment offer to Desen. V intends to keep proposed 15:00 meeting with Sallow at House Veldrake; Tavosk availability and actual Sallow notification unconfirmed. Desen is informed and handling corroboration independently; no warrant, arrest, surveillance, sworn statement, official authentication or recovery verified. Group has about four hours before appointment; V chooses next action. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife2/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and 14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes; Cirren signed receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-REGROUPS-COMPANIONS-HALVESSA-ADMISSION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary city travel, voluntary factual report to established cooperative Watch sergeant, and his own advice; no uncertain check or delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D327-V-REPORTS-HALVESSA-ADMISSION-DESEN-001",
+      "accepted": true,
+      "evidence": "D327~10:55 player exact 'Yes' following companions' agreed recommendation to inform Desen first and keep Halvessa's proposed 15:00 appointment. V/Mara/Cirren/Fenar walk together from Old Crown Ward to Western District Watch annex, meet Sgt Rill Desen and report the actual audience and offered Sallow introduction. Ordinary travel and report; new time estimate for ordinary city movement and conversation, no check or new expense. Companions independently confirm Halvessa's exact statement: 'Sallow has standing instructions from me. Some of the goods we buy are landed before assessment. I know the duties are not included in our bills.' They explain her offer to introduce the party through Sallow to Tavosk and proposed 15:00 appointment. Desen records the report and identities of the four firsthand witnesses as a lead to be checked alongside existing evidence, not a sworn deposition, signed V statement, independently authenticated household exhibits or conviction. He advises that if they go back, listen to what Sallow actually offers, avoid promising illegal purchases or revealing evidence, do not attempt arrest, and leave if the meeting becomes unsafe; he will continue official corroboration. No police deputization, covert surveillance, warrant, deployment, arrest, new fee, restitution or recovery of money. Desen now knows the admission and offered appointment, not hidden prep or unobserved facts. V has indicated intent to keep proposed appointment, not actually attended or confirmed Tavosk's presence, agreed to a deal, or chosen intervening activity. Meeting with Desen concluded for now; group together outside annex ~10:55; next decision before 15:00. No resource changes.",
+      "before": "Group regrouped near Veldrake townhouse; Desen not yet informed of Halvessa admission.",
+      "after": "Desen informed of firsthand statement and proposed appointment; V intends to attend later; group outside annex and next action pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
