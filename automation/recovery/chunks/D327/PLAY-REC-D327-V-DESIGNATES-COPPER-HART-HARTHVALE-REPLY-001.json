@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D327-V-DESIGNATES-COPPER-HART-HARTHVALE-REPLY-001",
+  "base_commit": "e45388a1bd48e80c8d8f7f95fd94e167962c59ea",
+  "source_checkpoint": "D327-1510-ORSAVEN-SALLOW-HARTHVALE-REFERRAL-ACCEPTED-CONTACT-PENDING-001",
+  "destination_checkpoint": "D327-1511-ORSAVEN-SALLOW-COPPER-HART-REPLY-ADDRESS-AUDIENCE-END-PENDING-001",
+  "source_evidence": "D327~15:11 exact player 'the copper hart' answers Sallow's question where to send word about the proposed broker-mediated introduction to Demeric Harthvale. V authorizes use of the Copper Hart as reply destination for this specific correspondence, not a purchase, fee, contract, meeting attendance, disclosure of evidence, or other activity. Sallow notes the address and says he will send word there when he has an answer; he wishes the party well and signals the ordinary conclusion of the business audience. No actual message dispatch, broker response, Harthvale agreement, meeting time, new attendee or guaranteed reply established yet. V/Mara/Cirren/Fenar remain in the business room at the end of audience, free to depart or speak further; no V movement, Watch report or other choice assumed. Existing signed Tavosk referral and handwritten notes remain V-held; no new check, feature use, resource or custody change apart from Sallow learning the reply destination.",
+  "pending_action": "Day327~15:11 House Veldrake private business room, Old Crown Ward, Orsaven. V designated Copper Hart for replies about Harthvale introduction. Sallow acknowledged and signals end of audience; group has not yet departed. V decides next action. No actual dispatch, receipt, Harthvale agreement, appointment, payment or contract. Tavosk signed referral V-held, public Exchange petition office, availability unconfirmed. Desen unaware of afternoon findings; Halvessa admission reported earlier. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife2/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Purse2047gp8sp6cp rations21/feed28 LR2/6. Desen retains two original exhibits (36gp lot27 invoice and14gp Tavosk acknowledgement) and copy of notes; V retains handwritten notes and Sallow signed referral; Cirren signed receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody, confidential copies, Crown recommendation pending, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D327-V-ACCEPTS-SALLOW-HARTHVALE-INTRODUCTION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Routine reply address and willing NPC acknowledgment; no uncertain check or delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D327-V-DESIGNATES-COPPER-HART-HARTHVALE-REPLY-001",
+      "accepted": true,
+      "evidence": "D327~15:11 exact player 'the copper hart' answers Sallow's question where to send word about the proposed broker-mediated introduction to Demeric Harthvale. V authorizes use of the Copper Hart as reply destination for this specific correspondence, not a purchase, fee, contract, meeting attendance, disclosure of evidence, or other activity. Sallow notes the address and says he will send word there when he has an answer; he wishes the party well and signals the ordinary conclusion of the business audience. No actual message dispatch, broker response, Harthvale agreement, meeting time, new attendee or guaranteed reply established yet. V/Mara/Cirren/Fenar remain in the business room at the end of audience, free to depart or speak further; no V movement, Watch report or other choice assumed. Existing signed Tavosk referral and handwritten notes remain V-held; no new check, feature use, resource or custody change apart from Sallow learning the reply destination.",
+      "before": "Sallow asks where to send word about possible Harthvale introduction.",
+      "after": "Copper Hart designated and acknowledged; audience concludes, V departure/next action pending, dispatch and meeting unconfirmed.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
