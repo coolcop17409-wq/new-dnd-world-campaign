@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D325-ORSAVEN-DESEN-QUENWOOD-DISPOSITION-001",
+  "base_commit": "25a6cb68abb67d3881b0cc97c89d165b7c9bd2cc",
+  "source_checkpoint": "D325-1615-ORSAVEN-BOTH-ENCHANTMENT-COMMISSIONS-ACCEPTED-001",
+  "destination_checkpoint": "D325-1700-ORSAVEN-DESEN-QUENWOOD-STATUS-REVEALED-001",
+  "source_evidence": "Player exact 'Lets check with the sergeant and the status of Quenwood' authorizes ordinary return to Sgt Rill Desen, known independent Watch sergeant, at the Western District annex. Sources campaign/continuity/npcs.md and quests.md D205-QUENWOOD-VERDICT-001, prep/dm-only/dm-ferry-setup.md, world/politics/human-states.md. Original guilt verdict for endowment fraud and ordering seven poisoned gifts upheld on the independent admitted evidence; coerced confession remains excluded. Newly adjudicated independent court sentence life imprisonment and court-administered restitution, appeal result upheld and asset freeze without distribution, actual RNG receipt d4d356875bb136529ee828ac12d5999d. Desen reports public status, not DM-only financial truth or witness address. No automatic seized funds in V purse, no compensation amounts assumed, no named accomplice verdict or forced follow-up. No new V speech, resource consumption, or purchases.",
+  "pending_action": "D325~17:00 at the Western District Watch annex in Orsaven, after a visit to Sgt Rill Desen; V accepted both negotiated commissions. Lark Street Letter Writer's confirmed quillwright receives140gp deposit for one Hadiya's Handy Quill (Saddlebag Book Two p97, uncommon attunement), total420gp, remaining280gp on completed delivery. Two Spindles Clothiers' confirmed needlecraft specialist receives120gp deposit for one set Weaving Wasp Needles (Saddlebag Book Two p187, uncommon), total360gp, remaining240gp upon completed delivery. Separate makers' single commission slots now committed, work starts D325, target D353 after28 campaign days. Expected ready for local collection in Orsaven; actual completion/handover required; no onward shipment or transport fee arranged. V pays260gp once, purse2311gp8sp6cp→2051gp8sp6cp, remaining contractual balances520gp not yet paid or a protected reserve. Existing D216-ORSAVEN-HADIYA-QUILL-INQUIRY-001 and D216-ORSAVEN-WASP-NEEDLES-INQUIRY-001 become accepted orders; no item yet in party custody/attuned. Serpent Dart still no supplier. Prior visits to Pellin/Maud/Sabine completed. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone; Cirren51/51 AC19 +1 Shield equipped old shield retained HD6/6 slots4/2/3 CD2/2 boots; Fenar59/59 AC16 breastplate and Insignia HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40, natural attacks+9, greataxe unchanged. Mara, coach and four horses healthy, stabled at Copper Hart. Rations21/feed28, LR5/6, D325 overnight not yet booked or rested. Crown sealed invitation and credentials undelivered, frontier commission300+1300, Coris300/800 contingent, Elara Caereth, Severin assent unconfirmed, Kestrel custody unchanged. V dice delegated. Desen confirms from public court disposition: Quenwood sentenced to life imprisonment with court-ordered restitution from identified assets; appeal has been heard, conviction and sentence upheld (genuine d20 13; predeclared 1–3 limited procedural remand, 4–20 upheld). Assets frozen, no distribution yet (genuine d20 4; predeclared 1–5 freeze/no distribution, 6–15 partial, 16–20 verified liquid assets distributed). This is newly adjudicated independent offscreen progress over 120 elapsed days since D205 conviction, not an earlier recovered ruling. Exact dates, sums, intermediary culpability and additional financial claims not established. No wider organization found by this verdict; no release, new trial, or fresh protective duty. Desen can explain the available public disposition and permits a separate inquiry into authorized financial evidence if V chooses; no documents or new quest accepted or handed over. Cirren is relieved by the upheld conviction and concerned about beneficiaries awaiting compensation. V has made no new payment, speech, feature use or further commitment. Await V response.",
+  "depends_on": [
+    "PLAY-REC-D325-V-COMMISSIONS-QUILL-AND-NEEDLES-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "d4d356875bb136529ee828ac12d5999d",
+        "rolls": [
+          {
+            "id": "D325.Quenwood.court.appeal_disposition",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          },
+          {
+            "id": "D325.Quenwood.court.restitution_progress",
+            "sides": 20,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D325-ORSAVEN-QUENWOOD-PUBLIC-DISPOSITION-001",
+      "accepted": true,
+      "evidence": "Player exact 'Lets check with the sergeant and the status of Quenwood' authorizes ordinary return to Sgt Rill Desen, known independent Watch sergeant, at the Western District annex. Sources campaign/continuity/npcs.md and quests.md D205-QUENWOOD-VERDICT-001, prep/dm-only/dm-ferry-setup.md, world/politics/human-states.md. Original guilt verdict for endowment fraud and ordering seven poisoned gifts upheld on the independent admitted evidence; coerced confession remains excluded. Newly adjudicated independent court sentence life imprisonment and court-administered restitution, appeal result upheld and asset freeze without distribution, actual RNG receipt d4d356875bb136529ee828ac12d5999d. Desen reports public status, not DM-only financial truth or witness address. No automatic seized funds in V purse, no compensation amounts assumed, no named accomplice verdict or forced follow-up. No new V speech, resource consumption, or purchases.",
+      "before": "D205 guilty verdict; sentencing, appeal and restitution unknown to V.",
+      "after": "D325 Desen confirms life imprisonment, appeal upheld, court-ordered restitution; assets frozen, no distributions. Other liabilities unconfirmed. No further quest accepted.",
+      "owner_paths": [
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
