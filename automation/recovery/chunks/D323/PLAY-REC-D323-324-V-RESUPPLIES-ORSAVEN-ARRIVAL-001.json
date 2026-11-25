@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D323-324-V-RESUPPLIES-ORSAVEN-ARRIVAL-001",
+  "base_commit": "8647b4ad1ea919e3146a42edd0c7e16f2e58986d",
+  "source_checkpoint": "D323-1600-OSSENT-MARKET-RESUPPLY-OFFER-PENDING-001",
+  "destination_checkpoint": "D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001",
+  "source_evidence": "Player exact 'Yep and continue' authorizes offered 3-day supplies at5gp1sp and continuation of existing route. Actual purchase9 ration units +12 feed units,5gp1sp paid once (319746cp−510=319236cp), actual D323/324 travel-day supply use each3/4; current6/8. Genuine user-visible Python secrets batch7a0d2ee6cb3b261eca6172ad05672d8c, d100 night323=90 vs7 quiet, day324=71 vs15 quiet, no type roll. D323 exposed roadside camp, no unapproved lodging cost, qualifying SR and +1 weighted LR3/6, all SR resources already full; no LR, Cirren spent slot/Fenar Rage not recovered. Actual city approach east because travel westbound from Crownsunder; no arbitrary relocation to western gate, no special entrance charges/obstruction. Merchant's independently established goal commercial delivery, thanks party and parts on arrival; no reward or extra commitment. Source dm-orsaven-framework.md @9d35d62e1d25f9021a8105d1d8bd8db9bc583758 arrival/contact packet, world/politics/human-states.md retained city culture, rules-travel-communication and rules-combat-recovery retained. G1 scope ordinary city arrival fits political geography, independent contacts, no invented treaty outcome; G2 clear optional first steps without compulsory permit errands; G3 ordinary arrival, actual purchase and dice, no contested audience or encounter initiated; later royal negotiations require own scoped gates including Ossent's existing claim condition. D324~16:30 Orsaven, arriving via maintained westbound coach road from Crownsunder, at the city's eastern approach and ordinary entry into the city (not assumed western freight district). V authorized D323 purchase of 9 rations and 12 horse-feed units for5gp1sp; actual payment once purse3197gp4sp6cp→3192gp3sp6cp. D323 end-of-day charge and D324 full travel-day charge total6 ration-person-days and8 horse-feed units; supplies3+9−6=6 rations and4+12−8=8 feed (two days). D323 exposed camp night genuine90 vs7 quiet, uninterrupted qualifying wilderness SR and +1 weighted LR2→3/6; no full LR or further restoration, D324 daytime genuine71 vs15 quiet. Eight-day leg D317–324 completed, two encounter days D320/321 out of cap5; no D324 night/rest yet. Routine Tamsin contact D324 under standing instructions, no specific estate result inferred. Wool merchant travels with party until actual Orsaven entry, offers thanks and goes toward freight customers, no further escort contract or payment. V/Mara/Cirren/Fenar and coach/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Cirren51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots, no active spells; Fenar59/59 AC14 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40. V retains sealed Crown preliminary invitation and limited messenger credentials, separate intel commission introduction, Kestrel originals, ordinary raid loot19gp already in purse and unsold 1 scimitar,2 daggers,1 longsword,1 shortsword,1 heavy crossbow,1 studded leather,1 splint. Mara notes, Fenar six sealed reagents/instrument, Cirren private compact unchanged. Both D321 prisoners alive when handed over, subsequent outcome unknown. Crown commission remaining300+1300, Coris300/800 contingent, Elara Caereth, Severin reply unverified. No lodging selected/paid, no correspondence delivered or meeting obtained, no new quest offer. Available ordinary royal correspondence receiving office, existing scholarly contacts, commercial services and lodging. V decides first destination; dice delegated until stop.",
+  "pending_action": "D324~16:30 Orsaven, arriving via maintained westbound coach road from Crownsunder, at the city's eastern approach and ordinary entry into the city (not assumed western freight district). V authorized D323 purchase of 9 rations and 12 horse-feed units for5gp1sp; actual payment once purse3197gp4sp6cp→3192gp3sp6cp. D323 end-of-day charge and D324 full travel-day charge total6 ration-person-days and8 horse-feed units; supplies3+9−6=6 rations and4+12−8=8 feed (two days). D323 exposed camp night genuine90 vs7 quiet, uninterrupted qualifying wilderness SR and +1 weighted LR2→3/6; no full LR or further restoration, D324 daytime genuine71 vs15 quiet. Eight-day leg D317–324 completed, two encounter days D320/321 out of cap5; no D324 night/rest yet. Routine Tamsin contact D324 under standing instructions, no specific estate result inferred. Wool merchant travels with party until actual Orsaven entry, offers thanks and goes toward freight customers, no further escort contract or payment. V/Mara/Cirren/Fenar and coach/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Cirren51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots, no active spells; Fenar59/59 AC14 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40. V retains sealed Crown preliminary invitation and limited messenger credentials, separate intel commission introduction, Kestrel originals, ordinary raid loot19gp already in purse and unsold 1 scimitar,2 daggers,1 longsword,1 shortsword,1 heavy crossbow,1 studded leather,1 splint. Mara notes, Fenar six sealed reagents/instrument, Cirren private compact unchanged. Both D321 prisoners alive when handed over, subsequent outcome unknown. Crown commission remaining300+1300, Coris300/800 contingent, Elara Caereth, Severin reply unverified. No lodging selected/paid, no correspondence delivered or meeting obtained, no new quest offer. Available ordinary royal correspondence receiving office, existing scholarly contacts, commercial services and lodging. V decides first destination; dice delegated until stop.",
+  "depends_on": [
+    "PLAY-REC-D321-323-OSSENT-QUIET-ROAD-MARKET-RESUPPLY-OFFER-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "7a0d2ee6cb3b261eca6172ad05672d8c",
+        "rolls": [
+          {
+            "id": "D323.Caereth_Orsaven.road.occurrence.night",
+            "sides": 100,
+            "faces": [
+              90
+            ]
+          },
+          {
+            "id": "D324.Caereth_Orsaven.road.occurrence.day",
+            "sides": 100,
+            "faces": [
+              71
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D323-V-MARKET-RESUPPLY-5GP1SP-001",
+      "accepted": true,
+      "evidence": "Explicit purchase of 9 rations and12 feed units at agreed5gp1sp.",
+      "before": "Purse3197gp4sp6cp, supplies3/4.",
+      "after": "Purse3192gp3sp6cp, supplies12/16 before daily use.",
+      "owner_paths": [
+        "trackers/csv/v/v-inventory.csv",
+        "data/characters/events.csv",
+        "campaign/continuity/session-log.md"
+      ]
+    },
+    {
+      "event_id": "D324-V-ORSAVEN-COACH-ARRIVAL-001",
+      "accepted": true,
+      "evidence": "Player exact 'Yep and continue' authorizes offered 3-day supplies at5gp1sp and continuation of existing route. Actual purchase9 ration units +12 feed units,5gp1sp paid once (319746cp−510=319236cp), actual D323/324 travel-day supply use each3/4; current6/8. Genuine user-visible Python secrets batch7a0d2ee6cb3b261eca6172ad05672d8c, d100 night323=90 vs7 quiet, day324=71 vs15 quiet, no type roll. D323 exposed roadside camp, no unapproved lodging cost, qualifying SR and +1 weighted LR3/6, all SR resources already full; no LR, Cirren spent slot/Fenar Rage not recovered. Actual city approach east because travel westbound from Crownsunder; no arbitrary relocation to western gate, no special entrance charges/obstruction. Merchant's independently established goal commercial delivery, thanks party and parts on arrival; no reward or extra commitment. Source dm-orsaven-framework.md @9d35d62e1d25f9021a8105d1d8bd8db9bc583758 arrival/contact packet, world/politics/human-states.md retained city culture, rules-travel-communication and rules-combat-recovery retained. G1 scope ordinary city arrival fits political geography, independent contacts, no invented treaty outcome; G2 clear optional first steps without compulsory permit errands; G3 ordinary arrival, actual purchase and dice, no contested audience or encounter initiated; later royal negotiations require own scoped gates including Ossent's existing claim condition. D324~16:30 Orsaven, arriving via maintained westbound coach road from Crownsunder, at the city's eastern approach and ordinary entry into the city (not assumed western freight district). V authorized D323 purchase of 9 rations and 12 horse-feed units for5gp1sp; actual payment once purse3197gp4sp6cp→3192gp3sp6cp. D323 end-of-day charge and D324 full travel-day charge total6 ration-person-days and8 horse-feed units; supplies3+9−6=6 rations and4+12−8=8 feed (two days). D323 exposed camp night genuine90 vs7 quiet, uninterrupted qualifying wilderness SR and +1 weighted LR2→3/6; no full LR or further restoration, D324 daytime genuine71 vs15 quiet. Eight-day leg D317–324 completed, two encounter days D320/321 out of cap5; no D324 night/rest yet. Routine Tamsin contact D324 under standing instructions, no specific estate result inferred. Wool merchant travels with party until actual Orsaven entry, offers thanks and goes toward freight customers, no further escort contract or payment. V/Mara/Cirren/Fenar and coach/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Cirren51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots, no active spells; Fenar59/59 AC14 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40. V retains sealed Crown preliminary invitation and limited messenger credentials, separate intel commission introduction, Kestrel originals, ordinary raid loot19gp already in purse and unsold 1 scimitar,2 daggers,1 longsword,1 shortsword,1 heavy crossbow,1 studded leather,1 splint. Mara notes, Fenar six sealed reagents/instrument, Cirren private compact unchanged. Both D321 prisoners alive when handed over, subsequent outcome unknown. Crown commission remaining300+1300, Coris300/800 contingent, Elara Caereth, Severin reply unverified. No lodging selected/paid, no correspondence delivered or meeting obtained, no new quest offer. Available ordinary royal correspondence receiving office, existing scholarly contacts, commercial services and lodging. V decides first destination; dice delegated until stop.",
+      "before": "D323 late afternoon market, final stretch pending.",
+      "after": "D324~16:30 Orsaven, arriving via maintained westbound coach road from Crownsunder, at the city's eastern approach and ordinary entry into the city (not assumed western freight district). V authorized D323 purchase of 9 rations and 12 horse-feed units for5gp1sp; actual payment once purse3197gp4sp6cp→3192gp3sp6cp. D323 end-of-day charge and D324 full travel-day charge total6 ration-person-days and8 horse-feed units; supplies3+9−6=6 rations and4+12−8=8 feed (two days). D323 exposed camp night genuine90 vs7 quiet, uninterrupted qualifying wilderness SR and +1 weighted LR2→3/6; no full LR or further restoration, D324 daytime genuine71 vs15 quiet. Eight-day leg D317–324 completed, two encounter days D320/321 out of cap5; no D324 night/rest yet. Routine Tamsin contact D324 under standing instructions, no specific estate result inferred. Wool merchant travels with party until actual Orsaven entry, offers thanks and goes toward freight customers, no further escort contract or payment. V/Mara/Cirren/Fenar and coach/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Cirren51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots, no active spells; Fenar59/59 AC14 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40. V retains sealed Crown preliminary invitation and limited messenger credentials, separate intel commission introduction, Kestrel originals, ordinary raid loot19gp already in purse and unsold 1 scimitar,2 daggers,1 longsword,1 shortsword,1 heavy crossbow,1 studded leather,1 splint. Mara notes, Fenar six sealed reagents/instrument, Cirren private compact unchanged. Both D321 prisoners alive when handed over, subsequent outcome unknown. Crown commission remaining300+1300, Coris300/800 contingent, Elara Caereth, Severin reply unverified. No lodging selected/paid, no correspondence delivered or meeting obtained, no new quest offer. Available ordinary royal correspondence receiving office, existing scholarly contacts, commercial services and lodging. V decides first destination; dice delegated until stop.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
