@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D330-V-HAILS-ARMED-CAPTIVE-ESCORT-001",
+  "base_commit": "58c574dac2045b1353ee676c896feff470a1d491",
+  "source_checkpoint": "D330-2100-WESTERN-OSSENT-ROUGH-TRACK-JUNCTION-ARMED-CAPTIVES-ENCOUNTER-V-DECISION-001",
+  "destination_checkpoint": "D330-2101-WESTERN-OSSENT-ESCORT-HALTED-CONFLICTING-CLAIMS-V-DECISION-001",
+  "source_evidence": "Day330~21:00 exact player 'Hello, what’s going on?' is V's audible greeting/question to the armed group from the existing roadside camp, no additional movement, threat, weapon draw, spell, deception or attack. At about80ft the group hears the raised voice, halts and turns toward visible campfire. Its apparent leader (fixed Veteran, private) calls back 'Keep to your fire, traveler. These two are thieves. We're taking them to answer for it.' The woman already heard protesting calls back 'That's a lie! They took us from our home!' A guard orders her quiet. Her words are her firsthand claim; the leader's justification is a deliberate false cover for the already-fixed ransom abduction, not an established lawful warrant or proof V can yet see. No additional origin, ransom amount, relationship, faction link or injuries established. Escort remains on the road ~80ft away within original 30ft grouping, westward travel momentarily halted, one torch; existing low hawthorn/ditch and light unchanged. The group now knows there is at least one interlocutor at camp but not party identities, exact strength or hidden details. Leader wants to avoid trouble and move on with captives; no new attack, pursuit, initiative, guaranteed surprise, concession, roll or resource change. V chooses next action.",
+  "pending_action": "Day330~21:01 exposed camp near western Ossent final rough-track junction, 48/60 planned miles traveled, 12 rough miles remain; coach suitability/staging pending. V hailed group; six armed figures stopped on road~80ft away (center40,70, road y70) and leader claimed two restrained captives are thieves being taken to answer for it. Woman directly denied claim and said they took them from home; guard ordered silence. Fixed private truth ransom abductors; roster Veteran,3 Scouts,2 Thugs MM2014, two living adult restrained Commoners, fatigue no confirmed injury. They know someone at camp addressed them but no exact strengths/identity. No verified authority, ransom amount, faction ties, combat, initiative or surprise adjudicated. Torch bright20/dim20; low hawthorn/ditch partial screening; party near campfire, Mara/coach/4 horses near(0,-10), exact combat squares pending. V next decision. D329 rolls37/35 quiet; D330 day28/night5/type53/severity42 serious, 1/2 random encounter days used; no D330 rest yet. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots/+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia. Mara and coach/four horses healthy. Purse2037gp8sp6cp rations15/feed20 LR1/6. D328→329 full LR and D329→330 wilderness night complete; D330 provisions charged, no additional recovery/payment. D329 Tavosk15 no notice; royal proposal considered undecided; no new Desen result. Sornell cooperates, enforcement and safety arrangements unconfirmed. Desen holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; V retains notes, new originals, invitation and Harthvale nonbinding memorandum; Cirren signed evidence receipt. Harthvale and Halvessa proposals unaccepted/unpaid; paymaster48gp held restitution none distributed; Quenwood life sentence upheld/assets frozen. Western conditional grant not deed; Mara authenticated survey/notes; V grant instrument; Coris300/optional800 and Crown300+1300 contingent; commissions520 due actual completion target353; Kestrel custody/copies, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D328-330-COPPER-HART-LONGREST-WESTERN-CROSSING-JOURNEY-NIGHT-ENCOUNTER-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Audible question and NPC voluntary spoken responses; no contested social check, movement, attack, detection contest or delegated roll yet."
+  },
+  "events": [
+    {
+      "event_id": "D330-V-HAILS-ESCORT-CONFLICTING-CAPTIVE-CLAIMS-001",
+      "accepted": true,
+      "evidence": "Day330~21:00 exact player 'Hello, what’s going on?' is V's audible greeting/question to the armed group from the existing roadside camp, no additional movement, threat, weapon draw, spell, deception or attack. At about80ft the group hears the raised voice, halts and turns toward visible campfire. Its apparent leader (fixed Veteran, private) calls back 'Keep to your fire, traveler. These two are thieves. We're taking them to answer for it.' The woman already heard protesting calls back 'That's a lie! They took us from our home!' A guard orders her quiet. Her words are her firsthand claim; the leader's justification is a deliberate false cover for the already-fixed ransom abduction, not an established lawful warrant or proof V can yet see. No additional origin, ransom amount, relationship, faction link or injuries established. Escort remains on the road ~80ft away within original 30ft grouping, westward travel momentarily halted, one torch; existing low hawthorn/ditch and light unchanged. The group now knows there is at least one interlocutor at camp but not party identities, exact strength or hidden details. Leader wants to avoid trouble and move on with captives; no new attack, pursuit, initiative, guaranteed surprise, concession, roll or resource change. V chooses next action.",
+      "before": "Six armed abductors escort two captives past camp; V has not addressed them.",
+      "after": "Escort halted after V hails it; leader asserts thieves, captive denies and reports abduction; V next decision pending; no combat or mechanical changes.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
