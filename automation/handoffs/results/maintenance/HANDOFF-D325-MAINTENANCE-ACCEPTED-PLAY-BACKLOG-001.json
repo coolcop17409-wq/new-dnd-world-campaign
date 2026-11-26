@@ -1,7 +1,7 @@
 {
   "request_id": "HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001",
   "lane": "maintenance",
-  "status": "blocked",
+  "status": "partial",
   "source_commit": "2120b1d38a2483234e885dc24002b5dd76cb02d7",
   "source_request_blob": "babc59462126f3487d5fa7486dfcee61bc92430a",
   "summary": "Checked through newer accepted Day326 rather than stale request Day325. Owner-sync prerequisite remains blocked by unmerged PR41; two later immutable-source defects identified with original provenance. Repaired estate coverage type routing and refreshed existing atlas pointer; no gameplay owner or checkpoint application.",
@@ -12,10 +12,10 @@
     "campaign/continuity/campaign-state.md",
     "automation/handoffs/play-sync/results/PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json"
   ],
-  "blocker": "Original PR41 path correction applied and verified by readback. Actual retry assembled 32 compatibility entries; transport/owner application not yet verified. Later accepted suffix has reported path/base_commit validation defects.",
-  "next_trigger": "Check covering D308–316 workflow retry, transport and independent owner receipt; only then prepare remaining suffix. Do not resubmit overlapping D314. Review later immutable storage-path and base_commit discrepancies against exact provenance.",
-  "latest_owner_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
-  "latest_accepted_checkpoint": "D326-1715-ORSAVEN-COUNTING-SHOP-ROUTE-BROKER-CONTACT-PENDING-001",
+  "blocker": "D316–324 transport PR46 queued and workflow succeeded; owner receipt pending. Later exact path/base_commit defects require targeted verification and repair.",
+  "next_trigger": "Verify PR46 owner/checkpoint receipt and compatibility cleanup; then build one new boundary from the preflighted 11-entry D324–325 candidate only if exact owner source matches and no overlapping claim. Continue through D328 in smaller sequential batches; never rewrite original chunks.",
+  "latest_owner_checkpoint": "D316-1420-CAERETH-OSSENT-INVITATION-ACCEPTED-DEFENSE-TALKS-001",
+  "latest_accepted_checkpoint": "D328-1441-ORSAVEN-SORNELL-INTERVIEW-WORKER-SAFETY-NEXT-ACTION-001",
   "accepted_suffix_entries": 100,
   "accepted_suffix_bytes": 1462378,
   "owners_verified": false,
@@ -147,5 +147,122 @@
         }
       }
     }
+  },
+  "continuation_D328": {
+    "operation_id": "ADMIN-CONTINUE-SYNC-D328-20261125-01",
+    "prior_verified_batch": {
+      "id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
+      "owner_commit": "d24cf4ed9c24503f778ee9da635605ad6eb4ff74",
+      "checkpoint_commit": "36c3b828d3f83914c5122881854dd56a273da402",
+      "receipt_commit": "816acaf9ed1da84e77a4733c5a79251cfed613dc"
+    },
+    "current_batch": {
+      "id": "PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001",
+      "boundary_commit": "062af56d2373f82f6d658f90c950317f0b1a10d9",
+      "boundary_blob": "08ca3ac3547b71c8289d3de4b65f6b2e8969cc83",
+      "records": 18,
+      "events": 26,
+      "workflow_run": 45741033231,
+      "transport_pr": 46,
+      "transport_head": "1e519b28ea1b160698b8003c6d60efdf66fbcd08",
+      "status": "workflow_succeeded_transport_created_owners_unverified"
+    },
+    "next_candidate": {
+      "status": "preflight_only_not_queued",
+      "source_head": "816acaf9ed1da84e77a4733c5a79251cfed613dc",
+      "source_checkpoint": "D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001",
+      "destination_checkpoint": "D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001",
+      "last_recovery_id": "PLAY-REC-D325-ORSAVEN-NIGHTGLASS-CORIS-EVIDENCE-FORWARDING-001",
+      "entries": 11,
+      "events": 21,
+      "records": [
+        {
+          "path": "automation/recovery/chunks/D324/PLAY-REC-D324-ORSAVEN-ARMS-SALE-RESUPPLY-COMPANION-PROPERTY-OPTIONS-001.json",
+          "digest": "22c33183df5337c8db78476c02bb2e52a0d6a8aefcb49391f9f35ebfa02548f3",
+          "blob": "f1eb4dcae7c996274679b931119c86cd13a5dfb0"
+        },
+        {
+          "path": "automation/recovery/chunks/D324/PLAY-REC-D324-V-BUYS-FENAR-BREASTPLATE-INSIGNIA-CIRREN-SHIELD-001.json",
+          "digest": "d61b777f08a715a36efd33e22bb0bc7c1acf1aa2493e3f969c57396304743213",
+          "blob": "63725b2208ef32a6e2a82625e725e4679632c846"
+        },
+        {
+          "path": "automation/recovery/chunks/D324/PLAY-REC-D324-V-COPPER-HART-BOOKING-CORRESPONDENCE-001.json",
+          "digest": "d0d772f2dbe58c7014ad66a9f2b828d8fcf07d0d81a887b47b8ebc096fcee24c",
+          "blob": "20e6a26873619dd45b4730bf5e119848197d29c5"
+        },
+        {
+          "path": "automation/recovery/chunks/D324/PLAY-REC-D324-325-COPPER-HART-SECURE-NIGHT-001.json",
+          "digest": "bcec817f2a4db6a3d85fbefab9ea8b97c25426752dbccb8f91067920e0c1f081",
+          "blob": "f31aff7d0c2e14363d7bd72b7a7341e9e7b586b3"
+        },
+        {
+          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-FRIENDS-THREE-ENCHANTMENT-FOLLOWUPS-001.json",
+          "digest": "78d40598b683b44f8f7719c6d33a4995425ffb60ec56bc825e871a542a020577",
+          "blob": "9f381dadcabe2ae32fcd8688ae085f6746406b75"
+        },
+        {
+          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-QUILL-NEEDLES-NEGOTIATED-QUOTES-001.json",
+          "digest": "19e41816f924bb870b18016e69f4387b417ed9359eb9cfd09a524e03ea8207ac",
+          "blob": "d6888fa5e2c99104736f6da1d9cff32cd498c923"
+        },
+        {
+          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-V-COMMISSIONS-QUILL-AND-NEEDLES-001.json",
+          "digest": "8b34796cef98fd8c1b2a9c91309708449f3aa565125c538ceb5fb1df95aaadba",
+          "blob": "363da7534e625b8bd9090e597f4fcea39fdeb578"
+        },
+        {
+          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-DESEN-QUENWOOD-DISPOSITION-001.json",
+          "digest": "7d96cc448a8db74c32979783c60918c9ec4d14e5f405603eec288012100162f6",
+          "blob": "cab9d49c70fe36419637348c3a51144925ba7954"
+        },
+        {
+          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-DESEN-FERRY-FINANCIAL-TRAIL-REVEALED-001.json",
+          "digest": "c25ac302e4c1763e29b4bbba7c68814011ca7d7232320d821ff81510c47815a7",
+          "blob": "c95a97e83575293bbcdea450bf0139a2f8e08591"
+        },
+        {
+          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-DIPLOMATIC-DELIVERY-NIGHTGLASS-MAP-COMPARISON-001.json",
+          "digest": "8cd2aaecea69f9a6117096f67fae75cbda76c37b324f470c11441a12752a1877",
+          "blob": "5bdf3899f8b56dab07fed28e37906ac3bed9a3fe"
+        },
+        {
+          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-NIGHTGLASS-CORIS-EVIDENCE-FORWARDING-001.json",
+          "digest": "b053132309988f5b950558bb69896c4dd74b0c4b4c83591b68205cbefa82e848",
+          "blob": "34d1d7e9caa4f6bc7e49ebb06cd85d38b523e847"
+        }
+      ],
+      "verification": "Connector pinned source read and independently computed SHA256 canonical JSON digests, checkpoint chain, dependency ordering, unique event IDs and basic RNG receipt checks. Trusted Python workflow verification still required. Do not publish candidate before exact prerequisite owner checkpoint and cleanup."
+    },
+    "later_defects": {
+      "status": "identified_not_repaired",
+      "path_aliases": [
+        {
+          "path": "automation/recovery/chunks/D326/PLAY-REC-D325-326-COPPER-HART-LONG-REST-001.json",
+          "blob": "19acaf6d3013ebbac47a3ff7db9dee28d3028482",
+          "digest": "88470d5c06511e9aa0e18d6c54da66999621307cc24463c02986afae8d9296cb"
+        },
+        {
+          "path": "automation/recovery/chunks/D327/PLAY-REC-D326-327-COPPER-HART-OVERNIGHT-REST-001.json",
+          "blob": "7868b94f5eb620705e2897a4c7f0574ac3e0fb88",
+          "digest": "ac4594658c55c30c86b4982779422a119a26d8a240511207fc08bd067bbb9e22"
+        },
+        {
+          "path": "automation/recovery/chunks/D328/PLAY-REC-D327-328-COPPER-HART-OVERNIGHT-HARTHVALE-INVITATION-001.json",
+          "blob": "67ea35c880e34291661cde4f7a12cced5136e2cf",
+          "digest": "47d4e8e8f56bc303fb80a75b2e97b5dffd77538db388e8408f7a988d04baceeb"
+        }
+      ],
+      "malformed_base": {
+        "path": "automation/recovery/chunks/D326/PLAY-REC-D326-FERRY-RETURN-STOREHOUSE1-ACCOUNT-OFFICE-PENDING-001.json",
+        "blob": "37b21a742dbf5dccdfa519054c6805617002f359",
+        "digest": "e948f545f4c82f5c5ccb6f9f720f34f7b73801b06d133e42438481d1b0913c32",
+        "original_base_commit": "a82213fe4bba8d340ae8682e0da1df88b77233",
+        "creation_commit": "a2fbfacc5b673052571968b265b150607a9bd955",
+        "actual_creation_parent": "a82213fe4bba8d340ae8682e0da1df88b8b77233"
+      },
+      "instruction": "Use exact historical provenance and narrowly scoped validators; no broad exemption, original modification, fabricated history, or claims of unexecuted tests. Existing PR41 path fix applied; later three aliases and malformed base are distinct."
+    },
+    "advances_gameplay": false
   }
 }
