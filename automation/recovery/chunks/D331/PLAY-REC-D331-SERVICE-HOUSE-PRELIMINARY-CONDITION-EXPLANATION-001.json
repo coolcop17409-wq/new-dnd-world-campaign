@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-SERVICE-HOUSE-PRELIMINARY-CONDITION-EXPLANATION-001",
+  "base_commit": "26f671089b601311159d176787ca655969b6e912",
+  "source_checkpoint": "D331-1640-WESTERN-OSSENT-BOTH-WARDERS-PROVISIONAL-GUARDIANS-LOWER-DOOR-OPEN-001",
+  "destination_checkpoint": "D331-1641-WESTERN-OSSENT-PRELIMINARY-SERVICE-HOUSE-CONDITION-V-DECISION-001",
+  "source_evidence": "Exact player 'What is the conditions of this place that makes them ruins?' requests preliminary observable physical condition explanation. Cirren and the cooperating warders describe existing site geometry/condition, no new hazardous movement or full survey: old bridge collapsed, surviving rocky masonry abutment stands, 30x30 receiving hall with older sleeping platforms/ovens and later restraints intact but abandoned/needs cleaning, furnishings and structural inspection; 20x30 raised gallery dry with carved charter and mechanical controls; 30x20 lower chamber visibly ~2ft standing water, waterworks require safe attention; 60ft walkway/30ft stair usable on already traveled route, narrow exterior ledge has damaged section per bounded local guidance. Ferry and Hessa's occupied cottage are functioning and separate from unoccupied service-house claim. No measured overall structural integrity, restoration estimate, final acreage, bridge repair obligation, authorized spending, new salvage/evidence collection, paid inspection, automatic clearance or title. Cirren notes that recovery grant requires genuine hazards secured, resident rights preserved and adequate verification, not rebuilding full bridge. Both warders' provisional guardian agreements reduce immediate danger, do not establish safe/legal deployment or entire site clearance. V remains at gallery stairhead with party and warders, lower door open; no controls touched or archive visited. No new roll or game-time advance beyond ordinary immediate explanation.",
+  "pending_action": "Day331~16:41 western Ossent raised gallery southern edge near(45,40), V/Fenar/Cirren/first warder; second warder at open lower door(45,60), second pair of skeletons in lower room, first pair at receiving posts. Both warders voluntarily provisionally agree protecting free residents/travelers under Crown law; no magical loyalty or lawful undead guard deployment or formal clearance certified. V asks physical condition; preliminary description: collapsed bridge, surviving abutment, receiving hall30x30 accessible with preserved fittings, gallery20x30 dry, lower room30x20 ~2ft water, main approach traversable, exterior maintenance ledge damaged, ferry dwelling/landing functioning separate rights. No formal structural survey or cost estimate. Conditional grant requires securing hazards and adequate evidence while preserving residents' rights, no full rebuild. Gallery charter observed not copied; lower records offered for inspection but no descent, control operation, evidence removal or new agreements. Fixed prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291. Hessa outside friendly, Mara/coach/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16; D331 travel charged, cap2/2. Prior pending correspondence/estate/custody/diplomatic/commission records unchanged. V chooses next action.",
+  "depends_on": [
+    "PLAY-REC-D331-SECOND-WARDER-ACCEPTS-PROVISIONAL-GUARDIAN-DUTY-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Preliminary explanation of already observed and reported fixed physical conditions; no contested structural inspection or action."
+  },
+  "events": [
+    {
+      "event_id": "D331-SERVICE-HOUSE-PRELIMINARY-CONDITION-EXPLANATION-001",
+      "accepted": true,
+      "evidence": "Exact player 'What is the conditions of this place that makes them ruins?' requests preliminary observable physical condition explanation. Cirren and the cooperating warders describe existing site geometry/condition, no new hazardous movement or full survey: old bridge collapsed, surviving rocky masonry abutment stands, 30x30 receiving hall with older sleeping platforms/ovens and later restraints intact but abandoned/needs cleaning, furnishings and structural inspection; 20x30 raised gallery dry with carved charter and mechanical controls; 30x20 lower chamber visibly ~2ft standing water, waterworks require safe attention; 60ft walkway/30ft stair usable on already traveled route, narrow exterior ledge has damaged section per bounded local guidance. Ferry and Hessa's occupied cottage are functioning and separate from unoccupied service-house claim. No measured overall structural integrity, restoration estimate, final acreage, bridge repair obligation, authorized spending, new salvage/evidence collection, paid inspection, automatic clearance or title. Cirren notes that recovery grant requires genuine hazards secured, resident rights preserved and adequate verification, not rebuilding full bridge. Both warders' provisional guardian agreements reduce immediate danger, do not establish safe/legal deployment or entire site clearance. V remains at gallery stairhead with party and warders, lower door open; no controls touched or archive visited. No new roll or game-time advance beyond ordinary immediate explanation.",
+      "before": "Both warders provisionally agree new duties; V at gallery, lower door open.",
+      "after": "V knows preliminary physical condition and distinction from title/repair obligations; no work authorized.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
