@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-CUSTODIAN-OPENS-DOOR-INSPECTS-V-001",
+  "base_commit": "b9274e02541d007864d77bf58062b68404f3be64",
+  "source_checkpoint": "D331-1630-WESTERN-OSSENT-CUSTODIAN-DESCRIBES-CHARGE-V-DECISION-001",
+  "destination_checkpoint": "D331-1631-WESTERN-OSSENT-RECEIVING-DOOR-OPEN-WARDER-INSPECTION-V-DECISION-001",
+  "source_evidence": "Exact player 'See for yourself. I am not just a member of my house. I am the Viscount.' V invites the custodian to inspect him and asserts his title. Does not command attack, surrender weapons, offer evidence or move. The first fixed warder independently walks from (0,20) to (0,5) inside receiving hall, lifts inside bar and opens receiving door inward to examine claimant, armed and wary. V remains outside with Fenar at front and Cirren behind. Newly fixed exterior approach positions relative to entry(0,0) along stair axis: Fenar(0,-5), V(0,-10), Cirren(0,-15), following actual descent order; these are approximate along-stair distances, not flat elevation claims. Wight at(0,5) just within entrance; two fixed skeletons remain(-10,15)/(10,15), visible where doorway lines permit, no automatic through-door sight or attack. Wight visibly studies V and floating silver sword without recognizing V, lineage, particular sword history or validity of title; remarks on claimed Viscount and missing memory, treats claim with suspicion. He refuses passage while armed, demands weapons lowered/surrendered before entry as part of hostile custodial intent; V chooses whether to comply, challenge, talk, withdraw or fight. No authority check or automatic obedience, no new secret history, no V action beyond spoken claim, no attack, initiative, surprise, movement, resource use or new evidence. Door open; warder armed, receiving hall dimly lit by stair daylight at entrance; further interior dark. Second fixed group remains behind separate closed doors without alert or reposition. At approximately Day331 16:31.",
+  "pending_action": "Day331~16:31 service-house receiving entry now open. V stated Viscount title and invited inspection; first warder independently opens door and examines V/silver sword, no verified recognition or authority. Wight armed at(0,5), receiving hall 30x30 x−15..15,y0..30,z12, skeletons(-10,15)/(10,15) remain. Party outside entry(0,0), Fenar(0,-5), V(0,-10), Cirren(0,-15) approximate along stair; door open, stair light at entrance, dark deeper room. Wight demands weapons lowered/surrendered before passage, remains hostile/detaining intent, no compliance, attack or initiative. V decides. Verify exact profile, light and lines of sight before action. Fixed prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291: gallery empty via20ft corridor; separate lower Wight+2 Skeletons behind doors, no alarm or reinforcement yet. Recognized Vaishnavi refuge dedication not copied. Hessa friendly outside knows exterior ledge/landing outfall, Mara/coach/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, D331 travel charged, leg cap2/2. Conditional grant not title, protects ferrier rights. Prior correspondence/Desen/royal/estate/diplomatic/commission/custody unchanged.",
+  "depends_on": [
+    "PLAY-REC-D331-CUSTODIAN-DESCRIBES-ANCIENT-CHARGE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary NPC movement, visual inspection and suspicious response; no contested check, attack, verified recognition or authority transfer."
+  },
+  "events": [
+    {
+      "event_id": "D331-CUSTODIAN-OPENS-DOOR-INSPECTS-V-001",
+      "accepted": true,
+      "evidence": "Exact player 'See for yourself. I am not just a member of my house. I am the Viscount.' V invites the custodian to inspect him and asserts his title. Does not command attack, surrender weapons, offer evidence or move. The first fixed warder independently walks from (0,20) to (0,5) inside receiving hall, lifts inside bar and opens receiving door inward to examine claimant, armed and wary. V remains outside with Fenar at front and Cirren behind. Newly fixed exterior approach positions relative to entry(0,0) along stair axis: Fenar(0,-5), V(0,-10), Cirren(0,-15), following actual descent order; these are approximate along-stair distances, not flat elevation claims. Wight at(0,5) just within entrance; two fixed skeletons remain(-10,15)/(10,15), visible where doorway lines permit, no automatic through-door sight or attack. Wight visibly studies V and floating silver sword without recognizing V, lineage, particular sword history or validity of title; remarks on claimed Viscount and missing memory, treats claim with suspicion. He refuses passage while armed, demands weapons lowered/surrendered before entry as part of hostile custodial intent; V chooses whether to comply, challenge, talk, withdraw or fight. No authority check or automatic obedience, no new secret history, no V action beyond spoken claim, no attack, initiative, surprise, movement, resource use or new evidence. Door open; warder armed, receiving hall dimly lit by stair daylight at entrance; further interior dark. Second fixed group remains behind separate closed doors without alert or reposition. At approximately Day331 16:31.",
+      "before": "Receiving door closed; V asked about charge.",
+      "after": "Warder opens door and examines claimant without accepting authority; demands disarmament, V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
