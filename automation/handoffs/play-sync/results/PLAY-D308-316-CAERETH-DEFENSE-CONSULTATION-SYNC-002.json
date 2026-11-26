@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
-  "status": "partial",
-  "phase": "checkpoint_published_verification_pending",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "opened-pr45-15dd1f08",
-  "claim_expires_at": "2026-11-26T01:02:07.000Z",
+  "claim_expires_at": "2026-11-26T00:41:40Z",
   "request_commit": "b750c11ee4012f2a30863fee1adaaba538b76f25",
   "request_blob": "a2e5723180512e30dd76d4b02bd76403e9d6f017",
-  "summary": "53 accepted events preserved in exact archive and owning history; 33 personal numeric/custody legs. Market legs already recorded and preserved. Checkpoint pending.",
-  "blocker": "Final readback verification and compatibility cleanup pending; do not replay owners.",
+  "summary": "53 accepted events synchronized; 33 personal numeric/custody legs. Existing market and quest evidence preserved without duplicate posting. Exact owners and Day316 checkpoint read back.",
+  "blocker": null,
   "applied_event_ids": [
     "D308-V-PERYTON-CORPSE-INVESTIGATION-FAIL-001",
     "D308-CIRREN-PERYTON-ANATOMY-AND-SPECIMEN-RECOVERY-001",
@@ -65,5 +65,112 @@
     "D316-V-ACCEPTS-CARRYING-CROWN-OSSENT-PRELIMINARY-INVITATION-001"
   ],
   "owners_verified": true,
-  "owner_commit": "d24cf4ed9c24503f778ee9da635605ad6eb4ff74"
+  "owner_commit": "d24cf4ed9c24503f778ee9da635605ad6eb4ff74",
+  "checkpoint_commit": "36c3b828d3f83914c5122881854dd56a273da402",
+  "tested_commit": "36c3b828d3f83914c5122881854dd56a273da402",
+  "checkpoint_verified": true,
+  "request_digest": "7ba7328d0c8cf208981033fe578e9a651ea062984ea8cb4472be1887afdb3b37",
+  "verified_event_ids": [
+    "D308-V-PERYTON-CORPSE-INVESTIGATION-FAIL-001",
+    "D308-CIRREN-PERYTON-ANATOMY-AND-SPECIMEN-RECOVERY-001",
+    "D308-310-V-PARTY-QUIET-TRAVEL-RECOVERY-001",
+    "D308-310-V-RETHWYN-MANOR-APPROACH-001",
+    "D310-RETHWYN-ELARA-SELA-PARTY-WARM-REUNION-001",
+    "D310-V-ELARA-PRIVATE-TRAVEL-KESTREL-NIGHTGLASS-BRIEFING-001",
+    "D310-ELARA-CAERETH-LEGAL-CLERK-PRELIMINARY-REPLY-001",
+    "D310-ELARA-THREE-HOUSE-ALLIANCE-RECEPTIVE-AUTHORITY-QUESTION-001",
+    "D310-ELARA-V-THREE-HOUSE-CONSENT-REPRESENTATION-PRINCIPLES-001",
+    "D310-312-RETHWYN-ALLIANCE-MEMORANDUM-PRIORITY-PIGEON-DISPATCH-001",
+    "D310-313-RETHWYN-HOSTED-LEISURE-FULL-REST-001",
+    "D313-V-CAERETH-ROYAL-AUDIENCE-REQUEST-HOUSEHOLD-RIDER-001",
+    "D313-V-ORDINARY-RESUPPLY-SEVEN-DAYS-001",
+    "D313-CAERETH-ROAD-DAY-QUIET-NIGHT-DRAINAGE-HAZARD-001",
+    "D313-V-RELOCATES-CAMP-RAIN-HAZARD-SAFELY-001",
+    "D314-CAERETH-RETHWYN-CITY-RESIDENCE-ARRIVAL-001",
+    "D314-CAERETH-V-ELARA-CIVIL-MARRIAGE-REGISTERED-001",
+    "D314-V-CAERETH-TWO-DAY-PROVISION-REFILL-001",
+    "D314-CAERETH-SCOPED-MAGIC-REVIEWS-AND-BROWSE-001",
+    "D314-CAERETH-GUILD-COURTYARD-THREE-ADVENTURE-OPENINGS-001",
+    "D314-CAERETH-DEFENSE-ORGANIZER-TERMS-001",
+    "D314-CAERETH-DEFENSE-REWARD-NEGOTIATED-OFFER-001",
+    "D314-CAERETH-DEFENSE-NEGOTIATED-CONTRACT-ACCEPTED-001",
+    "D314-V-QUIET-HEEL-BOOTS-ELVENKIND-PURCHASE-001",
+    "D314-CAERETH-RETHWYN-MARRIAGE-CELEBRATORY-DINNER-001",
+    "D314-V-TO-CIRREN-BOOTS-OF-ELVENKIND-GIFT-001",
+    "D314-315-CAERETH-HOSTED-NIGHT-REST-001",
+    "D315-V-SELLS-PERYTON-LOT-RED-GEM-65GP-001",
+    "D315-ELARA-PRIVATE-CROWN-AUDIENCE-OPENS-001",
+    "D315-REMAINING-PORTABLE-VALUABLES-APPRAISAL-001",
+    "D315-V-REMAINING-VALUABLES-CONDITIONAL-240GP-OFFER-001",
+    "D315-CAERETH-CROWN-PRIVATE-KESTREL-EVIDENCE-PRESENTATION-001",
+    "D315-V-CROWN-KESTREL-CERTIFIED-COPY-PERMISSION-001",
+    "D315-V-CROWN-ORSELD-FRONTIER-WARNING-LEAD-OFFER-001",
+    "D315-V-CROWN-FRONTIER-REPORT-AND-COMMISSION-NEGOTIATION-001",
+    "D315-V-PSI-KNACK-CROWN-FRONTIER-1800-OFFER-001",
+    "D315-V-CROWN-FRONTIER-COMMISSION-SIGNED-ADVANCE-200-001",
+    "D315-V-CROWN-VAISHNAVI-ASSOCIATION-RECOGNITION-REQUEST-001",
+    "D315-CROWN-DEFENSE-CONSULTATION-INVITATION-V-ELARA-001",
+    "D315-V-ELARA-STANDING-CAERETH-POLITICAL-REPRESENTATION-001",
+    "D315-CROWN-KESTREL-CERTIFIED-TRANSCRIPTIONS-COMPLETE-001",
+    "D315-CAERETH-GUILD-QUARTERMASTER-AUTHORITY-DISCREPANCY-001",
+    "D315-V-APPROACHES-CAERETH-CONTRACTOR-PRIVATELY-001",
+    "D315-V-GUILD-COMMANDER-AUTHORITY-ARGUMENT-PARTIAL-SUCCESS-001",
+    "D315-COMMANDER-CONDITIONAL-KEY-DEMAND-WITHDRAWAL-PLEDGE-001",
+    "D315-GUILD-PROTOCOL-CONDITIONAL-ENDORSEMENT-001",
+    "D315-CAERETH-DEFENSE-PUBLIC-PROTOCOL-SIGNED-001",
+    "D315-CAERETH-DEFENSE-REWARD-2500-PAID-001",
+    "D315-V-PRE-REST-PSI-RECOVERY-001",
+    "D316-CAERETH-SECURE-CITY-LONGREST-COMPLETE-001",
+    "D316-V-ELARA-ATTEND-CROWN-DEFENSE-CONSULTATION-OPENING-001",
+    "D316-V-DEFENSE-CONSULTATION-OSSENT-COOPERATION-ARGUMENT-001",
+    "D316-V-ACCEPTS-CARRYING-CROWN-OSSENT-PRELIMINARY-INVITATION-001"
+  ],
+  "tests": [
+    {
+      "command": "python3 automation/play_handoff.py /tmp/pr45-request.json",
+      "exit_code": 0,
+      "result": "{\"status\": \"PASS\", \"findings\": []}\n"
+    },
+    {
+      "command": "python3 -m automation.recovery_batch verify /tmp/pr45-journal.json --request /tmp/pr45-request.json --prior-requests /tmp/pr45-prior.json",
+      "exit_code": 0,
+      "result": "{\n  \"status\": \"PASS\"\n}\n"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final --links /tmp/pr45-links.json",
+      "exit_code": 0,
+      "result": "{\n  \"schema_version\": 1,\n  \"status\": \"PASS\",\n  \"scope\": \"final\",\n  \"phase\": \"final\",\n  \"findings\": [],\n  \"notes\": [],\n  \"affected_files\": [],\n  \"source_hashes\": {}\n}\n"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope shops --phase owners",
+      "exit_code": 0,
+      "result": "{\n  \"schema_version\": 1,\n  \"status\": \"PASS\",\n  \"scope\": \"shops\",\n  \"phase\": \"owners\",\n  \"findings\": [],\n  \"notes\": [],\n  \"affected_files\": [],\n  \"source_hashes\": {}\n}\n"
+    },
+    {
+      "command": "python3 -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_recovery_chunks automation.test_recovery_chunk_bridge automation.test_rng_gate -q",
+      "exit_code": 0,
+      "result": "----------------------------------------------------------------------\nRan 100 tests in 0.030s\n\nOK\n"
+    }
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/archive/continuity/accepted-PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/archive/continuity/campaign-state-before-PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/archive/continuity/session-log-before-PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/36c3b828d3f83914c5122881854dd56a273da402/campaign/continuity/campaign-state.md"
+  ],
+  "cleanup_status": "pending exact compatibility prune",
+  "generated_view_status": "pending independent generated-view inspection",
+  "immutable_provenance": {
+    "pinned_commit": "e98dfe1720e7b6ad613db1de6937334cd44fc8cc",
+    "journal_digest": "82d9d10bde7ac2cc6d914e67ccbf294976bcd5bb18dbacdd5093f7dcc32352f2",
+    "chunk_records": 32,
+    "prior_manifests": 23,
+    "original_chunks_and_boundaries_modified": false
+  },
+  "preserved_newer_evidence": "All original chunks through Day328 retained, current domain prefixes and market tables unchanged; this batch only records its Day316 cutoff."
 }
