@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-WARDERS-CONSENT-NEIGHBOR-INTRODUCTION-001",
+  "base_commit": "e065f505c0110c971a9a3fe361636cf12097185a",
+  "source_checkpoint": "D331-1641-WESTERN-OSSENT-PRELIMINARY-SERVICE-HOUSE-CONDITION-V-DECISION-001",
+  "destination_checkpoint": "D331-1642-WESTERN-OSSENT-RHEVAN-OSSRIC-CONSENT-NEIGHBOR-INTRODUCTION-001",
+  "source_evidence": "Exact player 'Then can I introduce you to our neighbors? And assure them of your protection and let them know you are capable of coexistance?' asks both cooperating warders whether they consent to introduction to living neighbors and demonstration of willingness to coexist. Both voluntarily agree, identify themselves: first receiving warder Rhevan, second lower warder Ossric (new names delivered in play, no new creatures, powers or backstory). Ossric recognizes their appearance may frighten residents and prefers not to approach cottage unannounced. Both agree to leave their existing two skeletal sentries each at their posts, meet Hessa without weapons drawn, and honor their previous commitment to protect rather than confine or harm peaceful living people. Cirren recommends allowing Hessa to choose whether/where she meets them and letting conduct demonstrate trust; warders agree to wait in shade at entrance if invited. No actual encounter with Hessa, assurance by V beyond stated request, resident assent, movement, magic, attack, legal approval, verified safety, complete clearance or title yet. No check for willing consent to a proposal consistent with accepted duties. Day331~16:42, V chooses how to introduce them.",
+  "pending_action": "Day331~16:42 western Ossent raised gallery near southern edge(45,40), V/Fenar/Cirren and first Wight warder Rhevan; second Wight warder Ossric at open lower door(45,60). Two skeletons at receiving posts, two in lower room. Both warders voluntarily provisionally accept guardian charge protecting free people under Crown law and consent to introduction to Hessa, without drawn weapons, leave skeletons at posts and wait in shaded entrance if invited; no actual introduction/movement or resident consent yet. V next choice. No automatic verified safety/legal authorization/title. Preliminary condition: collapsed bridge, surviving abutment, receiving hall30x30, gallery20x30 dry, lower30x20 with2ft water, main approach traversable, exterior ledge damaged, functioning separate ferry dwelling/landing. Charter observed not copied; records offered but lower room not entered, water controls untouched. Fixed prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291. Hessa friendly outside, Mara/coach/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, D331 travel charged, cap2/2. No new expenses, recovery, rewards, records, correspondence or custody changes. Earlier pending records unchanged.",
+  "depends_on": [
+    "PLAY-REC-D331-SERVICE-HOUSE-PRELIMINARY-CONDITION-EXPLANATION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary NPC consent and introductions consistent with previously accepted guardian terms; no contested request or neighbor reaction yet."
+  },
+  "events": [
+    {
+      "event_id": "D331-WARDERS-CONSENT-NEIGHBOR-INTRODUCTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'Then can I introduce you to our neighbors? And assure them of your protection and let them know you are capable of coexistance?' asks both cooperating warders whether they consent to introduction to living neighbors and demonstration of willingness to coexist. Both voluntarily agree, identify themselves: first receiving warder Rhevan, second lower warder Ossric (new names delivered in play, no new creatures, powers or backstory). Ossric recognizes their appearance may frighten residents and prefers not to approach cottage unannounced. Both agree to leave their existing two skeletal sentries each at their posts, meet Hessa without weapons drawn, and honor their previous commitment to protect rather than confine or harm peaceful living people. Cirren recommends allowing Hessa to choose whether/where she meets them and letting conduct demonstrate trust; warders agree to wait in shade at entrance if invited. No actual encounter with Hessa, assurance by V beyond stated request, resident assent, movement, magic, attack, legal approval, verified safety, complete clearance or title yet. No check for willing consent to a proposal consistent with accepted duties. Day331~16:42, V chooses how to introduce them.",
+      "before": "Two unnamed warders provisionally accepted guardian duties; condition explained.",
+      "after": "Warders Rhevan and Ossric named, consent to peaceful introduction; Hessa's response pending V choice.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
