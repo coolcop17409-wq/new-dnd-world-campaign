@@ -1,53 +1,14 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
-  "status": "blocked",
-  "phase": "submission_blocked",
-  "source_commit": "8d216a69c3996e6ac97a3b1d18a7130f99de3ff7",
-  "source_boundary": "automation/recovery/boundaries/PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json",
-  "source_boundary_blob": "2fc36916734d57ce3a1cb294f02085867912fc56",
-  "source_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
-  "destination_checkpoint": "D316-1420-CAERETH-OSSENT-INVITATION-ACCEPTED-DEFENSE-TALKS-001",
-  "record_count": 32,
-  "request_commit": null,
-  "request_blob": null,
-  "transport_pr": null,
-  "owners_verified": false,
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "opened-pr45-15dd1f08",
+  "claim_expires_at": "2026-11-26T01:02:07.000Z",
+  "request_commit": "b750c11ee4012f2a30863fee1adaaba538b76f25",
+  "request_blob": "a2e5723180512e30dd76d4b02bd76403e9d6f017",
+  "summary": "Pinned journal, 32 immutable chunk records and 23 prior manifests validated; comparing current owner legs.",
+  "blocker": "verification in progress",
   "applied_event_ids": [],
-  "tested_commit": "55b5eb9d3a351d427a2b5faf692129de4b64cb86",
-  "summary": "Exact explicit immutable boundary recovered and independently checked; trusted current-main compatibility assembly fails before any write. Accepted evidence retained; no transport or gameplay applied.",
-  "blocker": "Chunk filename and accepted entry ID mismatch: boundary references automation/recovery/chunks/D310/PLAY-REC-D308-310-V-RETHWYN-MANOR-APPROACH-RECOVERY-001.json, but current validator derives D308 from ID. Byte-identical original exists at both paths; neither is modified. Existing terminal repair proposal PR41 remains unmerged.",
-  "next_trigger": "After a human-reviewed/authorized fix reaches main, verify its application, recheck latest checkpoint/claims and all historical transports, then retry the same stable boundary ID with its pinned source. Resolve overlap with the other boundary through trusted bridge/batching before any owner application; never submit/apply the same prefix twice.",
-  "depends_on": [],
-  "overlaps_boundary_ids": [
-    "PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001"
-  ],
-  "repair_pr": 41,
-  "tests": [
-    {
-      "command": "automation.recovery_chunks.compatibility_journal(boundary, exact_pinned_loader, active, mode)",
-      "result": "BLOCKED: Chunk filename and accepted entry ID mismatch"
-    },
-    {
-      "command": "Independent historical Git blob, manifest digest and checkpoint-chain comparison",
-      "result": "PASS 32 exact entries; not an assembly bypass"
-    },
-    {
-      "command": "python3 automation/sync_validate.py --scope final --phase final",
-      "result": "PASS saved Day308 only"
-    }
-  ],
-  "discovery": "All44 open/closed PRs inspected; no request/PR for this ID, no active central worker claim for it. Maintenance lane empty. Terminal repair/play receipts preserved.",
-  "owner_refs": [
-    "automation/recovery/boundaries/PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json",
-    "automation/recovery/CHUNKS.md",
-    "campaign/continuity/campaign-state.md",
-    "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md"
-  ],
-  "recovery_preserved": true,
-  "advances_gameplay": false,
-  "receipt_verified_commit": "34161030c1d38ae0869dadef32a524d0d7852cd7",
-  "receipt_verified": true,
-  "verified_at": "2026-11-24T15:14:24Z",
-  "verification_scope": "Administrative blocked receipt and exact preserved source references only; owners_verified remains false. No gameplay application, pruning or transport occurred."
+  "owners_verified": false
 }
