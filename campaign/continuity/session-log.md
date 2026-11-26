@@ -78,3 +78,5 @@ General's hypothetical evacuation dilemma awaits V's answer. → Exact accepted 
 
 D316-V-DEFENSE-CONSULTATION-MORTAL-DIGNITY-PRINCIPLE-001 — accepted historical event
 Consultation asks V about emergency defense limits. → Exact accepted outcome preserved in source archive above.
+
+Day 334, autonomous estate work (D334-ESTATES-RESOLVED and D334-ESTATES-BIDS-RESOLVED). Across Days 327–334 Miregate fulfilled the two bakery pickups, the two-shift grower job and the private berth and passenger engagements. Reedbed delivered an eight-ton cargo on Day 334. The yard fitted and tested a third segregated one-ton storage bay on Day 331 and took its first lot on Day 334. Blackthorn filled its local catalog commitments and Garran load. The Fort collected the prior 120 gp duty return on Day 329. The estate journal owns the dated contacts, actual jobs and future slots. Local stewards know their own work; discovery by V requires actual contact.
