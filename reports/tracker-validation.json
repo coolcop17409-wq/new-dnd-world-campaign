@@ -1,11 +1,1 @@
-{
-  "status": "PASS",
-  "findings": [],
-  "characters_checked": [
-    "Valenthia",
-    "Cirren",
-    "Fenar"
-  ],
-  "shop_lots_checked": 177,
-  "character_events_checked": 288
-}
+{"status": "PASS", "scope": "characters", "findings": []}

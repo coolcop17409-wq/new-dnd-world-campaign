@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 308,
+  "campaign_day": 316,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -243,7 +243,7 @@
     {
       "name": "Valenthia",
       "level": "7",
-      "hp": "42.0",
+      "hp": "48.0",
       "max_hp": "48",
       "ac": "19",
       "initiative": "4",
@@ -304,17 +304,17 @@
           "recovery": "Short Rest / Long Rest"
         }
       ],
-      "purse_cp": 39196,
+      "purse_cp": 290346,
       "purse": {
-        "gp": 391,
-        "sp": 9,
+        "gp": 2903,
+        "sp": 4,
         "cp": 6
       }
     },
     {
       "name": "Cirren",
       "level": "6",
-      "hp": "40.0",
+      "hp": "51.0",
       "max_hp": "51",
       "ac": "18",
       "initiative": "2",
@@ -368,7 +368,7 @@
     {
       "name": "Fenar",
       "level": "6",
-      "hp": "48.0",
+      "hp": "59.0",
       "max_hp": "59",
       "ac": "14",
       "initiative": "2",
@@ -376,13 +376,13 @@
       "resources": [
         {
           "name": "Rage",
-          "current": "3.0",
+          "current": "4.0",
           "max": "4",
           "recovery": "Long Rest only"
         },
         {
           "name": "Shift",
-          "current": "2.0",
+          "current": "3.0",
           "max": "3",
           "recovery": "Long Rest"
         },
@@ -479,8 +479,8 @@
       },
       {
         "item": "Small red gemstone",
-        "qty": "1",
-        "quantity_display": "1",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "",
         "detail": ""
       },
@@ -1351,6 +1351,14 @@
         "holder": "Valenthia — owned and carried, UNATTUNED",
         "detail": "Original Eastwatch retired quarry surveyor agate purchased375gp. 2014 DMG p205; requires attunement, +1 checks/saves inactive until V chooses attunement. No AC/attack bonus. One unique sold lot, no duplicate.",
         "source_event": "D288-V-ACCEPTS-375GP-LUCKSTONE-PURCHASE-001"
+      },
+      {
+        "item": "Boots of Elvenkind",
+        "qty": "0.0",
+        "quantity_display": "0.0",
+        "holder": "Valenthia",
+        "detail": "Actual visible Python d20 advantage20/11 +7 +Guidance1=28, predeclared top price245gp vs original290. V authorized purchase, paid245gp once, receives/wears original no-attunement Boots of Elvenkind, silent footstep advantage when movement matters. Stock1→0, purse38346cp→13846cp. No class feature expenditure.",
+        "source_event": "D314-V-QUIET-HEEL-BOOTS-ELVENKIND-PURCHASE-001"
       }
     ],
     "Cirren": [
@@ -1606,6 +1614,14 @@
         "holder": "Cirren — personal document case; original held for the signatories",
         "detail": "Single original Compact of Houses Rethwyn and Vaishnavi; signed Day233 midday by Elara Rethwyn and Valenthia Vaishnavi, witnessed by Mara Venn and Fenar Raukhar. Eight clauses; exact full text not recovered. No certified copy, Crown marriage registration or ownership merger. Evidence: archive/continuity/campaign-state-full-snapshot-pre-fastplay.md, COMPACT CUSTODY AND CORRESPONDENCE; confirmed retained in D243-244-WOLVES-REST-AND-BLACKTHORN-RETURN-001. Administrative recovery of the omitted personal custody leg, not a new acquisition.",
         "source_event": "D233-RETHWYN-VAISHNAVI-COMPACT-ALL-SIGNED-001"
+      },
+      {
+        "item": "Boots of Elvenkind",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Cirren",
+        "detail": "Player exact 'Give the boots to Cirren'. V transfers the exact single original Boots of Elvenkind purchased earlier D314 for245gp from his own possession to willing Cirren, who accepts gift and wears them. No attunement, no extra funds, no stat changes other than item custody/effect. No roll necessary. Prior merchant sale not replayed; boots are not duplicated. D314~21:35 at Elara's Caereth city residence, after celebratory dinner. V voluntarily gives his single original Boots of Elvenkind bought earlier today for245gp to Cirren, who gratefully accepts and wears them. V no longer possesses or benefits from boots; Cirren has silent footsteps and advantage on Dexterity (Stealth) checks relying on moving silently, no attunement, no universal concealment or armor Stealth penalty cancellation beyond ordinary advantage/disadvantage rules. No new purchase, sale, fee, or duplicate item; market lot remains sold. V purse138gp4sp6cp, food21/feed28, rest3/6, no overnight yet; V48/48 AC19 HD7/7 all pools full attuned cloak+Luckstone2/3, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 full, Mara/Elara/4 horses healthy. Defense of Caereth accepted,2500gp conditional milestones and negotiated benefits unearned, tomorrow late afternoon meeting with records access; palace audience requested appointment not confirmed, original Kestrel evidence unchanged, marriage recognized Crownsunder, Severin memorandum reply pending. PixieDust1, peryton specimens and all other custody unchanged. V dice delegated until stop. Await next action/overnight.",
+        "source_event": "D314-V-TO-CIRREN-BOOTS-OF-ELVENKIND-GIFT-001"
       }
     ],
     "Fenar": [

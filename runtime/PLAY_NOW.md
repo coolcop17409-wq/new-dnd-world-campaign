@@ -1,35 +1,32 @@
 # LIVE PLAY — generated fast packet
 
 **Read-only convenience, NOT an authority or a record of new events.**
-Source: `campaign/continuity/campaign-state.md` (SHA256 `32ff378250fa48b26f93d7761f09cc187395aa5582a6fed98b66c43c90a6255e`).
-Dashboard SHA256: `4d6315a6e82fdde4fd495b7cc12f9cc8ce2827182c79484a92194c025d5e5a9a`.
-Confirmed campaign day: **308**.
-Newest played event: `D308-PERYTON-VERIFIED-R4-COMBAT-END-001`.
+Source: `campaign/continuity/campaign-state.md` (SHA256 `9fb9920ec6ce690b4d580be494b9315e6171f56caea65ae1e5216fcc8c5d6e81`).
+Dashboard SHA256: `68147c866254e647a798890a6ae7b86dd3ccfbd35408f4b3ec0d7ed704713db3`.
+Confirmed campaign day: **316**.
+Newest played event: `D316-V-ACCEPTS-CARRYING-CROWN-OSSENT-PRELIMINARY-INVITATION-001`.
 
 ## Exact playable checkpoint (verbatim from owner)
 
-CAMPAIGN_STATE — DAY 308 ~10:20 — VERIFIED PERYTON COMBAT ENDED
+CAMPAIGN_STATE — DAY 316 ~14:20 — CAERETH DEFENSE CONSULTATION
 
-CURRENT EXACT PLAYED CHECKPOINT — D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001; latest event D308-PERYTON-VERIFIED-R4-COMBAT-END-001.
+CURRENT EXACT PLAYED CHECKPOINT — D316-1420-CAERETH-OSSENT-INVITATION-ACCEPTED-DEFENSE-TALKS-001; latest event D316-V-ACCEPTS-CARRYING-CROWN-OSSENT-PRELIMINARY-INVITATION-001.
 
 EXACT PENDING ACTION:
-Day308~10:20 Crownsunder road; verified peryton combat ends R4. P3 dead near Fenar(20,5,0); P1 15/33 and P2 11/33 fled toward hills, no pursuit. V near coach(0,-5,0)42/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; dice delegated until stop. Fenar48/59 AC14 Rage3/4 active claws magical Shift2/3 active THP0 MP6/6 HD6/6. Cirren40/51 AC18 slots4/3/3 CD2/2 HD6/6 no concentration. Mara sheltered healthy, 4 harnessed horses and coach intact. LongRest0/6, purse391gp9sp6cp, rations21/feed28 PixieDust1. Custody and route Lady Elara rural manor first unchanged. D308 encounter used, D309 random quiet mandatory. V chooses postcombat action; no rest, healing, harvesting or travel yet.
-No Day308 full-day food/feed charge yet; no new aftermath action. Earlier five D308 fabricated combat chunks are void audit-only; none of their HP/resources/deaths survive. Replacement receipts are preserved as submitted accepted evidence, structurally checked with arithmetic review, not independent authentication of external ChatGPT execution. Previously completed travel/rest not replayed.
-Fenar mechanical greataxe always depicted as one paired Double-Claw Rend, even outside Rage; no bonus hit/die or magic from the visual. Inherent Soulknife psychic damage is not homebrew. Accepted D308 exception permits Ready main Psychic Blade; standing V dice delegation until stopped grants no additional V choice or resource authority.
-Prior Kestrel evidence/custody, original Nightglass heart ownership, signed scholarly100gp advance and contingent300/800, letters without verified receipt, and uncommunicated Sedgecross patient outcomes remain unchanged. No inferred post-Day299 patient outcome or new care funding.
+D316~14:20 Caereth palace defense consultation, V and Elara invited speakers with security councillor, advisers, Assembly representatives and general. V expressly accepts carrying confidential preliminary diplomatic invitation to appropriate Ossent authorities on his next planned Orsaven visit. Councillor thanks him and directs secretary to prepare a sealed Crown letter, authenticated messenger credentials for this limited delivery and recipient instructions through appropriate royal channels, for collection before departure; not yet drafted, issued or physically handed over, no date forced. Invitation proposes exploratory reciprocal frontier intelligence exchanges and possible joint inquiries without compromising either kingdom's Crown claims, sovereignty, fortress dispositions or existing commitments. No authority to negotiate or sign a treaty on Crown's behalf, guarantee acceptance, declare war, pledge troops/funds or publicly disclose Kestrel evidence. No fee or new payment agreed. Elara offers to maintain Caereth contact and follow consultation developments as standing Vaishnavi representative. General supports putting a limited preliminary invitation before proper Crown authority, not binding agreement or decision to deploy. Councillor moves to question of domestic emergency defense safeguards, seeks V's view on whether guildhall protocol can serve as local example; no new policy enacted. V48/48 AC19 HD7/7 all pools full Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; companions and coach/horses safe at Rethwyn residence, custody unchanged. Rest0/6 food21/feed28 purse2903gp4sp6cp, conditional240gp sale unpaid. Crown intelligence commission active remaining300+1300 contingent, liaison credentials V-held, Kestrel originals retained, Crown certified copies; Severin assent pending. Dice delegated until stop.
 
-Source: PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001. Owners and exact history in SESSION_LOG/domain records; preceding checkpoint archived at archive/continuity/campaign-state-before-PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001.md. Recover newer immutable suffix before continuation.
+Source: PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002. Later immutable chunks through Day328 remain preserved and must be recovered before live continuation; this checkpoint records only this verified boundary. No newer played event is undone.
 
 ## Current character counters (CSV baselines + posted event overlay)
 
 Snapshot values support lookups; rule interpretations, contextual conditions, custody and exceptions remain in the owning records.
 
-- **Valenthia** — HP 42.0/48; AC 19; level 7. Personal purse 391 gp 9 sp 6 cp.
+- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 2903 gp 4 sp 6 cp.
   - Resources: Martial Points 7/7; Psionic Energy Dice 6.0/6; Second Wind 1.0/1; Knowledge from Past Life 3.0/3; Psi Recovery 1.0/1; Hit Dice 7.0/7; Psychic Whispers free use 1.0/1; Action Surge 1.0/1; Superiority Dice 4.0/4
-- **Cirren** — HP 40.0/51; AC 18; level 6.
+- **Cirren** — HP 51.0/51; AC 18; level 6.
   - Resources: Channel Divinity 2/2; Spell Slots (1st) 4.0/4; Spell Slots (2nd) 3.0/3; Hit Dice 6.0/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 3.0/3
-- **Fenar** — HP 48.0/59; AC 14; level 6.
-  - Resources: Rage 3.0/4; Shift 2.0/3; Hit Dice 6.0/6; Martial Points 6.0/6; Rage Recovery (RETIRED — NO ABILITY) 0/0
+- **Fenar** — HP 59.0/59; AC 14; level 6.
+  - Resources: Rage 4.0/4; Shift 3.0/3; Hit Dice 6.0/6; Martial Points 6.0/6; Rage Recovery (RETIRED — NO ABILITY) 0/0
 
 ## Fast-play guardrails
 
