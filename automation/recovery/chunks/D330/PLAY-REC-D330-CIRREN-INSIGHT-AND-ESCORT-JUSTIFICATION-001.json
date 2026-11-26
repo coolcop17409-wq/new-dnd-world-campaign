@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D330-CIRREN-INSIGHT-AND-ESCORT-JUSTIFICATION-001",
+  "base_commit": "48601d13d23f1647cd88529c9b29568e9b3cf4ec",
+  "source_checkpoint": "D330-2101-WESTERN-OSSENT-ESCORT-HALTED-CONFLICTING-CLAIMS-V-DECISION-001",
+  "destination_checkpoint": "D330-2102-WESTERN-OSSENT-ESCORT-SILVER-CLAIM-V-DECISION-001",
+  "source_evidence": "Exact player 'Cirren insights' asks Cirren to assess the conflicting claims. Owning cirren-skills.csv Insight +8 (WIS5 proficiency3); predeclared active DC13 for credibility from ~80ft in nighttime lighting. Actual user-visible Python secrets receipt batch a040ac50d029e2f3cd54719d16f7ca7a d20 face4+8=12, fails by1. Cirren cannot reliably discern which account is true; no mind-reading, confirmation of lawful custody, new facts or expenditure. The player interrupted the response after the visible roll and before the previous recovery write completed; listing D330 and head confirmed only preceding greeting chunk existed. Preserve actual roll in this combined original response chunk, not a reroll.\n\nExact player 'What did they steal and where are you taking them?' V asks these two questions from camp without new movement or threat. Leader calls back 'Silver. From our employer's house. We're taking them back there to answer for it.' This is his deliberately false explanation consistent with fixed ransom abduction; no actual theft, employer identity, destination, magistrate or lawful authority established. Bound woman replies 'We've never worked for these men!' The statements are competing claims, not automatically verified facts. Leader remains impatient, group still stopped on road about80ft from camp, no new approach, attack, pursuit, initiative or contested check. Cirren quietly says he cannot tell which account is true from here, but the man has not named an authority. V next choice.",
+  "pending_action": "Day330~21:02 exposed camp near western Ossent final rough-track junction, 48/60 planned miles traveled, 12 rough miles remain; coach suitability/staging pending. Six armed figures halted on road~80ft away (center40,70 road y70); leader claims two bound captives thieves, now claims stolen silver from unnamed employer and taking them back to employer's house; woman denies and says abducted from home, never worked for these men. Cirren active Insight d20 4+8=12/DC13 FAIL, cannot verify either story; notes no authority named. Fixed private truth ransom abductors, roster Veteran/3 Scouts/2 Thugs MM2014, two adult restrained living Commoners, fatigue not confirmed damage. Group knows someone addressed from camp, no exact strength/identity. No verified authority, destination, faction tie, combat, initiative or surprise adjudicated. Torch bright20/dim20, low hawthorn/ditch partial screening; party near campfire, Mara/coach/four horses near(0,-10), exact personal combat squares pending. V chooses next action. D329 rolls37/35 quiet; D330 day28/night5/type53/severity42 serious, 1/2 random encounter days used, no D330 rest yet. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots/+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia. Mara and coach/four horses healthy. Purse2037gp8sp6cp rations15/feed20 LR1/6. D328→329 full LR and D329→330 wilderness night complete; D330 provisions charged, no additional recovery/payment. D329 Tavosk15 no notice; royal proposal considered undecided; no new Desen result. Sornell cooperates, safety/records/enforcement unconfirmed. Desen holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; V retains notes, new originals, invitation and Harthvale nonbinding memorandum; Cirren signed evidence receipt. Harthvale and Halvessa proposals unaccepted/unpaid; paymaster48gp held restitution none distributed; Quenwood life sentence upheld/assets frozen. Western conditional grant not deed; Mara authenticated survey/notes; V grant instrument; Coris300/optional800 and Crown300+1300 contingent; commissions520 due actual completion target353; Kestrel custody/copies, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D330-V-HAILS-ARMED-CAPTIVE-ESCORT-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "a040ac50d029e2f3cd54719d16f7ca7a",
+        "rolls": [
+          {
+            "id": "D330.Cirren.insight.armed_escort_credibility",
+            "sides": 20,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D330-CIRREN-INSIGHT-ESCORT-INCONCLUSIVE-001",
+      "accepted": true,
+      "evidence": "Exact player 'Cirren insights' asks Cirren to assess the conflicting claims. Owning cirren-skills.csv Insight +8 (WIS5 proficiency3); predeclared active DC13 for credibility from ~80ft in nighttime lighting. Actual user-visible Python secrets receipt batch a040ac50d029e2f3cd54719d16f7ca7a d20 face4+8=12, fails by1. Cirren cannot reliably discern which account is true; no mind-reading, confirmation of lawful custody, new facts or expenditure. The player interrupted the response after the visible roll and before the previous recovery write completed; listing D330 and head confirmed only preceding greeting chunk existed. Preserve actual roll in this combined original response chunk, not a reroll.",
+      "before": "Conflicting claims after V greeting, Cirren has not assessed credibility.",
+      "after": "Insight12/DC13 failed; no certainty or resource spent.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D330-V-QUESTIONS-ESCORT-STOLEN-SILVER-JUSTIFICATION-001",
+      "accepted": true,
+      "evidence": "Exact player 'What did they steal and where are you taking them?' V asks these two questions from camp without new movement or threat. Leader calls back 'Silver. From our employer's house. We're taking them back there to answer for it.' This is his deliberately false explanation consistent with fixed ransom abduction; no actual theft, employer identity, destination, magistrate or lawful authority established. Bound woman replies 'We've never worked for these men!' The statements are competing claims, not automatically verified facts. Leader remains impatient, group still stopped on road about80ft from camp, no new approach, attack, pursuit, initiative or contested check. Cirren quietly says he cannot tell which account is true from here, but the man has not named an authority. V next choice.",
+      "before": "Escort claims thieves; Cirren cannot verify.",
+      "after": "Leader claims stolen silver and unnamed employer's house; woman disputes, group still halted, V next decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
