@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-V-NAMES-VAISHNAVI-CUSTODIAN-QUESTIONS-PURPOSE-001",
+  "base_commit": "cf3afbfdb79a5b3c7ee93d8274b18ac5f3bed5f0",
+  "source_checkpoint": "D331-1630-WESTERN-OSSENT-SEVENTH-SEAT-INVOKED-CUSTODIAN-ASKS-HOUSE-001",
+  "destination_checkpoint": "D331-1630-WESTERN-OSSENT-VAISHNAVI-NAME-CUSTODIAN-QUESTIONS-RELIEF-001",
+  "source_evidence": "Exact player 'Valenthia Vaishnavi' spoken in response to the receiving-room custodian's demand for name/House. The ancient warder recognizes the House name as the historical institution it served, not V's identity or claimed succession. It pauses, repeats Vaishnavi, remarks on prolonged absence of House messengers and asks whether V comes to relieve its charge. No recognition of V as actual child, verification of title, obedience, oath, surrendered guard duty, door opening, attack, new historical proof, or connection of the Seventh Seat to this site. No contested check or time advancement beyond immediate dialogue. V chooses response. Existing hostile custodian and fixed roster/motives unchanged.",
+  "pending_action": "Day331~16:30 service-house receiving threshold, Fenar at front, V behind, Cirren following, barred entry still closed. V says 'The seventh seat' then 'Valenthia Vaishnavi'; hostile warder recognizes historical House name but not V identity/authority, asks whether V comes to relieve their charge. No automatic recognition, compliance, opening, attack or check. V next response. Recognized in-place Vaishnavi refuge dedication not yet copied; later bars/gouges. Hessa friendly outside, knows exterior ledge and landing outfall; Mara/coach/four horses healthy at cartway. Fixed private prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291: receiving 30x30 x−15..15,y0..30,z12 Wight(0,20), Skeletons(-10,15)/(10,15), entry(0,0); gallery empty via20ft corridor; separate lower Wight+2 Skeletons; no room entry/initiative. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, Day331 travel charged, leg cap2/2. Conditional grant not title, protects ferrier rights. Prior correspondence/Desen/royal/estate/diplomatic/commission/custody unchanged.",
+  "depends_on": [
+    "PLAY-REC-D331-V-INVOKES-SEVENTH-SEAT-CUSTODIAN-RESPONSE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary NPC dialogue recognizing its historical House designation, not a contested authority check."
+  },
+  "events": [
+    {
+      "event_id": "D331-V-NAMES-VAISHNAVI-CUSTODIAN-QUESTIONS-PURPOSE-001",
+      "accepted": true,
+      "evidence": "Exact player 'Valenthia Vaishnavi' spoken in response to the receiving-room custodian's demand for name/House. The ancient warder recognizes the House name as the historical institution it served, not V's identity or claimed succession. It pauses, repeats Vaishnavi, remarks on prolonged absence of House messengers and asks whether V comes to relieve its charge. No recognition of V as actual child, verification of title, obedience, oath, surrendered guard duty, door opening, attack, new historical proof, or connection of the Seventh Seat to this site. No contested check or time advancement beyond immediate dialogue. V chooses response. Existing hostile custodian and fixed roster/motives unchanged.",
+      "before": "Custodian asks name and business.",
+      "after": "V names himself; custodian recognizes House name, asks purpose of relief; next V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
