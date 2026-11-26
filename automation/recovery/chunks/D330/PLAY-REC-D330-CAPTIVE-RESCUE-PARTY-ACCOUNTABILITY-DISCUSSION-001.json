@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D330-CAPTIVE-RESCUE-PARTY-ACCOUNTABILITY-DISCUSSION-001",
+  "base_commit": "0c25e2cb447a13739c55e0de21413550a89e9ddd",
+  "source_checkpoint": "D330-2106-WESTERN-OSSENT-CAPTIVES-FREED-ABDUCTORS-WITHDRAWING-V-DECISION-001",
+  "destination_checkpoint": "D330-2106-WESTERN-OSSENT-FREED-CAPTIVES-ACCOUNTABILITY-CHOICE-001",
+  "source_evidence": "Day330~21:06 exact player 'well maybe we should’ve caved their skulls in, they might just do this to someone else' expresses concern about repeat harm and regret, not a new attack/pursuit order. Fenar independently says she'd rather take their weapons than watch them leave; Cirren notes they complied with V's ultimatum, but release does not make them innocent, and suggests lawful apprehension if practicable or reporting the abduction with descriptions/testimony; Mara notes the freed people need immediate attention. Woman overhearing expresses fear 'They know where we live. What if they come back?' No further victim facts, identity, injury, actual future reprisal or legal authority established. The six men continue withdrawing west on road, torch still visible, distance increasing from last established~100ft; V has not pursued, ordered an arrest, attacked, promised protection or chosen a plan. No new contested check, time skip, initiative, resource use, custody or spending. V chooses next action now.",
+  "pending_action": "Day330~21:06 exposed camp near western Ossent rough-track junction, 48/60 road miles traveled,12 rough miles remain; coach staging/suitability pending. Two freed adults near camp, exhausted man supported by woman, she fears abductors returning to their home. Mara offers water and care; Cirren favors accountability without breaking V's given ultimatum; Fenar favors disarming/apprehending the abductors. Six armed men (private fixed Veteran/3 Scouts/2 Thugs MM2014) withdrawing west, torch visible, distance increasing from ~100ft. No pursuit, arrest, attack, disarm, new injury or confirmed identities/precise home location; V chooses next action. Earlier Insight21 and Intimidation24/DC18 succeeded; no resource expenditure. No active combat. Low hawthorn/ditch, road y70, campfire, coach/four horses healthy. D330 night encounter used, 1/2 encounter days; no rest yet. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive, cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots/+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia. Mara healthy. Purse2037gp8sp6cp rations15/feed20 LR1/6. D328–329 full LR and D329–330 wilderness night completed, D330 provisions charged. Tavosk notice and royal decision pending; Desen investigation/witness arrangements unconfirmed; all earlier evidence custody, unaccepted partnership, restitution, western conditional grant, survey, Coris/Crown conditional commissions,520gp balance due actual completion target353, Kestrel custody, Elara and Severin status unchanged.",
+  "depends_on": [
+    "PLAY-REC-D330-V-INTIMIDATES-ABDUCTORS-CAPTIVES-RELEASED-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary immediate dialogue and independent NPC opinions following completed intimidation; no further action adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D330-CAPTIVE-RESCUE-PARTY-ACCOUNTABILITY-DISCUSSION-001",
+      "accepted": true,
+      "evidence": "Day330~21:06 exact player 'well maybe we should’ve caved their skulls in, they might just do this to someone else' expresses concern about repeat harm and regret, not a new attack/pursuit order. Fenar independently says she'd rather take their weapons than watch them leave; Cirren notes they complied with V's ultimatum, but release does not make them innocent, and suggests lawful apprehension if practicable or reporting the abduction with descriptions/testimony; Mara notes the freed people need immediate attention. Woman overhearing expresses fear 'They know where we live. What if they come back?' No further victim facts, identity, injury, actual future reprisal or legal authority established. The six men continue withdrawing west on road, torch still visible, distance increasing from last established~100ft; V has not pursued, ordered an arrest, attacked, promised protection or chosen a plan. No new contested check, time skip, initiative, resource use, custody or spending. V chooses next action now.",
+      "before": "Captives freed, abductors withdrawing ~100ft away, V chooses action.",
+      "after": "V expresses concern over recidivism, party and captive respond; V decides whether to intervene further.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
