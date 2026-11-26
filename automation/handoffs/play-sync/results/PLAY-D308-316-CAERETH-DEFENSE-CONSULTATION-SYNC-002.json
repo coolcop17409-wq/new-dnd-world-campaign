@@ -2,13 +2,13 @@
   "schema_version": 1,
   "request_id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
   "status": "partial",
-  "phase": "owners_published_checkpoint_pending",
+  "phase": "checkpoint_published_verification_pending",
   "claim_owner": "opened-pr45-15dd1f08",
   "claim_expires_at": "2026-11-26T01:02:07.000Z",
   "request_commit": "b750c11ee4012f2a30863fee1adaaba538b76f25",
   "request_blob": "a2e5723180512e30dd76d4b02bd76403e9d6f017",
   "summary": "53 accepted events preserved in exact archive and owning history; 33 personal numeric/custody legs. Market legs already recorded and preserved. Checkpoint pending.",
-  "blocker": "Checkpoint publication and exact readback pending; do not replay owner legs.",
+  "blocker": "Final readback verification and compatibility cleanup pending; do not replay owners.",
   "applied_event_ids": [
     "D308-V-PERYTON-CORPSE-INVESTIGATION-FAIL-001",
     "D308-CIRREN-PERYTON-ANATOMY-AND-SPECIMEN-RECOVERY-001",
@@ -64,5 +64,6 @@
     "D316-V-DEFENSE-CONSULTATION-OSSENT-COOPERATION-ARGUMENT-001",
     "D316-V-ACCEPTS-CARRYING-CROWN-OSSENT-PRELIMINARY-INVITATION-001"
   ],
-  "owners_verified": false
+  "owners_verified": true,
+  "owner_commit": "d24cf4ed9c24503f778ee9da635605ad6eb4ff74"
 }
