@@ -27,7 +27,7 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 ## Atlas review
 
-Verified scoped edition `ATLAS-D326-ORSAVEN-001`: player-known Orsaven journey and waterfront references through Day326; prospective western field travel remains unplayed. Current publication and asset versions: [owning Atlas review](../../assets/README.md#atlas-review).
+Verified scoped edition `ATLAS-D334-SILVERWARD-001`: accepted western Ossent geography through Day334; Atlas master metadata and the publication receipt agree. This is scoped map coverage, not owner-checkpoint synchronization. Current publication and asset versions: [owning Atlas review](../../assets/README.md#atlas-review).
 
 ## Cooperative writer
 

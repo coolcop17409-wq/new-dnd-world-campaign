@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001",
+  "reason": "explicit_sync",
+  "source_checkpoint": "D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001",
+  "destination_checkpoint": "D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001",
+  "last_recovery_id": "PLAY-REC-D325-ORSAVEN-NIGHTGLASS-CORIS-EVIDENCE-FORWARDING-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D324/PLAY-REC-D324-ORSAVEN-ARMS-SALE-RESUPPLY-COMPANION-PROPERTY-OPTIONS-001.json",
+      "digest": "22c33183df5337c8db78476c02bb2e52a0d6a8aefcb49391f9f35ebfa02548f3"
+    },
+    {
+      "path": "automation/recovery/chunks/D324/PLAY-REC-D324-V-BUYS-FENAR-BREASTPLATE-INSIGNIA-CIRREN-SHIELD-001.json",
+      "digest": "d61b777f08a715a36efd33e22bb0bc7c1acf1aa2493e3f969c57396304743213"
+    },
+    {
+      "path": "automation/recovery/chunks/D324/PLAY-REC-D324-V-COPPER-HART-BOOKING-CORRESPONDENCE-001.json",
+      "digest": "d0d772f2dbe58c7014ad66a9f2b828d8fcf07d0d81a887b47b8ebc096fcee24c"
+    },
+    {
+      "path": "automation/recovery/chunks/D324/PLAY-REC-D324-325-COPPER-HART-SECURE-NIGHT-001.json",
+      "digest": "bcec817f2a4db6a3d85fbefab9ea8b97c25426752dbccb8f91067920e0c1f081"
+    },
+    {
+      "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-FRIENDS-THREE-ENCHANTMENT-FOLLOWUPS-001.json",
+      "digest": "78d40598b683b44f8f7719c6d33a4995425ffb60ec56bc825e871a542a020577"
+    },
+    {
+      "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-QUILL-NEEDLES-NEGOTIATED-QUOTES-001.json",
+      "digest": "19e41816f924bb870b18016e69f4387b417ed9359eb9cfd09a524e03ea8207ac"
+    },
+    {
+      "path": "automation/recovery/chunks/D325/PLAY-REC-D325-V-COMMISSIONS-QUILL-AND-NEEDLES-001.json",
+      "digest": "8b34796cef98fd8c1b2a9c91309708449f3aa565125c538ceb5fb1df95aaadba"
+    },
+    {
+      "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-DESEN-QUENWOOD-DISPOSITION-001.json",
+      "digest": "7d96cc448a8db74c32979783c60918c9ec4d14e5f405603eec288012100162f6"
+    },
+    {
+      "path": "automation/recovery/chunks/D325/PLAY-REC-D325-DESEN-FERRY-FINANCIAL-TRAIL-REVEALED-001.json",
+      "digest": "c25ac302e4c1763e29b4bbba7c68814011ca7d7232320d821ff81510c47815a7"
+    },
+    {
+      "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-DIPLOMATIC-DELIVERY-NIGHTGLASS-MAP-COMPARISON-001.json",
+      "digest": "8cd2aaecea69f9a6117096f67fae75cbda76c37b324f470c11441a12752a1877"
+    },
+    {
+      "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-NIGHTGLASS-CORIS-EVIDENCE-FORWARDING-001.json",
+      "digest": "b053132309988f5b950558bb69896c4dd74b0c4b4c83591b68205cbefa82e848"
+    }
+  ]
+}
