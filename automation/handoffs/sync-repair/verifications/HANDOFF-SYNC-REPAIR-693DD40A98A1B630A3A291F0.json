@@ -1,0 +1,38 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-693DD40A98A1B630A3A291F0",
+  "status": "verified",
+  "tested_commit": "acb702b2c07a8137da5d57477ae8c255fc197f1a",
+  "current_base_commit": "d093729e6804082ef222178dea130e31f403542e",
+  "verified_at": "2026-11-24T05:24:58Z",
+  "commands": [
+    {
+      "command": "python3 -m unittest automation.test_recovery_storage_path automation.test_recovery_chunks automation.test_recovery_chunk_bridge automation.test_rng_gate automation.test_recovery_batch automation.test_recovery_journal automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -q",
+      "exit_code": 0,
+      "result": "120 tests passed"
+    },
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": "git diff --exit-code d093729e6804082ef222178dea130e31f403542e HEAD -- campaign data trackers automation/recovery",
+      "exit_code": 0,
+      "result": "No owner, original chunk, boundary, mode or compatibility-journal changes"
+    }
+  ],
+  "changed_paths": [
+    "automation/recovery_chunks.py",
+    "automation/test_recovery_storage_path.py"
+  ],
+  "source_evidence": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/45332664423",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/7056fd9094fc408cb528ab00de8aab34bdd51efc/automation/recovery/boundaries/PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001.json"
+  ],
+  "results": "Original error reproduced on unchanged current main. Exact stored D310 path allowed only with original ID and digest. Complete nine-entry compatibility journal prepared with digest83b29fdad5d63e55d6039e53f1824f2fc129b0cc7f74b6510e124292a5dee1e0. RNG validation uses exact manifest source path. Altered content/ID/digest, other directories/traversal and pending legacy journal still rejected.",
+  "main_applied": false,
+  "limitations": [
+    "Branch-verified proposal only; no workflow dispatch, submission, merge or main writes.",
+    "Before an authorized merge, compare latest main with tested branch and revalidate overlapping changes."
+  ]
+}
