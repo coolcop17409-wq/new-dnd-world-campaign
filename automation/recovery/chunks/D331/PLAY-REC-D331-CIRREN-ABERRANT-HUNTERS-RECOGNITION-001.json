@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-CIRREN-ABERRANT-HUNTERS-RECOGNITION-001",
+  "base_commit": "227c47e82c752ddef5f29ab479f6d146f1d503ba",
+  "source_checkpoint": "D331-1100-WESTERN-OSSENT-DOLGAUNT-DOLGRIM-HUNT-V-DECISION-001",
+  "destination_checkpoint": "D331-1100-WESTERN-OSSENT-ABERRANT-HUNTERS-RECOGNITION-INCONCLUSIVE-V-DECISION-001",
+  "source_evidence": "Day331~11:00 exact player 'Anyone know what those things are?' asks present companions whether they recognize the three visible aberrant hunters. Cirren independently attempts Arcana+4 (INT1 proficiency3 per cirren-skills.csv), with Mara meaningfully assisting by recalling descriptions of unfamiliar Convergence-era creatures; predeclared advantage, DC13 specific identification, DC18 detailed dangerous abilities. Actual visible Python secrets receipt batch eecec837c4e00f6f46157308de517962 d20 faces5,3 take5+4=9; both thresholds fail. Cirren recognizes the creatures are very unlike ordinary wildlife and suspects aberrations but cannot name dolgaunts/dolgrims, establish their origins, or disclose printed traits/defenses as character knowledge. Mara has no specific identification. Fenar notes the eyeless creature visibly turned toward the coach and warns that the tentacles could reach farther than ordinary arms, an inference from observed anatomy/behavior, not exact reach/blindsight/grapple statistics. No spell, channel divinity, V check, extra roll, resource expense, new physical movement, initiative, attack, forced retreat or additional time beyond immediate quiet exchange. Three creatures remain at same initial visible positions, attentive to party/horses. V chooses next action.",
+  "pending_action": "Day331~11:00 western Ossent rough hill cartway,53/60 planned miles traveled,7 rough miles remain. Player-authorized replacement encounter only; original travel/rest and occurrence9/type56/severity17 preserved, weighted identity d81=47; no gnolls present. Cirren Arcana advantage5/3+4=9 fails DC13/18; companions cannot name creatures or know mechanics; Cirren suspects aberrations, Fenar observes eyeless larger creature tracked coach and has long tentacles. Private fixed roster ERLW pp290–291 blob5a16d86a3175eaeb333dec8900ee67a25c100d6f: dolgaunt AC16 HP33 speed40 blindsight120 blind beyond, Evasion, blinded immune, tentacles+6 reach15 1d6+4 grapple escape12 Large/smaller (two tentacles), two tentacles+two unarmed +6 reach5 1d4+4, can replace up to two tentacle attacks with Vitality Drain CON DC11 2d8 necrotic failed save heals half damage; dolgrims A/B AC15 HP13 each speed30 darkvision60, Multiattack3, morningstar+4 1d8+2, spear+4 1d6+2 (two hands melee1d8+2;20/60), hand crossbow+4 1d6+2 range30/120, Dual Consciousness advantage saves vs blinded/charmed/deafened/frightened/stunned/unconscious; all speak Goblin/Deep Speech. Dolgaunt~65ft downhill, A~55ft downhill/right, B~75ft near fissure, hollow10ft below road, dead deer, off-track difficult terrain, actual cover by rocks/trunks; road clear, party and creatures mutually aware, no initiative/surprise/attack, exact PC squares pending actions. V/Cirren/Fenar at stopped coach, Mara/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone, dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 Boots/+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia. Purse2037gp8sp6cp rations15/feed20 LR2/6, D331 full-day charge not posted; cap2/2 consumed, skip further occurrence today, next consecutive ordinary travel day mandatory quiet. D330 captives with relatives, constable report received, no arrests. Tavosk notice/royal decision/Desen enforcement, Kestrel and investigative custody, unaccepted business terms, restitution, conditional western grant not title, Mara survey, Coris/Crown commissions,520gp balance due actual completion target353, Elara Caereth and Severin assent unchanged. V chooses next action.",
+  "depends_on": [
+    "PLAY-REC-D331-PLAYER-REDRAW-DOLGAUNT-DOLGRIM-HUNT-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "eecec837c4e00f6f46157308de517962",
+        "rolls": [
+          {
+            "id": "D331.Cirren.arcana.dolgaunt_dolgrim_recognition.advantage",
+            "sides": 20,
+            "faces": [
+              5,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D331-CIRREN-ABERRANT-HUNTERS-RECOGNITION-INCONCLUSIVE-001",
+      "accepted": true,
+      "evidence": "Day331~11:00 exact player 'Anyone know what those things are?' asks present companions whether they recognize the three visible aberrant hunters. Cirren independently attempts Arcana+4 (INT1 proficiency3 per cirren-skills.csv), with Mara meaningfully assisting by recalling descriptions of unfamiliar Convergence-era creatures; predeclared advantage, DC13 specific identification, DC18 detailed dangerous abilities. Actual visible Python secrets receipt batch eecec837c4e00f6f46157308de517962 d20 faces5,3 take5+4=9; both thresholds fail. Cirren recognizes the creatures are very unlike ordinary wildlife and suspects aberrations but cannot name dolgaunts/dolgrims, establish their origins, or disclose printed traits/defenses as character knowledge. Mara has no specific identification. Fenar notes the eyeless creature visibly turned toward the coach and warns that the tentacles could reach farther than ordinary arms, an inference from observed anatomy/behavior, not exact reach/blindsight/grapple statistics. No spell, channel divinity, V check, extra roll, resource expense, new physical movement, initiative, attack, forced retreat or additional time beyond immediate quiet exchange. Three creatures remain at same initial visible positions, attentive to party/horses. V chooses next action.",
+      "before": "Replacement encounter sighted, no identification by party.",
+      "after": "Cirren's recognition failed; party knows only observable traits, V decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
