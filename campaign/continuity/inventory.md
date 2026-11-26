@@ -344,3 +344,19 @@ V accepts final1800gp terms; signed written commission and sealed liaison introd
 
 ### D315-CROWN-KESTREL-CERTIFIED-TRANSCRIPTIONS-COMPLETE-001
 Authorized supervised copying completed; Crown holds faithful certified transcriptions and recorded witness summaries, not independent authentication or originals. V retains originals, Mara notes, Fenar physical exhibits. No public statement.
+
+
+## Accepted historical synchronization PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001
+Exact evidence: `archive/continuity/accepted-PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001.json`. Later explicit corrections control; newer dated domain records remain preserved. D320 private-knowledge correction cancels the prior conditional sale/inquiry; actual D316 sale275gp completed. D321 corrected combat causes no party HP damage, no Spirit Guardians spend; both opponents handed over alive after stabilization.
+
+### D317-CROWN-SEALED-OSSENT-INVITATION-CREDENTIALS-DELIVERED-V-001
+Previously accepted limited diplomatic carriage assignment's sealed invitation and messenger credentials prepared and delivered to V before departure. Preliminary invitation only, no substantive treaty power or acceptance.
+
+### D320-ELARA-CLERK-VALUABLES-INQUIRY-FOLLOWTHROUGH-001
+SUPERSEDED by D320-VALUABLES-PRIVATE-KNOWLEDGE-CORRECTION-001: invented clerk inquiry never occurred.
+
+### D320-VALUABLES-PRIVATE-KNOWLEDGE-CORRECTION-001
+Player exact correction: 'these ownership agruement should not be know to anyone but our party so why is this even an issue?' Respect NPC knowledge boundaries. The private inventory annotations about potentially disputed ownership were not evidence of a merchant or Elara's clerk knowing those matters. Correct the DM-created title-clearance condition and the invented D316 provenance inquiry in PLAY-REC-D320-VALUABLES-CLERK-FOLLOWTHROUGH-001; neither occurred. No disclosure to clerk, merchant or Orsaven authority, no actual legal adjudication or ruling extinguishing possible genuine claims; recognizable heraldry/marks could matter only if a future actor actually learns relevant facts through a credible source. Under existing D315 explicit authorization to sell all appraised valuables, resolve the omitted ordinary sale on D316 before departure as a player-directed continuity correction. Caereth jeweler honors already genuinely negotiated 240gp for three garnets, two amber stones, one silver brooch, two stamped silver trade bars. The three separately listed ordinary silver pieces are physically confirmed during routine packing/inspection from recorded inventory quantities: one ornate silver key 10gp, one early silver military insignia 10gp, one early silver captain's signet 15gp. Jeweler pays full established appraised values 35gp for this small lot, no further opposed check or added bargaining bonus. Not Silver Court signet, Blackthorn signet, Kestrel evidence or Pell seal ring. Prior genuine d20 15,7 +7 +Guidance3=25 remains valid for first 240gp lot; no reroll, no new dice, no special title clearance asserted. Actual sale total 275gp, all listed 11 objects transferred, 27500cp credited once to V's purse: 290346cp→317846cp; prior 65gp sale and 2500gp reward not duplicated. No expense, tax, new time, rest, quest, dialogue, or encounter change. Private provenance remains in DM/party knowledge; preserve historical records and apply this explicit supersession at synchronization.
+
+### D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001
+Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.
