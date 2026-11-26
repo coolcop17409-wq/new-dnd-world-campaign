@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-ABERRANT-HUNTERS-R1-READY-R2-VICTORY-001",
+  "base_commit": "a3425f48a2f3c4957bcab2309c76f77db1234479",
+  "source_checkpoint": "D331-1100-WESTERN-OSSENT-ABERRANT-HUNTERS-R1-V-TURN-PENDING-001",
+  "destination_checkpoint": "D331-1101-WESTERN-OSSENT-ABERRANT-HUNTERS-DEFEATED-ROAD-DECISION-001",
+  "source_evidence": "Exact player 'Hold action to attack when an ally is in melee' uses V's R1 Ready action, trigger a conscious ally within5ft of an enemy in legal attack range. Under existing combat rules native Psychic Blade cannot be created through Ready reaction; DM selects V's already-owned reusable physical Galepierce Dart (doubled range40/120 vs ordinary dart20/60) to execute this requested ranged attack without adding V movement or finite resource spend, narrated through silver sword. V at(0,0), target D(0,25) within normal40 range and unobstructed; V keeps movement/BA unused. Fenar R1 initiative3 independently uses BA Rage4→3/4, chooses Beast Claws, moves20ft from(5,0) to(5,20) costing40 movement over difficult slope. Within5ft D under established diagonal convention, triggers V's readied reaction. Actual visible RNG receipt a8e0d150b8b2c7855611f990faf44f19 face13+9=22 hits AC16; Galepierce d4(4)+4=8 piercing plus eligible once-per-turn Sneak Attack2d6(2,4)=6 total14, D33→19HP. V reaction spent, dart physically at target, no Psi/MP/superiority/Action Surge. Fenar independently elects Reckless Attack, applies 2014 melee advantage until her next turn; Double-Claw Rend mechanically greataxe +8, adv19/17=27 HIT, d12(1)+STR5+Rage2=8 slashing D19→11; Beast Claw +9 (STR5/PB3/Insignia1), adv7/11=20 HIT, d6(6)+STR5+Insignia1+Rage2=14 slashing D11→0 dead. Actual visible receipt 5e32a6975fe011aa54a802c4a573ce1f; remaining additional claw attack has no reachable foe, no roll. No Shift or MP use. Fenar uninjured. Round2 Cirren initiative18 remains(-5,15) within60 of B(-15,60), casts Toll the Dead at unwounded B, WIS face13+0=13/DC16 FAIL, 2d8(8,7)=15 necrotic B13→0 dead; actual receipt569d6f2e8ee41575fa5618cb0737b085. Cirren can move SW20ft toward B but it is still10ft away, no extra attack or slot. All three encountered creatures dead, no further enemy actions. Immediate visible battlefield safe from these enemies; no claim entire fissure/refuge cleared. Under standing post-combat magical thrown-item recovery, V retrieves Galepierce Dart from D corpse in accessible hollow, no obstacles or check; returns to roadside group. Fenar ends Rage after danger ends, Cirren's nonconcentration Spiritual Weapon expires naturally by~11:01, no additional resource use. No loot/search of corpse, new passage entry, creature identity revelation, healing, reward, XP level-up, or further journey assumed. Cirren43/51 (8 prior R1 damage), V48/48, Fenar59/59. All horses and Mara healthy, no new physical damage. Day331~11:01, LR0/6 unchanged since R1 interruption, D331 full provision charge still pending. V chooses next action.",
+  "pending_action": "Day331~11:01 western Ossent rough hill cartway,53/60 planned miles traveled,7 rough miles remain to crossing. Encounter concluded in R2; private ERLW roster D dolgaunt and two dolgrims all dead; no gnolls present, in-world identities still uncertain. V readied actual Galepierce physical dart attack on Fenar turn, 14 damage; Fenar Rage/Claws and 2 melee hits kill D; Cirren R2 Toll the Dead15 kills B. V recovered unique Galepierce Dart, physically carried, no ammunition/custody loss. All three corpses and deer visible downhill in rocky hollow; no investigation, loot, refuge inspection or new threat adjudicated. Party reunited at stopped coach, road ahead clear as before; horses/Mara healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone, dice delegated until stop; no combat action/reaction pending outside combat. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 Boots/+1Shield, SW expired, no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 (ended), Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia, Reckless ended with battle/time, no temp HP. LR0/6, purse2037gp8sp6cp rations15/feed20; D331 full-day charge pending. Encounter cap2/2 used, no additional occurrence today; next consecutive ordinary travel day mandatory quiet if continuing. D330 captives with relatives/constable report received no arrest; all prior correspondence/Desen/royal/estate/diplomatic/commission/custody status unchanged. Next V decision on journey/aftermath, no automatic pursuit or investigation.",
+  "depends_on": [
+    "PLAY-REC-D331-ABERRANT-HUNTERS-INITIATIVE-R1-V-TURN-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "a8e0d150b8b2c7855611f990faf44f19",
+        "rolls": [
+          {
+            "id": "D331.R1.FenarTurn.V.readied_galepierce.attack",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          },
+          {
+            "id": "D331.R1.FenarTurn.V.galepierce.damage",
+            "sides": 4,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D331.R1.FenarTurn.V.sneak_attack.damage",
+            "sides": 6,
+            "faces": [
+              2,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "5e32a6975fe011aa54a802c4a573ce1f",
+        "rolls": [
+          {
+            "id": "D331.R1.Fenar.double_claw_rend.D.advantage",
+            "sides": 20,
+            "faces": [
+              19,
+              17
+            ]
+          },
+          {
+            "id": "D331.R1.Fenar.double_claw_rend.D.damage",
+            "sides": 12,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D331.R1.Fenar.beast_claw.D.advantage",
+            "sides": 20,
+            "faces": [
+              7,
+              11
+            ]
+          },
+          {
+            "id": "D331.R1.Fenar.beast_claw.D.damage",
+            "sides": 6,
+            "faces": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "569d6f2e8ee41575fa5618cb0737b085",
+        "rolls": [
+          {
+            "id": "D331.R2.Cirren.toll_the_dead.B.wis_save",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          },
+          {
+            "id": "D331.R2.Cirren.toll_the_dead.B.damage",
+            "sides": 8,
+            "faces": [
+              8,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D331-ABERRANT-HUNTERS-R1-READY-R2-VICTORY-001",
+      "accepted": true,
+      "evidence": "Exact player 'Hold action to attack when an ally is in melee' uses V's R1 Ready action, trigger a conscious ally within5ft of an enemy in legal attack range. Under existing combat rules native Psychic Blade cannot be created through Ready reaction; DM selects V's already-owned reusable physical Galepierce Dart (doubled range40/120 vs ordinary dart20/60) to execute this requested ranged attack without adding V movement or finite resource spend, narrated through silver sword. V at(0,0), target D(0,25) within normal40 range and unobstructed; V keeps movement/BA unused. Fenar R1 initiative3 independently uses BA Rage4→3/4, chooses Beast Claws, moves20ft from(5,0) to(5,20) costing40 movement over difficult slope. Within5ft D under established diagonal convention, triggers V's readied reaction. Actual visible RNG receipt a8e0d150b8b2c7855611f990faf44f19 face13+9=22 hits AC16; Galepierce d4(4)+4=8 piercing plus eligible once-per-turn Sneak Attack2d6(2,4)=6 total14, D33→19HP. V reaction spent, dart physically at target, no Psi/MP/superiority/Action Surge. Fenar independently elects Reckless Attack, applies 2014 melee advantage until her next turn; Double-Claw Rend mechanically greataxe +8, adv19/17=27 HIT, d12(1)+STR5+Rage2=8 slashing D19→11; Beast Claw +9 (STR5/PB3/Insignia1), adv7/11=20 HIT, d6(6)+STR5+Insignia1+Rage2=14 slashing D11→0 dead. Actual visible receipt 5e32a6975fe011aa54a802c4a573ce1f; remaining additional claw attack has no reachable foe, no roll. No Shift or MP use. Fenar uninjured. Round2 Cirren initiative18 remains(-5,15) within60 of B(-15,60), casts Toll the Dead at unwounded B, WIS face13+0=13/DC16 FAIL, 2d8(8,7)=15 necrotic B13→0 dead; actual receipt569d6f2e8ee41575fa5618cb0737b085. Cirren can move SW20ft toward B but it is still10ft away, no extra attack or slot. All three encountered creatures dead, no further enemy actions. Immediate visible battlefield safe from these enemies; no claim entire fissure/refuge cleared. Under standing post-combat magical thrown-item recovery, V retrieves Galepierce Dart from D corpse in accessible hollow, no obstacles or check; returns to roadside group. Fenar ends Rage after danger ends, Cirren's nonconcentration Spiritual Weapon expires naturally by~11:01, no additional resource use. No loot/search of corpse, new passage entry, creature identity revelation, healing, reward, XP level-up, or further journey assumed. Cirren43/51 (8 prior R1 damage), V48/48, Fenar59/59. All horses and Mara healthy, no new physical damage. Day331~11:01, LR0/6 unchanged since R1 interruption, D331 full provision charge still pending. V chooses next action.",
+      "before": "R1 V turn pending; D33 B13 A0; Cirren43/51 slots4/2/3; F Rage4/4; V resources full.",
+      "after": "V Ready dart14 damage, Fenar Rage3/4 kills D, Cirren kills B R2; unique dart recovered; all encountered hostiles dead; no additional losses; next decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "trackers/csv/fenar/fenar-character.csv",
+        "trackers/csv/v/v-inventory.csv",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
