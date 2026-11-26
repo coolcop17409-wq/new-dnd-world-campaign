@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-ABERRANT-HUNTERS-INITIATIVE-R1-V-TURN-001",
+  "base_commit": "e5c3d08bb1a17ff15e4d7c2251b5752f453fb70e",
+  "source_checkpoint": "D331-1100-WESTERN-OSSENT-ABERRANT-HUNTERS-RECOGNITION-INCONCLUSIVE-V-DECISION-001",
+  "destination_checkpoint": "D331-1100-WESTERN-OSSENT-ABERRANT-HUNTERS-R1-V-TURN-PENDING-001",
+  "source_evidence": "Day331~11:00 exact player 'let not let them take our horses, attack' initiates hostilities, but does not specify V target, movement, attack mode, action sequence or finite feature expenditure. Preserve V's turn choice. Both sides mutually aware, no surprise. Fixed initial local combat grid (5ft cells, ordinary diagonal convention), along cartway x axis, positive y toward difficult downhill scrub: V(0,0), Cirren(-5,0), Fenar(5,0) at roadside verge; Mara/coach behind verge around(0,-10), healthy four horses harnessed farther along road. No forced Mara/horse movement or mechanical contribution yet. Dolly A(15,55), larger Dolgaunt D(0,65), Dolgrim B(-15,75), downhill hollow roughly10ft lower, dead deer, rocks/trunks situational cover not universal. Initial lines of sight unobstructed. All creature profiles fixed in preceding redraw, verified ERLW source blob5a16d86a3175eaeb333dec8900ee67a25c100d6f; no new monster identification in-character. Genuine initiative receipt: C16+2=18, B15+2=17, D6+4=10, A5+2=7, V1+5 (DEX4+Luckstone1)=6, F1+2=3. R1 Cirren moves from(-5,0) to(-5,15) costing30ft in difficult slope, elects immediate ranged offense because spread/out of Spirit Guardians reach, uses BA Spiritual Weapon level2 (3→2/3), summoned adjacent A at(15,50). +8 attack face11=19 vs AC15 HIT force d8(4)+5=9, A13→4. Action Toll the Dead (one-action cantrip allowed with BA leveled spell), A WIS save face4+0=4/DC16 FAIL, wounded damage2d12(11,6)=17 necrotic, A4→0 dead (hostile ordinary monster, no death save or declared nonlethal). SW active nonconcentration for up to1 minute. No Spirit Guardians or other slot. B independently reacts to threat, moves15ft uphill from(-15,75) to(-15,60), cost30ft, at45ft from C, throws one spear and fires one hand crossbow as part of its multiattack (only one spear and one loading crossbow discharge; third attack unavailable out of morningstar reach; no invented extra ammo or weapon). Disadvantage for both long range; spear faces16/18 keep16+4=20 vsAC19 HIT d6(6)+2=8 piercing, C51→43/51; spear now thrown, B hand crossbow faces15/11 keep11+4=15 MISS. No concentration save because SW nonconcentration. No reaction or resistance. D Dashes uphill from(0,65) to(0,25), cost80ft total on difficult ground, ends10ft from Cirren,25ft from V/Fenar, no attack this turn, no grapple. A dead before its initiative. Round1 V turn now, V and F have not acted; no V movement, attack, resource expense or speech beyond supplied order. Wilderness LR2/6→0/6 from Cirren's slot use and damage, no rest during combat, no full D331 provision charge. No enemy attacks against horses and no Mara repositioned. B and D alive/unhurt. Roll receipts actually executed; no additional dice.",
+  "pending_action": "Day331~11:00 R1 V initiative6 next, then Fenar3. Encounter 2/2 cap already used, no further occurrence today. Original Day331 gnoll sighting superseded only, current aberrations not named in-world. Initiative C18 acted,B17 acted,D10 acted,A7 dead,V6 CURRENT,F3 pending. Grid along road x axis, downhill positive y, 5ft diagonal convention; difficult terrain off cartway, hollow10ft lower, initial visible lines unobstructed, rocks/tree cover only by actual positioning. V(0,0),Fenar(5,0),Cirren(-5,15),Mara/coach around(0,-10) and four horses along road healthy, no Mara action/reposition yet. Larger D(0,25) HP33/33 AC16 speed40 blindsight120,Evasion, two tentacles reach15 +6 1d6+4 grapple escape12 Large/smaller, 2 tentacles+2 unarmed +6 reach5 1d4+4, may replace up to2 tentacle attacks Vitality Drain DC11 CON 2d8 necrotic half heal on fail; no active grapples. A(15,55) HP0/13 dead; B(-15,60) HP13/13 AC15 speed30 darkvision60, morningstar+4 1d8+2, spear thrown/no extra spear assumed, hand crossbow+4 1d6+2 30/120 loading, Multiattack3 with actual legal weapons/reach; Dual Consciousness advantage on specified conditions. Goblin/Deep Speech. C's Spiritual Weapon at(15,50) active 1min starting R1, nonconcentration, +8 1d8+5, BA move20+attack; slots4/2/3. Cirren43/51 AC19 HD6/6 CD2/2 boots/+1shield no concentration. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone; dice delegated until stop, action/BA/move/reaction all available R1. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia, action pending. Mara/coach/horses healthy. LR0/6 (slot/damage interruption), purse2037gp8sp6cp rations15/feed20; D331 full day charge not yet posted. D at25ft and B60ft from V, Cirren10ft from D (not adjacent for ordinary ally Sneak Attack); normal V movement up to15ft down slope costs30. V chooses target/action sequence, no limited feature auto spend. Seven rough miles remain to crossing. D330 captives with relatives/constable report, no arrest; correspondence/Desen/royal/estate/diplomatic/commission/custody status unchanged from prior packet.",
+  "depends_on": [
+    "PLAY-REC-D331-CIRREN-ABERRANT-HUNTERS-RECOGNITION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "415c90f2cc18906203589679ae8e7416",
+        "rolls": [
+          {
+            "id": "D331.R1.initiative.V",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D331.R1.initiative.Cirren",
+            "sides": 20,
+            "faces": [
+              16
+            ]
+          },
+          {
+            "id": "D331.R1.initiative.Fenar",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D331.R1.initiative.Dolgaunt",
+            "sides": 20,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D331.R1.initiative.Dolgrim_A",
+            "sides": 20,
+            "faces": [
+              5
+            ]
+          },
+          {
+            "id": "D331.R1.initiative.Dolgrim_B",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "3628c0cf6d5dcd62c2683b36a42a093c",
+        "rolls": [
+          {
+            "id": "D331.R1.Cirren.spiritual_weapon.A.attack",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D331.R1.Cirren.spiritual_weapon.A.damage",
+            "sides": 8,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D331.R1.Cirren.toll_the_dead.Dolgrim_A.wis_save",
+            "sides": 20,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D331.R1.Cirren.toll_the_dead.Dolgrim_A.damage",
+            "sides": 12,
+            "faces": [
+              11,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "3568bd2f50f559dae07725b3021afd43",
+        "rolls": [
+          {
+            "id": "D331.R1.Dolgrim_B.spear.Cirren.disadvantage",
+            "sides": 20,
+            "faces": [
+              16,
+              18
+            ]
+          },
+          {
+            "id": "D331.R1.Dolgrim_B.spear.damage",
+            "sides": 6,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D331.R1.Dolgrim_B.hand_crossbow.Cirren.disadvantage",
+            "sides": 20,
+            "faces": [
+              15,
+              11
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D331-ABERRANT-HUNTERS-R1-INITIATIVE-001",
+      "accepted": true,
+      "evidence": "Day331~11:00 exact player 'let not let them take our horses, attack' initiates hostilities, but does not specify V target, movement, attack mode, action sequence or finite feature expenditure. Preserve V's turn choice. Both sides mutually aware, no surprise. Fixed initial local combat grid (5ft cells, ordinary diagonal convention), along cartway x axis, positive y toward difficult downhill scrub: V(0,0), Cirren(-5,0), Fenar(5,0) at roadside verge; Mara/coach behind verge around(0,-10), healthy four horses harnessed farther along road. No forced Mara/horse movement or mechanical contribution yet. Dolly A(15,55), larger Dolgaunt D(0,65), Dolgrim B(-15,75), downhill hollow roughly10ft lower, dead deer, rocks/trunks situational cover not universal. Initial lines of sight unobstructed. All creature profiles fixed in preceding redraw, verified ERLW source blob5a16d86a3175eaeb333dec8900ee67a25c100d6f; no new monster identification in-character. Genuine initiative receipt: C16+2=18, B15+2=17, D6+4=10, A5+2=7, V1+5 (DEX4+Luckstone1)=6, F1+2=3. ",
+      "before": "Mutually aware encounter, V chooses whether to engage.",
+      "after": "V orders combat, no surprise; initiative C18 B17 D10 A7 V6 F3.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D331-ABERRANT-HUNTERS-R1-CIRREN-B-D-TO-V-001",
+      "accepted": true,
+      "evidence": "Day331~11:00 exact player 'let not let them take our horses, attack' initiates hostilities, but does not specify V target, movement, attack mode, action sequence or finite feature expenditure. Preserve V's turn choice. Both sides mutually aware, no surprise. Fixed initial local combat grid (5ft cells, ordinary diagonal convention), along cartway x axis, positive y toward difficult downhill scrub: V(0,0), Cirren(-5,0), Fenar(5,0) at roadside verge; Mara/coach behind verge around(0,-10), healthy four horses harnessed farther along road. No forced Mara/horse movement or mechanical contribution yet. Dolly A(15,55), larger Dolgaunt D(0,65), Dolgrim B(-15,75), downhill hollow roughly10ft lower, dead deer, rocks/trunks situational cover not universal. Initial lines of sight unobstructed. All creature profiles fixed in preceding redraw, verified ERLW source blob5a16d86a3175eaeb333dec8900ee67a25c100d6f; no new monster identification in-character. Genuine initiative receipt: C16+2=18, B15+2=17, D6+4=10, A5+2=7, V1+5 (DEX4+Luckstone1)=6, F1+2=3. R1 Cirren moves from(-5,0) to(-5,15) costing30ft in difficult slope, elects immediate ranged offense because spread/out of Spirit Guardians reach, uses BA Spiritual Weapon level2 (3→2/3), summoned adjacent A at(15,50). +8 attack face11=19 vs AC15 HIT force d8(4)+5=9, A13→4. Action Toll the Dead (one-action cantrip allowed with BA leveled spell), A WIS save face4+0=4/DC16 FAIL, wounded damage2d12(11,6)=17 necrotic, A4→0 dead (hostile ordinary monster, no death save or declared nonlethal). SW active nonconcentration for up to1 minute. No Spirit Guardians or other slot. B independently reacts to threat, moves15ft uphill from(-15,75) to(-15,60), cost30ft, at45ft from C, throws one spear and fires one hand crossbow as part of its multiattack (only one spear and one loading crossbow discharge; third attack unavailable out of morningstar reach; no invented extra ammo or weapon). Disadvantage for both long range; spear faces16/18 keep16+4=20 vsAC19 HIT d6(6)+2=8 piercing, C51→43/51; spear now thrown, B hand crossbow faces15/11 keep11+4=15 MISS. No concentration save because SW nonconcentration. No reaction or resistance. D Dashes uphill from(0,65) to(0,25), cost80ft total on difficult ground, ends10ft from Cirren,25ft from V/Fenar, no attack this turn, no grapple. A dead before its initiative. Round1 V turn now, V and F have not acted; no V movement, attack, resource expense or speech beyond supplied order. Wilderness LR2/6→0/6 from Cirren's slot use and damage, no rest during combat, no full D331 provision charge. No enemy attacks against horses and no Mara repositioned. B and D alive/unhurt. Roll receipts actually executed; no additional dice.",
+      "before": "R1 Cirren first, C51/51 slots4/3/3, all opponents full, LR2/6.",
+      "after": "A dead; C43/51 slots4/2/3 SW active; D at25ft B at60ft, unhurt; LR0/6; V turn, all V/F resources full.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
