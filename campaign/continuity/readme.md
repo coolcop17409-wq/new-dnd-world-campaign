@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D326-ORSAVEN-001`: player-known Orsaven journey a
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-26T14:08:32.018Z | previous_token=SHOPS-D334-20261126-01 | result=VERIFIED_MARKET_OWNERS | recovery=trackers/csv/magic-shops/events.csv
+CAMPAIGN_WRITER | state=ACTIVE | token=ADMIN-MAINT-D334-20261126-01 | worker=Campaign Record Maintenance | operation=ADMIN-MAINT-D334-20261126-01 | acquired_UTC=2026-11-26T15:06:19.000Z | heartbeat_UTC=2026-11-26T15:06:19.000Z | expires_UTC=2026-11-26T15:16:19.000Z | recovery=automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json
