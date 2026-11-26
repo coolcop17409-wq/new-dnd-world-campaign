@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D334-CAUL-REVEALS-VAMPIRIC-NATURE-001",
+  "base_commit": "90e88575d0ee5b7c5bc44aeddd1cdd2ea606872a",
+  "source_checkpoint": "D334-1831-LADY-CAUL-CLAIMS-PRECONVERGENCE-COURT-SERVICE-V-IDENTITY-QUESTION-001",
+  "destination_checkpoint": "D334-1832-LADY-CAUL-VAMPIRE-NATURE-REVEALED-SOVEREIGN-QUESTION-001",
+  "source_evidence": "Exact player 'I smile. \n\nSay: You already know. But I also have a question. What are you?' V smiles, implies Caul already knows identity but does not explicitly confirm lineage or offer proof, asks her nature. Caul responds with suspicions rather than certain recognition, rises and deliberately reveals elongated fangs, identifies herself as vampire since before Convergence and says she swore allegiance to sovereign of Silver Court and preserved his legacy. This is voluntary direct disclosure consistent with fixed former sworn subordinate aristocrat/vampire, not automatic identification of V as Sovereign's child, admission of modern crimes, proof of father's fate or surrender. No magical Charm or attack; Cirren/Fenar/Mara observe revelation, remain alert and do not initiate force merely from species. Caul asks whether V remembers her sovereign, a genuine question rather than proof. V chooses response. Day334~18:32, no rolls, movement by V, resource use, expense or title change.",
+  "pending_action": "Day334~18:32 dusk audience, Lady Ysendre Caul manor upper west gallery. V smiles, says she already knows, asks what she is. Caul voluntarily reveals fangs and pre-Convergence vampiric nature, former allegiance to Silver Court sovereign, claims preservation of legacy. Suspects extraordinary identity but not certain V is ancient child; asks whether V remembers sovereign. No proof of genealogy, father's fate, modern legitimacy, confession of abuse, title transfer, fealty or Charm. Companions observe, remain alert, no attack. V chooses response. Fixed manor geometry and roster retained as ashen-regency-field-operations-dm-only.md @6b58329ad8c128c24fd903edbfa0234362505e3c; gate/receiving Veterans, yard/stair Guards, counting Spy, castellan escort, two spawn cellar, Ysendre gallery. No extra forces. Tower offscreen suspension delivered and obeyed, original4+3 patrol+Voss present, no wider report or permanence/restoration/bounty, party has not received that update. V chooses reply. D333→334 qualifying overnight SR, wilderness1 unit LR3/6, no HP/HD or LR-only changes. Silverward now budgets six undead voluntary retainers at zero wages and ordinary food/rest costs, suitable labor coordinated by Hessa alongside defense with actual capability, agency, materials and duty coverage. No new work completed. Hessa5gp/actual workday from332, payday334; actual workdays, results, registration and funding pending. Conditional grant not deed; Marr independent rights intact; drainage restored, ledge and structural/parcel/legal verification outstanding. Rhevan/Ossric each2 skeletons, cooperative provisional protection. Mara holds 2 incised leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody; no spendable cash/title; copies Mara/Cirren. Heart recovery district corroborated; WNW ancestral-seat bearing only; tower separate lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried, dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/horses healthy. LR3/6 purse2037gp8sp6cp rations3/feed4 after D334 full-day charges once; previous leg completed, D334 single-day manor leg complete, quiet d10050, cap0/1. Other pending estate, correspondence, Desen/royal, commission and custody records unchanged. No new resource use except D334 provisions; Hessa payable workday accounting pending, no wage payment or transfer inferred.",
+  "depends_on": [
+    "PLAY-REC-D334-CAUL-ACKNOWLEDGES-FORMER-COURT-SERVICE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary NPC disclosure and ordinary conversational reaction consistent with established identity; no contested action or magical effect."
+  },
+  "events": [
+    {
+      "event_id": "D334-CAUL-REVEALS-VAMPIRIC-NATURE-001",
+      "accepted": true,
+      "evidence": "Exact player 'I smile. \n\nSay: You already know. But I also have a question. What are you?' V smiles, implies Caul already knows identity but does not explicitly confirm lineage or offer proof, asks her nature. Caul responds with suspicions rather than certain recognition, rises and deliberately reveals elongated fangs, identifies herself as vampire since before Convergence and says she swore allegiance to sovereign of Silver Court and preserved his legacy. This is voluntary direct disclosure consistent with fixed former sworn subordinate aristocrat/vampire, not automatic identification of V as Sovereign's child, admission of modern crimes, proof of father's fate or surrender. No magical Charm or attack; Cirren/Fenar/Mara observe revelation, remain alert and do not initiate force merely from species. Caul asks whether V remembers her sovereign, a genuine question rather than proof. V chooses response. Day334~18:32, no rolls, movement by V, resource use, expense or title change.",
+      "before": "Caul asks whether V is descendant or something extraordinary.",
+      "after": "V asks Caul's nature; she reveals vampirism and former allegiance, asks about sovereign; V decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
