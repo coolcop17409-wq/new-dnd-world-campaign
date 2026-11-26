@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D326-ORSAVEN-001`: player-known Orsaven journey a
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=D334-ESTATES | scope=estate catch-up through 334 | acquired_UTC=2026-11-26T10:21:08.214Z | expires_UTC=2026-11-26T10:41:08.214Z
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-26T10:28:26.369Z | previous_token=D334-ESTATES | result=VERIFIED | recovery=D334-ESTATES-ADMIN
