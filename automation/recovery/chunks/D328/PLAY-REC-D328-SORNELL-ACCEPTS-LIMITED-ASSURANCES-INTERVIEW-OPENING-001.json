@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D328-SORNELL-ACCEPTS-LIMITED-ASSURANCES-INTERVIEW-OPENING-001",
+  "base_commit": "92fe5fedebe62717ce9226a6d7ef115642fa7e9d",
+  "source_checkpoint": "D328-1325-ORSAVEN-DESEN-SORNELL-ASSURANCES-REPLY-PENDING-001",
+  "destination_checkpoint": "D328-1430-ORSAVEN-SORNELL-VOLUNTARY-INTERVIEW-OPENING-PENDING-001",
+  "source_evidence": "Day328 exact player 'No this is good.\n\nI am surprised that this scale of operation has not been approached or taken over by organized crime yet' approves Desen sending the already stated assurances with no additions, and raises an observation about the local association. Desen explains that a coordinated illicit freight association buying inspection information is itself organized crime, despite its legitimate trade and respectable members. Three boats, two leased storehouses and political contacts do not establish control of the entire river or membership in a larger criminal network; no evidence currently held identifies a separate group trying to take it over, and Desen does not claim that no such group exists. He sends his plainclothes messenger back with the exact limited assurances: private voluntary interview, freedom to leave, consideration of lawful protection if credible danger, no guaranteed immunity, concealment from a court or private settlement payment. Before rolling DM fixed independent Sornell decision d20 1–7 declines for now, 8–20 agrees to speak. Actual user-visible Python secrets receipt batch f39b2c257661c876c2d2f1cd0ae8748a, face10, agrees. Messenger actually reaches Sornell and receives agreement; ordinary arrangements bring Sornell to a private room borrowed through Desen's existing customs-examiner contact at ~14:30, away from the storehouses. V and companions accompany Desen under prior authorization. Sornell comes voluntarily, without original ledgers, escorted only for directions not detained; no actual new threat, proven secret surveillance, resignation, immunity, settlement, sworn testimony or payment. Sornell opens 'You said I could leave when we are finished. I am here to speak, not to sign my life away.' Desen confirms voluntary status, and asks what has been happening with the promised settlement. Sornell glances at V, awaiting response before explaining. No new factual testimony yet, no link to murders or larger organization invented. No other resource or custody changes. V chooses next action.",
+  "pending_action": "Day328~14:30 private room arranged through Desen's customs-examiner contact, Orsaven. V/Mara/Cirren/Fenar with Sgt Rill Desen and Berric Sornell. V approved limited assurances; independent d20 face10 under predeclared 8–20 acceptance threshold; Sornell voluntarily attends without original ledgers. He confirms he wishes to be free to leave and has not agreed to sworn testimony, surrender, immunity, payment or settlement. Desen confirms voluntary interview and asks about promised settlement; V may speak next. No new testimony or coercion established. Desen explains known association is already a localized organized criminal operation intertwined with lawful trade; no verified larger network, takeover or additional cargo/murder link. No verified warrant/seizure/arrest. Paid6gp single advance notice and royal cooperation decision pending at Copper Hart; no new reply. Harthvale's proposed partnership remains nonbinding/unaccepted, no250gp paid, Halvessa conditional250gp exclusive offer unpaid/unaccepted. Purse2039gp8sp6cp, rations21/feed28, LR4/6. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Desen holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; V retains notes, new originals, Sallow invitation and Harthvale memorandum; Cirren signed evidence receipt. Sornell settlement amount/timing unknown, original ledgers not surrendered. Association membership Dunmere/Rellwick/Branthor, Harthvale/Vaskel/Sornell/Holtwick and disclosed finite personnel/boats/warehouses; ordinary staff separate. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. Existing Kestrel originals/custody and confidential copies, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D328-DESEN-SORNELL-DISCREET-CONTACT-ASSURANCES-PENDING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "f39b2c257661c876c2d2f1cd0ae8748a",
+        "rolls": [
+          {
+            "id": "D328.Sornell.accepts_interview_after_limited_assurances",
+            "sides": 20,
+            "faces": [
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D328-SORNELL-ACCEPTS-LIMITED-ASSURANCES-INTERVIEW-OPENING-001",
+      "accepted": true,
+      "evidence": "Day328 exact player 'No this is good.\n\nI am surprised that this scale of operation has not been approached or taken over by organized crime yet' approves Desen sending the already stated assurances with no additions, and raises an observation about the local association. Desen explains that a coordinated illicit freight association buying inspection information is itself organized crime, despite its legitimate trade and respectable members. Three boats, two leased storehouses and political contacts do not establish control of the entire river or membership in a larger criminal network; no evidence currently held identifies a separate group trying to take it over, and Desen does not claim that no such group exists. He sends his plainclothes messenger back with the exact limited assurances: private voluntary interview, freedom to leave, consideration of lawful protection if credible danger, no guaranteed immunity, concealment from a court or private settlement payment. Before rolling DM fixed independent Sornell decision d20 1–7 declines for now, 8–20 agrees to speak. Actual user-visible Python secrets receipt batch f39b2c257661c876c2d2f1cd0ae8748a, face10, agrees. Messenger actually reaches Sornell and receives agreement; ordinary arrangements bring Sornell to a private room borrowed through Desen's existing customs-examiner contact at ~14:30, away from the storehouses. V and companions accompany Desen under prior authorization. Sornell comes voluntarily, without original ledgers, escorted only for directions not detained; no actual new threat, proven secret surveillance, resignation, immunity, settlement, sworn testimony or payment. Sornell opens 'You said I could leave when we are finished. I am here to speak, not to sign my life away.' Desen confirms voluntary status, and asks what has been happening with the promised settlement. Sornell glances at V, awaiting response before explaining. No new factual testimony yet, no link to murders or larger organization invented. No other resource or custody changes. V chooses next action.",
+      "before": "Sornell asks assurances; Desen's proposed reply awaiting V approval.",
+      "after": "V approves limited assurances; Sornell accepts voluntary private interview and arrives, no new testimony or settlement yet; next action pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
