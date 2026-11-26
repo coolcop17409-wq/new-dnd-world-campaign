@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-V-SUGGESTS-VOLUNTARY-WARDER-SERVICE-001",
+  "base_commit": "29ac903f794faa397b4ef35943caf97c11e1b0da",
+  "source_checkpoint": "D331-1633-WESTERN-OSSENT-WARDER-OFFERS-GALLERY-INSPECTION-001",
+  "destination_checkpoint": "D331-1634-WESTERN-OSSENT-WARDER-VOLUNTARY-RENEWED-SERVICE-POSSIBILITY-001",
+  "source_evidence": "Preserve preceding unsaved dialogue: exact player 'They don’t seem to be hostile'; Cirren acknowledged distinction between nature and conduct, noted no attacks and permitted armed entry, expressed hope for resolution without destruction, lowered shield slightly without doffing it; Fenar said 'If they behave, Fenar behaves.' Warder remained beside gallery doorway. Exact current player 'Maybe they could serve our house, if they wish to continue' raises voluntary renewed service as a possibility, not an order, appointment, payment, oath, release, accepted employment or guarantee of safety. First warder overhears and turns toward V, asserts it never ceased service, describes centuries without reporting contact, replacement orders or relief; asks whether V intends to restore place to House and give new purpose beyond guarding remains. This indicates genuine conditional interest in changed duties but no established identity verification, allegiance, agreed terms, changed guard instructions, or disposition of the second warder. Cirren independently considers possibility conditional on protecting living people rather than confining them; no assertion existing undead attacked household or verified they are harmless. First warder, two skeletons, and separate lower group remain fixed; prior temporary armed passage and no property removal remain effective. V decides response. No movement beyond conversational gestures, attack, initiative, check, resource use, title, copying or new evidence. Day331~16:34.",
+  "pending_action": "Day331~16:34 western Ossent service-house receiving hall. V challenged Cirren's description as hostile; Cirren acknowledges actual nonaggression; Fenar agrees conditional peaceful conduct. V suggests voluntary future House service. First warder asks if V will restore site and give renewed purpose, genuine conditional interest, no accepted appointment or oath/authority/changed charge. Cirren favors protecting living rather than imprisonment; second warder's views unknown. Gallery supervised inspection offer stands. V chooses response. Entry open, hall30x30 x−15..15,y0..30,z12; Fenar(0,10), V(0,5), Cirren(0,0), Wight(5,5), Skeletons(-10,15)/(10,15), no attacks/initiative, no further entry or copies. East door(15,25) via20ft corridor to empty gallery; separate lower Wight+2 Skeletons behind closed doors, no alert. Fixed site prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291. In-place Vaishnavi refuge dedication recognized, sleeping recesses/ovens and later bars observed. Hessa friendly outside, ledge/outfall known; Mara/coach/four horses healthy. Conditional grant not title, preserve ferrier rights. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, D331 travel charged, leg cap2/2. No additional costs, recovery, correspondence, custody or reward. Prior records unchanged.",
+  "depends_on": [
+    "PLAY-REC-D331-V-SEEKS-RECORDS-RESPONSIBILITY-AND-DANGER-EXPLANATION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary conversational response to tentative future possibility; no contested persuasion or agreement established."
+  },
+  "events": [
+    {
+      "event_id": "D331-V-SUGGESTS-VOLUNTARY-WARDER-SERVICE-001",
+      "accepted": true,
+      "evidence": "Preserve preceding unsaved dialogue: exact player 'They don’t seem to be hostile'; Cirren acknowledged distinction between nature and conduct, noted no attacks and permitted armed entry, expressed hope for resolution without destruction, lowered shield slightly without doffing it; Fenar said 'If they behave, Fenar behaves.' Warder remained beside gallery doorway. Exact current player 'Maybe they could serve our house, if they wish to continue' raises voluntary renewed service as a possibility, not an order, appointment, payment, oath, release, accepted employment or guarantee of safety. First warder overhears and turns toward V, asserts it never ceased service, describes centuries without reporting contact, replacement orders or relief; asks whether V intends to restore place to House and give new purpose beyond guarding remains. This indicates genuine conditional interest in changed duties but no established identity verification, allegiance, agreed terms, changed guard instructions, or disposition of the second warder. Cirren independently considers possibility conditional on protecting living people rather than confining them; no assertion existing undead attacked household or verified they are harmless. First warder, two skeletons, and separate lower group remain fixed; prior temporary armed passage and no property removal remain effective. V decides response. No movement beyond conversational gestures, attack, initiative, check, resource use, title, copying or new evidence. Day331~16:34.",
+      "before": "Temporary armed entry and supervised gallery viewing offered.",
+      "after": "Cirren acknowledges observed nonaggression, V raises voluntary continuing service; warder expresses conditional interest and asks purpose; V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
