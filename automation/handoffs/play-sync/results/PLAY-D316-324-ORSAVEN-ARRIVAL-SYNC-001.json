@@ -2,13 +2,13 @@
   "schema_version": 1,
   "request_id": "PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001",
   "status": "partial",
-  "phase": "owners_published_checkpoint_pending",
+  "phase": "checkpoint_published_verification_pending",
   "claim_owner": "opened-pr46-219a19d2",
   "claim_expires_at": "2026-11-26T02:41:11.000Z",
   "request_commit": "1e519b28ea1b160698b8003c6d60efdf66fbcd08",
   "request_blob": "ad0418cb8df1e08c8dd62a6573972ec07ad19d98",
   "summary": "26 events recorded with explicit supersessions; 36 numeric/custody legs. Checkpoint pending.",
-  "blocker": "Checkpoint publication and exact readback pending; never replay owner legs.",
+  "blocker": "Final readback and compatibility cleanup pending; do not replay owners.",
   "applied_event_ids": [
     "D316-V-DEFENSE-CONSULTATION-MORTAL-DIGNITY-PRINCIPLE-001",
     "D316-CAERETH-DEFENSE-CONSULTATION-DIGNITY-CONCLUSION-001",
@@ -37,5 +37,6 @@
     "D323-V-MARKET-RESUPPLY-5GP1SP-001",
     "D324-V-ORSAVEN-COACH-ARRIVAL-001"
   ],
-  "owners_verified": false
+  "owners_verified": true,
+  "owner_commit": "2ce816c7f289dfac149221a2488878d9dac48f90"
 }
