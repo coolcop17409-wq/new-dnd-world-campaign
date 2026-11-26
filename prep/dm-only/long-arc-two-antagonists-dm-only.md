@@ -1,5 +1,9 @@
 <!-- Source: Google Doc 12cdmQAxepOHUdMwWK_o4wJMTFBna8A2MYrtoXmSN1cM, tab t.fmwjtyh9xbva; title: LONG ARC — TWO ANTAGONISTS [DM ONLY]; snapshot revision: AHj4eMQQWUFzX4nqnJE4XD9xIpinX55NSBC93YKWmeqP2puDuVpKRtBC4aPEDUmwBxoHRUaL8bUsJfEYsBeNYHpzMj9KHDsKnqRFdJuvmA -->
 
+## Current revelation boundary — ADMIN-QUEST-D334-20261126-01
+Source main 0d3cc08e1c98b08c684dbf7f749994f59065fd98. Reconciled through D334-1833-LADY-CAUL-INVITATION-DISCUSSION-REGISTER-OFFER-V-DECISION-001 / D334-CAUL-DISCUSSES-INVITATION-AND-FORMER-ALLEGIANCE-001, immutable automation/recovery/chunks/D334/PLAY-REC-D334-CAUL-DISCUSSES-INVITATION-AND-FORMER-ALLEGIANCE-001.json @e3a5f8681447336b523cc4efbcb658220026fbb9. Saved checkpoint D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001 @1a69818ddb9f592991b1c008a018afac719c27ff remains unchanged; newer source-ordered accepted chunks control the pause. This is a reconciliation pointer, not a new checkpoint.
+Day334 Caul has actually met V and heard his claim/partial recollection; disclosed her vampiric nature and former Silver Court service; offered joint register consultation. V has NOT inspected that register, proven identity or accepted allegiance. Initial172-era “unintroduced/no whereabouts/no report” captions below describe the original situation, not current denial of this meeting. Distant peers/Ophira gain no automatic update. LONG ARC G fixed paternal truth and independent factions remain unchanged. Current manor scene, bounded prepared document chronology/read procedure and actor response are owned by ashen-regency-field-operations-dm-only.md / Offered archive consultation; actual pause remains with accepted recovery. No secret answer is public merely because this preparation exists.
+
 ## Developed choices — ADMIN-QUEST-CATALOGUE-REWORK-20261124-01
 
 ### Two campaigns with different routes to a decisive defeat
