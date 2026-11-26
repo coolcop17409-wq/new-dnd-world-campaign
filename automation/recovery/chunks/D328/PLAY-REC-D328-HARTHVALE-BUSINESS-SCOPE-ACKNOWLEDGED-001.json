@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D328-HARTHVALE-BUSINESS-SCOPE-ACKNOWLEDGED-001",
+  "base_commit": "d99a4c1168a00729d4693c94f0472f55f7f6cdcc",
+  "source_checkpoint": "D328-1142-ORSAVEN-HARTHVALE-PROHIBITED-GOODS-SCOPE-REPLY-PENDING-001",
+  "destination_checkpoint": "D328-1143-ORSAVEN-HARTHVALE-PARTNERSHIP-OBLIGATIONS-REVIEW-PENDING-001",
+  "source_evidence": "Day328~11:43 exact player 'Nothing I just saw an opportunity that could have been… but your reasoning makes sense' withdraws the speculative new merchandise inquiry without proposing any specific prohibited product or commitment. Harthvale accepts the explanation and says 'Nothing wrong with ambition. But I'd rather grow a business we understand than gamble away the one we've built.' He returns attention to the existing nonbinding partnership discussion, clarifying that he can recommend a new partner but cannot commit the other member households without their assent. Sornell remains available to review actual income, expenses, and liabilities, with original records in his custody; no further figures or records are assumed disclosed. Cirren asks what obligations an incoming partner would inherit, reflecting his independent caution, without committing V to anything. Harthvale acknowledges this is a fair question and offers to have Sornell explain the association's existing obligations before negotiating a share. V has not authorized an investment, signed a contract, requested further specific records, or departed. No new check, resource expenditure, custody change, cargo, new criminal contact, or offscreen outcome. Await V decision.",
+  "pending_action": "Day328~11:43 broker upper office above counting shop200ft uphill of storehouse1, Orsaven. V/Mara/Cirren/Fenar with Demeric Harthvale, Orren Vaskel and Berric Sornell. V accepts Harthvale's reasoning and withdraws speculative new-product inquiry. Harthvale says growth of known business is preferable and clarifies admission requires other households' assent; Cirren raises question of inherited obligations, Harthvale offers Sornell's explanation. V next decision pending. No new financial figures, full review, notes actually written, new prohibited merchandise, commitment, transaction, roll or expenditure. Three member households Dunmere/Rellwick/Branthor, captain Tavren Holtwick, seven further escorts/four participating hands; three boats/two leased storehouses/rented office. Halvessa conditional250gp exclusive supply offer unaccepted; Harthvale signed nonbinding250gp proposed capital participation memorandum V-held, no investment. Sornell permits notes on disclosed material but retains originals. Desen knows appointment/prior evidence, not today's findings. Paid6gp single advance notice pending at Copper Hart; royal decision pending. Purse2039gp8sp6cp, rations21/feed28, LR4/6. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Desen holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; V retains notes, both new originals, Sallow invitation and Harthvale memorandum; Cirren signed evidence receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. No Harthvale involvement in murders or specific additional contraband proven. Existing Kestrel originals/custody and confidential copies, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D328-HARTHVALE-PROHIBITED-GOODS-SCOPE-QUESTION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary dialogue and voluntary NPC response; no uncertain concession or delegated roll."
+  },
+  "events": [
+    {
+      "event_id": "D328-HARTHVALE-BUSINESS-SCOPE-ACKNOWLEDGED-001",
+      "accepted": true,
+      "evidence": "Day328~11:43 exact player 'Nothing I just saw an opportunity that could have been… but your reasoning makes sense' withdraws the speculative new merchandise inquiry without proposing any specific prohibited product or commitment. Harthvale accepts the explanation and says 'Nothing wrong with ambition. But I'd rather grow a business we understand than gamble away the one we've built.' He returns attention to the existing nonbinding partnership discussion, clarifying that he can recommend a new partner but cannot commit the other member households without their assent. Sornell remains available to review actual income, expenses, and liabilities, with original records in his custody; no further figures or records are assumed disclosed. Cirren asks what obligations an incoming partner would inherit, reflecting his independent caution, without committing V to anything. Harthvale acknowledges this is a fair question and offers to have Sornell explain the association's existing obligations before negotiating a share. V has not authorized an investment, signed a contract, requested further specific records, or departed. No new check, resource expenditure, custody change, cargo, new criminal contact, or offscreen outcome. Await V decision.",
+      "before": "Harthvale asks what other business V has in mind.",
+      "after": "V withdraws speculative inquiry; Harthvale reiterates member assent and offers obligations review following Cirren question; V next action pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
