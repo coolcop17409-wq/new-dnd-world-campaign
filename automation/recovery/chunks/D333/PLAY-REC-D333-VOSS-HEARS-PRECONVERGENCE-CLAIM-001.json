@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D333-VOSS-HEARS-PRECONVERGENCE-CLAIM-001",
+  "base_commit": "08feef9c5db2fece55d017884df74dca1778536e",
+  "source_checkpoint": "D333-1545-WESTERN-CUSTOMS-TOWER-ALDREN-VOSS-AUDIENCE-V-DECISION-001",
+  "destination_checkpoint": "D333-1546-WESTERN-CUSTOMS-TOWER-PRECONVERGENCE-CLAIM-VOSS-ASKS-EVIDENCE-LOCATION-001",
+  "source_evidence": "Exact player 'Your lady claims rights from records older then the crown. I claim rights from records older then the convergence.' V asserts older documentary basis for rival hereditary claim. Aldren Voss, established antiquarian administrator, takes the statement seriously but notes difficulty of substantiating twelve-century-old claim and observes V speaks as though he remembers the earlier world (an impression, not actual recognition or established memory). Cirren independently and truthfully corroborates that party examined surviving original inscriptions from that historical period, without revealing Silverward location, document custody, particular contents, heart, private lineage or artifacts. Voss asks where originals are; he now knows asserted pre-Convergence evidence and Cirren's corroboration, not its location or documentary details. No confirmation of present title, personal ancestry, charter validity or authenticity of any offered tower record. No inspection, concession, summons, report, attack, movement, resource use or roll. Day333~15:46, V chooses how to answer and what evidence to share.",
+  "pending_action": "Day333~15:46 audience in western customs tower ground-floor receiving room. V asserts pre-Convergence records trump Lady Caul's claimed pre-Crown basis. Voss intrigued, cautions about proof, asks where originals are after Cirren truthfully corroborates original ancient inscriptions examined. No Silverward location or contents, private artifacts/heart or genealogy disclosed; no tower record inspection, valid present title, recognition, concession or agreement. V decides response/evidence disclosure. V/Cirren/Fenar with Voss, Mara outside with coach/four horses in court. Gate Guard, hall Guard, roof Scout, archive Spy fixed, no reinforcements, report from road patrol unconfirmed. No attack/initiative. Silverward now budgets six undead voluntary retainers at zero wages and ordinary food/rest costs, suitable labor coordinated by Hessa alongside defense with actual capability, agency, materials and duty coverage. No new work completed. Hessa5gp/actual workday from332, payday334; actual workdays, results, registration and funding pending. Conditional grant not deed; Marr independent rights intact; drainage restored, ledge and structural/parcel/legal verification outstanding. Rhevan/Ossric each2 skeletons, cooperative provisional protection. Mara holds 2 incised leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody; no spendable cash/title; copies Mara/Cirren. Heart recovery district corroborated; WNW ancestral-seat bearing only; tower separate lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried, dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/horses healthy. LR2/6 purse2037gp8sp6cp rations6/feed8, D332 and D333 daily charges applied once; D332 mandatory quiet, D333 occurrence71 quiet, travel leg completed cap0/1. Other pending estate, correspondence, Desen/royal, commission and custody records unchanged. No time or resources changed.",
+  "depends_on": [
+    "PLAY-REC-D333-V-ACCEPTS-TOWER-ADMINISTRATOR-AUDIENCE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary interested dialogue about asserted historical evidence; no contested concession or examination adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D333-VOSS-HEARS-PRECONVERGENCE-CLAIM-001",
+      "accepted": true,
+      "evidence": "Exact player 'Your lady claims rights from records older then the crown. I claim rights from records older then the convergence.' V asserts older documentary basis for rival hereditary claim. Aldren Voss, established antiquarian administrator, takes the statement seriously but notes difficulty of substantiating twelve-century-old claim and observes V speaks as though he remembers the earlier world (an impression, not actual recognition or established memory). Cirren independently and truthfully corroborates that party examined surviving original inscriptions from that historical period, without revealing Silverward location, document custody, particular contents, heart, private lineage or artifacts. Voss asks where originals are; he now knows asserted pre-Convergence evidence and Cirren's corroboration, not its location or documentary details. No confirmation of present title, personal ancestry, charter validity or authenticity of any offered tower record. No inspection, concession, summons, report, attack, movement, resource use or roll. Day333~15:46, V chooses how to answer and what evidence to share.",
+      "before": "Voss asks basis of tower claim.",
+      "after": "V asserts pre-Convergence records; Cirren corroborates existence; Voss asks location, V decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
