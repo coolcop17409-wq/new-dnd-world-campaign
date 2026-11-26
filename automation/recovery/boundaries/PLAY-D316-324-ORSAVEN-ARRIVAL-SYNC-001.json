@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "ready": true,
+  "request_id": "PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001",
+  "reason": "explicit_sync",
+  "source_checkpoint": "D316-1420-CAERETH-OSSENT-INVITATION-ACCEPTED-DEFENSE-TALKS-001",
+  "destination_checkpoint": "D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001",
+  "last_recovery_id": "PLAY-REC-D323-324-V-RESUPPLIES-ORSAVEN-ARRIVAL-001",
+  "records": [
+    {
+      "path": "automation/recovery/chunks/D316/PLAY-REC-D316-V-MORTAL-DIGNITY-DEFENSE-PRINCIPLE-001.json",
+      "digest": "0c25659a0846ab17e282bf75d185c59b1d2137355235486243548a18edf81b1c"
+    },
+    {
+      "path": "automation/recovery/chunks/D316/PLAY-REC-D316-DEFENSE-CONSULTATION-CONCLUDES-DIGNITY-001.json",
+      "digest": "7c7bb2d2866b148f3d2152e9aa64da345c388f276e953185fb0c162cead72e15"
+    },
+    {
+      "path": "automation/recovery/chunks/D316/PLAY-REC-D316-319-V-CROWN-LETTER-CAERETH-DEPARTURE-TWO-QUIET-DAYS-001.json",
+      "digest": "6da2dbc99f38462d494a9b809d152b88d533f75e679ab4e370eae2d954d220f2"
+    },
+    {
+      "path": "automation/recovery/chunks/D319/PLAY-REC-D319-320-ORSAVEN-ROAD-FRONTIER-TRAVELERS-001.json",
+      "digest": "349b19974efc49ad6684f665fa20456f06cdad84888503216ebe1e9abe51353e"
+    },
+    {
+      "path": "automation/recovery/chunks/D320/PLAY-REC-D320-VALUABLES-CLERK-FOLLOWTHROUGH-001.json",
+      "digest": "45f86bad52978fe2c6ab461329932a6687b096aef172abf4e119b7c666bc93aa"
+    },
+    {
+      "path": "automation/recovery/chunks/D320/PLAY-REC-D320-VALUABLES-PRIVATE-KNOWLEDGE-SALE-CORRECTION-001.json",
+      "digest": "9d93561ceebeee500481fb036c3069da376a7a273358ee83980ce40b8a5f42af"
+    },
+    {
+      "path": "automation/recovery/chunks/D320/PLAY-REC-D320-V-INVITES-WOOL-CARTER-SHARED-TRAVEL-001.json",
+      "digest": "143bd2a2c916c9d741b44a745b7d8b6ef222e2a5120871755ca923766889a8e6"
+    },
+    {
+      "path": "automation/recovery/chunks/D320/PLAY-REC-D320-V-CARTER-INDEPENDENCE-DIALOGUE-CROSSING-APPROACH-001.json",
+      "digest": "44ed9f62fbef05c5332e10f396addf31681993b5bed16e2fee1479fa46541610"
+    },
+    {
+      "path": "automation/recovery/chunks/D320/PLAY-REC-D320-321-V-CROSSES-OSSENT-LONGREST-ROAD-GANG-001.json",
+      "digest": "653a426d5d9ab9d5df2ab42deec7e760f56d6f1dc222b3e80f3d74544816a3eb"
+    },
+    {
+      "path": "automation/recovery/chunks/D321/PLAY-REC-D321-V-WARNS-ROAD-GANG-INTIMIDATION-001.json",
+      "digest": "92ecd43ce7b7983e713823236fa7e73ed41e9c095099464cae4d9ae00594b809"
+    },
+    {
+      "path": "automation/recovery/chunks/D321/PLAY-REC-D321-V-REFUSES-EXTORTION-ROAD-GANG-INITIATIVE-001.json",
+      "digest": "f2d82d1cf075faeabb9f7d9bdbfe74030d9e21ff098cbdf1c0dbfcbfef48a796"
+    },
+    {
+      "path": "automation/recovery/chunks/D321/PLAY-REC-D321-ROAD-GANG-R1-V-READY-CIRREN-FENAR-ROUND-001.json",
+      "digest": "c56df0191058e63adc2271bc2e470fc96e1d44512f42e4bf34804e7bd86b3dae"
+    },
+    {
+      "path": "automation/recovery/chunks/D321/PLAY-REC-D321-ROAD-GANG-R1-CORRECTED-ANY-ALLY-SPIRITUAL-WEAPON-001.json",
+      "digest": "9ff60d22b235a9f3ef5657fc1c820626a7a4aacb51b51cd5ecd609b25f2f5444"
+    },
+    {
+      "path": "automation/recovery/chunks/D321/PLAY-REC-D321-R2-V-TARGET-CLARIFICATION-CIRREN-NO-SPIRIT-GUARDIANS-001.json",
+      "digest": "89934ad97327f70a042cba0183d7c50214224e9304f906e2bf2590372b3ff242"
+    },
+    {
+      "path": "automation/recovery/chunks/D321/PLAY-REC-D321-ROAD-GANG-R2-VETERAN-DEFEATED-001.json",
+      "digest": "6a0ae0101b7cb7d98c79ead4d12d0eb759149baab55aa00f01d11af9de944de4"
+    },
+    {
+      "path": "automation/recovery/chunks/D321/PLAY-REC-D321-RAIDERS-DEATH-SAVES-STABILIZED-LOOT-WATCH-HANDOFF-001.json",
+      "digest": "420a71bf8ea6d3f2b3c08edfb6b7a620bb5a321c64aaad9b264b02e775df3622"
+    },
+    {
+      "path": "automation/recovery/chunks/D321/PLAY-REC-D321-323-OSSENT-QUIET-ROAD-MARKET-RESUPPLY-OFFER-001.json",
+      "digest": "07c13a6b3973c554987e0425f5a05f64a95db0bcb903636529d9c17d2f900694"
+    },
+    {
+      "path": "automation/recovery/chunks/D323/PLAY-REC-D323-324-V-RESUPPLIES-ORSAVEN-ARRIVAL-001.json",
+      "digest": "9bad6d01f6aaa3a82625b7c32044eb56324308d71a3455dc0eb2710c6391a604"
+    }
+  ]
+}
