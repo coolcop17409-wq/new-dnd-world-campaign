@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-SILVERWARD-NAME-ADOPTED-STEWARDSHIP-FOLLOWTHROUGH-001",
+  "base_commit": "56dde3061e8f02317a03a537fa9771fcc96e57c0",
+  "source_checkpoint": "D331-1900-SILVERWARD-CROSSING-HISTORIC-NAME-V-DECISION-001",
+  "destination_checkpoint": "D331-1901-SILVERWARD-NAME-ADOPTED-ONWARD-DESTINATION-PENDING-001",
+  "source_evidence": "Exact player 'I like it. Fitting.\n\nWe will continue to explore onward but will return and when we do, I want to hear your ideas.' approves restoration of historical Silverward Crossing name and confirms Hessa's planning/report mandate for V's actual return. Hessa accepts and promises to actively contact local merchants, identify suitable craftsmen, obtain practical restoration and business assessments and bring actual proposals/results rather than passive waiting. Rhevan and Ossric continue their previously accepted voluntary guardian duties. No additional capital amount, new purchase, wage change, booking, inspection result, legal deed or commercial outcome assumed. Hessa's work starts Day332 under previous appointment5gp/actual workday, common payday334. Ordinary estate autonomy and daily proactive outreach apply during elapsed campaign time; actual results must be adjudicated, recorded, and reported at V's return, not invented in advance. V states general intent to continue exploring; specific next destination, departure time, overnight accommodation, supplies and route not chosen. No automatic travel at night, rest, new encounter or resource use. Historical name Silverward Crossing adopted for intended holding, no new geographic placement or title conveyed. Day331~19:01. V next choice regarding onward direction and departure.",
+  "pending_action": "Day331~19:01 Silverward Crossing (player-adopted historical name), V/Cirren/Mara/Fenar at surface near Hessa and stationary healthy coach/four horses. V intends onward exploration and return for Hessa's actual plans/results; destination/route and departure/rest choice pending. Hessa Marr steward5gp/actual workday from332, common payday334, proactive daily prospecting/restoration/inspection/funding assessment mandate, no capital transferred, no workday or result assumed tonight. Conditional Crown grant not deed, resident independent ferry/home/access/landing/return-channel rights intact; structural/parcel/legal verification pending. Rhevan/Ossric provisional voluntary protection of free residents/travelers under Crown law, each2 skeletons; Marrs accept trial coexistence. Inlet shut, relief cleared/open, main open, lower chamber drained substantially, ferry undamaged. Mara holds two incised record leaves, ceramic container and ONE historic coffer with coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody, no settled title/spendable cash; copies Mara/Cirren; in-place instrument/dedication/charter remain. Heart recovery/packing district corroborated, origin/purpose/father/speaker/personal genealogy unresolved; WNW ancestral-seat approach bearing but no exact distance/route, western customs records separate optional lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16; D331 daily charges applied, cap2/2. Coris documentary300/field800 contingent, Crown300+1300 contingent, commission520 due actual completion target353; prior pending records unchanged. No new expense, rest, reward, departure or encounter.",
+  "depends_on": [
+    "PLAY-REC-D331-SILVERWARD-CROSSING-HISTORIC-NAME-REVEALED-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Player adopts historical name and confirms stewardship instructions; NPC voluntary responses, no contested outcome or travel."
+  },
+  "events": [
+    {
+      "event_id": "D331-SILVERWARD-NAME-ADOPTED-STEWARDSHIP-FOLLOWTHROUGH-001",
+      "accepted": true,
+      "evidence": "Exact player 'I like it. Fitting.\n\nWe will continue to explore onward but will return and when we do, I want to hear your ideas.' approves restoration of historical Silverward Crossing name and confirms Hessa's planning/report mandate for V's actual return. Hessa accepts and promises to actively contact local merchants, identify suitable craftsmen, obtain practical restoration and business assessments and bring actual proposals/results rather than passive waiting. Rhevan and Ossric continue their previously accepted voluntary guardian duties. No additional capital amount, new purchase, wage change, booking, inspection result, legal deed or commercial outcome assumed. Hessa's work starts Day332 under previous appointment5gp/actual workday, common payday334. Ordinary estate autonomy and daily proactive outreach apply during elapsed campaign time; actual results must be adjudicated, recorded, and reported at V's return, not invented in advance. V states general intent to continue exploring; specific next destination, departure time, overnight accommodation, supplies and route not chosen. No automatic travel at night, rest, new encounter or resource use. Historical name Silverward Crossing adopted for intended holding, no new geographic placement or title conveyed. Day331~19:01. V next choice regarding onward direction and departure.",
+      "before": "Historical Silverward name revealed, formal adoption/next action pending.",
+      "after": "V adopts Silverward Crossing and instructs Hessa to develop plans during absence; specific next destination/departure pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "data/estate/"
+      ]
+    }
+  ]
+}
