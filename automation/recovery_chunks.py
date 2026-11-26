@@ -31,12 +31,22 @@ def chunk_content(entry):
     chunk_path(entry)
     return json.dumps(entry,indent=2,ensure_ascii=False)+"\n"
 
+# Historical immutable storage-path exception: do not rename original evidence.
+# Pinned by boundary PLAY-D314-RETHWYN-REST-CAERETH-ARRIVAL-SYNC-001 at
+# 7056fd9094fc408cb528ab00de8aab34bdd51efc. New writes still use chunk_path.
+PINNED_STORAGE_PATHS = {
+    "automation/recovery/chunks/D310/PLAY-REC-D308-310-V-RETHWYN-MANOR-APPROACH-RECOVERY-001.json":
+        ("PLAY-REC-D308-310-V-RETHWYN-MANOR-APPROACH-RECOVERY-001",
+         "062b59b2c86a06e5af8723f195d91b1e86bfbd9e770ea5a1f2a93079a9a1749f"),
+}
+
 def validate_chunk(path,content,expected_digest):
     if not isinstance(content,str) or not isinstance(expected_digest,str):
         raise ValueError("Invalid chunk payload/digest")
     entry=json.loads(content)
     reject_void(entry)
-    if path!=chunk_path(entry):
+    if (path!=chunk_path(entry) and
+        PINNED_STORAGE_PATHS.get(path)!=(entry.get("request_id"), expected_digest)):
         raise ValueError("Chunk filename and accepted entry ID mismatch")
     check({"schema_version":1,"entries":[entry]})
     if digest(entry)!=expected_digest:
@@ -98,8 +108,9 @@ def compatibility_journal(boundary,loader,existing,mode):
     entries=validate_boundary(boundary,loader)
     if "rng_gate" in mode:
         seen_batches=set()
-        for entry in entries:
-            path=chunk_path(entry)
+        for row,entry in zip(boundary["records"],entries):
+            # Verify RNG against the exact manifest source, including pinned aliases.
+            path=row["path"]
             validate_rng(entry,path,loader(path),mode["rng_gate"],seen_batches)
     trigger={k:boundary[k] for k in
              ("ready","reason","request_id","last_recovery_id","destination_checkpoint")}
