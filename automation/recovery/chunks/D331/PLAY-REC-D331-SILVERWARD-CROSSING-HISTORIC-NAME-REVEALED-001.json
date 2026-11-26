@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-SILVERWARD-CROSSING-HISTORIC-NAME-REVEALED-001",
+  "base_commit": "6a40ee4735ae0aaabc08d62c2c253744de0979a9",
+  "source_checkpoint": "D331-1900-WESTERN-OSSENT-HESSA-APPOINTED-STEWARD-RESTORATION-MANDATE-V-DECISION-001",
+  "destination_checkpoint": "D331-1900-SILVERWARD-CROSSING-HISTORIC-NAME-V-DECISION-001",
+  "source_evidence": "Exact player 'Well what was this place called before?' asks existing witnesses for historical name. Prior site preparation fixes Vaishnavi service-house crossing but no literal site name. Newly established live DM detail: Rhevan recalls historical name Silverward Crossing, corroborated by Ossric, both firsthand former warders. Hessa says living locals call it the Old Crossing; expresses pleasure at possibility of restoring Silverward name. This is new naming canon in play, not a recovered previously documented exact name, new settlement or official renaming/deed. Existing western Ossent placement, footprint, history, rights, grant, guardians, steward, resource and custody state unchanged; player has not chosen formal estate name. No roll or expenditure. Day331~19:00.",
+  "pending_action": "Day331~19:00 at western Ossent service-house crossing, now known by historical name Silverward Crossing (new live witness-established detail), modern local usage Old Crossing. Hessa considers restoring name; V chooses formal name or next action. Hessa appointed steward5gp/actual workday starts332, payday334, autonomous restoration/profit/outreach/inspection mandate, funding assessment pending, no cash transferred. Conditional Crown grant not deed, resident home/ferry/access/landing/return-channel rights intact; structural/parcel and safety verification pending. Rhevan/Ossric provisionally protect free residents/travelers under Crown law, each with2 skeletons; Marrs accept trial coexistence. Safe drainage restored, inlet shut, relief cleared/open, main open, lower chamber substantially drained, ferry undamaged. Mara holds two incised record leaves, ceramic container, one historic coffer coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody, no settled title or spendable cash; copies Mara/Cirren; in-place instrument/dedication/charter remain. Heart last documented recovery/packing district corroborated, origin/purpose/father/speaker/personal genealogy unresolved; WNW ancestral-seat approach bearing, no exact route/distance; western customs records optional. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara/coach/four horses healthy. LR0/6 purse2037gp8sp6cp rations12/feed16, D331 charges applied cap2/2. Coris documentary300/field800 contingent, Crown300+1300 contingent, commission520 due actual completion target353. Prior pending correspondence/estate/custody unchanged, no expense/rest/reward. V next choice.",
+  "depends_on": [
+    "PLAY-REC-D331-HESSA-APPOINTED-SERVICE-HOUSE-STEWARD-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Routine firsthand NPC recollection; site name newly established as an ordinary world detail."
+  },
+  "events": [
+    {
+      "event_id": "D331-SILVERWARD-CROSSING-HISTORIC-NAME-REVEALED-001",
+      "accepted": true,
+      "evidence": "Exact player 'Well what was this place called before?' asks existing witnesses for historical name. Prior site preparation fixes Vaishnavi service-house crossing but no literal site name. Newly established live DM detail: Rhevan recalls historical name Silverward Crossing, corroborated by Ossric, both firsthand former warders. Hessa says living locals call it the Old Crossing; expresses pleasure at possibility of restoring Silverward name. This is new naming canon in play, not a recovered previously documented exact name, new settlement or official renaming/deed. Existing western Ossent placement, footprint, history, rights, grant, guardians, steward, resource and custody state unchanged; player has not chosen formal estate name. No roll or expenditure. Day331~19:00.",
+      "before": "Historic literal crossing name not established.",
+      "after": "Historical name Silverward Crossing and local Old Crossing usage revealed; official restoration naming undecided.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
