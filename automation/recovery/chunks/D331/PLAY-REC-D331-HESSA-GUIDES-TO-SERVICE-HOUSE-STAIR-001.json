@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-HESSA-GUIDES-TO-SERVICE-HOUSE-STAIR-001",
+  "base_commit": "6340164c7691c25590575e3699fc37a50c3cda25",
+  "source_checkpoint": "D331-1622-WESTERN-OSSENT-HESSA-WELCOMES-NEIGHBOR-V-DECISION-001",
+  "destination_checkpoint": "D331-1625-WESTERN-OSSENT-SERVICE-HOUSE-STAIRHEAD-V-DECISION-001",
+  "source_evidence": "Exact player 'Follow' accepts Hessa's offered ordinary route guidance and follows her along the established 60ft abutment walkway to the top of the 30ft descending service-house stair. Cirren and Fenar voluntarily accompany V, Mara remains with the coach and four horses. At ~16:25 Day331, Hessa indicates the stairs, visible old lintel/inscription at barred receiving entrance below, and warns against the inner door from prior household experience; she does not enter the dangerous interior. V can see daylight-lit upper stair, lower entry in shadow, old carved marks not yet closely examined/read; no site combat, opening door, descent, evidence confirmation, check, expenditure, or magical knowledge assumed. Hessa's casual guidance offered without fee; no negotiated paid labor or lodging. Private fixed geometry and roster remain intact; no new trap or reinforcements. V next action at stairhead.",
+  "pending_action": "Day331~16:25 western Ossent service-house crossing. V/Cirren/Fenar with friendly Hessa Marr at top of 30ft stair after 60ft abutment walkway at +42ft above stream; old barred receiving entrance at +12ft below, carved dedication above threshold not yet read or copied, lower entry shadowed. Hessa will remain outside inner rooms; no descent, door opening, combat, or evidence collection yet. Mara and four horses/coach healthy on near-bank firm cartway. Conditional grant preserves dwelling/access/landing/return-channel rights, not title. Private fixed prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291: 30x30 receiving hall Wight+2 Skeletons, gallery empty via20ft corridor/steps, exterior ledge route, lower Wight+2 Skeletons; all doors/senses/geometry as prep, no contact or alarm. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, Day331 daily charges applied, leg encounter cap2/2 used. No new expense, rest, reward, evidence or correspondence. Prior D330 report, D331 combat, Tavosk/royal/Desen pending, custody, unaccepted deals, restitution unchanged. V conditional grant, Mara survey/notes; Coris300/optional800 Crown300+1300 contingent,520gp commission balance due actual completion target353, Kestrel custody, Elara Caereth/Severin assent unconfirmed. V chooses next action at stairhead.",
+  "depends_on": [
+    "PLAY-REC-D331-HESSA-NEIGHBORLY-REASSURANCE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Routine voluntary guidance along established accessible walkway; no contested action or threshold entered."
+  },
+  "events": [
+    {
+      "event_id": "D331-HESSA-GUIDES-TO-SERVICE-HOUSE-STAIR-001",
+      "accepted": true,
+      "evidence": "Exact player 'Follow' accepts Hessa's offered ordinary route guidance and follows her along the established 60ft abutment walkway to the top of the 30ft descending service-house stair. Cirren and Fenar voluntarily accompany V, Mara remains with the coach and four horses. At ~16:25 Day331, Hessa indicates the stairs, visible old lintel/inscription at barred receiving entrance below, and warns against the inner door from prior household experience; she does not enter the dangerous interior. V can see daylight-lit upper stair, lower entry in shadow, old carved marks not yet closely examined/read; no site combat, opening door, descent, evidence confirmation, check, expenditure, or magical knowledge assumed. Hessa's casual guidance offered without fee; no negotiated paid labor or lodging. Private fixed geometry and roster remain intact; no new trap or reinforcements. V next action at stairhead.",
+      "before": "Hessa offers to show old stairs.",
+      "after": "Party reaches stairhead, Hessa warns about door; V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
