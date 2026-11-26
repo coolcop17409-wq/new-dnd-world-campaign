@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-WARDERS-NEIGHBORS-DANGER-BRIEFING-001",
+  "base_commit": "a2158a862176faababf1c0b6b5d67fab3ad827cc",
+  "source_checkpoint": "D331-1650-WESTERN-OSSENT-MARRS-ACCEPT-GUARDIAN-TRIAL-V-DECISION-001",
+  "destination_checkpoint": "D331-1651-WESTERN-OSSENT-DANGER-BRIEFING-V-DECISION-001",
+  "source_evidence": "Preserves preceding unsaved conversation: exact player 'I am deathless, so why cant be my servants?' V expresses acceptance of deathless servants. Cirren judges companions by character rather than heartbeat, Fenar jokes Master is her favorite dead person, Rhevan affirms renewed devotion, Hessa responds warmly. No new authority, oath or mechanical effect. Exact current player 'What other dangers are down the hold and surroundings?' asks Rhevan, Ossric and Hessa for their own knowledge. Rhevan says only the two warders and four sentries occupy the known service-house chambers, no other creatures known inside; consistent with fixed roster, no guarantee of future safety or complete inspection. Ossric identifies standing water and neglected drainage as current physical hazard. Hessa reports occasional livestock losses to predators in surrounding wooded hills, travelers generally keep to tracks, little trouble at the landing itself; newly delivered ordinary local testimony, no species identified, no specific attack, lair, quest, report, population or additional encounter generated. Cirren notes damaged exterior ledge and potential dangerous discharge at family's landing, structural safety not yet professionally assessed. No additional threats known from these witnesses, wider area not surveyed; no promise of complete safety or formal legal clearance. V chooses next action, all participants remain at shaded surface entrance, no new movement, check, spending, repair, reward, evidence collection or rest. Day331~16:51.",
+  "pending_action": "Day331~16:51 western Ossent service-house crossing at shaded surface abutment entrance, V/Cirren/Fenar, Hessa Marr and husband, Rhevan/Ossric. Both warders voluntarily provisionally guard free residents/travelers under Crown law, Marrs accept trial coexistence; two skeletons each at receiving/lower posts. V affirms acceptance of deathless servants. Warders know no other creatures in known chambers; physical dangers standing water/drainage, damaged exterior ledge, unassessed masonry. Hessa reports occasional livestock losses to unidentified hill predators, little trouble at landing; no known specific additional lair/threat or quest, wider land not surveyed. Mara/coach/four horses healthy nearby. Fixed prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291: collapsed bridge, receiving30x30, dry gallery20x30, lower30x20 with2ft water, lower door open, charter not copied, records offered but lower room not entered/collected; controls untouched. Conditional grant not title, preserve dwelling/access/landing/return-channel rights, no formal clearance/undead deployment approval or survey/cost. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16; Day331 travel charged cap2/2. Earlier correspondence/Desen/royal/estate/commission/custody unchanged. No new expenditure or recovery. V next choice.",
+  "depends_on": [
+    "PLAY-REC-D331-MARR-HOUSEHOLD-GUARDIAN-INTRODUCTION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary bounded NPC dialogue about known site and local conditions; no contested check or new incident."
+  },
+  "events": [
+    {
+      "event_id": "D331-WARDERS-NEIGHBORS-DANGER-BRIEFING-001",
+      "accepted": true,
+      "evidence": "Preserves preceding unsaved conversation: exact player 'I am deathless, so why cant be my servants?' V expresses acceptance of deathless servants. Cirren judges companions by character rather than heartbeat, Fenar jokes Master is her favorite dead person, Rhevan affirms renewed devotion, Hessa responds warmly. No new authority, oath or mechanical effect. Exact current player 'What other dangers are down the hold and surroundings?' asks Rhevan, Ossric and Hessa for their own knowledge. Rhevan says only the two warders and four sentries occupy the known service-house chambers, no other creatures known inside; consistent with fixed roster, no guarantee of future safety or complete inspection. Ossric identifies standing water and neglected drainage as current physical hazard. Hessa reports occasional livestock losses to predators in surrounding wooded hills, travelers generally keep to tracks, little trouble at the landing itself; newly delivered ordinary local testimony, no species identified, no specific attack, lair, quest, report, population or additional encounter generated. Cirren notes damaged exterior ledge and potential dangerous discharge at family's landing, structural safety not yet professionally assessed. No additional threats known from these witnesses, wider area not surveyed; no promise of complete safety or formal legal clearance. V chooses next action, all participants remain at shaded surface entrance, no new movement, check, spending, repair, reward, evidence collection or rest. Day331~16:51.",
+      "before": "Marrs cautiously accept guardian coexistence; V at surface.",
+      "after": "V learns known threats and limits of witnesses' knowledge; no new threat generated; next V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
