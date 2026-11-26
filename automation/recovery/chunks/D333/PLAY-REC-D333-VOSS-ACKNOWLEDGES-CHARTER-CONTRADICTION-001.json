@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D333-VOSS-ACKNOWLEDGES-CHARTER-CONTRADICTION-001",
+  "base_commit": "62331412e225265814eb08c3d892107369fc1d16",
+  "source_checkpoint": "D333-1600-WESTERN-CUSTOMS-TOWER-HISTORICAL-VAISHNAVI-AUTHORITY-CORROBORATED-V-DECISION-001",
+  "destination_checkpoint": "D333-1602-WESTERN-CUSTOMS-TOWER-VOSS-CONCEDES-CHARTER-CONTRADICTION-V-DECISION-001",
+  "source_evidence": "Exact player 'Well by your own lady’s claim… I actually think it does settle ownership' challenges consistency of Caul's asserted ancient-charter authority after actual documentary comparison. Voss reluctantly acknowledges that if ancient charters remain binding their originating Vaishnavi authority cannot be selectively disregarded, and if invalid their collections lack that asserted justification. His acknowledgment is the conditional logical consequence of his employer's argument, not a verified adjudication of V's genealogy, modern ownership, superior legal title or automatic transfer of authority. Cirren agrees with the argument. Voss states his delegated authority is administration, not surrendering the tower, offers to arrange a direct meeting with Lady Caul; no invitation sent, appointment agreed, messenger dispatched, response from Caul or handover. No actual cessation of collections or additional documentary inspection. Voss remains willing to discuss immediate relief for residents separately. No contested order/concession adjudicated, ordinary dialogue, no roll, combat, spending or resource use. Time D333~16:02. V chooses response.",
+  "pending_action": "Day333~16:02 western customs tower receiving room, V/Cirren/Fenar with Master Aldren Voss; Mara with coach outside. V argues Caul's own ancient-charter rationale supports his claim. Voss acknowledges conditional contradiction (cannot accept ancient rights but ignore originating Vaishnavi authority; reject ancient rights and asserted collection basis fails), not verified modern title or genealogy. States he lacks authority to surrender tower; offers to arrange meeting with Lady Caul, no message, appointment or reply yet. V chooses response; may seek immediate relief/suspension independently. Relevant historical oath-book on desk in Voss custody; Cirren keeps copies; no originals surrendered, exact Silverward location/heart/private ancestry not disclosed. Modern exemption and seizure tallies uninspected, no general collection suspension, no title transfer. Fixed guards and Spy/Scout remain at posts; no patrol report confirmed, no combat or reinforcements. Silverward now budgets six undead voluntary retainers at zero wages and ordinary food/rest costs, suitable labor coordinated by Hessa alongside defense with actual capability, agency, materials and duty coverage. No new work completed. Hessa5gp/actual workday from332, payday334; actual workdays, results, registration and funding pending. Conditional grant not deed; Marr independent rights intact; drainage restored, ledge and structural/parcel/legal verification outstanding. Rhevan/Ossric each2 skeletons, cooperative provisional protection. Mara holds 2 incised leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody; no spendable cash/title; copies Mara/Cirren. Heart recovery district corroborated; WNW ancestral-seat bearing only; tower separate lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried, dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/horses healthy. LR2/6 purse2037gp8sp6cp rations6/feed8, D332 and D333 daily charges applied once; D332 mandatory quiet, D333 occurrence71 quiet, travel leg completed cap0/1. Other pending estate, correspondence, Desen/royal, commission and custody records unchanged. No time or resources changed.",
+  "depends_on": [
+    "PLAY-REC-D333-SILVERWARD-EVIDENCE-COMPARED-WESTERN-OATH-BOOK-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "NPC acknowledges logical consequence of already compared documentary evidence and voluntarily offers audience arrangement; no contested transfer or agreement adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D333-VOSS-ACKNOWLEDGES-CHARTER-CONTRADICTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'Well by your own lady’s claim… I actually think it does settle ownership' challenges consistency of Caul's asserted ancient-charter authority after actual documentary comparison. Voss reluctantly acknowledges that if ancient charters remain binding their originating Vaishnavi authority cannot be selectively disregarded, and if invalid their collections lack that asserted justification. His acknowledgment is the conditional logical consequence of his employer's argument, not a verified adjudication of V's genealogy, modern ownership, superior legal title or automatic transfer of authority. Cirren agrees with the argument. Voss states his delegated authority is administration, not surrendering the tower, offers to arrange a direct meeting with Lady Caul; no invitation sent, appointment agreed, messenger dispatched, response from Caul or handover. No actual cessation of collections or additional documentary inspection. Voss remains willing to discuss immediate relief for residents separately. No contested order/concession adjudicated, ordinary dialogue, no roll, combat, spending or resource use. Time D333~16:02. V chooses response.",
+      "before": "Voss acknowledges historical institutional link but asks what V seeks.",
+      "after": "Voss acknowledges contradiction in Caul's argument, offers to arrange meeting, no surrender or report.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
