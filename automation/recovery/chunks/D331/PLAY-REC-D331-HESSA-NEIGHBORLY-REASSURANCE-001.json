@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-HESSA-NEIGHBORLY-REASSURANCE-001",
+  "base_commit": "b76a20ffe3072f625c8376fb0caf4e17f3dd16ac",
+  "source_checkpoint": "D331-1621-WESTERN-OSSENT-HESSA-RESIDENT-RIGHTS-DANGEROUS-CHAMBERS-V-DECISION-001",
+  "destination_checkpoint": "D331-1622-WESTERN-OSSENT-HESSA-WELCOMES-NEIGHBOR-V-DECISION-001",
+  "source_evidence": "Exact player 'No, your home is here. I just hope to become a helpful neighbor. And perhaps help make this place flourish again.' V explicitly reassures Hessa that her home remains here and expresses neighborly intent, not a binding spending promise, transfer, employment offer, title assertion or rebuilding commitment. Hessa visibly relaxes, smiles and welcomes the party, recalls her grandfather wishing better for the crossing, offers handshake and introduces herself by name. She volunteers to show them the old stair and indicates the safer path around her landing; ordinary neighborly introduction, no fee or agreement yet. V has not yet accepted the handshake, guidance or entered the site. No roll: sincere reassurance consistent with existing grant's preservation of actual dwelling/access/landing/return-channel rights, Hessa's voluntary reaction; no contested bargain or guaranteed future trust. Time Day331~16:22. No resource or custody change.",
+  "pending_action": "Day331~16:22 western Ossent service-house crossing. Hessa Marr reassured by V's explicit statement her home remains here, hopes to be helpful neighbor and help crossing flourish. Warm welcome, offers handshake and to show route to stair; not yet accepted, no fee/employment/title/rebuilding commitment. Hessa knows scarred door, scraping/voices, household avoids inner rooms; family operated ferry three generations. V chooses response. Journey60/60 complete. 50ft local stream, timber landing/return eddy, ruined bridge/rocky abutment, occupied dwelling; Mara/coach/four horses healthy at firm near-bank cartway. Private fixed site prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291, 60ft walkway,30ft stair, receiving Wight+2 Skeletons, empty gallery, lower Wight+2 Skeletons, exterior ledge; no site entry/discovery yet. Conditional grant preserves ferrier dwelling/access/landing/return-channel rights, not current title. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, D331 travel charges already applied. Cap2/2 used, no more random encounters today. No rest, new reward, expense, evidence or communication. D330 report, D331 combat, Tavosk/royal/Desen pending, custody, unaccepted deals, restitution unchanged. V conditional grant, Mara survey/notes; Coris300/optional800 Crown300+1300 contingent,520gp commission balance due actual completion target353, Kestrel custody, Elara Caereth/Severin assent unconfirmed.",
+  "depends_on": [
+    "PLAY-REC-D331-FERRIER-OWNERSHIP-INTRODUCTION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary voluntary conversation and credible reassurance; no contested check."
+  },
+  "events": [
+    {
+      "event_id": "D331-HESSA-NEIGHBORLY-REASSURANCE-001",
+      "accepted": true,
+      "evidence": "Exact player 'No, your home is here. I just hope to become a helpful neighbor. And perhaps help make this place flourish again.' V explicitly reassures Hessa that her home remains here and expresses neighborly intent, not a binding spending promise, transfer, employment offer, title assertion or rebuilding commitment. Hessa visibly relaxes, smiles and welcomes the party, recalls her grandfather wishing better for the crossing, offers handshake and introduces herself by name. She volunteers to show them the old stair and indicates the safer path around her landing; ordinary neighborly introduction, no fee or agreement yet. V has not yet accepted the handshake, guidance or entered the site. No roll: sincere reassurance consistent with existing grant's preservation of actual dwelling/access/landing/return-channel rights, Hessa's voluntary reaction; no contested bargain or guaranteed future trust. Time Day331~16:22. No resource or custody change.",
+      "before": "Hessa cautiously worried about home and ferry.",
+      "after": "V reassures Hessa; warm welcome and offer of route guidance; V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
