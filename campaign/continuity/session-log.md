@@ -1,60 +1,161 @@
-D308-PERYTON-VERIFIED-R4-COMBAT-END-001 — P2 flees; P3 killed by V 19 psychic, Fenar12 magical slashing, Cirren10 necrotic; no further party damage or resource expenditure. Combat ended, aftermath pending.
+SESSION_LOG — accepted Day308–316 batch; newest first.
+Exact original before/after and all evidence: `archive/continuity/accepted-PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json`. Earlier log preserved at `archive/continuity/session-log-before-PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.md`. Newer immutable recovery suffix remains unsynchronized; do not replay it.
 
-CURRENT ACCEPTED UPDATE PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001
+D316-V-ACCEPTS-CARRYING-CROWN-OSSENT-PRELIMINARY-INVITATION-001 — accepted historical event
+Councillor offered V confidential diplomatic invitation carriage. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-Day308~10:20 Crownsunder road; verified peryton combat ends R4. P3 dead near Fenar(20,5,0); P1 15/33 and P2 11/33 fled toward hills, no pursuit. V near coach(0,-5,0)42/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; dice delegated until stop. Fenar48/59 AC14 Rage3/4 active claws magical Shift2/3 active THP0 MP6/6 HD6/6. Cirren40/51 AC18 slots4/3/3 CD2/2 HD6/6 no concentration. Mara sheltered healthy, 4 harnessed horses and coach intact. LongRest0/6, purse391gp9sp6cp, rations21/feed28 PixieDust1. Custody and route Lady Elara rural manor first unchanged. D308 encounter used, D309 random quiet mandatory. V chooses postcombat action; no rest, healing, harvesting or travel yet.
-No Day308 full-day food/feed charge yet; no new aftermath action. Earlier five D308 fabricated combat chunks are void audit-only; none of their HP/resources/deaths survive. Replacement receipts are preserved as submitted accepted evidence, structurally checked with arithmetic review, not independent authentication of external ChatGPT execution. Previously completed travel/rest not replayed.
-Fenar mechanical greataxe always depicted as one paired Double-Claw Rend, even outside Rage; no bonus hit/die or magic from the visual. Inherent Soulknife psychic damage is not homebrew. Accepted D308 exception permits Ready main Psychic Blade; standing V dice delegation until stopped grants no additional V choice or resource authority.
-Prior Kestrel evidence/custody, original Nightglass heart ownership, signed scholarly100gp advance and contingent300/800, letters without verified receipt, and uncommunicated Sedgecross patient outcomes remain unchanged. No inferred post-Day299 patient outcome or new care funding.
+D316-V-DEFENSE-CONSULTATION-OSSENT-COOPERATION-ARGUMENT-001 — accepted historical event
+Officials asked V's view on cooperation with Ossent. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D297-298-V-DEPARTS-MERCHANT-GATHERING-INDEPENDENT-AND-VW-ROAD-QUIET-001 — D298 late afternoon party independent on established border crossing approach, stock6/8, LongRest3/6, no encounter or money spent.
-Accepted evidence: User exact toward Crownsunder independently declines slower collective caravan, resumes own4horse coach. Genuine Day297→298 exposed Veyran guarded road night d100FACE64 vs03 quiet, weighted rest2→3/6; Day298 guarded road daytime d100FACE99 vs07 quiet, consumed3 companion ration-days and4 horse-feed days, stocks9/12→6/8, all unharmed.
+D316-V-ELARA-ATTEND-CROWN-DEFENSE-CONSULTATION-OPENING-001 — accepted historical event
+D315 post-guild resolution, D316 invitation pending. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D298-V-PARTY-CROSSES-VEYR-CROWNSUNDER-COMMERCIAL-BORDER-001 — D298 late afternoon V/Mara/Cirren/Fenar/four horses and owned enclosed coach physically across INTO CROWNSUNDER on maintained commercial wagon road, unharmed, V purse unchanged, no agreement or seized item.
-Accepted evidence: Actual late D298 after quiet patrolled westbound road, ordinary functioning legal coach/freight surface crossing as previously adopted geographic rule. One civilian clerk performs routine passenger/horse count and admits V's noncommercial personal coach +4 horses and3 companions without extra challenge, invented taxes, permit quest, special scrutiny, Kestrel evidence exposure or legal vassal recognition, no fees charged.
+D316-CAERETH-SECURE-CITY-LONGREST-COMPLETE-001 — accepted historical event
+Weighted5/6, all other pools full. → Weighted0/6, all HP/resources full, no personal expense.
 
-D298-299-V-CROWNSUNDER-ROAD-NIGHT-AND-D299-QUIET-001 — D299 late afternoon Crownsunder carriage road heading Elara's rural manor, food3 person-days/feed4 animal-days (one packed day), LongRest4/6, V cash and full pools unchanged, no encounters.
-Accepted evidence: D298→299 exposed Crownsunder ordinary trade-road night genuine Python d100FACE97 vs03? Correct applicable ORDINARY TRADE road night trigger07, face97>7 quiet, weighted rest3→4/6 Dawn299. D299 ordinary trade road day genuine d100FACE37>15 quiet, consumed3 companion ration-person-days and4 horse feed days, stock6/8→3/4; no next night or new settlement arrival.
+D315-V-PRE-REST-PSI-RECOVERY-001 — accepted historical event
+Psi5/6, PsiRecovery1/1, weighted5/6. → Psi6/6, PsiRecovery0/1 before rest.
 
-D299-307-V-CROWNSUNDER-QUIET-COACH-TRAVEL-AND-REST-001 — D307 morning farther along rural road toward Elara, full rested new0/6, all HP/features/coach/horses untouched, daily consumables/cash after distinct refill and D301-306 travel tracked separately.
-Accepted evidence: After user Continue, genuine Python secrets d100 nights299 100,300 42,301 46,302 25,303 54,304 67,305 19,306 85 all >7; day30046,30163,30218,30372,30473,30580,30680 all >15. Four horse-owned coach progresses on established westbound Crown commercial roads via Tarnford country and rural Rethwyn approach without preemptively visiting Caereth. Night299->300 longrest4->5/6, night300->301 full; nightly301->307 six more wilderness units full Dawn307/new0. No new magic, HP or spell spend; food supply and cost separately tracked.
+D315-CAERETH-DEFENSE-REWARD-2500-PAID-001 — accepted historical event
+403gp4sp6cp; rewards unearned. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D300-V-ROADSIDE-SEVEN-DAY-RATION-FEED-RESUPPLY-001 — After D300 ordinary replenishment + subsequent D301-306 daily use, D307 morning one packed day ration3/feed4, purse403gp8sp6cp, all other inventory unchanged.
-Accepted evidence: D300 full day's 3 ration-person-days and 4 horse feed animal-days consumed original stocked3/4->0/0; at existing maintained trade-road ordinary market supplier buy21 ration person-days x5sp=10gp5sp and28 animal-feed days x5cp=1gp4sp, total11gp9sp cash415gp7sp6cp->403gp8sp6cp, no stall/search/feat. D301-306 six days consume18/24 leaving3/4 at Dawn307, no Day307 extra consumption yet.
+D315-CAERETH-DEFENSE-PUBLIC-PROTOCOL-SIGNED-001 — accepted historical event
+Commander and guild agreed conditionally; meeting pending. → Public agreement signed, seizure demand rescinded, safe meeting completed, guild retains custody.
 
-D307-CROWNSUNDER-ROAD-ASH-WAGON-DRY-FIELD-FIRE-SIGHTED-001 — D307~11:35 coach stops at warning sight of smoky road and threatened ordinary farm stock; actionable choice help or bypass, no dice to enter fire yet, NPCs acting independently.
-Accepted evidence: D307 ordinary trade-road daytime genuine secrets d100 FACE1 <=15 random occurrence; type d100FACE62 in60-76 material environmental hazard. Pre-fixed fair scenario environmental farm-stubble fire from overturned wagon embers, smoke across 80ft road~120ft west of party, farmhands independently trying to release 2 oxen from warped pen, coach-safe south two-mile+1h lane bypass available. No combat, surprise, injury, NPC death, new knowledge, title, expenditure or V action to rescue yet. D307 encounter quota used, no night random after even if later camping.
+D315-GUILD-PROTOCOL-CONDITIONAL-ENDORSEMENT-001 — accepted historical event
+Commander conditionally promised rescission if guild accepted lawful rapid distribution. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D307-V-FENAR-GATE-FAILED-LEVER-HINGE-AND-AXE-OPEN-001 — Day307 ~11:50 gate remains farmers' broken property, freely opened; no damage to V party or farmhands/oxen, tactical ability to lead animals out.
-Accepted evidence: V broad help permission. Gate first Fenar Athletics+8 with V Help adv d20 3/4 =>12 vsDC14 FAIL and hinge warped; V Thieves Tools Dex proficiency+7 +Luckstone1 with farmhand Help adv d20 3/2 =>11 vsDC14 FAIL. Fenar independently switches to physically destroying wooden gate with axe (farmer rescue consent): objectAC15/HP18, attack1 d20FACE10+8=18 hit, 1d12FACE8+5=13 damage; attack2 d20FACE20 crit,2d12FACES1,2+5=8 damage; wood gate loses21HP and breaks, rescue access obtained; no Rage/MP/V feature spent.
+D315-COMMANDER-CONDITIONAL-KEY-DEMAND-WITHDRAWAL-PLEDGE-001 — accepted historical event
+Commander acknowledged lack of authority and proposed lawful protocol, asked whether guild would agree. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D307-CIRREN-CALMS-TWO-OXEN-VOLUNTARY-RESCUE-001 — Both oxen alive and free outside danger with own farmhands, all NPCs well, livestock remains farmer-owned.
-Accepted evidence: Cirren Wisdom Animal Handling+5 with actual familiar farmhand Help adv d20 FACES11,19 take19+5=24 vs predeclared DC13 SUCCESS, both farmers' oxen calmed and led through subsequent axe-opened gate, out of smoke unharmed.
+D315-V-GUILD-COMMANDER-AUTHORITY-ARGUMENT-PARTIAL-SUCCESS-001 — accepted historical event
+Private commander conversation open, V substantive argument pending. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D307-FENAR-FIRST-FIREBREAK-FAIL-CIRREN-SECOND-FIREBREAK-SUCCESS-001 — D307~12:00 fire genuinely contained after second action, burned wagon/stubble/ruined gate remain, no building/animal/farmhand lost, no personal resource spent.
-Accepted evidence: Initial Fenar Survival+5 with farmhand Help adv d20 FACES4,1 take4+5=9 vsDC14 FAIL; initial burning embers cross too-narrow firebreak and scorch dry cut stubble, nearby overturned wagon becomes badly burned. After livestock removal, second DIFFERENT ditch-side wider damp earth gap, Cirren Survival+5 with V Help adv d20FACES19,12 take19+5, Guidance at-will d4FACE2 =>26 vs DC15 SUCCESS; V/farmhands assist physical earth and fuel removal, fire stops advancing toward occupied structures, all creatures unharmed, property fire damage persists and smoke must clear.
+D315-V-APPROACHES-CAERETH-CONTRACTOR-PRIVATELY-001 — accepted historical event
+Guild documents examined, V choosing approach. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D307-PLAYER-REASSERTS-FENAR-DOUBLE-CLAW-REND-VISUAL-RULE-001 — Narrative Day307 Fenar makes two successive paired Double-Claw Rend (greataxe-mechanical) strikes that destroy the same gate with exactly existing 13+8 damage; standing correction reinforced for all subsequent Fenar axe use, all scene state and time unchanged.
-Accepted evidence: Player says every Fenar axe attack is actually narrated as double-claw attack; repeated past assistant narration needs correction. Standing 2014 house rule already in rules-combat-recovery.md and Fenar-features.csv. Greataxe physical weapon mechanics unchanged, even when not raging. Retro farm gate described as two double-claw rending strikes, not metal axe swings; original AC, damage, rolls, failure consequences and oxen rescue intact.
+D315-CAERETH-GUILD-QUARTERMASTER-AUTHORITY-DISCREPANCY-001 — accepted historical event
+Accepted guild contract; arranged records access and afternoon meeting. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D307-308-V-BYPASSES-SMOKE-ROAD-REFUELS-AND-QUIET-CAMP-001 — D308 dawn on further Crownsunder westbound road, coach/horses healthy, purse391gp9sp6cp food21/feed28, rest1/6, no loss or new mail outcomes.
-Accepted evidence: Player directs Continue after farm safe. Party chooses evident safe south farm coach track +2mi/~1h, avoids smoke/horse risk without roll, no farmer bounty or cost. One full D307 food3/feed4 used ->0/0, roadside ordinary trade supplier sells7day 21food @5sp+28feed @5cp total11gp9sp, cash403gp8sp6cp->391gp9sp6cp, stock21/28. D307 random fire previously filled event day so NO D307 night check; peaceful exposed D307→308 camp adds1 wilderness LongRest unit0→1/6, all stats full, no other expense.
+D315-CROWN-KESTREL-CERTIFIED-TRANSCRIPTIONS-COMPLETE-001 — accepted historical event
+Copying begun. → Copy set completed, audience ends, custody distinguished.
 
-D308-CROWNSUNDER-ROAD-THREE-PERYTONS-SIGHTED-PREINITIATIVE-001 — D308~10:20 road party alerted to precisely THREE aerial perytons (each HP33) preparing approach, none has attacked, V decision pending and all party/horse resources full.
-Accepted evidence: D308 ordinary trade daytime genuine secrets d100FACE14<=15 TRIGGER, type d100FACE14 in01–42 monster. Before pick fixed 2014 eligible ecologies d6 giant boar1,ankheg2,displacer beast3,leucrotta4,owlbear5,peryton6; genuine d6FACE6 selects original MM'14 CR2 PERYTON. Hostile severity d100FACE37 (31–75 serious) fixed three perytons with 2014 stat blocks AC13 HP33 fly60, nonmagic B/P/S resist, Dive Attack 2d8, Flyby; early Cirren PP23 warns party before attack/initiative, all three winged antlered creatures approx150–180ft out height60–80, seeking humanoid prey, no stealth surprise. Day308 encounter cap used, Day309 mandatory random quiet because consecutive D307/D308 event days.
+D315-V-ELARA-STANDING-CAERETH-POLITICAL-REPRESENTATION-001 — accepted historical event
+Elara independent Rethwyn head and supportive spouse; no explicit Vaishnavi representation mandate. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D308-VOID-FABRICATED-COMBAT-RESTORE-PREINITIATIVE-001 — Same scene and resources restored, no invalid damage or expenditures; roll verified initiative next.
-Accepted evidence: Player approved correction after audit; five invalid D308 chunks pinned in mode.json and blocked from synchronization. Restore last valid preinitiative checkpoint, preserve chosen defensive strategy and dice delegation. Psychic Blades inherently psychic; prior homebrew characterization withdrawn, Ready main blade allowed per accepted ruling.
+D315-CROWN-DEFENSE-CONSULTATION-INVITATION-V-ELARA-001 — accepted historical event
+V requested involvement in high-level talks. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-D308-PERYTON-VERIFIED-R1-R2-001 — R3 V42 Fenar59+6THP Cirren40, P1 15 P2/P3 33, Rage3/4 Shift2/3 active, rest0/6, V all limited resources full, companions holding reactions.
-Accepted evidence: User approved rollback after explicit audit confirmed five D308 chunks used fabricated, not executed RNG. Those five exact immutable blobs are void/audit-only under updated mode.json rng_gate and automation/rng_gate.py; no HP, deaths, stabilization, resources or action expenditure from them survives. Source is the accepted D307/308 preinitiative scene, original three monsters and terrain unchanged. Player preserved standing 'Roll for me until I say stop' (V dice only), psychic damage inherent Soulknife 2020, Ready main blade permitted per accepted ruling, and exact defensive plan 'Group together us and the horses and hold your attacks until they get within melee. Mara hide deep in the carriage. V will hold attack until one gets into melee with an ally.' Latest 'Same strategy go' authorizes proceed two rounds. Prior V/Cirren falling unconscious VOID. Actual visible python_user_visible execution previous turn receipt 909bc3243b51733dd39becae6445277c initiative V18+5=23, perytons12+1=13, Fenar7+2=9, Cirren5+2=7. Mara noncombatant withdraws into enclosed coach, no attack/check. R1 V moves to(10,-5,0) Ready thrown main Psychic Blade, trigger peryton entering ally melee. Perytons Dash from original positions P1(130,60,75)→(35,15,40), P2(165,-15,60)→(55,-5,40), P3(145,30,70)→(40,5,40), all within120ft. No attack. Fenar moves(20,5,0), BA Rage4→3 chooses magical Beast Claws and Readies one magical claw, Cirren(10,5,0) Readies Toll the Dead, concentration while readied. R2 V renews Ready, no limited spend. P1 dives >=30ft to within5ft Fenar(20,5,5); V natural1 misses, Fenar d20 7+8=15 HIT, d6 3+7=10 magical slashing (33→23), Cirren Toll WIS d20 11+1=12 FAIL DC16, 2d12 5,3=8 necrotic (23→15). No Reckless on reaction, no V SA damage on miss. P1 Gore8+5=13 MISS AC14, Talons6+5=11 MISS; Flyby rises to approx25ft. P2 dives straight >=30ft to (10,-5,5) toward V, Gore17+5=22 HIT AC19, d8 1+3+2d8 1,1=6 piercing V48→42, Talons5+5=10 MISS; Flyby rises to ~8ft. P3 dives straight >=30ft to(10,5,5) Cirren, Gore2+5=7 MISS AC18, Talons17+5=22 HIT, 2d4 1,3+3+2d8 2,2=11 piercing Cirren51→40; Flyby rises to~19ft. All reactions spent on P1; no OAs. Fenar R2 BA Shift3→2 gains6THP, no adjacent enemy for fang, renews readied magical claw. Cirren renews readied Toll the Dead concentrating (no slot). R3 V next, all three perytons still hostile (15/33,33/33,33/33); no retreat yet. All actual rolls in visible Python receipt 9d06eb2f3504a198da7b1765ff6ef61e, exact raw records attached; no unexecuted dice in replacement. V42/48 AC19, Fenar59/59+6THP AC14 Rage3/4 active Shift2/3 active MP6/6, Cirren40/51 AC18 all spells full, no other resources. V ActionSurge1/1 and SecondWind1/1 full. LongRest1→0/6 from actual damage and Rage, food21/feed28 purse391gp9sp6cp PixieDust1 all unchanged. Time same day~10:20 +12sec. Four horses healthy stationary harnessed, coach intact, Mara sheltered. Preserve all earlier accepted travel, quests, custody and rule corrections. Await V round3 choice.
+D315-V-CROWN-VAISHNAVI-ASSOCIATION-RECOGNITION-REQUEST-001 — accepted historical event
+Alliance proposed, no recognition request made to Crown. → Request made to Crown, review contingent on actual signed agreement and lawful scope.
 
-D308-PERYTON-VERIFIED-R3-HIDE-READY-001 — R4 start V42/48 Fenar48/59 no THP Cirren40/51 P1 15 retreating P2 11 P3 33. V all resources unchanged. Fenar/Cirren Ready renewed.
-Accepted evidence: Player exact 'Hide, then Same thing' at verified R3 checkpoint. Standing dice delegation until stop. V moves from(10,-5,0) to coach-side concealment near(0,-5,0), Cunning Action Hide, actual visible Python receipt 9eea8fe78820a366d2d97d9e80c5841b: Stealth8+11=19 fails keen sight passive20; no optional limited feature spent. V readies main thrown Psychic Blade on peryton entering melee of ally. P1 15/33 independently retreats away toward hills (Dash, out of immediate battlefield), no further attacks. P2 from(10,-5,8) climbs toward(10,5,35), descends30ft to(10,5,5) within60ft movement targeting Cirren, triggering V and Cirren readied reactions. V d20 16+9=25 hit AC13, d6 6+4 plus SA2d6 3,1=14 psychic; P2 33→19; ally Cirren adjacent, no disadvantage. Cirren Toll WIS1+1=2 fails DC16; 2d12 7,1=8 necrotic P2 19→11. Gore12+5=17 and talons3+5=8 miss Cirren AC18. P2 Flyby climbs remaining distance to approx(10,5,6), outside actual5ft reach. P3 from(10,5,19) climbs toward(20,5,35) descends30ft to(20,5,5), legal flight within60ft, targets Fenar; Fenar readied magical claw natural1 miss, no Reckless off-turn. P3 Gore19+5=24 hits, d8 7+3+2d8 3,5=18 piercing halved9, absorbs6THP then HP59→56; Talons14+5=19 hits, 2d4 1,2+3+2d8 3,8=17 piercing halved8, HP56→48. P3 Flyby ascends remaining ~11ft to(20,5,16), no OAs. V/Cirren/Fenar reactions expended on monster turn. Fenar R3 renews Ready magical Beast claw; Cirren R3 renews Ready Toll the Dead with concentration, no spell slot, stays40/51. No further BA/feature use, all four horses healthy, Mara remains sheltered. R4 V next. Raw actual rolls preserved; no fictional rolls.
+D315-V-CROWN-FRONTIER-COMMISSION-SIGNED-ADVANCE-200-001 — accepted historical event
+Crown commission offered, purse203gp4sp6cp. → Commission active, advance received, purse403gp4sp6cp; credentials V-held.
 
-D308-PERYTON-VERIFIED-R4-COMBAT-END-001 — P2 flees; P3 killed by V 19 psychic, Fenar12 magical slashing, Cirren10 necrotic; no further party damage or resource expenditure. Combat ended, aftermath pending.
-Accepted evidence: Player exact 'Hide, then same thing' repeats Cunning Action Hide and Ready main psychic blade for peryton entering melee with ally; standing V dice delegation. R4 from verified R3 only. V behind coach at (0,-5,0), actual Python visible receipt fa5520921b9d42e13eee5ce70b733709 Stealth d20 FACE6+11=17 fails vs keen sight passive20. BA spent, action Ready; no V limited resource. Wounded P2 11/33 independently retreats toward hills, P1 already fled. P3 33/33 commits to final dive at Fenar, can climb from z16 to35 then descend straight to within5ft of Fenar within fly60. V's reaction (normal range, Fenar conscious within5ft of P3, no disadvantage) d20 FACE18+9=27 HIT AC13; d6 FACE4+DEX4 plus SA2d6 FACES6,5=19 psychic, P3 33→14. Fenar readied magical Beast claw (no Reckless off-turn) d20 FACE18+8=26 HIT, d6 FACE5+STR5+Rage2=12 magical slashing P3 14→2. Cirren readied Toll the Dead WIS save d20 FACE12+1=13 fails DC16; wounded 2d12 FACES3,7=10 necrotic P3 2→0 DEAD before attack, drops from low height; no further peryton attacks or allies damaged. All three reactions used and Cirren readied concentration ended. Combat ends R4 Day308~10:20, roughly24s after start, one peryton corpse at Fenar, P1 15/33 and P2 11/33 escaped alive toward hills. No pursuit, harvesting, loot or rest selected. V42/48 AC19 all pools full, Fenar48/59 AC14 Rage3/4 active magical Beast Claws, Shift2/3 active no THP MP6/6, Cirren40/51 AC18 full slots4/3/3 CD2/2 no concentration, Mara and 4 harnessed horses/coach unharmed. LongRest0/6 food21/feed28 cash391gp9sp6cp PixieDust1, custody and route unchanged. V next chooses aftermath; do not auto-spend resources, rest, or advance journey. Earlier five invalid chunks remain audit-only.
+D315-V-PSI-KNACK-CROWN-FRONTIER-1800-OFFER-001 — accepted historical event
+Persuasion22, highest tier DC23 unmet, offered1500gp no advance, Psi6/6. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-Earlier exact log: archive/continuity/session-log-before-PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001.md
+D315-V-CROWN-FRONTIER-REPORT-AND-COMMISSION-NEGOTIATION-001 — accepted historical event
+V has been offered access to report and liaison introduction, no commission terms. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
 
-Day 326, river estates — retrospective offscreen adjudication, Days 244–326 (D326-RIVER-REPLIES). Meret and the yard pursued daily business. Miregate secured 34 finite orders for milling, storage, berth work, wholemeal and local passage. Reedbed secured 39 for handling, repairs and freight. Repeat visits brought completed jobs to 45 and 56 respectively. One Miregate storage lot is in custody and five further Miregate jobs are booked. The dated responses, original dice, customer custody, service dates and settlement legs are in the estate journals. Local stewards know their own transactions. News reaches V on actual contact.
+D315-V-CROWN-ORSELD-FRONTIER-WARNING-LEAD-OFFER-001 — accepted historical event
+Crown has heard Kestrel account and awaits desired response. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D315-V-CROWN-KESTREL-CERTIFIED-COPY-PERMISSION-001 — accepted historical event
+Copy authorization pending. → Copying authorized and begun; authentication and completion pending.
+
+D315-CAERETH-CROWN-PRIVATE-KESTREL-EVIDENCE-PRESENTATION-001 — accepted historical event
+Private royal councillor audience opened, no testimony or exhibits presented. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D315-V-REMAINING-VALUABLES-CONDITIONAL-240GP-OFFER-001 — accepted historical event
+Remaining confirmed valuables appraised210gp, title unresolved; early silver items provisional35gp, no sale authorization for disputed lot. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D315-REMAINING-PORTABLE-VALUABLES-APPRAISAL-001 — accepted historical event
+Held Reedbed/Fort goods estimated210gp, early silver items unappraised and custody uncertain; Crown audience awaiting V. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D315-ELARA-PRIVATE-CROWN-AUDIENCE-OPENS-001 — accepted historical event
+Audience request forwarded, no appointment. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D315-V-SELLS-PERYTON-LOT-RED-GEM-65GP-001 — accepted historical event
+Purse13846cp, specimens and red gemstone carried. → Purse20346cp, specimen lot and red gemstone sold qty0; other custody unchanged.
+
+D314-315-CAERETH-HOSTED-NIGHT-REST-001 — accepted historical event
+D314 21:35 rest3/6, full pools. → D315 dawn rest5/6, full pools.
+
+D314-V-TO-CIRREN-BOOTS-OF-ELVENKIND-GIFT-001 — accepted historical event
+V owns and wears single Boots of Elvenkind; Cirren does not. → Cirren owns and wears the same pair; V has none. Purse unchanged.
+
+D314-CAERETH-RETHWYN-MARRIAGE-CELEBRATORY-DINNER-001 — accepted historical event
+D314 evening guild and shop inquiries. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D314-V-QUIET-HEEL-BOOTS-ELVENKIND-PURCHASE-001 — accepted historical event
+Original boots open consignment 290gp, V383gp4sp6cp. → Boots V-owned and worn; cash138gp4sp6cp; original lot sold.
+
+D314-CAERETH-DEFENSE-NEGOTIATED-CONTRACT-ACCEPTED-001 — accepted historical event
+Quest terms offered but not accepted. → Quest ACTIVE, conditional milestones unearned.
+
+D314-CAERETH-DEFENSE-REWARD-NEGOTIATED-OFFER-001 — accepted historical event
+Original guild capped2500gp contingent offer, no additional consideration, quest unaccepted. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D314-CAERETH-DEFENSE-ORGANIZER-TERMS-001 — accepted historical event
+D314~19:00 public guild defense lead offered, no acceptance. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D314-CAERETH-GUILD-COURTYARD-THREE-ADVENTURE-OPENINGS-001 — accepted historical event
+Caereth city leads not introduced. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D314-CAERETH-SCOPED-MAGIC-REVIEWS-AND-BROWSE-001 — accepted historical event
+Original stock and four due reviews outstanding, ring undiscovered. → Three available disclosed offers, no transfer.
+
+D314-V-CAERETH-TWO-DAY-PROVISION-REFILL-001 — accepted historical event
+386gp8sp6cp, food15/feed20. → 383gp4sp6cp, food21/feed28.
+
+D314-CAERETH-V-ELARA-CIVIL-MARRIAGE-REGISTERED-001 — accepted historical event
+Private engaged couple, formal recognition pending. → Recognized married couple in Crownsunder; separate house autonomy and assets.
+
+D314-CAERETH-RETHWYN-CITY-RESIDENCE-ARRIVAL-001 — accepted historical event
+D314 dawn high camp, stocks18/24, V party travelling to Caereth. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D313-V-RELOCATES-CAMP-RAIN-HAZARD-SAFELY-001 — accepted historical event
+D313~22:00 threatened low roadside camp, rest2/6, all healthy. → D314 dawn safe high camp, all healthy, rest3/6; no additional D313 encounter.
+
+D313-CAERETH-ROAD-DAY-QUIET-NIGHT-DRAINAGE-HAZARD-001 — accepted historical event
+Day313 morning rested at Rethwyn, LongRest2/6. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D313-V-ORDINARY-RESUPPLY-SEVEN-DAYS-001 — accepted historical event
+Purse391gp9sp6cp, supplies12/16. → Purse386gp8sp6cp, supplies21/28 before travel.
+
+D313-V-CAERETH-ROYAL-AUDIENCE-REQUEST-HOUSEHOLD-RIDER-001 — accepted historical event
+Rested at manor, no court audience request yet. → Household request en route; V/Elara still retain own choices on actual audience and marriage.
+
+D310-313-RETHWYN-HOSTED-LEISURE-FULL-REST-001 — accepted historical event
+Day310 evening, rest2/6, Fenar Rage3/4 Shift2/3 HD5/6, Cirren HD4/6. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D310-312-RETHWYN-ALLIANCE-MEMORANDUM-PRIORITY-PIGEON-DISPATCH-001 — accepted historical event
+Consent principles agreed in principle; no document or dispatch. → Memorandum sent by actual first bird leg, onward/receipt/reply pending.
+
+D310-ELARA-V-THREE-HOUSE-CONSENT-REPRESENTATION-PRINCIPLES-001 — accepted historical event
+Elara receptive in principle, asks about senior authority. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D310-ELARA-THREE-HOUSE-ALLIANCE-RECEPTIVE-AUTHORITY-QUESTION-001 — accepted historical event
+Elara not informed of D289 specific proposal. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D310-ELARA-CAERETH-LEGAL-CLERK-PRELIMINARY-REPLY-001 — accepted historical event
+Day233 legal inquiry dispatched, reply/status unverified to V. → V knows practical next step is jointly attending clerk in Caereth; official recognition pending.
+
+D310-V-ELARA-PRIVATE-TRAVEL-KESTREL-NIGHTGLASS-BRIEFING-001 — accepted historical event
+Elara had not been told V's new travel discoveries. → Elara learns V's actual reported experiences and evidence limits.
+
+D310-RETHWYN-ELARA-SELA-PARTY-WARM-REUNION-001 — accepted historical event
+D310~17:30 at manor approach, no household contact yet. → Exact accepted outcome in the immutable source archive above; preserved verbatim.
+
+D308-310-V-RETHWYN-MANOR-APPROACH-001 — accepted historical event
+D308~10:50 Crownsunder road after specimen packing. → D310~17:30 manor approach; V next action; no D310 night.
+
+D308-310-V-PARTY-QUIET-TRAVEL-RECOVERY-001 — accepted historical event
+D308~10:50 V42 Fenar48 Cirren40, HD7/6/6, rest0/6. → D310 dawn V48 Fenar59 Cirren51 HD7/5/4, rest2/6, V SecondWind1/1, Fenar Rage3 Shift2, Cirren slots full.
+
+D308-CIRREN-PERYTON-ANATOMY-AND-SPECIMEN-RECOVERY-001 — accepted historical event
+D308~10:25 failed V Investigation, corpse untouched, no harvest. → D308~10:50 Cirren identifies and collects ordinary specimen lot: one pair antlers, one feather bundle, two taloned feet, stored coach, unappraised. No slot, cash, V feature or HP changes.
+
+D308-V-PERYTON-CORPSE-INVESTIGATION-FAIL-001 — accepted historical event
+D308~10:20 P3 corpse unexamined, Fenar Rage/Shift active. → D308~10:25 examined, no harvest or reliable identification, Fenar Rage/Shift ended, other state unchanged.

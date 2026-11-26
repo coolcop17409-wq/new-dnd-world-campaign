@@ -1,0 +1,11 @@
+CAMPAIGN_STATE — DAY 308 ~10:20 — VERIFIED PERYTON COMBAT ENDED
+
+CURRENT EXACT PLAYED CHECKPOINT — D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001; latest event D308-PERYTON-VERIFIED-R4-COMBAT-END-001.
+
+EXACT PENDING ACTION:
+Day308~10:20 Crownsunder road; verified peryton combat ends R4. P3 dead near Fenar(20,5,0); P1 15/33 and P2 11/33 fled toward hills, no pursuit. V near coach(0,-5,0)42/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; dice delegated until stop. Fenar48/59 AC14 Rage3/4 active claws magical Shift2/3 active THP0 MP6/6 HD6/6. Cirren40/51 AC18 slots4/3/3 CD2/2 HD6/6 no concentration. Mara sheltered healthy, 4 harnessed horses and coach intact. LongRest0/6, purse391gp9sp6cp, rations21/feed28 PixieDust1. Custody and route Lady Elara rural manor first unchanged. D308 encounter used, D309 random quiet mandatory. V chooses postcombat action; no rest, healing, harvesting or travel yet.
+No Day308 full-day food/feed charge yet; no new aftermath action. Earlier five D308 fabricated combat chunks are void audit-only; none of their HP/resources/deaths survive. Replacement receipts are preserved as submitted accepted evidence, structurally checked with arithmetic review, not independent authentication of external ChatGPT execution. Previously completed travel/rest not replayed.
+Fenar mechanical greataxe always depicted as one paired Double-Claw Rend, even outside Rage; no bonus hit/die or magic from the visual. Inherent Soulknife psychic damage is not homebrew. Accepted D308 exception permits Ready main Psychic Blade; standing V dice delegation until stopped grants no additional V choice or resource authority.
+Prior Kestrel evidence/custody, original Nightglass heart ownership, signed scholarly100gp advance and contingent300/800, letters without verified receipt, and uncommunicated Sedgecross patient outcomes remain unchanged. No inferred post-Day299 patient outcome or new care funding.
+
+Source: PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001. Owners and exact history in SESSION_LOG/domain records; preceding checkpoint archived at archive/continuity/campaign-state-before-PLAY-D308-CROWNSUNDER-TRAVEL-PERYTON-VERIFIED-COMBAT-SYNC-001.md. Recover newer immutable suffix before continuation.
