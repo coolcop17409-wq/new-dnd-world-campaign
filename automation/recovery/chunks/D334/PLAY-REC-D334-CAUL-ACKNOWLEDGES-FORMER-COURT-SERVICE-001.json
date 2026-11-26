@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D334-CAUL-ACKNOWLEDGES-FORMER-COURT-SERVICE-001",
+  "base_commit": "b072a55043ee94d81601a84d5e818e6b156709af",
+  "source_checkpoint": "D334-1830-LADY-CAUL-MANOR-PUBLIC-INSPECTION-DUSK-AUDIENCE-V-DECISION-001",
+  "destination_checkpoint": "D334-1831-LADY-CAUL-CLAIMS-PRECONVERGENCE-COURT-SERVICE-V-IDENTITY-QUESTION-001",
+  "source_evidence": "Exact player 'Pleasure to meet you my lady. I am told you have occupied my property while I was away.  I am simply here to take what is rightfully mine.' courteously asserts right to reclaim ancestral holdings in actual audience with Lady Ysendre Caul. Caul responds with amused interest, then voluntarily reveals that she personally served House Vaishnavi's court before the Convergence, consistent with fixed former subordinate Silver Court aristocrat in long-arc-two-antagonists-dm-only.md §G. She asks whether present V claims to be a descendant or something more extraordinary. This is her firsthand assertion, not independently authenticated testimony yet, no recognition of V as the Sovereign's child, no father identity, true faction name, vampiric nature confirmed, title transfer, surrender, fealty or concession. Mara and Cirren react to claim of pre-Convergence personal memory. Caul seeks to assess rival claimant, not automatic hostility or submission. V has not answered identity question, disclosed personal ancestry, proved genealogy or requested specific contested concession with evidence in this turn. No roll, magical influence, combat, movement, expenditure, rest, or archive access. D334~18:31, V next reply.",
+  "pending_action": "Day334~18:31 dusk audience gallery of Lady Ysendre Caul's manor. V courteously claims return to reclaim property she occupied. Caul amused and intrigued, says she personally served ancient House Vaishnavi court before Convergence, asks whether V is a descendant or something more extraordinary; Mara/Cirren surprised. Firsthand assertion only, not independently authenticated, no personal recognition, proof of ancestry, verified title or concession, vampiric nature not confirmed, no spell/charm/attack. V chooses reply. Fixed manor geometry and roster retained as ashen-regency-field-operations-dm-only.md @6b58329ad8c128c24fd903edbfa0234362505e3c; gate/receiving Veterans, yard/stair Guards, counting Spy, castellan escort, two spawn cellar, Ysendre gallery. No extra forces. Tower offscreen suspension delivered and obeyed, original4+3 patrol+Voss present, no wider report or permanence/restoration/bounty, party has not received that update. V chooses reply. D333→334 qualifying overnight SR, wilderness1 unit LR3/6, no HP/HD or LR-only changes. Silverward now budgets six undead voluntary retainers at zero wages and ordinary food/rest costs, suitable labor coordinated by Hessa alongside defense with actual capability, agency, materials and duty coverage. No new work completed. Hessa5gp/actual workday from332, payday334; actual workdays, results, registration and funding pending. Conditional grant not deed; Marr independent rights intact; drainage restored, ledge and structural/parcel/legal verification outstanding. Rhevan/Ossric each2 skeletons, cooperative provisional protection. Mara holds 2 incised leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody; no spendable cash/title; copies Mara/Cirren. Heart recovery district corroborated; WNW ancestral-seat bearing only; tower separate lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried, dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/horses healthy. LR3/6 purse2037gp8sp6cp rations3/feed4 after D334 full-day charges once; previous leg completed, D334 single-day manor leg complete, quiet d10050, cap0/1. Other pending estate, correspondence, Desen/royal, commission and custody records unchanged. No new resource use except D334 provisions; Hessa payable workday accounting pending, no wage payment or transfer inferred.",
+  "depends_on": [
+    "PLAY-REC-D334-MANOR-ENTRY-PUBLIC-INSPECTION-DUSK-AUDIENCE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary NPC conversation and voluntary bounded disclosure consistent with fixed personal history; no contested concession adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D334-CAUL-ACKNOWLEDGES-FORMER-COURT-SERVICE-001",
+      "accepted": true,
+      "evidence": "Exact player 'Pleasure to meet you my lady. I am told you have occupied my property while I was away.  I am simply here to take what is rightfully mine.' courteously asserts right to reclaim ancestral holdings in actual audience with Lady Ysendre Caul. Caul responds with amused interest, then voluntarily reveals that she personally served House Vaishnavi's court before the Convergence, consistent with fixed former subordinate Silver Court aristocrat in long-arc-two-antagonists-dm-only.md §G. She asks whether present V claims to be a descendant or something more extraordinary. This is her firsthand assertion, not independently authenticated testimony yet, no recognition of V as the Sovereign's child, no father identity, true faction name, vampiric nature confirmed, title transfer, surrender, fealty or concession. Mara and Cirren react to claim of pre-Convergence personal memory. Caul seeks to assess rival claimant, not automatic hostility or submission. V has not answered identity question, disclosed personal ancestry, proved genealogy or requested specific contested concession with evidence in this turn. No roll, magical influence, combat, movement, expenditure, rest, or archive access. D334~18:31, V next reply.",
+      "before": "Lady Caul asks what V seeks.",
+      "after": "V asserts ancestral property claim; Caul reveals former court service and asks nature of V's claimed return.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
