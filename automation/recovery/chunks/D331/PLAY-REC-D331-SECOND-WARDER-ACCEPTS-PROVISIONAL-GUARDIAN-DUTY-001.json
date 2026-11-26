@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-SECOND-WARDER-ACCEPTS-PROVISIONAL-GUARDIAN-DUTY-001",
+  "base_commit": "5418871ebaaa6c86110123dc5b92b76ee9561243",
+  "source_checkpoint": "D331-1638-WESTERN-OSSENT-GALLERY-SECOND-WARDER-CONTACT-V-DECISION-001",
+  "destination_checkpoint": "D331-1640-WESTERN-OSSENT-BOTH-WARDERS-PROVISIONAL-GUARDIANS-LOWER-DOOR-OPEN-001",
+  "source_evidence": "Exact player 'Explain ourselves and our intentions and our authority' explicitly delegates this explanation only. V explains established claimed Viscount of Vaishnavi identity, actually held Crown conditional recovery instrument (not current ownership), intention to restore the site, protect free residents/travelers, defend weak and follow Ossent law, and offers voluntary renewed guardianship on same terms as first warder. First warder meaningfully Helps by endorsing new charge and reporting its own provisional acceptance. Predeclared Persuasion +7 advantage DC18, genuine visible Python secrets receipt batch c02725f538bc73b87e2bafbf10efb373 faces16,1 take16+7=23 success. Second warder independently accepts provisional service on these terms, not automatic magical loyalty, recognition of verified lineage, title, or proof of safe future conduct. Second opens its own lower chamber door, remains armed but nonaggressive; its two skeletons lower weapons on its order. Water visibly about ankle-to-knee deep (~2ft) in lower chamber from stair sightline, no lever operated, no party descent or archive entry. Second warder offers inspection of guarded records and asks for clear direction about continued watch, no formal property transfer or confiscation. Names not yet established. First warder and second both provisionally accept duty to protect living and not detain peaceful people; each commands its existing two skeletons. No further encounter, attack, initiative, oath magic, copying, fees, wages, external resident consent, Crown legal certification, site clearance or new resource spent. V chooses next response. Day331~16:40.",
+  "pending_action": "Day331~16:40 western Ossent raised gallery, V/Fenar/Cirren and first warder at southern edge near(45,40). V delegates explanation of claim, Crown conditional recovery authority, protection/freedom/Crown law. First warder Help, Persuasion adv16/1+7=23/DC18 success; second warder voluntarily provisionally agrees renewed protection service and opens lower door(45,60). Both warders and each pair of skeletons remain alive/undead and nonaggressive, no magical control, formal clearance, employment/payroll, lawful authorization to deploy undead, or title transfer. First two skeletons remain receiving hall; second warder at lower doorway and second pair in custody room, weapons lowered. Visible ~2ft standing water below, no descent or controls operated. Second offers inspection of guarded records and asks direction about watch; V chooses. First warder and second names unknown. Fixed prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291, lower 30x20 room z8, archive niche, original route instrument, disputed salvage, exact water controls and hazards as prep; no revelation or removal yet. Gallery charter observed, no copy/complete translation/bearing. Hessa friendly outside, ledge/outfall known, Mara/coach/four horses healthy. Conditional Crown grant not title, preserve resident rights. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16; D331 travel charged, cap2/2. No new costs/rest/reward/correspondence/ownership; prior pending records unchanged.",
+  "depends_on": [
+    "PLAY-REC-D331-FIRST-WARDER-LEADS-GALLERY-SECOND-CONTACT-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "c02725f538bc73b87e2bafbf10efb373",
+        "rolls": [
+          {
+            "id": "D331.V.persuasion.second_warder_renewed_guardianship",
+            "sides": 20,
+            "faces": [
+              16,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D331-SECOND-WARDER-ACCEPTS-PROVISIONAL-GUARDIAN-DUTY-001",
+      "accepted": true,
+      "evidence": "Exact player 'Explain ourselves and our intentions and our authority' explicitly delegates this explanation only. V explains established claimed Viscount of Vaishnavi identity, actually held Crown conditional recovery instrument (not current ownership), intention to restore the site, protect free residents/travelers, defend weak and follow Ossent law, and offers voluntary renewed guardianship on same terms as first warder. First warder meaningfully Helps by endorsing new charge and reporting its own provisional acceptance. Predeclared Persuasion +7 advantage DC18, genuine visible Python secrets receipt batch c02725f538bc73b87e2bafbf10efb373 faces16,1 take16+7=23 success. Second warder independently accepts provisional service on these terms, not automatic magical loyalty, recognition of verified lineage, title, or proof of safe future conduct. Second opens its own lower chamber door, remains armed but nonaggressive; its two skeletons lower weapons on its order. Water visibly about ankle-to-knee deep (~2ft) in lower chamber from stair sightline, no lever operated, no party descent or archive entry. Second warder offers inspection of guarded records and asks for clear direction about continued watch, no formal property transfer or confiscation. Names not yet established. First warder and second both provisionally accept duty to protect living and not detain peaceful people; each commands its existing two skeletons. No further encounter, attack, initiative, oath magic, copying, fees, wages, external resident consent, Crown legal certification, site clearance or new resource spent. V chooses next response. Day331~16:40.",
+      "before": "First warder provisionally allied; second challenges authority from closed lower chamber.",
+      "after": "V explains authority and intentions, successful persuasion, second warder provisionally accepts, opens lower door, offers records inspection; next V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
