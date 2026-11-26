@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D328-V-SORNELL-COOPERATION-APPEAL-KNACK-PENDING-001",
+  "base_commit": "afb107628acb4778a944ca6400ed0a1cc117aa9c",
+  "source_checkpoint": "D328-1430-ORSAVEN-SORNELL-VOLUNTARY-INTERVIEW-OPENING-PENDING-001",
+  "destination_checkpoint": "D328-1431-ORSAVEN-SORNELL-COOPERATION-APPEAL-KNACK-PENDING-001",
+  "source_evidence": "Day328~14:31 exact player 'Sornell this is a chance to save yourself. We already have the information we need to bring this whole thing down. You would be one of the first ones they will throw to the wolves once they are cornered. Help us help you.' appeals to Sornell's self-interest and voluntary cooperation, without actually threatening him or offering money, immunity, concealment from court or guaranteed settlement/protection. Cirren willingly Helps by reinforcing that Sornell can give his own account rather than let Harthvale speak for him. Predeclared Persuasion+7 (CHA3+proficiency3+Luckstone1), advantage, DC13 candid testimony/DC18 willingness to help secure the records. Actual user-visible Python secrets receipt batch4a72760b3950ffe30fb1f6a02d5ead4e faces3,3, keep3+7=10; initial failure by3, no feature used. Pause before final resolution for eligible Psi-Bolstered Knack d6 (needs3+ to reach13) and Knowledge from a Past Life d6 if specifically authorized. No extra d20, no automatic feature expenditure. Sornell visibly struggles with his decision but has not finalized refusal, admitted new facts, consented to sworn testimony, surrendered records, promised cooperation or left. V chooses feature use or accepts initial result. Desen's limited assurances remain; no new commitment, resource or custody change.",
+  "pending_action": "Day328~14:31 private room arranged through Desen's customs-examiner contact, Orsaven. V/Mara/Cirren/Fenar with Desen and Sornell. V appealed to Sornell to help himself by cooperating; Cirren Help; Persuasion advantage3/3+7=10 vs DC13 candid testimony/DC18 willingness to help secure records. Initial failure by3; pending V choice of eligible Psi-Bolstered Knack d6 and/or Knowledge from Past Life or accept roll; final Sornell decision not yet adjudicated. No feature spent. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses Copper Hart. Purse2039gp8sp6cp rations21/feed28 LR4/6. Sornell voluntary interview, no original ledgers surrendered, no sworn testimony, immunity, guaranteed settlement, protection arrangement or new evidence. Desen coordinating customs, no verified warrant/seizure/arrest. Paid6gp advance notice and royal cooperation decision pending Copper Hart. Harthvale's proposed partnership nonbinding/unaccepted, no250gp paid, Halvessa conditional250gp exclusive offer unpaid/unaccepted. Desen holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; V retains notes, new originals, Sallow invitation and Harthvale memorandum; Cirren signed evidence receipt. Sornell settlement amount/timing unknown. Association membership Dunmere/Rellwick/Branthor, Harthvale/Vaskel/Sornell/Holtwick and disclosed finite personnel/boats/warehouses; ordinary staff separate. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. No additional contraband or murder link established. Existing Kestrel originals/custody and confidential copies, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D328-SORNELL-ACCEPTS-LIMITED-ASSURANCES-INTERVIEW-OPENING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "4a72760b3950ffe30fb1f6a02d5ead4e",
+        "rolls": [
+          {
+            "id": "D328.V.Sornell.voluntary_cooperation_appeal.advantage",
+            "sides": 20,
+            "faces": [
+              3,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D328-V-SORNELL-COOPERATION-APPEAL-KNACK-PENDING-001",
+      "accepted": true,
+      "evidence": "Day328~14:31 exact player 'Sornell this is a chance to save yourself. We already have the information we need to bring this whole thing down. You would be one of the first ones they will throw to the wolves once they are cornered. Help us help you.' appeals to Sornell's self-interest and voluntary cooperation, without actually threatening him or offering money, immunity, concealment from court or guaranteed settlement/protection. Cirren willingly Helps by reinforcing that Sornell can give his own account rather than let Harthvale speak for him. Predeclared Persuasion+7 (CHA3+proficiency3+Luckstone1), advantage, DC13 candid testimony/DC18 willingness to help secure the records. Actual user-visible Python secrets receipt batch4a72760b3950ffe30fb1f6a02d5ead4e faces3,3, keep3+7=10; initial failure by3, no feature used. Pause before final resolution for eligible Psi-Bolstered Knack d6 (needs3+ to reach13) and Knowledge from a Past Life d6 if specifically authorized. No extra d20, no automatic feature expenditure. Sornell visibly struggles with his decision but has not finalized refusal, admitted new facts, consented to sworn testimony, surrendered records, promised cooperation or left. V chooses feature use or accepts initial result. Desen's limited assurances remain; no new commitment, resource or custody change.",
+      "before": "Sornell voluntary interview opening, V reply pending.",
+      "after": "V appeals for cooperation with Cirren Help; initial Persuasion10/DC13,18, eligible enhancements pending. No feature spent or final response.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
