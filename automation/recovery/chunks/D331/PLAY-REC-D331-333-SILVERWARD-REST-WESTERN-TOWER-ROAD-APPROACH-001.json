@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-333-SILVERWARD-REST-WESTERN-TOWER-ROAD-APPROACH-001",
+  "base_commit": "b5fa632dec016b98b63ef0753c12827d668239fa",
+  "source_checkpoint": "D331-1901-SILVERWARD-NAME-ADOPTED-ONWARD-DESTINATION-PENDING-001",
+  "destination_checkpoint": "D333-1130-WESTERN-CUSTOMS-ROAD-GRAIN-DISPUTE-V-DECISION-001",
+  "source_evidence": "Exact player 'Lets rest, and go towards the western customs tower in the morning' authorizes overnight at Silverward and ordinary onward journey to previously discussed western customs tower, not a new expense, fight, quest acceptance or promise. D331~19:01 Hessa and husband voluntarily allow camp beside cottage at no fee. Rhevan/Ossric keep watch consistent with accepted provisional guardian terms, skeletons remain at posts; no assurance of safe-town qualification or permanent legal clearance. No further D331 random encounter roll (leg complete and cap2/2 used). Predeclared wilderness overnight1 weighted LR unit, ordinary qualifying SR. V full HP/Psi, so no automatic Second Wind or Psi Recovery expenditure; all V pools already full. Cirren voluntarily uses two Hit Dice after qualifying overnight, actual Python secrets receipt batch8f953794b2a490e7f39920ffea7369ca d8 faces3,3 +CON3 each, first heals6 (43→49), second heals2 capped (49→51), HD6→4/6. Slots4/2/3 unchanged, CD2/2 full; Fenar Rage3/4 and Shift3/3 LR-only unchanged, all other pools full. D332 dawn LR0→1/6. No fees or additional D331 provisions (already charged). Routine standing Tamsin dawn communication on D332/D333, no specific estate results/replies or other notice inferred. Hessa begins her previously agreed stewardship from Day332; actual completed workday accounting, market replies and qualified survey outcomes to be adjudicated under estate mandate, no specific commercial results, wages paid or funding transfer invented.\n\nRoute planning: Mara uses the prior authenticated field book, established Orsaven itinerary and Hessa's ordinary local directions. Newly fixed modest route topology: the known Silverward 48-mile western approach and the existing western collection point at36 road miles WNW of Orsaven lie on the same ordinary road corridor; tower is a separate6-mile rough branch from that point. No exact atlas coordinates, new shortcut or through-route to ancestral seat asserted. Existing prep pins dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291 and ashen-regency-field-operations-dm-only.md @6b58329ad8c128c24fd903edbfa0234362505e3c. New leg planned30 route miles total (12 rough back to road,12 ordinary back to collection point,6 rough to tower), two ordinary travel days, cap1 random encounter day; D332 mandatory quiet because D330/D331 consecutive random encounter days, skip both occurrence checks, not a roll. D332 leaves Silverward~07:30, safely retraces12 rough miles at difficult-ground pace over8h, no forced march, healthy coach/four horses, camps at firm roadside near track junction~15:30, ordinary day supply charge3 rations/4 feed exactly once (12→9 rations,16→12 feed). Quiet night qualifies SR and LR1→2 at D333 dawn, no missing HP or V resources, no additional HD/recovery/expense. Day333 departs~07:30 and travels12 ordinary road miles toward tower branch; ordinary-road day occurrence 1–15 fixed before RNG, regional tables (36 monster,27 organized predator,7 hazard,7 social,5 discovery rows) fixed in actual visible Python execution prior to any roll, recent dolgaunt weight reduced; actual batch b4700f85525937fe914ca3e23be9cdf3 d100 face71 quiet. No type, identity or severity roll required, no random encounter consumed on this new leg. Day333~11:30 reaches fixed western road collection point, 24/30 route miles completed, six rough miles remain to tower; D333 full-day provisions not yet charged. No additional random occurrence today before ordinary night check if actually exposed and eligible.\n\nActivate the preexisting distinct authored road scene (not a random encounter; fixed finite NPCs from prep above). As approaching along west road toward the branch, Mara voluntarily halts coach at sight of a man gesturing beside roadside stone yard; V/Cirren/Fenar with coach, no additional V approach or speech assumed. Two adult residents with handcart behind low western wall look angry/distressed; one visibly protests that sacks of grain belong to them and they owe nothing. An armed leader with two other armed people disputes their right to pass with the goods. Road remains open along eastern verge; party observes from roughly80ft of nearest guard, no exact personal combat squares until action, no attack/initiative/surprise, no verified authority, exact toll, seizure terms, victim identities, affiliation or new quest accepted. Fixed private layout retained from prepared road scene: Veteran(0,45), Scout platform(30,45,z10), Guard(0,10), two adult Commoners/handcart behind western wall(-35,30), three finite patrol members, no extra forces; tower6 rough miles away, manor separate; do not reveal hidden faction or prepared outcome. Ordinary willing NPC speech as visible scene, no extra RNG. V next decision to approach, observe, bypass or otherwise act. All companions and horses healthy, no new expense or reward.",
+  "pending_action": "Day333~11:30 at western-road collection point 36 road miles WNW of Orsaven, six rough miles from customs tower. Silverward→tower leg planned30mi,24/30 covered (12 rough backtrack Day332,12 ordinary Day333); coach/four horses healthy halted~80ft from nearest visible armed guard, Mara with reins, V/Cirren/Fenar present. Authored road scene: two adult residents with handcart and sacks behind western low wall protesting grain ownership/dues, three armed figures dispute right to pass; eastern road verge open. Private fixed prep ashen-regency-field-operations-dm-only.md @6b58329ad8c128c24fd903edbfa0234362505e3c, Veteran(0,45), Scout platform(30,45,z10), Guard(0,10), 2 Commoners(-35,30), no extra force, no initiative/attack or exact PC tactical squares, no faction/authority/terms confirmed; V chooses response. D331→332 and D332→333 wilderness nights completed LR0→1→2/6. Cirren spent2 HD d8 3,3 +3 each, actual heal8 to51, HD4/6. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Purse2037gp8sp6cp rations9/feed12 after Day332 full day charge, Day333 full-day charge pending. Day332 mandatory quiet both checks skipped; Day333 genuine occurrence71>15, quiet, random cap0/1 used on new leg; authored road event not random. Tamsin routine check-ins no specific new outcomes inferred, Tavosk/royal/Desen pending. Silverward Hessa appointed5gp/actual workday from332, common payday334, actual workdays/results/funding assessment pending estate adjudication, no cash transferred. Conditional grant not deed, structural/parcel/legal verification outstanding; independent Marr home/ferry/landing/return-channel rights preserved; Rhevan/Ossric provisional voluntary protection duties, each2 skeletons posted, Marrs accept trial; inlet shut, relief cleared/open and main open, lower substantially drained, ferry undamaged. Mara holds 2 incised metal leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody, no settled title/spendable funds; copies with Mara/Cirren, fixed instrument/dedication/charter at site. Heart recovery district corroborated, father/speaker/origin/function/personal genealogy unresolved; WNW ancestral seat bearing only; tower separate evidence lead. Coris documentary300/field800 conditional, Crown300+1300 contingent,520gp balance actual completion target353. Prior Kestrel/investigative custody, Elara and Severin, restitution and business proposals unchanged. No new expense/reward/quest accepted. Next V decision at road scene.",
+  "depends_on": [
+    "PLAY-REC-D331-SILVERWARD-NAME-ADOPTED-STEWARDSHIP-FOLLOWTHROUGH-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "8f953794b2a490e7f39920ffea7369ca",
+        "rolls": [
+          {
+            "id": "D331-332.Cirren.short_rest.hit_die.1",
+            "sides": 8,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D331-332.Cirren.short_rest.hit_die.2",
+            "sides": 8,
+            "faces": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "b4700f85525937fe914ca3e23be9cdf3",
+        "rolls": [
+          {
+            "id": "D333.silverward_to_western_road.ordinary_day_occurrence",
+            "sides": 100,
+            "faces": [
+              71
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D331-332-SILVERWARD-WILDERNESS-REST-001",
+      "accepted": true,
+      "evidence": "Hessa hosts camp without fee; qualifying overnight, Cirren two HD rolls above heals8 to full and HD6→4, LR0→1, Fenar rage unchanged.",
+      "before": "Cirren43/51 HD6/6 LR0.",
+      "after": "Cirren51/51 HD4/6 LR1/6 at D332 dawn.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D332-333-SILVERWARD-BACKTRACK-QUIET-JOURNEY-001",
+      "accepted": true,
+      "evidence": "12 rough miles completed, mandatory quiet D332,3/4 provisions charged; peaceful qualifying night LR1→2.",
+      "before": "Silverward departure, rations12/feed16.",
+      "after": "Road junction camp to D333 dawn, rations9/feed12, LR2/6.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D333-WESTERN-CUSTOMS-ROAD-GRAIN-DISPUTE-APPROACH-001",
+      "accepted": true,
+      "evidence": "D333 occurrence71 quiet,12 ordinary miles traveled, preexisting authored road dispute visible; six rough miles remain to tower, V decision.",
+      "before": "Road junction dawn D333.",
+      "after": "D333~11:30 collection point, armed figures and two protesting locals, no combat or acceptance.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
