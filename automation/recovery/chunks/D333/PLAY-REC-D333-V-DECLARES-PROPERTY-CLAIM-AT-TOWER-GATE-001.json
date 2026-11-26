@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D333-V-DECLARES-PROPERTY-CLAIM-AT-TOWER-GATE-001",
+  "base_commit": "365ce00e1ad20f4b6e596504544319372450a54b",
+  "source_checkpoint": "D333-1535-WESTERN-CUSTOMS-TOWER-GATE-GUARD-CHALLENGE-V-DECISION-001",
+  "destination_checkpoint": "D333-1536-WESTERN-CUSTOMS-TOWER-V-CLAIM-GUARD-REQUESTS-NAME-001",
+  "source_evidence": "Exact player 'Thank you for keeping my property warm, I am back to claim it. :)' addresses tower gate guard and asserts a claim to the property. Guard surprised, states tower is under Lady Caul's administration and has received no notice of ownership change, requests visitor's name and offers to fetch administrator. Roof lookout leans forward to observe carriage, Mara suppresses smile. No identity supplied to tower guard yet, no prior patrol report confirmed, no recognition, title conveyed, valid claim established, entry granted, administrator summoned yet, disputed concession, movement, weapon drawn, attack or initiative. Ordinary NPC conversation no roll; Day333~15:36. V chooses reply.",
+  "pending_action": "Day333~15:36 western customs tower southern approach. V asserts property claim, guard surprised and says Lady Caul administers tower, no notice of ownership change; asks visitor's name, offers to fetch administrator. Roof lookout observes carriage. No identity supplied to this guard, no report from patrol confirmed, no gate opening, administrator summoned, title, attack, movement or initiative. V chooses response. coach healthy halted at edge of60x40 entrance court ~60ft from closed south iron-bar gate. V/Cirren/Fenar with Mara. Square40ft stone tower, roof parapet40ft high, visible gate guard asks business, roof lookout visible; fixed tower roster Spy archive, Scout roof, two Guards gate/hall, mortal antiquarian receiving room, ashen-regency-field-operations-dm-only.md @6b58329ad8c128c24fd903edbfa0234362505e3c. No entry, initiative, attack, recognition or actual report ahead. Road patrol three know V's declared name and rival claim, released residents and grain, no payment or proven charter, no report confirmed. V chooses reply. D333 full day's provisions now charged3/4 (rations6/feed8); D333 random check71 quiet, no extra occurrence roll; new leg completed, cap0/1 used. LR2/6, no new rest. Silverward now budgets six undead voluntary retainers at zero wages and ordinary food/rest costs, suitable labor coordinated by Hessa alongside defense with actual capability, agency, materials and duty coverage. No new work completed. Hessa5gp/actual workday from332, payday334; actual workdays, results, registration and funding pending. Conditional grant not deed; Marr independent rights intact; drainage restored, ledge and structural/parcel/legal verification outstanding. Rhevan/Ossric each2 skeletons, cooperative provisional protection. Mara holds 2 incised leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody; no spendable cash/title; copies Mara/Cirren. Heart recovery district corroborated; WNW ancestral-seat bearing only; tower separate lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried, dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/horses healthy. LR2/6 purse2037gp8sp6cp rations6/feed8, D332 and D333 daily charges applied once; D332 mandatory quiet, D333 occurrence71 quiet, travel leg completed cap0/1. Other pending estate, correspondence, Desen/royal, commission and custody records unchanged. No time or resources changed.",
+  "depends_on": [
+    "PLAY-REC-D333-WESTERN-CUSTOMS-TOWER-ARRIVAL-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary NPC reaction and request for name; no contested concession adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D333-V-DECLARES-PROPERTY-CLAIM-AT-TOWER-GATE-001",
+      "accepted": true,
+      "evidence": "Exact player 'Thank you for keeping my property warm, I am back to claim it. :)' addresses tower gate guard and asserts a claim to the property. Guard surprised, states tower is under Lady Caul's administration and has received no notice of ownership change, requests visitor's name and offers to fetch administrator. Roof lookout leans forward to observe carriage, Mara suppresses smile. No identity supplied to tower guard yet, no prior patrol report confirmed, no recognition, title conveyed, valid claim established, entry granted, administrator summoned yet, disputed concession, movement, weapon drawn, attack or initiative. Ordinary NPC conversation no roll; Day333~15:36. V chooses reply.",
+      "before": "Gate guard asks business.",
+      "after": "V asserts property claim; guard asks name and offers to fetch administrator.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
