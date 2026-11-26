@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D334-CAUL-DISCUSSES-POWER-RESPONSIBILITY-AND-SERVICE-001",
+  "base_commit": "b22ecca2693bef71e4451ac8d93a90423236cea7",
+  "source_checkpoint": "D334-1835-LADY-CAUL-ANCIENT-SERVICE-PRESENT-REGENCY-DISCLOSED-V-DECISION-001",
+  "destination_checkpoint": "D334-1837-LADY-CAUL-POWER-RESPONSIBILITY-FREEDOM-QUESTION-V-DECISION-001",
+  "source_evidence": "Exact player 'It depends. I don’t believe in continuing rules and traditions for its own sake. But I do think power comes with responsibility.' V states conditional acceptance of inherited traditions and principle of responsible power. Caul acknowledges principle but questions dependents' ability to refuse obligations needed to sustain protection, roads and soldiers; Cirren independently argues duties to vulnerable people who cannot reciprocate; Mara distinguishes fair taxes from denial of freedom to leave. Caul responds that departure can threaten prosperity of those remaining and tests whether V would enforce a dependent's duty against their will. Her argument reflects her established coercive hereditary worldview, not an endorsement by V, new factual admission of a particular crime, genuine reform, lawful title, voluntary allegiance, or proof of former Sovereign's specific practices. Caul offers a concrete hypothetical of a family accepting protection then choosing to depart, asking whether V would compel service or permit departure. No spell/charm, attack, contested concession, roll, movement by V, archive inspection or expenditure. D334~18:37, V next response. Existing register comparison remains offered.",
+  "pending_action": "Day334~18:37 Lady Caul manor upper west gallery. V states traditions need not persist for own sake, power entails responsibility. Caul agrees with principle but disputes freedom to refuse dependent duties, Cirren argues protection even without reciprocal service, Mara distinguishes fair tax from denial of freedom to leave; Caul asks whether V would compel continued service of a protected family choosing to leave. No answer by V yet, no agreement, oath, proven parentage, register inspection, title or revelation of specific modern crime in this dialogue. Prior register access offer remains. No combat/Charm. Fixed manor geometry and roster retained as ashen-regency-field-operations-dm-only.md @6b58329ad8c128c24fd903edbfa0234362505e3c; gate/receiving Veterans, yard/stair Guards, counting Spy, castellan escort, two spawn cellar, Ysendre gallery. No extra forces. Tower offscreen suspension delivered and obeyed, original4+3 patrol+Voss present, no wider report or permanence/restoration/bounty, party has not received that update. V chooses reply. D333→334 qualifying overnight SR, wilderness1 unit LR3/6, no HP/HD or LR-only changes. Silverward now budgets six undead voluntary retainers at zero wages and ordinary food/rest costs, suitable labor coordinated by Hessa alongside defense with actual capability, agency, materials and duty coverage. No new work completed. Hessa5gp/actual workday from332, payday334; actual workdays, results, registration and funding pending. Conditional grant not deed; Marr independent rights intact; drainage restored, ledge and structural/parcel/legal verification outstanding. Rhevan/Ossric each2 skeletons, cooperative provisional protection. Mara holds 2 incised leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody; no spendable cash/title; copies Mara/Cirren. Heart recovery district corroborated; WNW ancestral-seat bearing only; tower separate lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried, dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/horses healthy. LR3/6 purse2037gp8sp6cp rations3/feed4 after D334 full-day charges once; previous leg completed, D334 single-day manor leg complete, quiet d10050, cap0/1. Other pending estate, correspondence, Desen/royal, commission and custody records unchanged. No new resource use except D334 provisions; Hessa payable workday accounting pending, no wage payment or transfer inferred.",
+  "depends_on": [
+    "PLAY-REC-D334-CAUL-EXPLAINS-ANCIENT-SERVICE-AND-PRESENT-REGENCY-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary character dialogue testing beliefs, no uncertain contested outcome or resource use."
+  },
+  "events": [
+    {
+      "event_id": "D334-CAUL-DISCUSSES-POWER-RESPONSIBILITY-AND-SERVICE-001",
+      "accepted": true,
+      "evidence": "Exact player 'It depends. I don’t believe in continuing rules and traditions for its own sake. But I do think power comes with responsibility.' V states conditional acceptance of inherited traditions and principle of responsible power. Caul acknowledges principle but questions dependents' ability to refuse obligations needed to sustain protection, roads and soldiers; Cirren independently argues duties to vulnerable people who cannot reciprocate; Mara distinguishes fair taxes from denial of freedom to leave. Caul responds that departure can threaten prosperity of those remaining and tests whether V would enforce a dependent's duty against their will. Her argument reflects her established coercive hereditary worldview, not an endorsement by V, new factual admission of a particular crime, genuine reform, lawful title, voluntary allegiance, or proof of former Sovereign's specific practices. Caul offers a concrete hypothetical of a family accepting protection then choosing to depart, asking whether V would compel service or permit departure. No spell/charm, attack, contested concession, roll, movement by V, archive inspection or expenditure. D334~18:37, V next response. Existing register comparison remains offered.",
+      "before": "Caul asks whether V intends to inherit obligations.",
+      "after": "V affirms responsibility but rejects tradition for its own sake; Caul tests V's position on coercive service and freedom to leave.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
