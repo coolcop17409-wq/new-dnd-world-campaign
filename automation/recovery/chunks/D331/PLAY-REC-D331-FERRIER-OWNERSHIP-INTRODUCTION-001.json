@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-FERRIER-OWNERSHIP-INTRODUCTION-001",
+  "base_commit": "d23da8d65a44002a205f2d3df5e34ffd31a67b3e",
+  "source_checkpoint": "D331-1620-WESTERN-OSSENT-SERVICE-HOUSE-CROSSING-FERRIER-CONTACT-V-DECISION-001",
+  "destination_checkpoint": "D331-1621-WESTERN-OSSENT-HESSA-RESIDENT-RIGHTS-DANGEROUS-CHAMBERS-V-DECISION-001",
+  "source_evidence": "Exact player 'We are here to look through the ruins and clear it out of anything dangerous. With luck you may be looking at new owners.' V states purpose and conditional future ownership to Hessa Marr at western crossing on Day331~16:20. Does not present grant, assert current title, negotiate fees, promise compensation or direct entry. Hessa independently reacts with cautious interest: welcomes removal of danger from old chambers; expresses concern over continued home and family ferry operation (three generations), not hostility to V. She tells party that the old stair is behind the abutment, inner door scarred, disturbing scraping and voices heard from behind it by residents, household avoids going inside. These are local observations/bounded testimony, not firsthand identification of exact custodians or archaeology. No new hazard, actor, fee, acceptance or site entry. V decides response. No check because ordinary voluntary initial conversation; no action/resources/elapsed substantive time.",
+  "pending_action": "Day331~16:21 western Ossent service-house crossing, journey60/60 complete. V speaking with Hessa Marr; declared exploration/clearance and possible future owners, conditional title not conveyed yet. Hessa welcomes clearance but wishes to retain household's longstanding dwelling/landing/ferry livelihood; family operated ferry three generations. She knows old stair behind abutment and scarred door, scraping/voices from inside; no exact enemy or ancient provenance knowledge. V next response. 50ft local stream, active timber landing and return eddy, collapsed bridge/rocky abutment, dwelling occupied. Mara/coach/four horses healthy on firm cartway. No new agreement, purchase, lodging or site entry. Private fixed site packet dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291; retain actual resident rights; 60ft walkway,30ft stair, receiving Wight+2 Skeletons; gallery empty; lower Wight+2 Skeletons, exterior ledge; no automatic knowledge. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive, cloak+Luckstone, Galepierce carried, dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6, purse2037gp8sp6cp rations12/feed16, day331 charges already applied. Travel cap2/2 used; no additional random encounter today. No new recovery, reward, evidence, communication or expense. Prior D330 report, D331 combat, Tavosk/royal/Desen pending, custody, unaccepted deals, restitution unchanged. V holds conditional western grant not title, Mara survey/notes; Coris300/optional800 and Crown300+1300 contingent,520gp commissioned balance due actual completion target353, Kestrel custody, Elara Caereth/Severin assent unconfirmed.",
+  "depends_on": [
+    "PLAY-REC-D331-WESTERN-CROSSING-ARRIVAL-FERRIER-CONTACT-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary dialogue and bounded local testimony, not contested persuasion or title transfer."
+  },
+  "events": [
+    {
+      "event_id": "D331-HESSA-OWNERSHIP-INTRODUCTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'We are here to look through the ruins and clear it out of anything dangerous. With luck you may be looking at new owners.' V states purpose and conditional future ownership to Hessa Marr at western crossing on Day331~16:20. Does not present grant, assert current title, negotiate fees, promise compensation or direct entry. Hessa independently reacts with cautious interest: welcomes removal of danger from old chambers; expresses concern over continued home and family ferry operation (three generations), not hostility to V. She tells party that the old stair is behind the abutment, inner door scarred, disturbing scraping and voices heard from behind it by residents, household avoids going inside. These are local observations/bounded testimony, not firsthand identification of exact custodians or archaeology. No new hazard, actor, fee, acceptance or site entry. V decides response. No check because ordinary voluntary initial conversation; no action/resources/elapsed substantive time.",
+      "before": "Hessa asks purpose of visit.",
+      "after": "V states intent; Hessa expresses concern for home and ferry and gives limited warning about dangerous inner rooms; next V response.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
