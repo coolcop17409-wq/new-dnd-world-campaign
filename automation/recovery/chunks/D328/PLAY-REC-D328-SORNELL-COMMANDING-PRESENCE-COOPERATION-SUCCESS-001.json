@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D328-SORNELL-COMMANDING-PRESENCE-COOPERATION-SUCCESS-001",
+  "base_commit": "46fa644afe88b5b9d7cb78d4b4360263fe8b15bc",
+  "source_checkpoint": "D328-1431-ORSAVEN-SORNELL-COOPERATION-APPEAL-KNACK-PENDING-001",
+  "destination_checkpoint": "D328-1440-ORSAVEN-SORNELL-COOPERATION-AGREED-DESEN-PRESERVATION-PENDING-001",
+  "source_evidence": "Day328~14:40 exact player 'use superiority dice and knack and past if needed' authorizes ordered conditional enhancements to SAME pending Persuasion10 (advantage3/3+7), DC13 candid testimony and DC18 willingness to help secure records. Commanding Presence applies to Persuasion per campaign/continuity/rules-combat-recovery.md; actual visible Python secrets receipt e720a8e8dff59b9f6c8fdabdb09b0bfa d8 face8 yields10+8=18, both thresholds met. Spend one Superiority Die4/4→3/4; no Knack or Past Life roll/spend, Psi4/6 PastLife1/3 unchanged. No new d20. Sornell independently elects to cooperate with Desen's voluntary inquiry, not under immunity or financial guarantee. He candidly confirms he personally entered D3206gp and D3238gp paid inspection notices in joint freight fee book, the broker reimbursed the payments from the account and Harthvale authorized the arrangement; Tavosk's signed14gp acknowledgement accompanied those entries. He confirms keeping Lot27 36gp sale records and that Halvessa's prospective250gp exclusivity investment is still a proposal, not paid; no claim he personally witnessed every cargo transfer or payment, no new prohibited goods or murder link established. Sornell says 'I will identify the books and explain the entries to your examiner. I won't go back there alone.' He agrees to give a truthful recorded statement to Desen; Desen makes contemporaneous notes, no completed signed deposition, original record surrender, retrieval, seizure, warrant or arrest yet. Sornell fears being blamed and seeks safety if he cooperates; no specific observed threat, order, resignation or guaranteed settlement asserted. Desen agrees to arrange a private safe place while coordinating lawful preservation with customs, not promise immunity or payment; the actual arrangements and securing of records remain pending. Desen takes responsibility for these ordinary professional steps, no compulsory further V undercover mission. Mara/Fenar/Cirren hear testimony; V chooses next action. No new money, document custody transfer, spell, HP, other resource or actual partnership change.",
+  "pending_action": "Day328~14:40 private room arranged through Desen's customs-examiner contact, Orsaven. V/Mara/Cirren/Fenar with Desen and Berric Sornell. Same Persuasion check advantage3/3+7+Commanding Presence8=18/DC13&18 succeeds; Sup3/4, Psi4/6 PastLife1/3 unchanged, no other enhancement rolled. Sornell candidly corroborates own recording of D3206gp/D3238gp payments via broker reimbursement, Harthvale's authorization of arrangement, Tavosk signed14gp acknowledgement, Lot27 sale36gp and unpaid conditional Halvessa250gp offer. He agrees to give truthful statement and identify/explain records for examiner but will not return alone. Desen notes interview and will arrange safe place and lawful evidence preservation; no signed deposition, protection actually arranged, warrant, records recovered/seized or arrest yet; no immunity or promised settlement payment. V chooses next action, no further undercover commitment required. V48/48 AC19 HD7/7 Sup3/4 Psi4/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses Copper Hart. Purse2039gp8sp6cp rations21/feed28 LR4/6. Paid6gp advance notice and royal cooperation decision pending Copper Hart. Harthvale proposed partnership nonbinding/unaccepted, no250gp paid; Halvessa conditional250gp exclusivity offer unpaid/unaccepted. Desen holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; V retains notes, new originals, Sallow invitation and Harthvale memorandum; Cirren signed evidence receipt. Sornell settlement amount/timing unknown. Association membership Dunmere/Rellwick/Branthor, Harthvale/Vaskel/Sornell/Holtwick and disclosed finite personnel/boats/warehouses; ordinary staff separate. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. No additional contraband or murder link established. Existing Kestrel originals/custody and confidential copies, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D328-V-SORNELL-COOPERATION-APPEAL-KNACK-PENDING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "e720a8e8dff59b9f6c8fdabdb09b0bfa",
+        "rolls": [
+          {
+            "id": "D328.V.Sornell.cooperation_appeal.commanding_presence",
+            "sides": 8,
+            "faces": [
+              8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D328-SORNELL-COMMANDING-PRESENCE-COOPERATION-SUCCESS-001",
+      "accepted": true,
+      "evidence": "Day328~14:40 exact player 'use superiority dice and knack and past if needed' authorizes ordered conditional enhancements to SAME pending Persuasion10 (advantage3/3+7), DC13 candid testimony and DC18 willingness to help secure records. Commanding Presence applies to Persuasion per campaign/continuity/rules-combat-recovery.md; actual visible Python secrets receipt e720a8e8dff59b9f6c8fdabdb09b0bfa d8 face8 yields10+8=18, both thresholds met. Spend one Superiority Die4/4→3/4; no Knack or Past Life roll/spend, Psi4/6 PastLife1/3 unchanged. No new d20. Sornell independently elects to cooperate with Desen's voluntary inquiry, not under immunity or financial guarantee. He candidly confirms he personally entered D3206gp and D3238gp paid inspection notices in joint freight fee book, the broker reimbursed the payments from the account and Harthvale authorized the arrangement; Tavosk's signed14gp acknowledgement accompanied those entries. He confirms keeping Lot27 36gp sale records and that Halvessa's prospective250gp exclusivity investment is still a proposal, not paid; no claim he personally witnessed every cargo transfer or payment, no new prohibited goods or murder link established. Sornell says 'I will identify the books and explain the entries to your examiner. I won't go back there alone.' He agrees to give a truthful recorded statement to Desen; Desen makes contemporaneous notes, no completed signed deposition, original record surrender, retrieval, seizure, warrant or arrest yet. Sornell fears being blamed and seeks safety if he cooperates; no specific observed threat, order, resignation or guaranteed settlement asserted. Desen agrees to arrange a private safe place while coordinating lawful preservation with customs, not promise immunity or payment; the actual arrangements and securing of records remain pending. Desen takes responsibility for these ordinary professional steps, no compulsory further V undercover mission. Mara/Fenar/Cirren hear testimony; V chooses next action. No new money, document custody transfer, spell, HP, other resource or actual partnership change.",
+      "before": "Pending Persuasion10/DC13 and18, Sup4/4, Psi4/6, PastLife1/3.",
+      "after": "Commanding Presence8 yields18, both DCs met, Sup3/4, Psi4/6 PastLife1/3; Sornell agrees to voluntary testimony and help identify/secure records, Desen handles lawful preservation; no records yet recovered or arrest.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "data/characters/events.csv",
+        "trackers/csv/v/v-character.csv"
+      ]
+    }
+  ]
+}
