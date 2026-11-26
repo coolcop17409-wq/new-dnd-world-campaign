@@ -163,8 +163,8 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/d24cf4ed9c24503f778ee9da635605ad6eb4ff74/data/characters/events.csv",
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/36c3b828d3f83914c5122881854dd56a273da402/campaign/continuity/campaign-state.md"
   ],
-  "cleanup_status": "pending exact compatibility prune",
-  "generated_view_status": "pending independent generated-view inspection",
+  "cleanup_status": "complete: 32 exact verified compatibility entries pruned; original immutable chunks/boundaries and newer suffix preserved",
+  "generated_view_status": "verified: generated view commit5895d184b9f398e8d8cb28f286378f5658e24a8e, Day316 exact checkpoint; V290346cp HP48; tracker PASS",
   "immutable_provenance": {
     "pinned_commit": "e98dfe1720e7b6ad613db1de6937334cd44fc8cc",
     "journal_digest": "82d9d10bde7ac2cc6d914e67ccbf294976bcd5bb18dbacdd5093f7dcc32352f2",
@@ -172,5 +172,6 @@
     "prior_manifests": 23,
     "original_chunks_and_boundaries_modified": false
   },
-  "preserved_newer_evidence": "All original chunks through Day328 retained, current domain prefixes and market tables unchanged; this batch only records its Day316 cutoff."
+  "preserved_newer_evidence": "All original chunks through Day328 retained, current domain prefixes and market tables unchanged; this batch only records its Day316 cutoff.",
+  "generated_commit": "5895d184b9f398e8d8cb28f286378f5658e24a8e"
 }
