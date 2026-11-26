@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D333-VOSS-ORDERS-TEMPORARY-COLLECTION-SUSPENSION-001",
+  "base_commit": "e106af17613f816ef93d5a6a88ae7cea92d93abc",
+  "source_checkpoint": "D333-1602-WESTERN-CUSTOMS-TOWER-VOSS-CONCEDES-CHARTER-CONTRADICTION-V-DECISION-001",
+  "destination_checkpoint": "D333-1605-WESTERN-CUSTOMS-TOWER-TEMPORARY-SUSPENSION-ORDER-ISSUED-V-DECISION-001",
+  "source_evidence": "Exact player 'Yes, what Cirren said' endorses Cirren's specific request that Voss suspend collection of dues until the rival claim is resolved. Predeclared V Persuasion +7 with advantage from Cirren's meaningful Help (argument and already corroborated records), DC15 for immediate suspension order. Actual executed visible Python secrets batch 783b63f69577cd2bd33a49fd947be3c9 faces9,6 keep9+7=16 success. Voss voluntarily agrees to suspend collections within his own station's administrative remit pending Lady Caul's resolution of claim. He writes and seals an order to that effect; directs existing hall Guard to deliver it to three-man collection patrol immediately. Hall Guard accepts and departs tower at ~16:05 D333, ordinary six rough miles on foot approximately4h toward road point, earliest arrival~20:05 if no delay and patrol remains accessible; no receipt, compliance, new report, wider suspension, permanent cessation, restitution, confiscated property returned beyond prior actual grain release, general safe passage guarantee, bounty, legal adjudication or title transfer established. Do not add courier or replacement guard: tower now has gate Guard, roof Scout, upstairs Spy, Voss; one hall Guard en route; 3 road patrol retainers last known collection point, actual future whereabouts/reaction unresolved. Voss expresses concern employer will disapprove but chooses suspension; no message or meeting with Caul arranged yet. Voss offers to arrange audience as previously stated; V chooses response. No V extra speech, spending, movement or resources. Time D333~16:05. No combat.",
+  "pending_action": "Day333~16:05 western customs tower receiving room. V endorsed Cirren's suspension request; V Persuasion advantage9/6+7=16/DC15 success. Voss writes/seals temporary dues suspension within his remit pending resolution by Lady Caul; actual existing hall Guard departs with order toward road point six rough miles away, ~4h ordinary foot travel, earliest20:05 if accessible, no delivery/compliance yet. Tower gate Guard, roof Scout, upstairs Spy and Voss remain; no extra guard/courier. Road patrol3 last known road point; prior two residents released with grain, no broader restitution or title transfer, no bounty. Voss has previously offered meeting with Lady Caul, no message/appointment sent; V next choice. Oath-book on desk, Cirren retains historical working copies, no original surrendered or private ancestry/heart/exact Silverward location disclosed. V/Cirren/Fenar with Voss; Mara outside with coach. No combat or spending. Silverward now budgets six undead voluntary retainers at zero wages and ordinary food/rest costs, suitable labor coordinated by Hessa alongside defense with actual capability, agency, materials and duty coverage. No new work completed. Hessa5gp/actual workday from332, payday334; actual workdays, results, registration and funding pending. Conditional grant not deed; Marr independent rights intact; drainage restored, ledge and structural/parcel/legal verification outstanding. Rhevan/Ossric each2 skeletons, cooperative provisional protection. Mara holds 2 incised leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody; no spendable cash/title; copies Mara/Cirren. Heart recovery district corroborated; WNW ancestral-seat bearing only; tower separate lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried, dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/horses healthy. LR2/6 purse2037gp8sp6cp rations6/feed8, D332 and D333 daily charges applied once; D332 mandatory quiet, D333 occurrence71 quiet, travel leg completed cap0/1. Other pending estate, correspondence, Desen/royal, commission and custody records unchanged. No time or resources changed.",
+  "depends_on": [
+    "PLAY-REC-D333-VOSS-ACKNOWLEDGES-CHARTER-CONTRADICTION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "783b63f69577cd2bd33a49fd947be3c9",
+        "rolls": [
+          {
+            "id": "D333.V.persuasion.Voss.suspend_road_collections",
+            "sides": 20,
+            "faces": [
+              9,
+              6
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D333-VOSS-ORDERS-TEMPORARY-COLLECTION-SUSPENSION-001",
+      "accepted": true,
+      "evidence": "Exact player 'Yes, what Cirren said' endorses Cirren's specific request that Voss suspend collection of dues until the rival claim is resolved. Predeclared V Persuasion +7 with advantage from Cirren's meaningful Help (argument and already corroborated records), DC15 for immediate suspension order. Actual executed visible Python secrets batch 783b63f69577cd2bd33a49fd947be3c9 faces9,6 keep9+7=16 success. Voss voluntarily agrees to suspend collections within his own station's administrative remit pending Lady Caul's resolution of claim. He writes and seals an order to that effect; directs existing hall Guard to deliver it to three-man collection patrol immediately. Hall Guard accepts and departs tower at ~16:05 D333, ordinary six rough miles on foot approximately4h toward road point, earliest arrival~20:05 if no delay and patrol remains accessible; no receipt, compliance, new report, wider suspension, permanent cessation, restitution, confiscated property returned beyond prior actual grain release, general safe passage guarantee, bounty, legal adjudication or title transfer established. Do not add courier or replacement guard: tower now has gate Guard, roof Scout, upstairs Spy, Voss; one hall Guard en route; 3 road patrol retainers last known collection point, actual future whereabouts/reaction unresolved. Voss expresses concern employer will disapprove but chooses suspension; no message or meeting with Caul arranged yet. Voss offers to arrange audience as previously stated; V chooses response. No V extra speech, spending, movement or resources. Time D333~16:05. No combat.",
+      "before": "Voss hesitates at Cirren's request for suspension.",
+      "after": "Temporary suspension order sealed, existing hall guard dispatched; delivery/compliance and broader settlement pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
