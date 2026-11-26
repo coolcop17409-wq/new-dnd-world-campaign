@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-FIRST-WARDER-LEADS-GALLERY-SECOND-CONTACT-001",
+  "base_commit": "081843eff2e234cc29bb6a0545bff8e6b04d0791",
+  "source_checkpoint": "D331-1635-WESTERN-OSSENT-FIRST-WARDER-PROVISIONAL-SERVICE-SECOND-WARDER-PENDING-001",
+  "destination_checkpoint": "D331-1638-WESTERN-OSSENT-GALLERY-SECOND-WARDER-CONTACT-V-DECISION-001",
+  "source_evidence": "Exact player 'Follow' accepts the first warder's offered introduction to fellow warder, following him from receiving hall through east door and established20ft passage with6ft rise into unoccupied20x30 raised gallery. Fenar/Cirren follow voluntarily; receiving two skeletons remain at posts under first warder's new instruction, no attack. First warder claims V first of House to walk here in a very long time, expressing provisional belief, not independent lineage proof. Visible daylight from exterior ledge opening, ancient carved charter panel with protection/refuge/upkeep and limits on demanding service without protection, recognizable but not yet transcribed or fully decoded; three mechanical control levers and float gauge at north wall remain untouched. Cirren notes relevance of charter to V's newly proposed duty; no copies, bearing calculation or full translation yet. Warder leads to top of stairs toward lower chamber, party at southern gallery edge near(45,40), no descent into lower room or opening of its closed northern door(45,60). First warder calls down and speaks in V's favor, reporting claimant and provisional renewed protection duty. The second warder answers audibly from beyond door, challenges first warder's right to change ancient orders and asks for claimant's own explanation. Does not see party through door or know V's identity, no assent, attack, initiative, reinforcement or movement into party's space. First warder offers support, no automatic second allegiance. Day331~16:38. No roll: ordinary following and voluntary initial dialogue, not adjudicating second's contested allegiance. No new cost, resource, item, evidence custody or title change.",
+  "pending_action": "Day331~16:38 western Ossent service-house raised gallery x35..55,y10..40,z18. First warder provisionally allied guardian, leads V/Fenar/Cirren to southern gallery edge near(45,40) above lower stairs. First two skeletons remain in receiving hall under new non-detention orders; receiving entry open. Ancient charter panel visible, protection/refuge/upkeep and no service without protection themes noted but no transcription/complete translation/bearing yet; three marked mechanical controls and gauge untouched. Second warder replies from behind closed lower chamber door(45,60), challenges changed charge and wants claimant's explanation; no second allegiance or actual sight, no combat. Lower room fixed Wight(50,70), Skeletons(40,70)/(60,70), 2ft water, separate door, all unchanged. First warder supports V, but can't guarantee second's consent. V chooses response. Fixed prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291. Hessa friendly outside, ledge/outfall known, Mara/coach/four horses healthy. Conditional Crown grant not title, preserve ferrier rights. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, Day331 travel charged, cap2/2. No expense, rest, reward, new correspondence or custody. Prior pending records unchanged.",
+  "depends_on": [
+    "PLAY-REC-D331-FIRST-WARDER-ACCEPTS-PROVISIONAL-GUARDIAN-DUTY-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Routine consensual movement and initial independent NPC dialogue; no contested allegiance check."
+  },
+  "events": [
+    {
+      "event_id": "D331-FIRST-WARDER-LEADS-GALLERY-SECOND-CONTACT-001",
+      "accepted": true,
+      "evidence": "Exact player 'Follow' accepts the first warder's offered introduction to fellow warder, following him from receiving hall through east door and established20ft passage with6ft rise into unoccupied20x30 raised gallery. Fenar/Cirren follow voluntarily; receiving two skeletons remain at posts under first warder's new instruction, no attack. First warder claims V first of House to walk here in a very long time, expressing provisional belief, not independent lineage proof. Visible daylight from exterior ledge opening, ancient carved charter panel with protection/refuge/upkeep and limits on demanding service without protection, recognizable but not yet transcribed or fully decoded; three mechanical control levers and float gauge at north wall remain untouched. Cirren notes relevance of charter to V's newly proposed duty; no copies, bearing calculation or full translation yet. Warder leads to top of stairs toward lower chamber, party at southern gallery edge near(45,40), no descent into lower room or opening of its closed northern door(45,60). First warder calls down and speaks in V's favor, reporting claimant and provisional renewed protection duty. The second warder answers audibly from beyond door, challenges first warder's right to change ancient orders and asks for claimant's own explanation. Does not see party through door or know V's identity, no assent, attack, initiative, reinforcement or movement into party's space. First warder offers support, no automatic second allegiance. Day331~16:38. No roll: ordinary following and voluntary initial dialogue, not adjudicating second's contested allegiance. No new cost, resource, item, evidence custody or title change.",
+      "before": "First warder accepts new charge and offers introduction.",
+      "after": "Party in gallery; visible panel and controls, second warder challenges changed duty from closed lower room, V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
