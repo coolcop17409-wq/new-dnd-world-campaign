@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-PLAYER-REDRAW-DOLGAUNT-DOLGRIM-HUNT-001",
+  "base_commit": "a8f2e8e7cfd4b9f833cdedaaab5cb6ea188c4184",
+  "source_checkpoint": "D331-1100-WESTERN-OSSENT-HILL-TRACK-GNOLL-HUNTERS-V-DECISION-001",
+  "destination_checkpoint": "D331-1100-WESTERN-OSSENT-DOLGAUNT-DOLGRIM-HUNT-V-DECISION-001",
+  "source_evidence": "Exact player 'Maybe redo the gnoll encounter to see if this works' authorizes a narrow correction of the unengaged Day331 encounter selection and circumstances to demonstrate RANDOM-ENCOUNTER-BREADTH-D331-001. Preserve every accepted travel, rest, communication, supply and resource result; do not replay occurrence9/type56/severity17, count an additional encounter, advance time, or erase original immutable chunk. Only its five-gnoll roster/initial sighting is superseded by this one replacement. Before selection, DM prepared the 27 weighted creature-group/activity candidates in selection_table below from nine 2014-family sourcebooks, campaign context (western Ossent temperate wooded hills, rough cartway, shaded rocky cuts), and candidate library @cc07d27238d415112b8f8fa52dafc700d81438d6; provisional relative weights 6/3/1 are design assumptions, not a census or new population canon. Actual visible Python secrets receipt batch22c19be77726e02186468edee7137ee4 d81 face47 maps row12 range46–48 Dolgaunt and dolgrims (ERLW): aberrant foraging party emerging from hillside refuge, hunting surface prey. They fit type56's organized predator alternative even though their printed creature type is aberration. No redraw for desired outcome. Exact complete statblocks read in 5etools mirror data/bestiary/bestiary-erlw.json blob5a16d86a3175eaeb333dec8900ee67a25c100d6f, ERLW pp290–291, no _copy or template. One Dolgaunt CR3 (700XP), two Dolgrims CR1/2 (100 each) =900base×2=1800 adjusted XP for three combat characters, below 2250 medium threshold, consistent with manageable band. Composition chosen by DM within the fixed selected group/severity, not an additional rolled result. New local ecology: a finite three-creature aberrant hunting band inhabits a rocky hillside refuge, pursuing surface prey; no imported Eberron/Daelkyr nation, deity, specific plane, fresh portal, canon biological crossbreeding, named faction or ancestry link. Existing source/campaign lore allows Convergence-adapted populations. At same Day331~11:00 roughly5/12 rough miles, Mara stops coach on same general hill track, after hearing disturbance below the road. Visible downhill rocky hollow on right is about10ft lower than cartway; rough scrubbed slope between, difficult terrain off track; rock outcrops and trunks provide actual cover where applicable; road not blocked, route back open and road ahead physically passable at this instant. A dead deer lies near a dark rock fissure at ~65ft from nearest edge of coach/party group. An eyeless, sinewy dolgaunt with long shoulder tentacles stands near deer, two squat four-armed, two-mouthed dolgrims with shield and weapons accompany it. Fixed initial positions relative to road edge nearest halted coach: dolgaunt roughly65ft downhill, dolgrim A roughly55ft downhill/right, dolgrim B roughly75ft near fissure; sightlines unobstructed at initial visible positions, nearby rocks/trees permit cover by actual movement, no automatic cover for all. Exact PC combat squares to establish before initiative according to actual actions. Dolgaunt's 120ft blindsight can detect exposed coach/party within range; no through-wall sensing. Dolgrim A looks at horses and barks to companions. Band hostile/opportunistic toward potential prey; no attack, forced movement, surprise, initiative, chase, captive rescue or quest imposed. Fenar observes strange creatures, Mara holds reins, Cirren readies shield. V has not moved, spoken, acted or spent anything, may fight, keep driving, retreat or otherwise respond. Day/time, encounter caps, purse, provisions and all pools remain unchanged. No D331 day consumption or current night rest yet. Original encounter sighting is audit-only to extent superseded; original journey/rest and raw prior dice remain valid and must be applied exactly once. New checkpoint replaces only encounter setup.",
+  "pending_action": "Day331~11:00 western Ossent rough hill cartway,53/60 planned miles traveled,7 rough miles remain. PLAYER-AUTHORIZED replacement encounter ONLY: no gnolls present; original Day331 travel/rest/occurrence9/type56/severity17 preserved, original encounter sighting superseded, new genuine weighted d81=47 selects dolgaunt+dolgrims. Three finite hostile hunters in downhill rocky hollow ~10ft below road, dead deer near fissure; dolgaunt~65ft, dolgrim A~55ft right, dolgrim B~75ft near fissure, positions relative nearest party/coach edge; road itself clear, rough slope difficult, rock/tree cover situational. They detect approaching coach, dolgrim A eyes horses and calls to band; no attack/initiative/surprise/PC exact movement. Dolgaunt AC16 HP33 move40 blindsight120 (blind beyond), +6 tentacle reach15 1d6+4 grapple escape12 Large/smaller, two tentacles, 2 tentacles+2 unarmed strikes multiattack (+6 reach5 1d4+4), may replace up to2 tentacle attacks with Vitality Drain DC11 CON 2d8 necrotic on failed save and regain half damage to self, Evasion, blinded immune, languages Deep Speech/Goblin. Dolgrims A/B AC15 HP13 each move30 darkvision60, Multiattack three attacks, +4 morningstar 1d8+2, spear 1d6+2 (two hands melee1d8+2, range20/60), hand crossbow1d6+2 range30/120, Dual Consciousness advantage on saves vs blinded/charmed/deafened/frightened/stunned/unconscious, Deep Speech/Goblin. Exact ERLW pp290–291 source blob5a16d86a3175eaeb333dec8900ee67a25c100d6f. No imported source setting canon, no automatic identification by V. 900base/1800adjusted XP; manageable. V/Cirren/Fenar with stopped coach, Mara/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 Boots/+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia. Purse2037gp8sp6cp rations15/feed20 LR2/6; Day331 full day charge not yet posted; cap2/2 encounter days consumed, skip further occurrence today, next ordinary travel day mandatory quiet if continuing consecutively. Prior D330 captives with relatives, report received, no arrests. Tavosk notice, royal decision, Desen enforcement, Kestrel and investigative custody, unaccepted business terms, restitution, conditional western grant not title, Mara survey, Coris/Crown commissions,520gp magical balances due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged. V chooses response to replacement scene; no new time, expense, rest, spell, HP, supplies, arrival or outcome.",
+  "depends_on": [
+    "PLAY-REC-D331-HILL-TRACK-REST-TRAVEL-GNOLL-HUNTERS-SIGHTED-001"
+  ],
+  "selection_table": {
+    "policy": "RANDOM-ENCOUNTER-BREADTH-D331-001",
+    "source": "actual predeclared visible Python table",
+    "total_weight": 81,
+    "rows": [
+      {
+        "name": "Scout-led mixed-species poachers",
+        "source": "MM",
+        "weight": 6,
+        "range": [
+          1,
+          6
+        ],
+        "activity": "illegal hunting party protecting a fresh kill; threatening witnesses"
+      },
+      {
+        "name": "Gnoll hunters and flesh gnawers",
+        "source": "VGM",
+        "weight": 6,
+        "range": [
+          7,
+          12
+        ],
+        "activity": "pack pursuing a wounded animal across the hills, hostile to competing prey"
+      },
+      {
+        "name": "Hobgoblin Iron Shadow patrol",
+        "source": "VGM",
+        "weight": 6,
+        "range": [
+          13,
+          18
+        ],
+        "activity": "disciplined hostile raiders retrieving supplies from an abandoned lookout"
+      },
+      {
+        "name": "Orc Red Fang warband",
+        "source": "VGM",
+        "weight": 6,
+        "range": [
+          19,
+          24
+        ],
+        "activity": "armed splinter band hunting rivals through wooded terrain"
+      },
+      {
+        "name": "Ogre Chain Brute and Bolt Launcher",
+        "source": "MTF",
+        "weight": 3,
+        "range": [
+          25,
+          27
+        ],
+        "activity": "two marauders breaking open an overturned quarry cart"
+      },
+      {
+        "name": "Harengon brigands and snipers",
+        "source": "WBtW",
+        "weight": 3,
+        "range": [
+          28,
+          30
+        ],
+        "activity": "mobile horse thieves working from steep banks and hedges"
+      },
+      {
+        "name": "Kraul warriors",
+        "source": "GGR",
+        "weight": 3,
+        "range": [
+          31,
+          33
+        ],
+        "activity": "insectoid raiding party scaling rocky woodland terrain to harvest supplies"
+      },
+      {
+        "name": "Redcaps",
+        "source": "VGM",
+        "weight": 3,
+        "range": [
+          34,
+          36
+        ],
+        "activity": "bloodthirsty fey seeking victims near a neglected trail"
+      },
+      {
+        "name": "Satyr thornbearers",
+        "source": "MOT",
+        "weight": 3,
+        "range": [
+          37,
+          39
+        ],
+        "activity": "violent splinter hunting party defending a wooded ravine from rivals"
+      },
+      {
+        "name": "Meazels",
+        "source": "MTF",
+        "weight": 3,
+        "range": [
+          40,
+          42
+        ],
+        "activity": "shadow-dwelling ambush predators in a shaded rocky cut"
+      },
+      {
+        "name": "Chokers",
+        "source": "MTF",
+        "weight": 3,
+        "range": [
+          43,
+          45
+        ],
+        "activity": "cooperative tentacled predators hunting from overhanging rock and roots"
+      },
+      {
+        "name": "Dolgaunt and dolgrims",
+        "source": "ERLW",
+        "weight": 3,
+        "range": [
+          46,
+          48
+        ],
+        "activity": "aberrant foraging party emerging from a hillside refuge, hunting surface prey"
+      },
+      {
+        "name": "Blood-toll harpy flock",
+        "source": "MOT",
+        "weight": 3,
+        "range": [
+          49,
+          51
+        ],
+        "activity": "flying predators feeding around a cliff ledge, attacking approaching prey"
+      },
+      {
+        "name": "Two-headed cerberus pack",
+        "source": "MOT",
+        "weight": 3,
+        "range": [
+          52,
+          54
+        ],
+        "activity": "feral descendants of guardian beasts hunting together through the scrub"
+      },
+      {
+        "name": "Verbeeg marauder with a hunting animal",
+        "source": "IDRotF",
+        "weight": 3,
+        "range": [
+          55,
+          57
+        ],
+        "activity": "giant predator moving livestock carcasses to a concealed feeding place"
+      },
+      {
+        "name": "Goliath warrior raiders",
+        "source": "IDRotF",
+        "weight": 3,
+        "range": [
+          58,
+          60
+        ],
+        "activity": "violent independent band holding a rocky overlook after a feud"
+      },
+      {
+        "name": "Darkling elder and darklings",
+        "source": "VGM",
+        "weight": 3,
+        "range": [
+          61,
+          63
+        ],
+        "activity": "light-sensitive hostile fey taking refuge in a heavily shaded ravine"
+      },
+      {
+        "name": "Firbolg primeval warden and armed followers",
+        "source": "BGG",
+        "weight": 3,
+        "range": [
+          64,
+          66
+        ],
+        "activity": "violent territorial splinter group attacking travelers near its woodland boundary"
+      },
+      {
+        "name": "Rubblebelt stalkers",
+        "source": "GGR",
+        "weight": 3,
+        "range": [
+          67,
+          69
+        ],
+        "activity": "mixed-species predators using old masonry and ruined walls as a hunting ground"
+      },
+      {
+        "name": "Leucrotta with hyenas",
+        "source": "VGM/MM",
+        "weight": 3,
+        "range": [
+          70,
+          72
+        ],
+        "activity": "mimicking predator directing a small scavenger pack near a grassy clearing"
+      },
+      {
+        "name": "Duergar stone guards and soulblade",
+        "source": "MTF",
+        "weight": 3,
+        "range": [
+          73,
+          75
+        ],
+        "activity": "hostile prospectors emerging from a shaded quarry-like fissure"
+      },
+      {
+        "name": "Meenlocks",
+        "source": "VGM",
+        "weight": 1,
+        "range": [
+          76,
+          76
+        ],
+        "activity": "terror predators operating from a deep shaded burrow mouth"
+      },
+      {
+        "name": "Quicklings",
+        "source": "VGM",
+        "weight": 1,
+        "range": [
+          77,
+          77
+        ],
+        "activity": "malicious fast-moving fey harrying living prey from dense woodland"
+      },
+      {
+        "name": "Barghest with a goblin accomplice",
+        "source": "VGM/MM",
+        "weight": 1,
+        "range": [
+          78,
+          78
+        ],
+        "activity": "a predatory fiend and its collaborator pursuing prey near abandoned stonework"
+      },
+      {
+        "name": "Derro raiding party",
+        "source": "MTF",
+        "weight": 1,
+        "range": [
+          79,
+          79
+        ],
+        "activity": "small hostile cave-dwelling expedition moving between shaded rock shelters"
+      },
+      {
+        "name": "Nilbog and goblins",
+        "source": "VGM/MM",
+        "weight": 1,
+        "range": [
+          80,
+          80
+        ],
+        "activity": "chaotic goblin raiders following a dangerous possessed leader"
+      },
+      {
+        "name": "Spell-scarred assassins",
+        "source": "ERLW",
+        "weight": 1,
+        "range": [
+          81,
+          81
+        ],
+        "activity": "magically altered independent killers hunting a rival who passed through the hills"
+      }
+    ],
+    "selected_row": 12,
+    "selected_face": 47,
+    "source_record_pins": {
+      "ERLW": "5a16d86a3175eaeb333dec8900ee67a25c100d6f",
+      "VGM": "096692c78697e6eb42fa2133565afca0a2a40baf",
+      "MTF": "acfdc49a791dda52bbc4907e66aae370406f6f94",
+      "WBtW": "494891a722880f73df874bc9bfe7f94ebe468c90",
+      "GGR": "6e4f5f96c589e9fbc2fd1d7c2dc1667f6e234fcd",
+      "MOT": "e4f63016f56d9e8c300265da463a6d6eab35b85e",
+      "IDRotF": "c1343f0009fbde585b5f7af05e6b92fb041dbefb",
+      "BGG": "00b7e9989ee8ece1e5eabe84dfcfbe37ab2fb98e",
+      "MM": "existing verified campaign profiles; unselected accompanying entries require individual profile verification"
+    }
+  },
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "22c19be77726e02186468edee7137ee4",
+        "rolls": [
+          {
+            "id": "D331.western_crossing.player_authorized_encounter_identity_redraw",
+            "sides": 81,
+            "faces": [
+              47
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D331-PLAYER-AUTHORIZED-GNOLL-SIGHTING-REPLACED-DOLGAUNT-DOLGRIM-HUNT-001",
+      "accepted": true,
+      "evidence": "Exact player 'Maybe redo the gnoll encounter to see if this works' authorizes a narrow correction of the unengaged Day331 encounter selection and circumstances to demonstrate RANDOM-ENCOUNTER-BREADTH-D331-001. Preserve every accepted travel, rest, communication, supply and resource result; do not replay occurrence9/type56/severity17, count an additional encounter, advance time, or erase original immutable chunk. Only its five-gnoll roster/initial sighting is superseded by this one replacement. Before selection, DM prepared the 27 weighted creature-group/activity candidates in selection_table below from nine 2014-family sourcebooks, campaign context (western Ossent temperate wooded hills, rough cartway, shaded rocky cuts), and candidate library @cc07d27238d415112b8f8fa52dafc700d81438d6; provisional relative weights 6/3/1 are design assumptions, not a census or new population canon. Actual visible Python secrets receipt batch22c19be77726e02186468edee7137ee4 d81 face47 maps row12 range46–48 Dolgaunt and dolgrims (ERLW): aberrant foraging party emerging from hillside refuge, hunting surface prey. They fit type56's organized predator alternative even though their printed creature type is aberration. No redraw for desired outcome. Exact complete statblocks read in 5etools mirror data/bestiary/bestiary-erlw.json blob5a16d86a3175eaeb333dec8900ee67a25c100d6f, ERLW pp290–291, no _copy or template. One Dolgaunt CR3 (700XP), two Dolgrims CR1/2 (100 each) =900base×2=1800 adjusted XP for three combat characters, below 2250 medium threshold, consistent with manageable band. Composition chosen by DM within the fixed selected group/severity, not an additional rolled result. New local ecology: a finite three-creature aberrant hunting band inhabits a rocky hillside refuge, pursuing surface prey; no imported Eberron/Daelkyr nation, deity, specific plane, fresh portal, canon biological crossbreeding, named faction or ancestry link. Existing source/campaign lore allows Convergence-adapted populations. At same Day331~11:00 roughly5/12 rough miles, Mara stops coach on same general hill track, after hearing disturbance below the road. Visible downhill rocky hollow on right is about10ft lower than cartway; rough scrubbed slope between, difficult terrain off track; rock outcrops and trunks provide actual cover where applicable; road not blocked, route back open and road ahead physically passable at this instant. A dead deer lies near a dark rock fissure at ~65ft from nearest edge of coach/party group. An eyeless, sinewy dolgaunt with long shoulder tentacles stands near deer, two squat four-armed, two-mouthed dolgrims with shield and weapons accompany it. Fixed initial positions relative to road edge nearest halted coach: dolgaunt roughly65ft downhill, dolgrim A roughly55ft downhill/right, dolgrim B roughly75ft near fissure; sightlines unobstructed at initial visible positions, nearby rocks/trees permit cover by actual movement, no automatic cover for all. Exact PC combat squares to establish before initiative according to actual actions. Dolgaunt's 120ft blindsight can detect exposed coach/party within range; no through-wall sensing. Dolgrim A looks at horses and barks to companions. Band hostile/opportunistic toward potential prey; no attack, forced movement, surprise, initiative, chase, captive rescue or quest imposed. Fenar observes strange creatures, Mara holds reins, Cirren readies shield. V has not moved, spoken, acted or spent anything, may fight, keep driving, retreat or otherwise respond. Day/time, encounter caps, purse, provisions and all pools remain unchanged. No D331 day consumption or current night rest yet. Original encounter sighting is audit-only to extent superseded; original journey/rest and raw prior dice remain valid and must be applied exactly once. New checkpoint replaces only encounter setup.",
+      "before": "D331 original accepted journey/rest/occurrence/type/severity and five gnolls sighted, no attack or choice yet.",
+      "after": "Only five-gnoll roster and encounter sighting superseded with genuine weighted table result one dolgaunt/two dolgrims; all original nonencounter outcomes intact, no extra encounter or elapsed time. Resume exact replacement scene.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
