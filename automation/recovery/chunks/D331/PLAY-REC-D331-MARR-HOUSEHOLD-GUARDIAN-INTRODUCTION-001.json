@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-MARR-HOUSEHOLD-GUARDIAN-INTRODUCTION-001",
+  "base_commit": "a4dc9c8dfe5fc39aebe4b83f2ca8d533e921774b",
+  "source_checkpoint": "D331-1642-WESTERN-OSSENT-RHEVAN-OSSRIC-CONSENT-NEIGHBOR-INTRODUCTION-001",
+  "destination_checkpoint": "D331-1650-WESTERN-OSSENT-MARRS-ACCEPT-GUARDIAN-TRIAL-V-DECISION-001",
+  "source_evidence": "Exact player 'Then lets make sure our neighbors know they are safe under your watch' authorizes actual introductions and assurance consistent with previously accepted guardian charge, no unrelated V promises or spending. V and companions return to surface, invite Hessa and her previously established husband to meet both warders. Both voluntarily meet at shaded abutment entrance; Rhevan and Ossric emerge into shade, weapons undrawn; all four skeletons remain at original posts. Hessa initially recoils, husband cautious. Rhevan apologetically explains changed purpose, Ossric promises household's home remains theirs and protection without service or tribute, consistent with V's existing orders; Cirren meaningfully Helps explain accepted agreement. Predeclared V Persuasion +7 advantage DC15 for cautious household acceptance; actual executed visible Python secrets receipt batch f4c12f2d2bb6c05c42674582a54c6729 d20 faces2,18 keep18+7=25 success. Hessa and husband agree to try coexistence and accept voluntary protection, not unconditional trust, guarantee of safety, legal approval of undead deployment or title. Husband asks about stone-wall mending, Ossric says he has had time to learn; this is NPC statement, not verified trade proficiency, quote or labor contract. No repair order, cost, wages, coercion, rent, new grant, structural inspection, property boundaries or evidence retrieval. Warders remain subject to actual 2014 traits including sunlight sensitivity, no automatic ability to safely resist predation certified. No new resource expenditure, attack or rest. Day331~16:50. V next action.",
+  "pending_action": "Day331~16:50 western Ossent service-house crossing, V/Cirren/Fenar, Hessa Marr and husband, Rhevan/Ossric at shaded surface abutment entrance. V introduced warders with Cirren Help; Persuasion adv2/18+7=25/DC15 success; Marr household cautiously accepts trial peaceful coexistence and voluntary protection, no surrender of rights/service/tribute, no guaranteed safety or permanent legal approval. Both warders voluntarily serve provisional guardian charge to protect free residents/travelers under Crown law, weapons undrawn; each pair of skeletons remains at receiving/lower chamber posts. No new duties, employment, wages, labor contract, certified repair proficiency or title. Husband asks about masonry, Ossric claims time to learn, unverified skill. Mara/coach/four horses healthy nearby. Site fixed prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291; collapsed bridge, receiving30x30, dry gallery20x30, lower30x20 with2ft water, open lower door, exterior ledge damaged, main approach traversable. Charter observed not copied, lower guarded records offered but not entered/collected; controls untouched; grant conditional, protect household dwelling/access/landing/return-channel rights. No structural survey, formal clearance, Crown approval, expenses, new reward or correspondence. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16; D331 travel charged cap2/2. Earlier correspondence/Desen/royal/estate/commission/custody unchanged. V chooses next action.",
+  "depends_on": [
+    "PLAY-REC-D331-WARDERS-CONSENT-NEIGHBOR-INTRODUCTION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "f4c12f2d2bb6c05c42674582a54c6729",
+        "rolls": [
+          {
+            "id": "D331.V.persuasion.marr_household.guardian_introduction",
+            "sides": 20,
+            "faces": [
+              2,
+              18
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D331-MARR-HOUSEHOLD-GUARDIAN-INTRODUCTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'Then lets make sure our neighbors know they are safe under your watch' authorizes actual introductions and assurance consistent with previously accepted guardian charge, no unrelated V promises or spending. V and companions return to surface, invite Hessa and her previously established husband to meet both warders. Both voluntarily meet at shaded abutment entrance; Rhevan and Ossric emerge into shade, weapons undrawn; all four skeletons remain at original posts. Hessa initially recoils, husband cautious. Rhevan apologetically explains changed purpose, Ossric promises household's home remains theirs and protection without service or tribute, consistent with V's existing orders; Cirren meaningfully Helps explain accepted agreement. Predeclared V Persuasion +7 advantage DC15 for cautious household acceptance; actual executed visible Python secrets receipt batch f4c12f2d2bb6c05c42674582a54c6729 d20 faces2,18 keep18+7=25 success. Hessa and husband agree to try coexistence and accept voluntary protection, not unconditional trust, guarantee of safety, legal approval of undead deployment or title. Husband asks about stone-wall mending, Ossric says he has had time to learn; this is NPC statement, not verified trade proficiency, quote or labor contract. No repair order, cost, wages, coercion, rent, new grant, structural inspection, property boundaries or evidence retrieval. Warders remain subject to actual 2014 traits including sunlight sensitivity, no automatic ability to safely resist predation certified. No new resource expenditure, attack or rest. Day331~16:50. V next action.",
+      "before": "Two warders consent to introduction; household has not met them.",
+      "after": "Actual peaceful introduction, successful persuasion and cautious household acceptance of protection; next V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
