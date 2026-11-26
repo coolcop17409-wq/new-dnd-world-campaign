@@ -12,8 +12,8 @@
     "campaign/continuity/campaign-state.md",
     "automation/handoffs/play-sync/results/PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002.json"
   ],
-  "blocker": "PR41 storage-path repair remains unmerged; both original explicit boundaries fail current trusted validation. Later D325–326 long-rest chunk is stored under D326 although ID derives D325; D326 return-to-storehouse chunk has malformed base_commit. Preserve originals; reviewed provenance/alias handling is required before dependent owner sync.",
-  "next_trigger": "Human-reviewed/authorized prerequisite repair applied and verified on main, then current claims/owners and full transport history recheck. Resume original boundary IDs with overlap deduplication; only after verified D316 owner checkpoint validate/queue later exact suffix under the existing maintenance request. No new player choice or approval needed for already authorized outcomes; no auto-merge.",
+  "blocker": "Original PR41 path correction applied and verified by readback. Actual retry assembled 32 compatibility entries; transport/owner application not yet verified. Later accepted suffix has reported path/base_commit validation defects.",
+  "next_trigger": "Check covering D308–316 workflow retry, transport and independent owner receipt; only then prepare remaining suffix. Do not resubmit overlapping D314. Review later immutable storage-path and base_commit discrepancies against exact provenance.",
   "latest_owner_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
   "latest_accepted_checkpoint": "D326-1715-ORSAVEN-COUNTING-SHOP-ROUTE-BROKER-CONTACT-PENDING-001",
   "accepted_suffix_entries": 100,
@@ -112,13 +112,40 @@
     "latest_event_id": "D328-DESEN-SORNELL-WORKER-SAFETY-CLOSING-001",
     "owner_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
     "owner_checkpoint_blob": "2ee65cdb30fb7906ebdccb3ce69fd91205b205a8",
-    "status": "blocked_pending_prerequisite",
-    "scope": "Extend existing request's later-checkpoint coverage through exact accepted Day328 14:41. Preserve all originals and resolve prerequisites/overlap before any later batch. Explicit request to revisit; no duplicate maintenance request or overlapping transport.",
+    "status": "retry_compatibility_journal_assembled_owner_sync_unverified",
+    "scope": "Revisit existing maintenance request through accepted Day328 14:41. Verify the original covering boundary retry and exact transport/worker/owner receipts; never reapply overlapping prefix. Then validate later accepted suffix causally and reconcile owning docs, checkpoint last.",
     "observations": [
       "Existing repair PR41 remains open draft and earlier boundaries are blocked; active.json empty does not mean saved owners are current.",
       "Newer cross-day chunks D326→327 and D327→328 are filed in destination-day directories, which differ from the first day in their IDs. Review these against canonical-path validation and exact provenance; no validator pass claimed."
     ],
     "cache_path": "runtime/SCENE_CACHE.md",
-    "verification_scope": "Latest exact recovery read and existing status receipts checked; full suffix structural validation not completed in this pause. No new gameplay, owner postings, tests, PR merge, or background execution claimed."
+    "verification_scope": "Latest exact recovery read and existing status receipts checked; full suffix structural validation not completed in this pause. No new gameplay, owner postings, tests, PR merge, or background execution claimed.",
+    "original_storage_path_repair": {
+      "status": "applied_on_main",
+      "application_commit": "38eab66f8be9b706e4291e52f6edc7ceda3570e7",
+      "tested_branch_commit": "acb702b2c07a8137da5d57477ae8c255fc197f1a",
+      "repair_pr": 41,
+      "verification": "Exact code and regression-test blobs read back on main; original nine pinned boundary entries, mode, original boundary and relevant unchanged dependencies compared to the previously tested commit. No fresh local Python suite claimed.",
+      "retry": {
+        "request_id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
+        "run_id": 45343583816,
+        "attempt": 2,
+        "status": "in_progress",
+        "conclusion": null,
+        "overlap": "D314 boundary is exact 9-record prefix of existing 32-record D308–316 boundary. Neither had transport PR at initial discovery. Retry only covering existing ID; keep D314 intact; do not retry overlapping prefix separately.",
+        "compatibility_journal": {
+          "observed_at_main": "e98dfe1720e7b6ad613db1de6937334cd44fc8cc",
+          "entries": 32,
+          "trigger": {
+            "ready": true,
+            "reason": "quest_milestone",
+            "request_id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
+            "last_recovery_id": "PLAY-REC-D316-V-ACCEPTS-OSSENT-DIPLOMATIC-INVITATION-MANDATE-001",
+            "destination_checkpoint": "D316-1420-CAERETH-OSSENT-INVITATION-ACCEPTED-DEFENSE-TALKS-001"
+          },
+          "blob": "924e17c696361161b04e9eba3c871ed1156e18d0"
+        }
+      }
+    }
   }
 }
