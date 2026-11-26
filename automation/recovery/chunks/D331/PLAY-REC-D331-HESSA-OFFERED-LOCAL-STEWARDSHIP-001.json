@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-HESSA-OFFERED-LOCAL-STEWARDSHIP-001",
+  "base_commit": "1269c326290bed660b67e1128f3622eb470cd975",
+  "source_checkpoint": "D331-1857-WESTERN-OSSENT-HESSA-CROSSING-TRADE-DISCUSSION-V-DECISION-001",
+  "destination_checkpoint": "D331-1858-WESTERN-OSSENT-HESSA-PROSPECTIVE-STEWARDSHIP-TERMS-PENDING-001",
+  "source_evidence": "Exact player 'I smile, and say: How would you like to be my steward for this area?' offers Hessa Marr prospective local stewardship of V's intended service-house holding. Hessa is surprised, consults her husband's expression, and expresses genuine interest in accepting. She cites managing the household, independent ferry accounts and merchant dealings, knowing local people and opportunities; candidly acknowledges no previous noble-estate management. She wants to preserve her family's independent ferry and home, and asks for a fair paid arrangement and clarity that her remit would include the service-house restoration, development of local trade, and coordination with the guardians. She is willing to prepare a practical initial plan and seek work proactively if appointed. This is an interested conditional acceptance of the possibility, NOT a finalized hiring, wage, authority to spend, new operating account, commercial transaction, automatic estate title or transfer of ferry rights. No roll: ordinary willing response to a credible mutually beneficial offer, not a contested concession. V chooses terms/response. Day331~18:58.",
+  "pending_action": "Day331~18:58 western Ossent service-house crossing, V/Cirren/Mara/Fenar beside Hessa's cottage, stationary coach/four healthy horses nearby. V offered Hessa local steward position; Hessa genuinely interested, candid about lack of previous noble-estate management, willing to plan restoration/develop trade/coordinate guardians proactively under fair paid terms preserving her independent family ferry/home and existing resident rights. No appointment finalized, wage, spending authority, operating balance, estate ownership or title conveyance yet; V chooses terms/response. Both warders Rhevan/Ossric provisionally protect free residents/travelers under Crown law, each with2 skeletons, Marrs cautiously accept trial coexistence. Drainage safely restored, inlet shut, relief cleared/open, main open, lower chamber substantially drained; ferry/landing undamaged. Damaged exterior ledge and structural safety/parcel inspection, Crown verification pending; conditional grant not title. Mara holds two incised record leaves, ceramic container and ONE historic coffer coins~180gp metal-equivalent/keepsakes in documented preservation/valuation custody, no spendable cash/title; Mara/Cirren hold evidence copies, in-place instrument/dedication/charter remain. Outer loading district corroborated as heart's last documented recovery/packing site; neither warder can identify particular heart or V's childhood, father/speaker/function/origin unresolved. Ancestral approach WNW bearing, no exact distance/route; western customs station records optional. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, Day331 charges applied cap2/2. Coris documentary300/field800 contingent, Crown300+1300 contingent, commission520 due actual completion target353; prior correspondence/estate/diplomatic/custody unchanged. No new rest, reward or expenditure.",
+  "depends_on": [
+    "PLAY-REC-D331-HESSA-CROSSING-TRADE-LOCAL-KNOWLEDGE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary NPC expression of interest in a prospective mutually beneficial position; no disputed concession or finalized employment terms."
+  },
+  "events": [
+    {
+      "event_id": "D331-HESSA-OFFERED-LOCAL-STEWARDSHIP-001",
+      "accepted": true,
+      "evidence": "Exact player 'I smile, and say: How would you like to be my steward for this area?' offers Hessa Marr prospective local stewardship of V's intended service-house holding. Hessa is surprised, consults her husband's expression, and expresses genuine interest in accepting. She cites managing the household, independent ferry accounts and merchant dealings, knowing local people and opportunities; candidly acknowledges no previous noble-estate management. She wants to preserve her family's independent ferry and home, and asks for a fair paid arrangement and clarity that her remit would include the service-house restoration, development of local trade, and coordination with the guardians. She is willing to prepare a practical initial plan and seek work proactively if appointed. This is an interested conditional acceptance of the possibility, NOT a finalized hiring, wage, authority to spend, new operating account, commercial transaction, automatic estate title or transfer of ferry rights. No roll: ordinary willing response to a credible mutually beneficial offer, not a contested concession. V chooses terms/response. Day331~18:58.",
+      "before": "Hessa describes crossing commerce and prospective opportunities.",
+      "after": "V offers stewardship, Hessa interested under terms to be agreed; no appointment or expense yet.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
