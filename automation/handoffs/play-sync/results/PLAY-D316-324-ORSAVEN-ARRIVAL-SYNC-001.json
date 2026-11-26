@@ -111,8 +111,8 @@
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2ce816c7f289dfac149221a2488878d9dac48f90/archive/continuity/accepted-PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001.json",
     "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2ce816c7f289dfac149221a2488878d9dac48f90/archive/continuity/campaign-state-before-PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001.md"
   ],
-  "cleanup_status": "pending exact verified compatibility prune",
-  "generated_view_status": "derived-pending; owners verified independently",
+  "cleanup_status": "complete: 18 exact verified compatibility entries pruned; all immutable original chunks/boundaries and newer suffix retained",
+  "generated_view_status": "verified: Day324 checkpoint, V319236cp, tracker PASS; generated commit f3ec07e",
   "immutable_provenance": {
     "pinned_commit": "e6541bc7328957ded23bbe8d8b1546dff804dda8",
     "journal_digest": "166e2ae993e05bec71d373280c71da8ddcf48a7625696eece285626a6862078c",
