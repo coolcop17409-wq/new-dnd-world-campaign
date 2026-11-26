@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D331-CUSTODIAN-DESCRIBES-ANCIENT-CHARGE-001",
+  "base_commit": "9d118b92eaa9f69ce4cbc86432488018301d7122",
+  "source_checkpoint": "D331-1630-WESTERN-OSSENT-VAISHNAVI-NAME-CUSTODIAN-QUESTIONS-RELIEF-001",
+  "destination_checkpoint": "D331-1630-WESTERN-OSSENT-CUSTODIAN-DESCRIBES-CHARGE-V-DECISION-001",
+  "source_evidence": "Exact player 'To be frank, I don't know what your charge is. My memory is lacking' V admits ignorance of warder's charge and lacking memory, no command, promise, identity verification or entry. Custodian responds with contemptuous suspicion and describes its historical charge in its own words: safeguarding House possessions and persons placed in custody, prohibiting departure without proper authority. Cirren independently asks whether prisoners or refugees; custodian insists they were wards and departure forbidden. This is bounded testimony of the warder's own local duties and perspective, consistent with fixed refuge-then-confinement history in dm-estate-ancestry.md; not independent proof of exact orders, father's involvement, later victim fate or V's identity. It challenges whether V has authority to release what it guards. No door opening, entry, movement, combat, initiative, check, expenditure, proof or new magical revelation. Fenar remains ready at the closed threshold. V next response.",
+  "pending_action": "Day331~16:30 service-house receiving threshold, Fenar at front, V behind, Cirren following; barred entry closed. V invoked Seventh Seat then named Valenthia Vaishnavi, now admits lacking memory and knowledge of charge. Custodian knows House name not V identity, describes guarding possessions and wards, prohibiting departure, insists on authority; Cirren asks refugee vs prisoner distinction. Hostile warder not relieved, no verified authority or compliance. V chooses response/action. In-place Vaishnavi refuge dedication recognized, not copied; later bars/gouges. Hessa friendly outside, knows exterior ledge and landing outfall; Mara/coach/four horses healthy. Fixed private prep dm-estate-ancestry.md @f4b7f371448c8ef2d2b5f3c3467ac843b8b0f291: receiving 30x30 x−15..15,y0..30,z12 Wight(0,20), Skeletons(-10,15)/(10,15), entry(0,0); gallery empty via20ft corridor, separate lower Wight+2 Skeletons, no room entry/initiative. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren43/51 AC19 HD6/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. LR0/6 purse2037gp8sp6cp rations12/feed16, D331 travel charged, leg cap2/2. Conditional grant not title, protects ferrier rights. Earlier correspondence/Desen/royal/estate/diplomatic/commission/custody unchanged.",
+  "depends_on": [
+    "PLAY-REC-D331-V-NAMES-VAISHNAVI-CUSTODIAN-QUESTIONS-PURPOSE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary dialogue about the custodian's own historical charge, no contested authority or persuasion check."
+  },
+  "events": [
+    {
+      "event_id": "D331-CUSTODIAN-DESCRIBES-ANCIENT-CHARGE-001",
+      "accepted": true,
+      "evidence": "Exact player 'To be frank, I don't know what your charge is. My memory is lacking' V admits ignorance of warder's charge and lacking memory, no command, promise, identity verification or entry. Custodian responds with contemptuous suspicion and describes its historical charge in its own words: safeguarding House possessions and persons placed in custody, prohibiting departure without proper authority. Cirren independently asks whether prisoners or refugees; custodian insists they were wards and departure forbidden. This is bounded testimony of the warder's own local duties and perspective, consistent with fixed refuge-then-confinement history in dm-estate-ancestry.md; not independent proof of exact orders, father's involvement, later victim fate or V's identity. It challenges whether V has authority to release what it guards. No door opening, entry, movement, combat, initiative, check, expenditure, proof or new magical revelation. Fenar remains ready at the closed threshold. V next response.",
+      "before": "Custodian asks if V comes to relieve it.",
+      "after": "V admits memory lacks knowledge, custodian describes charge and detention; V next decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
