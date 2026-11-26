@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D328-DESEN-SORNELL-DISCREET-CONTACT-ASSURANCES-PENDING-001",
+  "base_commit": "4f1891c86126e96f22b31675ef99b16e3ed5063b",
+  "source_checkpoint": "D328-1230-ORSAVEN-DESEN-HARTHVALE-BRIEFED-SORNELL-CONTACT-CHOICE-001",
+  "destination_checkpoint": "D328-1325-ORSAVEN-DESEN-SORNELL-ASSURANCES-REPLY-PENDING-001",
+  "source_evidence": "Day328~13:25 exact player 'I will come' accepts accompanying Desen for a discreet voluntary approach to Berric Sornell, not an immediate public confrontation, promise, payment or signed agreement. Desen advises preserving V's cover and sends a plainclothes Watch messenger to privately invite Sornell to speak with Desen and V about his concerns in a neutral private room, without announcing the investigation to other workers; ordinary actual messenger contact with Sornell at storehouse1 is completed and messenger returns to annex. Before roll DM fixed independent willingness d20:1–5 declines,6–10 requests assurances first,11–20 agrees to private conversation. Actual user-visible Python secrets receipt batch e7bb13d636abbe6699ce63b674de13cf d20 face6: Sornell does not yet accept interview and sends reply asking whether he can speak without being publicly identified, whether he is free to leave afterward, and what happens to his promised settlement. He has not confessed, resigned, agreed to testify, surrendered records, or claimed a specific threat. Desen states that he can arrange a confidential voluntary interview and consider lawful witness protection if there is a credible danger, but cannot promise immunity, conceal evidence from a court, or guarantee payment of Sornell's private settlement. Desen asks whether V has anything to add before he sends those assurances. No additional messenger dispatch yet, no actual interview or guaranteed protection, no new financial commitment, no transfer of records, no Harthvale knowledge or alarm established. Ordinary elapsed time only; no new expenditure or resource change. V chooses next action.",
+  "pending_action": "Day328~13:25 Western District Watch annex, Orsaven. V/Mara/Cirren/Fenar with Sgt Rill Desen. V agrees to accompany discreet interview. Desen's messenger privately reached Sornell; genuine d20 face6 under predeclared willingness thresholds means Sornell asks assurances before accepting: confidentiality, voluntary freedom to leave, promised settlement. Desen can offer private voluntary interview and consider appropriate witness protection, not guarantee immunity, concealment from court or settlement payment; asks whether V has anything to add before sending reply. No interview, assent, surrender, protection arrangement, financial promise, arrest, new threat or dispatch of reply. Desen and customs examiner coordinating lawful inspection and record preservation, no verified warrant/seizure/arrest. V retains Harthvale signed nonbinding memorandum, Sallow invitation/referral, Tavosk6gp receipt and prior notes; no new Harthvale review notes actually written. Known scope lawful freight and undeclared luxury imports; member households Dunmere/Rellwick/Branthor; Harthvale, Vaskel, Sornell, Holtwick, seven other escorts/four participating hands; three boats/two leased storehouses/rented office. Halvessa conditional250gp exclusivity offer unpaid/unaccepted; proposed250gp capital contribution, vote and profit share unaccepted. Paid6gp single advance notice pending at Copper Hart; royal cooperation decision pending. Purse2039gp8sp6cp, rations21/feed28, LR4/6. V48/48 AC19 HD7/7 Sup4/4 Psi4/6 MP7/7 PastLife1/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers0/1 inactive cloak+Luckstone; dice delegated until stop. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 boots+1Shield no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 breastplate/Insignia; Mara healthy, coach/four horses at Copper Hart. Desen holds original36gp Lot27 invoice and14gp Tavosk acknowledgement, copy of notes, copies of Sallow referral and Tavosk receipt; Cirren signed evidence receipt. L-9 D321 purchasing instructions, D322 24gp receipt, matching Veldrake account; paymaster48gp held for restitution, none distributed; Quenwood life sentence upheld/assets frozen. No Harthvale involvement in murders or additional contraband proven. Existing Kestrel originals/custody and confidential copies, western conditional grant not deed, Coris300 and optional800 field, commissions520 due on actual completion target353, Elara Caereth and Severin assent unconfirmed unchanged.",
+  "depends_on": [
+    "PLAY-REC-D328-V-BRIEFS-DESEN-HARTHVALE-ASSOCIATION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "e7bb13d636abbe6699ce63b674de13cf",
+        "rolls": [
+          {
+            "id": "D328.Sornell.willingness_to_attend_private_Watch_interview",
+            "sides": 20,
+            "faces": [
+              6
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D328-DESEN-SORNELL-DISCREET-CONTACT-ASSURANCES-PENDING-001",
+      "accepted": true,
+      "evidence": "Day328~13:25 exact player 'I will come' accepts accompanying Desen for a discreet voluntary approach to Berric Sornell, not an immediate public confrontation, promise, payment or signed agreement. Desen advises preserving V's cover and sends a plainclothes Watch messenger to privately invite Sornell to speak with Desen and V about his concerns in a neutral private room, without announcing the investigation to other workers; ordinary actual messenger contact with Sornell at storehouse1 is completed and messenger returns to annex. Before roll DM fixed independent willingness d20:1–5 declines,6–10 requests assurances first,11–20 agrees to private conversation. Actual user-visible Python secrets receipt batch e7bb13d636abbe6699ce63b674de13cf d20 face6: Sornell does not yet accept interview and sends reply asking whether he can speak without being publicly identified, whether he is free to leave afterward, and what happens to his promised settlement. He has not confessed, resigned, agreed to testify, surrendered records, or claimed a specific threat. Desen states that he can arrange a confidential voluntary interview and consider lawful witness protection if there is a credible danger, but cannot promise immunity, conceal evidence from a court, or guarantee payment of Sornell's private settlement. Desen asks whether V has anything to add before he sends those assurances. No additional messenger dispatch yet, no actual interview or guaranteed protection, no new financial commitment, no transfer of records, no Harthvale knowledge or alarm established. Ordinary elapsed time only; no new expenditure or resource change. V chooses next action.",
+      "before": "Desen offers to approach Sornell or V can approach first.",
+      "after": "V agrees to accompany; messenger reaches Sornell, d20=6 requests assurances; Desen proposes limited lawful assurances and awaits V input before reply. No agreement or expenditure.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
