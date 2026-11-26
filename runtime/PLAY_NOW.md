@@ -1,32 +1,32 @@
 # LIVE PLAY — generated fast packet
 
 **Read-only convenience, NOT an authority or a record of new events.**
-Source: `campaign/continuity/campaign-state.md` (SHA256 `9fb9920ec6ce690b4d580be494b9315e6171f56caea65ae1e5216fcc8c5d6e81`).
-Dashboard SHA256: `68147c866254e647a798890a6ae7b86dd3ccfbd35408f4b3ec0d7ed704713db3`.
-Confirmed campaign day: **316**.
-Newest played event: `D316-V-ACCEPTS-CARRYING-CROWN-OSSENT-PRELIMINARY-INVITATION-001`.
+Source: `campaign/continuity/campaign-state.md` (SHA256 `070c0b61d8c91a5d8b7497721118606cac02a1914628fe79ff667c946cbcdbec`).
+Dashboard SHA256: `028a09cf70a9069f80ce421fccaad07b19642548557481a40d9d31ce8473dc7e`.
+Confirmed campaign day: **324**.
+Newest played event: `D324-V-ORSAVEN-COACH-ARRIVAL-001`.
 
 ## Exact playable checkpoint (verbatim from owner)
 
-CAMPAIGN_STATE — DAY 316 ~14:20 — CAERETH DEFENSE CONSULTATION
+CAMPAIGN_STATE — DAY 324 ~16:30 — ORSAVEN ARRIVAL
 
-CURRENT EXACT PLAYED CHECKPOINT — D316-1420-CAERETH-OSSENT-INVITATION-ACCEPTED-DEFENSE-TALKS-001; latest event D316-V-ACCEPTS-CARRYING-CROWN-OSSENT-PRELIMINARY-INVITATION-001.
+CURRENT EXACT PLAYED CHECKPOINT — D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001; latest event D324-V-ORSAVEN-COACH-ARRIVAL-001.
 
 EXACT PENDING ACTION:
-D316~14:20 Caereth palace defense consultation, V and Elara invited speakers with security councillor, advisers, Assembly representatives and general. V expressly accepts carrying confidential preliminary diplomatic invitation to appropriate Ossent authorities on his next planned Orsaven visit. Councillor thanks him and directs secretary to prepare a sealed Crown letter, authenticated messenger credentials for this limited delivery and recipient instructions through appropriate royal channels, for collection before departure; not yet drafted, issued or physically handed over, no date forced. Invitation proposes exploratory reciprocal frontier intelligence exchanges and possible joint inquiries without compromising either kingdom's Crown claims, sovereignty, fortress dispositions or existing commitments. No authority to negotiate or sign a treaty on Crown's behalf, guarantee acceptance, declare war, pledge troops/funds or publicly disclose Kestrel evidence. No fee or new payment agreed. Elara offers to maintain Caereth contact and follow consultation developments as standing Vaishnavi representative. General supports putting a limited preliminary invitation before proper Crown authority, not binding agreement or decision to deploy. Councillor moves to question of domestic emergency defense safeguards, seeks V's view on whether guildhall protocol can serve as local example; no new policy enacted. V48/48 AC19 HD7/7 all pools full Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Fenar59/59 AC14 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive; Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 boots; companions and coach/horses safe at Rethwyn residence, custody unchanged. Rest0/6 food21/feed28 purse2903gp4sp6cp, conditional240gp sale unpaid. Crown intelligence commission active remaining300+1300 contingent, liaison credentials V-held, Kestrel originals retained, Crown certified copies; Severin assent pending. Dice delegated until stop.
+D324~16:30 Orsaven, arriving via maintained westbound coach road from Crownsunder, at the city's eastern approach and ordinary entry into the city (not assumed western freight district). V authorized D323 purchase of 9 rations and 12 horse-feed units for5gp1sp; actual payment once purse3197gp4sp6cp→3192gp3sp6cp. D323 end-of-day charge and D324 full travel-day charge total6 ration-person-days and8 horse-feed units; supplies3+9−6=6 rations and4+12−8=8 feed (two days). D323 exposed camp night genuine90 vs7 quiet, uninterrupted qualifying wilderness SR and +1 weighted LR2→3/6; no full LR or further restoration, D324 daytime genuine71 vs15 quiet. Eight-day leg D317–324 completed, two encounter days D320/321 out of cap5; no D324 night/rest yet. Routine Tamsin contact D324 under standing instructions, no specific estate result inferred. Wool merchant travels with party until actual Orsaven entry, offers thanks and goes toward freight customers, no further escort contract or payment. V/Mara/Cirren/Fenar and coach/four horses healthy. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 cloak+Luckstone attuned; Cirren51/51 AC18 HD6/6 slots4/2/3 CD2/2 boots, no active spells; Fenar59/59 AC14 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40. V retains sealed Crown preliminary invitation and limited messenger credentials, separate intel commission introduction, Kestrel originals, ordinary raid loot19gp already in purse and unsold 1 scimitar,2 daggers,1 longsword,1 shortsword,1 heavy crossbow,1 studded leather,1 splint. Mara notes, Fenar six sealed reagents/instrument, Cirren private compact unchanged. Both D321 prisoners alive when handed over, subsequent outcome unknown. Crown commission remaining300+1300, Coris300/800 contingent, Elara Caereth, Severin reply unverified. No lodging selected/paid, no correspondence delivered or meeting obtained, no new quest offer. Available ordinary royal correspondence receiving office, existing scholarly contacts, commercial services and lodging. V decides first destination; dice delegated until stop.
 
-Source: PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002. Later immutable chunks through Day328 remain preserved and must be recovered before live continuation; this checkpoint records only this verified boundary. No newer played event is undone.
+Source: PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001. Later immutable recovery through Day328 remains preserved; recover it before live continuation. This boundary does not undo newer accepted play.
 
 ## Current character counters (CSV baselines + posted event overlay)
 
 Snapshot values support lookups; rule interpretations, contextual conditions, custody and exceptions remain in the owning records.
 
-- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 2903 gp 4 sp 6 cp.
-  - Resources: Martial Points 7/7; Psionic Energy Dice 6.0/6; Second Wind 1.0/1; Knowledge from Past Life 3.0/3; Psi Recovery 1.0/1; Hit Dice 7.0/7; Psychic Whispers free use 1.0/1; Action Surge 1.0/1; Superiority Dice 4.0/4
+- **Valenthia** — HP 48.0/48; AC 19; level 7. Personal purse 3192 gp 3 sp 6 cp.
+  - Resources: Martial Points 7.0/7; Psionic Energy Dice 6.0/6; Second Wind 1.0/1; Knowledge from Past Life 3.0/3; Psi Recovery 1.0/1; Hit Dice 7.0/7; Psychic Whispers free use 1.0/1; Action Surge 1.0/1; Superiority Dice 4.0/4
 - **Cirren** — HP 51.0/51; AC 18; level 6.
-  - Resources: Channel Divinity 2/2; Spell Slots (1st) 4.0/4; Spell Slots (2nd) 3.0/3; Hit Dice 6.0/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 3.0/3
+  - Resources: Channel Divinity 2/2; Spell Slots (1st) 4.0/4; Spell Slots (2nd) 2.0/3; Hit Dice 6.0/6; Harness Divine Power 1/1; Prepared Spells 11/11; Spell Slots (3rd) 3.0/3
 - **Fenar** — HP 59.0/59; AC 14; level 6.
-  - Resources: Rage 4.0/4; Shift 3.0/3; Hit Dice 6.0/6; Martial Points 6.0/6; Rage Recovery (RETIRED — NO ABILITY) 0/0
+  - Resources: Rage 3.0/4; Shift 3.0/3; Hit Dice 6.0/6; Martial Points 6.0/6; Rage Recovery (RETIRED — NO ABILITY) 0/0
 
 ## Fast-play guardrails
 
