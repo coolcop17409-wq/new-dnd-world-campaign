@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D334-CAUL-DESCRIBES-PROTECTION-AND-COERCIVE-TERMS-001",
+  "base_commit": "c6d49aee2e84e5e8ccebb5c24d81150dc1d46c8a",
+  "source_checkpoint": "D334-1956-CAUL-RECOGNIZES-V-COURT-RECORDS-LEVIES-EXAMINED-SETTLEMENT-OFFER-001",
+  "destination_checkpoint": "D334-1958-CAUL-CLAIMED-PROTECTIONS-AND-ENFORCED-BLOOD-TRIBUTE-V-DECISION-001",
+  "source_evidence": "Exact player 'What do you offer them?' asks Caul what her dependent subjects receive in exchange for imposed obligations. She claims security against marauders/creatures, road maintenance, market access, ability to distribute provisions in bad harvests, and accepts coin/labor/produce as contributions. These are her own claims about services, not an independently audited delivery history or new asset/expense. Cirren asks about blood tribute; she says blood contributors receive same protection, treats it as levy. When asked whether they may refuse, she acknowledges those already bound may not simply renounce obligations or depart without her consent, regards refusal as grounds for enforcement and argues durable protection requires enforceable allegiance. This is candid bounded disclosure of fixed coercive policy, not new individual atrocity, newly invented prisoner or verified exact rates. Cirren rejects treating a person's body as a tax obligation; Mara and Fenar observe. Caul's prior conditional offer of relinquishing customs tower in return for recognition of manor stewardship and subjects' obligations remains unaccepted. No player assent, negotiated reform, release, ownership, oath, roll, movement, combat, cost, rest or resource change. D334~19:58, V chooses reply.",
+  "pending_action": "Day334~19:58 Lady Caul manor private archive, V/Cirren/Mara/Fenar with Ysendre. V asks what she offers dependents. Caul claims protection, roads, markets and provision support; accepts labor/produce/coin and blood tribute, explicitly denies bound dependents freedom to refuse/leave without consent. Claims of service not independently audited. Cirren objects to treating bodily autonomy as tax obligation. Caul's conditional tower/manor settlement unaccepted; V chooses reply. Fixed manor geometry and roster retained as ashen-regency-field-operations-dm-only.md @6b58329ad8c128c24fd903edbfa0234362505e3c; gate/receiving Veterans, yard/stair Guards, counting Spy, castellan escort, two spawn cellar, Ysendre archive with party. No extra forces. Tower offscreen suspension delivered and obeyed, original4+3 patrol+Voss present, no wider report or permanence/restoration/bounty, party has not received that update. V chooses response. D333→334 qualifying overnight SR, wilderness1 unit LR3/6, no HP/HD or LR-only changes. Silverward now budgets six undead voluntary retainers at zero wages and ordinary food/rest costs, suitable labor coordinated by Hessa alongside defense with actual capability, agency, materials and duty coverage. No new work completed. Hessa5gp/actual workday from332, payday334; actual workdays, results, registration and funding pending. Conditional grant not deed; Marr independent rights intact; drainage restored, ledge and structural/parcel/legal verification outstanding. Rhevan/Ossric each2 skeletons, cooperative provisional protection. Mara holds 2 incised leaves, ceramic container, one coffer old coins~180gp metal-equivalent and keepsakes in documented preservation/valuation custody; no spendable cash/title; copies Mara/Cirren. Heart recovery district corroborated; WNW ancestral-seat bearing only; tower separate lead. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried, dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/horses healthy. LR3/6 purse2037gp8sp6cp rations3/feed4 after D334 full-day charges once; previous leg completed, D334 single-day manor leg complete, quiet d10050, cap0/1. Other pending estate, correspondence, Desen/royal, commission and custody records unchanged. No new resource use except D334 provisions; Hessa payable workday accounting pending, no wage payment or transfer inferred.",
+  "depends_on": [
+    "PLAY-REC-D334-SWORD-CORROBORATION-CAUL-RECOGNITION-COURT-ARCHIVE-REVIEW-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary informed NPC account of existing policy; no contested concession or uncertain action."
+  },
+  "events": [
+    {
+      "event_id": "D334-CAUL-DESCRIBES-PROTECTION-AND-COERCIVE-TERMS-001",
+      "accepted": true,
+      "evidence": "Exact player 'What do you offer them?' asks Caul what her dependent subjects receive in exchange for imposed obligations. She claims security against marauders/creatures, road maintenance, market access, ability to distribute provisions in bad harvests, and accepts coin/labor/produce as contributions. These are her own claims about services, not an independently audited delivery history or new asset/expense. Cirren asks about blood tribute; she says blood contributors receive same protection, treats it as levy. When asked whether they may refuse, she acknowledges those already bound may not simply renounce obligations or depart without her consent, regards refusal as grounds for enforcement and argues durable protection requires enforceable allegiance. This is candid bounded disclosure of fixed coercive policy, not new individual atrocity, newly invented prisoner or verified exact rates. Cirren rejects treating a person's body as a tax obligation; Mara and Fenar observe. Caul's prior conditional offer of relinquishing customs tower in return for recognition of manor stewardship and subjects' obligations remains unaccepted. No player assent, negotiated reform, release, ownership, oath, roll, movement, combat, cost, rest or resource change. D334~19:58, V chooses reply.",
+      "before": "Caul offers conditional settlement, V asks what she offers subjects.",
+      "after": "Caul explains claimed protections and compulsory tribute, including blood and restrictions on departure; V decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
