@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D334-SILVERWARD-001`: accepted western Ossent geo
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-26 15:08:55 UTC | previous_token=ADMIN-MAINT-D334-20261126-01 | result=VERIFIED_METADATA_BOUNDARY_PR47 | recovery=automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json
+CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D337-SILVERWARD-20261127-01 | worker=Atlas | operations=A1,A2,A3 | acquired_UTC=2026-11-27T08:07:06.438Z | heartbeat_UTC=2026-11-27T08:07:06.438Z | expires_UTC=2026-11-27T08:17:06.438Z | recovery=assets/README.md#atlas-review
