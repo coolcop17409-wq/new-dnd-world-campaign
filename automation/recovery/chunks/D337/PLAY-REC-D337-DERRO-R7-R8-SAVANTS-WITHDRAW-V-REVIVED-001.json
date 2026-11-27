@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R7-R8-SAVANTS-WITHDRAW-V-REVIVED-001",
+  "base_commit": "337ac14acf76cc132b9e9ff9fceab213162b363e",
+  "source_checkpoint": "D337-1130-DERRO-R6-V-OA-QUICK-TOSS-S2-2HP-R7-PENDING-001",
+  "destination_checkpoint": "D337-1130-DERRO-R8-V-REVIVED-SAVANTS-WITHDRAW-PURSUIT-PENDING-001",
+  "source_evidence": "Player 'Continue' resumes the corrected end R6. S2, wounded at2/36, independently prioritizes survival, casts Invisibility L2 2→1/3 (concentration) and retreats from(60,65,10) to(70,75,10), rough movement28.28ft, toward established fissure at(70,80,10). S1 casts L2 Burning Hands from(60,60,10), cone encompassing V(46,61,5) and unconscious F(46,65,10), both within15ft and cone width; V Dex d20=3+8=11/DC12 fails, F automatically fails Dex due unconsciousness, shared 4d6=1,1,6,2 total10 fire. V10→0/48 unconscious prone, no instant death, F remains0/59 and takes one death save failure (1→2 failures), no instant death. S1 L2 2→1/3; then moves to(65,70,10) along rough shelf, cost22.36ft. Actual batchcd2fde732c6a0665c5da2b814c6cc55e. Mara continues controlled backing to coach(0,-70), intact four horses. No V reaction triggered or resource expenditure.\n\nR7 C13 recognizes F is at two failed death saves, uses final L2 Healing Word BA on F within60ft, actual2d4=4,1+5=10, F0→10/59 conscious prone and both failures clear. C L2 1→0/3. Action Dash to V's side, from(15,50,0) to(42,59,5) across rough slope, conservative cost~57.8ft of60, within4.47ft of V. F11 stands (20ft), moves to(46,63,7) on lower ledge within5ft of V, cost~7.22ft, independently prioritizes V's survival over pursuit; action Medicine d20=13+2=15/DC10 success, V stabilized at0HP, death saves reset, no V death save on own R7 turn. F10/59 upright, no additional Rage/Shift/MP. C HP51/51 unchanged. Actual batch7cb1bffdd40e915abf87695e1512c856.\n\nR8 S1 and S2 continue their coordinated withdrawal instead of remaining exposed after loss of five members. S2 already invisible moves to fissure threshold and inward within movement allowance, S1 casts L2 Invisibility (1→0/3, concentration) and moves to threshold from(65,70,10) along shaded shelf (22.36ft movement), follows toward fissure. Both are now unseen, no confirmed safe escape, no exact unverified interior geometry or extra forces asserted; possible pursuit requires actual reconnaissance. No further enemy attack or damage. Mara continues cautious backing to coach(0,-80), healthy four horses intact. C13 at(42,59,5) casts L1 Healing Word BA on stable V within5ft, actual d4=1+5=6 HP, V0→6/48 conscious prone, no death failures, C L1 4→3/4 and L2/L3 0. C action Dodge, no movement, reaction available. F11 guards V/C at(46,63,7) with Ready one Double-Claw Rend if a visible hostile enters5ft and attacks party, reaction available, no roll or resource spend. Actual batch28293536e1cdd62459f389b7f28a8c80. R8 V6 now fresh turn, conscious prone. No V decision beyond 'Continue' assumed, no further healing, chase, retreat, loot or conclusion. Encounter not closed; pause for V choice.",
+  "pending_action": "Day337~11:30 R8 V initiative6, V(46,61,5)6/48 AC19 conscious prone, action BA reaction fresh, movement30ft stand15, MP3/7 Sup2/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone. Dice delegated. Galepierce at/by dead D3(55,45,5), uncollected. C(42,59,5)51/51 AC19 HD6/6 slots3/0/0 CD2/2 R8 action Dodge until next turn, BA spent reaction available, no concentration. F(46,63,7)10/59 AC16 HD6/6 Rage1/4 inactive Shift3/3 inactive MP2/6 CLIMB40 no THP, death saves reset, upright, R8 Ready double-claw rend on hostile within5ft attacking party, reaction available, no Reckless. Mara coach center(0,-80), intact healthy four horses. S1 36/36 AC13, L3 0/2 L2 0/3 L1 4/4, invisible concentration, last located at fissure threshold(70,80,10); S2 2/36 AC13 L3 0/2 L2 1/3 L1 4/4 invisible concentration, withdrawing beyond threshold, no verified interior geometry. Both alive, no extra foes asserted. S3/D1-D4 dead. Road clear, rocky slope difficult. Encounter unresolved; V decides pursue, hold position, withdraw, or other action; no chase or loot collected. D335 provisions17gp, D336 charge3/4, rations27/feed36, D337 charge pending, purse2020gp8sp6cp; LR0/6. Prior Caul/tower/Hessa/Silverward/ancestry/custody/commission facts unchanged per dependency, owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R6-V-OA-NORMAL-RANGE-QUICK-TOSS-CORRECTION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "cd2fde732c6a0665c5da2b814c6cc55e",
+        "rolls": [
+          {
+            "id": "D337.R7.S1.Burning_Hands_L2.V.Dex",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.R7.S1.Burning_Hands_L2.shared_damage",
+            "sides": 6,
+            "faces": [
+              1,
+              1,
+              6,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "7cb1bffdd40e915abf87695e1512c856",
+        "rolls": [
+          {
+            "id": "D337.R7.Cirren.Healing_Word_L2.Fenar",
+            "sides": 4,
+            "faces": [
+              4,
+              1
+            ]
+          },
+          {
+            "id": "D337.R7.Fenar.Medicine.stabilize_V",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "28293536e1cdd62459f389b7f28a8c80",
+        "rolls": [
+          {
+            "id": "D337.R8.Cirren.Healing_Word_L1.V",
+            "sides": 4,
+            "faces": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R7-SAVANTS-WITHDRAW-BURNING-HANDS-001",
+      "accepted": true,
+      "evidence": "Player 'Continue' resumes the corrected end R6. S2, wounded at2/36, independently prioritizes survival, casts Invisibility L2 2→1/3 (concentration) and retreats from(60,65,10) to(70,75,10), rough movement28.28ft, toward established fissure at(70,80,10). S1 casts L2 Burning Hands from(60,60,10), cone encompassing V(46,61,5) and unconscious F(46,65,10), both within15ft and cone width; V Dex d20=3+8=11/DC12 fails, F automatically fails Dex due unconsciousness, shared 4d6=1,1,6,2 total10 fire. V10→0/48 unconscious prone, no instant death, F remains0/59 and takes one death save failure (1→2 failures), no instant death. S1 L2 2→1/3; then moves to(65,70,10) along rough shelf, cost22.36ft. Actual batchcd2fde732c6a0665c5da2b814c6cc55e. Mara continues controlled backing to coach(0,-70), intact four horses. No V reaction triggered or resource expenditure.",
+      "before": "V10/48, F0 two foes visible, F1 failed save, S2 2HP.",
+      "after": "V0 unconscious, F0 two failures, S2 invisible retreat, S1 withdraws, coach -70.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R7-CIRREN-HEALS-FENAR-STABILIZES-V-001",
+      "accepted": true,
+      "evidence": "R7 C13 recognizes F is at two failed death saves, uses final L2 Healing Word BA on F within60ft, actual2d4=4,1+5=10, F0→10/59 conscious prone and both failures clear. C L2 1→0/3. Action Dash to V's side, from(15,50,0) to(42,59,5) across rough slope, conservative cost~57.8ft of60, within4.47ft of V. F11 stands (20ft), moves to(46,63,7) on lower ledge within5ft of V, cost~7.22ft, independently prioritizes V's survival over pursuit; action Medicine d20=13+2=15/DC10 success, V stabilized at0HP, death saves reset, no V death save on own R7 turn. F10/59 upright, no additional Rage/Shift/MP. C HP51/51 unchanged. Actual batch7cb1bffdd40e915abf87695e1512c856.",
+      "before": "V0 dying, F0 two failures, C L2 1/3.",
+      "after": "F10 conscious upright, V stable0, C L2 0/3, C/F adjacent V.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R8-SAVANTS-RETREAT-CIRREN-REVIVES-V-001",
+      "accepted": true,
+      "evidence": "R8 S1 and S2 continue their coordinated withdrawal instead of remaining exposed after loss of five members. S2 already invisible moves to fissure threshold and inward within movement allowance, S1 casts L2 Invisibility (1→0/3, concentration) and moves to threshold from(65,70,10) along shaded shelf (22.36ft movement), follows toward fissure. Both are now unseen, no confirmed safe escape, no exact unverified interior geometry or extra forces asserted; possible pursuit requires actual reconnaissance. No further enemy attack or damage. Mara continues cautious backing to coach(0,-80), healthy four horses intact. C13 at(42,59,5) casts L1 Healing Word BA on stable V within5ft, actual d4=1+5=6 HP, V0→6/48 conscious prone, no death failures, C L1 4→3/4 and L2/L3 0. C action Dodge, no movement, reaction available. F11 guards V/C at(46,63,7) with Ready one Double-Claw Rend if a visible hostile enters5ft and attacks party, reaction available, no roll or resource spend. Actual batch28293536e1cdd62459f389b7f28a8c80. R8 V6 now fresh turn, conscious prone. No V decision beyond 'Continue' assumed, no further healing, chase, retreat, loot or conclusion. Encounter not closed; pause for V choice.",
+      "before": "V stable0, F10, C L1 4/4, S1 visible S2 unseen.",
+      "after": "V6 conscious prone, C L1 3/4, both living savants invisible withdrawing into fissure, V next choice.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
