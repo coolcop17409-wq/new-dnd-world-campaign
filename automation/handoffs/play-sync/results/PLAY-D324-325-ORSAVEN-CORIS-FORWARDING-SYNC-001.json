@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "request_id": "PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001",
+  "status": "partial",
+  "phase": "claimed",
+  "claim_owner": "maintenance-pr47-20261127",
+  "claim_expires_at": "2026-11-27T15:29:22.000Z",
+  "request_commit": "95efd1be47dbe59108a1363ae3f4837f56f27537",
+  "request_blob": "7d3007744e8210fdc993c35883fa3777173dcad1",
+  "summary": "Scheduled fallback; exact pinned journal and25 historical prior manifests verified with current-main recovery_batch.verify. No prior central claim or owner application. Preparing21 accepted events, preserving newer recovery through338.",
+  "blocker": "verification in progress",
+  "applied_event_ids": [],
+  "owners_verified": false
+}
