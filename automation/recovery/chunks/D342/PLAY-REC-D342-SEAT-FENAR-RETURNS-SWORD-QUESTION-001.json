@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-FENAR-RETURNS-SWORD-QUESTION-001",
+  "base_commit": "be6ddf839e0bce8359ead23511dcc921e5eb3354",
+  "source_checkpoint": "D342-1652-SEAT-FENAR-UNARMED-APPROACH-ACCEPTED-001",
+  "destination_checkpoint": "D342-1653-SEAT-FENAR-RETURNED-SWORD-TEST-PENDING-001",
+  "source_evidence": "Exact player 'hmm come back… will they grant passage to my sword i wonder' requests Fenar's return and raises an exploratory question, not a command to send or relinquish V's sword, cross the gate, attack or disarm. Fenar voluntarily returns along same track to (0,75–77), retrieves her temporarily entrusted greataxe/Double-Claw Rend, two handaxes and four javelins from Mara at(0,70), gear custody restored; no attack, roll or change of ownership. Both stone defenders remain by arch, warning armed party. Cirren notes the visible presentation of the sword already failed to change their warning, but whether the blade alone would be treated differently cannot be known from that test; suggests a reversible test while V stays outside, if V wishes. No sword movement commanded or executed. Fixed prepared gate duty unchanged; no recognition or magical control inferred. V next decision; all other positions/resources unchanged.",
+  "pending_action": "D342~16:53 ancestral-seat outer court, daylight, V(0,82) ~28ft from gate guardians A(-5,110),B(5,110); Cirren/Fenar(0,75–77), Mara(0,70). Fenar safely returned and reclaimed all temporarily entrusted weapons, no Rage/Shift. Both guardians continue warning visibly armed party, no threshold crossing, attack or initiative. V wonders whether sword itself could pass; no test performed, sword remains with V. East breach unexamined, Mara holds cistern copy/sketch, household proof pending. Private fixed two Stone Defenders each HP52 AC16 speed30 full reactions. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/four horses and originals with Hessa, carried15 rations stored9 feed32 D342 charges applied purse1512gp3sp6cp LR1/6. Other estate, quest, custody facts unchanged; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-FENAR-UNARMED-GATE-TEST-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary return and retrieval of gear; ordinary discussion, no uncertain test."
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-FENAR-RETURNS-SWORD-QUESTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'hmm come back… will they grant passage to my sword i wonder' requests Fenar's return and raises an exploratory question, not a command to send or relinquish V's sword, cross the gate, attack or disarm. Fenar voluntarily returns along same track to (0,75–77), retrieves her temporarily entrusted greataxe/Double-Claw Rend, two handaxes and four javelins from Mara at(0,70), gear custody restored; no attack, roll or change of ownership. Both stone defenders remain by arch, warning armed party. Cirren notes the visible presentation of the sword already failed to change their warning, but whether the blade alone would be treated differently cannot be known from that test; suggests a reversible test while V stays outside, if V wishes. No sword movement commanded or executed. Fixed prepared gate duty unchanged; no recognition or magical control inferred. V next decision; all other positions/resources unchanged.",
+      "before": "Fenar unarmed outside arch, weapons with Mara.",
+      "after": "Fenar returns and reequips, V retains sword; next choice pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
