@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D334-SILVERWARD-001`: accepted western Ossent geo
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=SHOPS-D338-20261127-01 | worker=shops | operations=M338-01,M338-02 | acquired_UTC=2026-11-27T14:06:36.675Z | heartbeat_UTC=2026-11-27T14:06:36.675Z | expires_UTC=2026-11-27T14:16:36.675Z | recovery=trackers/csv/magic-shops/events.csv
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-27T14:08:10.646Z | previous_token=SHOPS-D338-20261127-01 | result=VERIFIED_MARKET_OWNERS | recovery=trackers/csv/magic-shops/events.csv
