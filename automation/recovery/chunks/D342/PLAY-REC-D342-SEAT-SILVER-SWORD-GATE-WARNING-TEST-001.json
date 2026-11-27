@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-SILVER-SWORD-GATE-WARNING-TEST-001",
+  "base_commit": "1885e313b32a073fbbe0a575d419cf11b244e0fe",
+  "source_checkpoint": "D342-1653-SEAT-FENAR-RETURNED-SWORD-TEST-PENDING-001",
+  "destination_checkpoint": "D342-1654-SEAT-SILVER-SWORD-WARNING-TEST-COMPLETE-001",
+  "source_evidence": "Exact player 'yes' accepts the immediately offered reversible test of sending his existing silver sword toward the entrance while V remains outside, not crossing the threshold, attacking, disarming permanently, or expending a feature. Under existing rules the tangible inherited sword floats at V's will; DM adjudicates this limited noncombat positioning toward the arch as a one-scene cosmetic test, not new established remote attack range, throw property, telekinesis or control mechanism. D342~16:54 V remains(0,82); sword floats slowly forward to approximately(0,102), stopping outside the gate arch. Both guardians turn their attention toward the approaching blade and maintain their existing warning toward the road; neither steps aside, salutes, acknowledges the sword or attacks. V brings the sword back to his side as completion of reversible test. Original fixed duty from prep/dm-only/dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167 unchanged: deny visibly armed intruders, no magical ancestry detection or control via name/seal. Observed evidence supports no special recognition or passage permission for presented blade; cannot conclusively establish response to sword actually crossing arch or reprogramming, neither tested. Cirren notes no visible sign they recognize it, suggests unarmed passage or inspecting exterior for original control instructions as possibilities, not guarantee such control exists. No roll, attack, initiative, change of custody, new spell, spend, damage or threshold crossing. Fenar's weapons all retained after previous test; all other party/estate/ancestry facts unchanged.",
+  "pending_action": "D342~16:54 ancestral-seat outer court daylight, V(0,82) armed, C/F(0,75–77), Mara(0,70), guardians A(-5,110),B(5,110), each HP52 AC16 full reactions, original bounded duty. V's silver sword floated briefly to(0,102) outside arch, guardians tracked it and retained warning, sword returned to V; no crossing, recognition, attack or initiative. Fenar earlier unarmed approach elicited no interception. East wall breach near(70,90) unexamined. Mara holds cistern rim copy/sketch, household proof pending. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/four horses and originals with Hessa, carried15 rations stored9 feed32 D342 charges applied purse1512gp3sp6cp LR1/6. V next choice; other estate, quest, custody facts unchanged; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-FENAR-RETURNS-SWORD-QUESTION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Player-authorized reversible nonattack sword presentation and deterministic warning; no gate crossing or uncertain mechanical check."
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-SILVER-SWORD-GATE-WARNING-TEST-001",
+      "accepted": true,
+      "evidence": "Exact player 'yes' accepts the immediately offered reversible test of sending his existing silver sword toward the entrance while V remains outside, not crossing the threshold, attacking, disarming permanently, or expending a feature. Under existing rules the tangible inherited sword floats at V's will; DM adjudicates this limited noncombat positioning toward the arch as a one-scene cosmetic test, not new established remote attack range, throw property, telekinesis or control mechanism. D342~16:54 V remains(0,82); sword floats slowly forward to approximately(0,102), stopping outside the gate arch. Both guardians turn their attention toward the approaching blade and maintain their existing warning toward the road; neither steps aside, salutes, acknowledges the sword or attacks. V brings the sword back to his side as completion of reversible test. Original fixed duty from prep/dm-only/dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167 unchanged: deny visibly armed intruders, no magical ancestry detection or control via name/seal. Observed evidence supports no special recognition or passage permission for presented blade; cannot conclusively establish response to sword actually crossing arch or reprogramming, neither tested. Cirren notes no visible sign they recognize it, suggests unarmed passage or inspecting exterior for original control instructions as possibilities, not guarantee such control exists. No roll, attack, initiative, change of custody, new spell, spend, damage or threshold crossing. Fenar's weapons all retained after previous test; all other party/estate/ancestry facts unchanged.",
+      "before": "Fenar returned; sword test proposed.",
+      "after": "Sword approached outside arch, guardians retain warning, sword returned safely. No granted passage.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
