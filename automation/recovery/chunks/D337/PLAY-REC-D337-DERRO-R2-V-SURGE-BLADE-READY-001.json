@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R2-V-SURGE-BLADE-READY-001",
+  "base_commit": "1ef1f497ecaf6a15ddae090202aa3080b538f628",
+  "source_checkpoint": "D337-1130-DERRO-R2-V-TURN-PLAN-BLOCKED-001",
+  "destination_checkpoint": "D337-1130-DERRO-R2-V-SURGE-D2-WOUNDED-READY-BA-MOVEMENT-PENDING-001",
+  "source_evidence": "Exact player 'yes' accepts the immediately preceding adjusted plan to attack with a normal-range Psychic Blade and Ready a second attack when an ally engages, despite no reachable established hiding cover or opening Sneak Attack. On R2 V initiative6, at(-5,25,0), V spends Action Surge1→0/1 for one Attack action against D2(35,65,0), distance56.57ft within60ft, half cover AC15, no advantage/disadvantage or adjacent ally. Actual visible Python secrets batch6527d7abeabc720ea55dcb7d424fa3a3 attack d20=12+9=21 hits; damage d6=1+DEX4=5 psychic, D2 HP13→8. No Sneak Attack, no Psi expenditure or bonus blade. V uses regular action Ready one main Psychic Blade (accepted D308 exception) on first perceivable opportunity when Fenar is within5ft of a visible hostile within60ft of V, legal line of effect and no disadvantage; reaction remains available, Sneak Attack assessed at trigger, held action expires at start of V's next turn if untriggered. No enemy/ally turns advance. V movement30ft and bonus action remain; no legal Hide assumed, no Second Wind or other resource spent, no movement newly chosen in adjusted plan. Pause before V ends turn to preserve these options. No other changes.",
+  "pending_action": "Day337~11:30 R2 V initiative6 still in progress, V(-5,25,0) HP17/48 AC19, regular action and Action Surge action spent, ActionSurge0/1, BA and reaction available, movement30ft remaining, holds readied main Psychic Blade when Fenar is within5ft of a visible hostile within60ft on clear legal line without disadvantage; assess Sneak Attack at trigger. V dice delegated, Galepierce carried. D2 HP8/13. Initiative S17 Mara15 C13 F11 V6 D5. C(-5,20,0)51/51 AC19 HD6/6 slots4/3/2 CD2/2 no concentration, R2 action/BA spent reaction available; F(10,45,0)27/59 AC16 HD6/6 Rage3/4 active Beast Claws, Shift3/3 inactive MP6/6 CLIMB40, no THP, speed30 until start of S2 R3 (Ray of Frost), R2 Dash spent BA/reaction available. Mara coach center(0,-20) healthy four horses safe, R2 backing done. S1(65,60,10)36/36 AC13+half cover from party, L3 0/2, R2 Lightning Bolt action spent reaction available, no concentration. S2(65,65,10)36/36 AC13 L3 1/2, R2 readied Ray of Frost discharged reaction spent concentration ended. S3(50,65,10)36/36 AC13 invisible concentration L2 2/3, R2 Dodge until start next turn; position DM-only. D1(35,55,0) dead0/13, D2(35,65,0) half cover AC15 vs party HP8/13, D3(55,45,5), D4(55,65,5) AC13 HP13/13, D2–D4 R2 not yet acted. Road clear, off-road rocky scrub difficult terrain, foes shaded. No ally within5ft of live enemy currently. V next choice remaining movement/BA or end turn. D335 purchases17gp,30/40 supplies; D336 consumed3/4, current rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. LR completed dawn337 now LR0/6. V17/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower in V practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers still pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds 2 original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul's historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign's child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site still needs preparation before expedition beyond Silverward. Other prior pending commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R1-MOVEMENT-R2-ALLY-TURNS-V-PENDING-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "6527d7abeabc720ea55dcb7d424fa3a3",
+        "rolls": [
+          {
+            "id": "D337.R2.V.Action_Surge.Psychic_Blade.D2.attack",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D337.R2.V.Action_Surge.Psychic_Blade.D2.damage",
+            "sides": 6,
+            "faces": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R2-V-SURGE-PSYCHIC-BLADE-READY-001",
+      "accepted": true,
+      "evidence": "Exact player 'yes' accepts the immediately preceding adjusted plan to attack with a normal-range Psychic Blade and Ready a second attack when an ally engages, despite no reachable established hiding cover or opening Sneak Attack. On R2 V initiative6, at(-5,25,0), V spends Action Surge1→0/1 for one Attack action against D2(35,65,0), distance56.57ft within60ft, half cover AC15, no advantage/disadvantage or adjacent ally. Actual visible Python secrets batch6527d7abeabc720ea55dcb7d424fa3a3 attack d20=12+9=21 hits; damage d6=1+DEX4=5 psychic, D2 HP13→8. No Sneak Attack, no Psi expenditure or bonus blade. V uses regular action Ready one main Psychic Blade (accepted D308 exception) on first perceivable opportunity when Fenar is within5ft of a visible hostile within60ft of V, legal line of effect and no disadvantage; reaction remains available, Sneak Attack assessed at trigger, held action expires at start of V's next turn if untriggered. No enemy/ally turns advance. V movement30ft and bonus action remain; no legal Hide assumed, no Second Wind or other resource spent, no movement newly chosen in adjusted plan. Pause before V ends turn to preserve these options. No other changes.",
+      "before": "V17/48, Action Surge1/1, action BA reaction movement30 available, D2 13/13.",
+      "after": "V17/48, Action Surge0/1, D2 8/13, both actions spent, readied Psychic Blade, BA reaction and movement30 available.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
