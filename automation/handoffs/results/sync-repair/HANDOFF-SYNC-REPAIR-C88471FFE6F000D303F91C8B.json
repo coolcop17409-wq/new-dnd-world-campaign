@@ -1,0 +1,10 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-C88471FFE6F000D303F91C8B",
+  "lane": "sync-repair",
+  "status": "partial",
+  "claim_owner": "opened-pr49-57dc13fc",
+  "claim_expires_at": "2026-11-27T15:29:00Z",
+  "summary": "Verifying already corrected checkpoint failure; repair-branch metadata only; respect active maintenance owner lease.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry"
+}
