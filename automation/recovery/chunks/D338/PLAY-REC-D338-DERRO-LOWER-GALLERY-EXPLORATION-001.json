@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-DERRO-LOWER-GALLERY-EXPLORATION-001",
+  "base_commit": "9da329e98d0a39e76d448bdf99a22f9750e6c1e8",
+  "source_checkpoint": "D338-0616-DERRO-ORE-SACKS-EXAMINED-DESCENT-PENDING-001",
+  "destination_checkpoint": "D338-0619-DERRO-LOWER-GALLERY-OBSTRUCTED-CRACK-PENDING-001",
+  "source_evidence": "Exact player 'keep descending' authorizes following the established rope passage to its next accessible chamber. Fenar independently checks visible anchor and rope condition and uses her retained climb adaptation to lead; passage is a steep but ordinary rough 25ft descent with reliable footholds, intact rope and anchor, not a free-hanging shaft or hazardous failed check. V and Cirren follow with rope and footholds, shield Light maintained, no ability check needed for ordinary assisted climbing, no feature or consumable spent. D338~06:16–06:19: reach lower working gallery approximately 70ft of passage from entrance, about25ft below upper chamber, 35ft long x15ft wide, 7–10ft high, two rough timber roof props near widened excavation, ore vein visibly continues through wall at this level; three short blind trial cuts end in solid worked stone and a deeper descending natural crack at the far end has rubble tightly packed across its opening. A simple rope basket and small wooden hand-winch for lifting ore sit near foot of descent. Approximately six filled baskets of unassayed gray metallic-looking rock arranged next to winch, no custody or value assigned. No additional creature observed, no sound of activity, no evidence of another occupied camp, ancient seat, magical object or hidden treasure. Cirren Detect Magic senses no unfamiliar magic within effective range; concentration expires naturally at~06:20 if no further extension. Fenar notes the packed rubble might be deliberate or a response to unstable rock; cannot tell without examination; no digging or moving props authorized. This is end of readily accessible worked mine, not proof of no deeper void or concealed path. Existing 7 dead Derro, prospecting evidence and unknown mineral/assay/title unchanged. No new roll, damage, loot transfer, feature use, supplies, healing or expenditure. Pause before disturbing rubble or conducting further search.",
+  "pending_action": "Day338~06:19 lower Derro working gallery, about70ft along passage from entrance and25ft below first chamber, accessible climb back via intact rope/footholds. Gallery35x15ft ceiling7–10ft, two timber props, continued metallic-looking vein, three blind trial cuts, simple ore winch/rope basket, six baskets of unassayed ore, packed rubble obstructing natural descending crack at far end, no new creature seen/heard. No assay, measured deposit, value or title. V48/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, Galepierce carried, dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 Detect Magic concentration until~06:20; Light shield until~07:10. F59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara with intact coach/four horses nearby road. Seven Derro dead; unclaimed10gp46sp, prior arms/tools/component pouches/tally/samples/bedding/three sacks and new ore baskets/winch remain on site. V decides examine obstruction, vein or other action. Rations24/feed32 D338 charge pending, purse2020gp8sp6cp LR0/6, Tamsin dawn contact accounted for. Prior estate, ancestry, commission, correspondence and custody facts unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D338-DERRO-ORE-SACKS-EXAMINED-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Routine assisted climb with secure rope and footholds; visible features observed without uncertain check. No rubble disturbance or detailed search."
+  },
+  "events": [
+    {
+      "event_id": "D338-DERRO-LOWER-GALLERY-EXPLORED-001",
+      "accepted": true,
+      "evidence": "Exact player 'keep descending' authorizes following the established rope passage to its next accessible chamber. Fenar independently checks visible anchor and rope condition and uses her retained climb adaptation to lead; passage is a steep but ordinary rough 25ft descent with reliable footholds, intact rope and anchor, not a free-hanging shaft or hazardous failed check. V and Cirren follow with rope and footholds, shield Light maintained, no ability check needed for ordinary assisted climbing, no feature or consumable spent. D338~06:16–06:19: reach lower working gallery approximately 70ft of passage from entrance, about25ft below upper chamber, 35ft long x15ft wide, 7–10ft high, two rough timber roof props near widened excavation, ore vein visibly continues through wall at this level; three short blind trial cuts end in solid worked stone and a deeper descending natural crack at the far end has rubble tightly packed across its opening. A simple rope basket and small wooden hand-winch for lifting ore sit near foot of descent. Approximately six filled baskets of unassayed gray metallic-looking rock arranged next to winch, no custody or value assigned. No additional creature observed, no sound of activity, no evidence of another occupied camp, ancient seat, magical object or hidden treasure. Cirren Detect Magic senses no unfamiliar magic within effective range; concentration expires naturally at~06:20 if no further extension. Fenar notes the packed rubble might be deliberate or a response to unstable rock; cannot tell without examination; no digging or moving props authorized. This is end of readily accessible worked mine, not proof of no deeper void or concealed path. Existing 7 dead Derro, prospecting evidence and unknown mineral/assay/title unchanged. No new roll, damage, loot transfer, feature use, supplies, healing or expenditure. Pause before disturbing rubble or conducting further search.",
+      "before": "Upper work chamber sacks inspected; rope descent pending.",
+      "after": "Lower working gallery reached; ore workings and obstructed crack observed; deeper access unverified.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
