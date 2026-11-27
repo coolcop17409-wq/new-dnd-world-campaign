@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "request_id": "PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001",
-  "status": "partial",
-  "phase": "owners_verified",
+  "status": "complete",
+  "phase": "checkpoint_verified",
   "claim_owner": "maintenance-pr47-20261127",
   "claim_expires_at": "2026-11-27T15:29:22.000Z",
   "request_commit": "95efd1be47dbe59108a1363ae3f4837f56f27537",
   "request_blob": "7d3007744e8210fdc993c35883fa3777173dcad1",
-  "summary": "All19 owner/metadata files independently read back; original Day324 state archived verbatim. Publishing exact accepted Day325 checkpoint last; final validation/cleanup pending.",
-  "blocker": "final checkpoint validation and generated verification pending",
+  "summary": "Verified 21 already accepted Day324–325 events and 22 missing numeric/custody legs. Existing market postings skipped. Source-pinned owners and exact Day325 checkpoint read back; all newer338 evidence and private design retained.",
+  "blocker": null,
   "applied_event_ids": [
     "D324-V-ROAD-GANG-EQUIPMENT-RESALE-185GP-001",
     "D324-V-PARTY-RESUPPLY-15-RATIONS-20-FEED-001",
@@ -76,5 +76,168 @@
     "campaign/continuity/readme.md": "22d5c24b83270a0ac91ee0754cdc5bf52091cee9",
     "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md": "4dbf4a492146b825083328e92c6dcd658dffe854",
     "automation/handoffs/play-sync/results/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json": "2311de8599728ed2a2cf472a27dac35f08e1f4f6"
-  }
+  },
+  "checkpoint_commit": "85fe8b5db49834a1251e9604cdd8c55326798743",
+  "tested_commit": "85fe8b5db49834a1251e9604cdd8c55326798743",
+  "checkpoint_verified": true,
+  "request_digest": "db85bb3510eab33ef8de545bc81fda01a5c1f36d27c8a7a0f5fc3c706ede24cb",
+  "verified_event_ids": [
+    "D324-V-ROAD-GANG-EQUIPMENT-RESALE-185GP-001",
+    "D324-V-PARTY-RESUPPLY-15-RATIONS-20-FEED-001",
+    "D321-ORSAVEN-COPPER-NOSE-KENNELS-REVIEW",
+    "D322-ORSAVEN-SWITCHBACK-SADDLERY-REVIEW",
+    "D324-ORSAVEN-EQUIPMENT-CONSIGNMENT-AND-RESIDENCE-INQUIRIES-001",
+    "D324-V-PURCHASES-FENAR-BREASTPLATE-340-001",
+    "D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001",
+    "D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001",
+    "D324-V-COPPER-HART-TWO-ROOM-BOOKING-001",
+    "D324-ORSAVEN-CORRESPONDENCE-CIRREN-TOBIN-SECOND-REPLY-001",
+    "D325-ORSAVEN-COPPER-HART-SECURE-OVERNIGHT-001",
+    "D325-ORSAVEN-PELLIN-MAUD-SABINE-REUNION-001",
+    "D325-ORSAVEN-THREE-ENCHANTMENT-FOLLOWUPS-001",
+    "D325-QUILL-NEEDLES-NEGOTIATED-QUOTES-001",
+    "D325-ORSAVEN-HADIYA-QUILL-ORDER-DEPOSIT-001",
+    "D325-ORSAVEN-WASP-NEEDLES-ORDER-DEPOSIT-001",
+    "D325-ORSAVEN-QUENWOOD-PUBLIC-DISPOSITION-001",
+    "D325-ORSAVEN-FERRYMENS-SHARE-FINANCIAL-LEAD-001",
+    "D325-ORSAVEN-CROWN-INVITATION-SEALED-DELIVERY-001",
+    "D325-ORSAVEN-NIGHTGLASS-AUTHENTICATED-SURVEY-COMPARISON-001",
+    "D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001"
+  ],
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/trackers/csv/cirren/cirren-character.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/trackers/csv/fenar/fenar-character.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/trackers/csv/cirren/cirren-inventory.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/trackers/csv/fenar/fenar-features.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/archive/continuity/campaign-state-before-PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/prep/dm-only/dm-only-secret-quest-outlines.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/prep/dm-only/dm-estate-ancestry.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/prep/dm-only/ashen-regency-field-operations-dm-only.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/prep/dm-only/long-arc-two-antagonists-dm-only.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/runtime/SCENE_CACHE.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/runtime/REGION_PREP.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/85fe8b5db49834a1251e9604cdd8c55326798743/campaign/continuity/campaign-state.md"
+  ],
+  "tests": [
+    {
+      "command": "python -m automation.recovery_batch verify journal47.json --request request47.json --prior-requests prior47.json",
+      "exit_code": 0,
+      "result": "PASS exact pinned journal and25 manifests"
+    },
+    {
+      "command": "python automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "result": "{\n  \"schema_version\": 1,\n  \"status\": \"PASS\",\n  \"scope\": \"final\",\n  \"phase\": \"final\",\n  \"findings\": [],\n  \"notes\": [],\n  \"affected_files\": [],\n  \"source_hashes\": {}\n}\n"
+    },
+    {
+      "command": "python automation/sync_validate.py --scope shops --phase owners",
+      "exit_code": 0,
+      "result": "{\n  \"schema_version\": 1,\n  \"status\": \"PASS\",\n  \"scope\": \"shops\",\n  \"phase\": \"owners\",\n  \"findings\": [],\n  \"notes\": [],\n  \"affected_files\": [],\n  \"source_hashes\": {}\n}\n"
+    },
+    {
+      "command": "python verify47.py",
+      "exit_code": 0,
+      "result": "PASS22 new legs exactly once;205186cp;HP48/51/59 AC19/19/16;supplies21/28;no false LR/finished commissions;21 log events;old state archived;newer338 prep/design preserved;2 gift-linked market sales and2 deposits match.\n"
+    },
+    {
+      "command": "python -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_recovery_chunks automation.test_recovery_chunk_bridge automation.test_rng_gate -q",
+      "exit_code": 0,
+      "result": "----------------------------------------------------------------------\nRan 100 tests in 0.047s\n\nOK\n"
+    }
+  ],
+  "cleanup_status": "pending verified-only compatibility pruning",
+  "generated_view_status": "UNSYNCED: fast-play run46022118407 passed validation/generation, but current main PLAY_NOW remains Day324 blob2d9e1ab439c4e483ecab0cee6f11d82538646128; owner is Day325. Dispatch unavailable in connector. Next fast-play dispatch at unchanged checkpoint must publish then readback.",
+  "unrelated_diagnostics": {
+    "handoffs": "Current main schema failure already has terminal verified repair PR48, unmerged; no effect on accepted21-event validation",
+    "routing": "Existing fixture requires obsolete Sedgecross/D282; current338 prep preserved"
+  },
+  "verification_environment": "Current-main trusted code; candidate files verified byte-for-byte at owner/checkpoint commits; actual local tests repeated after readback.",
+  "market_acknowledgements": [
+    {
+      "source_event_id": "D321-ORSAVEN-COPPER-NOSE-KENNELS-REVIEW",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D321-ORSAVEN-COPPER-NOSE-KENNELS-REVIEW",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    },
+    {
+      "source_event_id": "D322-ORSAVEN-SWITCHBACK-SADDLERY-REVIEW",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D322-ORSAVEN-SWITCHBACK-SADDLERY-REVIEW",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    },
+    {
+      "source_event_id": "D324-ORSAVEN-EQUIPMENT-CONSIGNMENT-AND-RESIDENCE-INQUIRIES-001",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D324-ORSAVEN-EQUIPMENT-CONSIGNMENT-AND-RESIDENCE-INQUIRIES-001",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    },
+    {
+      "source_event_id": "D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    },
+    {
+      "source_event_id": "D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    },
+    {
+      "source_event_id": "D325-ORSAVEN-THREE-ENCHANTMENT-FOLLOWUPS-001",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D325-ORSAVEN-THREE-ENCHANTMENT-FOLLOWUPS-001",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    },
+    {
+      "source_event_id": "D325-QUILL-NEEDLES-NEGOTIATED-QUOTES-001",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D325-QUILL-NEEDLES-NEGOTIATED-QUOTES-001",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    },
+    {
+      "source_event_id": "D325-ORSAVEN-HADIYA-QUILL-ORDER-DEPOSIT-001",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D325-ORSAVEN-HADIYA-QUILL-ORDER-DEPOSIT-001",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    },
+    {
+      "source_event_id": "D325-ORSAVEN-WASP-NEEDLES-ORDER-DEPOSIT-001",
+      "consumer": "Record Maintenance",
+      "effect_key": "personal-shared-history",
+      "status": "APPLIED",
+      "owning_output_locator": "campaign/continuity/session-log.md#D325-ORSAVEN-WASP-NEEDLES-ORDER-DEPOSIT-001",
+      "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+      "market_leg_reposted": false
+    }
+  ]
 }
