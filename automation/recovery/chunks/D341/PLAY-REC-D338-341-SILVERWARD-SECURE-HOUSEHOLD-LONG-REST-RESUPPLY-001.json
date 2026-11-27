@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-341-SILVERWARD-SECURE-HOUSEHOLD-LONG-REST-RESUPPLY-001",
+  "base_commit": "5a7216e6420a7d522dbaa7ec1e106cd5e3ab32af",
+  "source_checkpoint": "D338-1210-SILVERWARD-500GP-STARTUP-MANDATE-ACCEPTED-001",
+  "destination_checkpoint": "D341-0630-SILVERWARD-LONG-REST-RESUPPLIED-SEAT-TRANSPORT-PENDING-001",
+  "source_evidence": "Exact player 'Great, let’s rest here for 3 days and get a full rest before moving on to find the old seat. And stock up' authorizes three-night stay, full rest objective, routine personal provisioning, and onward ancestral-seat intent. D338~12:10 Hessa and her husband voluntarily offer the party three nights of hospitality INSIDE their occupied cottage (ordinary shared-room/loft bedding, not the uninspected service-house). Mara keeps coach/four horses in the household's nearby sheltered yard; existing willing warders Rhevan/Ossric and four skeleton sentries maintain their previously accepted protective duty and agree to keep the occupied house/approach under watch at night without abandoning residents or charging a new fee. DM explicitly classifies this newly arranged protected occupied household as qualifying secure lodging, by the D238–241 secure-household ruling; distinct from the D331 outdoor camp beside cottage that earned one wilderness unit and NOT a blanket classification of Silverward ruins. No unsafe rooms occupied or professional site certification asserted. Hessa's household freely agrees; party uses its own rations/feed, no new lodging fee, estate subsidy, hire or extra wage. D338→339,339→340,340→341 uninterrupted qualifying nights, each2 weighted LR units, LR0→2→4→6/6, full Long Rest at dawn341 and reset0/6; qualifying Short Rests included but no duplicate units. Stationary secured household stay outside ordinary random travel occurrence procedure; no invented d100 or hostile event. V HP48 and Psi6 already full, Second Wind0 before first rest and refreshed1 thereafter, no pre-rest feature use since HP/Psi full; no HD spent. At full LR V48/48, MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1; regains3 spent Hit Dice (half7 rounded down, DM allocates to Fighter d10 first for efficient recovery, remaining Rogue d8 pool0; total3/7). Cirren HP51/51 HD6/6 CD2/2 L1/2/3 slots3/0/0→4/3/3; no spell prepared swap or new casting. Fenar HP59/59, old6THP expire at completed LR, HD0→3/6 d12, Rage0→4/4 Shift2→3/3, MP6/6, CLIMB adaptation retained, inactive. Daily dawn Tamsin contact D339–341 per existing standing exception; no specific replies/results invented. D338 supply charge already paid; D339/D340 consumed3 ration-days and4 feed each, 21/28→15/20; D341 charge pending. Hessa arranges willing ordinary local suppliers under V's routine resupply instruction, party purchases15 ration person-days x5sp=7gp5sp and20 feed animal-days x5cp=1gp, total8gp5sp, from V personal cash1520gp8sp6cp→1512gp3sp6cp, supplies30/40 (ten days for three eating party members/four horses), actually loaded; no estate money used. Hessa continues funded ordinary work and local inquiries under existing mandate during stay; no unverified payroll, quote, construction, mine title or customer outcome inferred; specialist handoff HANDOFF-D338-ESTATES-SILVERWARD-FUNDED-STARTUP-001 remains active for real evidence through confirmed time. Mara compares already acquired Caul sketch and authenticated route instrument/field-book copies; explains west-northwest surviving aqueduct alignment, provisional ~24 terrain miles to search area and ~2 days each way at cautious difficult-terrain pace; first8mi disused broad track coach-capable, final16mi broken watercourse/ascending paths not coach-capable, no guaranteed exact site found. This is informed planning using prepared route, not completed survey/arrival or disclosure of unrevealed site facts. Choices: leave coach/four horses with an actual agreed care arrangement at Silverward and travel on foot together, or take coach first8mi to dry turnout then arrange actual supervision/return, no assumed abandonment or companion departure. V has authorized intent but has not specified transport/care arrangements; pause Day341 dawn ready to depart, no new leg/travel RNG or further time. No ore collection, mine title, fee, extra expense, reward or unrelated quest change.",
+  "pending_action": "D341~06:30 Silverward Crossing, three protected household nights completed and Long Rest at dawn341, LR0/6. V48/48 AC19 HD3/7 (3d10,0d8), MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone, Galepierce carried, dice delegated. C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40, no THP. Mara coach/four horses healthy, supplies30 ration-person-days/40 feed animal-days after D339/340 charges and actual8gp5sp restock; D341 daily charge pending, V purse1512gp3sp6cp. Hessa's previously transferred500gp startup mandate remains; current actual financial/inspection/outreach outcomes not assumed; existing handoff pending. Mara has authentic sketch, WNW aqueduct corridor ~24 terrain miles planning estimate, first8mi coachable, final16mi not; roughly2 days each way plus exploration. V next choice coach/horse care and travel arrangement: leave at Silverward with agreed care and go on foot or drive first8mi to turnout and arrange supervision. No departure, new encounter roll or survey yet. Prior estate/ancestry/commission/correspondence/custody unchanged; Derro unclaimed loot and mine unverified. Owner synchronization pending.",
+  "depends_on": [
+    "PLAY-REC-D338-SILVERWARD-500GP-STARTUP-FUNDING-MANDATE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary secure household hospitality, stationary quiet qualifying rest, full LR deterministic recovery and routine authorized purchase from willing local sellers; no uncertain checks or encounter draws."
+  },
+  "events": [
+    {
+      "event_id": "D338-341-SILVERWARD-SECURE-HOUSEHOLD-LONG-REST-001",
+      "accepted": true,
+      "evidence": "Three qualifying nights in newly arranged occupied protected Marr household, distinct from old outdoor camp. LR0→2→4→6 at dawn341 then reset0. V HD0→3 (Fighter d10), Second Wind0→1, all other V pools full; C slots3/0/0→4/3/3, HD6 unchanged; F HD0→3, Rage0→4 Shift2→3, THP6→0, CLIMB retained; all HP full. No dice, fees, unverified estate outcomes or other resource change.",
+      "before": "Day338 noon, depleted HD/rage/cleric slots, LR0/6.",
+      "after": "Day341 dawn full Long Rest, restored pools and half-max spent HD, LR0/6.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D341-SILVERWARD-TEN-DAY-PROVISIONS-001",
+      "accepted": true,
+      "evidence": "D339/D340 daily consumption6 ration-days/8 feed; 21/28→15/20. Purchase15 ration days x5sp and20 feed x5cp, 8gp5sp actual personal payment, loaded30/40; V purse1520gp8sp6cp→1512gp3sp6cp. D341 charge pending, no estate cash.",
+      "before": "Rations21 feed28; purse1520gp8sp6cp.",
+      "after": "Rations30 feed40; purse1512gp3sp6cp.",
+      "owner_paths": [
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D341-SEAT-EXPEDITION-ROUTE-BRIEFING-001",
+      "accepted": true,
+      "evidence": "Mara briefs WNW aqueduct corridor from actual acquired copies/sketch, provisional24 terrain miles, coach first8 only, last16 foot/led animals, about2 days each way; actual transport/care choice pending V. No departure or unplayed discovery.",
+      "before": "Seat bearing known; expedition intent.",
+      "after": "Route planning delivered; transport decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
