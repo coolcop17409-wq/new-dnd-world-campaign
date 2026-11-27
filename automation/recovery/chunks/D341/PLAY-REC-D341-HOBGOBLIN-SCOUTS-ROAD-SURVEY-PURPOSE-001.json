@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D341-HOBGOBLIN-SCOUTS-ROAD-SURVEY-PURPOSE-001",
+  "base_commit": "fa9a5babdd48c413c8839bdcaaee194bffd684d6",
+  "source_checkpoint": "D341-1131-HOBGOBLIN-SCOUTS-QUESTION-V-DESTINATION-001",
+  "destination_checkpoint": "D341-1132-HOBGOBLIN-SCOUTS-COMPANY-PURPOSE-REVEALED-001",
+  "source_evidence": "Exact player reply: 'To my home. Why are you surveying? For who/what?' V states his destination only as his home and asks their purpose and beneficiary. H1 is surprised at the claim of a home farther along the ruined track, replies that they are scouting for their own captain and armed company, assessing where a formed group can pass, where paths are obstructed and who controls the land; he does not identify the captain, company's allegiance, strength, destination or intended operation. This is a guarded partial truthful disclosure consistent with the already fixed reconnaissance motive, not proof of allegiance to or independence from the Dominion. H1 asks whether V lives here and whether the way ahead is his territory; he makes no demand for a guide or map yet. H2 and H3 remain alert at their existing positions; no attack, spell, weapon draw or shift to automatic friendliness. No new roll because ordinary volunteered limited information, no persuasion success or coerced disclosure. No new player speech, movement or resource use beyond the exact stated words. V chooses next reply or action.",
+  "pending_action": "D341~11:32 WNW seat foot expedition,6/24mi; serious encounter cap1/1 used. V approx(0,45), H1(0,85) AC15 HP32 daylight, H2(20,100) AC15 HP32 dim/half cover with folded sketch, H3(-15,105) AC15 HP32 dim/half cover watches; C/F/Mara approx(0,35–40), all aware, clear retreat south, off-track rough. Three fixed Iron Shadows speed40, no combat/initiative/precasts. H1 says scouting old track for their captain and armed company, checking passage, obstructions and local control; asks if V lives here and whether land ahead is his. Exact allegiance, intentions, identity and strength unconfirmed. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch. Coach/four horses in Hessa care, rations21 carried/9 stored feed40 stored, D341 charge3/4 pending, purse1512gp3sp6cp LR0/6. Other estate/ancestry/quest/custody facts unchanged. V next decision. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D341-HOBGOBLIN-SCOUTS-IRON-DOMINION-INQUIRY-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary guarded dialogue and limited volunteered information, no uncertain check or combat."
+  },
+  "events": [
+    {
+      "event_id": "D341-HOBGOBLIN-SCOUTS-ROAD-SURVEY-PURPOSE-001",
+      "accepted": true,
+      "evidence": "Exact player reply: 'To my home. Why are you surveying? For who/what?' V states his destination only as his home and asks their purpose and beneficiary. H1 is surprised at the claim of a home farther along the ruined track, replies that they are scouting for their own captain and armed company, assessing where a formed group can pass, where paths are obstructed and who controls the land; he does not identify the captain, company's allegiance, strength, destination or intended operation. This is a guarded partial truthful disclosure consistent with the already fixed reconnaissance motive, not proof of allegiance to or independence from the Dominion. H1 asks whether V lives here and whether the way ahead is his territory; he makes no demand for a guide or map yet. H2 and H3 remain alert at their existing positions; no attack, spell, weapon draw or shift to automatic friendliness. No new roll because ordinary volunteered limited information, no persuasion success or coerced disclosure. No new player speech, movement or resource use beyond the exact stated words. V chooses next reply or action.",
+      "before": "Scouts ask V's destination.",
+      "after": "V states home; scouts disclose limited purpose and ask about land; allegiance and ultimate intent unconfirmed.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
