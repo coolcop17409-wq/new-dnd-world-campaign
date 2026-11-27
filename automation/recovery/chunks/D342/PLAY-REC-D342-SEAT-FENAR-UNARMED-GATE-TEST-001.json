@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-FENAR-UNARMED-GATE-TEST-001",
+  "base_commit": "c1b798ba4279e46cada8b60c641a472a2bbffa10",
+  "source_checkpoint": "D342-1650-SEAT-GUARDIAN-BEHAVIOR-ASSESSMENT-TEST-PENDING-001",
+  "destination_checkpoint": "D342-1652-SEAT-FENAR-UNARMED-APPROACH-ACCEPTED-001",
+  "source_evidence": "Exact player 'I’d rather fenar approach without weapons' requests Fenar rather than Mara perform the proposed reversible unarmed approach test. Fenar voluntarily agrees, leaves her mechanically carried greataxe (Double-Claw Rend visual reskin), two handaxes and four javelins in Mara's temporary custody at (0,70), not abandoned or transferred as property. Rage and Shift remain inactive; no Beast weapons manifested; no resource spent. She approaches alone visibly unarmed, hands open, V/Cirren/Mara stay outside, armed V's existing sword stays visible. D342~16:52 Fenar walks along track to (0,105), immediately before the arch and between the two guards' approaches, stops without crossing into inner courtyard. Fixed original gate duty permits visibly unarmed visitors: neither guardian attacks nor moves to bar her individually, both continue warning the visibly armed party behind her; Fenar pauses and tells party they aren't stopping her. This is actual evidence of differential behavior, not yet a completed passage, reprogramming, pacification, disarm requirement for all party members, title or absolute safety. No initiative or RNG: deterministic programmed response from preexisting prep dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167. No extra V action or companion passage, HP/time/food/gold changes beyond brief test and temporary gear custody. V next decision.",
+  "pending_action": "D342~16:52 ancestral-seat outer court daylight, V(0,82) armed ~28ft from A(-5,110),B(5,110); C(0,75–77), Mara(0,70), Fenar unarmed at(0,105) outside arch, ~7ft each guardian. Fenar willingly left her greataxe/Double-Claw Rend mechanical weapon, 2 handaxes and 4 javelins with Mara temporarily; no property change, no Rage/Shift or Beast weapons active. Guardians do not stop unarmed Fenar but retain warning toward armed party; no gate crossing or attack/initiative, no actual control or permanent pacification. East breach unexamined. Private fixed two Stone Defenders each HP52 AC16 speed30 full reactions, original bounded duty unchanged. Cistern rim copy and landmarks held by Mara, household confirmation pending. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch; coach/four horses and originals with Hessa, carried15 rations stored9 feed32 D342 charges applied purse1512gp3sp6cp LR1/6. V next decision; other estate, quest, custody facts unchanged; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-GUARDIAN-BEHAVIOR-INVESTIGATION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Voluntary reversible approach test and deterministic precommitted gate duty; no uncertain check or combat."
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-FENAR-UNARMED-GATE-TEST-001",
+      "accepted": true,
+      "evidence": "Exact player 'I’d rather fenar approach without weapons' requests Fenar rather than Mara perform the proposed reversible unarmed approach test. Fenar voluntarily agrees, leaves her mechanically carried greataxe (Double-Claw Rend visual reskin), two handaxes and four javelins in Mara's temporary custody at (0,70), not abandoned or transferred as property. Rage and Shift remain inactive; no Beast weapons manifested; no resource spent. She approaches alone visibly unarmed, hands open, V/Cirren/Mara stay outside, armed V's existing sword stays visible. D342~16:52 Fenar walks along track to (0,105), immediately before the arch and between the two guards' approaches, stops without crossing into inner courtyard. Fixed original gate duty permits visibly unarmed visitors: neither guardian attacks nor moves to bar her individually, both continue warning the visibly armed party behind her; Fenar pauses and tells party they aren't stopping her. This is actual evidence of differential behavior, not yet a completed passage, reprogramming, pacification, disarm requirement for all party members, title or absolute safety. No initiative or RNG: deterministic programmed response from preexisting prep dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167. No extra V action or companion passage, HP/time/food/gold changes beyond brief test and temporary gear custody. V next decision.",
+      "before": "Guardians warn armed party; test proposed.",
+      "after": "Fenar temporarily unarmed and permitted approach to arch; guards still warn armed party, no crossing.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
