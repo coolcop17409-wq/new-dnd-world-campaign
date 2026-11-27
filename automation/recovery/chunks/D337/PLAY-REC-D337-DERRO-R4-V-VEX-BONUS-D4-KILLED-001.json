@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R4-V-VEX-BONUS-D4-KILLED-001",
+  "base_commit": "9f5d21ff5bf85002848a174eb45a26423932bd17",
+  "source_checkpoint": "D337-1130-DERRO-R4-V-PRONE-FENAR-DOWN-DECISION-001",
+  "destination_checkpoint": "D337-1130-DERRO-R4-V-VEX-BONUS-D4-DEAD-R5-PENDING-001",
+  "source_evidence": "Exact player 'Cirren get Fenar up… Move, Hide, and attack Derro.' followed by immediate correction 'What no if I can’t hide then attack vex bonus attack' before any recovery write for the interrupted response. V calls for Cirren to heal Fenar; Cirren has already acted R4, acknowledges intended aid on his next legal turn, no spell cast/slot spent now. V stands from prone (15ft), moves from(20,50,0) to(15,55,0) through difficult ground (14.14ft movement cost), ~0.86ft remaining. No reachable adequate concealment; no Hide attempt or BA spent on Hide. Main Psychic Blade D4(55,65,5), ~41.53ft normal range, +9 vs AC13; genuine visible batch1d594da1ec7d976db58a0fcb08a42996 d20=15+9=24 hit, d6=2+4=6 psychic, D4 HP13→7. No initial Sneak Attack. Explicit immediate correction preserves this hit and applies adopted Weapon Mastery Vex for1MP (7→6), granting advantage on next attack against D4. Soulknife bonus Psychic Blade after actual Attack action, no other BA used; genuine visible batch700fec9455b9a1177fbe1f3b8bd137e2 advantage d20=7,6 keep7+9=16 vsAC13 hit, d4=4+4=8 psychic plus eligible 2d6 Sneak Attack=3,2=5, total13 psychic, D4 7→0 dead. V BA and action spent; reaction available, no remaining meaningful movement. No further V resources spent. Interrupted premature branch after original main blade is expressly superseded and never accepted: actual visible audit-only batches 1bff71c89f56b81e056da1f17e84aaef (D4 crossbow then R5 savants), 0c14a2c1e7835854bff7d7a221d12cfe (R5 Cirren), 1909c52b61db69b268df169894e33b8f (R5 Fenar/V death save), 328fff9c447230d6b640b20003134300 (R6 savants). Do NOT apply any of their proposed damage, healing, death saves, spells, movement, Rage/MP expenditure, or time progression. Last crossbowman is dead before D5, so its prematurely rolled attack cannot occur. R4 V8/48 conscious upright, C51/51, F0/59 unconscious with one failed death save. R5 savants not yet acted, no healing yet or new NPC action; stop at corrected end of V R4 turn before R5. No duplicate prior event, no new inventory/cash/time advance beyond same combat minute.",
+  "pending_action": "Day337~11:30 end R4 V initiative6, V(15,55,0) HP8/48 AC19 conscious upright, action and BA spent, reaction available, movement ~0.86ft remaining (not meaningful), MP6/7, Sup3/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, single Galepierce still at/by D3(55,45,5) uncollected. Dice delegated. D1,D2,D3,D4 dead, no Derro initiative5 turn. Initiative S17 Mara15 C13 F11 V6; next R5 S17. C(15,45,0)51/51 AC19 HD6/6 slots4/3/0 CD2/2, R4 action/BA spent, reaction available, no concentration, heard V request to heal Fenar; independently prioritize lawful aid on next turn. F(31,62,0)0/59 AC16 HD6/6 unconscious prone, death saves0 successes/1 failure, Rage2/4 inactive, Shift3/3 inactive MP4/6 CLIMB40 no THP, Ray speed penalty until S2 R5, no Reckless exposure. Mara coach(0,-40) intact four horses safe. S1(65,60,10) S2(65,65,10) S3(50,65,10) all visible AC13 HP36/36, S1 half cover from party; all L3 0/2, S3 L2 2/3, no concentration, R4 actions spent, reactions available. Road clear, rocky scrub difficult terrain. No R5+ actions or outcomes accepted; premature branch explicitly discarded. D335 provisions17gp; D336 daily charge3/4, rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. LR completed dawn337 now LR0/6. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds two original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site needs prep before expedition beyond Silverward. Other prior commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R3-QUICK-TOSS-R4-V-HEALED-FENAR-DOWN-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "1d594da1ec7d976db58a0fcb08a42996",
+        "rolls": [
+          {
+            "id": "D337.R4.V.Psychic_Blade.D4.attack",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          },
+          {
+            "id": "D337.R4.V.Psychic_Blade.D4.damage",
+            "sides": 6,
+            "faces": [
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "700fec9455b9a1177fbe1f3b8bd137e2",
+        "rolls": [
+          {
+            "id": "D337.R4.V.Vex.bonus_Psychic_Blade.D4.attack",
+            "sides": 20,
+            "faces": [
+              7,
+              6
+            ]
+          },
+          {
+            "id": "D337.R4.V.bonus_Psychic_Blade.D4.damage",
+            "sides": 4,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D337.R4.V.bonus_Psychic_Blade.D4.Sneak_Attack",
+            "sides": 6,
+            "faces": [
+              3,
+              2
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R4-V-VEX-BONUS-D4-KILLED-001",
+      "accepted": true,
+      "evidence": "Exact player 'Cirren get Fenar up… Move, Hide, and attack Derro.' followed by immediate correction 'What no if I can’t hide then attack vex bonus attack' before any recovery write for the interrupted response. V calls for Cirren to heal Fenar; Cirren has already acted R4, acknowledges intended aid on his next legal turn, no spell cast/slot spent now. V stands from prone (15ft), moves from(20,50,0) to(15,55,0) through difficult ground (14.14ft movement cost), ~0.86ft remaining. No reachable adequate concealment; no Hide attempt or BA spent on Hide. Main Psychic Blade D4(55,65,5), ~41.53ft normal range, +9 vs AC13; genuine visible batch1d594da1ec7d976db58a0fcb08a42996 d20=15+9=24 hit, d6=2+4=6 psychic, D4 HP13→7. No initial Sneak Attack. Explicit immediate correction preserves this hit and applies adopted Weapon Mastery Vex for1MP (7→6), granting advantage on next attack against D4. Soulknife bonus Psychic Blade after actual Attack action, no other BA used; genuine visible batch700fec9455b9a1177fbe1f3b8bd137e2 advantage d20=7,6 keep7+9=16 vsAC13 hit, d4=4+4=8 psychic plus eligible 2d6 Sneak Attack=3,2=5, total13 psychic, D4 7→0 dead. V BA and action spent; reaction available, no remaining meaningful movement. No further V resources spent. Interrupted premature branch after original main blade is expressly superseded and never accepted: actual visible audit-only batches 1bff71c89f56b81e056da1f17e84aaef (D4 crossbow then R5 savants), 0c14a2c1e7835854bff7d7a221d12cfe (R5 Cirren), 1909c52b61db69b268df169894e33b8f (R5 Fenar/V death save), 328fff9c447230d6b640b20003134300 (R6 savants). Do NOT apply any of their proposed damage, healing, death saves, spells, movement, Rage/MP expenditure, or time progression. Last crossbowman is dead before D5, so its prematurely rolled attack cannot occur. R4 V8/48 conscious upright, C51/51, F0/59 unconscious with one failed death save. R5 savants not yet acted, no healing yet or new NPC action; stop at corrected end of V R4 turn before R5. No duplicate prior event, no new inventory/cash/time advance beyond same combat minute.",
+      "before": "V prone8/48 at(20,50), F0/59 one failed death save, C51/51, D4 13/13, MP7/7, all V actions available.",
+      "after": "V upright8/48 at(15,55), D4 dead, MP6/7, action/BA spent, reaction available; C/F unchanged, R5 not started.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
