@@ -1,0 +1,55 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-C88471FFE6F000D303F91C8B",
+  "lane": "sync-repair",
+  "source": {
+    "kind": "validation_failure",
+    "checkpoint_id": "UNCHANGED-ADMIN-ONLY",
+    "commit_sha": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+    "workflow_run_id": 46022064051,
+    "workflow_url": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/actions/runs/46022064051"
+  },
+  "request": "Investigate this exact validation failure; propose only evidence-supported corrections on the existing repair branch.",
+  "scope": [
+    "campaign/continuity/campaign-state.md",
+    "data/characters/events.csv"
+  ],
+  "output_owner_paths": [
+    "campaign/continuity/campaign-state.md",
+    "data/characters/events.csv"
+  ],
+  "priority": "high",
+  "advances_gameplay": false,
+  "failure_signature": "C88471FFE6F000D303F91C8B",
+  "diagnostic": {
+    "schema_version": 1,
+    "status": "FAIL",
+    "scope": "final",
+    "phase": "final",
+    "findings": [
+      {
+        "code": "character.overlay",
+        "path": "data/characters/events.csv",
+        "event_id": "",
+        "message": "Character event D325-ORSAVEN-HADIYA-QUILL-ORDER-DEPOSIT-001-VALENTHIA-PURSE-CP dated Day 325 is later than the confirmed checkpoint Day 324"
+      },
+      {
+        "code": "checkpoint.latest",
+        "path": "campaign/continuity/campaign-state.md",
+        "event_id": "D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001",
+        "message": "Newest accepted event D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001 absent from final checkpoint"
+      }
+    ],
+    "notes": [],
+    "affected_files": [
+      "campaign/continuity/campaign-state.md",
+      "data/characters/events.csv"
+    ],
+    "source_hashes": {
+      "campaign/continuity/campaign-state.md": "070c0b61d8c91a5d8b7497721118606cac02a1914628fe79ff667c946cbcdbec",
+      "data/characters/events.csv": "03035bcbde877ecd76a73faabdd017caa3dda11186027935c9c9a6413f3845d5"
+    }
+  },
+  "repair_branch": "campaign-repair/c88471ffe6f000d303f91c8b",
+  "base_branch": "main",
+  "synthetic": false
+}
