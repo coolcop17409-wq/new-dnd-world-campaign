@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D341-FLINT-BANNER-VOSS-INTRODUCTION-001",
+  "base_commit": "92b557170338896653846d7f02a4518f74df6ef8",
+  "source_checkpoint": "D341-1136-FLINT-BANNER-TOWER-CONTACT-NAME-PENDING-001",
+  "destination_checkpoint": "D341-1137-FLINT-BANNER-DEPARTS-SEAT-JOURNEY-PENDING-001",
+  "source_evidence": "Exact player instruction 'Tell my steward Voss that Viscount Valenthia sent you' authorizes the scouts to use V's stated name/title as introduction to Voss at the western customs tower for preliminary discussions. H1 records Viscount Valenthia and Voss, acknowledges the introduction, and says he will take the proposed opportunity to his captain and direct a representative to the tower if the captain agrees. He calls off the other scouts and the three depart together back along the track toward their own route; they do not enter the intended ancestral-seat corridor or demand V's map. Immediate encounter ends peacefully, no combat, spell, check, payment, promise of employment, permission for armed passage, verified title/territorial claim, accepted price or guaranteed future agreement. No Voss notification, captain assent, messenger arrival or meeting yet occurred. V's existing authority for Voss covers preliminary ordinary negotiations only; no binding military commitment or new expenditure authorized. NPCs retain independent aims and actual knowledge. V/Cirren/Fenar/Mara remain on the road at their encounter positions; onward expedition available. No further travel/time, HP, inventory, money or supply change beyond brief farewell.",
+  "pending_action": "D341~11:37 WNW seat foot expedition,6/24mi, serious random encounter resolved peacefully, cap1/1 used. V approx(0,45), C/F/Mara approx(0,35–40); three Flint Banner Iron Shadows departing together, no combat or losses, no additional forces seen. H1 has V's stated Viscount Valenthia introduction and steward Voss at western customs tower, will convey possible terms to captain; no captain response, contact or signed arrangement yet. Preliminary offers5gp/company passage over agreed lawful private route, ordinary local trade, indicative12gp/day four soldiers; not accepted. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch; coach/four horses with Hessa, rations21 carried/9 stored feed40 stored, D341 charge3/4 pending, purse1512gp3sp6cp LR0/6. Road ahead open, V may resume ancestral-seat journey. Other estate/ancestry/quest/custody unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D341-FLINT-BANNER-CUSTOMS-TOWER-CONTACT-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Authorized introduction and voluntary NPC farewell; no uncertain check, contested agreement or combat."
+  },
+  "events": [
+    {
+      "event_id": "D341-FLINT-BANNER-VOSS-INTRODUCTION-001",
+      "accepted": true,
+      "evidence": "Exact player instruction 'Tell my steward Voss that Viscount Valenthia sent you' authorizes the scouts to use V's stated name/title as introduction to Voss at the western customs tower for preliminary discussions. H1 records Viscount Valenthia and Voss, acknowledges the introduction, and says he will take the proposed opportunity to his captain and direct a representative to the tower if the captain agrees. He calls off the other scouts and the three depart together back along the track toward their own route; they do not enter the intended ancestral-seat corridor or demand V's map. Immediate encounter ends peacefully, no combat, spell, check, payment, promise of employment, permission for armed passage, verified title/territorial claim, accepted price or guaranteed future agreement. No Voss notification, captain assent, messenger arrival or meeting yet occurred. V's existing authority for Voss covers preliminary ordinary negotiations only; no binding military commitment or new expenditure authorized. NPCs retain independent aims and actual knowledge. V/Cirren/Fenar/Mara remain on the road at their encounter positions; onward expedition available. No further travel/time, HP, inventory, money or supply change beyond brief farewell.",
+      "before": "Scout asks V for name and tower contact.",
+      "after": "V supplies introduction; scouts leave peacefully, possible negotiations pending actual captain decision and contact.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
