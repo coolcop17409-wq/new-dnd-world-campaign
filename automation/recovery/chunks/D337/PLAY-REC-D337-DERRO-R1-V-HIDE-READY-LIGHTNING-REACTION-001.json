@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R1-V-HIDE-READY-LIGHTNING-REACTION-001",
+  "base_commit": "9c6b91ef377d57655ff77e90ed2ac22dd6ae5bf5",
+  "source_checkpoint": "D337-1130-DERRO-COMBAT-R1-V-TURN-INIT6-001",
+  "destination_checkpoint": "D337-1130-DERRO-R1-V-REACTION-SPENT-MOVEMENT-REMAINS-001",
+  "source_evidence": "Exact player 'Hide and prepare to attack after the first shot is fired' directs V Cunning Action Hide and Ready counterattack after first hostile shot; prior order to withdraw Mara's coach remains. Resolve on R1 V initiative6. V uses BA Hide in enclosed coach, actual d20 face1 + base Stealth10 + attuned Luckstone1 =12 vs Derro passive7, succeeds (natural1 not automatic failure on ability check). Uses action Ready one Galepierce physical dart attack against first firing visible enemy if legal range/line; trigger includes hostile spell discharge. Latest D308 Ready-main-Psychic-Blade exception exists, but Galepierce chosen for target beyond60ft, legal physical range40/120, no limited resource expenditure. V dismounts west to(-5,0,0), cost5ft movement; remaining25ft. Mara's previously held reaction triggers when all dismounted: controlled coach withdrawal10ft south center(0,-10), team intact. Moving solid coach exposes V and companions; V's hiding ends when visibly exposed, no free second Hide. S1(65,60,10) already held Lightning Bolt, its existing first-exposed-defender trigger met; releases as reaction, fixed 5ft-wide 100ft line through exposed V(-5,0,0) also catches F(-10,-5,0) by actual line geometry, C(-10,0,0) outside line, coach/horses not hit. S1 concentration ends, R1 reaction spent, no further slot deduction (L3 already1/2). Actual executed Python secrets receipt9bbd541c50b0a06e4f243d43e58d89ff: V Dex save d20=11+8=19/DC12; Fenar visible-effect Danger Sense advantage11/9 keep11+2=13/DC12; both succeed, shared8d6 faces1,5,6,4,6,6,6,6 sum40 lightning half20 each. V48→28/48, F59→39/59 (Rage no lightning resistance), LR already0/6, no concentration on either. V releases Ready reaction immediately after bolt, S1 ~93ft from V in long range, half cover AC15, no hidden advantage or adjacent ally; disadvantage5/19 keep5+9=14 MISS, no damage/Sneak Attack, physical Galepierce no longer carried, lands among rocks near S1's position, exact recovery location to determine when retrieved, not destroyed/auto-returned. V action/BA/reaction spent, 25ft movement remains; pause at same V turn before D5, no further movement/actions chosen. C and F hold prior Ready actions/reactions, C concentration Toll the Dead remains no damage; D1 currently >60ft in prior consistent Euclidean distance convention, no trigger yet. S2 remains holding Lightning Bolt, targets not within100ft with qualifying line/trigger; S3 remains invisible and concentration. D1–D4 unchanged, have not acted. No other damage/resource/coin change or encounter roll. Disclosure: tactical choice was preparing aboard before dismount, not a safe concealed firing position; moved coach revealed V as previously specified. No re-roll or undo of actual damage without player correction.",
+  "pending_action": "Day337~11:30 R1 V initiative6 still in progress; order S17 Mara15 C13 F11 V6 D5. V at(-5,0,0), HP28/48 AC19, action BA reaction spent, movement25ft remains, visible after coach moved, Galepierce thrown/missed and among rocks near S1, no other V resource spent. C(-10,0,0)51/51 AC19 holding readied Toll the Dead concentration/reaction, F(-10,-5,0)39/59 AC16 Rage3/4 active Beast Claws readied claw/reaction still available. Mara reaction spent, coach center(0,-10) healthy four horses safe, no further move yet. S1(65,60,10)36/36 AC13+half cover from party, L3 1/2, readied bolt discharged, reaction spent concentration ended. S2(75,65,10)36/36 AC13 L3 1/2 holding readied Lightning Bolt concentration/reaction, S3(60,75,10)36/36 AC13 invisible concentration L2 2/3. D1(35,45,0), D2(35,65,0) half cover, D3(55,45,5), D4(55,65,5) AC13HP13 each unacted. Road clear, off-road rocky scrub difficult terrain, foes shaded. V chooses remaining movement or end turn before D5. Actual Hide12 success then revealed, S1 bolt40 V/F saves both pass half20, V readied attack14 vsAC15 miss. D335 purchases17gp,30/40 supplies; D336 consumed3/4, current rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. Two qualifying nights LR4→5→6/6 dawn337 completed, now LR0/6, V28/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce thrown, not currently carried dice delegated. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 holding readied Toll the Dead concentration. Fenar39/59 AC16 HD6/6 Rage3/4 active Beast Claws, Shift3/3 inactive MP6/6 CLIMB40 no THP. See combat packet above. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower in V practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers still pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds 2 original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul's historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign's child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site still needs preparation before expedition beyond Silverward. Other prior pending commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending. V next action: remaining R1 movement or end turn.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-INITIATIVE-R1-V-TURN-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "9bbd541c50b0a06e4f243d43e58d89ff",
+        "rolls": [
+          {
+            "id": "D337.R1.V.hide",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D337.R1.S1.lightning.V.Dex",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D337.R1.S1.lightning.Fenar.Dex.danger_sense",
+            "sides": 20,
+            "faces": [
+              11,
+              9
+            ]
+          },
+          {
+            "id": "D337.R1.S1.lightning.damage",
+            "sides": 6,
+            "faces": [
+              1,
+              5,
+              6,
+              4,
+              6,
+              6,
+              6,
+              6
+            ]
+          },
+          {
+            "id": "D337.R1.V.readied_Galepierce.S1",
+            "sides": 20,
+            "faces": [
+              5,
+              19
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-DERRO-R1-V-HIDE-READY-LIGHTNING-REACTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'Hide and prepare to attack after the first shot is fired' directs V Cunning Action Hide and Ready counterattack after first hostile shot; prior order to withdraw Mara's coach remains. Resolve on R1 V initiative6. V uses BA Hide in enclosed coach, actual d20 face1 + base Stealth10 + attuned Luckstone1 =12 vs Derro passive7, succeeds (natural1 not automatic failure on ability check). Uses action Ready one Galepierce physical dart attack against first firing visible enemy if legal range/line; trigger includes hostile spell discharge. Latest D308 Ready-main-Psychic-Blade exception exists, but Galepierce chosen for target beyond60ft, legal physical range40/120, no limited resource expenditure. V dismounts west to(-5,0,0), cost5ft movement; remaining25ft. Mara's previously held reaction triggers when all dismounted: controlled coach withdrawal10ft south center(0,-10), team intact. Moving solid coach exposes V and companions; V's hiding ends when visibly exposed, no free second Hide. S1(65,60,10) already held Lightning Bolt, its existing first-exposed-defender trigger met; releases as reaction, fixed 5ft-wide 100ft line through exposed V(-5,0,0) also catches F(-10,-5,0) by actual line geometry, C(-10,0,0) outside line, coach/horses not hit. S1 concentration ends, R1 reaction spent, no further slot deduction (L3 already1/2). Actual executed Python secrets receipt9bbd541c50b0a06e4f243d43e58d89ff: V Dex save d20=11+8=19/DC12; Fenar visible-effect Danger Sense advantage11/9 keep11+2=13/DC12; both succeed, shared8d6 faces1,5,6,4,6,6,6,6 sum40 lightning half20 each. V48→28/48, F59→39/59 (Rage no lightning resistance), LR already0/6, no concentration on either. V releases Ready reaction immediately after bolt, S1 ~93ft from V in long range, half cover AC15, no hidden advantage or adjacent ally; disadvantage5/19 keep5+9=14 MISS, no damage/Sneak Attack, physical Galepierce no longer carried, lands among rocks near S1's position, exact recovery location to determine when retrieved, not destroyed/auto-returned. V action/BA/reaction spent, 25ft movement remains; pause at same V turn before D5, no further movement/actions chosen. C and F hold prior Ready actions/reactions, C concentration Toll the Dead remains no damage; D1 currently >60ft in prior consistent Euclidean distance convention, no trigger yet. S2 remains holding Lightning Bolt, targets not within100ft with qualifying line/trigger; S3 remains invisible and concentration. D1–D4 unchanged, have not acted. No other damage/resource/coin change or encounter roll. Disclosure: tactical choice was preparing aboard before dismount, not a safe concealed firing position; moved coach revealed V as previously specified. No re-roll or undo of actual damage without player correction.",
+      "before": "R1 V unacted inside stationary coach, full HP, S1/S2 hold Lightning Bolt.",
+      "after": "V hides/readies/dismounts, coach backs10ft, S1 bolt deals20 each V/F, readied Galepierce misses, V movement25ft remains.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
