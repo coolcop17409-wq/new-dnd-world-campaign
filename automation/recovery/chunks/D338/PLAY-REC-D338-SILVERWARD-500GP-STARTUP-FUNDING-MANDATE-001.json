@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-SILVERWARD-500GP-STARTUP-FUNDING-MANDATE-001",
+  "base_commit": "f76a8e5742837429af51d6e296da2449827528d2",
+  "source_checkpoint": "D338-1205-SILVERWARD-HESSA-RESTORATION-REPORT-FUNDING-PENDING-001",
+  "destination_checkpoint": "D338-1210-SILVERWARD-500GP-STARTUP-MANDATE-ACCEPTED-001",
+  "source_evidence": "Exact player 'Give her 500 gold as a startup investment, and tell her to go ahead and start the work getting the repairs, contracts, and mine up and running.' At D338~12:10 V physically transfers exactly500gp from personal purse2020gp8sp6cp to Hessa Marr's custody as separate Silverward startup capital; V purse1520gp8sp6cp. No second charge for this same investment or automatic transfer to a different estate. Hessa accepts the funded operating mandate and is authorized to obtain and accept reasonable professional quotes, engage qualified craftsmen and mining surveyor/assayer, repair and fit out the service-house after appropriate structural safety checks, establish modest safe lodging/meals/feed/tethering/storage and actively pursue, follow up, negotiate and fulfill commercially viable customer contracts as capacity becomes available. For the mine, discreetly arrange site survey, assay, flood/structural assessment, access/parcel and lawful mineral-rights verification, feasibility and extraction plans, and begin safe development/operation if rights, technical and economic prerequisites are satisfied, within available funding. No need for routine V signoff inside mandate; no borrowing, additional V funds, forced resident/ferry rights transfer, unverified mineral title, unfunded obligations, major expansion beyond available capital or unsafe extraction. Hessa begins arranging contact with her known mason and mining specialist today, using her local contacts, with first actual quotes, acceptance and visits yet to be resolved. Existing 50–70gp provisional service-house estimate and pending survey quote are not incurred expenses. Existing agreed stewardship wage5gp/actual day and voluntary guardians retained. data/estate/README.md latest run D337-ESTATE confirms separate Silverward account and overdue15gp D334 payroll pending lawful funding; Hessa is authorized to settle already verified payroll from the new funds, but no actual payout yet adjudicated. Six completed days D332–337 total30gp earned per prior accepted report; reconcile against existing owner journal, never repost prior wage accruals or earlier outreach, D338 remains open. No new contract, worker engagement, actual payment beyond V's 500gp capital transfer, inspection, construction, sales, revenue, or mine production claimed. Hessa to continue active daily outreach and follow-through and report material costs, results and setbacks; start work now, not wait for more ordinary approvals. No roll required for voluntary acceptance and actual authorized transfer. Prior Hessa independent home/ferry rights, conditional service-house grant, guardian arrangements, all other estate accounts/quest/custody unchanged.",
+  "pending_action": "D338~12:10 Silverward Crossing, Hessa Marr holds 500gp newly transferred startup capital in separate Silverward custody, V purse1520gp8sp6cp. Overdue verified15gp D334 wage settlement authorized from funded account but not yet paid; six workdays D332–337 30gp total wage obligations per prior accepted report subject to exact owner reconciliation, no duplicate, D338 open. Hessa funded to arrange repairs, commercial fit-out, active customer contracts and mine inspection/development/operation once lawful rights, safe conditions and feasibility established, limited to available funds; first quotes/visits and actual spending beyond transfer pending. 50–70gp provisional service-house estimate only. Mine six rough road miles away, probable galena/lead-silver prospect, assay, reserves, title and viability unverified; all Derro loot/ore unclaimed on site, bracing/rope intact. Conditional Silverward grant not deed, independent Marr ferry/home/access rights intact, voluntary guardians. V48/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, Galepierce carried, dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration. F59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara coach/four horses intact. Rations21/feed28, D338 charge applied, LR0/6, Tamsin morning contact accounted for. Prior tower/Caul/ancestry/commission/correspondence/custody unchanged. V next decision at Silverward; owner synchronization pending.",
+  "depends_on": [
+    "PLAY-REC-D338-SILVERWARD-HESSA-RESTORATION-TRADE-PLAN-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Explicit player-authorized transfer and voluntary steward acceptance; no uncertain quote, commercial deal or inspection adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D338-SILVERWARD-OWNER-CAPITAL-500GP-001",
+      "accepted": true,
+      "evidence": "V physically transfers 500gp once to Hessa in separate Silverward estate startup custody. Personal purse2020gp8sp6cp→1520gp8sp6cp. Record one owner capital inflow (not revenue), not a cost or inter-estate transfer; no spending from estate cash yet. Existing liabilities remain until actual payment.",
+      "before": "V purse2020gp8sp6cp; new capital not transferred.",
+      "after": "V purse1520gp8sp6cp; Hessa receives500gp Silverward startup cash.",
+      "owner_paths": [
+        "data/characters/events.csv",
+        "data/estate/events.csv",
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D338-SILVERWARD-HESSA-FUNDED-STARTUP-MANDATE-001",
+      "accepted": true,
+      "evidence": "Exact player 'Give her 500 gold as a startup investment, and tell her to go ahead and start the work getting the repairs, contracts, and mine up and running.' At D338~12:10 V physically transfers exactly500gp from personal purse2020gp8sp6cp to Hessa Marr's custody as separate Silverward startup capital; V purse1520gp8sp6cp. No second charge for this same investment or automatic transfer to a different estate. Hessa accepts the funded operating mandate and is authorized to obtain and accept reasonable professional quotes, engage qualified craftsmen and mining surveyor/assayer, repair and fit out the service-house after appropriate structural safety checks, establish modest safe lodging/meals/feed/tethering/storage and actively pursue, follow up, negotiate and fulfill commercially viable customer contracts as capacity becomes available. For the mine, discreetly arrange site survey, assay, flood/structural assessment, access/parcel and lawful mineral-rights verification, feasibility and extraction plans, and begin safe development/operation if rights, technical and economic prerequisites are satisfied, within available funding. No need for routine V signoff inside mandate; no borrowing, additional V funds, forced resident/ferry rights transfer, unverified mineral title, unfunded obligations, major expansion beyond available capital or unsafe extraction. Hessa begins arranging contact with her known mason and mining specialist today, using her local contacts, with first actual quotes, acceptance and visits yet to be resolved. Existing 50–70gp provisional service-house estimate and pending survey quote are not incurred expenses. Existing agreed stewardship wage5gp/actual day and voluntary guardians retained. data/estate/README.md latest run D337-ESTATE confirms separate Silverward account and overdue15gp D334 payroll pending lawful funding; Hessa is authorized to settle already verified payroll from the new funds, but no actual payout yet adjudicated. Six completed days D332–337 total30gp earned per prior accepted report; reconcile against existing owner journal, never repost prior wage accruals or earlier outreach, D338 remains open. No new contract, worker engagement, actual payment beyond V's 500gp capital transfer, inspection, construction, sales, revenue, or mine production claimed. Hessa to continue active daily outreach and follow-through and report material costs, results and setbacks; start work now, not wait for more ordinary approvals. No roll required for voluntary acceptance and actual authorized transfer. Prior Hessa independent home/ferry rights, conditional service-house grant, guardian arrangements, all other estate accounts/quest/custody unchanged.",
+      "before": "Quote-only mandate; unfunded proposals and overdue payroll.",
+      "after": "Funded operational authorization, existing due payroll may be settled, Hessa begins contact arrangements, actual quotes/engagement and outcomes pending.",
+      "owner_paths": [
+        "data/estate/operational-checkpoint.csv",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
