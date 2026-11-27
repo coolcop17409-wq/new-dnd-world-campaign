@@ -2,13 +2,13 @@
   "schema_version": 1,
   "request_id": "PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001",
   "status": "partial",
-  "phase": "owners_published_unverified",
+  "phase": "owners_verified",
   "claim_owner": "maintenance-pr47-20261127",
   "claim_expires_at": "2026-11-27T15:29:22.000Z",
   "request_commit": "95efd1be47dbe59108a1363ae3f4837f56f27537",
   "request_blob": "7d3007744e8210fdc993c35883fa3777173dcad1",
-  "summary": "Prepared/read-source-verified21 accepted events and22 numeric/custody legs; atomic owner batch published with this phase. Independent content readback and checkpoint publication remain required.",
-  "blocker": "independent owner/archive verification and CAMPAIGN_STATE-last pending",
+  "summary": "All19 owner/metadata files independently read back; original Day324 state archived verbatim. Publishing exact accepted Day325 checkpoint last; final validation/cleanup pending.",
+  "blocker": "final checkpoint validation and generated verification pending",
   "applied_event_ids": [
     "D324-V-ROAD-GANG-EQUIPMENT-RESALE-185GP-001",
     "D324-V-PARTY-RESUPPLY-15-RATIONS-20-FEED-001",
@@ -32,7 +32,7 @@
     "D325-ORSAVEN-NIGHTGLASS-AUTHENTICATED-SURVEY-COMPARISON-001",
     "D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001"
   ],
-  "owners_verified": false,
+  "owners_verified": true,
   "owner_paths": [
     "data/characters/events.csv",
     "trackers/csv/cirren/cirren-character.csv",
@@ -54,5 +54,27 @@
     "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md"
   ],
   "owner_batch_parent": "a15a52f844571e859465901c7f87fc41d53a1053",
-  "pending_checkpoint": "D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001"
+  "pending_checkpoint": "D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001",
+  "owner_commit": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+  "per_file_verification": {
+    "data/characters/events.csv": "e5e18904cb49d43cfdf6d1c441d943fae7e96860",
+    "trackers/csv/cirren/cirren-character.csv": "108dcb33fcea6c533976d497fc375bffd9472bc1",
+    "trackers/csv/fenar/fenar-character.csv": "2687f86ccd17a273f8dc9e25000c864036e48e7b",
+    "trackers/csv/cirren/cirren-inventory.csv": "a9a3503692691fbdb3da4e1594ea17576320eb2b",
+    "trackers/csv/fenar/fenar-features.csv": "17b98c5cedabcb4bc5564ecc8cf83838ae77227c",
+    "campaign/continuity/session-log.md": "5c882db52c08190fe4940e655739351ce239b456",
+    "campaign/continuity/npcs.md": "ec3ee5717338f170bbf1a7f9c8873a1e84b538ec",
+    "campaign/continuity/inventory.md": "96307948ad3ec769939ed3d030e36255f4dd2f64",
+    "campaign/continuity/quests.md": "1c37c2d1e7339657a1570afcba062d217762e580",
+    "archive/continuity/campaign-state-before-PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.md": "1a69818ddb9f592991b1c008a018afac719c27ff",
+    "prep/dm-only/dm-only-secret-quest-outlines.md": "7d3baa4e3ce57df1038b5d7e9bef9ed09bdc3e07",
+    "prep/dm-only/dm-estate-ancestry.md": "6b212651690e00944bf9db891893a5fcd6749167",
+    "prep/dm-only/ashen-regency-field-operations-dm-only.md": "fadf13c8a1eeebe509383fd9b0b3005d53ec68ca",
+    "prep/dm-only/long-arc-two-antagonists-dm-only.md": "03bb8d610516e18dd646ca9778a839780524c8fd",
+    "runtime/SCENE_CACHE.md": "3c0abcdd128f71cd1df16f8282d7c03b657bcaea",
+    "runtime/REGION_PREP.md": "7f24d7f0953886bb0adfb5d88f15d90cb50c3afb",
+    "campaign/continuity/readme.md": "22d5c24b83270a0ac91ee0754cdc5bf52091cee9",
+    "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md": "4dbf4a492146b825083328e92c6dcd658dffe854",
+    "automation/handoffs/play-sync/results/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json": "2311de8599728ed2a2cf472a27dac35f08e1f4f6"
+  }
 }
