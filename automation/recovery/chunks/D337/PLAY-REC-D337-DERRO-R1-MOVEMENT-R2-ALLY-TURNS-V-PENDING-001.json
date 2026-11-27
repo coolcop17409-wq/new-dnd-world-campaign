@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R1-MOVEMENT-R2-ALLY-TURNS-V-PENDING-001",
+  "base_commit": "380ca09d617d1f1b718293db415c12993e6723a3",
+  "source_checkpoint": "D337-1130-DERRO-R1-V-CORRECTED-REACTION-D1-WOUNDED-MOVEMENT-REMAINS-001",
+  "destination_checkpoint": "D337-1130-DERRO-R2-V-TURN-PLAN-BLOCKED-001",
+  "source_evidence": "Player 'Get within 30 feet, Bonus hide, action surge attack, hold regular action to attack when an ally is in melee' treated as advance using remaining R1 movement and conditional intended next-turn sequence, since R1 action/BA/reaction already spent and original D1 56.57ft away, impossible within30 using remaining20. Disclosed interpretation before resolving. V moves20ft north on clear road from(-5,5,0) to(-5,25,0); D1 44.72ft, no fresh hide/attack/Surge or resource expenditure. No S2 existing trigger met during movement, no eligible C/F reaction. V ends R1 movement/turn, R2 plan not executed.\n\nR1 D5: four shaded Derro use light crossbows (+4, normal80ft range, no sunlight disadvantage, no intervening cover for targets). D1 attacks V d20=12+4=16 miss AC19; D2 attacks C d20=8+4=12 miss AC19; D3 attacks V d20=3+4=7 miss; D4 attacks V d20=15+4=19 hit, d8=5+2=7 piercing V28→21. D1 retreats10ft north on rocky ground (cost20) from(35,45,0) to(35,55,0); no new cover assumed; D2/D3/D4 hold original positions. No new C/F readied trigger. Actual batch edffafe4954d7f62250f17237ddab8d0. R1 ends.\n\nR2 S17: S1 fires its last L3 Lightning Bolt directly at advancing V, clear 100ft line from(65,60,10) avoiding coach and other defenders. V Dex d20=11+8=19 vs DC12 success; shared 8d6=6,3,1,6,5,6,2,5 total34, half17 lightning, V21→4/48. S1 L3 1→0/2, action spent. S2 prior held Lightning Bolt expires at start of its turn untriggered, slot already spent R1, L3 stays1/2; moves from(75,65,10) to(65,65,10) costing20 in rocky shade, readies Ray of Frost on first visible hostile within60ft, concentrating while held, reaction available. S3 stays invisible/concentrating, moves from(60,75,10) to(50,65,10) cost28.28 rough terrain and Dodges; no spell/attack or new slot. Actual batch e2e4bb657b4fccdb21f9fe4c0e95589e. Mara initiative15 continues cautious10ft backing on clear road to coach center(0,-20), no attack or injury to coach/four horses. No V action taken.\n\nR2 C13: prior held Toll the Dead expires untriggered at turn start. Cirren chooses prepared third-level Healing Word BA on critically injured V, within60ft, actual3d4=4,3,1 +WIS5=13, V4→17/48, C L3 3→2/3; L1/L2 unchanged. Moves from(-10,0,0) via(-5,0,0) to(-5,20,0), movement cost27.5 with initial2.5ft difficult; casts action Toll the Dead on visible wounded D1 at(35,55,0) range53.15ft, no remaining concentration, WIS save Magic Resistance adv actual12/1 keep12−3=9 vs DC16 fails, 2d12=6,3 total9 necrotic, D1 HP3→0 dead. C HP51/51 AC19, action/BA spent reaction available. Healing Word + action cantrip legal. R2 F11: original Ready claw expires untriggered; unable to reach melee this turn using normal movement or OA70ft/50ft running jump through actual difficult terrain, independently Dashes (80ft movement allowance), from(-10,-5,0) via(-5,0,0), north to(-5,45,0), east to(10,45,0), movement cost~73.1; at first reachable5ft position within60ft of S2, its readied Ray of Frost triggers against F (no cover/adv/disadv, shaded caster), d20=19+4=23 vs AC16 hits; caster level5 2d8=5,7 total12 cold, no Rage resistance, F39→27/59, speed40→30 until start of S2 R3 turn; reduced Dash allowance60 already exceeded by actual movement to trigger so stop there, no retroactive movement or extra move. S2 reaction spent, held concentration ends, no slot spent. Fenar remains raging/claws, no MP, no Shift activation or attack; no other rolls. Actual batch 2a8bbf90d9fcb043f5bbd07ac11a1596. R2 V6 next, action BA reaction movement all available. No allies within5ft of a live enemy, nearest visible D2 56.57ft from V behind half cover, 30ft movement through road/rough slope cannot bring V within30ft of a visible enemy, no established concealment in reachable road position for Hide. Pause before any R2 V movement/action/spending to let V revise or authorize alternative. Intended combination not executed.",
+  "pending_action": "Day337~11:30 R2 V initiative6 to act, fresh action/BA/reaction, movement30ft, V(-5,25,0) HP17/48 AC19, all V limited pools unchanged and Galepierce carried; R1 movement/turn completed. Initiative S17 Mara15 C13 F11 V6 D5. C(-5,20,0)51/51 AC19 HD6/6 slots4/3/2 CD2/2 no concentration, R2 action/BA spent reaction available; F(10,45,0)27/59 AC16 HD6/6 Rage3/4 active Beast Claws, Shift3/3 inactive MP6/6 CLIMB40, no THP, speed30 until start of S2's R3 turn (Ray of Frost), R2 Dash spent BA/reaction available. Mara coach center(0,-20) healthy four horses safe, R2 backing done. S1(65,60,10)36/36 AC13+half cover from party, L3 0/2, R2 Lightning Bolt action spent reaction available, no concentration. S2(65,65,10)36/36 AC13 L3 1/2, original readied bolt expired at start of R2, R2 readied Ray of Frost discharged reaction spent concentration ended. S3(50,65,10)36/36 AC13 invisible concentration L2 2/3, R2 Dodge until start next turn; position DM-only. D1(35,55,0) dead0/13, D2(35,65,0) half cover AC15 vs party, D3(55,45,5), D4(55,65,5) AC13, each13/13, D2–D4 R2 not acted. Road clear, off-road rocky scrub difficult terrain, foes shaded; no actual ally in melee. V's proposed within30/BA Hide/Surge Attack/Ready ally-in-melee combination conditional and unexecuted: no legal within30 or established reachable hiding cover, pause for revised R2 decision. V still has all limited-use abilities, dice delegated. D335 purchases17gp,30/40 supplies; D336 consumed3/4, current rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. Two qualifying nights LR4→5→6/6 dawn337 completed, now LR0/6, V17/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower in V practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers still pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds 2 original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul's historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign's child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site still needs preparation before expedition beyond Silverward. Other prior pending commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R1-V-READY-TARGET-CORRECTION-PSYCHIC-BLADE-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "edffafe4954d7f62250f17237ddab8d0",
+        "rolls": [
+          {
+            "id": "D337.R1.D1.crossbow.V.attack",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D337.R1.D2.crossbow.Cirren.attack",
+            "sides": 20,
+            "faces": [
+              8
+            ]
+          },
+          {
+            "id": "D337.R1.D3.crossbow.V.attack",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.R1.D4.crossbow.V.attack",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          },
+          {
+            "id": "D337.R1.D4.crossbow.V.damage",
+            "sides": 8,
+            "faces": [
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "e2e4bb657b4fccdb21f9fe4c0e95589e",
+        "rolls": [
+          {
+            "id": "D337.R2.S1.lightning.V.Dex",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D337.R2.S1.lightning.damage",
+            "sides": 6,
+            "faces": [
+              6,
+              3,
+              1,
+              6,
+              5,
+              6,
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "2a8bbf90d9fcb043f5bbd07ac11a1596",
+        "rolls": [
+          {
+            "id": "D337.R2.Cirren.Healing_Word_L3.V",
+            "sides": 4,
+            "faces": [
+              4,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "D337.R2.D1.Toll_the_Dead.Wis.magic_resistance",
+            "sides": 20,
+            "faces": [
+              12,
+              1
+            ]
+          },
+          {
+            "id": "D337.R2.Cirren.Toll_the_Dead.D1.damage",
+            "sides": 12,
+            "faces": [
+              6,
+              3
+            ]
+          },
+          {
+            "id": "D337.R2.S2.readied_Ray_of_Frost.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              19
+            ]
+          },
+          {
+            "id": "D337.R2.S2.Ray_of_Frost.Fenar.damage",
+            "sides": 8,
+            "faces": [
+              5,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R1-V-ADVANCE-AND-END-TURN-001",
+      "accepted": true,
+      "evidence": "Player 'Get within 30 feet, Bonus hide, action surge attack, hold regular action to attack when an ally is in melee' treated as advance using remaining R1 movement and conditional intended next-turn sequence, since R1 action/BA/reaction already spent and original D1 56.57ft away, impossible within30 using remaining20. Disclosed interpretation before resolving. V moves20ft north on clear road from(-5,5,0) to(-5,25,0); D1 44.72ft, no fresh hide/attack/Surge or resource expenditure. No S2 existing trigger met during movement, no eligible C/F reaction. V ends R1 movement/turn, R2 plan not executed.",
+      "before": "V(-5,5), movement20, action/BA/reaction spent",
+      "after": "V(-5,25), movement0, R1 end, R2 plan conditional",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D337-R1-DERRO-CROSSBOW-VOLLEY-001",
+      "accepted": true,
+      "evidence": "R1 D5: four shaded Derro use light crossbows (+4, normal80ft range, no sunlight disadvantage, no intervening cover for targets). D1 attacks V d20=12+4=16 miss AC19; D2 attacks C d20=8+4=12 miss AC19; D3 attacks V d20=3+4=7 miss; D4 attacks V d20=15+4=19 hit, d8=5+2=7 piercing V28→21. D1 retreats10ft north on rocky ground (cost20) from(35,45,0) to(35,55,0); no new cover assumed; D2/D3/D4 hold original positions. No new C/F readied trigger. Actual batch edffafe4954d7f62250f17237ddab8d0. R1 ends.",
+      "before": "V28/48; D1 at35,45",
+      "after": "V21/48; D1 at35,55; other foes unchanged",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R2-SAVANTS-COACH-001",
+      "accepted": true,
+      "evidence": "R2 S17: S1 fires its last L3 Lightning Bolt directly at advancing V, clear 100ft line from(65,60,10) avoiding coach and other defenders. V Dex d20=11+8=19 vs DC12 success; shared 8d6=6,3,1,6,5,6,2,5 total34, half17 lightning, V21→4/48. S1 L3 1→0/2, action spent. S2 prior held Lightning Bolt expires at start of its turn untriggered, slot already spent R1, L3 stays1/2; moves from(75,65,10) to(65,65,10) costing20 in rocky shade, readies Ray of Frost on first visible hostile within60ft, concentrating while held, reaction available. S3 stays invisible/concentrating, moves from(60,75,10) to(50,65,10) cost28.28 rough terrain and Dodges; no spell/attack or new slot. Actual batch e2e4bb657b4fccdb21f9fe4c0e95589e. Mara initiative15 continues cautious10ft backing on clear road to coach center(0,-20), no attack or injury to coach/four horses. No V action taken.",
+      "before": "V21; S1 L3 1/2; S2 L3 1/2 holds bolt; coach0,-10",
+      "after": "V4; S1 L3 0/2; S2 held Ray; S3 invisible Dodge; coach0,-20",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R2-CIRREN-HEALING-FENAR-ADVANCE-001",
+      "accepted": true,
+      "evidence": "R2 C13: prior held Toll the Dead expires untriggered at turn start. Cirren chooses prepared third-level Healing Word BA on critically injured V, within60ft, actual3d4=4,3,1 +WIS5=13, V4→17/48, C L3 3→2/3; L1/L2 unchanged. Moves from(-10,0,0) via(-5,0,0) to(-5,20,0), movement cost27.5 with initial2.5ft difficult; casts action Toll the Dead on visible wounded D1 at(35,55,0) range53.15ft, no remaining concentration, WIS save Magic Resistance adv actual12/1 keep12−3=9 vs DC16 fails, 2d12=6,3 total9 necrotic, D1 HP3→0 dead. C HP51/51 AC19, action/BA spent reaction available. Healing Word + action cantrip legal. R2 F11: original Ready claw expires untriggered; unable to reach melee this turn using normal movement or OA70ft/50ft running jump through actual difficult terrain, independently Dashes (80ft movement allowance), from(-10,-5,0) via(-5,0,0), north to(-5,45,0), east to(10,45,0), movement cost~73.1; at first reachable5ft position within60ft of S2, its readied Ray of Frost triggers against F (no cover/adv/disadv, shaded caster), d20=19+4=23 vs AC16 hits; caster level5 2d8=5,7 total12 cold, no Rage resistance, F39→27/59, speed40→30 until start of S2 R3 turn; reduced Dash allowance60 already exceeded by actual movement to trigger so stop there, no retroactive movement or extra move. S2 reaction spent, held concentration ends, no slot spent. Fenar remains raging/claws, no MP, no Shift activation or attack; no other rolls. Actual batch 2a8bbf90d9fcb043f5bbd07ac11a1596. R2 V6 next, action BA reaction movement all available. No allies within5ft of a live enemy, nearest visible D2 56.57ft from V behind half cover, 30ft movement through road/rough slope cannot bring V within30ft of a visible enemy, no established concealment in reachable road position for Hide. Pause before any R2 V movement/action/spending to let V revise or authorize alternative. Intended combination not executed.",
+      "before": "V4, F39, C L3 3/3, D1 HP3",
+      "after": "V17, F27 speed30 until R3 S2, C L3 2/3, D1 dead, R2 V pending; no V ability spent",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
