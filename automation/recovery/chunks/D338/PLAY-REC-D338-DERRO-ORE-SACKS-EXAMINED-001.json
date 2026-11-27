@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-DERRO-ORE-SACKS-EXAMINED-001",
+  "base_commit": "35b3358f890dea6f86e8a1aa0a3e3a09808b5165",
+  "source_checkpoint": "D338-0613-DERRO-WORK-CHAMBER-SILVER-PROSPECTING-DESCENT-PENDING-001",
+  "destination_checkpoint": "D338-0616-DERRO-ORE-SACKS-EXAMINED-DESCENT-PENDING-001",
+  "source_evidence": "Exact player 'look through the sacks' authorizes opening and examining all three tied sacks in first worked chamber, not removing or transporting their contents. Day338~06:13–06:16 V and companions open and visually compare them. DM establishes mundane contents consistent with previously fixed silver-prospecting operation: first sack mostly coarse pale freshly broken host rock with sparse dark metallic-looking flecks, second sack denser hand-selected gray metallic-looking ore fragments, third sack smaller crushed and sorted pieces of similar metallic-looking material, more carefully separated from waste rock, no refined ingots or coins. Sacks marked with charcoal sorting symbols; Fenar matches the same Undercommon 'silver stone' label on the latter two, and 'poor stone' on the first. This supports a deliberate trial extraction and sorting process, not verified ore assay, grade, yield, weight, sale value, commercially viable deposit or proof of silver. All contents mundane as far as currently active Detect Magic can determine; no unfamiliar magic, documents, hidden compartment, magic item or creature discovered by this ordinary visual examination. No check needed for directly visible contents and straightforward known-language markings; no assay attempted. Contents stay in sacks in chamber, no loot or sample custody changed. No deeper passage entry, spell/feature expenditure, new damage, supplies consumed or other resource change. V chooses next action.",
+  "pending_action": "Day338~06:16 in first Derro work chamber ~45ft from entrance, roughly25x20ft, ceiling6–9ft. Three sacks opened: coarse low-metal-looking host rock marked poor stone, selected dense gray metallic-looking fragments marked silver stone, crushed/sorted similar fragments marked silver stone. No refined metal, confirmed assay, commercial value or unfamiliar magic. All unclaimed in chamber, descent with anchored rope still unexplored. V48/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, Galepierce carried, dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 Detect Magic concentration until~06:20; Light shield until~07:10. F59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara coach/four horses intact nearby road. Seven Derro dead; previous unclaimed10gp46sp, weapons/tools/component pouches/tally/samples, bedding/supplies and three ore sacks unchanged in custody. V chooses next action. Rations24/feed32, D338 charge pending, purse2020gp8sp6cp LR0/6, Tamsin morning contact accounted for. Prior estate, ancestry, commission, correspondence and custody facts unchanged; full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D338-DERRO-LIGHT-EXCAVATION-WORK-CHAMBER-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary visual inspection of open sacks and reading established sorting labels; no uncertain assay or search for concealed contents adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D338-DERRO-ORE-SACKS-EXAMINED-001",
+      "accepted": true,
+      "evidence": "Exact player 'look through the sacks' authorizes opening and examining all three tied sacks in first worked chamber, not removing or transporting their contents. Day338~06:13–06:16 V and companions open and visually compare them. DM establishes mundane contents consistent with previously fixed silver-prospecting operation: first sack mostly coarse pale freshly broken host rock with sparse dark metallic-looking flecks, second sack denser hand-selected gray metallic-looking ore fragments, third sack smaller crushed and sorted pieces of similar metallic-looking material, more carefully separated from waste rock, no refined ingots or coins. Sacks marked with charcoal sorting symbols; Fenar matches the same Undercommon 'silver stone' label on the latter two, and 'poor stone' on the first. This supports a deliberate trial extraction and sorting process, not verified ore assay, grade, yield, weight, sale value, commercially viable deposit or proof of silver. All contents mundane as far as currently active Detect Magic can determine; no unfamiliar magic, documents, hidden compartment, magic item or creature discovered by this ordinary visual examination. No check needed for directly visible contents and straightforward known-language markings; no assay attempted. Contents stay in sacks in chamber, no loot or sample custody changed. No deeper passage entry, spell/feature expenditure, new damage, supplies consumed or other resource change. V chooses next action.",
+      "before": "Three tied sacks in first chamber, contents not examined.",
+      "after": "Three opened sacks of sorted rock/metallic-looking ore examined, unclaimed; deeper descent pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
