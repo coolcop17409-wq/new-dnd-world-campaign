@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R7-R8-OFFENSIVE-CORRECTION-S1-KILLED-001",
+  "base_commit": "cf5b7b2ffd09a2fe74d9542cf67fbf8ec55b9c6e",
+  "source_checkpoint": "D337-1130-DERRO-R8-V-REVIVED-SAVANTS-WITHDRAW-PURSUIT-PENDING-001",
+  "destination_checkpoint": "D337-1130-DERRO-R8-V-REVIVED-S1-KILLED-S2-INVISIBLE-001",
+  "source_evidence": "Exact player 'Wait hell no, Fenar would have tried to kill these two and Cirren would have rolled the dead, I am fine' immediately corrects companion tactics in saved R7–R8. Preserve R7 S1/S2 actions, actual Burning Hands damage10, V10→0 unconscious, F second failed death save, Mara withdrawal, and C's final L2 Healing Word on F actual4,1+5=10. No claim V remained conscious. Supersede only prior R7 C Dash, F Medicine stabilization, resulting omitted V death save, and R8 passive C/F tactics; preserve original R8 enemy withdrawal and invisibility, Mara movement, and same C L1 Healing Word on V actual1+5=6, with revised intervening V state. Prior Medicine face13 is audit-only, no use. R7 C moves from(15,50,0) to(26,57,0) rough cost26.08ft, action Toll the Dead at visible full-health S1(65,70,10), within60ft. Magic Resistance Wis advantage9,9 keep9−3=6/DC16 fails; 2d8=6,6=12 necrotic, S1 36→24. C L2 1→0 via preserved BA heal. F stands20ft before activating final Rage BA (1→0/4), Beast Claws, and spends2MP OA (2→0/6), speed70 this turn; moves from(46,65,10) to(61,68,10) cost30.59ft rough terrain, within4.47ft of S1, total50.59ft. Reckless Attack: paired Double-Claw Rend adv1,3 keep3+8=11 vsAC13 misses; Beast Claw adv2,13 keep13+8=21 hit, d6=3+7=10; extra Beast Claw adv9,9 keep9+8=17 hit, d6=5+7=12. S1 24→2/36. F10/59 upright, OA ends at turn end. V dying R7 turn, Reborn death save advantage6,15 keep15+2=17 succeeds, 1 success0 failures. Actual new visible batchc652c01e0d53d8c57374258db41d1b2c. R8 S2 continues beyond threshold invisible; S1 still alive casts L2 Invisibility (1→0), moves to fissure threshold(70,80,10), no Hide, no visible OA target; original retreat remains legal. Mara coach to(0,-80) intact. C moves toward V from(26,57,0) to(39,59,5) rough cost~28.14ft; casts same preserved L1 Healing Word on V, actual old batch28293536e1cdd62459f389b7f28a8c80 d4=1+5=6, V0→6/48 conscious prone, death save reset. C slots3/0/0. Toll the Dead requires sight so C cannot directly target either invisible savant; instead Ready Toll the Dead for first visible hostile within60ft, concentration and reaction available, no slot. F follows S1's audible retreat footsteps (no Hide by S1, not automatic vision) from(61,68,10) to(67,76,10), rough cost20ft, 5ft from S1 at threshold. Reckless advantage cancels invisibility disadvantage; normal d20=15+8=23 vsAC13 hit, d12=3+7=10 slashing, S1 2→0 dead, Invisibility ends. No further melee attack on dead target; S2 remains unseen beyond threshold with no established precise location. F independently activates Shift BA to gain6 temporary HP (Shift3→2/3), no eligible fang target, remains active Rage Beast Claws and upright, no additional MP. Actual visible batch8f1ee008f31b838e8d10f50656d47950. No V action, resource spending, movement, additional enemy or chase beyond verified entrance. R8 V fresh turn, one surviving enemy S2 at2/36 invisible withdrawing. Original chunk retained immutable; corrected companion actions and dependent states supersede original exact events D337-R7-CIRREN-HEALS-FENAR-STABILIZES-V-001 and D337-R8-SAVANTS-RETREAT-CIRREN-REVIVES-V-001 to specified extent only.",
+  "pending_action": "Day337~11:30 R8 V initiative6, V(46,61,5)6/48 AC19 conscious prone, action BA reaction fresh, movement30ft stand15, MP3/7 Sup2/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone; death saves reset; dice delegated. Galepierce at/by dead D3(55,45,5), uncollected. C(39,59,5)51/51 AC19 HD6/6 slots3/0/0 CD2/2 R8 action Ready Toll the Dead for visible hostile within60ft, concentration/reaction available, BA spent. F(67,76,10)10/59 +6 THP AC16 HD6/6 Rage0/4 ACTIVE Beast Claws, Shift2/3 ACTIVE, MP0/6 CLIMB40, Reckless exposure until next turn, R8 action/BA spent reaction available, upright. Mara coach(0,-80) intact healthy four horses. S1 dead at fissure threshold(70,80,10); S2 2/36 AC13 L3 0/2 L2 1/3 L1 4/4 invisible concentrating, last known direction inward beyond threshold, no verified exact interior position. S3/D1–D4 dead. Road clear, rocky slope difficult. V chooses next action; combat remains open, no pursuit into unverified interior, loot or equipment recovery yet. D335 provisions17gp; D336 charge3/4, rations27/feed36, D337 charge pending; purse2020gp8sp6cp; LR0/6. Prior Caul/tower/Hessa/Silverward/ancestry/custody/commission facts unchanged per dependency; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R7-R8-SAVANTS-WITHDRAW-V-REVIVED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "c652c01e0d53d8c57374258db41d1b2c",
+        "rolls": [
+          {
+            "id": "D337.R7.corrected.S1.Toll_the_Dead.Wis.magic_resistance",
+            "sides": 20,
+            "faces": [
+              9,
+              9
+            ]
+          },
+          {
+            "id": "D337.R7.corrected.Cirren.Toll_the_Dead.S1.damage",
+            "sides": 8,
+            "faces": [
+              6,
+              6
+            ]
+          },
+          {
+            "id": "D337.R7.corrected.Fenar.Double_Claw_Rend.S1.attack",
+            "sides": 20,
+            "faces": [
+              1,
+              3
+            ]
+          },
+          {
+            "id": "D337.R7.corrected.Fenar.Beast_Claw.S1.attack",
+            "sides": 20,
+            "faces": [
+              2,
+              13
+            ]
+          },
+          {
+            "id": "D337.R7.corrected.Fenar.Beast_Claw.S1.damage",
+            "sides": 6,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.R7.corrected.Fenar.extra_Beast_Claw.S1.attack",
+            "sides": 20,
+            "faces": [
+              9,
+              9
+            ]
+          },
+          {
+            "id": "D337.R7.corrected.Fenar.extra_Beast_Claw.S1.damage",
+            "sides": 6,
+            "faces": [
+              5
+            ]
+          },
+          {
+            "id": "D337.R7.corrected.V.death_save.Reborn_advantage",
+            "sides": 20,
+            "faces": [
+              6,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "8f1ee008f31b838e8d10f50656d47950",
+        "rolls": [
+          {
+            "id": "D337.R8.corrected.Fenar.Double_Claw_Rend.invisible_S1.attack",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          },
+          {
+            "id": "D337.R8.corrected.Fenar.Double_Claw_Rend.S1.damage",
+            "sides": 12,
+            "faces": [
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R7-R8-COMPANION-OFFENSIVE-CORRECTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'Wait hell no, Fenar would have tried to kill these two and Cirren would have rolled the dead, I am fine' immediately corrects companion tactics in saved R7–R8. Preserve R7 S1/S2 actions, actual Burning Hands damage10, V10→0 unconscious, F second failed death save, Mara withdrawal, and C's final L2 Healing Word on F actual4,1+5=10. No claim V remained conscious. Supersede only prior R7 C Dash, F Medicine stabilization, resulting omitted V death save, and R8 passive C/F tactics; preserve original R8 enemy withdrawal and invisibility, Mara movement, and same C L1 Healing Word on V actual1+5=6, with revised intervening V state. Prior Medicine face13 is audit-only, no use. R7 C moves from(15,50,0) to(26,57,0) rough cost26.08ft, action Toll the Dead at visible full-health S1(65,70,10), within60ft. Magic Resistance Wis advantage9,9 keep9−3=6/DC16 fails; 2d8=6,6=12 necrotic, S1 36→24. C L2 1→0 via preserved BA heal. F stands20ft before activating final Rage BA (1→0/4), Beast Claws, and spends2MP OA (2→0/6), speed70 this turn; moves from(46,65,10) to(61,68,10) cost30.59ft rough terrain, within4.47ft of S1, total50.59ft. Reckless Attack: paired Double-Claw Rend adv1,3 keep3+8=11 vsAC13 misses; Beast Claw adv2,13 keep13+8=21 hit, d6=3+7=10; extra Beast Claw adv9,9 keep9+8=17 hit, d6=5+7=12. S1 24→2/36. F10/59 upright, OA ends at turn end. V dying R7 turn, Reborn death save advantage6,15 keep15+2=17 succeeds, 1 success0 failures. Actual new visible batchc652c01e0d53d8c57374258db41d1b2c. R8 S2 continues beyond threshold invisible; S1 still alive casts L2 Invisibility (1→0), moves to fissure threshold(70,80,10), no Hide, no visible OA target; original retreat remains legal. Mara coach to(0,-80) intact. C moves toward V from(26,57,0) to(39,59,5) rough cost~28.14ft; casts same preserved L1 Healing Word on V, actual old batch28293536e1cdd62459f389b7f28a8c80 d4=1+5=6, V0→6/48 conscious prone, death save reset. C slots3/0/0. Toll the Dead requires sight so C cannot directly target either invisible savant; instead Ready Toll the Dead for first visible hostile within60ft, concentration and reaction available, no slot. F follows S1's audible retreat footsteps (no Hide by S1, not automatic vision) from(61,68,10) to(67,76,10), rough cost20ft, 5ft from S1 at threshold. Reckless advantage cancels invisibility disadvantage; normal d20=15+8=23 vsAC13 hit, d12=3+7=10 slashing, S1 2→0 dead, Invisibility ends. No further melee attack on dead target; S2 remains unseen beyond threshold with no established precise location. F independently activates Shift BA to gain6 temporary HP (Shift3→2/3), no eligible fang target, remains active Rage Beast Claws and upright, no additional MP. Actual visible batch8f1ee008f31b838e8d10f50656d47950. No V action, resource spending, movement, additional enemy or chase beyond verified entrance. R8 V fresh turn, one surviving enemy S2 at2/36 invisible withdrawing. Original chunk retained immutable; corrected companion actions and dependent states supersede original exact events D337-R7-CIRREN-HEALS-FENAR-STABILIZES-V-001 and D337-R8-SAVANTS-RETREAT-CIRREN-REVIVES-V-001 to specified extent only.",
+      "before": "Prior R8 V6 prone C51 F10, both savants invisible retreating, F Rage1 MP2 Shift3 inactive, C Dodge.",
+      "after": "Corrected R8 V6 prone C51 F10+6THP, S1 dead, S2 invisible withdrawing, F Rage0 MP0 Shift2 active; C Ready Toll the Dead.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
