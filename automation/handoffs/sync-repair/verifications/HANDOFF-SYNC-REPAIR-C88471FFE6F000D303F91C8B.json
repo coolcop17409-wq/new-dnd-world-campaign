@@ -1,0 +1,38 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-C88471FFE6F000D303F91C8B",
+  "status": "verified",
+  "tested_commit": "2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c",
+  "current_base_commit": "2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c",
+  "commands": [
+    {
+      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "exit_code": 0,
+      "result": "PASS; zero findings"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.test_fast_play automation.handoffs.test_validate -v",
+      "exit_code": 0,
+      "result": "36 tests passed"
+    }
+  ],
+  "changed_paths": [],
+  "source_evidence": {
+    "failure_commit": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+    "correcting_checkpoint_commit": "85fe8b5db49834a1251e9604cdd8c55326798743",
+    "owner_refs": [
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c/campaign/continuity/campaign-state.md",
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c/data/characters/events.csv",
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c/campaign/continuity/session-log.md"
+    ],
+    "comparison": "Character events unchanged since failure. Later checkpoint commit records Day325 and latest event D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001. Failure was log-before-checkpoint interval; actual final validation now passes.",
+    "maintenance_receipt": "automation/handoffs/play-sync/results/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json",
+    "maintenance_claim_owner": "maintenance-pr47-20261127",
+    "maintenance_claim_expires_at": "2026-11-27T15:29:22.000Z"
+  },
+  "result": "superseded",
+  "blockers": [],
+  "owner_changes_by_this_worker": [],
+  "main_writes_by_this_worker": false,
+  "merged": false,
+  "derived_verification": "Not asserted; belongs to active maintenance worker."
+}
