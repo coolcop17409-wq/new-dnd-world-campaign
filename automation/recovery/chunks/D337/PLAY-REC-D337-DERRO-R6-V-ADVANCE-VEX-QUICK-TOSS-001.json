@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R6-V-ADVANCE-VEX-QUICK-TOSS-001",
+  "base_commit": "aa6b7b380747580ce66f37dbe47b0000fd4da0b4",
+  "source_checkpoint": "D337-1130-DERRO-R6-V-PRONE-TWO-SAVANTS-FENAR-DOWN-001",
+  "destination_checkpoint": "D337-1130-DERRO-R6-V-ADVANCE-VEX-QUICK-TOSS-R7-PENDING-001",
+  "source_evidence": "Exact player 'Get up, attack vex, then if it hits quick toss' followed by immediate correction 'Get closer obviously' before accepted narration or save. Honor movement first: V stands from prone (15ft), then advances from(15,55,0) to(22,57,0), 7.28ft actual displacement across difficult rocky slope costing14.56ft, ~0.44ft movement remains. S2 at(60,65,10), distance~40.10ft, exposed AC13. Ordinary movement cannot reach20ft normal dart range; original physical Galepierce remains uncollected at/by D3(55,45,5), not conjured or copied. No authorization to spend additional 2MP Outrageous Athleticism, so do not spend it. Reposition does not change either attack's range category, cover, advantage/disadvantage, target, or modifiers; retain exact already executed receipt (no rerolls). Main Psychic Blade d20=12+9=21 vsAC13 HIT; d6=2+4=6 psychic, S2 28→22. Apply authorized Weapon Mastery Vex 1MP (6→5/7). BA Quick Toss ordinary unlimited physical dart at long range (20/60), Vex advantage cancels range disadvantage, one normal d20=15+9=24 vsAC13 HIT; no conscious eligible adjacent ally or remaining advantage, no Sneak Attack. d4=3+DEX4+superiority d8=4=11 piercing, S2 22→11/36. Superiority3→2/4. Main and BA spent, reaction available, no meaningful movement remaining. V10/48 upright; no other V resource or custody change. No enemy/companion turn, additional roll or other game progression; next R7 S17. Actual user-visible batch a6832ebd7dafe324269dfb9de5b36b13 retained exactly; no alternative rolls. Player may issue next decision without replay.",
+  "pending_action": "Day337~11:30 end R6 V initiative6 at(22,57,0), HP10/48 AC19 upright, action/BA spent, reaction available, ~0.44ft movement remaining; MP5/7 Sup2/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone; unique Galepierce lies at/by dead D3(55,45,5), not recovered; ordinary dart ammunition unlimited. Dice delegated. S1/S2 17 Mara15 C13 F11 V6; next R7 S17. C(15,50,0)51/51 AC19 HD6/6 slots4/1/0 CD2/2 R6 action/BA spent reaction available, no concentration. F(46,65,10)0/59 AC16 HD6/6 unconscious prone, 0 success/1 failure new death cycle, Rage1/4 inactive Shift3/3 inactive MP2/6 CLIMB40 no THP, no Reckless exposure, R6 death save resolved. S1(60,60,10)36/36 AC13 plus half cover where applicable; S2(60,65,10)11/36 AC13 exposed; each L3 0/2 L2 2/3 L1 4/4, R6 actions spent, reactions available, no concentration. S3 and D1–D4 dead. Mara coach center(0,-60) intact healthy four horses, R6 withdrawal complete. Road clear, off-road slope difficult. No ally in melee, Vex consumed by Quick Toss; no active Ready. D335 provisions17gp; D336 daily charge3/4, rations27/feed36, D337 full-day charge pending; purse2020gp8sp6cp; LR completed dawn337 now0/6. All prior D335–337 Caul, tower, Hessa, Silverward, custody, ancestry and outstanding commission/estate facts unchanged per dependency. No new payroll/estate/quest/correspondence progress; actual seat route/site needs prep before beyond Silverward. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R5-R6-SAVANT3-KILLED-V-REVIVED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "a6832ebd7dafe324269dfb9de5b36b13",
+        "rolls": [
+          {
+            "id": "D337.R6.V.Psychic_Blade.S2.attack",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D337.R6.V.Psychic_Blade.S2.damage",
+            "sides": 6,
+            "faces": [
+              2
+            ]
+          },
+          {
+            "id": "D337.R6.V.Quick_Toss.Vex_cancelled_long_range.S2.attack",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          },
+          {
+            "id": "D337.R6.V.Quick_Toss.S2.dart_damage",
+            "sides": 4,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.R6.V.Quick_Toss.S2.superiority_damage",
+            "sides": 8,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R6-V-ADVANCE-VEX-QUICK-TOSS-001",
+      "accepted": true,
+      "evidence": "Exact player 'Get up, attack vex, then if it hits quick toss' followed by immediate correction 'Get closer obviously' before accepted narration or save. Honor movement first: V stands from prone (15ft), then advances from(15,55,0) to(22,57,0), 7.28ft actual displacement across difficult rocky slope costing14.56ft, ~0.44ft movement remains. S2 at(60,65,10), distance~40.10ft, exposed AC13. Ordinary movement cannot reach20ft normal dart range; original physical Galepierce remains uncollected at/by D3(55,45,5), not conjured or copied. No authorization to spend additional 2MP Outrageous Athleticism, so do not spend it. Reposition does not change either attack's range category, cover, advantage/disadvantage, target, or modifiers; retain exact already executed receipt (no rerolls). Main Psychic Blade d20=12+9=21 vsAC13 HIT; d6=2+4=6 psychic, S2 28→22. Apply authorized Weapon Mastery Vex 1MP (6→5/7). BA Quick Toss ordinary unlimited physical dart at long range (20/60), Vex advantage cancels range disadvantage, one normal d20=15+9=24 vsAC13 HIT; no conscious eligible adjacent ally or remaining advantage, no Sneak Attack. d4=3+DEX4+superiority d8=4=11 piercing, S2 22→11/36. Superiority3→2/4. Main and BA spent, reaction available, no meaningful movement remaining. V10/48 upright; no other V resource or custody change. No enemy/companion turn, additional roll or other game progression; next R7 S17. Actual user-visible batch a6832ebd7dafe324269dfb9de5b36b13 retained exactly; no alternative rolls. Player may issue next decision without replay.",
+      "before": "V prone10/48 at(15,55), MP6/7 Sup3/4, S2 28/36, fresh actions.",
+      "after": "V upright10/48 at(22,57), MP5/7 Sup2/4, S2 11/36, action/BA spent, reaction ready; R7 pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
