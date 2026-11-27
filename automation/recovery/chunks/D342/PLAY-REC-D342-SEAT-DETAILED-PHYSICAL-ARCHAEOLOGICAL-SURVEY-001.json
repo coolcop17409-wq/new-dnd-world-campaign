@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-DETAILED-PHYSICAL-ARCHAEOLOGICAL-SURVEY-001",
+  "base_commit": "532da837eb0c4f56bae469a2afad5dd877801abe",
+  "source_checkpoint": "D342-1825-SEAT-FIELD-ACCOUNT-NEXT-INQUIRY-PENDING-001",
+  "destination_checkpoint": "D342-1935-SEAT-MEASURED-SURVEY-COMPLETE-WEAPONS-RECOVERED-001",
+  "source_evidence": "Exact player 'Then let’s do that' accepts the immediately offered detailed archaeological and physical survey by party before hiring specialists or substantial capital. D342~18:25–19:35 the party surveys and measures accessible sections of fixed prepared outer seat (dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167); Cirren uses Light cantrip on his shield as daylight fades, no slot/concentration; no unstable roof/floor entry, excavation, demolition, excavation cost, tablet removal, new magic item, hidden chamber, spell slot, or uncertain check. Mara records a measured field sketch: surviving outer footprint bounding extent ~240x240ft (x−70..170,y0..240, approximate1.32acre bounding rectangle, not measured estate parcel or whole former court); terrace rises20ft over first100ft; main road10ft, gatehouses20x20ft each with collapsed roofs, walls15ft at gate and10ft arch; cistern40x40ft, rim3ft above terrace and floor8ft below rim, dry except ordinary pools, upstream conduit broken; no functioning water source verified, water catchment/reconnection and drainage need survey; ground-floor household room envelope70x40ft, roofed western vestibule30x20ft with apparently intact vault but not certified habitable, upper floor lost; surviving audience benches/kitchen hearths/servants' entrance and NE Valenthia dedication; garden envelope80x65ft with breached outer wall/10ft step and sound handholds, feasible pedestrian bypass and obvious security vulnerability, no crossing yet; record chamber40x30ft, south door10ft/east wall breach8ft, crack across eastern floor and visible shallow8ft cellar void viewed safely from exterior breach without entering or loading unsupported floor, west strip/north footing sound under prior observed conditions, tablet niches remain bedrock-supported. Both stone tablets remain undisturbed with prior copies; no new personal possession, parent identity, guardian command or deeper chamber found. Closer non-destructive examination of V's assigned apartment confirms surviving jamb and masonry, not furnishings/hidden objects or personal occupancy, no portable effects visible in accessible material, rubble not moved. Gatehouses inspected externally, no accessible control mechanism or new command evidence, both guardians intact at original positions; eastern breach means not full perimeter security. This is provisional measured archaeological/condition sketch, not structural engineer certification, total estate area, complete ancient footprint, mineral or legal title or construction quote. Fenar identifies garden breach as priority to make safe access and eventual security possible, without assuming armed crossing or permanent guard control; Cirren proposes first specialist works stabilize archive and damaged roofs before invasive excavation, assess cistern/conduit and drainage; Mara proposes Caul visit and professional mason/surveyor, no hire/expense or binding order. At end of survey the party walks back out through main gate unarmed, no interference. Return to marked exterior cache near(-25,30), all actual weapons found intact and retrieved: V inherited silver sword and original Galepierce, Fenar greataxe reskin/2 handaxes/4 javelins, Cirren dagger; no re-entry armed or lost property. Party remains exterior near cistern around19:35, no camping/rest/return travel started, no random encounter beyond fixed site, no extra daily consumption or resource change; Cirren's Light on shield active until approximately20:20 (last renewed19:20), no assumed recasting. Existing prior Hessa/Voss/Flint Banner, title and quest/custody unchanged. V next chooses evening arrangements or specialist follow-up.",
+  "pending_action": "D342~19:35 ancestral-seat exterior at marked cistern recess near(-25,30), all four present; survey complete, all previously cached weapons recovered intact: V sword+Galepierce carried, F greataxe/2 handaxes/4 javelins, C dagger, no armed re-entry. C Light cantrip shield active to~20:20, no concentration. Mara holds measured field sketch, inscription copies and earlier documents; surviving ~240x240ft bounding footprint (not estate acreage), cistern40x40ft, twin20x20ft gatehouses, household70x40ft/vestibule30x20ft, garden80x65ft, archive40x30ft/8ft cellar void, major risks and potential access marked. No further personal objects, control instructions or buried chamber confirmed; collapsed areas need qualified structural assessment; no new ownership, estimate or hire. Both guardians A(-5,110),B(5,110) HP52/52 AC16 full reactions, neutral to unarmed visitors; garden breach/10ft step surveyed, not crossed; actual return to Silverward not begun. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/four horses and prior originals with Hessa, carried15 rations stored9 feed32, D342 charges applied purse1512gp3sp6cp LR1/6. Night not begun/rest not completed. V next choice camp/return/further inquiry; Hessa/Voss/Flint Banner and other quest/custody unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-ANCESTRAL-EVIDENCE-COMPARISON-NEXT-INQUIRY-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Careful observation and measurement of fixed visible features, no dangerous entry, uncertain discovery, or combat; routine Light cantrip and cache retrieval."
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-MEASURED-PHYSICAL-ARCHAEOLOGICAL-SURVEY-001",
+      "accepted": true,
+      "evidence": "Measured fixed surviving outer footprint and facilities, examined apartment non-destructively, viewed existing cellar void safely via exterior breach, marked priorities and limits; no new portable effects, buried chamber, command method, structural certification, title or cost commitment. Mara retains sketch.",
+      "before": "Initial survey and field account complete, detailed physical survey accepted.",
+      "after": "Detailed field sketch/condition assessment complete; further work needs specialists.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    },
+    {
+      "event_id": "D342-SEAT-EXTERIOR-CACHE-WEAPONS-RECOVERED-001",
+      "accepted": true,
+      "evidence": "Party exits unarmed and retrieves all prior cached weapons intact, no armed re-entry. V sword/Galepierce carried, F greataxe/2 handaxes/4 javelins, C dagger. No loss or resource expense. C Light cantrip shield active~20:20.",
+      "before": "Party unarmed in forecourt; weapons cached exterior.",
+      "after": "Party armed outside at cistern; next evening decision pending.",
+      "owner_paths": [
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
