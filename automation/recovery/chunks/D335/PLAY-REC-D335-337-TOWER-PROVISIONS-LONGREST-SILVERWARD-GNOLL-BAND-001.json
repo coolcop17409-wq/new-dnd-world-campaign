@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D335-337-TOWER-PROVISIONS-LONGREST-SILVERWARD-GNOLL-BAND-001",
+  "base_commit": "ebeea3f5995288dfd5a8c474853046e5a72d960e",
+  "source_checkpoint": "D335-1550-WESTERN-TOWER-FREE-MARKET-OVERSIGHT-PROPOSAL-DISPATCHED-V-DECISION-001",
+  "destination_checkpoint": "D337-1130-SILVERWARD-RETURN-TRACK-GNOLL-HUNTING-BAND-SIGHTED-V-DECISION-001",
+  "source_evidence": "Exact player 'Yes let’s do so' accepts Mara's explicit proposal to replenish supplies and seek ancestral home via Silverward. D335~15:50–17:00 Voss arranges willing local ordinary supplier sale at established campaign prices (inventory.md D228/314: ration person-day5sp and feed animal-day5cp), not seized or confiscated goods. Purchase30 ration-days and40 feed-days, cost15gp+2gp=17gp actual paid from V personal purse2037gp8sp6cp→2020gp8sp6cp; rations0→30 feed0→40, loaded in healthy coach. DM chooses customary ten-day load under user's ordinary provisioning delegation, no extra hire or estate transfer. Spend D335 evening at occupied tower with offered ordinary hospitality, no extra charge or provisions consumed (D335 already allocated). No new staffing/title, full owner sync remains pending. D335→336 uninterrupted wilderness-weight qualifying short rest/LR unit (same tower classification as previous stay, not newly established secure friendly household), LR4→5/6. Caul's courier independently reaches manor23:50 D335 after12 rough miles8h, delivers Voss's policy copy and V's mandate; Caul receives and considers agreed free-market/voluntary constraints. No actual reply delivered to V, new enacted levy, wider legal authority, new funded trial, or implementation outcome. No new peer notified. Existing Hessa/Voss daily management requires actual workday and financial reconciliation; no fabricated receipts or expenditure. D336 ordinary dawn Tamsin contact exempt, no new response inferred.\n\nD336~07:30 depart tower on existing reverse30-mile route: first day6 rough miles/4h then12 ordinary miles/4h to Silverward track junction, second day12 rough miles/8h to crossing. Two-day leg cap1 random encounter day; predeclared remote upland occurrence threshold40. Genuine visible Python secrets receipt batchfc4cf0ac0e3c7c84ebe79e3aef0d993f d10074 quiet. D336~15:30 camp on firm ground by ordinary western-road junction. Day336 full daily supplies charged3/4 once rations30→27/feed40→36. Predeclared ordinary-road exposed night threshold7 and next remote track day40. Genuine batch57de5a5c8bdcbe2cfdedd2ee0d9cb0bd night d10082 quiet. D336→337 qualifying uninterrupted wilderness night LR5→6/6 completes LONG REST dawn337, resets0/6. V48/48 and all pools already full; Cirren51/51, HD4→6/6 (half maximum cap), L1/2/3 slots4/2/3→4/3/3, CD2/2; Fenar59/59 HD6/6 Rage3→4/4, Shift3/3, MP6/6, chooses retained climb adaptation per established preference, no active Rage/Shift; all other actual counters full. No double recovery or second LR unit. D337 routine dawn Tamsin contact exempt, no invented response. Depart~07:30 on rough track; by11:30 traverse6 of12 difficult miles, 24/30 total miles. Day337 charge pending until completion; actual d10028 triggers, type57 dangerous humanoid/organized predator. Reuse D333 pre-existing weighted27-row dangerous humanoid table unchanged, total79, gnoll hunting band row3 range10–15, actual identity d79=13 and hostile severity d10089 deadly, batcha6dbeb1b187006d19c4aae40f7eac44a. No redraw. This consumes cap1/1 on return leg, no more random encounter days on this leg. New seat expedition still not begun; remaining actual current route and site preflight before departure beyond Silverward.\n\nD337~11:30 encounter fixed before any initiative/action: 1 Gnoll Fang of Yeenoghu (MM2014 p163, AC14 HP65 speed30 Dex+2 Con+4 Wis+2 Cha+3 saves, passive10 darkvision60, Rampage, Multiattack bite+5 1d6+3 and CON12 else2d6 poison, two claws+5 1d8+3), 4 Gnoll Flesh Gnawers (VGM p154 AC14 HP22 speed30 Dex+2 save+4, passive10 darkvision60, Rampage, multiattack bite+4 1d4+2 and two shortswords+4 1d6+2; action Sudden Rush speed+60 no opportunity attacks through turn), 3 Gnoll Hunters (VGM p154 AC13 HP22 speed30 Dex+2 Perception+3 Stealth+4 passive13 darkvision60, Rampage, multiattack two spear+4 1d6+2 [two-handed melee1d8+2] or two longbow+4 1d8+2 each reduces speed10 until end next target turn; range150/600). VGM source verified GitHub 5etools-mirror-3/5etools-src/data/bestiary/bestiary-vgm.json blob096692c78697e6eb42fa2133565afca0a2a40baf; MM mirror full file inaccessible, verified 2014 legacy MM p163 via turn631992search0 and turn631992search1, no 2024 mechanics. Fixed group XP1100+4*200+3*100=2200 base, 5500 adjusted (8 enemies x2.5), Deadly for three level7 benchmark5100, no secret replacements. Motive hunting wounded wild stag through woodland, redirects toward party on sight; predatory band not linked to V ancestry, nearby residents or prior aberration. Stag crosses track and flees, no separate creature fight or obligation. Track 15ft wide, direction travel north in local tactical grid, coach center(0,0) with Mara reins and V/Cirren/Fenar aboard, four horses ahead; healthy, no forced dismount or resource spending. Gnawers G1(-20,90), G2(20,90), G3(-10,110), G4(10,110), Fang(0,125), Hunters H1(-40,140), H2(0,150), H3(40,140). Hunters at scattered trunks/boulders providing half cover from party front; brush off track difficult terrain, road traversable and retreat south unobstructed; late morning clear light, no surprise since visible and aware both sides. Front gnawers roughly90ft away, hunters140–155ft, Fang125ft. Fenar notices scent, stag runs across then eight creatures emerge and spot coach, Fang calls, hunters raise bows. No attacks, damage, initiative, conditions, pre-cast effects or V choices yet; V next response before combat. No additional resources, costs, quest acceptance or estate progress inferred.",
+  "pending_action": "Day337~11:30 rough Silverward track, 24/30mi return journey complete,6 rough miles remain. V/Cirren/Fenar aboard healthy coach center(0,0), Mara reins/four healthy horses. Eight hostile gnolls sighted pursuing wounded stag then redirect toward coach; closest90ft. Fixed group Fang1 AC14HP65, Gnawers4 AC14HP22, Hunters3 AC13HP22 each; positions/cover/statblocks in evidence, no attack/initiative or surprise. V chooses response. Day337 encounter actual occurrence28,type57,identity13/79,row3, severity89 Deadly; cap1/1 used. D335 purchases17gp,30/40 supplies; D336 consumed3/4, current rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. Two qualifying nights LR4→5→6/6 dawn337 completed, now LR0/6, V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. No active effects. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower in V practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers still pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds 2 original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul's historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign's child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site still needs preparation before expedition beyond Silverward. Other prior pending commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending. V next action at sighted encounter.",
+  "depends_on": [
+    "PLAY-REC-D335-CAUL-REGIONAL-OVERSIGHT-FREE-MARKET-MANDATE-DISPATCHED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "fc4cf0ac0e3c7c84ebe79e3aef0d993f",
+        "rolls": [
+          {
+            "id": "D336.tower_to_silverward.remote_upland_occurrence",
+            "sides": 100,
+            "faces": [
+              74
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "57de5a5c8bdcbe2cfdedd2ee0d9cb0bd",
+        "rolls": [
+          {
+            "id": "D336-337.silverward_track_junction.ordinary_road_exposed_night",
+            "sides": 100,
+            "faces": [
+              82
+            ]
+          },
+          {
+            "id": "D337.silverward_track.remote_upland_occurrence",
+            "sides": 100,
+            "faces": [
+              28
+            ]
+          },
+          {
+            "id": "D337.day.encounter_type",
+            "sides": 100,
+            "faces": [
+              57
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "a6dbeb1b187006d19c4aae40f7eac44a",
+        "rolls": [
+          {
+            "id": "D337.silverward_track.humanoid_selection",
+            "sides": 79,
+            "faces": [
+              13
+            ]
+          },
+          {
+            "id": "D337.silverward_track.hostile_severity",
+            "sides": 100,
+            "faces": [
+              89
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D335-WESTERN-TOWER-EXPEDITION-PROVISIONS-001",
+      "accepted": true,
+      "evidence": "Exact player 'Yes let’s do so' accepts Mara's explicit proposal to replenish supplies and seek ancestral home via Silverward. D335~15:50–17:00 Voss arranges willing local ordinary supplier sale at established campaign prices (inventory.md D228/314: ration person-day5sp and feed animal-day5cp), not seized or confiscated goods. Purchase30 ration-days and40 feed-days, cost15gp+2gp=17gp actual paid from V personal purse2037gp8sp6cp→2020gp8sp6cp; rations0→30 feed0→40, loaded in healthy coach. DM chooses customary ten-day load under user's ordinary provisioning delegation, no extra hire or estate transfer. Spend D335 evening at occupied tower with offered ordinary hospitality, no extra charge or provisions consumed (D335 already allocated). No new staffing/title, full owner sync remains pending. D335→336 uninterrupted wilderness-weight qualifying short rest/LR unit (same tower classification as previous stay, not newly established secure friendly household), LR4→5/6. Caul's courier independently reaches manor23:50 D335 after12 rough miles8h, delivers Voss's policy copy and V's mandate; Caul receives and considers agreed free-market/voluntary constraints. No actual reply delivered to V, new enacted levy, wider legal authority, new funded trial, or implementation outcome. No new peer notified. Existing Hessa/Voss daily management requires actual workday and financial reconciliation; no fabricated receipts or expenditure. D336 ordinary dawn Tamsin contact exempt, no new response inferred.",
+      "before": "0 rations/feed, purse2037gp8sp6cp, no rest.",
+      "after": "30/40, purse2020gp8sp6cp, night LR5/6, letter received by Caul, no reply delivered.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/npcs.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D336-337-SILVERWARD-RETURN-LONGREST-TRAVEL-001",
+      "accepted": true,
+      "evidence": "D336~07:30 depart tower on existing reverse30-mile route: first day6 rough miles/4h then12 ordinary miles/4h to Silverward track junction, second day12 rough miles/8h to crossing. Two-day leg cap1 random encounter day; predeclared remote upland occurrence threshold40. Genuine visible Python secrets receipt batchfc4cf0ac0e3c7c84ebe79e3aef0d993f d10074 quiet. D336~15:30 camp on firm ground by ordinary western-road junction. Day336 full daily supplies charged3/4 once rations30→27/feed40→36. Predeclared ordinary-road exposed night threshold7 and next remote track day40. Genuine batch57de5a5c8bdcbe2cfdedd2ee0d9cb0bd night d10082 quiet. D336→337 qualifying uninterrupted wilderness night LR5→6/6 completes LONG REST dawn337, resets0/6. V48/48 and all pools already full; Cirren51/51, HD4→6/6 (half maximum cap), L1/2/3 slots4/2/3→4/3/3, CD2/2; Fenar59/59 HD6/6 Rage3→4/4, Shift3/3, MP6/6, chooses retained climb adaptation per established preference, no active Rage/Shift; all other actual counters full. No double recovery or second LR unit. D337 routine dawn Tamsin contact exempt, no invented response. Depart~07:30 on rough track; by11:30 traverse6 of12 difficult miles, 24/30 total miles. Day337 charge pending until completion; actual d10028 triggers, type57 dangerous humanoid/organized predator. Reuse D333 pre-existing weighted27-row dangerous humanoid table unchanged, total79, gnoll hunting band row3 range10–15, actual identity d79=13 and hostile severity d10089 deadly, batcha6dbeb1b187006d19c4aae40f7eac44a. No redraw. This consumes cap1/1 on return leg, no more random encounter days on this leg. New seat expedition still not begun; remaining actual current route and site preflight before departure beyond Silverward.",
+      "before": "Tower departure, full supplies LR5/6.",
+      "after": "24/30mi, 27/36 supplies, completed LR and reset0/6, encounter trigger.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-SILVERWARD-TRACK-GNOLL-HUNTING-BAND-SIGHTED-001",
+      "accepted": true,
+      "evidence": "D337~11:30 encounter fixed before any initiative/action: 1 Gnoll Fang of Yeenoghu (MM2014 p163, AC14 HP65 speed30 Dex+2 Con+4 Wis+2 Cha+3 saves, passive10 darkvision60, Rampage, Multiattack bite+5 1d6+3 and CON12 else2d6 poison, two claws+5 1d8+3), 4 Gnoll Flesh Gnawers (VGM p154 AC14 HP22 speed30 Dex+2 save+4, passive10 darkvision60, Rampage, multiattack bite+4 1d4+2 and two shortswords+4 1d6+2; action Sudden Rush speed+60 no opportunity attacks through turn), 3 Gnoll Hunters (VGM p154 AC13 HP22 speed30 Dex+2 Perception+3 Stealth+4 passive13 darkvision60, Rampage, multiattack two spear+4 1d6+2 [two-handed melee1d8+2] or two longbow+4 1d8+2 each reduces speed10 until end next target turn; range150/600). VGM source verified GitHub 5etools-mirror-3/5etools-src/data/bestiary/bestiary-vgm.json blob096692c78697e6eb42fa2133565afca0a2a40baf; MM mirror full file inaccessible, verified 2014 legacy MM p163 via turn631992search0 and turn631992search1, no 2024 mechanics. Fixed group XP1100+4*200+3*100=2200 base, 5500 adjusted (8 enemies x2.5), Deadly for three level7 benchmark5100, no secret replacements. Motive hunting wounded wild stag through woodland, redirects toward party on sight; predatory band not linked to V ancestry, nearby residents or prior aberration. Stag crosses track and flees, no separate creature fight or obligation. Track 15ft wide, direction travel north in local tactical grid, coach center(0,0) with Mara reins and V/Cirren/Fenar aboard, four horses ahead; healthy, no forced dismount or resource spending. Gnawers G1(-20,90), G2(20,90), G3(-10,110), G4(10,110), Fang(0,125), Hunters H1(-40,140), H2(0,150), H3(40,140). Hunters at scattered trunks/boulders providing half cover from party front; brush off track difficult terrain, road traversable and retreat south unobstructed; late morning clear light, no surprise since visible and aware both sides. Front gnawers roughly90ft away, hunters140–155ft, Fang125ft. Fenar notices scent, stag runs across then eight creatures emerge and spot coach, Fang calls, hunters raise bows. No attacks, damage, initiative, conditions, pre-cast effects or V choices yet; V next response before combat. No additional resources, costs, quest acceptance or estate progress inferred.",
+      "before": "Random encounter occurrence/type triggered.",
+      "after": "Actual fixed 8-creature hostile band visible, no combat actions, V decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
