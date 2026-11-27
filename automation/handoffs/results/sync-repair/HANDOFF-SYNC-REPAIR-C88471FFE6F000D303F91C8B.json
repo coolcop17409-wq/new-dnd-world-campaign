@@ -1,0 +1,21 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-C88471FFE6F000D303F91C8B",
+  "lane": "sync-repair",
+  "status": "superseded",
+  "summary": "Original checkpoint interval failure already fixed on main by 85fe8b5db49834a1251e9604cdd8c55326798743; final validation and 36 regression tests passed at exact tested main SHA. No owner correction needed.",
+  "claim_owner": "opened-pr49-57dc13fc",
+  "claim_expires_at": "2026-11-27T15:09:01Z",
+  "verified_commit": "2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c",
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c/campaign/continuity/campaign-state.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c/campaign/continuity/session-log.md"
+  ],
+  "verification_ref": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-C88471FFE6F000D303F91C8B.json",
+  "claim_commit": "0cc93489bb84e0cd2ae772f332042dd3cad7026a",
+  "blocker": null,
+  "next_trigger": "No repair required for this signature; active maintenance worker retains final synchronization/derived verification.",
+  "advances_gameplay": false,
+  "main_writes_by_this_worker": false,
+  "merged": false
+}
