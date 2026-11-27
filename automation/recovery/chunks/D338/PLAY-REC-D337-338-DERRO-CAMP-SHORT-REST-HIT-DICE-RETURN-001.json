@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-338-DERRO-CAMP-SHORT-REST-HIT-DICE-RETURN-001",
+  "base_commit": "cdbd7ef98286297d7dad84dd9b801595712eab9e",
+  "source_checkpoint": "D337-1150-DERRO-EXCAVATION-MOTIVE-DISCUSSED-V-DECISION-001",
+  "destination_checkpoint": "D338-0600-DERRO-EXCAVATION-RETURN-RESTED-V-DECISION-001",
+  "source_evidence": "Exact player 'We should rest first, then go at first light / Use all my hit dice needed to heal fully' authorizes disengaging from defeated Derro excavation, camping nearby, a qualifying rest and returning to the entrance at first light; sequential V Hit Dice expenditure until full or exhausted. Party withdraws together to a nearby sheltered roadside campsite out of direct sight of fissure, intact coach/four horses reunited, no further scouting, loot transfer, travel-leg distance, new expense or local adversary asserted. All seven established Derro dead; no independently established pursuers. Day337 already contained its permitted random travel encounter, and return leg cap1/1 reached, so per rules-travel-communication no night random occurrence roll; quiet rest, not an invented d100. Wilderness classification, one qualifying overnight SR for party and one weighted LR unit0→1/6 at Day338 dawn; V's four-hour motionless requirement met, no duplicate SR/LR credit. Before rest Second Wind already0/1, Psi dice full6/6 so neither pre-rest limited feature can/should be used. D337 daily rations3 and horse feed4 charged once, rations27→24 feed36→32; Day338 charge pending. V Rogue4/Fighter3 CON+1, begins6/48, actual3d10 faces7,7,3 plus1 each =20 healing; 4d8 faces2,4,4,3 plus1 each=17, total37, V43/48; HD7→0, none further available. No refreshed Second Wind or other additional V feature automatically spent outside specific standing pre-rest authorization. Fenar independently spends d12 HD until full, CON+2, faces12,4,3,6,6,9, raw14+6+5+8+8+11=52, actual49 capped59/59, HD6→0; 6 existing THP remain, Rage0/4 and Shift2/3 do not restore on SR, inactive, CLIMB adaptation retained. C51/51 full, HD6/6 unchanged, slots3/0/0 unchanged, CD2/2. SR V MP0→7, Sup2→4, ActionSurge0→1, SecondWind0→1, PsiRecovery1/1 unchanged, Psi6, PastLife3, freeWhispers1 unchanged; F MP0→6. Genuine visible RNG batch acff9f04e41a3111318ef120d4e7d8f5. Day338 dawn routine Tamsin contact under standing daily instruction, no particular reply/outcome invented. Party returns together to established fissure entrance at first light, no deeper entry, new discoveries, spells, purchases, item claim or new encounter. Original Galepierce still carried; counted loot and samples/tally remain unclaimed at excavation, no loss or new custody asserted. V has 43/48; refreshed Second Wind available if explicitly chosen, not auto-spent after rest. No overlapping sync boundary submitted because earlier unresolved owner boundary remains; this recovery chunk preserves actual accepted overnight/return.",
+  "pending_action": "Day338~06:00 first light, Silverward return track, party back at Derro excavation entrance after nearby wilderness overnight. V43/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone, original Galepierce carried, dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration. F59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara coach/four horses intact nearby road. Seven Derro dead. Unclaimed counted10gp46sp, four light crossbows, four hooked spears, three quarterstaffs, three component pouches, two picks, assorted tools, mineral samples and Undercommon tally; no loot credited. Prospecting confirmed, ore/value/motive unresolved. Only first10ft of fissure examined; no deeper entry yet. V chooses to enter/examine, use refreshed Second Wind if desired, claim loot or other action. Rations24/feed32 after D337 charge3/4 once; D338 charge pending. Purse2020gp8sp6cp, LR1/6. Routine dawn Tamsin contact no specific reply inferred. All prior estate, ancestry, commission, correspondence and custody facts unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-EXCAVATION-MOTIVE-DISCUSSION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "acff9f04e41a3111318ef120d4e7d8f5",
+        "rolls": [
+          {
+            "id": "D337-338.V.Hit_Die.1",
+            "sides": 10,
+            "faces": [
+              7
+            ]
+          },
+          {
+            "id": "D337-338.V.Hit_Die.2",
+            "sides": 10,
+            "faces": [
+              7
+            ]
+          },
+          {
+            "id": "D337-338.V.Hit_Die.3",
+            "sides": 10,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337-338.V.Hit_Die.4",
+            "sides": 8,
+            "faces": [
+              2
+            ]
+          },
+          {
+            "id": "D337-338.V.Hit_Die.5",
+            "sides": 8,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D337-338.V.Hit_Die.6",
+            "sides": 8,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D337-338.V.Hit_Die.7",
+            "sides": 8,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337-338.Fenar.Hit_Die.1",
+            "sides": 12,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D337-338.Fenar.Hit_Die.2",
+            "sides": 12,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D337-338.Fenar.Hit_Die.3",
+            "sides": 12,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337-338.Fenar.Hit_Die.4",
+            "sides": 12,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D337-338.Fenar.Hit_Die.5",
+            "sides": 12,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D337-338.Fenar.Hit_Die.6",
+            "sides": 12,
+            "faces": [
+              9
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-338-DERRO-EXCAVATION-CAMP-REST-RECOVERY-001",
+      "accepted": true,
+      "evidence": "Exact player 'We should rest first, then go at first light / Use all my hit dice needed to heal fully' authorizes disengaging from defeated Derro excavation, camping nearby, a qualifying rest and returning to the entrance at first light; sequential V Hit Dice expenditure until full or exhausted. Party withdraws together to a nearby sheltered roadside campsite out of direct sight of fissure, intact coach/four horses reunited, no further scouting, loot transfer, travel-leg distance, new expense or local adversary asserted. All seven established Derro dead; no independently established pursuers. Day337 already contained its permitted random travel encounter, and return leg cap1/1 reached, so per rules-travel-communication no night random occurrence roll; quiet rest, not an invented d100. Wilderness classification, one qualifying overnight SR for party and one weighted LR unit0→1/6 at Day338 dawn; V's four-hour motionless requirement met, no duplicate SR/LR credit. Before rest Second Wind already0/1, Psi dice full6/6 so neither pre-rest limited feature can/should be used. D337 daily rations3 and horse feed4 charged once, rations27→24 feed36→32; Day338 charge pending. V Rogue4/Fighter3 CON+1, begins6/48, actual3d10 faces7,7,3 plus1 each =20 healing; 4d8 faces2,4,4,3 plus1 each=17, total37, V43/48; HD7→0, none further available. No refreshed Second Wind or other additional V feature automatically spent outside specific standing pre-rest authorization. Fenar independently spends d12 HD until full, CON+2, faces12,4,3,6,6,9, raw14+6+5+8+8+11=52, actual49 capped59/59, HD6→0; 6 existing THP remain, Rage0/4 and Shift2/3 do not restore on SR, inactive, CLIMB adaptation retained. C51/51 full, HD6/6 unchanged, slots3/0/0 unchanged, CD2/2. SR V MP0→7, Sup2→4, ActionSurge0→1, SecondWind0→1, PsiRecovery1/1 unchanged, Psi6, PastLife3, freeWhispers1 unchanged; F MP0→6. Genuine visible RNG batch acff9f04e41a3111318ef120d4e7d8f5. Day338 dawn routine Tamsin contact under standing daily instruction, no particular reply/outcome invented. Party returns together to established fissure entrance at first light, no deeper entry, new discoveries, spells, purchases, item claim or new encounter. Original Galepierce still carried; counted loot and samples/tally remain unclaimed at excavation, no loss or new custody asserted. V has 43/48; refreshed Second Wind available if explicitly chosen, not auto-spent after rest. No overlapping sync boundary submitted because earlier unresolved owner boundary remains; this recovery chunk preserves actual accepted overnight/return.",
+      "before": "D337~11:50 V6/48 HD7/7 MP0 Sup2 AS0 SW0; F10/59+6THP HD6 MP0 Rage0 Shift2; C51/51 slots3/0/0; LR0/6, supplies27/36.",
+      "after": "D338~06:00 V43/48 HD0 MP7 Sup4 AS1 SW1; F59/59+6THP HD0 MP6 Rage0 Shift2; C51/51 slots3/0/0; LR1/6 supplies24/32; entrance returned to, no deeper entry.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
