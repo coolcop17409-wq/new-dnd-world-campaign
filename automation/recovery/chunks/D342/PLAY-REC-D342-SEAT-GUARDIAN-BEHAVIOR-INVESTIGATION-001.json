@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-GUARDIAN-BEHAVIOR-INVESTIGATION-001",
+  "base_commit": "f2785643983bcde2cb68108db96263608a8b5b12",
+  "source_checkpoint": "D342-1646-SEAT-GUARDIANS-WARNING-AFTER-INTRODUCTION-001",
+  "destination_checkpoint": "D342-1650-SEAT-GUARDIAN-BEHAVIOR-ASSESSMENT-TEST-PENDING-001",
+  "source_evidence": "Exact player 'can we any sense of what they are or how to pacify them?' requests party assessment of the active gate guardians and possible peaceful approach. D342~16:46–16:50 from existing safe warning position Cirren examines visible masonry joints and the repeated warning gesture; V assists by comparing observed sword reaction and approach, feasible Investigation Help (V proficient per v-skills.csv; Cirren Investigation expertise+7 per cirren-skills.csv), no new V speech, movement, limited feature, spell or risky test. Fixed before actual executed Python secrets draw: Investigation+7 advantage DC14 identify fixed entry-control behavior versus general aggression, DC18 infer specific weapons restriction with confidence. Raw receipt batch6c04583f0004f2f54637b35d7d9a8a d20 faces10,3 keep10+7=17 succeeds DC14, misses DC18. Cirren identifies apparent animated stone constructs performing a prescribed gatekeeping duty, not undead or ordinary living guards; their behavior shows warning rather than indiscriminate aggression, no evidence that name or title overrides instructions. He suspects visible arms may matter based on reaction to sword but cannot confirm precise condition or safe command; no control password, spell, full stat block, vulnerabilities or proven peaceful passage revealed. Mara proposes a cautious reversible test from outside arch: someone without visibly carried weapons approaches while others remain back, stopping immediately at any warning; no test actually performed, no disarming, no casting or crossing. East breach remains possible alternative. Fixed two guardians remain in original warning positions, no combat or further movement; no resources/time beyond brief study. V chooses whether/how to test, communicate or bypass.",
+  "pending_action": "D342~16:50 ancestral-seat outer court, daylight, V(0,82) ~28ft from gate guardians A(-5,110),B(5,110); C/F(0,75–77), Mara(0,70). Existing sword visible. Cirren Investigation advantage10,3 +7=17 vs14 success, vs18 not reached; identifies apparent animated stone gatekeeping constructs and possible arms-based restriction, exact trigger not confirmed. Mara proposes reversible unarmed approach test outside arch; none performed. Guardians retain warning, no acknowledgment, attack, threshold crossing or initiative. East breach visible near(70,90) unexamined. Cistern copy and landmark matches held by Mara; independent household proof pending. Private packet dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167, two Stone Defenders HP52/52 each AC16 speed30 full reactions and original bounded duty; no damage. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch; coach/four horses and originals with Hessa, carried15 rations stored9 feed32, D342 charges applied, purse1512gp3sp6cp LR1/6. V next decision; prior estate, quest, correspondence and custody unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-VALENTHIA-PRESENTS-SWORD-TITLE-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "6c04583f0004f2f54637b35d7d7d9a8a",
+        "rolls": [
+          {
+            "id": "D342.Cirren.seat_guardian_behavior_investigation.advantage",
+            "sides": 20,
+            "faces": [
+              10,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-GUARDIAN-BEHAVIOR-INVESTIGATION-001",
+      "accepted": true,
+      "evidence": "Exact player 'can we any sense of what they are or how to pacify them?' requests party assessment of the active gate guardians and possible peaceful approach. D342~16:46–16:50 from existing safe warning position Cirren examines visible masonry joints and the repeated warning gesture; V assists by comparing observed sword reaction and approach, feasible Investigation Help (V proficient per v-skills.csv; Cirren Investigation expertise+7 per cirren-skills.csv), no new V speech, movement, limited feature, spell or risky test. Fixed before actual executed Python secrets draw: Investigation+7 advantage DC14 identify fixed entry-control behavior versus general aggression, DC18 infer specific weapons restriction with confidence. Raw receipt batch6c04583f0004f2f54637b35d7d9a8a d20 faces10,3 keep10+7=17 succeeds DC14, misses DC18. Cirren identifies apparent animated stone constructs performing a prescribed gatekeeping duty, not undead or ordinary living guards; their behavior shows warning rather than indiscriminate aggression, no evidence that name or title overrides instructions. He suspects visible arms may matter based on reaction to sword but cannot confirm precise condition or safe command; no control password, spell, full stat block, vulnerabilities or proven peaceful passage revealed. Mara proposes a cautious reversible test from outside arch: someone without visibly carried weapons approaches while others remain back, stopping immediately at any warning; no test actually performed, no disarming, no casting or crossing. East breach remains possible alternative. Fixed two guardians remain in original warning positions, no combat or further movement; no resources/time beyond brief study. V chooses whether/how to test, communicate or bypass.",
+      "before": "Guardians ignore name and title, retain warning.",
+      "after": "Cirren identifies fixed entry control; possible weapon restriction, untested; V chooses.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
