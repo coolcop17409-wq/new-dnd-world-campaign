@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D334-335-MANOR-REST-TOWER-CAPTIVES-RELEASED-POSSESSION-HANDOVER-001",
+  "base_commit": "d965fc757ce06e3e8cdbcfc77ec33170d905f974",
+  "source_checkpoint": "D334-2038-CAUL-COURT-ASPIRATION-GUEST-LODGING-OFFER-V-DECISION-001",
+  "destination_checkpoint": "D335-1535-WESTERN-TOWER-HANDOVER-KEYS-RECEIVED-PROVISION-STAFFING-V-DECISION-001",
+  "source_evidence": "Exact player 'Lets rest and return to the watchtower tomorrow, then to the seat' accepts complimentary overnight manor hospitality, return to tower to exercise existing signed handover, and states intention to subsequently seek ancestral seat. Day334~20:38 to D335 morning: complimentary guest rooms, existing guarded manor lodging; predeclared wilderness-weight 1 unit rather than secure friendly estate (no general immunity or established secure-household classification). Uninterrupted qualifying overnight SR, LR3→4/6. No missing HP/Psi, no HD, Second Wind or Psi Recovery expenditure, no LR-only recovery. All resources remain as before. Routine standing Tamsin dawn communication, no invented reply. No new accommodation cost or extra provisions added. Independent NPC chronology: D335~04:07 existing yard Guard arrives western customs tower after actual uninterrupted12 rough miles/8h, delivers Caul's previously signed unconditional release order to Voss. Voss reads/accepts as valid, orders existing tower guard to release the two actual detained adults AR-D1/AR-D2 from cellar immediately. Both alive, able to walk; released without payment/oath, leave custody voluntarily and freely at early morning; no new prisoner count, injury, restitution or transfer of property, no bounty assumed. Existing patrol had already returned and temporary collection suspension obeyed D334. Manor courier stays at tower to rest after journey; no return trip or new report assumed. Tower retainers remain originally4 plus road patrol3, plus visiting manor courier; no new hire or forced service. Caul remains at manor, trial agreed in principle and implementation/results pending; no new offscreen financial or program outcome invented. D335~07:30 departure from manor, ordinary twelve rough miles/8h return route, predeclared remote day occurrence01–40, single-day leg cap1, reused regional table. Actual Python secrets receipt batch981eead06e7f677030d9835bfd178c45 d10092 quiet, no further type/severity. Arrive tower~15:30, healthy coach/four horses, all companions full HP. Charge D335 full-day consumption once, rations3→0 and horse feed4→0. No automatic new supplies or purchases. Voss reports actual released prisoners and returned patrol to party, sees actual original signed relinquishment directive already held by V, willingly implements peaceful administrative/physical handover of western customs station, gives V the existing keys, preserves records/facilities/equipment in place. V now takes practical possession/control pursuant to Caul's relinquishment; no Crown title, parcel boundary, toll franchise, arbitrary additional assets, third-party goods or confiscated-property ownership conveyed. No formal registration or asset count/appraisal yet. Voss understands unlawful dues permanently terminated under handover; existing levy claims no longer enforced on this road; actual broader restitution/accounting and permanent independent safe-passage verification pending, no payment/quest reward assumed. Voss recommended as potential steward but no appointment, wage or employment agreement yet. Seven tower retainers remain existing Caul employees pending freely chosen disposition; visiting manor courier not a tower asset. Voss offers to coordinate transition and asks whether V wishes to retain him and any personnel, and notes actual supplies must be obtained before further travel. V chooses terms and provisioning, then ancestral-seat expedition; current seat route still needs fixed prepared geography using Silverward WNW bearing, historical aqueduct/cistern/twin gatehouses sketch, no exact site or travel time invented. No additional travel, roll, resources, personal spending, restitution, legal title or new hiring. D335~15:35. Important milestone full estate/owner-ledger sync remains pending; accepted recovery records exact.",
+  "pending_action": "Day335~15:35 western customs tower; V/Cirren/Mara/Fenar and healthy coach/four horses, Master Voss. V accepted manor lodging, completed uninterrupted qualifying SR, wilderness LR3→4/6; D335 return12 rough miles/8h completed, actual d10092 quiet cap0/1. Day335 provisions charged once: rations0/feed0, must provision before next travel. Voss reports actual unconditional release of two adult captives at dawn after Caul's courier arrived04:07, both alive/able to walk and left custody freely; no payment or oath, broader restitution pending. V presented original signed Caul relinquishment directive, Voss peacefully hands keys/control of tower to V, preserves equipment/records/facilities; practical possession established, Crown legal title/parcel/valuation/franchise unresolved, third-party property excluded. Caul's unlawful dues terminated, prior patrol returned, no further unauthorized collection, verification and restitution remain. Seven original tower retainers remain Caul's employees unless freely agree new employment; visiting manor courier resting at tower, not hired. Voss potential steward, no wages/appointment yet; V decides management, staffing and supplies. No new cash expenditure or bounty. V intends onward to ancestral seat using Silverward WNW bearing, existing survey/route instrument and Caul's historical sketch (aqueduct, cistern, terraced court, twin square gatehouses), current route/site not yet verified or launched. Caul remains at manor, conditional voluntary trial pending implementation/results; no new peers informed. Manor retains gate/receiving Veterans, stair Guard, counting Spy, castellan, two spawn, Ysendre; original yard Guard now at tower as messenger. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned Galepierce carried dice delegated. Cirren51/51 AC19 HD4/6 slots4/2/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage3/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara/coach/horses healthy. LR4/6 purse2037gp8sp6cp rations0/feed0 after D335 consumption. Silverward conditional grant not deed, Hessa5gp/actual workday starts332, actual work/payroll/funding/inspection/results pending, six undead retainers unpaid voluntary labor/protection, resident independent ferry/home rights intact, drainage restored, ledge/structural/parcel verification pending. Mara holds 2 incised leaves, ceramic container, one historic coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies from Silverward, tower, manor registers and historical approach sketch with Mara/Cirren. V holds signed tower relinquishment original. Caul personally recognizes V as Sovereign's child; father's name/fate, other parent, sealing cause, heart function and seat location unresolved. Other pending estate, correspondence, Desen/royal, commissions and custody unchanged. No new rest after return. Full owner sync pending.",
+  "depends_on": [
+    "PLAY-REC-D334-V-CAUL-SHARED-COURT-ASPIRATION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "981eead06e7f677030d9835bfd178c45",
+        "rolls": [
+          {
+            "id": "D335.manor_to_tower.remote_day_occurrence",
+            "sides": 100,
+            "faces": [
+              92
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D334-335-MANOR-GUEST-REST-001",
+      "accepted": true,
+      "evidence": "Player accepts rest, uninterrupted qualifying wilderness overnight, LR3→4/6, no other resources changed.",
+      "before": "LR3/6 at manor, lodging offered.",
+      "after": "Completed SR and LR4/6 at dawn335.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D335-TOWER-RELEASE-ORDER-DELIVERED-TWO-CAPTIVES-FREED-001",
+      "accepted": true,
+      "evidence": "Existing courier completes12 rough miles at04:07 and delivers Caul's unconditional order; Voss obeys, releases fixed two adults, alive, no charge/oath, no further harm; later reports actual release to V.",
+      "before": "Two adults held, order in transit.",
+      "after": "Two released and free of custody; further restitution pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md"
+      ]
+    },
+    {
+      "event_id": "D335-MANOR-TO-WESTERN-TOWER-QUIET-RETURN-001",
+      "accepted": true,
+      "evidence": "D335 actual occurrence92 quiet, twelve rough miles completed, daily rations3→0 and horse feed4→0.",
+      "before": "Manor, rations3/feed4.",
+      "after": "Tower, rations0/feed0.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md"
+      ]
+    },
+    {
+      "event_id": "D335-WESTERN-TOWER-POSSESSION-KEYS-HANDED-TO-V-001",
+      "accepted": true,
+      "evidence": "Exact player 'Lets rest and return to the watchtower tomorrow, then to the seat' accepts complimentary overnight manor hospitality, return to tower to exercise existing signed handover, and states intention to subsequently seek ancestral seat. Day334~20:38 to D335 morning: complimentary guest rooms, existing guarded manor lodging; predeclared wilderness-weight 1 unit rather than secure friendly estate (no general immunity or established secure-household classification). Uninterrupted qualifying overnight SR, LR3→4/6. No missing HP/Psi, no HD, Second Wind or Psi Recovery expenditure, no LR-only recovery. All resources remain as before. Routine standing Tamsin dawn communication, no invented reply. No new accommodation cost or extra provisions added. Independent NPC chronology: D335~04:07 existing yard Guard arrives western customs tower after actual uninterrupted12 rough miles/8h, delivers Caul's previously signed unconditional release order to Voss. Voss reads/accepts as valid, orders existing tower guard to release the two actual detained adults AR-D1/AR-D2 from cellar immediately. Both alive, able to walk; released without payment/oath, leave custody voluntarily and freely at early morning; no new prisoner count, injury, restitution or transfer of property, no bounty assumed. Existing patrol had already returned and temporary collection suspension obeyed D334. Manor courier stays at tower to rest after journey; no return trip or new report assumed. Tower retainers remain originally4 plus road patrol3, plus visiting manor courier; no new hire or forced service. Caul remains at manor, trial agreed in principle and implementation/results pending; no new offscreen financial or program outcome invented. D335~07:30 departure from manor, ordinary twelve rough miles/8h return route, predeclared remote day occurrence01–40, single-day leg cap1, reused regional table. Actual Python secrets receipt batch981eead06e7f677030d9835bfd178c45 d10092 quiet, no further type/severity. Arrive tower~15:30, healthy coach/four horses, all companions full HP. Charge D335 full-day consumption once, rations3→0 and horse feed4→0. No automatic new supplies or purchases. Voss reports actual released prisoners and returned patrol to party, sees actual original signed relinquishment directive already held by V, willingly implements peaceful administrative/physical handover of western customs station, gives V the existing keys, preserves records/facilities/equipment in place. V now takes practical possession/control pursuant to Caul's relinquishment; no Crown title, parcel boundary, toll franchise, arbitrary additional assets, third-party goods or confiscated-property ownership conveyed. No formal registration or asset count/appraisal yet. Voss understands unlawful dues permanently terminated under handover; existing levy claims no longer enforced on this road; actual broader restitution/accounting and permanent independent safe-passage verification pending, no payment/quest reward assumed. Voss recommended as potential steward but no appointment, wage or employment agreement yet. Seven tower retainers remain existing Caul employees pending freely chosen disposition; visiting manor courier not a tower asset. Voss offers to coordinate transition and asks whether V wishes to retain him and any personnel, and notes actual supplies must be obtained before further travel. V chooses terms and provisioning, then ancestral-seat expedition; current seat route still needs fixed prepared geography using Silverward WNW bearing, historical aqueduct/cistern/twin gatehouses sketch, no exact site or travel time invented. No additional travel, roll, resources, personal spending, restitution, legal title or new hiring. D335~15:35. Important milestone full estate/owner-ledger sync remains pending; accepted recovery records exact.",
+      "before": "Caul relinquishment signed, V has not taken physical possession.",
+      "after": "Voss cooperates, practical possession and keys delivered, no legal title or hires; V chooses provisioning and personnel.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md",
+        "data/estate/operational-checkpoint.csv"
+      ]
+    }
+  ]
+}
