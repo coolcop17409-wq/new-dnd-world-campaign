@@ -1,10 +1,25 @@
 {
   "request_id": "HANDOFF-SYNC-REPAIR-3F42A025536A1F8CBD9BAFA6",
   "lane": "sync-repair",
-  "status": "partial",
+  "status": "complete",
+  "summary": "Verified branch-only format correction: owner_refs converted to pinned string links; original object details preserved unchanged in owner_ref_details. Complete means verified proposal, not main application.",
   "claim_owner": "opened-pr48-2b153d2a",
-  "claim_expires_at": "2026-11-27T12:42:00Z",
-  "summary": "Claimed format-only owner_refs repair; no gameplay effects.",
-  "blocker": "verification in progress",
-  "next_trigger": "claim completion or expiry"
+  "claim_expires_at": "2026-11-27T12:17:19Z",
+  "verified_commit": "b107e794c258a6e81520c0f109a3ab639363f4b5",
+  "current_base_commit": "6da77d033970c1a06f4d9386cc2570d0ea826a89",
+  "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/b107e794c258a6e81520c0f109a3ab639363f4b5/automation/handoffs/results/quests/HANDOFF-D337-QUESTS-ANCESTRAL-SEAT-APPROACH-001.json",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f/prep/dm-only/dm-estate-ancestry.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f/prep/dm-only/dm-only-secret-quest-outlines.md"
+  ],
+  "verification_ref": "automation/handoffs/sync-repair/verifications/HANDOFF-SYNC-REPAIR-3F42A025536A1F8CBD9BAFA6.json",
+  "phase_commits": {
+    "claim": "edc5c44426d173a9b25379389b63c9dbe0fce200",
+    "repair": "b107e794c258a6e81520c0f109a3ab639363f4b5"
+  },
+  "blocker": null,
+  "next_trigger": "Human review; recompare current base and tested head before any separately authorized merge",
+  "main_applied": false,
+  "merged": false,
+  "advances_gameplay": false
 }

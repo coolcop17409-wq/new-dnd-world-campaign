@@ -1,0 +1,59 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-3F42A025536A1F8CBD9BAFA6",
+  "lane": "sync-repair",
+  "status": "verified",
+  "tested_commit": "b107e794c258a6e81520c0f109a3ab639363f4b5",
+  "current_base_commit": "6da77d033970c1a06f4d9386cc2570d0ea826a89",
+  "original_failure_commit": "d82b28ac7573df3c5a5bf44f6a74c170bef65d1d",
+  "commands": [
+    {
+      "command": "python3 automation/sync_validate.py --scope handoffs --phase owners",
+      "exit_code": 0,
+      "result": "PASS; zero findings"
+    },
+    {
+      "command": "python3 -m unittest automation.test_sync_repair automation.handoffs.test_validate -v",
+      "exit_code": 0,
+      "result": "23 tests passed"
+    }
+  ],
+  "baseline": {
+    "tested_commit": "6da77d033970c1a06f4d9386cc2570d0ea826a89",
+    "command": "python3 automation/sync_validate.py --scope handoffs --phase owners",
+    "exit_code": 1,
+    "result": "Sole failure: HANDOFF-D337-QUESTS-ANCESTRAL-SEAT-APPROACH-001.owner_refs must be a list of nonempty strings"
+  },
+  "changed_paths": [
+    "automation/handoffs/results/quests/HANDOFF-D337-QUESTS-ANCESTRAL-SEAT-APPROACH-001.json"
+  ],
+  "source_evidence": {
+    "request_path": "automation/handoffs/requests/sync-repair/HANDOFF-SYNC-REPAIR-3F42A025536A1F8CBD9BAFA6.json",
+    "owner_refs": [
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f/prep/dm-only/dm-estate-ancestry.md",
+      "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f/prep/dm-only/dm-only-secret-quest-outlines.md"
+    ],
+    "preserved_owner_ref_details": [
+      {
+        "path": "prep/dm-only/dm-estate-ancestry.md",
+        "section": "Ancestral-seat first expedition — ADMIN-QUEST-D338-20261127-01",
+        "blob_sha": "4aa1dc81789fd3304693fa1de51f34a71a621c0b"
+      },
+      {
+        "path": "prep/dm-only/dm-only-secret-quest-outlines.md",
+        "section": "Current scoped review — ADMIN-QUEST-D338-20261127-01"
+      }
+    ],
+    "comparison": "Target unchanged between original failure and current main. Pinned sections exist; ancestry blob matches 4aa1dc81789fd3304693fa1de51f34a71a621c0b."
+  },
+  "preservation_checks": {
+    "result": "PASS",
+    "method": "Executed Python assertions: owner_ref_details equals original owner_refs; all remaining fields identical; links pin original verified_commit; referenced sections and blob match; executable code equals trusted current main; candidate diff restricted to target receipt and repair claim."
+  },
+  "claim_commit": "edc5c44426d173a9b25379389b63c9dbe0fce200",
+  "repair_commit": "b107e794c258a6e81520c0f109a3ab639363f4b5",
+  "main_applied": false,
+  "merged": false,
+  "advances_gameplay": false,
+  "blockers": [],
+  "next_trigger": "Human review; recompare current base and tested head before any separately authorized merge"
+}
