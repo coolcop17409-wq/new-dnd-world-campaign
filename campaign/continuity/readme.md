@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D334-SILVERWARD-001`: accepted western Ossent geo
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=D337-ESTATE | scope=estate operations and newly evidenced steward accounts | acquired_UTC=2026-11-27T10:26:43.226Z | expires_UTC=2026-11-27T10:46:43.226Z
+CAMPAIGN_WRITER | state=IDLE | token=none | scope=none | last_completed=D337-ESTATE | released_UTC=2026-11-27T10:36:28.257Z
