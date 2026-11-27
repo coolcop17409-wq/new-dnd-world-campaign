@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-AFTERMATH-SEARCH-PROSPECTING-EVIDENCE-001",
+  "base_commit": "d623b9f96cb98b93c16abec4755262e0ecfce943",
+  "source_checkpoint": "D337-1130-DERRO-COMBAT-CLOSED-AFTERMATH-V-DECISION-001",
+  "destination_checkpoint": "D337-1150-DERRO-AFTERMATH-PROSPECTING-EVIDENCE-LOOT-PENDING-001",
+  "source_evidence": "Exact player 'Search these strong fuckers. 3 mages… What where they doing here… what are these creatures…' authorizes search of seven dead Derro and examination of the immediate known worksite, not entering deeper excavation, sale, new rest or spending. Day337~11:30–11:50, V/Cirren/Fenar examine S1/S2 and the other five bodies, clear immediate slope and first already-established 10ft of fissure; no deeper exploration or new hostile group asserted. Standing safe postcombat retrieval directive: recover single original Galepierce physically from by dead D3, V carried qty1 again, no duplication or expense. Newly adjudicated mundane equipment present: four light crossbows with partly used bolt cases, four hooked spears, three ordinary quarterstaffs, three component pouches (no visible diamond), worn clothing, ordinary prospecting tools at work face (two picks, hammer/chisels, small wedges, sample sacks); all discovered/unclaimed except V's own dart. No magical item identified, no Detect Magic cast or guarantee of absence, no sale or appraisal. Modest carried coin only: four guards each 2d6 sp, three savants each 1d6 gp plus 1d6 sp, predeclared economy-scaled distribution; actual D1 5+5=10sp, D2 5+6=11sp, D3 5+6=11sp, D4 1+2=3sp, S1 1gp+3sp, S2 5gp+4sp, S3 4gp+4sp; total10gp46sp, counted and offered for collection, not credited to V or shared custody yet. No hoard rolled. Cirren self-Guidance and History d20=9+7+d4=3=19 vsDC14 success: identifies Derro as subterranean dwarfkin, sorcerous leaders called savants, natural magic resistance and sensitivity to sunlight; three were innate arcane casters (2014 MTF pp158–159, bestiary and fluff from 5etools-mirror-3/5etools-src), not proof of local ancestry, named gods, or imported setting history. Investigation with Fenar's Undercommon translation as meaningful Help and separate Guidance: adv18,15 keep18+7+d4=3=28 vsDC13 success. New immediate physical evidence DM-adjudicated consistent with previously fixed prospecting group: chipped pale/gray mineral samples in numbered cloth wraps, a charcoal-marked rough Undercommon working tally on folded scrap with sample marks, short marked lengths and repeated crossed-out trial sections, fresh chisel/pick scars on exposed stone and sorted rubble; clear systematic sampling of the natural rock seam, no proven ore identity/value, employer, destination, wider operation, ancestral link, captive or hidden settlement. Evidence indicates they were conducting an extraction/prospecting operation, not simply waiting to ambush V; their exact ultimate objective and source unknown, deeper passage not examined. The scrap and samples are found, examined and left available for V to take; no forced pickup, no promise or unchosen spell. Both Guidance cantrips expire after their checks, no slots spent, all original dice genuine visible receipt46c6e14e542556184a0615131b56c32d. No damage or healing; Fenar's active Rage/Beast Claws and Shift expire during 20-minute search, 6 unspent temporary HP remain under normal 2014 THP until depleted or long rest, no regeneration; no new rage/shift/MP. Mara remains with healthy coach/four horses on road. V6/48 C51/51 F10/59+6THP, no rest or daily supply charge. No boundary manifest created here because prior unresolved owner boundary remains and no overlapping sync is authorized; combat closure already durably saved; this new search checkpoint is immutable recovery only.",
+  "pending_action": "Day337~11:50, Silverward return track, at immediate excavation entrance after search of all seven dead Derro and the previously established first 10ft fissure/work face. V upright6/48 AC19 MP0/7 Sup2/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, original Galepierce recovered physically; dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2, no concentration, both Guidance checks completed. F10/59+6THP AC16 HD6/6 Rage0/4 inactive Beast Claws ended, Shift2/3 inactive MP0/6 CLIMB40, no Reckless, no death saves. Mara coach(0,-80) intact four healthy horses. All seven Derro dead. Found unclaimed counted10gp46sp, four light crossbows, four hooked spears, three quarterstaffs, worn gear, three component pouches, two picks, hammer/chisels, wedges, sample sacks; no new items/coins credited, original Galepierce restored only. Found unclaimed examined Undercommon rough work tally and marked mineral samples, freshly worked seam; systematic prospecting/extraction supported, actual mineral/value and purpose beyond sampling unknown. No deeper passage exploration, no loot hoard, no Detect Magic, no new foe. V chooses claim items/coins, inspect deeper, retreat, rest/heal or other action. Rations27/feed36; D337 charge pending; purse2020gp8sp6cp; LR0/6. All prior Caul/tower/Hessa/Silverward/ancestry/custody/commission/estate facts unchanged per dependency, owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R8-V-OA-INVISIBLE-S2-KILLED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "46c6e14e542556184a0615131b56c32d",
+        "rolls": [
+          {
+            "id": "D337.aftermath.Cirren.History.derro",
+            "sides": 20,
+            "faces": [
+              9
+            ]
+          },
+          {
+            "id": "D337.aftermath.Cirren.History.Guidance",
+            "sides": 4,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.aftermath.Cirren.Investigation.prospecting.Help",
+            "sides": 20,
+            "faces": [
+              18,
+              15
+            ]
+          },
+          {
+            "id": "D337.aftermath.Cirren.Investigation.Guidance",
+            "sides": 4,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.aftermath.D1.pouch.sp",
+            "sides": 6,
+            "faces": [
+              5,
+              5
+            ]
+          },
+          {
+            "id": "D337.aftermath.D2.pouch.sp",
+            "sides": 6,
+            "faces": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "D337.aftermath.D3.pouch.sp",
+            "sides": 6,
+            "faces": [
+              5,
+              6
+            ]
+          },
+          {
+            "id": "D337.aftermath.D4.pouch.sp",
+            "sides": 6,
+            "faces": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "D337.aftermath.S1.pouch.gp",
+            "sides": 6,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D337.aftermath.S1.pouch.sp",
+            "sides": 6,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.aftermath.S2.pouch.gp",
+            "sides": 6,
+            "faces": [
+              5
+            ]
+          },
+          {
+            "id": "D337.aftermath.S2.pouch.sp",
+            "sides": 6,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D337.aftermath.S3.pouch.gp",
+            "sides": 6,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D337.aftermath.S3.pouch.sp",
+            "sides": 6,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-DERRO-AFTERMATH-SEARCH-PROSPECTING-EVIDENCE-001",
+      "accepted": true,
+      "evidence": "Exact player 'Search these strong fuckers. 3 mages… What where they doing here… what are these creatures…' authorizes search of seven dead Derro and examination of the immediate known worksite, not entering deeper excavation, sale, new rest or spending. Day337~11:30–11:50, V/Cirren/Fenar examine S1/S2 and the other five bodies, clear immediate slope and first already-established 10ft of fissure; no deeper exploration or new hostile group asserted. Standing safe postcombat retrieval directive: recover single original Galepierce physically from by dead D3, V carried qty1 again, no duplication or expense. Newly adjudicated mundane equipment present: four light crossbows with partly used bolt cases, four hooked spears, three ordinary quarterstaffs, three component pouches (no visible diamond), worn clothing, ordinary prospecting tools at work face (two picks, hammer/chisels, small wedges, sample sacks); all discovered/unclaimed except V's own dart. No magical item identified, no Detect Magic cast or guarantee of absence, no sale or appraisal. Modest carried coin only: four guards each 2d6 sp, three savants each 1d6 gp plus 1d6 sp, predeclared economy-scaled distribution; actual D1 5+5=10sp, D2 5+6=11sp, D3 5+6=11sp, D4 1+2=3sp, S1 1gp+3sp, S2 5gp+4sp, S3 4gp+4sp; total10gp46sp, counted and offered for collection, not credited to V or shared custody yet. No hoard rolled. Cirren self-Guidance and History d20=9+7+d4=3=19 vsDC14 success: identifies Derro as subterranean dwarfkin, sorcerous leaders called savants, natural magic resistance and sensitivity to sunlight; three were innate arcane casters (2014 MTF pp158–159, bestiary and fluff from 5etools-mirror-3/5etools-src), not proof of local ancestry, named gods, or imported setting history. Investigation with Fenar's Undercommon translation as meaningful Help and separate Guidance: adv18,15 keep18+7+d4=3=28 vsDC13 success. New immediate physical evidence DM-adjudicated consistent with previously fixed prospecting group: chipped pale/gray mineral samples in numbered cloth wraps, a charcoal-marked rough Undercommon working tally on folded scrap with sample marks, short marked lengths and repeated crossed-out trial sections, fresh chisel/pick scars on exposed stone and sorted rubble; clear systematic sampling of the natural rock seam, no proven ore identity/value, employer, destination, wider operation, ancestral link, captive or hidden settlement. Evidence indicates they were conducting an extraction/prospecting operation, not simply waiting to ambush V; their exact ultimate objective and source unknown, deeper passage not examined. The scrap and samples are found, examined and left available for V to take; no forced pickup, no promise or unchosen spell. Both Guidance cantrips expire after their checks, no slots spent, all original dice genuine visible receipt46c6e14e542556184a0615131b56c32d. No damage or healing; Fenar's active Rage/Beast Claws and Shift expire during 20-minute search, 6 unspent temporary HP remain under normal 2014 THP until depleted or long rest, no regeneration; no new rage/shift/MP. Mara remains with healthy coach/four horses on road. V6/48 C51/51 F10/59+6THP, no rest or daily supply charge. No boundary manifest created here because prior unresolved owner boundary remains and no overlapping sync is authorized; combat closure already durably saved; this new search checkpoint is immutable recovery only.",
+      "before": "D337~11:30 after combat; Galepierce uncollected, no search/loot/identity assessment, Fenar active Rage/Shift.",
+      "after": "D337~11:50 search completed, Galepierce recovered, counted coins and evidence unclaimed, identity and prospecting established, Fenar Rage/Shift inactive with 6THP retained, HP/slots unchanged, V decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
