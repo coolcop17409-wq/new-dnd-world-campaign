@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-CISTERN-EXAMINATION-GATE-WARDERS-WARNING-001",
+  "base_commit": "98ed60149554625cde5950d6db5d5001dedb1c82",
+  "source_checkpoint": "D342-1630-ANCESTRAL-SEAT-OUTER-APPROACH-V-DECISION-001",
+  "destination_checkpoint": "D342-1645-ANCESTRAL-SEAT-GATE-GUARDIANS-WARNING-V-DECISION-001",
+  "source_evidence": "Exact player 'It’s beautiful. Or at least it can be. Lets move carefully and make sure we don’t run into any troubles' authorizes cautious ordinary approach/exterior examination, not a fight, further spending, crossing a warned threshold, disarming, or automatic detection of hidden threats. D342~16:30–16:45 four party members approach the receiving cistern from the sound south-side steps and inspect from stable edge; no hazardous entry/floor crossing. Mara compares the dressed-stone junction, broken conduit and cistern rim's surviving inscription with Caul's sketch and copies the accessible inscription as ordinary scholarly work. These features support the waterworks/outer seat identification, not independent household allocation evidence, exact original site name or legal title; no invented inscription verbatim. Cirren watches for instability and Fenar maintains rear/flank awareness; no independent actual uncertain skill check needed for visible landmarks and sound access. Party then returns to main approach and moves cautiously uphill; V's visible floating sword and companions' carried arms remain, no stealth/invisibility assumed. At V approx(0,82), both fixed Stone Defenders A(-5,110), B(5,110) within30ft see visibly armed approach and execute their precommitted warning: rise from apparently motionless stone surfaces, point back toward the road and block/guard main arch without attacking. This is visible programmed warning, not an ambush/automatic hit; stop at warning before threshold, no initiative or combat unless V chooses to cross armed or attack. C/F roughly(0,75–77), Mara(0,70), no new weapons drawn or spells. At this vantage a broken eastern wall section can be seen around(70,90); no guarantee bypass safe or unexplored route traversed. Fixed gate duty, two finite Stone Defenders from dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167: each HP52 AC16 speed30, full reaction, Slam+6 2d6+4 B and prone for Large or smaller, printed defenses/traits as in packet; no new reinforcements or remote trigger. Party has seen two moving stone guardians and their warning gesture, not yet established nature, capabilities or affiliation. V chooses how to handle warning. No elapsed travel charge or rest since D342 approach; supplies/HP/features/purse unchanged. Preserve prior Flint Banner, Hessa/Voss, quest and custody state.",
+  "pending_action": "D342~16:45 suspected ancestral-seat outer court, daylight, V at(0,82) approx28ft from both moving stone gate guardians A(-5,110), B(5,110) by twin gatehouses; C/F approx(0,75–77), Mara(0,70); party halted before arch. Both guardians have visibly risen and pointed back toward road, no attacks/initiative or threshold crossing; V's visible floating sword remains. East wall breach visible ~70ft east near(70,90), unexamined. Cistern accessible edge examined; Mara has additional rim copy and matching conduit/cistern/terrace/gate landmarks; independent household confirmation not yet obtained. Private packet dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167, two Stone Defenders HP52/52 each AC16 speed30, no damage, reactions available, original duty and finite limits; no revealed statblock or automatic recognition. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch; original artifacts and coach/four horses with Hessa, carried15 rations stored9 feed32, D342 charges applied, purse1512gp3sp6cp LR1/6. V next choice respond to warning/withdraw/bypass/other action. No new estate outcome or contract, all prior facts unchanged; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D341-342-ANCESTRAL-SEAT-AQUEDUCT-APPROACH-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Careful examination of accessible visible features and precommitted noncombat guardian warning; no uncertain check, stealth, attack or threshold crossing."
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-CISTERN-EXAMINATION-001",
+      "accepted": true,
+      "evidence": "Mara copies visible cistern rim inscription and compares surviving dressed stone junction to sketch from safe edge. Landmarks corroborated, not household/title proof.",
+      "before": "Cistern and gatehouses sighted from road.",
+      "after": "Cistern exterior examined and inscription copied; no unsafe entry.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    },
+    {
+      "event_id": "D342-SEAT-GATE-GUARDIANS-WARNING-001",
+      "accepted": true,
+      "evidence": "At V (0,82), two fixed gate guardians rise and point back upon visible armed approach; party stops before gate, no combat or uncertain roll.",
+      "before": "No visible active guardians.",
+      "after": "Two guardians visibly warning; V decides response.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
