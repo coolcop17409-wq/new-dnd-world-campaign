@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R1-V-READY-TARGET-CORRECTION-PSYCHIC-BLADE-001",
+  "base_commit": "bb90bd2cbd7a3cf8b702bbd10d99664b56bb5ddf",
+  "source_checkpoint": "D337-1130-DERRO-R1-V-REACTION-SPENT-MOVEMENT-REMAINS-001",
+  "destination_checkpoint": "D337-1130-DERRO-R1-V-CORRECTED-REACTION-D1-WOUNDED-MOVEMENT-REMAINS-001",
+  "source_evidence": "Exact player 'yea attack and get in position where there no disadvantage' accepts the immediately preceding DM proposal to retract only the unnecessarily restricted readied Galepierce attack and instead reposition and use a legal normal-range readied Psychic Blade against a suitable enemy after the first hostile shot. Original R1 Hide12, dismount5ft, Mara coach withdrawal10ft, S1 Lightning Bolt damage40, V/F successful Dex saves and actual20 lightning damage each all retained exactly once; S1 spell/reaction expenditure retained. Supersede only prior Galepierce miss (old faces5/19 remain audit-only), weapon custody loss and associated reaction discharge. V's single original Galepierce remains physically carried, never thrown under corrected outcome. Original Ready action and Hide BA remain spent; corrected trigger first legal normal-range visible hostile target after first hostile shot, not necessarily shooter. V moves 5ft north on ordinary road from(-5,0,0) to(-5,5,0), total turn movement10ft,20ft remains. D1(35,45,0) distance56.57ft within60ft Psychic Blade range, half cover AC15. S2 existing held spell trigger not met (no qualifying two defenders or visible spellcaster within line/range), no other reaction triggers. V uses restored readied reaction, accepted D308 exception for main Psychic Blade, on own turn after shot/entering legal range. Visible, no eligible adjacent ally, no advantage/disadvantage or Sneak Attack, no extra bonus blade. Actual executed Python secrets batch8af0de4df48aaa3702d1a0ab41b950a3 d20 face10+9=19 hits AC15, d6 face6+DEX4=10 psychic, D1 HP13→3. No additional action, BA, Psi, MP, superiority, Action Surge, other resource, cash or time change. V remains28/48, F39/59, C51/51. V action/BA/reaction now spent, remaining20ft movement; pause before Derro initiative5. No additional NPC actions or rolls. Other conditions, enemies and previous evidence unchanged.",
+  "pending_action": "Day337~11:30 R1 V initiative6 still in progress; order S17 Mara15 C13 F11 V6 D5. V at(-5,5,0), HP28/48 AC19, action BA reaction spent, movement20ft remains, visible after coach moved, Galepierce retained physically carried after authorized attack correction, no other V resource spent. C(-10,0,0)51/51 AC19 holding readied Toll the Dead concentration/reaction, F(-10,-5,0)39/59 AC16 Rage3/4 active Beast Claws readied claw/reaction still available. Mara reaction spent, coach center(0,-10) healthy four horses safe, no further move yet. S1(65,60,10)36/36 AC13+half cover from party, L3 1/2, readied bolt discharged, reaction spent concentration ended. S2(75,65,10)36/36 AC13 L3 1/2 holding readied Lightning Bolt concentration/reaction, S3(60,75,10)36/36 AC13 invisible concentration L2 2/3. D1(35,45,0), D2(35,65,0) half cover, D3(55,45,5), D4(55,65,5) AC13, D1 HP3/13, D2–D4 HP13/13, all unacted. Road clear, off-road rocky scrub difficult terrain, foes shaded. V chooses remaining movement or end turn before D5. Actual Hide12 success then revealed, S1 bolt40 V/F saves both pass half20, V corrected readied Psychic Blade attack19 vsAC15 hit D1 for10 psychic, D1 HP3/13. Previous Galepierce throw/miss superseded only. D335 purchases17gp,30/40 supplies; D336 consumed3/4, current rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. Two qualifying nights LR4→5→6/6 dawn337 completed, now LR0/6, V28/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 holding readied Toll the Dead concentration. Fenar39/59 AC16 HD6/6 Rage3/4 active Beast Claws, Shift3/3 inactive MP6/6 CLIMB40 no THP. See combat packet above. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower in V practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers still pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds 2 original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul's historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign's child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site still needs preparation before expedition beyond Silverward. Other prior pending commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending. V next action: remaining20ft R1 movement or end turn.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R1-V-HIDE-READY-LIGHTNING-REACTION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "8af0de4df48aaa3702d1a0ab41b950a3",
+        "rolls": [
+          {
+            "id": "D337.R1.corrected_V.Psychic_Blade.D1.attack",
+            "sides": 20,
+            "faces": [
+              10
+            ]
+          },
+          {
+            "id": "D337.R1.corrected_V.Psychic_Blade.D1.damage",
+            "sides": 6,
+            "faces": [
+              6
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R1-V-READY-TARGET-CORRECTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'yea attack and get in position where there no disadvantage' accepts the immediately preceding DM proposal to retract only the unnecessarily restricted readied Galepierce attack and instead reposition and use a legal normal-range readied Psychic Blade against a suitable enemy after the first hostile shot. Original R1 Hide12, dismount5ft, Mara coach withdrawal10ft, S1 Lightning Bolt damage40, V/F successful Dex saves and actual20 lightning damage each all retained exactly once; S1 spell/reaction expenditure retained. Supersede only prior Galepierce miss (old faces5/19 remain audit-only), weapon custody loss and associated reaction discharge. V's single original Galepierce remains physically carried, never thrown under corrected outcome. Original Ready action and Hide BA remain spent; corrected trigger first legal normal-range visible hostile target after first hostile shot, not necessarily shooter. V moves 5ft north on ordinary road from(-5,0,0) to(-5,5,0), total turn movement10ft,20ft remains. D1(35,45,0) distance56.57ft within60ft Psychic Blade range, half cover AC15. S2 existing held spell trigger not met (no qualifying two defenders or visible spellcaster within line/range), no other reaction triggers. V uses restored readied reaction, accepted D308 exception for main Psychic Blade, on own turn after shot/entering legal range. Visible, no eligible adjacent ally, no advantage/disadvantage or Sneak Attack, no extra bonus blade. Actual executed Python secrets batch8af0de4df48aaa3702d1a0ab41b950a3 d20 face10+9=19 hits AC15, d6 face6+DEX4=10 psychic, D1 HP13→3. No additional action, BA, Psi, MP, superiority, Action Surge, other resource, cash or time change. V remains28/48, F39/59, C51/51. V action/BA/reaction now spent, remaining20ft movement; pause before Derro initiative5. No additional NPC actions or rolls. Other conditions, enemies and previous evidence unchanged.",
+      "before": "V at(-5,0), Galepierce missed and on ground, D1 full,25ft movement.",
+      "after": "Only prior dart throw superseded, V at(-5,5), Galepierce carried, D1 3/13, V reaction spent on valid blade,20ft movement.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
