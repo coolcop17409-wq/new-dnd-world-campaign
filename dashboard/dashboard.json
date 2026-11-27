@@ -1836,9 +1836,9 @@
       "dealer": "The Bent Sounding Line",
       "lot": "Rope Caster",
       "qty": "1",
-      "price_gp": "48",
+      "price_gp": "46",
       "status": "Working tool",
-      "terms": "D293-ORSAVEN-THE-BENT-SOUNDING-LINE-REVIEW: CURRENT indicative cash component 48gp (formerly50gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altere"
+      "terms": "D328-ORSAVEN-THE-BENT-SOUNDING-LINE-REVIEW: CURRENT indicative cash component 46gp (formerly48gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altere"
     },
     {
       "settlement": "Orsaven",
@@ -1911,15 +1911,6 @@
       "price_gp": "420",
       "status": "Offered secondhand / consignment",
       "terms": "Firm 420 gp cash offer; no sale or hold unless V accepts. Current owner-authorized ask Day244: 420 gp (formerly 440 gp). Original lot and custodian retained."
-    },
-    {
-      "settlement": "Caereth",
-      "dealer": "Courtlock Repairs",
-      "lot": "Gloves of Thievery",
-      "qty": "1",
-      "price_gp": "447",
-      "status": "Offered on consignment",
-      "terms": "D301-CAERETH-COURTLOCK-REPAIRS-REVIEW: CURRENT asking price 447gp (formerly470gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historical pr"
     },
     {
       "settlement": "Caereth",
@@ -2007,9 +1998,9 @@
       "dealer": "Rivet and Buckle",
       "lot": "Boomerang Shield",
       "qty": "1.",
-      "price_gp": "385.",
+      "price_gp": "366",
       "status": "Prepared open sale · undiscovered",
-      "terms": "M7-VEY-03. Prepared, undiscovered. Ask at Rivet and Buckle during trade hours. Owner authorizes 385 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+      "terms": "D332-VEYRHOLD-RIVET-AND-BUCKLE-REVIEW: CURRENT asking price 366gp (formerly385gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historical pr"
     },
     {
       "settlement": "Veyrhold",
@@ -2040,30 +2031,12 @@
     },
     {
       "settlement": "Veyrhold",
-      "dealer": "Quiet Bell Metalworks",
-      "lot": "Horn of Silent Alarm",
-      "qty": "1.",
-      "price_gp": "45.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-VEY-08. Prepared, undiscovered. Ask at Quiet Bell Metalworks during trade hours. Owner authorizes 45 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Veyrhold",
       "dealer": "Stonecut Ledger Bindery",
       "lot": "Spellshard",
       "qty": "1.",
       "price_gp": "43",
       "status": "Prepared open sale · undiscovered",
       "terms": "D310-VEYRHOLD-STONECUT-LEDGER-BINDERY-REVIEW: CURRENT asking price 43gp (formerly45gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historic"
-    },
-    {
-      "settlement": "Ilarath",
-      "dealer": "Winter Bough Bootwright",
-      "lot": "Wayfarer's Boots",
-      "qty": "1.",
-      "price_gp": "2700.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ILA-02. Prepared, undiscovered. Ask at Winter Bough Bootwright during trade hours. Owner authorizes 2700 gp for this lot. Counteroffers go to the owner. No hold or deposit."
     },
     {
       "settlement": "Ilarath",
@@ -2166,15 +2139,6 @@
     },
     {
       "settlement": "Allhaven",
-      "dealer": "Box and Keel Cabinetmaker",
-      "lot": "Chest of Preserving",
-      "qty": "1.",
-      "price_gp": "50.",
-      "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ALL-08. Prepared, undiscovered. Ask at Box and Keel Cabinetmaker during trade hours. Owner authorizes 50 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Allhaven",
       "dealer": "Clear Head Cooperage",
       "lot": "Heward's Handy Spice Pouch",
       "qty": "1.",
@@ -2226,15 +2190,6 @@
       "price_gp": "2300.",
       "status": "Available · owner-authorized sale",
       "terms": "M7-UC-02-04. One original lot activated Day276; no clone. Ask at Fletched Yew Bowyer during trade hours. Owner authorizes 2300 gp for this lot. Counteroffers go to the owner. No hold or deposit."
-    },
-    {
-      "settlement": "Caer Veylan",
-      "dealer": "Long Pocket Leatherwork",
-      "lot": "Coiling Grasp Tattoo",
-      "qty": "1",
-      "price_gp": "375.",
-      "status": "Available · owner-authorized sale",
-      "terms": "M7-UC-02-05. One original lot activated Day276; no clone. Ask at Long Pocket Leatherwork during trade hours. Owner authorizes 375 gp for this lot. Counteroffers go to the owner. No hold or deposit."
     },
     {
       "settlement": "Caer Veylan",
