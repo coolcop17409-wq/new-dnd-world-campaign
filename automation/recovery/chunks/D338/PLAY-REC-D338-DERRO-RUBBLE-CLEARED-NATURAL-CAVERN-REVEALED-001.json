@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-DERRO-RUBBLE-CLEARED-NATURAL-CAVERN-REVEALED-001",
+  "base_commit": "17a9934377e6cb1404e1110d92d66e8b1bb968fa",
+  "source_checkpoint": "D338-0624-DERRO-DELIBERATE-RUBBLE-PACKING-EXAMINED-001",
+  "destination_checkpoint": "D338-0649-DERRO-RUBBLE-CLEARED-CAVERN-SHELF-PENDING-001",
+  "source_evidence": "Exact player 'yes' accepts Cirren's proposed cautious bracing and clearing of deliberately packed rubble. D338~06:24–06:49, Fenar selects sound spare mining timber/offcuts and wedges from the existing abandoned worksite (new mundane physical detail), not the two installed gallery props; Cirren checks placement according to the prior successful Investigation23 and casts Guidance on Fenar. V provides routine feasible Help by steadying pieces while Fenar positions the brace; no new limited feature or personal equipment spent. Predetermined Athletics DC13 for controlled bracing/removal; on failure stop with original supporting stones intact. Actual visible Python secrets batch d2a1dff42a44140ae7898bdbaf6b3f22: advantage d20 faces8,7 keep8 +8 Athletics + Guidance d4=4 =20/DC13 success. Brace seated against fractured lip, loose upper packing removed in controlled sequence, existing supporting wedges and installed props left in place; creates a roughly 3ft-wide, 4ft-high accessible opening without collapse or damage. Local temporary brace supports the cleared lip, not a professional mine-wide safety certification. Cleared stones set aside, not taken; spare timber/wedges now installed, no personal cost or asset claim. New visible geometry beyond cleared packing: about10ft gently descending natural throat leads to a narrow rock shelf overlooking a natural cavern; from the opening/approach Cirren's Light reveals the nearby shelf and portions of cavern wall, with a roughly30ft drop below the shelf and a continuing metallic-looking seam exposed on the near wall. Distant dripping/running water and cool airflow, no sound of voices or creatures, no worked steps or fresh extraction beyond this point visible, no established safe descent, no verified deeper route, new foe, hoard, magical effect, ancient connection or reason for sealing proven. The opening and near view are discovered without traversing the exposed shelf or descending the drop; those consequential choices remain pending. Mineral identity, amount, purity, value and legal ownership unverified. Detect Magic already expired, Light on shield until~07:10, Guidance consumed by check. All previous unclaimed loot and ore remain on site. No new damage, spell slot, MP, supplies consumed, other limited feature, expenditure, rest or travel progress.",
+  "pending_action": "Day338~06:49 at cleared opening in lower Derro working gallery; V/Cirren/Fenar have braced fractured lip using abandoned spare mining timber/wedges, removed top packing successfully. Opening ~3ft wide x4ft high, ~10ft downward natural throat opens onto narrow shelf overlooking natural cavern, approximate30ft drop from shelf, metallic-looking seam continues on near wall, faint water sounds/airflow, no new occupants or extraction beyond lip visible. No safe descent established; no party member has traversed shelf or climbed down. Existing rope access back to upper chamber/road remains. V48/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, original Galepierce carried; dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration, Light shield until~07:10. F59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara coach/four horses intact nearby road. Seven Derro dead, all previously found10gp46sp/weapons/tools/component pouches/notes/samples/ore sacks and baskets/winch unclaimed; mine ownership and ore assay unknown. V chooses inspect shelf, descend with precautions, return or other action. Rations24/feed32, D338 charge pending, purse2020gp8sp6cp LR0/6. Prior estate/ancestry/commission/correspondence/custody facts unchanged; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D338-DERRO-RUBBLE-PACKING-INVESTIGATED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "d2a1dff42a44140ae7898bdbaf6b3f22",
+        "rolls": [
+          {
+            "id": "D338.Fenar.Athletics.brace_and_clear.V_Help",
+            "sides": 20,
+            "faces": [
+              8,
+              7
+            ]
+          },
+          {
+            "id": "D338.Cirren.Guidance.Fenar",
+            "sides": 4,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D338-DERRO-RUBBLE-CLEARED-NATURAL-CAVERN-REVEALED-001",
+      "accepted": true,
+      "evidence": "Exact player 'yes' accepts Cirren's proposed cautious bracing and clearing of deliberately packed rubble. D338~06:24–06:49, Fenar selects sound spare mining timber/offcuts and wedges from the existing abandoned worksite (new mundane physical detail), not the two installed gallery props; Cirren checks placement according to the prior successful Investigation23 and casts Guidance on Fenar. V provides routine feasible Help by steadying pieces while Fenar positions the brace; no new limited feature or personal equipment spent. Predetermined Athletics DC13 for controlled bracing/removal; on failure stop with original supporting stones intact. Actual visible Python secrets batch d2a1dff42a44140ae7898bdbaf6b3f22: advantage d20 faces8,7 keep8 +8 Athletics + Guidance d4=4 =20/DC13 success. Brace seated against fractured lip, loose upper packing removed in controlled sequence, existing supporting wedges and installed props left in place; creates a roughly 3ft-wide, 4ft-high accessible opening without collapse or damage. Local temporary brace supports the cleared lip, not a professional mine-wide safety certification. Cleared stones set aside, not taken; spare timber/wedges now installed, no personal cost or asset claim. New visible geometry beyond cleared packing: about10ft gently descending natural throat leads to a narrow rock shelf overlooking a natural cavern; from the opening/approach Cirren's Light reveals the nearby shelf and portions of cavern wall, with a roughly30ft drop below the shelf and a continuing metallic-looking seam exposed on the near wall. Distant dripping/running water and cool airflow, no sound of voices or creatures, no worked steps or fresh extraction beyond this point visible, no established safe descent, no verified deeper route, new foe, hoard, magical effect, ancient connection or reason for sealing proven. The opening and near view are discovered without traversing the exposed shelf or descending the drop; those consequential choices remain pending. Mineral identity, amount, purity, value and legal ownership unverified. Detect Magic already expired, Light on shield until~07:10, Guidance consumed by check. All previous unclaimed loot and ore remain on site. No new damage, spell slot, MP, supplies consumed, other limited feature, expenditure, rest or travel progress.",
+      "before": "Deliberate rubble packing examined, unstable lip, clearing proposal pending.",
+      "after": "Temporary brace installed, top packing cleared, view of natural cavern/shelf and continuing seam; descent pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
