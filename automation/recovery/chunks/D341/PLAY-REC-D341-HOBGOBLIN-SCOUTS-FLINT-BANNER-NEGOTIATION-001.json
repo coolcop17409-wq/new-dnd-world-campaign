@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D341-HOBGOBLIN-SCOUTS-FLINT-BANNER-NEGOTIATION-001",
+  "base_commit": "5a0a3baf39a80d921e8b840e32eded546c5267cd",
+  "source_checkpoint": "D341-1133-HOBGOBLIN-SCOUTS-PASSAGE-QUESTION-PENDING-001",
+  "destination_checkpoint": "D341-1134-FLINT-BANNER-IDENTITY-TERMS-PENDING-001",
+  "source_evidence": "Exact player: 'Whose company or state do you work under? Perhaps we can work out an agreement to operate through my territory'. H1 responds with newly adjudicated identity consistent with preexisting independent reconnaissance motive: they serve the Flint Banner, an independent company of soldiers for hire, not an Iron Dominion or Ossent state formation. This particular survey is for their own captain, not a disclosed outside employer. They seek a reliable route for their own armed company and pack animals, including access to supplies, rather than a claim to V's ruins. Newly authored company name checked by repository search (no matching result; not exhaustive verification). H1 volunteers this limited identity and purpose, is interested in a practical arrangement that would avoid fighting over passage and allow purchase of supplies, and says he can discuss proposed terms and carry them to his captain but cannot bind the entire company without authority. H1 asks what sort of arrangement V has in mind. No sworn assurance of conduct, independently verified allegiance, company strength, actual route permission, price, employment, alliance or meeting arranged. Existing underlying reconnaissance motive and concern about witnesses unchanged; armed scouts remain wary and in their existing positions. No roll needed for ordinary volunteered information and conditional willingness to discuss, not a successful Persuasion check or acceptance of terms. No new player speech, movement, expense, damage, resources or initiative. V's choice pending.",
+  "pending_action": "D341~11:34 WNW seat foot expedition,6/24mi; serious encounter cap1/1 used. V approx(0,45), H1(0,85) AC15 HP32 daylight, H2(20,100) AC15 HP32 dim/half cover, H3(-15,105) AC15 HP32 dim/half cover; C/F/Mara approx(0,35–40), all aware, clear retreat south, off-track rough. Three fixed Iron Shadows speed40, no combat/initiative/precasts. H1 identifies their company as Flint Banner, independent soldiers for hire, surveying for their own captain to move armed company and pack animals and find supplies. These are actual spoken claims, no independent verification or disclosed size/captain name. Scout interested in negotiated passage/supply arrangements, may carry terms to captain but cannot bind whole company. No agreement yet. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch. Coach/four horses in Hessa care, rations21 carried/9 stored feed40 stored, D341 charge3/4 pending, purse1512gp3sp6cp LR0/6. Other estate/ancestry/quest/custody facts unchanged. V chooses proposed agreement or other action. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D341-HOBGOBLIN-SCOUTS-V-ASSERTS-LAND-CLAIM-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary limited disclosure and discussion of possible terms; no uncertain concession or combat."
+  },
+  "events": [
+    {
+      "event_id": "D341-HOBGOBLIN-SCOUTS-FLINT-BANNER-NEGOTIATION-001",
+      "accepted": true,
+      "evidence": "Exact player: 'Whose company or state do you work under? Perhaps we can work out an agreement to operate through my territory'. H1 responds with newly adjudicated identity consistent with preexisting independent reconnaissance motive: they serve the Flint Banner, an independent company of soldiers for hire, not an Iron Dominion or Ossent state formation. This particular survey is for their own captain, not a disclosed outside employer. They seek a reliable route for their own armed company and pack animals, including access to supplies, rather than a claim to V's ruins. Newly authored company name checked by repository search (no matching result; not exhaustive verification). H1 volunteers this limited identity and purpose, is interested in a practical arrangement that would avoid fighting over passage and allow purchase of supplies, and says he can discuss proposed terms and carry them to his captain but cannot bind the entire company without authority. H1 asks what sort of arrangement V has in mind. No sworn assurance of conduct, independently verified allegiance, company strength, actual route permission, price, employment, alliance or meeting arranged. Existing underlying reconnaissance motive and concern about witnesses unchanged; armed scouts remain wary and in their existing positions. No roll needed for ordinary volunteered information and conditional willingness to discuss, not a successful Persuasion check or acceptance of terms. No new player speech, movement, expense, damage, resources or initiative. V's choice pending.",
+      "before": "Scout asks whether company passage permitted; V offers possible agreement and asks allegiance.",
+      "after": "Company identifies itself, offers to discuss terms for captain; no agreement, independently verified allegiance, or passage granted.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
