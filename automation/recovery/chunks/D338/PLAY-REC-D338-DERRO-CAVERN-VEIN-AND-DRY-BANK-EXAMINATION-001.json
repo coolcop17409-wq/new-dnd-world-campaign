@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-DERRO-CAVERN-VEIN-AND-DRY-BANK-EXAMINATION-001",
+  "base_commit": "c4d0d16083af5321d9f8242e7fcfd352e774c782",
+  "source_checkpoint": "D338-0658-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001",
+  "destination_checkpoint": "D338-0708-DERRO-CAVERN-VEIN-EXAMINED-NEXT-ACTION-001",
+  "source_evidence": "Exact player 'let’s continue' authorizes continuing exploration of the accessible natural cavern. D338~06:58–07:08 V/Cirren/Fenar walk the dry near bank, inspect exposed wall and both visible stream openings from firm ground, and compare loose mineral fragments with their memory of the sorted Derro ore. No commitment to crossing or entering low water channels. DM establishes observable details: roughly30ft of irregular metallic-gray mineralized exposure along near wall, another shorter exposed band on opposite bank, broken pale host rock with dense dark-gray metallic crystals and occasional bright reflective faces; irregular exposed band not a measured ore reserve. Cirren makes Nature with feasible Fenar Help comparing rocks and physical features and self-Guidance. Predetermined DC14 for likely lead-silver mineralization family; DC18 for recognition of distinction between promising mineralization and demonstrated silver content. Genuine visible Python secrets batch ba8b65b2e0ab5f6180a98ebc54339e51: advantage d20 faces13,20 keep20 +4 Nature + Guidance d4=1 =25, meets both thresholds. Cirren identifies material as resembling galena/lead ore that can carry silver; Derro silver-stone sorting labels and exposed vein make a promising prospect, but actual silver content, recovery costs, deposit size, value and legal title require specialist assay and survey. No guaranteed silver discovery, commercial valuation or mine asset. Near bank examination reveals no onward dry passage besides return rope: existing stream enters/exits low rock channels with insufficient dry clearance for ordinary upright travel; no submerged-route depth, safety or destination verified. High silt lines support periodic water rise as a plausible explanation for sealing, not proven motive. No additional habitation or creature seen in examined area, no secret or ancestral tie revealed. Fenar independently recommends taking a representative sample and bringing an experienced mining specialist rather than risking the water route; no collection or hire authorized/performed yet. Guidance consumed, no spell slot, limited resources, damage, custody, supplies, funds or rest change. Light on Cirren shield remains until~07:10; cantrip may be renewed as needed. Pause on dry bank with return route secured; V chooses next action.",
+  "pending_action": "Day338~07:08 natural cavern beneath Derro excavation, V/Cirren/Fenar on examined dry near bank. Cavern ~65x40ft; ~30ft irregular visible mineralized band on near wall, shorter exposure opposite; Cirren Nature25 recognizes likely galena/lead-silver mineralization, actual silver content/grade/reserve/value/title unverified. No ordinary dry onward route found except secured30ft return rope; low stream channels enter/exit rock, unexamined and not known safe, high water marks suggest periodic rise. No additional creature or habitation observed. No sample collected or loot claimed. V48/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, Galepierce carried, dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration, Light shield until~07:10. F59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara coach/four horses intact nearby road. Seven Derro dead; counted10gp46sp, arms/tools/component pouches/tally/samples/three ore sacks/six baskets/winch remain unclaimed, site hoist rope deployed. V decides take samples/claim loot, return or attempt further water exploration. Rations24/feed32, D338 charge pending, purse2020gp8sp6cp LR0/6. Prior estate/ancestry/commission/correspondence/custody facts unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "ba8b65b2e0ab5f6180a98ebc54339e51",
+        "rolls": [
+          {
+            "id": "D338.cavern.Cirren.Nature.Fenar_Help",
+            "sides": 20,
+            "faces": [
+              13,
+              20
+            ]
+          },
+          {
+            "id": "D338.cavern.Cirren.Guidance",
+            "sides": 4,
+            "faces": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D338-DERRO-CAVERN-VEIN-AND-DRY-BANK-EXAMINED-001",
+      "accepted": true,
+      "evidence": "Exact player 'let’s continue' authorizes continuing exploration of the accessible natural cavern. D338~06:58–07:08 V/Cirren/Fenar walk the dry near bank, inspect exposed wall and both visible stream openings from firm ground, and compare loose mineral fragments with their memory of the sorted Derro ore. No commitment to crossing or entering low water channels. DM establishes observable details: roughly30ft of irregular metallic-gray mineralized exposure along near wall, another shorter exposed band on opposite bank, broken pale host rock with dense dark-gray metallic crystals and occasional bright reflective faces; irregular exposed band not a measured ore reserve. Cirren makes Nature with feasible Fenar Help comparing rocks and physical features and self-Guidance. Predetermined DC14 for likely lead-silver mineralization family; DC18 for recognition of distinction between promising mineralization and demonstrated silver content. Genuine visible Python secrets batch ba8b65b2e0ab5f6180a98ebc54339e51: advantage d20 faces13,20 keep20 +4 Nature + Guidance d4=1 =25, meets both thresholds. Cirren identifies material as resembling galena/lead ore that can carry silver; Derro silver-stone sorting labels and exposed vein make a promising prospect, but actual silver content, recovery costs, deposit size, value and legal title require specialist assay and survey. No guaranteed silver discovery, commercial valuation or mine asset. Near bank examination reveals no onward dry passage besides return rope: existing stream enters/exits low rock channels with insufficient dry clearance for ordinary upright travel; no submerged-route depth, safety or destination verified. High silt lines support periodic water rise as a plausible explanation for sealing, not proven motive. No additional habitation or creature seen in examined area, no secret or ancestral tie revealed. Fenar independently recommends taking a representative sample and bringing an experienced mining specialist rather than risking the water route; no collection or hire authorized/performed yet. Guidance consumed, no spell slot, limited resources, damage, custody, supplies, funds or rest change. Light on Cirren shield remains until~07:10; cantrip may be renewed as needed. Pause on dry bank with return route secured; V chooses next action.",
+      "before": "At natural cavern landing, vein and stream observed, no detailed examination.",
+      "after": "Dry bank examined, likely galena-family mineralization identified, no verified silver grade, no dry onward route found, samples and onward action pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
