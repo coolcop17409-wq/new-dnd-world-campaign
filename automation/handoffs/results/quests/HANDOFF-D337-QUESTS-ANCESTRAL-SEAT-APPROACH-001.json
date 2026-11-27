@@ -6,6 +6,14 @@
   "source_commit": "2328d9e608ca466c39d035b8b58195209c020bc8",
   "source_checkpoint": "D338-0658-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001",
   "owner_refs": [
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f/prep/dm-only/dm-estate-ancestry.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f/prep/dm-only/dm-only-secret-quest-outlines.md"
+  ],
+  "verified_commit": "9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f",
+  "blocker": null,
+  "next_trigger": "Actual route discussion/approach after the current accepted pending decision; check current transport, resources, light/positions and visual preflight. Private preparation does not establish public geography, arrival or legal title.",
+  "advances_gameplay": false,
+  "owner_ref_details": [
     {
       "path": "prep/dm-only/dm-estate-ancestry.md",
       "section": "Ancestral-seat first expedition — ADMIN-QUEST-D338-20261127-01",
@@ -15,9 +23,5 @@
       "path": "prep/dm-only/dm-only-secret-quest-outlines.md",
       "section": "Current scoped review — ADMIN-QUEST-D338-20261127-01"
     }
-  ],
-  "verified_commit": "9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f",
-  "blocker": null,
-  "next_trigger": "Actual route discussion/approach after the current accepted pending decision; check current transport, resources, light/positions and visual preflight. Private preparation does not establish public geography, arrival or legal title.",
-  "advances_gameplay": false
+  ]
 }
