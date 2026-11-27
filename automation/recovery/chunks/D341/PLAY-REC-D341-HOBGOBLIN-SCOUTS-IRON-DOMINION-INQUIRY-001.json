@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D341-HOBGOBLIN-SCOUTS-IRON-DOMINION-INQUIRY-001",
+  "base_commit": "60c7d123ec193118ae1d286497ed0c328b6c31b3",
+  "source_checkpoint": "D341-1130-SEAT-FOOT-TRACK-HOBGOBLIN-SCOUTS-SIGHTED-001",
+  "destination_checkpoint": "D341-1131-HOBGOBLIN-SCOUTS-QUESTION-V-DESTINATION-001",
+  "source_evidence": "Exact player: 'Approach and ask: It’s a long way from the Iron Dominion. What your business in this part of the world?' V approaches openly along the track from screened bend toward H1; at about40ft separation (V at approximately0,45) H1 notices him and raises a hand to halt, V delivers exact chosen question. C/F/Mara accompany a few feet behind on road (approximately0,35–40), no forced weapons draw, no spell, no hiding or surprise assumed. H1 responds in Common, 'The Dominion? You think every hobgoblin serves the orc god?' Then says their business is surveying the old road and asks where V is going. H2 stops sketching, folds map and watches from existing shaded masonry; H3 remains at existing shaded flank, hand near darts. DM retains fixed independent motive of mapping usable upland routes for their own armed band and preventing witnesses compromising reconnaissance; no proven named employer or affiliation with Dominion, no automatic truthful denial beyond the actual words, no added troops, threats, invented regional state or compulsory battle. Canon world/politics/iron-dominion.md confirms independent goblinoids beyond Dominion. Hostility remains plausible if they judge party a threat; initial wary exchange is not a check to win cooperation, no initiative or attack yet. V next response. No new RNG, time advance beyond brief encounter dialogue, damage, resource, provisions, coin or custody change.",
+  "pending_action": "D341~11:31 WNW seat expedition on foot,6/24mi, serious random encounter cap1/1 used. V at approximately(0,45) road, H1(0,85) AC15 HP32 daylight, raises hand and questions destination, H2(20,100) AC15 HP32 dim/half cover has folded sketch, H3(-15,105) AC15 HP32 dim/half cover watches with hand near darts; three fixed Iron Shadows speed40, no precasts/initiative/combat yet, all aware; C/F/Mara a few feet behind V on road (~0,35–40), clear retreat south, rough off-track terrain. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara has copies/sketch. Coach/four horses with Hessa, rations21 carried/9 stored feed40 stored, D341 charge3/4 pending, purse1512gp3sp6cp LR0/6. Morning Tamsin contact accounted. V chooses reply or action. No proven Dominion affiliation, no new regional polity. Other estate/ancestry/quest/custody facts unchanged, owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D341-SEAT-FOOT-EXPEDITION-HOBGOBLIN-SCOUTS-SIGHTED-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Open approach and wary ordinary NPC dialogue; no uncertain check, attack or initiative adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D341-HOBGOBLIN-SCOUTS-IRON-DOMINION-INQUIRY-001",
+      "accepted": true,
+      "evidence": "Exact player: 'Approach and ask: It’s a long way from the Iron Dominion. What your business in this part of the world?' V approaches openly along the track from screened bend toward H1; at about40ft separation (V at approximately0,45) H1 notices him and raises a hand to halt, V delivers exact chosen question. C/F/Mara accompany a few feet behind on road (approximately0,35–40), no forced weapons draw, no spell, no hiding or surprise assumed. H1 responds in Common, 'The Dominion? You think every hobgoblin serves the orc god?' Then says their business is surveying the old road and asks where V is going. H2 stops sketching, folds map and watches from existing shaded masonry; H3 remains at existing shaded flank, hand near darts. DM retains fixed independent motive of mapping usable upland routes for their own armed band and preventing witnesses compromising reconnaissance; no proven named employer or affiliation with Dominion, no automatic truthful denial beyond the actual words, no added troops, threats, invented regional state or compulsory battle. Canon world/politics/iron-dominion.md confirms independent goblinoids beyond Dominion. Hostility remains plausible if they judge party a threat; initial wary exchange is not a check to win cooperation, no initiative or attack yet. V next response. No new RNG, time advance beyond brief encounter dialogue, damage, resource, provisions, coin or custody change.",
+      "before": "Hobgoblin scouts sighted from bend, not visibly aware.",
+      "after": "Party approaches, scouts alert and ask destination; no combat or confirmed affiliation.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
