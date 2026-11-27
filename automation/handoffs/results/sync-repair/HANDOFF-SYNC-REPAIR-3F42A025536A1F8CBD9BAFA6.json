@@ -1,0 +1,10 @@
+{
+  "request_id": "HANDOFF-SYNC-REPAIR-3F42A025536A1F8CBD9BAFA6",
+  "lane": "sync-repair",
+  "status": "partial",
+  "claim_owner": "opened-pr48-2b153d2a",
+  "claim_expires_at": "2026-11-27T12:42:00Z",
+  "summary": "Claimed format-only owner_refs repair; no gameplay effects.",
+  "blocker": "verification in progress",
+  "next_trigger": "claim completion or expiry"
+}
