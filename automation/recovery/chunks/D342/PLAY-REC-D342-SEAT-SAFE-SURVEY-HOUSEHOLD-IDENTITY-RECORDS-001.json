@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-SAFE-SURVEY-HOUSEHOLD-IDENTITY-RECORDS-001",
+  "base_commit": "41403033f2b7f4b6ddb92c81c9d2fb3fc2da834c",
+  "source_checkpoint": "D342-1700-SEAT-UNARMED-PARTY-FORECOURT-EXPLORATION-PENDING-001",
+  "destination_checkpoint": "D342-1805-SEAT-SAFE-SURVEY-HOUSEHOLD-PROOF-RETURN-CHOICE-001",
+  "source_evidence": "Exact player 'Explore everything we can' authorizes comprehensive careful exploration of accessible prepared outer-seat footprint with all four companions, currently unarmed, not forced hazardous entry, demolition, removal of historical tablets, rearming, new spending, combat or overnight rest. D342~17:00–18:05 party surveys sound accessible ground per fixed prep/dm-only/dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167. From central forecourt they inspect surviving household ground-floor rooms x−30..40,y165..205, avoiding unstable collapsed upper floor and gatehouse interiors. Surviving roofed vestibule at west (~30x20ft), benches for public audiences, kitchen hearths, servants' common entrance and distinct domestic quarters show an actual functioning mixed household historically, not only a defensive stronghold. At northeast door-jamb the old-house mark and legible dedication identify apartment allocated to recognized child Valenthia. Mara compares with already copied D334 manor household register and copies the dedication/measurements; match is independent corroboration of household identity and a specific space historically assigned to Valenthia, not a recovered memory, birth date, proof he personally occupied it, parental fate or modern legal title. No verbatim invented dedication beyond supported content. Garden east x50..130,y110..175 surveyed, dry and overgrown, breach near(70,90) and ten-foot stone step with visible sound holds recognized as alternative return route around main gate; no climb or actual crossing yet. At record chamber x80..120,y185..215, observe east breach and unsupported cracked east-half floor before proceeding; Cirren/Fenar/Mara identify sound western5ft strip and north bedrock footing, party carefully uses only stable strip and footing to read both in-place docket tablets, avoids loading cracked section, no collapse, roll or loss. Mara and Cirren make faithful written copies/tracings of legible tablet contents: public audience arrangements, household allocations (including independent record of the same Valenthia apartment allocation), subsidiary Silverward service station, establishing concrete administrative relationship to seat. Copies retained by Mara, tablets remain in situ, no salvage claim or removal. Gatehouse exteriors inspected from stable forecourt, visibly unstable fallen roofs not entered, no accessible control instructions discovered in this survey, no guarantee none existed or reprogramming impossible; both Stone Defenders remain at original positions and unchanged. All accessible portions of prepared outer-seat scope surveyed, no further safe rooms established within current surviving footprint, no invented hidden dungeon or reward. Site identity established by matching cistern/aqueduct/twin gatehouses plus independent old-house marker/dedication, manor register and docket geography; local expedition's core historical discovery and copy evidence achieved, return route mapped but actual return not yet completed. Party returns to forecourt (0,135) around18:05, remains unarmed, exterior cache intact status not inspected/recovered; no further movement past arch, no extra consumption, damage, spells, feature spending, coin, title, appraisal or construction. Existing V purse, all character pools, rations/horse feed, D342 daily charge, LR1/6, Hessa/Voss/Flint Banner and other quest/custody unchanged. V next decision concerning weapon retrieval, camp, return or future plans; no unplayed actions assumed.",
+  "pending_action": "D342~18:05 central forecourt at(0,135), all four present and unarmed. Safe survey of surviving outer-seat footprint complete: cistern/aqueduct/terrace/twin gatehouses match Caul sketch; residential ground-floor audience benches, kitchens, servants' entrance, roofed west vestibule; NE jamb dedication identifies apartment allocated to recognized child Valenthia, confirmed by already copied manor register and independent docket tablet; two stone docket tablets copied in place, document audience/household allocation and subsidiary Silverward service station. Identity of surviving outer seat and V's assigned historical apartment established; no recovered memory, parent fate, modern title, structural certification, appraisal or loot. Garden breach near(70,90) with climbable10ft step/holds surveyed from inside; actual crossing not attempted. Record chamber cracked east floor avoided using stable western strip/north footing; no collapse. Gatehouse exteriors inspected, unstable interiors avoided, no control instructions found. Mara holds copies/tracings and route sketch, both tablets remain at site. A(-5,110),B(5,110) fixed guardians HP52/52 AC16 full reactions, neutral to unarmed visitors, no reprogramming/allegiance. V sword+Galepierce, F greataxe/2 handaxes/4 javelins, C dagger at marked sheltered exterior cache near(-25,30), unguarded and not yet checked/retrieved; no sword-channel attack while separated. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone, dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/four horses and originals with Hessa; carried15 rations, stored9, feed32; D342 charges applied, purse1512gp3sp6cp LR1/6. No actual return leg, camp or further rest started. V next decision. Other estate, quest, commission, correspondence and custody facts unchanged; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-PARTY-UNARMED-PASSAGE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Prepared accessible legible evidence, competent ordinary copying and deliberately safe footing bypass; no uncertain check, combat, floor hazard trigger or climbing crossing."
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-HOUSEHOLD-DEDICATION-IDENTITY-001",
+      "accepted": true,
+      "evidence": "Ground-floor household survey; NE jamb old-house mark and dedication name recognized child Valenthia's apartment, compared with actual copied manor register and matching approach. Mara copies inscription/measurements; site identity and historically allocated apartment established, not recovered memory or modern title.",
+      "before": "Suspected seat, independent household evidence pending.",
+      "after": "Surviving outer seat identified and V's allocated room found.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    },
+    {
+      "event_id": "D342-SEAT-RECORD-TABLETS-COPIED-SAFE-SURVEY-001",
+      "accepted": true,
+      "evidence": "Surveyed garden return route, observed cracked floor, bypassed via sound strip/north footing, two docket tablets copied in situ with audience/household and Silverward service station evidence; no removal, collapse or unsafe gatehouse entry. No control instructions discovered. Returned to forecourt, weapons outside, next choice pending.",
+      "before": "Unarmed party forecourt, archive/garden unexplored.",
+      "after": "Accessible outer-seat survey completed; copies retained, guardians intact, actual departure/weapon retrieval pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
