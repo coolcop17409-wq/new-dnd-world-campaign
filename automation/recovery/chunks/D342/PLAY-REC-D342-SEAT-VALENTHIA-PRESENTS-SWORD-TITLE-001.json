@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-VALENTHIA-PRESENTS-SWORD-TITLE-001",
+  "base_commit": "0a9675c25a0c3cb7ce7e00ddb4556e81ea4ee2d7",
+  "source_checkpoint": "D342-1645-ANCESTRAL-SEAT-GATE-GUARDIANS-WARNING-V-DECISION-001",
+  "destination_checkpoint": "D342-1646-SEAT-GUARDIANS-WARNING-AFTER-INTRODUCTION-001",
+  "source_evidence": "Exact player 'I bring out my silver sword and state my name and title' directs V to present his existing floating silver sword visibly and identify himself by name and title (Viscount Valenthia, the title he used earlier D341). No attack, movement across the arch, attempted command, additional claim or resource expenditure is implied. At D342~16:46 the two gate guardians turn toward V's presented weapon and keep their warning gesture, pointing back down the road. Neither speaks, bows, acknowledges lineage, recognizes a name/seal as authority, or attacks. This is fixed original duty from prepared packet dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167: deny armed entry, no magical ancestry recognition or control through name/seal, understands creator's Elvish but cannot speak. Language not specified by player; no claim about comprehension or inner thoughts. Cirren observes the gesture has not changed and suggests their instructions may concern the weapons rather than identity. Mara remains cautious; no new proof about V's past or title. All positions, HP, resources, gear, time-sensitive statuses and supplies unchanged except brief dialogue; V next decision. No roll because fixed deterministic warning behavior, no attack or uncertain skill use.",
+  "pending_action": "D342~16:46 ancestral-seat outer court, daylight, V(0,82) ~28ft from stone gate guardians A(-5,110),B(5,110); C/F(0,75–77), Mara(0,70). V presented existing floating silver sword and named himself Viscount Valenthia. Guardians continue warning toward road, no acknowledgment or attack, no threshold crossed, no initiative. Visible east breach near(70,90) unexamined. Cistern rim copy and matching landmarks held by Mara; independent household proof pending. Fixed private packet dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167, two Stone Defenders HP52/52 each AC16 speed30 full reactions, no damage, original bounded duty. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch; coach/four horses and originals with Hessa, carried15 rations stored9 feed32, D342 charges applied, purse1512gp3sp6cp LR1/6. V next choice at warning; all prior estate, quest, correspondence and custody unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-CISTERN-EXAMINATION-GATE-WARDERS-WARNING-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Presentation and fixed programmed noncombat warning; no uncertain check or attack."
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-VALENTHIA-PRESENTS-SWORD-TITLE-001",
+      "accepted": true,
+      "evidence": "Exact player 'I bring out my silver sword and state my name and title' directs V to present his existing floating silver sword visibly and identify himself by name and title (Viscount Valenthia, the title he used earlier D341). No attack, movement across the arch, attempted command, additional claim or resource expenditure is implied. At D342~16:46 the two gate guardians turn toward V's presented weapon and keep their warning gesture, pointing back down the road. Neither speaks, bows, acknowledges lineage, recognizes a name/seal as authority, or attacks. This is fixed original duty from prepared packet dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167: deny armed entry, no magical ancestry recognition or control through name/seal, understands creator's Elvish but cannot speak. Language not specified by player; no claim about comprehension or inner thoughts. Cirren observes the gesture has not changed and suggests their instructions may concern the weapons rather than identity. Mara remains cautious; no new proof about V's past or title. All positions, HP, resources, gear, time-sensitive statuses and supplies unchanged except brief dialogue; V next decision. No roll because fixed deterministic warning behavior, no attack or uncertain skill use.",
+      "before": "Guardians warning visibly armed party away.",
+      "after": "V presents sword and name/title; guardians retain warning, no recognition or attack.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
