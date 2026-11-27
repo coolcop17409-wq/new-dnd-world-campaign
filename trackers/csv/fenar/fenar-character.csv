@@ -1,7 +1,7 @@
 FENAR RAUKHAR
 "Age26 adult dwarf-descended Longtooth Shifter (Nobanion bloodline); Beast Barbarian6; joined voluntarily173. Day225 fixed HP +9, max59. Day229 full Long Rest completed; live row4 and rows18–25 own current resources/forms. Bestial Soul makes Beast Form natural weapons magical; CLIMB remains selected (Features61). CAMPAIGN_STATE owns exact pause."
 
-CURRENT HP,59,MAX HP,59,TEMP HP,0,AC,14
+CURRENT HP,59,MAX HP,59,TEMP HP,0,AC,16
 INITIATIVE,2,SPEED (FT),40,PROFICIENCY,3,BARBARIAN LVL,6
 
 ABILITY SCORES & SAVING THROWS
@@ -35,11 +35,11 @@ ATTACK,TO HIT,DAMAGE,NOTES
 Double-Claw Rend [Greataxe],8,1d12+5 slashing,"ONE STR melee greataxe attack (heavy, two-handed, 7 lb, slashing), visually both claws; all axe mechanics including item, draw/disarm and mastery eligibility remain. No extra attacks from reskin."
 Handaxe,8,1d6+5 slashing,"Light, thrown 20/60 ft. Rage bonus applies in melee only; off-hand BA normally omits STR damage."
 Javelin,8,1d6+5 piercing,Thrown 30/120 ft. Rage bonus applies in melee only.
-Unarmed strike,8,6 bludgeoning,STR melee attack; 5 ft.
-Longtooth fangs,8,1d6+5 piercing,While shifted: attack during Shift BA or a BA on later turns; not the Beast Bite healing attack.
-Beast claws,8,1d6+5 slashing,"Claws rage form, empty hand. Once/turn: one extra claw attack during the Attack action."
-Beast bite,8,1d8+5 piercing,"Bite rage form: on damaging hit on own turn, restore proficiency bonus 3 HP if current HP is below half max (with max59, 29 or fewer). Once per own turn."
-Beast tail,8,1d8+5 piercing,Tail rage form; reach 10 ft. Reaction against a visible creature within 10 ft hitting you: add 1d8 AC against that attack.
+Unarmed strike,9,7 bludgeoning,"STR melee attack; 5 ft. D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001: equipped Insignia +1 attack/damage, magical; no change to action limits."
+Longtooth fangs,9,1d6+6 piercing,"While shifted: attack during Shift BA or a BA on later turns; not the Beast Bite healing attack. D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001: equipped Insignia +1 attack/damage, magical; no change to action limits."
+Beast claws,9,1d6+6 slashing,"Claws rage form, empty hand. Once/turn: one extra claw attack during the Attack action. D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001: equipped Insignia +1 attack/damage, magical; no change to action limits."
+Beast bite,9,1d8+6 piercing,"Bite rage form: on damaging hit on own turn, restore proficiency bonus 3 HP if current HP is below half max (with max59, 29 or fewer). Once per own turn. D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001: equipped Insignia +1 attack/damage, magical; no change to action limits."
+Beast tail,9,1d8+6 piercing,"Tail rage form; reach 10 ft. Reaction against a visible creature within 10 ft hitting you: add 1d8 AC against that attack. D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001: equipped Insignia +1 attack/damage, magical; no change to action limits."
 
 NOTES & SOURCE DISCREPANCIES
 Build source,"Fenar.pdf: Barbarian 5, Path of the Beast; Shifter (MotM 2022), Longtooth; Athlete. Max HP 50, AC14, speed40. Current HP not supplied."

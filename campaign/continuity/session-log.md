@@ -1,3 +1,50 @@
+SESSION_LOG — accepted through Day325~19:00; newest first.
+Exact immutable source: [PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001](https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/95efd1be47dbe59108a1363ae3f4837f56f27537/automation/handoffs/play-sync/requests/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json). Newer accepted recovery through Day338 controls live continuation; this is bounded historical synchronization, not a replay.
+
+D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001 — At express request, keeper accepted separate authenticated Coris packet into outgoing correspondence, care of Edric. Mara retains copy; no fee, actual dispatch, recipient receipt, ETA or300/800gp payment. Day325~19:00 next choice pending.
+
+D325-ORSAVEN-NIGHTGLASS-AUTHENTICATED-SURVEY-COMPARISON-001 — Edric D290 request receipt confirmed at map room. Authenticated survey copy and Hall-mark comparison retained by Mara; original field book stays collection, heart at Nightglass.48road+12rough miles/~3days each way established, no expedition or lineage proof at this event.
+
+D325-ORSAVEN-CROWN-INVITATION-SEALED-DELIVERY-001 — Original sealed invitation delivered to authorized royal dispatch custody; V retained credentials and dated acknowledgment. No royal audience, assent, fee or treaty.
+
+D325-ORSAVEN-FERRYMENS-SHARE-FINANCIAL-LEAD-001 — V reviewed authorized financial comparison: pre-death4-C payment for two ferry hulls separate from later false withdrawals. Voluntary shipwright lead introduced; Watch keeps originals, no warrant/seizure/reward or boatyard visit yet at this event.
+
+D325-ORSAVEN-QUENWOOD-PUBLIC-DISPOSITION-001 — Desen reported Quenwood life sentence and upheld appeal; restitution ordered but assets frozen, none distributed. Exact dates/sums and other culpability remain unestablished.
+
+D325-ORSAVEN-WASP-NEEDLES-ORDER-DEPOSIT-001 — V accepted needles order and paid120gp deposit once;240gp due on completed delivery; target353 local pickup. Final purse2051gp8sp6cp; balances not reserved cash.
+
+D325-ORSAVEN-HADIYA-QUILL-ORDER-DEPOSIT-001 — V accepted quill order and paid140gp deposit once;280gp due on completed delivery; target353 local pickup, not finished item.
+
+D325-QUILL-NEEDLES-NEGOTIATED-QUOTES-001 — Accepted negotiation results24 and29 fixed separate420/360gp quotes with140/120gp deposits. Quotes alone did not spend funds.
+
+D325-ORSAVEN-THREE-ENCHANTMENT-FOLLOWUPS-001 — Serpent Dart specialist follow-up6/DC12 failed; no supplier/order. Separate qualified quill/needle makers offered28-day commissions, initially450/420gp; no ready items.
+
+D325-ORSAVEN-PELLIN-MAUD-SABINE-REUNION-001 — Pellin, Maud and Sabine renewed contact. Maud personally reported four D201 workers recovered/resumed work; one avoids underground work. No new contract or Keepers review result.
+
+D325-ORSAVEN-COPPER-HART-SECURE-OVERNIGHT-001 — Expressly chosen uninterrupted city overnight, weighted rest3→5/6 and ordinary SR; no completed LR, HD/feature use, repeated payment or packed-supply deduction. Cirren second-level slots2/3 and Fenar Rage3/4 remain spent.
+
+D324-ORSAVEN-CORRESPONDENCE-CIRREN-TOBIN-SECOND-REPLY-001 — Cirren actually received Tobin's private second reply via Sabine, willing to continue correspondence but no meeting agreed. Mentor reply unavailable at checked relay, not proof of death/refusal. Other checked personal mail absent; no Severin assent verified.
+
+D324-V-COPPER-HART-TWO-ROOM-BOOKING-001 — Paid one2gp Copper Hart two-room overnight package including three suppers and four-horse care; no property commitment.
+
+D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001 — V paid330gp for original Insignia and gave it to Fenar; equipped, natural attacks/unarmed +1 and magical, greataxe unaffected. Combined equipment1055gp; no attunement.
+
+D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001 — V paid385gp for original Shield +1 and gave it to Cirren; equipped, AC18→19. Ordinary shield retained unequipped.
+
+D324-V-PURCHASES-FENAR-BREASTPLATE-340-001 — V paid340gp for Fenar fitted breastplate; willingly equipped, AC14→16.
+
+D324-ORSAVEN-EQUIPMENT-CONSIGNMENT-AND-RESIDENCE-INQUIRIES-001 — Actual separate Shield +1 and Insignia consignments offered. Residential1450/2250gp asking leads uninspected/nonbinding; no hold or property purchase.
+
+D322-ORSAVEN-SWITCHBACK-SADDLERY-REVIEW — Withdrawn Bands remained withdrawn, no supplier/reauthorization; market owner already posted, no relisting.
+
+D321-ORSAVEN-COPPER-NOSE-KENNELS-REVIEW — Original Copper Nose d10085 review left Bloodhound Amulet unchanged; market owner already posted, no reroll.
+
+D324-V-PARTY-RESUPPLY-15-RATIONS-20-FEED-001 — Bought15 rations and20 feed for8gp5sp; supplies6/8→21/28. No further consumption.
+
+D324-V-ROAD-GANG-EQUIPMENT-RESALE-185GP-001 — Authorized eight-piece D321 lot sold for185gp after accepted18/DC18 negotiation; all eight pieces transferred, proceeds received once.
+
+## Earlier verified log (preserved)
+
 SESSION_LOG — accepted Day316–324; newest first.
 Exact evidence: `archive/continuity/accepted-PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001.json`; preceding log preserved at `archive/continuity/session-log-before-PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001.md`. Superseded branches are audit-only. Newer immutable chunks remain authoritative for live continuation.
 

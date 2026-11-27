@@ -2,7 +2,7 @@
 ADMIN-QUEST-D338-20261127-01; source main2328d9e608ca466c39d035b8b58195209c020bc8. Read once, then scoped owners; accepted checkpoint/chunks always win.
 
 ## Source and location
-Owner D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001 @1a69818ddb9f592991b1c008a018afac719c27ff unchanged. Latest automation/recovery/chunks/D338/PLAY-REC-D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.json @2e41e82fab2112d8b4573175e24a8662455a0911; event D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001; destination D338-0658-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.48 source-linked envelopes since verified33418:33; prior suffix retained.
+Owner D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001 @7fae4d119b354e2d665b00bf5cd014720303ab48 (bounded PR47 synchronization). Latest automation/recovery/chunks/D338/PLAY-REC-D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.json @2e41e82fab2112d8b4573175e24a8662455a0911; event D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001; destination D338-0658-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.48 source-linked envelopes since verified33418:33; prior suffix retained.
 Day33806:58: natural cavern below independent Derro stonecut, western Ossent,6roughmi short of Silverward on return. Exact pending choice, exhausted resources/custody and Light expiry~07:10 in SCENE_CACHE.md. No travel/rest/supply charge now. Both prior exact briefs archived under archive/continuity/*-before-ADMIN-QUEST-D338-20261127-01.md.
 
 ## Player-known geography and culture

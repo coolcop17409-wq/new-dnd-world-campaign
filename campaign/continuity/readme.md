@@ -27,7 +27,7 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 ## Atlas review
 
-Verified scoped edition `ATLAS-D334-SILVERWARD-001`: accepted western Ossent geography through Day334; Atlas master metadata and the publication receipt agree. This is scoped map coverage, not owner-checkpoint synchronization. Current publication and asset versions: [owning Atlas review](../../assets/README.md#atlas-review).
+Verified scoped edition `ATLAS-D337-SILVERWARD-RETURN-001`: accepted western Ossent return-route geography through Day337; master metadata and publication receipt agree. Newer underground observations remain outside this scoped edition. Current publication and asset versions: [owning Atlas review](../../assets/README.md#atlas-review).
 
 ## Cooperative writer
 

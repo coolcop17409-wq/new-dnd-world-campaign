@@ -2,7 +2,7 @@ CIRREN — EQUIPMENT & COIN
 "Current gear/components and evidence custody: this tab. Current resources: Cirren - Character / Cirren - Spells. Exact scene, rest progress and pending choices: Continuity Pack → CAMPAIGN_STATE. Day180 rest/Watch transactions remain dated history in SESSION_LOG/RULES; estate accounts, agreements and schedules belong in Property → Estates."
 
 ITEM,QTY,SOURCE,DETAIL / CUSTODY,CURRENT HOLDER,ESTIMATED VALUE
-Shield,1,PDF,Shield + breastplate => AC 18
+Shield,1,PDF,D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001: original mundane shield retained UNEQUIPPED; new Shield +1 custody in data/characters/events.csv. No sale/trade.
 Breastplate,1,PDF,Medium armor
 Dagger,1,PDF,Current +5 to hit;1d4+2 piercing. Uses Dexterity2 and proficiency3.
 Briefcase (Backpack),1,PDF,Container

@@ -2,7 +2,7 @@
 ADMIN-QUEST-D338-20261127-01; source main2328d9e608ca466c39d035b8b58195209c020bc8. Newer accepted owners/chunks always win.
 
 ## Cursor / exact pending choice
-owner_checkpoint_id: D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001; campaign/continuity/campaign-state.md @1a69818ddb9f592991b1c008a018afac719c27ff unchanged.
+owner_checkpoint_id: D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001; campaign/continuity/campaign-state.md @7fae4d119b354e2d665b00bf5cd014720303ab48 unchanged.
 latest_played_event_id: D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.
 recovery_cursor: automation/recovery/chunks/D338/PLAY-REC-D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.json @2e41e82fab2112d8b4573175e24a8662455a0911 → D338-0658-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.48 linked envelopes since previously verified33418:33; earlier suffix retained. Chunked mode @2a59932f62b2f38ae20c09a1116b83c692c8bcbe.
 
@@ -12,7 +12,7 @@ Day338~06:58, independent Derro excavation's natural cavern. V/Cirren/Fenar stan
 V48/48 AC19 HD0/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive; cloak+Luckstone, original Galepierce carried, dice delegated.
 Cirren51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration; Light on shield until~07:10, Detect Magic expired06:20.
 Fenar59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40.
-Mara with intact coach/four horses on nearby road, not witness to underground discoveries. LR0/6; purse2020gp8sp6cp; rations24/feed32, D338 charge still pending. No rest/resource refresh assumed; saved324 dashboard/character events lag.
+Mara with intact coach/four horses on nearby road, not witness to underground discoveries. LR0/6; purse2020gp8sp6cp; rations24/feed32, D338 charge still pending. No rest/resource refresh assumed; saved325 dashboard/character events still lag later accepted play.
 
 Site-owned~45ft hoist rope inspected, anchored to sound shelf rock, deployed/recoverable, not personal inventory. Return via braced3x4ft opening/10ft throat to35x15ft lower gallery,25ft below upper; upper rope retained, props intact. Six ore baskets and earlier10gp46sp, arms/tools/component pouches/tally/samples/ore sacks/winch remain UNCLAIMED. Seven Derro dead; no combat/initiative now. Accepted player replacement/corrections supersede former gnoll/fleeing-savant captions.
 Mara retains ancient leaves/container/coffer for preservation/valuation, not spendable180gp. Mara/Cirren hold actual manor copies; originals Caul. Original Silverward instrument/dedication remain there.

@@ -360,3 +360,26 @@ Player exact correction: 'these ownership agruement should not be know to anyone
 
 ### D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001
 Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.
+
+## Accepted Day324–325 custody synchronization — PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001
+Historical source: [PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001](https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/95efd1be47dbe59108a1363ae3f4837f56f27537/automation/handoffs/play-sync/requests/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json). Personal numeric legs: data/characters/events.csv; equipped effects: owning Character/Features CSVs. Later accepted custody overrides this historical cutoff.
+
+D324-V-ROAD-GANG-EQUIPMENT-RESALE-185GP-001 — Authorized eight-piece D321 lot sold for185gp after accepted18/DC18 negotiation; all eight pieces transferred, proceeds received once.
+
+D324-V-PURCHASES-FENAR-BREASTPLATE-340-001 — V paid340gp for Fenar fitted breastplate; willingly equipped, AC14→16.
+
+D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001 — V paid385gp for original Shield +1 and gave it to Cirren; equipped, AC18→19. Ordinary shield retained unequipped.
+
+D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001 — V paid330gp for original Insignia and gave it to Fenar; equipped, natural attacks/unarmed +1 and magical, greataxe unaffected. Combined equipment1055gp; no attunement.
+
+D324-ORSAVEN-CORRESPONDENCE-CIRREN-TOBIN-SECOND-REPLY-001 — Cirren actually received Tobin's private second reply via Sabine, willing to continue correspondence but no meeting agreed. Mentor reply unavailable at checked relay, not proof of death/refusal. Other checked personal mail absent; no Severin assent verified.
+
+D325-ORSAVEN-HADIYA-QUILL-ORDER-DEPOSIT-001 — V accepted quill order and paid140gp deposit once;280gp due on completed delivery; target353 local pickup, not finished item.
+
+D325-ORSAVEN-WASP-NEEDLES-ORDER-DEPOSIT-001 — V accepted needles order and paid120gp deposit once;240gp due on completed delivery; target353 local pickup. Final purse2051gp8sp6cp; balances not reserved cash.
+
+D325-ORSAVEN-CROWN-INVITATION-SEALED-DELIVERY-001 — Original sealed invitation delivered to authorized royal dispatch custody; V retained credentials and dated acknowledgment. No royal audience, assent, fee or treaty.
+
+D325-ORSAVEN-NIGHTGLASS-AUTHENTICATED-SURVEY-COMPARISON-001 — Edric D290 request receipt confirmed at map room. Authenticated survey copy and Hall-mark comparison retained by Mara; original field book stays collection, heart at Nightglass.48road+12rough miles/~3days each way established, no expedition or lineage proof at this event.
+
+D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001 — At express request, keeper accepted separate authenticated Coris packet into outgoing correspondence, care of Edric. Mara retains copy; no fee, actual dispatch, recipient receipt, ETA or300/800gp payment. Day325~19:00 next choice pending.
