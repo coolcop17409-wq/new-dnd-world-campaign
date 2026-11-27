@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D341-HOBGOBLIN-SCOUTS-V-ASSERTS-LAND-CLAIM-001",
+  "base_commit": "b00a0c8dc4c2ebe13d33fda55c8097ae53a84e50",
+  "source_checkpoint": "D341-1132-HOBGOBLIN-SCOUTS-COMPANY-PURPOSE-REVEALED-001",
+  "destination_checkpoint": "D341-1133-HOBGOBLIN-SCOUTS-PASSAGE-QUESTION-PENDING-001",
+  "source_evidence": "Exact V reply 'Not abandoned anymore. And yes it is.' asserts the land ahead is his and no longer abandoned. H1 takes this as a claim, not proof of legal ownership, tells H2 to note that the land is claimed, and asks whether V intends to permit the company passage through the hills or bar the road. H2 takes note; H3 remains watchful. H1's request serves the fixed reconnaissance motive, no automatic allegiance, recognition of title, grant of passage or right to exclude, concession, guarantee of peaceful intent or additional force established. No NPC attack, initiative, check or movement; no extra V speech or consent. V next response.",
+  "pending_action": "D341~11:33 WNW seat foot expedition,6/24mi; serious encounter cap1/1 used. V approx(0,45), H1(0,85) AC15 HP32 daylight, H2(20,100) AC15 HP32 dim/half cover records claimed land, H3(-15,105) AC15 HP32 dim/half cover watches; C/F/Mara approx(0,35–40), all aware, clear retreat south, off-track rough. Three fixed Iron Shadows speed40, no combat/initiative/precasts. H1 asks whether V will permit their armed company passage or bar the road. V asserted land is his; no verified title/recognition, company allegiance, strength, ultimate objective or agreed passage. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch. Coach/four horses in Hessa care, rations21 carried/9 stored feed40 stored, D341 charge3/4 pending, purse1512gp3sp6cp LR0/6. Other estate/ancestry/quest/custody facts unchanged. V next decision. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D341-HOBGOBLIN-SCOUTS-ROAD-SURVEY-PURPOSE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary dialogue; no contested concession, attack or ability check."
+  },
+  "events": [
+    {
+      "event_id": "D341-HOBGOBLIN-SCOUTS-V-ASSERTS-LAND-CLAIM-001",
+      "accepted": true,
+      "evidence": "Exact V reply 'Not abandoned anymore. And yes it is.' asserts the land ahead is his and no longer abandoned. H1 takes this as a claim, not proof of legal ownership, tells H2 to note that the land is claimed, and asks whether V intends to permit the company passage through the hills or bar the road. H2 takes note; H3 remains watchful. H1's request serves the fixed reconnaissance motive, no automatic allegiance, recognition of title, grant of passage or right to exclude, concession, guarantee of peaceful intent or additional force established. No NPC attack, initiative, check or movement; no extra V speech or consent. V next response.",
+      "before": "H1 asks if land is V's.",
+      "after": "V asserts claim; H1 asks about passage, no agreement or title recognition.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
