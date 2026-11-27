@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-EXCAVATION-MOTIVE-DISCUSSION-001",
+  "base_commit": "46a57ba2254fc72a56b7e5e308025b62b5ce415e",
+  "source_checkpoint": "D337-1150-DERRO-AFTERMATH-PROSPECTING-EVIDENCE-LOOT-PENDING-001",
+  "destination_checkpoint": "D337-1150-DERRO-EXCAVATION-MOTIVE-DISCUSSED-V-DECISION-001",
+  "source_evidence": "V observes 'They attacked us immediately… whatever is here, they did not want us to find'. Cirren agrees the resistance is consistent with protecting the excavation, but distinguishes that inference from established motive: the band may also have wanted supplies/cargo or to eliminate passing witnesses, and the mineral samples/work tally alone do not prove a valuable secret. Fenar points out that the wounded savant retreated into the fissure rather than along the exposed road. Both support investigating the immediate excavation further if V chooses. No new physical evidence, mineral identification, hidden settlement, treasure, foe, or ultimate motive established. No movement beyond prior examined 10ft, no spell, roll, loot collection, elapsed time, healing, or other resource change; V's next choice remains whether to explore, claim loot, heal/rest or leave.",
+  "pending_action": "Day337~11:50 Silverward return track, at excavation entrance. V6/48 AC19 MP0/7 Sup2/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, original Galepierce recovered, dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration. F10/59+6THP AC16 HD6/6 Rage0/4 inactive Shift2/3 inactive MP0/6 CLIMB40. Mara coach(0,-80) intact four healthy horses. Seven Derro dead. Unclaimed10gp46sp, four light crossbows, four hooked spears, three quarterstaffs, three component pouches, two picks, assorted tools, mineral samples and Undercommon tally. Prospecting confirmed; exact ore/value/motive unverified. Only first10ft examined. V's inference discussed, no deeper exploration or loot transfer. V next choice. Rations27/feed36, D337 charge pending, purse2020gp8sp6cp, LR0/6. All other previous custody, estate, quest and correspondence facts unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-AFTERMATH-SEARCH-PROSPECTING-EVIDENCE-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Conversation interpreting already recovered evidence; no new check or action."
+  },
+  "events": [
+    {
+      "event_id": "D337-DERRO-EXCAVATION-MOTIVE-DISCUSSION-001",
+      "accepted": true,
+      "evidence": "V observes 'They attacked us immediately… whatever is here, they did not want us to find'. Cirren agrees the resistance is consistent with protecting the excavation, but distinguishes that inference from established motive: the band may also have wanted supplies/cargo or to eliminate passing witnesses, and the mineral samples/work tally alone do not prove a valuable secret. Fenar points out that the wounded savant retreated into the fissure rather than along the exposed road. Both support investigating the immediate excavation further if V chooses. No new physical evidence, mineral identification, hidden settlement, treasure, foe, or ultimate motive established. No movement beyond prior examined 10ft, no spell, roll, loot collection, elapsed time, healing, or other resource change; V's next choice remains whether to explore, claim loot, heal/rest or leave.",
+      "before": "Prospecting evidence found; V considering motive.",
+      "after": "V and companions discuss possible secrecy; motive remains unverified; deeper exploration pending V decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
