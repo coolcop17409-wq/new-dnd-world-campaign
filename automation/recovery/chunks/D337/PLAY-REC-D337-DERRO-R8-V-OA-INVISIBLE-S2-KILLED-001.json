@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R8-V-OA-INVISIBLE-S2-KILLED-001",
+  "base_commit": "472f5f09600671f14091e99fa8e296c349349329",
+  "source_checkpoint": "D337-1130-DERRO-R8-V-REVIVED-S1-KILLED-S2-INVISIBLE-001",
+  "destination_checkpoint": "D337-1130-DERRO-COMBAT-CLOSED-AFTERMATH-V-DECISION-001",
+  "source_evidence": "Exact player 'Move, outrageous athleticism if needed, attack vex, quick toss' authorizes movement, OA if necessary, Vex main attack and conditional follow-up against surviving S2. V stands from prone at(46,61,5) costing15ft before activating adopted Outrageous Athleticism for2MP (3→1/7), speed30→60, jump distance+30. DM adjudicates initial straight rough fissure passage at threshold(70,80,10): S2 used R8 ordinary move from(70,75,10) 5ft to threshold then 10ft inward on rough ground, total30ft movement; invisible, no Hide, audible footsteps from entrance, clear weapon line to(70,90,10), no further interior exploration or new enemies asserted. V runs 10ft along direct rising rough slope toward threshold, movement cost20ft, jumps remaining~21ft to threshold near S1 corpse (cost~21ft), total~56ft incl standing; max running jump37ft from STR7+30. Difficult landing Acrobatics DC10 actual15+8=23 success; V upright. No opportunity attack. S2 audible at10ft, AC13, invisible disadvantage on thrown main Psychic Blade, no eligible conscious adjacent ally, no Sneak Attack. V explicitly applies Weapon Mastery Vex costing1MP (1→0/7), actual disadvantage d20 7,4 keep4+9=13 hits AC13, d6=6+4=10 psychic, S2 HP2→0 dead, invisibility/concentration ends. No Quick Toss because sole living hostile killed, no bonus action or superiority die spent, no extra attack or NPC reaction. V6/48, Sup2/4, Psi6/6, action spent, BA/reaction available. Combat hostile roster exhausted (D1-D4/S1-S3 dead), no more combat turn or new exploration assumed. Cirren's readied Toll the Dead does not trigger on dead creature, held cantrip concentration released upon combat closure, no slot. Fenar remains 10/59+6 THP, Rage active Beast Claws (0 uses left), Shift active2/3, MP0/6, no new resource spend. Mara and coach/four horses healthy. No loot or Galepierce retrieval, healing, rest, time advance beyond combat, payment or further pursuit authorized. Actual visible RNG batch84b26c3e2e359be18a9dffcd366e229f.",
+  "pending_action": "Day337~11:30 Silverward return track, R8 hostile roster defeated, V upright at fissure threshold(70,80,10), HP6/48 AC19 MP0/7 Sup2/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, dice delegated; OA ends turn, no Quick Toss or bonus action spent. C(39,59,5)51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration, F(67,76,10)10/59+6 THP AC16 HD6/6 Rage0/4 active Beast Claws Shift2/3 active MP0/6 CLIMB40; both standing, no new healing/rest. Mara coach(0,-80) healthy four horses. D1–D4 and S1–S3 dead; S1 body at threshold(70,80,10), S2 body at(70,90,10), concentration ended; first 10ft of rough straight fissure established, beyond unexamined, no added enemy or loot assumed. Galepierce unique physical dart still by dead D3(55,45,5), safe retrieval pending actual resolution; no new custody or loot. V decides recover equipment/search, heal, rest, depart or explore. D335 provisions17gp, D336 charge3/4, rations27/feed36, D337 charge pending, purse2020gp8sp6cp, LR0/6. Prior Caul/tower/Hessa/Silverward/ancestry/custody/commission facts unchanged per dependency, full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R7-R8-OFFENSIVE-CORRECTION-S1-KILLED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "84b26c3e2e359be18a9dffcd366e229f",
+        "rolls": [
+          {
+            "id": "D337.R8.V.OA.landing.Acrobatics",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          },
+          {
+            "id": "D337.R8.V.Vex.Psychic_Blade.invisible_S2.attack",
+            "sides": 20,
+            "faces": [
+              7,
+              4
+            ]
+          },
+          {
+            "id": "D337.R8.V.Psychic_Blade.S2.damage",
+            "sides": 6,
+            "faces": [
+              6
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R8-V-OA-INVISIBLE-S2-KILLED-001",
+      "accepted": true,
+      "evidence": "Exact player 'Move, outrageous athleticism if needed, attack vex, quick toss' authorizes movement, OA if necessary, Vex main attack and conditional follow-up against surviving S2. V stands from prone at(46,61,5) costing15ft before activating adopted Outrageous Athleticism for2MP (3→1/7), speed30→60, jump distance+30. DM adjudicates initial straight rough fissure passage at threshold(70,80,10): S2 used R8 ordinary move from(70,75,10) 5ft to threshold then 10ft inward on rough ground, total30ft movement; invisible, no Hide, audible footsteps from entrance, clear weapon line to(70,90,10), no further interior exploration or new enemies asserted. V runs 10ft along direct rising rough slope toward threshold, movement cost20ft, jumps remaining~21ft to threshold near S1 corpse (cost~21ft), total~56ft incl standing; max running jump37ft from STR7+30. Difficult landing Acrobatics DC10 actual15+8=23 success; V upright. No opportunity attack. S2 audible at10ft, AC13, invisible disadvantage on thrown main Psychic Blade, no eligible conscious adjacent ally, no Sneak Attack. V explicitly applies Weapon Mastery Vex costing1MP (1→0/7), actual disadvantage d20 7,4 keep4+9=13 hits AC13, d6=6+4=10 psychic, S2 HP2→0 dead, invisibility/concentration ends. No Quick Toss because sole living hostile killed, no bonus action or superiority die spent, no extra attack or NPC reaction. V6/48, Sup2/4, Psi6/6, action spent, BA/reaction available. Combat hostile roster exhausted (D1-D4/S1-S3 dead), no more combat turn or new exploration assumed. Cirren's readied Toll the Dead does not trigger on dead creature, held cantrip concentration released upon combat closure, no slot. Fenar remains 10/59+6 THP, Rage active Beast Claws (0 uses left), Shift active2/3, MP0/6, no new resource spend. Mara and coach/four horses healthy. No loot or Galepierce retrieval, healing, rest, time advance beyond combat, payment or further pursuit authorized. Actual visible RNG batch84b26c3e2e359be18a9dffcd366e229f.",
+      "before": "V prone6/48 at(46,61,5), MP3/7 Sup2/4, S2 invisible2/36 retreating, all V actions fresh.",
+      "after": "V upright6/48 at(70,80,10), MP0/7 Sup2/4; S2 dead, all seven foes defeated, combat closed, aftermath V decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
