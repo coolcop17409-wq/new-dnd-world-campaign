@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-DERRO-RUBBLE-PACKING-INVESTIGATED-001",
+  "base_commit": "11aa49758c087c14c4571859bd841597c3a46821",
+  "source_checkpoint": "D338-0619-DERRO-LOWER-GALLERY-OBSTRUCTED-CRACK-PENDING-001",
+  "destination_checkpoint": "D338-0624-DERRO-DELIBERATE-RUBBLE-PACKING-EXAMINED-001",
+  "source_evidence": "Exact player 'investigate' authorizes examining the lower-gallery obstruction with companions, not disturbing it. D338~06:19–06:24; Cirren's earlier Detect Magic expires naturally at06:20, then he self-casts Guidance and makes Investigation with V's routine feasible Help (V holds light/helps compare tool marks and stone placement, no dangerous commitment). Predetermined DC14 distinguishes deliberately packed dry-stone rubble from natural collapse; DC18 identifies the supported lip and a plausible safe removal approach. Actual visible Python secrets batch411dfcf8f3ce70fe5f5fb6d076f6a51b, advantage d20 faces12,7 keep12+7 Investigation + Guidance d4=4=23, both thresholds met. Physical evidence: smaller stones deliberately wedged between larger stones, repeated fresh tool marks and a roughly level face; loose fall debris was deliberately packed into the descending natural crack, rather than entirely random collapse. Above the packing, a fractured overhanging slab rests on one side of the rock lip; pulling lower stones or the supporting wedge could destabilize it. A faint cool draft passes through a small gap; suggests connected airspace but no verified chamber, depth, exit, occupant, ore value or purpose. Cirren identifies a cautious method: leave load-bearing wedges and existing timber props untouched, first brace the fractured lip and remove loose top stones in a controlled sequence. Existing picks, rope, wedges and local timber props are visible but suitability of additional bracing and actual clearing remain to resolve; no guaranteed safe removal, no digging, no new trap or monster established. Fenar can help with physical work if V authorizes. No unfamiliar magic observed before Detect Magic expiry; Guidance expires on check; Light shield remains until~07:10. No loot transfer, spell slot/limited resource expenditure, damage, consumption or further descent.",
+  "pending_action": "Day338~06:24 lower Derro mining gallery, about70ft along passage from entrance,25ft below upper chamber, accessible rope/foothold retreat. Gallery35x15ft, two timber props, continued metallic-looking vein, three blind cuts, winch and six baskets of unassayed ore; rubble deliberately packed into descending crack (investigation23), fractured slab above lip, supporting wedges must not be removed blindly, faint cool draft through gap. Cirren proposes brace fractured lip and clear loose top stones cautiously; not yet performed, no safe beyond route/secret/occupant or mineral assay verified. V48/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, original Galepierce carried, dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration (Detect Magic expired, Guidance consumed by check), Light shield until~07:10. F59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara coach/four horses intact nearby road. Seven Derro dead; unclaimed10gp46sp, arms/tools/component pouches/tally/samples/bedding/three ore sacks and six baskets/winch remain on site. V chooses whether to clear safely, examine ore, leave or other action. Rations24/feed32, D338 charge pending, purse2020gp8sp6cp LR0/6, Tamsin dawn contact accounted for. All prior estate, ancestry, commission, correspondence and custody unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D338-DERRO-LOWER-GALLERY-EXPLORATION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "411dfcf8f3ce70fe5f5fb6d076f6a51b",
+        "rolls": [
+          {
+            "id": "D338.lower_gallery.Cirren.Investigation.V_Help",
+            "sides": 20,
+            "faces": [
+              12,
+              7
+            ]
+          },
+          {
+            "id": "D338.lower_gallery.Cirren.Guidance",
+            "sides": 4,
+            "faces": [
+              4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D338-DERRO-RUBBLE-PACKING-INVESTIGATED-001",
+      "accepted": true,
+      "evidence": "Exact player 'investigate' authorizes examining the lower-gallery obstruction with companions, not disturbing it. D338~06:19–06:24; Cirren's earlier Detect Magic expires naturally at06:20, then he self-casts Guidance and makes Investigation with V's routine feasible Help (V holds light/helps compare tool marks and stone placement, no dangerous commitment). Predetermined DC14 distinguishes deliberately packed dry-stone rubble from natural collapse; DC18 identifies the supported lip and a plausible safe removal approach. Actual visible Python secrets batch411dfcf8f3ce70fe5f5fb6d076f6a51b, advantage d20 faces12,7 keep12+7 Investigation + Guidance d4=4=23, both thresholds met. Physical evidence: smaller stones deliberately wedged between larger stones, repeated fresh tool marks and a roughly level face; loose fall debris was deliberately packed into the descending natural crack, rather than entirely random collapse. Above the packing, a fractured overhanging slab rests on one side of the rock lip; pulling lower stones or the supporting wedge could destabilize it. A faint cool draft passes through a small gap; suggests connected airspace but no verified chamber, depth, exit, occupant, ore value or purpose. Cirren identifies a cautious method: leave load-bearing wedges and existing timber props untouched, first brace the fractured lip and remove loose top stones in a controlled sequence. Existing picks, rope, wedges and local timber props are visible but suitability of additional bracing and actual clearing remain to resolve; no guaranteed safe removal, no digging, no new trap or monster established. Fenar can help with physical work if V authorizes. No unfamiliar magic observed before Detect Magic expiry; Guidance expires on check; Light shield remains until~07:10. No loot transfer, spell slot/limited resource expenditure, damage, consumption or further descent.",
+      "before": "Obstructed descending crack observed, cause unknown.",
+      "after": "Deliberate packing and fractured slab identified, cautious removal method proposed, no disturbance; V decides.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
