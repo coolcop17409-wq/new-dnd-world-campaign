@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-INITIATIVE-R1-V-TURN-001",
+  "base_commit": "2e7a2dbf989390c866718aedb61e5925385ca914",
+  "source_checkpoint": "D337-1130-SILVERWARD-TRACK-DERRO-PROSPECTING-WARBAND-V-DECISION-001",
+  "destination_checkpoint": "D337-1130-DERRO-COMBAT-R1-V-TURN-INIT6-001",
+  "source_evidence": "Exact player 'Mara get the cart back, team get ready for an attack' directs Mara to withdraw vehicle and companions to prepare combat, no specific V attack, movement or resource expenditure authorized yet. Both sides aware, no surprise/free preparation round. Actual executed RNG receipt batch70665934d28247b1b2f0e3964b4ae9b7: Savants15+2=17, Mara/coach15+0=15 (temporary noncombat vehicle-handling order modifier, not asserted Mara character Dex), Cirren11+2=13, Fenar9+2=11, V1+5=6, Derro3+2=5; identical enemy groups share initiative per 2014. Existing enclosed coach verified inventory.md D262/D264, so no automatic line of effect to enclosed passengers. Temporary geometry for execution from established coach center(0,0): solid coach body approx5ft wide/10ft long, no window line assumed to seated targets; coach west exit at(-5,0), dismount costs5ft movement. Horse team harnessed north ahead, Mara at reins. No damage to coach/horses, no unseen reinforcement. R1 savants initiative17: S1(65,60,z10) and S2(75,65,z10) each take Ready action, cast Lightning Bolt (one L3 slot each2→1, concentration holding spell, reaction available), S1 trigger first exposed hostile defender within100ft on clear line avoiding coach/horses; S2 trigger visible enemy spellcaster within100ft or two exposed defenders on clear line avoiding coach/horses. Their choice avoids damaging desired cargo, no line attack on occupants behind solid coach; if triggers not met before respective next turns, held spell expires with slot spent. S3 starts(70,80,z10), casts Invisibility on self (L2 3→2, concentration, invisible) and moves to(60,75,z10) along shaded rocky shelf, difficult terrain movement cost within30ft. V observes two casters gathering electrical energy and third disappears; exact ready triggers/hidden position DM-only. All seven enemies HP full; no roll for casting without target or self Invisibility. Mara initiative15 takes prepared controlled vehicle withdrawal when V and companions clear; holds reins, waits to avoid carrying party away; no actual vehicle movement yet. Temporary vehicle ruling: when all three dismounted, prepared withdrawal reaction begins cautious 10ft backing along open track (actual coach relocation only upon trigger; further turning/retreat on her turn), no full speed reverse dash or guaranteed safety. Cirren initiative13 dismounts west to(-10,0,z0), behind enclosed coach, shield, readies Toll the Dead on first hostile visible within60ft (concentration while holding cantrip, reaction available, no slot spent). No trigger during own or Fenar turn. Fenar initiative11 dismounts west to(-10,-5,z0), activates Rage (4→3/4), chooses Beast Claws, readies one claw attack if hostile enters5ft reach (action and reaction pending); no Shift/MP, no attack yet. Both behind coach with actual line blocked by solid body; no savant trigger yet. V initiative6 current turn, still inside coach, no action/BA/movement/reaction used, full stats, sword/Galepierce available; V chooses dismount/action. Four Derro D1(35,45,0), D2(35,65,0), D3(55,45,5), D4(55,65,5) initiative5 not yet acted. Enemy cover/light as previous: shade, D1/D2 half cover from coach, S1/S3 half cover from road (S3 invisible), S2 exposed, off-road difficult terrain. R1 elapsed within same 11:30; no rest, no expense, no supply use, no HP damage, no V resource expenditure.",
+  "pending_action": "Day337~11:30 R1 derro encounter, V turn initiative6, still inside enclosed coach at(0,0), all V action/BA/movement/reaction available. Order S17 Mara15 C13 F11 V6 D5. S1(65,60,10) S2(75,65,10) each AC13HP36 holding readied Lightning Bolt concentration L3 1/2 remaining, reactions available; triggers in evidence (DM-only), no actual attack. S3 invisible at(60,75,10) AC13HP36 L2 2/3 left concentration Invisibility. D1(35,45,0), D2(35,65,0), D3(55,45,5), D4(55,65,5) AC13HP13 each not yet acted, half cover D1/D2 as fixed. Mara at reins, prepared cautious10ft coach withdrawal reaction once all dismounted, coach/4 horses healthy stationary. C(-10,0,0) shield behind coach, 51/51 AC19 HD6 slots4/3/3 CD2, concentrating on readied Toll the Dead range60 on hostile visible, reaction available. F(-10,-5,0) 59/59 AC16 HD6 Rage3/4 ACTIVE Beast Claws, Shift3/3 inactive MP6/6 climb40, readied one claw melee attack if hostile enters5ft, reaction available. V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; V speed30, ordinary coach exit costs5ft movement; actual line/cover adjudicate. No damage or other resources spent. No surprise; track clear south/north, shaded east rocky shelf difficult terrain. V chooses move/action. D335 purchases17gp,30/40 supplies; D336 consumed3/4, current rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. Two qualifying nights LR4→5→6/6 dawn337 completed, now LR0/6, V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 holding readied Toll the Dead concentration. Fenar59/59 AC16 HD6/6 Rage3/4 active Beast Claws, Shift3/3 inactive MP6/6 CLIMB40 no THP. See combat packet above. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower in V practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers still pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds 2 original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul's historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign's child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site still needs preparation before expedition beyond Silverward. Other prior pending commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending. V next action at sighted encounter.",
+  "depends_on": [
+    "PLAY-REC-D337-PLAYER-AUTHORIZED-BROAD-SELECTION-DERRO-PROSPECTING-BAND-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "70665934d28247b1b2f0e3964b4ae9b7",
+        "rolls": [
+          {
+            "id": "D337.derro.initiative.V",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D337.derro.initiative.Cirren",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D337.derro.initiative.Fenar",
+            "sides": 20,
+            "faces": [
+              9
+            ]
+          },
+          {
+            "id": "D337.derro.initiative.Mara/coach",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          },
+          {
+            "id": "D337.derro.initiative.Derro D1–D4",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.derro.initiative.Savants S1–S3",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-DERRO-INITIATIVE-R1-V-TURN-001",
+      "accepted": true,
+      "evidence": "Exact player 'Mara get the cart back, team get ready for an attack' directs Mara to withdraw vehicle and companions to prepare combat, no specific V attack, movement or resource expenditure authorized yet. Both sides aware, no surprise/free preparation round. Actual executed RNG receipt batch70665934d28247b1b2f0e3964b4ae9b7: Savants15+2=17, Mara/coach15+0=15 (temporary noncombat vehicle-handling order modifier, not asserted Mara character Dex), Cirren11+2=13, Fenar9+2=11, V1+5=6, Derro3+2=5; identical enemy groups share initiative per 2014. Existing enclosed coach verified inventory.md D262/D264, so no automatic line of effect to enclosed passengers. Temporary geometry for execution from established coach center(0,0): solid coach body approx5ft wide/10ft long, no window line assumed to seated targets; coach west exit at(-5,0), dismount costs5ft movement. Horse team harnessed north ahead, Mara at reins. No damage to coach/horses, no unseen reinforcement. R1 savants initiative17: S1(65,60,z10) and S2(75,65,z10) each take Ready action, cast Lightning Bolt (one L3 slot each2→1, concentration holding spell, reaction available), S1 trigger first exposed hostile defender within100ft on clear line avoiding coach/horses; S2 trigger visible enemy spellcaster within100ft or two exposed defenders on clear line avoiding coach/horses. Their choice avoids damaging desired cargo, no line attack on occupants behind solid coach; if triggers not met before respective next turns, held spell expires with slot spent. S3 starts(70,80,z10), casts Invisibility on self (L2 3→2, concentration, invisible) and moves to(60,75,z10) along shaded rocky shelf, difficult terrain movement cost within30ft. V observes two casters gathering electrical energy and third disappears; exact ready triggers/hidden position DM-only. All seven enemies HP full; no roll for casting without target or self Invisibility. Mara initiative15 takes prepared controlled vehicle withdrawal when V and companions clear; holds reins, waits to avoid carrying party away; no actual vehicle movement yet. Temporary vehicle ruling: when all three dismounted, prepared withdrawal reaction begins cautious 10ft backing along open track (actual coach relocation only upon trigger; further turning/retreat on her turn), no full speed reverse dash or guaranteed safety. Cirren initiative13 dismounts west to(-10,0,z0), behind enclosed coach, shield, readies Toll the Dead on first hostile visible within60ft (concentration while holding cantrip, reaction available, no slot spent). No trigger during own or Fenar turn. Fenar initiative11 dismounts west to(-10,-5,z0), activates Rage (4→3/4), chooses Beast Claws, readies one claw attack if hostile enters5ft reach (action and reaction pending); no Shift/MP, no attack yet. Both behind coach with actual line blocked by solid body; no savant trigger yet. V initiative6 current turn, still inside coach, no action/BA/movement/reaction used, full stats, sword/Galepierce available; V chooses dismount/action. Four Derro D1(35,45,0), D2(35,65,0), D3(55,45,5), D4(55,65,5) initiative5 not yet acted. Enemy cover/light as previous: shade, D1/D2 half cover from coach, S1/S3 half cover from road (S3 invisible), S2 exposed, off-road difficult terrain. R1 elapsed within same 11:30; no rest, no expense, no supply use, no HP damage, no V resource expenditure.",
+      "before": "Seven derro sighted, no initiative, all party aboard coach.",
+      "after": "Initiative rolled, two savants hold lightning, one invisible; Mara waits ready withdrawal, Cirren readies cantrip, Fenar rages and readies claw; V R1 turn, no damage.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
