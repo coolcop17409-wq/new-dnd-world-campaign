@@ -1,0 +1,26 @@
+{
+  "request_id": "HANDOFF-D338-ESTATES-SILVERWARD-FUNDED-STARTUP-001",
+  "lane": "estates",
+  "source": {
+    "kind": "accepted_play",
+    "checkpoint_id": "D338-1210-SILVERWARD-500GP-STARTUP-MANDATE-ACCEPTED-001",
+    "campaign_day": 338
+  },
+  "request": "Reconcile verified D338 Silverward owner capital and funded stewardship mandate, and maintain repairs, actual contract outreach/fulfillment and mine assessment/development under Hessa's standing authority through latest confirmed in-game time.",
+  "scope": [
+    "Read immutable PLAY-REC-D338-SILVERWARD-500GP-STARTUP-FUNDING-MANDATE-001 and prerequisite PLAY-REC-D338-SILVERWARD-HESSA-RESTORATION-TRADE-PLAN-001, verify current owner/accepted checkpoints and prior D337-ESTATE journal before posting. Deduplicate stable IDs. Coordinate with play-sync; if personal/estate cross-ledger posting cannot be safely reconciled, preserve and report blocker, do not post a duplicate or advance owner checkpoint.",
+    "Exactly500gp owner capital transferred to Hessa, V purse2020gp8sp6cp→1520gp8sp6cp; never treat as income, double debit, or pool other estates. Reconcile six workdays D332–337 (30gp total) against existing accruals, overdue D334 payroll15gp authorized for settlement but not yet adjudicated/paid. Actual expenditures only, available funds, no artificial reserve floor.",
+    "Hessa authorized ordinary qualified inspections, actual quote negotiation/acceptance, repairs and modest fit-out, follow-through with actual customers and contracts; no repeat approval for routine work. Maintain active outreach every eligible workday while unsustainably profitable; preserve the actual six prior outcomes, no rerolls. Enforce safety and readiness, actual elapsed game time, independence of customers, actual earnings and receipts.",
+    "Mine: discreet surveyor/assay, structural and flood safety, access and lawful mineral rights, feasible extraction costs; only commission/develop/operate within funds after actual prerequisites. Prospect is unassayed galena-like ore, no established mine title/reserve/production/value. No future gameplay, ownership, payments, quotes, rolls or contracts invented. Preserve Marr independent ferry/home/access and voluntary guardians, no new debt or owner capital without V."
+  ],
+  "output_owner_paths": [
+    "data/estate/events.csv",
+    "data/estate/operational-checkpoint.csv",
+    "data/estate/fixed-assets.csv",
+    "data/estate/valuations.csv",
+    "data/characters/events.csv",
+    "campaign/continuity/npcs.md"
+  ],
+  "priority": "high",
+  "advances_gameplay": false
+}
