@@ -4,7 +4,7 @@
   "status": "complete",
   "phase": "checkpoint_verified",
   "claim_owner": "maintenance-pr47-20261127",
-  "claim_expires_at": "2026-11-27T15:29:22.000Z",
+  "claim_expires_at": "2026-11-27T15:12:14Z",
   "request_commit": "95efd1be47dbe59108a1363ae3f4837f56f27537",
   "request_blob": "7d3007744e8210fdc993c35883fa3777173dcad1",
   "summary": "Verified 21 already accepted Day324–325 events and 22 missing numeric/custody legs. Existing market postings skipped. Source-pinned owners and exact Day325 checkpoint read back; all newer338 evidence and private design retained.",
@@ -150,8 +150,8 @@
       "result": "----------------------------------------------------------------------\nRan 100 tests in 0.047s\n\nOK\n"
     }
   ],
-  "cleanup_status": "pending verified-only compatibility pruning",
-  "generated_view_status": "UNSYNCED: fast-play run46022118407 passed validation/generation, but current main PLAY_NOW remains Day324 blob2d9e1ab439c4e483ecab0cee6f11d82538646128; owner is Day325. Dispatch unavailable in connector. Next fast-play dispatch at unchanged checkpoint must publish then readback.",
+  "cleanup_status": "complete: exact verified-only prune applied and independently read back",
+  "generated_view_status": "UNSYNCED: fast-play run46022118407 passed validation/generation, but current main PLAY_NOW remains Day324 blob2d9e1ab439c4e483ecab0cee6f11d82538646128; owner is Day325. Dispatch unavailable in connector. Next fast-play dispatch at unchanged checkpoint must publish then readback. Workflow job140584107187 explicitly reported DEFERRED because main advanced to2b7f973d333c0e3dd5d89fdf54e716e4fb368d8c.",
   "unrelated_diagnostics": {
     "handoffs": "Current main schema failure already has terminal verified repair PR48, unmerged; no effect on accepted21-event validation",
     "routing": "Existing fixture requires obsolete Sedgecross/D282; current338 prep preserved"
@@ -239,5 +239,8 @@
       "verified_version_or_scope_fingerprint": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
       "market_leg_reposted": false
     }
-  ]
+  ],
+  "cleanup_commit": "c86b023817b709ec09e28019033efa0d2a05b99f",
+  "cleanup_blob": "df0e369abda4b765533e0af3921c54a5cb164787",
+  "cleanup_entries_remaining": 0
 }

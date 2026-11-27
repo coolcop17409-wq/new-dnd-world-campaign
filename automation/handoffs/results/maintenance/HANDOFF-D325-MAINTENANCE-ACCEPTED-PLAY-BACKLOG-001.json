@@ -2,287 +2,111 @@
   "request_id": "HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001",
   "lane": "maintenance",
   "status": "partial",
-  "source_commit": "031921b38826ba00fda731bdd2e7ecc68cb3bd1c",
+  "source_commit": "250f36e6e6718ebdd0f52546eff8de9b320492d4",
   "source_request_blob": "babc59462126f3487d5fa7486dfcee61bc92430a",
-  "summary": "Verified prerequisite Day324 owners and completed PR45/46 cleanup. Published/read back the exact preflighted11-entry/21-event Day324–325 boundary once; draft transport PR47 was independently read back; owner application remains pending. Corrected Atlas routing to verified334 scope and refreshed maintenance status; no gameplay owners changed.",
+  "summary": "Applied and independently verified PR47's 21 accepted Day324–325 events and 22 missing personal/custody legs; checkpoint committed last. Verified-only compatibility cleanup completed. Newer accepted Day338 evidence and all immutable originals preserved. No new gameplay.",
   "owner_refs": [
-    "campaign/continuity/readme.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/data/characters/events.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/trackers/csv/cirren/cirren-character.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/trackers/csv/fenar/fenar-character.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/trackers/csv/cirren/cirren-inventory.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/trackers/csv/fenar/fenar-features.csv",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/campaign/continuity/session-log.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/campaign/continuity/npcs.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/campaign/continuity/inventory.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/campaign/continuity/quests.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/archive/continuity/campaign-state-before-PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/prep/dm-only/dm-only-secret-quest-outlines.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/prep/dm-only/dm-estate-ancestry.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/prep/dm-only/ashen-regency-field-operations-dm-only.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/prep/dm-only/long-arc-two-antagonists-dm-only.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/runtime/SCENE_CACHE.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/5dd8d72af6c0f917f32dc86ff01229866f449dcd/runtime/REGION_PREP.md",
+    "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/85fe8b5db49834a1251e9604cdd8c55326798743/campaign/continuity/campaign-state.md",
+    "automation/handoffs/play-sync/results/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json",
     "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md",
-    "automation/recovery/boundaries/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json"
+    "automation/recovery/active.json"
   ],
-  "blocker": "Boundary and exact transport PR47 are durable/read back; central worker/owner completion must be independently verified. Later suffix has three immutable storage-path aliases, one malformed base SHA, and one RNG evidence status/receipt validation error. Do not reroll, alter original chunks or reapply terminal/claimed transports.",
-  "next_trigger": "Discover same stable boundary ID PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001 across all historical PRs and main results. If queued with an active central claim, leave application to that worker. Verify owners/checkpoint/generated output and cleanup before any newer prefix; if collector delivery fails, resume only the missing step. Reviewed exact-source recovery handling and original RNG provenance are prerequisites for affected later entries. Next ordinary scheduled review handles specialist pointers; no extra schedule.",
-  "latest_owner_checkpoint": "D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001",
-  "latest_accepted_checkpoint": "D334-1833-LADY-CAUL-INVITATION-DISCUSSION-REGISTER-OFFER-V-DECISION-001",
-  "accepted_suffix_entries": 177,
-  "accepted_suffix_bytes": 1934773,
-  "owners_verified": false,
-  "applied_gameplay_event_ids": [],
+  "verified_commit": "85fe8b5db49834a1251e9604cdd8c55326798743",
+  "tested_commit": "85fe8b5db49834a1251e9604cdd8c55326798743",
+  "owner_commit": "5dd8d72af6c0f917f32dc86ff01229866f449dcd",
+  "central_receipt_commit": "9eda3bacf1f8257b2541f52ea0ffa978782deac6",
+  "cleanup_commit": "c86b023817b709ec09e28019033efa0d2a05b99f",
+  "blocker": "214 later accepted entries remain outside saved Day325 owners; six source-validation defects retained. Play Now/dashboard publication deferred at a concurrent newer head; current generated packet still Day324. PR48 proposal verified but unmerged; current main handoff schema failure remains.",
+  "next_trigger": "Next existing maintenance/accepted-play run: inspect same central terminal receipt, never reapply PR47. Resolve only source-bound validation/provenance dependencies before a genuine later boundary. Retry fast-play workflow_dispatch at unchanged owners when available and independently verify generated output. Respect active claims and preserve every original.",
+  "latest_owner_checkpoint": "D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001",
+  "latest_accepted_checkpoint": "D338-0658-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001",
+  "latest_accepted_blob": "2e41e82fab2112d8b4573175e24a8662455a0911",
+  "accepted_suffix_entries": 214,
+  "owners_verified": true,
+  "verification_scope": "Only accepted PR47 Day32416:30–Day32519:00; not whole-campaign synchronization",
+  "applied_gameplay_event_ids": [
+    "D324-V-ROAD-GANG-EQUIPMENT-RESALE-185GP-001",
+    "D324-V-PARTY-RESUPPLY-15-RATIONS-20-FEED-001",
+    "D321-ORSAVEN-COPPER-NOSE-KENNELS-REVIEW",
+    "D322-ORSAVEN-SWITCHBACK-SADDLERY-REVIEW",
+    "D324-ORSAVEN-EQUIPMENT-CONSIGNMENT-AND-RESIDENCE-INQUIRIES-001",
+    "D324-V-PURCHASES-FENAR-BREASTPLATE-340-001",
+    "D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001",
+    "D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001",
+    "D324-V-COPPER-HART-TWO-ROOM-BOOKING-001",
+    "D324-ORSAVEN-CORRESPONDENCE-CIRREN-TOBIN-SECOND-REPLY-001",
+    "D325-ORSAVEN-COPPER-HART-SECURE-OVERNIGHT-001",
+    "D325-ORSAVEN-PELLIN-MAUD-SABINE-REUNION-001",
+    "D325-ORSAVEN-THREE-ENCHANTMENT-FOLLOWUPS-001",
+    "D325-QUILL-NEEDLES-NEGOTIATED-QUOTES-001",
+    "D325-ORSAVEN-HADIYA-QUILL-ORDER-DEPOSIT-001",
+    "D325-ORSAVEN-WASP-NEEDLES-ORDER-DEPOSIT-001",
+    "D325-ORSAVEN-QUENWOOD-PUBLIC-DISPOSITION-001",
+    "D325-ORSAVEN-FERRYMENS-SHARE-FINANCIAL-LEAD-001",
+    "D325-ORSAVEN-CROWN-INVITATION-SEALED-DELIVERY-001",
+    "D325-ORSAVEN-NIGHTGLASS-AUTHENTICATED-SURVEY-COMPARISON-001",
+    "D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001"
+  ],
   "advances_gameplay": false,
-  "metadata_repairs": {
-    "operation_id": "ADMIN-MAINT-D334-20261126-01",
-    "atlas_before": "ATLAS-D326-ORSAVEN-001",
-    "atlas_after": "ATLAS-D334-SILVERWARD-001; exact master metadata v54 and assets/README verified",
-    "report": "Current scoped status added; dated historical findings retained",
-    "checkpoint_changed": false
-  },
-  "tested_commit": "031921b38826ba00fda731bdd2e7ecc68cb3bd1c",
   "tests": [
     {
-      "command": "python3 automation/sync_validate.py --scope final --phase final",
+      "command": "python -m automation.recovery_batch verify journal47.json --request request47.json --prior-requests prior47.json",
       "exit_code": 0,
-      "result": "PASS saved324 only"
+      "result": "PASS exact pinned journal and25 manifests"
     },
     {
-      "command": "python3 automation/sync_validate.py --scope shops --phase owners",
+      "command": "python automation/sync_validate.py --scope final --phase final",
       "exit_code": 0,
-      "result": "PASS"
+      "result": "{\n  \"schema_version\": 1,\n  \"status\": \"PASS\",\n  \"scope\": \"final\",\n  \"phase\": \"final\",\n  \"findings\": [],\n  \"notes\": [],\n  \"affected_files\": [],\n  \"source_hashes\": {}\n}\n"
     },
     {
-      "command": "111 recovery/bridge/auto-submit/fast-path/RNG unittest cases",
-      "exit_code": 1,
-      "result": "110 PASS; one existing stale-region-fixture failure hardcodes Sedgecross/D282"
-    },
-    {
-      "command": "trusted current-main recovery_chunks.compatibility_journal(candidate, exact source loader, empty active, mode)",
+      "command": "python automation/sync_validate.py --scope shops --phase owners",
       "exit_code": 0,
-      "result": "PASS11 entries21 events; exact prior next_candidate blob/digest pins; chain and RNG gate"
+      "result": "{\n  \"schema_version\": 1,\n  \"status\": \"PASS\",\n  \"scope\": \"shops\",\n  \"phase\": \"owners\",\n  \"findings\": [],\n  \"notes\": [],\n  \"affected_files\": [],\n  \"source_hashes\": {}\n}\n"
     },
     {
-      "command": "python3 -m automation.magic_shop_review_queue --campaign-day 334",
+      "command": "python verify47.py",
       "exit_code": 0,
-      "result": "PASS0 due0 unbound"
+      "result": "PASS22 new legs exactly once;205186cp;HP48/51/59 AC19/19/16;supplies21/28;no false LR/finished commissions;21 log events;old state archived;newer338 prep/design preserved;2 gift-linked market sales and2 deposits match.\n"
     },
     {
-      "command": "build_play_packet.make_packet and build_dashboard.main local comparisons",
+      "command": "python -m unittest automation.test_play_handoff automation.test_recovery_batch automation.test_recovery_journal automation.test_fast_play automation.test_recovery_chunks automation.test_recovery_chunk_bridge automation.test_rng_gate -q",
       "exit_code": 0,
-      "result": "PLAY_NOW exact match; dashboard difference limited to magic_shop_lots following market owner update"
-    },
-    {
-      "command": "prior/current Git trees; newer suffix uniqueness/chain; individual chunk and RNG gate validation",
-      "result": "154 originals byte-identical;177 unique linked entries;5 later validation errors preserved"
-    },
-    {
-      "command": "python automation/play_handoff.py transport47-staged.json; exact source events/digests/pending comparison; scoped handoff result schema",
-      "exit_code": 0,
-      "result": "PASS transport schema;21 original events11 exact digests, final pending action; result schema"
+      "result": "----------------------------------------------------------------------\nRan 100 tests in 0.047s\n\nOK\n"
     }
   ],
+  "unrelated_diagnostics": {
+    "handoffs": "Current main schema failure already has terminal verified repair PR48, unmerged; no effect on accepted21-event validation",
+    "routing": "Existing fixture requires obsolete Sedgecross/D282; current338 prep preserved"
+  },
+  "generated_view_status": "UNSYNCED: fast-play run46022118407 passed validation/generation, but current main PLAY_NOW remains Day324 blob2d9e1ab439c4e483ecab0cee6f11d82538646128; owner is Day325. Dispatch unavailable in connector. Next fast-play dispatch at unchanged checkpoint must publish then readback.",
   "recovery_preserved": {
-    "originals_checked": 154,
-    "changed_or_deleted": 0,
     "mode": "chunked",
-    "active_bytes_before_boundary": 43,
-    "active_entries_before_boundary": 0,
-    "no_new_dice": true
+    "originals_checked": 281,
+    "changed_or_deleted": 0,
+    "compatibility_entries_removed": 11,
+    "active_bytes_before": 161024,
+    "active_bytes_after": 43,
+    "active_blob_after": "df0e369abda4b765533e0af3921c54a5cb164787",
+    "original_chunks_retained": true,
+    "sync_trigger": "removed only with fully verified covered compatibility journal; no replacement boundary inferred"
   },
-  "generated_view_status": "Saved324 Play Now matches owners exactly; dashboard magic_shop_lots awaits generated refresh from latest market owners. No manual generated edits. Normal accepted-checkpoint worker refresh can cover this.",
-  "verification_status": "metadata_boundary_and_transport_readback_verified; new owners unverified",
-  "verified_commit": "806cb094935bd6d4b2f8591919567503f05fd2c8",
-  "verified_at": "2026-11-26 15:08:55 UTC",
-  "per_file_verification": {
-    "campaign/continuity/readme.md": {
-      "sha": "e6420e773ac17e8a9eb97a319c8255fa864703eb",
-      "content_equal": true
-    },
-    "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md": {
-      "sha": "b83fc434c8133ded19bd0e677a3503b3f0391cdc",
-      "content_equal": true
-    },
-    "automation/recovery/boundaries/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json": {
-      "sha": "ebcefe9e3d5be0fa474b79b2350535aca3233f17",
-      "content_equal": true
-    }
-  },
-  "final_checkpoint_recheck": {
-    "source_head": "8b411c6c83277f4c1255c09cec847571c2ef10e0",
-    "checkpoint_blob": "1a69818ddb9f592991b1c008a018afac719c27ff",
-    "expected": "D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001",
-    "unchanged": true
-  },
-  "latest_explicit_sync_request": {
-    "operation_id": "ADMIN-PAUSE-D328-20261125-01",
-    "request": "Save and update docs",
-    "source_commit": "fa4cd7655a137a981df997a086a0611cd905b438",
-    "accepted_checkpoint": "D328-1441-ORSAVEN-SORNELL-INTERVIEW-WORKER-SAFETY-NEXT-ACTION-001",
-    "latest_chunk_path": "automation/recovery/chunks/D328/PLAY-REC-D328-DESEN-SORNELL-WORKER-SAFETY-CLOSING-001.json",
-    "latest_chunk_blob": "2674d6f1ba5d55174284b4a4e81ee3a7ae4659c1",
-    "latest_event_id": "D328-DESEN-SORNELL-WORKER-SAFETY-CLOSING-001",
-    "owner_checkpoint": "D308-1020-PERYTON-VERIFIED-COMBAT-END-AFTERMATH-PENDING-001",
-    "owner_checkpoint_blob": "2ee65cdb30fb7906ebdccb3ce69fd91205b205a8",
-    "status": "retry_compatibility_journal_assembled_owner_sync_unverified",
-    "scope": "Revisit existing maintenance request through accepted Day328 14:41. Verify the original covering boundary retry and exact transport/worker/owner receipts; never reapply overlapping prefix. Then validate later accepted suffix causally and reconcile owning docs, checkpoint last.",
-    "observations": [
-      "Existing repair PR41 remains open draft and earlier boundaries are blocked; active.json empty does not mean saved owners are current.",
-      "Newer cross-day chunks D326→327 and D327→328 are filed in destination-day directories, which differ from the first day in their IDs. Review these against canonical-path validation and exact provenance; no validator pass claimed."
-    ],
-    "cache_path": "runtime/SCENE_CACHE.md",
-    "verification_scope": "Latest exact recovery read and existing status receipts checked; full suffix structural validation not completed in this pause. No new gameplay, owner postings, tests, PR merge, or background execution claimed.",
-    "original_storage_path_repair": {
-      "status": "applied_on_main",
-      "application_commit": "38eab66f8be9b706e4291e52f6edc7ceda3570e7",
-      "tested_branch_commit": "acb702b2c07a8137da5d57477ae8c255fc197f1a",
-      "repair_pr": 41,
-      "verification": "Exact code and regression-test blobs read back on main; original nine pinned boundary entries, mode, original boundary and relevant unchanged dependencies compared to the previously tested commit. No fresh local Python suite claimed.",
-      "retry": {
-        "request_id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
-        "run_id": 45343583816,
-        "attempt": 2,
-        "status": "in_progress",
-        "conclusion": null,
-        "overlap": "D314 boundary is exact 9-record prefix of existing 32-record D308–316 boundary. Neither had transport PR at initial discovery. Retry only covering existing ID; keep D314 intact; do not retry overlapping prefix separately.",
-        "compatibility_journal": {
-          "observed_at_main": "e98dfe1720e7b6ad613db1de6937334cd44fc8cc",
-          "entries": 32,
-          "trigger": {
-            "ready": true,
-            "reason": "quest_milestone",
-            "request_id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
-            "last_recovery_id": "PLAY-REC-D316-V-ACCEPTS-OSSENT-DIPLOMATIC-INVITATION-MANDATE-001",
-            "destination_checkpoint": "D316-1420-CAERETH-OSSENT-INVITATION-ACCEPTED-DEFENSE-TALKS-001"
-          },
-          "blob": "924e17c696361161b04e9eba3c871ed1156e18d0"
-        }
-      }
-    }
-  },
-  "continuation_D328": {
-    "operation_id": "ADMIN-CONTINUE-SYNC-D328-20261125-01",
-    "prior_verified_batch": {
-      "id": "PLAY-D308-316-CAERETH-DEFENSE-CONSULTATION-SYNC-002",
-      "owner_commit": "d24cf4ed9c24503f778ee9da635605ad6eb4ff74",
-      "checkpoint_commit": "36c3b828d3f83914c5122881854dd56a273da402",
-      "receipt_commit": "816acaf9ed1da84e77a4733c5a79251cfed613dc"
-    },
-    "current_batch": {
-      "id": "PLAY-D316-324-ORSAVEN-ARRIVAL-SYNC-001",
-      "boundary_commit": "062af56d2373f82f6d658f90c950317f0b1a10d9",
-      "boundary_blob": "08ca3ac3547b71c8289d3de4b65f6b2e8969cc83",
-      "records": 18,
-      "events": 26,
-      "workflow_run": 45741033231,
-      "transport_pr": 46,
-      "transport_head": "1e519b28ea1b160698b8003c6d60efdf66fbcd08",
-      "status": "complete_checkpoint_verified_cleanup_complete",
-      "checkpoint_commit": "aed7671d93043de10786d01faa1d7783eb0e349f",
-      "result_blob": "9e1b9273a46d6297074bfe013d223136a9d48a7b"
-    },
-    "next_candidate": {
-      "status": "transport_queued_owners_unverified",
-      "source_head": "816acaf9ed1da84e77a4733c5a79251cfed613dc",
-      "source_checkpoint": "D324-1630-ORSAVEN-ARRIVAL-FIRST-DESTINATION-PENDING-001",
-      "destination_checkpoint": "D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001",
-      "last_recovery_id": "PLAY-REC-D325-ORSAVEN-NIGHTGLASS-CORIS-EVIDENCE-FORWARDING-001",
-      "entries": 11,
-      "events": 21,
-      "records": [
-        {
-          "path": "automation/recovery/chunks/D324/PLAY-REC-D324-ORSAVEN-ARMS-SALE-RESUPPLY-COMPANION-PROPERTY-OPTIONS-001.json",
-          "digest": "22c33183df5337c8db78476c02bb2e52a0d6a8aefcb49391f9f35ebfa02548f3",
-          "blob": "f1eb4dcae7c996274679b931119c86cd13a5dfb0"
-        },
-        {
-          "path": "automation/recovery/chunks/D324/PLAY-REC-D324-V-BUYS-FENAR-BREASTPLATE-INSIGNIA-CIRREN-SHIELD-001.json",
-          "digest": "d61b777f08a715a36efd33e22bb0bc7c1acf1aa2493e3f969c57396304743213",
-          "blob": "63725b2208ef32a6e2a82625e725e4679632c846"
-        },
-        {
-          "path": "automation/recovery/chunks/D324/PLAY-REC-D324-V-COPPER-HART-BOOKING-CORRESPONDENCE-001.json",
-          "digest": "d0d772f2dbe58c7014ad66a9f2b828d8fcf07d0d81a887b47b8ebc096fcee24c",
-          "blob": "20e6a26873619dd45b4730bf5e119848197d29c5"
-        },
-        {
-          "path": "automation/recovery/chunks/D324/PLAY-REC-D324-325-COPPER-HART-SECURE-NIGHT-001.json",
-          "digest": "bcec817f2a4db6a3d85fbefab9ea8b97c25426752dbccb8f91067920e0c1f081",
-          "blob": "f31aff7d0c2e14363d7bd72b7a7341e9e7b586b3"
-        },
-        {
-          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-FRIENDS-THREE-ENCHANTMENT-FOLLOWUPS-001.json",
-          "digest": "78d40598b683b44f8f7719c6d33a4995425ffb60ec56bc825e871a542a020577",
-          "blob": "9f381dadcabe2ae32fcd8688ae085f6746406b75"
-        },
-        {
-          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-QUILL-NEEDLES-NEGOTIATED-QUOTES-001.json",
-          "digest": "19e41816f924bb870b18016e69f4387b417ed9359eb9cfd09a524e03ea8207ac",
-          "blob": "d6888fa5e2c99104736f6da1d9cff32cd498c923"
-        },
-        {
-          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-V-COMMISSIONS-QUILL-AND-NEEDLES-001.json",
-          "digest": "8b34796cef98fd8c1b2a9c91309708449f3aa565125c538ceb5fb1df95aaadba",
-          "blob": "363da7534e625b8bd9090e597f4fcea39fdeb578"
-        },
-        {
-          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-DESEN-QUENWOOD-DISPOSITION-001.json",
-          "digest": "7d96cc448a8db74c32979783c60918c9ec4d14e5f405603eec288012100162f6",
-          "blob": "cab9d49c70fe36419637348c3a51144925ba7954"
-        },
-        {
-          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-DESEN-FERRY-FINANCIAL-TRAIL-REVEALED-001.json",
-          "digest": "c25ac302e4c1763e29b4bbba7c68814011ca7d7232320d821ff81510c47815a7",
-          "blob": "c95a97e83575293bbcdea450bf0139a2f8e08591"
-        },
-        {
-          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-DIPLOMATIC-DELIVERY-NIGHTGLASS-MAP-COMPARISON-001.json",
-          "digest": "8cd2aaecea69f9a6117096f67fae75cbda76c37b324f470c11441a12752a1877",
-          "blob": "5bdf3899f8b56dab07fed28e37906ac3bed9a3fe"
-        },
-        {
-          "path": "automation/recovery/chunks/D325/PLAY-REC-D325-ORSAVEN-NIGHTGLASS-CORIS-EVIDENCE-FORWARDING-001.json",
-          "digest": "b053132309988f5b950558bb69896c4dd74b0c4b4c83591b68205cbefa82e848",
-          "blob": "34d1d7e9caa4f6bc7e49ebb06cd85d38b523e847"
-        }
-      ],
-      "verification": "Actual trusted current-main compatibility_journal PASS;11 source entries21 events. Existing prerequisite checkpoint/readback and cleanup verified; source blob pins unchanged.",
-      "request_id": "PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001",
-      "boundary_commit": "806cb094935bd6d4b2f8591919567503f05fd2c8",
-      "boundary_blob": "ebcefe9e3d5be0fa474b79b2350535aca3233f17",
-      "transport_pr": 47,
-      "transport_head": "95efd1be47dbe59108a1363ae3f4837f56f27537",
-      "request_blob": "7d3007744e8210fdc993c35883fa3777173dcad1",
-      "pinned_journal_commit": "8b411c6c83277f4c1255c09cec847571c2ef10e0"
-    },
-    "later_defects": {
-      "status": "identified_not_repaired",
-      "path_aliases": [
-        {
-          "path": "automation/recovery/chunks/D326/PLAY-REC-D325-326-COPPER-HART-LONG-REST-001.json",
-          "blob": "19acaf6d3013ebbac47a3ff7db9dee28d3028482",
-          "digest": "88470d5c06511e9aa0e18d6c54da66999621307cc24463c02986afae8d9296cb"
-        },
-        {
-          "path": "automation/recovery/chunks/D327/PLAY-REC-D326-327-COPPER-HART-OVERNIGHT-REST-001.json",
-          "blob": "7868b94f5eb620705e2897a4c7f0574ac3e0fb88",
-          "digest": "ac4594658c55c30c86b4982779422a119a26d8a240511207fc08bd067bbb9e22"
-        },
-        {
-          "path": "automation/recovery/chunks/D328/PLAY-REC-D327-328-COPPER-HART-OVERNIGHT-HARTHVALE-INVITATION-001.json",
-          "blob": "67ea35c880e34291661cde4f7a12cced5136e2cf",
-          "digest": "47d4e8e8f56bc303fb80a75b2e97b5dffd77538db388e8408f7a988d04baceeb"
-        }
-      ],
-      "malformed_base": {
-        "path": "automation/recovery/chunks/D326/PLAY-REC-D326-FERRY-RETURN-STOREHOUSE1-ACCOUNT-OFFICE-PENDING-001.json",
-        "blob": "37b21a742dbf5dccdfa519054c6805617002f359",
-        "digest": "e948f545f4c82f5c5ccb6f9f720f34f7b73801b06d133e42438481d1b0913c32",
-        "original_base_commit": "a82213fe4bba8d340ae8682e0da1df88b77233",
-        "creation_commit": "a2fbfacc5b673052571968b265b150607a9bd955",
-        "actual_creation_parent": "a82213fe4bba8d340ae8682e0da1df88b8b77233"
-      },
-      "instruction": "Use exact historical provenance and narrowly scoped validators; no broad exemption, original modification, fabricated history, or claims of unexecuted tests. Existing PR41 path fix applied; later three aliases and malformed base are distinct."
-    },
-    "advances_gameplay": false
-  },
-  "history": [
-    {
-      "operation_id": "ADMIN-MAINT-D326-20261125-01",
-      "source_commit": "2120b1d38a2483234e885dc24002b5dd76cb02d7",
-      "verified_commit": "2a532554adcdc446ae44d9336ef1242c8e779113",
-      "generated_commit": "3d97a485a7eae206761f86360dd4c320f913f97b",
-      "receipt_blob": "276174d67d7aa81b2df3fb53b9d1c5e8119801a0",
-      "locator": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/031921b38826ba00fda731bdd2e7ecc68cb3bd1c/automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json"
-    }
-  ],
-  "verified_existing_owner_checkpoint": true,
   "current_validation_blockers": [
     {
       "path": "automation/recovery/chunks/D326/PLAY-REC-D325-326-COPPER-HART-LONG-REST-001.json",
@@ -308,48 +132,115 @@
       "path": "automation/recovery/chunks/D331/PLAY-REC-D331-V-SILVER-SWORD-WARDER-ARMED-ENTRY-PERSUASION-001.json",
       "id": "PLAY-REC-D331-V-SILVER-SWORD-WARDER-ARMED-ENTRY-PERSUASION-001",
       "error": "Missing raw RNG receipt"
-    }
-  ],
-  "pending_effects": [
-    {
-      "owner": "Accepted-play worker / Maintenance fallback",
-      "event": "PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001",
-      "interval": "Day32416:30–Day32519:00",
-      "dependency": "same-ID transport and central claim; exact owner/checkpoint-last application",
-      "next_check": "Bound central receipt then independently verified owners/generated output/cleanup"
     },
     {
-      "owner": "Sync-repair owner",
+      "path": "automation/recovery/chunks/D338/PLAY-REC-D337-338-DERRO-CAMP-SHORT-REST-HIT-DICE-RETURN-001.json",
+      "id": "PLAY-REC-D337-338-DERRO-CAMP-SHORT-REST-HIT-DICE-RETURN-001",
+      "error": "Chunk filename and accepted entry ID mismatch; canonical path would be D337; preserve original"
+    }
+  ],
+  "per_file_verification": {
+    "data/characters/events.csv": "e5e18904cb49d43cfdf6d1c441d943fae7e96860",
+    "trackers/csv/cirren/cirren-character.csv": "108dcb33fcea6c533976d497fc375bffd9472bc1",
+    "trackers/csv/fenar/fenar-character.csv": "2687f86ccd17a273f8dc9e25000c864036e48e7b",
+    "trackers/csv/cirren/cirren-inventory.csv": "a9a3503692691fbdb3da4e1594ea17576320eb2b",
+    "trackers/csv/fenar/fenar-features.csv": "17b98c5cedabcb4bc5564ecc8cf83838ae77227c",
+    "campaign/continuity/session-log.md": "5c882db52c08190fe4940e655739351ce239b456",
+    "campaign/continuity/npcs.md": "ec3ee5717338f170bbf1a7f9c8873a1e84b538ec",
+    "campaign/continuity/inventory.md": "96307948ad3ec769939ed3d030e36255f4dd2f64",
+    "campaign/continuity/quests.md": "1c37c2d1e7339657a1570afcba062d217762e580",
+    "archive/continuity/campaign-state-before-PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.md": "1a69818ddb9f592991b1c008a018afac719c27ff",
+    "prep/dm-only/dm-only-secret-quest-outlines.md": "7d3baa4e3ce57df1038b5d7e9bef9ed09bdc3e07",
+    "prep/dm-only/dm-estate-ancestry.md": "6b212651690e00944bf9db891893a5fcd6749167",
+    "prep/dm-only/ashen-regency-field-operations-dm-only.md": "fadf13c8a1eeebe509383fd9b0b3005d53ec68ca",
+    "prep/dm-only/long-arc-two-antagonists-dm-only.md": "03bb8d610516e18dd646ca9778a839780524c8fd",
+    "runtime/SCENE_CACHE.md": "3c0abcdd128f71cd1df16f8282d7c03b657bcaea",
+    "runtime/REGION_PREP.md": "7f24d7f0953886bb0adfb5d88f15d90cb50c3afb",
+    "campaign/continuity/readme.md": "22d5c24b83270a0ac91ee0754cdc5bf52091cee9",
+    "automation/handoffs/sync-repair/IMPLEMENTATION_REPORT.md": "4dbf4a492146b825083328e92c6dcd658dffe854",
+    "automation/handoffs/play-sync/results/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json": "2311de8599728ed2a2cf472a27dac35f08e1f4f6",
+    "campaign/continuity/campaign-state.md": "7fae4d119b354e2d665b00bf5cd014720303ab48",
+    "automation/recovery/active.json": "df0e369abda4b765533e0af3921c54a5cb164787"
+  },
+  "statuses": {
+    "playable_continuity": "Partial: saved owners verified325; latest accepted338 next cavern choice unchanged; consult newer immutable chunks",
+    "specialist_coverage": "Quest/market338 verified scoped coverage; Estates full336 plus33711:30; Atlas337 scoped metadata/publication; later intervals pending",
+    "historical_provenance": "Partial: migration tests and unavailable historical clauses/supply evidence remain open"
+  },
+  "pending_effects": [
+    {
+      "owner": "Accepted-play sync / Maintenance fallback",
+      "event": "Remaining source-ordered 214 entries after PR47",
+      "interval": "Day32519:00–Day33806:58",
+      "dependency": "Six exact source-validation blockers and causal boundary prerequisites; preserve newer values",
+      "next_check": "Next scheduled bounded review after source-bound repair evidence"
+    },
+    {
+      "owner": "Sync-repair / original provenance",
       "event": [
         "PLAY-REC-D325-326-COPPER-HART-LONG-REST-001",
         "PLAY-REC-D326-FERRY-RETURN-STOREHOUSE1-ACCOUNT-OFFICE-PENDING-001",
         "PLAY-REC-D326-327-COPPER-HART-OVERNIGHT-REST-001",
-        "PLAY-REC-D327-328-COPPER-HART-OVERNIGHT-HARTHVALE-INVITATION-001"
+        "PLAY-REC-D327-328-COPPER-HART-OVERNIGHT-HARTHVALE-INVITATION-001",
+        "PLAY-REC-D331-V-SILVER-SWORD-WARDER-ARMED-ENTRY-PERSUASION-001",
+        "PLAY-REC-D337-338-DERRO-CAMP-SHORT-REST-HIT-DICE-RETURN-001"
       ],
-      "interval": "Day325–328 metadata defects",
-      "dependency": "reviewed exact-source handling on repair branch; immutable originals preserved",
-      "next_check": "verified repair/provenance evidence before dependent boundary"
-    },
-    {
-      "owner": "Live source / provenance repair",
-      "event": "PLAY-REC-D331-V-SILVER-SWORD-WARDER-ARMED-ENTRY-PERSUASION-001",
-      "interval": "Day331~16:31",
-      "dependency": "inspect original executed receipt; current rng_evidence.status=executed fails rolled gate",
-      "next_check": "verified original evidence and reviewed source-bound handling; preserve accepted success"
+      "interval": "Day325–338",
+      "dependency": "Exact-source alias/base handling and original D331 execution receipt, no rerolls or original rewrites",
+      "next_check": "Verified repair evidence before affected dependent batch"
     },
     {
       "owner": "Estates",
-      "event": "D331-SILVERWARD-NAME-ADOPTED-STEWARDSHIP-FOLLOWTHROUGH-001",
-      "interval": "Hessa actual work from332; stated payday334",
-      "dependency": "actual work/funding/payment evidence; not covered by four registered-estate receipt",
-      "next_check": "next existing estate review; eligible private prep dm-estate-ancestry.md current-status pointer"
+      "event": "After D337-ESTATE-ADMIN cutoff",
+      "interval": "Day337 after11:30–Day33806:58",
+      "dependency": "Actual elapsed operations and owner receipts; no maintenance simulation",
+      "next_check": "Next existing Estates run"
+    },
+    {
+      "owner": "Atlas",
+      "event": "Public geography after ATLAS-D337-SILVERWARD-RETURN-001",
+      "interval": "Later337/338 accepted underground observations",
+      "dependency": "Scoped public facts and matching per-consumer ACK; optional unknown geography excluded",
+      "next_check": "Next existing Atlas pass"
     },
     {
       "owner": "Generated publication",
-      "event": "ADMIN-MARKET-D334-20261126-01",
-      "interval": "current334 market view",
-      "dependency": "verified market CSVs; normal fast-play/dashboard generator",
-      "next_check": "next accepted-checkpoint publication; compare magic_shop_lots"
+      "event": "PR47 checkpoint85fe8b5; fast-play46022118407",
+      "interval": "Saved Day325 owners",
+      "dependency": "Workflow log DEFERRED newer source commit; dispatch capability unavailable",
+      "next_check": "Fast-play workflow_dispatch at unchanged checkpoint, then compare generated hashes/day/resources"
+    },
+    {
+      "owner": "Sync-repair",
+      "event": "HANDOFF-SYNC-REPAIR-3F42A025536A1F8CBD9BAFA6 / PR48",
+      "interval": "Current main handoff receipt schema",
+      "dependency": "Human-approved merge/application; branch verified e885418208a704cb8b3076ef428fa106a0f71754",
+      "next_check": "Verify application separately on main; terminal branch receipt not reprocessed"
     }
-  ]
+  ],
+  "history": [
+    {
+      "operation_id": "ADMIN-MAINT-D326-20261125-01",
+      "source_commit": "2120b1d38a2483234e885dc24002b5dd76cb02d7",
+      "verified_commit": "2a532554adcdc446ae44d9336ef1242c8e779113",
+      "generated_commit": "3d97a485a7eae206761f86360dd4c320f913f97b",
+      "receipt_blob": "276174d67d7aa81b2df3fb53b9d1c5e8119801a0",
+      "locator": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/031921b38826ba00fda731bdd2e7ecc68cb3bd1c/automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json"
+    },
+    {
+      "operation_id": "ADMIN-MAINT-D334-20261126-01",
+      "source_commit": "250f36e6e6718ebdd0f52546eff8de9b320492d4",
+      "receipt_blob": "4242cce56538c178f1ad94fb54883c18943a7093",
+      "locator": "https://github.com/coolcop17409-wq/new-dnd-world-campaign/blob/250f36e6e6718ebdd0f52546eff8de9b320492d4/automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json"
+    }
+  ],
+  "operation_id": "ADMIN-MAINT-D338-20261127-01",
+  "verified_at": "2026-11-27T15:12:14Z",
+  "final_checkpoint_recheck": {
+    "source_head": "c86b023817b709ec09e28019033efa0d2a05b99f",
+    "checkpoint_blob": "7fae4d119b354e2d665b00bf5cd014720303ab48",
+    "latest_accepted_blob": "2e41e82fab2112d8b4573175e24a8662455a0911",
+    "original_chunk_count": 329,
+    "changed_originals": 0
+  }
 }

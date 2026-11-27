@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D337-SILVERWARD-RETURN-001`: accepted western Oss
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ADMIN-MAINT-D338-20261127-01 | worker=Campaign Record Maintenance | operation=PR47-OWNER-SYNC | acquired_UTC=2026-11-27T15:06:55.000Z | heartbeat_UTC=2026-11-27T15:06:55.000Z | expires_UTC=2026-11-27T15:16:55.000Z | recovery=automation/handoffs/play-sync/results/PLAY-D324-325-ORSAVEN-CORIS-FORWARDING-SYNC-001.json
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-27T15:13:28Z | previous_token=ADMIN-MAINT-D338-20261127-01 | result=VERIFIED_PR47_OWNERS_CHECKPOINT_CLEANUP | recovery=automation/handoffs/results/maintenance/HANDOFF-D325-MAINTENANCE-ACCEPTED-PLAY-BACKLOG-001.json
