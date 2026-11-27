@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D341-FLINT-BANNER-PRELIMINARY-COMMERCIAL-MILITARY-TERMS-001",
+  "base_commit": "8ead06754350726a98ff808866f4ad805cf321b8",
+  "source_checkpoint": "D341-1134-FLINT-BANNER-IDENTITY-TERMS-PENDING-001",
+  "destination_checkpoint": "D341-1135-FLINT-BANNER-PRELIMINARY-OFFER-MEETING-PENDING-001",
+  "source_evidence": "Exact V reply 'All of the above, depending on the offer' expresses interest in paid passage, trade and military service conditional on actual terms; no acceptance, permission, employment, spending or disclosure of destination. H1 offers newly adjudicated preliminary negotiating figures within his ordinary company knowledge, subject to captain ratification: 5gp per full-company passage using a specifically agreed route over land V can lawfully control, not a toll on a public road, no automatic camp/garrison or exclusive rights; company purchases its own food, fodder, repairs and storage at agreed local rates as available, no guaranteed minimum orders or advance; a four-soldier professional escort/security detachment at indicative12gp per day including its own provisions and ordinary company overhead, actual availability and assignment subject to captain and agreed scope, not three Iron Shadows automatically available at that rate. H1 states the company numbers about three dozen fighting members (spoken claim, not independently verified; no reinforcements at encounter) and that he cannot bind the company; more substantial work to be quoted separately. He proposes carrying terms to his captain and asks where to deliver a reply or arrange a meeting. No actual price acceptance, paid passage, verified title, supply purchase, hiring, military alliance, company movement, meeting or additional NPC presence. Existing independent reconnaissance motive, cautious stance and tactical positions unchanged. Ordinary volunteered offer, no uncertain concession/check or RNG, no V resource expenditure or additional speech.",
+  "pending_action": "D341~11:35 WNW seat foot expedition,6/24mi; serious encounter cap1/1 used. V approx(0,45), H1(0,85) AC15 HP32 daylight, H2(20,100) AC15 HP32 dim/half cover, H3(-15,105) AC15 HP32 dim/half cover; C/F/Mara approx(0,35–40), all aware, clear retreat south, off-track rough. Three fixed Iron Shadows speed40, no combat/initiative/precasts. H1 claims independent Flint Banner about three dozen fighting members, preliminary 5gp per company passage over agreed lawful private route, ordinary trade purchases at agreed rates, four-soldier escort/security indicative12gp/day including their provisions; all captain approval/availability, no legal title or terms accepted, no private site disclosed. H1 asks where reply/meeting should be arranged. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch. Coach/four horses in Hessa care, rations21 carried/9 stored feed40 stored, D341 charge3/4 pending, purse1512gp3sp6cp LR0/6. Other estate/ancestry/quest/custody facts unchanged. V next decision. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D341-HOBGOBLIN-SCOUTS-FLINT-BANNER-NEGOTIATION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Volunteered preliminary commercial and military proposal, no contested bargain or binding acceptance."
+  },
+  "events": [
+    {
+      "event_id": "D341-FLINT-BANNER-PRELIMINARY-COMMERCIAL-MILITARY-TERMS-001",
+      "accepted": true,
+      "evidence": "Exact V reply 'All of the above, depending on the offer' expresses interest in paid passage, trade and military service conditional on actual terms; no acceptance, permission, employment, spending or disclosure of destination. H1 offers newly adjudicated preliminary negotiating figures within his ordinary company knowledge, subject to captain ratification: 5gp per full-company passage using a specifically agreed route over land V can lawfully control, not a toll on a public road, no automatic camp/garrison or exclusive rights; company purchases its own food, fodder, repairs and storage at agreed local rates as available, no guaranteed minimum orders or advance; a four-soldier professional escort/security detachment at indicative12gp per day including its own provisions and ordinary company overhead, actual availability and assignment subject to captain and agreed scope, not three Iron Shadows automatically available at that rate. H1 states the company numbers about three dozen fighting members (spoken claim, not independently verified; no reinforcements at encounter) and that he cannot bind the company; more substantial work to be quoted separately. He proposes carrying terms to his captain and asks where to deliver a reply or arrange a meeting. No actual price acceptance, paid passage, verified title, supply purchase, hiring, military alliance, company movement, meeting or additional NPC presence. Existing independent reconnaissance motive, cautious stance and tactical positions unchanged. Ordinary volunteered offer, no uncertain concession/check or RNG, no V resource expenditure or additional speech.",
+      "before": "Scout asks which type of agreement V seeks.",
+      "after": "Preliminary nonbinding terms offered and contact location requested; no transaction or passage agreed.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md"
+      ]
+    }
+  ]
+}
