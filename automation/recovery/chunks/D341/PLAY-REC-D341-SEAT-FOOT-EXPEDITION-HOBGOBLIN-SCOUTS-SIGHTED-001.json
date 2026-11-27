@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D341-SEAT-FOOT-EXPEDITION-HOBGOBLIN-SCOUTS-SIGHTED-001",
+  "base_commit": "2903bc182575be142d965da359fc173dc91e634e",
+  "source_checkpoint": "D341-0630-SILVERWARD-LONG-REST-RESUPPLIED-SEAT-TRANSPORT-PENDING-001",
+  "destination_checkpoint": "D341-1130-SEAT-FOOT-TRACK-HOBGOBLIN-SCOUTS-SIGHTED-001",
+  "source_evidence": "Exact player 'No let’s walk' selects the offered foot expedition, all four party members (V/Cirren/Fenar/Mara). D341~06:30–07:30 Hessa and her husband willingly agree to keep V's intact coach and four healthy horses in their sheltered yard and feed/water/check them with V's own stored feed for up to seven days, no added fee or estate payroll, guardian duties remain unchanged; no permanent custody/ownership transfer. Mara retains her actual documents/copies; portable ancestral coffer/original metal leaves/container left in secured coach in Hessa's agreed safekeeping for the expedition, not transferred as property or cashed; party carries relevant copies/sketch. DM routine provisioning decision: 21 of30 ration-person-days (seven days for three eaters) divided into traveling packs, remaining9 rations and40 feed animal-days stored with coach; no new purchase or expense. Daily D341 ration/feed charge remains pending until day allocation; no consumption posted twice. D341~07:30 depart on foot WNW along old broad upland track; private route fixed by prep/dm-only/dm-estate-ancestry.md ADMIN-QUEST-D338-20261127-01:24 terrain miles, first8 coachable then16 rough paths, expected2 eight-hour difficult-terrain days plus possible survey delay, cap1 random encounter day. Remote upland occurrence thresholds40 day/30 exposed night; real visible Python secrets d100=34 triggers day encounter (no night check), type54 dangerous humanoid/organized predator. Actual candidate pool fixed BEFORE identity selection, 32 rows weighted total60 from prior source-pinned random-encounter catalogue (MM/VGM/MTF/ERLW/BGG/IDRotF/WBtW/MOT/ToA/GoS/GGR/FTD, source metadata not full mechanics for unselected rows), context woodland/hills/cuts, recent gnoll/derro/dolgaunt downweighted, no named imported factions. Weighted rows in exact order: goblin scouting game3H; hobgoblin troop mapping paths3H; bugbear ravine ambush3H; orc deer hunting3H; gnoll ridge hunt1H; derro shaded expedition1H; duergar salvage2N; drow shaded scouts1H; dolgaunt/dolgrim hunters1H; kobold burrow scavengers3H; bandit stolen goods3H; independent armed scouts3N; deserters old shelter2N; ogre foragers3H; trolls feeding ground2H; ettin hill raid2H; hill giant with ogres1H; stone giant rock watchers1N; firbolg wardens2N; fensir game skirmishers1H; goliath hunters2N; verbeeg raiders2H; harengon brigands2H; satyr thornbearers2N; tabaxi hunters2N; firenewt warm seep1H; lizardfolk stream hunters1N; kraul ravine foragers1N; draconian remote scouts1N; cult raiders cairn2H; veteran bounty hunters2N; meazel shaded hollow hunters1H. H hostile if confronted; N independent potentially dangerous. Actual d60=6 row2 range4–6, hobgoblin scouts mapping paths; actual severity75 serious. Fixed composition before any player response: three Hobgoblin Iron Shadows (VGM p162, GitHub 5etools-mirror-3/5etools-src/data/bestiary/bestiary-vgm.json blob096692c78697e6eb42fa2133565afca0a2a40baf full selected record), CR2 each450XP, base1350 x2=2700 adjusted serious near Hard threshold2900, no extra forces. Each HP32 AC15 speed40 STR14 DEX16 CON15 INT14 WIS15 CHA11, Acrobatics+5 Athletics+4 Stealth+5 passive12 darkvision60 Common/Goblin; wizard DC12 attack+4, cantrips minor illusion/prestidigitation/true strike, L1 3 slots charm person/disguise self/expeditious retreat/silent image, no precasts. Multiattack four unarmed/dart attacks +5,1d4+3 B/P, dart20/60; may Shadow Jaunt once before/after attack, magical teleport30ft to visible unoccupied space, BOTH origin and destination dim light/darkness; no sunlight sensitivity or imported deity/lore. Independent motive reconnaissance of usable old upland routes for their own armed band's movement, seek to prevent observed witnesses compromising scouting; not ancestry connection or proven named employer. D341~11:30 after6 terrain miles/4h along first broad track, broken aqueduct arches visible among woodland. Cirren notices three masked red-skinned hobgoblins measuring and sketching the track from about85–105ft, one gestures to other two. Tactical local grid north +y, track15ft wide, party clustered behind bend/outcrop near(0,0), H1(0,85) on track in daylight, H2(20,100) by masonry arch in deep dim shade and half cover, H3(-15,105) by shaded stone/tree cover (half cover), broken slope/brush off track difficult, open retreat south; uphill bypass through rough woods possible but unsurveyed. No active concealment check, no guaranteed surprise, no enemy initiative/attack or V decision; bend and enemy focus means party has observed before obvious contact, NPCs not yet visibly reacting. No additional encounter roll, travel beyond6mi, HP/resources spent or daily supply charge. Pause at first actionable sighting. Actual raw receipts preserved.",
+  "pending_action": "D341~11:30, WNW seat expedition on foot,6/24mi along disused upland track, expected2-day leg cap1/1 consumed by triggered encounter. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP; Mara accompanies on foot with copies/sketch. V's coach/four horses in Hessa household's agreed temporary care up to7 days, original portable coffer/leaves/container secured in coach custody, not alienated; travel rations21 of30 (9 stored), feed40 stored, D341 charge3/4 pending. Purse1512gp3sp6cp LR0/6; morning Tamsin contact already accounted. Three Hobgoblin Iron Shadows VGM, HP32 each AC15 speed40, H1(0,85) bright, H2(20,100) dim/half cover, H3(-15,105) dim/half cover; party near0,0 at screened bend, track clear retreat, off-track rough, no combat yet, enemy reconnaissance and sketching, not visibly aware. V next choice observe, bypass, approach or engage. Hessa funded repairs/mine mandate and all other estate, ancestry, quest, correspondence and custody facts unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D338-341-SILVERWARD-SECURE-HOUSEHOLD-LONG-REST-RESUPPLY-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "b4e44159e20aa65126f05addf4be460a",
+        "rolls": [
+          {
+            "id": "D341.seat_outward.remote_upland.day_occurrence",
+            "sides": 100,
+            "faces": [
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "cc97b023f629bf4956bee283c308a171",
+        "rolls": [
+          {
+            "id": "D341.seat_outward.day_encounter_type",
+            "sides": 100,
+            "faces": [
+              54
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "b4641afce999666f98f45d5df217a5c0",
+        "rolls": [
+          {
+            "id": "D341.seat_outward.upland_group_selection",
+            "sides": 60,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D341.seat_outward.hostile_severity",
+            "sides": 100,
+            "faces": [
+              75
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D341-SEAT-FOOT-DEPARTURE-CARE-001",
+      "accepted": true,
+      "evidence": "V chooses walk. Actual voluntary care agreement for intact coach/four horses with Hessa household up to7 days, existing V-owned feed, no fee; party carries21 ration days and route copies, leaves9 and40feed in coach plus original fragile records/coffer in secured safekeeping. Depart~07:30, 6mi in4h on rough track; no daily charge yet.",
+      "before": "Silverward, transport pending.",
+      "after": "All four on foot, coach/horse temporary care arranged, 6/24mi.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md"
+      ]
+    },
+    {
+      "event_id": "D341-HOBGOBLIN-SCOUTS-ENCOUNTER-SIGHTED-001",
+      "accepted": true,
+      "evidence": "Exact player 'No let’s walk' selects the offered foot expedition, all four party members (V/Cirren/Fenar/Mara). D341~06:30–07:30 Hessa and her husband willingly agree to keep V's intact coach and four healthy horses in their sheltered yard and feed/water/check them with V's own stored feed for up to seven days, no added fee or estate payroll, guardian duties remain unchanged; no permanent custody/ownership transfer. Mara retains her actual documents/copies; portable ancestral coffer/original metal leaves/container left in secured coach in Hessa's agreed safekeeping for the expedition, not transferred as property or cashed; party carries relevant copies/sketch. DM routine provisioning decision: 21 of30 ration-person-days (seven days for three eaters) divided into traveling packs, remaining9 rations and40 feed animal-days stored with coach; no new purchase or expense. Daily D341 ration/feed charge remains pending until day allocation; no consumption posted twice. D341~07:30 depart on foot WNW along old broad upland track; private route fixed by prep/dm-only/dm-estate-ancestry.md ADMIN-QUEST-D338-20261127-01:24 terrain miles, first8 coachable then16 rough paths, expected2 eight-hour difficult-terrain days plus possible survey delay, cap1 random encounter day. Remote upland occurrence thresholds40 day/30 exposed night; real visible Python secrets d100=34 triggers day encounter (no night check), type54 dangerous humanoid/organized predator. Actual candidate pool fixed BEFORE identity selection, 32 rows weighted total60 from prior source-pinned random-encounter catalogue (MM/VGM/MTF/ERLW/BGG/IDRotF/WBtW/MOT/ToA/GoS/GGR/FTD, source metadata not full mechanics for unselected rows), context woodland/hills/cuts, recent gnoll/derro/dolgaunt downweighted, no named imported factions. Weighted rows in exact order: goblin scouting game3H; hobgoblin troop mapping paths3H; bugbear ravine ambush3H; orc deer hunting3H; gnoll ridge hunt1H; derro shaded expedition1H; duergar salvage2N; drow shaded scouts1H; dolgaunt/dolgrim hunters1H; kobold burrow scavengers3H; bandit stolen goods3H; independent armed scouts3N; deserters old shelter2N; ogre foragers3H; trolls feeding ground2H; ettin hill raid2H; hill giant with ogres1H; stone giant rock watchers1N; firbolg wardens2N; fensir game skirmishers1H; goliath hunters2N; verbeeg raiders2H; harengon brigands2H; satyr thornbearers2N; tabaxi hunters2N; firenewt warm seep1H; lizardfolk stream hunters1N; kraul ravine foragers1N; draconian remote scouts1N; cult raiders cairn2H; veteran bounty hunters2N; meazel shaded hollow hunters1H. H hostile if confronted; N independent potentially dangerous. Actual d60=6 row2 range4–6, hobgoblin scouts mapping paths; actual severity75 serious. Fixed composition before any player response: three Hobgoblin Iron Shadows (VGM p162, GitHub 5etools-mirror-3/5etools-src/data/bestiary/bestiary-vgm.json blob096692c78697e6eb42fa2133565afca0a2a40baf full selected record), CR2 each450XP, base1350 x2=2700 adjusted serious near Hard threshold2900, no extra forces. Each HP32 AC15 speed40 STR14 DEX16 CON15 INT14 WIS15 CHA11, Acrobatics+5 Athletics+4 Stealth+5 passive12 darkvision60 Common/Goblin; wizard DC12 attack+4, cantrips minor illusion/prestidigitation/true strike, L1 3 slots charm person/disguise self/expeditious retreat/silent image, no precasts. Multiattack four unarmed/dart attacks +5,1d4+3 B/P, dart20/60; may Shadow Jaunt once before/after attack, magical teleport30ft to visible unoccupied space, BOTH origin and destination dim light/darkness; no sunlight sensitivity or imported deity/lore. Independent motive reconnaissance of usable old upland routes for their own armed band's movement, seek to prevent observed witnesses compromising scouting; not ancestry connection or proven named employer. D341~11:30 after6 terrain miles/4h along first broad track, broken aqueduct arches visible among woodland. Cirren notices three masked red-skinned hobgoblins measuring and sketching the track from about85–105ft, one gestures to other two. Tactical local grid north +y, track15ft wide, party clustered behind bend/outcrop near(0,0), H1(0,85) on track in daylight, H2(20,100) by masonry arch in deep dim shade and half cover, H3(-15,105) by shaded stone/tree cover (half cover), broken slope/brush off track difficult, open retreat south; uphill bypass through rough woods possible but unsurveyed. No active concealment check, no guaranteed surprise, no enemy initiative/attack or V decision; bend and enemy focus means party has observed before obvious contact, NPCs not yet visibly reacting. No additional encounter roll, travel beyond6mi, HP/resources spent or daily supply charge. Pause at first actionable sighting. Actual raw receipts preserved.",
+      "before": "New leg, no random encounter.",
+      "after": "Actual serious encounter sighted, three fixed Iron Shadows, cap1/1 used, V decision pending, no combat.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
