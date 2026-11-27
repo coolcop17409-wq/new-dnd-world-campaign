@@ -123,17 +123,32 @@ def retcon_manifests():
    out[event["event_id"]]=event
  return out
 
+def registered_estates(records, snapshot_day):
+ """Combine the imported accounts with evidenced post-cutover registrations."""
+ estates=dict(ESTATES)
+ for r in records:
+  if r.get("record_type")!="Estate registration" or r.get("status")!="Registered":continue
+  name=r["estate"].strip()
+  day=dec(r["day"])
+  evidence=json.loads(r["source_and_limits"])
+  if not name or name in estates or day<=snapshot_day or not evidence.get("source") or not evidence.get("steward"):
+   raise ValueError(f"invalid or duplicate estate registration {r.get('record_id')}")
+  estates[name]={"registered_day":day}
+ return estates
+
 def main():
  errors=[]
  retcon_rows=retcon_manifests()
  meta=json.loads((DATA/"snapshot-meta.json").read_text(encoding="utf-8"))
  cutoff=Decimal(str(meta["snapshot_day"]))
+ live_path=DATA/"operational-checkpoint.csv"
+ estates=registered_estates(rows(live_path) if live_path.exists() else [],cutoff)
  opening_cash={}
  for row in rows(DATA/"opening-balances.csv"):
   estate=row["estate"].strip()
   if estate in opening_cash:errors.append(f"duplicate cash opening for {estate}")
   opening_cash[estate]=dec(row["opening_cash_gp"])
- cash_all={estate:opening_cash.get(estate,Decimal(0)) for estate in ESTATES}
+ cash_all={estate:opening_cash.get(estate,Decimal(0)) for estate in estates}
  cash_cut=dict(cash_all)
  liability_balance={}
  liability_cut={}
@@ -141,7 +156,7 @@ def main():
   lid=row["liability_id"].strip();estate=row["estate"].strip();amount=dec(row["opening_amount_gp"])
   if not lid:errors.append("opening liability without a stable liability ID");continue
   if lid in liability_balance:errors.append(f"duplicate liability ID {lid}")
-  if estate not in ESTATES:errors.append(f"{lid}: unknown estate {estate}");continue
+  if estate not in estates:errors.append(f"{lid}: unknown estate {estate}");continue
   if amount<0:errors.append(f"{lid}: negative opening liability {amount}")
   liability_balance[lid]={"estate":estate,"balance":amount}
   liability_cut[lid]={"estate":estate,"balance":amount}
@@ -150,7 +165,7 @@ def main():
   rid=(row.get("receivable_id") or "").strip();estate=(row.get("estate") or "").strip();amount=dec(row.get("opening_amount_gp","0"))
   if not rid:errors.append("opening receivable without a stable receivable ID");continue
   if rid in receivable_balance:errors.append(f"duplicate receivable ID {rid}")
-  if estate not in ESTATES:errors.append(f"{rid}: unknown estate {estate}");continue
+  if estate not in estates:errors.append(f"{rid}: unknown estate {estate}");continue
   if amount<0:errors.append(f"{rid}: negative opening receivable {amount}")
   receivable_balance[rid]={"estate":estate,"balance":amount};receivable_cut[rid]={"estate":estate,"balance":amount}
  inventory_balance={}
@@ -158,7 +173,7 @@ def main():
   iid=(row.get("inventory_id") or "").strip();estate=(row.get("estate") or "").strip();qty=dec(row.get("opening_quantity","0"))
   if not iid:errors.append("opening inventory without a stable inventory ID");continue
   if iid in inventory_balance:errors.append(f"duplicate opening inventory ID {iid}")
-  if estate not in ESTATES:errors.append(f"{iid}: unknown estate {estate}");continue
+  if estate not in estates:errors.append(f"{iid}: unknown estate {estate}");continue
   if qty<0:errors.append(f"{iid}: negative opening quantity {qty}")
   opening_cost=dec(row.get("opening_cost_gp","0"))
   if opening_cost<0:errors.append(f"{iid}: negative opening inventory cost {opening_cost}")
@@ -199,8 +214,10 @@ def main():
   if not eid:errors.append("event without an event ID");continue
   if eid in ids:errors.append(f"duplicate event ID {eid}")
   ids.add(eid)
-  if estate not in ESTATES:errors.append(f"{eid}: unknown estate {estate}");continue
+  if estate not in estates:errors.append(f"{eid}: unknown estate {estate}");continue
   day=dec(row.get("effective_day","0"))
+  if "registered_day" in estates[estate] and day<estates[estate]["registered_day"]:
+   errors.append(f"{eid}: activity precedes {estate} registration")
   in_snapshot = eid in meta["baseline_event_ids"] if "baseline_event_ids" in meta else day<=cutoff
   status=norm(row.get("status",""))
   cash_delta=dec(row.get("cash_delta_gp","0"))
@@ -318,11 +335,15 @@ def main():
   if money(total)!=0:errors.append(f"transfer {ref}: paired cash legs net to {money(total)} gp, expected 0")
   if transfer_counts[ref]<2:errors.append(f"transfer {ref}: needs both source and destination cash legs")
  snapshot={"status":"PASS","cutoff_day":int(cutoff),"captured_date":meta.get("captured_date"),"event_count":parsed,"event_ids_unique":len(ids)==parsed,"estates":{},"findings":[]}
- for estate,cfg in ESTATES.items():
-  path=PROPERTY/cfg["overview"]
-  cash_expected=label_value(path,cfg["cash"])
-  available_expected=label_value(path,cfg["available"])
-  liabilities_expected=sum((label_value(path,[a],optional=True) for a in cfg["liabilities"]),Decimal(0))
+ for estate,cfg in estates.items():
+  if "overview" in cfg:
+   path=PROPERTY/cfg["overview"]
+   cash_expected=label_value(path,cfg["cash"])
+   available_expected=label_value(path,cfg["available"])
+   liabilities_expected=sum((label_value(path,[a],optional=True) for a in cfg["liabilities"]),Decimal(0))
+  else:
+   # The estate did not exist at the imported snapshot. Subsequent funds require an actual journal leg.
+   cash_expected=available_expected=liabilities_expected=Decimal(0)
   liab_at_cut=sum((x["balance"] for x in liability_cut.values() if x["estate"]==estate),Decimal(0))
   liab_latest=sum((x["balance"] for x in liability_balance.values() if x["estate"]==estate),Decimal(0))
   available_cut=money(cash_cut[estate]-liab_at_cut)

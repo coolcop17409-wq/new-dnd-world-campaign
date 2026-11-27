@@ -758,6 +758,19 @@ class SameDayPostingDependencies(unittest.TestCase):
             with self.subTest(rows=rows), self.assertRaises(ValueError):
                 ledger.order_ledger_events(rows)
 
+class NewEstateRegistrationTests(unittest.TestCase):
+    def test_confirmed_post_snapshot_account_only(self):
+        record = dict(record_type="Estate registration", status="Registered", estate="New holding",
+                      record_id="ADMIT-1", day="250", source_and_limits=json.dumps(
+                          {"source": "accepted appointment", "steward": "Local steward"}))
+        cutoff = Decimal(231)
+        self.assertEqual(ledger.registered_estates([record], cutoff)["New holding"]["registered_day"], 250)
+        self.assertNotIn("New holding", ledger.registered_estates([dict(record, status="Proposed")], cutoff))
+        for records in ([record, record], [dict(record, day="200")], [dict(record, source_and_limits="{}")]):
+            with self.assertRaises(ValueError):
+                ledger.registered_estates(records, cutoff)
+
+
 class HistoricalTaxAccrualTests(unittest.TestCase):
     def test_source_linked_accruals_are_not_assessed_twice_at_first_close(self):
         period = {"period_id": "TAX-59", "liability_id": "tax-opening"}
