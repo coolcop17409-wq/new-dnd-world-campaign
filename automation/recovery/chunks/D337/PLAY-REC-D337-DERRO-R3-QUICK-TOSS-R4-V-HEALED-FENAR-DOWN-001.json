@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R3-QUICK-TOSS-R4-V-HEALED-FENAR-DOWN-001",
+  "base_commit": "9cc4b2d73aa5f11ce908fa6a449794f91db0fb97",
+  "source_checkpoint": "D337-1130-DERRO-R3-V-TURN-TWO-DERRO-DEAD-001",
+  "destination_checkpoint": "D337-1130-DERRO-R4-V-PRONE-FENAR-DOWN-DECISION-001",
+  "source_evidence": "Exact player 'reposition, Bonus quick toss, hold attach for sneak attack' authorizes movement, one Quick Toss and Ready attack. From(5,50,0) V moves east to(20,50,0), 2.5ft road+12.5ft difficult terrain=27.5ft of30; no new cover or Hide. Standard dart would be long range, so DM selects carried single physical Galepierce (40/120, +9, 1d4+4), within35.71ft of D3(55,45,5), AC13, no advantage or eligible ally within5ft. BA Quick Toss uses one superiority die 4→3; actual d20=17+9=26 hits, d4=3+4+d8=3=10 piercing, D3 HP13→3. No Sneak Attack. Unique Galepierce thrown, physically not carried, at D3's position/on or by target pending safe retrieval; no auto-return or duplication. Regular action Readies main Psychic Blade on first conscious ally within5ft of a visible hostile within60ft, legal line and no disadvantage, for Sneak Attack; reaction available. End R3 turn, unused2.5ft movement. Actual visible batch3cd1aaba67a80419519023013c661668.\n\nR3 D3/D4 hold shaded positions and fire at nearby Reckless Fenar. Advantage D3 2/4 keep4+4=8, D4 1/4 keep4+4=8 vs AC16, both miss. No eligible Ready trigger; no damage or movement. Actual batch5ec9d874521d00d7afce1836961a8582.\n\nR4 S1 and S2 target Fenar with Ray of Frost while Reckless exposure remains. S1 adv9/9+4=13 misses AC16; S2 adv20/9 crit, 4d8=4,7,8,1=20 cold, F11→0/59 unconscious prone, no instant death, Rage and Beast Claws end, speed penalty10 until S2 R5. S3 uses last L3 slot1→0 on Lightning Bolt against V alone, clear line from(50,65,10) to(20,50,0), no other targets/coach. V Dex2+8=10 vsDC12 fail, 8d6=6,5,2,2,5,6,5,6=37 lightning, V12→0/48 unconscious prone, excess25<48 no instant death. V's readied attack ends without trigger because incapacitated. All savants L3 0/2, no concentration, remain at previous positions. Actual batch3974b771531d25e8890181c4d1d7006d. Mara continues previously directed cautious backing on open track 10ft to coach center(0,-40), intact four horses, no attack or damage.\n\nR4 C13 independently prioritizes reviving V first to regain an active defender, moves from(0,45,0) to(15,45,0), 7.5ft road+7.5ft difficult=22.5ft, final L3 Healing Word BA on V, 3d4=1,1,1+5=8 HP, V0→8 conscious prone, no death saves taken; C L3 1→0, L1/L2 unchanged. Action Toll the Dead against wounded D3 within60ft, Magic Resistance WIS save adv5/12 keep12−3=9 fails DC16, 2d12=1,3=4 necrotic, D3 3→0 dead. F11 starts turn unconscious at0, death save d20=8 fails, now 0 successes/1 failure, no action/movement, no Rage, speed penalty remains. Actual batchbab77de8536fa48d76dd0f3a8ebbfd59. R4 V6 begins conscious prone, full action, BA, reaction, movement30ft (standing normally15ft), HP8/48. No further V action, new resource use or time advance. D4 has yet to act. All earlier accepted events unchanged.",
+  "pending_action": "Day337~11:30 R4 V initiative6 to act at(20,50,0), HP8/48 AC19, conscious PRONE, fresh action/BA/reaction, movement30ft (stand costs15ft, rough slope difficult), previous readied blade lost on incapacitation, no active Ready. Superiority3/4, Psi6/6 MP7/7 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone; single Galepierce thrown and lies at/by dead D3(55,45,5), not carried or auto-returned; retrieval pending. Dice delegated. Initiative S17 Mara15 C13 F11 V6 D5. C(15,45,0)51/51 AC19 HD6/6 slots4/3/0 CD2/2 R4 action/BA spent reaction available, no concentration. F(31,62,0)0/59 AC16 HD6/6 unconscious prone, death saves 0 success/1 failure, Rage2/4 inactive (ended at0), Shift3/3 inactive, MP4/6 CLIMB40, no THP, Ray speed penalty until start of S2 R5; no Reckless exposure after her turn started, R4 death save resolved. Mara coach center(0,-40) intact four horses safe. S1(65,60,10), S2(65,65,10), S3(50,65,10) all visible AC13 HP36/36, S1 half cover from party, all L3 0/2; S3 L2 2/3, no concentration, R4 actions spent, reactions available. D1,D2,D3 dead; D4(55,65,5) AC13 HP13/13 shaded, R4 not yet acted. Road clear, rocky scrub difficult terrain, no new cover or ally within5ft of live enemy. V next choice, urgently wounded, Fenar down. D335 provisions17gp; D336 daily charge3/4, rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. LR completed dawn337 now LR0/6. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds two original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site needs prep before expedition beyond Silverward. Other prior commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R2-REPOSITION-R3-READY-FENAR-D2-KILLED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "3cd1aaba67a80419519023013c661668",
+        "rolls": [
+          {
+            "id": "D337.R3.V.Quick_Toss.Galepierce.D3.attack",
+            "sides": 20,
+            "faces": [
+              17
+            ]
+          },
+          {
+            "id": "D337.R3.V.Quick_Toss.Galepierce.D3.weapon_damage",
+            "sides": 4,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.R3.V.Quick_Toss.D3.superiority_damage",
+            "sides": 8,
+            "faces": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "5ec9d874521d00d7afce1836961a8582",
+        "rolls": [
+          {
+            "id": "D337.R3.D3.crossbow.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              2,
+              4
+            ]
+          },
+          {
+            "id": "D337.R3.D4.crossbow.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              1,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "3974b771531d25e8890181c4d1d7006d",
+        "rolls": [
+          {
+            "id": "D337.R4.S1.Ray_of_Frost.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              9,
+              9
+            ]
+          },
+          {
+            "id": "D337.R4.S2.Ray_of_Frost.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              20,
+              9
+            ]
+          },
+          {
+            "id": "D337.R4.S2.Ray_of_Frost.Fenar.damage",
+            "sides": 8,
+            "faces": [
+              4,
+              7,
+              8,
+              1
+            ]
+          },
+          {
+            "id": "D337.R4.S3.Lightning_Bolt.V.Dex",
+            "sides": 20,
+            "faces": [
+              2
+            ]
+          },
+          {
+            "id": "D337.R4.S3.Lightning_Bolt.damage",
+            "sides": 6,
+            "faces": [
+              6,
+              5,
+              2,
+              2,
+              5,
+              6,
+              5,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "bab77de8536fa48d76dd0f3a8ebbfd59",
+        "rolls": [
+          {
+            "id": "D337.R4.Cirren.Healing_Word_L3.V",
+            "sides": 4,
+            "faces": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "id": "D337.R4.D3.Toll_the_Dead.Wis.magic_resistance",
+            "sides": 20,
+            "faces": [
+              5,
+              12
+            ]
+          },
+          {
+            "id": "D337.R4.Cirren.Toll_the_Dead.D3.damage",
+            "sides": 12,
+            "faces": [
+              1,
+              3
+            ]
+          },
+          {
+            "id": "D337.R4.Fenar.death_save",
+            "sides": 20,
+            "faces": [
+              8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R3-V-QUICK-TOSS-READY-001",
+      "accepted": true,
+      "evidence": "Exact player 'reposition, Bonus quick toss, hold attach for sneak attack' authorizes movement, one Quick Toss and Ready attack. From(5,50,0) V moves east to(20,50,0), 2.5ft road+12.5ft difficult terrain=27.5ft of30; no new cover or Hide. Standard dart would be long range, so DM selects carried single physical Galepierce (40/120, +9, 1d4+4), within35.71ft of D3(55,45,5), AC13, no advantage or eligible ally within5ft. BA Quick Toss uses one superiority die 4→3; actual d20=17+9=26 hits, d4=3+4+d8=3=10 piercing, D3 HP13→3. No Sneak Attack. Unique Galepierce thrown, physically not carried, at D3's position/on or by target pending safe retrieval; no auto-return or duplication. Regular action Readies main Psychic Blade on first conscious ally within5ft of a visible hostile within60ft, legal line and no disadvantage, for Sneak Attack; reaction available. End R3 turn, unused2.5ft movement. Actual visible batch3cd1aaba67a80419519023013c661668.",
+      "before": "V(5,50)12HP, Sup4, Galepierce carried, D3 HP13",
+      "after": "V(20,50), Sup3, Galepierce thrown, D3 HP3, Ready armed",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv",
+        "campaign/continuity/inventory.md"
+      ]
+    },
+    {
+      "event_id": "D337-R3-DERRO-VOLLEY-001",
+      "accepted": true,
+      "evidence": "R3 D3/D4 hold shaded positions and fire at nearby Reckless Fenar. Advantage D3 2/4 keep4+4=8, D4 1/4 keep4+4=8 vs AC16, both miss. No eligible Ready trigger; no damage or movement. Actual batch5ec9d874521d00d7afce1836961a8582.",
+      "before": "F11HP",
+      "after": "Both attacks miss; F11HP",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D337-R4-SAVANTS-DOWN-V-FENAR-001",
+      "accepted": true,
+      "evidence": "R4 S1 and S2 target Fenar with Ray of Frost while Reckless exposure remains. S1 adv9/9+4=13 misses AC16; S2 adv20/9 crit, 4d8=4,7,8,1=20 cold, F11→0/59 unconscious prone, no instant death, Rage and Beast Claws end, speed penalty10 until S2 R5. S3 uses last L3 slot1→0 on Lightning Bolt against V alone, clear line from(50,65,10) to(20,50,0), no other targets/coach. V Dex2+8=10 vsDC12 fail, 8d6=6,5,2,2,5,6,5,6=37 lightning, V12→0/48 unconscious prone, excess25<48 no instant death. V's readied attack ends without trigger because incapacitated. All savants L3 0/2, no concentration, remain at previous positions. Actual batch3974b771531d25e8890181c4d1d7006d. Mara continues previously directed cautious backing on open track 10ft to coach center(0,-40), intact four horses, no attack or damage.",
+      "before": "F11 V12, S3 L3 1, coach0,-30",
+      "after": "F0 V0 prone/unconscious, F Rage ended, V Ready lost, S3 L3 0, coach0,-40",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R4-CIRREN-REVIVES-V-FENAR-DEATH-SAVE-001",
+      "accepted": true,
+      "evidence": "R4 C13 independently prioritizes reviving V first to regain an active defender, moves from(0,45,0) to(15,45,0), 7.5ft road+7.5ft difficult=22.5ft, final L3 Healing Word BA on V, 3d4=1,1,1+5=8 HP, V0→8 conscious prone, no death saves taken; C L3 1→0, L1/L2 unchanged. Action Toll the Dead against wounded D3 within60ft, Magic Resistance WIS save adv5/12 keep12−3=9 fails DC16, 2d12=1,3=4 necrotic, D3 3→0 dead. F11 starts turn unconscious at0, death save d20=8 fails, now 0 successes/1 failure, no action/movement, no Rage, speed penalty remains. Actual batchbab77de8536fa48d76dd0f3a8ebbfd59. R4 V6 begins conscious prone, full action, BA, reaction, movement30ft (standing normally15ft), HP8/48. No further V action, new resource use or time advance. D4 has yet to act. All earlier accepted events unchanged.",
+      "before": "V0 F0 C L3 1 D3 HP3",
+      "after": "V8 prone, F0 one failed death save, C L3 0, D3 dead, V R4 turn",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
