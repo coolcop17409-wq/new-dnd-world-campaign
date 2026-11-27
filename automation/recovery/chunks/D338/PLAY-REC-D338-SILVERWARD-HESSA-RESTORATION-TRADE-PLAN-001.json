@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-SILVERWARD-HESSA-RESTORATION-TRADE-PLAN-001",
+  "base_commit": "3927995b8c9df833a32ad00f750922d2563e6708",
+  "source_checkpoint": "D338-1150-SILVERWARD-HESSA-MINE-INSPECTOR-CONTACT-001",
+  "destination_checkpoint": "D338-1205-SILVERWARD-HESSA-RESTORATION-REPORT-FUNDING-PENDING-001",
+  "source_evidence": "Exact player 'Good i’ll leave it to you then. What about the plans you have made up?' accepts Hessa continuing the discreet mine surveyor inquiry within prior quote-only mandate and asks her to report the plans and actual work since her Day332 start. No open-ended hire or capital expenditure authorized. No previous posted completed Silverward workday results were found in scoped recovery/estate handoff review; earlier accepted mandate and pending reconciliation preserved. At D338~11:50–12:05 Hessa reports her actual ordinary independent planning/outreach over six completed workdays D332–337, now adjudicated once, not a replay or new elapsed days. Fixed daily genuine checks situational +3 for her longstanding ferry/customer network, DC12 credible lead, DC17 specific conditional interest, no paid service before safe opening. Actual visible Python secrets batch2f9aced548238e9065fb0ad165267438: D332 pack merchants13+3=16 credible lead for sheltered pack storage and overnight stop, D333 local farmers/shepherds3+3=6 no viable paid lead, D334 traveling merchants13+3=16 credible lead for simple meals/beds, D335 local pack carriers17+3=20 specific conditional interest from a small regular pack string (two handlers/four animals, roughly weekly if safe lodging, tethering and storage available at an acceptable rate), D336 repeat trader follow-up7+3=10 no commitment, D337 farm/livestock customers3+3=6 no viable lead. No signed/paid/guaranteed bookings, customer cargo, advance, revenue or transfer of independent Marr ferry business. Hessa has used ordinary inquiries to identify an experienced local mason and assistant who could undertake a two-day condition inspection; preliminary planning allowance15gp (5gp/day specialist x2 +1gp/day assistant x2 +3gp travel/tools), not binding quote, hire, debt or completed technical clearance. Existing daily work mandate: Hessa earned5gp each of actual D332–337 six days=30gp wage obligation; first D334 payroll15gp for332–334 is due and no payment established; D335–337 accrued15gp toward341. Day338 incomplete not charged, no new personal cash movement, no estate opening balance invented, no duplication of earlier posted or subsequently discovered evidence. Ordinary guardian duties remain voluntary, no extra hire. Proposal stage1 inspect structure and damaged exterior ledge, isolate unsafe access, retain functioning drainage, clean receiving hall, confirm resident rights and parcel with Crown; bridge rebuild deferred as unnecessary for limited safe operation. Stage2 after safety signoff: modest fit-out four simple sleeping places, covered pack tethering, secure small storage, basic meals/feed sold only against demand, use existing receiving hall/oven where safe; provisional additional35–55gp allowance excludes major structural works, bridge, mine or wage liabilities; cost subject to inspection and actual quotes. Stage1+2 provisional50–70gp capital, not approved or spent. At standard Hessa5gp/workday, six workdays/week=30gp labor before food/feed/material costs; one conditional weekly pack string is plainly insufficient, no guaranteed profit or forecast booked revenue. Hessa recommends starting small, testing actual demand and securing repeat trade before hiring further crew, and investigating the mine separately as a potential anchor customer; no presumption mine belongs to Silverward or that unverified silver subsidizes estate. She will continue daily outreach, survey quote and inspection proposal; actual funding/engagement requires V authorization. V's next decision on report/funding or other action. No roll beyond six market checks, no new restoration, legal title, income, payments or capital commitments.",
+  "pending_action": "D338~12:05 Silverward Crossing, Hessa Marr reports D332–337 actual planning/outreach, six workdays at5gp accrued30gp total (15gp due334 not confirmed paid,15gp accrued to341; D338 open, no duplicate later accounting). Two credible leads and one conditional weekly pack-carrier prospect, no booked service or revenue. Proposed structural/ledge/drainage assessment allowance15gp then conditional modest four-bed/pack tethering/storage/meals/feed fit-out35–55gp; total50–70gp provisional capital excl major works and wage arrears, unapproved/unspent. Hessa will seek actual quotes and continue daily follow-up; mining surveyor/assay/safety/cost inquiry discreetly delegated, no hire/payment/title or guaranteed ore. Conditional grant not deed, independent Marr home/ferry/access rights intact, voluntary guardians. V next choice report/funding or other action. V48/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, Galepierce carried, dice delegated. C51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration. F59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara coach/four horses intact. Rations21/feed28, D338 charge applied once; purse2020gp8sp6cp unchanged, LR0/6, morning Tamsin contact accounted for. Derro loot/ore remains unclaimed at site six rough miles away; bracing/rope deployed. Prior estate/ancestry/commission/correspondence/custody unchanged, owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D338-SILVERWARD-RETURN-MINE-INSPECTOR-INQUIRY-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "2f9aced548238e9065fb0ad165267438",
+        "rolls": [
+          {
+            "id": "D332.Hessa.Silverward.outreach.pack_merchants",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          },
+          {
+            "id": "D333.Hessa.Silverward.outreach.local_farmers_and_shepherds",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D334.Hessa.Silverward.outreach.traveling_merchants",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          },
+          {
+            "id": "D335.Hessa.Silverward.outreach.local_pack_carriers",
+            "sides": 20,
+            "faces": [
+              17
+            ]
+          },
+          {
+            "id": "D336.Hessa.Silverward.outreach.repeat_trader_follow-up",
+            "sides": 20,
+            "faces": [
+              7
+            ]
+          },
+          {
+            "id": "D337.Hessa.Silverward.outreach.farm_and_livestock_customers",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D338-SILVERWARD-HESSA-RESTORATION-TRADE-REPORT-001",
+      "accepted": true,
+      "evidence": "Exact player 'Good i’ll leave it to you then. What about the plans you have made up?' accepts Hessa continuing the discreet mine surveyor inquiry within prior quote-only mandate and asks her to report the plans and actual work since her Day332 start. No open-ended hire or capital expenditure authorized. No previous posted completed Silverward workday results were found in scoped recovery/estate handoff review; earlier accepted mandate and pending reconciliation preserved. At D338~11:50–12:05 Hessa reports her actual ordinary independent planning/outreach over six completed workdays D332–337, now adjudicated once, not a replay or new elapsed days. Fixed daily genuine checks situational +3 for her longstanding ferry/customer network, DC12 credible lead, DC17 specific conditional interest, no paid service before safe opening. Actual visible Python secrets batch2f9aced548238e9065fb0ad165267438: D332 pack merchants13+3=16 credible lead for sheltered pack storage and overnight stop, D333 local farmers/shepherds3+3=6 no viable paid lead, D334 traveling merchants13+3=16 credible lead for simple meals/beds, D335 local pack carriers17+3=20 specific conditional interest from a small regular pack string (two handlers/four animals, roughly weekly if safe lodging, tethering and storage available at an acceptable rate), D336 repeat trader follow-up7+3=10 no commitment, D337 farm/livestock customers3+3=6 no viable lead. No signed/paid/guaranteed bookings, customer cargo, advance, revenue or transfer of independent Marr ferry business. Hessa has used ordinary inquiries to identify an experienced local mason and assistant who could undertake a two-day condition inspection; preliminary planning allowance15gp (5gp/day specialist x2 +1gp/day assistant x2 +3gp travel/tools), not binding quote, hire, debt or completed technical clearance. Existing daily work mandate: Hessa earned5gp each of actual D332–337 six days=30gp wage obligation; first D334 payroll15gp for332–334 is due and no payment established; D335–337 accrued15gp toward341. Day338 incomplete not charged, no new personal cash movement, no estate opening balance invented, no duplication of earlier posted or subsequently discovered evidence. Ordinary guardian duties remain voluntary, no extra hire. Proposal stage1 inspect structure and damaged exterior ledge, isolate unsafe access, retain functioning drainage, clean receiving hall, confirm resident rights and parcel with Crown; bridge rebuild deferred as unnecessary for limited safe operation. Stage2 after safety signoff: modest fit-out four simple sleeping places, covered pack tethering, secure small storage, basic meals/feed sold only against demand, use existing receiving hall/oven where safe; provisional additional35–55gp allowance excludes major structural works, bridge, mine or wage liabilities; cost subject to inspection and actual quotes. Stage1+2 provisional50–70gp capital, not approved or spent. At standard Hessa5gp/workday, six workdays/week=30gp labor before food/feed/material costs; one conditional weekly pack string is plainly insufficient, no guaranteed profit or forecast booked revenue. Hessa recommends starting small, testing actual demand and securing repeat trade before hiring further crew, and investigating the mine separately as a potential anchor customer; no presumption mine belongs to Silverward or that unverified silver subsidizes estate. She will continue daily outreach, survey quote and inspection proposal; actual funding/engagement requires V authorization. V's next decision on report/funding or other action. No roll beyond six market checks, no new restoration, legal title, income, payments or capital commitments.",
+      "before": "Six completed steward days elapsed, outcomes unadjudicated, V asks report.",
+      "after": "Six actual workdays/outreach resolved, wage accrual30gp unposted; two leads/one conditional prospect, preliminary capital plan50–70gp, no booked business, hire or spend; V decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "trackers/csv/property/estates.csv",
+        "data/estate/events.csv"
+      ]
+    }
+  ]
+}
