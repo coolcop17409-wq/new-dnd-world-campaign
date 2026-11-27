@@ -1,0 +1,22 @@
+{
+  "request_id": "HANDOFF-D337-QUESTS-ANCESTRAL-SEAT-APPROACH-001",
+  "lane": "quests",
+  "source": {
+    "kind": "atlas_review",
+    "checkpoint_id": "D337-1130-DERRO-R4-V-PRONE-FENAR-DOWN-DECISION-001",
+    "campaign_day": 337,
+    "commit": "3ece082c1259e87b44ca4f3c280797aa24bb86f6"
+  },
+  "request": "Refresh the existing private approach and site preparation for V’s stated intention to seek the ancestral seat after returning to the western tower. The party is six rough miles short of Silverward at the latest accepted return-leg checkpoint.",
+  "scope": [
+    "Recheck the exact checkpoint, later play and rulings before working. V stated the expedition intention in automation/recovery/chunks/D334/PLAY-REC-D334-335-MANOR-REST-TOWER-CAPTIVES-RELEASED-POSSESSION-HANDOVER-001.json.",
+    "Use the existing Silverward survey and route instrument, the west-northwest historical bearing, and Caul’s relative historical sketch. Current approach, distance, occupancy, title and present condition require their own evidence. Prepare only the missing private route and site material under the existing quest procedure.",
+    "Leave live tactical decisions, departure, route choice, rolls, survey, arrival, resource use and discovery to actual play. Publish player-facing geography only after delivery or observation."
+  ],
+  "output_owner_paths": [
+    "prep/dm-only/dm-estate-ancestry.md",
+    "prep/dm-only/dm-only-secret-quest-outlines.md"
+  ],
+  "priority": "high",
+  "advances_gameplay": false
+}
