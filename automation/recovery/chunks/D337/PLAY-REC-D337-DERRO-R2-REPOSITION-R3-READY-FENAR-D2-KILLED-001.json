@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R2-REPOSITION-R3-READY-FENAR-D2-KILLED-001",
+  "base_commit": "b24877b896881174c8855943c09629ab0b3f5023",
+  "source_checkpoint": "D337-1130-DERRO-R2-V-SECOND-WIND-MOVEMENT-PENDING-001",
+  "destination_checkpoint": "D337-1130-DERRO-R3-V-TURN-TWO-DERRO-DEAD-001",
+  "source_evidence": "Exact player 'Reposition to a favorable spot' delegates remaining movement placement; DM discloses intent to continue round with Ready intact. V moves diagonally on clear 15ft-wide road from(-5,25,0) to(5,50,0), distance26.93ft of30, ends R2 with unused ~3.07ft, no additional action or spending. D2 at33.54ft, D3 at50.50ft, D4 at52.44ft, all normal Psychic Blade range. V/F separated by7.07ft and distinct lines from known caster positions, no established new hiding cover; no new Hide. Readied Psychic Blade remains armed on first eligible Fenar melee contact, V reaction available.\n\nD2/D3 independently focus advancing Fenar, D4 fires at V, all remain fixed shaded locations, normal range and no new cover against defenders. Genuine visible batch32eebf1255d8cd6924faec8cbdcf4523. D2 natural20, 2d8=5,8 +2=15 piercing, Rage halves7; F27→20. D3 d20=19+4=23 vsAC16, d8=8+2=10 half5, F20→15. D4 d20=16+4=20 vsAC19, d8=1+2=3 piercing, V30→27. D2 remains8/13, other positions unchanged; no eligible Ready trigger.\n\nS1 uses Ray of Frost on nearest advancing Fenar (57.88ft) actual natural1 miss; previous S2 cold speed penalty expires at start S2 R3, F speed40. S2 uses last L3 Lightning Bolt (1→0/2), clear line to Fenar alone. Actual Danger Sense advantage d20=6,1 keep6+2=8 vsDC12 FAIL; shared8d6=3,2,5,5,4,5,1,2 total27 lightning (no Rage resistance), F15→0, falls unconscious/prone, Rage and Beast Claws end, no instant death (excess12 <59). S3 casts Lightning Bolt at V alone from(50,65,10), ends own Invisibility, L3 2→1/2, L2 remains2/3; d20=16+8=24 vsDC12 success, 8d6=4,3,4,2,5,6,1,6 total31 half15, V27→12. Both clear lines avoid other defenders and coach, no other damage. Actual visible batch39efadb9444345b6b6c63ff964aa3eb0. All three savants R3 actions spent, reactions available, no active concentration. Mara continues controlled 10ft backing on clear road to coach center(0,-30), intact healthy horses, no attack or resource use.\n\nCirren independently advances on clear road from(-5,20,0) to(0,45,0), distance25.50ft; casts confirmed prepared third-level Healing Word BA on unconscious Fenar within60ft. Actual 3d4=1,1,4+WIS5=11 HP, F0→11 conscious/prone, resets death saves (none rolled before C initiative), Rage not restored. C L3 2→1/3, L1 4/4 and L2 3/3 unchanged. Action Toll the Dead on wounded D2 within60ft: Magic Resistance WIS save adv19,16 keep19−3=16 vsDC16 success, no damage; D2 stays8/13. Actual visible batch0853496dfd9c3f6b82204001c578bc7f. C action and BA spent, no concentration, reaction available, HP51/51.\n\nFenar independently stands (20ft at base40), activates fresh Rage BA (3→2/4) choosing Beast Claws, uses adopted Outrageous Athleticism 2MP (6→4/6) to raise current turn speed40→70 and jump distance+30. Runs10ft along direct route from(10,45) toward D2 across rough ground (20ft movement cost), leaps remaining ~17.02ft to(31,62,0) within5ft of D2(35,65,0), movement cost ~57.02ft total including stand; difficult-terrain landing Acrobatics actual8+5=13/DC10 success, upright. V's existing Ready trigger met, visible D2 within60ft (33.54), no disadvantage and eligible conscious Fenar within5ft, half cover AC15; genuine d20=5+9=14 misses, no damage or Sneak Attack dice, V reaction spent before R3 own turn. Fenar chooses Reckless Attack, Double-Claw Rend (mechanical greataxe) advantage d20=2,11 keep11+8=19 vsAC15 hit, d12=6+7=13 slashing, D2 8→0 dead; remaining Attack action strikes have no adjacent live target; no attack rolls for unused attacks, no extra movement, no Shift. Actual batchc830e1605045c1e32a173eca0ec34df2. Fenar HP11/59, standing at(31,62), active Rage Claws, MP4, Shift3 inactive, no THP; Reckless grants advantage to attacks against her until next turn, R3 BA/action spent, reaction available. OA ends at her turn end; speed40. Start V R3 initiative6, fresh action/BA/reaction and30ft movement, V12/48. No V further resource expenditure or movement. No game-time advance beyond same combat minute.",
+  "pending_action": "Day337~11:30 R3 V initiative6 to act at(5,50,0), HP12/48 AC19, fresh action/BA/reaction and30ft movement. R2 readied attack used on Fenar's R3 turn, missed D2; reaction now refreshed. Initiative S17 Mara15 C13 F11 V6 D5. C(0,45,0)51/51 AC19 HD6/6 slots4/3/1 CD2/2, R3 action/BA spent, reaction available, no concentration. F(31,62,0)11/59 AC16 HD6/6 Rage2/4 active Beast Claws, Shift3/3 inactive MP4/6, CLIMB40, no THP; stood after Healing Word, no death saves, Reckless exposure until next turn, speed40 OA ended, Ray penalty expired, R3 action/BA spent reaction available. Mara coach center(0,-30) intact healthy four horses, R3 controlled backing completed. S1(65,60,10)36/36 AC13+half cover from party, L3 0/2, R3 action Ray miss. S2(65,65,10)36/36 AC13 L3 0/2, R3 Lightning spent. S3(50,65,10)36/36 AC13 now visible, L2 2/3 L3 1/2, R3 Lightning spent; no concentration, all three savants reactions available. D1(35,55,0) and D2(35,65,0) dead, D3(55,45,5) and D4(55,65,5) AC13 HP13/13, R3 not yet acted. No ally currently within5ft of live enemy, nearest exposed D3/D4 about50.5/52.44ft from V; visible S3 approx48.48ft. Road clear; off-road rocky scrub difficult terrain, foes shaded; actual cover/range by target, no newly established hiding cover. V next decision. V all pools HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. D335 provisions17gp; D336 daily charge3/4, rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. LR completed dawn337 now LR0/6. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds two original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site needs prep before expedition beyond Silverward. Other prior commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R2-V-SECOND-WIND-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "32eebf1255d8cd6924faec8cbdcf4523",
+        "rolls": [
+          {
+            "id": "D337.R2.D2.crossbow.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              20
+            ]
+          },
+          {
+            "id": "D337.R2.D2.crossbow.Fenar.damage",
+            "sides": 8,
+            "faces": [
+              5,
+              8
+            ]
+          },
+          {
+            "id": "D337.R2.D3.crossbow.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              19
+            ]
+          },
+          {
+            "id": "D337.R2.D3.crossbow.Fenar.damage",
+            "sides": 8,
+            "faces": [
+              8
+            ]
+          },
+          {
+            "id": "D337.R2.D4.crossbow.V.attack",
+            "sides": 20,
+            "faces": [
+              16
+            ]
+          },
+          {
+            "id": "D337.R2.D4.crossbow.V.damage",
+            "sides": 8,
+            "faces": [
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "39efadb9444345b6b6c63ff964aa3eb0",
+        "rolls": [
+          {
+            "id": "D337.R3.S1.Ray_of_Frost.Fenar.attack",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D337.R3.S2.Lightning_Bolt.Fenar.Dex",
+            "sides": 20,
+            "faces": [
+              6,
+              1
+            ]
+          },
+          {
+            "id": "D337.R3.S2.Lightning_Bolt.damage",
+            "sides": 6,
+            "faces": [
+              3,
+              2,
+              5,
+              5,
+              4,
+              5,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "D337.R3.S3.Lightning_Bolt.V.Dex",
+            "sides": 20,
+            "faces": [
+              16
+            ]
+          },
+          {
+            "id": "D337.R3.S3.Lightning_Bolt.damage",
+            "sides": 6,
+            "faces": [
+              4,
+              3,
+              4,
+              2,
+              5,
+              6,
+              1,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "0853496dfd9c3f6b82204001c578bc7f",
+        "rolls": [
+          {
+            "id": "D337.R3.Cirren.Healing_Word_L3.Fenar",
+            "sides": 4,
+            "faces": [
+              1,
+              1,
+              4
+            ]
+          },
+          {
+            "id": "D337.R3.D2.Toll_the_Dead.Wis.magic_resistance",
+            "sides": 20,
+            "faces": [
+              19,
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "c830e1605045c1e32a173eca0ec34df2",
+        "rolls": [
+          {
+            "id": "D337.R3.Fenar.OA.landing.Acrobatics",
+            "sides": 20,
+            "faces": [
+              8
+            ]
+          },
+          {
+            "id": "D337.R3.V.readied_Psychic_Blade.D2.attack",
+            "sides": 20,
+            "faces": [
+              5
+            ]
+          },
+          {
+            "id": "D337.R3.Fenar.Double_Claw_Rend.D2.attack",
+            "sides": 20,
+            "faces": [
+              2,
+              11
+            ]
+          },
+          {
+            "id": "D337.R3.Fenar.Double_Claw_Rend.D2.damage",
+            "sides": 12,
+            "faces": [
+              6
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R2-V-REPOSITION-END-TURN-001",
+      "accepted": true,
+      "evidence": "Exact player 'Reposition to a favorable spot' delegates remaining movement placement; DM discloses intent to continue round with Ready intact. V moves diagonally on clear 15ft-wide road from(-5,25,0) to(5,50,0), distance26.93ft of30, ends R2 with unused ~3.07ft, no additional action or spending. D2 at33.54ft, D3 at50.50ft, D4 at52.44ft, all normal Psychic Blade range. V/F separated by7.07ft and distinct lines from known caster positions, no established new hiding cover; no new Hide. Readied Psychic Blade remains armed on first eligible Fenar melee contact, V reaction available.",
+      "before": "V(-5,25),30/48, movement30, action/BA spent, ready armed.",
+      "after": "V(5,50),30/48, R2 ended, reaction reserved.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D337-R2-DERRO-CROSSBOW-VOLLEY-001",
+      "accepted": true,
+      "evidence": "D2/D3 independently focus advancing Fenar, D4 fires at V, all remain fixed shaded locations, normal range and no new cover against defenders. Genuine visible batch32eebf1255d8cd6924faec8cbdcf4523. D2 natural20, 2d8=5,8 +2=15 piercing, Rage halves7; F27→20. D3 d20=19+4=23 vsAC16, d8=8+2=10 half5, F20→15. D4 d20=16+4=20 vsAC19, d8=1+2=3 piercing, V30→27. D2 remains8/13, other positions unchanged; no eligible Ready trigger.",
+      "before": "F27/59 raging; V30/48.",
+      "after": "F15/59; V27/48, all three live Derro R2 done.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R3-SAVANTS-LIGHTNING-FENAR-DOWN-001",
+      "accepted": true,
+      "evidence": "S1 uses Ray of Frost on nearest advancing Fenar (57.88ft) actual natural1 miss; previous S2 cold speed penalty expires at start S2 R3, F speed40. S2 uses last L3 Lightning Bolt (1→0/2), clear line to Fenar alone. Actual Danger Sense advantage d20=6,1 keep6+2=8 vsDC12 FAIL; shared8d6=3,2,5,5,4,5,1,2 total27 lightning (no Rage resistance), F15→0, falls unconscious/prone, Rage and Beast Claws end, no instant death (excess12 <59). S3 casts Lightning Bolt at V alone from(50,65,10), ends own Invisibility, L3 2→1/2, L2 remains2/3; d20=16+8=24 vsDC12 success, 8d6=4,3,4,2,5,6,1,6 total31 half15, V27→12. Both clear lines avoid other defenders and coach, no other damage. Actual visible batch39efadb9444345b6b6c63ff964aa3eb0. All three savants R3 actions spent, reactions available, no active concentration. Mara continues controlled 10ft backing on clear road to coach center(0,-30), intact healthy horses, no attack or resource use.",
+      "before": "F15 raging; V27; S2 L3 1/2; S3 invisible L3 2/2; coach(0,-20).",
+      "after": "F0 unconscious/prone Rage inactive, V12, S1/S2 L3 0/2, S3 visible L3 1/2, coach(0,-30).",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R3-CIRREN-HEALS-FENAR-TOLL-D2-SAVE-001",
+      "accepted": true,
+      "evidence": "Cirren independently advances on clear road from(-5,20,0) to(0,45,0), distance25.50ft; casts confirmed prepared third-level Healing Word BA on unconscious Fenar within60ft. Actual 3d4=1,1,4+WIS5=11 HP, F0→11 conscious/prone, resets death saves (none rolled before C initiative), Rage not restored. C L3 2→1/3, L1 4/4 and L2 3/3 unchanged. Action Toll the Dead on wounded D2 within60ft: Magic Resistance WIS save adv19,16 keep19−3=16 vsDC16 success, no damage; D2 stays8/13. Actual visible batch0853496dfd9c3f6b82204001c578bc7f. C action and BA spent, no concentration, reaction available, HP51/51.",
+      "before": "F0 prone unconscious, C L3 2/3 and position(-5,20).",
+      "after": "F11 conscious prone; C L3 1/3 at(0,45); D2 unchanged.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R3-FENAR-LEAP-V-REACTION-D2-KILLED-001",
+      "accepted": true,
+      "evidence": "Fenar independently stands (20ft at base40), activates fresh Rage BA (3→2/4) choosing Beast Claws, uses adopted Outrageous Athleticism 2MP (6→4/6) to raise current turn speed40→70 and jump distance+30. Runs10ft along direct route from(10,45) toward D2 across rough ground (20ft movement cost), leaps remaining ~17.02ft to(31,62,0) within5ft of D2(35,65,0), movement cost ~57.02ft total including stand; difficult-terrain landing Acrobatics actual8+5=13/DC10 success, upright. V's existing Ready trigger met, visible D2 within60ft (33.54), no disadvantage and eligible conscious Fenar within5ft, half cover AC15; genuine d20=5+9=14 misses, no damage or Sneak Attack dice, V reaction spent before R3 own turn. Fenar chooses Reckless Attack, Double-Claw Rend (mechanical greataxe) advantage d20=2,11 keep11+8=19 vsAC15 hit, d12=6+7=13 slashing, D2 8→0 dead; remaining Attack action strikes have no adjacent live target; no attack rolls for unused attacks, no extra movement, no Shift. Actual batchc830e1605045c1e32a173eca0ec34df2. Fenar HP11/59, standing at(31,62), active Rage Claws, MP4, Shift3 inactive, no THP; Reckless grants advantage to attacks against her until next turn, R3 BA/action spent, reaction available. OA ends at her turn end; speed40. Start V R3 initiative6, fresh action/BA/reaction and30ft movement, V12/48. No V further resource expenditure or movement. No game-time advance beyond same combat minute.",
+      "before": "F11 prone at(10,45), Rage3/4 inactive, MP6/6; D2 HP8; V readied reaction armed.",
+      "after": "F11 upright at(31,62), Rage2/4 active Claws, MP4/6, Reckless exposure; D2 dead; V R3 ready to act.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
