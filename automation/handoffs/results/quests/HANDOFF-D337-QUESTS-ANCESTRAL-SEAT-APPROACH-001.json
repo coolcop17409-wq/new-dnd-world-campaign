@@ -1,0 +1,23 @@
+{
+  "request_id": "HANDOFF-D337-QUESTS-ANCESTRAL-SEAT-APPROACH-001",
+  "lane": "quests",
+  "status": "complete",
+  "summary": "Verified bounded private approach and first-expedition preparation in existing owners; reconciled later accepted progress. Preparation only, no departure, discovery, invitation or resource change.",
+  "source_commit": "2328d9e608ca466c39d035b8b58195209c020bc8",
+  "source_checkpoint": "D338-0658-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001",
+  "owner_refs": [
+    {
+      "path": "prep/dm-only/dm-estate-ancestry.md",
+      "section": "Ancestral-seat first expedition — ADMIN-QUEST-D338-20261127-01",
+      "blob_sha": "4aa1dc81789fd3304693fa1de51f34a71a621c0b"
+    },
+    {
+      "path": "prep/dm-only/dm-only-secret-quest-outlines.md",
+      "section": "Current scoped review — ADMIN-QUEST-D338-20261127-01"
+    }
+  ],
+  "verified_commit": "9f7527f2eea3fd1b556c2f077c0c6bb5f54ab37f",
+  "blocker": null,
+  "next_trigger": "Actual route discussion/approach after the current accepted pending decision; check current transport, resources, light/positions and visual preflight. Private preparation does not establish public geography, arrival or legal title.",
+  "advances_gameplay": false
+}

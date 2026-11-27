@@ -33,4 +33,4 @@ Verified scoped edition `ATLAS-D334-SILVERWARD-001`: accepted western Ossent geo
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=quest-d338-20261127-1795781598000 | worker=quests | operations=Q338-01,Q338-02 | acquired_UTC=2026-11-27T12:13:18.000Z | heartbeat_UTC=2026-11-27T12:13:18.000Z | expires_UTC=2026-11-27T12:23:18.000Z | recovery=prep/dm-only/dm-only-secret-quest-outlines.md
+CAMPAIGN_WRITER | state=IDLE | token=none | scope=none | last_completed=ADMIN-QUEST-D338-20261127-01 | released_UTC=2026-11-27T12:14:18Z
