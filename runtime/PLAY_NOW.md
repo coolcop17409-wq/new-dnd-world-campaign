@@ -2,7 +2,7 @@
 
 **Read-only convenience, NOT an authority or a record of new events.**
 Source: `campaign/continuity/campaign-state.md` (SHA256 `070c0b61d8c91a5d8b7497721118606cac02a1914628fe79ff667c946cbcdbec`).
-Dashboard SHA256: `29dc05b25a0ac7b7684268c89e30a35697458855158eb8e00bc8e50e8ee1f822`.
+Dashboard SHA256: `24cfdeb146d2232008f6bb300420ba1304c1b8f1cc0e9a858beac350c4035776`.
 Confirmed campaign day: **324**.
 Newest played event: `D324-V-ORSAVEN-COACH-ARRIVAL-001`.
 
