@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D341-342-ANCESTRAL-SEAT-AQUEDUCT-APPROACH-001",
+  "base_commit": "498ddca1ed0e345bb616704576b75f2dd5bab0a2",
+  "source_checkpoint": "D341-1137-FLINT-BANNER-DEPARTS-SEAT-JOURNEY-PENDING-001",
+  "destination_checkpoint": "D342-1630-ANCESTRAL-SEAT-OUTER-APPROACH-V-DECISION-001",
+  "source_evidence": "Exact player 'Great continue' resumes chosen on-foot ancestral-seat expedition after peaceful Flint Banner encounter, no new agreement or detour. D341~11:37–15:37 V/Cirren/Fenar/Mara walk another6 terrain miles following source-fixed aqueduct corridor, pass the dry masonry turnout at mile8 where the broad cart track ends, continue on broken watercourse footpath to mile12, camp on firm ground off the track with ordinary watch rotations; no new lodging, expense, new foe or gear use. D341 day occurrence already triggered and resolved peacefully, cap1/1 used for expected2-day leg, skip D341 night random check under one-encounter-day rule; no invented dice. D341 daily consumption3 ration-days and4 horse-feed units once, traveling21→18, stored rations9 unchanged, feed40→36 at Hessa's agreed care site. Quiet qualifying wilderness overnight D341→342, Short Rest for all, LR0→1/6, no HD spent or pre-rest V feature needed because HP and Psi full, all pools unchanged. Routine D342 dawn Tamsin contact under standing exception, no specific reply or estate outcome inferred. D342~07:30 depart; at washed half-mile section of source-fixed corridor (around mile16) Mara and Fenar lead patient daylight ridge reconnaissance, one extra hour, reidentify continuing aqueduct alignment and mark return route, no uncertain rapid-search roll or forced march (8h onward travel plus 1h local survey), no new expense. D342 random travel occurrence skipped because leg cap1/1 already reached; not a rolled quiet result. D342~16:30 reach mile24, outer approach of prepared ancestral-seat ruins in western Ossent. Fixed prep dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167 lines1–57. Party at local(0,0) foot of gently rising stone road, daylight. Visible broken conduit feeding a large rectangular receiving cistern west of road (~50ft away), terraced approach, roofless twin gatehouses around uphill arch (~110ft), scattered masonry and weathered walls. Mara compares visible landmarks to Caul's historical sketch; strong correspondence to aqueduct/cistern/gatehouse grouping, likely old seat but not independent household inscription yet examined and no conclusive identity, title or childhood memory granted. No living occupants visibly present from approach, no claim site cleared; fixed motionless gate defenders remain unrevealed, no initiative, no armed approach within30ft of gate or trigger. No building entered, no hazard crossed, no item recovered. D342 completed travel-day charge3 ration-days/4 horse-feed once, carried18→15, stored9 unchanged, feed36→32, total24 rations; no further D342 rest. Hessa agreed care for intact coach/four horses and stored ancestral originals remains unchanged, no independent estate or Flint Banner outcome assumed. All combat resources and HP unchanged. V next decision on actual approach (inspect receiving cistern, move toward gate, survey exterior, etc.).",
+  "pending_action": "D342~16:30 ancestral-seat suspected outer approach, 24/24 terrain miles WNW from Silverward, outward foot leg complete cap1/1 (D341 peaceful Flint Banner), V/Cirren/Fenar/Mara at local(0,0) below rising10ft-wide stone road. Cistern west x−65..−25 y30..70 roughly50ft from party, broken conduit, uphill arch/twin roofless gatehouses y100–120 roughly110ft, surrounding weathered walls; no occupant/foe visibly identified, no entry, no combat, no confirmed independent household marker/title. Source prep dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167, actual visible landmark grouping fits Caul sketch; V chooses approach/inspection. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara copies/sketch; ancestral originals and coach/four horses in Hessa's agreed temporary care up to7 days, no new outcome inferred. Carried rations15/21, stored9, total24; feed32 at Silverward after D341/D342 charges once; purse1512gp3sp6cp, LR1/6 from D341 wilderness night, D342 dawn Tamsin contact accounted. Flint Banner introduction to Voss pending actual response; Hessa funded development and mine-assessment mandate pending verified results; all prior estate/ancestry/commission/correspondence/custody unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D341-FLINT-BANNER-VOSS-INTRODUCTION-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Known journey, predeclared travel cap already consumed, ordinary cautious navigation with prepared deterministic ridge survey, qualifying quiet rest and visible landmarks; no uncertain check or new random occurrence drawn."
+  },
+  "events": [
+    {
+      "event_id": "D341-342-SEAT-FOOT-TRAVEL-REST-PROVISIONS-001",
+      "accepted": true,
+      "evidence": "Complete remaining6mi D341, quiet overnight LR0→1, D342 12mi plus one-hour ridge survey, cap skips night/day rolls, daily supply charges3/4 twice: carried21→15, stored9 unchanged, feed40→32. No HP, feature, money or other resource changes. Tamsin dawn routine contact.",
+      "before": "D341 11:37,6/24mi, carried21 feed40 LR0/6.",
+      "after": "D342 16:30,24/24mi, carried15 feed32 LR1/6.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D342-SEAT-OUTER-APPROACH-LANDMARKS-SIGHTED-001",
+      "accepted": true,
+      "evidence": "At approach(0,0) see broken conduit/cistern/terraced road/twin gatehouses matching Caul sketch; likely ancestral seat, independent household evidence not yet found; no threshold crossed, attack or claim.",
+      "before": "WNW approach journey underway.",
+      "after": "At suspected old seat's outer approach, V chooses next action.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
