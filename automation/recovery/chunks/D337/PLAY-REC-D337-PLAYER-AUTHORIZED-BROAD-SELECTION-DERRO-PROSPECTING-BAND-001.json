@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-PLAYER-AUTHORIZED-BROAD-SELECTION-DERRO-PROSPECTING-BAND-001",
+  "base_commit": "f7eb3bb50f3fa03e7fd6829aae1d0d5a43f4bda7",
+  "source_checkpoint": "D337-1130-SILVERWARD-RETURN-TRACK-GNOLL-HUNTING-BAND-SIGHTED-V-DECISION-001",
+  "destination_checkpoint": "D337-1130-SILVERWARD-TRACK-DERRO-PROSPECTING-WARBAND-V-DECISION-001",
+  "source_evidence": "Exact player 'yes' accepts the immediately preceding recommendation to redo ONLY the still-unengaged Day337 encounter selection and improve the selection pool. Preserve D335 provisioning, all D336 travel/rest, actual D337 occurrence28/type57/severity89, Long Rest and resources, time11:30, route24/30mi, cap1/1; no encounter replay, extra frequency check or difficulty downgrade. Supersede the eight-gnoll roster/sighting only; its earlier genuine identity roll13/79 remains auditable, not current. New pre-draw table37 group/activity/composition candidates, weighted82, based on full source index @53a02f9c87d250ce3a89bd6b9af7038839095b52, seed catalogue @cc07d27238d415112b8f8fa52dafc700d81438d6 and scoped source-metadata review of VGM, MTF, BGG, GGR, MOT, WBtW, ERLW, IDRotF, FTD, PotA, SKT, EGW, DSotDQ, JttRC, MPMM, VRGR, CM, TftYP, GoS, WDMM, ToA, BGDIA, CRCotN and OotA. Not exhaustive ingestion/verification of every monster in the index; candidate table estimates are preselection, only selected composition mechanically activated. Ecology: temperate western Ossent wooded hills and sheltered rocky cuts, eligible hostile organized predators/armed groups, plausible inherited/transplanted communities, no imported named setting factions, fresh portal or automatic regional settlement. Reduce recent gnoll and Dolgaunt-family weights to1, other recent aberrants downweighted, keep repeats possible. Actual visible Python secrets batch6cb4ca9704baa988f233fa74c34f42da d82=30 maps row11 range30–31 DERRO prospecting warband, three Derro Savants and four Derro, hostile extraction from shaded hillside mine entrance. Full selected MTF pp158–159 records read @acfdc49a791dda52bbc4907e66aae370406f6f94, PHB spells read @18629ea6f73589442ca0ccade54105fb581e9ec8. CR3x3 (700XP each)+CR1/4x4 (50XP each)=2300 base×2.5=5750 adjusted, Deadly under three level7 thresholds; actual threat especially high due to multiple spellcasters and group clustered in coach. No concealed extra forces or legendary actions. Derro (Small humanoid, AC13 HP13 speed30 STR10 DEX14 CON12 INT11 WIS5 CHA9, Stealth+4 passive7 darkvision120, Dwarvish/Undercommon, Magic Resistance adv against spells and magical effects, Sunlight Sensitivity disadvantage attack rolls/sight Perception in sunlight, Hooked Spear +2 reach5 1d6 piercing OR choose no damage and prone Medium/smaller, light crossbow+4 80/320 1d8+2). Savant (Small humanoid AC13 HP36 speed30 STR9 DEX14 CON12 INT11 WIS5 CHA14, Stealth+4 passive7 darkvision120, same languages/traits, staff+1 reach5 1d6-1; 5th-level CHA caster DC12 +4, cantrips Acid Splash/Mage Hand/Message/Prestidigitation/Ray of Frost; L1 4 Burning Hands/Chromatic Orb/Sleep, L2 3 Invisibility/Spider Climb, L3 2 Lightning Bolt EACH, no precasts. Genuine normal material components assumed for listed monster casting via ordinary spell component supplies, no special diamond added; Chromatic Orb only if required 50gp diamond actually established, otherwise unavailable. No campaign banned spells. Lightning Bolt 100ft×5ft Dex12 8d6 half on success, cannot through total cover; sunlight does not impose disadvantage on save-based spells. Magic Resistance only actual applicable saves, no damage resistance. Spell details verified PHB.) New local situation fixed before player action: distinct narrow shaded stone cut with small natural fissure/rough excavation at east side of road, about6 rough miles short of Silverward, finite underground prospecting group working stones and tools, not new estate, ancient seat, Vaishnavi tie, confirmed valuable ore, rescue hook or larger faction. They have armed guards and sorcerers, protect their extraction and seek supplies/pack cargo, hostile to passing group when sighted; two guards level crossbows, one savant shouts harsh command; no attack, spell, automatic surrender or initiative. Road direction +y, 15ft width, coach center(0,0) Mara reins, four horses ahead; V/Cirren/Fenar aboard, no dismount. Road clear south and north; D1(35,45) and D2(35,65) z0 near rock barriers half cover from coach, D3(55,45) and D4(55,65) z+5, S1(65,60) and S2(75,65) z+10 on shaded shelf, S3(70,80) z+10 at fissure mouth, half cover from low rocks for S1/S3, S2 exposed from road. Nearest~55–60ft, farthest~105–110ft; off-road rocky slope/scrub difficult terrain, not road; actual deep rock shade where foes stand, open direct daylight track; light/cover adjust by actual movement. Both sides visibly aware, no surprise, no assumed hidden foes. Threat may be avoided or confronted; no auto-attack or forced choice. No V resource/custody/time change, D337 daily supply charge still pending, same exact scene timing. Fixed replacement only; source/owner sync pending.",
+  "pending_action": "Day337~11:30 rough Silverward track, 24/30mi return journey complete, 6mi remain. V/Cirren/Fenar aboard healthy coach center(0,0), Mara reins/four horses. Player-authorized replacement of gnoll identity only; current seven Derro (3 Savants AC13HP36, 4 Derro AC13HP13) in shaded east-side rocky extraction cut, actual fixed geometry and spells in evidence. Both sides aware, two crossbows leveled, no attack, precast, initiative, injury, new resources or forced dismount. Nearest~55–60ft, casters~90–110ft, road clear both directions, shade/half cover/difficult terrain as fixed. Actual occurrence28/type57/severity89 retained; new d82=30 row11, 5750 adjusted XP Deadly, cap1/1 used. V next action. D335 purchases17gp,30/40 supplies; D336 consumed3/4, current rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. Two qualifying nights LR4→5→6/6 dawn337 completed, now LR0/6, V48/48 AC19 HD7/7 Sup4/4 Psi6/6 MP7/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone Galepierce carried dice delegated. Cirren51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration. Fenar59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. No active effects. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower in V practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers still pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds 2 original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul's historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign's child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site still needs preparation before expedition beyond Silverward. Other prior pending commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending. V next action at sighted encounter.",
+  "depends_on": [
+    "PLAY-REC-D335-337-TOWER-PROVISIONS-LONGREST-SILVERWARD-GNOLL-BAND-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "6cb4ca9704baa988f233fa74c34f42da",
+        "rolls": [
+          {
+            "id": "D337.authorized_replacement.organized_predator_selection",
+            "sides": 82,
+            "faces": [
+              30
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "selection_table": [
+    {
+      "row": 1,
+      "name": "Gnoll hunting band",
+      "source": "MM/VGM",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "composition": "1 Fang of Yeenoghu, 4 Flesh Gnawers, 3 Hunters",
+      "activity": "pack pursuing prey through hills",
+      "estimated_adjusted_xp": 5500
+    },
+    {
+      "row": 2,
+      "name": "Dolgaunt and Dolgrims",
+      "source": "ERLW",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "composition": "3 Dolgaunts, 4 Dolgrims",
+      "activity": "organized raiding party at a distinct rocky refuge",
+      "estimated_adjusted_xp": 6250
+    },
+    {
+      "row": 3,
+      "name": "Hobgoblin splinter company",
+      "source": "VGM",
+      "weight": 5,
+      "range": [
+        3,
+        7
+      ],
+      "composition": "1 Devastator, 4 Iron Shadows",
+      "activity": "seizing hillside lookout for raiding base",
+      "estimated_adjusted_xp": 5800
+    },
+    {
+      "row": 4,
+      "name": "Orc raiding detachment",
+      "source": "VGM",
+      "weight": 5,
+      "range": [
+        8,
+        12
+      ],
+      "composition": "1 Blade of Ilneval, 3 Red Fangs",
+      "activity": "pursuing rival raiders through rocky woodland",
+      "estimated_adjusted_xp": 6400
+    },
+    {
+      "row": 5,
+      "name": "Renegade archers",
+      "source": "VGM",
+      "weight": 3,
+      "range": [
+        13,
+        15
+      ],
+      "composition": "4 Archers",
+      "activity": "lethal ambush from elevated rocky shelf",
+      "estimated_adjusted_xp": 5600
+    },
+    {
+      "row": 6,
+      "name": "Darkling band",
+      "source": "VGM",
+      "weight": 2,
+      "range": [
+        16,
+        17
+      ],
+      "composition": "4 Darkling Elders, 4 Darklings",
+      "activity": "ambush from shaded ravine",
+      "estimated_adjusted_xp": 5500
+    },
+    {
+      "row": 7,
+      "name": "Redcap gathering",
+      "source": "VGM",
+      "weight": 3,
+      "range": [
+        18,
+        20
+      ],
+      "composition": "4 Redcaps",
+      "activity": "violent pursuit through abandoned grazing clearing",
+      "estimated_adjusted_xp": 5600
+    },
+    {
+      "row": 8,
+      "name": "Meenlock brood",
+      "source": "VGM",
+      "weight": 2,
+      "range": [
+        21,
+        22
+      ],
+      "composition": "6 Meenlocks",
+      "activity": "coordinated attack from shadowed burrows",
+      "estimated_adjusted_xp": 5400
+    },
+    {
+      "row": 9,
+      "name": "Ogre siege band",
+      "source": "MTF",
+      "weight": 4,
+      "range": [
+        23,
+        26
+      ],
+      "composition": "1 Battering Ram, 2 Chain Brutes, 2 Bolt Launchers",
+      "activity": "breaking apart abandoned stone shelter",
+      "estimated_adjusted_xp": 6800
+    },
+    {
+      "row": 10,
+      "name": "Duergar surface expedition",
+      "source": "MTF",
+      "weight": 3,
+      "range": [
+        27,
+        29
+      ],
+      "composition": "1 Warlord, 2 Stone Guards",
+      "activity": "defending newly opened rocky fissure",
+      "estimated_adjusted_xp": 6400
+    },
+    {
+      "row": 11,
+      "name": "Derro prospecting warband",
+      "source": "MTF",
+      "weight": 2,
+      "range": [
+        30,
+        31
+      ],
+      "composition": "3 Savants, 4 Derro",
+      "activity": "aggressive extraction from shaded hillside mine entrance",
+      "estimated_adjusted_xp": 5750
+    },
+    {
+      "row": 12,
+      "name": "Kruthik hunting colony",
+      "source": "MTF",
+      "weight": 2,
+      "range": [
+        32,
+        33
+      ],
+      "composition": "1 Hive Lord, 4 Adult Kruthiks",
+      "activity": "coordinated emergence from burrows",
+      "estimated_adjusted_xp": 7200
+    },
+    {
+      "row": 13,
+      "name": "Venom troll pair",
+      "source": "MTF",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "composition": "2 Venom Trolls",
+      "activity": "fighting over feeding site in damp hollow",
+      "estimated_adjusted_xp": 8700
+    },
+    {
+      "row": 14,
+      "name": "Hostile firbolg splinter band",
+      "source": "BGG",
+      "weight": 2,
+      "range": [
+        35,
+        36
+      ],
+      "composition": "1 Wanderer, 2 Primeval Wardens",
+      "activity": "territorial confrontation at wooded boundary",
+      "estimated_adjusted_xp": 8000
+    },
+    {
+      "row": 15,
+      "name": "Fensir hunting pair",
+      "source": "BGG",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "composition": "2 Fensir Skirmishers",
+      "activity": "searching for livestock at rocky defile",
+      "estimated_adjusted_xp": 6900
+    },
+    {
+      "row": 16,
+      "name": "Kraul foraging company",
+      "source": "GGR",
+      "weight": 3,
+      "range": [
+        38,
+        40
+      ],
+      "composition": "2 Death Priests, 6 Warriors",
+      "activity": "predation along shaded stone terrace",
+      "estimated_adjusted_xp": 7000
+    },
+    {
+      "row": 17,
+      "name": "Rubblebelt raiding crew",
+      "source": "GGR",
+      "weight": 3,
+      "range": [
+        41,
+        43
+      ],
+      "composition": "1 Mind Mage, 6 Rubblebelt Stalkers",
+      "activity": "concealed attack around broken walls",
+      "estimated_adjusted_xp": 6000
+    },
+    {
+      "row": 18,
+      "name": "Satyr thornbearer band",
+      "source": "MOT",
+      "weight": 3,
+      "range": [
+        44,
+        46
+      ],
+      "composition": "6 Satyr Thornbearers",
+      "activity": "violent territorial defense of ravine",
+      "estimated_adjusted_xp": 5400
+    },
+    {
+      "row": 19,
+      "name": "Oread gathering",
+      "source": "MOT",
+      "weight": 2,
+      "range": [
+        47,
+        48
+      ],
+      "composition": "3 Oreads",
+      "activity": "defense of slope disturbed by quarrying",
+      "estimated_adjusted_xp": 6600
+    },
+    {
+      "row": 20,
+      "name": "Returned warband",
+      "source": "MOT",
+      "weight": 2,
+      "range": [
+        49,
+        50
+      ],
+      "composition": "1 Returned Kakomantis, 2 Returned Palamnites, 2 Returned Sentries",
+      "activity": "revenants emerging from unrelated burial ground",
+      "estimated_adjusted_xp": 7400
+    },
+    {
+      "row": 21,
+      "name": "Cerberus hunting pack",
+      "source": "MOT",
+      "weight": 2,
+      "range": [
+        51,
+        52
+      ],
+      "composition": "6 Two-Headed Cerberuses",
+      "activity": "pack cutting off prey",
+      "estimated_adjusted_xp": 5400
+    },
+    {
+      "row": 22,
+      "name": "Bullywug knight band",
+      "source": "WBtW",
+      "weight": 2,
+      "range": [
+        53,
+        54
+      ],
+      "composition": "4 Bullywug Knights",
+      "activity": "violent defense of waterlogged gully",
+      "estimated_adjusted_xp": 5600
+    },
+    {
+      "row": 23,
+      "name": "Displaced construct patrol",
+      "source": "ERLW",
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "composition": "1 Warforged Titan, 3 Warforged Soldiers",
+      "activity": "old military detachment holding abandoned track junction",
+      "estimated_adjusted_xp": 9000
+    },
+    {
+      "row": 24,
+      "name": "Goliath splinter warband",
+      "source": "IDRotF",
+      "weight": 3,
+      "range": [
+        56,
+        58
+      ],
+      "composition": "4 Goliath Warriors",
+      "activity": "independent patrol occupying hill crest",
+      "estimated_adjusted_xp": 5600
+    },
+    {
+      "row": 25,
+      "name": "Verbeeg hunting band",
+      "source": "IDRotF",
+      "weight": 3,
+      "range": [
+        59,
+        61
+      ],
+      "composition": "1 Longstrider, 2 Marauders",
+      "activity": "moving stolen livestock through rocky cutting",
+      "estimated_adjusted_xp": 8000
+    },
+    {
+      "row": 26,
+      "name": "Draconian mercenary remnants",
+      "source": "FTD",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "composition": "1 Dreadnought, 1 Mage, 1 Infiltrator, 3 Foot Soldiers",
+      "activity": "moving captured supplies along sheltered trail",
+      "estimated_adjusted_xp": 5100
+    },
+    {
+      "row": 27,
+      "name": "Earth-magic renegades",
+      "source": "PotA",
+      "weight": 3,
+      "range": [
+        63,
+        65
+      ],
+      "composition": "2 Black Earth Priests, 3 Black Earth Guards",
+      "activity": "earth magic breaching hillside structure, no imported cult identity",
+      "estimated_adjusted_xp": 5500
+    },
+    {
+      "row": 28,
+      "name": "Fire-magic renegades",
+      "source": "PotA",
+      "weight": 2,
+      "range": [
+        66,
+        67
+      ],
+      "composition": "2 Flamewraths",
+      "activity": "burning woodland cover to expose quarry, no imported cult identity",
+      "estimated_adjusted_xp": 6900
+    },
+    {
+      "row": 29,
+      "name": "Core Spawn hunting cluster",
+      "source": "EGW",
+      "weight": 1,
+      "range": [
+        68,
+        68
+      ],
+      "composition": "1 Core Spawn Emissary, 3 Core Spawn Crawlers",
+      "activity": "predation at shaded rocky opening",
+      "estimated_adjusted_xp": 5800
+    },
+    {
+      "row": 30,
+      "name": "Bristled moorbounder pack",
+      "source": "EGW",
+      "weight": 3,
+      "range": [
+        69,
+        71
+      ],
+      "composition": "4 Bristled Moorbounders",
+      "activity": "fast hunt across grassy saddle",
+      "estimated_adjusted_xp": 5600
+    },
+    {
+      "row": 31,
+      "name": "Yuan-ti expedition",
+      "source": "MPMM",
+      "weight": 2,
+      "range": [
+        72,
+        73
+      ],
+      "composition": "1 Pit Master, 1 Mind Whisperer, 2 Broodguards",
+      "activity": "predatory expedition from isolated forest refuge",
+      "estimated_adjusted_xp": 7600
+    },
+    {
+      "row": 32,
+      "name": "Lizardfolk raiding band",
+      "source": "GoS",
+      "weight": 3,
+      "range": [
+        74,
+        76
+      ],
+      "composition": "2 Renders, 1 Subchief, 3 Scaleshields",
+      "activity": "pursuit beside freshwater gully",
+      "estimated_adjusted_xp": 5400
+    },
+    {
+      "row": 33,
+      "name": "Tanarukk pair",
+      "source": "MPMM",
+      "weight": 1,
+      "range": [
+        77,
+        77
+      ],
+      "composition": "2 Tanarukks",
+      "activity": "fighting over abandoned livestock pen",
+      "estimated_adjusted_xp": 5400
+    },
+    {
+      "row": 34,
+      "name": "Werebat hunting band",
+      "source": "WDMM",
+      "weight": 2,
+      "range": [
+        78,
+        79
+      ],
+      "composition": "6 Werebats",
+      "activity": "coordinated predation in deep woodland shade",
+      "estimated_adjusted_xp": 5400
+    },
+    {
+      "row": 35,
+      "name": "Shadar-kai raiders",
+      "source": "MPMM",
+      "weight": 1,
+      "range": [
+        80,
+        80
+      ],
+      "composition": "2 Shadow Dancers",
+      "activity": "independent hostile pair emerging from shaded woodland",
+      "estimated_adjusted_xp": 8700
+    },
+    {
+      "row": 36,
+      "name": "Carrion stalker cluster",
+      "source": "VRGR",
+      "weight": 1,
+      "range": [
+        81,
+        81
+      ],
+      "composition": "4 Carrion Stalkers",
+      "activity": "organized predators around carcass in rocky hollow",
+      "estimated_adjusted_xp": 5600
+    },
+    {
+      "row": 37,
+      "name": "Gloomstalker pair",
+      "source": "EGW",
+      "weight": 1,
+      "range": [
+        82,
+        82
+      ],
+      "composition": "2 Gloomstalkers",
+      "activity": "hunting beneath deep overhanging cliff",
+      "estimated_adjusted_xp": 6900
+    }
+  ],
+  "events": [
+    {
+      "event_id": "D337-PLAYER-AUTHORIZED-REPLACEMENT-DERRO-PROSPECTING-WARBAND-001",
+      "accepted": true,
+      "evidence": "Exact player 'yes' accepts the immediately preceding recommendation to redo ONLY the still-unengaged Day337 encounter selection and improve the selection pool. Preserve D335 provisioning, all D336 travel/rest, actual D337 occurrence28/type57/severity89, Long Rest and resources, time11:30, route24/30mi, cap1/1; no encounter replay, extra frequency check or difficulty downgrade. Supersede the eight-gnoll roster/sighting only; its earlier genuine identity roll13/79 remains auditable, not current. New pre-draw table37 group/activity/composition candidates, weighted82, based on full source index @53a02f9c87d250ce3a89bd6b9af7038839095b52, seed catalogue @cc07d27238d415112b8f8fa52dafc700d81438d6 and scoped source-metadata review of VGM, MTF, BGG, GGR, MOT, WBtW, ERLW, IDRotF, FTD, PotA, SKT, EGW, DSotDQ, JttRC, MPMM, VRGR, CM, TftYP, GoS, WDMM, ToA, BGDIA, CRCotN and OotA. Not exhaustive ingestion/verification of every monster in the index; candidate table estimates are preselection, only selected composition mechanically activated. Ecology: temperate western Ossent wooded hills and sheltered rocky cuts, eligible hostile organized predators/armed groups, plausible inherited/transplanted communities, no imported named setting factions, fresh portal or automatic regional settlement. Reduce recent gnoll and Dolgaunt-family weights to1, other recent aberrants downweighted, keep repeats possible. Actual visible Python secrets batch6cb4ca9704baa988f233fa74c34f42da d82=30 maps row11 range30–31 DERRO prospecting warband, three Derro Savants and four Derro, hostile extraction from shaded hillside mine entrance. Full selected MTF pp158–159 records read @acfdc49a791dda52bbc4907e66aae370406f6f94, PHB spells read @18629ea6f73589442ca0ccade54105fb581e9ec8. CR3x3 (700XP each)+CR1/4x4 (50XP each)=2300 base×2.5=5750 adjusted, Deadly under three level7 thresholds; actual threat especially high due to multiple spellcasters and group clustered in coach. No concealed extra forces or legendary actions. Derro (Small humanoid, AC13 HP13 speed30 STR10 DEX14 CON12 INT11 WIS5 CHA9, Stealth+4 passive7 darkvision120, Dwarvish/Undercommon, Magic Resistance adv against spells and magical effects, Sunlight Sensitivity disadvantage attack rolls/sight Perception in sunlight, Hooked Spear +2 reach5 1d6 piercing OR choose no damage and prone Medium/smaller, light crossbow+4 80/320 1d8+2). Savant (Small humanoid AC13 HP36 speed30 STR9 DEX14 CON12 INT11 WIS5 CHA14, Stealth+4 passive7 darkvision120, same languages/traits, staff+1 reach5 1d6-1; 5th-level CHA caster DC12 +4, cantrips Acid Splash/Mage Hand/Message/Prestidigitation/Ray of Frost; L1 4 Burning Hands/Chromatic Orb/Sleep, L2 3 Invisibility/Spider Climb, L3 2 Lightning Bolt EACH, no precasts. Genuine normal material components assumed for listed monster casting via ordinary spell component supplies, no special diamond added; Chromatic Orb only if required 50gp diamond actually established, otherwise unavailable. No campaign banned spells. Lightning Bolt 100ft×5ft Dex12 8d6 half on success, cannot through total cover; sunlight does not impose disadvantage on save-based spells. Magic Resistance only actual applicable saves, no damage resistance. Spell details verified PHB.) New local situation fixed before player action: distinct narrow shaded stone cut with small natural fissure/rough excavation at east side of road, about6 rough miles short of Silverward, finite underground prospecting group working stones and tools, not new estate, ancient seat, Vaishnavi tie, confirmed valuable ore, rescue hook or larger faction. They have armed guards and sorcerers, protect their extraction and seek supplies/pack cargo, hostile to passing group when sighted; two guards level crossbows, one savant shouts harsh command; no attack, spell, automatic surrender or initiative. Road direction +y, 15ft width, coach center(0,0) Mara reins, four horses ahead; V/Cirren/Fenar aboard, no dismount. Road clear south and north; D1(35,45) and D2(35,65) z0 near rock barriers half cover from coach, D3(55,45) and D4(55,65) z+5, S1(65,60) and S2(75,65) z+10 on shaded shelf, S3(70,80) z+10 at fissure mouth, half cover from low rocks for S1/S3, S2 exposed from road. Nearest~55–60ft, farthest~105–110ft; off-road rocky slope/scrub difficult terrain, not road; actual deep rock shade where foes stand, open direct daylight track; light/cover adjust by actual movement. Both sides visibly aware, no surprise, no assumed hidden foes. Threat may be avoided or confronted; no auto-attack or forced choice. No V resource/custody/time change, D337 daily supply charge still pending, same exact scene timing. Fixed replacement only; source/owner sync pending.",
+      "before": "Unengaged eight-gnoll sighting on Day337; V decision pending.",
+      "after": "Gnoll roster/sighting superseded by genuinely selected seven-derro extraction group; prior travel and original occurrence/type/severity unchanged, no combat yet.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
