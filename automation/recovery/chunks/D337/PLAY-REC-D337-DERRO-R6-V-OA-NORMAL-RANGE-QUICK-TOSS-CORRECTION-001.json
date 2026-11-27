@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R6-V-OA-NORMAL-RANGE-QUICK-TOSS-CORRECTION-001",
+  "base_commit": "9aba26daef2a65b050a20ec4627be7ccbdbf10f2",
+  "source_checkpoint": "D337-1130-DERRO-R6-V-ADVANCE-VEX-QUICK-TOSS-R7-PENDING-001",
+  "destination_checkpoint": "D337-1130-DERRO-R6-V-OA-QUICK-TOSS-S2-2HP-R7-PENDING-001",
+  "source_evidence": "Exact player 'use outrageous athleticism' immediately follows saved R6 stand/advance/Vex/Quick Toss and authorizes 2MP to close into normal dart range before the same Quick Toss. Explicitly disclosed correction before rolling. No R7 enemy or ally action had occurred. Preserve original R6 stand15ft, movement from(15,55,0) to(22,57,0) costing14.56ft, main Psychic Blade actual d20 12+9=21 hit and d6 2+4=6 psychic against S2, S2 28→22, original Vex 1MP expenditure and original Quick Toss one superiority die expenditure. Supersede only final position and long-range cancellation/no-Sneak interpretation of same bonus attack, not the original hit, damage dice, or spent features. Activate adopted Outrageous Athleticism AFTER standing during R6, 2MP (5→3/7), speed30→60 this turn, jump distance+30. Complete running approach by moving3ft east to(25,57,0) costing6ft across difficult ground (total actual run10.28ft); jump ~21.95ft to(46,61,5) on rough lower slope, within normal dart range ~15.39ft of S2(60,65,10), ~15.68ft from S1(60,60,10). Temporary terrain adjudication: rise5ft across ~21.38ft horizontal leap on established rocky slope, no newly assumed concealment or separate intervening obstacle; ordinary jump distance cost, difficult-terrain landing check DC10 Acrobatics. Total movement spent~57.51ft of60, remaining~2.49ft, no opportunity attack. Actual new visible batch93bef7fe19e11d2d4e670557d02eb8ed: landing d20=12 +8 (proficient Acrobatics7 plus Luckstone1)=20 succeeds, upright. At normal range Vex grants advantage, preserve original Quick Toss d20 face15 from batcha6832ebd7dafe324269dfb9de5b36b13, add genuine second d20 face16, keep16+9=25 vsAC13 hit, no critical. Preserve original dart d4=3+4 and superiority d8=4, add newly eligible Sneak Attack2d6=6,3=9, total Quick Toss20 piercing, S2 corrected 22→2/36 (previously posted11→2, not a third attack). No further MP beyond two OA, no extra superiority, no additional action or BA, no new weapon custody. V HP10/48, reaction ready, end R6 before R7 savants. Original receipts remain immutable; new receipt records only actual additional dice.",
+  "pending_action": "Day337~11:30 end R6 V initiative6 at(46,61,5), upright HP10/48 AC19, action/BA spent, reaction available, ~2.49ft movement remaining at temporary speed60 (OA ends turn). MP3/7 Sup2/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone; unique Galepierce at/by dead D3(55,45,5) not recovered, ordinary dart untracked. Dice delegated. Initiative S1/S2 17 Mara15 C13 F11 V6, next R7 S17. C(15,50,0)51/51 AC19 HD6/6 slots4/1/0 CD2/2, R6 action/BA spent, reaction available, no concentration. F(46,65,10)0/59 AC16 HD6/6 unconscious prone, 0 successes/1 failure, Rage1/4 inactive Shift3/3 inactive MP2/6 CLIMB40 no THP, no Reckless, R6 death save resolved. S1(60,60,10)36/36 AC13 plus half cover where applicable, S2(60,65,10)2/36 AC13 exposed, both L3 0/2 L2 2/3 L1 4/4 R6 action spent reaction available no concentration. S3 and D1–D4 dead. Mara coach(0,-60) intact healthy four horses. Road clear, rough slope difficult. No active Ready, Vex consumed by Quick Toss; no R7 roll/action. D335 provisions17gp, D336 charge3/4, rations27/feed36, D337 full-day charge pending; purse2020gp8sp6cp; LR completed dawn337 now0/6. All prior Caul/tower/Hessa/Silverward/custody/ancestry/commission facts unchanged per dependency. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R6-V-ADVANCE-VEX-QUICK-TOSS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "93bef7fe19e11d2d4e670557d02eb8ed",
+        "rolls": [
+          {
+            "id": "D337.R6.V.OA.landing.Acrobatics",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D337.R6.V.Quick_Toss.Vex.additional_advantage_die",
+            "sides": 20,
+            "faces": [
+              16
+            ]
+          },
+          {
+            "id": "D337.R6.V.Quick_Toss.Sneak_Attack",
+            "sides": 6,
+            "faces": [
+              6,
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R6-V-OA-NORMAL-RANGE-QUICK-TOSS-CORRECTION-001",
+      "accepted": true,
+      "evidence": "Exact player 'use outrageous athleticism' immediately follows saved R6 stand/advance/Vex/Quick Toss and authorizes 2MP to close into normal dart range before the same Quick Toss. Explicitly disclosed correction before rolling. No R7 enemy or ally action had occurred. Preserve original R6 stand15ft, movement from(15,55,0) to(22,57,0) costing14.56ft, main Psychic Blade actual d20 12+9=21 hit and d6 2+4=6 psychic against S2, S2 28→22, original Vex 1MP expenditure and original Quick Toss one superiority die expenditure. Supersede only final position and long-range cancellation/no-Sneak interpretation of same bonus attack, not the original hit, damage dice, or spent features. Activate adopted Outrageous Athleticism AFTER standing during R6, 2MP (5→3/7), speed30→60 this turn, jump distance+30. Complete running approach by moving3ft east to(25,57,0) costing6ft across difficult ground (total actual run10.28ft); jump ~21.95ft to(46,61,5) on rough lower slope, within normal dart range ~15.39ft of S2(60,65,10), ~15.68ft from S1(60,60,10). Temporary terrain adjudication: rise5ft across ~21.38ft horizontal leap on established rocky slope, no newly assumed concealment or separate intervening obstacle; ordinary jump distance cost, difficult-terrain landing check DC10 Acrobatics. Total movement spent~57.51ft of60, remaining~2.49ft, no opportunity attack. Actual new visible batch93bef7fe19e11d2d4e670557d02eb8ed: landing d20=12 +8 (proficient Acrobatics7 plus Luckstone1)=20 succeeds, upright. At normal range Vex grants advantage, preserve original Quick Toss d20 face15 from batcha6832ebd7dafe324269dfb9de5b36b13, add genuine second d20 face16, keep16+9=25 vsAC13 hit, no critical. Preserve original dart d4=3+4 and superiority d8=4, add newly eligible Sneak Attack2d6=6,3=9, total Quick Toss20 piercing, S2 corrected 22→2/36 (previously posted11→2, not a third attack). No further MP beyond two OA, no extra superiority, no additional action or BA, no new weapon custody. V HP10/48, reaction ready, end R6 before R7 savants. Original receipts remain immutable; new receipt records only actual additional dice.",
+      "before": "V upright(22,57,0),10/48, MP5/7, Sup2/4, S2 11/36, R6 action/BA spent, R7 pending.",
+      "after": "V upright(46,61,5),10/48, MP3/7 Sup2/4, S2 2/36, same action/BA spent, reaction ready, R7 pending; original attack corrected, not duplicated.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
