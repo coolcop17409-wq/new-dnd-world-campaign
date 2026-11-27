@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D337-DERRO-R5-R6-SAVANT3-KILLED-V-REVIVED-001",
+  "base_commit": "3e83321fec3fc3897cdc1819965b79802d256fed",
+  "source_checkpoint": "D337-1130-DERRO-R4-V-VEX-BONUS-D4-DEAD-R5-PENDING-001",
+  "destination_checkpoint": "D337-1130-DERRO-R6-V-PRONE-TWO-SAVANTS-FENAR-DOWN-001",
+  "source_evidence": "Player 'continue' authorizes resuming corrected end R4; D4 dead so no D5 action. R5 S1 Ray of Frost at Cirren d20 13+4=17 miss AC19; S2 Ray at V 6+4=10 miss; S3 Ray at V 16+4=20 hits AC19, 2d8=6,3 total9 cold, V8→0 unconscious/prone, no instant death. No other damage. All savants stay shaded at fixed positions, L3 exhausted, no slots for cantrips. Mara continues previously authorized controlled backing 10ft to coach(0,-50), intact four horses. Batch23331b513a207898520089384390b664.\n\nR5 C13 independently honors V's earlier request and uses L2 Healing Word BA on Fenar within60ft, 2d4=3,4+5=12 HP, F0→12 conscious prone, prior death failure cleared. C L2 3→2/3. C moves 5ft to(15,50,0) costing10ft rough ground, adjacent to V, attempts action Medicine stabilization d20=1+8=9/DC10 FAIL. V remains dying. F11 stands (20ft), activates Rage Beast Claws BA (Rage2→1/4), uses adopted Outrageous Athleticism 2MP (4→2/6) for speed70 this turn. Climbs across rough slope to(46,65,10), using CLIMB adaptation and conservative double rough movement cost ~36.6ft, total ~56.6ft with standing; no ability check. Within4ft of S3(50,65,10). Avoids Reckless due low HP and multiple casters. Attack action: Double-Claw Rend d20 9+8=17 hit AC13, d12=11+7=18; Beast Claw17+8=25 hit d6=3+7=10; extra Beast Claw14+8=22 hit d6=1+7=8. S3 36→18→8→0 dead, F12/59, no other target in reach with remaining movement. V R5 turn at0HP rolls Reborn death save advantage7,12 keep12 (+2 attuned cloak/Luckstone)=14 vs10, one success, no failures; no action. OA ends at F turn end. Actual batcha3d138b824c1d6d0092220b2e1ae66f6.\n\nR6 S1 moves5ft west to(60,60,10) costing10ft difficult, casts Burning Hands L2 on Fenar alone, range14.87ft, F Danger Sense Dex advantage20,4 keep20+2=22/DC12 succeeds; 4d6=6,6,6,2 total20 half10 fire, F12→2. S2 moves5ft west to(60,65,10), casts Burning Hands L2 at Fenar alone distance14ft; Dex adv12,6 keep12+2=14/DC12 success; 4d6=6,1,3,3=13 half6 fire, F2→0 unconscious/prone, Rage/Beast Claws end, no instant death. Each S1/S2 L2 3→2/3, L3 0, no concentration. Mara continues cautious 10ft withdrawal coach center(0,-60), intact four horses. Actual batch2a871f2022d02a41f55546a86ac96d8d.\n\nR6 C13 holds(15,50,0), uses L2 Healing Word BA on V: 2d4=3,2+5=10 HP, V0→10 conscious prone, death save counters reset, C L2 2→1/3, L1 4 and L3 0 unchanged. Action Toll the Dead vs full HP S2 within60ft, Magic Resistance WIS save adv5,16 keep16−3=13/DC16 fail, 2d8=7,1=8 necrotic, S2 36→28. F11 at0 rolls death save7 fail; new death cycle 0 success/1 failure. No further movement/spending/actions, now R6 V initiative6 fresh turn. V Ray of Frost speed penalty expired at S3 would-be next turn R6 (temporary duration ruling after caster death); V speed30. Actual batchb856297747e18ce31d2cd3d0a1a00839.",
+  "pending_action": "Day337~11:30 R6 V initiative6 to act at(15,55,0), HP10/48 AC19, conscious PRONE, action BA reaction fresh, movement30ft (15ft to stand, rough slope difficult); V death saves reset; Ray speed penalty expired at S3 would-be R6 turn. MP6/7 Sup3/4 Psi6/6 HD7/7 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, unique Galepierce lies at/by dead D3(55,45,5), not recovered. Dice delegated. Initiative S1/S2 17 Mara15 C13 F11 V6. C(15,50,0)51/51 AC19 HD6/6 slots4/1/0 CD2/2, R6 action/BA spent, reaction available, no concentration. F(46,65,10)0/59 AC16 HD6/6 unconscious prone, 0 success/1 failure new death cycle, Rage1/4 inactive, Shift3/3 inactive MP2/6 CLIMB40 no THP, no Reckless exposure, R6 death save resolved. S1(60,60,10)36/36 AC13 plus half cover from party where applicable; S2(60,65,10)28/36 AC13 exposed; each L3 0/2 L2 2/3 L1 4/4, R6 action spent, reaction available, no concentration. S3(50,65,10) dead; D1–D4 dead. Mara coach center(0,-60) intact healthy four horses, R6 backing complete. Road clear, off-road rocky slope difficult; V distances S1~46.37ft S2~47.17ft F~34.07ft. No conscious ally in melee. V next decision. D335 provisions17gp; D336 daily charge3/4, rations27/feed36, D337 full-day charge pending. Purse2020gp8sp6cp. LR completed dawn337 now LR0/6. Caul received code/mandate23:50 D335, no response delivered or policy outcomes verified. Tower practical possession, Crown title unresolved, Voss5gp actual workday starts336, seven retainers pending free hiring; no new payroll or money assumed. Silverward Hessa5gp/workday from332, actual work/payroll/proposals pending, six unpaid voluntary guardian workers, resident independent rights preserved; conditional grant not deed, drainage repaired, structural/parcel/legal verification pending. Mara holds two original record leaves, ceramic container, coffer~180gp metal-equivalent/keepsakes in safekeeping/valuation custody not cash/title; copies of Silverward, tower, manor registers and Caul historical approach sketch (aqueduct/cistern/terraced court/twin gatehouses); V holds original tower directive. Caul personally recognizes V as Sovereign child, conditional voluntary reform and oversight consultation pending; no peers informed. Father name/fate, other parent, heart, sealing and actual seat location unresolved, WNW bearing from Silverward. Actual seat route/site needs prep before expedition beyond Silverward. Other prior commissions/correspondence/estate/custody unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-DERRO-R4-V-VEX-BONUS-D4-KILLED-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "23331b513a207898520089384390b664",
+        "rolls": [
+          {
+            "id": "D337.R5.corrected.S1.Ray_of_Frost.Cirren.attack",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          },
+          {
+            "id": "D337.R5.corrected.S2.Ray_of_Frost.V.attack",
+            "sides": 20,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D337.R5.corrected.S3.Ray_of_Frost.V.attack",
+            "sides": 20,
+            "faces": [
+              16
+            ]
+          },
+          {
+            "id": "D337.R5.corrected.S3.Ray_of_Frost.V.damage",
+            "sides": 8,
+            "faces": [
+              6,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "a3d138b824c1d6d0092220b2e1ae66f6",
+        "rolls": [
+          {
+            "id": "D337.R5.Cirren.Healing_Word_L2.Fenar",
+            "sides": 4,
+            "faces": [
+              3,
+              4
+            ]
+          },
+          {
+            "id": "D337.R5.Cirren.Medicine.stabilize_V",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D337.R5.Fenar.Double_Claw_Rend.S3.attack",
+            "sides": 20,
+            "faces": [
+              9
+            ]
+          },
+          {
+            "id": "D337.R5.Fenar.Double_Claw_Rend.S3.damage",
+            "sides": 12,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D337.R5.Fenar.Beast_Claw.S3.attack",
+            "sides": 20,
+            "faces": [
+              17
+            ]
+          },
+          {
+            "id": "D337.R5.Fenar.Beast_Claw.S3.damage",
+            "sides": 6,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D337.R5.Fenar.extra_Beast_Claw.S3.attack",
+            "sides": 20,
+            "faces": [
+              14
+            ]
+          },
+          {
+            "id": "D337.R5.Fenar.extra_Beast_Claw.S3.damage",
+            "sides": 6,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D337.R5.V.death_save.Reborn_advantage",
+            "sides": 20,
+            "faces": [
+              7,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "2a871f2022d02a41f55546a86ac96d8d",
+        "rolls": [
+          {
+            "id": "D337.R6.S1.Burning_Hands_L2.Fenar.Dex",
+            "sides": 20,
+            "faces": [
+              20,
+              4
+            ]
+          },
+          {
+            "id": "D337.R6.S1.Burning_Hands_L2.damage",
+            "sides": 6,
+            "faces": [
+              6,
+              6,
+              6,
+              2
+            ]
+          },
+          {
+            "id": "D337.R6.S2.Burning_Hands_L2.Fenar.Dex",
+            "sides": 20,
+            "faces": [
+              12,
+              6
+            ]
+          },
+          {
+            "id": "D337.R6.S2.Burning_Hands_L2.damage",
+            "sides": 6,
+            "faces": [
+              6,
+              1,
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "b856297747e18ce31d2cd3d0a1a00839",
+        "rolls": [
+          {
+            "id": "D337.R6.Cirren.Healing_Word_L2.V",
+            "sides": 4,
+            "faces": [
+              3,
+              2
+            ]
+          },
+          {
+            "id": "D337.R6.S2.Toll_the_Dead.Wis.magic_resistance",
+            "sides": 20,
+            "faces": [
+              5,
+              16
+            ]
+          },
+          {
+            "id": "D337.R6.Cirren.Toll_the_Dead.S2.damage",
+            "sides": 8,
+            "faces": [
+              7,
+              1
+            ]
+          },
+          {
+            "id": "D337.R6.Fenar.death_save",
+            "sides": 20,
+            "faces": [
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D337-R5-SAVANTS-V-DOWN-001",
+      "accepted": true,
+      "evidence": "Player 'continue' authorizes resuming corrected end R4; D4 dead so no D5 action. R5 S1 Ray of Frost at Cirren d20 13+4=17 miss AC19; S2 Ray at V 6+4=10 miss; S3 Ray at V 16+4=20 hits AC19, 2d8=6,3 total9 cold, V8→0 unconscious/prone, no instant death. No other damage. All savants stay shaded at fixed positions, L3 exhausted, no slots for cantrips. Mara continues previously authorized controlled backing 10ft to coach(0,-50), intact four horses. Batch23331b513a207898520089384390b664.",
+      "before": "V8/48, C51/51, coach0,-40",
+      "after": "V0 prone, C51, coach0,-50",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R5-CIRREN-HEALS-FENAR-SAVANT3-DEAD-001",
+      "accepted": true,
+      "evidence": "R5 C13 independently honors V's earlier request and uses L2 Healing Word BA on Fenar within60ft, 2d4=3,4+5=12 HP, F0→12 conscious prone, prior death failure cleared. C L2 3→2/3. C moves 5ft to(15,50,0) costing10ft rough ground, adjacent to V, attempts action Medicine stabilization d20=1+8=9/DC10 FAIL. V remains dying. F11 stands (20ft), activates Rage Beast Claws BA (Rage2→1/4), uses adopted Outrageous Athleticism 2MP (4→2/6) for speed70 this turn. Climbs across rough slope to(46,65,10), using CLIMB adaptation and conservative double rough movement cost ~36.6ft, total ~56.6ft with standing; no ability check. Within4ft of S3(50,65,10). Avoids Reckless due low HP and multiple casters. Attack action: Double-Claw Rend d20 9+8=17 hit AC13, d12=11+7=18; Beast Claw17+8=25 hit d6=3+7=10; extra Beast Claw14+8=22 hit d6=1+7=8. S3 36→18→8→0 dead, F12/59, no other target in reach with remaining movement. V R5 turn at0HP rolls Reborn death save advantage7,12 keep12 (+2 attuned cloak/Luckstone)=14 vs10, one success, no failures; no action. OA ends at F turn end. Actual batcha3d138b824c1d6d0092220b2e1ae66f6.",
+      "before": "F0 one failure, Rage2 MP4; C L2 3; S3 36",
+      "after": "F12 Rage1 active MP2 at46,65,10; C L2 2; S3 dead; V one death save success",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R6-SAVANTS-FENAR-DOWN-001",
+      "accepted": true,
+      "evidence": "R6 S1 moves5ft west to(60,60,10) costing10ft difficult, casts Burning Hands L2 on Fenar alone, range14.87ft, F Danger Sense Dex advantage20,4 keep20+2=22/DC12 succeeds; 4d6=6,6,6,2 total20 half10 fire, F12→2. S2 moves5ft west to(60,65,10), casts Burning Hands L2 at Fenar alone distance14ft; Dex adv12,6 keep12+2=14/DC12 success; 4d6=6,1,3,3=13 half6 fire, F2→0 unconscious/prone, Rage/Beast Claws end, no instant death. Each S1/S2 L2 3→2/3, L3 0, no concentration. Mara continues cautious 10ft withdrawal coach center(0,-60), intact four horses. Actual batch2a871f2022d02a41f55546a86ac96d8d.",
+      "before": "F12 active Rage; S1/S2 L2 3; coach0,-50",
+      "after": "F0 prone no Rage; both L2 2; coach0,-60",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D337-R6-CIRREN-HEALS-V-FENAR-DEATH-SAVE-001",
+      "accepted": true,
+      "evidence": "R6 C13 holds(15,50,0), uses L2 Healing Word BA on V: 2d4=3,2+5=10 HP, V0→10 conscious prone, death save counters reset, C L2 2→1/3, L1 4 and L3 0 unchanged. Action Toll the Dead vs full HP S2 within60ft, Magic Resistance WIS save adv5,16 keep16−3=13/DC16 fail, 2d8=7,1=8 necrotic, S2 36→28. F11 at0 rolls death save7 fail; new death cycle 0 success/1 failure. No further movement/spending/actions, now R6 V initiative6 fresh turn. V Ray of Frost speed penalty expired at S3 would-be next turn R6 (temporary duration ruling after caster death); V speed30. Actual batchb856297747e18ce31d2cd3d0a1a00839.",
+      "before": "V0 one success, C L2 2, S2 36",
+      "after": "V10 prone reset death saves; C L2 1; S2 28; F0 one failure; V next",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
