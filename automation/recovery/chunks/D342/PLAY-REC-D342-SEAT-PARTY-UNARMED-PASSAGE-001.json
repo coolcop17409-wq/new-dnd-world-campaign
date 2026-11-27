@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-SEAT-PARTY-UNARMED-PASSAGE-001",
+  "base_commit": "973daa6629cbbc8e641764cc1c1b4e04febede6d",
+  "source_checkpoint": "D342-1654-SEAT-SILVER-SWORD-WARNING-TEST-COMPLETE-001",
+  "destination_checkpoint": "D342-1700-SEAT-UNARMED-PARTY-FORECOURT-EXPLORATION-PENDING-001",
+  "source_evidence": "Exact player 'i see then let’s all move in without our weapons' explicitly selects whole-party unarmed entry through main gate. D342~16:54–17:00 V voluntarily leaves his tangible inherited silver sword and single original Galepierce Dart in a sheltered dry recess on stable exterior ground near the previously examined cistern, approximately(-25,30), marked by party for retrieval; no ownership transfer, magical concealment, remote recall guarantee, or new weapon property. Unlimited mundane dart marker is not independent physical stock; all sword-channel attacks including supernatural attacks unavailable while without sword. Fenar willingly caches her actual mechanical greataxe (Double-Claw Rend reskin), two handaxes and four javelins with the same gear; no Rage/Shift or Beast weapon manifested. Cirren willingly caches his dagger, retains worn armor/+1 shield and holy symbol; armor/shield not a weapon for this test. Mara joins without visible weapons; no invented gear inventory, carries her actual sketch and copies. All four enter openly along the road with empty hands, no concealment of actual weapon, no one left as guard. Gear remains physically at exterior cache, no security guarantee beyond sheltered marked placement; V authorized leaving weapons, routine reversible placement chosen by DM. At approach and crossing of arch, both fixed Stone Defenders follow precommitted duty from prep/dm-only/dm-estate-ancestry.md @6b212651690e00944bf9db891893a5fcd6749167 and allow visibly unarmed visitors. They lower warning arms and remain by gate at(-5,110),(5,110), no attack, pursuit, damage, reprogramming, recognition or binding allegiance. Party advances only to central forecourt at approx(0,135), daylight open sky, visible ruined residential rooms ahead north, collapsed upper floor, low weathered walls and dry overgrown garden to east; distant record building not investigated, no inscription read or room entered. Mara observes matching layout and Cirren notes original gate duty appears intact, Fenar pleased. No conclusive household allocation, name, title, new loot or discovery beyond safe passage and forecourt sight. No dice, spell, feature, extra consumption, money, combat or new NPC. V chooses next exploration. Fixed guards remain fully functional and gate not cleared of defense; retrieval route available but bringing arms back through main entrance risks warning again.",
+  "pending_action": "D342~17:00 ancestral-seat central forecourt, daylight, all four party members near(0,135), passed main arch peacefully unarmed. A(-5,110),B(5,110) stone guardians remain at gate, HP52/52 AC16 each full reactions, original bounded armed-entry duty unchanged; no attack, initiative, allegiance or reprogramming. V's inherited silver sword and original Galepierce, Fenar greataxe (Double-Claw Rend),2 handaxes,4 javelins, Cirren dagger physically cached together at sheltered marked exterior recess near(-25,30), unguarded; not lost or transferred. V cannot perform sword-channel attacks while separated, no new recall/range property granted; Cirren retains armor/+1 shield/holy symbol; Fenar unshifted/not raging; Mara sketch/copies retained. Residential rooms visible north, dry garden east, no entry or household inscription examined. Cistern inscription copy and landmarks support suspected identity, independent household proof pending. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned, dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Coach/four horses and originals with Hessa, carried15 rations stored9 feed32 D342 charges applied purse1512gp3sp6cp LR1/6. V next exploration decision; other estate/quest/custody facts unchanged, owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-SILVER-SWORD-GATE-WARNING-TEST-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Player-selected unarmed entry, voluntary companions and deterministic precommitted guardian duty; no uncertain check or combat."
+  },
+  "events": [
+    {
+      "event_id": "D342-SEAT-PARTY-EXTERIOR-WEAPON-CACHE-001",
+      "accepted": true,
+      "evidence": "All actual listed carried weapons cached at marked sheltered exterior recess near(-25,30), all party entering. V sword and Galepierce temporarily outside, F greataxe/2 handaxes/4 javelins, C dagger; no loss or ownership transfer, no extra magical abilities.",
+      "before": "Party armed outside gate.",
+      "after": "Party unarmed, listed gear in marked exterior cache.",
+      "owner_paths": [
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D342-SEAT-PARTY-UNARMED-PASSAGE-001",
+      "accepted": true,
+      "evidence": "All four pass arch unarmed under original programmed duty and enter forecourt(0,135); guardians remain intact and neutral, no further exploration.",
+      "before": "Party outside arch, guardians warning.",
+      "after": "Party in forecourt, next exploration decision pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
