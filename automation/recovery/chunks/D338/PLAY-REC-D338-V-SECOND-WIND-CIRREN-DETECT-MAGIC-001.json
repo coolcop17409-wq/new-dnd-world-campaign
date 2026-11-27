@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D338-V-SECOND-WIND-CIRREN-DETECT-MAGIC-001",
+  "base_commit": "2f05c88f215de3aff6e8ffe8c8b6937d0ad71f58",
+  "source_checkpoint": "D338-0600-DERRO-EXCAVATION-RETURN-RESTED-V-DECISION-001",
+  "destination_checkpoint": "D338-0610-DERRO-ENTRANCE-DETECT-MAGIC-V-FULL-HP-001",
+  "source_evidence": "Exact player 'yes' in response to Cirren's explicit proposal to examine the entrance with Detect Magic and the immediately adjoining offer of refreshed Second Wind to complete V's healing; DM explicitly discloses interpreting yes as approval of both compatible actions. At Day338~06:00 V activates Fighter3 Second Wind BA, genuine user-visible Python secrets batch c8157f18c0f558caa145027a31780928 d10=10+3=13 potential, actual missing-HP cap5, V43→48/48, SecondWind1→0/1; no HD/other resource expenditure. Under wilderness continuous LR rule treat this post-rest limited adventuring feature use in preparation for excavation as significant expenditure, LR1→0/6; no additional short rest or recovery. Cirren independently performs prepared 2014 Detect Magic as a ritual at the known entrance, standard one action plus 10 minutes ritual casting (~06:10), no spell slot or material cost, concentration active up to10 minutes afterward. DM adjudicates the immediate already examined entrance/workface and exposed sample sacks/tools within effective 30ft: no magical presence other than party's existing carried magic items; no new magic aura from the ordinary exposed prospecting equipment/samples or visible accessible entrance surfaces. This is a local finding only, not a guarantee of no magic deeper inside, behind barriers that block the spell, or proof of mineral identity/value. No deeper movement, loot transfer, new foe, weather/encounter roll or item identification; Fenar and Mara keep watch. Time advances only by ritual duration; V next choice is enter passage or another action.",
+  "pending_action": "Day338~06:10 at Derro excavation entrance, Silverward return track. V48/48 AC19 MP7/7 Sup4/4 Psi6/6 HD0/7 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone, original Galepierce carried, dice delegated. Cirren51/51 AC19 HD6/6 slots3/0/0 CD2/2, Detect Magic concentration until ~06:20 unless ended/interrupted; senses no additional magic in immediate effective 30ft of entrance, exposed workface/samples and tools; known carried party magic present. Fenar59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40. Mara nearby road with intact coach/four horses. Seven Derro dead; unclaimed10gp46sp, four light crossbows, four hooked spears, three quarterstaffs, three component pouches, two picks, assorted tools, mineral samples and Undercommon tally; no custody transfer. Prospecting confirmed; mineral/ultimate motive unknown. Only first10ft previously examined, no deeper entry. V decides proceed or other action. Rations24/feed32, D338 charge pending; purse2020gp8sp6cp; LR0/6 after post-rest Second Wind; morning Tamsin contact already accounted for. Prior estate, ancestry, commissions, correspondence and custody facts unchanged. Full owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D337-338-DERRO-CAMP-SHORT-REST-HIT-DICE-RETURN-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "c8157f18c0f558caa145027a31780928",
+        "rolls": [
+          {
+            "id": "D338.V.Second_Wind.post_rest",
+            "sides": 10,
+            "faces": [
+              10
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D338-V-SECOND-WIND-POST-REST-001",
+      "accepted": true,
+      "evidence": "Authorized Second Wind actual d10 10+3=13 potential, capped5 HP; V43→48, SecondWind1→0, LR1→0 under wilderness significant feature expenditure.",
+      "before": "V43/48, SecondWind1/1, LR1/6",
+      "after": "V48/48, SecondWind0/1, LR0/6",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D338-CIRREN-DETECT-MAGIC-ENTRANCE-001",
+      "accepted": true,
+      "evidence": "Cirren ritual Detect Magic at established entrance, no slot spent; no additional magical presence on exposed immediate worksite, only known party carried magic. No deeper entry or proof of absence beyond effective spell reach.",
+      "before": "06:00, no concentration",
+      "after": "~06:10, Detect Magic concentration active ~10 minutes, V decision pending",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
