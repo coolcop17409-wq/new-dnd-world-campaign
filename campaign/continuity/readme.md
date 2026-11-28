@@ -27,10 +27,10 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 ## Atlas review
 
-Current edition `ATLAS-D356-SILVERWARD-ORSELD-001` covers the Silverward seat survey, conditional Crown grants and Orseld approaches. [Verified publication and versions](../../assets/README.md#atlas-review).
+Current edition `ATLAS-D356-REGIONAL-PLACEMENT-001` adds route-relative regional pins for the accepted Silverward and Orseld landmarks. [Verified publication, versions and output hashes](../../assets/README.md#atlas-review).
 
 ## Cooperative writer
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D356-REGIONAL-PLACEMENT-20261128-01 | scope=atlas route-location placement and publication | acquired_UTC=2026-11-28T10:55:08Z | expires_UTC=2026-11-28T11:15:08Z
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-28T10:57:49Z | previous_token=ATLAS-D356-REGIONAL-PLACEMENT-20261128-01 | result=VERIFIED | recovery=assets/README.md#atlas-review
