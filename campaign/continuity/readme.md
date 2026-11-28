@@ -33,4 +33,4 @@ Current edition `ATLAS-D356-REGIONAL-PLACEMENT-001` adds route-relative regional
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-28T10:57:49Z | previous_token=ATLAS-D356-REGIONAL-PLACEMENT-20261128-01 | result=VERIFIED | recovery=assets/README.md#atlas-review
+CAMPAIGN_WRITER | state=CLAIMED | claimed_UTC=2026-11-28T11:10:39Z | token=ESTATE-PROFIT-PATH-20261128-01 | owner=Estate Ledger Updates | base=78a65b6f0cf1fc75f3d2d57a7becf0e0d577aa73 | scope=data/estate/operational-checkpoint.csv,D338+D344-results | expires=2026-11-28T11:30:00Z
