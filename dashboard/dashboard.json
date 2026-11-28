@@ -1,6 +1,6 @@
 {
   "generated_from": "GitHub baseline snapshots and posted campaign event journals",
-  "campaign_day": 324,
+  "campaign_day": 325,
   "estate_status": "PASS",
   "estate_accounting_coverage": {
     "Blackthorn": {
@@ -423,10 +423,10 @@
           "recovery": "Short Rest / Long Rest"
         }
       ],
-      "purse_cp": 319236,
+      "purse_cp": 205186,
       "purse": {
-        "gp": 3192,
-        "sp": 3,
+        "gp": 2051,
+        "sp": 8,
         "cp": 6
       }
     },
@@ -435,7 +435,7 @@
       "level": "6",
       "hp": "51.0",
       "max_hp": "51",
-      "ac": "18",
+      "ac": "19",
       "initiative": "2",
       "speed": "30",
       "resources": [
@@ -489,7 +489,7 @@
       "level": "6",
       "hp": "59.0",
       "max_hp": "59",
-      "ac": "14",
+      "ac": "16",
       "initiative": "2",
       "speed": null,
       "resources": [
@@ -675,15 +675,15 @@
       },
       {
         "item": "Rations (1 day)",
-        "qty": "6.0",
-        "quantity_display": "6.0",
+        "qty": "21.0",
+        "quantity_display": "21.0",
         "holder": "Party/coach supply: recorded15 ration person-days after Day225 travel (B25). No new deduction. Days208–212 exact site/forage/Mara meal provenance unresolved; D-column history preserved. D224-225-TEMP-HARNESS-MANOR-CELLAR-001.",
         "detail": "D196–198: 7 ordinary rations purchased personally at5sp each, combined with 2 Cirren-held forage person-days for 9 person-days consumed by Mara/Cirren/Fenar; stock0, travel cost in"
       },
       {
         "item": "Feed (1 day)",
-        "qty": "8.0",
-        "quantity_display": "8.0",
+        "qty": "28.0",
+        "quantity_display": "28.0",
         "holder": "Party coach: recorded20 horse-feed animal-days after Day225 travel (B26), four healthy horses at Rethwyn rural yard. Days208–212 exact feed reconciliation unresolved; no assumed consumption or restock. D-column history preserved.",
         "detail": "D196–198: 12 horse feed-days purchased personally at5cp each, all12 consumed by four horses over 3-day carriage journey; no feed remains. Purchase6sp included once in V purse row29"
       },
@@ -1481,59 +1481,67 @@
       },
       {
         "item": "D321 raid loot — scimitar",
-        "qty": "1",
-        "quantity_display": "1",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Valenthia / party coach",
         "detail": "Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.",
         "source_event": "D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001"
       },
       {
         "item": "D321 raid loot — daggers",
-        "qty": "2",
-        "quantity_display": "2",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Valenthia / party coach",
         "detail": "Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.",
         "source_event": "D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001"
       },
       {
         "item": "D321 raid loot — longsword",
-        "qty": "1",
-        "quantity_display": "1",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Valenthia / party coach",
         "detail": "Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.",
         "source_event": "D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001"
       },
       {
         "item": "D321 raid loot — shortsword",
-        "qty": "1",
-        "quantity_display": "1",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Valenthia / party coach",
         "detail": "Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.",
         "source_event": "D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001"
       },
       {
         "item": "D321 raid loot — heavy crossbow",
-        "qty": "1",
-        "quantity_display": "1",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Valenthia / party coach",
         "detail": "Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.",
         "source_event": "D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001"
       },
       {
         "item": "D321 raid loot — studded leather",
-        "qty": "1",
-        "quantity_display": "1",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Valenthia / party coach",
         "detail": "Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.",
         "source_event": "D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001"
       },
       {
         "item": "D321 raid loot — splint",
-        "qty": "1",
-        "quantity_display": "1",
+        "qty": "0.0",
+        "quantity_display": "0.0",
         "holder": "Valenthia / party coach",
         "detail": "Actual visible dice, 17gp20sp=19gp, listed armor/weapons from defeated men recovered and retained. No identifiable stolen cargo, no new claims or appraisal. Purse317846cp→319746cp.",
         "source_event": "D321-RAIDERS-LOOT-19GP-AND-EQUIPMENT-001"
+      },
+      {
+        "item": "Ossent royal receiving-office acknowledgment D325",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Valenthia",
+        "detail": "Dated receipt for sealed Crownsunder preliminary invitation handed into royal dispatch custody. Credentials retained; no royal assent, fee or treaty.",
+        "source_event": "D325-ORSAVEN-CROWN-INVITATION-SEALED-DELIVERY-001"
       }
     ],
     "Cirren": [
@@ -1542,7 +1550,7 @@
         "qty": "1",
         "quantity_display": "1",
         "holder": "",
-        "detail": "Shield + breastplate => AC 18"
+        "detail": "D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001: original mundane shield retained UNEQUIPPED; new Shield +1 custody in data/characters/events.csv. No sale/trade."
       },
       {
         "item": "Breastplate",
@@ -1797,6 +1805,22 @@
         "holder": "Cirren",
         "detail": "Player exact 'Give the boots to Cirren'. V transfers the exact single original Boots of Elvenkind purchased earlier D314 for245gp from his own possession to willing Cirren, who accepts gift and wears them. No attunement, no extra funds, no stat changes other than item custody/effect. No roll necessary. Prior merchant sale not replayed; boots are not duplicated. D314~21:35 at Elara's Caereth city residence, after celebratory dinner. V voluntarily gives his single original Boots of Elvenkind bought earlier today for245gp to Cirren, who gratefully accepts and wears them. V no longer possesses or benefits from boots; Cirren has silent footsteps and advantage on Dexterity (Stealth) checks relying on moving silently, no attunement, no universal concealment or armor Stealth penalty cancellation beyond ordinary advantage/disadvantage rules. No new purchase, sale, fee, or duplicate item; market lot remains sold. V purse138gp4sp6cp, food21/feed28, rest3/6, no overnight yet; V48/48 AC19 HD7/7 all pools full attuned cloak+Luckstone2/3, Fenar59/59 HD6/6 Rage4/4 Shift3/3 MP6/6 inactive, Cirren51/51 AC18 HD6/6 slots4/3/3 CD2/2 full, Mara/Elara/4 horses healthy. Defense of Caereth accepted,2500gp conditional milestones and negotiated benefits unearned, tomorrow late afternoon meeting with records access; palace audience requested appointment not confirmed, original Kestrel evidence unchanged, marriage recognized Crownsunder, Severin memorandum reply pending. PixieDust1, peryton specimens and all other custody unchanged. V dice delegated until stop. Await next action/overnight.",
         "source_event": "D314-V-TO-CIRREN-BOOTS-OF-ELVENKIND-GIFT-001"
+      },
+      {
+        "item": "Shield +1",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Cirren",
+        "detail": "Same original consignment purchased by V and gifted to willing Cirren; equipped, AC18→19, no attunement. Old ordinary shield retained unequipped.",
+        "source_event": "D324-V-PURCHASES-CIRREN-PLUS-ONE-SHIELD-385-001"
+      },
+      {
+        "item": "Tobin's second private written reply",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Cirren",
+        "detail": "Actually collected from Sabine D324; private correspondence. Tobin willing to continue letters, no meeting agreed or contents disclosed.",
+        "source_event": "D324-ORSAVEN-CORRESPONDENCE-CIRREN-TOBIN-SECOND-REPLY-001"
       }
     ],
     "Fenar": [
@@ -1949,6 +1973,22 @@
         "holder": "Fenar — physical custody, ownership not adjudicated",
         "detail": "One precision instrument; unknown unappraised value and no magical properties established. No coins or sale proceeds.",
         "source_event": "D281-FENAR-CUSTODY-KESTREL-SEALED-REAGENT-CASE-AND-INSTRUMENT-001"
+      },
+      {
+        "item": "Breastplate",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Fenar",
+        "detail": "Fitted medium breastplate willingly accepted/equipped; AC14→16; no stealth disadvantage. Source accepted340gp.",
+        "source_event": "D324-V-PURCHASES-FENAR-BREASTPLATE-340-001"
+      },
+      {
+        "item": "Insignia of Claws",
+        "qty": "1",
+        "quantity_display": "1",
+        "holder": "Fenar",
+        "detail": "Same original consignment purchased by V and gifted to willing Fenar; equipped, no attunement. Natural weapons/unarmed strikes +1 attack/damage and magical; mechanical greataxe unaffected.",
+        "source_event": "D324-V-PURCHASES-FENAR-INSIGNIA-OF-CLAWS-330-001"
       }
     ]
   },
@@ -2078,15 +2118,6 @@
       "price_gp": "399",
       "status": "Prepared working tool · conditional",
       "terms": "D315-CAERETH-STAIRWRIGHT-S-LAST-REVIEW: CURRENT indicative cash component 399gp (formerly420gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered."
-    },
-    {
-      "settlement": "Caereth",
-      "dealer": "Gilt Thread Repairs",
-      "lot": "Ring of Truth Telling",
-      "qty": "1.",
-      "price_gp": "350.",
-      "status": "Open sale · discovered Day314",
-      "terms": "M7-CAE-05. Prepared, undiscovered. Ask at Gilt Thread Repairs during trade hours. Owner authorizes 350 gp for this lot. Counteroffers go to the owner. No hold or deposit. D314-CAERETH-SCOPED-MAGIC-REV"
     },
     {
       "settlement": "Caereth",
@@ -2237,18 +2268,18 @@
       "dealer": "Splice and Shuttle",
       "lot": "Bands of the Found and Lost (pair)",
       "qty": "1.",
-      "price_gp": "65.",
+      "price_gp": "62",
       "status": "Prepared open sale · undiscovered",
-      "terms": "M7-ALL-04. Prepared, undiscovered. Ask at Splice and Shuttle during trade hours. Owner authorizes 65 gp for this lot. Counteroffers go to the owner. No hold or deposit."
+      "terms": "D335-ALLHAVEN-SPLICE-AND-SHUTTLE-REVIEW: CURRENT asking price 62gp (formerly65gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historical pr"
     },
     {
       "settlement": "Allhaven",
       "dealer": "Crosscurrent Outfitter",
       "lot": "Gloves of Swimming and Climbing",
       "qty": "1.",
-      "price_gp": "380",
+      "price_gp": "361",
       "status": "Available for sale · undiscovered",
-      "terms": "D307-ALLHAVEN-CROSSCURRENT-OUTFITTER-REVIEW: CURRENT asking price 380gp (formerly400gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Histori"
+      "terms": "D335-ALLHAVEN-CROSSCURRENT-OUTFITTER-REVIEW: CURRENT asking price 361gp (formerly380gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Histori"
     },
     {
       "settlement": "Allhaven",
@@ -2291,9 +2322,9 @@
       "dealer": "Evening Cup Pewterer",
       "lot": "Potion of Watchful Rest",
       "qty": "1",
-      "price_gp": "31",
+      "price_gp": "29",
       "status": "Available · owner-authorized sale",
-      "terms": "D314-CAER-VEYLAN-EVENING-CUP-PEWTERER-REVIEW: CURRENT asking price 31gp (formerly33gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historic"
+      "terms": "D335-CAER-VEYLAN-EVENING-CUP-PEWTERER-REVIEW: CURRENT asking price 29gp (formerly31gp); all actual release conditions, quantity, title and custody unchanged. No accepted V quote/hold altered. Historic"
     },
     {
       "settlement": "Caer Veylan",
