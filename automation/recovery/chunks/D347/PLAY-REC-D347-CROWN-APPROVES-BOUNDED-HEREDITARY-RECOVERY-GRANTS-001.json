@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D347-CROWN-APPROVES-BOUNDED-HEREDITARY-RECOVERY-GRANTS-001",
+  "base_commit": "0cd44b5b60d77538ba7956861d8d763d00c25b1b",
+  "source_checkpoint": "D347-1620-ORSAVEN-COMBINED-ESTATE-CLAIMS-FILED-001",
+  "destination_checkpoint": "D347-1715-ORSAVEN-THREE-CROWN-RECOVERY-GRANTS-RECOGNIZED-001",
+  "source_evidence": "Exact player 'We need to make sure our claims are approved and legitimate in the eyes of this crown' directs obtaining substantive Crown recognition and lawful recovery authority on the already filed D347 applications, not purchase, new oath, public monopoly, grant of contested land, or blanket historical sovereignty. At D347~16:20–17:15 competent royal land-disposition officer reviews the existing D326 signed conditional service-house grant, actual D335 signed Caul relinquishment and handover evidence, D342 independent historical dedication/household register/tablets and measured outer-seat plan. DM newly adjudicates ordinary current registry review during actual requested scene: on identification of the tower and seat ruins from submitted surveys/route descriptions, central records list their abandoned historic structures and immediate disused grounds under Crown residual land administration; no recorded subsequent private regrant for those particular structures was located in this review, not exhaustive parcel survey or assertion all surrounding lands unclaimed. Caul's relinquishment is evidence of surrendered practical claims, not itself legal deed. Officer recognizes V's standing as documented hereditary/recovery claimant and accepts both applications on the same established zero-price hereditary recovery basis as D326 Silverward. Obtains competent ordinary Crown countersignatures and physically issues TWO separate signed conditional recovery instruments to V, official counterparts recorded: western customs tower and ancestral seat's identified surviving historic complex and immediate disused grounds subject to actual parcel confirmation. Terms: lawful inspection, preservation, reclamation, noninvasive surveying and safe preparation/restoration within verified scope; hereditary deeds upon competent confirmation of Crown disposable parcel and actual secured hazards/safe isolation/access, protection of existing residents, public rights and any legitimate competing claim. No requirement for full rebuilding, purchase price, deposit, bond, rent, arbitrary minimum capital, personal oath, compulsory military service, forced tenancy, deadline, toll monopoly, automatic mineral/woodland franchise or exemption from ordinary taxes. No adjudication of V's ancient sovereignty, parentage beyond existing evidence, automatic command of constructs or modern title to surrounding acreage. D326 Silverward grant remains fully valid; officer confirms original conditions unchanged and notes actual cooperation/guardian agreement/drainage/safety isolation evidence from filed record; final parcel and actual hazard/access confirmation still required, no new barrier. Newly establishes concrete Crown ordinary field inspection assignment: office appoints competent surveyor/condition inspector to coordinate one western circuit with Hessa/Voss; scheduled departure D348 morning on existing ~3-day Orsaven–Silverward route, earliest planned Silverward D350 arrival and D351 inspection subject to real travel, with tower and seat following once actual safe access arranged. Crown handles routine inspection cost and filing, no V fee; not yet departed or inspected, no guarantees of dates or competing claims. Crown recognizes lawful recovery mandate now, protects it against conflicting new administrative grants while conditions verified, no unconditional ownership or authority to exclude existing lawful users. Separate surrounding land, road easements and timber/quarry/mineral rights remain requested for survey/registry review, no actual concession yet. User's existing authorization to coordinate stewards and ordinary development applies to these documents, not spending or a new funding transfer. Officer will communicate with stewards directly; Mara retains copies and V originals, no duplicate payment or surrender of evidence. Routine evidence-supported land-office review and ordinary Crown countersignature, no contested bargain, skill check or random roll required; decision is newly played Crown action with independently motivated interest in reclamation, restoration, ordinary taxable property, public rights and precedents, no automatic success of future claims. V next choice at office~17:15. No travel, rest, food/feed, personal cash, spell or feature change. No Coris reward, Voss response or other estate outcome inferred.",
+  "pending_action": "D347~17:15 Orsaven royal land-records office, party present, Crown has issued and recorded signed separate conditional hereditary recovery grants for western customs tower and ancestral seat surviving complex/immediate disused grounds on same zero-price terms as existing D326 Silverward grant; V holds both originals and prior Silverward instrument, Mara copies and historical evidence, registrar counterparts retained. All three properties have lawful Crown-recognized recovery authority, not final hereditary deeds; competent parcel, secured hazards/access and existing rights verification remain actual substantive conditions. Crown surveyor/condition inspection circuit assigned, planned departure D348, earliest Silverward D350 arrival/351 inspection, tower/seat follow subject actual access, no inspection or dispatch yet; officials and Hessa/Voss coordinate, no extra fee or full reconstruction requirement. Separate surrounding acreage/road easement/mineral/quarry/timber concessions pending actual evidence, no blanket title or monopoly. Hessa500gp startup and joint mandate unchanged, further funds only actual authorized transfers, Voss/Coris outgoing packets departed345 no receipt/payment verified. V48/48 AC19 HD6/7 (3d10+3d8), MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword+Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara, coach/four horses healthy, rations9 feed12 D347 charge applied, purse1510gp3sp6cp LR1/6, routine Tamsin dawn contacts through347. Coris100gp advance received,300+800 conditional unpaid; magic order balance520gp target353 unchanged. Other estate, Caul, Flint Banner, quest/correspondence/custody unchanged. No lodging arranged; next V action at office. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D344-347-SILVERWARD-COORDINATED-RESTORATION-ORSAVEN-LAND-CLAIMS-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Substantive documented Crown land review and voluntary issuance of conditional grants under established precedent; no uncertain skill check or contested negotiation, final inspection conditions remain."
+  },
+  "events": [
+    {
+      "event_id": "D347-CROWN-TOWER-SEAT-CONDITIONAL-RECOVERY-GRANTS-001",
+      "accepted": true,
+      "evidence": "Crown competent officer/countersignature issues two actual signed conditional recovery grants, western tower and surviving ancestral-seat complex/immediate disused grounds; original Silverward grant reaffirmed. Crown recognizes lawful claimant and provisional recovery authority; zero purchase/bond/rent/deposit, ordinary law/tax, final deed only on substantive parcel/safe-isolation/access and protected existing rights evidence. No blanket ancient land or mineral rights, no payment. V originals, Mara copies.",
+      "before": "Tower and seat claims submitted, Silverward conditional grant valid.",
+      "after": "Three Crown-recognized lawful conditional recovery mandates; title conversion pending actual field verification.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md",
+        "data/estate/operational-checkpoint.csv"
+      ]
+    },
+    {
+      "event_id": "D347-CROWN-WESTERN-PARCEL-INSPECTION-CIRCUIT-ASSIGNED-001",
+      "accepted": true,
+      "evidence": "Royal office assigns competent surveyor/condition inspector and plans D348 departure, earliest D350 arrival/351 Silverward inspection, tower and seat following actual access. Ordinary Crown-paid coordination with stewards, no dispatch/inspection/clearance assumed. Actual competing claims if found handled, no routine delay or repeated approval.",
+      "before": "Combined applications registered, field coordination promised.",
+      "after": "Concrete official inspection assignment and prospective schedule, not completed.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "data/estate/operational-checkpoint.csv"
+      ]
+    }
+  ]
+}
