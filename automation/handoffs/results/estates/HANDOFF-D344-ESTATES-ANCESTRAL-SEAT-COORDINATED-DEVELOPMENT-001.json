@@ -3,15 +3,17 @@
   "lane": "estates",
   "status": "partial",
   "source_commit": "8bd32d61304e18eb47dadc2dab9362a6d2416855",
-  "verified_commit": "fbac9ad045da441a469309b43fad02cce95c3bf7",
-  "summary": "Hessa received coordinated mandate344 and Voss received relay347. Bound Crown instruments for tower/seat registered separately; actual crossing field certificate351 and deed recorded355; tower field certificate354. Voss obtained a 36gp construct reconnaissance estimate and a separate 36gp external access/structural estimate. No paid seat work or cross-estate diversion. Flint captain declined the first preliminary approach.",
+  "verified_commit": "ac555e474e6ab4c2ece2eb66fd6d02fee0fcc21c",
+  "summary": "Coordinated mandate remains partially in progress. By the Day356 cutoff Silverward's bounded deed was recorded Day355 and the return copy is due no earlier than358; the crossing has an actual exterior four-animal service line but its four indoor places remain uncommissioned. Day357–359 replacement sill and Day359 retest precede earliest possible indoor work Day360. Tower field certificate was sent Day355, with registrar response earliest358; Tower still has82gp overdue Voss wages, zero cash, and voluntary2gp commissions as its only evidenced earned line. The verified plan sets cost-covering thresholds and dated next steps without booking future work.",
   "owner_refs": [
     "data/estate/operational-checkpoint.csv#D356-EST-REGIONAL",
     "data/estate/operational-checkpoint.csv#D356-EST-WT-FOLLOW",
     "data/estate/fixed-assets.csv",
     "campaign/continuity/npcs.md",
-    "campaign/continuity/quests.md"
+    "campaign/continuity/quests.md",
+    "data/estate/operational-checkpoint.csv#D356-WT-PROFIT-PATH-001",
+    "data/estate/operational-checkpoint.csv#D356-SW-PROFIT-TIMELINE-001"
   ],
-  "blocker": "Seat has no assigned capital. Crown surveyor has not reached seat; roof, archive floor, access/water and sentry conditions limit scope. Tower wages82gp remain overdue with zero local cash.",
-  "next_trigger": "Tower packet from355 may reach registrar358; Crown-paid exterior seat circuit earliest359 subject to travel. Hessa/Voss can brief owner on 36gp initial or 72gp combined estimates at actual contact. Apply further unrestricted tower receipts to oldest wages immediately."
+  "blocker": "Silverward indoor service depends on safe acceptance and customer-assented rates. Tower retains no confirmed title/service authority for rentals or other facility use before registry response; the pre-V coercive revenue model has no audited net figures. The ancestral seat remains unfunded with roof/archive/access-water conditions and no confirmed productive revenue.",
+  "next_trigger": "Check actual registry return from Day358; perform the Tower's booked voluntary contacts on Days357 and361 only as actually completed. Complete Silverward's funded sill stage by359, then run the safe test; earliest indoor customer service is360 after individual assent. The seat circuit arrives no earlier than359 if Crown travel proceeds; brief Voss/Hessa on actual contact, no cross-estate diversion or unapproved funding."
 }

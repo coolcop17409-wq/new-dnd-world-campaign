@@ -3,15 +3,16 @@
   "lane": "estates",
   "status": "partial",
   "source_commit": "8bd32d61304e18eb47dadc2dab9362a6d2416855",
-  "verified_commit": "fbac9ad045da441a469309b43fad02cce95c3bf7",
-  "summary": "500gp physically received on338 as owner capital, matched to personal debit once. Prior15gp payday settled338, all other Silverward payroll due through355 paid. Exterior feed/tether actually traded; 54gp fitted materials/labor capital and two 15gp inspections paid. No indoor fees or mineral income. Actual six D332\u2013337 player-known responses retained.",
+  "verified_commit": "ac555e474e6ab4c2ece2eb66fd6d02fee0fcc21c",
+  "summary": "500gp physically received on Day338 as owner capital and matched to V's personal debit once. At the verified Day356 cutoff, cash is312.20gp, actual liabilities5.00gp, available307.20gp; 54gp fit-out spend is complete and a separately quoted6gp labor stage remains payable only on performance. Two actual exterior four-animal service days earned1.60gp gross, cost0.40gp feed and contributed1.20gp total; indoor rooms remain closed after failed commissioning and no mineral revenue exists. The Day357–362 repair, retest, first-safe-night and settlement timeline is recorded in the owning checkpoint.",
   "owner_refs": [
     "data/estate/events.csv",
     "data/characters/events.csv",
     "data/estate/operational-checkpoint.csv#D356-EST-SW-FOLLOW",
     "data/estate/fixed-assets.csv",
-    "campaign/continuity/npcs.md"
+    "campaign/continuity/npcs.md",
+    "data/estate/operational-checkpoint.csv#D356-SW-PROFIT-TIMELINE-001"
   ],
-  "blocker": "Interior entrance still fails its renewed load test; replacement sill delivered356. Mineral collection/assay requires separate written sample and access authority. Conditional pack demand cannot become indoor occupancy until signoff.",
-  "next_trigger": "Fit replacement357\u2013359; earned 6gp remaining labor only after performance; retest359; notify conditional customer IDs by first safe night360. Obtain actual registry counterfoil and sample permission on return contact from358. Continue separate outdoor customer work."
+  "blocker": "The four-place indoor service still needs the already-scheduled replacement-sill work and a passed Day359 loaded test. All current prospect responses remain conditional and no indoor price is agreed. Mineral access requires separate written sample/entry authority. Day356 current interval is not fully closed.",
+  "next_trigger": "Complete the quoted sill stage during Days357–359 and pay6gp only after performance; retest on359. If it passes, contact the indexed prospects for actual price/terms and earliest safe service from360. Check the actual Crown return packet from358. Reconcile real weekly margin and wages at the next payday on362."
 }
