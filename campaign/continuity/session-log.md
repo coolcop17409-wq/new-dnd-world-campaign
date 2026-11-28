@@ -131,3 +131,7 @@ Day 334, autonomous estate work (D334-ESTATES-RESOLVED and D334-ESTATES-BIDS-RES
 ### Days 332–337 • Autonomous estate work through Day 337 about 11:30
 
 Hessa Marr began paid stewardship on Day 332. The family ferry stayed independent. The western tower’s administrator began paid work on Day 336. At the river estates the stewards fulfilled customer work and secured finite returns. The Fort submitted its Days 323–336 duty return. D337-ESTATE-RESULT and D337-ESTATE-SMALL-RESULT in the estate operational journal preserve the newly adjudicated responses and original dice. Local news reaches V on actual contact.
+
+### Days 337–356 • Autonomous estate work through Day 356 at about 19:35
+
+Hessa received V’s 500gp investment on Day 338 and settled the overdue crossing payroll. Separate dated adjudications cover the outside tether service, the remaining unsafe frontage, the specialist’s noninvasive mine inspection, the Crown field circuit, Voss’s joint-development instructions and the river estates’ customer work. D356-EST-RESULT and D356-EST-CORRECTIVE-RESULT preserve the original rolls in the estate operational journal. D356-EST-REGIONAL records who received each finding. V learns later local developments on actual contact.

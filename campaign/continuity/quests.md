@@ -761,3 +761,7 @@ D325-ORSAVEN-CROWN-INVITATION-SEALED-DELIVERY-001 — Original sealed invitation
 D325-ORSAVEN-NIGHTGLASS-AUTHENTICATED-SURVEY-COMPARISON-001 — Edric D290 request receipt confirmed at map room. Authenticated survey copy and Hall-mark comparison retained by Mara; original field book stays collection, heart at Nightglass.48road+12rough miles/~3days each way established, no expedition or lineage proof at this event.
 
 D325-NIGHTGLASS-CORIS-DOCUMENTARY-EVIDENCE-FORWARDING-001 — At express request, keeper accepted separate authenticated Coris packet into outgoing correspondence, care of Edric. Mara retains copy; no fee, actual dispatch, recipient receipt, ETA or300/800gp payment. Day325~19:00 next choice pending.
+
+### Silverward regional recovery • Player-known through the Day 347 grant hearing
+
+V funded the crossing with 500gp on Day 338 and asked Hessa and Voss to coordinate the crossing, western customs tower and ancestral seat on Day 344. The Crown gave V signed conditional recovery grants for the bounded tower and seat on Day 347 and retained the earlier crossing grant. Structural safety, resident rights and parcel limits govern development. The ore prospect has a separate mineral-rights inquiry. Later local progress is available from the responsible stewards and registry on actual contact. See D356-EST-DM in the estate operational journal.

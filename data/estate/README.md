@@ -34,6 +34,8 @@ Re-read before writing; use scoped atomic Git trees/commits and expected-head up
 
 ## Latest estate run
 
+D356-EST covers all seven accounts through Day 356 about 19:35, with full closes through 355. D356-EST-REGIONAL owns the funded crossing work, tower payroll exception and separate conditional ancestral-seat account. D356-EST-RESULT and its corrective supplement own new customer responses and actual technical results. Use the dated order rows for fulfillment, collections, retention and outstanding service dates. The Day338 owner capital leg is paired with the single matching debit in the character journal.
+
 D337-ESTATE records completed Days 334–336 and elapsed Day 337 through about 11:30. Two separate stewardship accounts begin on their actual appointment days. Silverward’s 15gp Day334 payday is overdue pending lawful funding. Western Customs Tower’s first payday is 341. The Fort’s submitted 120gp return is due 343. For booked work and the open morning shifts see the dated customer orders in the operational journal.
 
 D334-ESTATES reconciles the four estates from the Day 325 close and previously posted Day 326 activity through the Day 333 close and elapsed Day 334 daylight (about 18:33). Use the newest per-estate coverage entries in `operational-checkpoint.csv`; the D334 work rows carry finite future jobs, remaining storage custody, the BARGE01 Day 335 return, the next Crown return on Day 336, and the earliest possible arrival of named buyer replies on Day 341. Day 327 and Day 334 settlements, actual costs and cumulative liabilities are recorded in the journals. Detailed commercial decisions, original dice and local information dates are in D334-ESTATES-RESOLVED and D334-ESTATES-BIDS-RESOLVED.

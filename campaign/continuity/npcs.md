@@ -703,3 +703,7 @@ D325-ORSAVEN-QUENWOOD-PUBLIC-DISPOSITION-001 — Desen reported Quenwood life se
 D325-ORSAVEN-FERRYMENS-SHARE-FINANCIAL-LEAD-001 — V reviewed authorized financial comparison: pre-death4-C payment for two ferry hulls separate from later false withdrawals. Voluntary shipwright lead introduced; Watch keeps originals, no warrant/seizure/reward or boatyard visit yet at this event.
 
 D325-ORSAVEN-NIGHTGLASS-AUTHENTICATED-SURVEY-COMPARISON-001 — Edric D290 request receipt confirmed at map room. Authenticated survey copy and Hall-mark comparison retained by Mara; original field book stays collection, heart at Nightglass.48road+12rough miles/~3days each way established, no expedition or lineage proof at this event.
+
+### Western Ossent stewards • Day 356
+
+Hessa Marr holds the separate Silverward startup account funded on Day 338. On Day 344 she accepted responsibility for coordinating road, site and commercial assessments. Aldren Voss received her forwarded instructions at the tower on Day 347. He handles lawful access, records, restitution, security inquiries and voluntary trade introductions. Each steward knows their own work and the correspondence they actually received. D356-EST-REGIONAL in the estate operational journal gives the field findings, separate funding and earliest incoming reports.
