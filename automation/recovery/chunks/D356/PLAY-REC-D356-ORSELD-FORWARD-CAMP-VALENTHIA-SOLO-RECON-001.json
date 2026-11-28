@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-FORWARD-CAMP-VALENTHIA-SOLO-RECON-001",
+  "base_commit": "703c7394d033f9f1edfdeb8e0e970b140e3bd726",
+  "source_checkpoint": "D356-1430-ORSELD-FORWARD-CAMP-OBSERVED-FROM-WOODLAND-001",
+  "destination_checkpoint": "D356-1450-ORSELD-FORWARD-CAMP-SOLO-RECON-CULVERT-FOUND-001",
+  "source_evidence": "Exact player 'let me sneak and assess what we are dealing with' authorizes V's solo exterior reconnaissance, not entry into camp, combat, expenditure of limited resources, freeing porters, stealing records or ordering allies to attack. Cirren and Fenar willingly wait under existing woodland cover near(-150,0), Mara remains at waystation with coach/four horses. V moves cautiously around palisade using woods and elevated exterior sightlines to observe the interior over time; no crossing of gate/palisade, forced climbing, or magical movement. Predeclared V Dexterity(Stealth)+11 (expertise10 plus attuned Luckstone1) vs highest active perimeter lookout passive Perception15; genuine executed Python secrets batch f53dd8270749387d5d8349ab844c78f8 d20 face11+11=22 success. Conditional Wisdom(Perception)+5 (+4 proficiency/ability plus Luckstone1), DC13 count/classify visible fighters, DC17 find southern culvert and signs of porters; same batch d20 face13+5=18 succeeds both. By D356~14:50 V confirms all eight armed figures present over the observation interval, recognizes original four from waystation, notes heavily armored apparent captain separate from officer, three scout-type lightly equipped ranged fighters including one elevated sentry and three ordinary guard-type fighters incl gate and stores; no exact HP/AC/identity or allegiance revealed to V. Observed two unarmed adults in/around work shelter under watch; likely coerced labor, not certain status until contact. Fixed camp geometry dm-hollow-pennant.md @ba86b23cb89d85846bb0ae8652d31cf47fd2e4d6: palisade100x80ft, west gate(0,0), central clearing(40,0), stores/tent(70,20), captain area(70,-20), perch(40,40,z15), work shelter(50,-20), dry escape culvert interior(70,-40), exterior mouth in eastern scrub40ft outside east palisade, locally fixed approximate(140,-40). V sees mouth, dry narrow crawlspace about3ft clearance, no interior inspection or traversal, plausible bypass to south/east area, cannot verify entire passage unobstructed until entry. V ends concealed approx(155,-60) in southeast/eastern scrub 25ft from exterior mouth, Cirren/Fenar still west, no telepathic link or contact assumed. P1–P4 returned to clearing, P5 captain area, P6 perch, P7 gate, P8 stores unchanged; two porters in work shelter. Camp has not detected V; no alarm, attack, roll of initiative, deployment, additional supply, remote report or final attack clock. No further clues, seized goods, confirmed names or sponsor, or earned reward. All resources, daily provision charge, coins and custody unchanged. V chooses retreat/report, enter culvert, or further action.",
+  "pending_action": "D356~14:50 Orseld forward camp exterior, V concealed near(155,-60) in eastern scrub ~25ft from visible dry culvert exterior mouth approx(140,-40), no entry; C/F waiting at western wooded rise(-150,0), Mara coach/four horses at waystation. Solo Stealth11+11=22 vs15 success; Perception13+5=18 vs13/17 success. V observed eight fighters incl four recognizable waystation men, a separate heavily armored apparent captain, three scout-type and three guard-type overall plus original officer; two unarmed adults around work shelter under guard, suspected forced labor, status unverified. No alarm/initiative. Fixed map palisade100x80 x0..100 y-40..40, west gate(0,0), clearing(40,0), stores(70,20), captain(70,-20), perch(40,40,z15), work shelter(50,-20), culvert interior(70,-40), exterior mouth ~140,-40. P1 Veteran HP58 AC17,P2/P3 Scouts HP16 AC13,P4 Guard HP11 AC16 near clearing; P5 Knight HP52 AC18 captain area; P6 Scout HP16 AC13 perch; P7 Guard HP11 AC16 gate; P8 Guard HP11 AC16 stores. All intact, ordinary watch, no reinforcements; remaining depot9+Q and command7+C unchanged, sponsor unknown. V48/48 AC19 HD7/7 (3d10+4d8) MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, Hadiya quill unattuned, Wasp Needles acquired, dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Rations21 feed28 D356 charge pending purse966gp4sp6cp LR3/6 Tamsin dawn accounted. All prior commission, estate, case, diplomatic and custody facts unchanged. Next V choice. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-DETACHMENT-TRACKED-TO-FORWARD-CAMP-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "f53dd8270749387d5d8349ab844c78f8",
+        "rolls": [
+          {
+            "id": "D356.V.forward_camp.solo_recon_stealth",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D356.V.forward_camp.exterior_observation_perception",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-FORWARD-CAMP-VALENTHIA-SOLO-RECON-001",
+      "accepted": true,
+      "evidence": "Exact player 'let me sneak and assess what we are dealing with' authorizes V's solo exterior reconnaissance, not entry into camp, combat, expenditure of limited resources, freeing porters, stealing records or ordering allies to attack. Cirren and Fenar willingly wait under existing woodland cover near(-150,0), Mara remains at waystation with coach/four horses. V moves cautiously around palisade using woods and elevated exterior sightlines to observe the interior over time; no crossing of gate/palisade, forced climbing, or magical movement. Predeclared V Dexterity(Stealth)+11 (expertise10 plus attuned Luckstone1) vs highest active perimeter lookout passive Perception15; genuine executed Python secrets batch f53dd8270749387d5d8349ab844c78f8 d20 face11+11=22 success. Conditional Wisdom(Perception)+5 (+4 proficiency/ability plus Luckstone1), DC13 count/classify visible fighters, DC17 find southern culvert and signs of porters; same batch d20 face13+5=18 succeeds both. By D356~14:50 V confirms all eight armed figures present over the observation interval, recognizes original four from waystation, notes heavily armored apparent captain separate from officer, three scout-type lightly equipped ranged fighters including one elevated sentry and three ordinary guard-type fighters incl gate and stores; no exact HP/AC/identity or allegiance revealed to V. Observed two unarmed adults in/around work shelter under watch; likely coerced labor, not certain status until contact. Fixed camp geometry dm-hollow-pennant.md @ba86b23cb89d85846bb0ae8652d31cf47fd2e4d6: palisade100x80ft, west gate(0,0), central clearing(40,0), stores/tent(70,20), captain area(70,-20), perch(40,40,z15), work shelter(50,-20), dry escape culvert interior(70,-40), exterior mouth in eastern scrub40ft outside east palisade, locally fixed approximate(140,-40). V sees mouth, dry narrow crawlspace about3ft clearance, no interior inspection or traversal, plausible bypass to south/east area, cannot verify entire passage unobstructed until entry. V ends concealed approx(155,-60) in southeast/eastern scrub 25ft from exterior mouth, Cirren/Fenar still west, no telepathic link or contact assumed. P1–P4 returned to clearing, P5 captain area, P6 perch, P7 gate, P8 stores unchanged; two porters in work shelter. Camp has not detected V; no alarm, attack, roll of initiative, deployment, additional supply, remote report or final attack clock. No further clues, seized goods, confirmed names or sponsor, or earned reward. All resources, daily provision charge, coins and custody unchanged. V chooses retreat/report, enter culvert, or further action.",
+      "before": "Three party members west of camp, two sentries visible, no stealth check.",
+      "after": "V covertly circles camp, counts eight fighters, observes two likely coerced workers and finds possible culvert bypass; concealed southeast, allies west, no combat or expenditure.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
