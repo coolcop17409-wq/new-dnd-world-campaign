@@ -33,4 +33,4 @@ Current edition `ATLAS-D356-SILVERWARD-ORSELD-001` covers the Silverward seat su
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-28T08:06:32.092Z | previous_token=ATLAS-D356-20261128-01 | result=VERIFIED | recovery=assets/README.md#atlas-review
+CAMPAIGN_WRITER | state=ACTIVE | token=D356-EST | scope=estate and two handoffs | acquired_UTC=2026-11-28T10:39:24.467Z | expires_UTC=2026-11-28T10:59:24.467Z
