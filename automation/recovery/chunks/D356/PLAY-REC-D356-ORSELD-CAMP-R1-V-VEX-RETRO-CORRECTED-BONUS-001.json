@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-CAMP-R1-V-VEX-RETRO-CORRECTED-BONUS-001",
+  "base_commit": "cd423543342aaa3794715594a113b03a75399c3e",
+  "source_checkpoint": "D356-1513-ORSELD-CAMP-R1-V-BONUS-MISS-MOVEMENT-PENDING-001",
+  "destination_checkpoint": "D356-1513-ORSELD-CAMP-R1-V-VEX-CORRECTED-BONUS-MISS-MOVEMENT-PENDING-001",
+  "source_evidence": "Exact player 'Wait no i would’ve have vex on the first attack if I didn’t have sneak attack' explicitly retroactively chooses adopted Weapon Mastery Vex on successful main melee Psychic Blade attack, costing 1 Martial Point. Preserve main attack13+7=20 vs16, damage5 psychic, P8 HP11→6, no Sneak Attack. V MP7→6/7. Vex grants advantage on next attack against P8; crawling/prone disadvantage cancels, so previously adjudicated BA disadvantage roll (6,14) is superseded, not selected for favorable outcome. Explicitly announced fresh neutral single d20 for corrected dice mode, executed genuine Python secrets batch ba8b20935de0928f38c271069deb8195 face1+7=8 natural1 miss, no damage or Sneak Attack. Vex benefit used, P8 stays6/11, all other turns/positions unchanged, V action/BA spent movement/reaction available. Significant combat MP expenditure breaks ongoing qualifying wilderness LR sequence 3→0/6 under standing rest rule. No other expenditure. Player tactical priority is Vex when main hit did not qualify for Sneak Attack, proactively account for it and prompt before other limited feature use; no blanket delegation of unrelated resource spends.",
+  "pending_action": "D356~15:13 forward camp R1 V15 active after action and BA, movement/reaction available. P7=16 already Dodging west gate; next P2=14,P3=13,P4=12,P5=11,P8=9,P6=8,Cirren=5,P1=4,Fenar=3. V5ft inside culvert prone, C10ft inside F15ft inside. P8 Guard HP6/11 AC16 at mouth within5ft of V, knows intruder, no new alarm. Main psychic hit5 preserved; Vex1MP retro chosen, corrected BA natural1 misses, advantage canceled prone disadvantage; Vex consumed, no SA. P1 Veteran58 AC17,P2/P3 Scouts16 AC13,P4 Guard11 AC16 clearing(40,0), P5 Knight52 AC18 captain area(70,-20), P6 Scout16 AC13 perch(40,40,z15), P7 Guard11 AC16 gate(0,0), two laborers shelter(50,-20). V48/48 AC19 HD7/7 MP6/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive, cloak+Luckstone attuned, sword/Galepierce, quill unattuned Wasp Needles carried, dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2; F59/59 AC16 HD6/6 Rage4/4 Shift3/3 inactive MP6/6 climb40 no THP. Mara at waystation coach/four horses, rations21 feed28 daily charge pending, purse966gp4sp6cp, LR0/6 after combat MP expenditure. Other records unchanged; V movement/end turn pending.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-CAMP-R1-V-BONUS-BLADE-MISS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "ba8b20935de0928f38c271069deb8195",
+        "rolls": [
+          {
+            "id": "D356.R1.V.P8.bonus_psychic_blade.corrected_vex_normal_attack",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-CAMP-R1-V-VEX-RETRO-CORRECTED-BONUS-001",
+      "accepted": true,
+      "evidence": "Exact player 'Wait no i would’ve have vex on the first attack if I didn’t have sneak attack' explicitly retroactively chooses adopted Weapon Mastery Vex on successful main melee Psychic Blade attack, costing 1 Martial Point. Preserve main attack13+7=20 vs16, damage5 psychic, P8 HP11→6, no Sneak Attack. V MP7→6/7. Vex grants advantage on next attack against P8; crawling/prone disadvantage cancels, so previously adjudicated BA disadvantage roll (6,14) is superseded, not selected for favorable outcome. Explicitly announced fresh neutral single d20 for corrected dice mode, executed genuine Python secrets batch ba8b20935de0928f38c271069deb8195 face1+7=8 natural1 miss, no damage or Sneak Attack. Vex benefit used, P8 stays6/11, all other turns/positions unchanged, V action/BA spent movement/reaction available. Significant combat MP expenditure breaks ongoing qualifying wilderness LR sequence 3→0/6 under standing rest rule. No other expenditure. Player tactical priority is Vex when main hit did not qualify for Sneak Attack, proactively account for it and prompt before other limited feature use; no blanket delegation of unrelated resource spends.",
+      "before": "MP7/7, BA disadvantage miss, LR3/6",
+      "after": "MP6/7, Vex consumed on corrected neutral BA natural1 miss, guard6/11, LR0/6",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv",
+        "campaign/continuity/rules-combat-recovery.md"
+      ]
+    }
+  ]
+}
