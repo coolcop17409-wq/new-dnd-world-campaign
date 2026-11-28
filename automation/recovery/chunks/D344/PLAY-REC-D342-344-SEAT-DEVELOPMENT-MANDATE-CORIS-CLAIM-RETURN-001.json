@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D342-344-SEAT-DEVELOPMENT-MANDATE-CORIS-CLAIM-RETURN-001",
+  "base_commit": "b705b18c21eab686eb9731e8f77dad2c47b06caf",
+  "source_checkpoint": "D342-2005-SEAT-VAULT-SENTRY-CONTROL-INQUIRY-COMPLETE-001",
+  "destination_checkpoint": "D344-1615-SILVERWARD-SEAT-MANDATE-CORIS-PACKETS-CARRIER-CUSTODY-001",
+  "source_evidence": "Exact player 'Then let’s get started. Let’s get our stewards working on restoring and development. Then let’s send all the information need to receive our reward.' authorizes beginning development through existing stewards, ordinary survey/planning/quote work and dispatching the actual Nightglass field evidence, not an unspecified extra owner contribution, guarantee of legal title, reward, forced recruitment or expensive construction. D342~20:05–20:35 Mara prepares separate copies of field evidence for Coris Tallen care of Edric: prior authenticated Orsaven field-book comparison, route/approach measurements, actual cistern/dedication/docket copies, relevant Silverward historical connection and cross-checked manor register excerpt, with explicit limits on provenance and no unrelated private evidence. Request assessment and settlement of outstanding300gp documentary and800gp optional field milestones of signed D289 commission,100gp already received; D325 first authenticated packet accepted for forwarding by map-room keeper, its delivery and payment remain unverified. No automatic award or duplicate fee. Prepare instructions for Hessa and Voss: joint regional development of seat, crossing and tower; Hessa lead natural-resource/land/infrastructure/structural surveys, contractor quotes, water/road, commerce; Voss lead lawful claims/rights verification, security and labor recruitment proposals, Flint Banner negotiations, coordinate with Hessa; preserve household/guardians/history, no compulsory service, monopoly/public toll or claim all surrounding land. Seek experienced construct specialist and Caul's firsthand information when contact feasible; no assumed command transfer or new historical findings. Prioritize stabilization of archive/residence and safe road access; no major construction without actual technical assessment, lawful rights and affordable funding. Existing authorized stewardship/ordinary quote-seeking continues; no new personal contribution, pooling or diversion of Silverward startup funds to new estate or unfunded liabilities. To deliver, party chooses ordinary return along already surveyed route, overnight camp at sound exterior ground near cistern D342–343, all weapons carried, no occupancy of unstable rooms. D342 exposed night belongs to completed outward leg cap1/1, skip new occurrence; quiet qualifying wilderness night LR1→2. D343 dawn routine Tamsin contact, no particular reply asserted. Return leg expected2 travel days24 terrain miles, cap1 random encounter day, same remote upland thresholds40/30 and previously fixed 32-row d60 humanoid pool from D341. D343 07:30–15:30 retraces12mi known foot route including already located ridge bypass; actual occurrence43>40 quiet, D343 night38>30 quiet; one qualifying wilderness night LR2→3. D344 dawn routine Tamsin contact, D344 occurrence4<=40 type52 dangerous humanoid/organized predator, candidate58/60 range58–59 bounty hunting group N, no hostile severity roll. At dry masonry turnout around10:10, encounter three independent armed bounty hunters (one veteran-type leader and two scout-type companions, no combat, no stat-dependent actions), searching the hills for a violent fugitive on unrelated contract; they examine party at distance and continue their own separate trail rather than intercepting them. They do not ask V to act or divulge sensitive route, no V speech/choice assumed, no affiliation with Flint Banner or ancestral history, no forced fight or new accepted quest. Return continues, D344~15:30 arrival Silverward after second12mi. D343/344 full daily supply charges3/4 each once: carried rations15→12→9, stored9 unchanged, feed32→28→24. No additional D342 charge. All HP/features unchanged; no slot expenditure or HD use, Cirren Light expired earlier. Healthy coach/four horses and earlier original artifacts remain in previously agreed Hessa safekeeping, now rejoined; no care charge. D344~15:45 direct Hessa contact, Hessa willingly accepts expanded coordination and will begin ordinary survey/referral/quotation arrangements under existing employment and separate funding scope; no quote, hire, survey result or new title assumed. Hessa arranges through her established pack-merchant contacts a willing ordinary commercial carrier already planning eastbound departure next morning, who physically accepts two sealed packets in forwarding custody at Silverward~16:15: one for Voss at western customs tower via the existing branch-road relay, one for Coris care of Edric via established Orsaven correspondence and onward supported post. Reasonable ordinary bundled carriage/forwarding fee2gp total quoted and paid from V's purse under explicit sending instruction (DM-adjudicated new ordinary local quote, not prior fixed tariff); purse1512gp3sp6cp→1510gp3sp6cp. Carrier has custody, expected departure345, not yet departed, Voss/Coris receipt, captain reply, final delivery timing and reward not confirmed. Mara retains evidence copies and all originals remain in prior custody. Hessa has direct order and Voss written order in outgoing custody. Existing D338 Hessa funded development, all other estate and quest outcomes remain to be reconciled from actual journal, not inferred merely from elapsed days. D344~16:15 Silverward, V chooses next action.",
+  "pending_action": "D344~16:15 Silverward Crossing, return from ancestral seat complete24/24mi, D343 quiet43/38, D344 occurrence4,type52,selection58/60 independent bounty hunters pass peacefully, cap1/1; all four healthy. V48/48 AC19 HD3d10/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned Galepierce+sword carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration/light; F59/59 AC16 HD3/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP; Mara copies and measured sketch. Coach/four horses and original artifact safekeeping rejoined at Silverward, all healthy and unchanged; rations9 returned from travel plus9 stored=18 total, feed24; D344 charge applied; purse1510gp3sp6cp after2gp ordinary mail fee; LR3/6, routine Tamsin contact D343/344 accounted. Hessa directly accepts expanded coordinated survey/development mandate, no separate new funding, quotes or works established. Voss instructions and Coris field-evidence/claim packet in ordinary carrier custody with planned dawn345 dispatch, no receipt/approval/payment. Prior100gp Coris advance received,300+800 contingent outstanding. No ownership, command of stone sentries or additional site development secured. Seat outer survey and return completed; both intact guardians remain at site, copies retained. Other estate, Flint Banner, Caul, commission, custody and correspondence unchanged except explicit events; owner reconciliation pending. V next decision at Silverward.",
+  "depends_on": [
+    "PLAY-REC-D342-SEAT-VAULTED-CHAMBER-SENTRY-MAGICAL-INVESTIGATION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "5fe8a67133ce35985154352767329b9b",
+        "rolls": [
+          {
+            "id": "D343.return.day.occurrence",
+            "sides": 100,
+            "faces": [
+              43
+            ]
+          },
+          {
+            "id": "D343-344.return.night.occurrence",
+            "sides": 100,
+            "faces": [
+              38
+            ]
+          },
+          {
+            "id": "D344.return.day.occurrence",
+            "sides": 100,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D344.return.day.type",
+            "sides": 100,
+            "faces": [
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "186b9965defc0e8f488940c75245e3ff",
+        "rolls": [
+          {
+            "id": "D344.return.upland_group_selection",
+            "sides": 60,
+            "faces": [
+              58
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D342-344-SEAT-RETURN-TRAVEL-REST-PROVISIONS-001",
+      "accepted": true,
+      "evidence": "Return24mi over2 days, D342 and D343 qualifying wilderness nights LR1→3, actual receipt 5fe8a67133ce35985154352767329b9b and 186b9965defc0e8f488940c75245e3ff; D344 unrelated nonhostile bounty hunters, no fight. Rations15→9 carried+9 stored, feed32→24; no extra recovery or charge. Coach/horses reunited.",
+      "before": "D342 20:05 seat exterior, LR1/6, carried15 stored9 feed32.",
+      "after": "D344 15:30 Silverward, LR3/6, rations18 total/feed24, all HP/features unchanged.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv",
+        "campaign/continuity/quests.md"
+      ]
+    },
+    {
+      "event_id": "D344-SEAT-COORDINATED-DEVELOPMENT-MANDATE-001",
+      "accepted": true,
+      "evidence": "Hessa directly receives and accepts coordinated assessment/planning mandate; Voss written instruction prepared for ordinary dispatch, not yet received. Separate budgets, no new capital/major works/title assumed. Actual scope in source_evidence.",
+      "before": "Seat surveyed, Hessa/Voss existing separate mandates.",
+      "after": "Hessa expanded coordination and quote-seeking authority; Voss message pending receipt.",
+      "owner_paths": [
+        "data/estate/operational-checkpoint.csv",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D344-CORIS-FIELD-CLAIM-VOSS-PACKETS-CARRIER-CUSTODY-001",
+      "accepted": true,
+      "evidence": "Hessa arranges actual commercial carrier acceptance of two sealed packets; V pays actual2gp bundled postage once, purse1512gp3sp6cp→1510gp3sp6cp. Planned dispatch dawn345, no recipient receipt or payment; Coris300+800 contingent.",
+      "before": "Field evidence retained, prior documentary receipt pending, purse1512gp3sp6cp.",
+      "after": "Two packets in carrier custody; purse1510gp3sp6cp; retain original evidence and duplicate copies.",
+      "owner_paths": [
+        "data/characters/events.csv",
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
