@@ -1,34 +1,32 @@
 # Scene cache — DM ONLY / NONAUTHORITATIVE
-ADMIN-QUEST-D338-20261127-01; source main2328d9e608ca466c39d035b8b58195209c020bc8. Newer accepted owners/chunks always win.
-
-## Cursor / exact pending choice
+ADMIN-QUEST-D356-20261128-01; source main d101ebde15f50e8f5a6bdc91a5cc5d204b9ac7bc.
 owner_checkpoint_id: D325-1900-ORSAVEN-CORIS-DOCUMENTARY-PACKET-FORWARDING-PENDING-001; campaign/continuity/campaign-state.md @7fae4d119b354e2d665b00bf5cd014720303ab48 unchanged.
-latest_played_event_id: D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.
-recovery_cursor: automation/recovery/chunks/D338/PLAY-REC-D338-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.json @2e41e82fab2112d8b4573175e24a8662455a0911 → D338-0658-DERRO-NATURAL-CAVERN-ROPE-DESCENT-001.48 linked envelopes since previously verified33418:33; earlier suffix retained. Chunked mode @2a59932f62b2f38ae20c09a1116b83c692c8bcbe.
+recovery_cursor: automation/recovery/chunks/D356/PLAY-REC-D356-ORSELD-CAMP-SECURED-EVIDENCE-PRISONER-INTERROGATIONS-001.json @54465de2ced5189d2ca5e90196966c88421a4ae3 → D356-1935-ORSELD-FORWARD-CAMP-EVIDENCE-SECURED-INTERROGATIONS-COMPLETE-001.
+latest_played_event_id: D356-ORSELD-CAMP-PRISONERS-QUESTIONED-001; same envelope includes D356-ORSELD-CAMP-CASUALTY-CARE-CORRECTION-AND-CUSTODY-001 / D356-ORSELD-CAMP-SEARCH-EVIDENCE-LOOT-PORTERS-001.
+51 linked new envelopes since verified33806:58; earlier suffix retained. Chunked mode @2a59932f62b2f38ae20c09a1116b83c692c8bcbe. Latest accepted play wins.
 
-Day338~06:58, independent Derro excavation's natural cavern. V/Cirren/Fenar stand on dry near bank after secured30ft descent. V chooses examine cavern/vein, sample, cross stream or return. No next action chosen. Cavern65x40ft; stream far end enters/exits low rock channels, raised silt/debris marks but no active surge/prediction. Metallic-gray seam exposed on near/opposite banks; continuity, assay, size, title and value UNVERIFIED. No fresh occupation/hostile observed on illuminated landing; not blanket clearance or safe onward passage.
+## Exact pause and party
+campaign_day/local_time:35619:35; scene_id:ORSELD-FORWARD-CAMP.
+V/Cirren/Fenar at secured camp. Pending V decision: custody/rest/return-lawful handoff versus further depot investigation. Nothing selected; combat ended, no initiative.
+V25/48 AC19 HD7/7(3d10+4d8), MP2/7 Sup3/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive. Cloak/Luckstone attuned; sword/Galepierce; quill unattuned, needles carried; dice delegated.
+Cirren51/51 AC19 HD6/6 slots4/3/1 CD2/2 no concentration.
+Fenar48/59+8THP AC16 HD6/6 Rage3/4 inactive Shift2/3 inactive MP2/6 CLIMB40/Athlete; Reckless expired.
+Mara/coach/four healthy horses at waystation6trail miles away, no camp news. LR0/6; purse966gp4sp6cp; rations21/feed28, D356 supply charge pending. No rest/resource refresh. Dashboard325 lags; isolated338500gp estate debit already posted.
 
-## Party / custody — accepted recovery
-V48/48 AC19 HD0/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind0/1 freeWhispers1/1 inactive; cloak+Luckstone, original Galepierce carried, dice delegated.
-Cirren51/51 AC19 HD6/6 slots3/0/0 CD2/2 no concentration; Light on shield until~07:10, Detect Magic expired06:20.
-Fenar59/59+6THP AC16 HD0/6 Rage0/4 inactive Shift2/3 inactive MP6/6 CLIMB40.
-Mara with intact coach/four horses on nearby road, not witness to underground discoveries. LR0/6; purse2020gp8sp6cp; rations24/feed32, D338 charge still pending. No rest/resource refresh assumed; saved325 dashboard/character events still lag later accepted play.
+## Actual actors / custody / knowledge
+Seven awake restrained/disarmed captives: P1 Veteran58HP, P3 Scout9, P7 Guard11, P5 Knight captain1, P8 Guard1, P2/P6 Scouts1 each. P4 only dead. Accepted corrections override dead/fleeing captions; nobody escaped/signaled. Ordinary camp lashings, not V rope or escape-proof manacles. Two porters freed; one volunteered depot guidance, neither hired/compelled.
+Held separately at camp:8gp18sp; plate1/splint1/chain shirt3/leather3/greatsword1/longsword1/shortsword4/heavy crossbow2/longbow3/spear3/shield3. Food/cloth ownership unresolved; no sale/purse posting.
+Paired livery, packing chit, separated statements and proprietor's353/356 same-officer opposite-colors account establish Hollow Pennant false attribution. Depot12road miles corroborated; command8trail miles beyond is captain's report, not surveyed bearing. Sponsor unproved; Insight17/DC20 failed, not total candor.
+Cirren can raise care of four1HP survivors; Fenar can ask about watch; porter can offer his known route. Prepared intentions, not spoken dialogue or accepted duties. P5 wants survival; no new confession, parole or guaranteed escape. Mara needs a real report.
+Crownsunder commission1800gp:200 received315,300 corroboration package ready to present/assess,1300 chain outstanding. Caereth commissioning recipient, not any Ossent clerk. Prepared80gp proprietor/360gp guild pledges NOT offered.
 
-Site-owned~45ft hoist rope inspected, anchored to sound shelf rock, deployed/recoverable, not personal inventory. Return via braced3x4ft opening/10ft throat to35x15ft lower gallery,25ft below upper; upper rope retained, props intact. Six ore baskets and earlier10gp46sp, arms/tools/component pouches/tally/samples/ore sacks/winch remain UNCLAIMED. Seven Derro dead; no combat/initiative now. Accepted player replacement/corrections supersede former gnoll/fleeing-savant captions.
-Mara retains ancient leaves/container/coffer for preservation/valuation, not spendable180gp. Mara/Cirren hold actual manor copies; originals Caul. Original Silverward instrument/dedication remain there.
+## Eligible / conditional delivery
+1. Camp aftermath ACTIVE: present companions/prisoners/evidence; actual supervision/rest/escort choice, no free guards or automatic breakout.
+2. Depot/command ACTIVE alternatives: porter/chit/reconnaissance; actual route/light/resources/positions preflight required. No unexplained alert or assembly clock.
+3. Restoration ACCEPTED delegation: Hessa/Voss/registry on actual contact; no report reached camp. Seat survey/return complete.
+4. Desen referral DEFERRED to actual contact: signed statement/originals/referral reported347; no verdict or48gp restitution paid.
 
-## Actors / actual knowledge versus private intentions
-Party knows observed excavation only; no ancestry connection. Mara can compare received sketches after a real report, not know ore assay remotely. Cirren can prioritize safe examination; Fenar can favor viable return using actual climbing adaptation; these intentions are not chosen actions.
-Caul recognized V personally334 from sword/records/old court memory; no universal legal proof. Reform trial agreed in principle, later objective-tax/coordination proposal actually received335, reply/implementation pending. She prefers retained legitimacy/authority; no unseen peer report. Captives actually freed and tower keys handed335; no replay.
-Hessa knows actual steward work,15gp overdue334 and zero funds; informed report only on real contact. Voss knows his own inventory/interest inquiries, no report delivered to V;5gp/workday payday341. Neither possession nor conditional grant is Crown title.
-
-## Conditional delivery slate
-1. Excavation ACTIVE: present observations allow examination or withdrawal; no assay, new encounter or reward manufactured.
-2. Silverward ACCEPTED conditional grant: actual return permits Hessa work/pay/safety report and resident/warder discussion. No compulsory payment/repair.
-3. Seat expedition INTENDED via Silverward: Mara's copies/instrument/Caul sketch provide approach source. Bounded private first-expedition packet prepared; actual transport/rest/departure remain unplayed.
-4. Reform ACCEPTED IN PRINCIPLE: next actual informed Caul reply or chosen policy discussion; no established pilot village, funding or enactment.
-
-## Source pins / limits
-Newer accepted recovery above owns pause/resources; immediately prior RUBBLE-CLEARED-NATURAL-CAVERN-REVEALED-001 fixes shelf/brace. Prep owners under prep/dm-only/: dm-estate-ancestry.md §ADMIN-QUEST-D338-20261127-01 (new route/site PRIVATE, not yet discovered); ashen-regency-field-operations-dm-only.md current status; long-arc-two-antagonists-dm-only.md §G. This batch review ID identifies exact prep edition; no earlier private truth becomes public.
-Atlas assets/README.md @15b358c3babc84ba64fc9c9c94874cc5c988e21b:24/30mi tower→Silverward traveled,6roughmi remain; current return-leg random cap1/1 spent. Estate checkpoint @23cf8f809e9f938e66602eb135fbb74854477b7b; market events @49e9a95149ee87cb42d2ae2910012b1e92297c43.
-campaign/continuity/rules-dm-procedures.md @6d9f223bc6e40d716ac16f5108166578f31a7c91; rules-combat-recovery.md, rules-travel-communication.md, QDF-1 govern. Seat gate/floor G3 scoped, actual resources/positions/light/visual preflight required; no current combat or random roll. Prior exact cache archived before this review.
+## Sources / private limits
+DM-only: prep/dm-only/dm-hollow-pennant.md §ADMIN-QUEST-D356-20261128-01; dm-orath-regional-arcs.md OR-OS-E. Remaining depot9fighters+Q, command7fighters+C unchanged, no remote knowledge of defeat. 2014 MM pin c286d15651c5b79004496132c22164f59728480d, blob ea2a16def25116746411fa1de80c346444228759; future Scout hearing/sight passive20 when applicable, no replayed roll.
+campaign/continuity/rules-dm-procedures.md @6d9f223bc6e40d716ac16f5108166578f31a7c91; rules-combat-recovery.md @1ccb273840bd08f2eb399b192ff5a90d3428f7f1; rules-travel-communication.md and QDF-1. Actual visual/positions/light before next encounter, no pre-rolls.
+Private estate D356-EST-DM, data/estate/operational-checkpoint.csv @f010938394980f78ae0d635a03f40439afda9611: bounded Silverward deed filed355, copy left356 earliest Hessa358; V uninformed. Tower/seat not deeded. Actual paid353 maker pickup supersedes market338 target. Exact source cursor/ACKs in private index; prior exact cache archived once.
