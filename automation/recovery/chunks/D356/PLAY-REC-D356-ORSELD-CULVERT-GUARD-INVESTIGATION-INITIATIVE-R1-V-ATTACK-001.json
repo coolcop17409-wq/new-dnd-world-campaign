@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-CULVERT-GUARD-INVESTIGATION-INITIATIVE-R1-V-ATTACK-001",
+  "base_commit": "2fd02590b6e499cac5c942279dac3913151f93f8",
+  "source_checkpoint": "D356-1513-ORSELD-CULVERT-INNER-OPENING-GUARD-NEARBY-001",
+  "destination_checkpoint": "D356-1513-ORSELD-CAMP-R1-V-ATTACK-P8-6HP-BONUS-PENDING-001",
+  "source_evidence": "Exact player 'Keep going, stay hidden and attack if they try to check on us in the culvert' authorizes advancing covertly toward inner lip and conditional attack on an investigating guard, not limited resource expenditure, extra attack choices or blindly exposing party. D356~15:13 V crawls remaining5ft to just inside lip, C/F follow single file behind at10/15ft from lip; no standing room in 3ft high passage, treat crawling as prone for attack and ordinary movement rules (no double squeeze penalty). P8 Guard advances from (85,-30) to inner mouth(70,-40) and leans down to inspect; condition to attack is met. New materially changed concealment opportunity in shadow behind lip, not rerolling previous failed group Stealth; predeclared V Stealth+11 vs P8 active Perception+2, genuine receipt batch e874de2e39770d22908ca8d50e126e68 V18+11=29 vs P8 3+2=5, V hidden from P8 initially. C/F remain behind V and inside covered passage; no independently asserted new group stealth. Roll initiative before strike using same genuine batch, no surprised condition (camp already on alert and guard actively investigating): P7 Guard15+1=16,V10+5=15,P2 Scout12+2=14,P3 Scout11+2=13,P4 Guard11+1=12,P5 Knight11+0=11,P8 Guard8+1=9,P6 Scout6+2=8,Cirren3+2=5,P1 Veteran3+1=4,Fenar1+2=3. P7 R1 holds west gate and takes Dodge, no actual visible target; no other initiative turn resolved. V R1 conditional attack resolved as one melee Psychic Blade attack at P8 within5ft of V at culvert lip. Hidden advantage cancels crawling/prone disadvantage; no adjacent ally within5ft of guard, so no Sneak Attack. +7 melee vs AC16, genuine batch7fa3602821bc7ad69335c5a2c70a8edb d20 13+7=20 hit, damage d6(1)+4=5 psychic; P8 HP11→6/11. V attack action spent, no BA/reaction used, precombat crawl already adjudicated; full normal turn movement available at crawl rate (no further movement chosen). Attack reveals V to target; P8 injured but conscious, has not yet acted or called an alarm in combat. Other camp fighters already alert from P6's prior call, no magical shared sight or signal, no injury to laborers, no remote reinforcement. No other V actions/bonus blade or limited resources assumed. Pause on V R1 after Attack, before BA/movement choice. All other resources, conditions, custody and state unchanged.",
+  "pending_action": "D356~15:13, forward camp COMBAT R1, P7 initiative16 completed holds west gate Dodging, V initiative15 active after Attack action, BA/reaction and movement still available; then P2=14,P3=13,P4=12,P5=11,P8=9,P6=8,Cirren=5,P1=4,Fenar=3. No surprise. V at 5ft inside inner culvert mouth(70,-40), prone/crawling, C10ft inside, F15ft inside; P8 at mouth, HP6/11 AC16, within5ft of V, conscious, V revealed to him by melee psychic attack. V stealth29 vs P8 Perception5 initially hidden. V hit20 vs16 for5 psychic, no Sneak Attack (advantage/disadvantage cancelled, no adjacent ally), Action spent; bonus Psychic Blade available if legal, no extra turn action chosen. P1 Veteran58 AC17, P2/P3 Scouts16 AC13,P4 Guard11 AC16 in clearing(40,0), P5 Knight52 AC18 captain area(70,-20), P6 Scout16 AC13 perch(40,40,z15), P7 Guard11 AC16 gate(0,0) Dodge until next turn, P8 HP6 at mouth; all reactions available except no action yet for others, alert prior challenge, only P8 knows actual intruder from strike, no actual new signal. Laborers 2 shelter(50,-20). V48/48 AC19 HD7/7 (3d10+4d8) MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, Hadiya quill unattuned Wasp Needles carried, dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. C/F crawling. Mara coach/four horses at waystation. Rations21 feed28 D356 charge pending purse966gp4sp6cp LR3/6. Depot9+Q/command7+C unchanged, no additional troops, prior evidence/case/estate/commission/diplomatic/custody unchanged. V next decision on remainder of turn; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-CULVERT-ENTRY-ALERTED-CAMP-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "e874de2e39770d22908ca8d50e126e68",
+        "rolls": [
+          {
+            "id": "D356.V.culvert_lip.stealth",
+            "sides": 20,
+            "faces": [
+              18
+            ]
+          },
+          {
+            "id": "D356.P8.culvert_investigation.perception",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.V",
+            "sides": 20,
+            "faces": [
+              10
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.Cirren",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.Fenar",
+            "sides": 20,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.P1",
+            "sides": 20,
+            "faces": [
+              3
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.P2",
+            "sides": 20,
+            "faces": [
+              12
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.P3",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.P4",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.P5",
+            "sides": 20,
+            "faces": [
+              11
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.P6",
+            "sides": 20,
+            "faces": [
+              6
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.P7",
+            "sides": 20,
+            "faces": [
+              15
+            ]
+          },
+          {
+            "id": "D356.camp.initiative.P8",
+            "sides": 20,
+            "faces": [
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "7fa3602821bc7ad69335c5a2c70a8edb",
+        "rolls": [
+          {
+            "id": "D356.R1.V.P8.melee_psychic_blade_attack",
+            "sides": 20,
+            "faces": [
+              13
+            ]
+          },
+          {
+            "id": "D356.R1.V.P8.psychic_damage",
+            "sides": 6,
+            "faces": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-CAMP-INITIATIVE-001",
+      "accepted": true,
+      "evidence": "P8 inspects mouth, V initially hidden Stealth29 vs Perception5. Genuine initiative P7 16,V15,P2 14,P3 13,P4 12,P5 11,P8 9,P6 8,C5,P1 4,F3, no surprise. P7 holds gate Dodging.",
+      "before": "Precombat at culvert.",
+      "after": "R1 V active; P8 at inner mouth within5ft.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D356-ORSELD-CAMP-R1-V-MELEE-PSYCHIC-BLADE-P8-001",
+      "accepted": true,
+      "evidence": "Authorized conditional Attack from prone/crawl while hidden; adv/disadv cancel, no SA. d20 13+7=20 hit AC16, d6 1+4=5 psychic, P8 HP11→6; V revealed to P8. Action spent, BA/movement/reaction available, no limited resources used.",
+      "before": "P8 HP11; V action ready.",
+      "after": "P8 HP6; V Attack spent, next V choice.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
