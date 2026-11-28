@@ -27,10 +27,10 @@ Keep this index under 8,000 characters, checkpoint under 12,000 and recent SESSI
 
 ## Atlas review
 
-Verified scoped edition `ATLAS-D337-SILVERWARD-RETURN-001`: accepted western Ossent return-route geography through Day337; master metadata and publication receipt agree. Newer underground observations remain outside this scoped edition. Current publication and asset versions: [owning Atlas review](../../assets/README.md#atlas-review).
+Current edition `ATLAS-D356-SILVERWARD-ORSELD-001` covers the Silverward seat survey, conditional Crown grants and Orseld approaches. [Verified publication and versions](../../assets/README.md#atlas-review).
 
 ## Cooperative writer
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | token=ATLAS-D356-20261128-01 | worker=Atlas | operations=A1,A2,A3 | acquired_UTC=2026-11-28T08:05:08.937Z | heartbeat_UTC=2026-11-28T08:05:08.937Z | expires_UTC=2026-11-28T08:15:08.937Z | recovery=assets/README.md#atlas-review
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-28T08:06:32.092Z | previous_token=ATLAS-D356-20261128-01 | result=VERIFIED | recovery=assets/README.md#atlas-review
