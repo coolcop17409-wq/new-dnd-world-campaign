@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-V-RANK-AUTHORIZATION-DEMAND-PAUSES-REQUISITION-001",
+  "base_commit": "596d215b0f13e7b5cf14e69de606f1edabf8fa33",
+  "source_checkpoint": "D356-1013-ORSELD-REQUISITION-CHALLENGE-OFFICER-REQUESTS-SOLO-APPROACH-001",
+  "destination_checkpoint": "D356-1014-ORSELD-REQUISITION-PAUSED-TOLL-FORT-CLAIM-001",
+  "source_evidence": "Exact player 'I am a viscount a huge estate, and a member of the crownsunder governing assembly… You need to show me your authorization' is V's spoken assertion of rank/estate/Assembly standing and demand for authorization; no new office, jurisdiction or automatic command conferred. V remains at wooded rise, no solo approach or papers surrendered. Fenar independently steps visibly alongside V, backing his demand without attacking, meaningful Help for coercive social pressure. New leverage after previous Persuasion result: predeclared Intimidation+7 (+6 skill, +1 Luckstone) advantage, DC16 officer pauses requisition and addresses challenge, DC21 additionally gives concrete identifying detail of alleged command, no result creates genuine orders or forces full confession. Executed Python secrets receipt batch401e26f5f66b2d6b669049be11ae5a2d d20 faces19,7 keep19+7=26, both thresholds succeed. P1 Veteran is unwilling to expose the detachment by immediately escalating against an apparent titled official with armed companions; he visibly signals/calls P4 to hold the collection temporarily. P4 obeys and stops the requisition activity, no completed removal of stores assumed. P1 repeats that there is no written authorization carried, but supplies a concrete claim: the quartermaster at the old Orseld toll-fort gave the requisition instruction, and that is where the supplies are meant to go. This is his spoken claim and actionable investigative lead consistent with fixed prepared depot and command structure, not proof of genuine Crown authority, confession, verified patron, directions, precise distance, or surrender. P1 asks whether V means to stop a supposed supply detail pending verification. No automatic compliance beyond temporary pause, no attack, initiative, signal, movement into gate/approach, confiscation, injury, spend or resource use. All fixed roster/positions and prior evidence preserved; V next choice.",
+  "pending_action": "D356~10:14 Ossent-side Orseld waystation, V/C/F at wooded rise~120ft west, Fenar visibly alongside V, Mara screened coach/four horses. V asserts Viscount/estate/Assembly status, Intimidation advantage19,7 +7=26 vs16/21 succeeds; P1 pauses requisition, P4 obeys, claims quartermaster at old Orseld toll-fort verbally instructed collection and supplies meant for there; no written orders produced or verified military authority, no full confession, no surrender. P1 asks whether V means to stop detail pending verification. P1 Veteran HP58 AC17 (15,-15), P4 Guard HP11 AC16 (40,0), P2 Scout HP16 AC13 on20ft perch60ft NE, P3 Scout HP16 AC13 at southern wagon barricade50ft south, east door(0,0). All alert, no initiative/attack/alarm signal, no solo approach or documents surrendered. Civilians sheltered, 8 incl2 injured fixed private count; actual knowledge limited. Remaining forward camp4 depot9 command7 qmaster/controller unchanged. V48/48 AC19 HD7/7 (3d10+4d8), MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, Hadiya quill acquired unattuned, Wasp Needles acquired, dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara/coach/four horses healthy, rations21 feed28 D356 charge pending, purse966gp4sp6cp LR3/6 Tamsin dawn accounted. Other estate, case, diplomatic, commission, custody unchanged. V next choice, owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-V-PRESENTS-CREDENTIALS-REQUESTS-REQUISITION-ORDERS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "401e26f5f66b2d6b669049be11ae5a2d",
+        "rolls": [
+          {
+            "id": "D356.V.rank_authorization_demand.intimidation.advantage",
+            "sides": 20,
+            "faces": [
+              19,
+              7
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-V-RANK-AUTHORIZATION-DEMAND-PAUSES-REQUISITION-001",
+      "accepted": true,
+      "evidence": "Exact player 'I am a viscount a huge estate, and a member of the crownsunder governing assembly… You need to show me your authorization' is V's spoken assertion of rank/estate/Assembly standing and demand for authorization; no new office, jurisdiction or automatic command conferred. V remains at wooded rise, no solo approach or papers surrendered. Fenar independently steps visibly alongside V, backing his demand without attacking, meaningful Help for coercive social pressure. New leverage after previous Persuasion result: predeclared Intimidation+7 (+6 skill, +1 Luckstone) advantage, DC16 officer pauses requisition and addresses challenge, DC21 additionally gives concrete identifying detail of alleged command, no result creates genuine orders or forces full confession. Executed Python secrets receipt batch401e26f5f66b2d6b669049be11ae5a2d d20 faces19,7 keep19+7=26, both thresholds succeed. P1 Veteran is unwilling to expose the detachment by immediately escalating against an apparent titled official with armed companions; he visibly signals/calls P4 to hold the collection temporarily. P4 obeys and stops the requisition activity, no completed removal of stores assumed. P1 repeats that there is no written authorization carried, but supplies a concrete claim: the quartermaster at the old Orseld toll-fort gave the requisition instruction, and that is where the supplies are meant to go. This is his spoken claim and actionable investigative lead consistent with fixed prepared depot and command structure, not proof of genuine Crown authority, confession, verified patron, directions, precise distance, or surrender. P1 asks whether V means to stop a supposed supply detail pending verification. No automatic compliance beyond temporary pause, no attack, initiative, signal, movement into gate/approach, confiscation, injury, spend or resource use. All fixed roster/positions and prior evidence preserved; V next choice.",
+      "before": "P1 claimed verbal orders and directed continuation, requested solo approach.",
+      "after": "Requisition temporarily paused; alleged quartermaster at old Orseld toll-fort identified as source and destination; no actual authorization or allegiance proved.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md"
+      ]
+    }
+  ]
+}
