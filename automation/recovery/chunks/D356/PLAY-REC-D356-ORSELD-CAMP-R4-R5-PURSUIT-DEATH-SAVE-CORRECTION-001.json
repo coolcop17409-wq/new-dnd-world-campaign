@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-CAMP-R4-R5-PURSUIT-DEATH-SAVE-CORRECTION-001",
+  "base_commit": "0cd2d3ba8e73465e209c32a90e362d44435c98dd",
+  "source_checkpoint": "D356-1513-ORSELD-CAMP-R4-V-COVER-THREE-SCOUTS-RETREAT-TWO-SURRENDERED-001",
+  "destination_checkpoint": "D356-1514-ORSELD-CAMP-PURSUIT-ENDED-TWO-SCOUTS-DYING-001",
+  "source_evidence": "Player 'Cirren stabilize the enemy, Fenar and I will pursue. Pursue and attack to get steak attack with the best of our ability, use vex or outrageous athleticism' delegates pursuit movement/attacks, SA setups and Vex/OA MP spending only. Player correction 'Why would they be already dead??? they would be making death saves' overrides automatic NPC death narration for all applicable 0HP enemies, preserves every original damage/attack roll, uses 2014 massive-damage exception (P4 had 2/11 and took13, excess11 equals maxHP, dies). P8 and P5 were unconscious dying, not dead. Cirren's corrected independent intent excludes already-downed P8 from R2 Spirit Guardians and releases concentration after R2 captain/guard fall and no fighting foes in radius, rather than harm dying captives; no previously rolled spell damage, spell slot or attacks changed. Genuine death saves batch7155c2561a82334e60330228afc3aeb1: P8 R2=5 fail,R3=8 fail,R4=12 success; P5 R3=16 success,R4=12 success. Cirren R4 Medicine+8 DC10 d20 15=23 stabilizes P8; no slot. P4 dead, cannot stabilize. R4 V advances30ft to(20,-10), P2 Scout AC13 HP16: main thrown Psychic Blade nat1 miss, bonus d20 15+9=24 hit d4(3)+4=7, P2 9/16; no SA. Vex1MP V6→5 on BA hit; OA2MP V5→3 speed60, advances20ft to(0,-5). Genuine batch299456d162592be9122cd7dbb2633a7c. P2 disengages to(-20,0), P3 HP9 dashes to(-70,0), P6 HP16 dashes to(-35,0) through west gate. Fenar R4 OA2MP F6→4, Dash speed70, intercepts P3 from(-65,0). No OA attacks as fleeing scouts choose escape. R5 V advances10ft to(-10,-5), prior Vex advantage main P2 4,14 keep14+9=23, d6(4)+4=8 + SA2d6(3,1)=4, total12 P2 9→0 unconscious dying, no massive damage. BA thrown P6 8+9=17 hit d4(3)+4=7 P6 16→9, Vex1MP V3→2, V advances20ft to(-30,-5). Genuine batch6bd9ab19c4806126ed4874380acf6e90. P2 R5 death save12 success; P3 yields to Fenar's interception on own turn, HP9 unchanged, drops weapon, no strike; P6 dashes along trail into scrub approx(-95,0). P5 R5 save4 failure (2 successes1 failure); Cirren R5 Medicine7+8=15 DC10 stabilizes P5. Genuine correction batch e75219db48ac9501cd5be375f3bf2f34. P7/P1 remain surrendered and unbound under supervision near gate/camp. Fenar R5 spends OA2MP F4→2 to pursue P6 in rough scrub, reaches adjacent(-90,0); Rage/Reckless attack with double-claw rend adv13,13 keep13+8=21 vsAC13, d12(8)+7=15 P6 9→0 unconscious dying, excess6<16, no subsequent attacks, no massive damage. Genuine batchf12cd82d5b63a8923bbd28bc44eb8165. P6 already took R5 turn, first death save due R6 init8; P2 R6 init14 next. No scout escaped; no new injury to PCs, no new ranged signal, no reinforcements or further resource spending. Preserve all original R1–3 attack rolls, surrender events, actual HP. Prior interrupted attempted pursuit record did not create a file, this single correction incorporates actual previously executed pursuit rolls plus corrected death saves and Medicine. Hostile action ends but casualty-care timing still live. No automatic tying, looting, interrogation, rewards, time advance beyond R5 or resurrection. Standing prospective NPC death saves rule: all applicable downed enemies roll 2014 saves with massive-damage exception; record new explicit player correction for RULES at owner sync. Prior erroneous 'dead' flags superseded only for nonmassive casualties. Owner reconciliation pending.",
+  "pending_action": "D356~15:14 end R5 Orseld forward camp west trail, no actively fighting enemies; emergency casualty care still tracked in rounds. V upright(-30,-5) HP25/48 AC19 HD7/7 MP2/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 AS0/1 SW0/1 freeWhispers1/1 inactive cloak+Luckstone attuned dice delegated; action/BA/movement used R5, reaction available; next V R6. F upright(-90,0) HP48/59+8THP AC16 HD6/6 Rage3/4 active claws max10min R1, Shift2/3 active1min R2, MP2/6 Athlete CLIMB40, Reckless until next F turn. Cirren near captain in camp (65,-25) HP51/51 AC19 HD6/6 slots4/3/1 CD2/2 no concentration. P2 Scout AC13 0HP dying 1success0fail (-20,0), next save R6 init14; P6 Scout AC13 0HP dying 0success0fail (-95,0), next save R6 init8. P3 Scout9/16 AC13 surrendered(-70,0), P1 Veteran58/58 AC17 surrendered(65,-5), P7 Guard11/11 AC16 surrendered(0,0); all unbound weapons laid down. P8 Guard0/11 stable inner mouth; P5 Knight0/52 stable captain area; P4 Guard dead by massive damage (13 damage vs2/11). Stable unconscious do not roll saves, recover in 1d4 hours unless healed, no healing or timer rolls yet. R6 order V15 P2 deathsave14 P3 surrendered13 P5 stable11 P8 stable9 P6 deathsave8 C5 P1 surrendered4 F3 (P7 surrendered16). Two laborers unharmed shelter, not approached; Mara coach/four horses at waystation; purse966gp4sp6cp rations21 feed28 D356 charge pending LR0/6. Depot9+Q and command7+C unchanged. V next action casualty care/pursuit concluded, no new spend or seizure; owner sync pending.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-CAMP-R3-V-COVER-MORALE-BREAK-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "batch_id": "299456d162592be9122cd7dbb2633a7c",
+        "faces": [
+          1,
+          15,
+          3
+        ],
+        "description": "R4 V attacks/damage"
+      },
+      {
+        "batch_id": "6bd9ab19c4806126ed4874380acf6e90",
+        "faces": [
+          4,
+          14,
+          4,
+          3,
+          1,
+          8,
+          3
+        ],
+        "description": "R5 V attacks/damage"
+      },
+      {
+        "batch_id": "f12cd82d5b63a8923bbd28bc44eb8165",
+        "faces": [
+          13,
+          13,
+          8
+        ],
+        "description": "R5 Fenar attack/damage"
+      },
+      {
+        "batch_id": "7155c2561a82334e60330228afc3aeb1",
+        "faces": [
+          5,
+          16,
+          8,
+          12,
+          12,
+          15
+        ],
+        "description": "Missed death saves, R4 Medicine correction"
+      },
+      {
+        "batch_id": "e75219db48ac9501cd5be375f3bf2f34",
+        "faces": [
+          12,
+          4,
+          7
+        ],
+        "description": "R5 P2 and P5 saves, Medicine"
+      }
+    ],
+    "generator": "python.secrets.randbelow"
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-CAMP-NPC-DEATH-SAVES-CORRECTION-001",
+      "accepted": true,
+      "evidence": "Player explicit correction; nonmassive 0HP opponents use death saves, P4 massive damage death, P8/P5 stabilized by Cirren. SG corrected independent targeting/concentration only, no altered attack rolls.",
+      "owner_paths": [
+        "campaign/continuity/rules-combat-recovery.md",
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D356-ORSELD-CAMP-R4-R5-PURSUIT-001",
+      "accepted": true,
+      "evidence": "Genuine rolls and delegated tactics as detailed above; two scouts dying, one surrendered, no escape, V MP6→2 F MP6→2, no further damage or spell slots.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
