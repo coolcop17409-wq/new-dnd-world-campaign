@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-CAMP-R1-V-BONUS-BLADE-MISS-001",
+  "base_commit": "cd232602f70e815caae5805b06ca4aeffef101da",
+  "source_checkpoint": "D356-1513-ORSELD-CAMP-R1-V-ATTACK-P8-6HP-BONUS-PENDING-001",
+  "destination_checkpoint": "D356-1513-ORSELD-CAMP-R1-V-BONUS-MISS-MOVEMENT-PENDING-001",
+  "source_evidence": "Exact player 'bonus attack' selects V's legal bonus-action Psychic Blade melee attack against the same wounded Guard P8 at culvert inner mouth, after main Psychic Blade attack this turn. V still crawling/prone in 3ft-high culvert, revealed by previous attack; no advantage, disadvantage applies. No ally within5ft of P8, no Sneak Attack. +7 melee vs AC16. Genuine Python secrets receipt batch2e313f19832412f50f5fd2c9de05f874, d20 faces6,14 keep6+7=13 MISS. No damage roll, P8 remains6/11 HP conscious; V bonus action spent, normal action already spent, reaction and movement remain. No limited feature or resource expenditure, movement, end-turn delegation, other creature turn, attack, alarm signal or new consequence assumed. V next choice remaining movement or end turn.",
+  "pending_action": "D356~15:13, forward camp COMBAT R1, P7 initiative16 completed holds west gate Dodging, V initiative15 active after Action and BA spent; movement/reaction available. Next P2=14,P3=13,P4=12,P5=11,P8=9,P6=8,Cirren=5,P1=4,Fenar=3. No surprise. V at5ft inside inner culvert mouth(70,-40), prone/crawling, C10ft inside, F15ft inside; P8 at mouth, HP6/11 AC16 within5ft of V conscious, V revealed. Main attack20 vs16 for5 psychic; BA melee disadvantage6,14 keep6+7=13 misses, no SA. P1 Veteran58 AC17,P2/P3 Scouts16 AC13,P4 Guard11 AC16 in clearing(40,0), P5 Knight52 AC18 captain area(70,-20), P6 Scout16 AC13 perch(40,40,z15), P7 Guard11 AC16 gate(0,0) Dodge until next turn, P8 HP6 at mouth; all reactions available. Only P8 knows actual intruder from attack, no new alarm signal. Laborers2 shelter(50,-20). V48/48 AC19 HD7/7 (3d10+4d8) MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, Hadiya quill unattuned Wasp Needles carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. C/F crawling. Mara coach/four horses at waystation. Rations21 feed28 D356 charge pending purse966gp4sp6cp LR3/6. Depot9+Q/command7+C unchanged; prior estate/case/commission/diplomatic/custody unchanged. V next movement or end turn; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-CULVERT-GUARD-INVESTIGATION-INITIATIVE-R1-V-ATTACK-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "2e313f19832412f50f5fd2c9de05f874",
+        "rolls": [
+          {
+            "id": "D356.R1.V.P8.bonus_psychic_blade_attack.disadvantage",
+            "sides": 20,
+            "faces": [
+              6,
+              14
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-CAMP-R1-V-BONUS-BLADE-MISS-001",
+      "accepted": true,
+      "evidence": "Exact player 'bonus attack' selects V's legal bonus-action Psychic Blade melee attack against the same wounded Guard P8 at culvert inner mouth, after main Psychic Blade attack this turn. V still crawling/prone in 3ft-high culvert, revealed by previous attack; no advantage, disadvantage applies. No ally within5ft of P8, no Sneak Attack. +7 melee vs AC16. Genuine Python secrets receipt batch2e313f19832412f50f5fd2c9de05f874, d20 faces6,14 keep6+7=13 MISS. No damage roll, P8 remains6/11 HP conscious; V bonus action spent, normal action already spent, reaction and movement remain. No limited feature or resource expenditure, movement, end-turn delegation, other creature turn, attack, alarm signal or new consequence assumed. V next choice remaining movement or end turn.",
+      "before": "V R1 BA available, P8 HP6/11.",
+      "after": "V BA spent, attack missed, P8 HP6/11; movement and reaction remain.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
