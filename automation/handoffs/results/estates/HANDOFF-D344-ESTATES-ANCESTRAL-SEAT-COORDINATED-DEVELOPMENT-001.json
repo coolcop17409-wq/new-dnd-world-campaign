@@ -3,8 +3,8 @@
   "lane": "estates",
   "status": "partial",
   "source_commit": "8bd32d61304e18eb47dadc2dab9362a6d2416855",
-  "verified_commit": "ac555e474e6ab4c2ece2eb66fd6d02fee0fcc21c",
-  "summary": "Coordinated mandate remains partially in progress. By the Day356 cutoff Silverward's bounded deed was recorded Day355 and the return copy is due no earlier than358; the crossing has an actual exterior four-animal service line but its four indoor places remain uncommissioned. Day357–359 replacement sill and Day359 retest precede earliest possible indoor work Day360. Tower field certificate was sent Day355, with registrar response earliest358; Tower still has82gp overdue Voss wages, zero cash, and voluntary2gp commissions as its only evidenced earned line. The verified plan sets cost-covering thresholds and dated next steps without booking future work.",
+  "verified_commit": "07be7245ea21d6e9a1fc27916cb58970cb3a69a1",
+  "summary": "Coordinated mandate remains partially in progress. By Day356, Silverward's bounded deed was recorded Day355; the return copy is due no earlier than358, and four indoor places remain behind the funded sill work and Day359 retest. Tower's former household revenue included coercive coin/harvest, compulsory labor and blood tribute; its old net profitability is unaudited. The current lawful account has 0gp cash,82gp Voss wage liability and8gp earned from four 2gp voluntary matches, all applied to wages. The owner checkpoint now records a dated path: booked contacts Days357/361, registry check earliest358, costed service-capacity review Day359, weekly break-even and arrears targets, and a first sustained-profit test through Day390. No future job or result is booked.",
   "owner_refs": [
     "data/estate/operational-checkpoint.csv#D356-EST-REGIONAL",
     "data/estate/operational-checkpoint.csv#D356-EST-WT-FOLLOW",
@@ -14,6 +14,6 @@
     "data/estate/operational-checkpoint.csv#D356-WT-PROFIT-PATH-001",
     "data/estate/operational-checkpoint.csv#D356-SW-PROFIT-TIMELINE-001"
   ],
-  "blocker": "Silverward indoor service depends on safe acceptance and customer-assented rates. Tower retains no confirmed title/service authority for rentals or other facility use before registry response; the pre-V coercive revenue model has no audited net figures. The ancestral seat remains unfunded with roof/archive/access-water conditions and no confirmed productive revenue.",
-  "next_trigger": "Check actual registry return from Day358; perform the Tower's booked voluntary contacts on Days357 and361 only as actually completed. Complete Silverward's funded sill stage by359, then run the safe test; earliest indoor customer service is360 after individual assent. The seat circuit arrives no earlier than359 if Crown travel proceeds; brief Voss/Hessa on actual contact, no cross-estate diversion or unapproved funding."
+  "blocker": "Tower has no recurring lawful service volume yet, its local balance is0gp and82gp wages remain owed; property scope for any new facility fee awaits the registry response. Its two future2gp match orders are conditional until performed. The ancestral seat remains unfunded, and roof/archive/access-water conditions constrain any work.",
+  "next_trigger": "Resolve the already-booked Tower match on357; check the actual tower/crossing registry returns from358; complete the crossing sill job by359 and retest; the seat surveyor reaches the seat no earlier than359 if travel occurs. At the Day362 payday reconcile real wages and collected revenue; review Tower contribution on369,376,383,390 before calling a sustained positive trend."
 }
