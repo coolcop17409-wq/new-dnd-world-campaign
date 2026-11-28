@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-WAYSTATION-V-HAILS-ARMED-DETACHMENT-001",
+  "base_commit": "57179fb076b3097b01272c1893a7550274b0b22a",
+  "source_checkpoint": "D356-1010-ORSELD-WAYSTATION-ARMED-REQUISITION-OBSERVED-001",
+  "destination_checkpoint": "D356-1011-ORSELD-WAYSTATION-SCOUT-CHALLENGES-V-001",
+  "source_evidence": "Exact player 'Wave them down.. we repress both sides' interpreted in context as waving the armed men down and saying 'We represent both sides' (obvious typo repress→represent; does not confer actual authority or commit either Crown). V steps to the visible edge of the wooded rise and raises a hand, calls out his stated claim; Cirren and Fenar remain nearby, Mara remains with screened coach and four horses. Approx120ft west of station, no closer movement or weapon draw chosen. P3 southern wagon-barricade scout sees/hears V's hail and calls back in Common, 'Stay where you are. This is military business. Both sides? Who sent you?' P2 lookout turns attention toward party, remains on existing20ft perch; P3 remains at barricade, ready but has not made attack or begun initiative. P1 Veteran leader and P4 Guard remain partly obscured at fixed east approach, no additional movement, signals, threats executed or assaults assumed. Shouting near east side temporarily pauses; civilians at western refuge, including one visibly assisting a limping person, continue seeking cover; no new injury inflicted or complete count learned. No ally speech or extra V promises. NPC challenge is ordinary response to hail and assertion, no uncertain check or successful deception/persuasion, no credentials physically shown, no allegiance or actual command verified. Existing Crown credentials are limited to inquiry and messenger/facilitation, no authority over either army and no binding bilateral agreement. Fixed prep roster/duty/motives and clue placement unchanged, no new reinforcement, deadline, automatic combat, private knowledge or sponsor revelation. V next response/action.",
+  "pending_action": "D356~10:11 Ossent-side Orseld waystation, V visible at wooded rise edge ~120ft west of station, Cirren/Fenar nearby, Mara screened coach/four horses just behind. P3 Scout AC13 HP16 at southern wagon barricade acknowledges hail, demands V stay where he is and identify who sent him; P2 Scout AC13 HP16 on20ft perch60ft NE of east door turns attention to party. P1 Veteran AC17 HP58 and P4 Guard AC16 HP11 remain at fixed east approach40ft from east door, partly obscured; no initiative/attack/signal. Visible civilians retreat to stone refuge, one helping a limping person; 8 total incl2 injured per fixed private packet, exact count unverified by V. Party's stated 'represent both sides' is claim, actual limited inquiry/messenger credentials unchanged; no proof of detachment allegiance. Source prep/dm-only/dm-hollow-pennant.md @ba86b23cb89d85846bb0ae8652d31cf47fd2e4d6, remaining camp4 depot9 command7 quartermaster/controller intact. V48/48 AC19 HD7/7 (3d10+4d8), MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, Hadiya's Handy Quill acquired unattuned, Wasp Needles acquired, dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara/coach/four horses healthy; rations21 feed28, D356 charge pending, purse966gp4sp6cp LR3/6 dawn Tamsin accounted. Crown frontier300+1300, Coris300+800 contingent, prior estate/claims/case/diplomacy/custody unchanged. V next decision, owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D348-356-ORSAVEN-COMMISSION-COLLECTION-ORSELD-WAYSTATION-APPROACH-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Open hail and ordinary wary NPC challenge; no uncertain skill check, attack, or initiative adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-WAYSTATION-V-HAILS-ARMED-DETACHMENT-001",
+      "accepted": true,
+      "evidence": "Exact player 'Wave them down.. we repress both sides' interpreted in context as waving the armed men down and saying 'We represent both sides' (obvious typo repress→represent; does not confer actual authority or commit either Crown). V steps to the visible edge of the wooded rise and raises a hand, calls out his stated claim; Cirren and Fenar remain nearby, Mara remains with screened coach and four horses. Approx120ft west of station, no closer movement or weapon draw chosen. P3 southern wagon-barricade scout sees/hears V's hail and calls back in Common, 'Stay where you are. This is military business. Both sides? Who sent you?' P2 lookout turns attention toward party, remains on existing20ft perch; P3 remains at barricade, ready but has not made attack or begun initiative. P1 Veteran leader and P4 Guard remain partly obscured at fixed east approach, no additional movement, signals, threats executed or assaults assumed. Shouting near east side temporarily pauses; civilians at western refuge, including one visibly assisting a limping person, continue seeking cover; no new injury inflicted or complete count learned. No ally speech or extra V promises. NPC challenge is ordinary response to hail and assertion, no uncertain check or successful deception/persuasion, no credentials physically shown, no allegiance or actual command verified. Existing Crown credentials are limited to inquiry and messenger/facilitation, no authority over either army and no binding bilateral agreement. Fixed prep roster/duty/motives and clue placement unchanged, no new reinforcement, deadline, automatic combat, private knowledge or sponsor revelation. V next response/action.",
+      "before": "Party observes armed men from wooded rise, not visibly noticed.",
+      "after": "V hails and asserts representing both sides; visible scouts alert and ask who sent V; no combat or concession.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
