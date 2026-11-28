@@ -33,4 +33,4 @@ Current edition `ATLAS-D356-REGIONAL-PLACEMENT-001` adds route-relative regional
 
 Shared RUN-PROTOCOL-v2 coordination for short owning-record batches; gameplay recovery uses its separate single-file fast path.
 
-CAMPAIGN_WRITER | state=ACTIVE | owner=quests | token=QUEST-D356-20261128-1217 | claimed_UTC=2026-11-28T12:16:26.000Z | expires_UTC=2026-11-28T12:26:26.000Z | source_commit=d101ebde15f50e8f5a6bdc91a5cc5d204b9ac7bc | scope=ADMIN-QUEST-D356-20261128-01 | recovery=prep/dm-only/dm-only-secret-quest-outlines.md
+CAMPAIGN_WRITER | state=IDLE | released_UTC=2026-11-28 12:17:20 UTC | previous_token=QUEST-D356-20261128-1217 | result=VERIFIED | recovery=prep/dm-only/dm-only-secret-quest-outlines.md#current-scoped-review--admin-quest-d356-20261128-01 | owner_commit=6db3e9acbd24356dc801941704104104b33dbfe8
