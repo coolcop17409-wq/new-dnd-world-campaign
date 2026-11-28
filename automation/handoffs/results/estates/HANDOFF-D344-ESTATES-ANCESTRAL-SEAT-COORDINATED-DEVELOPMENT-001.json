@@ -1,0 +1,17 @@
+{
+  "request_id": "HANDOFF-D344-ESTATES-ANCESTRAL-SEAT-COORDINATED-DEVELOPMENT-001",
+  "lane": "estates",
+  "status": "partial",
+  "source_commit": "8bd32d61304e18eb47dadc2dab9362a6d2416855",
+  "verified_commit": "fbac9ad045da441a469309b43fad02cce95c3bf7",
+  "summary": "Hessa received coordinated mandate344 and Voss received relay347. Bound Crown instruments for tower/seat registered separately; actual crossing field certificate351 and deed recorded355; tower field certificate354. Voss obtained a 36gp construct reconnaissance estimate and a separate 36gp external access/structural estimate. No paid seat work or cross-estate diversion. Flint captain declined the first preliminary approach.",
+  "owner_refs": [
+    "data/estate/operational-checkpoint.csv#D356-EST-REGIONAL",
+    "data/estate/operational-checkpoint.csv#D356-EST-WT-FOLLOW",
+    "data/estate/fixed-assets.csv",
+    "campaign/continuity/npcs.md",
+    "campaign/continuity/quests.md"
+  ],
+  "blocker": "Seat has no assigned capital. Crown surveyor has not reached seat; roof, archive floor, access/water and sentry conditions limit scope. Tower wages82gp remain overdue with zero local cash.",
+  "next_trigger": "Tower packet from355 may reach registrar358; Crown-paid exterior seat circuit earliest359 subject to travel. Hessa/Voss can brief owner on 36gp initial or 72gp combined estimates at actual contact. Apply further unrestricted tower receipts to oldest wages immediately."
+}

@@ -1,0 +1,17 @@
+{
+  "request_id": "HANDOFF-D338-ESTATES-SILVERWARD-FUNDED-STARTUP-001",
+  "lane": "estates",
+  "status": "partial",
+  "source_commit": "8bd32d61304e18eb47dadc2dab9362a6d2416855",
+  "verified_commit": "fbac9ad045da441a469309b43fad02cce95c3bf7",
+  "summary": "500gp physically received on338 as owner capital, matched to personal debit once. Prior15gp payday settled338, all other Silverward payroll due through355 paid. Exterior feed/tether actually traded; 54gp fitted materials/labor capital and two 15gp inspections paid. No indoor fees or mineral income. Actual six D332\u2013337 player-known responses retained.",
+  "owner_refs": [
+    "data/estate/events.csv",
+    "data/characters/events.csv",
+    "data/estate/operational-checkpoint.csv#D356-EST-SW-FOLLOW",
+    "data/estate/fixed-assets.csv",
+    "campaign/continuity/npcs.md"
+  ],
+  "blocker": "Interior entrance still fails its renewed load test; replacement sill delivered356. Mineral collection/assay requires separate written sample and access authority. Conditional pack demand cannot become indoor occupancy until signoff.",
+  "next_trigger": "Fit replacement357\u2013359; earned 6gp remaining labor only after performance; retest359; notify conditional customer IDs by first safe night360. Obtain actual registry counterfoil and sample permission on return contact from358. Continue separate outdoor customer work."
+}
