@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-WAYSTATION-V-ASSERTS-DUAL-AUTHORITY-001",
+  "base_commit": "f3144f78c4a852d28f9f6629051e3cede1cbeb84",
+  "source_checkpoint": "D356-1011-ORSELD-WAYSTATION-SCOUT-CHALLENGES-V-001",
+  "destination_checkpoint": "D356-1012-ORSELD-DETACHMENT-LEADER-REQUESTS-CREDENTIALS-001",
+  "source_evidence": "Exact player 'We carry the authority of both ossent and crownsunder' is V's stated claim in response to P3's challenge, not actual enlargement of limited inquiry/diplomatic messenger credentials, new treaty or bilateral command authority. D356~10:12 P3 calls back 'Then show us your orders. Who signed them?' P1 Veteran leader, hearing the exchange from east approach, calls to P3 to keep the newcomers outside and steps into view around southern side of station, accompanied by P4 Guard who remains at east approach. P1 moves from fixed east approach toward south corner only, about30ft of ordinary movement during brief precombat dialogue; his exact position relative to east door is (15,-15) in local coordinates east +x/north +y; unobstructed view toward wooded rise after coming around corner. P3 remains at wagon barricade50ft south of east door, P2 remains on perch60ft NE z20, P4 at(40,0); no weapons drawn/fired, no attack, alarm signal, initiative, spell or deception check yet. P1 asks whether V has written authorization and says their detachment is requisitioning provisions for border defense. This is actual spoken cover claim, not proof of legitimate requisition or faction. Existing fixed hostile independent motive and evidence placement unchanged; no automatic acceptance of V's asserted authority and no fabricated credential. Player chooses whether to show actual papers, ask about orders, approach or other action. Civilians sheltering, no new injury or assault adjudicated, 8 total incl2 injured per private packet. No V movement, speech beyond exact claim, new spending or resource change.",
+  "pending_action": "D356~10:12 Ossent-side Orseld waystation. V visible at wooded rise ~120ft west of station, C/F nearby, Mara screened coach/four horses just behind. Local coordinate east door(0,0), east+x north+y; P1 Veteran HP58 AC17 now visible near southern corner(15,-15) after ordinary approach, P4 Guard HP11 AC16 east(40,0), P2 Scout HP16 AC13 on20ft perch60ft NE, P3 Scout HP16 AC13 near southern wagon barricade50ft south. P1/P3 challenge V's claim of both Crowns' authority, request written orders/signatory; P1 claims requisitioning provisions for border defense, not verified. No initiative/attack/signal, all enemies alert to party's presence, no surprise assumed. Civilians seeking west refuge, 8 incl2 injured private fixed count, exact V knowledge limited. Prepared finite roster dm-hollow-pennant.md @ba86b23cb89d85846bb0ae8652d31cf47fd2e4d6, remaining camp4 depot9 command7 quartermaster/controller unchanged. V's actual inquiry and diplomatic messenger credentials limited, no treaty/command authority. V48/48 AC19 HD7/7 (3d10+4d8), MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, Hadiya quill acquired unattuned, Wasp Needles acquired, dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara coach/four horses healthy; rations21 feed28 D356 charge pending purse966gp4sp6cp LR3/6 Tamsin dawn accounted. Other case/estate/commission/custody unchanged, V next choice; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-WAYSTATION-V-HAILS-ARMED-DETACHMENT-001"
+  ],
+  "rng_evidence": {
+    "status": "no_rolls",
+    "reason": "Ordinary NPC challenge and request for written authority; no uncertain concession or deception adjudicated."
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-WAYSTATION-V-ASSERTS-DUAL-AUTHORITY-001",
+      "accepted": true,
+      "evidence": "Exact player 'We carry the authority of both ossent and crownsunder' is V's stated claim in response to P3's challenge, not actual enlargement of limited inquiry/diplomatic messenger credentials, new treaty or bilateral command authority. D356~10:12 P3 calls back 'Then show us your orders. Who signed them?' P1 Veteran leader, hearing the exchange from east approach, calls to P3 to keep the newcomers outside and steps into view around southern side of station, accompanied by P4 Guard who remains at east approach. P1 moves from fixed east approach toward south corner only, about30ft of ordinary movement during brief precombat dialogue; his exact position relative to east door is (15,-15) in local coordinates east +x/north +y; unobstructed view toward wooded rise after coming around corner. P3 remains at wagon barricade50ft south of east door, P2 remains on perch60ft NE z20, P4 at(40,0); no weapons drawn/fired, no attack, alarm signal, initiative, spell or deception check yet. P1 asks whether V has written authorization and says their detachment is requisitioning provisions for border defense. This is actual spoken cover claim, not proof of legitimate requisition or faction. Existing fixed hostile independent motive and evidence placement unchanged; no automatic acceptance of V's asserted authority and no fabricated credential. Player chooses whether to show actual papers, ask about orders, approach or other action. Civilians sheltering, no new injury or assault adjudicated, 8 total incl2 injured per private packet. No V movement, speech beyond exact claim, new spending or resource change.",
+      "before": "Scout asks who sent V.",
+      "after": "V asserts dual authority; leader appears and demands written orders; no combat or actual authority granted.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
