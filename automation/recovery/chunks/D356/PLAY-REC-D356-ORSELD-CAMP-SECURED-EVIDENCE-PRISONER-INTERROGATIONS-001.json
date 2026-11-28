@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-CAMP-SECURED-EVIDENCE-PRISONER-INTERROGATIONS-001",
+  "base_commit": "3614b494629e18989843920595f882baba2227e3",
+  "source_checkpoint": "D356-1514-ORSELD-CAMP-PURSUIT-ENDED-TWO-SCOUTS-DYING-001",
+  "destination_checkpoint": "D356-1935-ORSELD-FORWARD-CAMP-EVIDENCE-SECURED-INTERROGATIONS-COMPLETE-001",
+  "source_evidence": "Exact player 'Ok tie them up, loot and gather evidence, then interrogate as each wakes up. Help and guidance and, all of V’s resources' authorizes nonlethal restraint, casualty care, search/seizure of property/evidence and individual questioning, using relevant V check features as needed, not execution, torture, unrelated purchases, all resources indiscriminately, or further travel. R6 V approaches dying P2, Medicine14+2=16 DC10 stabilizes; P6 death save11 succeeds, Fenar Medicine7+2=9 fails. V uses remaining R6 movement toward P6, then R7 movement+Cunning Action Dash to close the gap before P6's next turn; Medicine15+2=17 DC10 stabilizes P6. Initial batch had prematurely rolled P6 R7 save6, F Medicine5 and R8 save1 without accounting for V's available turn; explicitly corrected before narrating or accepting those events. Those three pre-rolled results were not applied, not rerolled or concealed; actual R7 stabilization ends death-save sequence before they would occur. Preserve all accepted preceding rolls, including R6 failure; no P6 death. All four downed survivors P8/P5/P2/P6 stable0, only P4 dead by massive damage. Natural recovery 1d4 hours: P8 4, P5 3, P2 4, P6 1; regain1HP respectively around19:13,18:13,19:14,16:14, no spell slot. By ~15:20 V/F bring three scout survivors back, C supervises captured veteran/gate guard/captain/guard; disarm and secure seven surviving captives with ordinary camp tent lashings/straps (new mundane DM determination, no V rope or gold spent, no injuries). Keep conscious captives separated and supervised, P4 body separate. Seven living P1 Veteran58, P3 scout9, P7 Guard11, P8 Guard1, P5 Knight1, P2 Scout1, P6 Scout1 by evening. V/F/C search camp in ordinary time under active guard, no additional foes, traps, magic or attack. Fixed clues from prep/dm-only/dm-hollow-pennant.md: actual concealed reversed rival livery on P4 supply bundle together with the detachment's original opposing colors; actual depot packing chit in store with issue/route marks. No extra dossier or sponsor seal. V Investigation adv1,16 keep16+4+Guidance2=22 vs DC15/20; efficiently locates and interprets marks with Cirren's Help, no limited feature needed. Fenar helps secure gear. Two previously observed unarmed adults confirm coercion, are freed unharmed and one independently offers to guide party to toll fort, no forced testimony/hire/payment or departure. Recovered seized mundane gear exactly 1 plate,1 splint,3 chain shirts,3 leather armor,1 greatsword,1 longsword,4 shortswords,2 heavy crossbows,3 longbows,3 spears,3 shields; ordinary individual pocket coin amounts newly adjudicated by DM: six enlisted d6 sp [2,5,4,3,2,2]=18sp, two officers d6gp [3,5]=8gp. All gear and coins held in camp as seized property under party supervision, not yet sold, transferred, distributed or added to V purse; condition ordinary used/possibly combat damaged, no sale value promised. Food and cloth in store preserved separately pending owner identification; quantity/value not invented. Witness account from waystation, paired colors and actual packing chit plus separate captive statements provide corroboration of Hollow Pennant false-color impersonation and supply destination, sufficient evidence package for conditional Crown300 milestone to present, not yet accepted/paid; no proof of sponsor/controller chain, no further payment. Individual questioning with Cirren Help+Guidance and V Persuasion+7: P7=27/DC14 confirms rotating uniforms, P3=28/DC14 confirms travel and depot; P1=27/DC18 identifies deliberate false-color raids, acknowledges same officer and no real military requisition authority, company receives orders/supplies through old fort; P6=27/DC14 confirms actual watch/supply routine and no signal sent in camp fight; P5=30/DC20 identifies mercenary company as Hollow Pennant, confirms deliberate false attribution intended to provoke Ossent/Crownsunder reprisals; explains quartermaster handles money and controller orders, no direct sponsor contact or authenticated proof; P8=28/DC14 corroborates uniforms and supply system, P2=17/DC14 corroborates route. Questions asked separately as conscious/awake, no magic compulsion, no assumed oath, threat, full confession, specific additional prior crimes or total omniscience; actual statements distinguish firsthand vs knowledge of orders. Captain knows broad route to field command further beyond depot; directions about8 trail miles from depot, unverified. Depot route12 road miles beyond camp, packing chit and freed porter corroborate. No countdown because actual supply requisition failed. Final V Insight comparison adv10,1 keep10+5+Guidance1=16; Tactical Assessment d8=1 expends1 Sup to17 vsDC20; Psi-Bolstered Knack d6=2 would only yield19, fails without Psi expenditure. Cannot confidently judge all hidden omissions or motives; no automatic deception detection. All seven Persuasion checks succeeded without Commanding Presence/Psi/MP/Past Life, no waste. C Guidance before each, no slot or sustained concentration. D356~19:35 after last waking and questioning. Fenar Rage and Shift expired by duration; THP8 retained per previous tracked temporary-HP-until-long-rest precedent (D228-229); no qualifying rest/short-rest recovery, no new damage, no rations charged yet, no remote report or additional troops. Mara/coach/horses remain at waystation, six trail miles away, no automatic communication or relocation. Other prior estate, diplomatic, custody, commissions unchanged. Next decision secure custody overnight, return/seek lawful handoff, proceed or scout depot; cannot assume party abandon prisoners or that they safely transport themselves. Significant combat completed, owner reconciliation pending.",
+  "pending_action": "D356~19:35 Orseld forward camp, combat completed; V/C/F in secured camp with 7 disarmed restrained living prisoners under their supervision, two freed unarmed porters free to choose, P4 dead. P1 Veteran58/58,P3 Scout9/16,P7 Guard11/11,P5 Captain1/52,P8 Guard1/11,P2 Scout1/16,P6 Scout1/16, awake; no enemy escaped, no signal. Two contrasting uniforms (original Crownsunder colors plus actual hidden reversed Ossent livery) and depot packing chit in V/party evidence custody, seven separate statements plus earlier proprietor testimony; confirmed name Hollow Pennant, purpose false flags, toll-fort depot12 road miles onward, captain's reported field command8 trail miles beyond depot unverified, quartermaster/controller handle supply/orders, ultimate sponsor unknown. Evidence suitable for Crown300 claim upon delivery/verification, no payment/new contract; Crown1300 sponsor milestone unfulfilled, Coris1100 contingent. Gear seized and stored in camp: plate1/splint1/chain shirt3/leather3/greatsword1/longsword1/shortsword4/heavy crossbow2/longbow3/spear3/shield3, pocket coin8gp18sp held separate from purse, food/cloth owner/title unresolved. V25/48 AC19 HD7/7(3d10+4d8) MP2/7 Sup3/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, quill unattuned Wasp Needles carried, dice delegated. C51/51 AC19 HD6/6 slots4/3/1 CD2/2 no concentration. F48/59+8THP AC16 HD6/6 Rage3/4 inactive, Shift2/3 inactive, MP2/6 CLIMB40 Athlete, Reckless expired. No qualifying rest, LR0/6. Mara coach/four healthy horses at waystation six trail miles away; purse966gp4sp6cp excluding seized coins, rations21 feed28 D356 daily charge pending, Tamsin dawn accounted. No distant report/reinforcements; depot9+quartermaster and command7+controller unchanged. All prior estate, case, custody and diplomatic facts preserved. V next decision on prisoners, resting/travel and pursuing depot; owning records/derived views not yet reconciled.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-CAMP-R4-R5-PURSUIT-DEATH-SAVE-CORRECTION-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "batch_id": "b25d2aa5f4bdda6d8cdaefc874985d01",
+        "generator": "python.secrets.randbelow",
+        "rolls": [
+          [
+            "V.P2.medicine",
+            20,
+            [
+              14
+            ]
+          ],
+          [
+            "P6.R6.death_save",
+            20,
+            [
+              11
+            ]
+          ],
+          [
+            "Fenar.P6.R6.medicine",
+            20,
+            [
+              7
+            ]
+          ],
+          [
+            "P6.R7.death_save",
+            20,
+            [
+              6
+            ],
+            "premature not applied"
+          ],
+          [
+            "Fenar.P6.R7.medicine",
+            20,
+            [
+              5
+            ],
+            "premature not applied"
+          ],
+          [
+            "P6.R8.death_save",
+            20,
+            [
+              1
+            ],
+            "premature not applied"
+          ],
+          [
+            "P8.recovery_hours",
+            4,
+            [
+              4
+            ]
+          ],
+          [
+            "P5.recovery_hours",
+            4,
+            [
+              3
+            ]
+          ],
+          [
+            "P2.recovery_hours",
+            4,
+            [
+              4
+            ]
+          ]
+        ]
+      },
+      {
+        "batch_id": "af53a33b7f841b36b0b32df91cad2bf1",
+        "generator": "python.secrets.randbelow",
+        "rolls": [
+          [
+            "V.R7.P6.medicine",
+            20,
+            [
+              15
+            ]
+          ]
+        ]
+      },
+      {
+        "batch_id": "5b95cac3b3fe4b4ac8e739aa1633334f",
+        "generator": "python.secrets.randbelow",
+        "rolls": [
+          [
+            "P6.recovery_hours",
+            4,
+            [
+              1
+            ]
+          ],
+          [
+            "enlisted.coin.sp",
+            6,
+            [
+              2,
+              5,
+              4,
+              3,
+              2,
+              2
+            ]
+          ],
+          [
+            "officers.coin.gp",
+            6,
+            [
+              3,
+              5
+            ]
+          ],
+          [
+            "V.investigation.advantage",
+            20,
+            [
+              1,
+              16
+            ]
+          ],
+          [
+            "V.investigation.guidance",
+            4,
+            [
+              2
+            ]
+          ]
+        ]
+      },
+      {
+        "batch_id": "da6b2ba99828712d0790fb90f63f9fcb",
+        "generator": "python.secrets.randbelow",
+        "rolls": [
+          [
+            "P7.persuasion",
+            20,
+            [
+              16,
+              14
+            ]
+          ],
+          [
+            "P7.guidance",
+            4,
+            [
+              4
+            ]
+          ],
+          [
+            "P3.persuasion",
+            20,
+            [
+              5,
+              19
+            ]
+          ],
+          [
+            "P3.guidance",
+            4,
+            [
+              2
+            ]
+          ],
+          [
+            "P1.persuasion",
+            20,
+            [
+              19,
+              4
+            ]
+          ],
+          [
+            "P1.guidance",
+            4,
+            [
+              1
+            ]
+          ],
+          [
+            "P6.persuasion",
+            20,
+            [
+              18,
+              16
+            ]
+          ],
+          [
+            "P6.guidance",
+            4,
+            [
+              2
+            ]
+          ],
+          [
+            "P5.persuasion",
+            20,
+            [
+              9,
+              20
+            ]
+          ],
+          [
+            "P5.guidance",
+            4,
+            [
+              3
+            ]
+          ],
+          [
+            "P8.persuasion",
+            20,
+            [
+              20,
+              11
+            ]
+          ],
+          [
+            "P8.guidance",
+            4,
+            [
+              1
+            ]
+          ],
+          [
+            "P2.persuasion",
+            20,
+            [
+              7,
+              2
+            ]
+          ],
+          [
+            "P2.guidance",
+            4,
+            [
+              3
+            ]
+          ],
+          [
+            "V.insight.advantage",
+            20,
+            [
+              10,
+              1
+            ]
+          ],
+          [
+            "V.insight.guidance",
+            4,
+            [
+              1
+            ]
+          ],
+          [
+            "V.insight.tactical_assessment",
+            8,
+            [
+              1
+            ]
+          ],
+          [
+            "V.insight.psi_knack",
+            6,
+            [
+              2
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-CAMP-CASUALTY-CARE-CORRECTION-AND-CUSTODY-001",
+      "accepted": true,
+      "evidence": "R6/R7 V stabilizes two remaining scouts; all seven survivors secured, P4 massive-damage death unchanged. See full source_evidence and RNG.",
+      "before": "Five living captives/2 dying, one dead, no restraints.",
+      "after": "Seven living disarmed restrained captives, four recover natural1HP as rolled, one dead.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/inventory.md"
+      ]
+    },
+    {
+      "event_id": "D356-ORSELD-CAMP-SEARCH-EVIDENCE-LOOT-PORTERS-001",
+      "accepted": true,
+      "evidence": "Investigation22 with Help/Guidance, existing livery and route chit, 2 coerced porters freed, seized gear/8gp18sp separate custody; see source_evidence.",
+      "before": "Camp unsearched, laborers still sheltered.",
+      "after": "Evidence and seized property secured, route/depot corroborated, porters freed.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/inventory.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    },
+    {
+      "event_id": "D356-ORSELD-CAMP-PRISONERS-QUESTIONED-001",
+      "accepted": true,
+      "evidence": "Seven separate successful persuasion checks, corroborate company identity/false flags/route but no sponsor proof; Insight17/DC20 failure, Sup4→3, failed Knack no cost; no rest, 19:35.",
+      "before": "Prisoners restrained, not questioned; Sup4.",
+      "after": "Interrogations complete, evidence for 300gp conditional claim, Sup3, V next decision.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "data/characters/events.csv",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
