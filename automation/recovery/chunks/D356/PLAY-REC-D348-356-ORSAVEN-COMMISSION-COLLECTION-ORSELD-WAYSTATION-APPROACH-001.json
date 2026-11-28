@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D348-356-ORSAVEN-COMMISSION-COLLECTION-ORSELD-WAYSTATION-APPROACH-001",
+  "base_commit": "564e152a73a1d5a79d78c6e8ccfa8041038b6e08",
+  "source_checkpoint": "D348-1130-ORSAVEN-MAIL-RESUPPLY-ENCHANTMENT-CHECK-COMPLETE-001",
+  "destination_checkpoint": "D356-1010-ORSELD-WAYSTATION-ARMED-REQUISITION-OBSERVED-001",
+  "source_evidence": "Exact player 'Let’s rest here until my commissions are complete, then leave to investigate the Veyrn proxy raids' authorizes ordinary five-night Copper Hart stay until existing two orders complete and collection with agreed balances, then departure to investigate accepted Crown frontier report. No Serpent Dart order, new unrelated magic purchase, discretionary use/attunement or forwarding of Crown diplomatic reply authorized. D348–353 five additional actual secure-town nights at established inclusive2gp/night (two rooms/three meals/four-horse care),10gp paid from V personal purse1496gp4sp6cp→1486gp4sp6cp; no packed provisions deducted on inn days; all five nights uninterrupted, LR3→5→6 at dawn350 reset0, then2→4→6 at dawn353 reset0, V recovers final Rogue d8 HD6→7 at first completion, V/C/F HP/features and C/F HD already full; no changed spells/adaptation, no unnecessary feature/HD spending. Mara organizes actual copies, Cirren reads at ordinary available libraries, Fenar trains as downtime without mechanical benefit or further spending. D353 morning actual local maker collection at Lark Street Letter Writer and Two Spindles Clothiers: elapsed agreed28days from D325, no known contrary materials/bench issue, routine competent work and satisfactory demonstrations of functional quill and paired needles completed, no uncertain test or roll needed merely for established ordinary professional completion. V pays actual agreed balance280gp for original ordered Hadiya's Handy Quill (Saddlebag Book Two p97, uncommon, requires attunement; returning physical dart/writing/tattoo and once-dawn ink, no attunement chosen) and240gp for ordered pair Weaving Wasp Needles (Saddlebag Book Two p187, uncommon; two hits same eligible Large or smaller target restraint DC13 Str action escape, once/dawn, ordinary mending/garment uses per source); exact total520gp personal purse1486gp4sp6cp→966gp4sp6cp. Previously deposited140/120 already paid325, no duplicate debit, unique items in V physical custody, no new sword enchantment or property duplication, no limited feature use, no delivery fee. Actual completed maker slots closed; no invented replacement stock. User chooses to depart for already accepted independent Crown investigation (D315 advance200 already received,300+1300 outstanding contingent); no extra guild/waystation contract assumed. D353 morning ordinary inquiry to frontier-route information using existing inquiry credentials and D306 report, actual east/northeast road to Orseld approaches identified:72 ordinary road miles plus4mi upland spur to waystation; no new intelligence identifying perpetrators or sponsor. No diplomatic counterproposal collected/forwarded, no extra expenditure, no claimed correspondence or new estate outcome. D353~10:00 depart with Mara driving coach/four horses and whole party. Expected4 travel days (3x24mi road plus4 rough spur) cap2 random encounter days, first two days ordinary trade road15%/7%, frontier day3 30%/20%, spur remote40% day. Genuine raw Python receipts: D35374 quiet and exposed night51 quiet; D3544 triggers type88 ordinary social, selected d8=8 local family traveling between settlements, candidate table fixed before identity selection (freight carter/shepherds/maintenance crew/patrol messenger/merchant broken harness/craftsmen/hunters/local family). Family passes with ordinary road courtesy, no V unchosen dialogue, involvement, spend, clue, quest or fight; night occurrence skipped because encounter day used. D35599 quiet and night57 quiet; D356 spur80 quiet. All three D353–355 peaceful exposed wilderness nights LR0→1→2→3, short rests qualifying, no feature or HD changes. Travel D35324mi to camp~18:00, D35424mi to camp~15:30, D35524mi to junction~15:30; D356 cautious 4 rough miles with coach following used supply-wagon spur at difficult terrain pace, reach waystation vicinity~10:10. D353/354/355 charge3 ration-days and4 feed each once, 30/40→21/28; D356 full day charge pending, no inn or toll. Routine Tamsin contacts each dawn349–356 under standing authorization; no new specific replies, funding, legal inspections, Coris milestone payment, Voss receipt, or Flint Banner outcome inferred. Activate prepared actual waystation scene (not random event, fixed source prep/dm-only/dm-hollow-pennant.md @ba86b23cb89d85846bb0ae8652d31cf47fd2e4d6; regional packet @dd14c6fe3e6ef7c4f85adcd3081acf62ec27d3bd) as current visible encounter on deliberate route: finite existing four-fighter detachment (P1 Veteran HP58 AC17 leader and P4 Guard HP11 AC16 on east approach40ft from east door; P2 Scout HP16 AC13 on20ft perch60ft NE of east door; P3 Scout HP16 AC13 at southern wagon barricade50ft from door), drawn from forward camp8, remaining camp4, depot9 command7 plus existing quartermaster/controller; no reinforcements or timed earlier requisition assumed. Newly played current detachment at waystation seeking stores/intimidating witnesses, no extra prior violence, injury, deadline, fatalities or confirmed identification of sponsor introduced. Eight noncombatants at station including two previously prepared injured travelers, visible a few civilians moving toward stone refuge30ft west of east door, exact total/condition not yet learned; culvert exit80ft SW behind hedge not revealed until observation. Party observes from wooded rise120ft west of station, Mara voluntarily halts coach screened on track just behind party, remains with healthy horses, V/C/F at rise, no stealth check or surprise, no enemy visibly reacting. From this vantage visible armed figure on southern wagon barricade and lookout on raised perch where sightline permits, hears shouted demands from eastern approach partly blocked by station, visible one armed figure's Crownsunder colors on apparel, no confirmed identity or allegiance. Civilian west refuge/hedge cover visible, east approach obscured by building; no attack/initiative or V movement beyond safe observation. Fixed local roster unchanged; actual meaningful actionable scene: witness demands/assess approach/intervene or investigate; no automatically known commander/sponsor, automatic threat clock, promise of 80gp, or fight. V chooses next decision. All prior estate, case, correspondence, diplomacy, custody and rewards unchanged.",
+  "pending_action": "D356~10:10 Ossent-side Orseld approaches, actual waystation after76/76mi (72 road+4 rough spur), travel leg cap1/2 used D354 social; no D356 random encounter. V/Cirren/Fenar at wooded rise~120ft west of station, Mara with screened healthy coach/four horses just behind. Prepared current authored waystation requisition scene active, no combat/initiative, no stealth/surprise yet. Visible one armed lookout on20ft perch and one near southern wagon barricade, Crownsunder colors observed on one figure; shouts from partly obscured east approach, civilians moving toward western refuge; actual count/affiliation/sponsor unverified. DM fixed packet dm-hollow-pennant.md @ba86b23cb89d85846bb0ae8652d31cf47fd2e4d6: P1 Veteran AC17 HP58 + P4 Guard AC16 HP11 east40ft from east door, P2 Scout AC13 HP16 on20ft perch60ft NE, P3 Scout AC13 HP16 south50ft at barricade; 8 noncombatants including2 injured, stone refuge30ft west of east door, culvert80ft SW behind hedge. Remaining forward camp4, depot9, command7, qmaster/controller intact, no extra force. Enemy not visibly aware, no actual attack, prep route/sightlines fixed; V next choice. V48/48 AC19 HD7/7 (3d10+4d8), MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce carried, Hadiya's Handy Quill physically acquired unattuned, Weaving Wasp Needles pair physically acquired, no use or transfer, dice delegated. C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara and coach/four horses healthy, rations21 feed28 after D353–355 charges, D356 charge pending. Purse966gp4sp6cp after10gp inn and520gp balances paid; LR3/6, Tamsin dawn contacts accounted through356. Both magic orders fully paid/collected, no Serpent Dart accepted. Crown frontier300+1300 contingent, Coris300+800 contingent, diplomatic reply not forwarded, three property conditional grants and Hessa/Voss mandate remain; no new official inspection/reply or other result assumed. Prior case, estate and custody unchanged. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D347-348-ORSAVEN-CORRESPONDENCE-RESUPPLY-MAGIC-COMMISSIONS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "f63a740e4edf40cf92746f53d6b9fb2b",
+        "rolls": [
+          {
+            "id": "D353.orseld.day.occurrence",
+            "sides": 100,
+            "faces": [
+              74
+            ]
+          },
+          {
+            "id": "D353-354.orseld.night.occurrence",
+            "sides": 100,
+            "faces": [
+              51
+            ]
+          },
+          {
+            "id": "D354.orseld.day.occurrence",
+            "sides": 100,
+            "faces": [
+              4
+            ]
+          },
+          {
+            "id": "D354.orseld.day.type",
+            "sides": 100,
+            "faces": [
+              88
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "867457519baa21969284d3bf2159989b",
+        "rolls": [
+          {
+            "id": "D354.orseld.social_selection",
+            "sides": 8,
+            "faces": [
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "d07e6598403127d7978df4727e75f5c2",
+        "rolls": [
+          {
+            "id": "D355.orseld.frontier_day.occurrence",
+            "sides": 100,
+            "faces": [
+              99
+            ]
+          },
+          {
+            "id": "D355-356.orseld.frontier_night.occurrence",
+            "sides": 100,
+            "faces": [
+              57
+            ]
+          },
+          {
+            "id": "D356.orseld.upland_spur_day.occurrence",
+            "sides": 100,
+            "faces": [
+              80
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D348-353-COPPER-HART-FIVE-NIGHTS-LONG-REST-001",
+      "accepted": true,
+      "evidence": "Five additional inclusive2gp nights at Copper Hart; 10gp actual, two completed full LRs at dawn350 and353 from initial3/6, V HD6→7, full pools; no packed food/feed used, no feature spend or spell changes.",
+      "before": "D348 morning LR3/6, purse1496gp4sp6cp.",
+      "after": "D353 dawn LR0/6, full HP/HD/resources, purse1486gp4sp6cp.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    },
+    {
+      "event_id": "D353-ORSAVEN-HADIYA-QUILL-COMPLETED-DELIVERED-001",
+      "accepted": true,
+      "evidence": "Actual original D325 order finished and tested, balance280gp paid; one unique Hadiya's Handy Quill in V custody, unattuned. Total420gp including previously paid140 deposit, no duplicate.",
+      "before": "Accepted order,280gp balance outstanding.",
+      "after": "Delivered one item, paid in full.",
+      "owner_paths": [
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/dealers.csv",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv",
+        "campaign/continuity/quests.md"
+      ]
+    },
+    {
+      "event_id": "D353-ORSAVEN-WASP-NEEDLES-COMPLETED-DELIVERED-001",
+      "accepted": true,
+      "evidence": "Actual original D325 order finished and tested, balance240gp paid; one unique paired set of Weaving Wasp Needles in V custody. Total360gp including previously paid120 deposit, no duplicate; both balances together520gp, purse1486gp4sp6cp→966gp4sp6cp.",
+      "before": "Accepted order,240gp balance outstanding.",
+      "after": "Delivered one set, paid in full.",
+      "owner_paths": [
+        "trackers/csv/magic-shops/events.csv",
+        "trackers/csv/magic-shops/dealers.csv",
+        "campaign/continuity/inventory.md",
+        "data/characters/events.csv",
+        "campaign/continuity/quests.md"
+      ]
+    },
+    {
+      "event_id": "D353-356-ORSELD-ROUTE-TRAVEL-AND-WAYSTATION-OBSERVATION-001",
+      "accepted": true,
+      "evidence": "Actual four-day outward travel 72 road+4 rough miles, three qualifying nights LR0→3, actual RNG receipts preserved, only D354 family social encounter, provisions30/40→21/28. Fixed prepared quest waystation detachment observed on actual approach, no combat, sponsor proof, deadline, new reward or further V action.",
+      "before": "Party at Orsaven, authorized departure.",
+      "after": "D356~10:10 at waystation wooded rise, actionable scene and resources as pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "data/characters/events.csv",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
