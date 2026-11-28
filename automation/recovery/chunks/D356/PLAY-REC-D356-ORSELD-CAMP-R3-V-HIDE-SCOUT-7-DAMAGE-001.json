@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-CAMP-R3-V-HIDE-SCOUT-7-DAMAGE-001",
+  "base_commit": "5271e75616ed38fec5117f01f0340fbd41671a6f",
+  "source_checkpoint": "D356-1513-ORSELD-CAMP-R3-V-ACTIVE-CAPTAIN-DOWN-GATE-SURRENDER-001",
+  "destination_checkpoint": "D356-1513-ORSELD-CAMP-R3-V-P3-9HP-MOVEMENT-PENDING-001",
+  "source_evidence": "Player exact 'Bonus hide then attack scout 1' authorizes BA Cunning Action Hide and Attack on closest scout P3. V moves10ft from(60,-30) to screened corner of existing work shelter around(60,-20), establishing concealment from P3 using existing structure, not hiding from all other enemies; no crossing occupied hostile space. Genuine Python secrets batch1e205e3e44083615939c7528133cb9af: Stealth16+11=27 vs passive15 succeeds; thrown main Psychic Blade normal range, advantage16,10 keep16+9=25 vs AC13 hits; base d6(1)+4=5, Sneak Attack2d6(1,1)=2, total7 psychic, P3 HP16→9. No Vex as SA applied. Attack reveals V to target. No other actions/rolls, no civilian injury, no enemy turn adjudicated. V BA and action spent, 20ft movement/reaction available, no changes to pools or health; pause on V R3.",
+  "pending_action": "D356~15:13 forward camp R3 V15 active after BA and Attack, 20ft movement/reaction available, P7 initiative16 surrendered at west gate(0,0) weapon dropped, P2=14,P3=13,P6=8,Cirren=5,P1=4,Fenar=3; P4/P5/P8 dead skip. V upright(60,-20) at work shelter exterior corner HP25/48 AC19 HD7/7 MP6/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge0/1 SecondWind0/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce Hadiya quill unattuned Wasp Needles carried dice delegated. C upright(65,-35) HP51/51 AC19 HD6/6 slots4/3/1 CD2/2 concentration Spirit Guardians3rd radiant15ft DC16 3d8 half, allies and laborers excluded, hostile speed halved in area. F upright(65,-30) HP48/59 +8THP AC16 HD6/6 Rage3/4 active Beast claws R1 start, Reckless until next F turn, Shift2/3 active R2 start, MP6/6 CLIMB40 Athlete. P1 Veteran58 AC17(65,-5), P2 Scout16 AC13(65,0), P3 Scout9/16 AC13(40,-30), P6 Scout16 AC13 perch(40,40,z15), P7 Guard11 AC16 surrendered. P4/P5/P8 dead. Two laborers shelter(50,-20) unharmed. Captain down morale trigger; no new signal/reinforcement. Mara coach/four horses at waystation, rations21 feed28 daily charge pending purse966gp4sp6cp LR0/6. Other prior records unchanged, owner reconciliation pending. V movement/end-turn choice.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-CAMP-R2-V-ACTION-SURGE-READY-CAPTAIN-DOWN-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "1e205e3e44083615939c7528133cb9af",
+        "rolls": [
+          {
+            "id": "D356.R3.V.P3.cunning_action_hide",
+            "sides": 20,
+            "faces": [
+              16
+            ]
+          },
+          {
+            "id": "D356.R3.V.P3.thrown_psychic_blade.attack",
+            "sides": 20,
+            "faces": [
+              16,
+              10
+            ]
+          },
+          {
+            "id": "D356.R3.V.P3.psychic_damage",
+            "sides": 6,
+            "faces": [
+              1
+            ]
+          },
+          {
+            "id": "D356.R3.V.P3.sneak_attack",
+            "sides": 6,
+            "faces": [
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-CAMP-R3-V-HIDE-SCOUT-7-DAMAGE-001",
+      "accepted": true,
+      "evidence": "Player exact 'Bonus hide then attack scout 1' authorizes BA Cunning Action Hide and Attack on closest scout P3. V moves10ft from(60,-30) to screened corner of existing work shelter around(60,-20), establishing concealment from P3 using existing structure, not hiding from all other enemies; no crossing occupied hostile space. Genuine Python secrets batch1e205e3e44083615939c7528133cb9af: Stealth16+11=27 vs passive15 succeeds; thrown main Psychic Blade normal range, advantage16,10 keep16+9=25 vs AC13 hits; base d6(1)+4=5, Sneak Attack2d6(1,1)=2, total7 psychic, P3 HP16→9. No Vex as SA applied. Attack reveals V to target. No other actions/rolls, no civilian injury, no enemy turn adjudicated. V BA and action spent, 20ft movement/reaction available, no changes to pools or health; pause on V R3.",
+      "before": "V R3 fresh turn P3 HP16",
+      "after": "V action/BA spent P3 HP9; V movement/reaction available",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
