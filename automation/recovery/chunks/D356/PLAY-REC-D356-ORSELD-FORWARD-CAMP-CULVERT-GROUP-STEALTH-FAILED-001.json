@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-FORWARD-CAMP-CULVERT-GROUP-STEALTH-FAILED-001",
+  "base_commit": "081afd754b81494871b9f0d2b32fc27aec5a054b",
+  "source_checkpoint": "D356-1450-ORSELD-FORWARD-CAMP-SOLO-RECON-CULVERT-FOUND-001",
+  "destination_checkpoint": "D356-1512-ORSELD-CULVERT-APPROACH-LOOKOUT-CHALLENGE-001",
+  "source_evidence": "Exact player 'Tell my party to come and try under the palisades' authorizes regrouping with Cirren and Fenar and attempting the culvert approach together, not attack, feature expenditure or forcing further entry after detection. V retraces previously successful screened exterior path to western waiting allies without a fresh independent obstacle; quietly briefs them on eight fighters, two apparent laborers and culvert. C/F voluntarily follow V around camp using terrain. No Psychic Whispers assumed or spent. Predeclared group Dexterity(Stealth) DC15 highest perimeter scout passive, at least2 of3 succeed; V+11 incl Luckstone, Cirren+2 with Boots of Elvenkind advantage for quiet movement, Fenar+5. Genuine Python secrets receipt batch1b164d3e3119424f876353ba705dd348: V7+11=18 succeeds, Cirren advantage4,3 keep4+2=6 fails, Fenar5+5=10 fails; one of three succeeds, GROUP FAILURE. As they near final gap in eastern scrub approximately(155,-60) ~25ft from exterior culvert mouth(140,-40), P6 elevated lookout at(40,40,z15) notices movement/figures through a break in vegetation and calls toward east side 'Movement in the trees! Who's there?' V remains individually concealed insofar as his successful movement, but group approach compromised; no claim enemies have perfect sight through palisade, know identities, exact number, or culvert use. C/F crouch in nearby cover with V, no rush into culvert; all three approximately(155,-60), actual passage unentered, enemy lookout watching east; no alarm signal sent beyond audible call, no reinforcements, initiative or attacks yet. P5/P1–P4/P7/P8 remain at their fixed positions as call occurs, may react on subsequent actual turns/actions. Two laborers remain in shelter, no harm. D356~15:12. Player chooses immediate response: enter culvert before guards investigate, retreat, or deal with challenge. No new V resource spend, damage, food, coin, custody or reward; no retroactive successful stealth.",
+  "pending_action": "D356~15:12 forward camp southeast/eastern scrub approx(155,-60), V/C/F reunited ~25ft from culvert exterior mouth(140,-40), passage not entered. Group Stealth DC15 V18 success, C6 fail with Boots adv4,3, F10 fail; 1/3 group failure. P6 Scout on elevated perch(40,40,z15) notices movement/figures through scrub gap and calls 'Movement in the trees! Who's there?' Watching east, no exact identities/count confirmed, no signal/attack/initiative yet; party in nearby scrub cover, V individually successful but group compromised. Fixed camp x0..100 y-40..40, P1 Veteran58 AC17,P2/P3 Scouts16 AC13,P4 Guard11 AC16 in clearing, P5 Knight52 AC18 captain area, P6 Scout16 AC13 perch, P7 Guard11 AC16 west gate,P8 Guard11 AC16 stores, two unarmed adults work shelter, all intact. No new deployment or supply, depot9+Q command7+C unchanged. V48/48 AC19 HD7/7 MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, Hadiya quill unattuned, Wasp Needles carried, dice delegated. C51/51 AC19 HD6/6 slots4/3/3 CD2/2; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara/coach/four horses at waystation. Rations21 feed28 D356 charge pending purse966gp4sp6cp LR3/6. All other prior evidence, commissions, estate, diplomatic and custody unchanged. V immediate decision; owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-FORWARD-CAMP-VALENTHIA-SOLO-RECON-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "1b164d3e3119424f876353ba705dd348",
+        "rolls": [
+          {
+            "id": "D356.V.culvert_group_stealth",
+            "sides": 20,
+            "faces": [
+              7
+            ]
+          },
+          {
+            "id": "D356.Cirren.culvert_group_stealth",
+            "sides": 20,
+            "faces": [
+              4,
+              3
+            ]
+          },
+          {
+            "id": "D356.Fenar.culvert_group_stealth",
+            "sides": 20,
+            "faces": [
+              5
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-FORWARD-CAMP-CULVERT-GROUP-STEALTH-FAILED-001",
+      "accepted": true,
+      "evidence": "Exact player 'Tell my party to come and try under the palisades' authorizes regrouping with Cirren and Fenar and attempting the culvert approach together, not attack, feature expenditure or forcing further entry after detection. V retraces previously successful screened exterior path to western waiting allies without a fresh independent obstacle; quietly briefs them on eight fighters, two apparent laborers and culvert. C/F voluntarily follow V around camp using terrain. No Psychic Whispers assumed or spent. Predeclared group Dexterity(Stealth) DC15 highest perimeter scout passive, at least2 of3 succeed; V+11 incl Luckstone, Cirren+2 with Boots of Elvenkind advantage for quiet movement, Fenar+5. Genuine Python secrets receipt batch1b164d3e3119424f876353ba705dd348: V7+11=18 succeeds, Cirren advantage4,3 keep4+2=6 fails, Fenar5+5=10 fails; one of three succeeds, GROUP FAILURE. As they near final gap in eastern scrub approximately(155,-60) ~25ft from exterior culvert mouth(140,-40), P6 elevated lookout at(40,40,z15) notices movement/figures through a break in vegetation and calls toward east side 'Movement in the trees! Who's there?' V remains individually concealed insofar as his successful movement, but group approach compromised; no claim enemies have perfect sight through palisade, know identities, exact number, or culvert use. C/F crouch in nearby cover with V, no rush into culvert; all three approximately(155,-60), actual passage unentered, enemy lookout watching east; no alarm signal sent beyond audible call, no reinforcements, initiative or attacks yet. P5/P1–P4/P7/P8 remain at their fixed positions as call occurs, may react on subsequent actual turns/actions. Two laborers remain in shelter, no harm. D356~15:12. Player chooses immediate response: enter culvert before guards investigate, retreat, or deal with challenge. No new V resource spend, damage, food, coin, custody or reward; no retroactive successful stealth.",
+      "before": "V alone at eastern culvert approach, C/F concealed west.",
+      "after": "Party regrouped near culvert; group check fails, lookout calls challenge, no entry or combat.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md"
+      ]
+    }
+  ]
+}
