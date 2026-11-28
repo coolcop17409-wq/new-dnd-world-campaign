@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D356-ORSELD-CAMP-R1-V-EXITS-COMBAT-ROUND2-001",
+  "base_commit": "28c08809f757e1d09135f25011b62a6e13407e4e",
+  "source_checkpoint": "D356-1513-ORSELD-CAMP-R1-V-VEX-CORRECTED-BONUS-MISS-MOVEMENT-PENDING-001",
+  "destination_checkpoint": "D356-1513-ORSELD-CAMP-R2-V-ACTIVE-19HP-001",
+  "source_evidence": "Exact player 'Keep going on o make room for the others' authorizes V moving out of culvert and making room, treated as end of R1 after action/BA already spent. Temporary explicit geometry ruling honors prior DM offer to emerge: P8 leans at opening rather than sealing full opening, V can crawl into adjacent unoccupied interior square(65,-35) without crossing P8's space. V crawls5ft actual costing10ft and stands15ft, total25ft/30ft movement; remains in P8 reach, no OA, no additional resource spent. V upright, 5ft unused ends turn. P2 Scout moves to(65,0) with clear bow line; P3 Scout moves(40,-30) with clear southern shooting lane; P4 Guard moves(60,-35); P5 Knight moves(65,-30) and orders 'Inside the walls! To arms!' after observing V emerge; P8 at mouth(70,-40); P6 perch(40,40,z15) has partial cover from melee bodies, V effective AC21 against P6, otherwise AC19. Genuine batch64346020f3a2fef41412593b662900fe: P2 longbow d20 8+4=12 miss,11+4=15 miss; P3 longbow18+4=22 hit d8 8+2=10 V48→38,13+4=17 miss; P4 spear nat20 critical 2d6(6,3)+1=10 V38→28; P5 greatsword14+5=19 hit 2d6(4,3)+3=10 V28→18, nat1 miss; P8 spear8+3=11 miss; P6 longbow nat20 critical 2d8(3,3)+2=8 V18→10,17+4=21 hit d8(5)+2=7 V10→3. Total45 damage, no V reaction or unchosen resource use. Cirren R1 crawls from 10ft inside through unobstructed side route, 15ft actual/30ft movement, ends prone(75,-30). Independently prioritizes V at3HP: BA third-level Healing Word, slots3rd3→2, genuine batch c8f3565471ad826e438b1f5ad6c6f46f 3d4(3,4,4)+Wis5=16 heal V3→19; action Toll the Dead vs wounded P8 WIS save nat1+0=1 vs16 fails, 2d12(2,8)=10 necrotic, P8 6→0 dead ordinary hostile NPC. No concentration. P1 Veteran R1 moves to(65,-5) and fires heavy crossbow at V with half cover from melee; genuine batch3ebfcd73b9504db90d0d485dc6c7e7dc 5+3=8 vs21 misses. Fenar R1 uses Athlete feat (stand costs5ft), crawls15ft costing30ft, stands5ft, advances5ft to(70,-35), uses40ft speed no MP. BA Rage chooses claws, Rage4→3/4, active house10min, Reckless attacks vs captain AC18. Same batch: double-claw rend greataxe adv4,15 keep15+8=23 hit d12(1)+7=8, P5 52→44; beast claw adv17,10 keep17+9=26 hit d6(2)+8=10 P5 44→34; extra claw adv11,9 keep11+9=20 hit d6(6)+8=14 P5 34→20. Fenar full59/59, attacks against Fenar advantage until next turn start, Rage resistance, Shift inactive. R2 P7 maintains west gate and Dodges, no movement/no attack, ordinary defense, current V initiative15 with fresh action/BA/movement/reaction. No remote signal sent, two unarmed laborers remain unharmed, no reinforcements, no morale break trigger yet. No automatic Sneak Attack or spend on V's upcoming turn; Fenar now adjacent to captain, so V can attack captain with SA if no disadvantage. All other custody, evidence, provisions, purse, diplomacy, estate unchanged; LR already0/6. Full RNG receipts in visible execution and event data.",
+  "pending_action": "D356~15:13 forward camp R2 V15 active, P7 init16 already Dodging west gate. Remaining initiative P2=14,P3=13,P4=12,P5=11,P8=9 DEAD SKIP,P6=8,Cirren=5,P1=4,Fenar=3. Map palisade x0..100 y-40..40, inner culvert(70,-40) now open, V upright(65,-35) HP19/48 AC19, C prone(75,-30) HP51/51 AC19, F upright(70,-35) HP59/59 AC16. P1 Veteran58/58 AC17 (65,-5), P2 Scout16/16 AC13(65,0), P3 Scout16/16 AC13(40,-30), P4 Guard11/11 AC16(60,-35), P5 Knight20/52 AC18(65,-30), P6 Scout16/16 AC13 on perch(40,40,z15), P7 Guard11/11 AC16 gate(0,0) Dodge until next turn; P8 Guard0/11 dead at mouth(70,-40). Two laborers shelter(50,-20) unharmed, actual coerced status unconfirmed. All7 surviving enemies alert, no distant signal or reinforcement, no captain disabled or half casualties yet. V action/BA/movement/reaction refreshed; MP6/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword/Galepierce, Hadiya quill unattuned Wasp Needles carried dice delegated; V HD7/7 (3d10+4d8). C HD6/6 slots4/3/2 after third-level Healing Word, CD2/2 no concentration, prone. F HD6/6 Rage3/4 active claws 10min beginning R1, Reckless advantage against F until start next turn, Shift3/3 inactive MP6/6 climb40 Athlete no THP. V has ally Fenar within5ft of captain, SA eligible on normal melee hit; potential Second Wind BA available and Action Surge, no V limited resource or new action presumed. Mara at waystation coach/four horses. Rations21 feed28 D356 daily charge pending purse966gp4sp6cp LR0/6. All other prior records unchanged; owner reconciliation pending. V R2 decision.",
+  "depends_on": [
+    "PLAY-REC-D356-ORSELD-CAMP-R1-V-VEX-RETRO-CORRECTED-BONUS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "batch_id": "64346020f3a2fef41412593b662900fe",
+        "generator": "python.secrets.randbelow",
+        "rolls": [
+          [
+            "P2 bow1",
+            20,
+            [
+              8
+            ]
+          ],
+          [
+            "P2 bow2",
+            20,
+            [
+              11
+            ]
+          ],
+          [
+            "P3 bow1",
+            20,
+            [
+              18
+            ]
+          ],
+          [
+            "P3 damage",
+            8,
+            [
+              8
+            ]
+          ],
+          [
+            "P3 bow2",
+            20,
+            [
+              13
+            ]
+          ],
+          [
+            "P4 spear",
+            20,
+            [
+              20
+            ]
+          ],
+          [
+            "P4 damage",
+            6,
+            [
+              6,
+              3
+            ]
+          ],
+          [
+            "P5 sword1",
+            20,
+            [
+              14
+            ]
+          ],
+          [
+            "P5 damage",
+            6,
+            [
+              4,
+              3
+            ]
+          ],
+          [
+            "P5 sword2",
+            20,
+            [
+              1
+            ]
+          ],
+          [
+            "P8 spear",
+            20,
+            [
+              8
+            ]
+          ],
+          [
+            "P6 bow1",
+            20,
+            [
+              20
+            ]
+          ],
+          [
+            "P6 damage1",
+            8,
+            [
+              3,
+              3
+            ]
+          ],
+          [
+            "P6 bow2",
+            20,
+            [
+              17
+            ]
+          ],
+          [
+            "P6 damage2",
+            8,
+            [
+              5
+            ]
+          ]
+        ]
+      },
+      {
+        "batch_id": "c8f3565471ad826e438b1f5ad6c6f46f",
+        "generator": "python.secrets.randbelow",
+        "rolls": [
+          [
+            "C healing word level3",
+            4,
+            [
+              3,
+              4,
+              4
+            ]
+          ],
+          [
+            "P8 WIS save",
+            20,
+            [
+              1
+            ]
+          ],
+          [
+            "C toll damage",
+            12,
+            [
+              2,
+              8
+            ]
+          ]
+        ]
+      },
+      {
+        "batch_id": "3ebfcd73b9504db90d0d485dc6c7e7dc",
+        "generator": "python.secrets.randbelow",
+        "rolls": [
+          [
+            "P1 crossbow",
+            20,
+            [
+              5
+            ]
+          ],
+          [
+            "F greataxe adv",
+            20,
+            [
+              4,
+              15
+            ]
+          ],
+          [
+            "F axe damage",
+            12,
+            [
+              1
+            ]
+          ],
+          [
+            "F claw adv",
+            20,
+            [
+              17,
+              10
+            ]
+          ],
+          [
+            "F claw damage",
+            6,
+            [
+              2
+            ]
+          ],
+          [
+            "F extra claw adv",
+            20,
+            [
+              11,
+              9
+            ]
+          ],
+          [
+            "F extra claw damage",
+            6,
+            [
+              6
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D356-ORSELD-CAMP-R1-V-EXITS-COMBAT-ROUND2-001",
+      "accepted": true,
+      "evidence": "Exact player 'Keep going on o make room for the others' authorizes V moving out of culvert and making room, treated as end of R1 after action/BA already spent. Temporary explicit geometry ruling honors prior DM offer to emerge: P8 leans at opening rather than sealing full opening, V can crawl into adjacent unoccupied interior square(65,-35) without crossing P8's space. V crawls5ft actual costing10ft and stands15ft, total25ft/30ft movement; remains in P8 reach, no OA, no additional resource spent. V upright, 5ft unused ends turn. P2 Scout moves to(65,0) with clear bow line; P3 Scout moves(40,-30) with clear southern shooting lane; P4 Guard moves(60,-35); P5 Knight moves(65,-30) and orders 'Inside the walls! To arms!' after observing V emerge; P8 at mouth(70,-40); P6 perch(40,40,z15) has partial cover from melee bodies, V effective AC21 against P6, otherwise AC19. Genuine batch64346020f3a2fef41412593b662900fe: P2 longbow d20 8+4=12 miss,11+4=15 miss; P3 longbow18+4=22 hit d8 8+2=10 V48→38,13+4=17 miss; P4 spear nat20 critical 2d6(6,3)+1=10 V38→28; P5 greatsword14+5=19 hit 2d6(4,3)+3=10 V28→18, nat1 miss; P8 spear8+3=11 miss; P6 longbow nat20 critical 2d8(3,3)+2=8 V18→10,17+4=21 hit d8(5)+2=7 V10→3. Total45 damage, no V reaction or unchosen resource use. Cirren R1 crawls from 10ft inside through unobstructed side route, 15ft actual/30ft movement, ends prone(75,-30). Independently prioritizes V at3HP: BA third-level Healing Word, slots3rd3→2, genuine batch c8f3565471ad826e438b1f5ad6c6f46f 3d4(3,4,4)+Wis5=16 heal V3→19; action Toll the Dead vs wounded P8 WIS save nat1+0=1 vs16 fails, 2d12(2,8)=10 necrotic, P8 6→0 dead ordinary hostile NPC. No concentration. P1 Veteran R1 moves to(65,-5) and fires heavy crossbow at V with half cover from melee; genuine batch3ebfcd73b9504db90d0d485dc6c7e7dc 5+3=8 vs21 misses. Fenar R1 uses Athlete feat (stand costs5ft), crawls15ft costing30ft, stands5ft, advances5ft to(70,-35), uses40ft speed no MP. BA Rage chooses claws, Rage4→3/4, active house10min, Reckless attacks vs captain AC18. Same batch: double-claw rend greataxe adv4,15 keep15+8=23 hit d12(1)+7=8, P5 52→44; beast claw adv17,10 keep17+9=26 hit d6(2)+8=10 P5 44→34; extra claw adv11,9 keep11+9=20 hit d6(6)+8=14 P5 34→20. Fenar full59/59, attacks against Fenar advantage until next turn start, Rage resistance, Shift inactive. R2 P7 maintains west gate and Dodges, no movement/no attack, ordinary defense, current V initiative15 with fresh action/BA/movement/reaction. No remote signal sent, two unarmed laborers remain unharmed, no reinforcements, no morale break trigger yet. No automatic Sneak Attack or spend on V's upcoming turn; Fenar now adjacent to captain, so V can attack captain with SA if no disadvantage. All other custody, evidence, provisions, purse, diplomacy, estate unchanged; LR already0/6. Full RNG receipts in visible execution and event data.",
+      "before": "R1 V after corrected BA miss, V48 P8 6, party in culvert.",
+      "after": "R2 V19/48 standing; C51 third slots2 prone; F59 Rage3 active reckless; P8 dead P5 20/52, seven enemy fighters remain, R2 V pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "data/characters/events.csv"
+      ]
+    }
+  ]
+}
