@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "mode": "accepted_play",
+  "request_id": "PLAY-REC-D347-OSSENT-COUNTERPROPOSAL-DESEN-INVESTIGATION-PROGRESS-001",
+  "base_commit": "e81b4aa81ba7387452638c275b6effc57d4c7502",
+  "source_checkpoint": "D347-1715-ORSAVEN-THREE-CROWN-RECOVERY-GRANTS-RECOGNIZED-001",
+  "destination_checkpoint": "D347-1815-ORSAVEN-COOPERATION-COUNTERPROPOSAL-DESEN-REFERRAL-001",
+  "source_evidence": "Exact player 'Great. All that s left is the actually restoration. We should also see about the cooperation terms between Ossent and Crownsunder. Then Desen, about the case' authorizes following up on already submitted diplomatic proposal and already handed-over Ferrymen's Share inquiry, in that order. No authority to sign bilateral agreement, concede dynasty claims, spend money, deploy military, arrest or do further undercover action. D347~17:15–17:40 party walks to previously visited royal correspondence office with actual limited messenger credentials/receipt; duty secretary retrieves actual newly adjudicated written Crown counterproposal following D326 favorable councillor recommendation and D327 initial considered/undecided roll6. Twenty days since last inquiry is changed in-world opportunity, not rerolling earlier result. Predeclared independent council progress d20:1–5 written refusal under claim policy,6–14 written counterproposal with conditions for limited exchanges,15–20 authorized nonbinding exploratory talks, never treaty. Actual Python secrets batch18be4fced84c1016ab2d77a2a4de6e2a council face14 gives written counterproposal. Crown willing to consider reciprocal exchange of independently corroborated frontier warnings and evidence about actual attacks/coercive/Veyran operations and mutually agreed particular inquiries without first resolving the throne dispute; safeguard sensitive troop/fortress dispositions, either may suspend misuse, existing sovereignty/dynastic claims unchanged, broader military cooperation separate negotiation. Not repeal of claim-suspension policy for broader cooperation, not binding treaty, immediate direct military liaison, Crown recognition of independence, admission Kestrel/Orseld allegations authenticated or any proof of individual culpability. Authorized secretary conveys exact substance to V as limited messenger and identifies sealed Crown reply available for onward transmission to Crownsunder; original remains in authorized correspondence office custody pending V's choice; no transmission, new fee, military order or Elara assent assumed. D347~18:00 party reaches Desen's familiar Watch office, he is present and receives them. Source prior D327 original lot27 invoice/Tavosk14gp acknowledgement Watch custody, faithful copies referral/6gp receipt, D328 Sornell willing truthful cooperation and identified book entries, Harthvale admission, professional handoff. Nineteen elapsed in-game days and actual new independent progress adjudication, not replaying any prior skill or retroactively inventing earlier rolled result. Predeclared independent Desen/customs d20+4 task modifier for cooperating witness, admissions and original corroborating exhibits, DC12 matching original commercial records lawfully secured; DC18 sufficient corroboration for formal referral for charges, not conviction/confiscation. Actual same batch18be4fced84c1016ab2d77a2a4de6e2a face18+4=22, both thresholds. New actual developments reported firsthand by Desen: Sornell gave recorded signed voluntary statement and has been accommodated discreetly through Watch arrangements, no blanket immunity or promised pay. Customs obtained competent targeted preservation authority and secured the matching original joint freight fee book and Lot27 entries, with D3206gp/D3238gp paid inspection notices and broker reimbursements, matching14gp Tavosk acknowledgement and36gp lot27 sale invoice; no duplicate entries, no claim every cargo unlawful or all workers culpable. Desen and customs have submitted a formal referral to competent prosecutors/magistrate concerning Harthvale's authorization of the payments, Tavosk's paid inspection information and implicated commercial broker's role. Actual court decisions, arrests, trial, guilt, fines, seizures of assets, restitution allocation and named individual Veldrake patron's knowledge remain pending. Veldrake/L9 purchasing records warrant further inquiry; V's handwritten notes not certified original exhibits and not proof of complicity in murder. Halvessa250gp proposal not paid/accepted; no V investment, renewed undercover task, new witness exposure or Quenwood verdict change. 48gp restitution remains held and not distributed; Desen states separate recovery accounting requires actual lawful allocation and will report results, no automatic money award. 6gp one-time paid Tavosk notice status not independently verified, no refund or duplicate spend. Desen has sufficient evidence to continue without V and says he will communicate actual dispositions; no promise of successful prosecution or universal worker safety. V may ask about next steps, authorize onward diplomatic forwarding, or other action. D347~18:15 Watch office with all four, coach/four horses intact. No new personal expenditure, food/feed, rest, combat, HP/feature changes or other custody except independently secured official records and statement. All prior estate, Caul, Flint Banner, Coris and magic-order facts unchanged.",
+  "pending_action": "D347~18:15 Orsaven, Desen's Watch office, V/Mara/Cirren/Fenar present. Crown's written counterproposal delivered orally through authorized secretary at~17:40: reciprocal verified frontier warning/evidence exchange and mutually agreed inquiries, protect military dispositions, claims preserved, suspend misuse, broader alliance separately; independent council d20=14, conditional limited cooperation proposed, no bilateral acceptance or direct liaison; sealed Crown reply available at royal correspondence office, not collected/dispatched. Desen reports Sornell signed statement/safe arrangements, actual matching commercial fee book and Lot27 records secured under lawful preservation, formal referral for charges to competent authorities (task roll18+4=22 vs12/18), no arrest/conviction/asset forfeiture or restitution payment; Veldrake patron identity/knowledge and individual culpability still inquiry, Quenwood life sentence upheld, 48gp held not distributed, no V investment or compulsory covert action. V's original evidence/receipts and Watch exhibits retain prior custody, new official books/statement with competent authorities. V48/48 AC19 HD6/7 (3d10+3d8), MP7/7 Sup4/4 Psi6/6 PastLife3/3 PsiRecovery1/1 ActionSurge1/1 SecondWind1/1 freeWhispers1/1 inactive cloak+Luckstone attuned sword+Galepierce carried dice delegated; C51/51 AC19 HD6/6 slots4/3/3 CD2/2 no concentration; F59/59 AC16 HD6/6 Rage4/4 inactive Shift3/3 inactive MP6/6 CLIMB40 no THP. Mara and coach/four horses healthy; rations9/feed12 D347 charge applied purse1510gp3sp6cp LR1/6 Tamsin dawn accounted. Three Crown conditional recovery grants valid, inspections planned D348 departure/earliest351 Silverward, joint Hessa/Voss mandate intact, no new capital. Coris300+800 unpaid, prior100 advance, magic balance520 target353, all other estate/quest/custody unchanged. V next choice at Desen office; no lodging yet. Owner reconciliation pending.",
+  "depends_on": [
+    "PLAY-REC-D347-CROWN-APPROVES-BOUNDED-HEREDITARY-RECOVERY-GRANTS-001"
+  ],
+  "rng_evidence": {
+    "status": "rolled",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "generator": "python.secrets.randbelow",
+        "batch_id": "18be4fced84c1016ab2d77a2a4de6e2a",
+        "rolls": [
+          {
+            "id": "D347.Ossent.council.independent_response",
+            "sides": 20,
+            "faces": [
+              14
+            ]
+          },
+          {
+            "id": "D347.Desen.customs.record_preservation_and_corroboration",
+            "sides": 20,
+            "faces": [
+              18
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "D347-OSSENT-LIMITED-COOPERATION-WRITTEN-COUNTERPROPOSAL-001",
+      "accepted": true,
+      "evidence": "Council independent d20=14 predeclared6–14 counterproposal band. Actual authorized secretary communicates written reciprocal verified warning/evidence and mutually agreed inquiry counterproposal, sensitive military information protected, claims unchanged, suspensible, broader cooperation separate; sealed reply available but not collected or sent.",
+      "before": "D327 considered but undecided, confidential copies already delivered.",
+      "after": "Written conditional counterproposal, no bilateral assent or actual dispatch.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md"
+      ]
+    },
+    {
+      "event_id": "D347-DESEN-FERRY-RECORDS-SECURED-PROSECUTION-REFERRAL-001",
+      "accepted": true,
+      "evidence": "Independent record preservation/corroboration face18+4=22/DC12/18. Sornell's signed statement and discreet accommodations reported; matching fee book and Lot27 original entries lawfully secured; competent officials receive formal referral for charges regarding Harthvale/Tavosk/broker. No arrests, trial, conviction, confiscation, murder link or restitution distribution; 48gp held, Veldrake inquiry continues. No new V spend or mandatory action.",
+      "before": "D328 voluntary witness and professional handoff; custody of two earlier originals.",
+      "after": "New corroborating records secured, signed statement and referral, proceedings pending.",
+      "owner_paths": [
+        "campaign/continuity/session-log.md",
+        "campaign/continuity/campaign-state.md",
+        "campaign/continuity/quests.md",
+        "campaign/continuity/npcs.md",
+        "campaign/continuity/inventory.md"
+      ]
+    }
+  ]
+}
